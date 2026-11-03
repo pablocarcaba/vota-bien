@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>¿Quién legisla para ti?</title>
-<meta name="description" content="Elige tu perfil y descubre qué partidos presentaron y votaron leyes que te benefician o perjudican en la XV legislatura del Congreso de los Diputados.">
+<meta name="description" content="Elige tu perfil y descubre qué partidos presentaron y votaron leyes que te benefician o perjudican en las legislaturas del Congreso de los Diputados.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -174,7 +174,7 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
   <section id="view-metodologia" hidden></section>
 
   <footer>
-    Fuente: Congreso de los Diputados, datos abiertos (iniciativas y votaciones de la XV legislatura), consultados el <span id="gen"></span>. La clasificación de impactos es interpretativa; consulta la metodología.
+    Fuente: <span id="foot-src">Congreso de los Diputados</span>, datos abiertos (iniciativas y votaciones de la <span id="foot-leg"></span> legislatura), consultados el <span id="gen"></span>. La clasificación de impactos es interpretativa; consulta la metodología.
   </footer>
 </div>
 
@@ -549,6 +549,7 @@ async function load(clave){
   DATA=CACHE[clave]; ITEMS=DATA.items; PARTIES=DATA.meta.parties; AUTHORS=DATA.meta.authors;
   $('eyebrow').textContent = DATA.meta.fuente_txt+' · '+DATA.meta.titulo;
   $('gen').textContent = DATA.meta.generado.split('-').reverse().join('/');
+  $('foot-src').textContent = DATA.meta.fuente_txt; $('foot-leg').textContent = DATA.meta.leg;
   renderFuente(); route();
 }
 document.querySelectorAll('header [data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));

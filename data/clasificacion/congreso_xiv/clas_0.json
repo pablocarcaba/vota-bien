@@ -1,0 +1,1329 @@
+[
+{
+"id": "130/000002",
+"tipo": "eco",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"mayores": 1
+},
+"peso": 2,
+"nota": "Revaloriza las pensiones y prestaciones públicas para 2020; beneficia a los pensionistas.",
+"partido": ""
+},
+{
+"id": "121/000045",
+"tipo": "eco",
+"imp": {
+"inq": 1,
+"viv2": -1,
+"pobreza": 1,
+"cons": 1
+},
+"peso": 2,
+"nota": "Prorroga la suspensión de desahucios y de cortes de suministros y amplía el bono social; beneficia a inquilinos y hogares vulnerables.",
+"partido": ""
+},
+{
+"id": "130/000041",
+"tipo": "eco",
+"imp": {
+"inq": 1,
+"viv2": -1,
+"pobreza": 1,
+"cons": 1
+},
+"peso": 2,
+"nota": "Prorroga la suspensión de desahucios y de cortes de suministros y amplía el bono social; beneficia a inquilinos y hogares vulnerables.",
+"partido": ""
+},
+{
+"id": "121/000090",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secFin": -1
+},
+"peso": 1,
+"nota": "Permite al FROB tomar la mayoría de la Sareb, que pasa a control público; los bancos accionistas pierden su posición.",
+"partido": ""
+},
+{
+"id": "130/000073",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secFin": -1
+},
+"peso": 1,
+"nota": "Permite al FROB tomar la mayoría de la Sareb, que pasa a control público; los bancos accionistas pierden su posición.",
+"partido": ""
+},
+{
+"id": "121/000141",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"desPres": 1,
+"desSub": 1,
+"jovenes": 1,
+"discapacidad": 1,
+"victimas": 1
+},
+"peso": 2,
+"nota": "Reordena las bonificaciones a la contratación de colectivos prioritarios y mejora la protección social de los artistas.",
+"partido": ""
+},
+{
+"id": "130/000093",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"desPres": 1,
+"desSub": 1,
+"jovenes": 1,
+"discapacidad": 1,
+"victimas": 1
+},
+"peso": 2,
+"nota": "Reordena las bonificaciones a la contratación de colectivos prioritarios y mejora la protección social de los artistas.",
+"partido": ""
+},
+{
+"id": "121/000012",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 2,
+"nota": "Permiso retribuido recuperable para frenar contagios; la empresa adelanta salarios y el trabajador recupera horas después.",
+"partido": ""
+},
+{
+"id": "130/000011",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 2,
+"nota": "Permiso retribuido recuperable para frenar contagios; la empresa adelanta salarios y el trabajador recupera horas después.",
+"partido": ""
+},
+{
+"id": "130/000050",
+"tipo": "eco",
+"imp": {
+"victimas": 1,
+"secPrim": 1,
+"empAut": 1,
+"empMicro": 1
+},
+"peso": 1,
+"nota": "Ayudas por los daños de la borrasca Filomena a afectados, explotaciones agrarias y pequeños negocios.",
+"partido": ""
+},
+{
+"id": "130/000082",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Excepción ibérica: limita el precio del gas para generar electricidad; abarata la luz y reduce ingresos de las eléctricas.",
+"partido": ""
+},
+{
+"id": "121/000013",
+"tipo": "eco",
+"imp": {
+"inq": 1,
+"viv2": -1,
+"prop3": -1,
+"prop4": -1,
+"pobreza": 1,
+"cons": 1,
+"hipot": 1,
+"desPres": 1,
+"desSub": 1,
+"empAut": 1,
+"secFin": -1
+},
+"peso": 3,
+"nota": "Escudo social covid: moratorias de alquiler e hipoteca, suspensión de desahucios, prohibición de cortes y nuevos subsidios.",
+"partido": ""
+},
+{
+"id": "130/000012",
+"tipo": "eco",
+"imp": {
+"inq": 1,
+"viv2": -1,
+"prop3": -1,
+"prop4": -1,
+"pobreza": 1,
+"cons": 1,
+"hipot": 1,
+"desPres": 1,
+"desSub": 1,
+"empAut": 1,
+"secFin": -1
+},
+"peso": 3,
+"nota": "Escudo social covid: moratorias de alquiler e hipoteca, suspensión de desahucios, prohibición de cortes y nuevos subsidios.",
+"partido": ""
+},
+{
+"id": "130/000051",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Prorroga los ERTE y las prestaciones por cese de actividad de los autónomos hasta septiembre de 2021.",
+"partido": ""
+},
+{
+"id": "121/000115",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"pen1": 1,
+"desSub": 1,
+"pobreza": 1,
+"inq": 1,
+"viv2": -1,
+"asal1": 1,
+"victimas": 1,
+"empAut": 1
+},
+"peso": 3,
+"nota": "Paquete anticrisis: descuento en combustibles, transporte, IVA de la luz, cheque de 200 €, subida de IMV y no contributivas, límite al alquiler.",
+"partido": ""
+},
+{
+"id": "130/000083",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"pen1": 1,
+"desSub": 1,
+"pobreza": 1,
+"inq": 1,
+"viv2": -1,
+"asal1": 1,
+"victimas": 1,
+"empAut": 1
+},
+"peso": 3,
+"nota": "Paquete anticrisis: descuento en combustibles, transporte, IVA de la luz, cheque de 200 €, subida de IMV y no contributivas, límite al alquiler.",
+"partido": ""
+},
+{
+"id": "121/000015",
+"tipo": "soc",
+"imp": {
+"mujeres": 1,
+"victimas": 1
+},
+"peso": 1,
+"nota": "Declara esenciales los servicios de atención a víctimas de violencia de género durante el estado de alarma.",
+"partido": ""
+},
+{
+"id": "130/000013",
+"tipo": "soc",
+"imp": {
+"mujeres": 1,
+"victimas": 1
+},
+"peso": 1,
+"nota": "Declara esenciales los servicios de atención a víctimas de violencia de género durante el estado de alarma.",
+"partido": ""
+},
+{
+"id": "130/000052",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secInd": 1
+},
+"peso": 2,
+"nota": "Rebaja el IVA de la electricidad y suspende el impuesto a la generación eléctrica; abarata la factura y alivia a generadoras.",
+"partido": ""
+},
+{
+"id": "130/000084",
+"tipo": "eco",
+"imp": {
+"proSan": 1
+},
+"peso": 1,
+"nota": "Limita la temporalidad del personal estatutario de los servicios de salud; beneficia al personal sanitario interino.",
+"partido": ""
+},
+{
+"id": "121/000014",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"desPres": 1,
+"desSub": 1,
+"inmigrantes": 1,
+"rural": 1
+},
+"peso": 1,
+"nota": "Permite compatibilizar prestaciones con el trabajo agrario y habilita a jóvenes extranjeros a trabajar en el campo.",
+"partido": ""
+},
+{
+"id": "130/000014",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"desPres": 1,
+"desSub": 1,
+"inmigrantes": 1,
+"rural": 1
+},
+"peso": 1,
+"nota": "Permite compatibilizar prestaciones con el trabajo agrario y habilita a jóvenes extranjeros a trabajar en el campo.",
+"partido": ""
+},
+{
+"id": "130/000053",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ajusta la obligación de mascarilla en exteriores y medidas de transporte y vivienda; cambios técnicos sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "121/000119",
+"tipo": "eco",
+"imp": {
+"empAut": 1
+},
+"peso": 2,
+"nota": "Cotización de autónomos por ingresos reales y mejor protección por cese; baja la cuota a rentas bajas y la sube a las altas.",
+"partido": ""
+},
+{
+"id": "130/000085",
+"tipo": "eco",
+"imp": {
+"empAut": 1
+},
+"peso": 2,
+"nota": "Cotización de autónomos por ingresos reales y mejor protección por cese; baja la cuota a rentas bajas y la sube a las altas.",
+"partido": ""
+},
+{
+"id": "130/000015",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1
+},
+"peso": 1,
+"nota": "Amplía el plazo de declaraciones tributarias para pymes y autónomos durante el estado de alarma.",
+"partido": ""
+},
+{
+"id": "121/000063",
+"tipo": "eco",
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1,
+"proSan": 1,
+"proDoc": 1
+},
+"peso": 2,
+"nota": "Procesos de estabilización y compensación para el personal interino de las administraciones públicas.",
+"partido": ""
+},
+{
+"id": "130/000054",
+"tipo": "eco",
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1,
+"proSan": 1,
+"proDoc": 1
+},
+"peso": 2,
+"nota": "Procesos de estabilización y compensación para el personal interino de las administraciones públicas.",
+"partido": ""
+},
+{
+"id": "121/000120",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"estud": 1,
+"asal1": 1,
+"asal2": 1,
+"desSub": 1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Abonos gratuitos de Cercanías y Media Distancia, complemento de becas y obligaciones de ahorro energético en comercios y locales.",
+"partido": ""
+},
+{
+"id": "130/000086",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"estud": 1,
+"asal1": 1,
+"asal2": 1,
+"desSub": 1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Abonos gratuitos de Cercanías y Media Distancia, complemento de becas y obligaciones de ahorro energético en comercios y locales.",
+"partido": ""
+},
+{
+"id": "121/000017",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1,
+"prop3": -1,
+"prop4": -1
+},
+"peso": 2,
+"nota": "Moratoria del alquiler de locales para autónomos y pymes frente a grandes tenedores y otras medidas de liquidez.",
+"partido": ""
+},
+{
+"id": "130/000016",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1,
+"prop3": -1,
+"prop4": -1
+},
+"peso": 2,
+"nota": "Moratoria del alquiler de locales para autónomos y pymes frente a grandes tenedores y otras medidas de liquidez.",
+"partido": ""
+},
+{
+"id": "130/000055",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Arrendamiento de colecciones artísticas por el sector público y medidas culturales y deportivas; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "130/000087",
+"tipo": "soc",
+"imp": {
+"victimas": 1,
+"rural": 1,
+"secPrim": 1,
+"ciud": 1
+},
+"peso": 1,
+"nota": "Refuerza la prevención de incendios forestales, mejora la condición de los bomberos forestales y ayuda a los afectados.",
+"partido": ""
+},
+{
+"id": "121/000018",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Medidas procesales y organizativas de la Justicia durante la covid; norma procesal sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "130/000017",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Medidas procesales y organizativas de la Justicia durante la covid; norma procesal sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "121/000069",
+"tipo": "eco",
+"imp": {
+"inq": 1,
+"viv2": -1,
+"pobreza": 1,
+"cons": 1
+},
+"peso": 1,
+"nota": "Prorroga la suspensión de desahucios y de cortes de suministros a hogares vulnerables.",
+"partido": ""
+},
+{
+"id": "130/000056",
+"tipo": "eco",
+"imp": {
+"inq": 1,
+"viv2": -1,
+"pobreza": 1,
+"cons": 1
+},
+"peso": 1,
+"nota": "Prorroga la suspensión de desahucios y de cortes de suministros a hogares vulnerables.",
+"partido": ""
+},
+{
+"id": "121/000124",
+"tipo": "eco",
+"imp": {
+"mujeres": 1,
+"inmigrantes": 1,
+"asal1": 1,
+"desPres": 1
+},
+"peso": 2,
+"nota": "Reconoce la prestación por desempleo y mejora derechos de las trabajadoras del hogar, mayoritariamente mujeres y migrantes.",
+"partido": ""
+},
+{
+"id": "130/000088",
+"tipo": "eco",
+"imp": {
+"mujeres": 1,
+"inmigrantes": 1,
+"asal1": 1,
+"desPres": 1
+},
+"peso": 2,
+"nota": "Reconoce la prestación por desempleo y mejora derechos de las trabajadoras del hogar, mayoritariamente mujeres y migrantes.",
+"partido": ""
+},
+{
+"id": "121/000020",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1
+},
+"peso": 1,
+"nota": "Ayudas al sector cultural y medidas tributarias para pymes y autónomos frente a la covid.",
+"partido": ""
+},
+{
+"id": "130/000018",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1
+},
+"peso": 1,
+"nota": "Ayudas al sector cultural y medidas tributarias para pymes y autónomos frente a la covid.",
+"partido": ""
+},
+{
+"id": "130/000057",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"pobreza": 1,
+"secInd": -1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Rebaja impuestos de la luz, amplía protección del bono social y detrae beneficios extraordinarios a las eléctricas.",
+"partido": ""
+},
+{
+"id": "130/000089",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secInd": 1
+},
+"peso": 2,
+"nota": "Rebaja al 5 % el IVA del gas y otros combustibles y ajusta la retribución de la cogeneración.",
+"partido": ""
+},
+{
+"id": "130/000001",
+"tipo": "eco",
+"imp": {
+"empAut": 1
+},
+"peso": 1,
+"nota": "Prorroga los límites del régimen de módulos y actualiza valores catastrales y medidas de Seguridad Social.",
+"partido": ""
+},
+{
+"id": "121/000021",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Prorroga los ERTE por fuerza mayor y la protección de los trabajadores afectados hasta junio de 2020.",
+"partido": ""
+},
+{
+"id": "130/000019",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Prorroga los ERTE por fuerza mayor y la protección de los trabajadores afectados hasta junio de 2020.",
+"partido": ""
+},
+{
+"id": "121/000071",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Prorroga los ERTE hasta febrero de 2022 y la protección de los autónomos.",
+"partido": ""
+},
+{
+"id": "130/000058",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Prorroga los ERTE hasta febrero de 2022 y la protección de los autónomos.",
+"partido": ""
+},
+{
+"id": "121/000133",
+"tipo": "eco",
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1,
+"cons": 1,
+"pobreza": 1,
+"proSan": 1,
+"proDoc": 1,
+"proSeg": 1,
+"desSub": 1,
+"rural": 1
+},
+"peso": 2,
+"nota": "Amplía el bono social y la tarifa regulada del gas, sube el sueldo público y protege a eventuales agrarios por la sequía.",
+"partido": ""
+},
+{
+"id": "130/000090",
+"tipo": "eco",
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1,
+"cons": 1,
+"pobreza": 1,
+"proSan": 1,
+"proDoc": 1,
+"proSeg": 1,
+"desSub": 1,
+"rural": 1
+},
+"peso": 2,
+"nota": "Amplía el bono social y la tarifa regulada del gas, sube el sueldo público y protege a eventuales agrarios por la sequía.",
+"partido": ""
+},
+{
+"id": "121/000024",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"empAut": 1
+},
+"peso": 1,
+"nota": "Medidas complementarias covid en agricultura, ciencia, empleo y fiscalidad, con apoyo al sector agrario y a autónomos.",
+"partido": ""
+},
+{
+"id": "130/000020",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"empAut": 1
+},
+"peso": 1,
+"nota": "Medidas complementarias covid en agricultura, ciencia, empleo y fiscalidad, con apoyo al sector agrario y a autónomos.",
+"partido": ""
+},
+{
+"id": "121/000073",
+"tipo": "eco",
+"imp": {
+"viv1": 1,
+"viv2": 1,
+"secCons": 1,
+"ciud": 1
+},
+"peso": 2,
+"nota": "Deducciones en el IRPF por obras de eficiencia energética en viviendas y facilidades a las comunidades de propietarios.",
+"partido": ""
+},
+{
+"id": "130/000059",
+"tipo": "eco",
+"imp": {
+"viv1": 1,
+"viv2": 1,
+"secCons": 1,
+"ciud": 1
+},
+"peso": 2,
+"nota": "Deducciones en el IRPF por obras de eficiencia energética en viviendas y facilidades a las comunidades de propietarios.",
+"partido": ""
+},
+{
+"id": "130/000091",
+"tipo": "eco",
+"imp": {
+"hipot": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Código de buenas prácticas para aliviar la subida del euríbor en hipotecas de vivienda habitual, a cargo de la banca.",
+"partido": ""
+},
+{
+"id": "130/000003",
+"tipo": "eco",
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1,
+"proSan": 1,
+"proDoc": 1,
+"proSeg": 1
+},
+"peso": 2,
+"nota": "Sube un 2 % las retribuciones del personal del sector público en 2020.",
+"partido": ""
+},
+{
+"id": "121/000048",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Prorroga los ERTE y las prestaciones de autónomos hasta mayo de 2021.",
+"partido": ""
+},
+{
+"id": "130/000042",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Prorroga los ERTE y las prestaciones de autónomos hasta mayo de 2021.",
+"partido": ""
+},
+{
+"id": "130/000074",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1,
+"victimas": 1,
+"inq": 1,
+"viv2": -1,
+"pobreza": 1,
+"cons": 1
+},
+"peso": 2,
+"nota": "Protección de autónomos, transición de los ERTE al mecanismo RED, ayudas a La Palma y prórroga del escudo social.",
+"partido": ""
+},
+{
+"id": "121/000150",
+"tipo": "eco",
+"imp": {
+"pen1": 1,
+"mayores": 1,
+"mujeres": 1,
+"asal5": -1,
+"asal6": -1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 3,
+"nota": "Reforma de pensiones: sube las mínimas y reduce la brecha de género, financiada con más cotización de rentas altas y empresas.",
+"partido": ""
+},
+{
+"id": "130/000094",
+"tipo": "eco",
+"imp": {
+"pen1": 1,
+"mayores": 1,
+"mujeres": 1,
+"asal5": -1,
+"asal6": -1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 3,
+"nota": "Reforma de pensiones: sube las mínimas y reduce la brecha de género, financiada con más cotización de rentas altas y empresas.",
+"partido": ""
+},
+{
+"id": "121/000025",
+"tipo": "eco",
+"imp": {
+"desSub": 1,
+"pobreza": 1,
+"infancia": 1,
+"monop": 1
+},
+"peso": 3,
+"nota": "Crea el ingreso mínimo vital, prestación para hogares sin recursos, con complementos para familias con hijos y monoparentales.",
+"partido": ""
+},
+{
+"id": "130/000021",
+"tipo": "eco",
+"imp": {
+"desSub": 1,
+"pobreza": 1,
+"infancia": 1,
+"monop": 1
+},
+"peso": 3,
+"nota": "Crea el ingreso mínimo vital, prestación para hogares sin recursos, con complementos para familias con hijos y monoparentales.",
+"partido": ""
+},
+{
+"id": "130/000060",
+"tipo": "eco",
+"imp": {
+"victimas": 1,
+"empAut": 1,
+"empMicro": 1,
+"secPrim": 1,
+"secCom": 1
+},
+"peso": 1,
+"nota": "Ayudas a afectados por el volcán de La Palma, a negocios, agricultura y turismo de la isla.",
+"partido": ""
+},
+{
+"id": "121/000140",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"pobreza": 1,
+"asal1": 1,
+"pen1": 1,
+"desSub": 1,
+"inq": 1,
+"viv2": -1,
+"secTrans": 1,
+"secPrim": 1,
+"victimas": 1
+},
+"peso": 3,
+"nota": "Paquete anticrisis: IVA cero en alimentos básicos, transporte gratuito, cheque de 200 €, subida del IMV, límite al alquiler y desahucios.",
+"partido": ""
+},
+{
+"id": "130/000092",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"pobreza": 1,
+"asal1": 1,
+"pen1": 1,
+"desSub": 1,
+"inq": 1,
+"viv2": -1,
+"secTrans": 1,
+"secPrim": 1,
+"victimas": 1
+},
+"peso": 3,
+"nota": "Paquete anticrisis: IVA cero en alimentos básicos, transporte gratuito, cheque de 200 €, subida del IMV, límite al alquiler y desahucios.",
+"partido": ""
+},
+{
+"id": "121/000026",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 2,
+"nota": "Medidas de prevención sanitaria de la «nueva normalidad», como la mascarilla obligatoria y la coordinación frente a la covid.",
+"partido": ""
+},
+{
+"id": "130/000022",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 2,
+"nota": "Medidas de prevención sanitaria de la «nueva normalidad», como la mascarilla obligatoria y la coordinación frente a la covid.",
+"partido": ""
+},
+{
+"id": "130/000061",
+"tipo": "eco",
+"imp": {
+"inq": 1,
+"viv2": -1,
+"pobreza": 1,
+"cons": 1
+},
+"peso": 1,
+"nota": "Prorroga la suspensión de desahucios y de cortes de suministros a hogares vulnerables.",
+"partido": ""
+},
+{
+"id": "130/000023",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Crea el Fondo COVID-19 de transferencias a las comunidades autónomas; financiación territorial sin colectivo concreto.",
+"partido": ""
+},
+{
+"id": "130/000062",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Medidas para organizar en España una asamblea de la Organización Mundial del Turismo; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "130/000024",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": 1
+},
+"peso": 2,
+"nota": "Impulsa las renovables, el almacenamiento y el autoconsumo con nuevas subastas y acceso a la red.",
+"partido": ""
+},
+{
+"id": "130/000063",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Medidas de protección de consumidores y transparencia en los mercados de electricidad y gas.",
+"partido": ""
+},
+{
+"id": "121/000029",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1,
+"secInd": 1
+},
+"peso": 2,
+"nota": "Prorroga los ERTE hasta septiembre de 2020, apoyo a autónomos y medidas de competitividad industrial.",
+"partido": ""
+},
+{
+"id": "130/000025",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"desPres": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1,
+"secInd": 1
+},
+"peso": 2,
+"nota": "Prorroga los ERTE hasta septiembre de 2020, apoyo a autónomos y medidas de competitividad industrial.",
+"partido": ""
+},
+{
+"id": "121/000079",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Transpone varias directivas técnicas; amplía la garantía de los bienes de consumo y otros derechos de los consumidores.",
+"partido": ""
+},
+{
+"id": "130/000064",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Transpone varias directivas técnicas; amplía la garantía de los bienes de consumo y otros derechos de los consumidores.",
+"partido": ""
+},
+{
+"id": "121/000030",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Líneas de financiación y apoyo al turismo y a las empresas para la reactivación tras la covid.",
+"partido": ""
+},
+{
+"id": "130/000026",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Líneas de financiación y apoyo al turismo y a las empresas para la reactivación tras la covid.",
+"partido": ""
+},
+{
+"id": "130/000065",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas de Seguridad Social y fiscales de apoyo social de alcance técnico; sin efecto distributivo claro identificado.",
+"partido": ""
+},
+{
+"id": "121/000031",
+"tipo": "eco",
+"imp": {
+"secTrans": 1,
+"inq": 1
+},
+"peso": 2,
+"nota": "Ayudas al transporte y medidas de vivienda, incluidas ayudas al alquiler, para la reactivación tras la covid.",
+"partido": ""
+},
+{
+"id": "130/000027",
+"tipo": "eco",
+"imp": {
+"secTrans": 1,
+"inq": 1
+},
+"peso": 2,
+"nota": "Ayudas al transporte y medidas de vivienda, incluidas ayudas al alquiler, para la reactivación tras la covid.",
+"partido": ""
+},
+{
+"id": "121/000080",
+"tipo": "eco",
+"imp": {
+"viv1": 1,
+"viv2": 1
+},
+"peso": 2,
+"nota": "Nuevo cálculo de la plusvalía municipal tras la sentencia del TC; no tributa la venta sin ganancia.",
+"partido": ""
+},
+{
+"id": "130/000066",
+"tipo": "eco",
+"imp": {
+"viv1": 1,
+"viv2": 1
+},
+"peso": 2,
+"nota": "Nuevo cálculo de la plusvalía municipal tras la sentencia del TC; no tributa la venta sin ganancia.",
+"partido": ""
+},
+{
+"id": "130/000028",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas financieras para entidades locales sobre sus remanentes; norma de financiación local sin colectivo concreto.",
+"partido": ""
+},
+{
+"id": "130/000067",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1
+},
+"peso": 1,
+"nota": "Prorroga medidas económicas de apoyo a autónomos y pymes, como los límites del régimen de módulos.",
+"partido": ""
+},
+{
+"id": "121/000034",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 2,
+"nota": "Regula el teletrabajo: voluntariedad y compensación de gastos a cargo de la empresa.",
+"partido": ""
+},
+{
+"id": "130/000029",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 2,
+"nota": "Regula el teletrabajo: voluntariedad y compensación de gastos a cargo de la empresa.",
+"partido": ""
+},
+{
+"id": "130/000068",
+"tipo": "eco",
+"imp": {
+"victimas": 1,
+"empAut": 1,
+"empMicro": 1,
+"secPrim": 1,
+"secCom": 1
+},
+"peso": 1,
+"nota": "Ayudas complementarias a afectados por el volcán de La Palma y a la recuperación económica de la isla.",
+"partido": ""
+},
+{
+"id": "130/000030",
+"tipo": "eco",
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1
+},
+"peso": 1,
+"nota": "Regula el teletrabajo en las administraciones públicas y medidas de personal del sistema sanitario frente a la covid.",
+"partido": ""
+},
+{
+"id": "121/000087",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"secInd": 1,
+"secTrans": 1
+},
+"peso": 2,
+"nota": "Fomenta la movilidad eléctrica, el autoconsumo y las renovables.",
+"partido": ""
+},
+{
+"id": "122/000293",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"secInd": 1,
+"secTrans": 1
+},
+"peso": 2,
+"nota": "Fomenta la movilidad eléctrica, el autoconsumo y las renovables.",
+"partido": ""
+},
+{
+"id": "130/000069",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"secInd": 1,
+"secTrans": 1
+},
+"peso": 2,
+"nota": "Fomenta la movilidad eléctrica, el autoconsumo y las renovables.",
+"partido": ""
+},
+{
+"id": "121/000005",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Transposición técnica de directivas sobre contratación pública, seguros, planes de pensiones y fiscalidad.",
+"partido": ""
+},
+{
+"id": "130/000004",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Transposición técnica de directivas sobre contratación pública, seguros, planes de pensiones y fiscalidad.",
+"partido": ""
+},
+{
+"id": "121/000049",
+"tipo": "eco",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"mayores": 1,
+"mujeres": 1
+},
+"peso": 2,
+"nota": "Complemento de pensiones para reducir la brecha de género por hijos, sustituto del complemento por maternidad.",
+"partido": ""
+},
+{
+"id": "130/000043",
+"tipo": "eco",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"mayores": 1,
+"mujeres": 1
+},
+"peso": 2,
+"nota": "Complemento de pensiones para reducir la brecha de género por hijos, sustituto del complemento por maternidad.",
+"partido": ""
+},
+{
+"id": "130/000075",
+"tipo": "eco",
+"imp": {
+"secTrans": 1,
+"secCons": 1
+},
+"peso": 2,
+"nota": "Prohíbe que los transportistas carguen y descarguen, mejora sus condiciones y permite revisar precios de obras públicas.",
+"partido": ""
+},
+{
+"id": "130/000095",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Prorroga la excepción ibérica que limita el precio del gas para generar electricidad.",
+"partido": ""
+}
+]
