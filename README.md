@@ -18,6 +18,7 @@ data/
     congreso_xiv.json           (en descarga) XIV legislatura
   clasificacion/
     RUBRICA.md                  Criterios de clasificación, comunes a todas las legislaturas
+    INSTRUCCIONES.md            Proceso y encargo fijo para clasificar lotes
     congreso_xv/
       clas_0..4.json            Clasificación de cada iniciativa: tipo, impactos por colectivo (+1/-1), nota
       REVISION.md               Casos dudosos pendientes de revisión
@@ -30,6 +31,8 @@ scripts/
   build_items.py              data/fuente/<clave>.json -> data/generado/<clave>/items.json
   build_data.py               items + clasificación + votaciones -> site/data/<clave>.json
   build_page.py               template.html + catálogo de datasets -> site/index.html
+  preparar_lotes.py           Lotes de iniciativas sin clasificar
+  integrar_clasificacion.py   Integra lotes clasificados, armoniza RDL duplicados y valida
   validar_clasificacion.py    Comprueba clas_*.json contra la rúbrica y los colectivos de la web
 site/
   template.html               Página (HTML/CSS/JS sin dependencias, salvo Google Fonts)
@@ -52,7 +55,8 @@ python3 scripts/build_page.py
 
 1. Descargar: `python3 scripts/descargar_legislatura.py --leg XIV --desde 2019-12-03 --hasta 2023-05-30` (1,5–2 h; una petición cada ~2,5 s; reanudable).
 2. Configurar grupos, partidos y textos en `scripts/legislaturas.py`.
-3. `build_items.py <clave>`, clasificar en `data/clasificacion/<clave>/clas_*.json` siguiendo la rúbrica, validar y regenerar.
+3. `build_items.py <clave>` y clasificar con el proceso de `data/clasificacion/INSTRUCCIONES.md` (`preparar_lotes.py` → clasificar lotes → `integrar_clasificacion.py`).
+4. `build_data.py <clave>` y `build_page.py`: la legislatura aparece sola en el selector.
 
 ## Metodología resumida
 
