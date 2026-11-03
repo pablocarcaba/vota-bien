@@ -18,7 +18,7 @@ Salida: data/fuente/congreso_<leg>.json con
       RESULTADOTRAMITACION, SITUACIONACTUAL, BOLETINES)
   votaciones: una entrada por votación del Pleno (mismo formato que congreso_xv.json)
 """
-import argparse, datetime as dt, html, http.cookiejar, io, json, os, random, re, ssl, sys, time, zipfile
+import argparse, datetime as dt, html, http.client, http.cookiejar, io, json, os, random, re, ssl, sys, time, zipfile
 from html.parser import HTMLParser
 from urllib.error import HTTPError, URLError
 from urllib.parse import quote
@@ -47,7 +47,7 @@ def get(path, binary=False):
     espera = PAUSA + random.uniform(0, 0.8) - (time.time() - _ultima[0])
     if espera > 0:
         time.sleep(espera)
-    for intento in range(3):
+    for intento in range(6):
         try:
             _ultima[0] = time.time()
             with opener.open(Request(BASE + path, headers=UA), timeout=60) as r:
@@ -58,12 +58,17 @@ def get(path, binary=False):
                 sys.exit(f"\n403 en {path}: bloqueo anti-bots. Espera 30-60 min y relanza el mismo comando.")
             if e.code == 404:
                 return None
-            if intento == 2:
+            if intento == 5:
                 raise
-        except (URLError, TimeoutError):
-            if intento == 2:
+            err = e
+        except (URLError, TimeoutError, ConnectionError, http.client.HTTPException) as e:
+            # cortes de conexión sueltos: esperar cada vez más (1, 2, 4, 8, 16 min)
+            if intento == 5:
                 raise
-        time.sleep(15 * (intento + 1))
+            err = e
+        espera = 60 * 2 ** intento
+        print(f"\n{type(err).__name__} en {path[:80]}; reintento en {espera // 60} min", file=sys.stderr)
+        time.sleep(espera)
 
 
 def cached(path, fn):
