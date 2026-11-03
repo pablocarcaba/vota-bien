@@ -1,8 +1,9 @@
 """Valida los ficheros de clasificación contra RUBRICA.md y la web.
 
 Uso:
-  python3 scripts/validar_clasificacion.py                 # valida data/clasificacion/clas_*.json
-  python3 scripts/validar_clasificacion.py fichero.json …  # valida ficheros concretos (sin comprobar cobertura)
+  python3 scripts/validar_clasificacion.py                       # todas las legislaturas
+  python3 scripts/validar_clasificacion.py congreso_xv           # una legislatura
+  python3 scripts/validar_clasificacion.py congreso_xv f.json …  # ficheros concretos (sin comprobar cobertura)
 
 Comprueba: identificadores de colectivo válidos, valores ±1, tipo eco/soc, nota de 1 a 25 palabras,
 partido permitido, ids existentes en items.json, sin duplicados, cobertura de todas las iniciativas
@@ -29,10 +30,15 @@ COLECTIVOS = {
 PARTIDOS = {"", "Podemos", "BNG", "CC", "UPN", "Compromís"}
 
 
-def main(paths):
+def main(args):
+    if not args:
+        claves = sorted(os.path.basename(os.path.dirname(p)) for p in
+                        glob.glob(os.path.join(ROOT, "data", "clasificacion", "*", "clas_0.json")))
+        return max(main([c]) for c in claves)
+    clave, paths = args[0], args[1:]
     full = not paths
-    paths = paths or sorted(glob.glob(os.path.join(ROOT, "data", "clasificacion", "clas_*.json")))
-    items = {x["id"] for x in json.load(open(os.path.join(ROOT, "data", "generado", "items.json"), encoding="utf-8"))}
+    paths = paths or sorted(glob.glob(os.path.join(ROOT, "data", "clasificacion", clave, "clas_*.json")))
+    items = {x["id"] for x in json.load(open(os.path.join(ROOT, "data", "generado", clave, "items.json"), encoding="utf-8"))}
     errs, seen = [], set()
     for p in paths:
         for i, x in enumerate(json.load(open(p, encoding="utf-8"))):
@@ -70,7 +76,7 @@ def main(paths):
                         f"solo validador {sorted(COLECTIVOS - web)}")
     for e in errs:
         print(e)
-    print(f"{len(seen)} clasificaciones, {len(errs)} errores")
+    print(f"{clave}: {len(seen)} clasificaciones, {len(errs)} errores")
     return 1 if errs else 0
 
 

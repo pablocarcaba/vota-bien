@@ -1,37 +1,38 @@
-import json, re, sys
+"""data/fuente/<clave>.json -> data/generado/<clave>/items.json (iniciativas normalizadas).
 
-d = json.load(open(sys.argv[1]))
-out = sys.argv[2]
+Uso: python3 scripts/build_items.py congreso_xv
+"""
+import json, os, re, sys
+
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+clave = sys.argv[1] if len(sys.argv) > 1 else "congreso_xv"
+d = json.load(open(os.path.join(ROOT, "data", "fuente", clave + ".json"), encoding="utf-8"))
+out = os.path.join(ROOT, "data", "generado", clave, "items.json")
 cl = lambda s: re.sub(r"\s+", " ", s or "").strip()
 
 items = []
-for x in d["proyectos"] + d["proposiciones"]:
+for x in d.get("proyectos", []) + d.get("proposiciones", []) + d.get("rdl", []):
     items.append({
         "id": x["NUMEXPEDIENTE"][:10],
-        "tipo_ini": x["TIPO"],
+        "tipo_ini": "Real Decreto-ley" if x["NUMEXPEDIENTE"].startswith("130") else x["TIPO"],
         "titulo": cl(x["OBJETO"]),
         "autor": cl(x.get("AUTOR")),
-        "fecha": x.get("FECHAPRESENTACION",""),
+        "fecha": x.get("FECHAPRESENTACION", ""),
         "resultado": cl(x.get("RESULTADOTRAMITACION")),
         "situacion": cl(x.get("SITUACIONACTUAL")),
     })
 
-seen = set()
+# En la XV los reales decretos-ley no venían en el fichero de iniciativas: se toman de sus votaciones
+seen = {it["id"] for it in items}
 for v in d["votaciones"]:
     if v["exp"].startswith("130") and v["exp"] not in seen:
         t = cl(v["txt"])
         if t.lower().startswith("tramitación"):
             continue
         seen.add(v["exp"])
-        items.append({
-            "id": v["exp"],
-            "tipo_ini": "Real Decreto-ley",
-            "titulo": t,
-            "autor": "Gobierno",
-            "fecha": v["d"],
-            "resultado": "",
-            "situacion": "",
-        })
+        items.append({"id": v["exp"], "tipo_ini": "Real Decreto-ley", "titulo": t, "autor": "Gobierno",
+                      "fecha": v["d"], "resultado": "", "situacion": ""})
 
-json.dump(items, open(out, "w"), ensure_ascii=False, indent=0)
-print(len(items))
+os.makedirs(os.path.dirname(out), exist_ok=True)
+json.dump(items, open(out, "w", encoding="utf-8"), ensure_ascii=False, indent=0)
+print(clave, len(items), "iniciativas")

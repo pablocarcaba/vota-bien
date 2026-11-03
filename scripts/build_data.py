@@ -1,23 +1,27 @@
-import json, re, collections, sys
+"""items + clasificación + votaciones -> site/data/<clave>.json (dataset que consume la web).
 
-import os
-D = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data") + os.sep
-raw = json.load(open(D + "fuente/congreso_xv.json"))
-items = json.load(open(D + "generado/items.json"))
-clas = {x["id"]: x for i in range(5) for x in json.load(open(D + f"clasificacion/clas_{i}.json"))}
-extra = json.load(open(D + "fuente/votos_extra.json"))
+Uso: python3 scripts/build_data.py congreso_xv
+"""
+import json, re, collections, sys, os
 
-GROUP2P = {"GS": "PSOE", "GP": "PP", "GVOX": "VOX", "GSUMAR": "Sumar", "GR": "ERC",
-           "GJxCAT": "Junts", "GEH Bildu": "Bildu", "GV (EAJ-PNV)": "PNV"}
-MX2P = {"Belarra": "Podemos", "Sánchez Serna": "Podemos", "Velarde": "Podemos", "Santana": "Podemos",
-        "Rego": "BNG", "Valido": "CC", "Catalán": "UPN", "Micó": "Compromís"}
-AUTH2P = {"Grupo Parlamentario Socialista": "PSOE", "Grupo Parlamentario Popular en el Congreso": "PP",
-          "Grupo Parlamentario VOX": "VOX", "Grupo Parlamentario Plurinacional SUMAR": "Sumar",
-          "Grupo Parlamentario Republicano": "ERC", "Grupo Parlamentario Junts per Catalunya": "Junts",
-          "Grupo Parlamentario Euskal Herria Bildu": "Bildu", "Grupo Parlamentario Vasco (EAJ-PNV)": "PNV",
-          "Grupo Parlamentario Mixto": "Mixto"}
-GRP_TAG = {"GR": "ERC", "GEH Bildu": "Bildu", "GV (EAJ-PNV)": "PNV", "GSUMAR": "Sumar", "GMx": "Mixto",
-           "GS": "PSOE", "GP": "PP", "GVOX": "VOX", "GJxCAT": "Junts"}
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from legislaturas import FUENTES, LEGISLATURAS
+
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+CLAVE = sys.argv[1] if len(sys.argv) > 1 else "congreso_xv"
+CFG = LEGISLATURAS[CLAVE]
+D = os.path.join(ROOT, "data")
+raw = json.load(open(os.path.join(D, "fuente", CLAVE + ".json"), encoding="utf-8"))
+items = json.load(open(os.path.join(D, "generado", CLAVE, "items.json"), encoding="utf-8"))
+CLAS_DIR = os.path.join(D, "clasificacion", CLAVE)
+clas = {x["id"]: x for f in sorted(os.listdir(CLAS_DIR)) if re.match(r"clas_\d+\.json$", f)
+        for x in json.load(open(os.path.join(CLAS_DIR, f), encoding="utf-8"))}
+extra = json.load(open(os.path.join(D, "fuente", CFG["votos_extra"]), encoding="utf-8")) if CFG.get("votos_extra") else []
+
+GROUP2P = CFG["grupos"]
+MX2P = CFG["nominal"]
+AUTH2P = CFG["autores"]
+GRP_TAG = CFG["etiquetas"]
 
 
 def mx_party(name):
@@ -155,7 +159,7 @@ for e in extra:
     else:
         print("sin match:", e["txt"][:70], file=sys.stderr)
 
-PARTIES = ["PSOE", "PP", "VOX", "Sumar", "ERC", "Junts", "Bildu", "PNV", "Podemos", "BNG", "CC", "UPN", "Compromís"]
+PARTIES = CFG["partidos"]
 
 
 def authors(it, c):
@@ -196,7 +200,9 @@ def short_kind(it):
 
 out = []
 for it in items:
-    c = clas[it["id"]]
+    c = clas.get(it["id"])
+    if c is None:  # iniciativa aún sin clasificar: se omite
+        continue
     b = best.get(it["id"])
     res = it["resultado"]
     if it["tipo_ini"] == "Real Decreto-ley" and b:
@@ -214,8 +220,14 @@ for it in items:
         rec["vd"] = b["d"]
     out.append(rec)
 
-meta = {"generado": raw["generado"][:10], "parties": PARTIES}
-json.dump({"meta": meta, "items": out}, open(D + "generado/dataset.json", "w"), ensure_ascii=False, separators=(",", ":"))
+meta = {"clave": CLAVE, "fuente": CFG["fuente"], "fuente_txt": FUENTES[CFG["fuente"]], "leg": CFG["leg"],
+        "titulo": CFG["titulo"], "periodo": CFG["periodo"], "gobierno": CFG["gobierno"],
+        "nominal_txt": CFG["nominal_txt"], "generado": raw["generado"][:10], "parties": PARTIES,
+        "authors": CFG["autores_web"]}
+dest = os.path.join(ROOT, "site", "data", CLAVE + ".json")
+os.makedirs(os.path.dirname(dest), exist_ok=True)
+json.dump({"meta": meta, "items": out}, open(dest, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))
+print("sin clasificar:", len(items) - len(out))
 
 with_votes = sum(1 for r in out if "v" in r)
 print("items", len(out), "con voto", with_votes)

@@ -4,47 +4,59 @@ Herramienta web que permite a cualquier persona marcar su perfil (tramo de IRPF,
 
 Web: https://pablocarcaba.github.io/vota-bien/
 
-Piloto: XV legislatura del Congreso de los Diputados (17/08/2023 – disolución 06/10/2026). Datos descargados el 02/11/2026.
+Disponible: XV legislatura del Congreso de los Diputados (17/08/2023 – disolución 06/10/2026), datos descargados el 02/11/2026. En preparación: XIV legislatura.
 
 ## Estructura
 
+Cada fuente y legislatura es un dataset independiente con clave `<fuente>_<legislatura>` (p. ej. `congreso_xv`). Los partidos cambian entre legislaturas, así que nunca se mezclan: la web tiene un selector de fuente y otro de legislatura.
+
 ```
 data/
-  fuente/                 Datos de origen (no se regeneran)
-    congreso_xv.json        Datos brutos del Congreso (iniciativas + 315 votaciones clave + índice de 2.175 votaciones)
-    votos_extra.json        38 votaciones finales que faltaban en la primera pasada (resumidas por grupo)
-  clasificacion/          Clasificación de impactos (editable, siguiendo la rúbrica)
-    RUBRICA.md              Criterios de clasificación. Cualquier reclasificación debe seguirla
-    clas_0..4.json          Clasificación de cada iniciativa: tipo (eco/soc), impactos por colectivo (+1/-1), nota
-    lotes/chunk_0..4.json   Lotes de iniciativas enviados a clasificar (histórico, no los usa ningún script)
-  generado/               Salida de los scripts; no editar a mano
-    items.json              Las 540 iniciativas normalizadas (build_items.py)
-    dataset.json            Dataset final que consume la web (build_data.py)
+  fuente/                     Datos de origen (no se editan)
+    congreso_xv.json            Iniciativas y votaciones de la XV
+    congreso_xv_votos_extra.json  38 votaciones finales que faltaban en la primera pasada
+    congreso_xiv.json           (en descarga) XIV legislatura
+  clasificacion/
+    RUBRICA.md                  Criterios de clasificación, comunes a todas las legislaturas
+    congreso_xv/
+      clas_0..4.json            Clasificación de cada iniciativa: tipo, impactos por colectivo (+1/-1), nota
+      REVISION.md               Casos dudosos pendientes de revisión
+      lotes/chunk_0..4.json     Lotes enviados a clasificar (histórico)
+  generado/<clave>/items.json   Iniciativas normalizadas (build_items.py); no editar
+  cache/                      Respuestas de congreso.es guardadas por la descarga (ignorado por git)
 scripts/
-  scrape_congreso.py    Descarga desde congreso.es (SIN PROBAR fuera de Chrome; ver avisos dentro)
-  build_items.py        congreso_xv.json -> items.json
-  build_data.py         items + clasificación + votaciones -> dataset.json
-  build_page.py         template.html + dataset.json -> site/index.html
-  validar_clasificacion.py  Comprueba clas_*.json contra la rúbrica y los colectivos de la web
+  legislaturas.py             Configuración por legislatura: grupos, partidos, textos
+  descargar_legislatura.py    Descarga fichas de iniciativas y votaciones del Pleno (reanudable)
+  build_items.py              data/fuente/<clave>.json -> data/generado/<clave>/items.json
+  build_data.py               items + clasificación + votaciones -> site/data/<clave>.json
+  build_page.py               template.html + catálogo de datasets -> site/index.html
+  validar_clasificacion.py    Comprueba clas_*.json contra la rúbrica y los colectivos de la web
 site/
-  template.html         Página (HTML/CSS/JS sin dependencias, salvo Google Fonts)
-  index.html            Página final con los datos incrustados (lista para GitHub Pages)
+  template.html               Página (HTML/CSS/JS sin dependencias, salvo Google Fonts)
+  index.html                  Página final (generada)
+  data/<clave>.json           Un dataset por fuente y legislatura; la página los carga con fetch
 ```
 
 ## Reconstruir
 
 ```
+python3 scripts/build_items.py congreso_xv
 python3 scripts/validar_clasificacion.py
-python3 scripts/build_items.py data/fuente/congreso_xv.json data/generado/items.json
-python3 scripts/build_data.py
+python3 scripts/build_data.py congreso_xv
 python3 scripts/build_page.py
 ```
 
-`build_data.py` imprime las votaciones que reasigna (la web del Congreso no siempre indica el expediente de cada votación; se comprueba comparando títulos).
+`build_data.py` imprime las votaciones que reasigna (la web del Congreso no siempre indica el expediente de cada votación; se comprueba comparando títulos). La página carga los datos con `fetch`: para verla en local, sírvela con `python3 -m http.server 8000 --directory site`.
+
+## Añadir una legislatura
+
+1. Descargar: `python3 scripts/descargar_legislatura.py --leg XIV --desde 2019-12-03 --hasta 2023-05-30` (1,5–2 h; una petición cada ~2,5 s; reanudable).
+2. Configurar grupos, partidos y textos en `scripts/legislaturas.py`.
+3. `build_items.py <clave>`, clasificar en `data/clasificacion/<clave>/clas_*.json` siguiendo la rúbrica, validar y regenerar.
 
 ## Metodología resumida
 
-- **Autoría:** proyectos de ley y reales decretos-ley = Gobierno (PSOE–Sumar). Proposiciones con varios grupos cuentan para cada uno. Las del Grupo Mixto aparecen como "Grupo Mixto" porque el Congreso no indica el partido (solo 8 identificadas: campo `partido` en data/clasificacion/clas_*.json).
+- **Autoría:** proyectos de ley y reales decretos-ley = Gobierno (PSOE–Sumar). Proposiciones con varios grupos cuentan para cada uno. Las del Grupo Mixto aparecen como "Grupo Mixto" porque el Congreso no indica el partido (solo 8 identificadas: campo `partido` en data/clasificacion/congreso_xv/clas_*.json).
 - **Votación clave por iniciativa**, por prioridad: votación final (conjunto/dictamen) > convalidación de RDL > toma en consideración > enmienda a la totalidad (en esta, votar sí = oponerse; se invierte).
 - **Voto de un partido** = voto mayoritario de sus diputados presentes. Podemos (Belarra, Sánchez Serna, Velarde, Santana), BNG (Rego), CC (Valido), UPN (Catalán) y Compromís (Micó) se separan del Grupo Mixto por voto nominal. Ábalos, Ortega Smith y Verstrynge no se cuentan.
 - **Impactos:** clasificación asistida por IA a partir del título, según data/clasificacion/RUBRICA.md. Interpretativa; conviene revisar las de mayor relevancia.
@@ -55,12 +67,12 @@ python3 scripts/build_page.py
 1. **Imagen de previsualización** (Open Graph) y metaetiquetas para compartir en redes y WhatsApp.
 2. **Revisar clasificaciones** de las leyes más relevantes (fiscales, vivienda, pensiones, laboral, migración).
 3. **Identificar el partido** de las 54 proposiciones del Grupo Mixto (ficha de cada iniciativa en congreso.es, campo de autores/firmantes).
-4. **Separar `dataset.json`** de la página si crece (cargarlo con `fetch` desde Pages).
-5. **Ampliar a otras legislaturas**: para legislaturas cerradas, el Congreso no publica el fichero de iniciativas; habría que reconstruirlas a partir de las votaciones o del buscador de iniciativas.
+4. **Otras legislaturas**: XIV en descarga; falta configurarla, clasificarla y convertir la clasificación en un proceso repetible.
+5. **Leyes ómnibus**: leer el texto (BOE / BOCG) y clasificar medida a medida.
 
 ## Publicación
 
-Cada push a `main` que toque `site/` publica la carpeta en GitHub Pages (`.github/workflows/pages.yml`). Los enlaces por perfil usan `?p=asal3,prop1`; `&c=0` desactiva «Ciudadanía general», que está activa por defecto.
+Cada push a `main` que toque `site/` publica la carpeta en GitHub Pages (`.github/workflows/pages.yml`). Los enlaces por perfil usan `?p=asal3,prop1`; `&c=0` desactiva «Ciudadanía general», que está activa por defecto, y `&ds=congreso_xiv` abre otra legislatura (por defecto, la más reciente).
 
 ## Fuente y licencia de los datos
 

@@ -63,6 +63,10 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 .cat.in{margin:6px 0 10px}
 .cat.in h3{text-transform:none;font-family:inherit;letter-spacing:0;font-size:12px}
 .opts{display:flex;flex-wrap:wrap;gap:6px}
+.fuente{display:flex;flex-wrap:wrap;gap:10px 16px;align-items:end;padding:12px 16px}
+.fuente label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted);font-family:var(--mono);text-transform:uppercase;letter-spacing:.05em;min-width:0}
+.fuente select{font:inherit;font-family:var(--body);text-transform:none;letter-spacing:0;font-size:14px;color:var(--ink);background:var(--sheet);border:1px solid var(--line);border-radius:6px;padding:5px 8px;max-width:100%}
+.fuente .hint{flex-basis:100%;margin:0}
 .opt{font-size:13px;padding:5px 10px;border:1px solid var(--line);border-radius:6px;background:var(--sheet);cursor:pointer;font-variant-numeric:tabular-nums}
 .opt:hover{border-color:var(--muted)}
 .opt[aria-pressed="true"]{background:var(--accent);color:var(--sheet);border-color:var(--accent)}
@@ -126,7 +130,7 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
 <div class="wrap">
   <header class="top">
     <div>
-      <div class="eyebrow">Congreso de los Diputados · XV legislatura · 2023–2026</div>
+      <div class="eyebrow" id="eyebrow">&nbsp;</div>
       <h1>¿Quién legisla para ti?</h1>
       <p class="lede">Marca tu perfil y mira qué partidos presentaron leyes que te benefician o perjudican, y cómo votaron cada una.</p>
     </div>
@@ -142,6 +146,7 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
     <div class="grid">
       <aside class="panel" id="filters" aria-label="Tu perfil"></aside>
       <div class="main">
+        <div class="panel fuente" id="fuente" aria-label="Fuente y legislatura"></div>
         <div class="charts">
           <section class="panel" id="chart-prop"></section>
           <section class="panel" id="chart-vote"></section>
@@ -163,11 +168,13 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
   </footer>
 </div>
 
-<script id="data" type="application/json">__DATA__</script>
+<script id="catalogo" type="application/json">__CATALOGO__</script>
 <script>
 (function(){
-const DATA = JSON.parse(document.getElementById('data').textContent);
-const ITEMS = DATA.items;
+// Catálogo de datasets (fuente + legislatura). Cada uno tiene sus propios partidos: nunca se mezclan.
+const CATALOGO = JSON.parse(document.getElementById('catalogo').textContent);
+let DATA = null, ITEMS = [], PARTIES = [], AUTHORS = [];
+const CACHE = {};
 const CATS = {
   eco: [
     {id:'asal', name:'Asalariados · tramo IRPF', opts:[['asal1','Hasta 12.450 €'],['asal2','12.450–20.200 €'],['asal3','20.200–35.200 €'],['asal4','35.200–60.000 €'],['asal5','60.000–300.000 €'],['asal6','Más de 300.000 €']]},
@@ -197,14 +204,13 @@ CATS.eco.unshift(CIUD); CATS.soc.unshift(CIUD);
 const PRE = {asal:'IRPF ', fun:'Funcionario ', pen:'Pensión '};
 const LABEL = {}; Object.values(CATS).flat().forEach(c=>c.opts.forEach(([k,v])=>LABEL[k]=(c.pre||PRE[c.id]||'')+v));
 const CAT_OF = {}; Object.values(CATS).flat().forEach(c=>c.opts.forEach(([k])=>CAT_OF[k]=c));
-const PARTIES = DATA.meta.parties;
 const PNAME = {Bildu:'EH Bildu', Gobierno:'Gobierno', Mixto:'Grupo Mixto'};
 const pn = p => PNAME[p]||p;
-const AUTHORS = ['Gobierno','PSOE','PP','VOX','Sumar','ERC','Junts','Bildu','PNV','Podemos','BNG','Mixto'];
 const COLOR_TXT = {pos:'Beneficia', neg:'Perjudica', mix:'Mixta', neu:'Sin efecto en tu perfil'};
 const VOTE_TXT = {s:'Sí', n:'No', a:'Abst.'};
 
-const state = {tab:'eco', sel:new Set(), mode:{prop:'abs', vote:'abs'}, list:null};
+const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), mode:{prop:'abs', vote:'abs'}, list:null};
+try{ const d=new URLSearchParams(location.search).get('ds'); if(CATALOGO.some(c=>c.clave===d)) state.ds=d; }catch(e){}
 
 // perfil inicial: ?p=... (GitHub Pages) o ejemplo
 try{
@@ -269,7 +275,7 @@ function renderProfile(){
 }
 function copyLink(){
   const base = location.origin && location.origin!=='null' ? location.origin+location.pathname : '';
-  const url = base + '?p=' + [...state.sel].filter(k=>k!=='ciud').join(',') + (state.sel.has('ciud')?'':'&c=0');
+  const url = base + '?p=' + [...state.sel].filter(k=>k!=='ciud').join(',') + (state.sel.has('ciud')?'':'&c=0') + (state.ds!==CATALOGO[0].clave?'&ds='+state.ds:'');
   const b=$('copy-btn');
   const done = t => { b.textContent=t; setTimeout(()=>b.textContent='Copiar enlace a este perfil',2000); };
   try{ navigator.clipboard.writeText(url).then(()=>done('Enlace copiado'),()=>done(url)); }catch(e){ done(url); }
@@ -442,14 +448,14 @@ function renderMethod(){
   v.innerHTML = `<button class="nav-btn back" data-go="">← Volver al panel</button>
   <div class="prose">
     <h2>Metodología</h2>
-    <p>Esta herramienta cruza tres cosas: las iniciativas legislativas de la XV legislatura, una clasificación de a quién afecta cada una y el voto de cada partido en el Pleno del Congreso.</p>
+    <p>Esta herramienta cruza tres cosas: las iniciativas legislativas de la legislatura elegida (ahora, ${esc(DATA.meta.fuente_txt)}, ${esc(DATA.meta.titulo)}), una clasificación de a quién afecta cada una y el voto de cada partido en el Pleno. Cada fuente y legislatura se analiza por separado, porque los partidos y grupos cambian entre ellas.</p>
     <h3>Qué iniciativas incluye</h3>
-    <p>${ITEMS.length} iniciativas presentadas entre el 17 de agosto de 2023 y la disolución de las Cortes el 6 de octubre de 2026: ${kinds['Proyecto de ley']||0} proyectos de ley del Gobierno, ${kinds['Real decreto-ley']||0} reales decretos-ley y ${kinds['Proposición de ley']||0} proposiciones de ley de los grupos, del Senado, de parlamentos autonómicos e iniciativa popular. Se cuentan todas, se aprobaran o no.</p>
+    <p>${ITEMS.length} iniciativas presentadas ${esc(DATA.meta.periodo)}: ${kinds['Proyecto de ley']||0} proyectos de ley del Gobierno, ${kinds['Real decreto-ley']||0} reales decretos-ley y ${kinds['Proposición de ley']||0} proposiciones de ley de los grupos, del Senado, de parlamentos autonómicos e iniciativa popular. Se cuentan todas, se aprobaran o no.</p>
     <h3>Autoría</h3>
-    <p>Los proyectos de ley y los reales decretos-ley figuran como del Gobierno (coalición PSOE–Sumar). Una proposición firmada por varios grupos cuenta para cada uno. El Congreso publica como autor al Grupo Mixto sin indicar el partido, por lo que esas proposiciones aparecen como Grupo Mixto salvo cuando se ha podido identificar el partido. Las del Senado, parlamentos autonómicos e iniciativa popular no se atribuyen a ningún partido.</p>
+    <p>Los proyectos de ley y los reales decretos-ley figuran como del Gobierno (${esc(DATA.meta.gobierno)}). Una proposición firmada por varios grupos cuenta para cada uno. El Congreso publica como autor al Grupo Mixto sin indicar el partido, por lo que esas proposiciones aparecen como Grupo Mixto salvo cuando se ha podido identificar el partido. Las del Senado, parlamentos autonómicos e iniciativa popular no se atribuyen a ningún partido.</p>
     <h3>Votaciones</h3>
     <p>Para cada iniciativa se toma una votación clave del Pleno, por este orden de preferencia: votación final (de conjunto o del dictamen), convalidación del real decreto-ley, toma en consideración y enmienda a la totalidad. En las enmiendas a la totalidad, votar sí equivale a oponerse a la ley, y se interpreta así. ${nv} iniciativas tienen votación clave en el Pleno; el resto no llegó a votarse en Pleno o se aprobó en comisión.</p>
-    <p>El voto de un partido es el voto mayoritario de sus diputados presentes. Para Podemos, BNG, Coalición Canaria, UPN y Compromís, integrados en el Grupo Mixto, se usa el voto nominal de sus diputados. Los diputados no adscritos no se cuentan.</p>
+    <p>El voto de un partido es el voto mayoritario de sus diputados presentes. Para ${esc(DATA.meta.nominal_txt)}, se usa el voto nominal de sus diputados. Los diputados no adscritos no se cuentan.</p>
     <h3>Clasificación de impactos</h3>
     <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
     <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
@@ -463,7 +469,7 @@ function renderMethod(){
       <li>Una proposición presentada no implica que su autor la impulsara después, ni que se aprobara.</li>
       <li>El saldo del ranking pesa igual una ley menor que una gran reforma.</li>
     </ul>
-    <p class="small">Datos: Congreso de los Diputados, datos abiertos (iniciativas y votaciones). Generado el ${esc(DATA.meta.generado)}.</p>
+    <p class="small">Datos: ${esc(DATA.meta.fuente_txt)}, datos abiertos (iniciativas y votaciones). Generado el ${esc(DATA.meta.generado)}.</p>
   </div>`;
   v.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
 }
@@ -477,11 +483,41 @@ function route(){
   $('view-metodologia').hidden = h!=='metodologia';
   if(h==='lista') renderList(); else if(h==='metodologia') renderMethod(); else renderPanel();
 }
-function render(){ route(); }
+function render(){ if(DATA) route(); }
+
+// ---------- fuente y legislatura ----------
+function renderFuente(){
+  const box=$('fuente'); box.innerHTML='';
+  const cur=CATALOGO.find(c=>c.clave===state.ds);
+  const fuentes=[...new Map(CATALOGO.map(c=>[c.fuente,c.fuente_txt])).entries()];
+  const sF=el('select',{'aria-label':'Fuente'});
+  fuentes.forEach(([k,t])=>sF.appendChild(new Option(t,k,false,k===cur.fuente)));
+  const sL=el('select',{'aria-label':'Legislatura'});
+  CATALOGO.filter(c=>c.fuente===cur.fuente).forEach(c=>sL.appendChild(new Option(c.titulo,c.clave,false,c.clave===state.ds)));
+  sF.addEventListener('change',()=>load(CATALOGO.find(c=>c.fuente===sF.value).clave));
+  sL.addEventListener('change',()=>load(sL.value));
+  const l1=el('label',{},'<span>Fuente</span>'); l1.appendChild(sF);
+  const l2=el('label',{},'<span>Legislatura</span>'); l2.appendChild(sL);
+  box.appendChild(l1); box.appendChild(l2);
+  box.appendChild(el('p',{class:'hint'},'Cada fuente y legislatura se analiza por separado: los partidos y grupos cambian entre ellas.'));
+}
+async function load(clave){
+  state.ds=clave; state.list=null;
+  const v=$('view-metodologia'); delete v.dataset.done;
+  try{
+    if(!CACHE[clave]){ const r=await fetch('data/'+clave+'.json'); if(!r.ok) throw new Error(r.status); CACHE[clave]=await r.json(); }
+  }catch(e){
+    $('fuente').innerHTML='<p class="hint">No se han podido cargar los datos ('+esc(String(e.message||e))+'). Si abres la página como fichero local, sírvela con un servidor (python3 -m http.server).</p>';
+    return;
+  }
+  DATA=CACHE[clave]; ITEMS=DATA.items; PARTIES=DATA.meta.parties; AUTHORS=DATA.meta.authors;
+  $('eyebrow').textContent = DATA.meta.fuente_txt+' · '+DATA.meta.titulo;
+  $('gen').textContent = DATA.meta.generado.split('-').reverse().join('/');
+  renderFuente(); route();
+}
 document.querySelectorAll('header [data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
-window.addEventListener('hashchange',route);
-$('gen').textContent = DATA.meta.generado.split('-').reverse().join('/');
-route();
+window.addEventListener('hashchange',render);
+load(state.ds);
 })();
 </script>
 </html>
