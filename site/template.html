@@ -175,35 +175,46 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
 const CATALOGO = JSON.parse(document.getElementById('catalogo').textContent);
 let DATA = null, ITEMS = [], PARTIES = [], AUTHORS = [];
 const CACHE = {};
-const CATS = {
-  eco: [
-    {id:'asal', name:'Asalariados · tramo IRPF', opts:[['asal1','Hasta 12.450 €'],['asal2','12.450–20.200 €'],['asal3','20.200–35.200 €'],['asal4','35.200–60.000 €'],['asal5','60.000–300.000 €'],['asal6','Más de 300.000 €']]},
-    {id:'fun', name:'Funcionarios · subgrupo', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
-    {id:'pen', name:'Pensionistas · pensión anual', opts:[['pen1','Menos de 12.000 €'],['pen2','12.000–25.000 €'],['pen3','25.000–42.000 €']]},
-    {id:'des', name:'Desempleados', opts:[['desPres','Con prestación'],['desSub','Subsidio o IMV']]},
-    {id:'vivn', grp:'Patrimonio', sub:'Vivienda', name:'Viviendas en propiedad', pre:'Viviendas: ', opts:[['viv0','Ninguna'],['viv1','Una, la habitual'],['viv2','Dos o más']]},
-    {id:'vivs', grp:'Patrimonio', sub:'Vivienda', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler']]},
-    {id:'prop', grp:'Patrimonio', sub:'Otro patrimonio', name:'Sin contar la vivienda habitual', pre:'Otro patrimonio ', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
-    {id:'emp', name:'Empresarios · facturación', opts:[['empAut','Autónomos'],['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
-    {id:'sec', name:'Empresarios · sector', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones']]},
-    {id:'cons', name:'Consumo', multi:true, opts:[['cons','Consumidor y usuario']]},
-    {id:'pro', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]}
-  ],
-  soc: [
-    // Hombre/Mujer se excluyen entre sí; LGTBI+ se puede combinar con cualquiera de los dos
-    {id:'sexo', name:'Sexo', multi:true, excl:['hombres','mujeres'], opts:[['hombres','Hombre'],['mujeres','Mujer'],['lgtbi','LGTBI+']]},
-    {id:'edad', name:'Edad', pre:'Edad: ', opts:[['jovenes','Hasta 35 años'],['adultos','36–64 años'],['mayores','65 años o más']]},
-    {id:'fam', name:'Familia', multi:true, opts:[['infancia','Con hijos menores a cargo']]},
-    {id:'sal', name:'Educación, salud y cuidados', multi:true, opts:[['estud','Estudiante'],['pac','Paciente o enfermo crónico'],['depend','Dependiente o cuidador']]},
-    {id:'sit', name:'Otras situaciones', multi:true, opts:[['inmigrantes','Inmigrantes'],['discapacidad','Personas con discapacidad'],['victimas','Víctimas'],['rural','Medio rural'],['minorias','Minorías étnicas'],['pobreza','Riesgo de pobreza']]}
-  ]
-};
-// Ciudadanía general: rasgo común a todo el mundo, activo por defecto y visible en las dos pestañas
-const CIUD = {id:'ciu', name:'Todos', multi:true, opts:[['ciud','Ciudadanía general']]};
-CATS.eco.unshift(CIUD); CATS.soc.unshift(CIUD);
+// Perfil único (las pestañas solo filtran los resultados). Los ids son colectivos de la rúbrica,
+// salvo los que solo existen en el perfil y se traducen a colectivos mediante IMPLICA.
+const CATS = [
+  // Ciudadanía general: rasgo común a todo el mundo, activo por defecto
+  {id:'ciu', name:'Todos', multi:true, opts:[['ciud','Ciudadanía general']]},
+  // Hombre/Mujer se excluyen entre sí; LGTBI+ se puede combinar con cualquiera de los dos
+  {id:'sexo', grp:'Persona y familia', name:'Sexo', multi:true, excl:['hombres','mujeres'], opts:[['hombres','Hombre'],['mujeres','Mujer'],['lgtbi','LGTBI+']]},
+  {id:'edad', grp:'Persona y familia', name:'Edad', pre:'Edad: ', opts:[['jovenes','Hasta 35 años'],['adultos','36–64 años'],['mayores','65 años o más']]},
+  {id:'civ', grp:'Persona y familia', name:'Estado civil', opts:[['civSol','Soltero/a'],['civPar','Casado/a o pareja de hecho'],['civSep','Separado/a o divorciado/a'],['civViu','Viudo/a']]},
+  {id:'hij', grp:'Persona y familia', name:'Hijos menores a cargo', pre:'Hijos: ', opts:[['hij0','Ninguno'],['hij1','1'],['hij2','2'],['hij3','3 o más (familia numerosa)']]},
+  {id:'car', grp:'Persona y familia', name:'Personas a cargo', multi:true, opts:[['cuid','Cuido de una persona dependiente']]},
+  {id:'asal', grp:'Trabajo e ingresos', name:'Asalariados · tramo IRPF', opts:[['asal1','Hasta 12.450 €'],['asal2','12.450–20.200 €'],['asal3','20.200–35.200 €'],['asal4','35.200–60.000 €'],['asal5','60.000–300.000 €'],['asal6','Más de 300.000 €']]},
+  {id:'fun', grp:'Trabajo e ingresos', name:'Funcionarios · subgrupo', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
+  {id:'pro', grp:'Trabajo e ingresos', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]},
+  {id:'pen', grp:'Trabajo e ingresos', name:'Pensionistas · pensión anual', opts:[['pen1','Menos de 12.000 €'],['pen2','12.000–25.000 €'],['pen3','25.000–42.000 €']]},
+  {id:'des', grp:'Trabajo e ingresos', name:'Desempleados', opts:[['desPres','Con prestación'],['desSub','Subsidio o IMV']]},
+  {id:'vivn', grp:'Patrimonio', sub:'Vivienda', name:'Viviendas en propiedad', pre:'Viviendas: ', opts:[['viv0','Ninguna'],['viv1','Una, la habitual'],['viv2','Dos o más']]},
+  {id:'vivs', grp:'Patrimonio', sub:'Vivienda', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler']]},
+  {id:'prop', grp:'Patrimonio', sub:'Otro patrimonio', name:'Sin contar la vivienda habitual', pre:'Otro patrimonio ', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
+  {id:'emp', grp:'Empresa', name:'Empresarios · facturación', opts:[['empAut','Autónomos'],['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
+  {id:'sec', grp:'Empresa', name:'Sector', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones']]},
+  {id:'cons', name:'Consumo', multi:true, opts:[['cons','Consumidor y usuario']]},
+  {id:'soc', grp:'Condición social', name:'Marca todas las que te describan', multi:true, opts:[['estud','Estudiante'],['pac','Paciente o enfermo crónico'],['depend','Persona en situación de dependencia'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante'],['minorias','Minoría étnica'],['rural','Medio rural'],['victimas','Víctima'],['pobreza','Riesgo de pobreza']]}
+];
+// rasgos del perfil que activan colectivos de la clasificación
+const IMPLICA = {hij1:['infancia'], hij2:['infancia'], hij3:['infancia'], cuid:['depend']};
+const SIN_PAREJA = ['civSol','civSep','civViu'], CON_HIJOS = ['hij1','hij2','hij3'];
 const PRE = {asal:'IRPF ', fun:'Funcionario ', pen:'Pensión '};
-const LABEL = {}; Object.values(CATS).flat().forEach(c=>c.opts.forEach(([k,v])=>LABEL[k]=(c.pre||PRE[c.id]||'')+v));
-const CAT_OF = {}; Object.values(CATS).flat().forEach(c=>c.opts.forEach(([k])=>CAT_OF[k]=c));
+const LABEL = {infancia:'Familia con hijos menores', monop:'Familia monoparental'};
+const LABEL_DEDUCIDO = {infancia:'Familia con hijos menores', monop:'Familia monoparental', depend:'Dependencia de un familiar'};
+CATS.forEach(c=>c.opts.forEach(([k,v])=>LABEL[k]=(c.pre||PRE[c.id]||'')+v));
+const CAT_OF = {}; CATS.forEach(c=>c.opts.forEach(([k])=>CAT_OF[k]=c));
+// conjunto de colectivos efectivo: lo marcado + lo que se deduce de ello
+let RASGOS = new Set();
+function rasgos(){
+  const r=new Set(state.sel);
+  state.sel.forEach(k=>(IMPLICA[k]||[]).forEach(x=>r.add(x)));
+  if(SIN_PAREJA.some(k=>state.sel.has(k)) && CON_HIJOS.some(k=>state.sel.has(k))) r.add('monop');
+  return r;
+}
 const PNAME = {Bildu:'EH Bildu', Gobierno:'Gobierno', Mixto:'Grupo Mixto'};
 const pn = p => PNAME[p]||p;
 const COLOR_TXT = {pos:'Beneficia', neg:'Perjudica', mix:'Mixta', neu:'Sin efecto en tu perfil'};
@@ -224,7 +235,7 @@ try{ if(new URLSearchParams(location.search).get('c')!=='0') state.sel.add('ciud
 
 function impactOf(it){
   let p=false,n=false;
-  for(const k of state.sel){ const v=it.imp[k]; if(v>0)p=true; else if(v<0)n=true; }
+  for(const k of RASGOS){ const v=it.imp[k]; if(v>0)p=true; else if(v<0)n=true; }
   return p&&n?'mix':p?'pos':n?'neg':'neu';
 }
 function voteColor(imp, v){
@@ -268,6 +279,7 @@ function renderProfile(){
   p.appendChild(el('span',{class:'lbl'}, isExample?'Perfil de ejemplo:':'Tu perfil:'));
   if(!state.sel.size) p.appendChild(el('span',{class:'lbl'},'ningún rasgo marcado'));
   [...state.sel].forEach(k=>p.appendChild(el('button',{class:'pchip',title:'Quitar',onclick:()=>{toggle(k);}}, esc(LABEL[k])+' ×')));
+  [...RASGOS].filter(k=>!state.sel.has(k)).forEach(k=>p.appendChild(el('span',{class:'lbl',title:'Se deduce de tu perfil'}, '+ '+esc(LABEL_DEDUCIDO[k]||LABEL[k]||k))));
   const act=el('div',{class:'actions'});
   act.appendChild(el('button',{class:'linkbtn',onclick:copyLink,id:'copy-btn'},'Copiar enlace a este perfil'));
   if([...state.sel].some(k=>k!=='ciud')) act.appendChild(el('button',{class:'linkbtn',onclick:()=>{const c=state.sel.has('ciud');state.sel.clear();if(c)state.sel.add('ciud');isExample=false;render();}},'Borrar'));
@@ -293,11 +305,9 @@ function toggle(k){
 function renderFilters(){
   const f=$('filters'); f.innerHTML='';
   f.appendChild(el('h2',{},'Tu perfil'));
-  f.appendChild(el('p',{class:'hint'}, state.tab==='eco'
-    ? 'En las categorías por tramo marca una opción; en el resto, todas las que te describan. «Ciudadanía general» está activa para todo el mundo; puedes quitarla. Lo que marques se mantiene al cambiar de pestaña.'
-    : 'En sexo y edad marca una opción (LGTBI+ se puede combinar con cualquiera); en el resto, todos los colectivos a los que perteneces. «Ciudadanía general» está activa para todo el mundo; puedes quitarla. Lo que marques se mantiene al cambiar de pestaña.'));
+  f.appendChild(el('p',{class:'hint'},'Marca lo que te describa; vale para las dos pestañas de resultados. En las categorías por tramo, una opción. «Ciudadanía general» está activa para todo el mundo; puedes quitarla.'));
   let grp=null, sub=null, holder=f;
-  CATS[state.tab].forEach(c=>{
+  CATS.forEach(c=>{
     // categorías agrupadas (p. ej. Patrimonio → Vivienda / Otro patrimonio)
     if(c.grp!==grp){
       grp=c.grp; sub=null; holder=f;
@@ -423,7 +433,7 @@ function itemRow(it, color, L){
   mid.appendChild(el('p',{class:'tt'}, esc(it.t)));
   const autor = it.a[0]==='Otros' ? it.ao : it.a.map(pn).join(', ');
   mid.appendChild(el('div',{class:'meta'}, `<span>${esc(it.k)}</span><span>${esc(autor)}</span><span>${esc(it.f)}</span>${it.r?`<span>${esc(it.r)}</span>`:''}<a href="${congresoUrl(it.id)}" target="_blank" rel="noopener">${esc(it.id)}</a>`));
-  const affected = [...state.sel].filter(k=>it.imp[k]);
+  const affected = [...RASGOS].filter(k=>it.imp[k]);
   const why = (affected.length? affected.map(k=>`${LABEL[k]}: ${it.imp[k]>0?'beneficia':'perjudica'}`).join(' · ')+'. ' : '') + (it.n||'');
   mid.appendChild(el('p',{class:'why'}, esc(why)));
   if(it.v){
@@ -477,6 +487,7 @@ function renderMethod(){
 // ---------- routing ----------
 function go(name){ if(name) location.hash=name; else { try{ history.replaceState(null,'',location.pathname+location.search); }catch(e){ location.hash=''; } route(); } window.scrollTo(0,0); }
 function route(){
+  RASGOS = rasgos();
   const h=(location.hash||'').replace('#','');
   $('view-panel').hidden = !!(h==='lista'||h==='metodologia');
   $('view-lista').hidden = h!=='lista';

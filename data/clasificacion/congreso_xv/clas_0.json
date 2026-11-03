@@ -104,9 +104,10 @@
 "tipo": "soc",
 "imp": {
 "infancia": 1,
-"depend": 1
+"depend": 1,
+"monop": 1
 },
-"nota": "Amplía apoyos a familias y crea permisos por cuidado de familiares.",
+"nota": "Ley de familias: apoyos y permisos a familias con hijos, reconoce a las monoparentales y a quienes cuidan a familiares.",
 "partido": ""
 },
 {

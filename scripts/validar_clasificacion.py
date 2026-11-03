@@ -24,9 +24,12 @@ COLECTIVOS = {
     "secPrim", "secInd", "secCons", "secTrans", "secCom", "secFin", "secDig",
     "viv0", "viv1", "viv2", "inq", "hipot", "cons",
     "proSeg", "proSan", "proDoc",
+    "civSol", "civPar", "civSep", "civViu", "hij1", "hij2", "hij3", "monop",
     "hombres", "mujeres", "lgtbi", "jovenes", "adultos", "infancia", "mayores", "inmigrantes", "discapacidad",
     "victimas", "rural", "minorias", "estud", "pac", "depend", "pobreza",
 }
+# opciones del perfil que no son colectivos: se traducen a colectivos (IMPLICA en la plantilla)
+SOLO_PERFIL = {"hij0", "cuid"}
 PARTIDOS = {"", "Podemos", "BNG", "CC", "UPN", "Compromís"}
 
 
@@ -70,7 +73,9 @@ def main(args):
             errs.append(f"{len(falta)} iniciativas sin clasificar: {sorted(falta)[:5]}…")
         tpl = open(os.path.join(ROOT, "site", "template.html"), encoding="utf-8").read()
         bloque = tpl[tpl.index("const CATS"):tpl.index("const LABEL")]
-        web = set(re.findall(r"\['(\w+)','", bloque))
+        web = set(re.findall(r"\['(\w+)','", bloque)) - SOLO_PERFIL
+        implica = re.search(r"const IMPLICA = \{(.*?)\};", bloque).group(1)
+        web |= set(re.findall(r"'(\w+)'", re.sub(r"\w+:\[", "[", implica))) | {"monop"}
         if web != COLECTIVOS:
             errs.append(f"la web y el validador no coinciden: solo web {sorted(web - COLECTIVOS)}, "
                         f"solo validador {sorted(COLECTIVOS - web)}")

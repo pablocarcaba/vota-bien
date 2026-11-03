@@ -10,7 +10,8 @@ Casos dudosos detectados al reclasificar con la rúbrica v2. Para cerrar uno: co
 - [ ] **Voto a los 16** (122/000183): `+jovenes` aunque sea una reforma electoral.
 - [ ] **Seguridad vial**: alcohol al volante (122/000139, 122/000300) con `+ciud`; velocidad (122/000257) vacía por ser penal. ¿Se tratan igual?
 - [ ] **Sanidad pública frente a privada** (121/000094, 122/000082): vacías porque marcar `+pac` o `+ciud` sería valorativo y no hay colectivo para la sanidad privada.
-- [ ] **Custodia compartida** (125/000001): vacía. ¿`+hombres`? El efecto depende de quién solicite la custodia; signo discutible.
+- [ ] **Leyes de Familias** (121/000011, 122/000053, 122/000059): `+monop` porque reconocen a las familias monoparentales; comprobar que las dos proposiciones incluyen lo mismo que el proyecto.
+- [ ] **Custodia compartida** (125/000001): vacía. ¿`+hombres` o `civSep`? El efecto depende de quién solicite la custodia; signo discutible.
 - [ ] **Subsidio de mayores de 52** (121/000027, 130/000005): ¿añadir `adultos`?
 - [ ] **Bienestar animal**: 122/000202 (pulpos) `-secPrim`; 122/000046 (protección animal) vacía.
 - [ ] **Deepfakes e IA** (122/000011, 122/000073): vacías; una opción es `-secDig`.

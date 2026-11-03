@@ -530,9 +530,10 @@
 "tipo": "soc",
 "imp": {
 "infancia": 1,
-"depend": 1
+"depend": 1,
+"monop": 1
 },
-"nota": "Ley de familias: amplía apoyos y permisos a familias con hijos y a quienes cuidan a familiares.",
+"nota": "Ley de familias: apoyos y permisos a familias con hijos, reconoce a las monoparentales y a quienes cuidan a familiares.",
 "partido": ""
 },
 {
@@ -590,9 +591,10 @@
 "tipo": "soc",
 "imp": {
 "infancia": 1,
-"depend": 1
+"depend": 1,
+"monop": 1
 },
-"nota": "Ley de familias: amplía apoyos y permisos a familias con hijos y a quienes cuidan a familiares.",
+"nota": "Ley de familias: apoyos y permisos a familias con hijos, reconoce a las monoparentales y a quienes cuidan a familiares.",
 "partido": ""
 },
 {

@@ -28,7 +28,7 @@ Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social
 - Profesiones públicas: `proSeg` (policía, guardia civil, funcionarios de prisiones y fuerzas armadas), `proSan` (personal sanitario), `proDoc` (docentes)
 
 ### Sociales
-Sexo: `hombres`, `mujeres`, `lgtbi`. Edad: `jovenes` (hasta 35 años), `adultos` (36–64), `mayores` (65 o más). Familia: `infancia` (infancia y familias con hijos menores a cargo). Otros: `inmigrantes`, `discapacidad`, `victimas` (víctimas de violencia, terrorismo, catástrofes o accidentes), `rural`, `minorias` (minorías étnicas, gitanos), `estud` (estudiantes de cualquier nivel), `pac` (pacientes y enfermos crónicos), `depend` (personas dependientes y sus cuidadores), `pobreza` (personas en riesgo de pobreza o exclusión: IMV, bono social, vulnerabilidad energética o residencial, sinhogarismo)
+Sexo: `hombres`, `mujeres`, `lgtbi`. Edad: `jovenes` (hasta 35 años), `adultos` (36–64), `mayores` (65 o más). Estado civil: `civSol`, `civPar` (casado/a o pareja de hecho), `civSep` (separado/a o divorciado/a), `civViu` (viudo/a). Familia: `infancia` (cualquier familia con hijos menores a cargo), `hij1`/`hij2`/`hij3` (solo si la medida depende del número de hijos; `hij3` = familia numerosa), `monop` (familia monoparental). Otros: `inmigrantes`, `discapacidad`, `victimas` (víctimas de violencia, terrorismo, catástrofes o accidentes), `rural`, `minorias` (minorías étnicas, gitanos), `estud` (estudiantes de cualquier nivel), `pac` (pacientes y enfermos crónicos), `depend` (personas dependientes y sus cuidadores), `pobreza` (personas en riesgo de pobreza o exclusión: IMV, bono social, vulnerabilidad energética o residencial, sinhogarismo)
 
 ## 3. Criterios de impacto
 
@@ -72,6 +72,7 @@ Sexo: `hombres`, `mujeres`, `lgtbi`. Edad: `jovenes` (hasta 35 años), `adultos`
 - Migración: regularizaciones o ampliación de derechos de extranjeros → +1 `inmigrantes`; restricciones → -1 `inmigrantes`.
 - Igualdad y violencia de género → `mujeres` (y `victimas` si se trata de violencia). LGTBI → `lgtbi`.
 - `hombres`: solo cuando la medida se dirige a ellos o se aplica expresamente a ambos sexos o progenitores (p. ej. permiso de nacimiento igual para los dos → `+mujeres` y `+hombres`). **No** marques `-hombres` en medidas de igualdad a favor de las mujeres, salvo que retiren un derecho concreto a los hombres.
+- Familia: usa `infancia` para medidas para cualquier familia con hijos; `hij3` para familias numerosas; `monop` para monoparentales; `civViu` para pensiones de viudedad u orfandad; `civSep` para divorcio, custodia o pensiones compensatorias solo si el efecto tiene un signo claro. En la web, tener hijos activa `infancia`, tener hijos sin pareja activa `monop` y cuidar de un dependiente activa `depend`.
 - Edad: usa `jovenes`/`adultos`/`mayores` cuando la medida fija un tramo de edad (bono alquiler joven, subsidio para mayores de 52 → `adultos`, pensiones → `mayores`).
 - Medidas generales para todos los asalariados (por ejemplo, la reducción de jornada) → +1 `asal1`–`asal4`.
 - Si dudas entre +1 y -1 para un colectivo, no lo marques. Si dudas solo de la intensidad, márcalo.
