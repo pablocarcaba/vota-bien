@@ -60,7 +60,7 @@ python3 scripts/build_page.py
 
 ## Publicación
 
-Cada push a `main` que toque `site/` publica la carpeta en GitHub Pages (`.github/workflows/pages.yml`). Los enlaces por perfil usan `?p=asal3,prop2`; `&c=0` desactiva «Ciudadanía general», que está activa por defecto.
+Cada push a `main` que toque `site/` publica la carpeta en GitHub Pages (`.github/workflows/pages.yml`). Los enlaces por perfil usan `?p=asal3,prop1`; `&c=0` desactiva «Ciudadanía general», que está activa por defecto.
 
 ## Fuente y licencia de los datos
 

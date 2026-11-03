@@ -202,7 +202,7 @@ try{
   if(q) q.split(',').filter(k=>LABEL[k]&&k!=='ciud').forEach(k=>state.sel.add(k));
 }catch(e){}
 let isExample = false;
-if(!state.sel.size){ state.sel.add('asal3'); state.sel.add('prop2'); isExample = true; }
+if(!state.sel.size){ state.sel.add('asal3'); state.sel.add('prop1'); isExample = true; }
 // ciudadanía activa salvo que el enlace diga c=0
 try{ if(new URLSearchParams(location.search).get('c')!=='0') state.sel.add('ciud'); }catch(e){ state.sel.add('ciud'); }
 
