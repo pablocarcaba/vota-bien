@@ -70,6 +70,7 @@ Sexo: `hombres`, `mujeres`, `lgtbi`. Edad: `jovenes` (hasta 35 años), `adultos`
 ### 3.7 Otros
 - Ayudas por catástrofes (DANA, La Palma, incendios) → +1 `victimas` y, si incluyen ayudas a negocios, `empAut`/`empMicro`/`empPeq` y el sector afectado (a menudo `secPrim` o `secCom`).
 - Migración: regularizaciones o ampliación de derechos de extranjeros → +1 `inmigrantes`; restricciones → -1 `inmigrantes`.
+- Restricciones a prendas o prácticas religiosas (p. ej. prohibir el velo integral) → -1 `minorias`, no `inmigrantes`: afectan por religión, no por nacionalidad.
 - Igualdad y violencia de género → `mujeres` (y `victimas` si se trata de violencia). LGTBI → `lgtbi`.
 - `hombres`: solo cuando la medida se dirige a ellos o se aplica expresamente a ambos sexos o progenitores (p. ej. permiso de nacimiento igual para los dos → `+mujeres` y `+hombres`). **No** marques `-hombres` en medidas de igualdad a favor de las mujeres, salvo que retiren un derecho concreto a los hombres.
 - Familia: usa `infancia` para medidas para cualquier familia con hijos; `hij3` para familias numerosas; `monop` para monoparentales; `civViu` para pensiones de viudedad u orfandad; `civSep` para divorcio, custodia o pensiones compensatorias solo si el efecto tiene un signo claro. En la web, tener hijos activa `infancia`, tener hijos sin pareja activa `monop` y cuidar de un dependiente activa `depend`.

@@ -342,9 +342,11 @@
 {
 "id": "124/000045",
 "tipo": "soc",
-"imp": {},
+"imp": {
+"minorias": -1
+},
 "peso": 1,
-"nota": "Regula la vestimenta en el espacio público; efecto sobre colectivos discutible, sin impacto distributivo claro.",
+"nota": "Prohíbe prendas que ocultan el rostro en espacios públicos; afecta a la minoría religiosa que usa velo integral.",
 "partido": ""
 },
 {

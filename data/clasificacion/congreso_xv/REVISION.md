@@ -4,7 +4,7 @@ Casos dudosos detectados al reclasificar con la rúbrica v2. Para cerrar uno: co
 
 ## 1. Decisiones de criterio (afectan a la rúbrica)
 
-- [ ] **Velo integral / ocultación del rostro**: 122/000237, 122/000256, 122/000259 tienen `-inmigrantes`; 124/000045 está vacía. Decidir un criterio común (¿`inmigrantes`, `minorias`, `mujeres` o vacía?).
+- [x] **Velo integral / ocultación del rostro**: 122/000237, 122/000256, 122/000259 tienen `-inmigrantes`; 124/000045 está vacía. Decidir un criterio común (¿`inmigrantes`, `minorias`, `mujeres` o vacía?). → **Decidido: `-minorias` en las cuatro** (rúbrica 3.7).
 - [ ] **Multirreincidencia en hurtos** (122/000083, 122/000089, 122/000090, 122/000091, 124/000037): `+secCom` como beneficio indirecto al comercio. ¿Se mantiene en leyes penales?
 - [ ] **Tauromaquia** (123/000002): `-secPrim` por la ganadería de lidia. 122/000145 (tauromaquia e infancia) está vacía.
 - [ ] **Voto a los 16** (122/000183): `+jovenes` aunque sea una reforma electoral.
