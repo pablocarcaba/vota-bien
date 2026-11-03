@@ -21,7 +21,7 @@ COLECTIVOS = {
     "prop1", "prop2", "prop3", "prop4",
     "empAut", "empMicro", "empPeq", "empMed", "empGran",
     "secPrim", "secInd", "secCons", "secTrans", "secCom", "secFin", "secDig",
-    "inq", "hipot", "cons",
+    "viv0", "viv1", "viv2", "inq", "hipot", "cons",
     "proSeg", "proSan", "proDoc",
     "mujeres", "lgtbi", "jovenes", "infancia", "mayores", "inmigrantes", "discapacidad",
     "victimas", "rural", "minorias", "estud", "pac", "depend", "pobreza",

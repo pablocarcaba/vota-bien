@@ -19,10 +19,12 @@ Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social
 - Funcionarios por subgrupo: `funA1`, `funA2`, `funB`, `funC1`, `funC2E`
 - Pensionistas por pensión anual: `pen1` (<12.000 €, mínimas y no contributivas), `pen2` (12.000–25.000), `pen3` (25.000–42.000, hasta la máxima)
 - Desempleados: `desPres` (con prestación contributiva), `desSub` (subsidio o Ingreso Mínimo Vital)
-- Propietarios por patrimonio neto **sin contar la vivienda habitual**: `prop1` (<200.000 €), `prop2` (200.000–700.000), `prop3` (700.000–3 M), `prop4` (>3 M)
+- Vivienda en propiedad: `viv0` (ninguna), `viv1` (una, la habitual), `viv2` (dos o más)
+- Hipoteca y alquiler: `hipot` (con hipoteca), `inq` (vive de alquiler)
+- Otro patrimonio neto **sin contar la vivienda habitual**: `prop1` (<200.000 €), `prop2` (200.000–700.000), `prop3` (700.000–3 M), `prop4` (>3 M)
 - Empresarios por tamaño: `empAut` (autónomos), `empMicro` (<2 M€ de facturación), `empPeq` (2–10 M), `empMed` (10–50 M), `empGran` (>50 M)
 - Empresarios por sector (complementa al tamaño): `secPrim` (agricultura, ganadería, pesca, forestal), `secInd` (industria, energía, minería, química), `secCons` (construcción, promoción e inmobiliario), `secTrans` (transporte y logística), `secCom` (comercio, hostelería y turismo), `secFin` (banca, seguros y finanzas), `secDig` (tecnología, telecomunicaciones y medios digitales)
-- Vivienda y consumo: `inq` (inquilinos), `hipot` (hipotecados), `cons` (consumidores y usuarios de suministros y servicios: luz, gas, agua, telecomunicaciones, banca, transporte)
+- Consumo: `cons` (consumidores y usuarios de suministros y servicios: luz, gas, agua, telecomunicaciones, banca, transporte)
 - Profesiones públicas: `proSeg` (policía, guardia civil, funcionarios de prisiones y fuerzas armadas), `proSan` (personal sanitario), `proDoc` (docentes)
 
 ### Sociales
@@ -43,7 +45,7 @@ Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social
 - Prohibiciones de bienestar animal con efecto sobre una actividad económica → -1 al sector afectado (por ejemplo, `secPrim` en la acuicultura). `ciud` solo si hay un beneficio general claro (sanitario o ambiental).
 
 ### 3.3 Impuestos y prestaciones
-- Una subida de un impuesto perjudica a quien lo paga; una bajada le beneficia. Impuesto de patrimonio o a grandes fortunas → `prop3`/`prop4`. Impuestos a la banca o a las energéticas → `empGran` y `secFin`/`secInd`.
+- Una subida de un impuesto perjudica a quien lo paga; una bajada le beneficia. Impuesto de patrimonio, sucesiones o grandes fortunas → tramos `prop*` afectados. Impuestos a la banca o a las energéticas → `empGran` y `secFin`/`secInd`.
 - Prestaciones y subsidios: +1 a sus receptores. No marques perjuicio a los contribuyentes en general por el coste fiscal, salvo que la ley suba un impuesto concreto.
 - Bonificaciones del transporte público → +1 `cons` (y `jovenes`/`rural` si van dirigidas a ellos).
 
@@ -51,9 +53,11 @@ Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social
 - Usa el sector cuando la ley regula o grava una actividad concreta. Añade el tamaño solo si el efecto depende del tamaño (por ejemplo, un impuesto solo para grandes empresas → `empGran`).
 - Coste laboral general (SMI, reducción de jornada) → -1 `empAut`, `empMicro`, `empPeq` (los sectores solo si les afecta especialmente, como `secCom` en hostelería).
 
-### 3.5 Vivienda y consumo
-- Control de alquileres o limitación de desahucios → +1 `inq` (y `jovenes` si se dirige a ellos; `pobreza` si protege a vulnerables) y -1 `prop2`/`prop3`/`prop4` (propietarios arrendadores).
-- Okupación y desalojos exprés → +1 `prop2`/`prop3`/`prop4`. **No** marques `prop1`: quien solo tiene su vivienda habitual no gana nada, porque ocuparla ya es allanamiento de morada y tiene desalojo inmediato; estas leyes benefician a quien tiene otras viviendas (que cuentan en su patrimonio).
+### 3.5 Vivienda, patrimonio y consumo
+- Control de alquileres, limitación de desahucios o restricciones al arrendador (incluido el alquiler turístico) → +1 `inq` (y `jovenes` si se dirige a ellos; `pobreza` si protege a vulnerables) y -1 `viv2` (quien tiene viviendas además de la habitual, que es quien alquila). **No** uses los tramos `prop*` para esto.
+- Medidas contra grandes tenedores o la especulación inmobiliaria → -1 `prop3`/`prop4` (no `viv2`: tener una segunda vivienda no te hace gran tenedor).
+- Ayudas a la compra de la primera vivienda → +1 `viv0`. Medidas sobre la vivienda habitual en propiedad (IBI de la vivienda habitual, comunidades de propietarios) → `viv1` (y `viv2` si afectan a cualquier vivienda).
+- Okupación y desalojos exprés → +1 `viv2`. **No** marques `viv1`: quien solo tiene su vivienda habitual no gana nada, porque ocuparla ya es allanamiento de morada y tiene desalojo inmediato.
 - Medidas sobre hipotecas (Euríbor, ayudas, código de buenas prácticas) → +1 `hipot`; si cuestan a la banca, -1 `secFin`.
 - Protección del consumidor, rebajas de tarifas o prohibición de prácticas abusivas → +1 `cons` y -1 al sector regulado si le supone coste.
 

@@ -64,8 +64,8 @@
 "id": "124/000017",
 "tipo": "eco",
 "imp": {
-"prop1": 1,
-"prop2": 1
+"viv1": 1,
+"viv2": 1
 },
 "nota": "Reforma el régimen de comunidades de propietarios; afecta principalmente a propietarios de vivienda.",
 "partido": ""
@@ -493,9 +493,7 @@
 "secPrim": 1,
 "rural": 1,
 "inq": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Prorroga rebaja del IVA de alimentos, ayudas al transporte, bono social y suspensión de desahucios; ayudas agrarias por sequía.",
 "partido": ""
@@ -506,9 +504,7 @@
 "imp": {
 "inq": 1,
 "pobreza": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Prorroga la suspensión de desahucios de hogares vulnerables; limita a los propietarios arrendadores.",
 "partido": ""
@@ -609,9 +605,7 @@
 "inq": 1,
 "pobreza": 1,
 "cons": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Revaloriza pensiones, prorroga ayudas al transporte y suspensión de desahucios de vulnerables, con coste para propietarios arrendadores.",
 "partido": ""
@@ -648,9 +642,7 @@
 "inq": 1,
 "pobreza": 1,
 "cons": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Revaloriza pensiones, bonifica transporte, prorroga escudo social y suspensión de desahucios, y ayudas por la DANA.",
 "partido": ""
@@ -805,9 +797,7 @@
 "inq": 1,
 "pobreza": 1,
 "cons": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Prorroga el escudo social: suspensión de desahucios y bono social; coste para propietarios arrendadores.",
 "partido": ""
@@ -838,9 +828,7 @@
 "inq": 1,
 "pobreza": 1,
 "cons": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Escudo social: suspensión de desahucios y bono social, con coste para propietarios arrendadores; financiación territorial.",
 "partido": ""
@@ -899,9 +887,7 @@
 "tipo": "eco",
 "imp": {
 "inq": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Medidas de alquiler ante la crisis; beneficia a inquilinos con coste para propietarios arrendadores.",
 "partido": ""

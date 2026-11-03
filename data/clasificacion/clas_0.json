@@ -28,9 +28,7 @@
 "secPrim": 1,
 "rural": 1,
 "inq": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Prorroga rebaja del IVA de alimentos, ayudas al transporte, bono social y suspensión de desahucios; ayudas agrarias por sequía.",
 "partido": ""
@@ -220,9 +218,7 @@
 "imp": {
 "inq": 1,
 "pobreza": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Prorroga la suspensión de desahucios de hogares vulnerables; limita a los propietarios arrendadores.",
 "partido": ""
@@ -452,9 +448,7 @@
 "inq": 1,
 "pobreza": 1,
 "cons": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Revaloriza pensiones, bonifica transporte, prorroga escudo social y suspensión de desahucios, y ayudas por la DANA.",
 "partido": ""

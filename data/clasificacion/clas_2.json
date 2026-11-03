@@ -144,9 +144,7 @@
 "imp": {
 "inq": 1,
 "jovenes": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Regula alquileres de temporada y de habitaciones; protege a inquilinos, a menudo jóvenes, y limita a los arrendadores.",
 "partido": ""
@@ -307,9 +305,7 @@
 "imp": {
 "inq": 1,
 "jovenes": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Regula alquileres temporales y de habitaciones; protege a inquilinos, a menudo jóvenes, y limita a los arrendadores.",
 "partido": ""
@@ -431,9 +427,7 @@
 "id": "122/000150",
 "tipo": "eco",
 "imp": {
-"prop2": 1,
-"prop3": 1,
-"prop4": 1
+"viv2": 1
 },
 "nota": "Medidas contra la ocupación ilegal; agiliza la recuperación de inmuebles por sus propietarios.",
 "partido": ""
@@ -557,9 +551,7 @@
 "tipo": "eco",
 "imp": {
 "inq": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Reforma de arrendamientos urbanos a favor del inquilino; limita a los propietarios arrendadores.",
 "partido": ""
@@ -709,9 +701,7 @@
 "tipo": "eco",
 "imp": {
 "inq": 1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
+"viv2": -1
 },
 "nota": "Refuerza la ley de vivienda; protege a inquilinos y limita a los propietarios arrendadores.",
 "partido": ""
@@ -739,8 +729,8 @@
 "id": "122/000181",
 "tipo": "eco",
 "imp": {
-"prop1": 1,
-"prop2": 1
+"viv1": 1,
+"viv2": 1
 },
 "nota": "Preserva conjuntos urbanos costeros en dominio público; protege a propietarios de viviendas tradicionales.",
 "partido": ""
@@ -869,8 +859,7 @@
 "tipo": "eco",
 "imp": {
 "inq": 1,
-"prop2": 1,
-"prop3": 1
+"viv2": 1
 },
 "nota": "Incentivos fiscales al alquiler asequible; beneficia a inquilinos y a propietarios que alquilan a precio limitado.",
 "partido": ""

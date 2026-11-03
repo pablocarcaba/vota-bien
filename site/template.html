@@ -57,6 +57,11 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 .panel .hint{font-size:13px;color:var(--muted);margin:0 0 12px}
 .cat{margin-top:14px}
 .cat h3{font-size:12px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:500;margin:0 0 6px}
+.catgrp{margin-top:16px;padding:10px 0 2px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.catgrp>h3{font-size:12px;font-family:var(--mono);text-transform:uppercase;letter-spacing:.05em;color:var(--ink);font-weight:600;margin:0}
+.catsub{font-size:13px;font-weight:600;margin:12px 0 0}
+.cat.in{margin:6px 0 10px}
+.cat.in h3{text-transform:none;font-family:inherit;letter-spacing:0;font-size:12px}
 .opts{display:flex;flex-wrap:wrap;gap:6px}
 .opt{font-size:13px;padding:5px 10px;border:1px solid var(--line);border-radius:6px;background:var(--sheet);cursor:pointer;font-variant-numeric:tabular-nums}
 .opt:hover{border-color:var(--muted)}
@@ -137,15 +142,15 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
     <div class="grid">
       <aside class="panel" id="filters" aria-label="Tu perfil"></aside>
       <div class="main">
+        <div class="charts">
+          <section class="panel" id="chart-prop"></section>
+          <section class="panel" id="chart-vote"></section>
+        </div>
         <section class="panel">
           <h2>Qué partido te favorece más</h2>
           <p class="hint" id="rank-hint"></p>
           <div class="rank" id="rank"></div>
         </section>
-        <div class="charts">
-          <section class="panel" id="chart-prop"></section>
-          <section class="panel" id="chart-vote"></section>
-        </div>
       </div>
     </div>
   </section>
@@ -169,10 +174,12 @@ const CATS = {
     {id:'fun', name:'Funcionarios · subgrupo', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
     {id:'pen', name:'Pensionistas · pensión anual', opts:[['pen1','Menos de 12.000 €'],['pen2','12.000–25.000 €'],['pen3','25.000–42.000 €']]},
     {id:'des', name:'Desempleados', opts:[['desPres','Con prestación'],['desSub','Subsidio o IMV']]},
-    {id:'prop', name:'Patrimonio · sin vivienda habitual', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
+    {id:'vivn', grp:'Patrimonio', sub:'Vivienda', name:'Viviendas en propiedad', pre:'Viviendas: ', opts:[['viv0','Ninguna'],['viv1','Una, la habitual'],['viv2','Dos o más']]},
+    {id:'vivs', grp:'Patrimonio', sub:'Vivienda', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler']]},
+    {id:'prop', grp:'Patrimonio', sub:'Otro patrimonio', name:'Sin contar la vivienda habitual', pre:'Otro patrimonio ', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
     {id:'emp', name:'Empresarios · facturación', opts:[['empAut','Autónomos'],['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
     {id:'sec', name:'Empresarios · sector', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones']]},
-    {id:'viv', name:'Vivienda y consumo', multi:true, opts:[['inq','Inquilino'],['hipot','Hipotecado'],['cons','Consumidor y usuario']]},
+    {id:'cons', name:'Consumo', multi:true, opts:[['cons','Consumidor y usuario']]},
     {id:'pro', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]}
   ],
   soc: [
@@ -185,7 +192,8 @@ const CATS = {
 // Ciudadanía general: rasgo común a todo el mundo, activo por defecto y visible en las dos pestañas
 const CIUD = {id:'ciu', name:'Todos', multi:true, opts:[['ciud','Ciudadanía general']]};
 CATS.eco.unshift(CIUD); CATS.soc.unshift(CIUD);
-const LABEL = {}; Object.values(CATS).flat().forEach(c=>c.opts.forEach(([k,v])=>LABEL[k]=(c.id==='asal'?'IRPF ':c.id==='fun'?'Funcionario ':c.id==='pen'?'Pensión ':c.id==='prop'?'Patrimonio ':'')+v));
+const PRE = {asal:'IRPF ', fun:'Funcionario ', pen:'Pensión '};
+const LABEL = {}; Object.values(CATS).flat().forEach(c=>c.opts.forEach(([k,v])=>LABEL[k]=(c.pre||PRE[c.id]||'')+v));
 const CAT_OF = {}; Object.values(CATS).flat().forEach(c=>c.opts.forEach(([k])=>CAT_OF[k]=c));
 const PARTIES = DATA.meta.parties;
 const PNAME = {Bildu:'EH Bildu', Gobierno:'Gobierno', Mixto:'Grupo Mixto'};
@@ -276,11 +284,18 @@ function renderFilters(){
   f.appendChild(el('p',{class:'hint'}, state.tab==='eco'
     ? 'En las categorías por tramo marca una opción; en el resto, todas las que te describan. «Ciudadanía general» está activa para todo el mundo; puedes quitarla. Lo que marques se mantiene al cambiar de pestaña.'
     : 'Marca todos los colectivos a los que perteneces. «Ciudadanía general» está activa para todo el mundo; puedes quitarla. Lo que marques se mantiene al cambiar de pestaña.'));
+  let grp=null, sub=null, holder=f;
   CATS[state.tab].forEach(c=>{
-    const box=el('div',{class:'cat'}); box.appendChild(el('h3',{},esc(c.name)));
+    // categorías agrupadas (p. ej. Patrimonio → Vivienda / Otro patrimonio)
+    if(c.grp!==grp){
+      grp=c.grp; sub=null; holder=f;
+      if(grp){ holder=el('div',{class:'catgrp'}); holder.appendChild(el('h3',{},esc(grp))); f.appendChild(holder); }
+    }
+    if(c.sub && c.sub!==sub){ sub=c.sub; holder.appendChild(el('h4',{class:'catsub'},esc(sub))); }
+    const box=el('div',{class:'cat'+(grp?' in':'')}); box.appendChild(el('h3',{},esc(c.name)));
     const o=el('div',{class:'opts'});
     c.opts.forEach(([k,v])=>o.appendChild(el('button',{class:'opt','aria-pressed':String(state.sel.has(k)),onclick:()=>toggle(k)},esc(v))));
-    box.appendChild(o); f.appendChild(box);
+    box.appendChild(o); holder.appendChild(box);
   });
 }
 function rankList(title, data, keys, nameFn){
@@ -432,7 +447,7 @@ function renderMethod(){
     <h3>Clasificación de impactos</h3>
     <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
     <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
-    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte.</p>
+    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las leyes sobre alquiler y okupación afectan a quien tiene dos o más), hipoteca y alquiler; otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte.</p>
     <h3>Cómo se colorea</h3>
     <p>Verde si la iniciativa beneficia a algún rasgo de tu perfil y no perjudica a ninguno; rojo si perjudica sin beneficiar; ámbar si hace ambas cosas; gris si no afecta a tu perfil. En las votaciones, verde es votar sí a lo que te beneficia o no a lo que te perjudica; rojo, lo contrario; la abstención va en gris.</p>
     <h3>Limitaciones</h3>
