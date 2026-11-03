@@ -10,9 +10,9 @@ Casos dudosos detectados al reclasificar con la rúbrica v2. Para cerrar uno: co
 - [x] **Voto a los 16** (122/000183): `+jovenes` aunque sea una reforma electoral. → **Decidido: se mantiene como está.**
 - [ ] **Seguridad vial**: alcohol al volante (122/000139, 122/000300) con `+ciud`; velocidad (122/000257) vacía por ser penal. ¿Se tratan igual?
 - [x] **Sanidad pública frente a privada** (121/000094, 122/000082): vacías porque marcar `+pac` o `+ciud` sería valorativo y no hay colectivo para la sanidad privada. → **Decidido: regla general «lo público frente a lo privado» (rúbrica 3.2): +ciud y -sector al recuperar lo público; -ciud y +sector al privatizar. Aplicada también a Repsol, concesiones hidroeléctricas, redes eléctricas y rescate bancario.**
-- [ ] **Leyes de Familias** (121/000011, 122/000053, 122/000059): `+monop` porque reconocen a las familias monoparentales; comprobar que las dos proposiciones incluyen lo mismo que el proyecto.
-- [ ] **Custodia compartida** (125/000001): vacía. ¿`+hombres` o `civSep`? El efecto depende de quién solicite la custodia; signo discutible.
-- [ ] **Subsidio de mayores de 52** (121/000027, 130/000005): ¿añadir `adultos`?
+- [x] **Leyes de Familias** (121/000011, 122/000053, 122/000059): `+monop` porque reconocen a las familias monoparentales; comprobar que las dos proposiciones incluyen lo mismo que el proyecto. → **Decidido: solo efectos tangibles (permisos de cuidado, apoyo a la crianza, beneficios de familia numerosa a monoparentales con dos hijos); se mantienen `+infancia`, `+depend`, `+monop`, sin contar el reconocimiento simbólico.**
+- [x] **Custodia compartida** (125/000001): vacía. ¿`+hombres` o `civSep`? El efecto depende de quién solicite la custodia; signo discutible. → **Decidido: vacía, por tener efecto discutible y carga ideológica.**
+- [x] **Subsidio de mayores de 52** (121/000027, 130/000005): ¿añadir `adultos`? → **Decidido: se añade `+adultos` (rúbrica 3.7).**
 - [ ] **Bienestar animal**: 122/000202 (pulpos) `-secPrim`; 122/000046 (protección animal) vacía.
 - [ ] **Deepfakes e IA** (122/000011, 122/000073): vacías; una opción es `-secDig`.
 - [ ] **Embargo de armas** (121/000070, Gaza): vacía como política exterior; las otras leyes de armas (122/000111, 122/000122) llevan `-secInd`.
