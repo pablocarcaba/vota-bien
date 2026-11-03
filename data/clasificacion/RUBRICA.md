@@ -23,7 +23,7 @@ Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social
 - Hipoteca y alquiler: `hipot` (con hipoteca), `inq` (vive de alquiler)
 - Otro patrimonio neto **sin contar la vivienda habitual**: `prop1` (<200.000 €), `prop2` (200.000–700.000), `prop3` (700.000–3 M), `prop4` (>3 M)
 - Empresarios por tamaño: `empAut` (autónomos), `empMicro` (<2 M€ de facturación), `empPeq` (2–10 M), `empMed` (10–50 M), `empGran` (>50 M)
-- Empresarios por sector (complementa al tamaño): `secPrim` (agricultura, ganadería, pesca, forestal), `secInd` (industria, energía, minería, química), `secCons` (construcción, promoción e inmobiliario), `secTrans` (transporte y logística), `secCom` (comercio, hostelería y turismo), `secFin` (banca, seguros y finanzas), `secDig` (tecnología, telecomunicaciones y medios digitales)
+- Empresarios por sector (complementa al tamaño): `secPrim` (agricultura, ganadería, pesca, forestal), `secInd` (industria, energía, minería, química), `secCons` (construcción, promoción e inmobiliario), `secTrans` (transporte y logística), `secCom` (comercio, hostelería y turismo), `secFin` (banca, seguros y finanzas), `secDig` (tecnología, telecomunicaciones y medios digitales), `secSoc` (sanidad, educación y cuidados privados: clínicas, aseguradoras de salud, centros concertados, residencias)
 - Consumo: `cons` (consumidores y usuarios de suministros y servicios: luz, gas, agua, telecomunicaciones, banca, transporte)
 - Profesiones públicas: `proSeg` (policía, guardia civil, funcionarios de prisiones y fuerzas armadas), `proSan` (personal sanitario), `proDoc` (docentes)
 
@@ -42,6 +42,7 @@ Sexo: `hombres`, `mujeres`, `lgtbi`. Edad: `jovenes` (hasta 35 años), `adultos`
 - -1 cuando impone una carga general a toda la población (por ejemplo, una subida del IVA o de un impuesto que paga todo el mundo).
 - **No** uses `ciud` para leyes institucionales, ideológicas o de derechos cuyo efecto general sea discutible (sistema electoral, CGPJ, símbolos, memoria, seguridad ciudadana). En esos casos marca solo los colectivos concretos o déjala vacía.
 - Si el beneficio general recae en alguien con un coste concreto, marca también el perjuicio: una ley ambiental o de salud pública perjudica (-1) a los **sectores** que la cumplen (`secInd`, `secTrans`, `secPrim`…) y, si el coste es significativo para su tamaño, a `empAut`/`empMicro`/`empPeq`.
+- **Lo público frente a lo privado** (criterio fijado en la revisión): lo que es de gestión o titularidad pública es patrimonio de todos. Toda ley que traspasa a manos privadas un servicio, empresa, infraestructura o concesión pública (privatización, liberalización que reparte un mercado público, externalización, conciertos, concesiones) → -1 `ciud` y +1 al **sector** que lo recibe (y a `empGran` si son grandes empresas). Al revés (nacionalización, reversión de concesiones, gestión directa, titularidad pública, devolución de ayudas públicas) → +1 `ciud` y -1 al sector afectado. Ejemplos: liberalización del ferrocarril → -1 `ciud`, +1 `secTrans`; gestión pública de la sanidad → +1 `ciud`, -1 `secSoc`.
 - Prohibiciones de bienestar animal con efecto sobre una actividad económica → -1 al sector afectado (por ejemplo, `secPrim` en la acuicultura). `ciud` solo si hay un beneficio general claro (sanitario o ambiental).
 
 ### 3.3 Impuestos y prestaciones
@@ -64,7 +65,7 @@ Sexo: `hombres`, `mujeres`, `lgtbi`. Edad: `jovenes` (hasta 35 años), `adultos`
 ### 3.6 Educación, sanidad y cuidados
 - Becas, tasas, acceso a la universidad o FP → `estud` (+ los tramos de renta si dependen de umbrales económicos).
 - Sanidad pública, listas de espera, enfermedades raras, ELA, salud mental o medicamentos → `pac` (+ `discapacidad`/`depend` si procede). Salud pública general → también `ciud`.
-- Modelo de gestión sanitaria (criterio fijado en la revisión): reforzar la gestión pública o limitar la privada en el sistema público → +1 `ciud`; ampliar la gestión privada, conciertos o externalizaciones → -1 `ciud`.
+- Gestión sanitaria pública o privada → regla «lo público frente a lo privado» (3.2): +1 `ciud` y -1 `secSoc` si refuerza la gestión pública; al revés si amplía la privada.
 - Dependencia, permisos y prestaciones por cuidado → `depend` (+ `mujeres` si el efecto sobre las cuidadoras es explícito, + `mayores` si procede).
 - Condiciones laborales del personal sanitario, de los docentes o de las fuerzas de seguridad (salarios, equiparación, jubilación, condición de agente de la autoridad) → `proSan`/`proDoc`/`proSeg`.
 

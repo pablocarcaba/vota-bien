@@ -980,10 +980,11 @@
 "id": "121/000094",
 "tipo": "soc",
 "imp": {
-"ciud": 1
+"ciud": 1,
+"secSoc": -1
 },
 "peso": 2,
-"nota": "Prioriza la gestión pública del Sistema Nacional de Salud; según el criterio de la rúbrica, beneficia a la ciudadanía en general.",
+"nota": "Prioriza la gestión pública del Sistema Nacional de Salud: beneficia a la ciudadanía y reduce la gestión privada de clínicas y empresas sanitarias.",
 "partido": ""
 },
 {

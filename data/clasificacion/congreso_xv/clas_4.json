@@ -419,11 +419,12 @@
 "id": "125/000006",
 "tipo": "eco",
 "imp": {
+"ciud": 1,
 "secFin": -1,
 "empGran": -1
 },
 "peso": 1,
-"nota": "Exige a la banca rescatada devolver ayudas o compensaciones; coste para las grandes entidades financieras.",
+"nota": "Exige a la banca rescatada devolver las ayudas públicas: recupera dinero público; coste para las grandes entidades financieras.",
 "partido": ""
 },
 {

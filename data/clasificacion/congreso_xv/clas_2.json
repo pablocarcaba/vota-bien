@@ -845,11 +845,12 @@
 "id": "122/000185",
 "tipo": "eco",
 "imp": {
+"ciud": 1,
 "empGran": -1,
 "secInd": -1
 },
 "peso": 2,
-"nota": "Extingue concesiones hidroeléctricas y las asume una empresa pública; perjudica a las grandes eléctricas.",
+"nota": "Extingue concesiones hidroeléctricas y las asume una empresa pública: recupera patrimonio público y perjudica a las grandes eléctricas.",
 "partido": ""
 },
 {
@@ -963,12 +964,13 @@
 "id": "122/000197",
 "tipo": "eco",
 "imp": {
+"ciud": 1,
+"cons": 1,
 "empGran": -1,
-"secInd": -1,
-"cons": 1
+"secInd": -1
 },
 "peso": 2,
-"nota": "Titularidad pública de redes eléctricas e impulso del autoconsumo; perjudica a distribuidoras y favorece a consumidores.",
+"nota": "Titularidad pública de las redes de distribución eléctrica e impulso del autoconsumo: beneficia a ciudadanía y consumidores; perjudica a distribuidoras.",
 "partido": ""
 },
 {

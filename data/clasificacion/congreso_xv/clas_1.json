@@ -892,10 +892,11 @@
 "id": "122/000082",
 "tipo": "soc",
 "imp": {
-"ciud": 1
+"ciud": 1,
+"secSoc": -1
 },
 "peso": 2,
-"nota": "Limita la gestión privada en la sanidad pública; según el criterio de la rúbrica, beneficia a la ciudadanía en general.",
+"nota": "Limita la gestión privada en la sanidad pública: beneficia a la ciudadanía y perjudica a las empresas sanitarias privadas.",
 "partido": ""
 },
 {
