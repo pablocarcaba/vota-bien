@@ -5,9 +5,9 @@ Casos dudosos detectados al reclasificar con la rúbrica v2. Para cerrar uno: co
 ## 1. Decisiones de criterio (afectan a la rúbrica)
 
 - [x] **Velo integral / ocultación del rostro**: 122/000237, 122/000256, 122/000259 tienen `-inmigrantes`; 124/000045 está vacía. Decidir un criterio común (¿`inmigrantes`, `minorias`, `mujeres` o vacía?). → **Decidido: `-minorias` en las cuatro** (rúbrica 3.7).
-- [ ] **Multirreincidencia en hurtos** (122/000083, 122/000089, 122/000090, 122/000091, 124/000037): `+secCom` como beneficio indirecto al comercio. ¿Se mantiene en leyes penales?
-- [ ] **Tauromaquia** (123/000002): `-secPrim` por la ganadería de lidia. 122/000145 (tauromaquia e infancia) está vacía.
-- [ ] **Voto a los 16** (122/000183): `+jovenes` aunque sea una reforma electoral.
+- [x] **Multirreincidencia en hurtos** (122/000083, 122/000089, 122/000090, 122/000091, 124/000037): `+secCom` como beneficio indirecto al comercio. ¿Se mantiene en leyes penales? → **Decidido: se mantiene como está.**
+- [x] **Tauromaquia** (123/000002): `-secPrim` por la ganadería de lidia. 122/000145 (tauromaquia e infancia) está vacía. → **Decidido: se mantiene como está.**
+- [x] **Voto a los 16** (122/000183): `+jovenes` aunque sea una reforma electoral. → **Decidido: se mantiene como está.**
 - [ ] **Seguridad vial**: alcohol al volante (122/000139, 122/000300) con `+ciud`; velocidad (122/000257) vacía por ser penal. ¿Se tratan igual?
 - [ ] **Sanidad pública frente a privada** (121/000094, 122/000082): vacías porque marcar `+pac` o `+ciud` sería valorativo y no hay colectivo para la sanidad privada.
 - [ ] **Leyes de Familias** (121/000011, 122/000053, 122/000059): `+monop` porque reconocen a las familias monoparentales; comprobar que las dos proposiciones incluyen lo mismo que el proyecto.

@@ -71,10 +71,11 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 .opt:hover{border-color:var(--muted)}
 .opt[aria-pressed="true"]{background:var(--accent);color:var(--sheet);border-color:var(--accent)}
 .main{display:flex;flex-direction:column;gap:20px;min-width:0}
-.rank{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
-@media (max-width:620px){.rank{grid-template-columns:minmax(0,1fr)}}
+.rank{display:grid;gap:2px;max-width:720px}
 .rank h3{font-size:14px;margin:0 0 8px;font-weight:600}
-.rrow{display:grid;grid-template-columns:22px 86px minmax(0,1fr) 54px;align-items:center;gap:8px;font-size:13px;padding:3px 0}
+.rrow{display:grid;grid-template-columns:22px 110px minmax(0,1fr) 46px;align-items:center;gap:4px 8px;font-size:13px;padding:6px 4px;width:100%;background:none;border:none;border-radius:6px;color:inherit;font-family:inherit;text-align:left;cursor:pointer}
+.rrow:hover{background:var(--soft)}
+.rank > .linkbtn{justify-self:start;margin-top:4px}
 .rrow .pos{font-family:var(--mono);color:var(--muted);text-align:right}
 .rrow .nm{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .dv{position:relative;height:12px;background:var(--soft);border-radius:3px}
@@ -82,7 +83,7 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 .dv span{position:absolute;top:0;bottom:0;border-radius:3px}
 .rrow .sc{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
 .rrow.few{opacity:.55}
-.rrow .det{grid-column:2/-1;margin-top:-4px;font-size:11.5px;color:var(--muted);font-family:var(--mono)}
+.rrow .det{grid-column:2/-1;font-size:11.5px;color:var(--muted);font-family:var(--mono)}
 .note{font-size:12px;color:var(--muted);margin-top:8px}
 .charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
 @media (max-width:760px){.charts{grid-template-columns:minmax(0,1fr)}}
@@ -149,10 +150,6 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
       <aside class="panel" id="filters" aria-label="Tu perfil"></aside>
       <div class="main">
         <div class="panel fuente" id="fuente" aria-label="Fuente y legislatura"></div>
-        <div class="charts">
-          <section class="panel" id="chart-prop"></section>
-          <section class="panel" id="chart-vote"></section>
-        </div>
         <section class="panel">
           <h2>Qué partido te favorece más</h2>
           <p class="hint" id="rank-hint"></p>
@@ -222,7 +219,7 @@ const pn = p => PNAME[p]||p;
 const COLOR_TXT = {pos:'Beneficia', neg:'Perjudica', mix:'Mixta', neu:'Sin efecto en tu perfil'};
 const VOTE_TXT = {s:'Sí', n:'No', a:'Abst.'};
 
-const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), mode:{prop:'abs', vote:'abs'}, list:null};
+const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null};
 try{ const d=new URLSearchParams(location.search).get('ds'); if(CATALOGO.some(c=>c.clave===d)) state.ds=d; }catch(e){}
 
 // perfil inicial: ?p=... (GitHub Pages) o ejemplo
@@ -249,27 +246,36 @@ function voteColor(imp, v){
 }
 const universe = () => ITEMS.filter(it=>it.tp===state.tab);
 
-function computeProp(){
-  const U = universe(); const out = {};
-  AUTHORS.forEach(a=>out[a]={pos:[],neg:[],mix:[],neu:[]});
-  U.forEach(it=>{ const c=impactOf(it); it.a.forEach(a=>{ if(out[a]) out[a][c].push(it); }); });
-  return out;
-}
-function computeVote(){
-  const U = universe(); const out = {};
-  PARTIES.forEach(p=>out[p]={pos:[],neg:[],mix:[],neu:[]});
-  U.forEach(it=>{ if(!it.v) return; const imp=impactOf(it); PARTIES.forEach(p=>{ const c=voteColor(imp,it.v[p]); if(c) out[p][c].push(it); }); });
-  return out;
-}
-const tot = o => o.pos.length+o.neg.length+o.mix.length+o.neu.length;
-// peso de cada iniciativa en el saldo según su alcance (campo w: 1 menor, 2 relevante, 3 gran reforma)
+// peso de cada iniciativa según su alcance (campo w: 1 menor, 2 relevante, 3 gran reforma)
 const PESO = {1:1, 2:3, 3:9};
 const PESO_TXT = {2:'Ley relevante', 3:'Gran reforma'};
 const wOf = it => PESO[it.w]||1;
-const sumW = a => a.reduce((t,it)=>t+wOf(it),0);
-function score(o){
-  const rel=o.pos.length+o.neg.length+o.mix.length, W=sumW(o.pos)+sumW(o.neg)+sumW(o.mix);
-  return {rel, np:o.pos.length, nn:o.neg.length, nm:o.mix.length, s: W? Math.round((sumW(o.pos)-sumW(o.neg))/W*100):0};
+// prueba de la postura de un partido ante una iniciativa (una sola vez por partido y ley):
+// votación final o convalidación 1; toma en consideración o totalidad 0,5; solo presentada (sin voto suyo) 0,25
+const FUERZA = {'Votación final':1, 'Convalidación':1, 'Toma en consideración':0.5, 'Enmienda a la totalidad':0.5};
+function evidence(it, p){
+  const imp = impactOf(it);
+  if(imp==='neu') return null;
+  if(it.v && it.v[p]){
+    const c = voteColor(imp, it.v[p]);
+    return c==='neu' ? null : {c, f:FUERZA[it.vk]||0.5, via:'voto'};
+  }
+  if(it.a.includes(p)) return {c:imp, f:0.25, via:'pres'};
+  return null;
+}
+function computeRank(){
+  const U = universe();
+  return PARTIES.map(p=>{
+    const r = {k:p, pos:0, neg:0, mix:0, pres:0, W:0, S:0};
+    U.forEach(it=>{
+      const e = evidence(it,p); if(!e) return;
+      const w = wOf(it)*e.f;
+      r[e.c]++; r.W+=w; if(e.c==='pos') r.S+=w; else if(e.c==='neg') r.S-=w;
+      if(e.via==='pres') r.pres++;
+    });
+    r.rel = r.pos+r.neg+r.mix; r.s = r.W ? Math.round(r.S/r.W*100) : 0;
+    return r;
+  }).filter(r=>r.rel>0).sort((a,b)=>b.s-a.s || b.rel-a.rel);
 }
 
 // ---------- render ----------
@@ -330,104 +336,59 @@ function renderFilters(){
     box.appendChild(o); holder.appendChild(box);
   });
 }
-function rankList(title, data, keys, nameFn){
-  const box=el('div'); box.appendChild(el('h3',{},title));
-  const rows = keys.map(k=>({k, ...score(data[k])})).filter(r=>r.rel>0).sort((a,b)=>b.s-a.s || b.rel-a.rel);
-  if(!rows.length){ box.appendChild(el('div',{class:'empty'},'Ninguna iniciativa de este bloque afecta a tu perfil.')); return box; }
-  rows.forEach((r,i)=>{
-    const few = r.rel<3;
-    const w = Math.abs(r.s)/2;
-    const bar = r.s>=0 ? `<span style="left:50%;width:${w}%;background:var(--pos)"></span>` : `<span style="right:50%;width:${w}%;background:var(--neg)"></span>`;
-    const det = `${r.np} a favor · ${r.nn} en contra${r.nm?` · ${r.nm} mixta${r.nm>1?'s':''}`:''}`;
-    box.appendChild(el('div',{class:'rrow'+(few?' few':''),title:`${r.rel} iniciativas te afectan: ${det}`},
-      `<span class="pos">${i+1}</span><span class="nm">${esc(nameFn(r.k))}</span><span class="dv">${bar}</span><span class="sc">${r.s>0?'+':''}${r.s}</span><span class="det">${det}</span>`));
-  });
-  return box;
-}
-function renderRank(P,V){
+function renderRank(){
   const r=$('rank'); r.innerHTML='';
-  $('rank-hint').textContent = state.sel.size
-    ? 'Saldo de −100 a +100: lo que te benefician sus iniciativas menos lo que te perjudican, entre las que te afectan. Cada iniciativa cuenta según su alcance: una gran reforma vale como 9 leyes menores y una ley relevante como 3. Debajo, cuántas iniciativas te afectan de cada tipo.'
+  $('rank-hint').innerHTML = state.sel.size
+    ? 'Saldo de −100 a +100 entre las iniciativas que afectan a tu perfil: lo que te favorece menos lo que te perjudica. Cuenta sobre todo cómo votó cada partido; lo que solo presentó pesa poco. Pulsa un partido para ver sus iniciativas. <a href="#metodologia">Cómo se calcula</a>.'
     : 'Marca al menos un rasgo en tu perfil para ver el ranking.';
-  if(!state.sel.size){ return; }
-  r.appendChild(rankList('Por las leyes que presentaron', P, AUTHORS, pn));
-  r.appendChild(rankList('Por cómo votaron', V, PARTIES, pn));
-  const n=el('p',{class:'note'},'Los partidos en gris tienen menos de 3 iniciativas que afecten a tu perfil: tómalo con cautela.');
-  r.appendChild(n); n.style.gridColumn='1/-1';
-}
-function renderChart(id, title, sub, data, keys, block){
-  const box=$(id); box.innerHTML='';
-  const head=el('div',{class:'chead'});
-  head.appendChild(el('h2',{},title));
-  const tg=el('div',{class:'toggle',role:'group','aria-label':'Escala'});
-  [['abs','Nº'],['pct','%']].forEach(([m,l])=>tg.appendChild(el('button',{'aria-pressed':String(state.mode[block]===m),onclick:()=>{state.mode[block]=m;render();}},l)));
-  head.appendChild(tg); box.appendChild(head);
-  box.appendChild(el('p',{class:'hint'},sub));
-  const rows = keys.filter(k=>tot(data[k])>0);
-  const max = Math.max(1,...rows.map(k=>tot(data[k])));
-  rows.forEach(k=>{
-    const o=data[k], t=tot(o);
-    const row=el('div',{class:'brow'});
-    row.appendChild(el('span',{class:'nm',title:pn(k)},esc(pn(k))));
-    const bar=el('div',{class:'bar'});
-    bar.style.width = state.mode[block]==='pct' ? '100%' : (t/max*100)+'%';
-    ['pos','neg','mix','neu'].forEach(c=>{
-      if(!o[c].length) return;
-      const b=el('button',{class:'c-'+c,title:`${pn(k)}: ${o[c].length} · ${COLOR_TXT[c]}`,'aria-label':`${pn(k)}, ${o[c].length} ${COLOR_TXT[c]}. Ver listado`,onclick:()=>openList(block,k,c)});
-      b.style.flex = o[c].length+' 1 0';
-      bar.appendChild(b);
-    });
-    const wrapBar=el('div'); wrapBar.appendChild(bar);
-    wrapBar.addEventListener('dblclick',()=>openList(block,k,null));
-    row.appendChild(wrapBar);
-    row.appendChild(el('button',{class:'n linkbtn',title:'Ver todas',onclick:()=>openList(block,k,null),style:'font-family:var(--mono);color:var(--muted)'},String(t)));
-    box.appendChild(row);
+  if(!state.sel.size) return;
+  const rows = computeRank();
+  if(!rows.length){ r.appendChild(el('div',{class:'empty'},'Ninguna iniciativa de esta pestaña afecta a tu perfil.')); return; }
+  rows.forEach((x,i)=>{
+    const w = Math.abs(x.s)/2;
+    const bar = x.s>=0 ? `<span style="left:50%;width:${w}%;background:var(--pos)"></span>` : `<span style="right:50%;width:${w}%;background:var(--neg)"></span>`;
+    const det = `${x.pos} a favor · ${x.neg} en contra${x.mix?` · ${x.mix} mixta${x.mix>1?'s':''}`:''}${x.pres?` · ${x.pres} solo presentada${x.pres>1?'s':''}`:''}`;
+    r.appendChild(el('button',{class:'rrow'+(x.rel<3?' few':''),title:`Ver las ${x.rel} iniciativas de ${pn(x.k)} que te afectan`,onclick:()=>openList(x.k,null)},
+      `<span class="pos">${i+1}</span><span class="nm">${esc(pn(x.k))}</span><span class="dv">${bar}</span><span class="sc">${x.s>0?'+':''}${x.s}</span><span class="det">${det}</span>`));
   });
-  const lg=el('div',{class:'legend'});
-  const L = block==='prop'
-    ? [['pos','Te beneficia'],['neg','Te perjudica'],['mix','Mixta'],['neu','No te afecta']]
-    : [['pos','Votó a tu favor'],['neg','Votó en tu contra'],['mix','Ley mixta'],['neu','Abstención o no te afecta']];
-  L.forEach(([c,t])=>lg.appendChild(el('span',{},`<i class="c-${c}"></i>${t}`)));
-  box.appendChild(lg);
+  r.appendChild(el('p',{class:'note'},'En gris, los partidos con menos de 3 iniciativas que te afecten: tómalo con cautela.'));
+  r.appendChild(el('button',{class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las iniciativas →'));
 }
 function renderPanel(){
   renderTabs(); renderProfile(); renderFilters();
-  const P=computeProp(), V=computeVote();
-  renderRank(P,V);
-  renderChart('chart-prop','Leyes presentadas','Iniciativas legislativas por autor. Pincha en un color para ver el listado.',P,AUTHORS,'prop');
-  renderChart('chart-vote','Votaciones','Voto de cada partido en la votación clave de cada iniciativa. Pincha en un color para ver el listado.',V,PARTIES,'vote');
+  renderRank();
 }
 
 // ---------- list view ----------
-function openList(block, who, color){ state.list={block,who,color}; go('lista'); }
+function openList(who, color){ state.list={who,color}; go('lista'); }
+const EV_TXT = {pos:'A tu favor', neg:'En tu contra', mix:'Mixta'};
 function renderList(){
   const v=$('view-lista'); v.innerHTML='';
-  const L = state.list || {block:'prop', who:'', color:null};
+  const L = state.list || {who:'', color:null};
   v.appendChild(el('button',{class:'nav-btn back',onclick:()=>go('')},'← Volver al panel'));
   const head=el('div',{class:'lhead'});
-  const blockTxt = L.block==='prop' ? 'Leyes presentadas' : 'Votaciones';
-  head.appendChild(el('div',{class:'eyebrow'}, `${blockTxt} · ${state.tab==='eco'?'Económicas':'Sociales'}`));
+  head.appendChild(el('div',{class:'eyebrow'}, `Iniciativas · ${state.tab==='eco'?'Económicas':'Sociales'}`));
   head.appendChild(el('h2',{}, L.who ? esc(pn(L.who)) : 'Todas las iniciativas'));
   v.appendChild(head);
   const fl=el('div',{class:'lfilters'});
-  const sBlock=el('select',{id:'f-block','aria-label':'Bloque'}); [['prop','Leyes presentadas'],['vote','Votaciones']].forEach(([k,t])=>sBlock.appendChild(new Option(t,k,false,k===L.block)));
-  const opts = L.block==='prop'?AUTHORS:PARTIES;
-  const sWho=el('select',{id:'f-who','aria-label':'Partido'}); sWho.appendChild(new Option('Todos','',false,!L.who)); opts.forEach(p=>sWho.appendChild(new Option(pn(p),p,false,p===L.who)));
-  const sCol=el('select',{id:'f-col','aria-label':'Efecto'}); sCol.appendChild(new Option('Todos los colores','',false,!L.color)); ['pos','neg','mix','neu'].forEach(c=>sCol.appendChild(new Option(L.block==='vote'?{pos:'A tu favor',neg:'En tu contra',mix:'Mixta',neu:'Abstención o sin efecto'}[c]:COLOR_TXT[c],c,false,c===L.color)));
   const sTab=el('select',{id:'f-tab','aria-label':'Tipo'}); [['eco','Económicas'],['soc','Sociales']].forEach(([k,t])=>sTab.appendChild(new Option(t,k,false,k===state.tab)));
-  const upd=()=>{ state.tab=sTab.value; const nb=sBlock.value; let w=sWho.value; if(nb==='vote' && !PARTIES.includes(w)) w=''; if(nb==='prop' && w && !AUTHORS.includes(w)) w=''; state.list={block:nb,who:w,color:sCol.value||null}; renderList(); };
-  [sTab,sBlock,sWho,sCol].forEach(s=>{s.addEventListener('change',upd); fl.appendChild(s);});
+  const sWho=el('select',{id:'f-who','aria-label':'Partido'}); sWho.appendChild(new Option('Todos los partidos','',false,!L.who)); PARTIES.forEach(p=>sWho.appendChild(new Option(pn(p),p,false,p===L.who)));
+  const cols = L.who ? EV_TXT : COLOR_TXT;
+  const sCol=el('select',{id:'f-col','aria-label':'Efecto'}); sCol.appendChild(new Option('Todos los efectos','',false,!L.color)); Object.entries(cols).forEach(([c,t])=>sCol.appendChild(new Option(t,c,false,c===L.color)));
+  const upd=()=>{ state.tab=sTab.value; const w=sWho.value; let c=sCol.value||null; if(w && c==='neu') c=null; state.list={who:w,color:c}; renderList(); };
+  [sTab,sWho,sCol].forEach(s=>{s.addEventListener('change',upd); fl.appendChild(s);});
   v.appendChild(fl);
 
-  let rows = universe();
-  if(L.block==='vote') rows = rows.filter(it=>it.v && (!L.who || it.v[L.who]));
-  if(L.block==='prop' && L.who) rows = rows.filter(it=>it.a.includes(L.who));
-  const colorOf = it => L.block==='vote' ? (L.who ? voteColor(impactOf(it), it.v[L.who]) : impactOf(it)) : impactOf(it);
-  if(L.color) rows = rows.filter(it=>colorOf(it)===L.color);
-  rows.sort((a,b)=>(b.w||1)-(a.w||1) || dkey(b)-dkey(a));
-  v.appendChild(el('p',{class:'hint'}, `${rows.length} iniciativas${state.sel.size?'':'. Marca tu perfil en el panel para ver colores.'}`));
+  let rows = universe().map(it=>({it, e: L.who ? evidence(it,L.who) : {c:impactOf(it)}}));
+  if(L.who) rows = rows.filter(x=>x.e);
+  if(L.color) rows = rows.filter(x=>x.e.c===L.color);
+  rows.sort((a,b)=>(b.it.w||1)-(a.it.w||1) || dkey(b.it)-dkey(a.it));
+  const hint = !state.sel.size ? `${rows.length} iniciativas. Marca tu perfil en el panel para ver colores.`
+    : L.who ? `${rows.length} iniciativas cuentan en el saldo de ${pn(L.who)}: las que te afectan y votó en el Pleno (sin contar abstenciones) o presentó sin llegar a votarlas.`
+    : `${rows.length} iniciativas.`;
+  v.appendChild(el('p',{class:'hint'}, esc(hint)));
   const list=el('div',{class:'items'});
-  rows.forEach(it=>list.appendChild(itemRow(it, colorOf(it), L)));
+  rows.forEach(x=>list.appendChild(itemRow(x.it, x.e.c, L.who, x.e)));
   if(!rows.length) list.appendChild(el('div',{class:'empty',style:'margin-top:12px'},'No hay iniciativas con estos filtros.'));
   v.appendChild(list);
 }
@@ -435,7 +396,7 @@ function dkey(it){ const d=(it.vd||it.f||'').split('/'); return d.length===3? +(
 function congresoUrl(id){
   return 'https://www.congreso.es/es/busqueda-de-iniciativas?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura='+encodeURIComponent(DATA.meta.leg)+'&_iniciativas_id='+encodeURIComponent(id);
 }
-function itemRow(it, color, L){
+function itemRow(it, color, who, ev){
   const c = color||'neu';
   const r=el('article',{class:'item'});
   r.appendChild(el('span',{class:'sw c-'+c}));
@@ -456,7 +417,7 @@ function itemRow(it, color, L){
   const side=el('div',{class:'side'});
   side.appendChild(el('span',{class:'tag t-'+impactOf(it)}, esc(COLOR_TXT[impactOf(it)])));
   if(PESO_TXT[it.w]) side.appendChild(el('span',{class:'tag peso',title:'Alcance de la iniciativa; cuenta más en el saldo del ranking'}, esc(PESO_TXT[it.w])));
-  if(L.block==='vote' && L.who && it.v && it.v[L.who]) side.appendChild(el('span',{class:'tag t-'+(c)}, `${esc(pn(L.who))}: ${VOTE_TXT[it.v[L.who]]}`));
+  if(who && ev) side.appendChild(el('span',{class:'tag t-'+c}, ev.via==='pres' ? `Presentada por ${esc(pn(who))}, sin votar` : `${esc(pn(who))}: ${VOTE_TXT[it.v[who]]}`));
   r.appendChild(side);
   return r;
 }
@@ -484,7 +445,9 @@ function renderMethod(){
     <h3>Alcance de cada iniciativa</h3>
     <p>Cada iniciativa tiene un alcance: gran reforma (cambia de forma estructural un ámbito que afecta a millones de personas, como una reforma laboral, de pensiones o unos presupuestos), ley relevante (regula de forma sustantiva un sector, un colectivo amplio o un derecho) o ley menor o técnica. Mide el tamaño de la norma, no si es buena o mala ni si se aprobó, y forma parte de la misma clasificación interpretativa.</p>
     <h3>Cómo se calcula el ranking</h3>
-    <p>Para cada partido se toman las iniciativas que afectan a tu perfil (las que presentó, o las que votó en el Pleno). Las que te benefician suman, las que te perjudican restan y las mixtas ni suman ni restan, pero cuentan en el total; las que no te afectan y las abstenciones no cuentan. Cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. El saldo es (beneficios − perjuicios) ÷ total × 100, de −100 a +100. Ejemplo: una gran reforma a favor (9) y tres leyes menores en contra (3) dan (9 − 3) ÷ 12 × 100 = +50.</p>
+    <p>Para cada partido se toman las iniciativas que afectan a tu perfil y se cuenta cada una una sola vez, según la mejor prueba que haya de su postura. Lo que más pesa es cómo votó: votar el texto final o la convalidación de un real decreto-ley cuenta 1; la toma en consideración o una enmienda a la totalidad, 0,5, porque solo decide si se debate. Las iniciativas que el partido presentó pero no llegó a votar en el Pleno cuentan 0,25: presentar una ley cuesta poco y no siempre busca aprobarla. Las abstenciones no cuentan.</p>
+    <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. El saldo es (a favor − en contra) ÷ total × 100, de −100 a +100. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ 12 × 100 = +50.</p>
+    <p>El Gobierno no aparece en el ranking: sus proyectos de ley y reales decretos-ley cuentan a través de cómo los votó cada partido.</p>
     <h3>Cómo se colorea</h3>
     <p>Verde si la iniciativa beneficia a algún rasgo de tu perfil y no perjudica a ninguno; rojo si perjudica sin beneficiar; ámbar si hace ambas cosas; gris si no afecta a tu perfil. En las votaciones, verde es votar sí a lo que te beneficia o no a lo que te perjudica; rojo, lo contrario; la abstención va en gris.</p>
     <h3>Limitaciones</h3>
