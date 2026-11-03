@@ -53,7 +53,7 @@ Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social
 
 ### 3.5 Vivienda y consumo
 - Control de alquileres o limitación de desahucios → +1 `inq` (y `jovenes` si se dirige a ellos; `pobreza` si protege a vulnerables) y -1 `prop2`/`prop3`/`prop4` (propietarios arrendadores).
-- Okupación y desalojos exprés → +1 propietarios (`prop1`–`prop4`).
+- Okupación y desalojos exprés → +1 `prop2`/`prop3`/`prop4`. **No** marques `prop1`: quien solo tiene su vivienda habitual no gana nada, porque ocuparla ya es allanamiento de morada y tiene desalojo inmediato; estas leyes benefician a quien tiene otras viviendas (que cuentan en su patrimonio).
 - Medidas sobre hipotecas (Euríbor, ayudas, código de buenas prácticas) → +1 `hipot`; si cuestan a la banca, -1 `secFin`.
 - Protección del consumidor, rebajas de tarifas o prohibición de prácticas abusivas → +1 `cons` y -1 al sector regulado si le supone coste.
 
