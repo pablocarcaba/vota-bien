@@ -104,6 +104,17 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 /* list view */
 .back{margin-bottom:14px}
 .lhead h2{font-family:var(--display);font-size:26px;font-weight:600;margin:0}
+.resumen{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 24px;margin:14px 0 6px;padding:14px 16px;border:1px solid var(--line);border-radius:8px;background:var(--sheet)}
+@media (max-width:620px){.resumen{grid-template-columns:minmax(0,1fr)}}
+.resumen h3{font-size:12px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 4px;font-weight:600}
+.resumen .big{font-family:var(--mono);font-size:22px;font-weight:600}
+.resumen ul{list-style:none;margin:4px 0 0;padding:0;font-size:13px;color:var(--muted)}
+.resumen .full{grid-column:1/-1}
+.sbar{display:flex;height:22px;border-radius:4px;overflow:hidden;background:var(--soft);margin-top:6px}
+.sbar button,.sbar span{border:none;padding:0;height:100%;min-width:0}
+.sbar button{cursor:pointer}.sbar button:hover{filter:brightness(1.12)}
+.slegend{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:12.5px;color:var(--muted);margin-top:8px}
+.slegend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
 .lfilters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
 .lfilters select{font:inherit;font-size:13px;padding:6px 8px;border:1px solid var(--line);border-radius:6px;background:var(--sheet);color:var(--ink)}
 .items{display:flex;flex-direction:column;border-top:1px solid var(--line)}
@@ -362,6 +373,40 @@ function renderPanel(){
 // ---------- list view ----------
 function openList(who, color){ state.list={who,color}; go('lista'); }
 const EV_TXT = {pos:'A tu favor', neg:'En tu contra', mix:'Mixta'};
+// cabecera de la ficha de un partido: presentadas, votaciones y balance para tu perfil (pestaña activa)
+function resumenPartido(p){
+  const U = universe(), tab = state.tab==='eco'?'económicas':'sociales';
+  const pres = U.filter(it=>it.a.includes(p)), vot = U.filter(it=>it.v && it.v[p]);
+  const desglose = (arr, key) => { const m={}; arr.forEach(it=>{ const k=key(it); m[k]=(m[k]||0)+1; }); return Object.entries(m).sort((a,b)=>b[1]-a[1]); };
+  const lista = rows => '<ul>'+rows.map(([k,n])=>`<li>${n} · ${esc(k)}</li>`).join('')+'</ul>';
+  const VS = {s:'sí',n:'no',a:'abstención'};
+  const box = el('div',{class:'resumen'});
+  box.appendChild(el('div',{}, `<h3>Leyes presentadas (${tab})</h3><div class="big">${pres.length}</div>${pres.length?lista(desglose(pres,it=>it.k)):''}`));
+  box.appendChild(el('div',{}, `<h3>Votaciones en el Pleno (${tab})</h3><div class="big">${vot.length}</div>${vot.length?lista(desglose(vot,it=>it.vk))+'<ul><li>'+desglose(vot,it=>VS[it.v[p]]).map(([k,n])=>`${n} ${k}`).join(' · ')+'</li></ul>':''}`));
+  // balance para tu perfil: cada iniciativa votada (o solo presentada) una vez
+  const cnt = {pos:0, mix:0, neu:0, neg:0};
+  U.forEach(it=>{
+    let c = null;
+    if(it.v && it.v[p]) c = voteColor(impactOf(it), it.v[p]);
+    else if(it.a.includes(p)) c = impactOf(it);
+    if(c) cnt[c]++;
+  });
+  const total = cnt.pos+cnt.mix+cnt.neu+cnt.neg;
+  const full = el('div',{class:'full'});
+  full.appendChild(el('h3',{}, state.sel.size ? 'Para tu perfil' : 'Para tu perfil (marca rasgos en el panel)'));
+  const TXT = {pos:'A tu favor', mix:'Mixtas', neu:'Neutras (no te afectan o se abstuvo)', neg:'En tu contra'};
+  const bar = el('div',{class:'sbar',role:'img','aria-label':Object.keys(cnt).map(c=>`${TXT[c]}: ${cnt[c]}`).join(', ')});
+  Object.keys(cnt).forEach(c=>{
+    if(!cnt[c]) return;
+    const seg = c==='neu' ? el('span',{class:'c-neu',title:`${TXT[c]}: ${cnt[c]}`})
+      : el('button',{class:'c-'+c,title:`${TXT[c]}: ${cnt[c]}. Ver solo estas`,onclick:()=>{ state.list={who:p,color:c}; renderList(); }});
+    seg.style.flex = cnt[c]+' 1 0'; bar.appendChild(seg);
+  });
+  if(total) full.appendChild(bar);
+  full.appendChild(el('div',{class:'slegend'}, Object.keys(cnt).map(c=>`<span><i class="c-${c}"></i>${TXT[c]}: <b>${cnt[c]}</b></span>`).join('')));
+  box.appendChild(full);
+  return box;
+}
 function renderList(){
   const v=$('view-lista'); v.innerHTML='';
   const L = state.list || {who:'', color:null};
@@ -370,6 +415,7 @@ function renderList(){
   head.appendChild(el('div',{class:'eyebrow'}, `Iniciativas · ${state.tab==='eco'?'Económicas':'Sociales'}`));
   head.appendChild(el('h2',{}, L.who ? esc(pn(L.who)) : 'Todas las iniciativas'));
   v.appendChild(head);
+  if(L.who) v.appendChild(resumenPartido(L.who));
   const fl=el('div',{class:'lfilters'});
   const sTab=el('select',{id:'f-tab','aria-label':'Tipo'}); [['eco','Económicas'],['soc','Sociales']].forEach(([k,t])=>sTab.appendChild(new Option(t,k,false,k===state.tab)));
   const sWho=el('select',{id:'f-who','aria-label':'Partido'}); sWho.appendChild(new Option('Todos los partidos','',false,!L.who)); PARTIES.forEach(p=>sWho.appendChild(new Option(pn(p),p,false,p===L.who)));
