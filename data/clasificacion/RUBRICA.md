@@ -19,7 +19,7 @@ Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social
 - Funcionarios por subgrupo: `funA1`, `funA2`, `funB`, `funC1`, `funC2E`
 - Pensionistas por pensión anual: `pen1` (<12.000 €, mínimas y no contributivas), `pen2` (12.000–25.000), `pen3` (25.000–42.000, hasta la máxima)
 - Desempleados: `desPres` (con prestación contributiva), `desSub` (subsidio o Ingreso Mínimo Vital)
-- Propietarios por patrimonio neto: `prop1` (<200.000 €), `prop2` (200.000–700.000), `prop3` (700.000–3 M), `prop4` (>3 M)
+- Propietarios por patrimonio neto **sin contar la vivienda habitual**: `prop1` (<200.000 €), `prop2` (200.000–700.000), `prop3` (700.000–3 M), `prop4` (>3 M)
 - Empresarios por tamaño: `empAut` (autónomos), `empMicro` (<2 M€ de facturación), `empPeq` (2–10 M), `empMed` (10–50 M), `empGran` (>50 M)
 - Empresarios por sector (complementa al tamaño): `secPrim` (agricultura, ganadería, pesca, forestal), `secInd` (industria, energía, minería, química), `secCons` (construcción, promoción e inmobiliario), `secTrans` (transporte y logística), `secCom` (comercio, hostelería y turismo), `secFin` (banca, seguros y finanzas), `secDig` (tecnología, telecomunicaciones y medios digitales)
 - Vivienda y consumo: `inq` (inquilinos), `hipot` (hipotecados), `cons` (consumidores y usuarios de suministros y servicios: luz, gas, agua, telecomunicaciones, banca, transporte)

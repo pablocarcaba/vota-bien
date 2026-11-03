@@ -169,7 +169,7 @@ const CATS = {
     {id:'fun', name:'Funcionarios · subgrupo', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
     {id:'pen', name:'Pensionistas · pensión anual', opts:[['pen1','Menos de 12.000 €'],['pen2','12.000–25.000 €'],['pen3','25.000–42.000 €']]},
     {id:'des', name:'Desempleados', opts:[['desPres','Con prestación'],['desSub','Subsidio o IMV']]},
-    {id:'prop', name:'Propietarios · patrimonio', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
+    {id:'prop', name:'Patrimonio · sin vivienda habitual', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
     {id:'emp', name:'Empresarios · facturación', opts:[['empAut','Autónomos'],['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
     {id:'sec', name:'Empresarios · sector', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones']]},
     {id:'viv', name:'Vivienda y consumo', multi:true, opts:[['inq','Inquilino'],['hipot','Hipotecado'],['cons','Consumidor y usuario']]},
@@ -432,7 +432,7 @@ function renderMethod(){
     <h3>Clasificación de impactos</h3>
     <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
     <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
-    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); patrimonio con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte.</p>
+    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte.</p>
     <h3>Cómo se colorea</h3>
     <p>Verde si la iniciativa beneficia a algún rasgo de tu perfil y no perjudica a ninguno; rojo si perjudica sin beneficiar; ámbar si hace ambas cosas; gris si no afecta a tu perfil. En las votaciones, verde es votar sí a lo que te beneficia o no a lo que te perjudica; rojo, lo contrario; la abstención va en gris.</p>
     <h3>Limitaciones</h3>
