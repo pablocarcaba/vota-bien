@@ -183,8 +183,10 @@ const CATS = {
     {id:'pro', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]}
   ],
   soc: [
-    {id:'gen', name:'Sexo y orientación', multi:true, opts:[['mujeres','Mujeres'],['lgtbi','LGTBI+']]},
-    {id:'edad', name:'Edad y familia', multi:true, opts:[['jovenes','Jóvenes'],['infancia','Infancia y familias'],['mayores','Mayores']]},
+    // Hombre/Mujer se excluyen entre sí; LGTBI+ se puede combinar con cualquiera de los dos
+    {id:'sexo', name:'Sexo', multi:true, excl:['hombres','mujeres'], opts:[['hombres','Hombre'],['mujeres','Mujer'],['lgtbi','LGTBI+']]},
+    {id:'edad', name:'Edad', pre:'Edad: ', opts:[['jovenes','Hasta 35 años'],['adultos','36–64 años'],['mayores','65 años o más']]},
+    {id:'fam', name:'Familia', multi:true, opts:[['infancia','Con hijos menores a cargo']]},
     {id:'sal', name:'Educación, salud y cuidados', multi:true, opts:[['estud','Estudiante'],['pac','Paciente o enfermo crónico'],['depend','Dependiente o cuidador']]},
     {id:'sit', name:'Otras situaciones', multi:true, opts:[['inmigrantes','Inmigrantes'],['discapacidad','Personas con discapacidad'],['victimas','Víctimas'],['rural','Medio rural'],['minorias','Minorías étnicas'],['pobreza','Riesgo de pobreza']]}
   ]
@@ -275,7 +277,11 @@ function copyLink(){
 function toggle(k){
   const c=CAT_OF[k];
   if(state.sel.has(k)) state.sel.delete(k);
-  else { if(!c.multi) c.opts.forEach(([o])=>state.sel.delete(o)); state.sel.add(k); }
+  else {
+    if(!c.multi) c.opts.forEach(([o])=>state.sel.delete(o));
+    if(c.excl && c.excl.includes(k)) c.excl.forEach(o=>state.sel.delete(o));
+    state.sel.add(k);
+  }
   isExample=false; render();
 }
 function renderFilters(){
@@ -283,7 +289,7 @@ function renderFilters(){
   f.appendChild(el('h2',{},'Tu perfil'));
   f.appendChild(el('p',{class:'hint'}, state.tab==='eco'
     ? 'En las categorías por tramo marca una opción; en el resto, todas las que te describan. «Ciudadanía general» está activa para todo el mundo; puedes quitarla. Lo que marques se mantiene al cambiar de pestaña.'
-    : 'Marca todos los colectivos a los que perteneces. «Ciudadanía general» está activa para todo el mundo; puedes quitarla. Lo que marques se mantiene al cambiar de pestaña.'));
+    : 'En sexo y edad marca una opción (LGTBI+ se puede combinar con cualquiera); en el resto, todos los colectivos a los que perteneces. «Ciudadanía general» está activa para todo el mundo; puedes quitarla. Lo que marques se mantiene al cambiar de pestaña.'));
   let grp=null, sub=null, holder=f;
   CATS[state.tab].forEach(c=>{
     // categorías agrupadas (p. ej. Patrimonio → Vivienda / Otro patrimonio)

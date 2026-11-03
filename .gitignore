@@ -12,3 +12,6 @@ __pycache__/
 
 # Archivos sueltos
 *.zip
+
+# Caché de descargas de congreso.es (se regenera con descargar_legislatura.py)
+data/cache/

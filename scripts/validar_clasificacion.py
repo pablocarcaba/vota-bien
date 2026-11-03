@@ -23,7 +23,7 @@ COLECTIVOS = {
     "secPrim", "secInd", "secCons", "secTrans", "secCom", "secFin", "secDig",
     "viv0", "viv1", "viv2", "inq", "hipot", "cons",
     "proSeg", "proSan", "proDoc",
-    "mujeres", "lgtbi", "jovenes", "infancia", "mayores", "inmigrantes", "discapacidad",
+    "hombres", "mujeres", "lgtbi", "jovenes", "adultos", "infancia", "mayores", "inmigrantes", "discapacidad",
     "victimas", "rural", "minorias", "estud", "pac", "depend", "pobreza",
 }
 PARTIDOS = {"", "Podemos", "BNG", "CC", "UPN", "Compromís"}
