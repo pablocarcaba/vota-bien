@@ -46,7 +46,7 @@ def main():
     partidos = {norm(p): p for p in set(cfg["nominal"].values())}
     out = {}
     for n, it in enumerate(pend, 1):
-        f = D.cached(os.path.join(ROOT, "data", "cache", leg.lower(), "fichas", it["id"].replace("/", "_") + ".json"),
+        f = D.cached(os.path.join(ROOT, "data", "cache", leg.lower(), "iniciativas", it["id"].replace("/", "_") + ".json"),
                      lambda: D.ficha(leg, it["id"]))
         bols = [b for b in (f or {}).get("BOLETINES", []) if b.get("pdf")]
         t = texto_pdf(leg, bols[0]["pdf"]) if bols else ""

@@ -455,7 +455,8 @@ function itemRow(it, color, who, ev){
   mid.appendChild(el('p',{class:'why'}, esc(why)));
   if(it.v){
     const vs=el('div',{class:'votes',title:it.vk+' · '+it.vd});
-    vs.appendChild(el('span',{class:'vv',style:'border:none;padding-left:0;color:var(--muted)'}, esc(it.vk)+':'));
+    const vkTxt = it.vk==='Enmienda a la totalidad' ? 'Postura ante la ley (deducida de la enmienda a la totalidad: votar sí a la enmienda es estar en contra de la ley)' : it.vk;
+    vs.appendChild(el('span',{class:'vv',style:'border:none;padding-left:0;color:var(--muted)'}, esc(vkTxt)+':'));
     PARTIES.forEach(p=>{ if(it.v[p]) vs.appendChild(el('span',{class:'vv '+it.v[p]}, `${esc(pn(p))} ${VOTE_TXT[it.v[p]]}`)); });
     mid.appendChild(vs);
   }
