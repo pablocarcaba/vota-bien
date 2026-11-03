@@ -57,7 +57,8 @@ def main():
         firma = norm(frag[-2500:] if len(frag) < 6000 else frag)
         votos = {}
         for k, p in nombres.items():
-            c = cabeza.count(k) + firma.count(k)
+            pat = r"\b" + re.escape(k) + r"\b"  # palabra completa: «Micó» no debe casar con «económico»
+            c = len(re.findall(pat, cabeza)) + len(re.findall(pat, firma))
             if c:
                 votos[p] = votos.get(p, 0) + c
         for k, p in partidos.items():

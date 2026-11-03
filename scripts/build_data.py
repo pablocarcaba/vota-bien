@@ -175,7 +175,8 @@ def authors(it, c):
             found.append(p)
     # grupos que agrupan varios partidos (Mixto, Plural): se sustituyen por el partido de la clasificación
     if c.get("partido"):
-        found = [c["partido"] if x in ("Mixto", "Plural") else x for x in found]
+        # puede ser varios, separados por comas (p. ej. "Podemos, BNG" cuando firman diputados de ambos)
+        found = [q for x in found for q in (c["partido"].split(", ") if x in ("Mixto", "Plural") else [x])]
     return found or ["Otros"]
 
 

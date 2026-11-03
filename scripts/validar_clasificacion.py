@@ -70,7 +70,7 @@ def main(args):
             n = len((x.get("nota") or "").split())
             if not 1 <= n <= 25:
                 errs.append(f"{w}: nota de {n} palabras")
-            if x.get("partido", "") not in PARTIDOS:
+            if any(q not in PARTIDOS for q in (x.get("partido") or "").split(", ")):
                 errs.append(f"{w}: partido {x.get('partido')!r}")
     if full:
         falta = items - seen
