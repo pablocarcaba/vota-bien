@@ -30,7 +30,8 @@ COLECTIVOS = {
 }
 # opciones del perfil que no son colectivos: se traducen a colectivos (IMPLICA en la plantilla)
 SOLO_PERFIL = {"hij0", "cuid"}
-PARTIDOS = {"", "Podemos", "BNG", "CC", "UPN", "Compromís"}
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from legislaturas import LEGISLATURAS
 
 
 def main(args):
@@ -42,6 +43,8 @@ def main(args):
     full = not paths
     paths = paths or sorted(glob.glob(os.path.join(ROOT, "data", "clasificacion", clave, "clas_*.json")))
     items = {x["id"] for x in json.load(open(os.path.join(ROOT, "data", "generado", clave, "items.json"), encoding="utf-8"))}
+    # partido permitido: solo los de grupos que agrupan varios partidos (los del mapeo nominal)
+    PARTIDOS = {""} | set(LEGISLATURAS[clave]["nominal"].values())
     errs, seen = [], set()
     for p in paths:
         for i, x in enumerate(json.load(open(p, encoding="utf-8"))):

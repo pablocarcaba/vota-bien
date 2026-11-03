@@ -173,8 +173,9 @@ def authors(it, c):
     for tag, p in GRP_TAG.items():
         if f"({tag})" in a and p not in found:
             found.append(p)
-    if "Mixto" in found and c.get("partido"):
-        found = [c["partido"] if x == "Mixto" else x for x in found]
+    # grupos que agrupan varios partidos (Mixto, Plural): se sustituyen por el partido de la clasificación
+    if c.get("partido"):
+        found = [c["partido"] if x in ("Mixto", "Plural") else x for x in found]
     return found or ["Otros"]
 
 
