@@ -82,6 +82,7 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 .dv span{position:absolute;top:0;bottom:0;border-radius:3px}
 .rrow .sc{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
 .rrow.few{opacity:.55}
+.rrow .det{grid-column:2/-1;margin-top:-4px;font-size:11.5px;color:var(--muted);font-family:var(--mono)}
 .note{font-size:12px;color:var(--muted);margin-top:8px}
 .charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
 @media (max-width:760px){.charts{grid-template-columns:minmax(0,1fr)}}
@@ -111,6 +112,7 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 .item .meta{font-size:12px;color:var(--muted);display:flex;flex-wrap:wrap;gap:4px 12px;font-family:var(--mono)}
 .item .why{font-size:13px;color:var(--muted);margin:6px 0 0}
 .item .side{font-size:12px;text-align:right;min-width:110px;display:flex;flex-direction:column;gap:4px;align-items:flex-end}
+.tag.peso{background:transparent;border:1px solid var(--line);color:var(--muted)}
 .tag{display:inline-block;font-size:12px;padding:2px 8px;border-radius:999px;white-space:nowrap}
 .t-pos{background:var(--pos-soft);color:var(--pos)}.t-neg{background:var(--neg-soft);color:var(--neg)}.t-mix{background:var(--mix-soft);color:var(--mix)}.t-neu{background:var(--soft);color:var(--muted)}
 .votes{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
@@ -260,7 +262,15 @@ function computeVote(){
   return out;
 }
 const tot = o => o.pos.length+o.neg.length+o.mix.length+o.neu.length;
-function score(o){ const rel=o.pos.length+o.neg.length+o.mix.length; return {rel, s: rel? Math.round((o.pos.length-o.neg.length)/rel*100):0}; }
+// peso de cada iniciativa en el saldo según su alcance (campo w: 1 menor, 2 relevante, 3 gran reforma)
+const PESO = {1:1, 2:3, 3:9};
+const PESO_TXT = {2:'Ley relevante', 3:'Gran reforma'};
+const wOf = it => PESO[it.w]||1;
+const sumW = a => a.reduce((t,it)=>t+wOf(it),0);
+function score(o){
+  const rel=o.pos.length+o.neg.length+o.mix.length, W=sumW(o.pos)+sumW(o.neg)+sumW(o.mix);
+  return {rel, np:o.pos.length, nn:o.neg.length, nm:o.mix.length, s: W? Math.round((sumW(o.pos)-sumW(o.neg))/W*100):0};
+}
 
 // ---------- render ----------
 const $ = id => document.getElementById(id);
@@ -328,15 +338,16 @@ function rankList(title, data, keys, nameFn){
     const few = r.rel<3;
     const w = Math.abs(r.s)/2;
     const bar = r.s>=0 ? `<span style="left:50%;width:${w}%;background:var(--pos)"></span>` : `<span style="right:50%;width:${w}%;background:var(--neg)"></span>`;
-    box.appendChild(el('div',{class:'rrow'+(few?' few':''),title:`${r.rel} iniciativas relevantes`},
-      `<span class="pos">${i+1}</span><span class="nm">${esc(nameFn(r.k))}</span><span class="dv">${bar}</span><span class="sc">${r.s>0?'+':''}${r.s} <span style="color:var(--muted)">·${r.rel}</span></span>`));
+    const det = `${r.np} a favor · ${r.nn} en contra${r.nm?` · ${r.nm} mixta${r.nm>1?'s':''}`:''}`;
+    box.appendChild(el('div',{class:'rrow'+(few?' few':''),title:`${r.rel} iniciativas te afectan: ${det}`},
+      `<span class="pos">${i+1}</span><span class="nm">${esc(nameFn(r.k))}</span><span class="dv">${bar}</span><span class="sc">${r.s>0?'+':''}${r.s}</span><span class="det">${det}</span>`));
   });
   return box;
 }
 function renderRank(P,V){
   const r=$('rank'); r.innerHTML='';
   $('rank-hint').textContent = state.sel.size
-    ? 'Saldo de −100 a +100: iniciativas que te benefician menos las que te perjudican, entre las que te afectan. El número pequeño indica cuántas te afectan.'
+    ? 'Saldo de −100 a +100: lo que te benefician sus iniciativas menos lo que te perjudican, entre las que te afectan. Cada iniciativa cuenta según su alcance: una gran reforma vale como 9 leyes menores y una ley relevante como 3. Debajo, cuántas iniciativas te afectan de cada tipo.'
     : 'Marca al menos un rasgo en tu perfil para ver el ranking.';
   if(!state.sel.size){ return; }
   r.appendChild(rankList('Por las leyes que presentaron', P, AUTHORS, pn));
@@ -413,7 +424,7 @@ function renderList(){
   if(L.block==='prop' && L.who) rows = rows.filter(it=>it.a.includes(L.who));
   const colorOf = it => L.block==='vote' ? (L.who ? voteColor(impactOf(it), it.v[L.who]) : impactOf(it)) : impactOf(it);
   if(L.color) rows = rows.filter(it=>colorOf(it)===L.color);
-  rows.sort((a,b)=>dkey(b)-dkey(a));
+  rows.sort((a,b)=>(b.w||1)-(a.w||1) || dkey(b)-dkey(a));
   v.appendChild(el('p',{class:'hint'}, `${rows.length} iniciativas${state.sel.size?'':'. Marca tu perfil en el panel para ver colores.'}`));
   const list=el('div',{class:'items'});
   rows.forEach(it=>list.appendChild(itemRow(it, colorOf(it), L)));
@@ -422,8 +433,7 @@ function renderList(){
 }
 function dkey(it){ const d=(it.vd||it.f||'').split('/'); return d.length===3? +(d[2]+d[1].padStart(2,'0')+d[0].padStart(2,'0')) : 0; }
 function congresoUrl(id){
-  if(id.startsWith('130')) return 'https://www.congreso.es/es/busqueda-de-iniciativas?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura=XV&_iniciativas_id='+encodeURIComponent(id);
-  return 'https://www.congreso.es/es/busqueda-de-iniciativas?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura=XV&_iniciativas_id='+encodeURIComponent(id);
+  return 'https://www.congreso.es/es/busqueda-de-iniciativas?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura='+encodeURIComponent(DATA.meta.leg)+'&_iniciativas_id='+encodeURIComponent(id);
 }
 function itemRow(it, color, L){
   const c = color||'neu';
@@ -445,6 +455,7 @@ function itemRow(it, color, L){
   r.appendChild(mid);
   const side=el('div',{class:'side'});
   side.appendChild(el('span',{class:'tag t-'+impactOf(it)}, esc(COLOR_TXT[impactOf(it)])));
+  if(PESO_TXT[it.w]) side.appendChild(el('span',{class:'tag peso',title:'Alcance de la iniciativa; cuenta más en el saldo del ranking'}, esc(PESO_TXT[it.w])));
   if(L.block==='vote' && L.who && it.v && it.v[L.who]) side.appendChild(el('span',{class:'tag t-'+(c)}, `${esc(pn(L.who))}: ${VOTE_TXT[it.v[L.who]]}`));
   r.appendChild(side);
   return r;
@@ -470,6 +481,10 @@ function renderMethod(){
     <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
     <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
     <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las leyes sobre alquiler y okupación afectan a quien tiene dos o más), hipoteca y alquiler; otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte.</p>
+    <h3>Alcance de cada iniciativa</h3>
+    <p>Cada iniciativa tiene un alcance: gran reforma (cambia de forma estructural un ámbito que afecta a millones de personas, como una reforma laboral, de pensiones o unos presupuestos), ley relevante (regula de forma sustantiva un sector, un colectivo amplio o un derecho) o ley menor o técnica. Mide el tamaño de la norma, no si es buena o mala ni si se aprobó, y forma parte de la misma clasificación interpretativa.</p>
+    <h3>Cómo se calcula el ranking</h3>
+    <p>Para cada partido se toman las iniciativas que afectan a tu perfil (las que presentó, o las que votó en el Pleno). Las que te benefician suman, las que te perjudican restan y las mixtas ni suman ni restan, pero cuentan en el total; las que no te afectan y las abstenciones no cuentan. Cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. El saldo es (beneficios − perjuicios) ÷ total × 100, de −100 a +100. Ejemplo: una gran reforma a favor (9) y tres leyes menores en contra (3) dan (9 − 3) ÷ 12 × 100 = +50.</p>
     <h3>Cómo se colorea</h3>
     <p>Verde si la iniciativa beneficia a algún rasgo de tu perfil y no perjudica a ninguno; rojo si perjudica sin beneficiar; ámbar si hace ambas cosas; gris si no afecta a tu perfil. En las votaciones, verde es votar sí a lo que te beneficia o no a lo que te perjudica; rojo, lo contrario; la abstención va en gris.</p>
     <h3>Limitaciones</h3>
@@ -477,7 +492,7 @@ function renderMethod(){
       <li>El título no siempre refleja todo el contenido de una ley; las leyes ómnibus pueden tener efectos que no se recogen.</li>
       <li>Una sola votación por iniciativa resume una tramitación más larga, con enmiendas y votos en comisión que aquí no se muestran.</li>
       <li>Una proposición presentada no implica que su autor la impulsara después, ni que se aprobara.</li>
-      <li>El saldo del ranking pesa igual una ley menor que una gran reforma.</li>
+      <li>El alcance de cada iniciativa es una estimación en tres niveles; dentro de cada nivel todas pesan igual.</li>
     </ul>
     <p class="small">Datos: ${esc(DATA.meta.fuente_txt)}, datos abiertos (iniciativas y votaciones). Generado el ${esc(DATA.meta.generado)}.</p>
   </div>`;

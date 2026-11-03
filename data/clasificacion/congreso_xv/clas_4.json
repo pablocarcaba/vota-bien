@@ -3,6 +3,7 @@
 "id": "124/000010",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reparto competencial de la Audiencia Nacional; norma procesal sin efecto distributivo directo.",
 "partido": ""
 },
@@ -14,6 +15,7 @@
 "funC1": 1,
 "funA2": 1
 },
+"peso": 1,
 "nota": "Coeficiente reductor de jubilación para policías, guardias civiles y vigilancia aduanera por la peligrosidad del trabajo.",
 "partido": ""
 },
@@ -25,6 +27,7 @@
 "victimas": 1,
 "pac": 1
 },
+"peso": 1,
 "nota": "Exime del IRPF las ayudas a afectados por la talidomida, personas con secuelas y discapacidad.",
 "partido": ""
 },
@@ -32,6 +35,7 @@
 "id": "124/000013",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Protección penal y administrativa del patrimonio histórico; sin efecto distributivo sobre colectivos concretos.",
 "partido": ""
 },
@@ -39,6 +43,7 @@
 "id": "124/000014",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Regula el envío de ayuda militar al extranjero; norma de defensa sin efecto distributivo.",
 "partido": ""
 },
@@ -50,6 +55,7 @@
 "mayores": 1,
 "discapacidad": 1
 },
+"peso": 1,
 "nota": "IVA superreducido para servicios de dependencia; abarata la atención a personas dependientes, mayores y con discapacidad.",
 "partido": ""
 },
@@ -57,6 +63,7 @@
 "id": "124/000016",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma penal contra el narcotráfico; sin efecto distributivo directo sobre colectivos.",
 "partido": ""
 },
@@ -67,6 +74,7 @@
 "viv1": 1,
 "viv2": 1
 },
+"peso": 2,
 "nota": "Reforma el régimen de comunidades de propietarios; afecta principalmente a propietarios de vivienda.",
 "partido": ""
 },
@@ -74,6 +82,7 @@
 "id": "124/000018",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Modifica la ley de residuos; el título no permite precisar si endurece o flexibiliza obligaciones.",
 "partido": ""
 },
@@ -81,6 +90,7 @@
 "id": "124/000019",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Organización del Ministerio Fiscal; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -90,6 +100,7 @@
 "imp": {
 "secCons": 1
 },
+"peso": 2,
 "nota": "Seguridad jurídica del planeamiento urbanístico para impulsar la construcción de vivienda; favorece al sector de la construcción y promoción.",
 "partido": ""
 },
@@ -99,6 +110,7 @@
 "imp": {
 "proSan": 1
 },
+"peso": 1,
 "nota": "Medidas frente a agresiones al personal sanitario; refuerza su protección en el trabajo.",
 "partido": ""
 },
@@ -109,6 +121,7 @@
 "asal1": 1,
 "asal2": 1
 },
+"peso": 2,
 "nota": "Eleva el mínimo exento de IRPF al nivel del SMI; beneficia a asalariados de rentas bajas.",
 "partido": ""
 },
@@ -118,6 +131,7 @@
 "imp": {
 "proSeg": 1
 },
+"peso": 1,
 "nota": "Modifica la carrera militar; afecta a las condiciones profesionales de los miembros de las Fuerzas Armadas.",
 "partido": ""
 },
@@ -129,6 +143,7 @@
 "rural": 1,
 "empAut": 1
 },
+"peso": 2,
 "nota": "Rebaja fiscal para agricultores y ganaderos; beneficia al sector primario, autónomos del campo y medio rural.",
 "partido": ""
 },
@@ -139,6 +154,7 @@
 "mujeres": 1,
 "victimas": 1
 },
+"peso": 1,
 "nota": "Especialización judicial en violencia sobre la mujer; refuerza la protección de las víctimas.",
 "partido": ""
 },
@@ -148,6 +164,7 @@
 "imp": {
 "victimas": 1
 },
+"peso": 1,
 "nota": "Amplía el reconocimiento y protección de las víctimas del terrorismo.",
 "partido": ""
 },
@@ -157,6 +174,7 @@
 "imp": {
 "victimas": 1
 },
+"peso": 1,
 "nota": "Ley orgánica complementaria de la reforma de protección a las víctimas del terrorismo.",
 "partido": ""
 },
@@ -164,6 +182,7 @@
 "id": "124/000028",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Causas de inelegibilidad electoral; norma electoral sin efecto distributivo.",
 "partido": ""
 },
@@ -173,6 +192,7 @@
 "imp": {
 "rural": 1
 },
+"peso": 1,
 "nota": "Mecanismo para garantizar servicios y evaluar el impacto de las políticas en el medio rural.",
 "partido": ""
 },
@@ -183,6 +203,7 @@
 "infancia": 1,
 "mujeres": 1
 },
+"peso": 2,
 "nota": "Medidas de conciliación y corresponsabilidad; beneficia a familias con hijos y a las mujeres, principales cuidadoras.",
 "partido": ""
 },
@@ -193,6 +214,7 @@
 "proSeg": 1,
 "funC1": 1
 },
+"peso": 1,
 "nota": "Coeficiente reductor de jubilación para militares de las Fuerzas Armadas por la peligrosidad del trabajo.",
 "partido": ""
 },
@@ -204,6 +226,7 @@
 "empMicro": 1,
 "empPeq": 1
 },
+"peso": 2,
 "nota": "Rebaja de impuestos a pymes y autónomos.",
 "partido": ""
 },
@@ -214,6 +237,7 @@
 "secPrim": 1,
 "rural": 1
 },
+"peso": 2,
 "nota": "Apoyo al sistema alimentario como sector estratégico; beneficia al sector agroalimentario y al medio rural.",
 "partido": ""
 },
@@ -223,6 +247,7 @@
 "imp": {
 "victimas": 1
 },
+"peso": 1,
 "nota": "Endurece el delito de enaltecimiento del terrorismo y humillación a sus víctimas.",
 "partido": ""
 },
@@ -230,6 +255,7 @@
 "id": "124/000035",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Régimen de los funcionarios con habilitación nacional en la administración local; norma organizativa.",
 "partido": ""
 },
@@ -237,6 +263,7 @@
 "id": "124/000036",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Representación internacional de federaciones deportivas; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -246,6 +273,7 @@
 "imp": {
 "secCom": 1
 },
+"peso": 1,
 "nota": "Endurece penas por multirreincidencia en hurtos y estafas; beneficia indirectamente al comercio, principal afectado por hurtos reiterados.",
 "partido": ""
 },
@@ -255,6 +283,7 @@
 "imp": {
 "inmigrantes": -1
 },
+"peso": 2,
 "nota": "Restringe la regularización de inmigrantes en situación irregular por arraigo.",
 "partido": ""
 },
@@ -262,6 +291,7 @@
 "id": "124/000039",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma penal genérica; el título no permite identificar efectos distributivos.",
 "partido": ""
 },
@@ -269,6 +299,7 @@
 "id": "124/000040",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Endurece requisitos penitenciarios para condenados por terrorismo; sin efecto distributivo directo.",
 "partido": ""
 },
@@ -276,6 +307,7 @@
 "id": "124/000041",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Protección de los símbolos oficiales; norma institucional o ideológica sin efecto distributivo.",
 "partido": ""
 },
@@ -285,6 +317,7 @@
 "imp": {
 "victimas": 1
 },
+"peso": 1,
 "nota": "Obliga a la Fiscalía a actuar de oficio ante homenajes a terroristas; protege la dignidad de las víctimas.",
 "partido": ""
 },
@@ -294,6 +327,7 @@
 "imp": {
 "victimas": 1
 },
+"peso": 1,
 "nota": "Amplía el reconocimiento y protección de las víctimas del terrorismo.",
 "partido": ""
 },
@@ -301,6 +335,7 @@
 "id": "124/000044",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Simplificación de trámites administrativos; efecto general difuso sin colectivo concreto.",
 "partido": ""
 },
@@ -308,6 +343,7 @@
 "id": "124/000045",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Regula la vestimenta en el espacio público; efecto sobre colectivos discutible, sin impacto distributivo claro.",
 "partido": ""
 },
@@ -315,6 +351,7 @@
 "id": "124/000046",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Cambia la elección de vocales del CGPJ; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -324,6 +361,7 @@
 "imp": {
 "inmigrantes": -1
 },
+"peso": 1,
 "nota": "Regula el rechazo en frontera en Ceuta y Melilla; restringe la entrada de inmigrantes irregulares.",
 "partido": ""
 },
@@ -331,6 +369,7 @@
 "id": "125/000001",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Custodia compartida preferente; efecto sobre la infancia y los progenitores discutible, sin impacto distributivo claro.",
 "partido": ""
 },
@@ -344,6 +383,7 @@
 "secFin": -1,
 "empGran": -1
 },
+"peso": 1,
 "nota": "Obliga a garantizar cajeros y servicios bancarios en municipios excluidos; beneficia a usuarios rurales y mayores, coste para la banca.",
 "partido": ""
 },
@@ -351,6 +391,7 @@
 "id": "125/000003",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma de la demarcación y planta judicial; norma organizativa sin efecto distributivo.",
 "partido": ""
 },
@@ -360,6 +401,7 @@
 "imp": {
 "secPrim": 1
 },
+"peso": 1,
 "nota": "Mantiene el trasvase Tajo-Segura; beneficia a los regantes y agricultores del Levante receptores del agua.",
 "partido": ""
 },
@@ -367,6 +409,7 @@
 "id": "125/000005",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Transfiere la AP-9 a Galicia; cambio competencial sin efecto distributivo directo.",
 "partido": ""
 },
@@ -377,6 +420,7 @@
 "secFin": -1,
 "empGran": -1
 },
+"peso": 1,
 "nota": "Exige a la banca rescatada devolver ayudas o compensaciones; coste para las grandes entidades financieras.",
 "partido": ""
 },
@@ -387,6 +431,7 @@
 "infancia": 1,
 "victimas": 1
 },
+"peso": 1,
 "nota": "Amplía la prescripción de delitos sexuales contra menores; refuerza la protección de las víctimas.",
 "partido": ""
 },
@@ -394,6 +439,7 @@
 "id": "125/000008",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Reforma parcial del Estatuto del Empleado Público; el título no permite precisar el efecto.",
 "partido": ""
 },
@@ -403,6 +449,7 @@
 "imp": {
 "pac": 1
 },
+"peso": 2,
 "nota": "Incluye gafas y productos de salud visual gratuitos en la sanidad pública; beneficia a los pacientes.",
 "partido": ""
 },
@@ -410,6 +457,7 @@
 "id": "125/000010",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Modifica el Estatuto del Empleado Público; el título no permite precisar el efecto.",
 "partido": ""
 },
@@ -417,6 +465,7 @@
 "id": "125/000011",
 "tipo": "eco",
 "imp": {},
+"peso": 3,
 "nota": "Reforma de IRPF, Sociedades, No Residentes y Patrimonio; el título no permite precisar quién gana o pierde.",
 "partido": ""
 },
@@ -424,6 +473,7 @@
 "id": "125/000012",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Modifica una disposición de la ley del sector eléctrico; el título no permite precisar el efecto.",
 "partido": ""
 },
@@ -431,6 +481,7 @@
 "id": "125/000013",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Cogestión autonómica de los aeropuertos de Baleares; norma competencial sin efecto distributivo.",
 "partido": ""
 },
@@ -440,6 +491,7 @@
 "imp": {
 "pac": 1
 },
+"peso": 1,
 "nota": "Ajustes procesales para garantizar el ejercicio de la eutanasia; beneficia a los pacientes que la solicitan.",
 "partido": ""
 },
@@ -449,6 +501,7 @@
 "imp": {
 "infancia": 1
 },
+"peso": 1,
 "nota": "Refuerza los controles de antecedentes para trabajar con menores; protege a la infancia.",
 "partido": ""
 },
@@ -460,6 +513,7 @@
 "discapacidad": 1,
 "depend": 1
 },
+"peso": 1,
 "nota": "Mejora la atención a personas con ELA y enfermedades irreversibles y en situación de dependencia.",
 "partido": ""
 },
@@ -467,6 +521,7 @@
 "id": "130/000001",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Medidas de justicia digital, función pública, régimen local y mecenazgo, principalmente organizativas, sin efecto distributivo claro.",
 "partido": ""
 },
@@ -477,6 +532,7 @@
 "desSub": 1,
 "infancia": 1
 },
+"peso": 3,
 "nota": "Reforma del subsidio por desempleo y medidas de conciliación; beneficia a desempleados con subsidio y familias.",
 "partido": ""
 },
@@ -495,6 +551,7 @@
 "inq": 1,
 "viv2": -1
 },
+"peso": 3,
 "nota": "Prorroga rebaja del IVA de alimentos, ayudas al transporte, bono social y suspensión de desahucios; ayudas agrarias por sequía.",
 "partido": ""
 },
@@ -506,6 +563,7 @@
 "pobreza": 1,
 "viv2": -1
 },
+"peso": 1,
 "nota": "Prorroga la suspensión de desahucios de hogares vulnerables; limita a los propietarios arrendadores.",
 "partido": ""
 },
@@ -517,6 +575,7 @@
 "depend": 1,
 "infancia": 1
 },
+"peso": 3,
 "nota": "Amplía y eleva el subsidio de desempleo, compatible con empleo; añade permisos de conciliación y cuidado.",
 "partido": ""
 },
@@ -527,6 +586,7 @@
 "jovenes": 1,
 "cons": 1
 },
+"peso": 1,
 "nota": "Bonifica el transporte público para jóvenes en verano de 2024.",
 "partido": ""
 },
@@ -541,6 +601,7 @@
 "pen1": 1,
 "desSub": 1
 },
+"peso": 3,
 "nota": "Prorroga rebaja del IVA de alimentos, bono social y ayudas al transporte; medidas fiscales y energéticas.",
 "partido": ""
 },
@@ -548,6 +609,7 @@
 "id": "130/000008",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Cambia la gobernanza de RTVE; norma institucional.",
 "partido": ""
 },
@@ -563,6 +625,7 @@
 "secCom": 1,
 "hipot": 1
 },
+"peso": 2,
 "nota": "Ayudas a afectados por la DANA: damnificados, negocios, agricultores y moratoria hipotecaria.",
 "partido": ""
 },
@@ -578,6 +641,7 @@
 "hipot": 1,
 "secCom": 1
 },
+"peso": 2,
 "nota": "Ayudas directas a afectados por la DANA, negocios y agricultores; moratoria de préstamos hipotecarios.",
 "partido": ""
 },
@@ -592,6 +656,7 @@
 "secPrim": 1,
 "secCom": 1
 },
+"peso": 2,
 "nota": "Medidas complementarias por la DANA: ayudas a damnificados, autónomos, empresas y sector agrario.",
 "partido": ""
 },
@@ -607,6 +672,7 @@
 "cons": 1,
 "viv2": -1
 },
+"peso": 3,
 "nota": "Revaloriza pensiones, prorroga ayudas al transporte y suspensión de desahucios de vulnerables, con coste para propietarios arrendadores.",
 "partido": ""
 },
@@ -617,6 +683,7 @@
 "empGran": -1,
 "secInd": -1
 },
+"peso": 2,
 "nota": "Gravamen temporal a las grandes energéticas en 2025.",
 "partido": ""
 },
@@ -628,6 +695,7 @@
 "pen2": 1,
 "pen3": 1
 },
+"peso": 2,
 "nota": "Mejora la compatibilidad de pensión de jubilación y trabajo.",
 "partido": ""
 },
@@ -644,6 +712,7 @@
 "cons": 1,
 "viv2": -1
 },
+"peso": 3,
 "nota": "Revaloriza pensiones, bonifica transporte, prorroga escudo social y suspensión de desahucios, y ayudas por la DANA.",
 "partido": ""
 },
@@ -654,6 +723,7 @@
 "ciud": 1,
 "secInd": 1
 },
+"peso": 1,
 "nota": "Incentiva vehículos eléctricos y puntos de recarga; reduce emisiones y apoya a la industria.",
 "partido": ""
 },
@@ -664,6 +734,7 @@
 "inmigrantes": 1,
 "infancia": 1
 },
+"peso": 2,
 "nota": "Reparte la acogida de menores migrantes no acompañados entre comunidades ante contingencias.",
 "partido": ""
 },
@@ -676,6 +747,7 @@
 "secInd": 1,
 "secPrim": 1
 },
+"peso": 2,
 "nota": "Ayudas y financiación a empresas exportadoras afectadas por aranceles de EE. UU.",
 "partido": ""
 },
@@ -686,6 +758,7 @@
 "jovenes": 1,
 "cons": 1
 },
+"peso": 1,
 "nota": "Bonifica el transporte público para jóvenes en verano de 2025.",
 "partido": ""
 },
@@ -693,6 +766,7 @@
 "id": "130/000020",
 "tipo": "eco",
 "imp": {},
+"peso": 2,
 "nota": "Medidas de recursos de la financiación autonómica y local; norma de financiación territorial.",
 "partido": ""
 },
@@ -700,6 +774,7 @@
 "id": "130/000021",
 "tipo": "eco",
 "imp": {},
+"peso": 2,
 "nota": "Refuerzo del sistema eléctrico tras el apagón; efectos sobre sectores y consumidores mixtos o inciertos.",
 "partido": ""
 },
@@ -707,6 +782,7 @@
 "id": "130/000022",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Declara acontecimientos con beneficios fiscales al patrocinio; efecto distributivo limitado.",
 "partido": ""
 },
@@ -719,6 +795,7 @@
 "mujeres": 1,
 "hombres": 1
 },
+"peso": 2,
 "nota": "Amplía el permiso de nacimiento y cuidado para ambos progenitores; beneficia a familias, madres y padres.",
 "partido": ""
 },
@@ -726,6 +803,7 @@
 "id": "130/000024",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Embargo de armas y medidas sobre Gaza; política exterior sin efecto distributivo claro.",
 "partido": ""
 },
@@ -738,6 +816,7 @@
 "pac": 1,
 "depend": 1
 },
+"peso": 2,
 "nota": "Refuerza la dependencia y la atención a personas con ELA y enfermedades irreversibles de alta complejidad.",
 "partido": ""
 },
@@ -750,6 +829,7 @@
 "empMicro": 1,
 "empPeq": 1
 },
+"peso": 2,
 "nota": "Medidas de reactivación y prevención tras la DANA; ayudas a afectados y negocios.",
 "partido": ""
 },
@@ -762,6 +842,7 @@
 "empMicro": 1,
 "secPrim": 1
 },
+"peso": 1,
 "nota": "Ayudas para la recuperación de La Palma tras el volcán: damnificados, autónomos, empresas y agricultura.",
 "partido": ""
 },
@@ -778,6 +859,7 @@
 "proDoc": 1,
 "proSeg": 1
 },
+"peso": 2,
 "nota": "Sube las retribuciones del personal del sector público.",
 "partido": ""
 },
@@ -788,6 +870,7 @@
 "empAut": 1,
 "empMicro": 1
 },
+"peso": 1,
 "nota": "Facilita inversión local y autonómica y aplaza requisitos de facturación electrónica a empresarios y profesionales.",
 "partido": ""
 },
@@ -800,6 +883,7 @@
 "cons": 1,
 "viv2": -1
 },
+"peso": 2,
 "nota": "Prorroga el escudo social: suspensión de desahucios y bono social; coste para propietarios arrendadores.",
 "partido": ""
 },
@@ -810,6 +894,7 @@
 "cons": 1,
 "jovenes": 1
 },
+"peso": 2,
 "nota": "Bonifica abonos de transporte público, con descuentos específicos para jóvenes.",
 "partido": ""
 },
@@ -819,6 +904,7 @@
 "imp": {
 "victimas": 1
 },
+"peso": 1,
 "nota": "Ayudas a víctimas de los accidentes ferroviarios de Adamuz y Gélida.",
 "partido": ""
 },
@@ -831,6 +917,7 @@
 "cons": 1,
 "viv2": -1
 },
+"peso": 2,
 "nota": "Escudo social: suspensión de desahucios y bono social, con coste para propietarios arrendadores; financiación territorial.",
 "partido": ""
 },
@@ -842,6 +929,7 @@
 "pen2": 1,
 "pen3": 1
 },
+"peso": 3,
 "nota": "Revaloriza las pensiones públicas.",
 "partido": ""
 },
@@ -851,6 +939,7 @@
 "imp": {
 "cons": 1
 },
+"peso": 1,
 "nota": "Garantiza acceso equitativo a bienes y servicios en emergencias; protege a consumidores.",
 "partido": ""
 },
@@ -864,6 +953,7 @@
 "empMicro": 1,
 "secPrim": 1
 },
+"peso": 1,
 "nota": "Ayudas por temporales en Andalucía y Extremadura a afectados, negocios y agricultura.",
 "partido": ""
 },
@@ -873,6 +963,7 @@
 "imp": {
 "victimas": 1
 },
+"peso": 1,
 "nota": "Reconoce a personas fallecidas o lesionadas en defensa de la democracia.",
 "partido": ""
 },
@@ -880,6 +971,7 @@
 "id": "130/000038",
 "tipo": "eco",
 "imp": {},
+"peso": 3,
 "nota": "Plan de respuesta a la crisis en Oriente Medio; el título no permite concretar beneficiarios.",
 "partido": ""
 },
@@ -890,6 +982,7 @@
 "inq": 1,
 "viv2": -1
 },
+"peso": 2,
 "nota": "Medidas de alquiler ante la crisis; beneficia a inquilinos con coste para propietarios arrendadores.",
 "partido": ""
 },
@@ -897,6 +990,7 @@
 "id": "130/000040",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Medidas urgentes de transporte; el título no permite concretar efectos.",
 "partido": ""
 },
@@ -908,6 +1002,7 @@
 "empAut": 1,
 "empMicro": 1
 },
+"peso": 1,
 "nota": "Beneficios fiscales y ayudas a afectados por la DANA y otras emergencias.",
 "partido": ""
 },
@@ -920,6 +1015,7 @@
 "desSub": 1,
 "asal1": 1
 },
+"peso": 2,
 "nota": "Reduce la aportación farmacéutica de pacientes, sobre todo pensionistas y rentas bajas.",
 "partido": ""
 },
@@ -927,6 +1023,7 @@
 "id": "130/000043",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Declara acontecimientos con beneficios fiscales al patrocinio; efecto distributivo limitado.",
 "partido": ""
 },
@@ -934,6 +1031,7 @@
 "id": "130/000044",
 "tipo": "eco",
 "imp": {},
+"peso": 2,
 "nota": "Medidas de recursos de la financiación territorial; norma de financiación.",
 "partido": ""
 },
@@ -944,6 +1042,7 @@
 "jovenes": 1,
 "cons": 1
 },
+"peso": 1,
 "nota": "Bonifica el transporte público para jóvenes en verano de 2026.",
 "partido": ""
 },
@@ -951,6 +1050,7 @@
 "id": "130/000046",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Autoriza operaciones de crédito a entes públicos; norma financiera sin efecto distributivo.",
 "partido": ""
 },
@@ -958,6 +1058,7 @@
 "id": "130/000047",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Garantiza la financiación del servicio público de RTVE; norma institucional sin efecto distributivo claro.",
 "partido": ""
 },
@@ -969,6 +1070,7 @@
 "discapacidad": 1,
 "depend": 1
 },
+"peso": 2,
 "nota": "Refuerza el Sistema de Dependencia con más financiación y prestaciones.",
 "partido": ""
 },
@@ -976,6 +1078,7 @@
 "id": "130/000049",
 "tipo": "eco",
 "imp": {},
+"peso": 2,
 "nota": "Medidas del plan ante la crisis de Oriente Medio; el título no permite concretar beneficiarios.",
 "partido": ""
 },
@@ -983,6 +1086,7 @@
 "id": "130/000050",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Jubilación parcial del personal laboral público e insularidad balear; sin colectivo específico en la rúbrica.",
 "partido": ""
 },
@@ -996,6 +1100,7 @@
 "rural": 1,
 "secPrim": 1
 },
+"peso": 1,
 "nota": "Protección laboral y social ante incendios forestales: ayuda a afectados, autónomos, pequeños negocios y explotaciones agrarias de zonas rurales.",
 "partido": ""
 },
@@ -1003,6 +1108,7 @@
 "id": "130/000052",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Registro y transparencia de grupos de interés; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -1013,6 +1119,7 @@
 "empAut": 1,
 "empMicro": 1
 },
+"peso": 1,
 "nota": "Medidas sociales y económicas de apoyo a Ceuta, con ayudas a autónomos y pequeñas empresas de la ciudad.",
 "partido": ""
 },
@@ -1026,6 +1133,7 @@
 "empPeq": 1,
 "secPrim": 1
 },
+"peso": 1,
 "nota": "Medidas fiscales para la reconstrucción de La Palma: beneficia a afectados por la erupción y a sus empresas; inversión autonómica sin colectivo concreto.",
 "partido": ""
 }

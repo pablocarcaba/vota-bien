@@ -24,7 +24,7 @@ def armonizar(clave):
             grupos.setdefault(m.group(1), []).append(i)
     n = 0
     for rdl, ids in grupos.items():
-        if len(ids) < 2 or all(c[i]["imp"] == c[ids[0]]["imp"] for i in ids):
+        if len(ids) < 2 or all((c[i]["imp"], c[i].get("peso")) == (c[ids[0]]["imp"], c[ids[0]].get("peso")) for i in ids):
             continue
         u, choque = {}, False
         for i in ids:
@@ -35,8 +35,9 @@ def armonizar(clave):
             print(f"AVISO RDL {rdl}: signos contradictorios entre {ids}; revísalo a mano")
             continue
         mejor = max(ids, key=lambda i: len(c[i]["imp"]))
+        peso = max(c[i].get("peso", 1) for i in ids)
         for i in ids:
-            c[i]["imp"], c[i]["nota"] = dict(u), c[mejor]["nota"]
+            c[i]["imp"], c[i]["nota"], c[i]["peso"] = dict(u), c[mejor]["nota"], peso
         n += 1
     for p, f in files.items():
         json.dump(f, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=0)

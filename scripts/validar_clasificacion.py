@@ -5,7 +5,7 @@ Uso:
   python3 scripts/validar_clasificacion.py congreso_xv           # una legislatura
   python3 scripts/validar_clasificacion.py congreso_xv f.json …  # ficheros concretos (sin comprobar cobertura)
 
-Comprueba: identificadores de colectivo válidos, valores ±1, tipo eco/soc, nota de 1 a 25 palabras,
+Comprueba: identificadores de colectivo válidos, valores ±1, tipo eco/soc, peso 1-3, nota de 1 a 25 palabras,
 partido permitido, ids existentes en items.json, sin duplicados, cobertura de todas las iniciativas
 y que los colectivos coinciden con los que ofrece site/template.html.
 """
@@ -65,6 +65,8 @@ def main(args):
                         errs.append(f"{w}: colectivo desconocido {k!r}")
                     if v not in (1, -1):
                         errs.append(f"{w}: valor {v!r} en {k}")
+            if x.get("peso") not in (1, 2, 3):
+                errs.append(f"{w}: peso {x.get('peso')!r}")
             n = len((x.get("nota") or "").split())
             if not 1 <= n <= 25:
                 errs.append(f"{w}: nota de {n} palabras")

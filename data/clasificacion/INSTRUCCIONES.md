@@ -17,10 +17,11 @@ Estas instrucciones son las mismas para cualquier legislatura y para quien clasi
 >
 > Lee entero `data/clasificacion/RUBRICA.md`: es la única fuente de criterios. No modifiques ningún fichero del proyecto.
 >
-> Para cada iniciativa, en el mismo orden y con el mismo id, produce `{"id", "tipo", "imp", "nota", "partido"}` según la sección 4 de la rúbrica.
+> Para cada iniciativa, en el mismo orden y con el mismo id, produce `{"id", "tipo", "imp", "peso", "nota", "partido"}` según la sección 4 de la rúbrica.
 > - Marca efectos directos y también los indirectos claros (rúbrica 3.1). Las leyes institucionales, procesales o electorales sin efecto distributivo claro llevan `imp: {}`: no fuerces impactos. No uses `ciud` para leyes ideológicas o institucionales (3.2).
 > - Usa lo que sepas de cada ley concreta (su contenido real, no solo el título) cuando lo conozcas con seguridad; si no, cíñete al título.
 > - Neutralidad estricta: describe efectos, sin valorarlos. El mismo criterio sea cual sea el partido autor.
+> - `peso` (1, 2 o 3): alcance de la norma según la rúbrica 3.8; reserva el 3 para las grandes reformas.
 > - `partido`: solo para el Grupo Mixto (o grupos que agrupen varios partidos) y solo si lo sabes con seguridad.
 > - `nota`: 25 palabras como máximo, en español, explicando los impactos.
 >

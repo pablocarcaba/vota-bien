@@ -213,7 +213,7 @@ for it in items:
     rec = {
         "id": it["id"], "t": it["titulo"], "k": short_kind(it), "a": a,
         "ao": otros_label(it) if a == ["Otros"] else "",
-        "f": it["fecha"], "r": res or it["situacion"], "tp": c["tipo"], "imp": c["imp"], "n": c["nota"],
+        "f": it["fecha"], "r": res or it["situacion"], "tp": c["tipo"], "imp": c["imp"], "w": c["peso"], "n": c["nota"],
     }
     if b:
         rec["v"] = b["st"]

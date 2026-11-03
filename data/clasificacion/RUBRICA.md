@@ -1,4 +1,4 @@
-# Rúbrica de clasificación de iniciativas legislativas (XV legislatura)
+# Rúbrica de clasificación de iniciativas legislativas (todas las legislaturas)
 
 Versión 2 (03/11/2026). Cambios respecto a la v1: se añaden la ciudadanía general, los sectores de empresa, la vivienda y el consumo, las profesiones públicas, los estudiantes, los pacientes, la dependencia y el riesgo de pobreza. Se pasa de "ante la duda, no marques" a "marca los efectos directos y los indirectos claros".
 
@@ -77,11 +77,21 @@ Sexo: `hombres`, `mujeres`, `lgtbi`. Edad: `jovenes` (hasta 35 años), `adultos`
 - Medidas generales para todos los asalariados (por ejemplo, la reducción de jornada) → +1 `asal1`–`asal4`.
 - Si dudas entre +1 y -1 para un colectivo, no lo marques. Si dudas solo de la intensidad, márcalo.
 
+### 3.8 Peso de la iniciativa (`peso`)
+Mide el alcance de la norma, no si es buena o mala ni si se aprobó. La web lo usa para que una gran reforma cuente más que una ley menor en el ranking (peso 3 = 9 leyes menores, peso 2 = 3).
+- **3 · Gran reforma:** cambia de forma estructural un ámbito que afecta a millones de personas o a toda la economía. Ejemplos: reforma laboral, reforma de pensiones, ley de vivienda, presupuestos generales, reforma fiscal amplia, ley de educación, paquetes anticrisis con muchas medidas de gasto o impuestos, salario mínimo o ingreso mínimo vital.
+- **2 · Ley relevante:** regula de forma sustantiva un sector, un colectivo amplio o un derecho concreto (p. ej. ley de familias, de bienestar animal, de un impuesto concreto, de una profesión).
+- **1 · Menor o técnica:** cambios puntuales (uno o pocos artículos), prórrogas, transposiciones técnicas, normas de alcance local o de un colectivo muy pequeño, y las institucionales o procesales.
+- Una iniciativa con `imp: {}` lleva normalmente peso 1, salvo que sea una gran reforma institucional (se le da su peso, aunque no puntúe en el ranking).
+- Las proposiciones se pesan por lo que proponen, aunque no prosperasen: si una proposición propone una gran reforma, peso 3.
+- El real decreto-ley y su tramitación como proyecto de ley llevan el mismo peso.
+
 ## 4. Formato de salida
 Un array JSON, un objeto por iniciativa, en el mismo orden de entrada:
 ```
-{"id":"122/000086","tipo":"soc","imp":{"estud":1,"asal1":1},"nota":"Amplía las becas; beneficia a estudiantes de rentas bajas.","partido":""}
+{"id":"122/000086","tipo":"soc","imp":{"estud":1,"asal1":1},"peso":2,"nota":"Amplía las becas; beneficia a estudiantes de rentas bajas.","partido":""}
 ```
 - `imp`: objeto colectivo → 1 o -1 (omite los neutros). Puede ser `{}`.
+- `peso`: 1, 2 o 3 según 3.8.
 - `nota`: máximo 25 palabras, en español y neutral; explica el porqué de los impactos (o de su ausencia).
-- `partido`: solo cuando el autor es el "Grupo Parlamentario Mixto": indica el partido proponente si lo sabes con seguridad (`Podemos`, `BNG`, `CC`, `UPN`, `Compromís`); si no, deja "". En el resto, "". **Conserva el valor existente** al reclasificar.
+- `partido`: solo cuando el autor es un grupo que agrupa varios partidos (Grupo Mixto; en la XIV también el Grupo Plural): indica el partido proponente si lo sabes con seguridad, con el nombre exacto que usa `nominal` en `scripts/legislaturas.py` para esa legislatura (XV: `Podemos`, `BNG`, `CC`, `UPN`, `Compromís`); si no, deja "". En el resto, "". **Conserva el valor existente** al reclasificar.

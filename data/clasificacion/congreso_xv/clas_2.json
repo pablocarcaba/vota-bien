@@ -8,6 +8,7 @@
 "prop4": -1,
 "secCons": -1
 },
+"peso": 3,
 "nota": "Medidas contra la especulación inmobiliaria; favorecen a inquilinos y restringen a grandes tenedores y promotores.",
 "partido": ""
 },
@@ -15,6 +16,7 @@
 "id": "122/000103",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Reforma de la ley de seguridad ciudadana; efecto sobre libertades públicas sin colectivo distributivo claro.",
 "partido": ""
 },
@@ -22,6 +24,7 @@
 "id": "122/000104",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Regulación de la información y la desinformación; sin efecto distributivo claro.",
 "partido": ""
 },
@@ -33,6 +36,7 @@
 "pen3": 1,
 "mayores": 1
 },
+"peso": 2,
 "nota": "Elimina penalizaciones por jubilación anticipada con carreras largas; mejora la pensión de quienes se jubilan antes.",
 "partido": ""
 },
@@ -42,6 +46,7 @@
 "imp": {
 "empAut": 1
 },
+"peso": 2,
 "nota": "Medidas de protección social y fiscal para los trabajadores autónomos.",
 "partido": ""
 },
@@ -49,6 +54,7 @@
 "id": "122/000107",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Regulación de la información y la desinformación; sin efecto distributivo claro.",
 "partido": ""
 },
@@ -59,6 +65,7 @@
 "pac": 1,
 "ciud": 1
 },
+"peso": 2,
 "nota": "Interoperabilidad de tarjeta sanitaria e historia clínica en todo el Estado; mejora la atención a pacientes desplazados y el servicio sanitario.",
 "partido": ""
 },
@@ -66,6 +73,7 @@
 "id": "122/000109",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Reforma del acceso a la carrera judicial; organización de la justicia sin efecto distributivo claro.",
 "partido": ""
 },
@@ -73,6 +81,7 @@
 "id": "122/000110",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma electoral sobre causas de inelegibilidad; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -82,6 +91,7 @@
 "imp": {
 "secInd": -1
 },
+"peso": 2,
 "nota": "Embargo de armas y menor gasto militar; reduce la actividad de la industria de defensa.",
 "partido": ""
 },
@@ -89,6 +99,7 @@
 "id": "122/000112",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma penal sobre legítima defensa; sin efecto distributivo claro.",
 "partido": ""
 },
@@ -98,6 +109,7 @@
 "imp": {
 "victimas": 1
 },
+"peso": 2,
 "nota": "Reconocimiento e investigación de los casos de bebés robados; beneficia a las víctimas y sus familias.",
 "partido": ""
 },
@@ -107,6 +119,7 @@
 "imp": {
 "secCons": 1
 },
+"peso": 2,
 "nota": "Reforma de la Ley de Suelo para dar seguridad jurídica al planeamiento urbanístico; favorece al sector promotor y constructor.",
 "partido": ""
 },
@@ -114,6 +127,7 @@
 "id": "122/000115",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma del Código Penal de contenido genérico; sin efecto distributivo claro.",
 "partido": ""
 },
@@ -121,6 +135,7 @@
 "id": "122/000116",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma de la Defensa Nacional sobre envío de ayuda militar; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -128,6 +143,7 @@
 "id": "122/000117",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Reforma de la LOE sin contenido distributivo identificable por el título.",
 "partido": ""
 },
@@ -135,6 +151,7 @@
 "id": "122/000118",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Reforma del Poder Judicial y del Ministerio Fiscal; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -146,6 +163,7 @@
 "jovenes": 1,
 "viv2": -1
 },
+"peso": 2,
 "nota": "Regula alquileres de temporada y de habitaciones; protege a inquilinos, a menudo jóvenes, y limita a los arrendadores.",
 "partido": ""
 },
@@ -153,6 +171,7 @@
 "id": "122/000120",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Restringe el comercio con asentamientos en territorios ocupados; efecto económico interno muy limitado.",
 "partido": ""
 },
@@ -163,6 +182,7 @@
 "secPrim": 1,
 "rural": 1
 },
+"peso": 2,
 "nota": "Declara estratégico el sistema alimentario; apoya a agricultores, ganaderos y al medio rural.",
 "partido": ""
 },
@@ -172,6 +192,7 @@
 "imp": {
 "secInd": -1
 },
+"peso": 1,
 "nota": "Introduce el embargo en el comercio exterior de material de defensa; restringe a la industria exportadora de armamento.",
 "partido": ""
 },
@@ -182,6 +203,7 @@
 "inmigrantes": 1,
 "infancia": 1
 },
+"peso": 2,
 "nota": "Reforma de extranjería sobre acogida de menores migrantes no acompañados; mejora su atención y reparto territorial.",
 "partido": ""
 },
@@ -193,6 +215,7 @@
 "cons": 1,
 "secFin": -1
 },
+"peso": 2,
 "nota": "Regula cláusulas abusivas en préstamos hipotecarios; protege a hipotecados y limita a las entidades financieras.",
 "partido": ""
 },
@@ -200,6 +223,7 @@
 "id": "122/000125",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Representación internacional de federaciones deportivas; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -207,6 +231,7 @@
 "id": "122/000126",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma del derecho de asociación; norma institucional sin efecto distributivo claro.",
 "partido": ""
 },
@@ -217,6 +242,7 @@
 "infancia": 1,
 "depend": 1
 },
+"peso": 2,
 "nota": "Recupera derechos de conciliación laboral; beneficia a trabajadores con hijos o familiares a cargo.",
 "partido": ""
 },
@@ -228,6 +254,7 @@
 "discapacidad": 1,
 "depend": 1
 },
+"peso": 2,
 "nota": "Ley ELA: atención y ayudas a pacientes con enfermedades irreversibles de alta complejidad, dependientes y sus cuidadores.",
 "partido": ""
 },
@@ -239,6 +266,7 @@
 "mujeres": 1,
 "depend": 1
 },
+"peso": 2,
 "nota": "Medidas de conciliación y corresponsabilidad; beneficia a familias, cuidadores y a mujeres, principales cuidadoras.",
 "partido": ""
 },
@@ -248,6 +276,7 @@
 "imp": {
 "cons": 1
 },
+"peso": 1,
 "nota": "Obliga a informar en facturas de luz y gas sobre resolución alternativa de litigios; beneficia a consumidores.",
 "partido": ""
 },
@@ -255,6 +284,7 @@
 "id": "122/000131",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Reforma de la ley de seguridad ciudadana; efecto sobre libertades públicas sin colectivo distributivo claro.",
 "partido": ""
 },
@@ -265,6 +295,7 @@
 "cons": 1,
 "secCom": -1
 },
+"peso": 1,
 "nota": "Previene la reduflación con obligaciones de información; protege a consumidores y supone carga para comercio y distribución.",
 "partido": ""
 },
@@ -274,6 +305,7 @@
 "imp": {
 "pac": 1
 },
+"peso": 2,
 "nota": "Regula las instrucciones previas sobre tratamientos médicos; refuerza la autonomía de los pacientes.",
 "partido": ""
 },
@@ -286,6 +318,7 @@
 "empPeq": 1,
 "secCom": 1
 },
+"peso": 1,
 "nota": "Bonificación de cuotas patronales en Ceuta y Melilla; reduce costes a pequeñas empresas de comercio, hostelería y turismo.",
 "partido": ""
 },
@@ -296,6 +329,7 @@
 "victimas": 1,
 "discapacidad": 1
 },
+"peso": 1,
 "nota": "Exime de IRPF las ayudas a afectados por la talidomida.",
 "partido": ""
 },
@@ -307,6 +341,7 @@
 "jovenes": 1,
 "viv2": -1
 },
+"peso": 2,
 "nota": "Regula alquileres temporales y de habitaciones; protege a inquilinos, a menudo jóvenes, y limita a los arrendadores.",
 "partido": ""
 },
@@ -314,6 +349,7 @@
 "id": "122/000137",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma del CIS; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -323,6 +359,7 @@
 "imp": {
 "secCom": 1
 },
+"peso": 1,
 "nota": "Beneficios fiscales al patrocinio de acontecimientos de excepcional interés público; favorece eventos y actividad turística.",
 "partido": ""
 },
@@ -332,6 +369,7 @@
 "imp": {
 "ciud": 1
 },
+"peso": 1,
 "nota": "Reduce la tasa de alcohol al volante y prohíbe difundir controles; mejora la seguridad vial general.",
 "partido": ""
 },
@@ -339,6 +377,7 @@
 "id": "122/000140",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Modificación de la ley de residuos sin dirección de efecto identificable por el título.",
 "partido": ""
 },
@@ -348,6 +387,7 @@
 "imp": {
 "proSan": 1
 },
+"peso": 2,
 "nota": "Medidas contra agresiones en el ámbito sanitario; protege al personal sanitario.",
 "partido": ""
 },
@@ -358,6 +398,7 @@
 "lgtbi": 1,
 "victimas": 1
 },
+"peso": 2,
 "nota": "Reparación a personas LGTBI represaliadas por la dictadura.",
 "partido": ""
 },
@@ -367,6 +408,7 @@
 "imp": {
 "empAut": 1
 },
+"peso": 2,
 "nota": "Pasarela de mutualistas alternativos al RETA; mejora la protección de profesionales por cuenta propia.",
 "partido": ""
 },
@@ -376,6 +418,7 @@
 "imp": {
 "pobreza": 1
 },
+"peso": 2,
 "nota": "Plan integral para barrios vulnerables; beneficia a residentes en riesgo de exclusión.",
 "partido": ""
 },
@@ -383,6 +426,7 @@
 "id": "122/000145",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Restringe la participación y asistencia de menores a la tauromaquia; efecto distributivo discutible.",
 "partido": ""
 },
@@ -394,6 +438,7 @@
 "empPeq": 1,
 "inq": 1
 },
+"peso": 1,
 "nota": "Permite materializar la RIC canaria en vivienda en alquiler; incentiva a empresas canarias y amplía oferta para inquilinos.",
 "partido": ""
 },
@@ -401,6 +446,7 @@
 "id": "122/000147",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Protección frente a demandas abusivas contra derechos fundamentales; norma procesal sin efecto distributivo claro.",
 "partido": ""
 },
@@ -410,6 +456,7 @@
 "imp": {
 "victimas": 1
 },
+"peso": 2,
 "nota": "Mecanismos ágiles ante emergencias como la DANA; beneficia a los afectados por catástrofes.",
 "partido": ""
 },
@@ -420,6 +467,7 @@
 "mujeres": 1,
 "victimas": 1
 },
+"peso": 1,
 "nota": "Refuerza los juzgados especializados en violencia sobre la mujer; beneficia a las víctimas.",
 "partido": ""
 },
@@ -429,6 +477,7 @@
 "imp": {
 "viv2": 1
 },
+"peso": 2,
 "nota": "Medidas contra la ocupación ilegal; agiliza la recuperación de inmuebles por sus propietarios.",
 "partido": ""
 },
@@ -441,6 +490,7 @@
 "pen3": 1,
 "mayores": 1
 },
+"peso": 3,
 "nota": "Revaloriza las pensiones en 2025; beneficia a todos los pensionistas.",
 "partido": ""
 },
@@ -453,6 +503,7 @@
 "empMicro": 1,
 "empPeq": 1
 },
+"peso": 2,
 "nota": "Ayudas complementarias para afectados por la DANA, incluidos negocios y autónomos.",
 "partido": ""
 },
@@ -463,6 +514,7 @@
 "cons": 1,
 "jovenes": 1
 },
+"peso": 2,
 "nota": "Mantiene bonificaciones del transporte público; beneficia a usuarios y a jóvenes.",
 "partido": ""
 },
@@ -470,6 +522,7 @@
 "id": "122/000154",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma del Código Penal Militar; norma penal institucional sin efecto distributivo claro.",
 "partido": ""
 },
@@ -477,6 +530,7 @@
 "id": "122/000155",
 "tipo": "eco",
 "imp": {},
+"peso": 3,
 "nota": "Reforma de IRPF, Sociedades, no residentes y Patrimonio; el título no permite fijar la dirección del efecto.",
 "partido": ""
 },
@@ -486,6 +540,7 @@
 "imp": {
 "asal1": 1
 },
+"peso": 2,
 "nota": "Eleva el mínimo exento de IRPF al nivel del SMI; beneficia a asalariados de rentas bajas.",
 "partido": ""
 },
@@ -495,6 +550,7 @@
 "imp": {
 "asal1": 1
 },
+"peso": 2,
 "nota": "Adapta el IRPF a la subida del SMI; evita tributación de salarios mínimos.",
 "partido": ""
 },
@@ -507,6 +563,7 @@
 "empMed": 1,
 "secCons": 1
 },
+"peso": 2,
 "nota": "Revisión de precios en contratos públicos; compensa a contratistas, sobre todo de obra pública, por la inflación.",
 "partido": ""
 },
@@ -522,6 +579,7 @@
 "empMicro": -1,
 "empPeq": -1
 },
+"peso": 3,
 "nota": "Reduce la jornada máxima a 35 horas; beneficia a asalariados y eleva costes laborales a pequeñas empresas.",
 "partido": ""
 },
@@ -532,6 +590,7 @@
 "desSub": 1,
 "pobreza": 1
 },
+"peso": 2,
 "nota": "Mejora el ingreso mínimo vital y regula ayudas de emergencia; beneficia a hogares vulnerables.",
 "partido": ""
 },
@@ -543,6 +602,7 @@
 "asal3": 1,
 "infancia": 1
 },
+"peso": 3,
 "nota": "Medidas tributarias y de apoyo familiar sin presupuestos; rebajas de IRPF para rentas medias y familias.",
 "partido": ""
 },
@@ -553,6 +613,7 @@
 "inq": 1,
 "viv2": -1
 },
+"peso": 2,
 "nota": "Reforma de arrendamientos urbanos a favor del inquilino; limita a los propietarios arrendadores.",
 "partido": ""
 },
@@ -560,6 +621,7 @@
 "id": "122/000163",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Tipifica el transporte de combustible para narcolanchas; norma penal sin efecto distributivo.",
 "partido": ""
 },
@@ -570,6 +632,7 @@
 "mujeres": 1,
 "victimas": 1
 },
+"peso": 1,
 "nota": "Endurece penas por matrimonio forzado; protege a sus víctimas, mayoritariamente mujeres.",
 "partido": ""
 },
@@ -577,6 +640,7 @@
 "id": "122/000165",
 "tipo": "eco",
 "imp": {},
+"peso": 1,
 "nota": "Reforma de la ley de puertos sin dirección de efecto identificable por el título.",
 "partido": ""
 },
@@ -586,6 +650,7 @@
 "imp": {
 "empGran": -1
 },
+"peso": 2,
 "nota": "Impuesto temporal sobre beneficios de grandes empresas cotizadas.",
 "partido": ""
 },
@@ -596,6 +661,7 @@
 "lgtbi": 1,
 "victimas": 1
 },
+"peso": 1,
 "nota": "Castiga las terapias de conversión; protege a personas LGTBI.",
 "partido": ""
 },
@@ -605,6 +671,7 @@
 "imp": {
 "empGran": -1
 },
+"peso": 2,
 "nota": "Impuesto temporal sobre beneficios de grandes empresas cotizadas.",
 "partido": ""
 },
@@ -616,6 +683,7 @@
 "secInd": -1,
 "secTrans": -1
 },
+"peso": 2,
 "nota": "Amplía el comercio de derechos de emisión; reduce emisiones y encarece la actividad industrial y del transporte.",
 "partido": ""
 },
@@ -627,6 +695,7 @@
 "secInd": -1,
 "secTrans": -1
 },
+"peso": 2,
 "nota": "Amplía el comercio de derechos de emisión; reduce emisiones y encarece la actividad industrial y del transporte.",
 "partido": ""
 },
@@ -638,6 +707,7 @@
 "empMicro": 1,
 "empPeq": 1
 },
+"peso": 1,
 "nota": "Bonifica cuotas empresariales durante bajas por nacimiento; reduce costes a pequeñas empresas.",
 "partido": ""
 },
@@ -645,6 +715,7 @@
 "id": "122/000172",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Delegación competencial en inmigración a Cataluña; norma institucional sin efecto distributivo claro.",
 "partido": ""
 },
@@ -656,6 +727,7 @@
 "asal5": -1,
 "asal6": -1
 },
+"peso": 2,
 "nota": "Multas de tráfico proporcionales a la renta; rebaja a rentas bajas y encarece a las altas.",
 "partido": ""
 },
@@ -663,6 +735,7 @@
 "id": "122/000174",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Garantías procesales del agente encubierto; norma procesal sin efecto distributivo.",
 "partido": ""
 },
@@ -672,6 +745,7 @@
 "imp": {
 "infancia": -1
 },
+"peso": 2,
 "nota": "Rebaja la edad penal y endurece sanciones a menores infractores.",
 "partido": ""
 },
@@ -682,6 +756,7 @@
 "ciud": 1,
 "secTrans": -1
 },
+"peso": 1,
 "nota": "Más controles de alcohol y drogas a conductores profesionales; mejora la seguridad vial con cargas al transporte.",
 "partido": ""
 },
@@ -693,6 +768,7 @@
 "secInd": 1,
 "cons": 1
 },
+"peso": 2,
 "nota": "Suprime impuestos a la producción eléctrica y nuclear; reduce costes a eléctricas y puede abaratar la factura.",
 "partido": ""
 },
@@ -703,6 +779,7 @@
 "inq": 1,
 "viv2": -1
 },
+"peso": 2,
 "nota": "Refuerza la ley de vivienda; protege a inquilinos y limita a los propietarios arrendadores.",
 "partido": ""
 },
@@ -713,6 +790,7 @@
 "empGran": 1,
 "secInd": 1
 },
+"peso": 2,
 "nota": "Garantiza la continuidad de la energía nuclear; beneficia a las grandes eléctricas propietarias.",
 "partido": ""
 },
@@ -722,6 +800,7 @@
 "imp": {
 "lgtbi": 1
 },
+"peso": 2,
 "nota": "Reconoce derechos de personas intersexuales y no binarias.",
 "partido": ""
 },
@@ -732,6 +811,7 @@
 "viv1": 1,
 "viv2": 1
 },
+"peso": 1,
 "nota": "Preserva conjuntos urbanos costeros en dominio público; protege a propietarios de viviendas tradicionales.",
 "partido": ""
 },
@@ -739,6 +819,7 @@
 "id": "122/000182",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma del Estatuto del Ministerio Fiscal; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -748,6 +829,7 @@
 "imp": {
 "jovenes": 1
 },
+"peso": 2,
 "nota": "Amplía el derecho de voto a los mayores de 16 años.",
 "partido": ""
 },
@@ -755,6 +837,7 @@
 "id": "122/000184",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Transparencia del Consejo de Estado; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -765,6 +848,7 @@
 "empGran": -1,
 "secInd": -1
 },
+"peso": 2,
 "nota": "Extingue concesiones hidroeléctricas y las asume una empresa pública; perjudica a las grandes eléctricas.",
 "partido": ""
 },
@@ -772,6 +856,7 @@
 "id": "122/000186",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma de la ley universitaria sin efecto distributivo identificable por el título.",
 "partido": ""
 },
@@ -779,6 +864,7 @@
 "id": "122/000187",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma del Tribunal Constitucional; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -788,6 +874,7 @@
 "imp": {
 "rural": 1
 },
+"peso": 1,
 "nota": "Garantiza servicios públicos esenciales a pequeños municipios rurales en emergencias.",
 "partido": ""
 },
@@ -798,6 +885,7 @@
 "discapacidad": 1,
 "estud": 1
 },
+"peso": 2,
 "nota": "Escolarización del alumnado con necesidades educativas especiales; afecta a estudiantes con discapacidad.",
 "partido": ""
 },
@@ -809,6 +897,7 @@
 "prop4": -1,
 "secCons": -1
 },
+"peso": 1,
 "nota": "Medidas fiscales contra la especulación inmobiliaria; grava a grandes propietarios e inversores inmobiliarios.",
 "partido": ""
 },
@@ -818,6 +907,7 @@
 "imp": {
 "inmigrantes": -1
 },
+"peso": 2,
 "nota": "Restringe la regularización de inmigrantes por arraigo.",
 "partido": ""
 },
@@ -825,6 +915,7 @@
 "id": "122/000192",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma penal sobre coacciones al derecho al trabajo; sin efecto distributivo claro.",
 "partido": ""
 },
@@ -835,6 +926,7 @@
 "inq": 1,
 "prop4": -1
 },
+"peso": 1,
 "nota": "Restaura el tanteo del inquilino en ventas conjuntas de vivienda; limita a los grandes tenedores.",
 "partido": ""
 },
@@ -844,6 +936,7 @@
 "imp": {
 "pac": 1
 },
+"peso": 1,
 "nota": "Compensación económica a personas celíacas por el sobrecoste de la dieta sin gluten.",
 "partido": ""
 },
@@ -851,6 +944,7 @@
 "id": "122/000195",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Derogación simbólica de decretos históricos; sin efecto distributivo.",
 "partido": ""
 },
@@ -861,6 +955,7 @@
 "inq": 1,
 "viv2": 1
 },
+"peso": 2,
 "nota": "Incentivos fiscales al alquiler asequible; beneficia a inquilinos y a propietarios que alquilan a precio limitado.",
 "partido": ""
 },
@@ -872,6 +967,7 @@
 "secInd": -1,
 "cons": 1
 },
+"peso": 2,
 "nota": "Titularidad pública de redes eléctricas e impulso del autoconsumo; perjudica a distribuidoras y favorece a consumidores.",
 "partido": ""
 },
@@ -882,6 +978,7 @@
 "pac": 1,
 "secInd": -1
 },
+"peso": 2,
 "nota": "Transparencia en precios y costes de medicamentos; favorece a pacientes y obliga a la industria farmacéutica.",
 "partido": ""
 },
@@ -889,6 +986,7 @@
 "id": "122/000199",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Obligaciones internacionales de no reconocimiento de ocupaciones; norma de política exterior sin efecto distributivo.",
 "partido": ""
 },
@@ -896,6 +994,7 @@
 "id": "122/000200",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Reforma del régimen electoral general; norma institucional sin efecto distributivo.",
 "partido": ""
 },
@@ -906,6 +1005,7 @@
 "lgtbi": 1,
 "victimas": 1
 },
+"peso": 1,
 "nota": "Penaliza las terapias de conversión; protege a personas LGTBI.",
 "partido": ""
 },
@@ -915,6 +1015,7 @@
 "imp": {
 "secPrim": -1
 },
+"peso": 1,
 "nota": "Prohíbe la acuicultura de pulpos; perjudica al sector acuícola.",
 "partido": ""
 },
@@ -926,6 +1027,7 @@
 "mujeres": 1,
 "depend": 1
 },
+"peso": 2,
 "nota": "Medidas de conciliación y corresponsabilidad; beneficia a familias, cuidadores y a mujeres, principales cuidadoras.",
 "partido": ""
 },
@@ -936,6 +1038,7 @@
 "secPrim": 1,
 "rural": 1
 },
+"peso": 2,
 "nota": "Declara estratégico el sistema alimentario; apoya a agricultores, ganaderos y al medio rural.",
 "partido": ""
 },
@@ -946,6 +1049,7 @@
 "victimas": 1,
 "discapacidad": 1
 },
+"peso": 1,
 "nota": "Exime de IRPF las ayudas a afectados por la talidomida.",
 "partido": ""
 },
@@ -953,6 +1057,7 @@
 "id": "122/000206",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Prohíbe contratar con empresas implicadas en corrupción; sin colectivo distributivo claro.",
 "partido": ""
 },
@@ -960,6 +1065,7 @@
 "id": "122/000207",
 "tipo": "soc",
 "imp": {},
+"peso": 1,
 "nota": "Prohíbe contratar con empresas implicadas en corrupción; sin colectivo distributivo claro.",
 "partido": ""
 },
@@ -967,6 +1073,7 @@
 "id": "122/000208",
 "tipo": "soc",
 "imp": {},
+"peso": 2,
 "nota": "Reforma de la LOMLOE; dirección del efecto discutible según el colectivo.",
 "partido": ""
 },
@@ -976,6 +1083,7 @@
 "imp": {
 "infancia": 1
 },
+"peso": 1,
 "nota": "Refuerza la protección de menores tutelados en desamparo.",
 "partido": ""
 }
