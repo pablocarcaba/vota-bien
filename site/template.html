@@ -170,14 +170,21 @@ const CATS = {
     {id:'pen', name:'Pensionistas · pensión anual', opts:[['pen1','Menos de 12.000 €'],['pen2','12.000–25.000 €'],['pen3','25.000–42.000 €']]},
     {id:'des', name:'Desempleados', opts:[['desPres','Con prestación'],['desSub','Subsidio o IMV']]},
     {id:'prop', name:'Propietarios · patrimonio', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
-    {id:'emp', name:'Empresarios · facturación', opts:[['empAut','Autónomos'],['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]}
+    {id:'emp', name:'Empresarios · facturación', opts:[['empAut','Autónomos'],['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
+    {id:'sec', name:'Empresarios · sector', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones']]},
+    {id:'viv', name:'Vivienda y consumo', multi:true, opts:[['inq','Inquilino'],['hipot','Hipotecado'],['cons','Consumidor y usuario']]},
+    {id:'pro', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]}
   ],
   soc: [
     {id:'gen', name:'Sexo y orientación', multi:true, opts:[['mujeres','Mujeres'],['lgtbi','LGTBI+']]},
     {id:'edad', name:'Edad y familia', multi:true, opts:[['jovenes','Jóvenes'],['infancia','Infancia y familias'],['mayores','Mayores']]},
-    {id:'sit', name:'Otras situaciones', multi:true, opts:[['inmigrantes','Inmigrantes'],['discapacidad','Personas con discapacidad'],['victimas','Víctimas'],['rural','Medio rural'],['minorias','Minorías étnicas']]}
+    {id:'sal', name:'Educación, salud y cuidados', multi:true, opts:[['estud','Estudiante'],['pac','Paciente o enfermo crónico'],['depend','Dependiente o cuidador']]},
+    {id:'sit', name:'Otras situaciones', multi:true, opts:[['inmigrantes','Inmigrantes'],['discapacidad','Personas con discapacidad'],['victimas','Víctimas'],['rural','Medio rural'],['minorias','Minorías étnicas'],['pobreza','Riesgo de pobreza']]}
   ]
 };
+// Ciudadanía general: rasgo común a todo el mundo, activo por defecto y visible en las dos pestañas
+const CIUD = {id:'ciu', name:'Todos', multi:true, opts:[['ciud','Ciudadanía general']]};
+CATS.eco.unshift(CIUD); CATS.soc.unshift(CIUD);
 const LABEL = {}; Object.values(CATS).flat().forEach(c=>c.opts.forEach(([k,v])=>LABEL[k]=(c.id==='asal'?'IRPF ':c.id==='fun'?'Funcionario ':c.id==='pen'?'Pensión ':c.id==='prop'?'Patrimonio ':'')+v));
 const CAT_OF = {}; Object.values(CATS).flat().forEach(c=>c.opts.forEach(([k])=>CAT_OF[k]=c));
 const PARTIES = DATA.meta.parties;
@@ -192,10 +199,12 @@ const state = {tab:'eco', sel:new Set(), mode:{prop:'abs', vote:'abs'}, list:nul
 // perfil inicial: ?p=... (GitHub Pages) o ejemplo
 try{
   const q = new URLSearchParams(location.search).get('p');
-  if(q) q.split(',').filter(k=>LABEL[k]).forEach(k=>state.sel.add(k));
+  if(q) q.split(',').filter(k=>LABEL[k]&&k!=='ciud').forEach(k=>state.sel.add(k));
 }catch(e){}
 let isExample = false;
 if(!state.sel.size){ state.sel.add('asal3'); state.sel.add('prop2'); isExample = true; }
+// ciudadanía activa salvo que el enlace diga c=0
+try{ if(new URLSearchParams(location.search).get('c')!=='0') state.sel.add('ciud'); }catch(e){ state.sel.add('ciud'); }
 
 function impactOf(it){
   let p=false,n=false;
@@ -245,12 +254,12 @@ function renderProfile(){
   [...state.sel].forEach(k=>p.appendChild(el('button',{class:'pchip',title:'Quitar',onclick:()=>{toggle(k);}}, esc(LABEL[k])+' ×')));
   const act=el('div',{class:'actions'});
   act.appendChild(el('button',{class:'linkbtn',onclick:copyLink,id:'copy-btn'},'Copiar enlace a este perfil'));
-  if(state.sel.size) act.appendChild(el('button',{class:'linkbtn',onclick:()=>{state.sel.clear();isExample=false;render();}},'Borrar'));
+  if([...state.sel].some(k=>k!=='ciud')) act.appendChild(el('button',{class:'linkbtn',onclick:()=>{const c=state.sel.has('ciud');state.sel.clear();if(c)state.sel.add('ciud');isExample=false;render();}},'Borrar'));
   p.appendChild(act);
 }
 function copyLink(){
   const base = location.origin && location.origin!=='null' ? location.origin+location.pathname : '';
-  const url = base + '?p=' + [...state.sel].join(',');
+  const url = base + '?p=' + [...state.sel].filter(k=>k!=='ciud').join(',') + (state.sel.has('ciud')?'':'&c=0');
   const b=$('copy-btn');
   const done = t => { b.textContent=t; setTimeout(()=>b.textContent='Copiar enlace a este perfil',2000); };
   try{ navigator.clipboard.writeText(url).then(()=>done('Enlace copiado'),()=>done(url)); }catch(e){ done(url); }
@@ -265,8 +274,8 @@ function renderFilters(){
   const f=$('filters'); f.innerHTML='';
   f.appendChild(el('h2',{},'Tu perfil'));
   f.appendChild(el('p',{class:'hint'}, state.tab==='eco'
-    ? 'Marca una opción en cada categoría que te describa. Lo que marques se mantiene al cambiar de pestaña.'
-    : 'Marca todos los colectivos a los que perteneces. Lo que marques se mantiene al cambiar de pestaña.'));
+    ? 'En las categorías por tramo marca una opción; en el resto, todas las que te describan. «Ciudadanía general» está activa para todo el mundo; puedes quitarla. Lo que marques se mantiene al cambiar de pestaña.'
+    : 'Marca todos los colectivos a los que perteneces. «Ciudadanía general» está activa para todo el mundo; puedes quitarla. Lo que marques se mantiene al cambiar de pestaña.'));
   CATS[state.tab].forEach(c=>{
     const box=el('div',{class:'cat'}); box.appendChild(el('h3',{},esc(c.name)));
     const o=el('div',{class:'opts'});
@@ -421,7 +430,8 @@ function renderMethod(){
     <p>Para cada iniciativa se toma una votación clave del Pleno, por este orden de preferencia: votación final (de conjunto o del dictamen), convalidación del real decreto-ley, toma en consideración y enmienda a la totalidad. En las enmiendas a la totalidad, votar sí equivale a oponerse a la ley, y se interpreta así. ${nv} iniciativas tienen votación clave en el Pleno; el resto no llegó a votarse en Pleno o se aprobó en comisión.</p>
     <p>El voto de un partido es el voto mayoritario de sus diputados presentes. Para Podemos, BNG, Coalición Canaria, UPN y Compromís, integrados en el Grupo Mixto, se usa el voto nominal de sus diputados. Los diputados no adscritos no se cuentan.</p>
     <h3>Clasificación de impactos</h3>
-    <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa y previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Muchas iniciativas no afectan a ningún colectivo concreto (reformas institucionales, procesales o técnicas) y aparecen en gris.</p>
+    <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
+    <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
     <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); patrimonio con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte.</p>
     <h3>Cómo se colorea</h3>
     <p>Verde si la iniciativa beneficia a algún rasgo de tu perfil y no perjudica a ninguno; rojo si perjudica sin beneficiar; ámbar si hace ambas cosas; gris si no afecta a tu perfil. En las votaciones, verde es votar sí a lo que te beneficia o no a lo que te perjudica; rojo, lo contrario; la abstención va en gris.</p>

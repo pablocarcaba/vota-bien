@@ -2,6 +2,8 @@
 
 Herramienta web que permite a cualquier persona marcar su perfil (tramo de IRPF, funcionario, pensionista, propietario, empresario, colectivos sociales…) y ver qué partidos presentaron y votaron leyes que le benefician o perjudican.
 
+Web: https://pablocarcaba.github.io/vota-bien/
+
 Piloto: XV legislatura del Congreso de los Diputados (17/08/2023 – disolución 06/10/2026). Datos descargados el 02/11/2026.
 
 ## Estructura
@@ -23,6 +25,7 @@ scripts/
   build_items.py        congreso_xv.json -> items.json
   build_data.py         items + clasificación + votaciones -> dataset.json
   build_page.py         template.html + dataset.json -> site/index.html
+  validar_clasificacion.py  Comprueba clas_*.json contra la rúbrica y los colectivos de la web
 site/
   template.html         Página (HTML/CSS/JS sin dependencias, salvo Google Fonts)
   index.html            Página final con los datos incrustados (lista para GitHub Pages)
@@ -31,6 +34,7 @@ site/
 ## Reconstruir
 
 ```
+python3 scripts/validar_clasificacion.py
 python3 scripts/build_items.py data/fuente/congreso_xv.json data/generado/items.json
 python3 scripts/build_data.py
 python3 scripts/build_page.py
@@ -48,12 +52,15 @@ python3 scripts/build_page.py
 
 ## Pendiente (siguientes pasos)
 
-1. **Publicar en GitHub Pages**: crear repositorio, subir `site/index.html` (renombrar o configurar Pages para servir `site/`). El enlace por perfil usa `?p=asal3,prop2`, que funciona en GitHub Pages.
-2. **Imagen de previsualización** (Open Graph) y metaetiquetas para compartir en redes y WhatsApp.
-3. **Revisar clasificaciones** de las leyes más relevantes (fiscales, vivienda, pensiones, laboral, migración).
-4. **Identificar el partido** de las 54 proposiciones del Grupo Mixto (ficha de cada iniciativa en congreso.es, campo de autores/firmantes).
-5. **Separar `dataset.json`** de la página si crece (cargarlo con `fetch` desde Pages).
-6. **Ampliar a otras legislaturas**: para legislaturas cerradas, el Congreso no publica el fichero de iniciativas; habría que reconstruirlas a partir de las votaciones o del buscador de iniciativas.
+1. **Imagen de previsualización** (Open Graph) y metaetiquetas para compartir en redes y WhatsApp.
+2. **Revisar clasificaciones** de las leyes más relevantes (fiscales, vivienda, pensiones, laboral, migración).
+3. **Identificar el partido** de las 54 proposiciones del Grupo Mixto (ficha de cada iniciativa en congreso.es, campo de autores/firmantes).
+4. **Separar `dataset.json`** de la página si crece (cargarlo con `fetch` desde Pages).
+5. **Ampliar a otras legislaturas**: para legislaturas cerradas, el Congreso no publica el fichero de iniciativas; habría que reconstruirlas a partir de las votaciones o del buscador de iniciativas.
+
+## Publicación
+
+Cada push a `main` que toque `site/` publica la carpeta en GitHub Pages (`.github/workflows/pages.yml`). Los enlaces por perfil usan `?p=asal3,prop2`; `&c=0` desactiva «Ciudadanía general», que está activa por defecto.
 
 ## Fuente y licencia de los datos
 
