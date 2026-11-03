@@ -891,9 +891,11 @@
 {
 "id": "122/000082",
 "tipo": "soc",
-"imp": {},
+"imp": {
+"ciud": 1
+},
 "peso": 2,
-"nota": "Limita la gestión privada en la sanidad pública; efecto sobre pacientes discutible y sin sector de la rúbrica para la sanidad privada.",
+"nota": "Limita la gestión privada en la sanidad pública; según el criterio de la rúbrica, beneficia a la ciudadanía en general.",
 "partido": ""
 },
 {

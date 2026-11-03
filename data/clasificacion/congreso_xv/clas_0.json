@@ -979,9 +979,11 @@
 {
 "id": "121/000094",
 "tipo": "soc",
-"imp": {},
+"imp": {
+"ciud": 1
+},
 "peso": 2,
-"nota": "Prioriza la gestión pública del Sistema Nacional de Salud; efecto sobre colectivos no claro.",
+"nota": "Prioriza la gestión pública del Sistema Nacional de Salud; según el criterio de la rúbrica, beneficia a la ciudadanía en general.",
 "partido": ""
 },
 {

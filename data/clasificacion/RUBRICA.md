@@ -64,6 +64,7 @@ Sexo: `hombres`, `mujeres`, `lgtbi`. Edad: `jovenes` (hasta 35 años), `adultos`
 ### 3.6 Educación, sanidad y cuidados
 - Becas, tasas, acceso a la universidad o FP → `estud` (+ los tramos de renta si dependen de umbrales económicos).
 - Sanidad pública, listas de espera, enfermedades raras, ELA, salud mental o medicamentos → `pac` (+ `discapacidad`/`depend` si procede). Salud pública general → también `ciud`.
+- Modelo de gestión sanitaria (criterio fijado en la revisión): reforzar la gestión pública o limitar la privada en el sistema público → +1 `ciud`; ampliar la gestión privada, conciertos o externalizaciones → -1 `ciud`.
 - Dependencia, permisos y prestaciones por cuidado → `depend` (+ `mujeres` si el efecto sobre las cuidadoras es explícito, + `mayores` si procede).
 - Condiciones laborales del personal sanitario, de los docentes o de las fuerzas de seguridad (salarios, equiparación, jubilación, condición de agente de la autoridad) → `proSan`/`proDoc`/`proSeg`.
 

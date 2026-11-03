@@ -9,7 +9,7 @@ Casos dudosos detectados al reclasificar con la rúbrica v2. Para cerrar uno: co
 - [x] **Tauromaquia** (123/000002): `-secPrim` por la ganadería de lidia. 122/000145 (tauromaquia e infancia) está vacía. → **Decidido: se mantiene como está.**
 - [x] **Voto a los 16** (122/000183): `+jovenes` aunque sea una reforma electoral. → **Decidido: se mantiene como está.**
 - [ ] **Seguridad vial**: alcohol al volante (122/000139, 122/000300) con `+ciud`; velocidad (122/000257) vacía por ser penal. ¿Se tratan igual?
-- [ ] **Sanidad pública frente a privada** (121/000094, 122/000082): vacías porque marcar `+pac` o `+ciud` sería valorativo y no hay colectivo para la sanidad privada.
+- [x] **Sanidad pública frente a privada** (121/000094, 122/000082): vacías porque marcar `+pac` o `+ciud` sería valorativo y no hay colectivo para la sanidad privada. → **Decidido: `+ciud` a lo que refuerza la gestión pública y `-ciud` a lo que amplía la privada** (rúbrica 3.6).
 - [ ] **Leyes de Familias** (121/000011, 122/000053, 122/000059): `+monop` porque reconocen a las familias monoparentales; comprobar que las dos proposiciones incluyen lo mismo que el proyecto.
 - [ ] **Custodia compartida** (125/000001): vacía. ¿`+hombres` o `civSep`? El efecto depende de quién solicite la custodia; signo discutible.
 - [ ] **Subsidio de mayores de 52** (121/000027, 130/000005): ¿añadir `adultos`?
