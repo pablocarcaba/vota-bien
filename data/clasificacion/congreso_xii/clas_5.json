@@ -1,0 +1,79 @@
+[
+{
+"id": "125/000020",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 3,
+"nota": "Deroga la reforma laboral de 2012; beneficia a los asalariados y eleva el coste laboral para las empresas.",
+"partido": ""
+},
+{
+"id": "125/000021",
+"tipo": "soc",
+"imp": {
+"pac": 1
+},
+"peso": 2,
+"nota": "Regula el cannabis, incluido su uso terapéutico; beneficia a pacientes que lo usan como tratamiento.",
+"partido": ""
+},
+{
+"id": "125/000022",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Saca la enseñanza de la religión del currículo escolar; sin efecto distributivo de signo claro.",
+"partido": ""
+},
+{
+"id": "125/000023",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modificación parcial de la ley de cohesión del SNS; contenido no determinable con seguridad por el título.",
+"partido": ""
+},
+{
+"id": "125/000024",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Transfiere a Galicia la titularidad y competencias de la AP-9, incluidas las tarifas; traspaso entre administraciones, la concesión sigue vigente.",
+"partido": ""
+},
+{
+"id": "125/000025",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Prohíbe la exploración y explotación de hidrocarburos en el Mediterráneo español; protección ambiental con coste para la industria extractiva.",
+"partido": ""
+},
+{
+"id": "125/000026",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Vuelve a limitar las rebajas a dos temporadas anuales de entre una semana y dos meses; signo del efecto sobre el comercio no claro.",
+"partido": ""
+},
+{
+"id": "125/000027",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modificación de la ley electoral y de financiación de partidos; norma electoral sin efecto distributivo.",
+"partido": ""
+}
+]
