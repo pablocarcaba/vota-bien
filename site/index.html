@@ -44,7 +44,8 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 .intro .claim{font-family:var(--display);font-weight:600;font-size:clamp(22px,3.4vw,30px);line-height:1.15;margin:0 0 4px;text-wrap:balance}
 .intro .claim span{color:var(--accent)}
 .intro .sub{color:var(--muted);margin:0 0 18px;max-width:72ch}
-.intro ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.intro ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+@media (max-width:980px){.intro ol{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .intro li{border-top:2px solid var(--accent);padding-top:10px}
 .intro li b{display:block;font-size:16px;margin-bottom:2px}
 .intro li small{font-size:13px;color:var(--muted);line-height:1.45;display:block}
@@ -98,6 +99,8 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 .rrow .sc{font-family:var(--mono);text-align:right;font-variant-numeric:tabular-nums}
 .rrow.few{opacity:.55}
 .rrow .det{grid-column:2/-1;font-size:11.5px;color:var(--muted);font-family:var(--mono)}
+.rrow .go{color:var(--accent);font-family:var(--body);font-weight:500;white-space:nowrap}
+.rrow:hover .go{text-decoration:underline}
 .note{font-size:12px;color:var(--muted);margin-top:8px}
 .charts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
 @media (max-width:760px){.charts{grid-template-columns:minmax(0,1fr)}}
@@ -175,7 +178,8 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
       <ol>
         <li><span class="num">01</span><b>Dinos quién eres.</b><small>Edad, trabajo, vivienda, familia. Medio minuto, sin registrarte.</small></li>
         <li><span class="num">02</span><b>Mira quién votó a tu favor.</b><small>Leyes reales del Congreso y del Parlamento Europeo, legislatura a legislatura.</small></li>
-        <li><span class="num">03</span><b>Decide tú.</b><small>No te decimos a quién votar. Te enseñamos lo que votaron.</small></li>
+        <li><span class="num">03</span><b>Comprueba cada ley.</b><small>Pulsa un partido y verás, una a una, qué presentó y qué votó: proyectos del Gobierno, proposiciones, decretos o normas europeas, y por qué te afectan.</small></li>
+        <li><span class="num">04</span><b>Decide tú.</b><small>No te decimos a quién votar. Te enseñamos lo que votaron.</small></li>
       </ol>
       <a class="cta" href="#filters" id="intro-cta">Empieza por tu perfil ↓</a>
     </section>
@@ -375,7 +379,7 @@ function renderFilters(){
 function renderRank(){
   const r=$('rank'); r.innerHTML='';
   $('rank-hint').innerHTML = state.sel.size
-    ? 'Saldo de −100 a +100 entre las iniciativas que afectan a tu perfil: lo que te favorece menos lo que te perjudica. '+(DATA.meta.formato==='europarlamento'?'Se basa en cómo votó cada partido.':'Cuenta sobre todo cómo votó cada partido; lo que solo presentó pesa poco.')+' Pulsa un partido para ver sus iniciativas. <a href="#metodologia">Cómo se calcula</a>.'
+    ? 'Saldo de −100 a +100 entre las iniciativas que afectan a tu perfil: lo que te favorece menos lo que te perjudica. '+(DATA.meta.formato==='europarlamento'?'Se basa en cómo votó cada partido.':'Cuenta sobre todo cómo votó cada partido; lo que solo presentó pesa poco.')+' <b>Pulsa un partido para ver el detalle ley a ley</b>: qué presentó, qué votó y por qué te afecta. <a href="#metodologia">Cómo se calcula</a>.'
     : 'Marca al menos un rasgo en tu perfil para ver el ranking.';
   if(!state.sel.size) return;
   const all = computeRank(), rows = state.hideFew ? all.filter(x=>x.rel>=3) : all;
@@ -390,11 +394,11 @@ function renderRank(){
     const bar = x.s>=0 ? `<span style="left:50%;width:${w}%;background:var(--pos)"></span>` : `<span style="right:50%;width:${w}%;background:var(--neg)"></span>`;
     const det = `${x.pos} a favor · ${x.neg} en contra${x.mix?` · ${x.mix} mixta${x.mix>1?'s':''}`:''}${x.pres?` · ${x.pres} solo presentada${x.pres>1?'s':''}`:''}`;
     r.appendChild(el('button',{class:'rrow'+(x.rel<3?' few':''),title:`Ver las ${x.rel} iniciativas de ${pn(x.k)} que te afectan`,onclick:()=>openList(x.k,null)},
-      `<span class="pos">${i+1}</span><span class="nm">${esc(pn(x.k))}</span><span class="dv">${bar}</span><span class="sc">${x.s>0?'+':''}${x.s}</span><span class="det">${det}</span>`));
+      `<span class="pos">${i+1}</span><span class="nm">${esc(pn(x.k))}</span><span class="dv">${bar}</span><span class="sc">${x.s>0?'+':''}${x.s}</span><span class="det">${det} · <span class="go">Ver ley a ley ›</span></span>`));
   });
   const ocultos = all.length-rows.length;
   r.appendChild(el('p',{class:'note'}, state.hideFew ? (ocultos?`${ocultos} partido${ocultos>1?'s':''} oculto${ocultos>1?'s':''} por tener menos de 3 iniciativas que te afecten.`:'Ningún partido oculto.') : 'En gris, los partidos con menos de 3 iniciativas que te afecten: tómalo con cautela.'));
-  r.appendChild(el('button',{class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las iniciativas →'));
+  r.appendChild(el('button',{class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las leyes de la legislatura, una a una →'));
 }
 function renderPanel(){
   renderTabs(); renderProfile(); renderFilters();
