@@ -37,7 +37,12 @@ def get(url, binario=False):
         if e.code == 404:
             return None
         raise
-    return raw if binario else json.loads(raw)
+    if binario:
+        return raw
+    try:
+        return json.loads(raw)
+    except ValueError:  # la API a veces responde vacío: se trata como sin datos
+        return None
 
 
 def texto(ref):

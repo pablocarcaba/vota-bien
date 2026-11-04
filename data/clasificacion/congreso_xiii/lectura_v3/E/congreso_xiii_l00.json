@@ -1,0 +1,521 @@
+[
+ {
+  "id": "130/000001",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas a afectados por la DANA y a sus negocios, incluidas explotaciones agrarias y ganaderas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000001",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Bonificación de cuotas y financiación para turismo, comercio y hostelería afectados por la insolvencia de Thomas Cook en Baleares y Canarias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000002",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Bonificación de cuotas y financiación para turismo, comercio y hostelería afectados por la insolvencia de Thomas Cook en Baleares y Canarias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000003",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Actualiza entregas a cuenta entre administraciones; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de seguridad pública en administración digital, contratación y telecomunicaciones; el contenido no permite fijar un colectivo ni un signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas organizativas para una conferencia internacional; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000006",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ejecución del presupuesto de la Seguridad Social; el título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000007",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajusta parámetros retributivos del sistema eléctrico y el cese de centrales térmicas; signo no determinable con el título.",
+  "partido": ""
+ },
+ {
+  "id": "122/000016",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Elimina los intereses y recargos al reintegrar ayudas no justificables a damnificados del terremoto de Lorca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000004",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1,
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Fomenta el contrato de formación dual para jóvenes de Garantía Juvenil y personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "120/000001",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1
+  },
+  "peso": 2,
+  "nota": "Fija garantías en la participación en el coste de prestaciones de dependencia, con exención por debajo de un umbral de capacidad económica.",
+  "partido": ""
+ },
+ {
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "desSub": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación de ingresos mínimos para personas sin recursos dentro de la Seguridad Social.",
+  "partido": ""
+ },
+ {
+  "id": "120/000003",
+  "tipo": "eco",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Equipara los salarios de las Policías del Estado.",
+  "partido": ""
+ },
+ {
+  "id": "120/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000005",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "proSan": 1
+  },
+  "peso": 1,
+  "nota": "Establece ratios de enfermeras en centros sanitarios para la seguridad del paciente.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000008",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Elimina el 30 % de copago farmacéutico a pensionistas y beneficiarios de MUFACE e ISFAS.",
+  "partido": ""
+ },
+ {
+  "id": "122/000001",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Agiliza la recuperación de viviendas ocupadas en comunidades de propietarios; beneficia a quienes tienen vivienda en propiedad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Limita la financiación estatal de partidos políticos; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000003",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el impuesto sobre el valor de la producción de energía eléctrica, que grava a los generadores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000005",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Complemento retributivo para jueces y fiscales destinados en Cataluña; colectivo sin identificador propio en la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección de denunciantes de corrupción; norma institucional sin colectivo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Control parlamentario del Gobierno; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de la ley de secretos oficiales; norma institucional sin colectivo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal que suprime la prisión permanente revisable; las normas penales no se asignan a colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de la ley de seguridad ciudadana; el título no permite determinar un colectivo ni un signo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de la ley del Tribunal Constitucional; norma institucional sin colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000012",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de apoyo a las familias con hijos y de conciliación laboral, con atención a la situación de las mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000013",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Atribuye a la entidad prestamista el pago del impuesto de actos jurídicos documentados en las hipotecas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000014",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos, reparación y protección de la memoria de las víctimas del terrorismo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la gestación por sustitución y sus requisitos; efectos con signos mixtos o sin colectivo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000017",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secFin": -1
+  },
+  "peso": 3,
+  "nota": "Ley de cambio climático: objetivos de emisiones, transición energética y fiscalidad ambiental, con impuesto a las transacciones financieras.",
+  "partido": ""
+ },
+ {
+  "id": "122/000018",
+  "tipo": "eco",
+  "imp": {
+   "infancia": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación económica por hijo o menor a cargo para reducir la pobreza infantil.",
+  "partido": ""
+ },
+ {
+  "id": "122/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga el plazo máximo de instrucción penal; norma procesal sin colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000020",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Revierte al Estado los saltos hidroeléctricos al terminar la concesión; pasan a gestión pública y pierde el sector eléctrico.",
+  "partido": ""
+ },
+ {
+  "id": "122/000021",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime la aplicación del Código Penal Militar a la Guardia Civil; norma penal sin signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000022",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Anula preceptos de la ley de amnistía y las sentencias franquistas contrarias a derechos humanos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000023",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Reduce los plásticos de un solo uso; mejora ambiental y nuevas exigencias a la industria que los produce.",
+  "partido": ""
+ },
+ {
+  "id": "122/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal sobre maltrato animal; las normas penales no se asignan a colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000025",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Cierre progresivo de las centrales nucleares; pierde el sector de generación eléctrica nuclear.",
+  "partido": ""
+ },
+ {
+  "id": "122/000026",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Crea un fondo estatal para financiar la accesibilidad universal de las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000027",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Normas contra la corrupción y las puertas giratorias; norma institucional sin colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000028",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Promueve el buen trato y la protección frente a la violencia contra la infancia y la adolescencia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000029",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Crea un recargo de solidaridad sobre la banca; perjudica a las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "122/000030",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula la eutanasia y la ayuda a morir para pacientes con sufrimiento grave.",
+  "partido": ""
+ },
+ {
+  "id": "122/000031",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo y la ocupación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000032",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el procedimiento de aprobación de objetivos de estabilidad presupuestaria; norma institucional sin colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000033",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula la eutanasia y la ayuda a morir para pacientes con sufrimiento grave.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga el plazo máximo de instrucción penal; norma procesal sin colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000035",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Búsqueda e identificación de desaparecidos de la Guerra Civil y la dictadura, con reparación a sus familias.",
+  "partido": ""
+ },
+ {
+  "id": "122/000036",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "lgtbi": 1,
+   "minorias": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Ley integral contra la discriminación; protege a colectivos discriminados por sexo, orientación, origen étnico o religión y discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000037",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: tipifica homenajes a terroristas y hace imprescriptibles delitos de terrorismo; sin derechos o ayudas a colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000038",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo y la ocupación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000039",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los funcionarios de prisiones la condición de agentes de la autoridad.",
+  "partido": ""
+ }
+]

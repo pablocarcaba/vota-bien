@@ -1,0 +1,472 @@
+[
+ {
+  "id": "120/000001",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1,
+   "discapacidad": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Reduce y modula la participación en el coste de las prestaciones de dependencia, con exención bajo un umbral de capacidad económica.",
+  "partido": ""
+ },
+ {
+  "id": "120/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la mediación como método de resolución de conflictos; norma procesal sin efecto directo sobre un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "120/000003",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación de ingresos mínimos de la Seguridad Social para personas sin recursos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la responsabilidad parental y las relaciones familiares tras la ruptura; el signo para cada colectivo no consta con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "120/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solicitud sobre la custodia de pliegos de firmas; sin efectos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Dación en pago: la entrega de la vivienda salda la deuda hipotecaria; beneficia a hipotecados y perjudica a la banca.",
+  "partido": ""
+ },
+ {
+  "id": "120/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Elimina privilegios retributivos de cargos políticos cesados; norma institucional sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suspende el calendario de implantación de la ley educativa; el signo para cada colectivo no es determinable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000002",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "inmigrantes": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Universaliza la asistencia sanitaria pública, incluidos extranjeros sin permiso de residencia y personas sin vínculo con la Seguridad Social.",
+  "partido": ""
+ },
+ {
+  "id": "122/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Facilita el voto de los españoles residentes en el exterior; norma electoral sin colectivo con efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la elección parlamentaria de los órganos de RTVE; norma institucional sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga el plazo máximo de instrucción penal; norma procesal sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000006",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Protege a consumidores vulnerables de electricidad y gas frente a la pobreza energética y prohíbe desconexiones en periodos críticos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma las reglas del indulto; norma de gracia penal sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime un apartado penal sobre coacciones en huelga; norma penal sin colectivo con efecto directo (3.7).",
+  "partido": ""
+ },
+ {
+  "id": "122/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el Código Penal; norma penal sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía la jurisdicción universal; norma procesal sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000011",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica las tasas judiciales para ciertas entidades; sin colectivo del catálogo con efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000012",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el derecho de sufragio activo a los mayores de dieciséis años.",
+  "partido": ""
+ },
+ {
+  "id": "122/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Despenaliza un apartado del Código Penal sobre huelga; norma penal sin colectivo con efecto directo (3.7).",
+  "partido": ""
+ },
+ {
+  "id": "122/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la ley de secretos oficiales; norma de transparencia sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000015",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exime de tasas judiciales a ONG, comunidades de propietarios, entidades exentas de Sociedades y sociedades con menos de un millón de facturación; sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000016",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
+  },
+  "peso": 2,
+  "nota": "Amplía a cuatro años y a toda la cotización por contingencias comunes el mínimo exento de los contratos indefinidos; abarata la contratación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000017",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Controla los plazos de pago de los adjudicatarios de obra pública a proveedores y subcontratistas; protege a pymes y microempresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000018",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Exime de las tasas judiciales a las entidades de reducida dimensión y a las sin fines lucrativos, y excluye la tasa de las costas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000020",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obliga a contratistas a garantizar a subcontratados las condiciones esenciales de la empresa principal; no se identifica tramo ni sector con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "122/000021",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime la compensación por enlaces de agregadores: favorece a agregadores y perjudica a editores, ambos del sector digital (signos opuestos).",
+  "partido": ""
+ },
+ {
+  "id": "122/000022",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el control parlamentario del Gobierno en funciones; norma institucional sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000023",
+  "tipo": "soc",
+  "imp": {
+   "secPrim": -1,
+   "secCom": -1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe subvenciones públicas a la tauromaquia y a la cría de toros de lidia, y su emisión en abierto o en la televisión estatal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime la cadena perpetua revisable y modifica penas y su cumplimiento; norma penal sin colectivo con efecto directo (3.7).",
+  "partido": ""
+ },
+ {
+  "id": "122/000025",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Exime a las instalaciones de autoconsumo del ciclo del agua de costes del sistema eléctrico hasta 2019; beneficia a su sector energético.",
+  "partido": ""
+ },
+ {
+  "id": "122/000026",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Exime a las instalaciones de autoconsumo del ciclo del agua de costes del sistema eléctrico hasta 2019; beneficia a su sector energético.",
+  "partido": ""
+ },
+ {
+  "id": "122/000027",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Exime a las instalaciones de autoconsumo del ciclo del agua de costes del sistema eléctrico hasta 2019; beneficia a su sector energético.",
+  "partido": ""
+ },
+ {
+  "id": "122/000028",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía la jurisdicción universal; norma procesal sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000029",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga el plazo de instrucción penal; norma procesal sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000030",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Fija la cuantía del salario mínimo interprofesional al alza; sube el sueldo mínimo y el coste laboral de las empresas pequeñas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000031",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Impide excluir a personas con discapacidad de la función de jurado y obliga a proporcionar apoyos y ajustes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000032",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un régimen de infracciones y multas por incumplir plazos de pago comerciales; las empresas son a la vez acreedoras y deudoras, signo no uniforme.",
+  "partido": ""
+ },
+ {
+  "id": "122/000033",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación económica por crianza de hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la financiación de los partidos; norma institucional sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000035",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la reforma sobre ejecución de resoluciones del Tribunal Constitucional; norma institucional sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000036",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no permite determinar el contenido ni a quién afecta.",
+  "partido": ""
+ },
+ {
+  "id": "122/000037",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prohíbe usar el Fondo de Contingencia para gasto militar; norma presupuestaria sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "123/000001",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "cons": 1,
+   "hipot": 1,
+   "secFin": -1,
+   "inq": 1
+  },
+  "peso": 3,
+  "nota": "Medidas de emergencia social: suministros básicos y pobreza energética, dación en pago y protección frente a desahucios.",
+  "partido": ""
+ },
+ {
+  "id": "125/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el Código Civil sobre estatuto personal y vecindad civil; norma civil sin colectivo con efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "125/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Plan de apoyo al deporte base de clubes sin ánimo de lucro; sin colectivo del catálogo con efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "125/000003",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fomenta la generación eléctrica renovable para autoconsumo, con efecto climático y ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "125/000004",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traspasa la titularidad de la AP-9 a Galicia; traspaso entre administraciones sin cambio de derechos conocido.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Crea un fondo de compensación para las víctimas del amianto.",
+  "partido": ""
+ },
+ {
+  "id": "130/000001",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Prorroga el Programa de Activación para el Empleo, ayuda para desempleados de larga duración sin prestación.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,312 @@
+[
+ {
+  "id": "122/000040",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula las facultades del Gobierno en funciones sobre el techo de gasto; norma institucional sin efecto directo en colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000041",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una entidad de control de incompatibilidades y régimen sancionador para cargos públicos; norma institucional sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000042",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la protección frente a la ocupación ilegal de viviendas; beneficia a los propietarios de más de una vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "122/000043",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Endurece penas por multirreincidencia en hurto y establece la expulsión automática de extranjeros en situación irregular que reincidan.",
+  "partido": ""
+ },
+ {
+  "id": "122/000044",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la coordinación de las comunidades autónomas en la acción exterior del Estado; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000045",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos de los pacientes ante el final de la vida: rechazo de tratamientos, testamento vital y cuidados paliativos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000046",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la rendición de cuentas del Gobierno ante las Cortes sobre su actuación en la Unión Europea; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000047",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la ley del Registro Civil, su gestión y organización; norma administrativa sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye determinados delitos de la gracia de indulto; norma penal sin colectivo asignable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000049",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Regula la publicidad de centros, profesionales y servicios sanitarios para evitar mensajes engañosos; protege a los pacientes y obliga a los centros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000050",
+  "tipo": "soc",
+  "imp": {
+   "victimas": -1
+  },
+  "peso": 2,
+  "nota": "Deroga la ley que reconoce derechos y reparaciones a quienes sufrieron persecución o violencia en la guerra civil y la dictadura.",
+  "partido": ""
+ },
+ {
+  "id": "122/000051",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transfiere la titularidad y competencias de la autopista AP-9 del Estado a la Comunidad Autónoma de Galicia; traspaso entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000052",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce el carácter de agentes de la autoridad a los funcionarios de los cuerpos penitenciarios en el ejercicio de sus funciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000053",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000054",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título y el texto disponible no permiten determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "123/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye determinados delitos de la gracia de indulto; norma penal sin colectivo asignable.",
+  "partido": ""
+ },
+ {
+  "id": "123/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula canales de alerta y protege a quienes comunican irregularidades en el ámbito público y privado; sin colectivo afectado con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000001",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Los pequeños ahorradores recuperan lo invertido en preferentes e híbridos sin pérdida y no se ejecuta su hipoteca de primera vivienda; coste para las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "125/000002",
+  "tipo": "soc",
+  "imp": {
+   "hij3": 1,
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Fija tarifa aérea interinsular máxima de 30 euros para todos los usuarios y descuentos a menores de 14 años y familias numerosas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000003",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Prevé compensación a quienes sufrieron la incautación de billetes y signos fiduciarios republicanos durante la guerra civil.",
+  "partido": ""
+ },
+ {
+  "id": "125/000004",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Universaliza el derecho a la asistencia sanitaria pública y gratuita, incluidos los extranjeros sin permiso de residencia.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Extiende la protección por desempleo a los miembros de los parlamentos autonómicos al cesar en el cargo; sin colectivo de la lista afectado.",
+  "partido": ""
+ },
+ {
+  "id": "125/000006",
+  "tipo": "soc",
+  "imp": {
+   "hij3": 1,
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Fija tarifa aérea interinsular máxima de 30 euros para todos los usuarios y descuentos a menores de 14 años y familias numerosas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000007",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Deroga la reforma laboral de 2012 en contratación, despido y negociación colectiva; mejora derechos de asalariados y eleva el coste laboral de las empresas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el autocultivo y las asociaciones de consumidores de cannabis; ningún colectivo de la rúbrica resulta afectado con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime la enseñanza confesional de religión del currículo escolar; sin colectivo de la lista afectado con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000010",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Restablece el acceso universal a la asistencia sanitaria pública, incluidos extranjeros sin residencia legal.",
+  "partido": ""
+ },
+ {
+  "id": "125/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transfiere la titularidad y competencias de la autopista AP-9 del Estado a la Comunidad Autónoma de Galicia; traspaso entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "125/000012",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección del Mediterráneo frente a la exploración y explotación de hidrocarburos; beneficia al medio ambiente y restringe al sector energético.",
+  "partido": ""
+ },
+ {
+  "id": "125/000013",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Limita las rebajas a dos temporadas con fechas fijadas por las comunidades autónomas; el signo para comercio y consumidores no consta.",
+  "partido": ""
+ },
+ {
+  "id": "125/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el límite de gasto electoral y las sanciones por superarlo; norma electoral sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "125/000015",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Crea un fondo para compensar a los afectados por enfermedades del amianto cuando no hay empresa responsable a la que reclamar.",
+  "partido": ""
+ },
+ {
+  "id": "125/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exime de responsabilidad penal a quien cause o coopere en la muerte de una persona que la solicita; norma penal sin colectivo marcado.",
+  "partido": ""
+ }
+]

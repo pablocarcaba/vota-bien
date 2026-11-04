@@ -1,0 +1,4555 @@
+{
+ "130/000001": {
+  "vigente": {
+   "id": "130/000001",
+   "tipo": "eco",
+   "imp": {
+    "victimas": 1,
+    "secPrim": 1,
+    "empAut": 1,
+    "empMicro": 1
+   },
+   "peso": 1,
+   "nota": "Ayudas por temporales y catástrofes de 2019, incluida la DANA de septiembre, a damnificados, explotaciones agrarias y pequeños negocios.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "130/000001",
+    "tipo": "eco",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "secPrim": 1,
+     "secCom": 1
+    },
+    "peso": 2,
+    "nota": "Ayudas por la DANA: apoyo a damnificados y a negocios de agricultura, comercio y pequeñas empresas afectadas.",
+    "partido": ""
+   },
+   {
+    "id": "130/000001",
+    "tipo": "eco",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 2,
+    "nota": "Ayudas por los daños de la DANA: reconoce ayudas a los afectados y a autónomos y pequeñas empresas dañadas.",
+    "partido": ""
+   },
+   {
+    "id": "130/000001",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "secPrim": 1
+    },
+    "peso": 2,
+    "nota": "Ayudas a afectados por la DANA y a sus negocios, incluidas explotaciones agrarias y ganaderas.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "130/000001",
+   "tipo": "eco",
+   "imp": {
+    "empAut": 1,
+    "empMicro": 1,
+    "empPeq": 1,
+    "secPrim": 1,
+    "victimas": 1
+   },
+   "peso": 2,
+   "nota": "Ayudas a afectados por la DANA y a sus negocios, incluidas explotaciones agrarias y ganaderas.",
+   "partido": ""
+  }
+ },
+ "121/000001": {
+  "vigente": {
+   "id": "121/000001",
+   "tipo": "eco",
+   "imp": {
+    "secCom": 1,
+    "empAut": 1,
+    "empMicro": 1,
+    "empPeq": 1
+   },
+   "peso": 1,
+   "nota": "Thomas Cook: líneas de financiación y bonificaciones a la Seguridad Social para empresas turísticas afectadas, sobre todo en Canarias y Baleares.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "121/000001",
+    "tipo": "eco",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1,
+    "nota": "Amplía la bonificación de fijos discontinuos y crea financiación para empresas de turismo, comercio y hostelería de Baleares y Canarias.",
+    "partido": ""
+   },
+   {
+    "id": "121/000001",
+    "tipo": "eco",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1,
+    "nota": "Bonifica cotizaciones de fijos discontinuos en turismo, comercio y hostelería de Baleares y Canarias y crea líneas de financiación para afectados por Thomas Cook.",
+    "partido": ""
+   },
+   {
+    "id": "121/000001",
+    "tipo": "eco",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1,
+    "nota": "Bonificación de cuotas y financiación para turismo, comercio y hostelería afectados por la insolvencia de Thomas Cook en Baleares y Canarias.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "121/000001",
+   "tipo": "eco",
+   "imp": {
+    "secCom": 1
+   },
+   "peso": 1,
+   "nota": "Amplía la bonificación de fijos discontinuos y crea financiación para empresas de turismo, comercio y hostelería de Baleares y Canarias.",
+   "partido": ""
+  }
+ },
+ "130/000002": {
+  "vigente": {
+   "id": "130/000002",
+   "tipo": "eco",
+   "imp": {
+    "secCom": 1,
+    "empAut": 1,
+    "empMicro": 1,
+    "empPeq": 1
+   },
+   "peso": 1,
+   "nota": "Thomas Cook: líneas de financiación y bonificaciones a la Seguridad Social para empresas turísticas afectadas, sobre todo en Canarias y Baleares.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "130/000002",
+    "tipo": "eco",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1,
+    "nota": "Amplía la bonificación de fijos discontinuos y crea financiación para empresas de turismo, comercio y hostelería de Baleares y Canarias.",
+    "partido": ""
+   },
+   {
+    "id": "130/000002",
+    "tipo": "eco",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1,
+    "nota": "Bonifica cotizaciones de fijos discontinuos en turismo, comercio y hostelería de Baleares y Canarias y crea líneas de financiación para afectados por Thomas Cook.",
+    "partido": ""
+   },
+   {
+    "id": "130/000002",
+    "tipo": "eco",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1,
+    "nota": "Bonificación de cuotas y financiación para turismo, comercio y hostelería afectados por la insolvencia de Thomas Cook en Baleares y Canarias.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "130/000002",
+   "tipo": "eco",
+   "imp": {
+    "secCom": 1
+   },
+   "peso": 1,
+   "nota": "Amplía la bonificación de fijos discontinuos y crea financiación para empresas de turismo, comercio y hostelería de Baleares y Canarias.",
+   "partido": ""
+  }
+ },
+ "130/000003": {
+  "vigente": {
+   "id": "130/000003",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Actualiza las entregas a cuenta de comunidades y entidades locales con presupuesto prorrogado; financiación territorial sin colectivo concreto.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "130/000003",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Actualiza entregas a cuenta a comunidades y entidades locales; no se identifica un colectivo concreto con signo.",
+    "partido": ""
+   },
+   {
+    "id": "130/000003",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Actualiza entregas a cuenta entre administraciones; traspaso financiero entre administraciones sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "130/000003",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Actualiza entregas a cuenta entre administraciones; sin efecto directo sobre colectivos concretos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "130/000003",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Actualiza entregas a cuenta a comunidades y entidades locales; no se identifica un colectivo concreto con signo.",
+   "partido": ""
+  }
+ },
+ "130/000004": {
+  "vigente": {
+   "id": "130/000004",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Medidas de seguridad pública en administración digital, contratación y telecomunicaciones; norma institucional sin efecto distributivo claro.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "130/000004",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Medidas de seguridad pública en administración digital, contratación pública y telecomunicaciones; sin colectivo con signo conocido.",
+    "partido": ""
+   },
+   {
+    "id": "130/000004",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "130/000004",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Medidas de seguridad pública en administración digital, contratación y telecomunicaciones; el contenido no permite fijar un colectivo ni un signo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "130/000004",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Medidas de seguridad pública en administración digital, contratación pública y telecomunicaciones; sin colectivo con signo conocido.",
+   "partido": ""
+  }
+ },
+ "130/000005": {
+  "vigente": {
+   "id": "130/000005",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Medidas para organizar la cumbre del clima COP25 en Madrid; organizativa, sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "130/000005",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Medidas organizativas para la conferencia internacional sobre cambio climático; sin colectivo con signo.",
+    "partido": ""
+   },
+   {
+    "id": "130/000005",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Medidas organizativas para una conferencia internacional; sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "130/000005",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Medidas organizativas para una conferencia internacional; sin efecto directo sobre colectivos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "130/000005",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Medidas organizativas para la conferencia internacional sobre cambio climático; sin colectivo con signo.",
+   "partido": ""
+  }
+ },
+ "130/000006": {
+  "vigente": {
+   "id": "130/000006",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Habilita créditos para ejecutar el presupuesto de la Seguridad Social prorrogado; técnica, sin cambio en las prestaciones.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "130/000006",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Medidas de ejecución del presupuesto de la Seguridad Social; el título no permite determinar colectivos afectados.",
+    "partido": ""
+   },
+   {
+    "id": "130/000006",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "130/000006",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Ejecución del presupuesto de la Seguridad Social; el título no permite determinar a quién afecta ni con qué signo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "130/000006",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Medidas de ejecución del presupuesto de la Seguridad Social; el título no permite determinar colectivos afectados.",
+   "partido": ""
+  }
+ },
+ "130/000007": {
+  "vigente": {
+   "id": "130/000007",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 2,
+   "nota": "Fija la rentabilidad razonable de renovables y redes eléctricas para 2020-2025 y regula el cierre de térmicas; efectos de signo mixto.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "130/000007",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Ajusta parámetros retributivos del sistema eléctrico y cese de centrales térmicas; el título no permite fijar el signo.",
+    "partido": ""
+   },
+   {
+    "id": "130/000007",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "130/000007",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Ajusta parámetros retributivos del sistema eléctrico y el cese de centrales térmicas; signo no determinable con el título.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "130/000007",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Ajusta parámetros retributivos del sistema eléctrico y cese de centrales térmicas; el título no permite fijar el signo.",
+   "partido": ""
+  }
+ },
+ "122/000016": {
+  "vigente": {
+   "id": "122/000016",
+   "tipo": "eco",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 1,
+   "nota": "Modifica puntualmente las ayudas por el terremoto de Lorca de 2011; beneficia a los damnificados.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000016",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Condona intereses y recargos de ayudas no justificables a damnificados del terremoto de Lorca.",
+    "partido": ""
+   },
+   {
+    "id": "122/000016",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Condona intereses de reintegro de ayudas a los damnificados del terremoto de Lorca.",
+    "partido": ""
+   },
+   {
+    "id": "122/000016",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Elimina los intereses y recargos al reintegrar ayudas no justificables a damnificados del terremoto de Lorca.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000016",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 1,
+   "nota": "Condona intereses y recargos de ayudas no justificables a damnificados del terremoto de Lorca.",
+   "partido": ""
+  }
+ },
+ "122/000004": {
+  "vigente": {
+   "id": "122/000004",
+   "tipo": "soc",
+   "imp": {
+    "jovenes": 1,
+    "discapacidad": 1,
+    "estud": 1
+   },
+   "peso": 1,
+   "nota": "Fomenta la FP dual para jóvenes y personas con discapacidad inscritos en Garantía Juvenil.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000004",
+    "tipo": "eco",
+    "imp": {
+     "jovenes": 1,
+     "discapacidad": 1
+    },
+    "peso": 1,
+    "nota": "Eleva bonificaciones formativas del contrato de aprendizaje para jóvenes y personas con discapacidad de Garantía Juvenil.",
+    "partido": ""
+   },
+   {
+    "id": "122/000004",
+    "tipo": "eco",
+    "imp": {
+     "jovenes": 1,
+     "discapacidad": 1
+    },
+    "peso": 1,
+    "nota": "Eleva las bonificaciones del contrato de formación y aprendizaje para jóvenes de Garantía Juvenil y personas con discapacidad.",
+    "partido": ""
+   },
+   {
+    "id": "122/000004",
+    "tipo": "soc",
+    "imp": {
+     "jovenes": 1,
+     "discapacidad": 1
+    },
+    "peso": 1,
+    "nota": "Fomenta el contrato de formación dual para jóvenes de Garantía Juvenil y personas con discapacidad.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000004",
+   "tipo": "eco",
+   "imp": {
+    "discapacidad": 1,
+    "jovenes": 1
+   },
+   "peso": 1,
+   "nota": "Eleva bonificaciones formativas del contrato de aprendizaje para jóvenes y personas con discapacidad de Garantía Juvenil.",
+   "partido": ""
+  }
+ },
+ "120/000001": {
+  "vigente": {
+   "id": "120/000001",
+   "tipo": "soc",
+   "imp": {
+    "depend": 1,
+    "discapacidad": 1,
+    "mayores": 1
+   },
+   "peso": 2,
+   "nota": "Propone reducir el copago de los usuarios de las prestaciones y servicios de dependencia.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "120/000001",
+    "tipo": "soc",
+    "imp": {
+     "depend": 1,
+     "discapacidad": 1,
+     "mayores": 1
+    },
+    "peso": 2,
+    "nota": "Reduce la participación en el coste de las prestaciones de dependencia, con garantías y exenciones para mayores y personas con discapacidad.",
+    "partido": ""
+   },
+   {
+    "id": "120/000001",
+    "tipo": "soc",
+    "imp": {
+     "depend": 1,
+     "discapacidad": 1,
+     "mayores": 1
+    },
+    "peso": 2,
+    "nota": "Reduce y modula el copago de la dependencia, con exención por debajo de un umbral de capacidad económica.",
+    "partido": ""
+   },
+   {
+    "id": "120/000001",
+    "tipo": "soc",
+    "imp": {
+     "depend": 1
+    },
+    "peso": 2,
+    "nota": "Fija garantías en la participación en el coste de prestaciones de dependencia, con exención por debajo de un umbral de capacidad económica.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "120/000001",
+   "tipo": "soc",
+   "imp": {
+    "depend": 1,
+    "discapacidad": 1,
+    "mayores": 1
+   },
+   "peso": 2,
+   "nota": "Reduce la participación en el coste de las prestaciones de dependencia, con garantías y exenciones para mayores y personas con discapacidad.",
+   "partido": ""
+  }
+ },
+ "120/000002": {
+  "vigente": {
+   "id": "120/000002",
+   "tipo": "eco",
+   "imp": {
+    "pobreza": 1,
+    "desSub": 1
+   },
+   "peso": 3,
+   "nota": "Propone una prestación estatal de ingresos mínimos para personas sin recursos.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "120/000002",
+    "tipo": "eco",
+    "imp": {
+     "pobreza": 1,
+     "desSub": 1
+    },
+    "peso": 3,
+    "nota": "Crea una prestación de la Seguridad Social de ingresos mínimos para personas sin recursos.",
+    "partido": ""
+   },
+   {
+    "id": "120/000002",
+    "tipo": "eco",
+    "imp": {
+     "pobreza": 1,
+     "desSub": 1
+    },
+    "peso": 3,
+    "nota": "Crea una prestación de ingresos mínimos de la Seguridad Social para personas sin recursos.",
+    "partido": ""
+   },
+   {
+    "id": "120/000002",
+    "tipo": "eco",
+    "imp": {
+     "pobreza": 1,
+     "desSub": 1
+    },
+    "peso": 3,
+    "nota": "Crea una prestación de ingresos mínimos para personas sin recursos dentro de la Seguridad Social.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "120/000002",
+   "tipo": "eco",
+   "imp": {
+    "desSub": 1,
+    "pobreza": 1
+   },
+   "peso": 3,
+   "nota": "Crea una prestación de la Seguridad Social de ingresos mínimos para personas sin recursos.",
+   "partido": ""
+  }
+ },
+ "120/000003": {
+  "vigente": {
+   "id": "120/000003",
+   "tipo": "eco",
+   "imp": {
+    "proSeg": 1,
+    "funC1": 1
+   },
+   "peso": 2,
+   "nota": "Propone equiparar salarios de Policía Nacional y Guardia Civil con las policías autonómicas.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "120/000003",
+    "tipo": "eco",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Equipara los salarios de las policías del Estado.",
+    "partido": ""
+   },
+   {
+    "id": "120/000003",
+    "tipo": "eco",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Equipara los salarios de las policías del Estado.",
+    "partido": ""
+   },
+   {
+    "id": "120/000003",
+    "tipo": "eco",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Equipara los salarios de las Policías del Estado.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "120/000003",
+   "tipo": "eco",
+   "imp": {
+    "proSeg": 1
+   },
+   "peso": 1,
+   "nota": "Equipara los salarios de las policías del Estado.",
+   "partido": ""
+  }
+ },
+ "120/000004": {
+  "vigente": {
+   "id": "120/000004",
+   "tipo": "eco",
+   "imp": {
+    "ciud": 1,
+    "secInd": -1,
+    "empGran": -1
+   },
+   "peso": 2,
+   "nota": "Propone la gestión pública de los saltos hidroeléctricos al vencer sus concesiones; perjudica a las grandes eléctricas concesionarias.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "120/000004",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "El texto disponible no recoge el articulado sobre saltos hidroeléctricos; no se puede determinar a quién afecta ni con qué signo.",
+    "partido": ""
+   },
+   {
+    "id": "120/000004",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "120/000004",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "120/000004",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "El texto disponible no recoge el articulado sobre saltos hidroeléctricos; no se puede determinar a quién afecta ni con qué signo.",
+   "partido": ""
+  }
+ },
+ "120/000005": {
+  "vigente": {
+   "id": "120/000005",
+   "tipo": "soc",
+   "imp": {
+    "proSan": 1,
+    "pac": 1,
+    "ciud": 1,
+    "secSoc": -1
+   },
+   "peso": 2,
+   "nota": "Propone ratios mínimos de enfermeras por paciente en centros sanitarios, públicos y privados.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "120/000005",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1,
+    "nota": "Fija ratios de enfermeras para garantizar la seguridad de los pacientes en centros sanitarios.",
+    "partido": ""
+   },
+   {
+    "id": "120/000005",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Fija ratios de enfermeras en centros sanitarios para garantizar la seguridad del paciente.",
+    "partido": ""
+   },
+   {
+    "id": "120/000005",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1,
+     "proSan": 1
+    },
+    "peso": 1,
+    "nota": "Establece ratios de enfermeras en centros sanitarios para la seguridad del paciente.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "120/000005",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 1,
+   "nota": "Fija ratios de enfermeras para garantizar la seguridad de los pacientes en centros sanitarios.",
+   "partido": ""
+  }
+ },
+ "120/000006": {
+  "vigente": {
+   "id": "120/000006",
+   "tipo": "soc",
+   "imp": {
+    "funA1": 1,
+    "funA2": 1,
+    "funB": 1,
+    "funC1": 1,
+    "funC2E": 1
+   },
+   "peso": 1,
+   "nota": "Propone regular condiciones específicas para el personal de mayor edad de las Administraciones Públicas.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "120/000006",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "El texto disponible no recoge el articulado sobre personal longevo; no se puede determinar a quién afecta ni con qué signo.",
+    "partido": ""
+   },
+   {
+    "id": "120/000006",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "120/000006",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "120/000006",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El texto disponible no recoge el articulado sobre personal longevo; no se puede determinar a quién afecta ni con qué signo.",
+   "partido": ""
+  }
+ },
+ "120/000007": {
+  "vigente": {
+   "id": "120/000007",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Modificación de la ley de medicamentos de contenido no determinable por el título.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "120/000007",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "120/000007",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "120/000007",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "120/000007",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  }
+ },
+ "120/000008": {
+  "vigente": {
+   "id": "120/000008",
+   "tipo": "soc",
+   "imp": {
+    "mayores": 1,
+    "pac": 1
+   },
+   "peso": 1,
+   "nota": "Propone eliminar el copago farmacéutico del 30 % para pensionistas de MUFACE e ISFAS.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "120/000008",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1,
+    "nota": "Elimina el 30 % de copago farmacéutico a pensionistas y beneficiarios de MUFACE e ISFAS.",
+    "partido": ""
+   },
+   {
+    "id": "120/000008",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1,
+    "nota": "Elimina el 30 % de copago farmacéutico de los pensionistas mutualistas de Muface e Isfas y sus beneficiarios.",
+    "partido": ""
+   },
+   {
+    "id": "120/000008",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1,
+    "nota": "Elimina el 30 % de copago farmacéutico a pensionistas y beneficiarios de MUFACE e ISFAS.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "120/000008",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 1,
+   "nota": "Elimina el 30 % de copago farmacéutico a pensionistas y beneficiarios de MUFACE e ISFAS.",
+   "partido": ""
+  }
+ },
+ "122/000001": {
+  "vigente": {
+   "id": "122/000001",
+   "tipo": "soc",
+   "imp": {
+    "viv2": 1
+   },
+   "peso": 2,
+   "nota": "Agiliza el desalojo de viviendas ocupadas; beneficia a propietarios de viviendas distintas de la habitual.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000001",
+    "tipo": "soc",
+    "imp": {
+     "viv2": 1
+    },
+    "peso": 2,
+    "nota": "Agiliza la recuperación de viviendas ocupadas ilegalmente y refuerza la protección de propietarios y comunidades de vecinos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000001",
+    "tipo": "soc",
+    "imp": {
+     "viv2": 1
+    },
+    "peso": 2,
+    "nota": "Agiliza desalojos y refuerza la protección de propietarios frente a la ocupación ilegal de viviendas.",
+    "partido": ""
+   },
+   {
+    "id": "122/000001",
+    "tipo": "soc",
+    "imp": {
+     "viv2": 1
+    },
+    "peso": 1,
+    "nota": "Agiliza la recuperación de viviendas ocupadas en comunidades de propietarios; beneficia a quienes tienen vivienda en propiedad.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000001",
+   "tipo": "soc",
+   "imp": {
+    "viv2": 1
+   },
+   "peso": 2,
+   "nota": "Agiliza la recuperación de viviendas ocupadas ilegalmente y refuerza la protección de propietarios y comunidades de vecinos.",
+   "partido": ""
+  }
+ },
+ "122/000002": {
+  "vigente": {
+   "id": "122/000002",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Suspende la financiación de partidos en ciertos supuestos; institucional, sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000002",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma sobre financiación estatal de partidos políticos; sin colectivo con signo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000002",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma institucional sobre financiación de partidos; sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000002",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Limita la financiación estatal de partidos políticos; norma institucional sin efecto directo sobre colectivos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000002",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Norma sobre financiación estatal de partidos políticos; sin colectivo con signo.",
+   "partido": ""
+  }
+ },
+ "122/000003": {
+  "vigente": {
+   "id": "122/000003",
+   "tipo": "eco",
+   "imp": {
+    "cons": 1,
+    "secInd": 1
+   },
+   "peso": 2,
+   "nota": "Suprime el impuesto del 7 % sobre la producción eléctrica; beneficia a generadores y abarata la factura de los consumidores.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000003",
+    "tipo": "eco",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2,
+    "nota": "Suprime el impuesto sobre el valor de la producción de energía eléctrica que pagan los generadores.",
+    "partido": ""
+   },
+   {
+    "id": "122/000003",
+    "tipo": "eco",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2,
+    "nota": "Suprime el impuesto sobre el valor de la producción de energía eléctrica que pagan los generadores.",
+    "partido": ""
+   },
+   {
+    "id": "122/000003",
+    "tipo": "eco",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2,
+    "nota": "Suprime el impuesto sobre el valor de la producción de energía eléctrica, que grava a los generadores.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000003",
+   "tipo": "eco",
+   "imp": {
+    "secInd": 1
+   },
+   "peso": 2,
+   "nota": "Suprime el impuesto sobre el valor de la producción de energía eléctrica que pagan los generadores.",
+   "partido": ""
+  }
+ },
+ "122/000005": {
+  "vigente": {
+   "id": "122/000005",
+   "tipo": "eco",
+   "imp": {
+    "funA1": 1
+   },
+   "peso": 1,
+   "nota": "Complemento de destino para jueces y fiscales en circunstancias especiales; mejora retributiva de ese colectivo (A1).",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000005",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Establece un complemento retributivo para jueces y fiscales destinados en Cataluña; colectivo judicial y fiscal sin grupo propio entre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000005",
+    "tipo": "eco",
+    "imp": {
+     "funA1": 1
+    },
+    "peso": 1,
+    "nota": "Establece un complemento retributivo de destino para jueces y fiscales destinados en Cataluña, con la cuantía del País Vasco y Navarra.",
+    "partido": ""
+   },
+   {
+    "id": "122/000005",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Complemento retributivo para jueces y fiscales destinados en Cataluña; colectivo sin identificador propio en la rúbrica.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000005",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Establece un complemento retributivo para jueces y fiscales destinados en Cataluña; colectivo judicial y fiscal sin grupo propio entre los colectivos.",
+   "partido": ""
+  }
+ },
+ "122/000006": {
+  "vigente": {
+   "id": "122/000006",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Protección de denunciantes de corrupción; institucional, sin efecto distributivo claro.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000006",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Protección de denunciantes de corrupción; norma institucional sin colectivo con signo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000006",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Estatuto de protección de denunciantes de corrupción y autoridad independiente; sin efecto sobre los colectivos del catálogo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000006",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Protección de denunciantes de corrupción; norma institucional sin colectivo identificable.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000006",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Protección de denunciantes de corrupción; norma institucional sin colectivo con signo.",
+   "partido": ""
+  }
+ },
+ "122/000007": {
+  "vigente": {
+   "id": "122/000007",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Control parlamentario del Gobierno en funciones; norma institucional.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000007",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula el control parlamentario del Gobierno; norma institucional.",
+    "partido": ""
+   },
+   {
+    "id": "122/000007",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma institucional de control parlamentario del Gobierno; sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000007",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Control parlamentario del Gobierno; norma institucional sin efecto sobre colectivos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000007",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Regula el control parlamentario del Gobierno; norma institucional.",
+   "partido": ""
+  }
+ },
+ "122/000008": {
+  "vigente": {
+   "id": "122/000008",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma la ley de secretos oficiales; norma institucional.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000008",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma la ley de secretos oficiales; norma institucional.",
+    "partido": ""
+   },
+   {
+    "id": "122/000008",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma institucional de la clasificación de secretos oficiales; sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000008",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma de la ley de secretos oficiales; norma institucional sin colectivo identificable.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000008",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma la ley de secretos oficiales; norma institucional.",
+   "partido": ""
+  }
+ },
+ "122/000009": {
+  "vigente": {
+   "id": "122/000009",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Suprime la prisión permanente revisable y fija nuevos límites de cumplimiento; norma penal sin efecto distributivo claro.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000009",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma penal (cadena perpetua revisable y penas); norma penal sin colectivo con signo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000009",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma penal que suprime la prisión permanente revisable; sin efecto sobre ningún colectivo concreto.",
+    "partido": ""
+   },
+   {
+    "id": "122/000009",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma penal que suprime la prisión permanente revisable; las normas penales no se asignan a colectivos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000009",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma penal (cadena perpetua revisable y penas); norma penal sin colectivo con signo.",
+   "partido": ""
+  }
+ },
+ "122/000010": {
+  "vigente": {
+   "id": "122/000010",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 2,
+   "nota": "Reforma la ley de seguridad ciudadana; efecto general discutible, sin colectivos de signo claro.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000010",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma del régimen de seguridad ciudadana y sancionador; sin colectivo con signo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000010",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma de la ley de seguridad ciudadana; norma sancionadora sin colectivo concreto.",
+    "partido": ""
+   },
+   {
+    "id": "122/000010",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma de la ley de seguridad ciudadana; el título no permite determinar un colectivo ni un signo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000010",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma del régimen de seguridad ciudadana y sancionador; sin colectivo con signo.",
+   "partido": ""
+  }
+ },
+ "122/000011": {
+  "vigente": {
+   "id": "122/000011",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma la ley del Tribunal Constitucional; norma institucional.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000011",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma de la ley del Tribunal Constitucional; norma institucional.",
+    "partido": ""
+   },
+   {
+    "id": "122/000011",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma institucional del Tribunal Constitucional; sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000011",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma de la ley del Tribunal Constitucional; norma institucional sin colectivo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000011",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma de la ley del Tribunal Constitucional; norma institucional.",
+   "partido": ""
+  }
+ },
+ "122/000012": {
+  "vigente": {
+   "id": "122/000012",
+   "tipo": "soc",
+   "imp": {
+    "infancia": 1,
+    "hij3": 1,
+    "monop": 1
+   },
+   "peso": 2,
+   "nota": "Ley integral de apoyo a las familias; beneficia a familias con hijos, numerosas y monoparentales.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000012",
+    "tipo": "soc",
+    "imp": {
+     "infancia": 1
+    },
+    "peso": 2,
+    "nota": "Refuerza el apoyo a las familias con hijos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000012",
+    "tipo": "soc",
+    "imp": {
+     "infancia": 1,
+     "mujeres": 1
+    },
+    "peso": 2,
+    "nota": "Ley de apoyo a las familias con hijos y a la conciliación, con especial atención a la situación laboral de las mujeres.",
+    "partido": ""
+   },
+   {
+    "id": "122/000012",
+    "tipo": "soc",
+    "imp": {
+     "infancia": 1,
+     "mujeres": 1
+    },
+    "peso": 2,
+    "nota": "Medidas de apoyo a las familias con hijos y de conciliación laboral, con atención a la situación de las mujeres.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000012",
+   "tipo": "soc",
+   "imp": {
+    "infancia": 1,
+    "mujeres": 1
+   },
+   "peso": 2,
+   "nota": "Ley de apoyo a las familias con hijos y a la conciliación, con especial atención a la situación laboral de las mujeres.",
+   "partido": ""
+  }
+ },
+ "122/000013": {
+  "vigente": {
+   "id": "122/000013",
+   "tipo": "eco",
+   "imp": {
+    "secFin": 1,
+    "hipot": 1
+   },
+   "peso": 1,
+   "nota": "Modifica el impuesto de actos jurídicos documentados en escrituras hipotecarias; rebaja la carga sobre los préstamos hipotecarios.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000013",
+    "tipo": "eco",
+    "imp": {
+     "hipot": 1,
+     "viv0": 1
+    },
+    "peso": 1,
+    "nota": "Pone a cero la cuota variable de AJD en hipotecas para primera vivienda.",
+    "partido": ""
+   },
+   {
+    "id": "122/000013",
+    "tipo": "eco",
+    "imp": {
+     "hipot": 1,
+     "viv0": 1,
+     "secFin": 1
+    },
+    "peso": 2,
+    "nota": "Fija en cero la cuota variable del AJD en hipotecas de primera vivienda, que paga el prestamista.",
+    "partido": ""
+   },
+   {
+    "id": "122/000013",
+    "tipo": "eco",
+    "imp": {
+     "hipot": 1,
+     "secFin": -1
+    },
+    "peso": 1,
+    "nota": "Atribuye a la entidad prestamista el pago del impuesto de actos jurídicos documentados en las hipotecas.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000013",
+   "tipo": "eco",
+   "imp": {
+    "hipot": 1,
+    "viv0": 1
+   },
+   "peso": 1,
+   "nota": "Pone a cero la cuota variable de AJD en hipotecas para primera vivienda.",
+   "partido": ""
+  }
+ },
+ "122/000014": {
+  "vigente": {
+   "id": "122/000014",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 2,
+   "nota": "Memoria, dignidad y reparación de las víctimas del terrorismo; beneficia a ese colectivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000014",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Refuerza el reconocimiento y las indemnizaciones de las víctimas del terrorismo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000014",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Refuerza derechos, reparación y reconocimiento de las víctimas del terrorismo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000014",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 2,
+    "nota": "Reconoce derechos, reparación y protección de la memoria de las víctimas del terrorismo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000014",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 1,
+   "nota": "Refuerza el reconocimiento y las indemnizaciones de las víctimas del terrorismo.",
+   "partido": ""
+  }
+ },
+ "122/000015": {
+  "vigente": {
+   "id": "122/000015",
+   "tipo": "soc",
+   "imp": {
+    "lgtbi": 1
+   },
+   "peso": 2,
+   "nota": "Regula la gestación por sustitución; facilita la paternidad a parejas que no pueden gestar, entre ellas parejas de hombres.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000015",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 2,
+    "nota": "Regula la gestación por sustitución altruista con registro, centros autorizados y filiación; no hay un colectivo identificable con signo claro.",
+    "partido": ""
+   },
+   {
+    "id": "122/000015",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula la gestación por sustitución, sus requisitos, registro y centros sanitarios; los efectos sobre los colectivos no tienen un signo único y claro.",
+    "partido": ""
+   },
+   {
+    "id": "122/000015",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula la gestación por sustitución y sus requisitos; efectos con signos mixtos o sin colectivo identificable.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000015",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Regula la gestación por sustitución altruista con registro, centros autorizados y filiación; no hay un colectivo identificable con signo claro.",
+   "partido": ""
+  }
+ },
+ "122/000017": {
+  "vigente": {
+   "id": "122/000017",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "secInd": -1,
+    "secTrans": -1
+   },
+   "peso": 2,
+   "nota": "Ley de cambio climático: objetivos de emisiones y transición energética; beneficio ambiental general con coste para industria y transporte.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000017",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1
+    },
+    "peso": 2,
+    "nota": "Fija objetivos de reducción de emisiones y transición energética; mejora medioambiental general.",
+    "partido": ""
+   },
+   {
+    "id": "122/000017",
+    "tipo": "eco",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1,
+     "secFin": -1
+    },
+    "peso": 3,
+    "nota": "Ley de cambio climático: objetivos de emisiones, impuestos ambientales y a transacciones financieras; exigencias a la industria energética y al sector financiero.",
+    "partido": ""
+   },
+   {
+    "id": "122/000017",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1,
+     "secFin": -1
+    },
+    "peso": 3,
+    "nota": "Ley de cambio climático: objetivos de emisiones, transición energética y fiscalidad ambiental, con impuesto a las transacciones financieras.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000017",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "secFin": -1
+   },
+   "peso": 3,
+   "nota": "Ley de cambio climático: objetivos de emisiones, transición energética y fiscalidad ambiental, con impuesto a las transacciones financieras.",
+   "partido": ""
+  }
+ },
+ "122/000018": {
+  "vigente": {
+   "id": "122/000018",
+   "tipo": "eco",
+   "imp": {
+    "infancia": 1,
+    "pobreza": 1,
+    "asal1": 1,
+    "desSub": 1
+   },
+   "peso": 2,
+   "nota": "Mejora la prestación por hijo o menor a cargo; beneficia a familias con hijos de rentas bajas.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000018",
+    "tipo": "soc",
+    "imp": {
+     "infancia": 1
+    },
+    "peso": 2,
+    "nota": "Mejora la prestación económica por hijo o menor a cargo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000018",
+    "tipo": "eco",
+    "imp": {
+     "infancia": 1
+    },
+    "peso": 2,
+    "nota": "Mejora la prestación económica por hijo o menor a cargo de la Seguridad Social.",
+    "partido": ""
+   },
+   {
+    "id": "122/000018",
+    "tipo": "eco",
+    "imp": {
+     "infancia": 1,
+     "pobreza": 1
+    },
+    "peso": 2,
+    "nota": "Mejora la prestación económica por hijo o menor a cargo para reducir la pobreza infantil.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000018",
+   "tipo": "eco",
+   "imp": {
+    "infancia": 1
+   },
+   "peso": 2,
+   "nota": "Mejora la prestación económica por hijo o menor a cargo.",
+   "partido": ""
+  }
+ },
+ "122/000019": {
+  "vigente": {
+   "id": "122/000019",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Suprime el plazo máximo de instrucción penal; procesal, sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000019",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Deroga el plazo máximo de instrucción penal; norma procesal.",
+    "partido": ""
+   },
+   {
+    "id": "122/000019",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma procesal sobre el plazo de instrucción penal; sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000019",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Deroga el plazo máximo de instrucción penal; norma procesal sin colectivo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000019",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Deroga el plazo máximo de instrucción penal; norma procesal.",
+   "partido": ""
+  }
+ },
+ "122/000020": {
+  "vigente": {
+   "id": "122/000020",
+   "tipo": "eco",
+   "imp": {
+    "ciud": 1,
+    "secInd": -1,
+    "empGran": -1
+   },
+   "peso": 2,
+   "nota": "Propone revertir a gestión pública los saltos hidroeléctricos con concesión vencida; perjudica a las grandes eléctricas concesionarias.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000020",
+    "tipo": "eco",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Revierte los saltos hidroeléctricos al interés público al terminar la concesión; los beneficios pasan a titularidad pública.",
+    "partido": ""
+   },
+   {
+    "id": "122/000020",
+    "tipo": "eco",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Reversión de saltos hidroeléctricos a titularidad pública al acabar la concesión; los concesionarios privados pierden la explotación.",
+    "partido": ""
+   },
+   {
+    "id": "122/000020",
+    "tipo": "eco",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Revierte al Estado los saltos hidroeléctricos al terminar la concesión; pasan a gestión pública y pierde el sector eléctrico.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000020",
+   "tipo": "eco",
+   "imp": {
+    "ciud": 1,
+    "secInd": -1
+   },
+   "peso": 2,
+   "nota": "Revierte los saltos hidroeléctricos al interés público al terminar la concesión; los beneficios pasan a titularidad pública.",
+   "partido": ""
+  }
+ },
+ "122/000021": {
+  "vigente": {
+   "id": "122/000021",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Modificación del Código Penal Militar; norma penal sin efecto distributivo claro.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000021",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Excluye a la Guardia Civil del Código Penal Militar; norma penal.",
+    "partido": ""
+   },
+   {
+    "id": "122/000021",
+    "tipo": "soc",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Limita la aplicación del Código Penal Militar a los guardias civiles, que dejan de responder por hechos fuera de servicio.",
+    "partido": ""
+   },
+   {
+    "id": "122/000021",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Suprime la aplicación del Código Penal Militar a la Guardia Civil; norma penal sin signo determinable.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000021",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Excluye a la Guardia Civil del Código Penal Militar; norma penal.",
+   "partido": ""
+  }
+ },
+ "122/000022": {
+  "vigente": {
+   "id": "122/000022",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 1,
+   "nota": "Anula preceptos de la Ley de Amnistía de 1977 para permitir investigar crímenes del franquismo; beneficia a sus víctimas.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000022",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Anula sentencias franquistas y preceptos de la Ley de Amnistía que impedían investigar crímenes de la dictadura.",
+    "partido": ""
+   },
+   {
+    "id": "122/000022",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Anula preceptos de la ley de amnistía para perseguir crímenes de lesa humanidad; norma penal sin colectivo del catálogo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000022",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Anula preceptos de la ley de amnistía y las sentencias franquistas contrarias a derechos humanos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000022",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 1,
+   "nota": "Anula sentencias franquistas y preceptos de la Ley de Amnistía que impedían investigar crímenes de la dictadura.",
+   "partido": ""
+  }
+ },
+ "122/000023": {
+  "vigente": {
+   "id": "122/000023",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "secInd": -1,
+    "secCom": -1
+   },
+   "peso": 2,
+   "nota": "Reduce los plásticos de un solo uso; beneficio ambiental general con coste para fabricantes, comercio y hostelería.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000023",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Reduce los plásticos de un solo uso; mejora ambiental general y nuevas obligaciones para quienes los fabrican.",
+    "partido": ""
+   },
+   {
+    "id": "122/000023",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Reduce los plásticos de un solo uso; mejora ambiental general y obligaciones para los productores.",
+    "partido": ""
+   },
+   {
+    "id": "122/000023",
+    "tipo": "eco",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Reduce los plásticos de un solo uso; mejora ambiental y nuevas exigencias a la industria que los produce.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000023",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "secInd": -1
+   },
+   "peso": 2,
+   "nota": "Reduce los plásticos de un solo uso; mejora ambiental general y nuevas obligaciones para quienes los fabrican.",
+   "partido": ""
+  }
+ },
+ "122/000024": {
+  "vigente": {
+   "id": "122/000024",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Endurece las penas por maltrato animal en el Código Penal.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000024",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Endurece el Código Penal en maltrato animal; norma penal.",
+    "partido": ""
+   },
+   {
+    "id": "122/000024",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma penal sobre maltrato animal; sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000024",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma penal sobre maltrato animal; las normas penales no se asignan a colectivos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000024",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Endurece el Código Penal en maltrato animal; norma penal.",
+   "partido": ""
+  }
+ },
+ "122/000025": {
+  "vigente": {
+   "id": "122/000025",
+   "tipo": "eco",
+   "imp": {
+    "secInd": -1,
+    "empGran": -1
+   },
+   "peso": 2,
+   "nota": "Calendario de cierre progresivo de las centrales nucleares; afecta a las grandes eléctricas propietarias.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000025",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Cierra progresivamente las centrales nucleares; reduce riesgos ambientales y sanitarios y afecta a las empresas titulares.",
+    "partido": ""
+   },
+   {
+    "id": "122/000025",
+    "tipo": "eco",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Cierre progresivo de las centrales nucleares; reduce riesgos ambientales y de salud y los generadores nucleares pierden la explotación.",
+    "partido": ""
+   },
+   {
+    "id": "122/000025",
+    "tipo": "eco",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Cierre progresivo de las centrales nucleares; pierde el sector de generación eléctrica nuclear.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000025",
+   "tipo": "eco",
+   "imp": {
+    "ciud": 1,
+    "secInd": -1
+   },
+   "peso": 2,
+   "nota": "Cierra progresivamente las centrales nucleares; reduce riesgos ambientales y sanitarios y afecta a las empresas titulares.",
+   "partido": ""
+  }
+ },
+ "122/000026": {
+  "vigente": {
+   "id": "122/000026",
+   "tipo": "soc",
+   "imp": {
+    "discapacidad": 1,
+    "mayores": 1
+   },
+   "peso": 1,
+   "nota": "Fondo estatal para financiar la accesibilidad universal; beneficia a personas con discapacidad y mayores.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000026",
+    "tipo": "soc",
+    "imp": {
+     "discapacidad": 1
+    },
+    "peso": 1,
+    "nota": "Crea un fondo estatal para la accesibilidad universal de personas con discapacidad.",
+    "partido": ""
+   },
+   {
+    "id": "122/000026",
+    "tipo": "soc",
+    "imp": {
+     "discapacidad": 1
+    },
+    "peso": 2,
+    "nota": "Crea un fondo estatal para financiar la accesibilidad universal de las personas con discapacidad.",
+    "partido": ""
+   },
+   {
+    "id": "122/000026",
+    "tipo": "soc",
+    "imp": {
+     "discapacidad": 1
+    },
+    "peso": 1,
+    "nota": "Crea un fondo estatal para financiar la accesibilidad universal de las personas con discapacidad.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000026",
+   "tipo": "soc",
+   "imp": {
+    "discapacidad": 1
+   },
+   "peso": 1,
+   "nota": "Crea un fondo estatal para la accesibilidad universal de personas con discapacidad.",
+   "partido": ""
+  }
+ },
+ "122/000027": {
+  "vigente": {
+   "id": "122/000027",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Incompatibilidades y puertas giratorias de altos cargos; norma institucional sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000027",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Normas contra puertas giratorias y corrupción; norma institucional.",
+    "partido": ""
+   },
+   {
+    "id": "122/000027",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma contra la corrupción y las puertas giratorias; sin efecto directo sobre los colectivos del catálogo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000027",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Normas contra la corrupción y las puertas giratorias; norma institucional sin colectivo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000027",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Normas contra puertas giratorias y corrupción; norma institucional.",
+   "partido": ""
+  }
+ },
+ "122/000028": {
+  "vigente": {
+   "id": "122/000028",
+   "tipo": "soc",
+   "imp": {
+    "infancia": 1,
+    "victimas": 1
+   },
+   "peso": 2,
+   "nota": "LOPIVI: protección integral de niños y adolescentes frente a la violencia.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000028",
+    "tipo": "soc",
+    "imp": {
+     "infancia": 1,
+     "victimas": 1
+    },
+    "peso": 2,
+    "nota": "Previene la violencia contra la infancia y la adolescencia y protege a las víctimas.",
+    "partido": ""
+   },
+   {
+    "id": "122/000028",
+    "tipo": "soc",
+    "imp": {
+     "infancia": 1,
+     "victimas": 1
+    },
+    "peso": 2,
+    "nota": "Prevención, detección y atención de la violencia contra la infancia y la adolescencia, con protección a las víctimas.",
+    "partido": ""
+   },
+   {
+    "id": "122/000028",
+    "tipo": "soc",
+    "imp": {
+     "infancia": 1
+    },
+    "peso": 2,
+    "nota": "Promueve el buen trato y la protección frente a la violencia contra la infancia y la adolescencia.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000028",
+   "tipo": "soc",
+   "imp": {
+    "infancia": 1,
+    "victimas": 1
+   },
+   "peso": 2,
+   "nota": "Previene la violencia contra la infancia y la adolescencia y protege a las víctimas.",
+   "partido": ""
+  }
+ },
+ "122/000029": {
+  "vigente": {
+   "id": "122/000029",
+   "tipo": "eco",
+   "imp": {
+    "secFin": -1,
+    "empGran": -1
+   },
+   "peso": 2,
+   "nota": "Crea un recargo fiscal de solidaridad sobre la banca; perjudica a las entidades financieras.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000029",
+    "tipo": "eco",
+    "imp": {
+     "secFin": -1,
+     "empGran": -1
+    },
+    "peso": 2,
+    "nota": "Crea un recargo de solidaridad sobre la banca.",
+    "partido": ""
+   },
+   {
+    "id": "122/000029",
+    "tipo": "eco",
+    "imp": {
+     "secFin": -1,
+     "empGran": -1
+    },
+    "peso": 2,
+    "nota": "Crea un recargo de solidaridad sobre la banca.",
+    "partido": ""
+   },
+   {
+    "id": "122/000029",
+    "tipo": "eco",
+    "imp": {
+     "secFin": -1,
+     "empGran": -1
+    },
+    "peso": 2,
+    "nota": "Crea un recargo de solidaridad sobre la banca; perjudica a las entidades financieras.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000029",
+   "tipo": "eco",
+   "imp": {
+    "empGran": -1,
+    "secFin": -1
+   },
+   "peso": 2,
+   "nota": "Crea un recargo de solidaridad sobre la banca.",
+   "partido": ""
+  }
+ },
+ "122/000030": {
+  "vigente": {
+   "id": "122/000030",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1,
+    "discapacidad": 1,
+    "depend": 1
+   },
+   "peso": 2,
+   "nota": "Regula la eutanasia como derecho de pacientes con enfermedad grave e incurable o padecimiento crónico imposibilitante.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000030",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Regula el derecho a la eutanasia de personas con sufrimiento grave e irreversible.",
+    "partido": ""
+   },
+   {
+    "id": "122/000030",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Regula y despenaliza la eutanasia para pacientes con sufrimiento grave.",
+    "partido": ""
+   },
+   {
+    "id": "122/000030",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Regula la eutanasia y la ayuda a morir para pacientes con sufrimiento grave.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000030",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 2,
+   "nota": "Regula el derecho a la eutanasia de personas con sufrimiento grave e irreversible.",
+   "partido": ""
+  }
+ },
+ "122/000031": {
+  "vigente": {
+   "id": "122/000031",
+   "tipo": "soc",
+   "imp": {
+    "mujeres": 1
+   },
+   "peso": 2,
+   "nota": "Medidas de igualdad entre mujeres y hombres en el empleo, incluida la igualdad retributiva; beneficia a las trabajadoras.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000031",
+    "tipo": "soc",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 2,
+    "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000031",
+    "tipo": "soc",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 2,
+    "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo y la ocupación.",
+    "partido": ""
+   },
+   {
+    "id": "122/000031",
+    "tipo": "soc",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 2,
+    "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo y la ocupación.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000031",
+   "tipo": "soc",
+   "imp": {
+    "mujeres": 1
+   },
+   "peso": 2,
+   "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo.",
+   "partido": ""
+  }
+ },
+ "122/000032": {
+  "vigente": {
+   "id": "122/000032",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Cambia la tramitación de la senda de déficit; procedimiento presupuestario sin efecto distributivo directo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000032",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reforma el procedimiento de aprobación de objetivos de estabilidad presupuestaria; norma institucional.",
+    "partido": ""
+   },
+   {
+    "id": "122/000032",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Cambia el procedimiento de aprobación de objetivos de estabilidad; norma institucional sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000032",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Cambia el procedimiento de aprobación de objetivos de estabilidad presupuestaria; norma institucional sin colectivo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000032",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma el procedimiento de aprobación de objetivos de estabilidad presupuestaria; norma institucional.",
+   "partido": ""
+  }
+ },
+ "122/000033": {
+  "vigente": {
+   "id": "122/000033",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1,
+    "discapacidad": 1,
+    "depend": 1
+   },
+   "peso": 2,
+   "nota": "Regula la eutanasia; reconoce el derecho a pacientes con enfermedad grave e incurable o padecimiento crónico imposibilitante.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000033",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Regula el derecho a la eutanasia de personas con sufrimiento grave e irreversible.",
+    "partido": ""
+   },
+   {
+    "id": "122/000033",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Regula y despenaliza la eutanasia para pacientes con sufrimiento grave.",
+    "partido": ""
+   },
+   {
+    "id": "122/000033",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Regula la eutanasia y la ayuda a morir para pacientes con sufrimiento grave.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000033",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 2,
+   "nota": "Regula el derecho a la eutanasia de personas con sufrimiento grave e irreversible.",
+   "partido": ""
+  }
+ },
+ "122/000034": {
+  "vigente": {
+   "id": "122/000034",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Suprime el plazo máximo de instrucción penal; procesal, sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000034",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Deroga el plazo máximo de instrucción penal; norma procesal.",
+    "partido": ""
+   },
+   {
+    "id": "122/000034",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma procesal sobre el plazo de instrucción penal; sin efecto directo sobre los colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000034",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Deroga el plazo máximo de instrucción penal; norma procesal sin colectivo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000034",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Deroga el plazo máximo de instrucción penal; norma procesal.",
+   "partido": ""
+  }
+ },
+ "122/000035": {
+  "vigente": {
+   "id": "122/000035",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 2,
+   "nota": "Memoria democrática: reconocimiento, búsqueda de desaparecidos y reparación de víctimas de la guerra y la dictadura.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000035",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 2,
+    "nota": "Regula la búsqueda de desaparecidos y la reparación de víctimas de la Guerra Civil y la dictadura.",
+    "partido": ""
+   },
+   {
+    "id": "122/000035",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 2,
+    "nota": "Actualiza la ley de memoria: búsqueda de desaparecidos y reparación a las víctimas de la Guerra Civil y la dictadura.",
+    "partido": ""
+   },
+   {
+    "id": "122/000035",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Búsqueda e identificación de desaparecidos de la Guerra Civil y la dictadura, con reparación a sus familias.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000035",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 2,
+   "nota": "Regula la búsqueda de desaparecidos y la reparación de víctimas de la Guerra Civil y la dictadura.",
+   "partido": ""
+  }
+ },
+ "122/000036": {
+  "vigente": {
+   "id": "122/000036",
+   "tipo": "soc",
+   "imp": {
+    "minorias": 1,
+    "inmigrantes": 1,
+    "lgtbi": 1,
+    "discapacidad": 1
+   },
+   "peso": 2,
+   "nota": "Ley integral de igualdad de trato: protege frente a discriminación por origen, etnia, orientación, discapacidad y otros motivos.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000036",
+    "tipo": "soc",
+    "imp": {
+     "mujeres": 1,
+     "lgtbi": 1,
+     "discapacidad": 1,
+     "minorias": 1
+    },
+    "peso": 2,
+    "nota": "Prohíbe la discriminación por sexo, orientación sexual, discapacidad, origen étnico y religión.",
+    "partido": ""
+   },
+   {
+    "id": "122/000036",
+    "tipo": "soc",
+    "imp": {
+     "mujeres": 1,
+     "lgtbi": 1,
+     "minorias": 1,
+     "discapacidad": 1
+    },
+    "peso": 2,
+    "nota": "Ley integral de igualdad de trato y no discriminación por sexo, orientación sexual, origen étnico o religión y discapacidad.",
+    "partido": ""
+   },
+   {
+    "id": "122/000036",
+    "tipo": "soc",
+    "imp": {
+     "mujeres": 1,
+     "lgtbi": 1,
+     "minorias": 1,
+     "discapacidad": 1
+    },
+    "peso": 2,
+    "nota": "Ley integral contra la discriminación; protege a colectivos discriminados por sexo, orientación, origen étnico o religión y discapacidad.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000036",
+   "tipo": "soc",
+   "imp": {
+    "discapacidad": 1,
+    "lgtbi": 1,
+    "minorias": 1,
+    "mujeres": 1
+   },
+   "peso": 2,
+   "nota": "Prohíbe la discriminación por sexo, orientación sexual, discapacidad, origen étnico y religión.",
+   "partido": ""
+  }
+ },
+ "122/000037": {
+  "vigente": {
+   "id": "122/000037",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 1,
+   "nota": "Tipifica los homenajes a terroristas y endurece la prescripción de delitos terroristas; beneficia a las víctimas del terrorismo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000037",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma penal: castiga la convocatoria de homenajes a condenados por terrorismo y hace imprescriptibles estos delitos; sin derechos para colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000037",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma penal: tipifica homenajes a terroristas y declara imprescriptibles delitos y penas de terrorismo; no da derechos ni ayudas a un colectivo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000037",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma penal: tipifica homenajes a terroristas y hace imprescriptibles delitos de terrorismo; sin derechos o ayudas a colectivos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000037",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Norma penal: castiga la convocatoria de homenajes a condenados por terrorismo y hace imprescriptibles estos delitos; sin derechos para colectivos.",
+   "partido": ""
+  }
+ },
+ "122/000038": {
+  "vigente": {
+   "id": "122/000038",
+   "tipo": "soc",
+   "imp": {
+    "mujeres": 1
+   },
+   "peso": 2,
+   "nota": "Medidas de igualdad entre mujeres y hombres en el empleo, incluida la igualdad retributiva; beneficia a las trabajadoras.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000038",
+    "tipo": "soc",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 2,
+    "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000038",
+    "tipo": "soc",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 2,
+    "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo y la ocupación.",
+    "partido": ""
+   },
+   {
+    "id": "122/000038",
+    "tipo": "soc",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 2,
+    "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo y la ocupación.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000038",
+   "tipo": "soc",
+   "imp": {
+    "mujeres": 1
+   },
+   "peso": 2,
+   "nota": "Garantiza la igualdad de trato y oportunidades de mujeres y hombres en el empleo.",
+   "partido": ""
+  }
+ },
+ "122/000039": {
+  "vigente": {
+   "id": "122/000039",
+   "tipo": "soc",
+   "imp": {
+    "proSeg": 1
+   },
+   "peso": 1,
+   "nota": "Reconoce a los funcionarios de prisiones como agentes de la autoridad; beneficia a ese colectivo profesional.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000039",
+    "tipo": "soc",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Reconoce carácter de agentes de la autoridad a los funcionarios de prisiones y refuerza sus medios.",
+    "partido": ""
+   },
+   {
+    "id": "122/000039",
+    "tipo": "soc",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Reconoce a los funcionarios de prisiones la condición de agentes de la autoridad.",
+    "partido": ""
+   },
+   {
+    "id": "122/000039",
+    "tipo": "soc",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Reconoce a los funcionarios de prisiones la condición de agentes de la autoridad.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000039",
+   "tipo": "soc",
+   "imp": {
+    "proSeg": 1
+   },
+   "peso": 1,
+   "nota": "Reconoce carácter de agentes de la autoridad a los funcionarios de prisiones y refuerza sus medios.",
+   "partido": ""
+  }
+ },
+ "122/000040": {
+  "vigente": {
+   "id": "122/000040",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Regula facultades y obligaciones del Gobierno en funciones; norma institucional.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000040",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula las facultades del Gobierno en funciones; norma institucional sin efecto directo sobre ningún colectivo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000040",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula las facultades del Gobierno en funciones sobre el techo de gasto; norma institucional sin efecto directo en colectivos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000040",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula las facultades del Gobierno en funciones en materia de límite de gasto; norma institucional sin efecto sobre colectivos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000040",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Regula las facultades del Gobierno en funciones; norma institucional sin efecto directo sobre ningún colectivo.",
+   "partido": ""
+  }
+ },
+ "122/000041": {
+  "vigente": {
+   "id": "122/000041",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Incompatibilidades y puertas giratorias de altos cargos; norma institucional sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000041",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Crea una entidad anticorrupción y regula incompatibilidades de altos cargos; norma institucional sin colectivo afectado directamente.",
+    "partido": ""
+   },
+   {
+    "id": "122/000041",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Crea una entidad de control de incompatibilidades y régimen sancionador para cargos públicos; norma institucional sin colectivo afectado.",
+    "partido": ""
+   },
+   {
+    "id": "122/000041",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Crea un régimen de incompatibilidades y una entidad contra la corrupción; norma institucional sin efecto directo sobre colectivos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000041",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Crea una entidad anticorrupción y regula incompatibilidades de altos cargos; norma institucional sin colectivo afectado directamente.",
+   "partido": ""
+  }
+ },
+ "122/000042": {
+  "vigente": {
+   "id": "122/000042",
+   "tipo": "soc",
+   "imp": {
+    "viv2": 1
+   },
+   "peso": 2,
+   "nota": "Agiliza el desalojo de viviendas ocupadas; beneficia a propietarios de viviendas distintas de la habitual.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000042",
+    "tipo": "soc",
+    "imp": {
+     "viv2": 1
+    },
+    "peso": 2,
+    "nota": "Refuerza la protección de la propiedad frente a la ocupación ilegal y agiliza la recuperación de la vivienda; beneficia a quienes tienen viviendas.",
+    "partido": ""
+   },
+   {
+    "id": "122/000042",
+    "tipo": "soc",
+    "imp": {
+     "viv2": 1
+    },
+    "peso": 1,
+    "nota": "Refuerza la protección frente a la ocupación ilegal de viviendas; beneficia a los propietarios de más de una vivienda.",
+    "partido": ""
+   },
+   {
+    "id": "122/000042",
+    "tipo": "soc",
+    "imp": {
+     "viv2": 1
+    },
+    "peso": 2,
+    "nota": "Agiliza la recuperación de viviendas ocupadas ilegalmente; beneficia a los propietarios de más de una vivienda.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000042",
+   "tipo": "soc",
+   "imp": {
+    "viv2": 1
+   },
+   "peso": 2,
+   "nota": "Refuerza la protección de la propiedad frente a la ocupación ilegal y agiliza la recuperación de la vivienda; beneficia a quienes tienen viviendas.",
+   "partido": ""
+  }
+ },
+ "122/000043": {
+  "vigente": {
+   "id": "122/000043",
+   "tipo": "soc",
+   "imp": {
+    "secCom": 1
+   },
+   "peso": 1,
+   "nota": "Agravante por multirreincidencia en hurto leve; beneficia a comercios, principales afectados por estos hurtos.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000043",
+    "tipo": "soc",
+    "imp": {
+     "inmigrantes": -1
+    },
+    "peso": 1,
+    "nota": "Agrava la reincidencia penal y prevé la expulsión automática de extranjeros en situación irregular reincidentes; restringe derechos de inmigrantes.",
+    "partido": ""
+   },
+   {
+    "id": "122/000043",
+    "tipo": "soc",
+    "imp": {
+     "inmigrantes": -1
+    },
+    "peso": 1,
+    "nota": "Endurece penas por multirreincidencia en hurto y establece la expulsión automática de extranjeros en situación irregular que reincidan.",
+    "partido": ""
+   },
+   {
+    "id": "122/000043",
+    "tipo": "soc",
+    "imp": {
+     "inmigrantes": -1
+    },
+    "peso": 1,
+    "nota": "Endurece la multirreincidencia y establece la expulsión automática de residentes irregulares con condena reincidente superior a un año.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000043",
+   "tipo": "soc",
+   "imp": {
+    "inmigrantes": -1
+   },
+   "peso": 1,
+   "nota": "Agrava la reincidencia penal y prevé la expulsión automática de extranjeros en situación irregular reincidentes; restringe derechos de inmigrantes.",
+   "partido": ""
+  }
+ },
+ "122/000044": {
+  "vigente": {
+   "id": "122/000044",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Coordinación de la acción exterior autonómica; institucional, sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000044",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula la coordinación de las comunidades autónomas en la acción exterior del Estado; norma institucional.",
+    "partido": ""
+   },
+   {
+    "id": "122/000044",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula la coordinación de las comunidades autónomas en la acción exterior del Estado; norma institucional.",
+    "partido": ""
+   },
+   {
+    "id": "122/000044",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula la coordinación de las comunidades autónomas en la acción exterior; norma institucional.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000044",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Regula la coordinación de las comunidades autónomas en la acción exterior del Estado; norma institucional.",
+   "partido": ""
+  }
+ },
+ "122/000045": {
+  "vigente": {
+   "id": "122/000045",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1,
+    "depend": 1
+   },
+   "peso": 2,
+   "nota": "Regula derechos al final de la vida y cuidados paliativos; beneficia a pacientes terminales y personas dependientes.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000045",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Reconoce derechos y garantías de los pacientes ante el final de la vida, como rechazar tratamientos y recibir cuidados paliativos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000045",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Reconoce derechos de los pacientes ante el final de la vida: rechazo de tratamientos, testamento vital y cuidados paliativos.",
+    "partido": ""
+   },
+   {
+    "id": "122/000045",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 2,
+    "nota": "Reconoce derechos y garantías a los pacientes en el proceso final de su vida, como rechazar tratamientos y recibir cuidados paliativos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000045",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 2,
+   "nota": "Reconoce derechos y garantías de los pacientes ante el final de la vida, como rechazar tratamientos y recibir cuidados paliativos.",
+   "partido": ""
+  }
+ },
+ "122/000046": {
+  "vigente": {
+   "id": "122/000046",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Rendición de cuentas del Gobierno sobre su actuación en la UE; norma institucional.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000046",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula la rendición de cuentas del Gobierno ante las Cortes sobre la Unión Europea; norma institucional.",
+    "partido": ""
+   },
+   {
+    "id": "122/000046",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula la rendición de cuentas del Gobierno ante las Cortes sobre su actuación en la Unión Europea; norma institucional.",
+    "partido": ""
+   },
+   {
+    "id": "122/000046",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula la rendición de cuentas del Gobierno ante las Cortes sobre la Unión Europea; norma institucional.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000046",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Regula la rendición de cuentas del Gobierno ante las Cortes sobre la Unión Europea; norma institucional.",
+   "partido": ""
+  }
+ },
+ "122/000047": {
+  "vigente": {
+   "id": "122/000047",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Mantiene el Registro Civil como servicio público gratuito del Ministerio de Justicia, electrónico y con su personal actual; norma organizativa.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000047",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Modifica la organización y el modelo del Registro Civil; norma institucional sin cambio de derechos o prestaciones determinable.",
+    "partido": ""
+   },
+   {
+    "id": "122/000047",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Modifica la ley del Registro Civil, su gestión y organización; norma administrativa sin colectivo afectado.",
+    "partido": ""
+   },
+   {
+    "id": "122/000047",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Reorganiza el modelo del Registro Civil (registro individual, gestión administrativa, acceso electrónico); norma organizativa sin colectivo claramente afectado.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000047",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Modifica la organización y el modelo del Registro Civil; norma institucional sin cambio de derechos o prestaciones determinable.",
+   "partido": ""
+  }
+ },
+ "122/000048": {
+  "vigente": {
+   "id": "122/000048",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma de la ley del indulto; institucional, sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000048",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Establece reglas para el ejercicio del indulto, con exclusión de ciertos delitos; norma penal e institucional sin colectivo afectado directamente.",
+    "partido": ""
+   },
+   {
+    "id": "122/000048",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Excluye determinados delitos de la gracia de indulto; norma penal sin colectivo asignable.",
+    "partido": ""
+   },
+   {
+    "id": "122/000048",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Excluye del indulto a condenados por rebelión y sedición; norma penal sin efecto sobre un colectivo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000048",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Establece reglas para el ejercicio del indulto, con exclusión de ciertos delitos; norma penal e institucional sin colectivo afectado directamente.",
+   "partido": ""
+  }
+ },
+ "122/000049": {
+  "vigente": {
+   "id": "122/000049",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "pac": 1,
+    "secSoc": -1
+   },
+   "peso": 1,
+   "nota": "Regula la publicidad sanitaria para proteger a pacientes; obligaciones para clínicas y centros privados.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000049",
+    "tipo": "eco",
+    "imp": {
+     "cons": 1,
+     "secSoc": -1
+    },
+    "peso": 2,
+    "nota": "Regula la publicidad de servicios y actividades sanitarias para proteger a usuarios; impone límites a clínicas y profesionales sanitarios privados.",
+    "partido": ""
+   },
+   {
+    "id": "122/000049",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1,
+     "secSoc": -1
+    },
+    "peso": 2,
+    "nota": "Regula la publicidad de centros, profesionales y servicios sanitarios para evitar mensajes engañosos; protege a los pacientes y obliga a los centros.",
+    "partido": ""
+   },
+   {
+    "id": "122/000049",
+    "tipo": "eco",
+    "imp": {
+     "cons": 1,
+     "secSoc": -1
+    },
+    "peso": 1,
+    "nota": "Regula la publicidad de servicios y centros sanitarios para proteger al consumidor; impone exigencias a los operadores sanitarios privados.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000049",
+   "tipo": "eco",
+   "imp": {
+    "cons": 1,
+    "secSoc": -1
+   },
+   "peso": 2,
+   "nota": "Regula la publicidad de servicios y actividades sanitarias para proteger a usuarios; impone límites a clínicas y profesionales sanitarios privados.",
+   "partido": ""
+  }
+ },
+ "122/000050": {
+  "vigente": {
+   "id": "122/000050",
+   "tipo": "soc",
+   "imp": {
+    "victimas": -1
+   },
+   "peso": 2,
+   "nota": "Propone derogar la ley de memoria histórica y las medidas de reparación a víctimas de la guerra y la dictadura.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000050",
+    "tipo": "soc",
+    "imp": {
+     "victimas": -1
+    },
+    "peso": 2,
+    "nota": "Deroga la ley que reconoce derechos y medidas de reparación a quienes sufrieron persecución o violencia en la guerra civil y la dictadura.",
+    "partido": ""
+   },
+   {
+    "id": "122/000050",
+    "tipo": "soc",
+    "imp": {
+     "victimas": -1
+    },
+    "peso": 2,
+    "nota": "Deroga la ley que reconoce derechos y reparaciones a quienes sufrieron persecución o violencia en la guerra civil y la dictadura.",
+    "partido": ""
+   },
+   {
+    "id": "122/000050",
+    "tipo": "soc",
+    "imp": {
+     "victimas": -1
+    },
+    "peso": 2,
+    "nota": "Deroga la ley que reconoce derechos y medidas a quienes sufrieron persecución o violencia en la guerra civil y la dictadura.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000050",
+   "tipo": "soc",
+   "imp": {
+    "victimas": -1
+   },
+   "peso": 2,
+   "nota": "Deroga la ley que reconoce derechos y medidas de reparación a quienes sufrieron persecución o violencia en la guerra civil y la dictadura.",
+   "partido": ""
+  }
+ },
+ "122/000051": {
+  "vigente": {
+   "id": "122/000051",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Transfiere a Galicia la titularidad y competencias de la AP-9, incluidas las tarifas; traspaso entre administraciones, la concesión sigue vigente.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000051",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Transfiere a la Comunidad Autónoma de Galicia la titularidad y competencias sobre la concesión de la AP-9; traspaso entre administraciones.",
+    "partido": ""
+   },
+   {
+    "id": "122/000051",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Transfiere la titularidad y competencias de la autopista AP-9 del Estado a la Comunidad Autónoma de Galicia; traspaso entre administraciones.",
+    "partido": ""
+   },
+   {
+    "id": "122/000051",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Transfiere la titularidad y competencias de la AP-9 del Estado a Galicia; traspaso entre administraciones, la concesión sigue siendo privada.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000051",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Transfiere a la Comunidad Autónoma de Galicia la titularidad y competencias sobre la concesión de la AP-9; traspaso entre administraciones.",
+   "partido": ""
+  }
+ },
+ "122/000052": {
+  "vigente": {
+   "id": "122/000052",
+   "tipo": "soc",
+   "imp": {
+    "proSeg": 1
+   },
+   "peso": 1,
+   "nota": "Reconoce a los funcionarios de prisiones como agentes de la autoridad; beneficia a ese colectivo profesional.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000052",
+    "tipo": "soc",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Reconoce la condición de agentes de la autoridad a los funcionarios de prisiones en el ejercicio de sus funciones.",
+    "partido": ""
+   },
+   {
+    "id": "122/000052",
+    "tipo": "soc",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Reconoce el carácter de agentes de la autoridad a los funcionarios de los cuerpos penitenciarios en el ejercicio de sus funciones.",
+    "partido": ""
+   },
+   {
+    "id": "122/000052",
+    "tipo": "soc",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1,
+    "nota": "Reconoce la condición de agentes de la autoridad a los funcionarios de prisiones en el ejercicio de sus funciones.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000052",
+   "tipo": "soc",
+   "imp": {
+    "proSeg": 1
+   },
+   "peso": 1,
+   "nota": "Reconoce la condición de agentes de la autoridad a los funcionarios de prisiones en el ejercicio de sus funciones.",
+   "partido": ""
+  }
+ },
+ "122/000053": {
+  "vigente": {
+   "id": "122/000053",
+   "tipo": "eco",
+   "imp": {
+    "pobreza": 1
+   },
+   "peso": 2,
+   "nota": "Mejora la garantía de ingresos suficientes a través de la Seguridad Social; beneficia a personas con rentas insuficientes.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000053",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "122/000053",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "122/000053",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000053",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  }
+ },
+ "122/000054": {
+  "vigente": {
+   "id": "122/000054",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reformas sobre derechos y libertades políticas; norma institucional sin efecto distributivo claro.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "122/000054",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido ni a quién afecta con qué signo.",
+    "partido": ""
+   },
+   {
+    "id": "122/000054",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título y el texto disponible no permiten determinar el contenido.",
+    "partido": ""
+   },
+   {
+    "id": "122/000054",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "El título no permite determinar el contenido.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "122/000054",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido ni a quién afecta con qué signo.",
+   "partido": ""
+  }
+ },
+ "123/000001": {
+  "vigente": {
+   "id": "123/000001",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma de la ley del indulto; institucional, sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "123/000001",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Establece reglas para el ejercicio del indulto, con exclusión de ciertos delitos; norma penal e institucional sin colectivo afectado directamente.",
+    "partido": ""
+   },
+   {
+    "id": "123/000001",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Excluye determinados delitos de la gracia de indulto; norma penal sin colectivo asignable.",
+    "partido": ""
+   },
+   {
+    "id": "123/000001",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Excluye del indulto a condenados por rebelión y sedición; norma penal sin efecto sobre un colectivo.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "123/000001",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Establece reglas para el ejercicio del indulto, con exclusión de ciertos delitos; norma penal e institucional sin colectivo afectado directamente.",
+   "partido": ""
+  }
+ },
+ "123/000002": {
+  "vigente": {
+   "id": "123/000002",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Protección de personas que denuncian irregularidades; norma institucional sin efecto distributivo claro.",
+   "partido": "Compromís"
+  },
+  "lecturas": [
+   {
+    "id": "123/000002",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula canales de denuncia y protección de alertadores de irregularidades; no determina un colectivo afectado con claridad.",
+    "partido": ""
+   },
+   {
+    "id": "123/000002",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula canales de alerta y protege a quienes comunican irregularidades en el ámbito público y privado; sin colectivo afectado con signo claro.",
+    "partido": ""
+   },
+   {
+    "id": "123/000002",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Establece canales de alerta y protección de alertadores de irregularidades; norma de integridad sin colectivo concreto con signo claro.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "123/000002",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Regula canales de denuncia y protección de alertadores de irregularidades; no determina un colectivo afectado con claridad.",
+   "partido": "Compromís"
+  }
+ },
+ "125/000001": {
+  "vigente": {
+   "id": "125/000001",
+   "tipo": "eco",
+   "imp": {
+    "prop1": 1,
+    "cons": 1,
+    "secFin": -1
+   },
+   "peso": 2,
+   "nota": "Garantiza la devolución íntegra de preferentes y deuda subordinada a pequeños ahorradores; coste para entidades de crédito.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000001",
+    "tipo": "eco",
+    "imp": {
+     "secFin": -1,
+     "hipot": 1
+    },
+    "peso": 2,
+    "nota": "Obliga a devolver íntegro el nominal de preferentes a minoristas, a cargo de entidades, y suspende ejecuciones hipotecarias de esos ahorradores.",
+    "partido": ""
+   },
+   {
+    "id": "125/000001",
+    "tipo": "eco",
+    "imp": {
+     "hipot": 1,
+     "cons": 1,
+     "secFin": -1
+    },
+    "peso": 2,
+    "nota": "Los pequeños ahorradores recuperan lo invertido en preferentes e híbridos sin pérdida y no se ejecuta su hipoteca de primera vivienda; coste para las entidades.",
+    "partido": ""
+   },
+   {
+    "id": "125/000001",
+    "tipo": "eco",
+    "imp": {
+     "hipot": 1,
+     "secFin": -1
+    },
+    "peso": 1,
+    "nota": "Los ahorradores con preferentes recuperan lo invertido sin pérdida y no se ejecuta su hipoteca de primera vivienda; coste para las entidades.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000001",
+   "tipo": "eco",
+   "imp": {
+    "hipot": 1,
+    "secFin": -1
+   },
+   "peso": 2,
+   "nota": "Obliga a devolver íntegro el nominal de preferentes a minoristas, a cargo de entidades, y suspende ejecuciones hipotecarias de esos ahorradores.",
+   "partido": ""
+  }
+ },
+ "125/000002": {
+  "vigente": {
+   "id": "125/000002",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Modificación del régimen especial de Baleares; alcance territorial sin colectivo de perfil asignable.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000002",
+    "tipo": "eco",
+    "imp": {
+     "cons": 1,
+     "hij3": 1,
+     "infancia": 1
+    },
+    "peso": 1,
+    "nota": "Fija una tarifa máxima de 30 euros en el transporte aéreo interinsular balear, con descuentos a menores de 14 años y familias numerosas.",
+    "partido": ""
+   },
+   {
+    "id": "125/000002",
+    "tipo": "soc",
+    "imp": {
+     "hij3": 1,
+     "infancia": 1
+    },
+    "peso": 1,
+    "nota": "Fija tarifa aérea interinsular máxima de 30 euros para todos los usuarios y descuentos a menores de 14 años y familias numerosas.",
+    "partido": ""
+   },
+   {
+    "id": "125/000002",
+    "tipo": "eco",
+    "imp": {
+     "cons": 1,
+     "hij3": 1
+    },
+    "peso": 1,
+    "nota": "Fija tarifa máxima de 30 euros en vuelos interinsulares de Baleares para todos los usuarios, con descuentos a menores de 14 años y familias numerosas.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000002",
+   "tipo": "eco",
+   "imp": {
+    "cons": 1,
+    "hij3": 1,
+    "infancia": 1
+   },
+   "peso": 1,
+   "nota": "Fija una tarifa máxima de 30 euros en el transporte aéreo interinsular balear, con descuentos a menores de 14 años y familias numerosas.",
+   "partido": ""
+  }
+ },
+ "125/000003": {
+  "vigente": {
+   "id": "125/000003",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 1,
+   "nota": "Amplía derechos de quienes sufrieron persecución o violencia en la Guerra Civil y la dictadura.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000003",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Reconoce y compensa a quienes fueron despojados de sus ahorros por la incautación del papel moneda republicano durante la dictadura.",
+    "partido": ""
+   },
+   {
+    "id": "125/000003",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Prevé compensación a quienes sufrieron la incautación de billetes y signos fiduciarios republicanos durante la guerra civil.",
+    "partido": ""
+   },
+   {
+    "id": "125/000003",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Prevé compensar a quienes perdieron ahorros por la incautación franquista de billetes republicanos.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000003",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 1,
+   "nota": "Reconoce y compensa a quienes fueron despojados de sus ahorros por la incautación del papel moneda republicano durante la dictadura.",
+   "partido": ""
+  }
+ },
+ "125/000004": {
+  "vigente": {
+   "id": "125/000004",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "pac": 1,
+    "inmigrantes": 1
+   },
+   "peso": 2,
+   "nota": "Universaliza la asistencia sanitaria pública, incluidas personas extranjeras sin residencia legal.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000004",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1,
+     "inmigrantes": 1,
+     "ciud": 1
+    },
+    "peso": 2,
+    "nota": "Universaliza la asistencia sanitaria pública, incluidos extranjeros sin permiso de residencia, y restablece la cobertura eliminada en 2012.",
+    "partido": ""
+   },
+   {
+    "id": "125/000004",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1,
+     "pac": 1,
+     "inmigrantes": 1
+    },
+    "peso": 2,
+    "nota": "Universaliza el derecho a la asistencia sanitaria pública y gratuita, incluidos los extranjeros sin permiso de residencia.",
+    "partido": ""
+   },
+   {
+    "id": "125/000004",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1,
+     "inmigrantes": 1,
+     "ciud": 1
+    },
+    "peso": 2,
+    "nota": "Universaliza la asistencia sanitaria pública, incluyendo a quienes carecen de vínculo con la Seguridad Social y a extranjeros sin residencia.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000004",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "inmigrantes": 1,
+    "pac": 1
+   },
+   "peso": 2,
+   "nota": "Universaliza la asistencia sanitaria pública, incluidos extranjeros sin permiso de residencia, y restablece la cobertura eliminada en 2012.",
+   "partido": ""
+  }
+ },
+ "125/000005": {
+  "vigente": {
+   "id": "125/000005",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Reforma del Régimen General de la Seguridad Social de contenido no determinable con seguridad por el título.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000005",
+    "tipo": "eco",
+    "imp": {
+     "desPres": 1
+    },
+    "peso": 1,
+    "nota": "Reconoce la prestación por desempleo y fija las cotizaciones de quienes cesan como miembros de parlamentos autonómicos.",
+    "partido": ""
+   },
+   {
+    "id": "125/000005",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Extiende la protección por desempleo a los miembros de los parlamentos autonómicos al cesar en el cargo; sin colectivo de la lista afectado.",
+    "partido": ""
+   },
+   {
+    "id": "125/000005",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Extiende la protección por desempleo a los parlamentarios autonómicos al cesar; sin colectivo de la lista con signo claro.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000005",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Extiende la protección por desempleo a los miembros de los parlamentos autonómicos al cesar en el cargo; sin colectivo de la lista afectado.",
+   "partido": ""
+  }
+ },
+ "125/000006": {
+  "vigente": {
+   "id": "125/000006",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Modificación del régimen especial de Baleares; alcance territorial sin colectivo de perfil asignable.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000006",
+    "tipo": "eco",
+    "imp": {
+     "cons": 1,
+     "hij3": 1,
+     "infancia": 1
+    },
+    "peso": 1,
+    "nota": "Fija una tarifa máxima de 30 euros en el transporte aéreo interinsular balear, con descuentos a menores de 14 años y familias numerosas.",
+    "partido": ""
+   },
+   {
+    "id": "125/000006",
+    "tipo": "soc",
+    "imp": {
+     "hij3": 1,
+     "infancia": 1
+    },
+    "peso": 1,
+    "nota": "Fija tarifa aérea interinsular máxima de 30 euros para todos los usuarios y descuentos a menores de 14 años y familias numerosas.",
+    "partido": ""
+   },
+   {
+    "id": "125/000006",
+    "tipo": "eco",
+    "imp": {
+     "cons": 1,
+     "hij3": 1
+    },
+    "peso": 1,
+    "nota": "Fija tarifa máxima de 30 euros en vuelos interinsulares de Baleares para todos los usuarios, con descuentos a menores de 14 años y familias numerosas.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000006",
+   "tipo": "eco",
+   "imp": {
+    "cons": 1,
+    "hij3": 1,
+    "infancia": 1
+   },
+   "peso": 1,
+   "nota": "Fija una tarifa máxima de 30 euros en el transporte aéreo interinsular balear, con descuentos a menores de 14 años y familias numerosas.",
+   "partido": ""
+  }
+ },
+ "125/000007": {
+  "vigente": {
+   "id": "125/000007",
+   "tipo": "eco",
+   "imp": {
+    "asal1": 1,
+    "asal2": 1,
+    "asal3": 1,
+    "asal4": 1,
+    "empAut": -1,
+    "empMicro": -1,
+    "empPeq": -1
+   },
+   "peso": 3,
+   "nota": "Deroga la reforma laboral de 2012; beneficia a los asalariados y eleva el coste laboral para las empresas.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000007",
+    "tipo": "eco",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 3,
+    "nota": "Deroga la reforma laboral de 2012 y restablece la regulación anterior de contratación, despido y negociación colectiva; encarece el coste laboral.",
+    "partido": ""
+   },
+   {
+    "id": "125/000007",
+    "tipo": "eco",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 3,
+    "nota": "Deroga la reforma laboral de 2012 en contratación, despido y negociación colectiva; mejora derechos de asalariados y eleva el coste laboral de las empresas.",
+    "partido": ""
+   },
+   {
+    "id": "125/000007",
+    "tipo": "eco",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 3,
+    "nota": "Deroga la reforma laboral de 2012 y restablece la regulación anterior de contratación, despido y negociación colectiva; más derechos laborales y más coste empresarial.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000007",
+   "tipo": "eco",
+   "imp": {
+    "asal1": 1,
+    "asal2": 1,
+    "asal3": 1,
+    "asal4": 1,
+    "empAut": -1,
+    "empMicro": -1,
+    "empPeq": -1
+   },
+   "peso": 3,
+   "nota": "Deroga la reforma laboral de 2012 y restablece la regulación anterior de contratación, despido y negociación colectiva; encarece el coste laboral.",
+   "partido": ""
+  }
+ },
+ "125/000008": {
+  "vigente": {
+   "id": "125/000008",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 2,
+   "nota": "Regula el cannabis, incluido su uso terapéutico; beneficia a pacientes que lo usan como tratamiento.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000008",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 2,
+    "nota": "Regula el autocultivo y los clubes de consumidores de cannabis; sin colectivo definido con signo claro.",
+    "partido": ""
+   },
+   {
+    "id": "125/000008",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula el autocultivo y las asociaciones de consumidores de cannabis; ningún colectivo de la rúbrica resulta afectado con signo claro.",
+    "partido": ""
+   },
+   {
+    "id": "125/000008",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Regula asociaciones y autocultivo de consumidores de cannabis; sin colectivo identificable de la rúbrica.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000008",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Regula el autocultivo y los clubes de consumidores de cannabis; sin colectivo definido con signo claro.",
+   "partido": ""
+  }
+ },
+ "125/000009": {
+  "vigente": {
+   "id": "125/000009",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Saca la enseñanza de la religión del currículo escolar; sin efecto distributivo de signo claro.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000009",
+    "tipo": "soc",
+    "imp": {
+     "minorias": -1
+    },
+    "peso": 2,
+    "nota": "Suprime la enseñanza confesional de religión del currículo escolar y la limita al ámbito fuera de la escuela.",
+    "partido": ""
+   },
+   {
+    "id": "125/000009",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Suprime la enseñanza confesional de religión del currículo escolar; sin colectivo de la lista afectado con signo claro.",
+    "partido": ""
+   },
+   {
+    "id": "125/000009",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Saca la enseñanza confesional de religión del currículo escolar; sin colectivo de la lista con signo claro.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000009",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Suprime la enseñanza confesional de religión del currículo escolar; sin colectivo de la lista afectado con signo claro.",
+   "partido": ""
+  }
+ },
+ "125/000010": {
+  "vigente": {
+   "id": "125/000010",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Modificación parcial de la ley de cohesión del SNS; contenido no determinable con seguridad por el título.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000010",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1,
+     "inmigrantes": 1,
+     "ciud": 1
+    },
+    "peso": 2,
+    "nota": "Restablece el acceso universal a la sanidad pública, incluidos los inmigrantes en situación irregular, revirtiendo la restricción de 2012.",
+    "partido": ""
+   },
+   {
+    "id": "125/000010",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1,
+     "pac": 1,
+     "inmigrantes": 1
+    },
+    "peso": 2,
+    "nota": "Restablece el acceso universal a la asistencia sanitaria pública, incluidos extranjeros sin residencia legal.",
+    "partido": ""
+   },
+   {
+    "id": "125/000010",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1,
+     "inmigrantes": 1,
+     "ciud": 1
+    },
+    "peso": 2,
+    "nota": "Restablece el carácter universal de la asistencia sanitaria pública, incluyendo a quienes carecen de vínculo con la Seguridad Social y a extranjeros.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000010",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "inmigrantes": 1,
+    "pac": 1
+   },
+   "peso": 2,
+   "nota": "Restablece el acceso universal a la sanidad pública, incluidos los inmigrantes en situación irregular, revirtiendo la restricción de 2012.",
+   "partido": ""
+  }
+ },
+ "125/000011": {
+  "vigente": {
+   "id": "125/000011",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Transfiere a Galicia la titularidad y competencias de la AP-9, incluidas las tarifas; traspaso entre administraciones, la concesión sigue vigente.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000011",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Transfiere a la Comunidad Autónoma de Galicia la titularidad y competencias sobre la concesión de la AP-9; traspaso entre administraciones.",
+    "partido": ""
+   },
+   {
+    "id": "125/000011",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Transfiere la titularidad y competencias de la autopista AP-9 del Estado a la Comunidad Autónoma de Galicia; traspaso entre administraciones.",
+    "partido": ""
+   },
+   {
+    "id": "125/000011",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Transfiere la titularidad y competencias de la AP-9 del Estado a Galicia; traspaso entre administraciones, la concesión sigue siendo privada.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000011",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Transfiere a la Comunidad Autónoma de Galicia la titularidad y competencias sobre la concesión de la AP-9; traspaso entre administraciones.",
+   "partido": ""
+  }
+ },
+ "125/000012": {
+  "vigente": {
+   "id": "125/000012",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "secInd": -1
+   },
+   "peso": 2,
+   "nota": "Prohíbe la exploración y explotación de hidrocarburos en el Mediterráneo español; protección ambiental con coste para la industria extractiva.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000012",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Protege el Mediterráneo de los daños de la exploración y explotación de hidrocarburos; limita esa actividad industrial.",
+    "partido": ""
+   },
+   {
+    "id": "125/000012",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Refuerza la protección del Mediterráneo frente a la exploración y explotación de hidrocarburos; beneficia al medio ambiente y restringe al sector energético.",
+    "partido": ""
+   },
+   {
+    "id": "125/000012",
+    "tipo": "soc",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2,
+    "nota": "Protege el Mediterráneo de los daños de la exploración y explotación de hidrocarburos; refuerza la protección ambiental y limita a las empresas del sector.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000012",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "secInd": -1
+   },
+   "peso": 2,
+   "nota": "Protege el Mediterráneo de los daños de la exploración y explotación de hidrocarburos; limita esa actividad industrial.",
+   "partido": ""
+  }
+ },
+ "125/000013": {
+  "vigente": {
+   "id": "125/000013",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Vuelve a limitar las rebajas a dos temporadas anuales de entre una semana y dos meses; signo del efecto sobre el comercio no claro.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000013",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Devuelve a las comunidades autónomas la fijación de las fechas de rebajas; el signo para comerciantes y consumidores no consta.",
+    "partido": ""
+   },
+   {
+    "id": "125/000013",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Limita las rebajas a dos temporadas con fechas fijadas por las comunidades autónomas; el signo para comercio y consumidores no consta.",
+    "partido": ""
+   },
+   {
+    "id": "125/000013",
+    "tipo": "eco",
+    "imp": {},
+    "peso": 1,
+    "nota": "Permite a las comunidades autónomas fijar fechas y régimen de las rebajas comerciales; efecto sobre comercio y consumidores sin signo claro.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000013",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "Devuelve a las comunidades autónomas la fijación de las fechas de rebajas; el signo para comerciantes y consumidores no consta.",
+   "partido": ""
+  }
+ },
+ "125/000014": {
+  "vigente": {
+   "id": "125/000014",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Modificación de la ley electoral y de financiación de partidos; norma electoral sin efecto distributivo.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000014",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Modifica el límite de gasto electoral y las sanciones por exceso; norma electoral sin colectivo afectado directamente.",
+    "partido": ""
+   },
+   {
+    "id": "125/000014",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Modifica el límite de gasto electoral y las sanciones por superarlo; norma electoral sin colectivo afectado.",
+    "partido": ""
+   },
+   {
+    "id": "125/000014",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Modifica el límite de gasto electoral y las sanciones por excederlo; norma electoral sin colectivo afectado.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000014",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Modifica el límite de gasto electoral y las sanciones por exceso; norma electoral sin colectivo afectado directamente.",
+   "partido": ""
+  }
+ },
+ "125/000015": {
+  "vigente": {
+   "id": "125/000015",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1,
+    "pac": 1
+   },
+   "peso": 2,
+   "nota": "Crea un fondo para indemnizar a víctimas del amianto y a sus familias.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000015",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Crea un fondo de compensación sin culpa para afectados por enfermedades del amianto y sus familias.",
+    "partido": ""
+   },
+   {
+    "id": "125/000015",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1,
+    "nota": "Crea un fondo para compensar a los afectados por enfermedades del amianto cuando no hay empresa responsable a la que reclamar.",
+    "partido": ""
+   },
+   {
+    "id": "125/000015",
+    "tipo": "soc",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 2,
+    "nota": "Crea un fondo de compensación para las víctimas del amianto y sus familias, que cobran sin necesidad de reclamar a empresas.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000015",
+   "tipo": "soc",
+   "imp": {
+    "victimas": 1
+   },
+   "peso": 1,
+   "nota": "Crea un fondo de compensación sin culpa para afectados por enfermedades del amianto y sus familias.",
+   "partido": ""
+  }
+ },
+ "125/000016": {
+  "vigente": {
+   "id": "125/000016",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 2,
+   "nota": "Despenaliza la eutanasia y la ayuda al suicidio; amplía opciones de pacientes con enfermedades graves e incurables.",
+   "partido": ""
+  },
+  "lecturas": [
+   {
+    "id": "125/000016",
+    "tipo": "soc",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1,
+    "nota": "Exime de responsabilidad penal la eutanasia a petición de enfermos graves o con sufrimiento permanente; amplía su derecho a morir con ayuda.",
+    "partido": ""
+   },
+   {
+    "id": "125/000016",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Exime de responsabilidad penal a quien cause o coopere en la muerte de una persona que la solicita; norma penal sin colectivo marcado.",
+    "partido": ""
+   },
+   {
+    "id": "125/000016",
+    "tipo": "soc",
+    "imp": {},
+    "peso": 1,
+    "nota": "Norma penal: exime de responsabilidad a quien ayude a morir a un enfermo grave que lo pide; sin derechos específicos regulados.",
+    "partido": ""
+   }
+  ],
+  "consolidada": {
+   "id": "125/000016",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Exime de responsabilidad penal a quien cause o coopere en la muerte de una persona que la solicita; norma penal sin colectivo marcado.",
+   "partido": ""
+  }
+ }
+}
