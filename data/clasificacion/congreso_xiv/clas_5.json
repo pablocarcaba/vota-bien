@@ -39,7 +39,7 @@
 "secInd": -1
 },
 "peso": 2,
-"nota": "Reforma la ley de minas con más exigencias ambientales; beneficio ambiental general y costes para la minería.",
+"nota": "Adapta la ley de minas a la normativa ambiental europea y añade participación pública; beneficio ambiental general y costes para la minería.",
 "partido": ""
 },
 {
@@ -494,17 +494,24 @@
 {
 "id": "122/000263",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"ciud": 1,
+"empGran": -1
+},
 "peso": 1,
-"nota": "Modifica la ley de contratos del sector público; el título no permite fijar la dirección del efecto.",
+"nota": "Facilita rescatar concesiones de servicios para su gestión directa y reduce las indemnizaciones a concesionarios; regla de lo público.",
 "partido": ""
 },
 {
 "id": "122/000264",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Modifica la ley de bases de régimen local; norma organizativa sin efecto distributivo claro.",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secTrans": -1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Favorece la gestión directa municipal y reserva a los ayuntamientos agua, residuos y transporte urbano; regla de lo público.",
 "partido": ""
 },
 {
@@ -608,9 +615,11 @@
 {
 "id": "122/000277",
 "tipo": "soc",
-"imp": {},
+"imp": {
+"inmigrantes": 1
+},
 "peso": 2,
-"nota": "Reforma integral de la gestión migratoria con medidas de distinto signo para los inmigrantes; efecto neto no claro.",
+"nota": "Crea visados humanitario y por puntos, asilo en embajadas con silencio positivo y ventajas fiscales a inmigrantes cualificados.",
 "partido": ""
 },
 {
@@ -673,9 +682,12 @@
 {
 "id": "122/000284",
 "tipo": "soc",
-"imp": {},
+"imp": {
+"ciud": 1,
+"secCom": -1
+},
 "peso": 1,
-"nota": "Modifica la ley de cambio climático; el título no permite fijar la dirección del efecto.",
+"nota": "Obliga a cubrir con placas solares la mitad de los aparcamientos exteriores de más de 50 plazas; beneficio climático, coste a sus titulares.",
 "partido": "Más País"
 },
 {
@@ -744,10 +756,10 @@
 "id": "122/000292",
 "tipo": "soc",
 "imp": {
-"inmigrantes": 1
+"inmigrantes": -1
 },
-"peso": 1,
-"nota": "Régimen transitorio de los CIE hasta su cierre definitivo; beneficia a extranjeros en situación irregular.",
+"peso": 2,
+"nota": "Amplía el internamiento en los CIE a seis meses prorrogables y restringe el asilo desde los CIE; pide informe sobre su futuro cierre.",
 "partido": ""
 },
 {
@@ -806,9 +818,11 @@
 {
 "id": "122/000300",
 "tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Cambia el funcionamiento de los CIE; el título no permite fijar el signo del efecto.",
+"imp": {
+"inmigrantes": -1
+},
+"peso": 2,
+"nota": "Amplía el internamiento en los CIE a seis meses prorrogables, prohíbe pedir asilo desde ellos y endurece la suspensión de expulsiones.",
 "partido": ""
 },
 {
@@ -833,17 +847,21 @@
 {
 "id": "122/000303",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"secCons": -1
+},
 "peso": 1,
-"nota": "Modifica la ley de emprendedores; el título no permite fijar la dirección del efecto.",
+"nota": "Suprime el visado de residencia por compra de inmuebles de 500.000 €; resta demanda al sector inmobiliario.",
 "partido": "Más País"
 },
 {
 "id": "122/000304",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"secCons": -1
+},
 "peso": 1,
-"nota": "Modifica la ley de emprendedores; el título no permite fijar la dirección del efecto.",
+"nota": "Suprime el visado de residencia por compra de inmuebles de 500.000 €; resta demanda al sector inmobiliario.",
 "partido": "Más País"
 },
 {

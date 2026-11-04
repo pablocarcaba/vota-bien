@@ -16,10 +16,14 @@
 },
 {
 "id": "122/000315",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Protección de derechos constitucionales de trabajadores frente a coacciones; sin efecto distributivo claro sobre un colectivo.",
+"tipo": "eco",
+"imp": {
+"mujeres": -1,
+"asal1": -1,
+"secDig": 1
+},
+"peso": 2,
+"nota": "Suprime los planes de igualdad y la presunción de laboralidad de los repartidores y castiga de nuevo las coacciones de piquetes.",
 "partido": ""
 },
 {
@@ -434,10 +438,10 @@
 },
 {
 "id": "125/000006",
-"tipo": "eco",
+"tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Transfiere la titularidad de la AP-9 a Galicia; traspaso entre administraciones sin efecto distributivo claro.",
+"nota": "Transfiere a Galicia la titularidad y competencias de la AP-9, incluidas las tarifas; traspaso entre administraciones, la concesión sigue vigente.",
 "partido": ""
 },
 {
@@ -456,7 +460,7 @@
 "tipo": "eco",
 "imp": {},
 "peso": 1,
-"nota": "Modificación puntual de la ley de comercio minorista; efecto concreto incierto a partir del título.",
+"nota": "Vuelve a limitar las rebajas a dos temporadas anuales de entre una semana y dos meses; signo del efecto sobre el comercio no claro.",
 "partido": ""
 },
 {
@@ -513,9 +517,11 @@
 {
 "id": "125/000014",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"ciud": -1
+},
 "peso": 1,
-"nota": "Modificación de la Ley de Costas; contenido concreto incierto a partir del título.",
+"nota": "Amplía las prórrogas de concesiones en el dominio público marítimo-terrestre, también para usos no ligados al mar; prolonga su ocupación privada.",
 "partido": ""
 },
 {
@@ -558,9 +564,12 @@
 {
 "id": "125/000019",
 "tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modificación de la Ley de Arrendamientos Urbanos; contenido concreto incierto a partir del título.",
+"imp": {
+"inq": 1,
+"viv2": -1
+},
+"peso": 2,
+"nota": "Permite a las comunidades limitar rentas en zonas tensionadas y alarga las prórrogas de alquiler; beneficia a inquilinos, limita a arrendadores.",
 "partido": ""
 },
 {

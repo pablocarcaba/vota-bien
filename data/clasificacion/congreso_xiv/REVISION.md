@@ -28,6 +28,8 @@ Ya igualados al integrar: voto a los 16 (`+jovenes`, como en la XV), deslocaliza
 
 ## 3. Contenido supuesto o desconocido
 
+Revisado con el texto del BOCG/BOE (49 iniciativas, 21 cambios; gemelas 122/000303 y 122/000093 igualadas a 304 y 094). Siguen sin texto comprobable: 122/000023, 122/000135, 120/000005, 006, 008, 011, 014, 016, 025, 122/000329, 122/000332 y 124/000006.
+
 - [ ] 121/000060: paquete covid sin RDL identificado con seguridad; clasificado como genérico con peso 3.
 - [ ] 121/000077 (ley ferroviaria): ¿amplía la liberalización? Si es así, `-ciud` y `+secTrans`.
 - [ ] 130/000065 (RDL 25/2021) y 130/000081 (RDL 9/2022): contenido no claro; vacías.
@@ -43,3 +45,12 @@ Ya igualados al integrar: voto a los 16 (`+jovenes`, como en la XV), deslocaliza
 
 - [ ] 122/000057, 084, 099, 100, 112, 170, 185, 187, 188, 229: el texto del BOCG no indica el partido. Varias son iniciativas conjuntas de varios partidos del Plural (actos del Rey, registro patrimonial…).
 - [ ] 122/000096 y 122/000204: atribuidas a todos los partidos firmantes.
+
+## 5. Dudas nuevas tras leer el texto
+
+- [ ] **Prisión permanente revisable** (122/000005, suprimirla): vacía; por simetría con la XV (ampliarla → `+victimas`) tocaría `-victimas`.
+- [ ] **Atentado contra la autoridad** (122/000089, derogarlo): sin `-proSeg`, aunque endurecerlo (122/000163) lleva `+proSeg`.
+- [ ] **Lo público sin sector claro**: 125/000014 (prórroga de concesiones de costas) solo `-ciud`; 122/000263 (rescate de concesiones) usa `-empGran`.
+- [ ] **Rebajas** (125/000008): restringe al comercio, la defiende el pequeño comercio; vacía.
+- [ ] **122/000315** (VOX, repartidores y planes de igualdad): `-asal1` en espejo de la ley rider.
+- [ ] **Pesos**: 122/000292 y 122/000300 (CIE) y 122/000089 suben a 2.

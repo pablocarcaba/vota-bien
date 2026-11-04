@@ -579,9 +579,11 @@
 {
 "id": "122/000172",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"secPrim": 1
+},
 "peso": 1,
-"nota": "Reforma de la ley de crédito inmobiliario; el título no permite determinar el signo del efecto.",
+"nota": "Excluye de la ley de crédito inmobiliario a las secciones de crédito de cooperativas, sobre todo agrarias; les quita obligaciones.",
 "partido": "BNG"
 },
 {
@@ -910,7 +912,7 @@
 "secInd": -1
 },
 "peso": 2,
-"nota": "Reforma la ley de minas con más exigencias ambientales; beneficio ambiental general y costes para la minería.",
+"nota": "Adapta la ley de minas a la normativa ambiental europea y añade participación pública; beneficio ambiental general y costes para la minería.",
 "partido": ""
 },
 {

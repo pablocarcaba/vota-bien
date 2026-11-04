@@ -110,7 +110,7 @@
 "tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Penal o procesal sin efecto distributivo claro sobre colectivos.",
+"nota": "Suprime el delito de coacciones para iniciar o continuar una huelga (art. 315.3 CP); norma penal sin efecto distributivo claro.",
 "partido": ""
 },
 {
@@ -237,7 +237,7 @@
 "tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Modificación del régimen jurídico del sector público; organización administrativa sin efecto distributivo.",
+"nota": "Permite que subsecretarías y secretarías generales técnicas presten servicios comunes a varios ministerios; organización administrativa.",
 "partido": ""
 },
 {
@@ -255,7 +255,7 @@
 "tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Modificación de la Ley de Universidades de contenido no precisado en el título; sin efecto claro.",
+"nota": "Añade la neutralidad ideológica como principio de las universidades; sin efecto distributivo claro.",
 "partido": ""
 },
 {
@@ -263,7 +263,7 @@
 "tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Penal o procesal sin efecto distributivo claro sobre colectivos.",
+"nota": "Suprime el delito de coacciones para iniciar o continuar una huelga (art. 315.3 CP); norma penal sin efecto distributivo claro.",
 "partido": ""
 },
 {
@@ -404,15 +404,19 @@
 "tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Cambio puntual en la Ley de Régimen Jurídico del Sector Público; organización administrativa.",
+"nota": "Exige que los directores generales sean funcionarios del subgrupo A1; organización administrativa sin efecto distributivo.",
 "partido": ""
 },
 {
 "id": "122/000056",
 "tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modificación de la ley de haciendas locales de alcance no precisado en el título; sin efecto claro.",
+"imp": {
+"viv1": 1,
+"viv2": 1,
+"infancia": 1
+},
+"peso": 2,
+"nota": "Plusvalía municipal: grava solo ganancias reales, limita la cuota y exime la venta de la vivienda familiar con hijos si se reinvierte.",
 "partido": ""
 },
 {
@@ -483,7 +487,7 @@
 "tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Penal o procesal sin efecto distributivo claro sobre colectivos.",
+"nota": "Endurece el acceso al tercer grado y la libertad condicional en delitos de rebelión y crea la deslealtad constitucional; sin efecto distributivo.",
 "partido": ""
 },
 {
@@ -720,8 +724,8 @@
 "id": "122/000089",
 "tipo": "soc",
 "imp": {},
-"peso": 1,
-"nota": "Modifica delitos de orden público del Código Penal; sin efecto distributivo claro.",
+"peso": 2,
+"nota": "Deroga la Ley de Seguridad Ciudadana, la reforma penal de atentado y desórdenes públicos y el delito de sedición; efecto general discutible.",
 "partido": "CUP"
 },
 {
@@ -751,17 +755,33 @@
 {
 "id": "122/000093",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1,
+"proSan": 1,
+"proDoc": 1
+},
 "peso": 1,
-"nota": "Modificación del Estatuto Básico del Empleado Público de alcance no precisado en el título; sin efecto claro.",
+"nota": "Turno especial y único de acceso para interinos con diez años de servicio en cuerpos sin oposiciones desde 2010.",
 "partido": "Junts"
 },
 {
 "id": "122/000094",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1,
+"proSan": 1,
+"proDoc": 1
+},
 "peso": 1,
-"nota": "Modificación del Estatuto Básico del Empleado Público de alcance no precisado en el título; sin efecto claro.",
+"nota": "Turno especial y único de acceso para interinos con diez años de servicio en cuerpos sin oposiciones desde 2010.",
 "partido": "Junts"
 },
 {
@@ -775,9 +795,11 @@
 {
 "id": "122/000096",
 "tipo": "soc",
-"imp": {},
+"imp": {
+"victimas": 1
+},
 "peso": 1,
-"nota": "Penal o procesal sin efecto distributivo claro sobre colectivos.",
+"nota": "Permite juzgar crímenes contra la humanidad aunque no fueran delito al cometerse; abre la persecución del franquismo a favor de sus víctimas.",
 "partido": "Junts, Compromís, BNG, CUP"
 },
 {
@@ -905,7 +927,7 @@
 "tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Adecuación de parques nacionales existentes a su régimen jurídico; alcance concreto no precisado.",
+"nota": "Amplía hasta 2023 el plazo para adecuar los parques nacionales, mediante acuerdos voluntarios o expropiación; sin colectivo claro.",
 "partido": ""
 },
 {
