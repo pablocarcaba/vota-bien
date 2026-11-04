@@ -13,7 +13,7 @@ Estas instrucciones son las mismas para cualquier legislatura y para quien clasi
 
 ## Encargo para cada lote (texto para el agente)
 
-> Clasifica las iniciativas legislativas del fichero `<lote>` para la web ciudadana y neutral «¿Quién legisla para ti?», que muestra a cada persona qué leyes le benefician o perjudican según su perfil.
+> Clasifica las iniciativas legislativas del fichero `<lote>` para la web ciudadana y neutral «¿A quién puedo votar?», que muestra a cada persona qué leyes le benefician o perjudican según su perfil.
 >
 > Lee entero `data/clasificacion/RUBRICA.md`: es la única fuente de criterios. No modifiques ningún fichero del proyecto.
 >

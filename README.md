@@ -1,4 +1,4 @@
-# ¿Quién legisla para ti?
+# ¿A quién puedo votar?
 
 Herramienta web que permite a cualquier persona marcar su perfil (tramo de IRPF, funcionario, pensionista, propietario, empresario, colectivos sociales…) y ver qué partidos presentaron y votaron leyes que le benefician o perjudican.
 

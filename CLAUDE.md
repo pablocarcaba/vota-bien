@@ -1,6 +1,6 @@
 # Notas para Claude Code
 
-Proyecto: web estática "¿Quién legisla para ti?" (lee README.md primero).
+Proyecto: web estática "¿A quién puedo votar?" (antes «¿Quién legisla para ti?») (lee README.md primero).
 
 - Idioma del proyecto y de la web: español. Tono neutral; no tomar partido.
 - Cada fuente y legislatura es un dataset aparte con clave `<fuente>_<leg>` (p. ej. `congreso_xv`); nunca se mezclan partidos de legislaturas distintas. Su configuración está en `scripts/legislaturas.py`.
