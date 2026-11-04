@@ -1,0 +1,553 @@
+[
+{
+"id": "2025/0380(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Refuerza la reserva de estabilidad del ETS2 para contener el precio del carbono en calefacción y carburantes de los hogares.",
+"partido": ""
+},
+{
+"id": "2025/0385(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Modificación técnica del Reglamento de materias primas críticas; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2025/0387(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste de la participación de Marruecos en un programa de investigación; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2025/0390(APP)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma financiera del Fondo de Investigación del Carbón y del Acero; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2025/0393(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Simplificación técnica de la infraestructura de información espacial (INSPIRE); sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2025/0395(COD)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Suspende la obligación de designar representante para responsabilidad del productor; alivia cargas a pequeñas empresas que venden en otros países.",
+"partido": ""
+},
+{
+"id": "2025/0396(COD)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Suspende la obligación de designar representante para responsabilidad del productor; alivia cargas a pequeñas empresas que venden en otros países.",
+"partido": ""
+},
+{
+"id": "2025/0398(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa de investigación del carbón y del acero; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2025/0407(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Autoriza a Austria a modificar un acuerdo con Suiza; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2025/0408(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 1,
+"nota": "Amplía plazos de protección de datos de biocidas; beneficia a la industria que los registró.",
+"partido": ""
+},
+{
+"id": "2025/0413(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Participación de Canadá en compras de defensa SAFE; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2025/0418(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 2,
+"nota": "Crea un fondo temporal para apoyar la descarbonización de industrias expuestas a fuga de carbono.",
+"partido": ""
+},
+{
+"id": "2025/0419(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Extiende el ajuste en frontera por carbono a productos transformados; efecto sectorial mixto entre productores e importadores industriales.",
+"partido": ""
+},
+{
+"id": "2025/0423(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1,
+"ciud": -1
+},
+"peso": 1,
+"nota": "Flexibiliza el cálculo de créditos de emisiones de camiones 2025-2029; alivia a los fabricantes de vehículos pesados.",
+"partido": ""
+},
+{
+"id": "2025/0429(COD)",
+"tipo": "soc",
+"imp": {
+"infancia": 1
+},
+"peso": 1,
+"nota": "Prorroga la excepción que permite detectar voluntariamente abuso sexual infantil en línea; protege a menores.",
+"partido": ""
+},
+{
+"id": "2025/0524(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"secTrans": -1
+},
+"peso": 2,
+"nota": "Fija el objetivo climático de 2040; mejora ambiental general con costes de adaptación para industria y transporte.",
+"partido": ""
+},
+{
+"id": "2025/0531(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1,
+"ciud": -1
+},
+"peso": 2,
+"nota": "Simplifica requisitos de etiquetado y procedimientos de químicos, cosméticos y fertilizantes; reduce cargas a la industria.",
+"partido": ""
+},
+{
+"id": "2025/0571R(APP)",
+"tipo": "eco",
+"imp": {},
+"peso": 3,
+"nota": "Posición provisional del Parlamento sobre el marco financiero 2028-2034; efectos distributivos aún no definidos.",
+"partido": ""
+},
+{
+"id": "2025/0580(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Sube los mínimos del impuesto al tabaco y lo extiende a nuevos productos; objetivo de salud pública y coste para la industria.",
+"partido": ""
+},
+{
+"id": "2025/0581(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste del régimen general de impuestos especiales para el tabaco; norma técnica sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2025/0590(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa de gasto para mercado único y aduanas 2028-2034; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2025/0726(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 2,
+"nota": "Reduce cupos sin arancel y eleva aranceles al acero importado; protege a la siderurgia europea.",
+"partido": ""
+},
+{
+"id": "2025/0806(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Normas estadísticas del Banco Central Europeo; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2025/0810R(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Informe provisional sobre el acuerdo político con México; sin efectos sectoriales claros.",
+"partido": ""
+},
+{
+"id": "2025/0825(COD)",
+"tipo": "eco",
+"imp": {
+"secFin": 1
+},
+"peso": 1,
+"nota": "Rebaja los requisitos de capital de la banca para titulizaciones; beneficia al sector financiero.",
+"partido": ""
+},
+{
+"id": "2025/0826(COD)",
+"tipo": "eco",
+"imp": {
+"secFin": 1
+},
+"peso": 2,
+"nota": "Simplifica el marco de titulización para reactivar ese mercado; beneficia al sector financiero.",
+"partido": ""
+},
+{
+"id": "2025/0900(APP)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reforma del acta electoral europea; norma institucional sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2025/2079(INL)",
+"tipo": "eco",
+"imp": {
+"secDig": 1
+},
+"peso": 2,
+"nota": "Propone un régimen societario europeo opcional para empresas innovadoras; facilita la actividad de empresas emergentes tecnológicas.",
+"partido": ""
+},
+{
+"id": "2025/2080(INL)",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1
+},
+"peso": 2,
+"nota": "Propone derechos laborales frente a la gestión algorítmica e inteligencia artificial en el trabajo; beneficia a asalariados.",
+"partido": ""
+},
+{
+"id": "2025/2131(INL)",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1
+},
+"peso": 2,
+"nota": "Propone una directiva de transición justa con protección del empleo afectado por la transición ecológica.",
+"partido": ""
+},
+{
+"id": "2025/2195(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Permite el voto delegado de eurodiputadas embarazadas o tras el parto; norma institucional.",
+"partido": ""
+},
+{
+"id": "2025/2246(BUI)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones del Parlamento para el presupuesto 2027; sin efecto distributivo propio.",
+"partido": ""
+},
+{
+"id": "2025/2247(BUI)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Previsiones de gasto del propio Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2026/0001(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos en otro Estado miembro; sin efecto directo en colectivos residentes en España.",
+"partido": ""
+},
+{
+"id": "2026/0004(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos en otro Estado miembro; sin efecto directo en colectivos residentes en España.",
+"partido": ""
+},
+{
+"id": "2026/0008(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Préstamo de la UE a Ucrania para 2026-2027; sin efecto distributivo directo en colectivos españoles.",
+"partido": ""
+},
+{
+"id": "2026/0010(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste del Mecanismo para Ucrania; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2026/0037(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos en otro Estado miembro; sin efecto directo en colectivos residentes en España.",
+"partido": ""
+},
+{
+"id": "2026/0038(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos en otro Estado miembro; sin efecto directo en colectivos residentes en España.",
+"partido": ""
+},
+{
+"id": "2026/0066(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos en otro Estado miembro; sin efecto directo en colectivos residentes en España.",
+"partido": ""
+},
+{
+"id": "2026/0078(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 1,
+"nota": "Crea un programa de financiación de innovación en defensa; beneficia a la industria del sector.",
+"partido": ""
+},
+{
+"id": "2026/0085(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 1,
+"nota": "Deja de invalidar derechos de emisión de la reserva; más oferta disponible abarata el coste del carbono para la industria.",
+"partido": ""
+},
+{
+"id": "2026/0090(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Consigna el excedente presupuestario de 2025; técnica.",
+"partido": ""
+},
+{
+"id": "2026/0097(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos en otro Estado miembro; sin efecto directo en colectivos residentes en España.",
+"partido": ""
+},
+{
+"id": "2026/0099(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico de la prohibición de exportar residuos municipales mezclados; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2026/0120(BUD)",
+"tipo": "soc",
+"imp": {
+"victimas": 1,
+"rural": 1
+},
+"peso": 1,
+"nota": "Ayuda del Fondo de Solidaridad, entre otros, a España por los incendios forestales de agosto de 2025.",
+"partido": ""
+},
+{
+"id": "2026/0126(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Asistencia técnica del Fondo de Adaptación a la Globalización; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2026/0137(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones no vinculantes de empleo para los Estados miembros; sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2026/0144(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Actualiza los recursos propios del presupuesto 2026; técnica.",
+"partido": ""
+},
+{
+"id": "2026/0150(COD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1
+},
+"peso": 2,
+"nota": "Ayuda temporal y anticipos a agricultores ante la subida de los fertilizantes.",
+"partido": ""
+},
+{
+"id": "2026/0189(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Liberalización comercial temporal para Armenia; sin efecto sectorial claro en España.",
+"partido": ""
+},
+{
+"id": "2026/0195(BUD)",
+"tipo": "eco",
+"imp": {
+"desPres": 1,
+"secInd": 1
+},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos del sector auxiliar del automóvil en Galicia.",
+"partido": ""
+},
+{
+"id": "2026/0196(BUD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1
+},
+"peso": 3,
+"nota": "Presupuesto anual de la UE para 2027; incluye pagos agrícolas y desarrollo rural.",
+"partido": ""
+},
+{
+"id": "2026/0197(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos en otro Estado miembro; sin efecto directo en colectivos residentes en España.",
+"partido": ""
+},
+{
+"id": "2026/0211(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fija parámetros de referencia de asignación gratuita de emisiones; efecto concreto sobre la industria no claro.",
+"partido": ""
+},
+{
+"id": "2026/0220(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos en otro Estado miembro; sin efecto directo en colectivos residentes en España.",
+"partido": ""
+},
+{
+"id": "2026/0254(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a trabajadores despedidos en otro Estado miembro; sin efecto directo en colectivos residentes en España.",
+"partido": ""
+},
+{
+"id": "2026/0284(BUD)",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Ayuda del Fondo de Solidaridad, entre otros, a España por las tormentas de enero y febrero de 2026.",
+"partido": ""
+},
+{
+"id": "2026/0325(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1,
+"ciud": -1
+},
+"peso": 1,
+"nota": "Aplaza obligaciones de reducción de metano del sector energético; alivia a las empresas y retrasa la mejora ambiental.",
+"partido": ""
+},
+{
+"id": "2026/2023(INL)",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1
+},
+"peso": 2,
+"nota": "Propone una directiva sobre riesgos psicosociales y salud mental en el trabajo; beneficia a asalariados.",
+"partido": ""
+}
+]

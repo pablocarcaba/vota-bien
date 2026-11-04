@@ -210,13 +210,13 @@ def main():
             and (not m["end_date"] or m["end_date"] >= INICIO)]
 
     # voto de cada eurodiputado español (member_votes es grande: se lee en streaming)
-    ids = {v["id"] for v in votos}
-    nominal, nvotos = {}, {}
+    ids = {v["id"]: v["timestamp"][:10] for v in votos}
+    nominal, fechas_voto = {}, {}
     for mv in leer(d, "member_votes"):
         if mv["country_code"] != "ESP" or mv["vote_id"] not in ids:
             continue
         nominal.setdefault(mv["vote_id"], []).append(mv)
-        nvotos[mv["member_id"]] = nvotos.get(mv["member_id"], 0) + 1
+        fechas_voto.setdefault(mv["member_id"], []).append(ids[mv["vote_id"]])
 
     def nombre(mid):
         m = miembros[mid]
@@ -235,7 +235,8 @@ def main():
                               "partido": PARTIDOS.get(p["short_label"], p["short_label"]),
                               "partido_oficial": p["label"], "grupo": grupo(m["member_id"], m["start_date"]),
                               "desde": fecha(max(m["start_date"], INICIO)), "hasta": fecha(m["end_date"]),
-                              "votos": nvotos.get(m["member_id"], 0)})
+                              "votos": sum(m["start_date"] <= f <= (m["end_date"] or "9999")
+                                           for f in fechas_voto.get(m["member_id"], []))})
 
     # procedimientos (título en español desde la API del PE)
     procedimientos, titulos = [], {}

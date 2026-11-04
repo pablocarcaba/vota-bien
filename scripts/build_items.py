@@ -11,6 +11,13 @@ out = os.path.join(ROOT, "data", "generado", clave, "items.json")
 cl = lambda s: re.sub(r"\s+", " ", s or "").strip()
 
 items = []
+# Parlamento Europeo: procedimientos legislativos (descargar_europarlamento.py)
+for x in d.get("procedimientos", []):
+    if not x.get("legislativo"):
+        continue
+    items.append({"id": x["exp"], "tipo_ini": x["tipo_txt"], "titulo": cl(x["tit"]),
+                  "autor": "Parlamento Europeo" if x["tipo"] == "INL" else "Comisión Europea",
+                  "fecha": x["d"], "resultado": x.get("res", ""), "situacion": ""})
 for x in d.get("proyectos", []) + d.get("proposiciones", []) + d.get("rdl", []):
     items.append({
         "id": x["NUMEXPEDIENTE"][:10],
@@ -24,7 +31,7 @@ for x in d.get("proyectos", []) + d.get("proposiciones", []) + d.get("rdl", []):
 
 # En la XV los reales decretos-ley no venían en el fichero de iniciativas: se toman de sus votaciones
 seen = {it["id"] for it in items}
-for v in d["votaciones"]:
+for v in d.get("votaciones", []) if "procedimientos" not in d else []:
     if v["exp"].startswith("130") and v["exp"] not in seen:
         t = cl(v["txt"])
         if t.lower().startswith("tramitación"):

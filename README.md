@@ -28,6 +28,10 @@ data/
 scripts/
   legislaturas.py             Configuración por legislatura: grupos, partidos, textos
   descargar_legislatura.py    Descarga fichas de iniciativas y votaciones del Pleno (reanudable)
+  descargar_historico.sh      Descarga en serie las legislaturas X–XIII del Congreso
+  descargar_europarlamento.py Parlamento Europeo (10.ª): procedimientos y voto de eurodiputados españoles
+  identificar_mixto.py        Partido de las proposiciones de los grupos Mixto y Plural (por el BOCG)
+  textos_bocg.py              Texto de iniciativas concretas (BOCG) para revisar su clasificación
   build_items.py              data/fuente/<clave>.json -> data/generado/<clave>/items.json
   build_data.py               items + clasificación + votaciones -> site/data/<clave>.json
   build_page.py               template.html + catálogo de datasets -> site/index.html
@@ -56,7 +60,10 @@ python3 scripts/build_page.py
 1. Descargar: `python3 scripts/descargar_legislatura.py --leg XIV --desde 2019-12-03 --hasta 2023-05-30` (1,5–2 h; una petición cada ~2,5 s; reanudable).
 2. Configurar grupos, partidos y textos en `scripts/legislaturas.py`.
 3. `build_items.py <clave>` y clasificar con el proceso de `data/clasificacion/INSTRUCCIONES.md` (`preparar_lotes.py` → clasificar lotes → `integrar_clasificacion.py`).
-4. `build_data.py <clave>` y `build_page.py`: la legislatura aparece sola en el selector.
+4. Si hay Grupo Mixto o Plural: `.venv/bin/python scripts/identificar_mixto.py <clave>` y llevar el partido a `clas_*.json`.
+5. `build_data.py <clave>` y `build_page.py`: la legislatura aparece sola en el selector.
+
+Parlamento Europeo: `python3 scripts/descargar_europarlamento.py [--actualizar]` (clave `europarlamento_10`, formato propio declarado con `"formato": "europarlamento"` en `legislaturas.py`); el resto del proceso es igual.
 
 ## Metodología resumida
 
@@ -81,3 +88,5 @@ Cada push a `main` que toque `site/` publica la carpeta en GitHub Pages (`.githu
 ## Fuente y licencia de los datos
 
 Congreso de los Diputados, datos abiertos: https://www.congreso.es/es/opendata — su reutilización exige citar la fuente.
+
+Parlamento Europeo: votaciones nominales de HowTheyVote.eu (https://howtheyvote.eu, datos abiertos con atribución) y títulos y fechas de la API de datos abiertos del Parlamento Europeo (https://data.europarl.europa.eu).

@@ -449,6 +449,7 @@ function renderList(){
 }
 function dkey(it){ const d=(it.vd||it.f||'').split('/'); return d.length===3? +(d[2]+d[1].padStart(2,'0')+d[0].padStart(2,'0')) : 0; }
 function congresoUrl(id){
+  if(DATA.meta.formato==='europarlamento') return 'https://oeil.secure.europarl.europa.eu/oeil/es/procedure-file?reference='+encodeURIComponent(id);
   return 'https://www.congreso.es/es/busqueda-de-iniciativas?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura='+encodeURIComponent(DATA.meta.leg)+'&_iniciativas_id='+encodeURIComponent(id);
 }
 function itemRow(it, color, who, ev){
@@ -487,14 +488,21 @@ function renderMethod(){
   <div class="prose">
     <h2>Metodología</h2>
     <p>Esta herramienta cruza tres cosas: las iniciativas legislativas de la legislatura elegida (ahora, ${esc(DATA.meta.fuente_txt)}, ${esc(DATA.meta.titulo)}), una clasificación de a quién afecta cada una y el voto de cada partido en el Pleno. Cada fuente y legislatura se analiza por separado, porque los partidos y grupos cambian entre ellas.</p>
-    <h3>Qué iniciativas incluye</h3>
+${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
+    <p>${ITEMS.length} procedimientos legislativos votados en el Pleno ${esc(DATA.meta.periodo)}: reglamentos y directivas del procedimiento legislativo ordinario, consultas legislativas, acuerdos internacionales que requieren la aprobación del Parlamento y presupuestos. No se incluyen las resoluciones no legislativas ni los informes de propia iniciativa.</p>
+    <h3>Autoría</h3>
+    <p>En la Unión Europea las propuestas legislativas las presenta la Comisión Europea (${esc(DATA.meta.gobierno)}); los partidos no presentan leyes, así que el ranking se basa solo en cómo votaron.</p>
+    <h3>Votaciones</h3>
+    <p>Para cada procedimiento se toma una votación clave del Pleno: la del acuerdo con el Consejo o la resolución legislativa final (no las enmiendas ni la apertura de negociaciones). ${nv} procedimientos tienen votación clave. Solo se muestran los eurodiputados españoles, agrupados por su partido nacional en la fecha de cada votación; el voto de un partido es el voto mayoritario de sus eurodiputados presentes. Los independientes no se cuentan.</p>
+    <p class="small">Datos de votaciones: HowTheyVote.eu, a partir de las listas oficiales de votación nominal; títulos y fechas: datos abiertos del Parlamento Europeo.</p>
+` : `    <h3>Qué iniciativas incluye</h3>
     <p>${ITEMS.length} iniciativas presentadas ${esc(DATA.meta.periodo)}: ${kinds['Proyecto de ley']||0} proyectos de ley del Gobierno, ${kinds['Real decreto-ley']||0} reales decretos-ley y ${kinds['Proposición de ley']||0} proposiciones de ley de los grupos, del Senado, de parlamentos autonómicos e iniciativa popular. Se cuentan todas, se aprobaran o no.</p>
     <h3>Autoría</h3>
     <p>Los proyectos de ley y los reales decretos-ley figuran como del Gobierno (${esc(DATA.meta.gobierno)}). Una proposición firmada por varios grupos cuenta para cada uno. El Congreso publica como autor al Grupo Mixto sin indicar el partido, por lo que esas proposiciones aparecen como Grupo Mixto salvo cuando se ha podido identificar el partido. Las del Senado, parlamentos autonómicos e iniciativa popular no se atribuyen a ningún partido.</p>
     <h3>Votaciones</h3>
     <p>Para cada iniciativa se toma una votación clave del Pleno, por este orden de preferencia: votación final (de conjunto o del dictamen), convalidación del real decreto-ley, toma en consideración y enmienda a la totalidad. En las enmiendas a la totalidad, votar sí equivale a oponerse a la ley, y se interpreta así. ${nv} iniciativas tienen votación clave en el Pleno; el resto no llegó a votarse en Pleno o se aprobó en comisión.</p>
     <p>El voto de un partido es el voto mayoritario de sus diputados presentes. Para ${esc(DATA.meta.nominal_txt)}, se usa el voto nominal de sus diputados. Los diputados no adscritos no se cuentan.</p>
-    <h3>Clasificación de impactos</h3>
+`}    <h3>Clasificación de impactos</h3>
     <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
     <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. También recoge lo público frente a lo privado: lo de titularidad o gestión pública es patrimonio de todos, así que las leyes que lo amplían (nacionalizaciones, gestión pública de la sanidad, reversión de concesiones) benefician a la ciudadanía y perjudican al sector privado afectado, y las que lo traspasan a empresas (privatizaciones, externalizaciones, liberalizaciones) hacen lo contrario. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
     <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las leyes sobre alquiler y okupación afectan a quien tiene dos o más), hipoteca y alquiler; otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte.</p>
@@ -503,7 +511,7 @@ function renderMethod(){
     <h3>Cómo se calcula el ranking</h3>
     <p>Para cada partido se toman las iniciativas que afectan a tu perfil y se cuenta cada una una sola vez, según la mejor prueba que haya de su postura. Lo que más pesa es cómo votó: votar el texto final o la convalidación de un real decreto-ley cuenta 1; la toma en consideración o una enmienda a la totalidad, 0,5, porque solo decide si se debate. Las iniciativas que el partido presentó pero no llegó a votar en el Pleno cuentan 0,25: presentar una ley cuesta poco y no siempre busca aprobarla. Las abstenciones no cuentan.</p>
     <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. El saldo es (a favor − en contra) ÷ total × 100, de −100 a +100. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ 12 × 100 = +50.</p>
-    <p>El Gobierno no aparece en el ranking: sus proyectos de ley y reales decretos-ley cuentan a través de cómo los votó cada partido.</p>
+    <p>${DATA.meta.formato==='europarlamento' ? 'La Comisión Europea no aparece en el ranking: sus propuestas cuentan a través de cómo las votó cada partido.' : 'El Gobierno no aparece en el ranking: sus proyectos de ley y reales decretos-ley cuentan a través de cómo los votó cada partido.'}</p>
     <h3>Cómo se colorea</h3>
     <p>Verde si la iniciativa beneficia a algún rasgo de tu perfil y no perjudica a ninguno; rojo si perjudica sin beneficiar; ámbar si hace ambas cosas; gris si no afecta a tu perfil. En las votaciones, verde es votar sí a lo que te beneficia o no a lo que te perjudica; rojo, lo contrario; la abstención va en gris.</p>
     <h3>Limitaciones</h3>

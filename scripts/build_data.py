@@ -134,7 +134,15 @@ def resolve_exp(v):
 
 
 remapped = 0
-for v in raw["votaciones"]:
+EP = CFG.get("formato") == "europarlamento"
+if EP:  # Parlamento Europeo: una votación clave por procedimiento, ya marcada en la descarga
+    ids = {it["id"] for it in items}
+    for v in raw["votaciones"]:
+        if v.get("clave") and v["exp"] in ids:
+            tot = v.get("tot") or {}
+            consider(v["exp"], "final", v["d"], party_stances(v["g"], {}),
+                     {"s": tot.get("afavor"), "n": tot.get("enContra"), "a": tot.get("abstenciones")})
+for v in ([] if EP else raw["votaciones"]):
     k = vote_kind(v)
     if not k:
         continue
@@ -164,8 +172,8 @@ PARTIES = CFG["partidos"]
 
 def authors(it, c):
     a = it["autor"]
-    if a == "Gobierno":
-        return ["Gobierno"]
+    if a in ("Gobierno", "Comisión Europea", "Parlamento Europeo"):
+        return [a]
     found = []
     for name, p in AUTH2P.items():
         if name in a:
@@ -191,7 +199,15 @@ def otros_label(it):
     return "Otros"
 
 
+EP_KIND = {"COD": "Legislación ordinaria (reglamento o directiva)", "CNS": "Consulta legislativa",
+           "NLE": "Acuerdo o aprobación", "BUD": "Presupuesto", "BUI": "Presupuesto", "APP": "Aprobación legislativa",
+           "INL": "Iniciativa legislativa del Parlamento"}
+
+
 def short_kind(it):
+    m = re.search(r"\((\w+)\)$", it["id"])
+    if m and m.group(1) in EP_KIND:
+        return EP_KIND[m.group(1)]
     t = it["tipo_ini"]
     if t.startswith("Proyecto"):
         return "Proyecto de ley"
@@ -224,7 +240,7 @@ for it in items:
 
 meta = {"clave": CLAVE, "fuente": CFG["fuente"], "fuente_txt": FUENTES[CFG["fuente"]], "leg": CFG["leg"],
         "titulo": CFG["titulo"], "periodo": CFG["periodo"], "gobierno": CFG["gobierno"],
-        "nominal_txt": CFG["nominal_txt"], "generado": raw["generado"][:10], "parties": PARTIES,
+        "nominal_txt": CFG["nominal_txt"], "formato": CFG.get("formato", "congreso"), "generado": raw["generado"][:10], "parties": PARTIES,
         "authors": CFG["autores_web"]}
 dest = os.path.join(ROOT, "site", "data", CLAVE + ".json")
 os.makedirs(os.path.dirname(dest), exist_ok=True)

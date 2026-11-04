@@ -9,6 +9,7 @@ clasifica sus iniciativas en data/clasificacion/<clave>/ y regenera.
 
 FUENTES = {
     "congreso": "Congreso de los Diputados",
+    "europarlamento": "Parlamento Europeo",
 }
 
 LEGISLATURAS = {
@@ -72,5 +73,47 @@ LEGISLATURAS = {
         "autores_web": ["Gobierno", "PSOE", "PP", "VOX", "Unidas Podemos", "ERC", "Cs", "Junts", "Bildu", "PNV",
                         "PDeCAT", "Más País", "Compromís", "BNG", "CUP", "UPN", "CC", "NC", "PRC", "Foro",
                         "Teruel Existe", "Plural", "Mixto"],
+    },
+    "congreso_xiii": {
+        "fuente": "congreso",
+        "leg": "XIII",
+        "titulo": "XIII legislatura · 2019",
+        "periodo": "entre el 21 de mayo de 2019 y la disolución de las Cortes el 24 de septiembre de 2019 (legislatura sin investidura)",
+        "gobierno": "PSOE, en funciones",
+        "grupos": {"GS": "PSOE", "GP": "PP", "GCs": "Cs", "GCUP-EC-GC": "Unidas Podemos", "GVOX": "VOX", "GR": "ERC",
+                   "GV (EAJ-PNV)": "PNV"},
+        # Grupo Mixto. Junqueras, Turull, Rull y Sánchez estaban suspendidos (no votan).
+        "nominal": {"Nogueras": "JxCat", "Turull": "JxCat", "Sánchez Picanyol": "JxCat", "Rull": "JxCat", "Borràs": "JxCat",
+                    "Alonso-Cuevillas": "JxCat", "Miquel i Valentí": "JxCat", "Junqueras": "ERC",
+                    "Ruiz de Pinedo": "Bildu", "Aizpurua": "Bildu", "Matute": "Bildu", "Iñarritu": "Bildu",
+                    "Oramas": "CC", "González Taño": "CC", "Sayas": "NA+", "García Adanero": "NA+",
+                    "Baldoví": "Compromís", "Mazón": "PRC"},
+        "nominal_txt": "JxCat, EH Bildu, Coalición Canaria, Navarra Suma, Compromís y PRC, integrados en el Grupo Mixto",
+        "autores": {"Grupo Parlamentario Socialista": "PSOE", "Grupo Parlamentario Popular": "PP",
+                    "Grupo Parlamentario VOX": "VOX", "Grupo Parlamentario Confederal de Unidas Podemos": "Unidas Podemos",
+                    "Grupo Parlamentario Republicano": "ERC", "Grupo Parlamentario Ciudadanos": "Cs",
+                    "Grupo Parlamentario Vasco (EAJ-PNV)": "PNV", "Grupo Parlamentario Mixto": "Mixto"},
+        "etiquetas": {"GR": "ERC", "GV (EAJ-PNV)": "PNV", "GCUP-EC-GC": "Unidas Podemos", "GCs": "Cs", "GMx": "Mixto",
+                      "GS": "PSOE", "GP": "PP", "GVOX": "VOX"},
+        "partidos": ["PSOE", "PP", "Cs", "Unidas Podemos", "VOX", "ERC", "JxCat", "PNV", "Bildu", "CC", "NA+",
+                     "Compromís", "PRC"],
+        "autores_web": ["Gobierno", "PSOE", "PP", "Cs", "Unidas Podemos", "VOX", "ERC", "PNV", "Bildu", "JxCat", "CC",
+                        "NA+", "Compromís", "PRC", "Mixto"],
+    },
+    "europarlamento_10": {
+        "fuente": "europarlamento",
+        "formato": "europarlamento",  # procedimientos + votaciones clave por partido nacional (descargar_europarlamento.py)
+        "leg": "10.ª",
+        "titulo": "10.ª legislatura · 2024–2029",
+        "periodo": "desde el 16 de julio de 2024 (legislatura en curso)",
+        "gobierno": "Comisión von der Leyen II",
+        # en el Parlamento Europeo el voto ya viene agrupado por partido nacional español
+        "grupos": {p: p for p in ['PP', 'PSOE', 'VOX', 'SALF', 'Sumar', 'Podemos', 'ERC', 'Bildu', 'PNV', 'BNG', 'Compromís', 'Comuns']},
+        "nominal": {},
+        "nominal_txt": "",
+        "autores": {"Comisión Europea": "Comisión Europea", "Parlamento Europeo": "Parlamento Europeo"},
+        "etiquetas": {},
+        "partidos": ['PP', 'PSOE', 'VOX', 'SALF', 'Sumar', 'Podemos', 'ERC', 'Bildu', 'PNV', 'BNG', 'Compromís', 'Comuns'],
+        "autores_web": ["Comisión Europea", "Parlamento Europeo"],
     },
 }
