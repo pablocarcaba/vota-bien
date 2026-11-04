@@ -1,0 +1,39 @@
+{
+  "clave": "congreso_xv",
+  "iniciativas": 540,
+  "faltan_por_lector": {
+    "A": 0,
+    "B": 0
+  },
+  "pares": [
+    {
+      "par": "A-B",
+      "n": 540,
+      "impactos_exactos_pct": 65.4,
+      "jaccard_medio": 0.834,
+      "con_contradiccion": 2,
+      "tipo_pct": 95.7,
+      "peso_pct": 86.1
+    },
+    {
+      "par": "vigente-A",
+      "n": 540,
+      "impactos_exactos_pct": 53.7,
+      "jaccard_medio": 0.717,
+      "con_contradiccion": 2,
+      "tipo_pct": 92.0,
+      "peso_pct": 76.7
+    },
+    {
+      "par": "vigente-B",
+      "n": 540,
+      "impactos_exactos_pct": 53.1,
+      "jaccard_medio": 0.714,
+      "con_contradiccion": 3,
+      "tipo_pct": 92.2,
+      "peso_pct": 76.9
+    }
+  ],
+  "consolidadas": 255,
+  "a_revisar": 115
+}

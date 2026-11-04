@@ -1,0 +1,1310 @@
+[
+ {
+  "id": "124/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reparto de competencias judiciales entre la Audiencia Nacional y otros órganos; norma procesal sin efecto distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "124/000011",
+  "tipo": "eco",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 2,
+  "nota": "Coeficiente reductor de la edad de jubilación para policías, guardias civiles y vigilancia aduanera.",
+  "partido": ""
+ },
+ {
+  "id": "124/000012",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Exención fiscal de las ayudas a afectados por la talidomida.",
+  "partido": ""
+ },
+ {
+  "id": "124/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección penal y administrativa del patrimonio histórico frente al vandalismo; sin efecto distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "124/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el envío de ayuda militar al extranjero; norma de defensa sin efecto distributivo directo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000015",
+  "tipo": "eco",
+  "imp": {
+   "depend": 1,
+   "secSoc": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "IVA reducido al 4 % en servicios de atención a la dependencia; abarata el servicio a usuarios y a empresas del sector.",
+  "partido": ""
+ },
+ {
+  "id": "124/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Endurece el Código Penal contra el narcotráfico; sin colectivo distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "124/000017",
+  "tipo": "soc",
+  "imp": {
+   "viv1": 1,
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Modifica el régimen de comunidades de propietarios; afecta a quienes tienen vivienda en propiedad.",
+  "partido": ""
+ },
+ {
+  "id": "124/000018",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la gestión de residuos y la economía circular; supone costes de cumplimiento para industria y comercio.",
+  "partido": ""
+ },
+ {
+  "id": "124/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambios en el Estatuto del Ministerio Fiscal; norma institucional sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000020",
+  "tipo": "eco",
+  "imp": {
+   "secCons": 1,
+   "viv0": 1,
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Da seguridad jurídica al planeamiento urbanístico e impulsa suelo y vivienda; beneficia a promoción y a quien busca primera vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "124/000021",
+  "tipo": "soc",
+  "imp": {
+   "proSan": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección penal y administrativa frente a agresiones al personal sanitario.",
+  "partido": ""
+ },
+ {
+  "id": "124/000022",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1
+  },
+  "peso": 2,
+  "nota": "Eleva el mínimo exento de IRPF hasta el SMI; deja de tributar parte de los salarios bajos.",
+  "partido": ""
+ },
+ {
+  "id": "124/000023",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 2,
+  "nota": "Modifica la carrera militar; afecta al régimen profesional de las Fuerzas Armadas.",
+  "partido": ""
+ },
+ {
+  "id": "124/000024",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "empAut": 1,
+   "rural": 1
+  },
+  "peso": 2,
+  "nota": "Reforma de la fiscalidad del sector primario; reduce la carga a agricultores y ganaderos.",
+  "partido": ""
+ },
+ {
+  "id": "124/000025",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza juzgados y jueces especializados en violencia sobre la mujer; refuerza la atención a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "124/000026",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el reconocimiento y la protección de las víctimas del terrorismo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000027",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Norma orgánica complementaria a la reforma de protección de víctimas del terrorismo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000028",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia las causas de inelegibilidad electoral; norma institucional sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000029",
+  "tipo": "eco",
+  "imp": {
+   "rural": 1,
+   "secPrim": 1,
+   "empAut": 1,
+   "empMicro": 1
+  },
+  "peso": 2,
+  "nota": "Mecanismo de garantía rural: evalúa el impacto de las normas en el medio rural y apoya actividad y servicios en esas zonas.",
+  "partido": ""
+ },
+ {
+  "id": "124/000030",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Amplía permisos y medidas de conciliación para trabajadores con hijos; supone coste laboral para empresas pequeñas.",
+  "partido": ""
+ },
+ {
+  "id": "124/000031",
+  "tipo": "eco",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 2,
+  "nota": "Coeficiente reductor de la edad de jubilación para miembros de las Fuerzas Armadas.",
+  "partido": ""
+ },
+ {
+  "id": "124/000032",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Rebaja la carga fiscal de pymes y autónomos.",
+  "partido": ""
+ },
+ {
+  "id": "124/000033",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "secInd": 1,
+   "secCom": 1,
+   "rural": 1,
+   "empAut": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Apoyo a toda la cadena alimentaria (producción, industria, distribución); efecto indirecto en abastecimiento.",
+  "partido": ""
+ },
+ {
+  "id": "124/000034",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Modifica el delito de enaltecimiento del terrorismo (art. 578 CP); refuerza protección de las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "124/000035",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el artículo 92 bis de la Ley de Bases de Régimen Local; norma de organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "124/000036",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Representación internacional de federaciones deportivas; norma de organización del deporte sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000037",
+  "tipo": "soc",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Endurece penas por multirreincidencia en hurto y estafa; protege sobre todo al pequeño comercio.",
+  "partido": ""
+ },
+ {
+  "id": "124/000038",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 2,
+  "nota": "Restringe la regularización de inmigrantes por arraigo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000039",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modificación genérica del Código Penal sin objeto distributivo identificable por el título.",
+  "partido": ""
+ },
+ {
+  "id": "124/000040",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Endurece requisitos de clasificación y progresión de grado para condenados por terrorismo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000041",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección de símbolos oficiales; norma ideológica sin efecto distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "124/000042",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Actuación de oficio de la Fiscalía ante enaltecimiento del terrorismo y homenajes a condenados.",
+  "partido": ""
+ },
+ {
+  "id": "124/000043",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Modifica la ley de protección integral de víctimas del terrorismo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000044",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "empAut": 1,
+   "empMicro": 1
+  },
+  "peso": 2,
+  "nota": "Simplifica trámites administrativos para ciudadanos y pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "124/000045",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Protege la dignidad y seguridad de las mujeres en el espacio público.",
+  "partido": ""
+ },
+ {
+  "id": "124/000046",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Cambio del modelo de elección de vocales del CGPJ; reforma institucional sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000047",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Regula el rechazo en frontera en Ceuta y Melilla; restringe derechos de los extranjeros que acceden.",
+  "partido": ""
+ },
+ {
+  "id": "125/000001",
+  "tipo": "soc",
+  "imp": {
+   "civSep": 1,
+   "infancia": 1,
+   "hombres": 1
+  },
+  "peso": 2,
+  "nota": "Custodia compartida como régimen preferente tras separación; afecta a progenitores separados y a sus hijos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000002",
+  "tipo": "eco",
+  "imp": {
+   "rural": 1,
+   "cons": 1,
+   "secFin": -1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Obliga a mantener cajeros y servicios bancarios en municipios con exclusión financiera; supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "125/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica organización y planta judicial; norma institucional sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "125/000004",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Mantiene el trasvase Tajo-Segura; asegura agua de regadío y abastecimiento en el sureste.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Transfiere la AP-9 a Galicia; efecto sobre peajes para usuarios, de alcance regional.",
+  "partido": ""
+ },
+ {
+  "id": "125/000006",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secFin": -1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Destina a fines sociales la recuperación del rescate bancario; coste para el sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "125/000007",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la prescripción de delitos sexuales contra menores; refuerza a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000008",
+  "tipo": "soc",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 2,
+  "nota": "Reforma parcial del Estatuto Básico del Empleado Público; afecta a las condiciones de los funcionarios.",
+  "partido": ""
+ },
+ {
+  "id": "125/000009",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "estud": 1,
+   "infancia": 1,
+   "asal1": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Gratuidad de productos ópticos y salud visual; beneficia a pacientes y supone coste para el sector óptico.",
+  "partido": ""
+ },
+ {
+  "id": "125/000010",
+  "tipo": "soc",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 1,
+  "nota": "Modificación del Estatuto Básico del Empleado Público; afecta a las condiciones del personal funcionario.",
+  "partido": ""
+ },
+ {
+  "id": "125/000011",
+  "tipo": "eco",
+  "imp": {
+   "asal5": -1,
+   "asal6": -1,
+   "prop3": -1,
+   "prop4": -1,
+   "asal1": 1,
+   "asal2": 1,
+   "empGran": -1
+  },
+  "peso": 3,
+  "nota": "Reforma fiscal amplia: más carga a rentas altas, grandes patrimonios y sociedades; alivio a rentas bajas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000012",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1,
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Modifica la disposición adicional sexta de la Ley del Sector Eléctrico; efecto sobre energía y precios en Extremadura.",
+  "partido": ""
+ },
+ {
+  "id": "125/000013",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1,
+   "secCom": 1,
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Cogestión de aeropuertos de Baleares; efecto sobre transporte y turismo, de alcance regional.",
+  "partido": ""
+ },
+ {
+  "id": "125/000014",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Adapta normas procesales al derecho a morir dignamente; afecta a pacientes con enfermedad terminal.",
+  "partido": ""
+ },
+ {
+  "id": "125/000015",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Modifica el artículo 57 de la ley de protección de la infancia frente a la violencia.",
+  "partido": ""
+ },
+ {
+  "id": "125/000016",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "depend": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Mejora atención a personas con ELA y enfermedades de alta complejidad y a la dependencia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000001",
+  "tipo": "soc",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "ciud": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Medidas del Plan de Recuperación en justicia, función pública, régimen local y mecenazgo; efectos amplios pero heterogéneos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000002",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "infancia": 1,
+   "depend": 1,
+   "mujeres": 1,
+   "hombres": 1,
+   "empAut": -1,
+   "empMicro": -1
+  },
+  "peso": 3,
+  "nota": "Transpone la directiva de conciliación: permisos para progenitores y cuidadores; coste laboral para empresas pequeñas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000003",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1,
+   "secPrim": 1,
+   "pen1": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "mayores": 1,
+   "viv1": 1,
+   "secInd": 1
+  },
+  "peso": 3,
+  "nota": "Paquete anticrisis: ayudas energéticas, alimentarias, transporte, pensiones y sequía para agricultores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000004",
+  "tipo": "soc",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "hipot": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Prorroga la suspensión de desahucios de vivienda habitual vulnerable; restringe a propietarios arrendadores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000005",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "desSub": 1,
+   "adultos": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "mujeres": 1,
+   "infancia": 1
+  },
+  "peso": 3,
+  "nota": "Mejora el subsidio de desempleo y completa la transposición de conciliación; beneficia a parados y a cuidadores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000006",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1,
+   "cons": 1,
+   "estud": 1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Descuentos en transporte público colectivo para jóvenes en el verano de 2024.",
+  "partido": ""
+ },
+ {
+  "id": "130/000007",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1,
+   "secPrim": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "pen1": 1,
+   "secInd": -1
+  },
+  "peso": 3,
+  "nota": "Prórroga de medidas anticrisis y medidas fiscales, energéticas y sociales; incluye ayudas al consumo y al campo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el régimen jurídico de RTVE; medida institucional sin efecto distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000009",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secCom": 1,
+   "secPrim": 1,
+   "hipot": 1,
+   "asal1": 1
+  },
+  "peso": 3,
+  "nota": "Respuesta urgente a la DANA: ayudas a afectados, empresas y autónomos, y alivios fiscales e hipotecarios.",
+  "partido": ""
+ },
+ {
+  "id": "130/000010",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secCom": 1,
+   "secPrim": 1,
+   "hipot": 1,
+   "asal1": 1
+  },
+  "peso": 3,
+  "nota": "Plan de reconstrucción tras la DANA: ayudas a afectados, empresas, empleo y vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "130/000011",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secCom": 1,
+   "secPrim": 1,
+   "asal1": 1
+  },
+  "peso": 2,
+  "nota": "Medidas complementarias de ayuda tras la DANA a afectados, trabajadores y negocios.",
+  "partido": ""
+ },
+ {
+  "id": "130/000012",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "mayores": 1,
+   "cons": 1,
+   "pobreza": 1,
+   "inq": 1,
+   "asal1": 1,
+   "asal2": 1
+  },
+  "peso": 3,
+  "nota": "Paquete ómnibus de fin de año: revalorización de pensiones, transporte y prórroga de escudo social.",
+  "partido": ""
+ },
+ {
+  "id": "130/000013",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Gravamen temporal a las energéticas durante 2025; coste para grandes empresas del sector.",
+  "partido": ""
+ },
+ {
+  "id": "130/000014",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "adultos": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la compatibilidad entre pensión de jubilación y trabajo; beneficia a jubilados que trabajan.",
+  "partido": ""
+ },
+ {
+  "id": "130/000015",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "mayores": 1,
+   "cons": 1,
+   "pobreza": 1,
+   "inq": 1
+  },
+  "peso": 3,
+  "nota": "Reproduce medidas del paquete de fin de año: pensiones, transporte y escudo social.",
+  "partido": ""
+ },
+ {
+  "id": "130/000017",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": 1,
+   "empAut": 1,
+   "secTrans": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas a la compra de vehículos eléctricos e infraestructura de recarga; beneficia al sector y a compradores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000016",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza protección de menores migrantes en contingencias migratorias extraordinarias y reparte su acogida.",
+  "partido": ""
+ },
+ {
+  "id": "130/000018",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1,
+   "secPrim": 1,
+   "empMed": 1,
+   "empGran": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1
+  },
+  "peso": 3,
+  "nota": "Respuesta a los aranceles: ayudas y financiación para empresas exportadoras y protección del empleo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000019",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1,
+   "cons": 1,
+   "estud": 1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Descuentos en transporte público colectivo para jóvenes en el verano de 2025.",
+  "partido": ""
+ },
+ {
+  "id": "130/000020",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 2,
+  "nota": "Medidas sobre recursos de la financiación territorial entre administraciones; sin efecto distributivo claro sobre personas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000021",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 3,
+  "nota": "Refuerzo del sistema eléctrico tras el apagón: seguridad de suministro y exigencias a operadores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000022",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1,
+   "secDig": 1
+  },
+  "peso": 1,
+  "nota": "Declara acontecimientos de excepcional interés público con beneficios fiscales para patrocinadores y organizadores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000023",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1,
+   "infancia": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "empAut": -1,
+   "empMicro": -1
+  },
+  "peso": 3,
+  "nota": "Amplía el permiso de nacimiento y cuidado para ambos progenitores, también funcionarios; coste laboral para pymes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas contra el genocidio en Gaza y apoyo a la población palestina; sin efecto distributivo claro interno.",
+  "partido": ""
+ },
+ {
+  "id": "130/000025",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1,
+   "pac": 1,
+   "discapacidad": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Refuerza el sistema de atención a la dependencia y cumple la ley ELA.",
+  "partido": ""
+ },
+ {
+  "id": "130/000026",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secCom": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Nuevas medidas de reactivación y prevención tras la DANA para afectados y negocios.",
+  "partido": ""
+ },
+ {
+  "id": "130/000027",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "secPrim": 1,
+   "secCom": 1,
+   "rural": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas complementarias para la recuperación de La Palma tras la erupción volcánica.",
+  "partido": ""
+ },
+ {
+  "id": "130/000028",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "proSeg": 1,
+   "proSan": 1,
+   "proDoc": 1
+  },
+  "peso": 2,
+  "nota": "Actualiza las retribuciones del sector público.",
+  "partido": ""
+ },
+ {
+  "id": "130/000029",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Favorece la inversión de entidades locales y comunidades; medida de financiación pública sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000030",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "mayores": 1,
+   "pobreza": 1,
+   "inq": 1,
+   "cons": 1,
+   "asal1": 1
+  },
+  "peso": 3,
+  "nota": "Prórroga de medidas de vulnerabilidad social, con medidas tributarias y de Seguridad Social.",
+  "partido": ""
+ },
+ {
+  "id": "130/000031",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "jovenes": 1,
+   "estud": 1,
+   "secTrans": 1
+  },
+  "peso": 3,
+  "nota": "Bonificación de abonos y títulos multiviaje de transporte público.",
+  "partido": ""
+ },
+ {
+  "id": "130/000032",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Ayudas a las víctimas de los accidentes ferroviarios de Adamuz y Gélida.",
+  "partido": ""
+ },
+ {
+  "id": "130/000033",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "inq": 1,
+   "cons": 1,
+   "asal1": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de vulnerabilidad social y tributarias y recursos de financiación territorial.",
+  "partido": ""
+ },
+ {
+  "id": "130/000034",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "civViu": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones públicas y adopta otras medidas de Seguridad Social.",
+  "partido": ""
+ },
+ {
+  "id": "130/000035",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "depend": 1,
+   "mayores": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza accesibilidad a bienes y servicios en emergencias para personas con discapacidad y dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000036",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "secPrim": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "rural": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas por los daños de temporales en Andalucía y Extremadura a afectados y agricultores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000037",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a fallecidos o lesionados por defender la democracia; alcance reducido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000038",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1,
+   "secPrim": 1,
+   "secTrans": 1,
+   "secInd": 1,
+   "asal1": 1,
+   "asal2": 1
+  },
+  "peso": 3,
+  "nota": "Plan integral frente a la crisis de Oriente Medio con ayudas energéticas, fiscales y sociales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000039",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "jovenes": 1,
+   "pobreza": 1,
+   "viv2": -1
+  },
+  "peso": 3,
+  "nota": "Medidas en el alquiler por la guerra de Irán; protegen a inquilinos y limitan a arrendadores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000040",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Medidas urgentes de transporte; afecta a operadores y usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "130/000041",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Medidas tributarias y de apoyo a víctimas de la DANA y otras emergencias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000042",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "mayores": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": -1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Cambia la aportación de usuarios en farmacia ambulatoria; reduce a rentas bajas y aumenta a otros.",
+  "partido": ""
+ },
+ {
+  "id": "130/000043",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1,
+   "secDig": 1
+  },
+  "peso": 1,
+  "nota": "Declara acontecimientos de excepcional interés público con beneficios fiscales para patrocinadores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000044",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 2,
+  "nota": "Medidas sobre recursos de la financiación territorial entre administraciones; sin efecto distributivo claro sobre personas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000045",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1,
+   "cons": 1,
+   "estud": 1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Descuentos en transporte público colectivo para jóvenes en el verano de 2026.",
+  "partido": ""
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Autoriza créditos extraordinarios a entidades públicas; medida presupuestaria sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000047",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Garantiza la prestación del servicio público de RTVE; medida institucional sin efecto distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000048",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1,
+   "mayores": 1,
+   "pac": 1,
+   "discapacidad": 1,
+   "mujeres": 1
+  },
+  "peso": 3,
+  "nota": "Medidas extraordinarias para reforzar el sistema de dependencia; beneficia a dependientes y cuidadoras.",
+  "partido": ""
+ },
+ {
+  "id": "130/000049",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1,
+   "secInd": 1,
+   "secTrans": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Medidas adicionales del Plan frente a la crisis de Oriente Medio.",
+  "partido": ""
+ },
+ {
+  "id": "130/000050",
+  "tipo": "soc",
+  "imp": {
+   "asal3": 1,
+   "asal4": 1,
+   "adultos": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Jubilación parcial anticipada del personal laboral público y complemento de insularidad en Baleares.",
+  "partido": ""
+ },
+ {
+  "id": "130/000051",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "victimas": 1,
+   "secPrim": 1,
+   "rural": 1,
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Protección laboral y social frente a incendios forestales; ayuda a trabajadores y afectados.",
+  "partido": ""
+ },
+ {
+  "id": "130/000052",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Transparencia de grupos de interés; norma institucional sin efecto distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000053",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "secCom": 1,
+   "rural": 1
+  },
+  "peso": 2,
+  "nota": "Medidas sociales y económicas de apoyo a Ceuta; efecto territorial.",
+  "partido": ""
+ },
+ {
+  "id": "130/000054",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "secCom": 1,
+   "rural": 1
+  },
+  "peso": 2,
+  "nota": "Medidas fiscales y financieras para la reconstrucción de La Palma y las inversiones autonómicas.",
+  "partido": ""
+ }
+]

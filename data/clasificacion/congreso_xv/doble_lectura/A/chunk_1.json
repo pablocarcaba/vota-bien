@@ -1,0 +1,1134 @@
+[
+ {
+  "id": "121/000109",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 3,
+  "nota": "Regula medicamentos y productos sanitarios: beneficia a pacientes y a la salud pública; añade obligaciones a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "121/000110",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "jovenes": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Endurece la regulación del tabaco: mejora la salud pública y protege a jóvenes; limita al sector de hostelería y venta.",
+  "partido": ""
+ },
+ {
+  "id": "121/000111",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma institucional de integridad y anticorrupción; sin efecto distributivo directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000112",
+  "tipo": "soc",
+  "imp": {
+   "proSan": 1
+  },
+  "peso": 2,
+  "nota": "Regula las condiciones laborales y retributivas del personal estatutario de la sanidad pública.",
+  "partido": ""
+ },
+ {
+  "id": "121/000113",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "rural": 1,
+   "secPrim": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Protección laboral y social ante incendios: apoyo a afectados, trabajadores, autónomos y actividad agraria y rural.",
+  "partido": ""
+ },
+ {
+  "id": "121/000114",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "empAut": 1,
+   "empMicro": 1
+  },
+  "peso": 1,
+  "nota": "Medidas sociales y económicas urgentes para Ceuta: apoyo a población vulnerable y a pequeños negocios.",
+  "partido": ""
+ },
+ {
+  "id": "121/000115",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Medidas fiscales y financieras para la reconstrucción de La Palma: apoyo a damnificados, negocios y plataneros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto distributivo claro sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto distributivo claro sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto distributivo claro sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto distributivo claro sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto distributivo claro sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma penal sobre libertad de expresión; efecto general sobre derechos sin colectivo distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la autonomía de la voluntad de deportistas; alcance limitado y sin efecto distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000008",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "depend": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Atención integral a enfermos de ELA y gran dependencia: más ayudas y cuidados para pacientes y personas dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000009",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Modifica delitos contra la libertad sexual: afecta a víctimas, mayoritariamente mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma penal sobre libertad de expresión; efecto general sobre derechos sin colectivo distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000011",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Regula las simulaciones de imagen y voz con IA: protege a las personas suplantadas; impone obligaciones al sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "122/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la ley de Defensa Nacional; efecto institucional sin colectivo distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000013",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la Ley General de la Seguridad Social; sin conocer el contenido concreto no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000014",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el artículo 84 del Estatuto de los Trabajadores sobre concurrencia de convenios; efecto no claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Garantiza el uso del español en la denominación de los municipios; efecto simbólico o lingüístico.",
+  "partido": ""
+ },
+ {
+  "id": "122/000016",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la jurisdicción universal y la protección de derechos humanos; beneficia a víctimas de graves violaciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000017",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Impulsa la resolución de crímenes de ETA sin resolver; beneficia a las víctimas del terrorismo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000018",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma institucional sobre la unidad de España; sin efecto distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Ley de amnistía por el proceso independentista; efecto institucional y penal sin colectivo distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000020",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "depend": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Atención integral a enfermos de ELA y gran dependencia: más ayudas y cuidados para pacientes y personas dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000021",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "rural": 1,
+   "mayores": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Garantiza cajeros en municipios con exclusión financiera: beneficia a usuarios, rurales y mayores; supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000022",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "rural": 1,
+   "mayores": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Garantiza cajeros en municipios con exclusión financiera: beneficia a usuarios, rurales y mayores; supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000023",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Concede la nacionalidad española a saharauis nacidos bajo administración española; amplía derechos de extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma del sistema de elección de vocales del CGPJ; asunto institucional sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000025",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cese de los vocales del CGPJ al acabar su mandato; asunto institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000026",
+  "tipo": "eco",
+  "imp": {
+   "empMed": 1,
+   "empGran": 1,
+   "asal5": 1
+  },
+  "peso": 1,
+  "nota": "Amplía incentivos fiscales al mecenazgo y entidades sin fines lucrativos; beneficia a grandes donantes y empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000027",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "depend": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Atención integral a enfermos de ELA y gran dependencia: más ayudas y cuidados para pacientes y personas dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000028",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambios en las elecciones al Parlamento Europeo; asunto electoral sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000029",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "pac": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la prestación por cuidado de hijos enfermos: beneficia a familias con hijos enfermos y a sus progenitores trabajadores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000030",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Facilita pasar hipotecas de tipo variable a fijo: beneficia a hipotecados; implica coste y menores ingresos para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000031",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "viv1": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Reduce temporalmente el diferencial de hipotecas variables de vivienda habitual vulnerable: beneficia a hipotecados; coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000032",
+  "tipo": "eco",
+  "imp": {
+   "prop3": -1,
+   "prop4": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto a las grandes fortunas: aumenta la carga tributaria de los patrimonios más altos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000033",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Ley general de salud mental: refuerza la atención a pacientes y la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "desSub": 1,
+   "rural": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Mejora condiciones laborales y protección por desempleo de trabajadores agrarios andaluces y extremeños; mayor coste para empleadores agrarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000035",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Reconoce personalidad jurídica a Doñana: refuerza la protección ambiental; limita actividades agrarias en su entorno.",
+  "partido": ""
+ },
+ {
+  "id": "122/000036",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "adultos": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Regula y controla el cannabis para adultos: uso terapéutico y recreativo legal; abre mercado al sector agrícola.",
+  "partido": ""
+ },
+ {
+  "id": "122/000037",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1
+  },
+  "peso": 2,
+  "nota": "Apoya el sistema alimentario como sector estratégico: beneficia a productores agrarios y al medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "122/000038",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protege el patrimonio histórico frente al vandalismo; efecto penal o cultural sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000039",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1,
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Cambia el padrón en casos de okupación e inmigración irregular: restringe a inmigrantes sin regularizar y favorece a propietarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000040",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Ley general de salud mental: refuerza la atención a pacientes y la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000041",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "adultos": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Regula y controla el cannabis para adultos: uso terapéutico y recreativo legal; abre mercado al sector agrícola.",
+  "partido": ""
+ },
+ {
+  "id": "122/000042",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "viv1": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Reduce temporalmente el diferencial de hipotecas variables de vivienda habitual vulnerable: beneficia a hipotecados; coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000043",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Reconoce personalidad jurídica a Doñana: refuerza la protección ambiental; limita actividades agrarias en su entorno.",
+  "partido": ""
+ },
+ {
+  "id": "122/000044",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "desSub": 1,
+   "rural": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Mejora condiciones laborales y protección por desempleo de trabajadores agrarios andaluces y extremeños; mayor coste para empleadores agrarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000045",
+  "tipo": "eco",
+  "imp": {
+   "prop3": -1,
+   "prop4": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto a las grandes fortunas: aumenta la carga tributaria de los patrimonios más altos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000046",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Protección penal y administrativa de los animales; sin conocer el detalle no se marca sector afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000047",
+  "tipo": "eco",
+  "imp": {
+   "prop2": 1,
+   "prop3": 1,
+   "prop4": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el impuesto de sucesiones y donaciones: reduce la carga a quienes heredan patrimonios medios y altos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000048",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protege derechos constitucionales de los trabajadores; contenido concreto no conocido con certeza.",
+  "partido": ""
+ },
+ {
+  "id": "122/000049",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Permite solicitar asilo y protección internacional en embajadas y consulados; amplía derechos de extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000050",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Introduce evaluación del impacto familiar en las leyes; efecto procedimental sin colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000051",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exige informe previo a las Cortes sobre Consejos Europeos; asunto institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000052",
+  "tipo": "soc",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Regula la convivencia del lobo con la ganadería extensiva: apoya a ganaderos y al medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "122/000053",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "monop": 1,
+   "hij3": 1,
+   "civPar": 1,
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Ley de Familias: reconoce y protege distintos modelos familiares, numerosas, monoparentales y parejas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000054",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 2,
+  "nota": "Endurece el régimen de nacionalidad: restringe el acceso de extranjeros a la nacionalidad española.",
+  "partido": ""
+ },
+ {
+  "id": "122/000055",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Grava los beneficios extraordinarios de la gran banca: mayor carga fiscal para entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "122/000056",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Elimina el subsidio a menores extranjeros internados en centros; reduce una prestación para ese colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000057",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "depend": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Regula cuidados paliativos al final de la vida: beneficia a pacientes, personas dependientes y mayores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000058",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "depend": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Atención integral a enfermos de ELA y gran dependencia: más ayudas y cuidados para pacientes y personas dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000059",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "monop": 1,
+   "hij3": 1,
+   "civPar": 1,
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Ley de Familias: reconoce y protege distintos modelos familiares, numerosas, monoparentales y parejas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000060",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Mejora el acceso a medicamentos huérfanos para enfermedades raras; beneficia a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000061",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "hij3": 1,
+   "discapacidad": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
+  },
+  "peso": 2,
+  "nota": "Deducciones en Sociedades por contratar mujeres embarazadas y familias numerosas; beneficia a esas personas y a empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000062",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reparte competencias judiciales de la Audiencia Nacional; asunto procesal sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000063",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1,
+   "secInd": -1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Modifica la ley de la cadena alimentaria: refuerza la posición del productor frente a industria y distribución.",
+  "partido": ""
+ },
+ {
+  "id": "122/000064",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1,
+   "secInd": -1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Modifica la ley de la cadena alimentaria: refuerza la posición del productor frente a industria y distribución.",
+  "partido": ""
+ },
+ {
+  "id": "122/000065",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Declara inelegibles a los prófugos de la justicia; asunto electoral sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000066",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Modifica la ley de violencia de género: afecta a la protección de víctimas, principalmente mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000067",
+  "tipo": "soc",
+  "imp": {
+   "minorias": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Ley contra el racismo y la discriminación racial: protege a minorías étnicas y personas migrantes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000068",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Impulsa la aplicación de la ley de libertad sexual y protege a víctimas de violencias sexuales.",
+  "partido": ""
+ },
+ {
+  "id": "122/000069",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1,
+   "infancia": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Contra la trata de mujeres, niñas y niños: protege a víctimas, a menudo migrantes, y refuerza su asistencia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000070",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "depend": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Atención integral a enfermos de ELA y gran dependencia: más ayudas y cuidados para pacientes y personas dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000071",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Permite solicitar asilo y protección internacional en embajadas y consulados; amplía derechos de extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000072",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Concede la nacionalidad española a saharauis nacidos bajo administración española; amplía derechos de extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000073",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Regula las simulaciones de imagen y voz con IA: protege a las personas suplantadas; impone obligaciones al sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "122/000074",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la prevención del fraude electoral; asunto electoral sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000075",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Modifica la accesibilidad en propiedad horizontal: beneficia a personas con discapacidad y mayores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000076",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los funcionarios de prisiones como agentes de la autoridad: refuerza su protección jurídica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000077",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Prohíbe el proxenetismo en todas sus formas: protege a mujeres víctimas de explotación sexual.",
+  "partido": ""
+ },
+ {
+  "id": "122/000078",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los funcionarios de prisiones como agentes de la autoridad: refuerza su protección jurídica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000079",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una oficina de prevención de la corrupción; reforma institucional sin efecto distributivo directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000080",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el artículo 324 de la Ley de Enjuiciamiento Criminal; norma procesal sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000081",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los funcionarios de prisiones como agentes de la autoridad: refuerza su protección jurídica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000082",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1,
+   "proSan": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza el carácter público del Sistema Nacional de Salud: beneficia a pacientes y usuarios; limita al sector privado sanitario.",
+  "partido": ""
+ },
+ {
+  "id": "122/000083",
+  "tipo": "soc",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Endurece penas por multirreincidencia en hurto y estafa: beneficia al comercio.",
+  "partido": ""
+ },
+ {
+  "id": "122/000084",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "asal5": 1,
+   "prop3": 1,
+   "prop4": 1
+  },
+  "peso": 3,
+  "nota": "Reforma amplia de IRPF, Sociedades, no residentes y Patrimonio; se presume rebaja fiscal para asalariados y patrimonios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000085",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una oficina de prevención de la corrupción; reforma institucional sin efecto distributivo directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000086",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una oficina de prevención de la corrupción; reforma institucional sin efecto distributivo directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000087",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del Tribunal Constitucional; asunto institucional sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000088",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los funcionarios de prisiones como agentes de la autoridad: refuerza su protección jurídica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000089",
+  "tipo": "soc",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Endurece penas por multirreincidencia en hurto y estafa: beneficia al comercio.",
+  "partido": ""
+ },
+ {
+  "id": "122/000090",
+  "tipo": "soc",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Endurece penas por multirreincidencia en hurto y estafa: beneficia al comercio.",
+  "partido": ""
+ },
+ {
+  "id": "122/000091",
+  "tipo": "soc",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Endurece penas por multirreincidencia en hurto y estafa: beneficia al comercio.",
+  "partido": ""
+ },
+ {
+  "id": "122/000092",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la atención a los ciudadanos por las Administraciones públicas; beneficia a usuarios del servicio público.",
+  "partido": ""
+ },
+ {
+  "id": "122/000093",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Elimina las oficinas regionales en el exterior; asunto organizativo sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000094",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma del sistema de elección de vocales del CGPJ; asunto institucional sin efecto distributivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000095",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Nuevo Estatuto de los Trabajadores: refuerza derechos laborales de asalariados; aumenta costes para pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000096",
+  "tipo": "soc",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Registro de intereses de propietarios y directivos de medios: impone obligaciones de transparencia al sector de medios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000097",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la protección de donantes vivos de órganos y tejidos; beneficia a donantes y a pacientes trasplantados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000098",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma de la ley de seguridad ciudadana; efecto sobre libertades y orden público sin colectivo distributivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000099",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Modifica la ley de apoyo a emprendedores: favorece a autónomos y pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000100",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empMed": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Garantiza derechos laborales en deslocalizaciones y transmisiones de empresa; añade obligaciones a medianas y grandes empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000101",
+  "tipo": "soc",
+  "imp": {
+   "proDoc": 1
+  },
+  "peso": 1,
+  "nota": "Recupera condiciones laborales del profesorado sustituto universitario; beneficia a docentes.",
+  "partido": ""
+ }
+]
