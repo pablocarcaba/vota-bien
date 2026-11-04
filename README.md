@@ -10,9 +10,9 @@
 </p>
 
 <p align="center">
-  <img alt="8 legislaturas" src="https://img.shields.io/badge/legislaturas-8-C8102E?style=for-the-badge">
-  <img alt="3.164 iniciativas" src="https://img.shields.io/badge/iniciativas-3.164-FFC400?style=for-the-badge&labelColor=1d1600">
-  <img alt="1.764 votaciones clave" src="https://img.shields.io/badge/votaciones%20clave-1.764-0a0f1c?style=for-the-badge">
+  <img alt="11 legislaturas" src="https://img.shields.io/badge/legislaturas-11-C8102E?style=for-the-badge">
+  <img alt="5.626 iniciativas" src="https://img.shields.io/badge/iniciativas-5.626-FFC400?style=for-the-badge&labelColor=1d1600">
+  <img alt="4.226 votaciones clave" src="https://img.shields.io/badge/votaciones%20clave-4.226-0a0f1c?style=for-the-badge">
   <img alt="Sin dependencias" src="https://img.shields.io/badge/JS-sin%20dependencias-2f7d32?style=for-the-badge">
 </p>
 
@@ -50,6 +50,9 @@ Tú madrugas, trabajas y pagas tus impuestos. **Ellos votan leyes.** Esta web te
 | Congreso de los Diputados | X · 2011–2015 | 510 | 295 |
 | Parlamento Europeo | 10.ª · 2024–2029 (en curso) | 260 | 260 |
 | Parlamento Europeo | 9.ª · 2019–2024 | 545 | 545 |
+| Parlamento Europeo | 8.ª · 2014–2019 | 949 | 949 |
+| Parlamento Europeo | 7.ª · 2009–2014 | 931 | 931 |
+| Parlamento Europeo | 6.ª · 2004–2009 | 582 | 582 |
 
 Cada fuente y legislatura es un dataset independiente. Los partidos cambian entre legislaturas, así que **nunca se mezclan**: la web tiene un selector de fuente y otro de legislatura.
 
