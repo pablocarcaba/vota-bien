@@ -91,7 +91,7 @@ python3 -m http.server 8000 --directory site    # http://localhost:8000
 4. **Grupo Mixto o Plural:** `.venv/bin/python scripts/identificar_mixto.py <clave>` y llevar el partido a `clas_*.json`.
 5. **Publicar:** `build_data.py <clave>` y `build_page.py`. La legislatura aparece sola en el selector.
 
-**Parlamento Europeo:** `python3 scripts/descargar_europarlamento.py [--actualizar]`. Usa un formato propio, declarado con `"formato": "europarlamento"` en `legislaturas.py`; el resto del proceso es igual.
+**Parlamento Europeo:** `python3 scripts/descargar_europarlamento.py [--actualizar]` para la 9.ª y la 10.ª, y `scripts/descargar_europarlamento_historico.py` para la 6.ª, 7.ª y 8.ª. Usan un formato propio, declarado con `"formato": "europarlamento"` en `legislaturas.py`; el resto del proceso es igual.
 
 > **Aviso:** congreso.es tiene protección anti-bots. Nunca lances peticiones en paralelo, deja una cada 2-3 s y para ante un 403.
 
@@ -114,7 +114,8 @@ scripts/
   legislaturas.py               Configuración por legislatura: grupos, partidos, textos
   descargar_legislatura.py      Iniciativas y votaciones del Pleno del Congreso (reanudable)
   descargar_historico.sh        Descarga en serie de las legislaturas X–XIII
-  descargar_europarlamento.py   Parlamento Europeo: procedimientos y voto de eurodiputados españoles
+  descargar_europarlamento.py   Parlamento Europeo 9.ª y 10.ª: procedimientos y voto de eurodiputados españoles
+  descargar_europarlamento_historico.py  Parlamento Europeo 6.ª a 8.ª (actas oficiales del PE y Parltrack)
   identificar_mixto.py          Partido de las proposiciones del Mixto y del Plural (por el BOCG)
   textos_bocg.py                Texto de iniciativas concretas para revisar su clasificación
   build_items.py                fuente → items.json
@@ -154,6 +155,6 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 ## Fuentes y licencia
 
 - **Congreso de los Diputados**, datos abiertos: <https://www.congreso.es/es/opendata>. Su reutilización exige citar la fuente.
-- **Parlamento Europeo:** votaciones nominales de [HowTheyVote.eu](https://howtheyvote.eu) (datos abiertos con atribución), y títulos y fechas de la [API de datos abiertos del Parlamento Europeo](https://data.europarl.europa.eu).
+- **Parlamento Europeo:** votaciones nominales de [HowTheyVote.eu](https://howtheyvote.eu) (9.ª y 10.ª, datos abiertos con atribución) y de las actas oficiales del Parlamento Europeo (6.ª a 8.ª); títulos y fechas de la [API de datos abiertos del Parlamento Europeo](https://data.europarl.europa.eu). Para la 6.ª, también [Parltrack](https://parltrack.org) (ODbL 1.0).
 
 La clasificación de impactos es propia e interpretativa. Si ves una ley mal clasificada, abre un *issue*.
