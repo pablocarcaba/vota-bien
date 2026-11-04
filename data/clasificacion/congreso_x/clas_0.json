@@ -1,0 +1,987 @@
+[
+{
+"id": "120/000001",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Recepción de televisiones autonómicas entre territorios; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "120/000002",
+"tipo": "soc",
+"imp": {
+"estud": 1
+},
+"peso": 1,
+"nota": "Modifica el acceso a la abogacía y la procura; facilita el acceso a los licenciados y estudiantes de Derecho.",
+"partido": ""
+},
+{
+"id": "120/000003",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 3,
+"nota": "Revierte la reforma laboral de 2010 y refuerza la estabilidad y los derechos laborales; mayor coste para las empresas.",
+"partido": ""
+},
+{
+"id": "120/000004",
+"tipo": "soc",
+"imp": {
+"proSeg": 1
+},
+"peso": 2,
+"nota": "Estatuto de personal de la Guardia Civil con mejoras de derechos y condiciones para sus agentes.",
+"partido": ""
+},
+{
+"id": "120/000005",
+"tipo": "soc",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Declara la tauromaquia patrimonio cultural y la protege; favorece a la ganadería de lidia.",
+"partido": ""
+},
+{
+"id": "120/000006",
+"tipo": "eco",
+"imp": {
+"hipot": 1,
+"pobreza": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Dación en pago, paralización de desahucios y alquiler social; protege a deudores hipotecarios a costa de la banca.",
+"partido": ""
+},
+{
+"id": "120/000007",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Comisión para esclarecer adopciones irregulares y sustracción de recién nacidos; atiende a las familias afectadas.",
+"partido": ""
+},
+{
+"id": "120/000008",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Solicitud de trámite sobre una iniciativa; sin contenido normativo.",
+"partido": ""
+},
+{
+"id": "120/000009",
+"tipo": "soc",
+"imp": {
+"secCom": -1
+},
+"peso": 2,
+"nota": "Ley general de bienestar animal; impone obligaciones a comercios y actividades con animales.",
+"partido": ""
+},
+{
+"id": "120/000010",
+"tipo": "soc",
+"imp": {
+"pac": 1
+},
+"peso": 1,
+"nota": "Medidas sanitarias, fiscales y sociales para las personas celíacas.",
+"partido": ""
+},
+{
+"id": "120/000011",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1,
+"nota": "Suprime requisitos de nacionalidad para el personal de seguridad privada; abre la profesión a extranjeros.",
+"partido": ""
+},
+{
+"id": "120/000012",
+"tipo": "eco",
+"imp": {
+"pen2": 1,
+"pen3": 1,
+"mayores": 1
+},
+"peso": 2,
+"nota": "Revierte la congelación de las pensiones contributivas de 2011, de la que se excluyeron las mínimas.",
+"partido": ""
+},
+{
+"id": "120/000013",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Suprime privilegios de cargos políticos cesados; institucional, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "120/000014",
+"tipo": "soc",
+"imp": {
+"secSoc": 1
+},
+"peso": 1,
+"nota": "Permite la selección del sexo de los hijos en reproducción asistida; amplía la actividad de clínicas privadas.",
+"partido": ""
+},
+{
+"id": "120/000015",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Conmemoración de un centenario histórico; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "120/000016",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Regula el acceso de los partidos a los medios públicos; institucional.",
+"partido": ""
+},
+{
+"id": "120/000017",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Custodia compartida en todo el Estado; efecto sobre progenitores separados sin signo claro.",
+"partido": ""
+},
+{
+"id": "120/000018",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Custodia compartida y corresponsabilidad parental; efecto sobre progenitores separados sin signo claro.",
+"partido": ""
+},
+{
+"id": "120/000019",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Reforma del Código Civil sobre relaciones paternofiliales tras la ruptura; efecto sin signo claro.",
+"partido": ""
+},
+{
+"id": "120/000020",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Pide determinar y revisar el déficit de tarifa eléctrico; busca aliviar el coste a consumidores frente a las eléctricas.",
+"partido": ""
+},
+{
+"id": "120/000021",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Auditoría del déficit eléctrico para revisar costes repercutidos al consumidor frente a las eléctricas.",
+"partido": ""
+},
+{
+"id": "120/000022",
+"tipo": "eco",
+"imp": {
+"pobreza": 1,
+"desSub": 1,
+"asal1": 1
+},
+"peso": 3,
+"nota": "Renta básica estatal; beneficia sobre todo a quienes tienen rentas bajas o carecen de ingresos.",
+"partido": ""
+},
+{
+"id": "120/000023",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reforma puntual del régimen económico matrimonial; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "120/000024",
+"tipo": "soc",
+"imp": {
+"ciud": -1,
+"secCons": 1
+},
+"peso": 1,
+"nota": "Autoriza provisionalmente edificaciones preexistentes y agiliza el planeamiento; rebaja controles urbanísticos y ambientales.",
+"partido": ""
+},
+{
+"id": "120/000025",
+"tipo": "soc",
+"imp": {
+"ciud": -1,
+"secCons": 1
+},
+"peso": 1,
+"nota": "Autoriza provisionalmente edificaciones preexistentes y agiliza el planeamiento; rebaja controles urbanísticos y ambientales.",
+"partido": ""
+},
+{
+"id": "120/000026",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Consulta sobre la forma de Estado y la Jefatura del Estado; institucional.",
+"partido": ""
+},
+{
+"id": "120/000027",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Separación de poderes e independencia judicial; institucional.",
+"partido": ""
+},
+{
+"id": "120/000028",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Requisitos de elegibilidad de los representantes; electoral.",
+"partido": ""
+},
+{
+"id": "120/000029",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Evaluación de la calidad representativa de los cargos electos; electoral.",
+"partido": ""
+},
+{
+"id": "120/000030",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"discapacidad": 1
+},
+"peso": 1,
+"nota": "Protección social de enfermos de fibromialgia y fatiga crónica.",
+"partido": ""
+},
+{
+"id": "120/000031",
+"tipo": "soc",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"mayores": 1
+},
+"peso": 2,
+"nota": "Reduce el copago de las prestaciones de dependencia para sus beneficiarios.",
+"partido": ""
+},
+{
+"id": "120/000032",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Elimina aforamientos y privilegios procesales de cargos públicos; institucional.",
+"partido": ""
+},
+{
+"id": "120/000033",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Implanta la mediación en distintos órdenes jurisdiccionales; procesal.",
+"partido": ""
+},
+{
+"id": "120/000034",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Mantiene el Registro Civil público, gratuito y servido por funcionarios, frente a su traspaso a registradores.",
+"partido": ""
+},
+{
+"id": "120/000035",
+"tipo": "eco",
+"imp": {
+"pobreza": 1,
+"desSub": 1
+},
+"peso": 3,
+"nota": "Prestación de ingresos mínimos en la Seguridad Social para personas sin recursos.",
+"partido": ""
+},
+{
+"id": "120/000036",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Responsabilidad parental y relaciones familiares tras la ruptura; efecto sin signo claro.",
+"partido": ""
+},
+{
+"id": "120/000037",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Responsabilidad parental y relaciones familiares tras la ruptura; efecto sin signo claro.",
+"partido": ""
+},
+{
+"id": "121/000001",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reforma la financiación de los partidos políticos; institucional.",
+"partido": ""
+},
+{
+"id": "121/000002",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Excluye mecanismos de financiación autonómica de una limitación legal; técnica presupuestaria.",
+"partido": ""
+},
+{
+"id": "121/000003",
+"tipo": "eco",
+"imp": {},
+"peso": 3,
+"nota": "Ley de estabilidad presupuestaria: límites de déficit y deuda para todas las administraciones; institucional, sin destinatario concreto.",
+"partido": ""
+},
+{
+"id": "121/000004",
+"tipo": "eco",
+"imp": {
+"asal1": -1,
+"asal2": -1,
+"asal3": -1,
+"asal4": -1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 3,
+"nota": "Reforma laboral de 2012: abarata el despido, prioriza el convenio de empresa y amplía la flexibilidad empresarial.",
+"partido": ""
+},
+{
+"id": "121/000005",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Regula la mediación civil y mercantil; procesal.",
+"partido": ""
+},
+{
+"id": "121/000006",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secCom": -1
+},
+"peso": 1,
+"nota": "Transpone la normativa europea de aprovechamiento por turno y productos vacacionales; protege al consumidor.",
+"partido": ""
+},
+{
+"id": "121/000007",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Simplifica obligaciones de información en fusiones y escisiones de sociedades; técnica.",
+"partido": ""
+},
+{
+"id": "121/000008",
+"tipo": "eco",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"mayores": 1,
+"depend": -1
+},
+"peso": 3,
+"nota": "Presupuestos de 2012: revalorizan las pensiones un 1% y recortan la financiación de la dependencia, entre otros gastos.",
+"partido": ""
+},
+{
+"id": "121/000009",
+"tipo": "soc",
+"imp": {
+"ciud": -1,
+"secDig": 1
+},
+"peso": 1,
+"nota": "Permite externalizar o privatizar la gestión de las televisiones públicas autonómicas.",
+"partido": ""
+},
+{
+"id": "121/000010",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ratificación del Tratado de Estabilidad europeo; tratado sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "121/000011",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Medidas técnicas en residuos, aguas y emisiones; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "121/000012",
+"tipo": "eco",
+"imp": {
+"secFin": -1
+},
+"peso": 2,
+"nota": "Obliga a la banca a nuevas provisiones por activos inmobiliarios y a segregarlos en sociedades de gestión.",
+"partido": ""
+},
+{
+"id": "121/000013",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ratificación de la adhesión de Croacia a la UE; tratado.",
+"partido": ""
+},
+{
+"id": "121/000014",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Suprime la licencia previa para pequeños comercios y servicios; reduce cargas a pequeños negocios.",
+"partido": ""
+},
+{
+"id": "121/000015",
+"tipo": "eco",
+"imp": {
+"prop3": -1,
+"prop4": -1
+},
+"peso": 2,
+"nota": "Antifraude: limita pagos en efectivo y obliga a declarar bienes en el extranjero; afecta a grandes patrimonios.",
+"partido": ""
+},
+{
+"id": "121/000016",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Modificación de la ley de estabilidad presupuestaria; técnica.",
+"partido": ""
+},
+{
+"id": "121/000017",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Endurece el Código Penal contra el fraude fiscal y a la Seguridad Social; penal, sin colectivo concreto.",
+"partido": ""
+},
+{
+"id": "121/000018",
+"tipo": "soc",
+"imp": {
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 2,
+"nota": "Tasas judiciales para acceder a la justicia; encarecen litigar a particulares y pequeñas empresas.",
+"partido": ""
+},
+{
+"id": "121/000019",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Ley de transparencia, acceso a la información pública y buen gobierno; institucional.",
+"partido": ""
+},
+{
+"id": "121/000020",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refuerza la lucha contra el empleo irregular y el fraude a la Seguridad Social; sin colectivo concreto.",
+"partido": ""
+},
+{
+"id": "121/000021",
+"tipo": "eco",
+"imp": {
+"inq": -1,
+"viv2": 1
+},
+"peso": 2,
+"nota": "Reduce la prórroga obligatoria del alquiler de 5 a 3 años y agiliza el desahucio; favorece al arrendador.",
+"partido": ""
+},
+{
+"id": "121/000022",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Declara el Parque Nacional de la Sierra de Guadarrama; protege la biodiversidad.",
+"partido": ""
+},
+{
+"id": "121/000023",
+"tipo": "eco",
+"imp": {
+"secFin": 1,
+"cons": -1,
+"prop1": -1
+},
+"peso": 3,
+"nota": "Rescate y resolución bancaria: ayudas públicas, SAREB y quitas a titulares de preferentes y subordinadas.",
+"partido": ""
+},
+{
+"id": "121/000024",
+"tipo": "eco",
+"imp": {
+"victimas": 1,
+"secPrim": 1,
+"empAut": 1,
+"empMicro": 1,
+"rural": 1
+},
+"peso": 1,
+"nota": "Ayudas por incendios forestales y catástrofes a afectados, explotaciones agrarias y pequeños negocios.",
+"partido": ""
+},
+{
+"id": "121/000025",
+"tipo": "eco",
+"imp": {
+"cons": -1,
+"secInd": -1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Nuevos impuestos a la generación eléctrica, nuclear e hidrocarburos; coste para eléctricas, repercutido al consumidor.",
+"partido": ""
+},
+{
+"id": "121/000026",
+"tipo": "eco",
+"imp": {
+"viv0": -1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Suprime la deducción por compra de vivienda habitual y limita deducciones a grandes empresas, entre otras medidas.",
+"partido": ""
+},
+{
+"id": "121/000027",
+"tipo": "eco",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"mayores": 1
+},
+"peso": 3,
+"nota": "Presupuestos de 2013: revalorizan las pensiones (1-2%) y mantienen la congelación salarial pública y los recortes.",
+"partido": ""
+},
+{
+"id": "121/000028",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Crea la Comisión Nacional de los Mercados y la Competencia; organización administrativa.",
+"partido": ""
+},
+{
+"id": "121/000029",
+"tipo": "soc",
+"imp": {
+"ciud": -1,
+"viv2": 1,
+"secCom": 1,
+"secCons": 1
+},
+"peso": 2,
+"nota": "Reforma de Costas: prorroga concesiones hasta 75 años y reduce el dominio público; rebaja la protección del litoral.",
+"partido": ""
+},
+{
+"id": "121/000030",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Eficiencia presupuestaria en la Justicia y jueces sustitutos; organización judicial.",
+"partido": ""
+},
+{
+"id": "121/000031",
+"tipo": "eco",
+"imp": {
+"hipot": 1,
+"pobreza": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Suspende dos años los lanzamientos de deudores hipotecarios vulnerables.",
+"partido": ""
+},
+{
+"id": "121/000032",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Modifica la ordenación de transportes terrestres y la seguridad aérea; técnica.",
+"partido": ""
+},
+{
+"id": "121/000033",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Delegación de competencias de transporte en las comunidades autónomas; competencial.",
+"partido": ""
+},
+{
+"id": "121/000034",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ajusta el régimen sancionador sobre cuidado de animales en explotación; técnica.",
+"partido": ""
+},
+{
+"id": "121/000035",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Transpone la directiva de emisiones industriales; mejora el control de la contaminación con coste para la industria.",
+"partido": ""
+},
+{
+"id": "121/000036",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ratificación de un protocolo europeo; tratado.",
+"partido": ""
+},
+{
+"id": "121/000037",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Regula contratos de la cadena alimentaria; protege a productores frente a la gran distribución.",
+"partido": ""
+},
+{
+"id": "121/000038",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1
+},
+"peso": 1,
+"nota": "Fomenta la integración de cooperativas agroalimentarias.",
+"partido": ""
+},
+{
+"id": "121/000040",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Suspende la renovación del CGPJ en curso; institucional.",
+"partido": ""
+},
+{
+"id": "121/000041",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Reforma el Consejo General del Poder Judicial; institucional.",
+"partido": ""
+},
+{
+"id": "121/000042",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección de la salud del deportista y lucha contra el dopaje.",
+"partido": ""
+},
+{
+"id": "121/000043",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"jovenes": 1,
+"desPres": 1
+},
+"peso": 2,
+"nota": "Tarifa plana para autónomos jóvenes, compatibilidad de la prestación con el emprendimiento e incentivos a la contratación.",
+"partido": ""
+},
+{
+"id": "121/000044",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"empGran": -1
+},
+"peso": 1,
+"nota": "Competencia y garantía de suministro en sistemas eléctricos insulares; limita a operadores dominantes.",
+"partido": ""
+},
+{
+"id": "121/000045",
+"tipo": "eco",
+"imp": {
+"secCons": 1
+},
+"peso": 2,
+"nota": "Impulsa la rehabilitación y regeneración urbana; favorece al sector de la construcción.",
+"partido": ""
+},
+{
+"id": "121/000046",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"pac": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Farmacovigilancia y control de medicamentos falsificados; mejora la seguridad de los medicamentos.",
+"partido": ""
+},
+{
+"id": "121/000047",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Régimen disciplinario de las Fuerzas Armadas; efecto sin signo claro.",
+"partido": ""
+},
+{
+"id": "121/000048",
+"tipo": "soc",
+"imp": {
+"ciud": -1,
+"secSoc": 1
+},
+"peso": 3,
+"nota": "LOMCE: reforma educativa con reválidas, itinerarios y refuerzo de la enseñanza concertada.",
+"partido": ""
+},
+{
+"id": "121/000049",
+"tipo": "eco",
+"imp": {
+"ciud": -1,
+"secFin": 1
+},
+"peso": 2,
+"nota": "Transforma las grandes cajas de ahorros en bancos controlados por fundaciones bancarias.",
+"partido": ""
+},
+{
+"id": "121/000050",
+"tipo": "soc",
+"imp": {
+"ciud": -1,
+"empGran": 1
+},
+"peso": 2,
+"nota": "Amplía las funciones de la seguridad privada en espacios y servicios antes reservados a lo público.",
+"partido": ""
+},
+{
+"id": "121/000051",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acción y Servicio Exterior del Estado; organización administrativa.",
+"partido": ""
+},
+{
+"id": "121/000052",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 2,
+"nota": "Ley de emprendedores: IVA de caja, emprendedor de responsabilidad limitada e incentivos fiscales a pymes.",
+"partido": ""
+},
+{
+"id": "121/000053",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Crea la Autoridad Independiente de Responsabilidad Fiscal; institucional.",
+"partido": ""
+},
+{
+"id": "121/000054",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Impuesto sobre gases fluorados de efecto invernadero y otras medidas tributarias.",
+"partido": ""
+},
+{
+"id": "121/000055",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Factura electrónica y registro contable de facturas en el sector público; técnica.",
+"partido": ""
+},
+{
+"id": "121/000056",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 2,
+"nota": "Unidad de mercado: una sola autorización vale en todo el Estado; reduce cargas a las empresas.",
+"partido": ""
+},
+{
+"id": "121/000057",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ley básica de Cámaras de Comercio; organización corporativa.",
+"partido": ""
+},
+{
+"id": "121/000058",
+"tipo": "soc",
+"imp": {
+"rural": -1
+},
+"peso": 2,
+"nota": "Reforma local: reduce competencias de pequeños municipios y traslada servicios a diputaciones.",
+"partido": ""
+},
+{
+"id": "121/000059",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Unifica y simplifica la evaluación ambiental; efecto neto sobre la protección sin signo claro.",
+"partido": ""
+},
+{
+"id": "121/000060",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"mujeres": 1,
+"desSub": -1
+},
+"peso": 2,
+"nota": "Mejora la protección social del tiempo parcial, mayoritariamente femenino; endurece el acceso a algún subsidio.",
+"partido": ""
+},
+{
+"id": "121/000061",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Extiende la prohibición de minas antipersonal a armas similares; defensa.",
+"partido": ""
+},
+{
+"id": "121/000062",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secDig": 1
+},
+"peso": 2,
+"nota": "Ley General de Telecomunicaciones: facilita el despliegue de redes y regula derechos de usuarios.",
+"partido": ""
+},
+{
+"id": "121/000063",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Control del periodo de pago a proveedores del sector público.",
+"partido": ""
+},
+{
+"id": "121/000064",
+"tipo": "eco",
+"imp": {
+"secInd": -1
+},
+"peso": 3,
+"nota": "Reforma eléctrica: recorta la retribución de renovables y redes, regula el autoconsumo y controla el déficit.",
+"partido": ""
+}
+]

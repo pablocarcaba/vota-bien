@@ -12,4 +12,4 @@
 - [ ] 122/000025-27 (autoconsumo del ciclo del agua) y 125/000003 (autoconsumo, Murcia): criterio de `secInd` distinto del de la XIV.
 - [ ] 123/000001 (Ley 25 de emergencia social): contenido de memoria; peso 3.
 - [ ] 122/000001 (suspensión de la LOMCE): vacía, peso 2.
-- [ ] 122/000034 (Grupo Mixto): partido sin identificar (se puede hacer con identificar_mixto.py cuando termine la descarga histórica).
+- [x] 122/000034 (Grupo Mixto): UPN, según la firma del BOCG.

@@ -26,4 +26,6 @@
 
 ## 4. Partido no identificado
 
-- [ ] 40 proposiciones del Grupo Mixto: pendiente de `identificar_mixto.py` cuando termine la descarga de la X (no se puede consultar congreso.es en paralelo).
+- [x] 40 proposiciones del Grupo Mixto: 35 identificadas por la firma del BOCG (`partidos_mixto.json`).
+- [ ] Sin BOCG, deducidas: 122/000181 → PDeCAT (mismo título que 122/000182, firmada por el PDeCAT); 122/000324, 325 y 327 (deuda del Consorcio Valencia 2007) → Compromís.
+- [ ] 122/000262 (transparencia de la Casa del Rey): sin BOCG; partido sin identificar.

@@ -1,0 +1,118 @@
+[
+{
+"id": "130/000067",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Oferta extraordinaria de empleo público contra el fraude y para la justicia; organización administrativa.",
+"partido": ""
+},
+{
+"id": "130/000068",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Reforma la formación profesional para el empleo con concurrencia competitiva; efecto distributivo no claro.",
+"partido": ""
+},
+{
+"id": "130/000069",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Venta centralizada de derechos audiovisuales del fútbol profesional; reparto entre clubes sin colectivo de la web.",
+"partido": ""
+},
+{
+"id": "130/000070",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Cambia ayudas al cine, concede créditos y medidas tributarias diversas; sin colectivo claro.",
+"partido": ""
+},
+{
+"id": "130/000071",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 1,
+"nota": "Créditos para programas especiales de armamento; beneficia a la industria de defensa.",
+"partido": ""
+},
+{
+"id": "130/000072",
+"tipo": "eco",
+"imp": {
+"secDig": 1
+},
+"peso": 1,
+"nota": "Apoyo e incentivos fiscales al Mobile World Congress de Barcelona; beneficia al sector tecnológico.",
+"partido": ""
+},
+{
+"id": "130/000073",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"asal5": 1,
+"asal6": 1,
+"empAut": 1,
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1,
+"proSan": 1,
+"proDoc": 1,
+"proSeg": 1
+},
+"peso": 2,
+"nota": "Adelanta la rebaja del IRPF y de la retención de autónomos y devuelve parte de la paga extra pública de 2012.",
+"partido": ""
+},
+{
+"id": "130/000074",
+"tipo": "eco",
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1,
+"proSan": 1,
+"proDoc": 1,
+"proSeg": 1
+},
+"peso": 2,
+"nota": "Devuelve otra parte de la paga extra de 2012 y recupera días de libre disposición del personal público.",
+"partido": ""
+},
+{
+"id": "130/000075",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Regula las comisiones por sacar dinero en cajeros e impide el doble cobro al cliente.",
+"partido": ""
+},
+{
+"id": "130/000076",
+"tipo": "eco",
+"imp": {
+"victimas": 1,
+"secPrim": 1,
+"empAut": 1,
+"empMicro": 1
+},
+"peso": 1,
+"nota": "Ayudas por temporales de 2015 en Canarias y el sur y este peninsular a afectados y pequeños negocios.",
+"partido": ""
+}
+]
