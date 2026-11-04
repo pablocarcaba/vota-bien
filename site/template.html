@@ -75,6 +75,8 @@ h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);lin
 .rank h3{font-size:14px;margin:0 0 8px;font-weight:600}
 .rrow{display:grid;grid-template-columns:22px 110px minmax(0,1fr) 46px;align-items:center;gap:4px 8px;font-size:13px;padding:6px 4px;width:100%;background:none;border:none;border-radius:6px;color:inherit;font-family:inherit;text-align:left;cursor:pointer}
 .rrow:hover{background:var(--soft)}
+.chk{display:flex;align-items:center;gap:6px;font-size:13px;color:var(--muted);margin:0 0 8px;cursor:pointer}
+.chk input{accent-color:var(--accent);width:15px;height:15px}
 .rank > .linkbtn{justify-self:start;margin-top:4px}
 .rrow .pos{font-family:var(--mono);color:var(--muted);text-align:right}
 .rrow .nm{font-weight:500;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -230,7 +232,8 @@ const pn = p => PNAME[p]||p;
 const COLOR_TXT = {pos:'Beneficia', neg:'Perjudica', mix:'Mixta', neu:'Sin efecto en tu perfil'};
 const VOTE_TXT = {s:'Sí', n:'No', a:'Abst.'};
 
-const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null};
+const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null, hideFew:false};
+try{ state.hideFew = localStorage.getItem('ocultarPocos')==='1'; }catch(e){}
 try{ const d=new URLSearchParams(location.search).get('ds'); if(CATALOGO.some(c=>c.clave===d)) state.ds=d; }catch(e){}
 
 // perfil inicial: ?p=... (GitHub Pages) o ejemplo
@@ -353,7 +356,12 @@ function renderRank(){
     ? 'Saldo de −100 a +100 entre las iniciativas que afectan a tu perfil: lo que te favorece menos lo que te perjudica. Cuenta sobre todo cómo votó cada partido; lo que solo presentó pesa poco. Pulsa un partido para ver sus iniciativas. <a href="#metodologia">Cómo se calcula</a>.'
     : 'Marca al menos un rasgo en tu perfil para ver el ranking.';
   if(!state.sel.size) return;
-  const rows = computeRank();
+  const all = computeRank(), rows = state.hideFew ? all.filter(x=>x.rel>=3) : all;
+  const chk = el('label',{class:'chk'});
+  const cb = el('input',{type:'checkbox'}); cb.checked = state.hideFew;
+  cb.addEventListener('change',()=>{ state.hideFew=cb.checked; try{ localStorage.setItem('ocultarPocos', cb.checked?'1':'0'); }catch(e){} renderRank(); });
+  chk.appendChild(cb); chk.appendChild(document.createTextNode(' Ocultar partidos con menos de 3 iniciativas que te afecten'));
+  r.appendChild(chk);
   if(!rows.length){ r.appendChild(el('div',{class:'empty'},'Ninguna iniciativa de esta pestaña afecta a tu perfil.')); return; }
   rows.forEach((x,i)=>{
     const w = Math.abs(x.s)/2;
@@ -362,7 +370,8 @@ function renderRank(){
     r.appendChild(el('button',{class:'rrow'+(x.rel<3?' few':''),title:`Ver las ${x.rel} iniciativas de ${pn(x.k)} que te afectan`,onclick:()=>openList(x.k,null)},
       `<span class="pos">${i+1}</span><span class="nm">${esc(pn(x.k))}</span><span class="dv">${bar}</span><span class="sc">${x.s>0?'+':''}${x.s}</span><span class="det">${det}</span>`));
   });
-  r.appendChild(el('p',{class:'note'},'En gris, los partidos con menos de 3 iniciativas que te afecten: tómalo con cautela.'));
+  const ocultos = all.length-rows.length;
+  r.appendChild(el('p',{class:'note'}, state.hideFew ? (ocultos?`${ocultos} partido${ocultos>1?'s':''} oculto${ocultos>1?'s':''} por tener menos de 3 iniciativas que te afecten.`:'Ningún partido oculto.') : 'En gris, los partidos con menos de 3 iniciativas que te afecten: tómalo con cautela.'));
   r.appendChild(el('button',{class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las iniciativas →'));
 }
 function renderPanel(){
