@@ -1,0 +1,236 @@
+"""Prueba de sesgo: ¿algún partido sale arriba para casi todo el mundo?
+
+Uso: python3 scripts/prueba_sesgo.py [--perfiles 2000] [--semilla 2026] [--guardar]
+
+Calcula el ranking de la web para muchos perfiles —unos arquetipos con nombre (asalariado medio,
+pensionista, autónomo…) y una muestra aleatoria reproducible— en cada legislatura y pestaña, con
+«Ciudadanía general» activada (como viene en la web) y desactivada. Reproduce exactamente el cálculo
+de site/template.html (impactOf, voteColor, evidence, computeRank con la prudencia K); los tests
+comprueban que no se separan.
+
+Mide, por partido: en qué porcentaje de perfiles queda primero (los empates se reparten), su puesto
+medio y su nota media. Una herramienta neutral debería dar primeros puestos repartidos según el
+perfil; si un partido gana para casi cualquier perfil, la clasificación o el método empujan hacia él.
+El resultado se publica tal cual salga.
+
+Con --guardar escribe data/analisis/sesgo.json y data/analisis/SESGO.md.
+"""
+import json, math, os, random, sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from legislaturas import LEGISLATURAS
+
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
+
+# --- cálculo de la web (site/template.html) ---
+PESO = {1: 1, 2: 3, 3: 9}
+K = 9
+FUERZA = {"Votación final": 1, "Convalidación": 1, "Toma en consideración": 0.5, "Enmienda a la totalidad": 0.5}
+IMPLICA = {"hij1": ["infancia"], "hij2": ["infancia"], "hij3": ["infancia"], "cuid": ["depend"]}
+SIN_PAREJA, CON_HIJOS = {"civSol", "civSep", "civViu"}, {"hij1", "hij2", "hij3"}
+
+
+def js_round(x):
+    return math.floor(x + 0.5)
+
+
+def rasgos(sel):
+    r = set(sel)
+    for k in sel:
+        r.update(IMPLICA.get(k, []))
+    if sel & SIN_PAREJA and sel & CON_HIJOS:
+        r.add("monop")
+    return r
+
+
+def impact_of(it, R):
+    p = n = False
+    for k in R:
+        v = it["imp"].get(k)
+        if v and v > 0:
+            p = True
+        elif v and v < 0:
+            n = True
+    return "mix" if p and n else "pos" if p else "neg" if n else "neu"
+
+
+def vote_color(imp, v):
+    if not v:
+        return None
+    if imp == "mix":
+        return "mix"
+    if imp == "neu" or v == "a":
+        return "neu"
+    if imp == "pos":
+        return "pos" if v == "s" else "neg"
+    return "pos" if v == "n" else "neg"
+
+
+def compute_rank(items, parties, R, tab):
+    U = [it for it in items if it["tp"] == tab]
+    imps = [(it, impact_of(it, R)) for it in U]
+    out = []
+    for p in parties:
+        S = W = 0.0
+        rel = 0
+        for it, imp in imps:
+            if imp == "neu":
+                continue
+            v = (it.get("v") or {}).get(p)
+            if v:
+                c = vote_color(imp, v)
+                if c == "neu":
+                    continue
+                f = FUERZA.get(it.get("vk"), 0.5)
+            elif p in it["a"]:
+                c, f = imp, 0.25
+            else:
+                continue
+            w = PESO.get(it.get("w"), 1) * f
+            rel += 1
+            W += w
+            S += w if c == "pos" else -w if c == "neg" else 0
+        if rel:
+            out.append({"k": p, "s": js_round(S / (W + K) * 100), "rel": rel})
+    out.sort(key=lambda r: (-r["s"], -r["rel"]))
+    return out
+
+
+# --- perfiles ---
+UNO = {  # categorías de una sola opción (como en la web)
+    "edad": ["jovenes", "adultos", "mayores"],
+    "civ": ["civSol", "civPar", "civSep", "civViu"],
+    "hij": ["hij0", "hij1", "hij2", "hij3"],
+    "vivn": ["viv0", "viv1", "viv2"],
+    "prop": ["prop1", "prop2", "prop3", "prop4"],
+    "sexo": ["hombres", "mujeres"],
+}
+TRABAJO = {  # situación laboral principal (una)
+    "asal": ["asal1", "asal2", "asal3", "asal4", "asal5", "asal6"],
+    "fun": ["funA1", "funA2", "funB", "funC1", "funC2E"],
+    "pen": ["pen1", "pen2", "pen3"],
+    "des": ["desPres", "desSub"],
+    "emp": ["empAut", "empMicro", "empPeq", "empMed", "empGran"],
+}
+VARIOS = {
+    "vivs": ["hipot", "inq"],
+    "pro": ["proSeg", "proSan", "proDoc"],
+    "sec": ["secPrim", "secInd", "secCons", "secTrans", "secCom", "secFin", "secDig", "secSoc"],
+    "soc": ["estud", "pac", "depend", "discapacidad", "inmigrantes", "minorias", "rural", "victimas", "pobreza"],
+    "otros": ["cuid", "cons", "lgtbi"],
+}
+
+ARQUETIPOS = {
+    "Asalariado medio con hipoteca e hijos": ["asal3", "viv1", "hipot", "civPar", "hij2", "adultos"],
+    "Joven de alquiler": ["asal2", "inq", "jovenes", "civSol", "hij0", "viv0"],
+    "Pensionista con casa propia": ["pen2", "mayores", "viv1", "civPar"],
+    "Pensionista con pensión baja": ["pen1", "mayores", "viv1", "civViu"],
+    "Autónomo del comercio": ["empAut", "secCom", "viv1", "hipot", "adultos"],
+    "Empresario de pyme industrial": ["empPeq", "secInd", "viv2", "prop2", "adultos"],
+    "Funcionario docente": ["funA2", "proDoc", "viv1", "hipot", "adultos"],
+    "Policía o guardia civil": ["funC1", "proSeg", "viv1", "hipot", "adultos"],
+    "Sanitario asalariado": ["asal3", "proSan", "viv1", "adultos"],
+    "Familia numerosa": ["asal3", "hij3", "civPar", "viv1", "hipot", "adultos"],
+    "Rentas altas con patrimonio": ["asal5", "prop3", "viv2", "adultos"],
+    "Gran patrimonio y gran empresa": ["empGran", "prop4", "viv2", "adultos"],
+    "Parado con subsidio": ["desSub", "inq", "pobreza", "adultos"],
+    "Agricultor en el medio rural": ["empAut", "secPrim", "rural", "viv1", "adultos"],
+    "Madre sola con hijo": ["mujeres", "civSep", "hij1", "asal2", "inq", "adultos"],
+    "Estudiante": ["estud", "jovenes", "viv0", "civSol"],
+    "Mayor dependiente": ["pen1", "mayores", "depend", "viv1"],
+    "Casero con varias viviendas": ["asal4", "viv2", "prop2", "adultos"],
+    "Transportista autónomo": ["empAut", "secTrans", "viv1", "adultos"],
+    "Asalariado de salario mínimo": ["asal1", "inq", "adultos"],
+}
+
+
+def aleatorio(rng):
+    sel = set()
+    for opts in UNO.values():
+        if rng.random() < 0.75:
+            sel.add(rng.choice(opts))
+    sel.add(rng.choice(TRABAJO[rng.choice(list(TRABAJO))]))
+    for opts in VARIOS.values():
+        for o in opts:
+            if rng.random() < 0.12:
+                sel.add(o)
+    return sel
+
+
+def main():
+    args = sys.argv[1:]
+    n = int(args[args.index("--perfiles") + 1]) if "--perfiles" in args else 2000
+    semilla = int(args[args.index("--semilla") + 1]) if "--semilla" in args else 2026
+    guardar = "--guardar" in args
+    rng = random.Random(semilla)
+    muestra = [aleatorio(rng) for _ in range(n)]
+    res = {"semilla": semilla, "perfiles_aleatorios": n, "K": K, "legislaturas": {}}
+    for clave in LEGISLATURAS:
+        f = os.path.join(ROOT, "site", "data", clave + ".json")
+        if not os.path.exists(f):
+            continue
+        d = json.load(open(f, encoding="utf-8"))
+        items, parties = d["items"], d["meta"]["parties"]
+        res["legislaturas"][clave] = {"titulo": LEGISLATURAS[clave]["titulo"], "fuente": d["meta"]["fuente_txt"]}
+        for tab in ("eco", "soc"):
+            for ciud in (True, False):
+                primeros = {p: 0.0 for p in parties}
+                puesto = {p: [] for p in parties}
+                nota = {p: [] for p in parties}
+                validos = 0
+                for sel in muestra:
+                    s = set(sel) | ({"ciud"} if ciud else set())
+                    rank = compute_rank(items, parties, rasgos(s), tab)
+                    rank = [r for r in rank if r["rel"] >= 3]  # como «ocultar pocos datos»: evita primeros con 1-2 leyes
+                    if not rank:
+                        continue
+                    validos += 1
+                    top = [r for r in rank if r["s"] == rank[0]["s"]]
+                    for r in top:
+                        primeros[r["k"]] += 1 / len(top)
+                    for i, r in enumerate(rank):
+                        puesto[r["k"]].append(i + 1)
+                        nota[r["k"]].append(r["s"])
+                tabla = sorted(
+                    ({"partido": p, "primero_pct": round(100 * primeros[p] / validos, 1) if validos else 0,
+                      "puesto_medio": round(sum(puesto[p]) / len(puesto[p]), 1) if puesto[p] else None,
+                      "nota_media": round(sum(nota[p]) / len(nota[p])) if nota[p] else None,
+                      "perfiles": len(puesto[p])} for p in parties if puesto[p]),
+                    key=lambda x: -x["primero_pct"])
+                arq = {}
+                for nombre, rasg in ARQUETIPOS.items():
+                    s = set(rasg) | ({"ciud"} if ciud else set())
+                    rank = [r for r in compute_rank(items, parties, rasgos(s), tab) if r["rel"] >= 3]
+                    arq[nombre] = [f"{r['k']} {r['s']:+d}" for r in rank[:3]]
+                res["legislaturas"][clave][f"{tab}_{'con' if ciud else 'sin'}_ciud"] = {
+                    "perfiles_con_resultado": validos, "partidos": tabla, "arquetipos_top3": arq}
+    print(json.dumps({k: {t: v[t]["partidos"][:3] for t in v if t.endswith("_ciud")} for k, v in res["legislaturas"].items()},
+                     ensure_ascii=False, indent=1))
+    if guardar:
+        out = os.path.join(ROOT, "data", "analisis")
+        os.makedirs(out, exist_ok=True)
+        json.dump(res, open(os.path.join(out, "sesgo.json"), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        with open(os.path.join(out, "SESGO.md"), "w", encoding="utf-8") as fh:
+            fh.write("# Prueba de sesgo\n\n")
+            fh.write(f"Generado por `scripts/prueba_sesgo.py` (semilla {semilla}, {n} perfiles aleatorios y "
+                     f"{len(ARQUETIPOS)} arquetipos, prudencia K = {K}). Mismo cálculo que la web; solo se cuentan partidos "
+                     "con 3 o más iniciativas que afecten al perfil. «Primero» reparte los empates.\n\n"
+                     "Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Si uno gana "
+                     "para casi cualquier perfil, la clasificación o el método empujan hacia él. Se publica tal cual sale.\n")
+            for clave, v in res["legislaturas"].items():
+                fh.write(f"\n## {v['fuente']} · {v['titulo']}\n")
+                for t, nombre in (("eco", "Leyes económicas"), ("soc", "Leyes sociales")):
+                    for c in ("con", "sin"):
+                        r = v[f"{t}_{c}_ciud"]
+                        fh.write(f"\n### {nombre} · {c} «Ciudadanía general»\n\n| Partido | Primero en | Puesto medio | Nota media |\n|---|---:|---:|---:|\n")
+                        for x in r["partidos"]:
+                            fh.write(f"| {x['partido']} | {x['primero_pct']} % | {x['puesto_medio']} | {x['nota_media']:+d} |\n")
+                        fh.write("\n<details><summary>Arquetipos (tres primeros)</summary>\n\n")
+                        for a, top in r["arquetipos_top3"].items():
+                            fh.write(f"- {a}: {', '.join(top) or 'sin resultado'}\n")
+                        fh.write("\n</details>\n")
+        print("Guardado en", out)
+
+
+if __name__ == "__main__":
+    main()
