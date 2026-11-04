@@ -63,3 +63,11 @@ Abiertos a propósito: se acumulan casos de otras legislaturas y parlamentos par
 - [x] Tasa de basuras (124/000018): suprimir la tasa obligatoria se trata como alivio de una carga general → `+ciud`.
 - [x] Educación especial (122/000208): mantener los centros de educación especial → `+secSoc` (concertada).
 - [ ] 124/000004 (Código Penal, PP en el Senado): sin texto publicado; vacía.
+
+## Reclasificación con la rúbrica v3 (04/11/2026)
+
+Toda la XV se ha reclasificado con la rúbrica v3 por tres lectores independientes (C, D y E), que no vieron la clasificación anterior ni el trabajo de los otros, con un extracto del texto oficial (BOCG) de cada iniciativa. Las 83 iniciativas que la primera pasada dejó sin efectos por falta de texto se volvieron a leer con hasta 12.000 caracteres del texto oficial. La clasificación final es la consolidación por mayoría (`scripts/consolidar_lecturas.py`): un colectivo se marca si lo marcan al menos 2 de 3 lecturas; tipo por mayoría; peso, la mediana.
+
+- Coincidencia entre lectores: 84–87 % idéntica, parecido medio 0,90, ninguna con signo contrario; 432 de 540 iniciativas idénticas en las tres lecturas.
+- 316 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas de cada iniciativa: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
+- La doble lectura anterior (`doble_lectura/`, rúbrica v2) queda como histórico.

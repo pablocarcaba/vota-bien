@@ -1,1106 +1,1059 @@
 [
-{
-"id": "122/000102",
-"tipo": "eco",
-"imp": {
-"inq": 1,
-"prop3": -1,
-"prop4": -1,
-"secCons": -1
-},
-"peso": 3,
-"nota": "Medidas contra la especulación inmobiliaria; favorecen a inquilinos y restringen a grandes tenedores y promotores.",
-"partido": "Podemos"
-},
-{
-"id": "122/000103",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Reforma de la ley de seguridad ciudadana; efecto sobre libertades públicas sin colectivo distributivo claro.",
-"partido": "Podemos"
-},
-{
-"id": "122/000104",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Regulación de la información y la desinformación; sin efecto distributivo claro.",
-"partido": "Podemos"
-},
-{
-"id": "122/000105",
-"tipo": "eco",
-"imp": {
-"pen2": 1,
-"pen3": 1,
-"mayores": 1
-},
-"peso": 2,
-"nota": "Elimina penalizaciones por jubilación anticipada con carreras largas; mejora la pensión de quienes se jubilan antes.",
-"partido": "Podemos"
-},
-{
-"id": "122/000106",
-"tipo": "eco",
-"imp": {
-"empAut": 1
-},
-"peso": 2,
-"nota": "Medidas de protección social y fiscal para los trabajadores autónomos.",
-"partido": ""
-},
-{
-"id": "122/000107",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Regulación de la información y la desinformación; sin efecto distributivo claro.",
-"partido": "Podemos"
-},
-{
-"id": "122/000108",
-"tipo": "soc",
-"imp": {
-"pac": 1,
-"ciud": 1
-},
-"peso": 2,
-"nota": "Interoperabilidad de tarjeta sanitaria e historia clínica en todo el Estado; mejora la atención a pacientes desplazados y el servicio sanitario.",
-"partido": ""
-},
-{
-"id": "122/000109",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Reforma del acceso a la carrera judicial; organización de la justicia sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "122/000110",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma electoral sobre causas de inelegibilidad; norma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000111",
-"tipo": "soc",
-"imp": {
-"secInd": -1
-},
-"peso": 2,
-"nota": "Embargo de armas y menor gasto militar; reduce la actividad de la industria de defensa.",
-"partido": "Podemos"
-},
-{
-"id": "122/000112",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma penal sobre legítima defensa; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "122/000113",
-"tipo": "soc",
-"imp": {
-"victimas": 1
-},
-"peso": 2,
-"nota": "Reconocimiento e investigación de los casos de bebés robados; beneficia a las víctimas y sus familias.",
-"partido": "Podemos, BNG"
-},
-{
-"id": "122/000114",
-"tipo": "eco",
-"imp": {
-"secCons": 1
-},
-"peso": 2,
-"nota": "Limita la nulidad de planes urbanísticos por vicios formales y permite subsanarlos; da seguridad jurídica a promotores y constructores.",
-"partido": ""
-},
-{
-"id": "122/000115",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del Código Penal de contenido genérico; sin efecto distributivo claro.",
-"partido": "Podemos"
-},
-{
-"id": "122/000116",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma de la Defensa Nacional sobre envío de ayuda militar; norma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000117",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"estud": 1,
-"pobreza": 1
-},
-"peso": 2,
-"nota": "Mandata regular comedores escolares universales, gratuitos y abiertos todo el año en centros públicos; beneficia a familias con hijos.",
-"partido": "Podemos"
-},
-{
-"id": "122/000118",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Reforma del Poder Judicial y del Ministerio Fiscal; norma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000119",
-"tipo": "eco",
-"imp": {
-"inq": 1,
-"jovenes": 1,
-"viv2": -1
-},
-"peso": 2,
-"nota": "Regula alquileres de temporada y de habitaciones; protege a inquilinos, a menudo jóvenes, y limita a los arrendadores.",
-"partido": ""
-},
-{
-"id": "122/000120",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Restringe el comercio con asentamientos en territorios ocupados; efecto económico interno muy limitado.",
-"partido": ""
-},
-{
-"id": "122/000121",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1
-},
-"peso": 2,
-"nota": "Declara estratégico el sistema alimentario; apoya a agricultores, ganaderos y al medio rural.",
-"partido": ""
-},
-{
-"id": "122/000122",
-"tipo": "soc",
-"imp": {
-"secInd": -1
-},
-"peso": 1,
-"nota": "Introduce el embargo en el comercio exterior de material de defensa; restringe a la industria exportadora de armamento.",
-"partido": "Podemos, BNG"
-},
-{
-"id": "122/000123",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1,
-"infancia": 1
-},
-"peso": 2,
-"nota": "Establece un reparto obligatorio entre comunidades de menores migrantes no acompañados en contingencias; mejora su atención y acogida.",
-"partido": ""
-},
-{
-"id": "122/000124",
-"tipo": "eco",
-"imp": {
-"hipot": 1,
-"cons": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Regula cláusulas abusivas en préstamos hipotecarios; protege a hipotecados y limita a las entidades financieras.",
-"partido": ""
-},
-{
-"id": "122/000125",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Representación internacional de federaciones deportivas; norma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000126",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del derecho de asociación; norma institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "122/000127",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"depend": 1
-},
-"peso": 2,
-"nota": "Recupera derechos de conciliación laboral; beneficia a trabajadores con hijos o familiares a cargo.",
-"partido": ""
-},
-{
-"id": "122/000128",
-"tipo": "soc",
-"imp": {
-"pac": 1,
-"discapacidad": 1,
-"depend": 1
-},
-"peso": 2,
-"nota": "Ley ELA: atención y ayudas a pacientes con enfermedades irreversibles de alta complejidad, dependientes y sus cuidadores.",
-"partido": ""
-},
-{
-"id": "122/000129",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"mujeres": 1,
-"depend": 1
-},
-"peso": 2,
-"nota": "Medidas de conciliación y corresponsabilidad; beneficia a familias, cuidadores y a mujeres, principales cuidadoras.",
-"partido": ""
-},
-{
-"id": "122/000130",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Obliga a informar en facturas de luz y gas sobre resolución alternativa de litigios; beneficia a consumidores.",
-"partido": ""
-},
-{
-"id": "122/000131",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Reforma de la ley de seguridad ciudadana; efecto sobre libertades públicas sin colectivo distributivo claro.",
-"partido": ""
-},
-{
-"id": "122/000132",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secCom": -1
-},
-"peso": 1,
-"nota": "Previene la reduflación con obligaciones de información; protege a consumidores y supone carga para comercio y distribución.",
-"partido": ""
-},
-{
-"id": "122/000133",
-"tipo": "soc",
-"imp": {
-"pac": 1
-},
-"peso": 2,
-"nota": "Regula las instrucciones previas sobre tratamientos médicos; refuerza la autonomía de los pacientes.",
-"partido": ""
-},
-{
-"id": "122/000134",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"secCom": 1
-},
-"peso": 1,
-"nota": "Bonificación de cuotas patronales en Ceuta y Melilla; reduce costes a pequeñas empresas de comercio, hostelería y turismo.",
-"partido": ""
-},
-{
-"id": "122/000135",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"discapacidad": 1
-},
-"peso": 1,
-"nota": "Exime de IRPF las ayudas a afectados por la talidomida.",
-"partido": ""
-},
-{
-"id": "122/000136",
-"tipo": "eco",
-"imp": {
-"inq": 1,
-"jovenes": 1,
-"viv2": -1
-},
-"peso": 2,
-"nota": "Regula alquileres temporales y de habitaciones; protege a inquilinos, a menudo jóvenes, y limita a los arrendadores.",
-"partido": "Podemos, BNG"
-},
-{
-"id": "122/000137",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del CIS; norma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000138",
-"tipo": "eco",
-"imp": {
-"secCom": 1
-},
-"peso": 1,
-"nota": "Beneficios fiscales al patrocinio de acontecimientos de excepcional interés público; favorece eventos y actividad turística.",
-"partido": ""
-},
-{
-"id": "122/000139",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Reduce la tasa de alcohol al volante y prohíbe difundir controles; mejora la seguridad vial general.",
-"partido": ""
-},
-{
-"id": "122/000140",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 2,
-"nota": "Suprime el impuesto a envases de plástico no reutilizables, rebaja objetivos de reutilización y favorece la valorización energética; reduce costes industriales.",
-"partido": ""
-},
-{
-"id": "122/000141",
-"tipo": "soc",
-"imp": {
-"proSan": 1
-},
-"peso": 2,
-"nota": "Medidas contra agresiones en el ámbito sanitario; protege al personal sanitario.",
-"partido": ""
-},
-{
-"id": "122/000142",
-"tipo": "soc",
-"imp": {
-"lgtbi": 1,
-"victimas": 1
-},
-"peso": 2,
-"nota": "Reparación a personas LGTBI represaliadas por la dictadura.",
-"partido": ""
-},
-{
-"id": "122/000143",
-"tipo": "eco",
-"imp": {
-"empAut": 1
-},
-"peso": 2,
-"nota": "Pasarela de mutualistas alternativos al RETA; mejora la protección de profesionales por cuenta propia.",
-"partido": ""
-},
-{
-"id": "122/000144",
-"tipo": "soc",
-"imp": {
-"pobreza": 1
-},
-"peso": 2,
-"nota": "Plan integral para barrios vulnerables; beneficia a residentes en riesgo de exclusión.",
-"partido": ""
-},
-{
-"id": "122/000145",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Restringe la participación y asistencia de menores a la tauromaquia; efecto distributivo discutible.",
-"partido": ""
-},
-{
-"id": "122/000146",
-"tipo": "eco",
-"imp": {
-"empMicro": 1,
-"empPeq": 1,
-"inq": 1
-},
-"peso": 1,
-"nota": "Permite materializar la RIC canaria en compra o construcción de vivienda para alquiler habitual, no vacacional; incentiva empresas y amplía oferta.",
-"partido": "CC"
-},
-{
-"id": "122/000147",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Protección frente a demandas abusivas contra derechos fundamentales; norma procesal sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "122/000148",
-"tipo": "soc",
-"imp": {
-"victimas": 1
-},
-"peso": 2,
-"nota": "Mecanismos ágiles ante emergencias como la DANA; beneficia a los afectados por catástrofes.",
-"partido": ""
-},
-{
-"id": "122/000149",
-"tipo": "soc",
-"imp": {
-"mujeres": 1,
-"victimas": 1
-},
-"peso": 1,
-"nota": "Refuerza los juzgados especializados en violencia sobre la mujer; beneficia a las víctimas.",
-"partido": ""
-},
-{
-"id": "122/000150",
-"tipo": "eco",
-"imp": {
-"viv2": 1
-},
-"peso": 2,
-"nota": "Medidas contra la ocupación ilegal; agiliza la recuperación de inmuebles por sus propietarios.",
-"partido": ""
-},
-{
-"id": "122/000151",
-"tipo": "eco",
-"imp": {
-"pen1": 1,
-"pen2": 1,
-"pen3": 1,
-"mayores": 1
-},
-"peso": 3,
-"nota": "Revaloriza las pensiones en 2025; beneficia a todos los pensionistas.",
-"partido": ""
-},
-{
-"id": "122/000152",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 2,
-"nota": "Ayudas complementarias para afectados por la DANA, incluidos negocios y autónomos.",
-"partido": ""
-},
-{
-"id": "122/000153",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"jovenes": 1
-},
-"peso": 2,
-"nota": "Mantiene bonificaciones del transporte público; beneficia a usuarios y a jóvenes.",
-"partido": ""
-},
-{
-"id": "122/000154",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del Código Penal Militar; norma penal institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "122/000155",
-"tipo": "eco",
-"imp": {
-"asal1": 1
-},
-"peso": 1,
-"nota": "Prohíbe practicar retenciones de IRPF a quienes cobran el salario mínimo; aumenta su salario neto mensual.",
-"partido": "Podemos"
-},
-{
-"id": "122/000156",
-"tipo": "eco",
-"imp": {
-"asal1": 1
-},
-"peso": 2,
-"nota": "Eleva el mínimo exento de IRPF al nivel del SMI; beneficia a asalariados de rentas bajas.",
-"partido": ""
-},
-{
-"id": "122/000157",
-"tipo": "eco",
-"imp": {
-"asal1": 1
-},
-"peso": 2,
-"nota": "Adapta el IRPF a la subida del SMI; evita tributación de salarios mínimos.",
-"partido": ""
-},
-{
-"id": "122/000158",
-"tipo": "eco",
-"imp": {
-"empMicro": 1,
-"empPeq": 1,
-"empMed": 1,
-"secCons": 1
-},
-"peso": 2,
-"nota": "Revisión de precios en contratos públicos; compensa a contratistas, sobre todo de obra pública, por la inflación.",
-"partido": ""
-},
-{
-"id": "122/000159",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"asal4": 1,
-"empAut": -1,
-"empMicro": -1,
-"empPeq": -1
-},
-"peso": 3,
-"nota": "Reduce la jornada máxima a 35 horas; beneficia a asalariados y eleva costes laborales a pequeñas empresas.",
-"partido": "Podemos"
-},
-{
-"id": "122/000160",
-"tipo": "eco",
-"imp": {
-"desSub": 1,
-"pobreza": 1
-},
-"peso": 2,
-"nota": "Mejora el ingreso mínimo vital y regula ayudas de emergencia; beneficia a hogares vulnerables.",
-"partido": ""
-},
-{
-"id": "122/000161",
-"tipo": "eco",
-"imp": {
-"asal2": 1,
-"asal3": 1,
-"infancia": 1
-},
-"peso": 3,
-"nota": "Medidas tributarias y de apoyo familiar sin presupuestos; rebajas de IRPF para rentas medias y familias.",
-"partido": ""
-},
-{
-"id": "122/000162",
-"tipo": "eco",
-"imp": {
-"inq": 1,
-"viv2": -1
-},
-"peso": 2,
-"nota": "Reforma de arrendamientos urbanos a favor del inquilino; limita a los propietarios arrendadores.",
-"partido": ""
-},
-{
-"id": "122/000163",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Tipifica el transporte de combustible para narcolanchas; norma penal sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000164",
-"tipo": "soc",
-"imp": {
-"mujeres": 1,
-"victimas": 1
-},
-"peso": 1,
-"nota": "Endurece penas por matrimonio forzado; protege a sus víctimas, mayoritariamente mujeres.",
-"partido": ""
-},
-{
-"id": "122/000165",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Atribuye al Ministerio el nombramiento de los órganos de las autoridades portuarias, hoy compartido con las comunidades; norma organizativa.",
-"partido": ""
-},
-{
-"id": "122/000166",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 2,
-"nota": "Impuesto temporal sobre beneficios de grandes empresas cotizadas.",
-"partido": "Podemos"
-},
-{
-"id": "122/000167",
-"tipo": "soc",
-"imp": {
-"lgtbi": 1,
-"victimas": 1
-},
-"peso": 1,
-"nota": "Castiga las terapias de conversión; protege a personas LGTBI.",
-"partido": "BNG"
-},
-{
-"id": "122/000168",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 2,
-"nota": "Impuesto temporal sobre beneficios de grandes empresas cotizadas.",
-"partido": "Podemos"
-},
-{
-"id": "122/000169",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1,
-"secTrans": -1
-},
-"peso": 2,
-"nota": "Registro duplicado de la 122/000170 (mismo título, autores y fecha), retirado al calificarse; mismo efecto sobre el comercio de emisiones.",
-"partido": ""
-},
-{
-"id": "122/000170",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1,
-"secTrans": -1
-},
-"peso": 2,
-"nota": "Transpone la reforma europea del comercio de emisiones: menos derechos gratuitos e inclusión del transporte marítimo y la aviación.",
-"partido": ""
-},
-{
-"id": "122/000171",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 1,
-"nota": "Bonifica cuotas empresariales durante bajas por nacimiento; reduce costes a pequeñas empresas.",
-"partido": ""
-},
-{
-"id": "122/000172",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Delegación competencial en inmigración a Cataluña; norma institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "122/000173",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal5": -1,
-"asal6": -1
-},
-"peso": 2,
-"nota": "Multas de tráfico proporcionales a la renta; rebaja a rentas bajas y encarece a las altas.",
-"partido": ""
-},
-{
-"id": "122/000174",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Garantías procesales del agente encubierto; norma procesal sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000175",
-"tipo": "soc",
-"imp": {
-"infancia": -1
-},
-"peso": 2,
-"nota": "Rebaja la edad penal y endurece sanciones a menores infractores.",
-"partido": ""
-},
-{
-"id": "122/000176",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secTrans": -1
-},
-"peso": 1,
-"nota": "Más controles de alcohol y drogas a conductores profesionales; mejora la seguridad vial con cargas al transporte.",
-"partido": ""
-},
-{
-"id": "122/000177",
-"tipo": "eco",
-"imp": {
-"empGran": 1,
-"secInd": 1,
-"cons": 1
-},
-"peso": 2,
-"nota": "Suprime impuestos a la producción eléctrica y nuclear; reduce costes a eléctricas y puede abaratar la factura.",
-"partido": ""
-},
-{
-"id": "122/000178",
-"tipo": "eco",
-"imp": {
-"inq": 1,
-"viv2": -1
-},
-"peso": 2,
-"nota": "Refuerza la ley de vivienda; protege a inquilinos y limita a los propietarios arrendadores.",
-"partido": ""
-},
-{
-"id": "122/000179",
-"tipo": "eco",
-"imp": {
-"empGran": 1,
-"secInd": 1
-},
-"peso": 2,
-"nota": "Garantiza la continuidad de la energía nuclear; beneficia a las grandes eléctricas propietarias.",
-"partido": ""
-},
-{
-"id": "122/000180",
-"tipo": "soc",
-"imp": {
-"lgtbi": 1
-},
-"peso": 2,
-"nota": "Reconoce derechos de personas intersexuales y no binarias.",
-"partido": ""
-},
-{
-"id": "122/000181",
-"tipo": "eco",
-"imp": {
-"viv1": 1,
-"viv2": 1
-},
-"peso": 1,
-"nota": "Preserva conjuntos urbanos costeros en dominio público; protege a propietarios de viviendas tradicionales.",
-"partido": ""
-},
-{
-"id": "122/000182",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del Estatuto del Ministerio Fiscal; norma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000183",
-"tipo": "soc",
-"imp": {
-"jovenes": 1
-},
-"peso": 2,
-"nota": "Amplía el derecho de voto a los mayores de 16 años.",
-"partido": ""
-},
-{
-"id": "122/000184",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Transparencia del Consejo de Estado; norma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000185",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"empGran": -1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Extingue concesiones hidroeléctricas y las asume una empresa pública: recupera patrimonio público y perjudica a las grandes eléctricas.",
-"partido": "Podemos"
-},
-{
-"id": "122/000186",
-"tipo": "soc",
-"imp": {
-"estud": 1
-},
-"peso": 1,
-"nota": "Prohíbe que universidades paguen o donen a cambio de prácticas curriculares de sus estudiantes; garantiza acceso igual a las prácticas.",
-"partido": ""
-},
-{
-"id": "122/000187",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del Tribunal Constitucional; norma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000188",
-"tipo": "soc",
-"imp": {
-"rural": 1
-},
-"peso": 1,
-"nota": "Garantiza servicios públicos esenciales a pequeños municipios rurales en emergencias.",
-"partido": ""
-},
-{
-"id": "122/000189",
-"tipo": "soc",
-"imp": {
-"discapacidad": 1,
-"estud": 1
-},
-"peso": 2,
-"nota": "Escolarización del alumnado con necesidades educativas especiales; afecta a estudiantes con discapacidad.",
-"partido": ""
-},
-{
-"id": "122/000190",
-"tipo": "eco",
-"imp": {
-"prop3": -1,
-"prop4": -1,
-"secCons": -1
-},
-"peso": 1,
-"nota": "Medidas fiscales contra la especulación inmobiliaria; grava a grandes propietarios e inversores inmobiliarios.",
-"partido": ""
-},
-{
-"id": "122/000191",
-"tipo": "soc",
-"imp": {
-"inmigrantes": -1
-},
-"peso": 2,
-"nota": "Restringe la regularización de inmigrantes por arraigo.",
-"partido": ""
-},
-{
-"id": "122/000192",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma penal sobre coacciones al derecho al trabajo; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "122/000193",
-"tipo": "eco",
-"imp": {
-"inq": 1,
-"prop4": -1
-},
-"peso": 1,
-"nota": "Restaura el tanteo del inquilino en ventas conjuntas de vivienda; limita a los grandes tenedores.",
-"partido": ""
-},
-{
-"id": "122/000194",
-"tipo": "soc",
-"imp": {
-"pac": 1
-},
-"peso": 1,
-"nota": "Compensación económica a personas celíacas por el sobrecoste de la dieta sin gluten.",
-"partido": ""
-},
-{
-"id": "122/000195",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Derogación simbólica de decretos históricos; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000196",
-"tipo": "eco",
-"imp": {
-"inq": 1,
-"viv2": 1,
-"jovenes": 1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Rebajas de IRPF a quien alquila barato o a jóvenes, IVA del 21 % al alquiler turístico, impuesto a compradores extracomunitarios y vivienda pública.",
-"partido": ""
-},
-{
-"id": "122/000197",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"empGran": -1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Titularidad pública de las redes de distribución eléctrica e impulso del autoconsumo: beneficia a ciudadanía y consumidores; perjudica a distribuidoras.",
-"partido": ""
-},
-{
-"id": "122/000198",
-"tipo": "eco",
-"imp": {
-"pac": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Transparencia en precios y costes de medicamentos; favorece a pacientes y obliga a la industria farmacéutica.",
-"partido": "Podemos"
-},
-{
-"id": "122/000199",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Obligaciones internacionales de no reconocimiento de ocupaciones; norma de política exterior sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000200",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del régimen electoral general; norma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000201",
-"tipo": "soc",
-"imp": {
-"lgtbi": 1,
-"victimas": 1
-},
-"peso": 1,
-"nota": "Penaliza las terapias de conversión; protege a personas LGTBI.",
-"partido": ""
-},
-{
-"id": "122/000202",
-"tipo": "eco",
-"imp": {
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Prohíbe la acuicultura de pulpos; perjudica al sector acuícola.",
-"partido": "Podemos"
-},
-{
-"id": "122/000203",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"mujeres": 1,
-"depend": 1
-},
-"peso": 2,
-"nota": "Medidas de conciliación y corresponsabilidad; beneficia a familias, cuidadores y a mujeres, principales cuidadoras.",
-"partido": ""
-},
-{
-"id": "122/000204",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1
-},
-"peso": 2,
-"nota": "Declara estratégico el sistema alimentario; apoya a agricultores, ganaderos y al medio rural.",
-"partido": ""
-},
-{
-"id": "122/000205",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"discapacidad": 1
-},
-"peso": 1,
-"nota": "Exime de IRPF las ayudas a afectados por la talidomida.",
-"partido": ""
-},
-{
-"id": "122/000206",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Prohíbe contratar con empresas implicadas en corrupción; sin colectivo distributivo claro.",
-"partido": "Podemos"
-},
-{
-"id": "122/000207",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Prohíbe contratar con empresas implicadas en corrupción; sin colectivo distributivo claro.",
-"partido": "Podemos"
-},
-{
-"id": "122/000208",
-"tipo": "soc",
-"imp": {
-"secSoc": 1
-},
-"peso": 1,
-"nota": "Suprime las previsiones de la LOMLOE para trasladar alumnado de centros de educación especial a ordinarios; preserva esos centros, incluidos concertados.",
-"partido": ""
-},
-{
-"id": "122/000209",
-"tipo": "soc",
-"imp": {
-"infancia": 1
-},
-"peso": 1,
-"nota": "Refuerza la protección de menores tutelados en desamparo.",
-"partido": ""
-}
+ {
+  "id": "122/000102",
+  "tipo": "eco",
+  "imp": {
+   "prop3": -1,
+   "prop4": -1
+  },
+  "peso": 2,
+  "nota": "Limita la compra de vivienda con fines especulativos; perjudica a quienes acumulan patrimonio inmobiliario.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000103",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el régimen sancionador de seguridad ciudadana; sin colectivo con efecto directo y signo claro.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000104",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000105",
+  "tipo": "eco",
+  "imp": {
+   "adultos": 1,
+   "mayores": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1
+  },
+  "peso": 2,
+  "nota": "Elimina los coeficientes reductores de la jubilación anticipada involuntaria con 40 años cotizados, también para ya jubilados.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000106",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Bonifica la cuota de autónomos con ingresos inferiores al SMI y alivia su carga fiscal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000107",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000108",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza la operatividad nacional de la tarjeta sanitaria y la interoperabilidad de historias clínicas; mejora el acceso a la sanidad pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000109",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el acceso a la carrera judicial; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000110",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica causas de inelegibilidad electoral; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000111",
+  "tipo": "soc",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Autoriza el embargo de armas a un Estado y reduce el gasto militar; prohíbe la actividad exportadora de armamento.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000112",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el Código Penal sobre legítima defensa; norma penal sin colectivo con derechos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000113",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce la desaparición forzada de menores y regula la reparación de las víctimas y sus familias.",
+  "partido": "Podemos, BNG"
+ },
+ {
+  "id": "122/000114",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula los vicios y la nulidad de los planes urbanísticos para dar seguridad jurídica; reforma procesal y de planeamiento sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000115",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Tipifica el acoso inmobiliario con ánimo de lucro a personas vulnerables; norma penal sin derechos concretos para un colectivo.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000116",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la autorización parlamentaria del envío de ayuda militar al extranjero; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000117",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mandata comedores escolares universales, gratuitos y abiertos todo el año en centros públicos.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000118",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la organización judicial y fiscal (requisitos del Supremo, excedencias, CGPJ); norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000119",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Regula los contratos de temporada y de habitaciones para evitar eludir la regulación del alquiler; protege al inquilino y restringe al arrendador.",
+  "partido": ""
+ },
+ {
+  "id": "122/000120",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula relaciones económicas con asentamientos en territorios ocupados; sin colectivo nacional con efecto directo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000121",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Declara estratégico el sistema alimentario y lo apoya; favorece a la producción primaria y a la industria alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "122/000122",
+  "tipo": "soc",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Introduce el embargo de armas en el control del comercio exterior de defensa; prohíbe exportaciones de armamento.",
+  "partido": "Podemos, BNG"
+ },
+ {
+  "id": "122/000123",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el protocolo de traslado y tutela de menores extranjeros no acompañados entre administraciones; sin cambio de derechos conocido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000124",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Regula cláusulas de interés en préstamos hipotecarios en defensa del prestatario; supone un coste para las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "122/000125",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Garantiza la representación internacional de las federaciones deportivas; norma de competencias.",
+  "partido": ""
+ },
+ {
+  "id": "122/000126",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el derecho de asociación en relación con la memoria democrática; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000127",
+  "tipo": "eco",
+  "imp": {
+   "depend": 1
+  },
+  "peso": 1,
+  "nota": "Restablece la protección frente al despido de quienes disfrutan de permisos por enfermedad grave de familiares y adaptación de jornada.",
+  "partido": ""
+ },
+ {
+  "id": "122/000128",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1,
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la atención y calidad de vida de personas con ELA y otras enfermedades de alta complejidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000129",
+  "tipo": "soc",
+  "imp": {
+   "hombres": 1,
+   "infancia": 1,
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Impulsa la conciliación y la corresponsabilidad familiar entre mujeres y hombres con hijos o familiares a cargo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000130",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las comercializadoras de luz y gas a informar sobre resolución de conflictos; refuerza a los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000131",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la regulación de seguridad ciudadana y libertades; sin colectivo con efecto directo y signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000132",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Previene la reduflación: obliga a informar al consumidor de reducciones de tamaño de productos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000133",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza el derecho de los pacientes a otorgar instrucciones previas sobre su tratamiento y cuidados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000134",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1,
+   "secInd": 1,
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Recupera la bonificación de cuotas patronales en Ceuta y Melilla para empresas de los sectores primario, industrial, comercial y turístico.",
+  "partido": ""
+ },
+ {
+  "id": "122/000135",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Declara exentas del IRPF las ayudas a afectados por la talidomida.",
+  "partido": ""
+ },
+ {
+  "id": "122/000136",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Regula los contratos temporales y de habitaciones para evitar eludir la regulación del alquiler; protege al inquilino y restringe al arrendador.",
+  "partido": "Podemos, BNG"
+ },
+ {
+  "id": "122/000137",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la independencia del CIS; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000138",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Declara acontecimientos de excepcional interés público con beneficios fiscales máximos de mecenazgo; no regula a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000139",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Reduce la tasa máxima de alcohol al conducir para todos los conductores; mejora la seguridad vial y la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000140",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el impuesto a envases de plástico no reutilizables y rebaja objetivos de reutilización; menor protección ambiental y alivio al fabricante.",
+  "partido": ""
+ },
+ {
+  "id": "122/000141",
+  "tipo": "soc",
+  "imp": {
+   "proSan": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la protección frente a agresiones al personal sanitario y su condición de autoridad pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000142",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce y repara a las personas trans y LGTBI víctimas de la persecución durante la dictadura.",
+  "partido": ""
+ },
+ {
+  "id": "122/000143",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Limita la opción de mutualidad alternativa al régimen de autónomos, eleva coberturas y cuotas mínimas y abre una pasarela al régimen público.",
+  "partido": ""
+ },
+ {
+  "id": "122/000144",
+  "tipo": "soc",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Crea un marco integral de actuación en barrios vulnerables.",
+  "partido": ""
+ },
+ {
+  "id": "122/000145",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "secCom": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe la participación de menores como público o participantes en espectáculos taurinos; restringe esa actividad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000146",
+  "tipo": "eco",
+  "imp": {
+   "secCons": 1,
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Permite materializar la RIC en vivienda destinada a alquiler en Canarias; incentivo fiscal a arrendadores y empresas inversoras.",
+  "partido": "CC"
+ },
+ {
+  "id": "122/000147",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula garantías frente a acciones judiciales abusivas; norma procesal sin colectivo directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000148",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Crea mecanismos para agilizar ayudas ante emergencias como la DANA.",
+  "partido": ""
+ },
+ {
+  "id": "122/000149",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza juzgados y jueces especializados en violencia sobre la mujer; refuerza la protección procesal de las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000150",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Agiliza los procesos de desocupación de inmuebles ocupados; beneficia a los propietarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000151",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza todas las pensiones con el IPC real de 2024.",
+  "partido": ""
+ },
+ {
+  "id": "122/000152",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Amplía plazos de solicitud y apoyo agrario por la DANA y regula financiación para afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000153",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Reproduce las bonificaciones al transporte público para los usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000154",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Limita la aplicación del Código Penal Militar a los guardias civiles en funciones no militares.",
+  "partido": ""
+ },
+ {
+  "id": "122/000155",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1
+  },
+  "peso": 1,
+  "nota": "Prohíbe practicar retenciones por rendimientos del trabajo a quien cobra el SMI.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000156",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1
+  },
+  "peso": 1,
+  "nota": "Ajusta el límite exento del IRPF al salario mínimo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000157",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1
+  },
+  "peso": 1,
+  "nota": "Actualiza el IRPF al nuevo SMI para evitar que tribute quien lo percibe.",
+  "partido": ""
+ },
+ {
+  "id": "122/000158",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite actualizar el precio de contratos públicos por subidas salariales; afecta a contratistas sin tamaño ni sector definidos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000159",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 2,
+  "nota": "Reduce la jornada máxima a 35 horas semanales; mejora condiciones de asalariados y eleva el coste laboral.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000160",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Modifica el IMV para facilitar el acceso y reducir requerimientos de devolución a hogares vulnerables.",
+  "partido": ""
+ },
+ {
+  "id": "122/000161",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "asal5": 1,
+   "asal6": 1,
+   "ciud": 1,
+   "cons": 1,
+   "pen2": 1,
+   "pen3": 1
+  },
+  "peso": 3,
+  "nota": "Restablece tipos de IVA de electricidad y alimentos básicos y ajusta el IRPF a la inflación (deflactación).",
+  "partido": ""
+ },
+ {
+  "id": "122/000162",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Introduce el contrato de alquiler indefinido; da estabilidad al inquilino y limita al arrendador.",
+  "partido": ""
+ },
+ {
+  "id": "122/000163",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Tipifica el transporte de combustibles para el narcotráfico; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000164",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Endurece las penas del matrimonio forzado; norma penal sin derechos nuevos para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000165",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concentra en el Estado el nombramiento de órganos de autoridades portuarias; traspaso entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000166",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto temporal sobre beneficios de grandes empresas cotizadas.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000167",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Castiga las terapias de conversión y garantiza la protección de las víctimas.",
+  "partido": "BNG"
+ },
+ {
+  "id": "122/000168",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto temporal sobre beneficios de las empresas del Ibex-35, complementario al de Sociedades.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000169",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000170",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Transpone el refuerzo del comercio de emisiones: amplía su ámbito a transporte marítimo y aéreo y reduce derechos gratuitos; más protección climática.",
+  "partido": ""
+ },
+ {
+  "id": "122/000171",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Bonificación total de la cuota empresarial en contratos de sustitución por nacimiento; coste ligado a la situación de un trabajador, sin tamaño de empresa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000172",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delega en Cataluña competencias estatales de inmigración; traspaso entre administraciones sin cambio de derechos conocido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000173",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal6": -1
+  },
+  "peso": 1,
+  "nota": "Gradúa multas de tráfico por renta: recargos del 150 % al 500 % desde 70.000 € brutos y rebajas para ingresos bajos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000174",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza garantías procesales del agente encubierto; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000175",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Rebaja la edad de responsabilidad penal de menores a doce años y endurece sanciones; norma penal sin asignación a colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000176",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Exige reconocimiento médico anual con pruebas de alcohol y drogas a conductores profesionales; mejora la seguridad vial y obliga al sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000177",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Suprime los impuestos sobre la producción eléctrica y el combustible nuclear gastado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000178",
+  "tipo": "eco",
+  "imp": {
+   "prop3": -1,
+   "prop4": -1,
+   "secCons": -1
+  },
+  "peso": 2,
+  "nota": "Limita a personas físicas la adquisición de viviendas: restringe a promotoras, inmobiliarias y grandes tenedores jurídicos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000179",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Favorece la aportación de la energía nuclear al sistema energético; beneficia al sector nuclear.",
+  "partido": ""
+ },
+ {
+  "id": "122/000180",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce derechos de las personas intersexuales y no binarias.",
+  "partido": ""
+ },
+ {
+  "id": "122/000181",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye del dominio público marítimo-terrestre núcleos costeros tradicionales y bienes de interés cultural; el texto no precisa si los inmuebles son vivienda habitual.",
+  "partido": ""
+ },
+ {
+  "id": "122/000182",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el Estatuto del Ministerio Fiscal en protección de datos; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000183",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el derecho de sufragio activo a mayores de 16 años.",
+  "partido": ""
+ },
+ {
+  "id": "122/000184",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la transparencia del Consejo de Estado; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000185",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Extingue concesiones hidroeléctricas y la Administración asume las plantas; reversión a gestión pública.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000186",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza acceso efectivo a prácticas universitarias curriculares sin contraprestación entre centros; beneficia al estudiantado universitario.",
+  "partido": ""
+ },
+ {
+  "id": "122/000187",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el Tribunal Constitucional sobre acuerdos paccionados; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000188",
+  "tipo": "soc",
+  "imp": {
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza servicios públicos esenciales en municipios rurales pequeños durante emergencias.",
+  "partido": ""
+ },
+ {
+  "id": "122/000189",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza la voluntad de las familias en la escolarización del alumnado con necesidades educativas especiales, incluida la educación especial.",
+  "partido": ""
+ },
+ {
+  "id": "122/000190",
+  "tipo": "eco",
+  "imp": {
+   "prop3": -1,
+   "prop4": -1
+  },
+  "peso": 2,
+  "nota": "Establece medidas fiscales contra la especulación inmobiliaria y la concentración de propiedades.",
+  "partido": ""
+ },
+ {
+  "id": "122/000191",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 2,
+  "nota": "Restringe la regularización de extranjeros mediante el arraigo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000192",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Penaliza coacciones contra el derecho al trabajo; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000193",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "viv2": -1
+  },
+  "peso": 1,
+  "nota": "Restablece el tanteo y retracto del inquilino en ventas conjuntas; restringe al propietario.",
+  "partido": ""
+ },
+ {
+  "id": "122/000194",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Concede una compensación económica a personas celíacas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000195",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga expresamente decretos históricos de Nueva Planta; norma simbólica sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000196",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Rebaja el IRPF por alquilar barato y a jóvenes, grava el alquiler turístico y crea vivienda pública; signos opuestos para el arrendador.",
+  "partido": ""
+ },
+ {
+  "id": "122/000197",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Declara de titularidad pública las redes de distribución eléctrica y fomenta el autoconsumo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000198",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Hace accesible a toda la ciudadanía la información de precios negociada por la Administración con la industria farmacéutica; efecto sobre colectivos no determinable.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000199",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece obligaciones de no reconocimiento ni asistencia a ocupaciones ilegales de territorios; norma de política exterior.",
+  "partido": ""
+ },
+ {
+  "id": "122/000200",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la ley electoral para reforzar la garantía del voto; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000201",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Tipifica como delito las terapias de conversión; es una norma penal que no concede derechos ni ayudas a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000202",
+  "tipo": "soc",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe la acuicultura con pulpos.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000203",
+  "tipo": "soc",
+  "imp": {
+   "hombres": 1,
+   "infancia": 1,
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Impulsa la conciliación y la corresponsabilidad familiar entre mujeres y hombres con hijos o familiares a cargo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000204",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Declara estratégico el sistema alimentario y lo apoya; favorece a la producción primaria y a la industria alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "122/000205",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Declara exentas del IRPF las ayudas a afectados por la talidomida.",
+  "partido": ""
+ },
+ {
+  "id": "122/000206",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000207",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prohíbe contratar con el sector público a empresas implicadas en corrupción; norma de contratación pública.",
+  "partido": "Podemos"
+ },
+ {
+  "id": "122/000208",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime preceptos sobre evolución de la escolarización del alumnado con necesidades especiales; el signo para el alumnado no es determinable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000209",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye a la vía judicial el desamparo de menores y prioriza la familia de origen; signo incierto para los colectivos.",
+  "partido": ""
+ }
 ]

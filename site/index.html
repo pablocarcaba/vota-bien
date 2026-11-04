@@ -681,7 +681,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
         <ul class="flinks" role="list">
           <li><a href="#metodologia">Cómo se calcula</a></li>
           <li><a id="foot-json" href="data/congreso_xv.json" download>Descargar los datos (JSON)</a></li>
-          <li><a href="https://github.com/pablocarcaba/vota-bien/commits/main/data/clasificacion/RUBRICA.md" target="_blank" rel="noopener">Rúbrica v2 · 03/11/2026<span class="sr-only"> (historial de la rúbrica, se abre en una pestaña nueva)</span></a></li>
+          <li><a href="https://github.com/pablocarcaba/vota-bien/commits/main/data/clasificacion/RUBRICA.md" target="_blank" rel="noopener">Rúbrica v3 · 04/11/2026<span class="sr-only"> (historial de la rúbrica, se abre en una pestaña nueva)</span></a></li>
           <li><a id="foot-hist" href="https://github.com/pablocarcaba/vota-bien/commits/main/data/clasificacion" target="_blank" rel="noopener">Historial de cambios<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
         </ul>
       </section>
@@ -1250,7 +1250,7 @@ const REPO = 'https://github.com/pablocarcaba/vota-bien';
 const NUEVA = '<span class="sr-only"> (se abre en una pestaña nueva)</span>';
 const jsonLink = () => `<a href="data/${esc(state.ds)}.json" download="${esc(state.ds)}.json"><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Descargar los datos de esta legislatura (JSON)</a>`;
 const repoLink = (txt, path='') => `<a href="${REPO}${path}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-code"/></svg>${txt}${NUEVA}</a>`;
-const RUBRICA_TXT = 'Rúbrica v2 · 03/11/2026', RUBRICA_HIST = REPO+'/commits/main/data/clasificacion/RUBRICA.md';
+const RUBRICA_TXT = 'Rúbrica v3 · 04/11/2026', RUBRICA_HIST = REPO+'/commits/main/data/clasificacion/RUBRICA.md';
 const histUrl = () => `${REPO}/commits/main/data/clasificacion/${encodeURIComponent(state.ds)}`;
 const histLink = () => `<a href="${histUrl()}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-history"/></svg>Historial de cambios${NUEVA}</a>`;
 // aviso de clasificación: issue de GitHub con la ley y su clasificación actual ya escritas
@@ -1590,16 +1590,16 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
       <li>Una proposición presentada no implica que su autor la impulsara después, ni que se aprobara.</li>
       <li>El alcance de cada iniciativa es una estimación en tres niveles; dentro de cada nivel todas pesan igual.</li>
     </ul>
-    <h3>Clasificación contrastada (piloto, XV)</h3>
-    <p>Para medir cuánto depende la clasificación de quién la hace, las 540 iniciativas de la XV legislatura del Congreso se han clasificado tres veces, de forma independiente y con la misma rúbrica: la clasificación vigente y dos lectores nuevos que no la vieron. Los dos lectores nuevos son modelos de IA del mismo tipo, no personas, así que no sustituyen a una revisión humana. En esta primera pasada clasificaron solo con el título de cada ley; la siguiente usa además el texto oficial publicado en el BOCG.</p>
+    <h3>Clasificación contrastada (XV)</h3>
+    <p>Las 540 iniciativas de la XV legislatura del Congreso se han clasificado <b>tres veces, de forma independiente</b>, con la rúbrica v3 y con el texto oficial de cada ley publicado en el BOCG. Ninguna lectura vio las otras ni la clasificación anterior. La clasificación que usa la web es la <b>mayoría</b>: un colectivo solo cuenta si lo marcan al menos dos de las tres lecturas. Los lectores son modelos de IA del mismo tipo, no personas, así que no sustituyen a una revisión humana.</p>
     <dl class="kpi">
       <div><dt>Lecturas independientes</dt><dd>3</dd></div>
-      <div><dt>Con signo contrario entre lecturas</dt><dd>3 de 540</dd></div>
-      <div><dt>Parecido medio entre los dos lectores nuevos</dt><dd>0,83</dd></div>
-      <div><dt>Parecido medio con la vigente</dt><dd>0,71</dd></div>
+      <div><dt>Con signo contrario entre lecturas</dt><dd>0 de 540</dd></div>
+      <div><dt>Idénticas en las tres lecturas</dt><dd>432 de 540</dd></div>
+      <div><dt>Parecido medio entre lecturas</dt><dd>0,90</dd></div>
     </dl>
-    <p>«Signo contrario» quiere decir que una lectura marca que la ley beneficia a un colectivo y otra que lo perjudica. El parecido va de 0 (ningún colectivo marcado en común) a 1 (los mismos colectivos con el mismo efecto). 255 de las 540 iniciativas coinciden en las tres lecturas; <b>115 casos están en revisión humana</b>. La clasificación vigente no se ha cambiado: cada caso se decide uno a uno.</p>
-    <p class="dlinks">${repoLink('Ver los 115 casos en revisión (GitHub)','/blob/main/data/clasificacion/congreso_xv/doble_lectura/DISCREPANCIAS.md')}</p>
+    <p>«Signo contrario» quiere decir que una lectura marca que la ley beneficia a un colectivo y otra que lo perjudica. El parecido va de 0 (ningún colectivo en común) a 1 (los mismos colectivos con el mismo efecto). En una primera prueba, con la rúbrica anterior y solo con el título de cada ley, el parecido era de 0,83 y había 3 leyes con signo contrario. Las 108 iniciativas en las que las tres lecturas no coinciden del todo pasan a revisión humana.</p>
+    <p class="dlinks">${repoLink('Ver qué cambió en cada ley (GitHub)','/blob/main/data/clasificacion/congreso_xv/lectura_v3/CAMBIOS.md')} ${repoLink('Ver las tres lecturas (GitHub)','/tree/main/data/clasificacion/congreso_xv/lectura_v3')}</p>
     <h3>Prueba de sesgo</h3>
     <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 20 arquetipos (asalariado con hipoteca, pensionista, autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web, en cada legislatura y pestaña, con y sin «Ciudadanía general» y con «Consumidor» activo, como viene por defecto. Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
     <p>«Ciudadanía general» cambia mucho el resultado en el Parlamento Europeo:</p>
@@ -1611,11 +1611,11 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
         <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 48,0 %</td><td>Comuns · 62,4 %</td></tr>
       </tbody>
     </table>
-    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros PNV en el 44,4 % de los perfiles, Junts en el 18,3 % y CC en el 17,0 %. En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
+    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 40,1 % de los perfiles, PNV en el 22,8 % y Compromís en el 18,8 %. En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
     <p><span class="tag-int">Interpretación nuestra</span>Los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.</p>
     <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','/blob/main/data/analisis/SESGO.md')}</p>
     <h3>Versión de la metodología</h3>
-    <p>${RUBRICA_TXT}. Cada cambio de la rúbrica y de la clasificación queda registrado en GitHub. <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
+    <p>${RUBRICA_TXT}. La XV legislatura del Congreso está clasificada con la v3 por tres lecturas independientes; el resto de legislaturas, con la v2, a la espera de reclasificarse igual. Cada cambio de la rúbrica y de la clasificación queda registrado en GitHub. <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
     <p class="small">Datos: ${esc(DATA.meta.fuente_txt)}, datos abiertos (iniciativas y votaciones). Generado el ${esc(DATA.meta.generado)}.</p>
     <p class="dlinks">${jsonLink()}${repoLink('Código y clasificación en GitHub')}</p>
   </div>`;
