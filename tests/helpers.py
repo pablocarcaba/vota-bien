@@ -47,6 +47,9 @@ class TempTree:
         with open(os.path.join(scripts, "legislaturas.py"), "a", encoding="utf-8") as f:
             f.write(FIXTURE_CONFIG)
         os.makedirs(os.path.join(self.root, "site", "data"))
+        # build_page.py incrusta el ámbito territorial de los partidos
+        os.makedirs(os.path.join(self.root, "data"))
+        shutil.copy(os.path.join(REPO, "data", "ambito_partidos.json"), os.path.join(self.root, "data"))
 
     def path(self, *parts):
         return os.path.join(self.root, *parts)

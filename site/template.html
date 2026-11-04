@@ -287,6 +287,16 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .chk.ciu{color:var(--ink);font-weight:600;align-items:flex-start;margin-bottom:8px;padding:12px 14px;border-radius:14px;background:var(--soft)}
 .chk.ciu small{display:block;font-weight:400;color:var(--muted)}
 .chk.ciu input{margin-top:3px;flex:none}
+.donde{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:6px 12px;margin:6px 0 12px;padding:10px 14px;border:1px solid var(--line);border-radius:14px;background:var(--sheet)}
+.donde label{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;color:var(--ink)}
+.donde label .ico{width:17px;height:17px;color:var(--accent)}
+.donde select,.psel select{font:inherit;font-size:15px;font-weight:600;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:9px 12px;min-height:44px;width:100%;max-width:340px;min-width:0}
+.donde select:disabled{cursor:not-allowed;color:var(--muted);border-style:dashed}
+.donde .dnote{grid-column:1/-1;margin:0;font-size:13px;color:var(--muted)}
+@media (max-width:480px){.donde{grid-template-columns:minmax(0,1fr)}.donde select{max-width:none}}
+.psel select{max-width:380px}
+.amb-n{flex-basis:100%;display:flex;align-items:flex-start;gap:5px;font-size:12.5px;line-height:1.4;color:var(--muted);margin-top:2px}
+.amb-n .ico{width:14px;height:14px;flex:none;margin-top:1px}
 .rank-empty{display:grid;gap:8px;justify-items:start;padding:26px;border:2px dashed var(--line);border-radius:18px;color:var(--muted)}
 .rank-empty .ico{width:30px;height:30px;color:var(--accent)}
 .rank-empty b{font-family:var(--display);font-size:21px;color:var(--ink);letter-spacing:-.015em}
@@ -383,6 +393,8 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .votes{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
 .vv{font-family:var(--mono);font-size:12px;padding:2px 8px;border-radius:6px;border:1px solid var(--line)}
 .vv.s{color:var(--pos-ink);background:var(--pos-soft);border-color:transparent}.vv.n{color:var(--neg-ink);background:var(--neg-soft);border-color:transparent}.vv.a{color:var(--muted)}
+.vv.fuera{color:var(--muted);background:transparent;border:1px dashed color-mix(in srgb,var(--muted) 45%,transparent)}
+.vv.fuera small{font-family:var(--body);font-size:11.5px}
 @media (max-width:560px){.item{grid-template-columns:5px minmax(0,1fr);padding-right:14px}.item .side{grid-column:2;align-items:flex-start;text-align:left;flex-direction:row;flex-wrap:wrap}}
 /* metodología */
 .prose{max-width:72ch;background:var(--sheet);border:1px solid var(--line);border-radius:24px;padding:clamp(20px,4vw,40px);box-shadow:var(--shadow)}
@@ -562,6 +574,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
   <symbol id="i-vote" viewBox="0 0 24 24"><path d="m9 11 2 2 4-4"/><path d="M5 7h14l2 6v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-6z"/><path d="M3 13h18"/></symbol>
   <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
   <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
   <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M12 5v14m0 0-6-6m6 6 6-6"/></symbol>
   <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14M15 5v14"/></symbol>
@@ -712,10 +725,17 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
 </div>
 
 <script id="catalogo" type="application/json">__CATALOGO__</script>
+<script id="ambitos" type="application/json">__AMBITOS__</script>
 <script>
 (function(){
 // Catálogo de datasets (fuente + legislatura). Cada uno tiene sus propios partidos: nunca se mezclan.
 const CATALOGO = JSON.parse(document.getElementById('catalogo').textContent);
+// dónde se puede votar a cada partido en las generales (data/ambito_partidos.json): solo filtra filas del ranking, nunca la nota
+const AMB = JSON.parse(document.getElementById('ambitos').textContent);
+const COM_OF = {}; Object.entries(AMB.comunidades).forEach(([c,x])=>x.provincias.forEach(p=>COM_OF[p]=c));
+const byEs = (a,b) => a.localeCompare(b,'es',{sensitivity:'base'});
+const COMS = Object.values(AMB.comunidades).map(c=>({nombre:c.nombre, provs:[...c.provincias].sort((a,b)=>byEs(AMB.provincias[a],AMB.provincias[b]))})).sort((a,b)=>byEs(a.nombre,b.nombre));
+const AVISADOS = new Set();
 let DATA = null, ITEMS = [], PARTIES = [], AUTHORS = [];
 const CACHE = {};
 // Perfil único (las pestañas solo filtran los resultados). Los ids son colectivos de la rúbrica,
@@ -784,7 +804,9 @@ const PASOS = [
     {id:'donde', name:'¿Dónde vives?', req:true, ui:[['vdPropia','En casa propia','Vivo en casa propia'],['vdAlq','De alquiler','Vivo de alquiler'],['vdFam','Con mi familia u otra situación','Vivo con mi familia u otra situación']]},
     {id:'nviv', name:'¿Cuántas viviendas tienes en propiedad, en total?', req:true, ui:[['nv0','Ninguna','Ninguna vivienda en propiedad'],['nv1','1','1 vivienda en propiedad'],['nv2','2 o más','2 o más viviendas en propiedad']], off:k=>k==='nv0'&&tiene('vdPropia')?'Vives en una propia':''},
     {id:'hip', name:'¿Tienes hipoteca?', req:true, ui:[['hipSi','Sí','Con hipoteca'],['hipNo','No','Sin hipoteca']], si:()=>tiene('nv1')||tiene('nv2')},
-    {id:'prop', cat:'prop', req:true}]},
+    {id:'prop', cat:'prop', req:true},
+    // no es un colectivo: no entra en state.sel ni en la nota, solo filtra el ranking (state.prov)
+    {id:'prov', name:'¿En qué provincia votas?', sel:true}]},
   {t:'Tu situación', d:'Opcional: marca lo que te describa ahora mismo, o «Ninguna me describe».', q:[
     {id:'soc', cat:'soc', none:'socNo', ui:[['socNo','Ninguna me describe','Ninguna situación personal']]}]}
 ];
@@ -806,7 +828,7 @@ const pn = p => PNAME[p]||p;
 const COLOR_TXT = {pos:'Beneficia', neg:'Perjudica', mix:'Mixta', neu:'Sin efecto en tu perfil'};
 const VOTE_TXT = {s:'Sí', n:'No', a:'Abst.'};
 
-const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null, hideFew:false, anim:true, pasos:{ui:new Set(), done:new Set(), cur:0}};
+const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null, hideFew:false, prov:'', anim:true, pasos:{ui:new Set(), done:new Set(), cur:0}};
 // línea de ayuda de cada categoría: a quién le toca y qué marcar
 const CAT_NOTE = {
   edad:'Tu tramo de edad actual. Solo uno.',
@@ -825,12 +847,19 @@ const CAT_NOTE = {
   des:'Lo que cobras ahora mismo.',
   nviv:'Cuenta la tuya si es propia.',
   prop:'Ahorros, inversiones, acciones u otros inmuebles, sin contar tu casa. «Menos de 200.000 €» incluye no tener nada.',
-  soc:'Puedes marcar varias.'
+  soc:'Puedes marcar varias.',
+  prov:'Solo para filtrar partidos: el ranking te enseñará los que se presentan donde votas. No es un rasgo de tu perfil y no cambia ninguna nota.'
 };
 // veredicto en palabras para el saldo de un partido
 // habla de los votos, no del partido
 const veredicto = (s,n) => { const muy = n>=5; return s>=50&&muy?['pos','Sus votos te favorecieron mucho']:s>=15?['pos','Te favorecieron']:s>-15?['neu','Ni a favor ni en contra']:s>-50||!muy?['neg','Te perjudicaron']:['neg','Te perjudicaron mucho']; };
 try{ state.hideFew = localStorage.getItem('ocultarPocos')==='1'; }catch(e){}
+// provincia: la del enlace (&prov=08) y, si no trae, la recordada en este navegador. Solo códigos del mapa
+try{
+  const v = new URLSearchParams(location.search).get('prov');
+  if(v!==null){ if(AMB.provincias[v]) state.prov=v; }
+  else { const g=localStorage.getItem('provincia'); if(g && AMB.provincias[g]) state.prov=g; }
+}catch(e){}
 try{ const d=new URLSearchParams(location.search).get('ds'); if(CATALOGO.some(c=>c.clave===d)) state.ds=d; }catch(e){}
 // enlaces directos: ?partido=<clave> abre su ficha (se valida contra los partidos del dataset al cargarlo) y ?t=soc la pestaña
 let DEEP = null;
@@ -915,8 +944,32 @@ function computeRank(){
   }).filter(r=>r.rel>0).sort((a,b)=>b.s-a.s || b.rel-a.rel);
 }
 // filas visibles del ranking con su puesto (misma nota, mismo puesto)
+// filtro «Dónde votas»: en las europeas no se aplica (circunscripción única); sin ámbito en el mapa, el partido se muestra
+const europeas = () => !!DATA && DATA.meta.formato==='europarlamento';
+const filtraProv = () => !!state.prov && !europeas();
+const provName = () => AMB.provincias[state.prov] || '';
+function seVota(p){
+  if(!filtraProv()) return true;
+  const a = AMB.partidos[p];
+  if(a===undefined || a==='espana') return true;
+  return a.includes(state.prov) || a.includes(COM_OF[state.prov]);
+}
+function setProv(v){
+  state.prov = AMB.provincias[v] ? v : '';
+  try{ if(state.prov) localStorage.setItem('provincia', state.prov); else localStorage.removeItem('provincia'); }catch(e){}
+  try{ const q=new URLSearchParams(location.search); if(state.prov) q.set('prov',state.prov); else q.delete('prov'); const t=q.toString().replace(/%2C/g,','); history.replaceState(null,'',location.pathname+(t?'?'+t:'')+location.hash); }catch(e){}
+  state.anim=true; render();
+}
+// selector de provincia agrupado por comunidad (orden alfabético); el mismo estado en el paso 3 y junto al ranking
+function provSelect(dk, attrs, val){
+  const s = el('select',{'data-k':dk, ...attrs});
+  s.appendChild(new Option('Toda España (todos los partidos)','',false,!val));
+  COMS.forEach(c=>{ const g=el('optgroup',{label:c.nombre}); c.provs.forEach(p=>g.appendChild(new Option(AMB.provincias[p],p,false,p===val))); s.appendChild(g); });
+  s.addEventListener('change',()=>setProv(s.value));
+  return s;
+}
 function ranked(){
-  const all = computeRank(), rows = state.hideFew ? all.filter(x=>x.rel>=3) : all;
+  const all = computeRank(), rows = all.filter(x=>(!state.hideFew || x.rel>=3) && seVota(x.k));
   let puesto = 0;
   rows.forEach((x,i)=>{ if(i===0 || x.s!==rows[i-1].s) puesto = i+1; x.puesto = puesto; x.empate = rows.some((y,j)=>j!==i && y.s===x.s); });
   return {all, rows};
@@ -956,7 +1009,7 @@ function renderProfile(){
 }
 function copyLink(){
   const base = location.origin && location.origin!=='null' ? location.origin+location.pathname : '';
-  const url = base + '?p=' + [...state.sel].filter(esPerfil).join(',') + '&u=' + [...state.pasos.ui].join(',') + (state.sel.has('ciud')?'':'&c=0') + (state.sel.has('cons')?'':'&co=0') + (state.ds!==CATALOGO[0].clave?'&ds='+state.ds:'');
+  const url = base + '?p=' + [...state.sel].filter(esPerfil).join(',') + '&u=' + [...state.pasos.ui].join(',') + (state.sel.has('ciud')?'':'&c=0') + (state.sel.has('cons')?'':'&co=0') + (state.ds!==CATALOGO[0].clave?'&ds='+state.ds:'') + (state.prov?'&prov='+state.prov:'');
   copyUrl($('copy-btn'), url, 'Compartir mi perfil');
 }
 // copia un enlace y lo confirma en el propio botón; si el portapapeles falla, enseña la URL
@@ -974,6 +1027,7 @@ function shareUrl(who, ley){
   if(!state.sel.has('cons')) q.push('co=0');
   if(state.ds!==CATALOGO[0].clave) q.push('ds='+encodeURIComponent(state.ds));
   if(state.tab!=='eco') q.push('t='+state.tab);
+  if(state.prov) q.push('prov='+state.prov);
   if(who && PARTIES.includes(who)) q.push('partido='+encodeURIComponent(who));
   return base+(q.length?'?'+q.join('&'):'')+(ley?'#ley='+encodeURIComponent(ley):'#lista');
 }
@@ -1065,6 +1119,7 @@ function verResultado(){ $('rank-sec').scrollIntoView({behavior:smooth,block:'st
 function resumen(i){
   const out=[];
   PASOS[i].q.filter(visible).forEach(q=>qOpts(q).forEach(k=>{ if(UI_TXT[k]){ if(tiene(k)) out.push(UI_TXT[k]); } else if(state.sel.has(k)) out.push(LABEL[k]); }));
+  if(state.prov && PASOS[i].q.some(q=>q.sel)) out.push('Votas en '+provName());
   return out;
 }
 function renderFilters(){
@@ -1096,7 +1151,11 @@ function renderFilters(){
       qs.filter(visible).forEach(q=>{
         const box=el('div',{class:'cat'+(q.si?' cond':'')});
         box.appendChild(el('h4',{id:'cat-'+q.id}, esc(qName(q))+(q.req?'':' <span class="qopt">opcional</span>')));
-        if(CAT_NOTE[q.id]) box.appendChild(el('p',{class:'cnote',id:'cn-'+q.id},esc(CAT_NOTE[q.id])));
+        if(CAT_NOTE[q.id]) box.appendChild(el('p',{class:'cnote',id:'cn-'+q.id},esc(CAT_NOTE[q.id]+(q.sel&&europeas()?' En las europeas no se aplica: España es una circunscripción única.':''))));
+        if(q.sel){
+          const w=el('div',{class:'psel'}); w.appendChild(provSelect('prov-paso',{'aria-labelledby':'cat-'+q.id,'aria-describedby':'cn-'+q.id}, state.prov));
+          box.appendChild(w); card.appendChild(box); return;
+        }
         const solo=qSolo(q);
         const o=el('div',{class:'opts'+(solo?' solo':''),role:solo?'radiogroup':'group','aria-labelledby':'cat-'+q.id,...(CAT_NOTE[q.id]?{'aria-describedby':'cn-'+q.id}:{})});
         const all=[...(q.cat?CATBY[q.cat].opts.map(([k,v])=>({k,v,dk:k,on:state.sel.has(k)})):[]), ...(q.ui||[]).map(([k,v])=>({k,v,dk:'ui-'+k,on:tiene(k),no:k===q.none}))];
@@ -1170,8 +1229,14 @@ function renderRank(){
   cb.addEventListener('change',()=>{ state.hideFew=cb.checked; try{ localStorage.setItem('ocultarPocos', cb.checked?'1':'0'); }catch(e){} keepFocus(renderRank); });
   chk.appendChild(cb); chk.appendChild(document.createTextNode(' Ocultar partidos con menos de 3 leyes que te afecten'));
   r.appendChild(chk);
+  r.appendChild(dondeEl());
   r.appendChild(top5());
-  if(!rows.length){ mb.hidden=true; r.appendChild(el('div',{class:'empty'}, all.length ? (all.length===1 ? 'El único partido con iniciativas que te afectan tiene menos de 3: desmarca la casilla para verlo.' : `Los ${all.length} partidos con iniciativas que te afectan tienen menos de 3: desmarca la casilla para verlos.`) : 'Ninguna ley de esta pestaña afecta a tu perfil. Prueba con la otra pestaña o marca más rasgos.')); return; }
+  // ocultos por cada filtro, sobre los partidos con nota (como «pocos datos»)
+  const fuera = all.filter(x=>!seVota(x.k)).length, nAqui = all.length-fuera;
+  const pocos = state.hideFew ? all.filter(x=>seVota(x.k) && x.rel<3).length : 0;
+  if(!rows.length){ mb.hidden=true; r.appendChild(el('div',{class:'empty'}, !all.length ? 'Ninguna ley de esta pestaña afecta a tu perfil. Prueba con la otra pestaña o marca más rasgos.'
+    : !nAqui ? `Ninguno de los partidos con leyes que te afectan se presenta en ${esc(provName())}. Elige «Toda España» en «Dónde votas» para verlos.`
+    : nAqui===1 ? 'El único partido con iniciativas que te afectan tiene menos de 3: desmarca la casilla para verlo.' : `Los ${nAqui} partidos con iniciativas que te afectan tienen menos de 3: desmarca la casilla para verlos.`)); return; }
   r.classList.toggle('anim', state.anim); state.anim=false;
   r.appendChild(el('div',{class:'scale','aria-hidden':'true'},'<span>← −100<span class="w"> En tu contra</span></span><span>0</span><span>+100<span class="w"> A tu favor</span> →</span>'));
   // puesto con empates: misma nota, mismo puesto (ranked())
@@ -1181,14 +1246,28 @@ function renderRank(){
     const bar = x.s>=0 ? `<span class="p" style="width:${w}%"></span>` : `<span class="n" style="width:${w}%"></span>`;
     const det = `${cuenta(x.pos,x,'pos','a tu favor')} · ${cuenta(x.neg,x,'neg','en tu contra')}${x.mix?` · ${x.mix} mixta${x.mix>1?'s':''}`:''}${x.pres?` · ${x.pres} solo presentada${x.pres>1?'s':''}`:''}`;
     const few = x.rel<3 ? '<span class="few-tag">pocos datos</span>' : '';
-    r.appendChild(el('button',{class:'rrow','aria-label':`${puesto}.º${empate?' empatado':''} ${pn(x.k)}: ${vt.toLowerCase()}, nota ${x.s}${x.rel<3?', pocos datos':''}. ${det}. Ver ley a ley`,onclick:()=>openList(x.k,null)},
-      `<span class="pos">${puesto}${empate?'=':''}</span><span class="who"><span class="nm">${esc(pn(x.k))}</span><span class="vd v-${vc}">${vt}</span>${few}</span><span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="dv">${bar}</span><span class="det">${det} · <span class="go">Ver ley a ley ›</span></span>`));
+    // matiz del mapa de ámbitos (dónde no se presenta igual), solo con el filtro activo
+    const nota = filtraProv() && AMB.notas[x.k] ? AMB.notas[x.k] : '';
+    const amb = nota ? `<span class="amb-n"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>${esc(nota)}</span>` : '';
+    r.appendChild(el('button',{class:'rrow','aria-label':`${puesto}.º${empate?' empatado':''} ${pn(x.k)}: ${vt.toLowerCase()}, nota ${x.s}${x.rel<3?', pocos datos':''}. ${det}.${nota?' Aviso: '+nota:''} Ver ley a ley`,onclick:()=>openList(x.k,null)},
+      `<span class="pos">${puesto}${empate?'=':''}</span><span class="who"><span class="nm">${esc(pn(x.k))}</span><span class="vd v-${vc}">${vt}</span>${few}${amb}</span><span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="dv">${bar}</span><span class="det">${det} · <span class="go">Ver ley a ley ›</span></span>`));
   });
   mb.hidden=false;
   mb.innerHTML = `<span>Tu ranking está listo<br><b>${rows.length} partidos comparados</b></span><span class="go">Verlo ↓</span>`;
-  const ocultos = all.length-rows.length;
-  r.appendChild(el('p',{class:'note'}, state.hideFew ? (ocultos?`${ocultos} partido${ocultos>1?'s':''} oculto${ocultos>1?'s':''} por tener menos de 3 iniciativas que te afecten.`:'Ningún partido oculto.') : '«Pocos datos»: menos de 3 leyes que te afecten. Tómalo con cautela.'));
+  const notaProv = !filtraProv() ? '' : fuera ? ` <b>${fuera} partido${fuera>1?'s':''} oculto${fuera>1?'s':''} porque no se presenta${fuera>1?'n':''} en ${esc(provName())}.</b>` : ` Todos los partidos con leyes que te afectan se presentan en ${esc(provName())}.`;
+  r.appendChild(el('p',{class:'note'}, (state.hideFew ? (pocos?`${pocos} partido${pocos>1?'s':''} oculto${pocos>1?'s':''} por tener menos de 3 iniciativas que te afecten.`:fuera?'Ningún partido oculto por tener pocos datos.':'Ningún partido oculto.') : '«Pocos datos»: menos de 3 leyes que te afecten. Tómalo con cautela.') + notaProv));
   r.appendChild(el('button',{class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las leyes de la legislatura, una a una →'));
+}
+// «Dónde votas»: filtra el ranking a los partidos que se presentan en tu provincia. En las europeas, deshabilitado y explicado
+function dondeEl(){
+  const eu = europeas(), w = el('div',{class:'donde'+(eu?' off':'')});
+  w.appendChild(el('label',{for:'prov-sel'},'<svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>Dónde votas'));
+  const s = provSelect('prov-sel',{id:'prov-sel','aria-describedby':'prov-d'}, eu?'':state.prov);
+  if(eu) s.disabled = true;
+  w.appendChild(s);
+  w.appendChild(el('p',{class:'dnote',id:'prov-d'}, eu ? 'En las elecciones europeas España es una circunscripción única: puedes votar a cualquier lista desde cualquier lugar.'
+    : state.prov ? `Ves solo los partidos a los que puedes votar en ${esc(provName())}. No cambia ninguna nota.` : 'Elige tu provincia para ver solo los partidos a los que puedes votar desde ahí. No cambia ninguna nota.'));
+  return w;
 }
 // estado de espera del resultado: en qué paso vas, con una mini barra de progreso
 function espera(){
@@ -1217,7 +1296,9 @@ function top5(){
   d.addEventListener('toggle',()=>{ state.t5Open=d.open; });
   d.appendChild(el('summary',{'data-k':'top5-s'}, `<span class="gi" aria-hidden="true"><svg class="ico"><use href="#i-star"/></svg></span><span class="gt">${L.length===1?'La ley que más te afecta':`Las ${L.length} leyes que más te afectan`}<small>${state.tab==='eco'?'Económicas':'Sociales'} · de mayor a menor alcance · pulsa para verlas</small></span><span class="chev" aria-hidden="true"></span>`));
   const ol=el('ol',{role:'list'});
-  const alfa = [...PARTIES].sort((a,b)=>pn(a).localeCompare(pn(b),'es',{sensitivity:'base'}));
+  // con «Dónde votas», los que no se presentan allí van al final y atenuados; el voto se enseña igual (dato oficial)
+  const fuera = filtraProv() ? p=>!seVota(p) : null;
+  const alfa = [...PARTIES].sort((a,b)=>(fuera?fuera(a)-fuera(b):0) || pn(a).localeCompare(pn(b),'es',{sensitivity:'base'}));
   if(!state.t5Exp) state.t5Exp = new Set();
   L.forEach(it=>{
     const c=impactOf(it), li=el('li');
@@ -1226,7 +1307,7 @@ function top5(){
     if(it.v){
       const id='t5v-'+it.id.replace(/[^\w-]/g,'_'), open=state.t5Exp.has(it.id);
       const b=el('button',{type:'button',class:'linkbtn t5b','data-k':'t5-'+it.id,'aria-expanded':String(open),'aria-controls':id},'Ver cómo votó cada partido');
-      const vs=votesEl(it, alfa); vs.id=id; vs.hidden=!open;
+      const vs=votesEl(it, alfa, fuera); vs.id=id; vs.hidden=!open;
       b.addEventListener('click',()=>{ const o=b.getAttribute('aria-expanded')!=='true'; b.setAttribute('aria-expanded',String(o)); vs.hidden=!o; if(o) state.t5Exp.add(it.id); else state.t5Exp.delete(it.id); });
       li.appendChild(b); li.appendChild(vs);
     } else li.appendChild(el('p',{class:'t5n'}, 'No llegó a votarse en el Pleno.'));
@@ -1262,11 +1343,13 @@ function issueUrl(it){
   return `${REPO}/issues/new?title=${encodeURIComponent('Clasificación: '+it.id+' '+t)}&body=${encodeURIComponent(body)}`;
 }
 // píldoras con el voto de cada partido (dato oficial), en el orden que se pida
-function votesEl(it, parties){
+// «fuera» (opcional): partidos que no se presentan en tu provincia, atenuados y etiquetados
+function votesEl(it, parties, fuera){
   const vs=el('div',{class:'votes',title:it.vk+' · '+it.vd});
   const vkTxt = it.vk==='Enmienda a la totalidad' ? 'Postura ante la ley (deducida de la enmienda a la totalidad: votar sí a la enmienda es estar en contra de la ley)' : it.vk;
   vs.appendChild(el('span',{class:'vv',style:'border:none;padding-left:0;color:var(--muted)'}, esc(vkTxt)+':'));
-  parties.forEach(p=>{ if(it.v[p]) vs.appendChild(el('span',{class:'vv '+it.v[p]}, `${esc(pn(p))} ${VOTE_TXT[it.v[p]]}`)); });
+  parties.forEach(p=>{ if(!it.v[p]) return; const f=fuera&&fuera(p);
+    vs.appendChild(el('span',{class:'vv '+it.v[p]+(f?' fuera':'')}, `${esc(pn(p))} ${VOTE_TXT[it.v[p]]}${f?`<small> · no se presenta en ${esc(provName())}</small>`:''}`)); });
   return vs;
 }
 const VK_FRASE = {'Votación final':'la votación final', 'Convalidación':'la convalidación', 'Toma en consideración':'la toma en consideración'};
@@ -1438,7 +1521,7 @@ function renderList(){
       const [vc,vt] = veredicto(x.s, x.rel), w = Math.abs(x.s)/2;
       const bar = x.s>=0 ? `<span class="p" style="width:${w}%"></span>` : `<span class="n" style="width:${w}%"></span>`;
       head.appendChild(el('div',{class:'lscore'}, `<span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="ls-t">${x.puesto}.º${x.empate?' (empatado)':''} de ${rows.length} <span>· ${tab} · ${esc(vt)}</span></span><span class="dv" aria-hidden="true">${bar}</span>`));
-    } else head.appendChild(el('p',{class:'lsub'}, ranked().all.some(r=>r.k===L.who) ? `Oculto en tu ranking de ${tab.toLowerCase()}: tiene menos de 3 leyes que te afecten.` : `Sin nota en ${tab.toLowerCase()}: ninguna ley de esta pestaña que te afecte cuenta en su saldo.`));
+    } else head.appendChild(el('p',{class:'lsub'}, !seVota(L.who) && ranked().all.some(r=>r.k===L.who) ? `Oculto en tu ranking de ${tab.toLowerCase()}: no se presenta en ${esc(provName())}. Aquí ves igualmente cómo votó.` : ranked().all.some(r=>r.k===L.who) ? `Oculto en tu ranking de ${tab.toLowerCase()}: tiene menos de 3 leyes que te afecten.` : `Sin nota en ${tab.toLowerCase()}: ninguna ley de esta pestaña que te afecte cuenta en su saldo.`));
     // el desglose sale aunque el partido esté oculto por «pocos datos»
     const xc = x || ranked().all.find(r=>r.k===L.who);
     head.appendChild(shareFicha(L.who));
@@ -1581,6 +1664,10 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>Para cada partido se toman las iniciativas que afectan a tu perfil y se cuenta cada una una sola vez, según la mejor prueba que haya de su postura. Lo que más pesa es cómo votó: votar el texto final o la convalidación de un real decreto-ley cuenta 1; la toma en consideración o una enmienda a la totalidad, 0,5, porque solo decide si se debate. Las iniciativas que el partido presentó pero no llegó a votar en el Pleno cuentan 0,25: presentar una ley cuesta poco y no siempre busca aprobarla. Las abstenciones no cuentan.</p>
     <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. Al total se le suman 9 puntos neutros de prudencia, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema: el saldo es (a favor − en contra) ÷ (total + 9) × 100, de −100 a +100. Con muchas leyes la prudencia apenas cuenta; con pocas, acerca la nota a 0. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ (12 + 9) × 100 = +29. Sin la prudencia saldría +50.</p>
     <p>${DATA.meta.formato==='europarlamento' ? 'La Comisión Europea no aparece en el ranking: sus propuestas cuentan a través de cómo las votó cada partido.' : 'El Gobierno no aparece en el ranking: sus proyectos de ley y reales decretos-ley cuentan a través de cómo los votó cada partido.'}</p>
+    <p>${DATA.meta.formato==='europarlamento' ? 'Junto al ranking puedes elegir «Dónde votas» en las legislaturas del Congreso. En las elecciones europeas no se aplica: España es una circunscripción única y puedes votar a cualquier lista desde cualquier lugar.'
+      : 'Con «Dónde votas», junto al ranking, ves solo los partidos a los que se puede votar en tu provincia: los de ámbito estatal y los que se presentan en tu provincia o en tu comunidad. El filtro solo oculta filas, como «Ocultar partidos con menos de 3 leyes»: no cambia la nota de nadie, y los puestos se cuentan de nuevo entre los partidos que quedan. Un partido que no esté en el mapa se muestra siempre.'}
+      <span class="tag-int">Asignación nuestra</span>Dónde se presenta cada partido no es un dato del ${srcName()}: ${esc(AMB.criterio || 'es el ámbito en el que se presenta habitualmente a las elecciones generales.')}</p>
+    <p class="dlinks">${repoLink('Ver dónde se presenta cada partido (GitHub)','/blob/main/data/ambito_partidos.json')}</p>
     <h3>Cómo se colorea</h3>
     <p>Verde si la iniciativa beneficia a algún rasgo de tu perfil y no perjudica a ninguno; rojo si perjudica sin beneficiar; ámbar si hace ambas cosas; gris si no afecta a tu perfil. En las votaciones, verde es votar sí a lo que te beneficia o no a lo que te perjudica; rojo, lo contrario; la abstención va en gris.</p>
     <h3>Limitaciones</h3>
@@ -1672,7 +1759,7 @@ function anunciar(){
   anuncioT=setTimeout(()=>{
     if($('view-panel').hidden || !terminado()) return;
     const n=document.querySelectorAll('#rank .rrow').length;
-    $('live').textContent = n ? 'Resultado actualizado: '+n+' partidos comparados.' : (propio()?'Ninguna iniciativa afecta a tu perfil.':'');
+    $('live').textContent = n ? 'Resultado actualizado: '+n+' partidos comparados'+(filtraProv()?' que se presentan en '+provName():'')+'.' : (propio()?'Ninguna iniciativa afecta a tu perfil.':'');
   },500);
 }
 
@@ -1713,6 +1800,8 @@ async function load(clave){
     return;
   }
   DATA=CACHE[clave]; ITEMS=DATA.items; PARTIES=DATA.meta.parties; AUTHORS=DATA.meta.authors;
+  // un partido sin ámbito en el mapa se muestra siempre; se avisa una vez para completar data/ambito_partidos.json
+  if(!europeas()) PARTIES.forEach(p=>{ if(AMB.partidos[p]===undefined && !AVISADOS.has(p)){ AVISADOS.add(p); console.warn('ambito_partidos.json: «'+p+'» no tiene ámbito; se muestra siempre en el ranking.'); } });
   const corto = (DATA.meta.formato==='europarlamento'?'Parlamento Europeo':'Congreso')+' · '+(DATA.meta.titulo.split(' · ')[1]||DATA.meta.titulo);
   $('eyebrow').innerHTML = `<span class="eb-l">${esc(DATA.meta.fuente_txt+' · '+DATA.meta.titulo)}</span><span class="eb-s">${esc(corto)}</span>`;
   $('gen').textContent = DATA.meta.generado.split('-').reverse().join('/');

@@ -1,0 +1,60 @@
+{
+  "descripcion": "Dónde se puede votar a cada partido en las elecciones generales (circunscripción = provincia; Ceuta y Melilla). Los partidos de ámbito estatal figuran como «espana»; los regionales, con las comunidades o provincias en las que se presentan habitualmente. En el Parlamento Europeo España es circunscripción única: cualquier lista se puede votar desde cualquier lugar, así que este mapa no se aplica. Los nombres son las claves de partido de site/data/<clave>.json.",
+  "criterio": "Ámbito en el que el partido se presenta habitualmente a las generales con su propia marca o dentro de la coalición con la que obtuvo representación en esa legislatura. Para los estatales que no se presentan en todas las provincias se indica en «notas».",
+  "comunidades": {
+    "AND": {"nombre": "Andalucía", "provincias": ["04", "11", "14", "18", "21", "23", "29", "41"]},
+    "ARA": {"nombre": "Aragón", "provincias": ["22", "44", "50"]},
+    "AST": {"nombre": "Asturias", "provincias": ["33"]},
+    "BAL": {"nombre": "Illes Balears", "provincias": ["07"]},
+    "CAN": {"nombre": "Canarias", "provincias": ["35", "38"]},
+    "CTB": {"nombre": "Cantabria", "provincias": ["39"]},
+    "CLM": {"nombre": "Castilla-La Mancha", "provincias": ["02", "13", "16", "19", "45"]},
+    "CYL": {"nombre": "Castilla y León", "provincias": ["05", "09", "24", "34", "37", "40", "42", "47", "49"]},
+    "CAT": {"nombre": "Cataluña", "provincias": ["08", "17", "25", "43"]},
+    "VAL": {"nombre": "Comunitat Valenciana", "provincias": ["03", "12", "46"]},
+    "EXT": {"nombre": "Extremadura", "provincias": ["06", "10"]},
+    "GAL": {"nombre": "Galicia", "provincias": ["15", "27", "32", "36"]},
+    "MAD": {"nombre": "Comunidad de Madrid", "provincias": ["28"]},
+    "MUR": {"nombre": "Región de Murcia", "provincias": ["30"]},
+    "NAV": {"nombre": "Navarra", "provincias": ["31"]},
+    "PVA": {"nombre": "País Vasco", "provincias": ["01", "20", "48"]},
+    "RIO": {"nombre": "La Rioja", "provincias": ["26"]},
+    "CEU": {"nombre": "Ceuta", "provincias": ["51"]},
+    "MEL": {"nombre": "Melilla", "provincias": ["52"]}
+  },
+  "provincias": {
+    "01": "Araba/Álava", "02": "Albacete", "03": "Alicante/Alacant", "04": "Almería", "05": "Ávila", "06": "Badajoz",
+    "07": "Illes Balears", "08": "Barcelona", "09": "Burgos", "10": "Cáceres", "11": "Cádiz", "12": "Castellón/Castelló",
+    "13": "Ciudad Real", "14": "Córdoba", "15": "A Coruña", "16": "Cuenca", "17": "Girona", "18": "Granada",
+    "19": "Guadalajara", "20": "Gipuzkoa", "21": "Huelva", "22": "Huesca", "23": "Jaén", "24": "León", "25": "Lleida",
+    "26": "La Rioja", "27": "Lugo", "28": "Madrid", "29": "Málaga", "30": "Murcia", "31": "Navarra", "32": "Ourense",
+    "33": "Asturias", "34": "Palencia", "35": "Las Palmas", "36": "Pontevedra", "37": "Salamanca",
+    "38": "Santa Cruz de Tenerife", "39": "Cantabria", "40": "Segovia", "41": "Sevilla", "42": "Soria", "43": "Tarragona",
+    "44": "Teruel", "45": "Toledo", "46": "Valencia/València", "47": "Valladolid", "48": "Bizkaia", "49": "Zamora",
+    "50": "Zaragoza", "51": "Ceuta", "52": "Melilla"
+  },
+  "partidos": {
+    "PSOE": "espana", "PP": "espana", "VOX": "espana", "Sumar": "espana", "Podemos": "espana",
+    "Unidas Podemos": "espana", "Unidos Podemos": "espana", "Cs": "espana", "UPyD": "espana", "IU": "espana",
+    "IU-ICV": "espana", "Más País": "espana",
+    "ERC": ["CAT"], "Junts": ["CAT"], "JxCat": ["CAT"], "PDeCAT": ["CAT"], "CiU": ["CAT"], "DL": ["CAT"], "CUP": ["CAT"],
+    "PNV": ["PVA"], "Bildu": ["PVA", "NAV"], "Amaiur": ["PVA", "NAV"],
+    "UPN": ["NAV"], "NA+": ["NAV"], "Geroa Bai": ["NAV"],
+    "BNG": ["GAL"],
+    "CC": ["CAN"], "NC": ["CAN"],
+    "Compromís": ["VAL"],
+    "PRC": ["CTB"],
+    "Foro": ["AST"],
+    "Teruel Existe": ["44"]
+  },
+  "notas": {
+    "Más País": "En 2019 se presentó solo en algunas provincias (en la Comunitat Valenciana, con Compromís).",
+    "UPyD": "Se presentó en casi todas las provincias, no en todas.",
+    "Cs": "En algunas elecciones no se presentó en todas las provincias.",
+    "Sumar": "En Cataluña concurre como Sumar Catalunya (Comuns) y en otras comunidades en coalición con partidos regionales.",
+    "Podemos": "En la XV se presentó dentro de Sumar; en otras elecciones, con marca propia o en coalición.",
+    "Compromís": "En la XV fue dentro de Sumar en la Comunitat Valenciana.",
+    "NC": "En algunas elecciones concurrió en coalición con Coalición Canaria o con el PSOE.",
+    "Foro": "En 2016 concurrió en coalición con el PP en Asturias."
+  }
+}

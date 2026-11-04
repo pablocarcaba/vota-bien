@@ -70,7 +70,7 @@ Esa misma línea aparece en la ficha del partido, junto a todas las demás, y la
 
 - Lo que marcas se calcula en tu navegador. No se envía a ningún servidor, no hay registro, ni cookies, ni analítica.
 - La web es HTML estático en GitHub Pages; solo descarga los datos públicos de cada legislatura y las tipografías de Google Fonts.
-- En tu propio navegador solo se recuerdan dos preferencias de pantalla: ocultar partidos con pocos datos y pausar la animación.
+- En tu propio navegador solo se recuerdan, si las usas, tus respuestas del perfil para no perderlas al recargar, la provincia del filtro y dos preferencias de pantalla (ocultar partidos con pocos datos y pausar la animación). Nada de eso sale de tu dispositivo.
 - Compartir tu perfil es opcional: el enlace lleva los rasgos marcados en la propia URL (`?p=…`) y solo lo tiene quien tú se lo pases.
 
 ## Qué datos incluye
