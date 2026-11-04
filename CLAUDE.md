@@ -9,4 +9,4 @@ Proyecto: web estática "¿A quién puedo votar?" (antes «¿Quién legisla para
 - Cualquier cambio de clasificación sigue `data/clasificacion/RUBRICA.md` y se hace en `data/clasificacion/<clave>/clas_*.json`; los dudosos se apuntan en su `REVISION.md`.
 - congreso.es tiene protección anti-bots: nunca peticiones en paralelo; una cada 2-3 s; parar ante un 403.
 - La página es HTML sin build ni dependencias JS; carga `site/data/<clave>.json` con fetch (en local, sírvela con `python3 -m http.server`). Colores por tokens CSS con modo claro y oscuro; debe funcionar a 400 px de ancho.
-- Despliegue: GitHub Pages (repo pablocarcaba/vota-bien), automático al hacer push de `site/` a `main`.
+- Despliegue: GitHub Pages (repo pablocarcaba/vota-bien), automático al hacer push de `site/` a `main`. Dominio: https://www.votarbien.info (DNS en IONOS; el dominio sin www redirige).

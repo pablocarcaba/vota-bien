@@ -4,7 +4,7 @@
 Leyes y votos reales, de fuentes oficiales · Cálculo trazable ley a ley · Sin recoger ningún dato tuyo</p>
 
 <p align="center">
-  <a href="https://pablocarcaba.github.io/vota-bien/"><b>Abrir la web →</b></a>
+  <a href="https://www.votarbien.info/"><b>Abrir la web →</b></a>
   &nbsp;·&nbsp; <a href="#datos-reales-y-trazables">Trazabilidad</a>
   &nbsp;·&nbsp; <a href="#privacidad">Privacidad</a>
   &nbsp;·&nbsp; <a href="#cómo-se-calcula">Cómo se calcula</a>
