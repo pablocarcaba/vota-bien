@@ -203,10 +203,16 @@ def votaciones(leg, desde, hasta, cache):
             info = cached(os.path.join(cache, "dias", key + ".json"), lambda: dia(leg, d))
             if info["zip"]:
                 ds = d.strftime("%d/%m/%Y")
-                vs = cached(os.path.join(cache, "votos", key + ".json"),
-                            lambda: resumen_zip(get(info["zip"], binary=True), info["exp"], ds))
+                try:
+                    vs = cached(os.path.join(cache, "votos", key + ".json"),
+                                lambda: resumen_zip(get(info["zip"], binary=True), info["exp"], ds))
+                except zipfile.BadZipFile:
+                    # el Congreso sirve a veces un zip corrupto o una página de error: se salta ese día
+                    # (no se cachea, así que se reintenta al relanzar) y se apunta en el log
+                    print(f"\nAVISO {ds}: zip de votaciones corrupto ({info['zip']}); día omitido", file=sys.stderr)
+                    vs = []
                 res.extend(vs)
-                dias += 1
+                dias += 1 if vs else 0
             print(f"\r{d} · {dias} días con pleno · {len(res)} votaciones", end="", file=sys.stderr)
         d += dt.timedelta(days=1)
     print(file=sys.stderr)
