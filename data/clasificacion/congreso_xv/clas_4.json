@@ -867,10 +867,13 @@
   "imp": {
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "viv1": 1,
+   "empAut": 1,
+   "secPrim": 1,
+   "victimas": 1
   },
   "peso": 2,
-  "nota": "Prorroga la suspensión de desahucios de personas vulnerables: protege a inquilinos y limita al arrendador.",
+  "nota": "Ómnibus: prorroga la suspensión de desahucios (con compensación al casero) y el bono social, los módulos, la exención de ayudas DANA y deducciones por eficiencia.",
   "partido": ""
  },
  {

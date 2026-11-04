@@ -71,3 +71,7 @@ Toda la XV se ha reclasificado con la rúbrica v3 por tres lectores independient
 - Coincidencia entre lectores: 84–87 % idéntica, parecido medio 0,90, ninguna con signo contrario; 432 de 540 iniciativas idénticas en las tres lecturas.
 - 316 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas de cada iniciativa: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
 - La doble lectura anterior (`doble_lectura/`, rúbrica v2) queda como histórico.
+
+## Revisiones posteriores
+
+- [x] **RDL 2/2026, ómnibus derogado** (130/000033): tenía solo `+inq`, `+pobreza` y `-viv2`. Se quita `-viv2` porque el arrendador recibe compensación por la suspensión de desahucios y la deducción por obras de eficiencia energética también le alcanza (signos opuestos, 3.1.1). Se añaden `+viv1` (esa deducción en la vivienda habitual), `+empAut` y `+secPrim` (umbrales de módulos y régimen agrario) y `+victimas` (exención de las ayudas por la DANA e incendios).
