@@ -10,23 +10,33 @@
 </p>
 
 <p align="center">
-  <img alt="Legislaturas" src="https://img.shields.io/badge/legislaturas-8-AA151B">
-  <img alt="Iniciativas" src="https://img.shields.io/badge/iniciativas-3.164-F1BF00">
-  <img alt="Votaciones" src="https://img.shields.io/badge/votaciones%20clave-1.764-16181d">
-  <img alt="Sin dependencias" src="https://img.shields.io/badge/JS-sin%20dependencias-2f7d32">
+  <img alt="8 legislaturas" src="https://img.shields.io/badge/legislaturas-8-C8102E?style=for-the-badge">
+  <img alt="3.164 iniciativas" src="https://img.shields.io/badge/iniciativas-3.164-FFC400?style=for-the-badge&labelColor=1d1600">
+  <img alt="1.764 votaciones clave" src="https://img.shields.io/badge/votaciones%20clave-1.764-0a0f1c?style=for-the-badge">
+  <img alt="Sin dependencias" src="https://img.shields.io/badge/JS-sin%20dependencias-2f7d32?style=for-the-badge">
 </p>
+
+<table>
+  <tr>
+    <td width="72%"><img src=".github/captura-escritorio.jpg" alt="Portada de la web en escritorio: la pregunta ¿A quién te conviene votar? sobre la bandera de España ondeando"></td>
+    <td width="28%"><img src=".github/captura-movil.jpg" alt="Portada de la web en el móvil"></td>
+  </tr>
+</table>
 
 ---
 
 ## Qué es
 
-En campaña todos prometen defenderte. **¿A quién te conviene votar?** te enseña lo que votó cada partido cuando las leyes tocaban tu bolsillo, tu casa y tu familia.
+Tú madrugas, trabajas y pagas tus impuestos. **Ellos votan leyes.** Esta web te enseña qué votó cada partido cuando se decidía tu sueldo, tu casa, tu negocio y tu familia: no lo que prometió en campaña, sino lo que votó.
 
-1. **Cuéntanos tu situación.** Marcas tu tramo de IRPF, si eres funcionario o pensionista, si tienes vivienda o empresa, tus hijos… Sin registrarte, y tus respuestas no salen del navegador.
-2. **Mira quién votó a tu favor.** Un ranking de −100 a +100 con lo que cada partido votó en las leyes que te afectan.
-3. **Compruébalo ley a ley.** Pulsas un partido y ves cada iniciativa, su voto y por qué te afecta, con enlace a la fuente oficial.
+| | | |
+|:---:|:---:|:---:|
+| **1 · Marca tu situación** | **2 · Mira quién votó a tu favor** | **3 · Compruébalo tú mismo** |
+| Sueldo, impuestos, vivienda, familia, negocio. Un minuto, sin registro: lo que marcas no sale de tu navegador. | Una nota de −100 a +100 por partido, según cómo votó las leyes que te afectan. | Cada ley, su voto y por qué te afecta, con enlace al registro oficial. |
 
-> **No te decimos a quién votar. Te enseñamos lo que votaron.**
+<p align="center"><img src=".github/captura-perfil.jpg" alt="El perfil: accesos rápidos por sueldo, casa, familia y negocio, y ayuda en cada categoría" width="88%"></p>
+
+> **Tu voto es tuyo.** Aquí nadie te dice a quién votar: te enseñamos lo que votaron.
 
 ## Qué datos incluye
 
