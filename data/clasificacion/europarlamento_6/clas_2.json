@@ -1,0 +1,894 @@
+[
+{
+"id": "2007/0034(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo pesquero con Santo Tomé y Príncipe; da posibilidades de pesca a la flota de la UE, incluida la española.",
+"partido": ""
+},
+{
+"id": "2007/0037B(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": -1,
+"empMicro": 1,
+"secCom": 1
+},
+"peso": 1,
+"nota": "Propone eximir a pequeñas empresas alimentarias de parte de los requisitos de higiene (APPCC); rebaja sanitaria que ahorra costes al pequeño comercio.",
+"partido": ""
+},
+{
+"id": "2007/0039(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0044(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0047(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0050(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0051(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0052(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de servicios aéreos; tratado técnico sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2007/0057(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de servicios aéreos; tratado técnico sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2007/0058(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Plan de recuperación del atún rojo: cuotas, vedas y tallas mínimas; protege la especie y restringe a la flota atunera española.",
+"partido": ""
+},
+{
+"id": "2007/0062(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo pesquero con Kiribati; da posibilidades de pesca a la flota de la UE, incluida la española.",
+"partido": ""
+},
+{
+"id": "2007/0064(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Procedimiento para fijar límites de residuos de medicamentos veterinarios en alimentos de origen animal; mejora la seguridad alimentaria.",
+"partido": ""
+},
+{
+"id": "2007/0069(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Facilitación de visados con Ucrania; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0072(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0075(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0084(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0088(CNS)",
+"tipo": "eco",
+"imp": {
+"secDig": 1
+},
+"peso": 1,
+"nota": "Empresa común ARTEMIS: financia investigación en sistemas informáticos integrados; beneficia al sector tecnológico.",
+"partido": ""
+},
+{
+"id": "2007/0090(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Entrada de Chipre en el euro; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2007/0092(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Entrada de Malta en el euro; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2007/0094(COD)",
+"tipo": "soc",
+"imp": {
+"secPrim": -1,
+"secCons": -1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Sanciona a los empleadores de inmigrantes en situación irregular; afecta a sectores con más empleo irregular (agricultura, construcción, hostelería).",
+"partido": ""
+},
+{
+"id": "2007/0095(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Financiación de campañas de información y promoción de productos agrícolas; beneficia al sector agrario.",
+"partido": ""
+},
+{
+"id": "2007/0097(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refundición de las normas de acceso al mercado del autocar y autobús; efecto distributivo poco claro.",
+"partido": ""
+},
+{
+"id": "2007/0098(COD)",
+"tipo": "eco",
+"imp": {
+"secTrans": -1,
+"empAut": -1
+},
+"peso": 1,
+"nota": "Endurece los requisitos para ejercer de transportista por carretera (gestor de transporte, honorabilidad, capacidad financiera); coste para transportistas y autónomos.",
+"partido": ""
+},
+{
+"id": "2007/0099(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acceso al transporte internacional de mercancías y cabotaje; efecto sobre los transportistas españoles de signo incierto.",
+"partido": ""
+},
+{
+"id": "2007/0102(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Mantiene y refuerza la prohibición de hormonas y beta-agonistas en la ganadería; seguridad alimentaria.",
+"partido": ""
+},
+{
+"id": "2007/0106(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0107(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0111(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de cooperación en seguridad aérea con EE. UU.; técnico.",
+"partido": ""
+},
+{
+"id": "2007/0112(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1,
+"nota": "Permite a refugiados y beneficiarios de protección internacional obtener el estatuto de residente de larga duración.",
+"partido": ""
+},
+{
+"id": "2007/0113(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Directiva de tiempo compartido: derecho de desistimiento, prohibición de anticipos e información; protege al consumidor frente a un sector turístico relevante en España.",
+"partido": ""
+},
+{
+"id": "2007/0114(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Régimen de autorizaciones de pesca fuera de aguas de la UE; administrativo.",
+"partido": ""
+},
+{
+"id": "2007/0116(COD)",
+"tipo": "soc",
+"imp": {
+"mayores": 1
+},
+"peso": 1,
+"nota": "Programa de investigación en tecnologías para la vida autónoma de las personas mayores.",
+"partido": ""
+},
+{
+"id": "2007/0121(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Reglamento CLP: clasificación y etiquetado de sustancias químicas según el sistema mundial; mejora la información de riesgos con coste para la industria.",
+"partido": ""
+},
+{
+"id": "2007/0127(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Recopilación de datos pesqueros; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0130(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Estatuto y financiación de los partidos políticos europeos; institucional.",
+"partido": ""
+},
+{
+"id": "2007/0132(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Teledetección en la PAC; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0135(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Investigación del Carbón y del Acero; técnico.",
+"partido": ""
+},
+{
+"id": "2007/0136(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prórroga temporal de tipos de IVA reducidos; efecto en España poco claro.",
+"partido": ""
+},
+{
+"id": "2007/0137(AVC)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0138(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Reforma del mercado del vino: arranque de viñedo, fin de ayudas a la destilación y sobres nacionales; efecto neto sobre el viñedo español incierto.",
+"partido": ""
+},
+{
+"id": "2007/0143(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Solvencia II: requisitos de capital y gestión de riesgos para aseguradoras; protege a los asegurados con coste para el sector.",
+"partido": ""
+},
+{
+"id": "2007/0145(COD)",
+"tipo": "soc",
+"imp": {
+"estud": 1
+},
+"peso": 1,
+"nota": "Erasmus Mundus 2009-2013: becas para másteres y doctorados europeos.",
+"partido": ""
+},
+{
+"id": "2007/0150(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Gestión de los activos de la CECA; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0151(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reglamento financiero de las agencias de la UE; institucional.",
+"partido": ""
+},
+{
+"id": "2007/0152(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1,
+"nota": "Extiende la coordinación de la seguridad social de la UE a nacionales de terceros países residentes legales.",
+"partido": ""
+},
+{
+"id": "2007/0156(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0163(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Fundación Europea de Formación; institucional.",
+"partido": ""
+},
+{
+"id": "2007/0167(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Red Europea de Migración (información y análisis); institucional.",
+"partido": ""
+},
+{
+"id": "2007/0168(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Deroga una directiva técnica obsoleta; sin efecto.",
+"partido": ""
+},
+{
+"id": "2007/0169(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0170(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo pesquero con Mozambique; da posibilidades de pesca a la flota de la UE, incluida la española.",
+"partido": ""
+},
+{
+"id": "2007/0171(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0173(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación entre la Agencia de Derechos Fundamentales y el Consejo de Europa; institucional.",
+"partido": ""
+},
+{
+"id": "2007/0174(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Selección de operadores de servicios móviles por satélite; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0177(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajustes técnicos de las ayudas directas de la PAC y del desarrollo rural; efecto distributivo poco claro.",
+"partido": ""
+},
+{
+"id": "2007/0185(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Control simplificado en fronteras exteriores con reconocimiento de documentos; técnico.",
+"partido": ""
+},
+{
+"id": "2007/0186(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Control simplificado en fronteras exteriores (Suiza y Liechtenstein); técnico.",
+"partido": ""
+},
+{
+"id": "2007/0188(COD)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Programa Eurostars: financia la I+D de pequeñas y medianas empresas.",
+"partido": ""
+},
+{
+"id": "2007/0192A(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección del euro contra la falsificación; técnico.",
+"partido": ""
+},
+{
+"id": "2007/0192B(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección del euro contra la falsificación fuera de la eurozona; técnico.",
+"partido": ""
+},
+{
+"id": "2007/0195(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"pobreza": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Tercer paquete energético: separación de redes, derechos del consumidor y pobreza energética; coste para las eléctricas integradas.",
+"partido": ""
+},
+{
+"id": "2007/0196(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Tercer paquete energético (gas): separación de redes y derechos del consumidor; coste para las gasistas integradas.",
+"partido": ""
+},
+{
+"id": "2007/0197(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Crea la Agencia de Cooperación de los Reguladores de la Energía (ACER); institucional.",
+"partido": ""
+},
+{
+"id": "2007/0198(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acceso a la red para intercambios transfronterizos de electricidad; regulación técnica.",
+"partido": ""
+},
+{
+"id": "2007/0199(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acceso a las redes de transporte de gas natural; regulación técnica.",
+"partido": ""
+},
+{
+"id": "2007/0200(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Restringe la comercialización y uso de sustancias peligrosas; protege la salud con coste para la industria química.",
+"partido": ""
+},
+{
+"id": "2007/0201(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Exige a los vehículos nuevos sistemas de protección de peatones; mejora la seguridad vial con coste para los fabricantes.",
+"partido": ""
+},
+{
+"id": "2007/0202(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Condiciones sanitarias para viajar con animales de compañía; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0206(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Sube los tipos mínimos del impuesto sobre el tabaco; objetivo de salud pública con coste para la industria tabaquera.",
+"partido": ""
+},
+{
+"id": "2007/0207(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0209(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo pesquero con Guinea-Bissau; da posibilidades de pesca a la flota de la UE, incluida la española.",
+"partido": ""
+},
+{
+"id": "2007/0211(CNS)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 1,
+"nota": "Empresa común de hidrógeno y pilas de combustible: financia investigación industrial.",
+"partido": ""
+},
+{
+"id": "2007/0212(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adapta varias directivas al reglamento CLP; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0213(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adapta el reglamento de detergentes al reglamento CLP; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0214(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Homologación de vehículos de hidrógeno; norma técnica.",
+"partido": ""
+},
+{
+"id": "2007/0215(AVC)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0216(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Normas de seguridad y biometría en pasaportes; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0218(AVC)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2007/0219(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0220(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0223(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1
+},
+"peso": 2,
+"nota": "Sistema contra la pesca ilegal: certificados de captura y sanciones; protege los recursos marinos y la competencia leal.",
+"partido": ""
+},
+{
+"id": "2007/0224(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Protege ecosistemas marinos vulnerables de alta mar frente a la pesca de fondo; restringe a la flota arrastrera.",
+"partido": ""
+},
+{
+"id": "2007/0226(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo pesquero con Costa de Marfil; da posibilidades de pesca a la flota de la UE, incluida la española.",
+"partido": ""
+},
+{
+"id": "2007/0228(CNS)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Tarjeta azul UE: facilita la entrada y residencia de trabajadores extranjeros altamente cualificados.",
+"partido": ""
+},
+{
+"id": "2007/0229(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Permiso único de residencia y trabajo con igualdad de trato para trabajadores de terceros países.",
+"partido": ""
+},
+{
+"id": "2007/0232(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Modifica el acuerdo pesquero con Seychelles; posibilidades de pesca para la flota atunera, en gran parte española.",
+"partido": ""
+},
+{
+"id": "2007/0233(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0234(COD)",
+"tipo": "soc",
+"imp": {
+"estud": 1
+},
+"peso": 1,
+"nota": "Sistema europeo de créditos para la formación profesional (ECVET); facilita el reconocimiento de cualificaciones.",
+"partido": ""
+},
+{
+"id": "2007/0236(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Amplía los delitos de terrorismo (provocación, captación, adiestramiento); penal, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2007/0238(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico del sistema común del IVA.",
+"partido": ""
+},
+{
+"id": "2007/0242(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Restablece el régimen de ayudas al algodón; beneficia a los productores, concentrados en Andalucía.",
+"partido": ""
+},
+{
+"id": "2007/0243(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Código de conducta de los sistemas informatizados de reserva aérea; técnico.",
+"partido": ""
+},
+{
+"id": "2007/0247(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secDig": -1
+},
+"peso": 2,
+"nota": "Paquete de telecomunicaciones: refuerza a los reguladores, separación funcional y garantías de acceso a internet; coste para los operadores.",
+"partido": ""
+},
+{
+"id": "2007/0248(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secDig": -1
+},
+"peso": 2,
+"nota": "Paquete de telecomunicaciones: portabilidad en un día, contratos, privacidad y avisos de brechas; protege al usuario con coste para operadores.",
+"partido": ""
+},
+{
+"id": "2007/0249(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Organismo de reguladores de telecomunicaciones (ORECE); institucional.",
+"partido": ""
+},
+{
+"id": "2007/0251(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de servicios aéreos; tratado técnico sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2007/0253(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Transparencia de precios del gas y la electricidad para la industria; estadística.",
+"partido": ""
+},
+{
+"id": "2007/0256(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0257(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0259(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
+"partido": ""
+}
+]

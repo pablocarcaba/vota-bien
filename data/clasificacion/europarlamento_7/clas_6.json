@@ -1,0 +1,883 @@
+[
+{
+"id": "2012/0036(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Armoniza el embargo y decomiso de bienes del delito; norma penal sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0039(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Normas para viajar con animales de compañía sin fin comercial; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0040(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Requisitos sanitarios del comercio de perros, gatos y hurones; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0042(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reglas contables de emisiones y absorciones del uso de la tierra y la silvicultura; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0049(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prórroga del etiquetado Energy Star de equipos ofimáticos; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0054(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Aplica acuerdos arancelarios del GATT; técnica comercial.",
+"partido": ""
+},
+{
+"id": "2012/0055(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Exige el desguace de buques en instalaciones seguras y limpias; mejora el medio ambiente con coste para los navieros.",
+"partido": ""
+},
+{
+"id": "2012/0061(COD)",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"secCons": -1
+},
+"peso": 2,
+"nota": "Refuerza los derechos de trabajadores desplazados y la responsabilidad del contratista en la construcción frente a fraudes y empresas buzón.",
+"partido": ""
+},
+{
+"id": "2012/0062(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adapta el control de buques en puerto al Convenio sobre trabajo marítimo; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0065(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Control por el Estado del pabellón del Convenio sobre trabajo marítimo; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0066(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Prohíbe el cadmio en pilas de herramientas inalámbricas; protege el medio ambiente con coste para fabricantes.",
+"partido": ""
+},
+{
+"id": "2012/0073(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo aduanero con Canadá sobre seguridad de la cadena de suministro; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0074(NLE)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Fija controles de sustancias radiactivas en el agua de consumo; mejora la salud pública.",
+"partido": ""
+},
+{
+"id": "2012/0075(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adapta poderes de la Comisión en directivas alimentarias; procedimiento institucional.",
+"partido": ""
+},
+{
+"id": "2012/0077(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Plan del bacalao del Báltico; sin efecto en la pesca española.",
+"partido": ""
+},
+{
+"id": "2012/0084(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Gobernanza de las estadísticas europeas; institucional.",
+"partido": ""
+},
+{
+"id": "2012/0085(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Importaciones de arroz de Bangladés; técnica comercial sin efecto claro en España.",
+"partido": ""
+},
+{
+"id": "2012/0098(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo técnico de la CEPE sobre reglamentos de vehículos; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0099(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo técnico de la CEPE sobre homologación de vehículos; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0102(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Tratamiento del IVA de los bonos; técnica fiscal.",
+"partido": ""
+},
+{
+"id": "2012/0110(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Aplaza la fecha de aplicación de Solvencia II para aseguradoras; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0130(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Protocolo pesquero con Groenlandia; da posibilidades de pesca a la flota de la UE, incluida la española.",
+"partido": ""
+},
+{
+"id": "2012/0143(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico del reglamento básico de la política pesquera; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0145(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico del reglamento antidumping; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2012/0146(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Identificación electrónica y servicios de confianza (eIDAS); marco técnico.",
+"partido": ""
+},
+{
+"id": "2012/0150(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secFin": -1
+},
+"peso": 3,
+"nota": "Directiva de rescate y resolución bancaria: accionistas y acreedores asumen pérdidas antes que el dinero público.",
+"partido": ""
+},
+{
+"id": "2012/0158(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas técnicas para proteger juveniles marinos; ajuste técnico.",
+"partido": ""
+},
+{
+"id": "2012/0162(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste del sistema contra la pesca ilegal; técnico.",
+"partido": ""
+},
+{
+"id": "2012/0163(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reparto de responsabilidad financiera en arbitrajes inversor-Estado; institucional.",
+"partido": ""
+},
+{
+"id": "2012/0164(APP)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento de ayuda a Estados fuera del euro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2012/0165(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prórroga técnica sobre inspección de semillas en terceros países.",
+"partido": ""
+},
+{
+"id": "2012/0168(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secFin": -1
+},
+"peso": 1,
+"nota": "OICVM V: depositarios, remuneraciones y sanciones en fondos de inversión; protege a los inversores minoristas.",
+"partido": ""
+},
+{
+"id": "2012/0169(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Documento de datos fundamentales obligatorio para productos de inversión; mejora la información al ahorrador con coste para entidades.",
+"partido": ""
+},
+{
+"id": "2012/0172(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Materiales forestales de reproducción; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0179(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 2,
+"nota": "Prohíbe el arrastre de fondo por debajo de 800 m y limita la pesca de profundidad; afecta a flota gallega.",
+"partido": ""
+},
+{
+"id": "2012/0180(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Gestión colectiva de derechos de autor y licencias musicales en línea; sin colectivo claro.",
+"partido": ""
+},
+{
+"id": "2012/0184(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Armoniza mínimos de la ITV; mejora la seguridad vial.",
+"partido": ""
+},
+{
+"id": "2012/0185(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Documentos de matriculación de vehículos; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0186(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Inspecciones en carretera de vehículos comerciales; mejora la seguridad vial con controles al transporte.",
+"partido": ""
+},
+{
+"id": "2012/0190(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Fija 95 g CO2/km para turismos nuevos en 2020; reduce emisiones con coste para fabricantes.",
+"partido": ""
+},
+{
+"id": "2012/0191(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Objetivo de CO2 de 2020 para furgonetas nuevas; reduce emisiones con coste para fabricantes.",
+"partido": ""
+},
+{
+"id": "2012/0192(COD)",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"secInd": 1
+},
+"peso": 2,
+"nota": "Reglamento de ensayos clínicos: autorización única y más transparencia; facilita la investigación de medicamentos.",
+"partido": ""
+},
+{
+"id": "2012/0193(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección penal de los intereses financieros de la UE; norma penal.",
+"partido": ""
+},
+{
+"id": "2012/0195(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Asociación de países y territorios de ultramar; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2012/0196(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Refundición sobre comercio de especies silvestres; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0199(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Capitales Europeas de la Cultura 2020-2033; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0201(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste procedimental del plan de la anguila; técnico.",
+"partido": ""
+},
+{
+"id": "2012/0202(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Permite retrasar subastas de derechos de emisión para subir el precio del CO2; coste para la industria.",
+"partido": ""
+},
+{
+"id": "2012/0205(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mecanismo rápido contra el fraude del IVA; técnico.",
+"partido": ""
+},
+{
+"id": "2012/0208(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico de medidas de protección de juveniles marinos.",
+"partido": ""
+},
+{
+"id": "2012/0215(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Protocolo pesquero con Mauricio; da posibilidades de pesca a la flota de la UE, incluida la española.",
+"partido": ""
+},
+{
+"id": "2012/0216(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste procedimental sobre capturas accidentales de cetáceos; técnico.",
+"partido": ""
+},
+{
+"id": "2012/0217(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Contingentes de exportación de madera rusa; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2012/0221(APP)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Depósito de archivos históricos en Florencia; institucional.",
+"partido": ""
+},
+{
+"id": "2012/0224(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Contratación de funcionarios por la adhesión de Croacia; institucional.",
+"partido": ""
+},
+{
+"id": "2012/0232(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas técnicas de pesca en el Skagerrak; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2012/0236(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Plan del bacalao del mar del Norte; sin efecto en la pesca española.",
+"partido": ""
+},
+{
+"id": "2012/0237(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Estatuto y financiación de partidos y fundaciones políticas europeas; institucional.",
+"partido": ""
+},
+{
+"id": "2012/0238(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Protocolo pesquero con Madagascar; da posibilidades de pesca a la flota de la UE, incluida la española.",
+"partido": ""
+},
+{
+"id": "2012/0242(CNS)",
+"tipo": "eco",
+"imp": {
+"secFin": -1
+},
+"peso": 2,
+"nota": "Mecanismo Único de Supervisión: el BCE supervisa a los grandes bancos; supervisión más estricta.",
+"partido": ""
+},
+{
+"id": "2012/0244(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adapta la Autoridad Bancaria Europea a la supervisión del BCE; institucional.",
+"partido": ""
+},
+{
+"id": "2012/0245(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cuerpo europeo de voluntarios de ayuda humanitaria; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0250(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Comercio exterior de precursores de drogas; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0251(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Preferencias arancelarias para Birmania; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2012/0252(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Más cofinanciación de fondos migratorios para Estados con programa de rescate; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2012/0253(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Más cofinanciación del Fondo de Fronteras para Estados en dificultades; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0260(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Considera el polen componente natural de la miel; etiquetado técnico.",
+"partido": ""
+},
+{
+"id": "2012/0261(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Precursores de drogas en la UE; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0266(COD)",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Reglamento de productos sanitarios tras el caso PIP: más control y trazabilidad; protege a pacientes con coste para fabricantes.",
+"partido": ""
+},
+{
+"id": "2012/0267(COD)",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Endurece la evaluación de productos de diagnóstico in vitro; protege a pacientes con coste para fabricantes.",
+"partido": ""
+},
+{
+"id": "2012/0271(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de facilitación de visados con Cabo Verde; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0278(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Aplica el Protocolo de Nagoya sobre recursos genéticos; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0279(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Celebración del Protocolo de Nagoya; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2012/0283(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Comercialización de equipos radioeléctricos; armonización técnica.",
+"partido": ""
+},
+{
+"id": "2012/0285(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas técnicas de pesca en el Báltico; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2012/0288(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Limita los biocarburantes de cultivos alimentarios por el cambio indirecto de uso de la tierra; coste para productores.",
+"partido": ""
+},
+{
+"id": "2012/0295(COD)",
+"tipo": "soc",
+"imp": {
+"pobreza": 1
+},
+"peso": 2,
+"nota": "Fondo de Ayuda Europea para los Más Necesitados: alimentos y asistencia material a personas en pobreza.",
+"partido": ""
+},
+{
+"id": "2012/0297(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secCons": -1
+},
+"peso": 2,
+"nota": "Refuerza la evaluación de impacto ambiental de proyectos; protege el medio ambiente con más exigencias a los promotores.",
+"partido": ""
+},
+{
+"id": "2012/0298(APP)",
+"tipo": "eco",
+"imp": {
+"secFin": -1
+},
+"peso": 1,
+"nota": "Autoriza la cooperación reforzada, con España, para un impuesto sobre transacciones financieras.",
+"partido": ""
+},
+{
+"id": "2012/0299(COD)",
+"tipo": "soc",
+"imp": {
+"mujeres": 1
+},
+"peso": 2,
+"nota": "Objetivo del 40 % de mujeres en consejos de cotizadas; favorece el acceso de mujeres a la dirección.",
+"partido": ""
+},
+{
+"id": "2012/0305(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Reduce los gases fluorados de efecto invernadero; protege el clima con coste para la industria de refrigeración.",
+"partido": ""
+},
+{
+"id": "2012/0309(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modifica la lista de países con obligación de visado; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0321(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Consorcios de infraestructuras de investigación; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0328(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": -1,
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Exime los vuelos extracomunitarios del comercio de emisiones; rebaja ambiental que alivia a las aerolíneas.",
+"partido": ""
+},
+{
+"id": "2012/0335(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones de empleo no vinculantes; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2012/0336(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Financiación de partidos políticos europeos; institucional.",
+"partido": ""
+},
+{
+"id": "2012/0337(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Programa General de Medio Ambiente hasta 2020; objetivos ambientales generales.",
+"partido": ""
+},
+{
+"id": "2012/0340(COD)",
+"tipo": "soc",
+"imp": {
+"discapacidad": 1
+},
+"peso": 1,
+"nota": "Obliga a webs del sector público a ser accesibles; beneficia a personas con discapacidad.",
+"partido": ""
+},
+{
+"id": "2012/0342(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Procedimiento de control de ayudas de Estado; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0343(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas agrícolas y pesqueras; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0344(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Habilita exenciones por categorías de ayudas de Estado; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0358(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Equipos marinos; armonización técnica.",
+"partido": ""
+},
+{
+"id": "2012/0359(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas comerciales de represalia ante incumplimientos de terceros; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2012/0360(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reforma de la insolvencia transfronteriza; procesal.",
+"partido": ""
+},
+{
+"id": "2012/0361(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Notificación de sucesos en la aviación civil; técnica de seguridad.",
+"partido": ""
+},
+{
+"id": "2012/0364(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Financiación de organismos de normas contables y de auditoría; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0366(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"jovenes": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Directiva del tabaco: advertencias gráficas grandes, prohíbe aromas y regula cigarrillos electrónicos; protege la salud con coste para tabaqueras.",
+"partido": ""
+},
+{
+"id": "2012/2000(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones para el presupuesto 2013; no vinculante.",
+"partido": ""
+},
+{
+"id": "2012/2006(BUD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Previsiones de gastos del Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2012/2016(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mandato de negociación del presupuesto 2013; procedimental.",
+"partido": ""
+}
+]

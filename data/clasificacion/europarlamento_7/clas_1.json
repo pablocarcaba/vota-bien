@@ -1,0 +1,847 @@
+[
+{
+"id": "2009/0147(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda macrofinanciera a un tercer país; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2009/0150(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda macrofinanciera a un tercer país; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2009/0152(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Incluye la leche entre los productos con medidas de crisis de la OCM durante la crisis láctea de 2009; apoyo a los ganaderos.",
+"partido": ""
+},
+{
+"id": "2009/0153(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": -1,
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Exime a la acuicultura en instalaciones cerradas de requisitos sobre especies exóticas; rebaja de protección ambiental que ahorra costes al sector.",
+"partido": ""
+},
+{
+"id": "2009/0155(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2009/0157(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Reglamento de sucesiones transfronterizas y certificado sucesorio europeo; norma de derecho internacional privado sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2009/0161(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Facultades de las nuevas autoridades europeas de supervisión; institucional.",
+"partido": ""
+},
+{
+"id": "2009/0162(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda macrofinanciera a un tercer país; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2009/0163(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste del Instrumento de Ayuda Preadhesión; acción exterior sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/0164(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Refunde la directiva de reconocimiento: aproxima los derechos de la protección subsidiaria a los del estatuto de refugiado.",
+"partido": ""
+},
+{
+"id": "2009/0165(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Refunde la directiva de procedimientos de asilo con más garantías procesales para los solicitantes, especialmente los vulnerables.",
+"partido": ""
+},
+{
+"id": "2009/0166(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda macrofinanciera a un tercer país; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2009/0169(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa de investigación del mar Báltico; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/0170(COD)",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Investigación independiente de accidentes aéreos y asistencia a las víctimas y sus familias.",
+"partido": ""
+},
+{
+"id": "2009/0172(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda al desmantelamiento de una central nuclear en Bulgaria; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/0173(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Límites de emisiones de CO2 para furgonetas nuevas; mejora climática con coste para los fabricantes.",
+"partido": ""
+},
+{
+"id": "2009/0189(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2009/0803(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Uso de la informática en aduanas; técnica.",
+"partido": ""
+},
+{
+"id": "2009/0805(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma de funcionamiento de Europol; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2009/0806(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acreditación de laboratorios forenses; técnica, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2009/0807(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma de funcionamiento de Europol; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2009/0808(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma de funcionamiento de Europol; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2009/0809(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma de funcionamiento de Europol; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2009/0810(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma de funcionamiento de Europol; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2009/0812(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Red Europea de Prevención de la Delincuencia; institucional.",
+"partido": ""
+},
+{
+"id": "2009/0813(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas transitorias sobre la composición del Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2009/0814(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Decisión de no convocar una convención para la revisión de los Tratados; institucional.",
+"partido": ""
+},
+{
+"id": "2009/2002(BUD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1,
+"estud": 1
+},
+"peso": 3,
+"nota": "Presupuesto anual de la UE para 2010: financia la PAC, el desarrollo rural, la cohesión y Erasmus, entre otros.",
+"partido": ""
+},
+{
+"id": "2009/2046(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Solidaridad para una catástrofe en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/2047(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo técnico; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2009/2048(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Solidaridad para una catástrofe en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/2050(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo técnico; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2009/2066(BUD)",
+"tipo": "eco",
+"imp": {
+"desPres": 1,
+"secInd": 1
+},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores despedidos del textil en España y Portugal.",
+"partido": ""
+},
+{
+"id": "2009/2078(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despidos en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/2083(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Solidaridad para una catástrofe en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/2087(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Solidaridad para una catástrofe en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/2135(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despidos en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/2183(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despidos en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/2185(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reduce los créditos de pago del plan europeo de recuperación; presupuestario sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2009/2207(BUD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento de flexibilidad para proyectos energéticos y Kozloduy; presupuestario sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2009/2212(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Derecho de investigación del Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2010/0002(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despidos en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2010/0003(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despidos en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2010/0004(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Contribución de la UE al Fondo Internacional para Irlanda; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2010/0005(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despidos en otro Estado miembro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2010/0006(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Migración al Sistema de Información de Schengen II; técnica.",
+"partido": ""
+},
+{
+"id": "2010/0032(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 1,
+"nota": "Cláusula de salvaguardia del acuerdo con Corea: permite frenar importaciones masivas que dañen a la industria europea, como la automovilística.",
+"partido": ""
+},
+{
+"id": "2010/0035(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Calidad de las estadísticas del procedimiento de déficit excesivo; técnica.",
+"partido": ""
+},
+{
+"id": "2010/0036(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Preferencias comerciales para los Balcanes Occidentales; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2010/0039(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reforma de Frontex con más medios y garantías de derechos fundamentales; organizativa, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2010/0041(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2010/0044(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Sello de Patrimonio Europeo; simbólico, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2010/0048(APP)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Marco financiero plurianual 2007-2013 tras Lisboa; presupuestario institucional sin efecto distributivo nuevo.",
+"partido": ""
+},
+{
+"id": "2010/0051(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Control de las competencias de ejecución de la Comisión (comitología); institucional.",
+"partido": ""
+},
+{
+"id": "2010/0054(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reglamento financiero adaptado al Servicio Europeo de Acción Exterior; institucional.",
+"partido": ""
+},
+{
+"id": "2010/0056(COD)",
+"tipo": "eco",
+"imp": {
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Rebaja los aranceles al plátano latinoamericano; más competencia para el plátano de Canarias.",
+"partido": ""
+},
+{
+"id": "2010/0057(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Acuerdos de Ginebra sobre el comercio de plátanos: rebaja arancelaria que aumenta la competencia para el plátano de Canarias.",
+"partido": ""
+},
+{
+"id": "2010/0059(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda al desarrollo para países ACP productores de plátano; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2010/0063(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2010/0064(COD)",
+"tipo": "soc",
+"imp": {
+"infancia": 1,
+"victimas": 1
+},
+"peso": 2,
+"nota": "Directiva contra los abusos sexuales a menores y la pornografía infantil: endurece penas y refuerza la protección de las víctimas.",
+"partido": ""
+},
+{
+"id": "2010/0065(COD)",
+"tipo": "soc",
+"imp": {
+"victimas": 1,
+"mujeres": 1
+},
+"peso": 2,
+"nota": "Directiva contra la trata de seres humanos: tipos penales comunes y protección y asistencia a las víctimas, mayoritariamente mujeres.",
+"partido": ""
+},
+{
+"id": "2010/0066(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Autoriza la cooperación reforzada sobre la ley aplicable al divorcio; procesal.",
+"partido": ""
+},
+{
+"id": "2010/0067(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ley aplicable al divorcio transfronterizo (Roma III); norma de conflicto sin efecto de signo claro.",
+"partido": ""
+},
+{
+"id": "2010/0073(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2010/0074(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Iniciativa ciudadana europea; institucional y participativa, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2010/0075(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Acuerdo de libre comercio con Corea del Sur; efectos sectoriales en España mixtos (automóvil frente a exportaciones agroalimentarias).",
+"partido": ""
+},
+{
+"id": "2010/0080(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste de las medidas financieras de la política pesquera; técnica.",
+"partido": ""
+},
+{
+"id": "2010/0093(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Convenio sobre normas de origen paneuromediterráneas; técnica.",
+"partido": ""
+},
+{
+"id": "2010/0095(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Versión codificada sin cambios de fondo; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2010/0097(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Importaciones de productos de la pesca de Groenlandia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2010/0098(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Tolerancias de contaminación radiactiva en alimentos; norma técnica sin cambio de fondo.",
+"partido": ""
+},
+{
+"id": "2010/0101(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Garantía de la UE a préstamos exteriores del BEI; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2010/0110(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Versión codificada sin cambios de fondo; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2010/0115(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Directrices de empleo de los Estados miembros; orientación no vinculante.",
+"partido": ""
+},
+{
+"id": "2010/0119(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2010/0133(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2010/0135(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adopción del euro por Estonia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2010/0137(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Lista de visados de la UE; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2010/0139(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2010/0140(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prórroga del sistema de preferencias arancelarias generalizadas; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2010/0146(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2010/0147(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Autorizaciones de exportación de armas de fuego; técnica.",
+"partido": ""
+},
+{
+"id": "2010/0150(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reasigna fondos del programa energético de recuperación a eficiencia energética y renovables; presupuestario.",
+"partido": ""
+},
+{
+"id": "2010/0160(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Transfiere a la AEVM la supervisión de las agencias de calificación crediticia; institucional.",
+"partido": ""
+},
+{
+"id": "2010/0162(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda macrofinanciera a un tercer país; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2010/0171(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Estatuto de los funcionarios de la UE; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2010/0175(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Pesca de la platija en el Báltico; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2010/0178(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo SWIFT con EE. UU. sobre datos financieros antiterroristas; de seguridad, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2010/0179(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prórroga del tipo mínimo general del IVA del 15 %; sin cambio para España (tipo superior).",
+"partido": ""
+},
+{
+"id": "2010/0183(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ayudas del monopolio alemán del alcohol; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2010/0192(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Exención de visados para Albania y Bosnia y Herzegovina; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2010/0195(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": -1,
+"secInd": 1
+},
+"peso": 1,
+"nota": "Amplía el sistema flexible que permite vender motores de maquinaria con normas de emisión antiguas; rebaja ambiental que ahorra costes a fabricantes.",
+"partido": ""
+},
+{
+"id": "2010/0197(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Régimen transitorio de acuerdos bilaterales de inversión; técnica.",
+"partido": ""
+},
+{
+"id": "2010/0199(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secFin": -1
+},
+"peso": 1,
+"nota": "Propuesta de elevar la cobertura y agilizar los sistemas de indemnización de los inversores; protege al ahorrador con coste para las entidades.",
+"partido": ""
+},
+{
+"id": "2010/0204(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Transporte transfronterizo de efectivo en euros; técnica.",
+"partido": ""
+},
+{
+"id": "2010/0205(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Devolución del IVA a empresas de otros Estados; técnica.",
+"partido": ""
+},
+{
+"id": "2010/0206(APP)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Amplía el transporte de efectivo en euros; técnica.",
+"partido": ""
+},
+{
+"id": "2010/0207(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Directiva de garantía de depósitos: cobertura armonizada de 100.000 €, pago en siete días y fondos financiados por adelantado por la banca.",
+"partido": ""
+},
+{
+"id": "2010/0208(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Permite a los Estados prohibir el cultivo de transgénicos; España no lo ha usado, sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2010/0209(COD)",
+"tipo": "eco",
+"imp": {
+"inmigrantes": 1,
+"empGran": 1
+},
+"peso": 1,
+"nota": "Facilita la entrada y residencia de directivos y especialistas trasladados dentro de multinacionales.",
+"partido": ""
+}
+]

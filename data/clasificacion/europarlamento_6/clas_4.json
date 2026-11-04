@@ -1,0 +1,899 @@
+[
+{
+"id": "2008/0069(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Marco de referencia de calidad de la FP, recomendación sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2008/0070(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Sistema de créditos de FP para facilitar el reconocimiento; técnico, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2008/0073(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional de asociación; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2008/0074(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica sobre la numeración de visados.",
+"partido": ""
+},
+{
+"id": "2008/0076(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0077(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Migración técnica del sistema de información de Schengen.",
+"partido": ""
+},
+{
+"id": "2008/0078(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Migración técnica del sistema de información de Schengen.",
+"partido": ""
+},
+{
+"id": "2008/0079(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2008/0080(AVC)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Extiende a búlgaros y rumanos la libre circulación con Suiza; sin efecto claro en España.",
+"partido": ""
+},
+{
+"id": "2008/0081(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico de la directiva de pilas; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2008/0082(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico de la liquidación de valores y garantías financieras.",
+"partido": ""
+},
+{
+"id": "2008/0083(COD)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Simplifica obligaciones de publicación y traducción de las sociedades; reduce costes administrativos a pequeñas empresas.",
+"partido": ""
+},
+{
+"id": "2008/0084(COD)",
+"tipo": "eco",
+"imp": {
+"empMed": 1
+},
+"peso": 1,
+"nota": "Exime a las medianas empresas de ciertas obligaciones contables y de publicidad; reduce sus cargas.",
+"partido": ""
+},
+{
+"id": "2008/0086(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reparto de la deuda entre Serbia y Montenegro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2008/0087(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo comercial de servicios con Ucrania; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2008/0088(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Ajusta los regímenes de ayuda directa de la PAC; mantiene el apoyo a los agricultores.",
+"partido": ""
+},
+{
+"id": "2008/0089(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Sistema de recursos propios de la UE; institucional, sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2008/0090(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acceso público a documentos de las instituciones; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0091(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Población de arenque escocesa; sin flota española afectada.",
+"partido": ""
+},
+{
+"id": "2008/0092(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Entrada de Eslovaquia en el euro; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2008/0093(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo pesquero con Mauritania; da posibilidades de pesca a la flota española.",
+"partido": ""
+},
+{
+"id": "2008/0095(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento de ayuda exterior a países vecinos; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2008/0097(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico del reglamento de producción ecológica.",
+"partido": ""
+},
+{
+"id": "2008/0099(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0100(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Exige sistemas de seguridad (control de estabilidad, presión de neumáticos) en vehículos nuevos; más seguridad vial, coste para fabricantes.",
+"partido": ""
+},
+{
+"id": "2008/0101(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Intercambio de antecedentes penales entre Estados; procesal.",
+"partido": ""
+},
+{
+"id": "2008/0102(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma sobre privilegios del personal de la UE; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0103(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1
+},
+"peso": 2,
+"nota": "Chequeo de la PAC: regula las ayudas directas 2009-2013, desacopladas, y desvía parte al desarrollo rural.",
+"partido": ""
+},
+{
+"id": "2008/0104(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adapta mercados agrícolas (cuotas lácteas, retirada de tierras); efectos de signo mixto para agricultores.",
+"partido": ""
+},
+{
+"id": "2008/0105(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1
+},
+"peso": 1,
+"nota": "Más fondos de desarrollo rural para nuevos retos (clima, agua, lácteo); beneficia al campo.",
+"partido": ""
+},
+{
+"id": "2008/0106(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Directrices estratégicas de desarrollo rural; orientativas, sin efecto directo propio.",
+"partido": ""
+},
+{
+"id": "2008/0107(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Autoriza ratificar un convenio de la OIT; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2008/0108(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Normas técnicas de comercialización de carne de aves.",
+"partido": ""
+},
+{
+"id": "2008/0109(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0111(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Memorándum técnico de cooperación en seguridad aérea.",
+"partido": ""
+},
+{
+"id": "2008/0112(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Medidas técnicas de conservación pesquera; protege los recursos marinos y restringe a la flota.",
+"partido": ""
+},
+{
+"id": "2008/0115(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0116(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0117(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0120(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0121(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo aéreo internacional; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2008/0122(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Red judicial civil y mercantil; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0123(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refundición técnica de metrología.",
+"partido": ""
+},
+{
+"id": "2008/0124(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0126(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0127(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Cielo Único Europeo II: rendimiento y organización del tránsito aéreo; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2008/0128(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Amplía la competencia de la agencia de seguridad aérea a aeródromos; técnico.",
+"partido": ""
+},
+{
+"id": "2008/0130(NLE)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Sociedad privada europea: forma societaria común para pymes que operan en varios países.",
+"partido": ""
+},
+{
+"id": "2008/0131(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Financia la promoción de productos agrícolas; beneficia al sector agrario.",
+"partido": ""
+},
+{
+"id": "2008/0136(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo comercial con Costa de Marfil; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2008/0138(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Flexibiliza la gestión de flotas pesqueras ultraperiféricas, como la canaria.",
+"partido": ""
+},
+{
+"id": "2008/0140(APP)",
+"tipo": "soc",
+"imp": {
+"lgtbi": 1,
+"discapacidad": 1,
+"mayores": 1,
+"minorias": 1
+},
+"peso": 2,
+"nota": "Prohíbe la discriminación por religión, discapacidad, edad u orientación sexual fuera del empleo.",
+"partido": ""
+},
+{
+"id": "2008/0141(COD)",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"empGran": -1
+},
+"peso": 1,
+"nota": "Refuerza la información y consulta de los trabajadores en grandes empresas transnacionales.",
+"partido": ""
+},
+{
+"id": "2008/0142(COD)",
+"tipo": "soc",
+"imp": {
+"pac": 1
+},
+"peso": 2,
+"nota": "Reconoce el derecho a recibir asistencia sanitaria en otro Estado y su reembolso.",
+"partido": ""
+},
+{
+"id": "2008/0143(CNS)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Permite IVA reducido en servicios intensivos en mano de obra y restauración; abarata consumo y favorece hostelería.",
+"partido": ""
+},
+{
+"id": "2008/0146(CNS)",
+"tipo": "soc",
+"imp": {
+"infancia": 1,
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Financia fruta gratuita en las escuelas; beneficia a niños y productores.",
+"partido": ""
+},
+{
+"id": "2008/0147(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 2,
+"nota": "Euroviñeta: permite cobrar a camiones costes de contaminación y ruido; coste para el transporte por carretera.",
+"partido": ""
+},
+{
+"id": "2008/0148(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Marco jurídico para infraestructuras de investigación; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0149(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda alimentaria a países en desarrollo; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2008/0150(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Eleva los mínimos del impuesto sobre el tabaco; salud pública, coste para la industria tabaquera.",
+"partido": ""
+},
+{
+"id": "2008/0152(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Revisa la etiqueta ecológica voluntaria; mejor información al consumidor.",
+"partido": ""
+},
+{
+"id": "2008/0153(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "OICVM IV: documento de datos fundamentales para inversores y pasaporte de gestoras.",
+"partido": ""
+},
+{
+"id": "2008/0154(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Revisa el sistema voluntario de ecogestión EMAS; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2008/0155(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0156(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico de la OCM única.",
+"partido": ""
+},
+{
+"id": "2008/0157(COD)",
+"tipo": "eco",
+"imp": {
+"secDig": 1
+},
+"peso": 1,
+"nota": "Amplía de 50 a 70 años la protección de grabaciones; beneficia a intérpretes y discográficas.",
+"partido": ""
+},
+{
+"id": "2008/0158(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0159(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Empresa común SESAR de gestión del tránsito aéreo; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0160(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Prohíbe el comercio de productos de foca; sin sector afectado en España.",
+"partido": ""
+},
+{
+"id": "2008/0162(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Convenio internacional sobre garantías de equipos aeronáuticos.",
+"partido": ""
+},
+{
+"id": "2008/0165(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Endurece el control de sustancias que agotan el ozono; protege la salud y el clima, coste industrial.",
+"partido": ""
+},
+{
+"id": "2008/0166(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Convenio pesquero del Atlántico Nororiental; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0167(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica sobre medallas similares al euro.",
+"partido": ""
+},
+{
+"id": "2008/0168(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica sobre medallas similares al euro.",
+"partido": ""
+},
+{
+"id": "2008/0172(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Requisitos ambientales para máquinas de aplicar plaguicidas; menos contaminación, coste para fabricantes.",
+"partido": ""
+},
+{
+"id": "2008/0173(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0180(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Bienestar animal en la matanza; exige equipos y formación a ganaderos y mataderos.",
+"partido": ""
+},
+{
+"id": "2008/0181(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0182(COD)",
+"tipo": "eco",
+"imp": {
+"empMed": 1,
+"empGran": 1
+},
+"peso": 1,
+"nota": "Simplifica obligaciones de información en fusiones y escisiones; reduce costes a las sociedades.",
+"partido": ""
+},
+{
+"id": "2008/0183(COD)",
+"tipo": "soc",
+"imp": {
+"pobreza": 1
+},
+"peso": 1,
+"nota": "Programa de reparto de alimentos a las personas más necesitadas.",
+"partido": ""
+},
+{
+"id": "2008/0184(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo científico con Estados Unidos; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2008/0185(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Interoperabilidad entre administraciones; técnico.",
+"partido": ""
+},
+{
+"id": "2008/0186(AVC)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico de los fondos estructurales.",
+"partido": ""
+},
+{
+"id": "2008/0187(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secDig": -1
+},
+"peso": 2,
+"nota": "Itinerancia II: topes de precio a SMS y datos en el extranjero; ahorro para usuarios, menos ingresos a operadoras.",
+"partido": ""
+},
+{
+"id": "2008/0188(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Reglamento de biocidas: autorización más exigente; protege salud y medio ambiente, coste para la industria.",
+"partido": ""
+},
+{
+"id": "2008/0191(COD)",
+"tipo": "eco",
+"imp": {
+"secFin": -1
+},
+"peso": 2,
+"nota": "Endurece requisitos de capital, grandes exposiciones y titulizaciones de la banca.",
+"partido": ""
+},
+{
+"id": "2008/0192(COD)",
+"tipo": "soc",
+"imp": {
+"mujeres": 1,
+"empAut": 1
+},
+"peso": 1,
+"nota": "Igualdad de trato para autónomas y cónyuges colaboradores, con protección por maternidad.",
+"partido": ""
+},
+{
+"id": "2008/0198(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Prohíbe comercializar madera talada ilegalmente y exige diligencia debida a los operadores.",
+"partido": ""
+},
+{
+"id": "2008/0199(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Eleva la garantía de depósitos a 100.000 euros y acorta el reembolso; coste para la banca.",
+"partido": ""
+},
+{
+"id": "2008/0200(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Red de alerta sobre infraestructuras críticas; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0201(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2008/0202(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo agrícola con Suiza; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2008/0205(AVC)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica internacional de vehículos.",
+"partido": ""
+},
+{
+"id": "2008/0208(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mecanismo de ayuda a balanzas de pagos de Estados fuera del euro; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2008/0209(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo científico con Rusia; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2008/0211(COD)",
+"tipo": "soc",
+"imp": {
+"secInd": -1
+},
+"peso": 1,
+"nota": "Bienestar de animales de experimentación; más exigencias para la investigación farmacéutica.",
+"partido": ""
+},
+{
+"id": "2008/0212(AVC)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo de adaptación de un acuerdo comercial; técnico.",
+"partido": ""
+},
+{
+"id": "2008/0213(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0214(COD)",
+"tipo": "eco",
+"imp": {
+"secDig": 1,
+"cons": 1
+},
+"peso": 1,
+"nota": "Permite usar la banda de 900 MHz para 3G; más cobertura móvil.",
+"partido": ""
+},
+{
+"id": "2008/0216(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 2,
+"nota": "Refuerza el control pesquero; protege los recursos y endurece obligaciones y sanciones a la flota.",
+"partido": ""
+}
+]

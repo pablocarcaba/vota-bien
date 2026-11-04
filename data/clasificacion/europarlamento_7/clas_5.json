@@ -1,0 +1,838 @@
+[
+{
+"id": "2011/0402(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa específico de ejecución de Horizonte 2020; técnica.",
+"partido": ""
+},
+{
+"id": "2011/0404(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento de ayuda preadhesión; acción exterior sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/0405(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento Europeo de Vecindad; acción exterior sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2011/0406(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento de cooperación al desarrollo; acción exterior sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2011/0409(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Reduce los límites de ruido de los vehículos; mejora el entorno con obligaciones para fabricantes.",
+"partido": ""
+},
+{
+"id": "2011/0410(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Relaciones con Groenlandia; acción exterior.",
+"partido": ""
+},
+{
+"id": "2011/0411(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento de asociación con terceros países; acción exterior.",
+"partido": ""
+},
+{
+"id": "2011/0412(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento para la democracia y los derechos humanos en el mundo; acción exterior.",
+"partido": ""
+},
+{
+"id": "2011/0413(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento de Estabilidad; acción exterior.",
+"partido": ""
+},
+{
+"id": "2011/0414(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación en seguridad nuclear con terceros países; acción exterior.",
+"partido": ""
+},
+{
+"id": "2011/0415(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Normas comunes de ejecución de los instrumentos de acción exterior; técnica.",
+"partido": ""
+},
+{
+"id": "2011/0416(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Red de información contable agrícola; estadística técnica.",
+"partido": ""
+},
+{
+"id": "2011/0417(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Pasaporte europeo para fondos de capital riesgo; técnica.",
+"partido": ""
+},
+{
+"id": "2011/0418(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Pasaporte europeo para fondos de emprendimiento social; técnica.",
+"partido": ""
+},
+{
+"id": "2011/0421(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 2,
+"nota": "Marco de preparación y respuesta ante amenazas transfronterizas graves para la salud.",
+"partido": ""
+},
+{
+"id": "2011/0427(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Sistema EUROSUR de vigilancia de fronteras; seguridad sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2011/0428(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Programa LIFE 2014-2020: financia proyectos de medio ambiente y clima.",
+"partido": ""
+},
+{
+"id": "2011/0429(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Amplía las sustancias prioritarias en aguas; mejora su calidad con más límites para emisores industriales.",
+"partido": ""
+},
+{
+"id": "2011/0430(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reutilización de la información del sector público; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2011/0431(APP)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Marco plurianual de la Agencia de Derechos Fundamentales; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0432(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección consular de ciudadanos de la UE no representados; alcance reducido.",
+"partido": ""
+},
+{
+"id": "2011/0434(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas comerciales contra países con pesca no sostenible (caballa y arenque); sin efecto claro en España.",
+"partido": ""
+},
+{
+"id": "2011/0435(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Revisa el reconocimiento de cualificaciones profesionales (tarjeta profesional europea); técnica, efecto disperso.",
+"partido": ""
+},
+{
+"id": "2011/0436(APP)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa Europa con los ciudadanos; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0437(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Directiva de concesiones: reglas de adjudicación, sin obligar a privatizar y excluyendo el agua; efecto incierto.",
+"partido": ""
+},
+{
+"id": "2011/0438(COD)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 2,
+"nota": "Directiva de contratación pública: facilita el acceso de las pymes (lotes, requisitos) y admite criterios sociales.",
+"partido": ""
+},
+{
+"id": "2011/0439(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Contratación en sectores del agua, energía, transporte y correos; técnica.",
+"partido": ""
+},
+{
+"id": "2011/0440(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas demográficas europeas; técnica.",
+"partido": ""
+},
+{
+"id": "2011/0442(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Amplía el BERD al Mediterráneo sur y oriental; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2011/0445(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Contingentes arancelarios de carnes y cereales; adaptación técnica de competencias.",
+"partido": ""
+},
+{
+"id": "2011/0446(APP)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Extiende el programa Pericles contra la falsificación del euro; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0449(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa Pericles 2020 contra la falsificación del euro; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0453(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Importaciones de aceite de oliva de Turquía; adaptación técnica de competencias delegadas.",
+"partido": ""
+},
+{
+"id": "2011/0454(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa Hércules III contra el fraude a la UE; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0455(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reforma del Estatuto de los funcionarios de la UE; no afecta a funcionarios españoles.",
+"partido": ""
+},
+{
+"id": "2011/0458(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda macrofinanciera a Kirguistán; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/0459(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa estadístico europeo 2013-2017; técnica.",
+"partido": ""
+},
+{
+"id": "2011/0460(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa de investigación para ITER; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2011/0461(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"victimas": 1
+},
+"peso": 1,
+"nota": "Mecanismo de Protección Civil de la Unión: coordina la respuesta ante catástrofes y emergencias.",
+"partido": ""
+},
+{
+"id": "2011/0805(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Tratado de adhesión de Croacia; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0815(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo sobre las preocupaciones irlandesas respecto al Tratado de Lisboa; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0816(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo sobre las preocupaciones irlandesas respecto al Tratado de Lisboa; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0817(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo sobre la Carta de Derechos Fundamentales en la República Checa; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0818(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo sobre la Carta de Derechos Fundamentales en la República Checa; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0901A(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modifica el Estatuto del Tribunal de Justicia; procesal.",
+"partido": ""
+},
+{
+"id": "2011/0901B(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Aumenta el número de jueces del Tribunal General; institucional.",
+"partido": ""
+},
+{
+"id": "2011/0902(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Jueces suplentes del Tribunal de la Función Pública; institucional.",
+"partido": ""
+},
+{
+"id": "2011/2017(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones presupuestarias de 2012 para secciones administrativas; institucional.",
+"partido": ""
+},
+{
+"id": "2011/2018(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Previsiones de gasto del Parlamento Europeo para 2012; institucional.",
+"partido": ""
+},
+{
+"id": "2011/2020(BUD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1,
+"estud": 1
+},
+"peso": 3,
+"nota": "Presupuesto anual de la UE para 2012: ayudas de la PAC, desarrollo rural y Erasmus, entre otros.",
+"partido": ""
+},
+{
+"id": "2011/2021(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Solidaridad por inundaciones en Europa central de 2010; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2022(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo por inundaciones en Europa central; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2044(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en la República Checa; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2045(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Polonia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2060(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Solidaridad por inundaciones en Eslovenia, Croacia y Chequia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2065(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo por inundaciones en Eslovenia, Croacia y Chequia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2074(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Bélgica; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2075(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo que consigna el excedente de 2010; técnico.",
+"partido": ""
+},
+{
+"id": "2011/2092(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Dinamarca; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2093(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Dinamarca; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2124(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Austria; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2125(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Austria; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2126(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Instrumento de flexibilidad para vecindad e investigación; técnico.",
+"partido": ""
+},
+{
+"id": "2011/2128(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo de recursos propios y flujos migratorios del Mediterráneo; técnico.",
+"partido": ""
+},
+{
+"id": "2011/2130(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Asistencia técnica del Fondo de Adaptación a la Globalización; gasto administrativo.",
+"partido": ""
+},
+{
+"id": "2011/2131(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo del Supervisor de Protección de Datos y el Servicio de Acción Exterior; institucional.",
+"partido": ""
+},
+{
+"id": "2011/2136(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Países Bajos; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2137(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Países Bajos; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2138(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Países Bajos; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2139(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Países Bajos; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2158(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos de Renault en Francia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2159(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Dinamarca; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2163(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Alemania; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2167(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Portugal; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2176(INL)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Pide un sistema jurisdiccional de patentes; España no participa en la patente unitaria; procesal.",
+"partido": ""
+},
+{
+"id": "2011/2199(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Austria; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2200(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Grecia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2252(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos de la construcción en Irlanda; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2253(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos de la construcción en Irlanda; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2254(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos de la construcción en Irlanda; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2262(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Portugal; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2267(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo de recursos propios, Grecia, FSE y Palestina; técnico.",
+"partido": ""
+},
+{
+"id": "2011/2279(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Italia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2011/2300(BUD)",
+"tipo": "eco",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Fondo de Solidaridad por el terremoto de Lorca e inundaciones en Venecia; ayuda a los afectados.",
+"partido": ""
+},
+{
+"id": "2011/2301(BUD)",
+"tipo": "eco",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Presupuesto rectificativo que financia la ayuda por el terremoto de Lorca; ayuda a los afectados.",
+"partido": ""
+},
+{
+"id": "2012/0003(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección de trabajadores frente a campos electromagnéticos; afecta a pocos trabajadores, sin colectivo específico.",
+"partido": ""
+},
+{
+"id": "2012/0007(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adapta el etiquetado de preparados peligrosos al reglamento CLP; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0010(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección de datos en el ámbito policial y penal; norma de derechos sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2012/0011(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secDig": -1
+},
+"peso": 3,
+"nota": "Reglamento general de protección de datos: refuerza los derechos de los usuarios con más obligaciones para empresas tecnológicas.",
+"partido": ""
+},
+{
+"id": "2012/0013(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Modifica el plan del bacalao en el mar del Norte y Báltico; sin efecto claro en España.",
+"partido": ""
+},
+{
+"id": "2012/0019(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Defensa antidumping; adaptación técnica de competencias.",
+"partido": ""
+},
+{
+"id": "2012/0023(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"pac": 1
+},
+"peso": 1,
+"nota": "Refuerza la farmacovigilancia de medicamentos autorizados por la UE; mejora la seguridad de los pacientes.",
+"partido": ""
+},
+{
+"id": "2012/0024(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Asociación de los países y territorios de ultramar; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2012/0025(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"pac": 1
+},
+"peso": 1,
+"nota": "Refuerza la farmacovigilancia de medicamentos nacionales; mejora la seguridad de los pacientes.",
+"partido": ""
+},
+{
+"id": "2012/0027(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refundición del código aduanero de la Unión; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0028(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adhesión al Tratado de Amistad del Sudeste Asiático; acción exterior.",
+"partido": ""
+},
+{
+"id": "2012/0029(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Regulación de depositarios centrales de valores y liquidación; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0033A(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Migración al Sistema de Información de Schengen II; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0033B(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Migración al Sistema de Información de Schengen II; técnica.",
+"partido": ""
+},
+{
+"id": "2012/0035(COD)",
+"tipo": "eco",
+"imp": {
+"pac": 1,
+"secInd": 1
+},
+"peso": 1,
+"nota": "Plazos para decidir precios y financiación pública de medicamentos, después retirada; acelera el acceso y beneficia a la industria.",
+"partido": ""
+}
+]

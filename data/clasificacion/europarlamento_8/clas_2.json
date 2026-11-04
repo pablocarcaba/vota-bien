@@ -1,0 +1,868 @@
+[
+{
+"id": "2015/0005(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda macrofinanciera a Ucrania; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2015/0006(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Versión codificada del Código de fronteras Schengen; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0009(COD)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1,
+"empMed": 1
+},
+"peso": 2,
+"nota": "Plan Juncker: garantías de la UE para inversión en infraestructuras y financiación de pymes; parte se detrae de Horizonte 2020.",
+"partido": ""
+},
+{
+"id": "2015/0010(APP)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reprograma créditos no usados de 2014 en el marco financiero plurianual; técnica presupuestaria.",
+"partido": ""
+},
+{
+"id": "2015/0026(COD)",
+"tipo": "eco",
+"imp": {
+"jovenes": 1
+},
+"peso": 1,
+"nota": "Adelanta fondos de la Iniciativa de Empleo Juvenil; España, con alto paro juvenil, es gran receptora.",
+"partido": ""
+},
+{
+"id": "2015/0028(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Comercio de productos de foca; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2015/0029(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de facilitación del comercio de la OMC; acuerdo internacional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2015/0036(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Comisión del atún rojo del sur; sin efecto relevante en España.",
+"partido": ""
+},
+{
+"id": "2015/0050(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0051(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones de empleo no vinculantes para los Estados; sin efecto directo.",
+"partido": ""
+},
+{
+"id": "2015/0052(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0054(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0056(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0057(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0058(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0060(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0061(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0062(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0063(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Régimen de control pesquero del Atlántico Nororiental; transposición técnica.",
+"partido": ""
+},
+{
+"id": "2015/0065(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Deroga la directiva del ahorro, sustituida por el intercambio automático de información; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0068(CNS)",
+"tipo": "eco",
+"imp": {
+"empGran": -1
+},
+"peso": 1,
+"nota": "Intercambio automático de acuerdos fiscales previos (tax rulings); dificulta la planificación fiscal de multinacionales.",
+"partido": ""
+},
+{
+"id": "2015/0070(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Porcentaje de ajuste de pagos directos de la PAC en 2015; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0076(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo fiscal con Suiza sobre intercambio de información; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0079(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mecanismo antielusión de preferencias arancelarias con Moldavia; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0080(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mecanismo antielusión de preferencias arancelarias con Georgia; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0090(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ácido erúcico y reestructuración del azúcar; ajuste técnico.",
+"partido": ""
+},
+{
+"id": "2015/0093(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Permite a los Estados prohibir el uso de transgénicos en alimentos y piensos; rechazada, efecto incierto.",
+"partido": ""
+},
+{
+"id": "2015/0094(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de Estabilización y Asociación con Kosovo; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0096(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adapta el plan de recuperación del atún rojo a la CICAA; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0100(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo contra el comercio ilícito de tabaco; acuerdo internacional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2015/0101(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo contra el comercio ilícito de tabaco; acuerdo internacional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2015/0112(COD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Salvaguardia y estabilización del banano importado de Colombia y Perú; protege a productores europeos como el plátano canario.",
+"partido": ""
+},
+{
+"id": "2015/0113(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo con Mongolia por la adhesión de Croacia; técnico.",
+"partido": ""
+},
+{
+"id": "2015/0114(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de cooperación con Mongolia; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0125(NLE)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1,
+"nota": "Reubicación de 40.000 solicitantes de asilo desde Italia y Grecia; mejora su acogida.",
+"partido": ""
+},
+{
+"id": "2015/0128(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refundición del acceso al mercado de mercancías ACP; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0133(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Recopilación de datos pesqueros para asesoramiento científico; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0134(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modelo uniforme de visado; norma técnica.",
+"partido": ""
+},
+{
+"id": "2015/0135(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Convenio de responsabilidad por transporte marítimo de sustancias peligrosas; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0136(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Convenio de responsabilidad por transporte marítimo de sustancias peligrosas; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0138(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo con Corea por la adhesión de Croacia; técnico.",
+"partido": ""
+},
+{
+"id": "2015/0148(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Reforma del mercado de emisiones fase IV: menos derechos y más caros; beneficio climático, coste para industria y eléctricas.",
+"partido": ""
+},
+{
+"id": "2015/0149(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Reescala la etiqueta energética de A a G; mejor información al consumidor.",
+"partido": ""
+},
+{
+"id": "2015/0152(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Posibilidades de pesca con Groenlandia; da acceso a caladeros a la flota de la UE.",
+"partido": ""
+},
+{
+"id": "2015/0160(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas específicas de fondos europeos para Grecia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2015/0175(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo fiscal con Liechtenstein sobre intercambio de información; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0193(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0196(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0199(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0200(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0201(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0204(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Procedimiento de puesta a disposición de recursos propios; técnico.",
+"partido": ""
+},
+{
+"id": "2015/0209(NLE)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Reubicación de 120.000 solicitantes de asilo desde Italia, Grecia y Hungría; mejora su acogida.",
+"partido": ""
+},
+{
+"id": "2015/0210(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adhesión de Croacia a convenios de protección financiera; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0218(COD)",
+"tipo": "eco",
+"imp": {
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Contingente anual de aceite de oliva tunecino sin aranceles; más competencia para el olivar español.",
+"partido": ""
+},
+{
+"id": "2015/0224(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo pesquero con Liberia; da acceso a caladeros a la flota atunera de la UE.",
+"partido": ""
+},
+{
+"id": "2015/0225(COD)",
+"tipo": "eco",
+"imp": {
+"secFin": 1
+},
+"peso": 1,
+"nota": "Rebaja los requisitos de capital de la banca por titulizaciones simples y transparentes.",
+"partido": ""
+},
+{
+"id": "2015/0226(COD)",
+"tipo": "eco",
+"imp": {
+"secFin": 1
+},
+"peso": 2,
+"nota": "Marco de titulización simple, transparente y normalizada; facilita la financiación bancaria.",
+"partido": ""
+},
+{
+"id": "2015/0229(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo pesquero con Mauritania; acceso a caladeros, muy relevante para la flota española.",
+"partido": ""
+},
+{
+"id": "2015/0239(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de precios del gas y la electricidad; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0244(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo fiscal con San Marino sobre cuentas financieras; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0249(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prescripciones técnicas de vehículos de la CEPE; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0261(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adhesión de Croacia al convenio de cooperación aduanera; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0263(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa de asistencia técnica a reformas estructurales; sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2015/0265(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de navegación por satélite con Corea; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0268(COD)",
+"tipo": "eco",
+"imp": {
+"empPeq": 1,
+"empMed": 1
+},
+"peso": 1,
+"nota": "Reglamento de folletos: simplifica la salida a bolsa y emisiones, con folleto reducido para pymes.",
+"partido": ""
+},
+{
+"id": "2015/0269(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Endurece la adquisición y tenencia de armas de fuego civiles; afecta a cazadores y tiradores, sin colectivo propio.",
+"partido": ""
+},
+{
+"id": "2015/0272(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Economía circular: vehículos, pilas y aparatos eléctricos al final de su vida; más reciclaje, obligaciones para fabricantes.",
+"partido": ""
+},
+{
+"id": "2015/0274(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Limita el vertido de residuos municipales al 10 % en 2035; beneficio ambiental.",
+"partido": ""
+},
+{
+"id": "2015/0275(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Directiva marco de residuos: objetivos de reciclado y recogida separada; beneficio ambiental, más responsabilidad del productor.",
+"partido": ""
+},
+{
+"id": "2015/0276(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"secCom": -1
+},
+"peso": 1,
+"nota": "Objetivos de reciclado de envases; beneficio ambiental, costes para fabricantes y distribución.",
+"partido": ""
+},
+{
+"id": "2015/0278(COD)",
+"tipo": "soc",
+"imp": {
+"discapacidad": 1,
+"secDig": -1
+},
+"peso": 2,
+"nota": "Acta de Accesibilidad: productos y servicios digitales accesibles (cajeros, comercio electrónico, billetes); costes para empresas.",
+"partido": ""
+},
+{
+"id": "2015/0281(COD)",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Directiva antiterrorista: nuevos delitos y derechos de apoyo a las víctimas del terrorismo.",
+"partido": ""
+},
+{
+"id": "2015/0283(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación de derecho de sociedades; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0284(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Portabilidad: acceso a contenidos en línea suscritos durante estancias en otro Estado miembro.",
+"partido": ""
+},
+{
+"id": "2015/0285(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo fiscal con Andorra sobre intercambio de información; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0287(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secDig": -1
+},
+"peso": 2,
+"nota": "Contratos de contenidos y servicios digitales: garantías y derechos de reparación para el consumidor.",
+"partido": ""
+},
+{
+"id": "2015/0288(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Compraventa de bienes: garantía y presunción de defecto ampliadas; protege al consumidor, coste para vendedores.",
+"partido": ""
+},
+{
+"id": "2015/0289(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Autorizaciones y control de la flota pesquera exterior; más exigencias de sostenibilidad para la flota española.",
+"partido": ""
+},
+{
+"id": "2015/0292(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo con Líbano por la adhesión de Croacia; técnico.",
+"partido": ""
+},
+{
+"id": "2015/0293(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Exención de visados con China para pasaportes diplomáticos; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0295(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Exenciones de requisitos para operadores de materias primas; regulación financiera técnica.",
+"partido": ""
+},
+{
+"id": "2015/0296(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prorroga el tipo normal mínimo del IVA del 15 %; España ya lo supera.",
+"partido": ""
+},
+{
+"id": "2015/0298(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Concesiones arancelarias con China por la adhesión de Croacia; técnico.",
+"partido": ""
+},
+{
+"id": "2015/0302(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de cooperación con Afganistán; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0302M(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de cooperación con Afganistán; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2015/0306(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": -1
+},
+"peso": 1,
+"nota": "Documento de viaje europeo para facilitar el retorno de extranjeros en situación irregular.",
+"partido": ""
+},
+{
+"id": "2015/0307(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Controles sistemáticos en bases de datos en fronteras exteriores; seguridad, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0308(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Funciones de guardacostas de la Agencia de Control de la Pesca; institucional.",
+"partido": ""
+},
+{
+"id": "2015/0309(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Somete a control una nueva sustancia psicotrópica; técnica.",
+"partido": ""
+},
+{
+"id": "2015/0310(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": -1
+},
+"peso": 2,
+"nota": "Crea la Guardia Europea de Fronteras y Costas; refuerza el control fronterizo y los retornos.",
+"partido": ""
+},
+{
+"id": "2015/0313(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Funciones de guardacostas de la Agencia de Seguridad Marítima; institucional.",
+"partido": ""
+},
+{
+"id": "2015/0314(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Suspende temporalmente obligaciones de reubicación de Suecia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2015/0801(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Crea el Comité de Empleo; institucional.",
+"partido": ""
+},
+{
+"id": "2015/0802(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Crea el Comité de Protección Social; institucional.",
+"partido": ""
+},
+{
+"id": "2015/0804(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Intercambio automatizado de huellas dactilares; norma técnica policial.",
+"partido": ""
+},
+{
+"id": "2015/0805(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Intercambio automatizado de huellas dactilares; norma técnica policial.",
+"partido": ""
+},
+{
+"id": "2015/0806(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Intercambio automatizado de huellas dactilares; norma técnica policial.",
+"partido": ""
+},
+{
+"id": "2015/0807(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acceso policial y de Europol al Sistema de Información de Visados; seguridad, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2015/0808(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación de Europol con Bosnia y Herzegovina; acuerdo institucional.",
+"partido": ""
+}
+]

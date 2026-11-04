@@ -1,0 +1,602 @@
+[
+{
+"id": "2008/0069(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Marco de Referencia Europeo de Garantía de la Calidad en la Educación y Formación Profesionales",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0070(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Sistema Europeo de Créditos para la Educación y la Formación Profesionales (ECVET)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0073(NLE)",
+"tipo": "Procedimiento no legislativo (aprobación/consentimiento)",
+"titulo": "Acuerdo de Estabilización y Asociación CE/Bosnia y Herzegovina",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0074(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Numeración de los visados",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0076(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Recipientes a presión simples (versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0077(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Migración del Sistema de Información de Schengen (SIS 1+) al Sistema de Información de Schengen de segunda generación (SIS II) (decisión)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0078(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Migración del Sistema de Información de Schengen (SIS 1+) al Sistema de Información de Schengen de segunda generación (SIS II) (reglamento)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0079(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Estadísticas de los productos vegetales",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0080(AVC)",
+"tipo": "Dictamen conforme",
+"titulo": "Protocolo del Acuerdo entre la Comunidad Europea y Suiza sobre la libre circulación de personas (participación de Bulgaria y Rumanía)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0081(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Pilas y acumuladores y sus residuos",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0082(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Operaciones con títulos y contratos de garantía financiera",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0083(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Obligaciones de publicación y de traducción de determinadas formas de sociedades",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0084(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Obligaciones de publicidad de las medianas empresas y obligación de establecer cuentas consolidadas",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0086(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Responsabilidad de Montenegro relativa a los préstamos a largo plazo concedidos a Serbia y Montenegro (antigua República Federal de Yugoslavia)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0087(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Acuerdo CE/Ucrania relativo al mantenimiento de los compromisos sobre el comercio de servicios que contiene el Acuerdo de Colaboración y Cooperación",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0088(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Regímenes de apoyo en el marco de la PAC",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0089(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Sistema de recursos propios de las Comunidades",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0090(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Acceso público a los documentos del Parlamento Europeo, del Consejo y de la Comisión",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0091(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Población de arenque al oeste de Escocia",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0092(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Adopción por Eslovaquia de la moneda única el 1 de enero de 2009",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0093(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Posibilidades de pesca y contrapartida financiera previstas en el Acuerdo de asociación en el sector pesquero CE/Mauritania",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0095(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Instrumento Europeo de Vecindad y Asociación",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0097(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Modificación del Reglamento (CE) nº 834/2007 del Consejo sobre producción y etiquetado de los productos ecológicos",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0099(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Inscripciones reglamentarias de los vehículos de motor de dos o tres ruedas (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0100(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Requisitos de homologación de tipo referentes a la seguridad general de los vehículos de motor",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0101(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Establecimiento del sistema de información europeo de antecedentes penales (ECRIS)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0102(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Modificación del Reglamento (Euratom, CECA, CEE) nº 549/69 que determina las categorías de los funcionarios y agentes de las Comunidades Europeas a las que se aplicarán las disposiciones del artículo 12, del párrafo segundo del artículo 13 y del artículo 14 del Protocolo sobre los privilegios y las inmunidades de las Comunidades",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0103(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Regímenes de ayuda directa a los agricultores en el marco de la Política Agrícola Común",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0104(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Modificación de los Reglamentos (CE) nº 320/2006, (CE) nº 1234/2007, (CE) nº 3/2008 y (CE) nº […]/2008 para adaptar la Política Agrícola Común",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0105(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Modificación del Reglamento (CE) nº 1698/2005 relativo a la ayuda al desarrollo rural a través del Fondo Europeo Agrícola de Desarrollo Rural (FEADER)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0106(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Modificación de la Decisión 2006/144/CE sobre las directrices estratégicas comunitarias de desarrollo rural (período de programación 2007-2013)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0107(NLE)",
+"tipo": "Procedimiento no legislativo (aprobación/consentimiento)",
+"titulo": "Autorización de ratificación del Convenio sobre el trabajo en la pesca de 2007 de la Organización Internacional del Trabajo (Convenio 188)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0108(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Modificación del Reglamento (CE) nº 1234/2007 por el que se crea una organización común de mercados agrícolas, en lo que respecta a las normas de comercialización de la carne de aves de corral",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0109(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Derecho de sociedades en lo que se refiere a las sociedades de responsabilidad limitada de socio único (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0111(NLE)",
+"tipo": "Procedimiento no legislativo (aprobación/consentimiento)",
+"titulo": "Memorándum de cooperación entre la Organización de Aviación Civil Internacional y la CE sobre auditorías e inspecciones de la seguridad y asuntos relacionados",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0112(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Conservación de los recursos pesqueros a través de medidas técnicas",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0115(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Asiento del conductor de los tractores, agrícolas o forestales, de ruedas (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0116(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Gastos en el sector veterinario (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0117(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Fondo de Garantía relativo a las acciones exteriores (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0120(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Exoneraciones fiscales aplicables a los bienes personales de particulares procedentes de un Estado miembro (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0121(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Acuerdo CE/India sobre determinados aspectos de los servicios aéreos",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0122(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Creación de una Red Judicial Europea en materia civil y mercantil",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0123(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Instrumentos de medida y métodos de control metrológico (Refundición)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0124(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Categorías de acuerdos y de prácticas concertadas en el ámbito de los transportes aéreos (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0126(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Certificado complementario de protección para los medicamentos (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0127(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Logros y viabilidad del sistema aeronáutico europeo",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0128(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Aeródromos, gestión del tránsito aéreo y servicios de navegación aérea",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0130(NLE)",
+"tipo": "Procedimiento no legislativo (aprobación/consentimiento)",
+"titulo": "Estatuto de la Sociedad Privada Europea",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0131(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Acciones de información y de promoción de los productos agrícolas en el mercado interior y en terceros países",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0136(NLE)",
+"tipo": "Procedimiento no legislativo (aprobación/consentimiento)",
+"titulo": "Acuerdo de Asociación Económica interino CE/Costa de Marfil",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0138(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Gestión de las flotas pesqueras registradas en las regiones ultraperiféricas",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0140(APP)",
+"tipo": "Aprobación legislativa",
+"titulo": "Igualdad de trato entre las personas independientemente de su religión o convicciones, discapacidad, edad u orientación sexual",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0141(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Comité de empresa europeo (Refundición)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0142(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Derechos de los pacientes en la asistencia sanitaria transfronteriza",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0143(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Tipos reducidos del impuesto sobre el valor añadido",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0146(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Plan de consumo de fruta en las escuelas",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0147(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Aplicación de gravámenes a los vehículos pesados de transporte de mercancías",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0148(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Marco jurídico comunitario para las infraestructuras de investigación europeas (ERI)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0149(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Mecanismo de respuesta rápida frente a la fuerte subida de los precios de los productos alimenticios en los países en desarrollo",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0150(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Estructura y tipos del impuesto especial que grava las labores del tabaco",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0152(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Sistema de etiqueta ecológica comunitaria",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0153(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Coordinación de las disposiciones legales, reglamentarias y administrativas sobre determinados organismos de inversión colectiva en valores mobiliarios (OICVM)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0154(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Participación voluntaria de organizaciones en un sistema comunitario de gestión y auditoría medioambientales (EMAS)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0155(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Régimen de intercambios para la ovoalbúmina y la lactoalbúmina (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0156(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Modificación del Reglamento único para las OCM",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0157(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Plazo de protección del derecho de autor y de determinados derechos afines",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0158(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Régimen fiscal aplicable a las fusiones, escisiones, escisiones parciales, aportaciones de activos y canjes de acciones realizados entre sociedades de diferentes Estados miembros y al traslado del domicilio social (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0159(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Empresa común para la realización del sistema europeo de nueva generación para la gestión del tránsito aéreo (SESAR)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0160(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Comercio de productos derivados de la foca",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0162(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Convenio relativo a los elementos de equipo móvil y su Protocolo sobre los elementos de equipo aeronáutico",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0165(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Sustancias que agotan la capa de ozono (Versión refundida)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0166(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Enmiendas al Convenio sobre la futura cooperación multilateral en los caladeros del Atlántico Nororiental",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0167(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Medallas y fichas similares a monedas de euro",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0168(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Medallas y fichas similares a monedas de euro (aplicación a los Estados miembros no participantes)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0172(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Máquinas para la aplicación de plaguicidas",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0173(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Garantías exigidas en los Estados miembros a las sociedades con el fin de proteger los intereses de los socios y terceros (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0180(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Protección de los animales en el momento de su matanza",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0181(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Ámbito de aplicación del artículo 143, letras b) y c), de la Directiva 2006/112/CE (versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0182(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Obligaciones de información y documentación en el caso de las fusiones y escisiones",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0183(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Distribución de productos alimenticios en beneficio de las personas más necesitadas (modificación del Reglamento «OCM única»)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0184(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Acuerdo CE-Estados Unidos sobre cooperación científica y tecnológica",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0185(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Interoperabilidad para las administraciones públicas europeas (ISA)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0186(AVC)",
+"tipo": "Dictamen conforme",
+"titulo": "Fondo Europeo de Desarrollo Regional, Fondo Social Europeo y Fondo de Cohesión: proyectos generadores de ingresos (modificación del Reglamento (CE) nº 1083/2006)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0187(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Modificación del Reglamento (CE) n° 717/2007 (telefonía móvil) y de la Directiva 2002/21/CE (comunicaciones electrónicas)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0188(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Comercialización de biocidas",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0191(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Directivas sobre requisitos de capital (2006/48/CE y 2006/49/CE)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0192(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Igualdad de trato entre hombres y mujeres que ejercen una actividad autónoma",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0198(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Obligaciones de los agentes que comercializan madera y productos derivados",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0199(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Sistemas de garantía de depósitos en lo que se refiere al nivel garantizado y el plazo de reembolso",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0200(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Red de información sobre alertas en infraestructuras críticas (CIWIN)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0201(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Estadísticas comunitarias sobre la sociedad de la información",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0202(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Aprobación del Acuerdo CE/Suiza sobre el comercio de productos agrícolas",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0205(AVC)",
+"tipo": "Dictamen conforme",
+"titulo": "Adhesión de la CE al Reglamento nº 61 de la Comisión Económica para Europa de las Naciones Unidas",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0208(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Mecanismo de ayuda financiera a las balanzas de pagos de los Estados miembros",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0209(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Renovación del Acuerdo de Cooperación Científica y Tecnológica CE/Rusia",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0211(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Protección de los animales utilizados con fines científicos",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0212(AVC)",
+"tipo": "Dictamen conforme",
+"titulo": "Protocolo adicional del Acuerdo CE/Sudáfrica para tener en cuenta la adhesión de Bulgaria y Rumania a la UE",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0213(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Tractores agrícolas o forestales de ruedas (Versión codificada)",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0214(COD)",
+"tipo": "Procedimiento legislativo ordinario",
+"titulo": "Bandas de frecuencia a reservar para las comunicaciones móviles",
+"autor": "Comisión Europea"
+},
+{
+"id": "2008/0216(CNS)",
+"tipo": "Consulta legislativa",
+"titulo": "Régimen de control comunitario para garantizar el cumplimiento de las normas de la Política Pesquera Común",
+"autor": "Comisión Europea"
+}
+]

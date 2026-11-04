@@ -1,0 +1,863 @@
+[
+{
+"id": "2016/0378(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refunde la agencia de reguladores de la energía (ACER); institucional.",
+"partido": ""
+},
+{
+"id": "2016/0379(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"cons": 1
+},
+"peso": 2,
+"nota": "Reglamento del mercado eléctrico: limita ayudas por capacidad a centrales muy emisoras y reglas de mercado.",
+"partido": ""
+},
+{
+"id": "2016/0380(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"pobreza": 1
+},
+"peso": 2,
+"nota": "Directiva eléctrica: cambio de comercializador, precios dinámicos, comunidades energéticas y protección de vulnerables.",
+"partido": ""
+},
+{
+"id": "2016/0381(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secCons": 1
+},
+"peso": 2,
+"nota": "Eficiencia energética de edificios: estrategias de renovación y puntos de recarga; beneficio ambiental y obra para construcción.",
+"partido": ""
+},
+{
+"id": "2016/0382(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"cons": 1
+},
+"peso": 2,
+"nota": "Renovables: objetivo del 32 % y derecho al autoconsumo sin cargos; beneficio climático y para consumidores.",
+"partido": ""
+},
+{
+"id": "2016/0383(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/0384(COD)",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Cofinanciación de hasta el 95 % para reconstrucción tras catástrofes naturales; beneficia a afectados.",
+"partido": ""
+},
+{
+"id": "2016/0389(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; técnica, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0392(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Etiquetado y protección de indicaciones geográficas de bebidas espirituosas; norma técnica.",
+"partido": ""
+},
+{
+"id": "2016/0393(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; técnica, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0394(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o institucional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2016/0397(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Coordinación de la seguridad social entre Estados; mismo criterio que la 10.ª legislatura.",
+"partido": ""
+},
+{
+"id": "2016/0398(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Procedimiento de notificación de requisitos a servicios; técnica.",
+"partido": ""
+},
+{
+"id": "2016/0399(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o institucional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2016/0400(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o institucional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2016/0400B(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o institucional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2016/0404(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Test de proporcionalidad antes de regular profesiones; efecto de signo incierto.",
+"partido": ""
+},
+{
+"id": "2016/0406(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Autoriza la inversión del sujeto pasivo del IVA contra el fraude; técnica.",
+"partido": ""
+},
+{
+"id": "2016/0407(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": -1
+},
+"peso": 1,
+"nota": "Registra en el SIS las decisiones de retorno de extranjeros en situación irregular.",
+"partido": ""
+},
+{
+"id": "2016/0408(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "SIS en inspecciones fronterizas; cooperación técnica.",
+"partido": ""
+},
+{
+"id": "2016/0409(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "SIS en cooperación policial y judicial; cooperación técnica.",
+"partido": ""
+},
+{
+"id": "2016/0411(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Normas comunes de explotación de servicios aéreos; técnica.",
+"partido": ""
+},
+{
+"id": "2016/0412(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reconocimiento mutuo de embargos y decomisos; cooperación judicial.",
+"partido": ""
+},
+{
+"id": "2016/0413(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Controles de efectivo en las fronteras exteriores; técnica.",
+"partido": ""
+},
+{
+"id": "2016/0414(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Armoniza el delito de blanqueo de capitales; Derecho penal.",
+"partido": ""
+},
+{
+"id": "2016/0801(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0808(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0810(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0811(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0813(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0814(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0815(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0816(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0818(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0819(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0820(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0821(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0822(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/0823(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2016/2004(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2013(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores de otro Estado miembro; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2016/2019(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2022(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores de otro Estado miembro; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2016/2025(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Asistencia técnica del Fondo de Adaptación a la Globalización; gestión administrativa.",
+"partido": ""
+},
+{
+"id": "2016/2037(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2043(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores de otro Estado miembro; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2016/2047(BUD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1,
+"estud": 1
+},
+"peso": 3,
+"nota": "Presupuesto de la UE para 2017: PAC, cohesión y Erasmus+; mismo criterio que la 9.ª legislatura.",
+"partido": ""
+},
+{
+"id": "2016/2050(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores de otro Estado miembro; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2016/2051(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2074(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores de otro Estado miembro; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2016/2118(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2119(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2120(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2121(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2165(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2211(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores de otro Estado miembro; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2016/2214(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores de otro Estado miembro; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2016/2233(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2235(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores de otro Estado miembro; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2016/2237(INL)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Pide un estatuto para empresas sociales y solidarias; sin colectivo claro.",
+"partido": ""
+},
+{
+"id": "2016/2256(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2257(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2258(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2267(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2268(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2016/2298(BUD)",
+"tipo": "eco",
+"imp": {
+"desPres": 1,
+"secInd": 1
+},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para trabajadores despedidos del automóvil en la Comunidad Valenciana.",
+"partido": ""
+},
+{
+"id": "2016/2323(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Decisión presupuestaria de la UE sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2017/0002(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección de datos en las instituciones de la UE; institucional.",
+"partido": ""
+},
+{
+"id": "2017/0003(COD)",
+"tipo": "soc",
+"imp": {
+"cons": 1,
+"secDig": -1
+},
+"peso": 2,
+"nota": "Reglamento de privacidad electrónica: consentimiento para cookies y confidencialidad; carga para empresas digitales.",
+"partido": ""
+},
+{
+"id": "2017/0004(COD)",
+"tipo": "soc",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Rebaja los límites de exposición laboral a cancerígenos; protege a trabajadores y obliga a la industria.",
+"partido": ""
+},
+{
+"id": "2017/0007(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda macrofinanciera a un tercer país; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2017/0011(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación policial o intercambio de datos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2017/0013(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico de la directiva de sustancias peligrosas en aparatos eléctricos.",
+"partido": ""
+},
+{
+"id": "2017/0015(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Formación de conductores profesionales y permiso de conducción; ajuste técnico.",
+"partido": ""
+},
+{
+"id": "2017/0016(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Enmienda de Kigali sobre gases fluorados; tratado internacional.",
+"partido": ""
+},
+{
+"id": "2017/0017(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": -1,
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Mantiene excluidos del comercio de emisiones los vuelos fuera de la UE; aplaza exigencias climáticas a la aviación.",
+"partido": ""
+},
+{
+"id": "2017/0024(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o institucional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2017/0039(APP)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o institucional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2017/0042(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2017/0043(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas de pesca en caladeros con escasa flota española; técnica.",
+"partido": ""
+},
+{
+"id": "2017/0048(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma estadística; técnica, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2017/0056(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Traslada medidas de la organización pesquera del Pacífico Sur; norma técnica pesquera.",
+"partido": ""
+},
+{
+"id": "2017/0060(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o institucional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2017/0063(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Refuerza a las autoridades nacionales de competencia; beneficia a los consumidores.",
+"partido": ""
+},
+{
+"id": "2017/0073(NLE)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Somete el acriloilfentanilo a control; salud pública.",
+"partido": ""
+},
+{
+"id": "2017/0075(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo prudencial de seguros con EE. UU.; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2017/0083(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2017/0085(COD)",
+"tipo": "soc",
+"imp": {
+"infancia": 1,
+"mujeres": 1,
+"hombres": 1,
+"depend": 1
+},
+"peso": 2,
+"nota": "Conciliación: permiso de paternidad, parental remunerado no transferible, permiso de cuidadores y trabajo flexible.",
+"partido": ""
+},
+{
+"id": "2017/0086(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Portal digital único de información y trámites; servicio administrativo.",
+"partido": ""
+},
+{
+"id": "2017/0088(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2017/0090(COD)",
+"tipo": "eco",
+"imp": {
+"secFin": 1
+},
+"peso": 1,
+"nota": "EMIR Refit: alivia obligaciones de compensación y notificación de derivados.",
+"partido": ""
+},
+{
+"id": "2017/0102(COD)",
+"tipo": "soc",
+"imp": {
+"jovenes": 1
+},
+"peso": 1,
+"nota": "Cuerpo Europeo de Solidaridad: voluntariado y prácticas para jóvenes.",
+"partido": ""
+},
+{
+"id": "2017/0104(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2017/0107(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2017/0111(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Seguimiento del CO2 de camiones nuevos; medida de información.",
+"partido": ""
+},
+{
+"id": "2017/0113(COD)",
+"tipo": "eco",
+"imp": {
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Facilita el uso de camiones alquilados sin conductor; favorece a transportistas.",
+"partido": ""
+},
+{
+"id": "2017/0114(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 2,
+"nota": "Euroviñeta: peajes por distancia y según emisiones de CO2; beneficio ambiental y coste para transportistas.",
+"partido": ""
+},
+{
+"id": "2017/0115(CNS)",
+"tipo": "eco",
+"imp": {
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Permite rebajar los mínimos del impuesto de circulación de camiones; alivio para transportistas.",
+"partido": ""
+},
+{
+"id": "2017/0116(COD)",
+"tipo": "eco",
+"imp": {
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Protege a las aerolíneas europeas frente a prácticas desleales de terceros países.",
+"partido": ""
+},
+{
+"id": "2017/0121(COD)",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"secTrans": -1
+},
+"peso": 2,
+"nota": "Paquete de movilidad: desplazamiento de conductores y control; mejora condiciones de conductores y coste para transportistas periféricos.",
+"partido": ""
+}
+]

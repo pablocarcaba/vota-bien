@@ -1,0 +1,922 @@
+[
+{
+"id": "1992/0449(COD)",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Límites de exposición de los trabajadores a campos electromagnéticos; mejora su protección con costes para la industria.",
+"partido": ""
+},
+{
+"id": "1998/0304(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "1999/0238(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"infancia": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Prohíbe ftalatos en juguetes y artículos infantiles; protege la salud de los niños con costes para los fabricantes.",
+"partido": ""
+},
+{
+"id": "2000/0238(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Normas mínimas comunes del procedimiento de asilo; mezcla garantías y conceptos restrictivos, signo incierto.",
+"partido": ""
+},
+{
+"id": "2002/0072(COD)",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"jovenes": 1
+},
+"peso": 2,
+"nota": "Igualdad de trato de los trabajadores cedidos por ETT con la plantilla de la empresa usuaria.",
+"partido": ""
+},
+{
+"id": "2002/0254(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 2,
+"nota": "Endurece los criterios de calidad y la información sobre las aguas de baño; mejora la salud pública.",
+"partido": ""
+},
+{
+"id": "2003/0165(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Regula las alegaciones nutricionales y saludables en alimentos; protege al consumidor y exige pruebas a la industria.",
+"partido": ""
+},
+{
+"id": "2003/0189A(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Restringe los gases fluorados de efecto invernadero; beneficio climático con costes para la industria.",
+"partido": ""
+},
+{
+"id": "2003/0252(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Permiso de conducción europeo único y renovación periódica del documento; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2003/0256(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"empPeq": -1
+},
+"peso": 3,
+"nota": "REACH: registro y evaluación de sustancias químicas; protege salud y ambiente con altos costes para la industria y pymes.",
+"partido": ""
+},
+{
+"id": "2003/0262(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Armoniza la adición de vitaminas y minerales a los alimentos; seguridad alimentaria con requisitos para la industria.",
+"partido": ""
+},
+{
+"id": "2003/0270(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación judicial penal en la obtención de pruebas; procesal.",
+"partido": ""
+},
+{
+"id": "2003/0318(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Plan de recuperación de merluza austral y cigala ibéricas; reduce capturas de la flota española.",
+"partido": ""
+},
+{
+"id": "2004/0001(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secCom": 1,
+"empAut": 1
+},
+"peso": 3,
+"nota": "Directiva Bolkestein: elimina trabas a la prestación de servicios y simplifica licencias; más competencia y menos cargas administrativas.",
+"partido": ""
+},
+{
+"id": "2004/0020(CNS)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Prohíbe la pesca de arrastre de fondo sobre arrecifes de coral en zonas del Atlántico.",
+"partido": ""
+},
+{
+"id": "2004/0039(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Biometría en pasaportes; seguridad documental sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2004/0047(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": -1,
+"secTrans": 1
+},
+"peso": 2,
+"nota": "Tercer paquete ferroviario: abre a la competencia el transporte internacional de viajeros por ferrocarril.",
+"partido": ""
+},
+{
+"id": "2004/0048(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Certificación armonizada de maquinistas; técnica.",
+"partido": ""
+},
+{
+"id": "2004/0058(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2004/0069(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Intercambio de información sobre terrorismo entre Estados; cooperación policial.",
+"partido": ""
+},
+{
+"id": "2004/0070(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2004/0071(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2004/0073(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Financia la promoción de productos agrícolas europeos dentro y fuera de la UE.",
+"partido": ""
+},
+{
+"id": "2004/0086(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Equivalencia de controles de semillas de terceros países; técnica.",
+"partido": ""
+},
+{
+"id": "2004/0090(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Codificación de normas sobre alimentos dietéticos; técnica.",
+"partido": ""
+},
+{
+"id": "2004/0098(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reconocimiento simplificado de títulos marítimos; técnica.",
+"partido": ""
+},
+{
+"id": "2004/0100(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación de normas sanitarias sobre moluscos bivalvos; técnica.",
+"partido": ""
+},
+{
+"id": "2004/0113(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Derechos procesales mínimos de los acusados en la UE; procesal.",
+"partido": ""
+},
+{
+"id": "2004/0122(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa de cooperación administrativa en fronteras, visados y asilo; institucional.",
+"partido": ""
+},
+{
+"id": "2004/0134(AVC)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2004/0145(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda a la comunidad turcochipriota; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2004/0154(COD)",
+"tipo": "eco",
+"imp": {
+"secCons": 1
+},
+"peso": 2,
+"nota": "Financiación de las redes transeuropeas de transporte y energía 2007-2013; inversión en infraestructuras.",
+"partido": ""
+},
+{
+"id": "2004/0156(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa Galileo de radionavegación por satélite; institucional.",
+"partido": ""
+},
+{
+"id": "2004/0161(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1
+},
+"peso": 2,
+"nota": "Reglamento FEADER 2007-2013: ayudas al desarrollo rural, la agricultura y el medio rural.",
+"partido": ""
+},
+{
+"id": "2004/0162(CNS)",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Refuerza el programa europeo de protección civil ante catástrofes.",
+"partido": ""
+},
+{
+"id": "2004/0163(AVC)",
+"tipo": "eco",
+"imp": {
+"secCons": 1,
+"rural": 1
+},
+"peso": 3,
+"nota": "Reglamento general de los fondos de cohesión 2007-2013; inversión pública y empleo, con gran peso para España.",
+"partido": ""
+},
+{
+"id": "2004/0166(AVC)",
+"tipo": "eco",
+"imp": {
+"secCons": 1
+},
+"peso": 2,
+"nota": "Fondo de Cohesión 2007-2013: financia infraestructuras de transporte y medio ambiente.",
+"partido": ""
+},
+{
+"id": "2004/0167(COD)",
+"tipo": "eco",
+"imp": {
+"secCons": 1,
+"empPeq": 1
+},
+"peso": 2,
+"nota": "FEDER 2007-2013: financia infraestructuras, innovación y pymes en regiones menos desarrolladas.",
+"partido": ""
+},
+{
+"id": "2004/0168(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Figura jurídica para la cooperación transfronteriza entre administraciones; institucional.",
+"partido": ""
+},
+{
+"id": "2004/0169(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 2,
+"nota": "Fondo Europeo de Pesca 2007-2013: ayudas a la flota, la acuicultura y las zonas pesqueras.",
+"partido": ""
+},
+{
+"id": "2004/0209(COD)",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"proSan": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 2,
+"nota": "Posición del Parlamento: suprime el opt-out de 48 horas y computa las guardias como tiempo de trabajo; no se aprobó.",
+"partido": ""
+},
+{
+"id": "2004/0213(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Financia estudios para la política pesquera; técnica.",
+"partido": ""
+},
+{
+"id": "2004/0215(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Escuela Europea de Policía; institucional.",
+"partido": ""
+},
+{
+"id": "2004/0218(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Programa LIFE+ 2007-2013 de financiación ambiental y de biodiversidad.",
+"partido": ""
+},
+{
+"id": "2004/0224(AVC)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa PEACE en Irlanda del Norte; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2004/0229(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Plan de recuperación del fletán negro en NAFO; limita capturas de la flota gallega.",
+"partido": ""
+},
+{
+"id": "2004/0233(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2004/0234(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste del reglamento de desarrollo rural del FEOGA; técnico.",
+"partido": ""
+},
+{
+"id": "2004/0237(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modifica las normas sobre aditivos alimentarios; técnica.",
+"partido": ""
+},
+{
+"id": "2004/0247(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1
+},
+"peso": 1,
+"nota": "Programa POSEI de apoyo a la agricultura de las regiones ultraperiféricas, como Canarias.",
+"partido": ""
+},
+{
+"id": "2004/0258(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Licencias obligatorias de medicamentos para países pobres; sin efecto directo en España.",
+"partido": ""
+},
+{
+"id": "2004/0264(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2004/0268(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2004/0269(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Contingentes de fécula de patata; sin efecto relevante en España.",
+"partido": ""
+},
+{
+"id": "2004/0274(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2004/0275(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2004/0816(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cambio de procedimiento decisorio en asilo, visados e inmigración; institucional.",
+"partido": ""
+},
+{
+"id": "2004/2001(BUD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1,
+"estud": 1
+},
+"peso": 3,
+"nota": "Presupuesto anual de la UE: financia la PAC, la cohesión y Erasmus, con fuerte retorno a España.",
+"partido": ""
+},
+{
+"id": "2004/2002(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto de las demás instituciones; gasto administrativo.",
+"partido": ""
+},
+{
+"id": "2005/0005(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Transferencia de pesqueros a países del tsunami; sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2005/0007(COD)",
+"tipo": "soc",
+"imp": {
+"discapacidad": 1,
+"secTrans": -1
+},
+"peso": 2,
+"nota": "Derechos de asistencia gratuita a personas con discapacidad y movilidad reducida en el transporte aéreo.",
+"partido": ""
+},
+{
+"id": "2005/0008(COD)",
+"tipo": "soc",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Lista negra de aerolíneas inseguras e información al pasajero sobre la compañía que opera el vuelo.",
+"partido": ""
+},
+{
+"id": "2005/0017(COD)",
+"tipo": "soc",
+"imp": {
+"mujeres": 1
+},
+"peso": 1,
+"nota": "Crea el Instituto Europeo de la Igualdad de Género.",
+"partido": ""
+},
+{
+"id": "2005/0018(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Toma en cuenta de condenas de otros Estados en nuevos procesos; procesal.",
+"partido": ""
+},
+{
+"id": "2005/0037A(COD)",
+"tipo": "soc",
+"imp": {
+"victimas": 1,
+"mujeres": 1,
+"infancia": 1
+},
+"peso": 1,
+"nota": "Programa Daphne contra la violencia hacia mujeres, niños y jóvenes.",
+"partido": ""
+},
+{
+"id": "2005/0037B(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Programa de prevención del consumo de drogas e información; salud pública.",
+"partido": ""
+},
+{
+"id": "2005/0038(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa de derechos fundamentales y ciudadanía; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0039(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa de justicia penal; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0040(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa de justicia civil; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0041(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa Ciudadanos para Europa; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0044(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa de investigación nuclear de Euratom; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0052(CNS)",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Instrumento financiero de respuesta rápida ante emergencias graves.",
+"partido": ""
+},
+{
+"id": "2005/0056(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2005/0061(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Reforma del procedimiento de déficit excesivo del Pacto de Estabilidad; disciplina fiscal sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2005/0064(SYN)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Reforma del brazo preventivo del Pacto de Estabilidad; disciplina fiscal sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2005/0090(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Normas financieras del presupuesto de la UE; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0092(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2005/0102(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa de capitales europeas de la cultura; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0103(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Sistema de Información de Schengen de segunda generación; cooperación policial.",
+"partido": ""
+},
+{
+"id": "2005/0104(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acceso de los registros de vehículos al SIS II; técnico.",
+"partido": ""
+},
+{
+"id": "2005/0106(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Sistema de Información de Schengen de segunda generación; cooperación policial.",
+"partido": ""
+},
+{
+"id": "2005/0124(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Crea la Agencia de Derechos Fundamentales; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0125(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Competencias de la Agencia de Derechos Fundamentales en cooperación policial; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0127(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Sanciones penales por infracciones de propiedad intelectual; no se aprobó, signo incierto para los colectivos.",
+"partido": ""
+},
+{
+"id": "2005/0129(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1
+},
+"peso": 1,
+"nota": "Orientaciones estratégicas del desarrollo rural 2007-2013.",
+"partido": ""
+},
+{
+"id": "2005/0130(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Propuesta de impuestos sobre turismos ligados al CO2; no adoptada y de signo incierto.",
+"partido": ""
+},
+{
+"id": "2005/0138(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Datos del ordenante en transferencias contra el blanqueo; técnico.",
+"partido": ""
+},
+{
+"id": "2005/0150(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de navegación interior; técnica.",
+"partido": ""
+},
+{
+"id": "2005/0153(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Requisitos zoosanitarios de la acuicultura; técnica.",
+"partido": ""
+},
+{
+"id": "2005/0156(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de migración y asilo; técnica.",
+"partido": ""
+},
+{
+"id": "2005/0157(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Financiación de los organismos europeos de normalización; técnica.",
+"partido": ""
+},
+{
+"id": "2005/0159(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Simplifica controles fronterizos para residentes en Suiza y Liechtenstein; técnica.",
+"partido": ""
+},
+{
+"id": "2005/0162(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mercado del lúpulo; sin efecto relevante en España.",
+"partido": ""
+},
+{
+"id": "2005/0167(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": -1
+},
+"peso": 2,
+"nota": "Directiva de retorno: expulsión, internamiento hasta 18 meses y prohibición de entrada para inmigrantes en situación irregular.",
+"partido": ""
+},
+{
+"id": "2005/0175(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Restricción temporal a la importación de cerveza en Finlandia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2005/0182(COD)",
+"tipo": "soc",
+"imp": {
+"cons": -1,
+"secDig": -1
+},
+"peso": 2,
+"nota": "Obliga a conservar datos de tráfico de las comunicaciones; afecta a la privacidad de los usuarios y cuesta a las operadoras.",
+"partido": ""
+},
+{
+"id": "2005/0183(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"secTrans": -1
+},
+"peso": 2,
+"nota": "Directiva de calidad del aire: límites a partículas finas y contaminantes; salud pública con costes para industria y transporte.",
+"partido": ""
+},
+{
+"id": "2005/0191(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Normas de seguridad de la aviación civil contra actos ilícitos; seguridad.",
+"partido": ""
+},
+{
+"id": "2005/0194(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Requisitos de seguridad para la pirotecnia; protege al consumidor con costes para los fabricantes.",
+"partido": ""
+},
+{
+"id": "2005/0202(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección de datos en la cooperación policial y judicial; institucional.",
+"partido": ""
+}
+]

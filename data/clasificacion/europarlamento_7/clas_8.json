@@ -1,0 +1,861 @@
+[
+{
+"id": "2013/0189(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adapta la directiva de permiso parental al nuevo estatuto de Mayotte; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2013/0190(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adopción del euro por Letonia; institucional, sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2013/0191(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adaptación técnica de reglamentos de pesca y sanidad animal a Mayotte; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2013/0192(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adaptación técnica de directivas a Mayotte; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2013/0198(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Incluye a Groenlandia en el sistema Kimberley de diamantes; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2013/0200(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Gestión de fondos para Estados con programas de rescate; España no es destinataria directa.",
+"partido": ""
+},
+{
+"id": "2013/0201(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Participación de Groenlandia en el sistema Kimberley; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2013/0202(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Red de cooperación entre servicios públicos de empleo; organización administrativa sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0210(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reconocimiento de visados por Croacia y Chipre; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0213(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Obliga a las administraciones a aceptar facturas electrónicas normalizadas; técnico, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0218(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adaptación de procedimientos de comitología al Tratado de Lisboa; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0220(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adaptación de procedimientos de comitología en justicia; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0221(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refundición de la directiva de equipos a presión; norma técnica de producto.",
+"partido": ""
+},
+{
+"id": "2013/0222(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": -1
+},
+"peso": 1,
+"nota": "Tasas que la industria farmacéutica paga a la EMA por la farmacovigilancia.",
+"partido": ""
+},
+{
+"id": "2013/0224(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Seguimiento y notificación de emisiones de CO2 de buques; base para la política climática, obligaciones para navieras.",
+"partido": ""
+},
+{
+"id": "2013/0226(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de navegación interior; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0232(COD)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Programa Eurostars 2: financiación de pymes que investigan.",
+"partido": ""
+},
+{
+"id": "2013/0233(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa de investigación en vida asistida para mayores; financiación de I+D sin efecto directo en colectivos.",
+"partido": ""
+},
+{
+"id": "2013/0234(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Empresa común de investigación en electrónica; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0237(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prórroga de la empresa común SESAR de gestión del tránsito aéreo; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0238(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Año Europeo del Desarrollo; simbólico, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2013/0239(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Refuerza las inspecciones de traslados de residuos para frenar los envíos ilegales; beneficio ambiental.",
+"partido": ""
+},
+{
+"id": "2013/0240(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Empresa común de investigación en medicamentos innovadores; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0241(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Empresa común de investigación en bioindustrias; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0242(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa de investigación en metrología; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2013/0243(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Programa de ensayos clínicos con países en desarrollo; sin efecto directo en España.",
+"partido": ""
+},
+{
+"id": "2013/0244(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Empresa común de investigación aeronáutica Clean Sky 2; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0245(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Empresa común de investigación en hidrógeno; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0246(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Nueva directiva de viajes combinados: más información, responsabilidad y protección del viajero; obligaciones para agencias y operadores turísticos.",
+"partido": ""
+},
+{
+"id": "2013/0248(COD)",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Reforma del Fondo de Solidaridad: amplía catástrofes regionales y permite anticipos; beneficia a afectados por catástrofes.",
+"partido": ""
+},
+{
+"id": "2013/0249(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa estadístico europeo; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0253(COD)",
+"tipo": "eco",
+"imp": {
+"secFin": -1
+},
+"peso": 3,
+"nota": "Mecanismo Único de Resolución: resolución bancaria con recapitalización interna y fondo financiado por los bancos.",
+"partido": ""
+},
+{
+"id": "2013/0255(APP)",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Crea la Fiscalía Europea contra delitos que afectan al presupuesto de la UE; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0257(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Participación de Georgia en programas de la UE; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2013/0262(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo con Montenegro por la adhesión de Croacia; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0266(CNS)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 1,
+"nota": "Importaciones de pescado sin arancel para la industria transformadora canaria.",
+"partido": ""
+},
+{
+"id": "2013/0267A(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo con Corea sobre readmisión; acuerdo internacional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0267B(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo marco con Corea; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2013/0268(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adapta Bruselas I al Tribunal Unificado de Patentes y al de Benelux; procesal.",
+"partido": ""
+},
+{
+"id": "2013/0269(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fiscalidad del ahorro en San Bartolomé; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2013/0271(COD)",
+"tipo": "eco",
+"imp": {
+"jovenes": 1,
+"desSub": 1,
+"pobreza": 1
+},
+"peso": 1,
+"nota": "Fondos adicionales del FSE para Francia, Italia y España contra el paro juvenil y la exclusión.",
+"partido": ""
+},
+{
+"id": "2013/0278(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de intercambios intracomunitarios; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0279(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de comercio exterior; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0280(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "IVA e impuestos especiales en regiones ultraperiféricas francesas; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2013/0281(APP)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Deroga un programa antiterrorista ya integrado en otro fondo; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0297(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de transporte ferroviario; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0302(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Requisitos técnicos de embarcaciones de navegación interior; sin efecto relevante en España.",
+"partido": ""
+},
+{
+"id": "2013/0303(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Capacidad de las flotas de navegación interior; sin efecto relevante en España.",
+"partido": ""
+},
+{
+"id": "2013/0304(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Incluye nuevas sustancias en la definición penal de droga; norma penal sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0305(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Retirada más rápida del mercado de nuevas sustancias psicotrópicas nocivas; salud pública.",
+"partido": ""
+},
+{
+"id": "2013/0307(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 2,
+"nota": "Restringe tenencia, comercio y cría de especies invasoras; beneficio para la biodiversidad, limita usos en pesca y acuicultura.",
+"partido": ""
+},
+{
+"id": "2013/0308(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adhesión de Croacia a un convenio fiscal; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0309(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secDig": -1
+},
+"peso": 2,
+"nota": "Fin de los recargos de itinerancia y neutralidad de la red; beneficia a usuarios, reduce ingresos de operadoras.",
+"partido": ""
+},
+{
+"id": "2013/0311(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo con Albania por la adhesión de Croacia; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0313(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Modificación del Reglamento financiero de la UE; norma presupuestaria técnica.",
+"partido": ""
+},
+{
+"id": "2013/0315(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Protocolo pesquero con Marruecos; da acceso a caladeros a la flota de la UE, sobre todo española.",
+"partido": ""
+},
+{
+"id": "2013/0325(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Preferencias comerciales para Moldavia; coherente con el resto del comercio con Moldavia y Ucrania.",
+"partido": ""
+},
+{
+"id": "2013/0327(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Aplaza fechas de transposición y aplicación de Solvencia II; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0340(NLE)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Refuerza la seguridad nuclear tras Fukushima; más exigencias para las centrales.",
+"partido": ""
+},
+{
+"id": "2013/0343(CNS)",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Declaración de IVA normalizada en toda la UE; reduce cargas administrativas a empresas.",
+"partido": ""
+},
+{
+"id": "2013/0344(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": -1,
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Prorroga la exclusión de vuelos internacionales del mercado de emisiones; rebaja climática que ahorra costes a aerolíneas.",
+"partido": ""
+},
+{
+"id": "2013/0351(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo de cooperación científica con EE. UU.; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2013/0356(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Facilitación de visados con Azerbaiyán; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2013/0358(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Readmisión con Azerbaiyán; acuerdo internacional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0361(APP)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Cumbre social tripartita; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0365(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Adaptación de procedimientos de comitología al Tratado; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0367(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Financiación de encuestas agrícolas; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0371(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Obliga a reducir el consumo de bolsas de plástico ligeras (cobro o prohibición); beneficio ambiental, costes para fabricantes y comercio.",
+"partido": ""
+},
+{
+"id": "2013/0375(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Protocolo pesquero con Seychelles; da acceso a caladeros a la flota atunera, mayoritariamente española.",
+"partido": ""
+},
+{
+"id": "2013/0377(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ejecución técnica del Protocolo de Kioto; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0387(CNS)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 1,
+"nota": "Prórroga del AIEM canario, que grava importaciones para proteger la producción local de Canarias.",
+"partido": ""
+},
+{
+"id": "2013/0388(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Protocolo pesquero con Comoras; acceso a caladeros para la flota atunera, en parte española.",
+"partido": ""
+},
+{
+"id": "2013/0392(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones de empleo de la UE; no vinculantes, sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2013/0398(COD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Amplía la financiación de la promoción de productos agrícolas en la UE y fuera; beneficia al sector agroalimentario.",
+"partido": ""
+},
+{
+"id": "2013/0400(CNS)",
+"tipo": "eco",
+"imp": {
+"empGran": -1
+},
+"peso": 1,
+"nota": "Impide la doble no imposición con préstamos híbridos entre matrices y filiales; afecta a grupos multinacionales.",
+"partido": ""
+},
+{
+"id": "2013/0410(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación administrativa aduanera y agraria contra el fraude; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0413(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Tipo reducido para el ron de los departamentos franceses de ultramar; sin efecto claro en España.",
+"partido": ""
+},
+{
+"id": "2013/0415(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1,
+"nota": "Exime de visado a Colombia, Perú y otros países; facilita viajes de sus nacionales, comunidades numerosas en España.",
+"partido": ""
+},
+{
+"id": "2013/0416(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda macrofinanciera a Túnez; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2013/0423(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Participación de Liechtenstein en la Oficina de Asilo; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0427(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Participación de Noruega en la Oficina de Asilo; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0438(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Actualización salarial 2011 del personal de la UE; no afecta a funcionarios españoles.",
+"partido": ""
+},
+{
+"id": "2013/0439(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Actualización salarial 2012 del personal de la UE; no afecta a funcionarios españoles.",
+"partido": ""
+},
+{
+"id": "2013/0445(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Empresa común de investigación ferroviaria Shift2Rail; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2013/0446(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prórroga de un tipo reducido de impuestos especiales en Madeira y Azores; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2013/0449(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Periodo transitorio de seis meses para la migración a SEPA; técnico.",
+"partido": ""
+},
+{
+"id": "2013/0801(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Lista de terceros países con los que Europol puede firmar acuerdos; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0802(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Fecha de las elecciones europeas de 2014; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0812(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reorganización de la Escuela Europea de Policía; institucional.",
+"partido": ""
+},
+{
+"id": "2013/0900(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reparto de escaños del Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2013/2003(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones presupuestarias de otras instituciones; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2013/2010(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones para el presupuesto de 2014; no vinculantes.",
+"partido": ""
+},
+{
+"id": "2013/2018(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Previsiones de gasto del Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2013/2032(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Italia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2013/2048(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Austria; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2013/2049(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Adaptación a la Globalización para despedidos en Italia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2013/2054(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo por la adhesión de Croacia; técnico.",
+"partido": ""
+},
+{
+"id": "2013/2056(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo de ingresos por multas y créditos de pago; técnico.",
+"partido": ""
+},
+{
+"id": "2013/2070(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo que consigna el excedente de 2012; técnico.",
+"partido": ""
+},
+{
+"id": "2013/2084(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo de plantillas de agencias y del Tribunal de Justicia; técnico.",
+"partido": ""
+}
+]

@@ -1,0 +1,736 @@
+[
+{
+"id": "2008/0217(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Registro y supervisión de agencias de calificación crediticia; más protección al inversor y exigencias al sector.",
+"partido": ""
+},
+{
+"id": "2008/0218(CNS)",
+"tipo": "soc",
+"imp": {
+"pac": 1
+},
+"peso": 1,
+"nota": "Recomendación sobre enfermedades raras; mejora diagnóstico y atención a pacientes.",
+"partido": ""
+},
+{
+"id": "2008/0219(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0220(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reservas mínimas de petróleo; España ya tenía un sistema equivalente; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2008/0221(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"ciud": 1
+},
+"peso": 1,
+"nota": "Etiqueta de neumáticos con eficiencia, adherencia y ruido; mejor información y menos consumo.",
+"partido": ""
+},
+{
+"id": "2008/0222(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"ciud": 1
+},
+"peso": 1,
+"nota": "Extiende la etiqueta energética a más productos; mejor información y ahorro energético.",
+"partido": ""
+},
+{
+"id": "2008/0223(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"cons": 1
+},
+"peso": 2,
+"nota": "Edificios nuevos de consumo casi nulo desde 2020 y certificados energéticos; menos emisiones y facturas.",
+"partido": ""
+},
+{
+"id": "2008/0224(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Régimen del personal de la UE; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0226(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0229(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secCom": -1
+},
+"peso": 1,
+"nota": "Obliga a recuperar vapores de gasolina en gasolineras grandes; mejor aire, coste para las estaciones.",
+"partido": ""
+},
+{
+"id": "2008/0230(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa de investigación en metrología; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2008/0231(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Marco común de seguridad nuclear; protege a la población, exigencias a las centrales.",
+"partido": ""
+},
+{
+"id": "2008/0232(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Simplifica los costes subvencionables del FSE; técnico.",
+"partido": ""
+},
+{
+"id": "2008/0233(AVC)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Gestión financiera de los fondos estructurales (anticipos); técnico.",
+"partido": ""
+},
+{
+"id": "2008/0235(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación técnica sin cambios de fondo.",
+"partido": ""
+},
+{
+"id": "2008/0237(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"discapacidad": 1,
+"secTrans": -1
+},
+"peso": 2,
+"nota": "Derechos de viajeros de autobús: indemnizaciones, información y asistencia a personas con movilidad reducida.",
+"partido": ""
+},
+{
+"id": "2008/0239(COD)",
+"tipo": "eco",
+"imp": {
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Flexibiliza ayudas Marco Polo para trasladar mercancías fuera de la carretera.",
+"partido": ""
+},
+{
+"id": "2008/0242(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": -1
+},
+"peso": 1,
+"nota": "Refunde Eurodac de huellas de solicitantes de asilo; refuerza su control.",
+"partido": ""
+},
+{
+"id": "2008/0243(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Dublín III: mantiene el criterio del primer país, con más garantías (reagrupación, recurso, límites al internamiento).",
+"partido": ""
+},
+{
+"id": "2008/0244(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Mejora las condiciones de acogida de solicitantes de asilo (acceso al empleo, garantías en internamiento).",
+"partido": ""
+},
+{
+"id": "2008/0245(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"secCons": 1
+},
+"peso": 1,
+"nota": "Permite usar el FEDER en eficiencia energética y renovables de viviendas.",
+"partido": ""
+},
+{
+"id": "2008/0246(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"discapacidad": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Derechos de pasajeros por mar: indemnizaciones por retraso y asistencia a personas con movilidad reducida.",
+"partido": ""
+},
+{
+"id": "2008/0247(COD)",
+"tipo": "eco",
+"imp": {
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Corredores ferroviarios de mercancías con prioridad de surcos; favorece a operadores de mercancías.",
+"partido": ""
+},
+{
+"id": "2008/0258(COD)",
+"tipo": "eco",
+"imp": {
+"secDig": 1
+},
+"peso": 1,
+"nota": "Programa de financiación de la cooperación audiovisual internacional.",
+"partido": ""
+},
+{
+"id": "2008/0259(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Procedimiento para acuerdos bilaterales sobre ley aplicable; técnico.",
+"partido": ""
+},
+{
+"id": "2008/0262(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Protocolo alpino de transportes; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2008/0263(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Marco para sistemas de transporte inteligentes; técnico, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2008/0266(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Procedimiento para acuerdos bilaterales en materia matrimonial; técnico.",
+"partido": ""
+},
+{
+"id": "2008/0267(COD)",
+"tipo": "eco",
+"imp": {
+"desPres": 1
+},
+"peso": 1,
+"nota": "Amplía el Fondo de Adaptación a la Globalización a despidos por la crisis y eleva la cofinanciación.",
+"partido": ""
+},
+{
+"id": "2008/0268(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Garantía de la UE a préstamos exteriores del BEI; sin efecto distributivo en España.",
+"partido": ""
+},
+{
+"id": "2008/0801(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Régimen lingüístico del Tribunal de Justicia; procesal.",
+"partido": ""
+},
+{
+"id": "2008/0802(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Red judicial europea penal; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0803(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reconocimiento mutuo de resoluciones penales; procesal.",
+"partido": ""
+},
+{
+"id": "2008/0804(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Refuerzo de Eurojust; institucional.",
+"partido": ""
+},
+{
+"id": "2008/0806(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Régimen lingüístico del Tribunal de la Función Pública; procesal.",
+"partido": ""
+},
+{
+"id": "2008/0807(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Información estadística del BCE; técnico.",
+"partido": ""
+},
+{
+"id": "2008/2012(INL)",
+"tipo": "soc",
+"imp": {
+"mujeres": 1,
+"empMed": -1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Pide medidas para la igualdad salarial entre mujeres y hombres; obligaciones para las empresas.",
+"partido": ""
+},
+{
+"id": "2008/2017(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Solidaridad para catástrofes en otros Estados; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2008/2021(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones presupuestarias de las instituciones; sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "2008/2022(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Previsiones de gasto del Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2008/2024(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Marco y prioridades del presupuesto 2009; orientativo.",
+"partido": ""
+},
+{
+"id": "2008/2025(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mandato de concertación presupuestaria; orientativo.",
+"partido": ""
+},
+{
+"id": "2008/2026(BUD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1,
+"estud": 1
+},
+"peso": 3,
+"nota": "Presupuesto de la UE 2009: financia ayudas agrarias, desarrollo rural, cohesión y programas educativos.",
+"partido": ""
+},
+{
+"id": "2008/2026B(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto de las demás instituciones; institucional.",
+"partido": ""
+},
+{
+"id": "2008/2080(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste de créditos de fondos estructurales y agrarios; técnico.",
+"partido": ""
+},
+{
+"id": "2008/2094(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Consigna el excedente del ejercicio anterior; técnico.",
+"partido": ""
+},
+{
+"id": "2008/2095(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste presupuestario para iniciativas tecnológicas; técnico.",
+"partido": ""
+},
+{
+"id": "2008/2096(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adaptación de actos a la comitología; institucional.",
+"partido": ""
+},
+{
+"id": "2008/2122(INL)",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1
+},
+"peso": 1,
+"nota": "Pide impulsar el microcrédito para autónomos y microempresas.",
+"partido": ""
+},
+{
+"id": "2008/2123(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección jurídica de adultos en casos transfronterizos; procesal.",
+"partido": ""
+},
+{
+"id": "2008/2124(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reconocimiento del documento público europeo; procesal.",
+"partido": ""
+},
+{
+"id": "2008/2125(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Justicia electrónica; organización judicial.",
+"partido": ""
+},
+{
+"id": "2008/2148(INL)",
+"tipo": "eco",
+"imp": {
+"secFin": -1
+},
+"peso": 1,
+"nota": "Pide reforzar la supervisión financiera europea tras la crisis.",
+"partido": ""
+},
+{
+"id": "2008/2161(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste del estado de ingresos; técnico.",
+"partido": ""
+},
+{
+"id": "2008/2169(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Pide regular la iniciativa ciudadana europea; institucional.",
+"partido": ""
+},
+{
+"id": "2008/2196(INL)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Pide regular el traslado de sede social entre Estados; efecto distributivo poco claro.",
+"partido": ""
+},
+{
+"id": "2008/2252(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Solidaridad para catástrofes en otros Estados; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2008/2287(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto del Comité Económico y Social; institucional.",
+"partido": ""
+},
+{
+"id": "2008/2311(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Excedente y reserva de ayuda alimentaria exterior; técnico.",
+"partido": ""
+},
+{
+"id": "2008/2316(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda por sequía en Chipre; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/0001(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Financia organismos de normas contables y auditoría; institucional.",
+"partido": ""
+},
+{
+"id": "2009/0003(CNS)",
+"tipo": "soc",
+"imp": {
+"pac": 1
+},
+"peso": 1,
+"nota": "Recomendación sobre seguridad de los pacientes e infecciones hospitalarias.",
+"partido": ""
+},
+{
+"id": "2009/0008(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1
+},
+"peso": 1,
+"nota": "Programas de reestructuración del algodón; beneficia a productores andaluces.",
+"partido": ""
+},
+{
+"id": "2009/0010(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 2,
+"nota": "Plan de recuperación: financia interconexiones de gas y electricidad, eólica marina y captura de carbono.",
+"partido": ""
+},
+{
+"id": "2009/0011(CNS)",
+"tipo": "eco",
+"imp": {
+"rural": 1,
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Más fondos de desarrollo rural, incluida banda ancha en zonas rurales.",
+"partido": ""
+},
+{
+"id": "2009/0016(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Información veterinaria y zootécnica; técnico.",
+"partido": ""
+},
+{
+"id": "2009/0022(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Deroga actos pesqueros obsoletos; técnico.",
+"partido": ""
+},
+{
+"id": "2009/0024(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Deroga reglamentos pesqueros obsoletos; técnico.",
+"partido": ""
+},
+{
+"id": "2009/0026(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1,
+"nota": "Fondo para los Refugiados: financia el reasentamiento y la acogida.",
+"partido": ""
+},
+{
+"id": "2009/0027(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Crea la Oficina Europea de Apoyo al Asilo; institucional.",
+"partido": ""
+},
+{
+"id": "2009/0029(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Plan de recuperación del atún rojo: cuotas y vedas más estrictas para la flota.",
+"partido": ""
+},
+{
+"id": "2009/0042(COD)",
+"tipo": "eco",
+"imp": {
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Suspende la pérdida de franjas horarias no usadas durante la crisis; alivia a las aerolíneas.",
+"partido": ""
+},
+{
+"id": "2009/0801(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Red de protección de personalidades; institucional.",
+"partido": ""
+},
+{
+"id": "2009/0804(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Sueldos del personal de Europol; institucional.",
+"partido": ""
+},
+{
+"id": "2009/2004(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones presupuestarias 2010; orientativo.",
+"partido": ""
+},
+{
+"id": "2009/2005(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones presupuestarias 2010; orientativo.",
+"partido": ""
+},
+{
+"id": "2009/2006(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Previsiones de gasto del Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2009/2008(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayuda por inundaciones en Rumanía; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2009/2010(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajustes presupuestarios de agencias y programas; técnico.",
+"partido": ""
+},
+{
+"id": "2009/2017(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Consecuencias presupuestarias de la decisión de recursos propios; técnico.",
+"partido": ""
+},
+{
+"id": "2009/2039(BUD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 1,
+"nota": "Consigna fondos para proyectos energéticos del plan de recuperación.",
+"partido": ""
+},
+{
+"id": "2009/2040(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Consigna el excedente del ejercicio anterior; técnico.",
+"partido": ""
+}
+]

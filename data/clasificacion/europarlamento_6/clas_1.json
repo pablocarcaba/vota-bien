@@ -1,0 +1,908 @@
+[
+{
+"id": "2005/0203(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Año europeo del diálogo intercultural; institucional.",
+"partido": ""
+},
+{
+"id": "2005/0206(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2005/0225(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mercado de los forrajes desecados; ajuste técnico.",
+"partido": ""
+},
+{
+"id": "2005/0229(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2005/0237A(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Paquete marítimo: controla a las sociedades de clasificación de buques; seguridad y prevención de la contaminación marina.",
+"partido": ""
+},
+{
+"id": "2005/0237B(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Paquete marítimo: controla a las sociedades de clasificación de buques; seguridad y prevención de la contaminación marina.",
+"partido": ""
+},
+{
+"id": "2005/0238(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Refuerza las inspecciones de buques en los puertos; seguridad y prevención de la contaminación marina.",
+"partido": ""
+},
+{
+"id": "2005/0239(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Seguimiento del tráfico marítimo y refugios para buques en peligro; prevención de la contaminación.",
+"partido": ""
+},
+{
+"id": "2005/0240(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Investigación de accidentes marítimos; técnica.",
+"partido": ""
+},
+{
+"id": "2005/0241(COD)",
+"tipo": "soc",
+"imp": {
+"cons": 1,
+"victimas": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Responsabilidad de las navieras y seguro obligatorio ante accidentes de pasajeros por mar.",
+"partido": ""
+},
+{
+"id": "2005/0244(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Restringe el uso de los PFOS, contaminantes persistentes.",
+"partido": ""
+},
+{
+"id": "2005/0249(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2005/0259(CNS)",
+"tipo": "soc",
+"imp": {
+"monop": 1,
+"infancia": 1
+},
+"peso": 1,
+"nota": "Facilita cobrar pensiones alimenticias de un deudor en otro Estado miembro.",
+"partido": ""
+},
+{
+"id": "2005/0263(COD)",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Refuerza los requisitos de los productos sanitarios; seguridad del paciente con costes para fabricantes.",
+"partido": ""
+},
+{
+"id": "2005/0264(CNS)",
+"tipo": "eco",
+"imp": {
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Suprime la exención de competencia de las conferencias marítimas de las navieras.",
+"partido": ""
+},
+{
+"id": "2005/0267(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Intercambio de antecedentes penales; cooperación judicial.",
+"partido": ""
+},
+{
+"id": "2005/0270(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Protege las especialidades tradicionales garantizadas, como el jamón serrano.",
+"partido": ""
+},
+{
+"id": "2005/0278(CNS)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 2,
+"nota": "Nuevo reglamento de producción y etiquetado ecológico; garantías para el consumidor.",
+"partido": ""
+},
+{
+"id": "2005/0280(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 2,
+"nota": "Acuerdo de pesca con Marruecos: devuelve a la flota andaluza y canaria acceso a sus caladeros.",
+"partido": ""
+},
+{
+"id": "2005/0281(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Directiva marco de residuos: jerarquía, objetivos de reciclado y responsabilidad del productor.",
+"partido": ""
+},
+{
+"id": "2005/0282(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Normas Euro 5 y Euro 6 de emisiones de turismos; mejora el aire con costes para los fabricantes.",
+"partido": ""
+},
+{
+"id": "2005/0283(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Obliga a la contratación pública a tener en cuenta las emisiones de los vehículos.",
+"partido": ""
+},
+{
+"id": "2005/0805(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reconocimiento mutuo de sentencias penales; cooperación judicial.",
+"partido": ""
+},
+{
+"id": "2005/0807(CNS)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Simplifica la devolución del IVA soportado en otros Estados miembros a las empresas.",
+"partido": ""
+},
+{
+"id": "2005/0901(AVC)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Adhesión de Bulgaria: sus nacionales residentes en España pasan a ser ciudadanos de la UE.",
+"partido": ""
+},
+{
+"id": "2005/0902(AVC)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Adhesión de Rumanía: la amplia comunidad rumana en España pasa a tener derechos de ciudadanía de la UE.",
+"partido": ""
+},
+{
+"id": "2005/2001(BUD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1,
+"estud": 1
+},
+"peso": 3,
+"nota": "Presupuesto anual de la UE: financia la PAC, la cohesión y Erasmus, con fuerte retorno a España.",
+"partido": ""
+},
+{
+"id": "2005/2102(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo técnico que consigna el saldo del ejercicio anterior.",
+"partido": ""
+},
+{
+"id": "2005/2148(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Pide normas sobre sucesiones transfronterizas; derecho internacional privado sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2006/0006(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Aplicación de la coordinación de seguridad social entre Estados; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0008(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Anexos de la coordinación de seguridad social; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0009(CNS)",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Mecanismo europeo de protección civil ante catástrofes.",
+"partido": ""
+},
+{
+"id": "2006/0018(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Prohíbe el mercurio en termómetros y otros instrumentos de medida.",
+"partido": ""
+},
+{
+"id": "2006/0028(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Régimen de importación de arroz; signo incierto para el arroz español.",
+"partido": ""
+},
+{
+"id": "2006/0031(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Endurece el control de la adquisición de armas de fuego; seguridad.",
+"partido": ""
+},
+{
+"id": "2006/0032(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2006/0037(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/0038(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación de normas sobre glucosa y lactosa; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0043(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ayudas a la transformación de lino y cáñamo; menor.",
+"partido": ""
+},
+{
+"id": "2006/0056(CNS)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Controla la introducción de especies exóticas en acuicultura; protege la biodiversidad.",
+"partido": ""
+},
+{
+"id": "2006/0058(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/0059(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/0062(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/0065(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2006/0077(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Entrada de Eslovenia en el euro; institucional.",
+"partido": ""
+},
+{
+"id": "2006/0079(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Programa contra la falsificación del euro; institucional.",
+"partido": ""
+},
+{
+"id": "2006/0081(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mercado de productos de la pesca; ajuste técnico.",
+"partido": ""
+},
+{
+"id": "2006/0082(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico del apoyo al desarrollo rural.",
+"partido": ""
+},
+{
+"id": "2006/0083(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Modulación voluntaria de las ayudas directas de la PAC; rechazada y no aplicable en España.",
+"partido": ""
+},
+{
+"id": "2006/0084(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Investigaciones de la OLAF; institucional.",
+"partido": ""
+},
+{
+"id": "2006/0088(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Datos biométricos en solicitudes de visado; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0090(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estructuras de gestión de Galileo; institucional.",
+"partido": ""
+},
+{
+"id": "2006/0122(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2006/0129(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Normas de calidad ambiental para sustancias prioritarias en las aguas.",
+"partido": ""
+},
+{
+"id": "2006/0131(AVC)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Directrices estratégicas de la política de cohesión; orientativas.",
+"partido": ""
+},
+{
+"id": "2006/0132(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 2,
+"nota": "Uso sostenible de plaguicidas: formación, restricción de fumigación aérea y gestión integrada de plagas.",
+"partido": ""
+},
+{
+"id": "2006/0135(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ley aplicable al divorcio en matrimonios internacionales; derecho internacional privado.",
+"partido": ""
+},
+{
+"id": "2006/0139(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Garantía al BEI fuera de la UE; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2006/0140(COD)",
+"tipo": "soc",
+"imp": {
+"inmigrantes": -1
+},
+"peso": 1,
+"nota": "Equipos de intervención rápida en fronteras para frenar la inmigración irregular.",
+"partido": ""
+},
+{
+"id": "2006/0142(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Código de visados: armoniza procedimientos de visado de corta duración.",
+"partido": ""
+},
+{
+"id": "2006/0158(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Control judicial en procedimientos de instrucción entre Estados; procesal.",
+"partido": ""
+},
+{
+"id": "2006/0165(CNS)",
+"tipo": "eco",
+"imp": {
+"cons": -1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Sube los tipos mínimos de los impuestos especiales sobre el alcohol.",
+"partido": ""
+},
+{
+"id": "2006/0169(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Redes de deriva en el Báltico; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2006/0178(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Derogación técnica sobre clasificación de madera.",
+"partido": ""
+},
+{
+"id": "2006/0182(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 1,
+"nota": "Gestión de la seguridad de las carreteras de la red transeuropea; seguridad vial.",
+"partido": ""
+},
+{
+"id": "2006/0190(CNS)",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secPrim": -1
+},
+"peso": 1,
+"nota": "Medidas técnicas de conservación de recursos pesqueros; limitan la actividad de la flota.",
+"partido": ""
+},
+{
+"id": "2006/0196(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": -1,
+"secTrans": 1
+},
+"peso": 2,
+"nota": "Tercera directiva postal: liberaliza por completo el mercado postal y suprime el área reservada.",
+"partido": ""
+},
+{
+"id": "2006/0200(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas de conservación en la zona NAFO; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0202(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/0203(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ampliación de capital del Fondo Europeo de Inversiones; institucional.",
+"partido": ""
+},
+{
+"id": "2006/0206(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Prohíbe exportar mercurio y obliga a almacenarlo de forma segura, con efecto sobre Almadén.",
+"partido": ""
+},
+{
+"id": "2006/0210(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Requisitos técnicos de embarcaciones fluviales; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0226(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reestructuración azucarera ligada a Bulgaria y Rumanía; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0249(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Derogación técnica en contratación pública.",
+"partido": ""
+},
+{
+"id": "2006/0250(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Codificación sobre bovinos reproductores; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0251(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/0252(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/0256(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste del mercado de cereales; signo incierto para los agricultores españoles.",
+"partido": ""
+},
+{
+"id": "2006/0257(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/0258(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de productos fitosanitarios; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0263(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/0268(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Contingentes de fécula de patata; sin efecto relevante en España.",
+"partido": ""
+},
+{
+"id": "2006/0269(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "OCM única: refunde en un reglamento las organizaciones de mercados agrícolas; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0281(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Competencias de ejecución contra el blanqueo; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0286(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de acuicultura; técnica.",
+"partido": ""
+},
+{
+"id": "2006/0309(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2006/2015(INL)",
+"tipo": "soc",
+"imp": {
+"proSan": 1
+},
+"peso": 1,
+"nota": "Pide proteger al personal sanitario de pinchazos con agujas e infecciones.",
+"partido": ""
+},
+{
+"id": "2006/2020(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones presupuestarias; sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2006/2021(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones presupuestarias; sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2006/2022(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto del Parlamento Europeo; gasto administrativo.",
+"partido": ""
+},
+{
+"id": "2006/2119(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo del Supervisor de Protección de Datos; institucional.",
+"partido": ""
+},
+{
+"id": "2006/2223(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Estatuto del Defensor del Pueblo Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2007/0002(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas de energía; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0005(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Financiación de la PAC por el FEOGA; técnica.",
+"partido": ""
+},
+{
+"id": "2007/0006(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca: acceso de la flota, en buena parte española, a caladeros de terceros países.",
+"partido": ""
+},
+{
+"id": "2007/0012(CNS)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 2,
+"nota": "Reforma de frutas y hortalizas: refuerza organizaciones de productores y ayudas al sector, clave en España.",
+"partido": ""
+},
+{
+"id": "2007/0019(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Directiva de calidad de carburantes: obliga a reducir un 6 % las emisiones de su ciclo de vida.",
+"partido": ""
+},
+{
+"id": "2007/0021(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Excepción para la leche de Estonia; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2007/0023(CNS)",
+"tipo": "eco",
+"imp": {
+"cons": -1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Sube los tipos mínimos del impuesto sobre el gasóleo y armoniza el gasóleo profesional.",
+"partido": ""
+},
+{
+"id": "2007/0026(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ajuste técnico del mercado lácteo.",
+"partido": ""
+}
+]
