@@ -1,0 +1,487 @@
+[
+ {
+  "id": "121/000139",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Transpone la DAC 7: obliga a los operadores de plataformas digitales a comunicar información sobre sus vendedores a Hacienda.",
+  "partido": ""
+ },
+ {
+  "id": "121/000142",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el Convenio Económico con Navarra a nuevos tributos estatales (puntos de conexión y ajustes); reparto entre administraciones, sin cambio de cargas para contribuyentes.",
+  "partido": ""
+ },
+ {
+  "id": "121/000143",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el Concierto Económico vasco a nuevos tributos estatales; reparto de competencias entre administraciones, sin cambio de cargas para contribuyentes.",
+  "partido": ""
+ },
+ {
+  "id": "121/000144",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija la metodología del cupo vasco para 2022-2026: relación financiera entre administraciones, sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000145",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Crea un organismo de vigilancia y respuesta en salud pública para reforzar la protección de la salud de toda la población.",
+  "partido": ""
+ },
+ {
+  "id": "121/000146",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la figura profesional de los agentes forestales y medioambientales; ninguno de los colectivos del sistema resulta afectado con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000147",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la figura profesional de los bomberos forestales; ninguno de los colectivos del sistema resulta afectado con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000148",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una autoridad independiente de investigación técnica de accidentes ferroviarios, marítimos y aéreos; organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000149",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ley de función pública estatal; el texto disponible no concreta cambios con signo conocido para los subgrupos de empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000151",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "monop": 1,
+   "hij3": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce y protege los distintos tipos de familia, con medidas para familias con hijos, monoparentales y numerosas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000152",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Desarrolla el derecho de defensa y la asistencia letrada; norma procesal general sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000153",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Regula las enseñanzas artísticas superiores y su equivalencia con las universitarias; beneficia a su alumnado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000154",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la naturaleza y organización de la fundación del Teatro Real; norma organizativa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000155",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Establece la representación paritaria y la presencia equilibrada de mujeres y hombres en órganos de decisión.",
+  "partido": ""
+ },
+ {
+  "id": "122/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora: no se asigna a quienes podrían cometer o sufrir el delito en abstracto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Rediseña la organización y el modelo del Registro Civil; reforma administrativa sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la ley de seguridad ciudadana: régimen sancionador y derechos de reunión; sin colectivo con signo uniforme.",
+  "partido": ""
+ },
+ {
+  "id": "122/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora: no se asigna a quienes podrían cometer o sufrir el delito en abstracto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora: no se asigna a quienes podrían cometer o sufrir el delito en abstracto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000011",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Regula la publicidad de servicios sanitarios: protege a pacientes frente a anuncios engañosos y limita la publicidad de clínicas y profesionales.",
+  "partido": ""
+ },
+ {
+  "id": "122/000012",
+  "tipo": "soc",
+  "imp": {
+   "victimas": -1
+  },
+  "peso": 2,
+  "nota": "Deroga la ley que reconoce derechos y reparación a quienes sufrieron persecución o violencia en la guerra civil y la dictadura.",
+  "partido": ""
+ },
+ {
+  "id": "122/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000017",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el derecho de sufragio activo a los mayores de 16 años.",
+  "partido": ""
+ },
+ {
+  "id": "122/000018",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el derecho de sufragio activo a los mayores de 16 años.",
+  "partido": ""
+ },
+ {
+  "id": "122/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000020",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula la eutanasia: reconoce a los pacientes en sufrimiento grave el derecho a solicitar la ayuda para morir con garantías.",
+  "partido": ""
+ },
+ {
+  "id": "122/000021",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza el reconocimiento y la reparación de las víctimas de la guerra civil y el franquismo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000022",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000023",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título solo cita la reforma del Código Penal y no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000025",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora: no se asigna a quienes podrían cometer o sufrir el delito en abstracto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000026",
+  "tipo": "eco",
+  "imp": {
+   "prop3": 1,
+   "prop4": 1
+  },
+  "peso": 2,
+  "nota": "Elimina el Impuesto sobre el Patrimonio, que pagan los patrimonios altos; beneficia a los tramos superiores de patrimonio.",
+  "partido": ""
+ },
+ {
+  "id": "122/000027",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce la condición de agentes de la autoridad a los funcionarios de prisiones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000028",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de apoyo a las familias para conciliar y tener hijos; beneficia a familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000029",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos y garantías de los pacientes en el proceso final de la vida: rechazo de tratamientos y cuidados paliativos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000030",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos y garantías de los pacientes en el proceso final de la vida: rechazo de tratamientos y cuidados paliativos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000031",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un estatuto y una autoridad de protección de denunciantes de corrupción; transparencia institucional sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000032",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula incentivos fiscales al mecenazgo y al voluntariado; los destinatarios son los donantes en general, sin colectivo concreto con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000033",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000035",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Crea régimen de infracciones por morosidad, anula cláusulas abusivas y agiliza la recuperación del IVA de impagos; beneficia a autónomos y pymes acreedores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000036",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000037",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos y garantías de los pacientes en el proceso final de la vida: rechazo de tratamientos y cuidados paliativos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000038",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite agrupar servicios comunes de varios ministerios en una misma subsecretaría; organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000039",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce derechos a las familias y personas afectadas por la sustracción de bebés, incluido su derecho a conocer su identidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000040",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Introduce la neutralidad ideológica de la universidad en su ley orgánica; principio institucional sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000041",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora: no se asigna a quienes podrían cometer o sufrir el delito en abstracto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000042",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora: no se asigna a quienes podrían cometer o sufrir el delito en abstracto.",
+  "partido": ""
+ }
+]

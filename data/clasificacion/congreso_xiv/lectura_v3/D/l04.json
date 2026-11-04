@@ -1,0 +1,518 @@
+[
+ {
+  "id": "121/000070",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos anuales: revaloriza las pensiones y actualiza las retribuciones de los empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000072",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta técnicamente impuestos especiales, IVA y tasas consulares a directivas europeas; sin efecto claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000074",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Regula el sector de las telecomunicaciones y los derechos de los usuarios de servicios de comunicaciones electrónicas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000075",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Facilita crear empresas y reduce trabas y morosidad que sufren autónomos y pymes.",
+  "partido": ""
+ },
+ {
+  "id": "121/000076",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Actualiza la regulación audiovisual, con obligaciones de accesibilidad de los contenidos para personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "121/000077",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza el acceso no discriminatorio a la infraestructura ferroviaria para nuevas empresas operadoras de transporte de viajeros.",
+  "partido": ""
+ },
+ {
+  "id": "121/000078",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el Concierto Económico vasco a cambios tributarios del Estado; relación entre administraciones sin efecto directo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000081",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1
+  },
+  "peso": 2,
+  "nota": "Medidas fiscales, mercantiles y laborales específicas para empresas emergentes de reciente creación y pequeña facturación.",
+  "partido": ""
+ },
+ {
+  "id": "121/000082",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Nueva ley del deporte: igualdad de mujeres deportistas, incluida la maternidad, y obligación de integrar modalidades de personas con discapacidad en las federaciones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000083",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reparto de competencias de los juzgados mercantiles; norma procesal e institucional sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000084",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1
+  },
+  "peso": 2,
+  "nota": "Reforma concursal: exoneración de deudas y procedimiento especial de insolvencia para autónomos y microempresas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000085",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Actualiza el régimen del depósito legal de publicaciones; norma técnica sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000086",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija principios y fomento de la calidad arquitectónica; sin medidas de signo conocido sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000089",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Ley integral de vivienda: zonas tensionadas con contención de precios del alquiler y protección de hogares vulnerables.",
+  "partido": ""
+ },
+ {
+  "id": "121/000091",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la contribución de recursos a la Seguridad Nacional; norma organizativa sin efecto claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000092",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la carrera del personal investigador y la transferencia de conocimiento; sin colectivo del catálogo con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000093",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 2,
+  "nota": "Impulsa planes de pensiones de empleo y un fondo de promoción pública; los textos disponibles no fijan a quién ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000094",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Restringe el acceso a precursores de explosivos mediante licencias y comunicación de operaciones; norma de seguridad sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000095",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye a la autoridad del juego una función de evaluación del juego responsable; norma administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000097",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas procesales de eficiencia de la justicia; norma procesal sin colectivo de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000098",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reorganiza los órganos judiciales en tribunales de instancia; norma institucional sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000099",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Facilita el acceso a información financiera para investigar delitos; norma procesal y penal sin colectivo de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000101",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone directivas en materia penal sobre fraude con medios de pago y abuso de mercado; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000102",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Regula la actividad pesquera con medidas de conservación de recursos y biodiversidad marina.",
+  "partido": ""
+ },
+ {
+  "id": "121/000103",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Institucionaliza la evaluación de políticas públicas en la Administración General del Estado; norma organizativa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000104",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las grandes empresas a prestar atención a la clientela con garantías de calidad, plazos y trato humano.",
+  "partido": ""
+ },
+ {
+  "id": "121/000105",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Marco de la política de cooperación al desarrollo; norma institucional sin efecto sobre un colectivo nacional.",
+  "partido": ""
+ },
+ {
+  "id": "121/000106",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el ordenamiento al reglamento de Eurojust y regula conflictos de jurisdicción; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000107",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Previene el desperdicio alimentario, con beneficio ambiental general y obligaciones para el comercio y la hostelería.",
+  "partido": ""
+ },
+ {
+  "id": "121/000108",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el sistema de gestión y control de la PAC; norma de gestión sin signo conocido sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000109",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye al Tribunal Supremo una competencia contenciosa; norma orgánica judicial sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000110",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la gestión directa pública del sistema sanitario y su universalidad, frente a la gestión privada.",
+  "partido": ""
+ },
+ {
+  "id": "121/000111",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1,
+   "proDoc": 1
+  },
+  "peso": 3,
+  "nota": "Nueva ley orgánica universitaria: regula el acceso, la matrícula y las becas, y las condiciones del profesorado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000112",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1,
+   "adultos": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Ley de empleo con servicios garantizados y atención prioritaria a jóvenes, mayores de 45 años y personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "121/000113",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce la rectificación registral del sexo y garantiza derechos y protección a las personas trans y LGTBI.",
+  "partido": ""
+ },
+ {
+  "id": "121/000114",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula mercados de valores y servicios de inversión; el texto no permite fijar signo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000116",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Digitaliza los procedimientos de la Administración de Justicia; norma procesal e institucional.",
+  "partido": ""
+ },
+ {
+  "id": "121/000117",
+  "tipo": "soc",
+  "imp": {
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Regula el bienestar animal y prohíbe la venta de animales de compañía en tiendas y su uso en espectáculos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000118",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Endurece penas por maltrato animal; norma penal sin colectivo de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000121",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el Convenio Económico con Navarra a cambios tributarios del Estado; relación entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000122",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Amplía los derechos de salud sexual y reproductiva de las mujeres y el acceso a la interrupción del embarazo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000123",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un sistema de protección del informante y canales de denuncia; norma de transparencia sin colectivo de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000125",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos anuales: revaloriza las pensiones y actualiza las retribuciones de los empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000126",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Transpone directivas: exige accesibilidad de productos y servicios y facilita la migración de personas altamente cualificadas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000127",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la cesión de tributos a una comunidad autónoma al marco estatal; relación entre administraciones sin efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000128",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la cesión de tributos a una comunidad autónoma al marco estatal; relación entre administraciones sin efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000129",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la cesión de tributos a una comunidad autónoma al marco estatal; relación entre administraciones sin efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000130",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la cesión de tributos a una comunidad autónoma al marco estatal; relación entre administraciones sin efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000131",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la cesión de tributos a una comunidad autónoma al marco estatal; relación entre administraciones sin efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000132",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la cesión de tributos a una comunidad autónoma al marco estatal; relación entre administraciones sin efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000134",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea una autoridad para resolver reclamaciones de clientes financieros; refuerza a los usuarios e impone obligaciones a las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "121/000135",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protege el secreto profesional de periodistas; sin colectivo de la lista afectado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000136",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Ordena la movilidad sostenible con medidas de reducción de emisiones y mejora ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "121/000137",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Regula el sector cinematográfico y audiovisual, con medidas de promoción de las mujeres profesionales; el resto con efectos mixtos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000138",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una oficina administrativa de derechos de autor; norma institucional.",
+  "partido": ""
+ }
+]

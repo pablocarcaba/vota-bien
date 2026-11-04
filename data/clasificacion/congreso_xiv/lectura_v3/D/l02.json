@@ -1,0 +1,592 @@
+[
+ {
+  "id": "121/000039",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de apoyo y tributarias para el turismo, la hostelería y el comercio.",
+  "partido": ""
+ },
+ {
+  "id": "130/000036",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de apoyo y tributarias para el turismo, la hostelería y el comercio.",
+  "partido": ""
+ },
+ {
+  "id": "121/000043",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modernización administrativa, contratación pública y gestión de fondos europeos; sin efecto determinado sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000040",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modernización administrativa, contratación pública y gestión de fondos europeos; sin efecto determinado sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000040",
+  "tipo": "soc",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Suspende desahucios y prorroga alquileres de hogares vulnerables, con límites al arrendador gran tenedor.",
+  "partido": ""
+ },
+ {
+  "id": "130/000037",
+  "tipo": "soc",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Suspende desahucios y prorroga alquileres de hogares vulnerables, con límites al arrendador gran tenedor.",
+  "partido": ""
+ },
+ {
+  "id": "121/000041",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la normativa a la salida del Reino Unido de la UE; el contenido no determina efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000038",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la normativa a la salida del Reino Unido de la UE; el contenido no determina efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000042",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1,
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Exime del IRPF el ingreso mínimo vital y regula la compensación a los bancos por el almacenamiento Castor.",
+  "partido": ""
+ },
+ {
+  "id": "130/000039",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1,
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Exime del IRPF el ingreso mínimo vital y regula la compensación a los bancos por el almacenamiento Castor.",
+  "partido": ""
+ },
+ {
+  "id": "121/000008",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Deroga el despido objetivo por faltas de asistencia, reforzando la estabilidad de los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "130/000005",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Deroga el despido objetivo por faltas de asistencia, reforzando la estabilidad de los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "121/000051",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transposición técnica que deniega deducciones en asimetrías híbridas del impuesto de sociedades; no se nombra un tamaño o sector.",
+  "partido": ""
+ },
+ {
+  "id": "130/000044",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone la directiva antielusión sobre asimetrías híbridas en Sociedades y no residentes, sin distinguir tamaños ni sectores.",
+  "partido": ""
+ },
+ {
+  "id": "121/000096",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas y medidas de apoyo al sector agrario afectado por la sequía.",
+  "partido": ""
+ },
+ {
+  "id": "130/000076",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas y medidas de apoyo al sector agrario afectado por la sequía.",
+  "partido": ""
+ },
+ {
+  "id": "130/000096",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "jovenes": 1,
+   "cons": 1
+  },
+  "peso": 3,
+  "nota": "Apoyo al sector agrario frente a la sequía y descuento en el transporte público colectivo para jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "121/000032",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del acceso y ejercicio de abogados y procuradores, sociedades profesionales y aranceles; sin colectivo con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000009",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Medidas para reforzar a los productores agrarios frente a prácticas desleales en la cadena alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "130/000006",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Medidas para reforzar a los productores agrarios frente a prácticas desleales en la cadena alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "121/000052",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas de solvencia y reestructuración de deuda para empresas y autónomos afectados por la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000045",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas de solvencia y reestructuración de deuda para empresas y autónomos afectados por la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000077",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la relación laboral especial de artistas y personal técnico: contratación temporal e indemnización; sin colectivo del catálogo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000097",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "cons": 1,
+   "inq": 1,
+   "pobreza": 1,
+   "viv2": -1,
+   "victimas": 1,
+   "infancia": 1,
+   "depend": 1
+  },
+  "peso": 3,
+  "nota": "Prorroga medidas por la guerra de Ucrania, ayudas a La Palma, protección de arrendatarios vulnerables y permisos de conciliación y cuidado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000008",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Los damnificados del terremoto de Lorca devuelven ayudas no justificadas sin intereses ni penalizaciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000007",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Medidas urgentes de salud pública por el COVID-19, con protección de quienes quedan en aislamiento.",
+  "partido": ""
+ },
+ {
+  "id": "121/000054",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Aplazamientos y apoyo financiero para empresas y autónomos afectados por la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Aplazamientos y apoyo financiero para empresas y autónomos afectados por la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "121/000100",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "inq": 1,
+   "viv2": -1,
+   "pobreza": 1,
+   "secTrans": 1,
+   "secPrim": 1
+  },
+  "peso": 3,
+  "nota": "Rebaja de combustible, tope a la actualización del alquiler, ampliación del bono social y ayudas a transportistas y agricultores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000079",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "inq": 1,
+   "viv2": -1,
+   "pobreza": 1,
+   "secTrans": 1,
+   "secPrim": 1
+  },
+  "peso": 3,
+  "nota": "Rebaja de combustible, tope a la actualización del alquiler, ampliación del bono social y ayudas a transportistas y agricultores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000008",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Aplazamiento de deudas y financiación para pymes y autónomos y apoyo al turismo por el impacto del COVID-19.",
+  "partido": ""
+ },
+ {
+  "id": "121/000055",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Transpone directivas de varias materias, entre ellas protección de consumidores y telecomunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000047",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Transpone directivas de varias materias, entre ellas protección de consumidores y telecomunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000078",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone requisitos de seguridad a operadores y suministradores de redes 5G, reforzando la seguridad del servicio.",
+  "partido": ""
+ },
+ {
+  "id": "120/000034",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000010",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "hipot": 1,
+   "pobreza": 1,
+   "cons": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "infancia": 1,
+   "depend": 1
+  },
+  "peso": 3,
+  "nota": "Paquete COVID: prestaciones por ERTE, moratoria hipotecaria, garantía de suministros, ayudas a autónomos, avales a pymes y adaptación de jornada por cuidado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000009",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "hipot": 1,
+   "pobreza": 1,
+   "cons": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "infancia": 1,
+   "depend": 1
+  },
+  "peso": 3,
+  "nota": "Paquete COVID: prestaciones por ERTE, moratoria hipotecaria, garantía de suministros, ayudas a autónomos, avales a pymes y adaptación de jornada por cuidado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000057",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Control sanitario de pasajeros internacionales y medidas urgentes tras el estado de alarma; refuerza la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "130/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas tras el estado de alarma: control sanitario de pasajeros, juntas de propietarios y prórrogas sociales; el texto disponible no fija colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000080",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000011",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Impide justificar despidos por causas COVID y regula la duración de los ERTE, protegiendo el empleo asalariado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000010",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Impide justificar despidos por causas COVID y regula la duración de los ERTE, protegiendo el empleo asalariado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000059",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Presume laboral la relación de repartidores de plataformas y obliga a informar sobre algoritmos, con coste para las plataformas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000049",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Presume laboral la relación de repartidores de plataformas y obliga a informar sobre algoritmos, con coste para las plataformas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000081",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido: medidas hipotecarias y de pagos exteriores ligadas a sanciones de la UE.",
+  "partido": ""
+ },
+ {
+  "id": "120/000001",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1,
+   "discapacidad": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Reduce la aportación económica de las personas beneficiarias de la dependencia, personas mayores y con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "desSub": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación de ingresos mínimos para personas y hogares sin recursos suficientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000003",
+  "tipo": "eco",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Equipara los salarios de las policías del Estado.",
+  "partido": ""
+ },
+ {
+  "id": "120/000004",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "proSan": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Fija ratios mínimas de enfermeras por paciente: más seguridad al paciente, mejor carga laboral y coste para los centros.",
+  "partido": ""
+ },
+ {
+  "id": "120/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000007",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Elimina el copago farmacéutico del 30 % de pensionistas de MUFACE e ISFAS.",
+  "partido": ""
+ },
+ {
+  "id": "120/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido concreto de la libertad de elección lingüística.",
+  "partido": ""
+ },
+ {
+  "id": "120/000009",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce personalidad jurídica a la laguna del Mar Menor para protegerla.",
+  "partido": ""
+ },
+ {
+  "id": "120/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la transparencia y auditabilidad de los procesos electorales; norma institucional.",
+  "partido": ""
+ }
+]

@@ -184,49 +184,49 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidas Podemos | 39.4 % | 3.1 | +61 |
-| PNV | 21.1 % | 6.1 | +56 |
-| Teruel Existe | 14.8 % | 4.9 | +59 |
-| NC | 12.0 % | 6.0 | +57 |
-| Compromís | 4.4 % | 5.8 | +58 |
-| Cs | 2.2 % | 12.0 | +33 |
-| Más País | 2.1 % | 5.3 | +58 |
-| CC | 1.7 % | 9.3 | +48 |
-| Bildu | 1.0 % | 10.9 | +46 |
-| PRC | 1.0 % | 5.7 | +58 |
-| PSOE | 0.2 % | 4.6 | +58 |
-| PP | 0.1 % | 15.8 | +9 |
-| ERC | 0.1 % | 10.6 | +47 |
-| VOX | 0.0 % | 19.9 | -37 |
-| Junts | 0.0 % | 14.7 | +19 |
-| PDeCAT | 0.0 % | 8.1 | +53 |
-| BNG | 0.0 % | 14.8 | +23 |
-| CUP | 0.0 % | 19.1 | -20 |
-| UPN | 0.0 % | 15.6 | +10 |
-| Foro | 0.0 % | 17.7 | -3 |
+| Compromís | 35.1 % | 2.9 | +74 |
+| Teruel Existe | 22.0 % | 5.3 | +69 |
+| Unidas Podemos | 18.7 % | 2.1 | +74 |
+| Bildu | 8.1 % | 7.8 | +65 |
+| PSOE | 4.7 % | 3.9 | +71 |
+| PNV | 4.7 % | 7.6 | +64 |
+| CC | 4.3 % | 10.2 | +56 |
+| Cs | 0.8 % | 12.9 | +35 |
+| NC | 0.8 % | 9.8 | +59 |
+| Más País | 0.6 % | 4.6 | +72 |
+| PRC | 0.1 % | 6.2 | +68 |
+| PP | 0.0 % | 15.8 | +13 |
+| VOX | 0.0 % | 19.8 | -47 |
+| ERC | 0.0 % | 10.1 | +59 |
+| Junts | 0.0 % | 15.5 | +16 |
+| PDeCAT | 0.0 % | 8.7 | +63 |
+| BNG | 0.0 % | 13.7 | +34 |
+| CUP | 0.0 % | 19.2 | -34 |
+| UPN | 0.0 % | 16.0 | +13 |
+| Foro | 0.0 % | 18.0 | -14 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Unidas Podemos +89, Más País +84, Compromís +84
-- Joven de alquiler: Unidas Podemos +90, Compromís +89, Más País +88
-- Pensionista con casa propia: Compromís +90, Más País +89, Unidas Podemos +88
-- Pensionista con pensión baja: Compromís +90, Más País +89, Unidas Podemos +88
-- Autónomo del comercio: Bildu +66, PNV +62, BNG +62
-- Empresario de pyme industrial: PP +47, Cs +46, UPN +46
-- Funcionario docente: Unidas Podemos +90, Compromís +88, Más País +87
-- Policía o guardia civil: Compromís +86, Unidas Podemos +85, Más País +83
-- Sanitario asalariado: Unidas Podemos +89, Compromís +87, Más País +86
-- Familia numerosa: Unidas Podemos +89, Más País +84, Compromís +84
-- Rentas altas con patrimonio: Cs +43, UPN +31, CC +28
-- Gran patrimonio y gran empresa: Cs +36, UPN +33, CC +32
-- Parado con subsidio: Más País +90, Compromís +90, Unidas Podemos +89
-- Agricultor en el medio rural: Bildu +72, PRC +67, PNV +67
-- Madre sola con hijo: Unidas Podemos +91, Compromís +87, Más País +87
-- Estudiante: Más País +89, Compromís +89, Unidas Podemos +88
-- Mayor dependiente: Compromís +90, Más País +89, Unidas Podemos +88
-- Casero con varias viviendas: PNV +53, PDeCAT +42, Cs +41
-- Transportista autónomo: Bildu +74, PNV +69, Unidas Podemos +68
-- Asalariado de salario mínimo: Compromís +91, Más País +91, Unidas Podemos +90
+- Asalariado medio con hipoteca e hijos: Compromís +90, Unidas Podemos +89, Más País +89
+- Joven de alquiler: Unidas Podemos +90, Compromís +90, Más País +89
+- Pensionista con casa propia: PNV +91, Compromís +90, Unidas Podemos +89
+- Pensionista con pensión baja: PNV +91, Compromís +90, Unidas Podemos +89
+- Autónomo del comercio: Bildu +79, NC +78, CC +77
+- Empresario de pyme industrial: Cs +55, Teruel Existe +47, CC +46
+- Funcionario docente: Compromís +91, Unidas Podemos +90, Más País +90
+- Policía o guardia civil: Unidas Podemos +90, Compromís +90, Más País +89
+- Sanitario asalariado: Compromís +90, Unidas Podemos +89, Más País +88
+- Familia numerosa: Compromís +90, Unidas Podemos +89, Más País +89
+- Rentas altas con patrimonio: PSOE +45, Teruel Existe +45, Cs +44
+- Gran patrimonio y gran empresa: Teruel Existe +46, PSOE +39, CC +39
+- Parado con subsidio: Unidas Podemos +90, Compromís +90, Bildu +90
+- Agricultor en el medio rural: Bildu +85, Unidas Podemos +78, PSOE +77
+- Madre sola con hijo: Unidas Podemos +91, Compromís +91, Más País +90
+- Estudiante: PNV +89, Unidas Podemos +87, Compromís +87
+- Mayor dependiente: PNV +91, Compromís +90, Unidas Podemos +89
+- Casero con varias viviendas: Teruel Existe +55, Compromís +54, PSOE +54
+- Transportista autónomo: Bildu +83, Unidas Podemos +79, PSOE +78
+- Asalariado de salario mínimo: Unidas Podemos +90, Compromís +90, Más País +89
 
 </details>
 
@@ -234,49 +234,49 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PRC | 25.9 % | 2.9 | +62 |
-| Unidas Podemos | 22.0 % | 4.6 | +59 |
-| PNV | 21.6 % | 6.1 | +56 |
-| Teruel Existe | 15.5 % | 4.7 | +59 |
-| NC | 4.5 % | 7.3 | +54 |
-| Compromís | 3.0 % | 6.4 | +57 |
-| Cs | 2.7 % | 11.6 | +32 |
-| CC | 1.7 % | 9.5 | +46 |
-| PSOE | 0.8 % | 4.1 | +59 |
-| Bildu | 0.8 % | 11.3 | +43 |
-| Más País | 0.8 % | 6.2 | +57 |
-| PP | 0.4 % | 14.9 | +11 |
-| PDeCAT | 0.3 % | 7.3 | +54 |
-| BNG | 0.1 % | 15.1 | +20 |
-| VOX | 0.0 % | 19.8 | -36 |
-| ERC | 0.0 % | 11.3 | +43 |
-| Junts | 0.0 % | 15.3 | +14 |
-| CUP | 0.0 % | 19.1 | -19 |
-| UPN | 0.0 % | 15.4 | +10 |
-| Foro | 0.0 % | 17.2 | +1 |
+| PRC | 35.2 % | 2.9 | +75 |
+| Compromís | 29.8 % | 3.3 | +74 |
+| Teruel Existe | 16.8 % | 5.0 | +72 |
+| Unidas Podemos | 7.2 % | 3.4 | +74 |
+| Bildu | 4.8 % | 8.7 | +62 |
+| CC | 2.3 % | 10.4 | +54 |
+| PSOE | 1.7 % | 3.9 | +73 |
+| Cs | 1.1 % | 12.5 | +37 |
+| Más País | 0.6 % | 5.4 | +73 |
+| PDeCAT | 0.3 % | 7.6 | +65 |
+| NC | 0.1 % | 10.1 | +57 |
+| PP | 0.0 % | 14.8 | +20 |
+| VOX | 0.0 % | 19.7 | -44 |
+| ERC | 0.0 % | 10.9 | +54 |
+| Junts | 0.0 % | 16.5 | +10 |
+| PNV | 0.0 % | 8.2 | +64 |
+| BNG | 0.0 % | 13.9 | +33 |
+| CUP | 0.0 % | 19.3 | -34 |
+| UPN | 0.0 % | 15.8 | +17 |
+| Foro | 0.0 % | 17.7 | -3 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Unidas Podemos +91, PRC +90, PSOE +87
-- Joven de alquiler: Unidas Podemos +92, Compromís +90, Más País +90
-- Pensionista con casa propia: PRC +94, Más País +92, Compromís +92
-- Pensionista con pensión baja: PRC +94, Más País +92, Compromís +92
-- Autónomo del comercio: Bildu +64, BNG +64, PNV +63
-- Empresario de pyme industrial: PP +50, UPN +49, Cs +46
-- Funcionario docente: Unidas Podemos +92, Compromís +90, Más País +89
-- Policía o guardia civil: Compromís +87, Unidas Podemos +86, PRC +86
-- Sanitario asalariado: Unidas Podemos +91, Compromís +89, Más País +89
-- Familia numerosa: Unidas Podemos +91, PRC +90, PSOE +87
-- Rentas altas con patrimonio: Cs +44, UPN +34, PP +33
-- Gran patrimonio y gran empresa: Cs +36, UPN +35, PP +33
-- Parado con subsidio: Compromís +93, Más País +92, Unidas Podemos +91
-- Agricultor en el medio rural: Bildu +71, PRC +70, PNV +67
-- Madre sola con hijo: Unidas Podemos +93, Compromís +89, Más País +88
-- Estudiante: Más País +91, Compromís +91, Unidas Podemos +89
-- Mayor dependiente: PRC +94, Más País +92, Compromís +92
-- Casero con varias viviendas: PNV +51, Cs +43, PDeCAT +42
-- Transportista autónomo: Bildu +76, PNV +72, PRC +71
-- Asalariado de salario mínimo: Compromís +94, Más País +93, Unidas Podemos +92
+- Asalariado medio con hipoteca e hijos: Compromís +93, Unidas Podemos +92, Más País +91
+- Joven de alquiler: Compromís +93, Unidas Podemos +92, Más País +92
+- Pensionista con casa propia: PRC +94, PNV +93, PDeCAT +93
+- Pensionista con pensión baja: PRC +94, PNV +93, PDeCAT +93
+- Autónomo del comercio: Bildu +78, CC +77, NC +77
+- Empresario de pyme industrial: Cs +58, Teruel Existe +47, PRC +44
+- Funcionario docente: Unidas Podemos +93, Compromís +93, Más País +92
+- Policía o guardia civil: Compromís +93, Unidas Podemos +92, Más País +91
+- Sanitario asalariado: Compromís +92, Unidas Podemos +91, Más País +91
+- Familia numerosa: Compromís +93, Unidas Podemos +92, Más País +91
+- Rentas altas con patrimonio: PRC +48, Cs +46, Teruel Existe +46
+- Gran patrimonio y gran empresa: Teruel Existe +47, PRC +41, PSOE +38
+- Parado con subsidio: Compromís +93, Unidas Podemos +92, Más País +92
+- Agricultor en el medio rural: Bildu +84, PRC +81, PSOE +79
+- Madre sola con hijo: Compromís +94, Unidas Podemos +93, Más País +93
+- Estudiante: PRC +93, PDeCAT +91, Compromís +90
+- Mayor dependiente: PRC +94, PNV +93, PDeCAT +93
+- Casero con varias viviendas: PRC +58, Teruel Existe +56, PSOE +55
+- Transportista autónomo: Bildu +84, PRC +81, PSOE +79
+- Asalariado de salario mínimo: Compromís +93, Unidas Podemos +92, Más País +92
 
 </details>
 
@@ -284,49 +284,49 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Teruel Existe | 52.0 % | 2.2 | +72 |
-| Más País | 29.8 % | 3.4 | +66 |
-| NC | 8.1 % | 3.3 | +69 |
-| Compromís | 5.9 % | 3.2 | +67 |
-| Unidas Podemos | 2.3 % | 3.7 | +65 |
-| CC | 1.6 % | 7.6 | +46 |
-| Cs | 0.2 % | 12.2 | +27 |
-| UPN | 0.1 % | 16.8 | +3 |
-| PSOE | 0.0 % | 5.8 | +56 |
-| PP | 0.0 % | 15.5 | +8 |
-| VOX | 0.0 % | 20.0 | -40 |
-| ERC | 0.0 % | 10.7 | +35 |
-| Junts | 0.0 % | 16.8 | +5 |
-| Bildu | 0.0 % | 12.4 | +30 |
-| PNV | 0.0 % | 9.5 | +40 |
-| PDeCAT | 0.0 % | 13.0 | +26 |
-| BNG | 0.0 % | 9.6 | +40 |
-| CUP | 0.0 % | 15.9 | +10 |
-| PRC | 0.0 % | 10.5 | +35 |
-| Foro | 0.0 % | 17.9 | -2 |
+| Más País | 45.6 % | 1.9 | +73 |
+| Compromís | 29.0 % | 2.4 | +73 |
+| Teruel Existe | 11.6 % | 3.1 | +71 |
+| Unidas Podemos | 7.0 % | 3.3 | +70 |
+| NC | 5.6 % | 5.4 | +64 |
+| BNG | 0.9 % | 7.5 | +56 |
+| PNV | 0.2 % | 10.0 | +48 |
+| PSOE | 0.0 % | 8.3 | +54 |
+| PP | 0.0 % | 18.2 | -4 |
+| VOX | 0.0 % | 20.0 | -50 |
+| ERC | 0.0 % | 11.6 | +43 |
+| Cs | 0.0 % | 14.5 | +23 |
+| Junts | 0.0 % | 15.4 | +19 |
+| Bildu | 0.0 % | 9.8 | +50 |
+| PDeCAT | 0.0 % | 13.3 | +35 |
+| CUP | 0.0 % | 13.6 | +33 |
+| UPN | 0.0 % | 18.3 | -5 |
+| CC | 0.0 % | 9.0 | +50 |
+| PRC | 0.0 % | 7.2 | +57 |
+| Foro | 0.0 % | 17.4 | -1 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Más País +82, Compromís +81, Teruel Existe +78
-- Joven de alquiler: Más País +82, Unidas Podemos +81, Compromís +81
-- Pensionista con casa propia: Más País +73, Unidas Podemos +72, Compromís +71
-- Pensionista con pensión baja: Más País +73, Unidas Podemos +72, Compromís +71
-- Autónomo del comercio: Más País +69, Compromís +65, NC +65
-- Empresario de pyme industrial: Compromís +40, Teruel Existe +40, NC +39
-- Funcionario docente: Más País +81, Unidas Podemos +80, Compromís +79
-- Policía o guardia civil: Compromís +79, Unidas Podemos +74, Teruel Existe +73
-- Sanitario asalariado: Compromís +79, Más País +78, Unidas Podemos +77
-- Familia numerosa: Más País +82, Compromís +81, Teruel Existe +78
-- Rentas altas con patrimonio: Teruel Existe +59, NC +54, Compromís +53
-- Gran patrimonio y gran empresa: Teruel Existe +59, NC +54, Compromís +53
-- Parado con subsidio: Más País +79, Unidas Podemos +78, Compromís +78
-- Agricultor en el medio rural: Más País +72, Compromís +71, Unidas Podemos +70
-- Madre sola con hijo: Teruel Existe +83, NC +80, Unidas Podemos +72
-- Estudiante: NC +78, Teruel Existe +78, Unidas Podemos +77
-- Mayor dependiente: Unidas Podemos +75, Más País +74, Compromís +74
-- Casero con varias viviendas: Teruel Existe +59, NC +54, Compromís +53
-- Transportista autónomo: Más País +75, Unidas Podemos +74, Compromís +73
-- Asalariado de salario mínimo: Unidas Podemos +78, Más País +78, Compromís +77
+- Asalariado medio con hipoteca e hijos: Más País +82, Compromís +80, Unidas Podemos +76
+- Joven de alquiler: Unidas Podemos +81, Más País +81, Compromís +80
+- Pensionista con casa propia: Unidas Podemos +78, Más País +78, Compromís +76
+- Pensionista con pensión baja: Unidas Podemos +78, Más País +78, Compromís +76
+- Autónomo del comercio: Más País +74, Teruel Existe +71, NC +71
+- Empresario de pyme industrial: PNV +35, Unidas Podemos +34, Compromís +34
+- Funcionario docente: Unidas Podemos +82, Más País +82, Compromís +76
+- Policía o guardia civil: Compromís +75, Más País +73, Unidas Podemos +72
+- Sanitario asalariado: Más País +78, Compromís +78, Unidas Podemos +77
+- Familia numerosa: Más País +82, Compromís +80, Unidas Podemos +76
+- Rentas altas con patrimonio: Compromís +49, Unidas Podemos +48, Más País +48
+- Gran patrimonio y gran empresa: Compromís +51, Más País +50, Unidas Podemos +49
+- Parado con subsidio: Unidas Podemos +81, Más País +81, Compromís +80
+- Agricultor en el medio rural: Unidas Podemos +71, Más País +71, Teruel Existe +71
+- Madre sola con hijo: Más País +86, Compromís +85, Teruel Existe +82
+- Estudiante: Unidas Podemos +83, Más País +82, Teruel Existe +80
+- Mayor dependiente: Unidas Podemos +79, Más País +79, Compromís +77
+- Casero con varias viviendas: Compromís +49, Unidas Podemos +48, Más País +48
+- Transportista autónomo: Más País +79, Compromís +78, Unidas Podemos +77
+- Asalariado de salario mínimo: Unidas Podemos +81, Más País +81, Compromís +80
 
 </details>
 
@@ -334,49 +334,49 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Teruel Existe | 35.2 % | 3.2 | +56 |
-| CC | 26.0 % | 3.0 | +55 |
-| Cs | 11.1 % | 9.4 | +36 |
-| NC | 4.8 % | 7.9 | +42 |
-| PDeCAT | 4.2 % | 5.5 | +48 |
-| PP | 4.0 % | 12.9 | +17 |
-| VOX | 2.9 % | 16.1 | +1 |
-| PSOE | 2.6 % | 9.3 | +35 |
-| Compromís | 2.3 % | 7.5 | +39 |
-| Foro | 1.7 % | 12.8 | +19 |
-| Más País | 1.3 % | 8.2 | +36 |
-| ERC | 1.0 % | 11.8 | +27 |
-| Unidas Podemos | 0.7 % | 9.1 | +34 |
-| UPN | 0.7 % | 14.1 | +14 |
-| PRC | 0.7 % | 6.5 | +46 |
-| CUP | 0.5 % | 16.5 | +8 |
-| Bildu | 0.4 % | 13.3 | +24 |
-| Junts | 0.0 % | 14.2 | +20 |
-| PNV | 0.0 % | 15.2 | +13 |
-| BNG | 0.0 % | 12.4 | +26 |
+| Teruel Existe | 23.1 % | 3.6 | +55 |
+| PRC | 23.0 % | 5.6 | +46 |
+| Más País | 14.3 % | 4.3 | +51 |
+| Compromís | 8.1 % | 4.3 | +51 |
+| NC | 7.7 % | 7.6 | +46 |
+| Cs | 6.3 % | 11.6 | +22 |
+| PNV | 6.2 % | 11.9 | +32 |
+| ERC | 4.2 % | 8.7 | +43 |
+| BNG | 2.2 % | 8.0 | +41 |
+| PSOE | 1.2 % | 7.7 | +44 |
+| VOX | 1.2 % | 18.4 | -21 |
+| Junts | 0.8 % | 13.1 | +22 |
+| Unidas Podemos | 0.6 % | 7.4 | +45 |
+| Bildu | 0.6 % | 11.4 | +35 |
+| CUP | 0.3 % | 14.4 | +20 |
+| PDeCAT | 0.2 % | 9.0 | +42 |
+| PP | 0.0 % | 15.7 | -2 |
+| UPN | 0.0 % | 17.2 | -6 |
+| CC | 0.0 % | 12.8 | +26 |
+| Foro | 0.0 % | 16.2 | +0 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: CC +61, Teruel Existe +61, Más País +58
-- Joven de alquiler: Unidas Podemos +54, Bildu +54, Más País +54
-- Pensionista con casa propia: VOX +28, PSOE +20, Unidas Podemos +20
-- Pensionista con pensión baja: PSOE +27, Unidas Podemos +27, ERC +27
-- Autónomo del comercio: VOX +44, PDeCAT +43, Junts +35
-- Empresario de pyme industrial: VOX +47, Foro +29, UPN +14
-- Funcionario docente: PSOE +50, Unidas Podemos +50, ERC +50
-- Policía o guardia civil: Compromís +42, Teruel Existe +42, VOX +31
-- Sanitario asalariado: CC +51, Compromís +50, Teruel Existe +50
-- Familia numerosa: CC +61, Teruel Existe +61, Más País +58
-- Rentas altas con patrimonio: VOX +34, Cs +34, PP +33
-- Gran patrimonio y gran empresa: VOX +34, Cs +34, PP +33
-- Parado con subsidio: Unidas Podemos +41, PSOE +38, Bildu +38
-- Agricultor en el medio rural: NC +26, Bildu +17, Teruel Existe +17
-- Madre sola con hijo: CC +75, Teruel Existe +75, PDeCAT +72
-- Estudiante: Teruel Existe +61, NC +58, Unidas Podemos +52
-- Mayor dependiente: PSOE +45, Unidas Podemos +43, ERC +43
-- Casero con varias viviendas: VOX +34, Cs +34, PP +33
-- Transportista autónomo: sin resultado
-- Asalariado de salario mínimo: sin resultado
+- Asalariado medio con hipoteca e hijos: PRC +60, Más País +57, Compromís +57
+- Joven de alquiler: ERC +57, Unidas Podemos +55, Bildu +55
+- Pensionista con casa propia: VOX -29
+- Pensionista con pensión baja: VOX -29, Cs -31
+- Autónomo del comercio: NC +49, BNG +44, Teruel Existe +38
+- Empresario de pyme industrial: VOX +33, Junts +27, ERC +2
+- Funcionario docente: PSOE +65, Unidas Podemos +65, ERC +65
+- Policía o guardia civil: Compromís +46, PRC +44, NC +41
+- Sanitario asalariado: PRC +47, Compromís +45, NC +45
+- Familia numerosa: PRC +60, Más País +57, Compromís +57
+- Rentas altas con patrimonio: PNV +13, VOX +8, Junts +6
+- Gran patrimonio y gran empresa: PNV +19, VOX +14, Junts +13
+- Parado con subsidio: Unidas Podemos +57, Más País +56, PSOE +55
+- Agricultor en el medio rural: BNG +39, CUP +39, Teruel Existe +39
+- Madre sola con hijo: Más País +76, Compromís +75, Teruel Existe +75
+- Estudiante: NC +72, Unidas Podemos +71, Más País +70
+- Mayor dependiente: PSOE +42, Unidas Podemos +42, ERC +42
+- Casero con varias viviendas: PNV +13, VOX +8, Junts +6
+- Transportista autónomo: PSOE +44, Bildu +44, PNV +44
+- Asalariado de salario mínimo: PSOE +55, Unidas Podemos +55, ERC +55
 
 </details>
 

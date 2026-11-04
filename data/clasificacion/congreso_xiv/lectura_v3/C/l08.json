@@ -1,0 +1,540 @@
+[
+ {
+  "id": "122/000153",
+  "tipo": "eco",
+  "imp": {
+   "prop1": 1,
+   "prop2": 1,
+   "prop3": 1,
+   "prop4": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el Impuesto sobre Sucesiones y Donaciones; beneficia a quienes heredan o reciben donaciones, según su patrimonio.",
+  "partido": ""
+ },
+ {
+  "id": "122/000154",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre imprudencia menos grave en la conducción; cambia tipos y penas sin conceder derechos a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000155",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Extingue concesiones hidroeléctricas privadas y las asume una empresa pública; recupera el recurso para lo público y perjudica al sector energético.",
+  "partido": ""
+ },
+ {
+  "id": "122/000156",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza gratuidad de libros, dispositivos digitales e Internet en educación básica; beneficia a estudiantes y familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000157",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Reduce impuestos y cargos de la factura eléctrica; beneficia a los consumidores de electricidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000158",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos y refuerza la atención en salud mental; beneficia a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000159",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "discapacidad": 1,
+   "depend": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza atención y apoyos a personas con ELA; beneficia a pacientes, personas con discapacidad y dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000160",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía un plazo de aprobación de un documento de planificación aeroportuaria; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000161",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000162",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000163",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal que endurece penas por atentado, resistencia y desobediencia a la autoridad; sin impactos asignables.",
+  "partido": ""
+ },
+ {
+  "id": "122/000164",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula el cannabis incluido su uso terapéutico; beneficia a pacientes que lo necesitan.",
+  "partido": ""
+ },
+ {
+  "id": "122/000165",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula el cannabis incluido su uso terapéutico; beneficia a pacientes que lo necesitan.",
+  "partido": ""
+ },
+ {
+  "id": "122/000166",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "viv2": -1,
+   "pobreza": 1,
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 3,
+  "nota": "Ley integral de vivienda: frena desahucios, regula alquileres y limita deudas hipotecarias; beneficia a inquilinos, deudores y vulnerables, y perjudica a arrendadores y banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000167",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: no asigna efectos a colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000168",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "ciud": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Garantiza la prestación pública del aborto y crea permisos por aborto o pérdida gestacional; beneficia a mujeres y pasa la prestación al sector público.",
+  "partido": ""
+ },
+ {
+  "id": "122/000169",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el mercado del cannabis para adultos; el texto disponible no concreta qué colectivos ganan o pierden con su articulado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000170",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000171",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija el uso del topónimo gallego oficial en capitanías y distritos marítimos; sin efecto sobre colectivos.",
+  "partido": "BNG"
+ },
+ {
+  "id": "122/000172",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye de la ley hipotecaria a las secciones de crédito de cooperativas respecto a sus socios; ningún colectivo del catálogo queda claramente afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000173",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Integra voluntariamente centros privados concertados en la red pública; traslada la prestación educativa de lo privado a lo público.",
+  "partido": ""
+ },
+ {
+  "id": "122/000174",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000175",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000176",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 2,
+  "nota": "Endurece la adquisición de la nacionalidad: residencia general de diez a quince años y más requisitos en opción y carta de naturaleza.",
+  "partido": ""
+ },
+ {
+  "id": "122/000177",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000178",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "discapacidad": 1,
+   "depend": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza atención y apoyos a personas con ELA; beneficia a pacientes, personas con discapacidad y dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000179",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "discapacidad": 1,
+   "depend": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza atención y apoyos a personas con ELA; beneficia a pacientes, personas con discapacidad y dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000180",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "discapacidad": 1,
+   "depend": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza atención y apoyos a personas con ELA; beneficia a pacientes, personas con discapacidad y dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000181",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Elimina el 30 % de copago farmacéutico a pensionistas de mutualidades de funcionarios y fuerzas armadas; beneficia a pacientes y jubilados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000182",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la redacción sobre lenguas cooficiales en la educación básica; sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000183",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Elimina el 30 % de copago farmacéutico a pensionistas de mutualidades de funcionarios y fuerzas armadas; beneficia a pacientes y jubilados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000184",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000185",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000186",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000187",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000188",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000189",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: no asigna efectos a colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000190",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un cuerpo funcionarial de alta inspección educativa; norma de organización administrativa sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000191",
+  "tipo": "eco",
+  "imp": {
+   "viv1": 1,
+   "viv2": 1
+  },
+  "peso": 2,
+  "nota": "Reduce la carga del impuesto municipal de plusvalía; beneficia a quienes transmiten viviendas urbanas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000192",
+  "tipo": "soc",
+  "imp": {
+   "monop": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Amplía permisos de nacimiento y cuidado para familias monoparentales; beneficia a estas familias y a sus hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000193",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000194",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula estadísticas de pymes en la contratación pública; norma de transparencia sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000195",
+  "tipo": "eco",
+  "imp": {
+   "viv1": 1,
+   "viv2": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el impuesto municipal de plusvalía; beneficia a quienes transmiten viviendas urbanas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000196",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000197",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional u orgánica sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000198",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Mantiene el poder adquisitivo de pensiones y prestaciones no contributivas mediante su revalorización; beneficia a pensionistas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000199",
+  "tipo": "soc",
+  "imp": {
+   "proSan": 1,
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Permite compatibilizar la jubilación con el trabajo sanitario y contratar especialistas titulados fuera de la UE; beneficia a sanitarios y extranjeros titulados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000200",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "pen1": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la incapacidad temporal, crea pensión no contributiva y reduce jornada para personas con cáncer; beneficia a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000201",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Computa el servicio social femenino para acceder a la jubilación parcial; iguala a las mujeres con los hombres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000202",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Endurece los objetivos de reducción de emisiones y renovables de la ley de cambio climático; mejora la protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "122/000203",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Relaja obligaciones de la ley COVID, como la mascarilla en exteriores; suaviza una medida de salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000204",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "rural": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a garantizar cajeros en municipios con exclusión financiera; beneficia a usuarios y medio rural, y supone un coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000205",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la tributación de pensiones del extranjero de emigrantes retornados; el texto no permite fijar tramos ni colectivo del listado.",
+  "partido": "BNG"
+ },
+ {
+  "id": "122/000206",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Incorpora exigencias ambientales y de participación a la ley de minas; mejora la protección ambiental y perjudica a la minería.",
+  "partido": ""
+ },
+ {
+  "id": "122/000207",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "asal5": 1,
+   "asal6": 1,
+   "pen2": 1,
+   "pen3": 1
+  },
+  "peso": 3,
+  "nota": "Deflacta el IRPF según la inflación; beneficia a todos los tramos de renta del trabajo y a pensionistas con pensión tributable.",
+  "partido": ""
+ }
+]

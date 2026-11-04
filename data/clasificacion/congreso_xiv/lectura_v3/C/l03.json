@@ -1,0 +1,534 @@
+[
+ {
+  "id": "120/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Dota de letra al himno; norma simbólica sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000013",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula la dación en pago; libera al deudor hipotecario entregando la vivienda y perjudica a las entidades acreedoras.",
+  "partido": ""
+ },
+ {
+  "id": "120/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000015",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000018",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Destina recortes de gasto político a reducir la factura eléctrica; beneficia a los consumidores de electricidad.",
+  "partido": ""
+ },
+ {
+  "id": "120/000019",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Busca recuperar el Sistema Nacional de Salud; mejora la cobertura de la sanidad pública y a sus pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000020",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Busca recuperar el Sistema Nacional de Salud; mejora la cobertura de la sanidad pública y a sus pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000021",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Prevé una regularización extraordinaria de personas extranjeras en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "120/000022",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Busca recuperar el Sistema Nacional de Salud; mejora la cobertura de la sanidad pública y a sus pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000023",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Prevé una regularización extraordinaria de personas extranjeras en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "120/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal que tipifica un delito; no da derechos a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "120/000025",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000026",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Prevé una regularización extraordinaria de personas extranjeras en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "120/000027",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la elección del CGPJ y del Fiscal General; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000028",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000029",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Destina recortes de gasto político a reducir la factura eléctrica; beneficia a los consumidores de electricidad.",
+  "partido": ""
+ },
+ {
+  "id": "120/000030",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Iguala la aportación farmacéutica entre pensionistas de la Seguridad Social y de las mutualidades; el signo para cada tramo no consta.",
+  "partido": ""
+ },
+ {
+  "id": "120/000031",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma constitucional; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000032",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000033",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000035",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza el derecho a usar dinero físico en los pagos; beneficia a los usuarios como consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "121/000001",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre servicios digitales de publicidad, intermediación y venta de datos, que pagan las grandes empresas tecnológicas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000002",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre la adquisición de acciones de grandes sociedades cotizadas, que recae sobre las operaciones del sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "121/000003",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1,
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Crea un entorno controlado de pruebas para innovación financiera tecnológica; beneficia a entidades financieras y empresas tecnológicas promotoras.",
+  "partido": ""
+ },
+ {
+  "id": "121/000004",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la normativa nacional a un reglamento europeo sobre servicios electrónicos de confianza; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "121/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el uso de datos de pasajeros para investigar delitos graves; norma de seguridad sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000007",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 3,
+  "nota": "Reforma integral de la ley de educación: nueva ordenación de etapas, evaluación y derechos del alumnado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000016",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone obligación de informar sobre mecanismos fiscales transfronterizos a intermediarios y obligados; sin colectivo definido de la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "121/000019",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija objetivos de reducción de emisiones y transición energética; mejora el medio ambiente y el clima.",
+  "partido": ""
+ },
+ {
+  "id": "121/000022",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Protege a menores frente a la violencia con medidas de prevención, detección y atención a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000023",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Intensifica las reducciones del comercio de emisiones; mejora la protección climática y supone exigencias para las instalaciones industriales y energéticas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000027",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Sustituye la incapacitación por medidas de apoyo y reconoce la capacidad jurídica de las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "121/000028",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone una directiva sobre la implicación de los accionistas en sociedades cotizadas; norma técnica de gobierno corporativo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000033",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Endurece la transparencia fiscal internacional y el impuesto de salida del Impuesto sobre Sociedades; afecta a grupos empresariales con filiales en el exterior.",
+  "partido": ""
+ },
+ {
+  "id": "121/000035",
+  "tipo": "eco",
+  "imp": {
+   "asal6": -1,
+   "prop4": -1,
+   "empMed": -1,
+   "empGran": -1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos: suben IRPF de rentas altas, patrimonio y límite de exención de dividendos; revalorizan pensiones y retribuciones públicas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000036",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "secInd": -1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la posición de los productores primarios con obligaciones de precios y contratos a industria y distribución.",
+  "partido": ""
+ },
+ {
+  "id": "121/000038",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Tipifica infracciones sancionadoras del arrendamiento de vehículos con conductor; norma sancionadora.",
+  "partido": ""
+ },
+ {
+  "id": "121/000044",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Declara un parque nacional que protege un espacio natural de alto valor.",
+  "partido": ""
+ },
+ {
+  "id": "121/000046",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la protección de datos en el ámbito penal; norma procesal e institucional.",
+  "partido": ""
+ },
+ {
+  "id": "121/000047",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 1,
+  "nota": "Sanciona el pago a más de sesenta días en el transporte de mercancías por carretera; beneficia a los transportistas acreedores.",
+  "partido": ""
+ },
+ {
+  "id": "121/000050",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma sancionadora de tráfico: cambia la pérdida de puntos por infracciones; no da derechos a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "121/000053",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aplica el reglamento europeo de la Fiscalía Europea; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000056",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección ambiental en residuos, con un impuesto a envases de plástico y obligaciones de reducción para industria y hostelería.",
+  "partido": ""
+ },
+ {
+  "id": "121/000058",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reparte los costes fijos de las renovables entre todos los vectores energéticos; hay signos opuestos dentro de consumidores y de sector.",
+  "partido": ""
+ },
+ {
+  "id": "121/000060",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000061",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la lucha antidopaje en el deporte; norma sancionadora y organizativa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000062",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza derechos y protección integral a las víctimas de violencias sexuales.",
+  "partido": ""
+ },
+ {
+  "id": "121/000064",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos de reparación a las víctimas de la guerra civil y la dictadura.",
+  "partido": ""
+ },
+ {
+  "id": "121/000065",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Reduce la retribución en el mercado eléctrico de instalaciones que no emiten CO2 para abaratar el coste de la electricidad.",
+  "partido": ""
+ },
+ {
+  "id": "121/000066",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones con el IPC e introduce una cotización adicional del mecanismo de equidad intergeneracional a cargo de la empresa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000067",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Reordena la Formación Profesional en un sistema único con acreditación de competencias y formación dual.",
+  "partido": ""
+ },
+ {
+  "id": "121/000068",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Sustituye el reglamento disciplinario preconstitucional del estudiantado por un régimen con mediación y garantías de procedimiento.",
+  "partido": ""
+ }
+]

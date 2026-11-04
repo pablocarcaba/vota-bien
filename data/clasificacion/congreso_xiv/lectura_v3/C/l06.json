@@ -1,0 +1,506 @@
+[
+ {
+  "id": "122/000043",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Marco común estatal para los servicios de bomberos, que mejora la coordinación y calidad del servicio público de emergencias.",
+  "partido": ""
+ },
+ {
+  "id": "122/000044",
+  "tipo": "eco",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Equipara las retribuciones de Policía Nacional y Guardia Civil a las de las policías autonómicas; mejora salarial del personal de seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000045",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de desarrollo del Pacto de Estado contra la violencia machista; protección y apoyo a mujeres víctimas de violencia de género.",
+  "partido": ""
+ },
+ {
+  "id": "122/000046",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 1,
+  "nota": "Garantías de conciliación familiar (maternidad, paternidad, cuidado) para profesionales de la Justicia mediante suspensión de plazos y vistas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000047",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce derechos, memoria e indemnizaciones a las víctimas del terrorismo, incluidas las de casos sin condena.",
+  "partido": ""
+ },
+ {
+  "id": "122/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite la participación y voto telemático en órganos colegiados por baja o circunstancias excepcionales; regla organizativa sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000049",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite la participación y voto telemático en órganos colegiados por baja o circunstancias excepcionales; regla organizativa sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000050",
+  "tipo": "eco",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Elimina el 30 % de copago farmacéutico a pensionistas de MUFACE e ISFAS y sus beneficiarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000051",
+  "tipo": "eco",
+  "imp": {
+   "prop1": 1,
+   "prop2": 1,
+   "prop3": 1,
+   "prop4": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el Impuesto sobre Sucesiones y Donaciones; beneficia a quienes lo pagan por herencias y donaciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000052",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Habilita a los ayuntamientos a bonificar el IBI a negocios afectados por el COVID; el efecto depende de cada ordenanza municipal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000053",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el control y la regulación del Centro Nacional de Inteligencia; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000054",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Regula infracciones y sanciones por pago tardío entre empresas y agiliza el ajuste del IVA de facturas impagadas; beneficia a pymes y autónomos acreedores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000055",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia los requisitos de nombramiento de directores generales; norma de organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000056",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la Ley de Haciendas Locales y el impuesto de plusvalía con bonificaciones potestativas; el texto no concreta efectos con signo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000057",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no permite determinar con seguridad a quién afecta ni con qué signo; reforma de estados excepcionales y salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000058",
+  "tipo": "eco",
+  "imp": {
+   "prop1": 1,
+   "prop2": 1,
+   "prop3": 1,
+   "prop4": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el Impuesto sobre Sucesiones y Donaciones; beneficia a quienes lo pagan por herencias y donaciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000059",
+  "tipo": "eco",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación de la Seguridad Social por hijo a cargo; beneficia a las familias con hijos menores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000060",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal y procesal sobre violencia intrafamiliar; el texto no permite determinar derechos concretos con signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000061",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Establece un régimen profesional único para el personal militar profesional, con medidas de estabilidad y salida profesional para la tropa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000062",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Establece un régimen profesional único para el personal militar profesional, con medidas de estabilidad y salida profesional para la tropa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000063",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora; no se asigna efecto a colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000064",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Impone reglas de verificación de noticias a redes sociales y medios; obligaciones para el sector digital y de medios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000065",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la recuperación rápida de viviendas ocupadas ilegalmente; beneficia a los propietarios de más de una vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "122/000066",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la recuperación rápida de viviendas ocupadas ilegalmente; beneficia a los propietarios de más de una vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "122/000067",
+  "tipo": "eco",
+  "imp": {
+   "secDig": 1
+  },
+  "peso": 1,
+  "nota": "Impulsa la radiodifusión sonora digital terrestre y flexibiliza exigencias de cobertura a los operadores del sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000068",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce a los animales como seres sintientes en el Código Civil; no afecta a colectivos del catálogo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000069",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Endurece las penas por usurpación de inmuebles y permite el desalojo preventivo de ocupantes; beneficia a propietarios de vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "122/000070",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Agiliza el desalojo y la persecución de la ocupación ilegal de inmuebles; beneficia a los propietarios de viviendas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000071",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Reforma la evaluación de acceso a la universidad para igualar el trato y las oportunidades de los estudiantes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000072",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reordena la gestión de denominaciones de origen vitivinícolas y reparte competencias entre administraciones; sin efecto con signo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000073",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el aval exigido a las juntas directivas de clubes de fútbol; no afecta a colectivos del catálogo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000074",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el calendario o la organización del Registro Civil; norma de organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000075",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los funcionarios de prisiones la condición de agentes de la autoridad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000076",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no permite determinar con seguridad a quién afecta ni con qué signo; reforma de estados excepcionales y salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000077",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no permite determinar con seguridad a quién afecta ni con qué signo; reforma de estados excepcionales y salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000078",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora; no se asigna efecto a colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000079",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el calendario o la organización del Registro Civil; norma de organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000080",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los funcionarios de prisiones la condición de agentes de la autoridad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000081",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Limita la contratación temporal y refuerza la estabilidad en el empleo de los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000082",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Marco común estatal para los servicios de bomberos, que mejora la coordinación y calidad del servicio público de emergencias.",
+  "partido": ""
+ },
+ {
+  "id": "122/000083",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora; no se asigna efecto a colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000084",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa; no tiene efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000085",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Establece un régimen profesional único para el personal militar profesional, con medidas de estabilidad y salida profesional para la tropa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000086",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa; no tiene efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000087",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa; no tiene efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000088",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa; no tiene efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000089",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o sancionadora; no se asigna efecto a colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000090",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa; no tiene efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000091",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa; no tiene efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000092",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa; no tiene efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000093",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000094",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Turno especial de acceso para interinos con diez años de servicio; favorece a unos aspirantes y perjudica a otros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000095",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa; no tiene efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000096",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal que permite juzgar crímenes de lesa humanidad anteriores a su tipificación; no concede derechos a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000097",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Crea un estatuto propio para el personal de Instituciones Penitenciarias que recoge las singularidades de su trabajo.",
+  "partido": ""
+ }
+]

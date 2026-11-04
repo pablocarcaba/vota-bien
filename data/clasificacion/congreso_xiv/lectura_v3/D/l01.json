@@ -1,0 +1,612 @@
+[
+ {
+  "id": "130/000091",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Código de buenas prácticas para aliviar las cuotas de hipotecas sobre vivienda habitual; obliga a los bancos a ofrecer reestructuraciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000003",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 2,
+  "nota": "Fija la subida de las retribuciones de los empleados públicos de todos los subgrupos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000048",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "empAut": 1,
+   "secCom": 1
+  },
+  "peso": 3,
+  "nota": "Prorroga los ERTE y sus exoneraciones, mantiene prestaciones por desempleo y por cese de actividad de autónomos, con protección reforzada a sectores como turismo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000042",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "empAut": 1,
+   "secCom": 1
+  },
+  "peso": 3,
+  "nota": "Prorroga los ERTE y sus exoneraciones, mantiene prestaciones por desempleo y por cese de actividad de autónomos, con protección reforzada a sectores como turismo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000074",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "victimas": 1,
+   "inq": 1,
+   "pobreza": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Protege a autónomos, ayuda a los afectados del volcán de La Palma y prorroga la suspensión de desahucios de vulnerables.",
+  "partido": ""
+ },
+ {
+  "id": "121/000150",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "asal5": -1,
+   "asal6": -1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Reforma de pensiones: cuota de solidaridad por encima de la base máxima, más cotización empresarial y refuerzo del complemento para reducir la brecha de género.",
+  "partido": ""
+ },
+ {
+  "id": "130/000094",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "asal5": -1,
+   "asal6": -1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Reforma de pensiones: cuota de solidaridad por encima de la base máxima, más cotización empresarial y refuerzo del complemento para reducir la brecha de género.",
+  "partido": ""
+ },
+ {
+  "id": "121/000025",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "desSub": 1,
+   "monop": 1
+  },
+  "peso": 3,
+  "nota": "Crea el ingreso mínimo vital, prestación de garantía de rentas para hogares vulnerables, con incremento específico para familias monoparentales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000021",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "desSub": 1,
+   "monop": 1
+  },
+  "peso": 3,
+  "nota": "Crea el ingreso mínimo vital, prestación de garantía de rentas para hogares vulnerables, con incremento específico para familias monoparentales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000060",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Ayudas a los afectados por la erupción volcánica de La Palma, incluidos autónomos y agricultores.",
+  "partido": ""
+ },
+ {
+  "id": "121/000140",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "cons": 1,
+   "ciud": 1,
+   "inq": 1,
+   "viv2": -1,
+   "pobreza": 1,
+   "victimas": 1,
+   "secPrim": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza pensiones, baja el IVA de alimentos y energía, ayuda al transporte, limita alquileres, protege a vulnerables y apoya a La Palma y al campo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000092",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "cons": 1,
+   "ciud": 1,
+   "inq": 1,
+   "viv2": -1,
+   "pobreza": 1,
+   "victimas": 1,
+   "secPrim": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza pensiones, baja el IVA de alimentos y energía, ayuda al transporte, limita alquileres, protege a vulnerables y apoya a La Palma y al campo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000026",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de prevención y contención del COVID-19 para proteger la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "130/000022",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de prevención y contención del COVID-19 para proteger la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "130/000061",
+  "tipo": "soc",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Prorroga la suspensión de desahucios y otras protecciones para hogares vulnerables, con límite a propietarios.",
+  "partido": ""
+ },
+ {
+  "id": "130/000023",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reparte entre comunidades autónomas un fondo extraordinario por la pandemia; transferencia entre administraciones sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000062",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas organizativas para celebrar en España una asamblea de un organismo internacional de turismo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000024",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Medidas energéticas para acelerar las renovables y otros ámbitos de reactivación económica; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "130/000063",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Protege a los consumidores de electricidad y gas y exige transparencia en los mercados mayorista y minorista.",
+  "partido": ""
+ },
+ {
+  "id": "121/000029",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "empAut": 1,
+   "secInd": 1
+  },
+  "peso": 3,
+  "nota": "Prorroga los ERTE y sus exoneraciones, protege a autónomos y apoya la competitividad del sector industrial.",
+  "partido": ""
+ },
+ {
+  "id": "130/000025",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "empAut": 1,
+   "secInd": 1
+  },
+  "peso": 3,
+  "nota": "Prorroga los ERTE y sus exoneraciones, protege a autónomos y apoya la competitividad del sector industrial.",
+  "partido": ""
+ },
+ {
+  "id": "121/000079",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Transpone varias directivas europeas (bonos garantizados, derechos de autor, datos abiertos, vehículos limpios); incluye mayores garantías para consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000064",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Transpone varias directivas europeas (bonos garantizados, derechos de autor, datos abiertos, vehículos limpios); incluye mayores garantías para consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "121/000030",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de apoyo a la reactivación económica y al empleo, con avales públicos de liquidez para autónomos y empresas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000026",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de apoyo a la reactivación económica y al empleo, con avales públicos de liquidez para autónomos y empresas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000065",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000031",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de liquidez y apoyo al sector del transporte afectado por la pandemia, y medidas en vivienda de contenido no determinado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000027",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de reactivación para el transporte: liquidez, simplificación de trámites y apoyo a operadores; el contenido de vivienda no consta en el texto.",
+  "partido": ""
+ },
+ {
+  "id": "121/000080",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 2,
+  "nota": "Rediseña el cálculo de la plusvalía municipal: no sujeción sin incremento y estimación directa, pero grava plusvalías de menos de un año; signos opuestos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000066",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el impuesto de plusvalía municipal: no sujeción sin incremento de valor y nuevos coeficientes, pero grava plusvalías de menos de un año; signos mixtos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000028",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas financieras para las entidades locales; afecta a la relación entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000067",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1,
+   "cons": 1,
+   "ciud": 1
+  },
+  "peso": 3,
+  "nota": "Prorroga avales y moratoria concursal para empresas y autónomos, cobertura de suministro de gas y obras ambientales del Mar Menor.",
+  "partido": ""
+ },
+ {
+  "id": "121/000034",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 2,
+  "nota": "Regula el trabajo a distancia con derechos y obligaciones para trabajadores y empresas; sin colectivo con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "130/000029",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el trabajo a distancia: voluntariedad, igualdad de derechos, medios y desconexión digital; no afecta a un colectivo definido por renta o sector.",
+  "partido": ""
+ },
+ {
+  "id": "130/000068",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Ayudas complementarias para la reparación de daños del volcán de La Palma, incluidos autónomos y agricultores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000030",
+  "tipo": "soc",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Regula el teletrabajo de empleados públicos y amplía la contratación de profesionales para reforzar el Sistema Nacional de Salud.",
+  "partido": ""
+ },
+ {
+  "id": "121/000087",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Elimina barreras para la movilidad eléctrica, el autoconsumo y las renovables, con beneficio ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "122/000293",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Agiliza trámites de conversión de vehículos a eléctricos; sin colectivo con efecto claro en el texto disponible.",
+  "partido": ""
+ },
+ {
+  "id": "130/000069",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Elimina barreras para la movilidad eléctrica, el autoconsumo y las renovables, con beneficio ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "121/000005",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone directivas europeas sobre contratación pública sectorial, seguros, planes de pensiones y litigios fiscales; el signo para colectivos no consta.",
+  "partido": ""
+ },
+ {
+  "id": "130/000004",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone directivas europeas sobre contratación pública sectorial, seguros, planes de pensiones y litigios fiscales; el signo para colectivos no consta.",
+  "partido": ""
+ },
+ {
+  "id": "121/000049",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1,
+   "pobreza": 1,
+   "desSub": 1,
+   "proSan": 1,
+   "hipot": 1
+  },
+  "peso": 2,
+  "nota": "Rediseña el complemento de pensiones para reducir la brecha de género, mejora el ingreso mínimo vital, la baja del personal sanitario y las moratorias hipotecarias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000043",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1,
+   "pobreza": 1,
+   "desSub": 1,
+   "proSan": 1,
+   "hipot": 1
+  },
+  "peso": 2,
+  "nota": "Rediseña el complemento de pensiones para reducir la brecha de género, mejora el ingreso mínimo vital, la baja del personal sanitario y las moratorias hipotecarias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000075",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1,
+   "secCons": 1
+  },
+  "peso": 2,
+  "nota": "Medidas para el transporte de mercancías por carretera y revisión excepcional de precios en contratos públicos de obras.",
+  "partido": ""
+ },
+ {
+  "id": "130/000095",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Prorroga el mecanismo que reduce el precio mayorista de la electricidad.",
+  "partido": ""
+ },
+ {
+  "id": "130/000031",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "empAut": 1,
+   "secCom": 1
+  },
+  "peso": 3,
+  "nota": "Prorroga los ERTE y sus exoneraciones, mantiene prestaciones por desempleo y por cese de actividad de autónomos, con protección reforzada a sectores.",
+  "partido": ""
+ },
+ {
+  "id": "121/000088",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de prevención y contención del COVID-19 para proteger la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "130/000070",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de prevención y contención del COVID-19 para proteger la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "130/000032",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Medidas urgentes en educación no universitaria para el curso marcado por la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000071",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el régimen económico y fiscal de Canarias y fija un nuevo plazo para renuncias a regímenes de tributación.",
+  "partido": ""
+ },
+ {
+  "id": "130/000033",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "desSub": 1,
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la protección por desempleo y apoya al sector cultural.",
+  "partido": ""
+ },
+ {
+  "id": "130/000072",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 3,
+  "nota": "Reforma laboral: limita la temporalidad, reordena la contratación y la negociación colectiva y crea mecanismos de flexibilidad interna.",
+  "partido": ""
+ },
+ {
+  "id": "130/000034",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000037",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el plazo de avales públicos de liquidez para autónomos y empresas, con medidas energéticas y tributarias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000035",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el plazo de avales públicos de liquidez para autónomos y empresas, con medidas energéticas y tributarias.",
+  "partido": ""
+ }
+]

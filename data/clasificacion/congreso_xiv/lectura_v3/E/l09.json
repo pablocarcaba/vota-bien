@@ -1,0 +1,522 @@
+[
+ {
+  "id": "122/000208",
+  "tipo": "soc",
+  "imp": {
+   "proSan": 1
+  },
+  "peso": 1,
+  "nota": "Regula medidas de seguridad frente a agresiones en el trabajo del personal sanitario, público y privado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000209",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1
+  },
+  "peso": 2,
+  "nota": "Modifica la financiación pública del sistema de atención a la dependencia, con efecto sobre las personas dependientes y sus cuidadores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000210",
+  "tipo": "soc",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Regula la gestión del lobo para hacerla compatible con la ganadería extensiva; beneficia al sector ganadero.",
+  "partido": ""
+ },
+ {
+  "id": "122/000211",
+  "tipo": "soc",
+  "imp": {
+   "proSan": 1
+  },
+  "peso": 1,
+  "nota": "Obliga a los empleadores a implantar medidas de protección del personal sanitario frente a la violencia en el trabajo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000212",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce a personas con cáncer o enfermedad grave teletrabajo, reducción de jornada y mayor reserva de puesto de trabajo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000213",
+  "tipo": "eco",
+  "imp": {
+   "prop4": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre el patrimonio de las grandes fortunas; perjudica a los mayores patrimonios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000214",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: tipifica o modifica penas sin conceder derechos a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000215",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Concede la nacionalidad española a los saharauis nacidos bajo soberanía española.",
+  "partido": ""
+ },
+ {
+  "id": "122/000216",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Incorpora exigencias ambientales y de participación a la Ley de Minas; refuerza la protección ambiental y obliga al sector minero.",
+  "partido": ""
+ },
+ {
+  "id": "122/000217",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula el cultivo, la tenencia y la dispensación de cannabis, incluido el acceso terapéutico para pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000218",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Regula la integración voluntaria de centros privados y concertados en la red pública de enseñanza; pasa gestión privada a pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000219",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Adapta la disposición de la Seguridad Social que asimila la incapacidad judicial al 65 % de discapacidad, para mantener prestaciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000220",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal complementaria de una ley de igualdad de trato; el texto no detalla su contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000221",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Deroga aspectos de la reforma laboral de 2012 y amplía derechos de despido y negociación; sube el coste laboral de las empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000222",
+  "tipo": "soc",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 1,
+  "nota": "Agiliza la concesión de ayudas municipales de urgente necesidad a personas en exclusión social, fuera del régimen de subvenciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000223",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza el control político y judicial del Centro Nacional de Inteligencia; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000224",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Tipifica el proxenetismo y reconoce a las personas en prostitución la condición de víctimas con los derechos del Estatuto de la víctima.",
+  "partido": ""
+ },
+ {
+  "id": "122/000225",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no permite determinar el contenido ni el signo del efecto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000226",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el derecho de voto a los mayores de 16 años.",
+  "partido": ""
+ },
+ {
+  "id": "122/000227",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el derecho de voto a los mayores de 16 años.",
+  "partido": ""
+ },
+ {
+  "id": "122/000228",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula el cultivo, la tenencia y la dispensación de cannabis, incluido el acceso terapéutico para pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000229",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delimita los actos del Rey sujetos a inviolabilidad; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000230",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el delito de tráfico de influencias del Código Penal; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000231",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Facilita el desalojo cautelar de inmuebles ocupados; protege a los propietarios de vivienda frente a la ocupación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000232",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la financiación autonómica con efecto territorial entre administraciones; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000233",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000234",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000235",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección del propietario frente a la ocupación ilegal y la inquiocupación; facilita la recuperación de la vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "122/000236",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Mejora las condiciones de trabajo y la protección por desempleo de los eventuales agrarios de Andalucía y Extremadura.",
+  "partido": ""
+ },
+ {
+  "id": "122/000237",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000238",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el régimen electoral general; norma institucional sin efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000239",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite al CGPJ en funciones nombrar a magistrados del Tribunal Constitucional; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000240",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000241",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una oficina de seguimiento de la ejecución de inversiones estatales en Cataluña; organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000242",
+  "tipo": "soc",
+  "imp": {
+   "viv1": 1,
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Permite celebrar con carácter permanente las juntas de propietarios por medios telemáticos en comunidades de propietarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000243",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza el acceso a becas y ayudas al estudio a familias en situación de vulnerabilidad socioeconómica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000244",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el procedimiento de elección de los vocales del CGPJ; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000245",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la Ley de Puertos para la gestión de la integración puerto-ciudad; sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000246",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Adapta la disposición de la Seguridad Social que asimila la incapacidad judicial al 65 % de discapacidad, para mantener prestaciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000247",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1,
+   "secFin": -1,
+   "empGran": -1,
+   "prop4": -1
+  },
+  "peso": 3,
+  "nota": "Crea gravámenes temporales a energéticas y entidades de crédito y un impuesto de solidaridad sobre grandes fortunas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000248",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Agiliza la recuperación de viviendas ocupadas en comunidades de propietarios; protege a los propietarios frente a la ocupación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000249",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Suprime el subsidio de la Seguridad Social a menores extranjeros que cumplen internamiento en centro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000250",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la suspensión automática de cargos públicos procesados por terrorismo o rebelión; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000251",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Revierte la prohibición de explorar y explotar recursos minerales y energéticos propios; rebaja una protección climática y beneficia a la industria extractiva.",
+  "partido": ""
+ },
+ {
+  "id": "122/000252",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece el cese inmediato de los miembros del CGPJ al acabar su mandato; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000253",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "pobreza": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Reduce temporalmente el diferencial de hipotecas variables de vivienda habitual para hogares vulnerables; menos ingresos para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000254",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000255",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Limita el ejercicio del indulto y exige motivación y arrepentimiento; norma penal sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000256",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000257",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el uso de lenguas cooficiales en los procesos judiciales; norma procesal sin colectivo de las tablas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000258",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce el derecho a cuidados paliativos en el final de la vida; beneficia a enfermos terminales.",
+  "partido": ""
+ },
+ {
+  "id": "122/000259",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Descentraliza en Cataluña la gestión de los funcionarios locales con habilitación nacional; sin signo conocido sobre ellos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000260",
+  "tipo": "eco",
+  "imp": {
+   "viv0": 1
+  },
+  "peso": 1,
+  "nota": "Modifica el IVA para facilitar la adquisición de la primera vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "122/000261",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Impide el empadronamiento de inmigrantes en situación irregular y de ocupantes de inmuebles usurpados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000262",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Impide el empadronamiento de inmigrantes en situación irregular y de ocupantes de inmuebles usurpados.",
+  "partido": ""
+ }
+]

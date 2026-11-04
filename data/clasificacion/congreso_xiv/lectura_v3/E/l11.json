@@ -1,0 +1,520 @@
+[
+ {
+  "id": "122/000319",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga normas por motivos institucionales e ideológicos; no se identifica un colectivo con efecto directo y de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000320",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de la Ley de Defensa Nacional; norma institucional sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000321",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una situación especial de incapacidad temporal y un permiso retribuido para donantes vivos de órganos; ningún colectivo marcable según la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000322",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Declara estratégico el sistema alimentario y prevé políticas de apoyo a las explotaciones agrarias y productores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000323",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce y protege a las víctimas de ETA y prevé el esclarecimiento de los crímenes sin resolver.",
+  "partido": ""
+ },
+ {
+  "id": "122/000324",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal de los delitos de malversación y desórdenes públicos; norma penal sin colectivo destinatario de derechos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000325",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce personalidad jurídica a Doñana y su entorno para reforzar su protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "122/000326",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Restringe el acceso de menores de dieciséis años a la pornografía para proteger a la infancia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000327",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal de los delitos de sedición, malversación y convocatoria de referéndum ilegal; norma penal sin colectivo destinatario.",
+  "partido": ""
+ },
+ {
+  "id": "122/000328",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1,
+   "empGran": -1,
+   "hipot": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Duplica el gravamen temporal a la banca y protege a los deudores hipotecarios en situación de vulnerabilidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000329",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000330",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la financiación electoral de los partidos; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000331",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000332",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000333",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la financiación electoral de los partidos; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000334",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el voto por correspondencia en el régimen electoral; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "123/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal para reforzar el Estado de Derecho y las instituciones; norma penal sin colectivo destinatario.",
+  "partido": ""
+ },
+ {
+  "id": "123/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección de alertadores; el título no permite determinar a qué colectivo afecta con signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "123/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula canales de denuncia y protección de alertadores en el ámbito público y privado; sin colectivo definido ni signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "123/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "124/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre esterilización forzada de personas con discapacidad; sin asignación de colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000002",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 1,
+  "nota": "Incluye la homofobia, bifobia y transfobia entre las conductas que combate la ley contra la intolerancia en el deporte.",
+  "partido": ""
+ },
+ {
+  "id": "124/000003",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Establece la accesibilidad cognitiva y la lectura fácil como derecho de las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "124/000004",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Crea un marco de financiación del transporte público urbano y metropolitano para sostener el servicio a sus usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "124/000005",
+  "tipo": "eco",
+  "imp": {
+   "depend": 1,
+   "secSoc": 1
+  },
+  "peso": 1,
+  "nota": "Aplica el IVA del 4 % a los servicios de atención a la dependencia no exentos.",
+  "partido": ""
+ },
+ {
+  "id": "124/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "124/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce al Juzgado Privativo de Aguas de Orihuela como tribunal consuetudinario; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "124/000008",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 1,
+  "nota": "Añade la baja por maternidad o paternidad del abogado como causa de suspensión del juicio oral.",
+  "partido": ""
+ },
+ {
+  "id": "124/000009",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
+  },
+  "peso": 1,
+  "nota": "Crea incentivos fiscales a la inversión y bonificaciones para empresas con establecimientos en Illes Balears.",
+  "partido": ""
+ },
+ {
+  "id": "124/000010",
+  "tipo": "eco",
+  "imp": {
+   "rural": 1,
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza dentro del servicio universal el acceso a banda ancha de 100 Mbps en zonas rurales.",
+  "partido": ""
+ },
+ {
+  "id": "124/000011",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las entidades financieras a garantizar un servicio de cajero automático de proximidad en municipios sin cajero.",
+  "partido": ""
+ },
+ {
+  "id": "124/000012",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce teletrabajo, reducción de jornada y mayor reserva de puesto a personas con enfermedad grave o cáncer.",
+  "partido": ""
+ },
+ {
+  "id": "124/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Despenaliza las injurias a la Corona y los ultrajes a España; norma penal sin colectivo destinatario.",
+  "partido": ""
+ },
+ {
+  "id": "124/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "124/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite medidas alternativas a las multas en las ordenanzas locales de convivencia; sin colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "125/000001",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a devolver el valor nominal de preferentes e híbridos a los ahorradores que los adquirieron por mala comercialización.",
+  "partido": ""
+ },
+ {
+  "id": "125/000002",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "hij3": 1,
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Fija una tarifa máxima de 30 euros en el transporte aéreo interinsular balear, con descuento a menores de 14 años y familias numerosas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000003",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce derecho de resarcimiento a particulares cuyo papel moneda y ahorros fueron incautados durante la Guerra Civil y la dictadura.",
+  "partido": ""
+ },
+ {
+  "id": "125/000004",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce la asistencia sanitaria pública y gratuita a toda la población, incluidas personas hoy excluidas por la normativa de Seguridad Social.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "hij3": 1,
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Fija una tarifa máxima de 30 euros en el transporte aéreo interinsular balear, con descuento a menores de 14 años y familias numerosas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000006",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transfiere la titularidad de la autopista AP-9 del Estado a la Comunidad Autónoma de Galicia; traspaso entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "125/000007",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Protege el Mediterráneo frente a daños de la exploración y explotación de hidrocarburos, que quedan sujetos a restricciones.",
+  "partido": ""
+ },
+ {
+  "id": "125/000008",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Limita las rebajas comerciales a dos temporadas anuales y devuelve a las comunidades autónomas la fijación de fechas; efecto de signo incierto.",
+  "partido": ""
+ },
+ {
+  "id": "125/000009",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Crea un fondo de compensación sin culpa para las víctimas de enfermedades causadas por el amianto.",
+  "partido": ""
+ },
+ {
+  "id": "125/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Despenaliza la ayuda a morir en supuestos de enfermedad grave; norma penal sin asignación de colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "125/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el límite de gasto electoral y su régimen sancionador; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000012",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce la gratuidad y universalidad del primer ciclo de educación infantil para las familias y el alumnado de 0 a 3 años.",
+  "partido": ""
+ },
+ {
+  "id": "125/000013",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Declara estratégica la industria electrointensiva y establece medidas de precio y ayudas para reducir su coste eléctrico.",
+  "partido": ""
+ },
+ {
+  "id": "125/000014",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Exime las prórrogas de concesiones en costas de límites de ubicación y plazo, y de la norma climática, rebajando la protección del litoral.",
+  "partido": ""
+ },
+ {
+  "id": "125/000015",
+  "tipo": "soc",
+  "imp": {
+   "minorias": 1
+  },
+  "peso": 1,
+  "nota": "Excluye de ayudas, contratos y subvenciones a entidades con prácticas discriminatorias, con atención al antisemitismo.",
+  "partido": ""
+ },
+ {
+  "id": "125/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece la custodia compartida como régimen preferente de guarda de menores; el signo para cada colectivo no consta.",
+  "partido": ""
+ },
+ {
+  "id": "125/000017",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las entidades financieras a garantizar cajero automático de proximidad y acceso a servicios bancarios en municipios sin ellos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000018",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Extiende el tipo reducido de la Zona Especial Canaria a las operaciones triangulares de comercio, con cautelas contra el abuso.",
+  "partido": ""
+ },
+ {
+  "id": "125/000019",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Permite regímenes de contención de rentas de alquiler de vivienda, lo que protege a inquilinos y limita a arrendadores.",
+  "partido": ""
+ },
+ {
+  "id": "125/000020",
+  "tipo": "soc",
+  "imp": {
+   "viv1": 1
+  },
+  "peso": 1,
+  "nota": "Protege de derribo las viviendas y pequeños comercios de núcleos costeros tradicionales incluidos en dominio público marítimo-terrestre.",
+  "partido": ""
+ }
+]

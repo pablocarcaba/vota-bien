@@ -1,0 +1,507 @@
+[
+ {
+  "id": "122/000263",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Facilita el rescate de concesiones de servicios públicos para su gestión directa por la Administración.",
+  "partido": ""
+ },
+ {
+  "id": "122/000264",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Reserva a las entidades locales agua, residuos y transporte público y refuerza la gestión directa de servicios; reduce el espacio privado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000265",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del régimen electoral general; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000266",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece la inelegibilidad de prófugos de la justicia; norma electoral sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000267",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el sistema de elección de las diputaciones provinciales; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000268",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000269",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la Ley del Patrimonio Histórico en materia de daños al patrimonio; norma sancionadora sin colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000270",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Prevé el desalojo cautelar de ocupantes sin título de inmuebles; beneficia a los propietarios de más de una vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "122/000271",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal que transpone directivas europeas y modifica delitos y sanciones de contrabando; sin colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000272",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime la prisión permanente revisable del Código Penal; norma penal sin colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000273",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el control parlamentario del Gobierno, también en funciones; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000274",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza el control político y judicial del Centro Nacional de Inteligencia; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000275",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del Código Penal en delitos contra la unidad nacional; norma penal sin colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000276",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exige analizar el impacto en la familia de las normas del Gobierno; norma de técnica normativa sin efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000277",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Crea visado humanitario, visado por puntos y asilo en consulados, con plazo máximo y silencio positivo; amplía derechos de extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000278",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la transparencia y la fiscalización de la ejecución presupuestaria; norma de organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000279",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Revierte la prohibición de explorar y explotar hidrocarburos; rebaja una protección climática y beneficia al sector energético.",
+  "partido": ""
+ },
+ {
+  "id": "122/000280",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del régimen electoral general; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000281",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Pretende aliviar a la industria de los costes de la responsabilidad ampliada del productor y del impuesto a los envases de plástico.",
+  "partido": ""
+ },
+ {
+  "id": "122/000282",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica los delitos de agresión sexual en el Código Penal; norma penal sin derechos específicos para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000283",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de la Ley Orgánica del Tribunal Constitucional; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000284",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Obliga a cubrir con placas fotovoltaicas parte de los grandes aparcamientos al aire libre; refuerza la protección climática.",
+  "partido": ""
+ },
+ {
+  "id": "122/000285",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Endurece la multirreincidencia en hurto y estafa leves; norma penal sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000286",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el modelo de elección de los vocales del Consejo General del Poder Judicial; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000287",
+  "tipo": "eco",
+  "imp": {
+   "rural": 1,
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Incluye bares y comercios de alimentación de municipios pequeños en la economía social, con sus incentivos; beneficia al comercio y al medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "122/000288",
+  "tipo": "eco",
+  "imp": {
+   "rural": 1,
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Incluye bares y comercios de alimentación de municipios pequeños en la economía social, con sus incentivos; beneficia al comercio y al medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "122/000289",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la actividad del Consejo General del Poder Judicial cuando está en funciones; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000290",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Restablece la evaluación ambiental y la participación pública en proyectos eólicos y fotovoltaicos; refuerza la protección ambiental y las exigencias al sector energético.",
+  "partido": "BNG"
+ },
+ {
+  "id": "122/000291",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la denominación oficial de los municipios; norma institucional sin colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000292",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Endurece el régimen de internamiento de extranjeros en CIE y limita el uso de la solicitud de asilo para evitar la expulsión.",
+  "partido": ""
+ },
+ {
+  "id": "122/000294",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica penas de delitos contra la libertad sexual y competencia judicial; norma penal sin derechos específicos para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000295",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000296",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000297",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el sistema de elección de las diputaciones provinciales; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000298",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del régimen electoral general; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000299",
+  "tipo": "soc",
+  "imp": {
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Obliga al Gobierno a aprobar en un año el Programa de Desarrollo Rural Sostenible; medida territorial para el medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "122/000300",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Endurece el régimen de internamiento de extranjeros en CIE y limita el uso de la solicitud de asilo para evitar la expulsión.",
+  "partido": ""
+ },
+ {
+  "id": "122/000301",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la independencia del Centro de Investigaciones Sociológicas; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000302",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Recupera la deducción de IRPF por vivienda habitual, hasta 5.000 euros, para rentas de hasta 60.000 euros; beneficia a quien tiene hipoteca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000303",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Modifica los requisitos de residencia por inversión inmobiliaria de la Ley de emprendedores; restringe una vía de residencia para extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000304",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Modifica los requisitos de residencia por inversión inmobiliaria de la Ley de emprendedores; restringe una vía de residencia para extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000305",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Establece la custodia compartida como modalidad preferente tras la ruptura; refuerza el derecho de los menores a relacionarse con ambos progenitores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000306",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la definición de puertos comerciales de la ley de puertos para la Marina de València; el texto no permite fijar un signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000307",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Reforma las garantías en la ejecución hipotecaria, incluida la subasta y la información sobre titulización; protege al deudor y carga a la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000308",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una incapacidad temporal especial y un permiso para donantes vivos de órganos; sin colectivo de la lista con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000309",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye la limpieza de cauces públicos a las confederaciones hidrográficas; reparto de competencias entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000310",
+  "tipo": "eco",
+  "imp": {
+   "infancia": 1,
+   "depend": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la prestación por cuidado de hijos enfermos: sin exigir hospitalización ni límite de edad, a acogedores y con reducción de jornada prorrateada.",
+  "partido": ""
+ },
+ {
+  "id": "122/000311",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Facilita el acceso a medicamentos huérfanos y su financiación para pacientes con enfermedades raras.",
+  "partido": ""
+ },
+ {
+  "id": "122/000312",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Revierte la prohibición de explorar y explotar hidrocarburos; rebaja una protección climática y beneficia al sector energético.",
+  "partido": ""
+ },
+ {
+  "id": "122/000313",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a mantener la actividad industrial estratégica a las empresas que recibieron ayudas públicas, con consecuencias si deslocalizan; carga a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "122/000314",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a mantener la actividad industrial estratégica a las empresas que recibieron ayudas públicas, con consecuencias si deslocalizan; carga a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "122/000315",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": -1
+  },
+  "peso": 2,
+  "nota": "Deroga la ley orgánica de igualdad efectiva de mujeres y hombres, entre otras normas laborales; las mujeres pierden esas garantías.",
+  "partido": ""
+ },
+ {
+  "id": "122/000316",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la gestación por sustitución con registro, contrato y centros autorizados; no se determina un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000317",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Tipifica nuevas infracciones y sanciones por daños y riesgo a bienes muebles del patrimonio histórico; norma sancionadora sin colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000318",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Permite pasar de hipoteca variable a fija o cambiar de entidad sin coste para el deudor; los costes recaen en las entidades.",
+  "partido": ""
+ }
+]

@@ -1,1161 +1,1026 @@
 [
-{
-"id": "130/000031",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"secCom": 1
-},
-"peso": 2,
-"nota": "Prorroga los ERTE, exoneraciones de cotización y la prestación por cese de autónomos; beneficia a trabajadores afectados y pequeñas empresas.",
-"partido": ""
-},
-{
-"id": "121/000088",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"proSan": 1
-},
-"peso": 1,
-"nota": "Mascarilla obligatoria en exteriores y medidas de refuerzo de personal sanitario, como compatibilizar pensión y trabajo; efecto general de salud pública.",
-"partido": ""
-},
-{
-"id": "130/000070",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"proSan": 1
-},
-"peso": 1,
-"nota": "Mascarilla obligatoria en exteriores y medidas de refuerzo de personal sanitario, como compatibilizar pensión y trabajo; efecto general de salud pública.",
-"partido": ""
-},
-{
-"id": "130/000032",
-"tipo": "soc",
-"imp": {
-"estud": 1
-},
-"peso": 1,
-"nota": "Flexibiliza evaluación, promoción y titulación en la enseñanza no universitaria durante la pandemia; afecta a estudiantes.",
-"partido": ""
-},
-{
-"id": "130/000071",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajustes técnicos del Régimen Económico y Fiscal de Canarias y de plazos tributarios; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "130/000033",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"desSub": 1,
-"empAut": 1
-},
-"peso": 1,
-"nota": "Prestación extraordinaria para fijos discontinuos y ayudas a artistas y profesionales de la cultura sin actividad.",
-"partido": ""
-},
-{
-"id": "130/000072",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"jovenes": 1,
-"empAut": -1,
-"empMicro": -1,
-"empPeq": -1
-},
-"peso": 3,
-"nota": "Reforma laboral: limita la contratación temporal, refuerza convenios sectoriales y crea el mecanismo RED; más estabilidad para asalariados, menos flexibilidad empresarial.",
-"partido": ""
-},
-{
-"id": "130/000034",
-"tipo": "soc",
-"imp": {
-"pobreza": 1
-},
-"peso": 1,
-"nota": "Subvenciones a entidades del Tercer Sector de Acción Social que atienden a personas vulnerables.",
-"partido": ""
-},
-{
-"id": "121/000037",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"empMed": 1,
-"secInd": 1,
-"cons": 1
-},
-"peso": 2,
-"nota": "Amplía avales ICO y plazos para empresas, apoya a la industria electrointensiva y rebaja el IVA de las mascarillas.",
-"partido": ""
-},
-{
-"id": "130/000035",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"empMed": 1,
-"secInd": 1,
-"cons": 1
-},
-"peso": 2,
-"nota": "Amplía avales ICO y plazos para empresas, apoya a la industria electrointensiva y rebaja el IVA de las mascarillas.",
-"partido": ""
-},
-{
-"id": "121/000039",
-"tipo": "eco",
-"imp": {
-"secCom": 1,
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"prop3": -1,
-"prop4": -1
-},
-"peso": 2,
-"nota": "Ayudas fiscales a turismo, hostelería y comercio y rebajas o moratorias de alquiler de locales a cargo de grandes tenedores.",
-"partido": ""
-},
-{
-"id": "130/000036",
-"tipo": "eco",
-"imp": {
-"secCom": 1,
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"prop3": -1,
-"prop4": -1
-},
-"peso": 2,
-"nota": "Ayudas fiscales a turismo, hostelería y comercio y rebajas o moratorias de alquiler de locales a cargo de grandes tenedores.",
-"partido": ""
-},
-{
-"id": "121/000043",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Reorganiza la gestión administrativa y la contratación pública para ejecutar los fondos europeos; norma institucional sin efecto distributivo directo.",
-"partido": ""
-},
-{
-"id": "130/000040",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Reorganiza la gestión administrativa y la contratación pública para ejecutar los fondos europeos; norma institucional sin efecto distributivo directo.",
-"partido": ""
-},
-{
-"id": "121/000040",
-"tipo": "eco",
-"imp": {
-"inq": 1,
-"pobreza": 1,
-"viv2": -1,
-"prop3": -1,
-"prop4": -1,
-"secTrans": 1
-},
-"peso": 2,
-"nota": "Suspende desahucios y lanzamientos de hogares vulnerables, también frente a grandes tenedores, y ayuda al transporte público.",
-"partido": ""
-},
-{
-"id": "130/000037",
-"tipo": "eco",
-"imp": {
-"inq": 1,
-"pobreza": 1,
-"viv2": -1,
-"prop3": -1,
-"prop4": -1,
-"secTrans": 1
-},
-"peso": 2,
-"nota": "Suspende desahucios y lanzamientos de hogares vulnerables, también frente a grandes tenedores, y ayuda al transporte público.",
-"partido": ""
-},
-{
-"id": "121/000041",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación técnica tras el Brexit (residencia, seguridad social, transporte, servicios financieros); sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "130/000038",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación técnica tras el Brexit (residencia, seguridad social, transporte, servicios financieros); sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "121/000042",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Créditos y ajustes financieros entre administraciones y pago de sentencias; sin efecto distributivo directo identificable.",
-"partido": ""
-},
-{
-"id": "130/000039",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Créditos y ajustes financieros entre administraciones y pago de sentencias; sin efecto distributivo directo identificable.",
-"partido": ""
-},
-{
-"id": "121/000008",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"pac": 1,
-"empAut": -1,
-"empMicro": -1,
-"empPeq": -1
-},
-"peso": 1,
-"nota": "Deroga el despido objetivo por faltas de asistencia justificadas; protege a trabajadores con bajas médicas.",
-"partido": ""
-},
-{
-"id": "130/000005",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"pac": 1,
-"empAut": -1,
-"empMicro": -1,
-"empPeq": -1
-},
-"peso": 1,
-"nota": "Deroga el despido objetivo por faltas de asistencia justificadas; protege a trabajadores con bajas médicas.",
-"partido": ""
-},
-{
-"id": "121/000051",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 1,
-"nota": "Transpone normas contra la elusión fiscal por asimetrías híbridas, aplicables sobre todo a grupos multinacionales.",
-"partido": ""
-},
-{
-"id": "130/000044",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 1,
-"nota": "Transpone normas contra la elusión fiscal por asimetrías híbridas, aplicables sobre todo a grupos multinacionales.",
-"partido": ""
-},
-{
-"id": "121/000096",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1
-},
-"peso": 1,
-"nota": "Ayudas y rebajas fiscales y de cotización a agricultores y ganaderos afectados por la sequía.",
-"partido": ""
-},
-{
-"id": "130/000076",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1
-},
-"peso": 1,
-"nota": "Ayudas y rebajas fiscales y de cotización a agricultores y ganaderos afectados por la sequía.",
-"partido": ""
-},
-{
-"id": "130/000096",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"jovenes": 1,
-"cons": 1,
-"asal1": 1,
-"asal2": 1
-},
-"peso": 2,
-"nota": "Ayudas al sector agrario por sequía y guerra, transporte público gratuito para jóvenes en verano y protección laboral ante el calor.",
-"partido": ""
-},
-{
-"id": "121/000032",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Permite compatibilizar abogacía y procura y ajusta normas de sociedades profesionales; efecto sectorial menor.",
-"partido": ""
-},
-{
-"id": "121/000009",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"secCom": -1,
-"desSub": 1
-},
-"peso": 2,
-"nota": "Prohíbe vender por debajo del coste de producción en la cadena alimentaria y facilita el subsidio agrario; beneficia a productores.",
-"partido": ""
-},
-{
-"id": "130/000006",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"secCom": -1,
-"desSub": 1
-},
-"peso": 2,
-"nota": "Prohíbe vender por debajo del coste de producción en la cadena alimentaria y facilita el subsidio agrario; beneficia a productores.",
-"partido": ""
-},
-{
-"id": "121/000052",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"empMed": 1,
-"secCom": 1
-},
-"peso": 3,
-"nota": "Paquete de unos 11.000 M€ en ayudas directas, reestructuración de deuda ICO y recapitalización para empresas afectadas por la covid.",
-"partido": ""
-},
-{
-"id": "130/000045",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"empMed": 1,
-"secCom": 1
-},
-"peso": 3,
-"nota": "Paquete de unos 11.000 M€ en ayudas directas, reestructuración de deuda ICO y recapitalización para empresas afectadas por la covid.",
-"partido": ""
-},
-{
-"id": "130/000077",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1
-},
-"peso": 2,
-"nota": "Nueva relación laboral especial de artistas y técnicos: limita la temporalidad y mejora sus condiciones laborales.",
-"partido": ""
-},
-{
-"id": "130/000097",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"pobreza": 1,
-"inq": 1,
-"viv2": -1,
-"victimas": 1,
-"depend": 1,
-"infancia": 1,
-"asal1": 1,
-"asal2": 1,
-"asal3": 1
-},
-"peso": 3,
-"nota": "Prorroga medidas anticrisis (IVA de alimentos, transporte, desahucios), ayuda a La Palma y amplía permisos de cuidado y parentales.",
-"partido": ""
-},
-{
-"id": "122/000008",
-"tipo": "eco",
-"imp": {
-"victimas": 1
-},
-"peso": 1,
-"nota": "Modifica puntualmente las ayudas por el terremoto de Lorca de 2011; beneficia a los damnificados.",
-"partido": ""
-},
-{
-"id": "130/000007",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"hipot": 1,
-"pobreza": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Asimila la baja por covid a accidente laboral, amplía la protección de deudores hipotecarios vulnerables y refuerza la salud pública.",
-"partido": ""
-},
-{
-"id": "121/000054",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 1,
-"nota": "Complementa las ayudas a empresas y autónomos afectados por la pandemia.",
-"partido": ""
-},
-{
-"id": "130/000046",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 1,
-"nota": "Complementa las ayudas a empresas y autónomos afectados por la pandemia.",
-"partido": ""
-},
-{
-"id": "121/000100",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"desSub": 1,
-"pobreza": 1,
-"pen1": 1,
-"inq": 1,
-"viv2": -1,
-"secTrans": 1,
-"secPrim": 1
-},
-"peso": 3,
-"nota": "Plan de respuesta a la guerra: bonificación del combustible, subida del IMV y no contributivas, tope del alquiler y ayudas sectoriales.",
-"partido": ""
-},
-{
-"id": "130/000079",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"desSub": 1,
-"pobreza": 1,
-"pen1": 1,
-"inq": 1,
-"viv2": -1,
-"secTrans": 1,
-"secPrim": 1
-},
-"peso": 3,
-"nota": "Plan de respuesta a la guerra: bonificación del combustible, subida del IMV y no contributivas, tope del alquiler y ayudas sectoriales.",
-"partido": ""
-},
-{
-"id": "130/000008",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"secCom": 1,
-"pac": 1,
-"infancia": 1,
-"pobreza": 1
-},
-"peso": 2,
-"nota": "Primeras medidas covid: aplazamientos fiscales a pymes, refuerzo sanitario, ayudas de comedor escolar y apoyo al turismo.",
-"partido": ""
-},
-{
-"id": "121/000055",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Transpone directivas diversas; destaca la ampliación de garantías y derechos de los consumidores con coste para los vendedores.",
-"partido": ""
-},
-{
-"id": "130/000047",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Transpone directivas diversas; destaca la ampliación de garantías y derechos de los consumidores con coste para los vendedores.",
-"partido": ""
-},
-{
-"id": "130/000078",
-"tipo": "eco",
-"imp": {
-"secDig": -1
-},
-"peso": 1,
-"nota": "Requisitos de seguridad para redes 5G; impone obligaciones a los operadores de telecomunicaciones.",
-"partido": ""
-},
-{
-"id": "120/000034",
-"tipo": "eco",
-"imp": {
-"funA1": 1,
-"funA2": 1,
-"funB": 1,
-"funC1": 1,
-"funC2E": 1,
-"proSeg": 1,
-"proSan": 1,
-"proDoc": 1
-},
-"peso": 2,
-"nota": "Propone revertir la rebaja salarial de 2010 a los empleados públicos.",
-"partido": ""
-},
-{
-"id": "121/000010",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"desPres": 1,
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"empMed": 1,
-"hipot": 1,
-"cons": 1,
-"pobreza": 1,
-"depend": 1
-},
-"peso": 3,
-"nota": "Gran paquete covid: ERTE, prestación de autónomos, avales ICO, moratoria hipotecaria, garantía de suministros y adaptación de jornada por cuidados.",
-"partido": ""
-},
-{
-"id": "130/000009",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"desPres": 1,
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"empMed": 1,
-"hipot": 1,
-"cons": 1,
-"pobreza": 1,
-"depend": 1
-},
-"peso": 3,
-"nota": "Gran paquete covid: ERTE, prestación de autónomos, avales ICO, moratoria hipotecaria, garantía de suministros y adaptación de jornada por cuidados.",
-"partido": ""
-},
-{
-"id": "121/000057",
-"tipo": "soc",
-"imp": {
-"inq": 1,
-"pobreza": 1,
-"viv2": -1,
-"cons": 1
-},
-"peso": 2,
-"nota": "Tras el estado de alarma, prorroga la suspensión de desahucios vulnerables y protecciones de suministros, y ajusta competencias judiciales.",
-"partido": ""
-},
-{
-"id": "130/000048",
-"tipo": "soc",
-"imp": {
-"inq": 1,
-"pobreza": 1,
-"viv2": -1,
-"cons": 1
-},
-"peso": 2,
-"nota": "Tras el estado de alarma, prorroga la suspensión de desahucios vulnerables y protecciones de suministros, y ajusta competencias judiciales.",
-"partido": ""
-},
-{
-"id": "130/000080",
-"tipo": "eco",
-"imp": {
-"asal2": 1,
-"asal3": 1
-},
-"peso": 1,
-"nota": "Crea contratos indefinidos para investigadores y personal científico-técnico; mejora su estabilidad laboral.",
-"partido": ""
-},
-{
-"id": "121/000011",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"empAut": -1,
-"empMicro": -1,
-"empPeq": -1
-},
-"peso": 2,
-"nota": "Limita los despidos por causas covid e interrumpe contratos temporales durante la crisis; protege el empleo con coste empresarial.",
-"partido": ""
-},
-{
-"id": "130/000010",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"empAut": -1,
-"empMicro": -1,
-"empPeq": -1
-},
-"peso": 2,
-"nota": "Limita los despidos por causas covid e interrumpe contratos temporales durante la crisis; protege el empleo con coste empresarial.",
-"partido": ""
-},
-{
-"id": "121/000059",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Ley rider: presume laborales a los repartidores de plataformas y exige transparencia de algoritmos.",
-"partido": ""
-},
-{
-"id": "130/000049",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Ley rider: presume laborales a los repartidores de plataformas y exige transparencia de algoritmos.",
-"partido": ""
-},
-{
-"id": "130/000081",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Permite inscribir prohibiciones de disponer sobre bienes de sancionados rusos con testaferros y pagos de embajadas; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "120/000001",
-"tipo": "soc",
-"imp": {
-"depend": 1,
-"discapacidad": 1,
-"mayores": 1
-},
-"peso": 2,
-"nota": "Propone reducir el copago de los usuarios de las prestaciones y servicios de dependencia.",
-"partido": ""
-},
-{
-"id": "120/000002",
-"tipo": "eco",
-"imp": {
-"pobreza": 1,
-"desSub": 1
-},
-"peso": 3,
-"nota": "Propone una prestación estatal de ingresos mínimos para personas sin recursos.",
-"partido": ""
-},
-{
-"id": "120/000003",
-"tipo": "eco",
-"imp": {
-"proSeg": 1,
-"funC1": 1
-},
-"peso": 2,
-"nota": "Propone equiparar salarios de Policía Nacional y Guardia Civil con las policías autonómicas.",
-"partido": ""
-},
-{
-"id": "120/000004",
-"tipo": "soc",
-"imp": {
-"proSan": 1,
-"pac": 1,
-"ciud": 1,
-"secSoc": -1
-},
-"peso": 2,
-"nota": "Propone ratios mínimos de enfermeras por paciente en centros sanitarios, públicos y privados.",
-"partido": ""
-},
-{
-"id": "120/000005",
-"tipo": "soc",
-"imp": {
-"funA1": 1,
-"funA2": 1,
-"funB": 1,
-"funC1": 1,
-"funC2E": 1
-},
-"peso": 1,
-"nota": "Propone regular condiciones específicas para el personal de mayor edad de las Administraciones Públicas.",
-"partido": ""
-},
-{
-"id": "120/000006",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Modificación de la ley de medicamentos de contenido no determinable por el título.",
-"partido": ""
-},
-{
-"id": "120/000007",
-"tipo": "soc",
-"imp": {
-"mayores": 1,
-"pac": 1
-},
-"peso": 1,
-"nota": "Propone eliminar el copago farmacéutico del 30 % para pensionistas de MUFACE e ISFAS.",
-"partido": ""
-},
-{
-"id": "120/000008",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Libre elección de lengua vehicular en la enseñanza; cuestión lingüística sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "120/000009",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secPrim": -1
-},
-"peso": 2,
-"nota": "Personalidad jurídica del Mar Menor para protegerlo; beneficio ambiental con restricciones a la agricultura de su cuenca.",
-"partido": ""
-},
-{
-"id": "120/000010",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Transparencia y auditabilidad de los procesos electorales; norma electoral sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "120/000011",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Modificación de la ley antitabaco cuyo sentido no se deduce del título.",
-"partido": ""
-},
-{
-"id": "120/000012",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Letra para el himno nacional; norma simbólica sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "120/000013",
-"tipo": "eco",
-"imp": {
-"hipot": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Propone la dación en pago para cancelar la deuda hipotecaria entregando la vivienda; coste para la banca.",
-"partido": ""
-},
-{
-"id": "120/000014",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Modifica la estrategia de vacunación covid; el colectivo afectado no se deduce del título.",
-"partido": ""
-},
-{
-"id": "120/000015",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Refuerza la protección de consumidores y usuarios, también en el comercio electrónico.",
-"partido": ""
-},
-{
-"id": "120/000016",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Regula la concesión de Matrículas de Honor; efecto incierto sobre los estudiantes.",
-"partido": ""
-},
-{
-"id": "120/000017",
-"tipo": "soc",
-"imp": {
-"secSoc": 1
-},
-"peso": 1,
-"nota": "Reconocimiento y regulación de la medicina complementaria; favorece a sus profesionales privados.",
-"partido": ""
-},
-{
-"id": "120/000018",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Propone recortar gastos de cargos políticos para rebajar la factura eléctrica.",
-"partido": ""
-},
-{
-"id": "120/000019",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"pac": 1,
-"secSoc": -1
-},
-"peso": 2,
-"nota": "Propone reforzar el Sistema Nacional de Salud público y su gestión pública frente a la privada.",
-"partido": ""
-},
-{
-"id": "120/000020",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"pac": 1,
-"secSoc": -1
-},
-"peso": 2,
-"nota": "Propone reforzar el Sistema Nacional de Salud público y su gestión pública frente a la privada.",
-"partido": ""
-},
-{
-"id": "120/000021",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 2,
-"nota": "Propone una regularización extraordinaria de personas extranjeras en situación irregular.",
-"partido": ""
-},
-{
-"id": "120/000022",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"pac": 1,
-"secSoc": -1
-},
-"peso": 2,
-"nota": "Propone reforzar el Sistema Nacional de Salud público y su gestión pública frente a la privada.",
-"partido": ""
-},
-{
-"id": "120/000023",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 2,
-"nota": "Propone una regularización extraordinaria de personas extranjeras en situación irregular.",
-"partido": ""
-},
-{
-"id": "120/000024",
-"tipo": "soc",
-"imp": {
-"victimas": 1
-},
-"peso": 1,
-"nota": "Tipifica como delito ocultar el cadáver en un homicidio; atiende a las familias de las víctimas.",
-"partido": ""
-},
-{
-"id": "120/000025",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Modifica las enseñanzas mínimas de Primaria; contenido curricular sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "120/000026",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 2,
-"nota": "Propone una regularización extraordinaria de personas extranjeras en situación irregular.",
-"partido": ""
-},
-{
-"id": "120/000027",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Cambia la elección del CGPJ y del Fiscal General; norma institucional.",
-"partido": ""
-},
-{
-"id": "120/000028",
-"tipo": "soc",
-"imp": {
-"viv2": 1
-},
-"peso": 2,
-"nota": "Medidas contra la ocupación ilegal de viviendas; favorece a propietarios de viviendas distintas de la habitual.",
-"partido": ""
-},
-{
-"id": "120/000029",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Propone recortar gastos de cargos políticos para rebajar la factura eléctrica.",
-"partido": ""
-},
-{
-"id": "120/000030",
-"tipo": "soc",
-"imp": {
-"mayores": 1,
-"pac": 1
-},
-"peso": 1,
-"nota": "Iguala el copago farmacéutico de pensionistas mutualistas con los de la Seguridad Social.",
-"partido": ""
-},
-{
-"id": "120/000031",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma constitucional de carácter institucional.",
-"partido": ""
-},
-{
-"id": "120/000032",
-"tipo": "soc",
-"imp": {
-"infancia": 1
-},
-"peso": 1,
-"nota": "Protección de menores frente a la violencia en el ámbito familiar y ante denuncias falsas.",
-"partido": ""
-},
-{
-"id": "120/000033",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 2,
-"nota": "Facilita la residencia de personas de origen iberoamericano y otros países de vínculo histórico.",
-"partido": ""
-},
-{
-"id": "120/000035",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"mayores": 1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Garantiza el derecho a pagar en efectivo; protege a quien no usa medios digitales, con obligaciones para la banca.",
-"partido": ""
-},
-{
-"id": "121/000001",
-"tipo": "eco",
-"imp": {
-"empGran": -1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Impuesto del 3 % sobre publicidad y servicios digitales de grandes empresas tecnológicas.",
-"partido": ""
-},
-{
-"id": "121/000002",
-"tipo": "eco",
-"imp": {
-"prop2": -1,
-"prop3": -1,
-"prop4": -1
-},
-"peso": 2,
-"nota": "Impuesto del 0,2 % sobre la compra de acciones de grandes empresas cotizadas; lo pagan los inversores.",
-"partido": ""
-},
-{
-"id": "121/000003",
-"tipo": "eco",
-"imp": {
-"secFin": 1,
-"secDig": 1
-},
-"peso": 1,
-"nota": "Crea un espacio controlado de pruebas para la innovación financiera digital.",
-"partido": ""
-},
-{
-"id": "121/000004",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Regula firmas y servicios electrónicos de confianza; norma técnica.",
-"partido": ""
-},
-{
-"id": "121/000006",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Uso de datos de pasajeros aéreos para investigar terrorismo y delitos graves; norma de seguridad sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "121/000007",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secSoc": -1
-},
-"peso": 3,
-"nota": "LOMLOE: reforma educativa que refuerza la red pública frente a la concertada y cambia currículo, evaluación y organización.",
-"partido": ""
-},
-{
-"id": "121/000016",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 1,
-"nota": "Obliga a declarar mecanismos transfronterizos de planificación fiscal agresiva; afecta sobre todo a grandes grupos.",
-"partido": ""
-},
-{
-"id": "121/000019",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1,
-"secTrans": -1
-},
-"peso": 2,
-"nota": "Fija objetivos climáticos, prohíbe nuevas explotaciones de hidrocarburos e impone zonas de bajas emisiones; coste para industria y transporte.",
-"partido": ""
-},
-{
-"id": "121/000022",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"victimas": 1
-},
-"peso": 2,
-"nota": "LOPIVI: protección integral de niños y adolescentes frente a la violencia.",
-"partido": ""
-},
-{
-"id": "121/000023",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Ajusta el comercio de derechos de emisión para reducir emisiones; coste para la industria emisora.",
-"partido": ""
-},
-{
-"id": "121/000027",
-"tipo": "soc",
-"imp": {
-"discapacidad": 1
-},
-"peso": 2,
-"nota": "Sustituye la incapacitación por apoyos para que las personas con discapacidad ejerzan su capacidad jurídica.",
-"partido": ""
-}
+ {
+  "id": "130/000031",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "empAut": 1,
+   "secCom": 1
+  },
+  "peso": 3,
+  "nota": "Prorroga los ERTE con exoneraciones de cuotas y prestaciones por desempleo y cese de actividad; beneficia a parados con prestación, autónomos y sectores protegidos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000088",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de prevención y contención del COVID-19, como el uso de mascarilla; mejora la protección de la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "130/000070",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de prevención y contención del COVID-19, como el uso de mascarilla; mejora la protección de la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "130/000032",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de flexibilización en educación no universitaria durante la pandemia, como la promoción y la titulación; beneficia a estudiantes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000071",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el régimen fiscal de Canarias y reabre plazos de renuncia a regímenes de tributación; el título no permite determinar colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000033",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "desSub": 1,
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la protección por desempleo y apoya al sector cultural.",
+  "partido": ""
+ },
+ {
+  "id": "130/000072",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 3,
+  "nota": "Reforma laboral: limita la contratación temporal, refuerza la negociación colectiva y crea mecanismos de flexibilidad; refuerza los derechos de los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "130/000034",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Apoyo a entidades del Tercer Sector de Acción Social; el texto no precisa un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000037",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el plazo de avales públicos de liquidez para autónomos y empresas, con medidas energéticas y tributarias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000035",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el plazo de avales públicos de liquidez para autónomos y empresas, con medidas energéticas y tributarias.",
+  "partido": ""
+ },
+ {
+  "id": "121/000039",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de apoyo y tributarias para el turismo, la hostelería y el comercio.",
+  "partido": ""
+ },
+ {
+  "id": "130/000036",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de apoyo y tributarias para el turismo, la hostelería y el comercio.",
+  "partido": ""
+ },
+ {
+  "id": "121/000043",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de organización administrativa y gestión de fondos europeos; no se identifica un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000040",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de organización administrativa y gestión de fondos europeos; no se identifica un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000040",
+  "tipo": "soc",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Protege a inquilinos vulnerables con suspensión de desahucios y prórrogas de alquiler; restringe al arrendador.",
+  "partido": ""
+ },
+ {
+  "id": "130/000037",
+  "tipo": "soc",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Protege a inquilinos vulnerables con suspensión de desahucios y prórrogas de alquiler; restringe al arrendador.",
+  "partido": ""
+ },
+ {
+  "id": "121/000041",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de adaptación tras la salida del Reino Unido de la UE; el texto no fija un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000038",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de adaptación tras la salida del Reino Unido de la UE; el texto no fija un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000042",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1,
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Exime del IRPF el ingreso mínimo vital y las rentas mínimas autonómicas; indemniza a bancos por el almacenamiento Castor.",
+  "partido": ""
+ },
+ {
+  "id": "130/000039",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1,
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Exime del IRPF el ingreso mínimo vital y las rentas mínimas autonómicas; indemniza a bancos por el almacenamiento Castor.",
+  "partido": ""
+ },
+ {
+  "id": "121/000008",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el despido objetivo por faltas de asistencia, incluidas bajas justificadas; refuerza la protección frente al despido de los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "130/000005",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el despido objetivo por faltas de asistencia, incluidas bajas justificadas; refuerza la protección frente al despido de los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "121/000051",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transposición técnica que deniega deducciones en asimetrías híbridas del impuesto de sociedades; no se nombra un tamaño o sector.",
+  "partido": ""
+ },
+ {
+  "id": "130/000044",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone normas técnicas contra asimetrías híbridas en Sociedades y no residentes; sin tamaño ni sector determinados.",
+  "partido": ""
+ },
+ {
+  "id": "121/000096",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas al sector agrario afectado por la sequía en las cuencas del Guadalquivir y del Guadiana.",
+  "partido": ""
+ },
+ {
+  "id": "130/000076",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas al sector agrario afectado por la sequía en las cuencas del Guadalquivir y del Guadiana.",
+  "partido": ""
+ },
+ {
+  "id": "130/000096",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "jovenes": 1,
+   "secPrim": 1
+  },
+  "peso": 3,
+  "nota": "Apoyo agrario ante la sequía, bonificación del transporte público colectivo para jóvenes y prevención de riesgos laborales por calor.",
+  "partido": ""
+ },
+ {
+  "id": "121/000032",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite sociedades profesionales de abogacía y procura y ajusta normas de acceso y telecomunicaciones; sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000009",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Medidas para reforzar a los productores agrarios frente a prácticas desleales en la cadena alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "130/000006",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Medidas para reforzar a los productores agrarios frente a prácticas desleales en la cadena alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "121/000052",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas directas, apoyo a la solvencia y reestructuración de deuda para autónomos y empresas afectados por la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000045",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas directas, apoyo a la solvencia y reestructuración de deuda para autónomos y empresas afectados por la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000077",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la relación laboral especial de artistas y personal técnico, con mejoras de contratación e indemnización; sin colectivo de la lista.",
+  "partido": ""
+ },
+ {
+  "id": "130/000097",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "cons": 1,
+   "depend": 1,
+   "hombres": 1,
+   "infancia": 1,
+   "inq": 1,
+   "mujeres": 1,
+   "pobreza": 1,
+   "victimas": 1,
+   "viv2": -1
+  },
+  "peso": 3,
+  "nota": "Prorroga rebaja de IVA de alimentos y suspensión de desahucios de vulnerables, ayuda a La Palma y amplía permisos de conciliación y cuidado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000008",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Excluye intereses y recargos al devolver ayudas no justificables a los damnificados del terremoto de Lorca.",
+  "partido": ""
+ },
+ {
+  "id": "130/000007",
+  "tipo": "eco",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Equipara a accidente de trabajo el aislamiento o contagio por COVID-19 a efectos de la prestación de incapacidad temporal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000054",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Aplazamiento y fraccionamiento de deudas por préstamos públicos para empresas y autónomos afectados por la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Aplazamiento y fraccionamiento de deudas por préstamos públicos para empresas y autónomos afectados por la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "121/000100",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "inq": 1,
+   "pobreza": 1,
+   "secInd": 1,
+   "secPrim": 1,
+   "secTrans": 1,
+   "viv2": -1
+  },
+  "peso": 3,
+  "nota": "Rebaja costes energéticos, limita la subida del alquiler, refuerza protección de vulnerables y ayuda a transporte, industria y sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "130/000079",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "inq": 1,
+   "pobreza": 1,
+   "secInd": 1,
+   "secPrim": 1,
+   "secTrans": 1,
+   "viv2": -1
+  },
+  "peso": 3,
+  "nota": "Rebaja costes energéticos, limita la subida del alquiler, refuerza protección de vulnerables y ayuda a transporte, industria y sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "130/000008",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Medidas por el COVID-19: aplazamiento de deudas tributarias de pymes y autónomos y apoyo al sector turístico.",
+  "partido": ""
+ },
+ {
+  "id": "121/000055",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Transpone directivas de varias materias, entre ellas protección de consumidores y telecomunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000047",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Transpone directivas de varias materias, entre ellas protección de consumidores y telecomunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000078",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone requisitos de seguridad a operadores y suministradores de redes 5G, reforzando la seguridad del servicio.",
+  "partido": ""
+ },
+ {
+  "id": "120/000034",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 2,
+  "nota": "Deroga la reducción de retribuciones del personal del sector público del artículo 1 del RDL 8/2010; restituye el salario de los empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000010",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "depend": 1,
+   "desPres": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "hipot": 1,
+   "infancia": 1,
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Paquete COVID: prestaciones por ERTE, moratoria hipotecaria, garantía de suministros, ayudas a autónomos, avales a pymes y adaptación de jornada por cuidado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000009",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "depend": 1,
+   "desPres": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "hipot": 1,
+   "infancia": 1,
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Paquete COVID: prestaciones por ERTE, moratoria hipotecaria, garantía de suministros, ayudas a autónomos, avales a pymes y adaptación de jornada por cuidado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000057",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Controles sanitarios a viajeros, juntas de propietarios y otras medidas; contenido y signo de cada bloque no consta con certeza.",
+  "partido": ""
+ },
+ {
+  "id": "130/000048",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Control sanitario de pasajeros internacionales y medidas de salud pública tras el estado de alarma, junto a medidas de comunidades de propietarios y sociales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000080",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de contratación laboral del sistema de ciencia; el texto disponible no permite fijar colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000011",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Medidas laborales por el COVID-19: limita despidos por causas de la pandemia y suspende el cómputo de contratos temporales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000010",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Medidas laborales por el COVID-19: limita despidos por causas de la pandemia y suspende el cómputo de contratos temporales.",
+  "partido": ""
+ },
+ {
+  "id": "121/000059",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Presunción de laboralidad de repartidores de plataformas digitales e información algorítmica; obliga a las plataformas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000049",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Presunción de laboralidad de repartidores de plataformas digitales e información algorítmica; obliga a las plataformas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000081",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000001",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Modifica la participación en el coste de las prestaciones de dependencia para las personas beneficiarias, con mayor protección económica.",
+  "partido": ""
+ },
+ {
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación de ingresos mínimos de la Seguridad Social para personas con escasa o ninguna cobertura.",
+  "partido": ""
+ },
+ {
+  "id": "120/000003",
+  "tipo": "eco",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Equiparación salarial de las policías del Estado con otros cuerpos policiales.",
+  "partido": ""
+ },
+ {
+  "id": "120/000004",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "proSan": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Fija ratios mínimas de enfermeras por paciente: más seguridad al paciente, mejor carga laboral y coste para los centros.",
+  "partido": ""
+ },
+ {
+  "id": "120/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000007",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Elimina el copago farmacéutico del 30 % de pensionistas de MUFACE e ISFAS.",
+  "partido": ""
+ },
+ {
+  "id": "120/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000009",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce personalidad jurídica a la laguna del Mar Menor y su cuenca para protegerla.",
+  "partido": ""
+ },
+ {
+  "id": "120/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma sobre transparencia y auditoría de procesos electorales, de carácter institucional.",
+  "partido": ""
+ },
+ {
+  "id": "120/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Dota de letra al himno; norma simbólica sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000013",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula la dación en pago; libera al deudor hipotecario entregando la vivienda y perjudica a las entidades acreedoras.",
+  "partido": ""
+ },
+ {
+  "id": "120/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000015",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000018",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Destina recortes de gasto político a reducir la factura eléctrica; beneficia a los consumidores de electricidad.",
+  "partido": ""
+ },
+ {
+  "id": "120/000019",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Busca recuperar el Sistema Nacional de Salud; mejora la cobertura de la sanidad pública y a sus pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000020",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Busca recuperar el Sistema Nacional de Salud; mejora la cobertura de la sanidad pública y a sus pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000021",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Prevé una regularización extraordinaria de personas extranjeras en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "120/000022",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Busca recuperar el Sistema Nacional de Salud; mejora la cobertura de la sanidad pública y a sus pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000023",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Prevé una regularización extraordinaria de personas extranjeras en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "120/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal que tipifica un delito; no da derechos a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "120/000025",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000026",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Prevé una regularización extraordinaria de personas extranjeras en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "120/000027",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la elección del CGPJ y del Fiscal General; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000028",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000029",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Destina recortes de gasto político a reducir la factura eléctrica; beneficia a los consumidores de electricidad.",
+  "partido": ""
+ },
+ {
+  "id": "120/000030",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Iguala la aportación farmacéutica entre pensionistas de la Seguridad Social y de las mutualidades; el signo para cada tramo no consta.",
+  "partido": ""
+ },
+ {
+  "id": "120/000031",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma constitucional; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000032",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000033",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000035",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000001",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre servicios digitales de publicidad, intermediación y venta de datos, que pagan las grandes empresas tecnológicas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000002",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre la adquisición de acciones de grandes sociedades cotizadas, que recae sobre las operaciones del sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "121/000003",
+  "tipo": "eco",
+  "imp": {
+   "secDig": 1,
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Crea un entorno controlado de pruebas para innovación financiera tecnológica; beneficia a entidades financieras y empresas tecnológicas promotoras.",
+  "partido": ""
+ },
+ {
+  "id": "121/000004",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la normativa nacional a un reglamento europeo sobre servicios electrónicos de confianza; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "121/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el uso de datos de pasajeros para investigar delitos graves; norma de seguridad sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000007",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 3,
+  "nota": "Reforma integral de la ley de educación: nueva ordenación de etapas, evaluación y derechos del alumnado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000016",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone obligación de informar sobre mecanismos fiscales transfronterizos a intermediarios y obligados; sin colectivo definido de la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "121/000019",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija objetivos de reducción de emisiones y transición energética; mejora el medio ambiente y el clima.",
+  "partido": ""
+ },
+ {
+  "id": "121/000022",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Protege a menores frente a la violencia con medidas de prevención, detección y atención a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000023",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Intensifica las reducciones del comercio de emisiones; mejora la protección climática y supone exigencias para las instalaciones industriales y energéticas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000027",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Sustituye la incapacitación por medidas de apoyo y reconoce la capacidad jurídica de las personas con discapacidad.",
+  "partido": ""
+ }
 ]

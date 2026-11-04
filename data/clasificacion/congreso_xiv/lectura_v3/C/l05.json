@@ -1,0 +1,490 @@
+[
+ {
+  "id": "121/000139",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Transpone la directiva DAC 7: obliga a los operadores de plataformas digitales a comunicar información sobre sus vendedores a la Administración tributaria.",
+  "partido": ""
+ },
+ {
+  "id": "121/000142",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el Convenio Económico con Navarra a tributos estatales nuevos; reparto de competencias tributarias entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000143",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el Concierto Económico con el País Vasco a cambios tributarios estatales; reparto de competencias entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000144",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija la metodología del cupo del País Vasco para 2022-2026; relación financiera entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000145",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Crea la Agencia Estatal de Salud Pública para reforzar la vigilancia y la respuesta ante riesgos para la salud de la población.",
+  "partido": ""
+ },
+ {
+  "id": "121/000146",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la figura de los agentes forestales y medioambientales; norma de organización y estatuto profesional sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000147",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula los bomberos forestales y su coordinación; norma organizativa sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000148",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un organismo independiente para investigar accidentes ferroviarios, marítimos y aéreos; norma organizativa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000149",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la función pública de la Administración del Estado; el texto disponible no permite fijar el signo para los funcionarios.",
+  "partido": ""
+ },
+ {
+  "id": "121/000151",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "monop": 1,
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce la diversidad de familias, incluidas las monoparentales y LGTBI, y amplía medidas de protección a familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000152",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el derecho de defensa y su ejercicio en los procesos; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000153",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Integra las enseñanzas artísticas superiores en la educación superior y regula equivalencias; beneficia a su alumnado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000154",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la fundación pública que gestiona el Teatro Real; norma organizativa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000155",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Exige representación paritaria y presencia equilibrada de mujeres y hombres en órganos de decisión.",
+  "partido": ""
+ },
+ {
+  "id": "122/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal sobre delitos contra las instituciones del Estado; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la Ley del Registro Civil, sobre su implantación y organización; norma administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la ley de seguridad ciudadana; norma sancionadora sin colectivo claro con el texto disponible.",
+  "partido": ""
+ },
+ {
+  "id": "122/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del Código Penal; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la ley de secretos oficiales; norma institucional de transparencia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el control parlamentario del Gobierno; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas contra la corrupción; norma institucional y penal sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas procesales y penales frente a la fuga de la justicia; norma penal y procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000011",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pac": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Regula la publicidad de servicios sanitarios: protege a consumidores y pacientes frente a publicidad engañosa y obliga a clínicas y profesionales.",
+  "partido": ""
+ },
+ {
+  "id": "122/000012",
+  "tipo": "soc",
+  "imp": {
+   "victimas": -1
+  },
+  "peso": 2,
+  "nota": "Deroga la ley que reconoce derechos y medidas de reparación a quienes sufrieron persecución en la guerra civil y la dictadura.",
+  "partido": ""
+ },
+ {
+  "id": "122/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma electoral sobre inelegibilidad de declarados rebeldes; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la coordinación autonómica en la acción exterior; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la ley de partidos políticos; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000017",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el derecho de sufragio activo a los mayores de 16 años.",
+  "partido": ""
+ },
+ {
+  "id": "122/000018",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el derecho de sufragio activo a los mayores de 16 años.",
+  "partido": ""
+ },
+ {
+  "id": "122/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga el plazo máximo de instrucción penal; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000020",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula la eutanasia y el derecho a la ayuda para morir de personas con sufrimiento grave.",
+  "partido": ""
+ },
+ {
+  "id": "122/000021",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos y medidas de reparación a las víctimas de la guerra civil y la dictadura y regula la memoria democrática.",
+  "partido": ""
+ },
+ {
+  "id": "122/000022",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el procedimiento parlamentario de aprobación de objetivos de estabilidad presupuestaria; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000023",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el plazo de instrucción penal del artículo 324 de la ley procesal; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000025",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal sobre delitos vinculados al ejercicio del derecho de huelga; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000026",
+  "tipo": "eco",
+  "imp": {
+   "prop3": 1,
+   "prop4": 1
+  },
+  "peso": 2,
+  "nota": "Suprime el Impuesto sobre el Patrimonio, que pagan los patrimonios altos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000027",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los funcionarios de prisiones el carácter de agentes de la autoridad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000028",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la conciliación y el apoyo a familias con hijos, con permisos y medidas para ambos progenitores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000029",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos y garantías de pacientes en el proceso final de su vida.",
+  "partido": ""
+ },
+ {
+  "id": "122/000030",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos y garantías de pacientes en el proceso final de su vida.",
+  "partido": ""
+ },
+ {
+  "id": "122/000031",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección de denunciantes de corrupción; norma institucional sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000032",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula mecenazgo, micromecenazgo y voluntariado; el texto disponible no permite fijar colectivos concretos con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "122/000033",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delimita la jurisdicción militar; norma institucional y procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del Poder Judicial para reforzar la independencia judicial; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000035",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Regula infracciones y sanciones por pago tardío entre empresas y agiliza el ajuste del IVA de facturas impagadas; beneficia a pymes y autónomos acreedores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000036",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal u organizativa sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000037",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos y garantías de pacientes en el proceso final de su vida.",
+  "partido": ""
+ },
+ {
+  "id": "122/000038",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la estructura de los servicios comunes de los ministerios; norma organizativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000039",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Regula la investigación y reparación de los casos de bebés robados, en favor de las familias afectadas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000040",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de la ley de universidades sobre neutralidad ideológica; el texto no fija un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000041",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal sobre delitos vinculados al ejercicio del derecho de huelga; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000042",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal sobre delitos de expresión; norma penal.",
+  "partido": ""
+ }
+]

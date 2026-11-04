@@ -1,0 +1,506 @@
+[
+ {
+  "id": "122/000098",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce legitimación procesal a los grupos parlamentarios en lo contencioso-administrativo; norma procesal sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000099",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Registro patrimonial de la Familia Real; norma institucional sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000100",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Registro patrimonial de la Familia Real; norma institucional sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000101",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Plazo de las prórrogas del estado de alarma y reparto de competencias sanitarias y de control judicial; sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000102",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Prioriza la expulsión frente a la multa para extranjeros en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "122/000103",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Ley integral de igualdad y no discriminación de las personas LGTBI y protección de la realidad trans.",
+  "partido": ""
+ },
+ {
+  "id": "122/000104",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Ley integral de igualdad y no discriminación de las personas LGTBI y protección de la realidad trans.",
+  "partido": ""
+ },
+ {
+  "id": "122/000105",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime la referencia al recurso de súplica en la ley procesal contencioso-administrativa; norma técnica procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000106",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Eleva el esfuerzo de defensa y modifica la ley de Defensa Nacional; norma institucional sin colectivo con efecto directo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000107",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza las garantías de cobro de indemnizaciones de las víctimas de delitos dolosos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000108",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Desarrolla medidas contra la violencia machista; protege a las mujeres y a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000109",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Régimen del Consejo General del Poder Judicial en funciones; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000110",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Aplaza hasta 2023 la adecuación de los parques nacionales, retrasando la prohibición de caza y pesca deportiva.",
+  "partido": ""
+ },
+ {
+  "id": "122/000111",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reintroduce el recurso previo de inconstitucionalidad contra leyes orgánicas; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000112",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delimita los actos del Rey sujetos a inviolabilidad; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000113",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Recupera la asignación económica por hijo a cargo para hogares con ingresos bajos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000114",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Recupera la asignación económica por hijo a cargo para hogares con ingresos bajos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000115",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el voto de la ciudadanía en el exterior en la ley electoral; norma electoral sin colectivo con efecto económico o social.",
+  "partido": ""
+ },
+ {
+  "id": "122/000116",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas anticorrupción y protección de alertadores; norma institucional y penal sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000117",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica los incentivos fiscales al mecenazgo; el texto disponible no fija colectivo ni signo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000118",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 1,
+  "nota": "Amplía excepcionalmente el plazo para disfrutar las vacaciones pendientes de 2020 de los trabajadores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000119",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 1,
+  "nota": "Amplía excepcionalmente el plazo para disfrutar las vacaciones pendientes de 2020 de los trabajadores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000120",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Reduce a 0 % el impuesto a la producción eléctrica para abaratar la factura; recorta la retribución de renovables compensada.",
+  "partido": ""
+ },
+ {
+  "id": "122/000121",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "lgtbi": 1,
+   "discapacidad": 1,
+   "minorias": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Ley integral contra la discriminación por sexo, orientación, discapacidad, origen, religión y edad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000122",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el voto de los españoles en el extranjero en la ley electoral; norma electoral.",
+  "partido": ""
+ },
+ {
+  "id": "122/000123",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": 1,
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Reduce cargos eléctricos a consumidores estacionales como turismo, hostelería y regadío.",
+  "partido": ""
+ },
+ {
+  "id": "122/000124",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal de delitos de expresión; norma penal sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000125",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la elección de vocales del Consejo General del Poder Judicial; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000126",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una autoridad independiente de gobernanza de los fondos europeos; norma organizativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000127",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una autoridad independiente de gobernanza de los fondos europeos; norma organizativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000128",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Establece medidas de prevención de abusos sexuales a menores en los centros educativos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000129",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Facilita las obras de accesibilidad en comunidades de propietarios para personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000130",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Impone medidas de igualdad real de las mujeres en el deporte.",
+  "partido": ""
+ },
+ {
+  "id": "122/000131",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reorganiza oficinas de Registro Civil y personal de la Administración de Justicia; norma organizativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000132",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000133",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza la igualdad real y efectiva de las personas trans.",
+  "partido": ""
+ },
+ {
+  "id": "122/000134",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce a los animales como seres vivos sensibles en el Código Civil; sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000135",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000136",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000137",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Promoción del mecenazgo; el texto disponible no concreta colectivo ni signo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000138",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Establece un régimen profesional único y permanente para el personal militar y aumenta el gasto de defensa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000139",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Establece un régimen profesional único y permanente para el personal militar y aumenta el gasto de defensa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000140",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de salud pública frente a enfermedades transmisibles, con restricciones y protección sanitarias de signo mixto; sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000141",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Amplía los derechos de las víctimas del delito, incluida su participación en la ejecución de la pena.",
+  "partido": ""
+ },
+ {
+  "id": "122/000142",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Asigna cantidades a actividades de interés general; sin colectivo con efecto directo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000143",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal que tipifica el hostigamiento cerca de clínicas de interrupción del embarazo; sin derechos ni ayudas a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000144",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal que endurece las penas del hurto reiterado; no asigna efecto directo a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000145",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el intercambio de antecedentes penales en la UE; norma procesal y penal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000146",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la protección de los huérfanos de violencia de género: ayudas, trámites sucesorios y atención.",
+  "partido": ""
+ },
+ {
+  "id": "122/000147",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre multirreincidencia en hurto leve; no concede derechos a un colectivo concreto, sin impactos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000148",
+  "tipo": "eco",
+  "imp": {
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Fomenta la transformación digital: alivio fiscal a operadores de telecomunicaciones, entornos de prueba regulatorios e incentivos a startups tecnológicas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000149",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la mayoría de designación de consejeros del Tribunal de Cuentas; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000150",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Regula y fomenta el sector del hidrógeno, en especial el verde.",
+  "partido": ""
+ },
+ {
+  "id": "122/000151",
+  "tipo": "eco",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Regula un modelo retributivo común para las fuerzas y cuerpos de seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000152",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la ley de Seguridad Nacional; norma institucional.",
+  "partido": ""
+ }
+]

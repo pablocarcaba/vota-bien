@@ -54,3 +54,12 @@ Revisado con el texto del BOCG/BOE (49 iniciativas, 21 cambios; gemelas 122/0003
 - [ ] **Rebajas** (125/000008): restringe al comercio, la defiende el pequeño comercio; vacía.
 - [ ] **122/000315** (VOX, repartidores y planes de igualdad): `-asal1` en espejo de la ley rider.
 - [ ] **Pesos**: 122/000292 y 122/000300 (CIE) y 122/000089 suben a 2.
+
+
+## Reclasificación con la rúbrica v3 (04/11/2026)
+
+Las 662 iniciativas se han reclasificado con la rúbrica v3 por tres lectores independientes (C, D y E), que no vieron la clasificación anterior ni el trabajo de los otros. Texto usado: extracto de hasta 5.000 caracteres del texto oficial (BOCG) de cada iniciativa; en los reales decretos-ley, el de su proyecto de ley. 95 iniciativas que la primera pasada dejó sin efectos se volvieron a leer con más texto oficial. Clasificación final: consolidación por mayoría (`scripts/consolidar_lecturas.py`; un colectivo cuenta si lo marcan 2 de 3; tipo por mayoría; peso, la mediana).
+
+- Coincidencia entre lectores: 81–82 % idéntica, parecido medio 0.88, 0 con signo contrario; 488 de 662 idénticas en las tres lecturas.
+- 340 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
+- Sin efectos: 256 antes, 297 ahora.
