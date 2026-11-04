@@ -71,8 +71,12 @@ h1,h2,h3{text-wrap:balance}
 @keyframes late{0%,100%{box-shadow:0 0 0 0 rgba(241,191,0,.55)}60%{box-shadow:0 0 0 7px rgba(241,191,0,0)}}
 .hero.paused *,.hero.paused *::before{animation-play-state:paused!important}
 /* tableta y móvil: la bandera sale del texto y ondea en una banda propia, entre la barra superior y el título */
+.aviso{position:relative;z-index:1;background:rgba(10,15,28,.72);border-bottom:1px solid rgba(255,196,0,.28);color:rgba(255,255,255,.92);font-size:14px;line-height:1.4}
+.aviso .in{display:flex;gap:10px;align-items:center;padding-top:10px;padding-bottom:10px}
+.aviso .ico{color:var(--oro);width:18px;height:18px}
+.aviso b{color:#fff}
 @media (max-width:980px){
-  .topbar{order:0}.hero-in{order:2}
+  .aviso{order:-1}.topbar{order:0}.hero-in{order:2}
   .flag{order:1;position:relative;left:auto;top:auto;width:100%;height:clamp(92px,24vw,176px);aspect-ratio:auto;flex:none;opacity:.94;transform:none;--amp:6%;
     -webkit-mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent);mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}
   .flag i{height:80%}
@@ -379,6 +383,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
 
 <header class="hero" id="hero">
   <div class="flag" id="flag" aria-hidden="true"></div>
+  <div class="aviso" role="note"><div class="in"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg><span><b>Esto es un simulador informativo.</b> No recoge ni guarda ningún dato tuyo: todo se calcula en tu navegador, sin registro ni cookies.</span></div></div>
   <div class="in topbar">
     <a class="brand" href="./" aria-label="Lo que votaron, inicio">
       <span class="mark" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m6 12.5 4 4 8-9"/></svg></span>
@@ -472,14 +477,14 @@ const CATS = [
   {id:'fun', grp:'Trabajo e ingresos', name:'Funcionarios · subgrupo', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
   {id:'pro', grp:'Trabajo e ingresos', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]},
   {id:'pen', grp:'Trabajo e ingresos', name:'Pensionistas · pensión anual', opts:[['pen1','Menos de 12.000 €'],['pen2','12.000–25.000 €'],['pen3','25.000–42.000 €']]},
-  {id:'des', grp:'Trabajo e ingresos', name:'Desempleados', opts:[['desPres','Con prestación'],['desSub','Subsidio o IMV']]},
+  {id:'des', grp:'Trabajo e ingresos', name:'Desempleados', opts:[['desPres','Cobro el paro (prestación)'],['desSub','Cobro un subsidio o el Ingreso Mínimo Vital']]},
   {id:'vivn', grp:'Patrimonio', sub:'Vivienda', name:'Viviendas en propiedad', pre:'Viviendas: ', opts:[['viv0','Ninguna'],['viv1','Una, la habitual'],['viv2','Dos o más']]},
   {id:'vivs', grp:'Patrimonio', sub:'Vivienda', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler']]},
   {id:'prop', grp:'Patrimonio', sub:'Otro patrimonio', name:'Sin contar la vivienda habitual', pre:'Otro patrimonio ', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
-  {id:'emp', grp:'Empresa', name:'Empresarios · facturación', opts:[['empAut','Autónomos'],['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
+  {id:'emp', grp:'Empresa', name:'Tu negocio · facturación anual', opts:[['empAut','Autónomos'],['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
   {id:'sec', grp:'Empresa', name:'Sector', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones'],['secSoc','Sanidad, educación y cuidados privados']]},
   {id:'cons', name:'Consumo', multi:true, opts:[['cons','Consumidor y usuario']]},
-  {id:'soc', grp:'Condición social', name:'Marca todas las que te describan', multi:true, opts:[['estud','Estudiante'],['pac','Paciente o enfermo crónico'],['depend','Persona en situación de dependencia'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante'],['minorias','Minoría étnica'],['rural','Medio rural'],['victimas','Víctima'],['pobreza','Riesgo de pobreza']]}
+  {id:'soc', grp:'Condición social', name:'Tu situación personal', multi:true, opts:[['estud','Estudiante (de cualquier nivel)'],['pac','Paciente o enfermo crónico'],['depend','Persona dependiente (con grado reconocido)'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante (extranjero que vive en España)'],['minorias','Minoría étnica o religiosa (p. ej., gitanos)'],['rural','Vivo en el medio rural'],['victimas','Víctima de violencia, terrorismo, catástrofe o accidente'],['pobreza','En riesgo de pobreza (IMV, bono social…)']]}
 ];
 // rasgos del perfil que activan colectivos de la clasificación
 const IMPLICA = {hij1:['infancia'], hij2:['infancia'], hij3:['infancia'], cuid:['depend']};

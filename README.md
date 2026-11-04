@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://pablocarcaba.github.io/vota-bien/"><img src=".github/banner.svg" alt="¿A quién te conviene votar? Lo que votó cada partido en las leyes que te afectan" width="100%"></a>
+  <a href="https://pablocarcaba.github.io/vota-bien/"><img src=".github/cabecera.svg" alt="¿A quién te conviene votar? Lo que votó cada partido en las leyes que te afectan" width="100%"></a>
 </p>
 
 <p align="center">
