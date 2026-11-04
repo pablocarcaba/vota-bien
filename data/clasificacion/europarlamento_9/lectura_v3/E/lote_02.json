@@ -1,0 +1,862 @@
+[
+ {
+  "id": "2021/0375(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el estatuto y la financiación de partidos y fundaciones políticas europeas; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0376(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia requisitos de gestión de fondos de inversión alternativos con medidas de signo mixto; el efecto sobre el sector financiero no tiene un signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0377(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica reglas de los fondos de inversión a largo plazo con medidas de signo mixto; no se determina un signo único para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0378(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un punto de acceso único a información pública financiera; norma técnica de transparencia sin efecto identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0379(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta directivas al punto de acceso único de información financiera; norma técnica sin efecto identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0380(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta reglamentos al punto de acceso único de información financiera; norma técnica sin efecto identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0381(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece transparencia en la publicidad política; norma de procedimiento sin efecto claro sobre un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0383(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Autoriza ratificar un protocolo de cooperación judicial sobre pruebas electrónicas; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0384(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la directiva de mercados de instrumentos financieros; el título no permite determinar a quién afecta y con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0385(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el reglamento de mercados de instrumentos financieros con medidas de signo mixto; no se determina un signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0391(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una plataforma de colaboración para equipos conjuntos de investigación; norma procesal y de cooperación policial.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0393(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el intercambio digital de información judicial sobre terrorismo; norma procesal sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0394(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Digitaliza la cooperación judicial transfronteriza; norma procesal sin efecto identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0395(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta actos de cooperación judicial a la digitalización; norma procesal sin efecto identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0399(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Alinea una decisión de cooperación judicial con la normativa de protección de datos; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0406(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un instrumento de respuesta a la coerción económica de terceros países; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0407(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica las cuentas nacionales y deroga actos; norma estadística sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0410(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el intercambio automatizado de datos entre policías; norma de cooperación policial sin efecto identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0411(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el intercambio de información entre autoridades policiales; norma procesal sin efecto identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0414(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Mejora las condiciones laborales en plataformas digitales; las plataformas asumen nuevas obligaciones sobre presunción laboral y gestión algorítmica.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0419(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Actualiza el marco de sistemas inteligentes de transporte por carretera; norma técnica sin efecto identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0420(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija orientaciones para la red transeuropea de transporte; planificación de infraestructuras sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0422(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre delitos contra el medio ambiente; tipificación de conductas sin efecto asignable a colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0423(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Reduce las emisiones de metano del sector energético; mejora ambiental general y obligaciones de medición y reparación para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0424(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refunde el mercado interior del gas y el hidrógeno; el título no permite determinar a quién afecta y con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0425(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refunde normas comunes del mercado del gas y el hidrógeno; el título no permite determinar el signo del efecto.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0426(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secCons": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la eficiencia energética de edificios; mejora ambiental general y nuevas exigencias de construcción y rehabilitación.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0428(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el código de fronteras Schengen; el título no permite determinar el signo para ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0429R(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Informe sobre la revisión del marco financiero plurianual; sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0430(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el sistema de recursos propios de la Unión; norma presupuestaria institucional sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0433(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Establece un impuesto mínimo global para grupos multinacionales; grava a los grupos de gran tamaño.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0434(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija normas contra el uso indebido de sociedades fantasma con fines fiscales; el título no permite determinar un colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0438(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda macrofinanciera a Moldavia; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2026(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Pide regular los regímenes de ciudadanía y residencia por inversión; el texto no determina un efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2035(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Pide definir la violencia de género como ámbito delictivo europeo; norma penal sin derechos o ayudas específicos para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2054(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Resolución sobre digitalización de sistemas de notificación, control y auditoría; norma administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2161(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Resolución sobre digitalización y Derecho administrativo; norma administrativa sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2226(BUI)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Orientaciones presupuestarias de las instituciones europeas para 2023; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2227(BUI)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Previsiones de ingresos y gastos del Parlamento Europeo; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2229(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Define la composición del Parlamento Europeo; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0005(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prorroga un acuerdo sobre navegación por satélite con Estados Unidos; sin efecto directo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0009(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea la Agencia de la Unión Europea para las Drogas; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0010(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Financia servicios personalizados de reinserción para trabajadores despedidos del sector del automóvil en Cataluña.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0014(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Prorroga el protocolo de pesca con Mauricio; mantiene posibilidades de pesca para la flota de la Unión.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0015(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de asistencia técnica del fondo de adaptación a la globalización; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0016(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prorroga la equivalencia de semillas de Bolivia; norma técnica sin efecto identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0018(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto rectificativo por ajuste del marco financiero; norma presupuestaria sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0021(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica decisiones de organizaciones de normalización europeas; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0023(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización del fondo de adaptación a la globalización para trabajadores despedidos en Francia; sin efecto en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0027(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prorroga mecanismos opcionales contra el fraude del IVA; prórroga técnica sin cambios sustantivos.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0030(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Extiende el certificado COVID digital a nacionales de terceros países residentes legales; amplía sus derechos de circulación.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0031(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prorroga el certificado COVID digital para facilitar la libre circulación; sin signo claro por colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0032(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Establece un marco de refuerzo del ecosistema europeo de semiconductores; apoyo al sector tecnológico.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0033(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la empresa común de chips en Horizonte Europa; norma de organización.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0035(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica medidas de conservación pesquera en el Atlántico Noroeste; el signo para el sector no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0036(COD)",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Mejora los requisitos de estabilidad de buques de pasaje; refuerza la seguridad de los viajeros y obliga a los operadores.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0039(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un programa de conectividad segura por satélite; sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0047(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Regula el acceso y uso de datos; da derechos a los usuarios de productos conectados y obliga a fabricantes y proveedores digitales.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0051(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a grandes empresas a la diligencia debida en sostenibilidad y derechos humanos en su cadena de valor.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0066(COD)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección y los derechos de las víctimas de violencia contra las mujeres y violencia doméstica.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0068(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el ejercicio de derechos de la Unión del acuerdo de retirada y comercio con el Reino Unido; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0071(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la puesta a disposición de recursos propios; financiación comunitaria sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0074(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la disciplina de liquidación de valores con medidas de signo mixto; no se determina un signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0082(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aprueba modificaciones del Convenio Internacional del Azúcar; sin efecto directo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0085(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece medidas de ciberseguridad en las instituciones de la Unión; norma de organización interna.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0089(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de indicaciones geográficas de vinos, espirituosas y productos agrícolas; beneficia a sus productores.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0092(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Protege a los consumidores frente a prácticas desleales como el ecoblanqueo y mejora la información sobre durabilidad y sostenibilidad.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0094(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece condiciones armonizadas para comercializar productos de construcción; el signo para colectivos no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0095(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija requisitos de diseño ecológico para productos sostenibles; mejora ambiental general y exigencias a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0098(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica contingentes arancelarios con Nueva Zelanda tras el Brexit; ajuste técnico sin efecto identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0099(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece el control de gases fluorados de efecto invernadero; mejora climática general y exigencias a los sectores que los usan.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0100(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Actualiza el control de sustancias que agotan la capa de ozono; protección ambiental general y obligaciones para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0104(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece la regulación de emisiones industriales; mejora ambiental general y mayores exigencias a las instalaciones industriales.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0105(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la notificación de datos ambientales de instalaciones industriales y un portal público; norma de transparencia sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0111(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica medidas de gestión del atún rojo y plan plurianual; el signo para el sector pesquero no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0115(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Crea protección europea de indicaciones geográficas para productos artesanales e industriales; beneficia a sus productores.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0117(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protege frente a demandas abusivas contra la participación pública; norma procesal sin colectivo específico.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0118(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Introduce medidas para aliviar las consecuencias de la guerra en Ucrania sobre la pesca y la acuicultura; ayuda al sector.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0119(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto rectificativo que consigna el excedente de 2021; norma presupuestaria sin efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0126(BUD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Dota fondos europeos de asilo y fronteras para costes de acogida y registro de personas refugiadas de Ucrania.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0131(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Refunde el permiso único de residencia y trabajo y fija derechos comunes para trabajadores de terceros países.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0132A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Digitaliza el procedimiento de visado; norma administrativa sin cambio de derechos conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0132B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Digitaliza el procedimiento de visado; norma administrativa sin cambio de derechos conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0138(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Liberaliza temporalmente el comercio con Ucrania; el efecto sobre colectivos depende de la reacción del mercado.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0140(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Crea el Espacio Europeo de Datos Sanitarios; da a los pacientes acceso y control sobre sus datos de salud.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0142(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Celebra acuerdo forestal con Guyana sobre productos de la madera; sin efecto directo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0143(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización del fondo de adaptación a la globalización para Air France en Francia; sin efecto en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0147(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Refuerza los derechos de los consumidores en contratos de servicios financieros a distancia y obliga a las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0154(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Combina una bonificación por capital propio con límites a la deducibilidad de intereses; signos opuestos para las empresas.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0157(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo de intercambio de datos personales entre Europol y Nueva Zelanda; cooperación policial sin efecto asignable.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0160(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Eleva el fomento de energías renovables y la eficiencia energética; mejora ambiental y climática general.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0162(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refunde las normas financieras del presupuesto de la Unión; norma de gestión interna.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0164(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica los planes de recuperación para incluir capítulos de REPowerEU; el título no permite determinar colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0165(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija orientaciones de las políticas de empleo de los Estados miembros; sin efecto directo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0167(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal y procesal sobre recuperación y decomiso de activos; sin efecto asignable a colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0170(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización del fondo de adaptación a la globalización para trabajadores en Grecia; sin efecto en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0174(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica compromisos de servicios en el acuerdo GATS por reglamentación nacional; sin efecto identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0177(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Autoriza a Polonia a ratificar una modificación de convención sobre abadejos del mar de Bering; sin efecto en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0179(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Autoriza la adopción del euro por Croacia; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0188(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Liberaliza temporalmente el comercio con Moldavia; el efecto sobre colectivos depende de la reacción del mercado.",
+  "partido": ""
+ }
+]

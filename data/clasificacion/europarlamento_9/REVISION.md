@@ -28,3 +28,12 @@ Clasificación inicial de 545 procedimientos legislativos (agentes, rúbrica vig
 - [ ] Mecanismo de Recuperación (2020/0104): impactos repartidos entre empresas y sectores; ¿`+ciud`?
 - [ ] Propuestas retiradas o no adoptadas, clasificadas por su contenido: plaguicidas (2022/0196), filiación (2022/0402), DEBRA (2022/0154), alegaciones ecológicas (2023/0085).
 - [ ] Descansos de conductores de autocar (2023/0155): `+secTrans`; empeora las condiciones de los conductores y no hay colectivo.
+
+
+## Reclasificación con la rúbrica v3 (04/11/2026)
+
+Las 545 iniciativas se han reclasificado con la rúbrica v3 por tres lectores independientes (C, D y E), que no vieron la clasificación anterior ni el trabajo de los otros. Texto usado: título y contenido conocido de cada norma; para las que quedaron sin efectos, segunda lectura con el texto aprobado oficial del Parlamento Europeo (hasta 12.000 caracteres). 83 iniciativas que la primera pasada dejó sin efectos se volvieron a leer con más texto oficial. Clasificación final: consolidación por mayoría (`scripts/consolidar_lecturas.py`; un colectivo cuenta si lo marcan 2 de 3; tipo por mayoría; peso, la mediana).
+
+- Coincidencia entre lectores: 89–89 % idéntica, parecido medio 0.9, 0 con signo contrario; 462 de 545 idénticas en las tres lecturas.
+- 181 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
+- Sin efectos: 321 antes, 402 ahora.

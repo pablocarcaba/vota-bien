@@ -1,0 +1,528 @@
+[
+ {
+  "id": "2025/0380(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajusta parámetros de la reserva de estabilidad del mercado de carbono de edificios y transporte; el efecto sobre precios no tiene signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0385(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0387(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0390(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0393(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0395(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Suspende la obligación de designar representante autorizado por país en la responsabilidad ampliada del productor de pilas; alivia a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0396(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1,
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Suspende la obligación de designar representantes autorizados en la responsabilidad ampliada del productor de residuos, aparatos y envases; alivia a productores y distribuidores.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0398(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0407(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0408(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Amplía los plazos de protección de datos de biocidas; beneficia a las empresas que los desarrollaron.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0413(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0418(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo temporal que financia la descarbonización de instalaciones industriales y mitiga el riesgo de fuga de carbono.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0419(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0423(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Modifica el cálculo de créditos de emisiones de vehículos pesados de 2025 a 2029, con flexibilidad para los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0429(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prorroga la excepción de privacidad para detectar abuso sexual de menores en línea; protege a menores y limita la confidencialidad.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0524(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Fija el objetivo climático de la Unión para 2040; refuerza la protección del clima.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0531(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Simplifica requisitos de etiquetado y procedimientos de productos químicos, cosméticos y fertilizantes y añade un contacto electrónico; sin signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0571R(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0580(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición de la estructura y tipos del impuesto especial del tabaco; el texto disponible no detalla los tipos ni permite fijar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0581(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0590(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0726(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Restringe las importaciones de acero mediante contingentes y aranceles; protege a la industria siderúrgica de la Unión.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0806(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0810R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0825(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Reduce los requisitos de capital de las entidades de crédito para exposiciones de titulización; beneficia al sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0826(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Simplifica el marco de titulización de la Unión y aligera exigencias a las entidades; beneficia al sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2025/0900(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2025/2079(INL)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Solicita un régimen jurídico europeo opcional y simplificado para empresas emergentes y pymes innovadoras, con acceso a capital y movilidad.",
+  "partido": ""
+ },
+ {
+  "id": "2025/2080(INL)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Solicita derechos de información, supervisión humana y protección de los trabajadores frente a la gestión algorítmica y la inteligencia artificial en el trabajo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/2131(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solicita una directiva de transición justa con protección, formación y diálogo social para trabajadores de sectores afectados; sin colectivo identificable por tramo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/2195(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2025/2246(BUI)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2025/2247(BUI)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0001(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0004(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0008(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0010(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0037(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0038(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0066(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0078(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Programa de financiación a la innovación en defensa; subvenciona a la industria de defensa.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0085(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la invalidación de derechos de emisión en la reserva de estabilidad del mercado de carbono; sin colectivo con efecto de signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0090(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0097(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0099(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0120(BUD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Moviliza ayuda del Fondo de Solidaridad para afectados por incendios forestales e inundaciones, incluida España.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0126(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0137(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0144(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0150(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Ayuda temporal y anticipos de pago al sector agrario por el aumento de precios de los fertilizantes.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0189(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0195(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Moviliza fondos europeos para 671 trabajadores despedidos en el sector auxiliar del automóvil de Galicia, con ayudas para reincorporarse al empleo.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0196(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija la posición sobre el presupuesto anual de la UE restableciendo recortes del Consejo; no determina quién gana o pierde en España con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0197(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0211(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0220(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0254(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional, presupuestaria o técnica sin efecto directo identificable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0284(BUD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Moviliza ayuda del Fondo de Solidaridad para afectados por tormentas, incluidos los de España.",
+  "partido": ""
+ },
+ {
+  "id": "2026/0325(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1,
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Aplaza obligaciones de reducción de emisiones de metano; rebaja protección ambiental y ahorra costes al sector energético.",
+  "partido": ""
+ },
+ {
+  "id": "2026/2023(INL)",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Recomienda legislar la prevención de riesgos psicosociales, estrés y salud mental en el trabajo; mejora la protección de los asalariados.",
+  "partido": ""
+ }
+]

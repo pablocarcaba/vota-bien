@@ -1,952 +1,898 @@
 [
-{
-"id": "2020/2005(INL)",
-"tipo": "eco",
-"imp": {
-"jovenes": 1,
-"estud": 1
-},
-"peso": 2,
-"nota": "Pide una directiva sobre prácticas remuneradas y de calidad; beneficia a jóvenes y estudiantes en prácticas.",
-"partido": ""
-},
-{
-"id": "2020/2006(INL)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secPrim": -1,
-"secInd": -1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Pide una ley contra la deforestación importada; beneficio ambiental general y obligaciones para importadores y comercializadores.",
-"partido": ""
-},
-{
-"id": "2020/2012(INL)",
-"tipo": "soc",
-"imp": {
-"cons": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Pide un marco ético para la inteligencia artificial; protege a usuarios e impone obligaciones a desarrolladores tecnológicos.",
-"partido": ""
-},
-{
-"id": "2020/2014(INL)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Pide responsabilidad civil por daños de sistemas de IA; facilita indemnizaciones a usuarios y aumenta la responsabilidad de operadores.",
-"partido": ""
-},
-{
-"id": "2020/2018(INL)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secDig": -1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Pide la Ley de Servicios Digitales; más protección de usuarios y obligaciones para las grandes plataformas en línea.",
-"partido": ""
-},
-{
-"id": "2020/2019(INL)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Pide adaptar el Derecho civil y mercantil a las plataformas en línea; refuerza derechos de usuarios frente a ellas.",
-"partido": ""
-},
-{
-"id": "2020/2026(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Estatuto europeo para asociaciones sin ánimo de lucro transfronterizas; institucional, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2020/2034(INL)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Pide regular y supervisar los criptoactivos; protege a inversores e impone requisitos a proveedores financieros.",
-"partido": ""
-},
-{
-"id": "2020/2035(INL)",
-"tipo": "soc",
-"imp": {
-"mujeres": 1,
-"victimas": 1
-},
-"peso": 2,
-"nota": "Pide legislar contra la ciberviolencia de género; protege a mujeres víctimas de violencia en línea.",
-"partido": ""
-},
-{
-"id": "2020/2073(INL)",
-"tipo": "eco",
-"imp": {
-"secDig": 1
-},
-"peso": 1,
-"nota": "Pide medidas contra la piratería de retransmisiones deportivas en directo; favorece a titulares de derechos audiovisuales.",
-"partido": ""
-},
-{
-"id": "2020/2092(BUD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda a refugiados sirios en Jordania, Líbano y Turquía; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2020/2094(BUD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda humanitaria a refugiados en Turquía; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2020/2129(INL)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"empGran": -1,
-"empMed": -1
-},
-"peso": 2,
-"nota": "Pide diligencia debida obligatoria en derechos humanos y medio ambiente; obligaciones para medianas y grandes empresas.",
-"partido": ""
-},
-{
-"id": "2020/2130(INL)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Pide regular la financiación privada de litigios; protege a demandantes y limita a los fondos financiadores.",
-"partido": ""
-},
-{
-"id": "2020/2220(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma de la ley electoral europea (listas transnacionales); norma electoral sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2020/2255(INL)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 2,
-"nota": "Pide ampliar las vías de migración laboral legal hacia la UE; favorece a inmigrantes.",
-"partido": ""
-},
-{
-"id": "2020/2264(BUI)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto de funcionamiento del Parlamento Europeo; institucional.",
-"partido": ""
-},
-{
-"id": "2020/2265(BUI)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Orientaciones previas al presupuesto de la UE de 2022; sin efecto distributivo directo.",
-"partido": ""
-},
-{
-"id": "2021/0008(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Alineamiento técnico de una norma de cooperación policial con la protección de datos.",
-"partido": ""
-},
-{
-"id": "2021/0018(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada de la formación de conductores profesionales; sin cambios de fondo.",
-"partido": ""
-},
-{
-"id": "2021/0019(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Amplía la protección de obtenciones vegetales de algunas especies; efecto técnico y de signo incierto.",
-"partido": ""
-},
-{
-"id": "2021/0020(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Estadísticas agrícolas; norma técnica.",
-"partido": ""
-},
-{
-"id": "2021/0029(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reparto de contingentes arancelarios con Australia tras el Brexit; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0031(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Cuentas económicas regionales de la agricultura; estadística.",
-"partido": ""
-},
-{
-"id": "2021/0037M(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Acuerdo pesquero con Groenlandia; da acceso a caladeros a la flota de la UE.",
-"partido": ""
-},
-{
-"id": "2021/0045(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Prorroga diez años la itinerancia sin recargos y limita las tarifas mayoristas; beneficia a usuarios móviles.",
-"partido": ""
-},
-{
-"id": "2021/0046(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Interoperabilidad de sistemas de antecedentes penales para controles fronterizos; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0048(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Empresas comunes de investigación de Horizonte Europa; organización de programas.",
-"partido": ""
-},
-{
-"id": "2021/0049(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Participación de la UE en una asociación de metrología; técnica.",
-"partido": ""
-},
-{
-"id": "2021/0050(COD)",
-"tipo": "eco",
-"imp": {
-"mujeres": 1,
-"empMed": -1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Transparencia salarial: derecho a información y obligación de informar sobre brecha salarial en empresas de más de 100 empleados.",
-"partido": ""
-},
-{
-"id": "2021/0055(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Controla que las importaciones animales respeten la prohibición de ciertos antimicrobianos; salud pública.",
-"partido": ""
-},
-{
-"id": "2021/0058(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Transpone medidas de conservación del atún del Océano Índico; técnica.",
-"partido": ""
-},
-{
-"id": "2021/0078(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo por la COVID-19 y el nuevo marco financiero; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0104(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"empGran": -1,
-"empMed": -1
-},
-"peso": 2,
-"nota": "Información de sostenibilidad obligatoria (CSRD); obligaciones de informe para medianas y grandes empresas.",
-"partido": ""
-},
-{
-"id": "2021/0105(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Reglamento de máquinas: requisitos de seguridad para fabricantes; protege a usuarios.",
-"partido": ""
-},
-{
-"id": "2021/0106(COD)",
-"tipo": "soc",
-"imp": {
-"cons": 1,
-"secDig": -1
-},
-"peso": 3,
-"nota": "Ley de IA: prohíbe usos de riesgo inaceptable y obliga a sistemas de alto riesgo; protege a usuarios, costes al sector tecnológico.",
-"partido": ""
-},
-{
-"id": "2021/0114(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Control de subvenciones extranjeras en compras públicas y adquisiciones; efecto distributivo poco claro en España.",
-"partido": ""
-},
-{
-"id": "2021/0118(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Actualiza anexos del reglamento de insolvencia; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0127(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Protocolo pesquero con Gabón; da acceso a caladeros a la flota atunera de la UE.",
-"partido": ""
-},
-{
-"id": "2021/0136(COD)",
-"tipo": "soc",
-"imp": {
-"cons": 1
-},
-"peso": 2,
-"nota": "Cartera de identidad digital europea; facilita a los ciudadanos identificarse y hacer trámites en línea.",
-"partido": ""
-},
-{
-"id": "2021/0137(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Orientaciones no vinculantes para las políticas de empleo.",
-"partido": ""
-},
-{
-"id": "2021/0140(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Mecanismo de evaluación de Schengen; institucional.",
-"partido": ""
-},
-{
-"id": "2021/0146(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste del contingente de vacuno de calidad de Paraguay; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0161(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Procedimientos de puesta a disposición de recursos propios; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0170(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Seguridad general de los productos, también en línea; protege a consumidores y obliga a comercios y plataformas.",
-"partido": ""
-},
-{
-"id": "2021/0171(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Nueva directiva de crédito al consumo; más protección e información a prestatarios y obligaciones a prestamistas.",
-"partido": ""
-},
-{
-"id": "2021/0176(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Prorroga las restricciones de acceso a aguas costeras; mantiene el statu quo.",
-"partido": ""
-},
-{
-"id": "2021/0184(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adhesión a un convenio pesquero del Pacífico Norte; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2021/0191(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Estándar voluntario de bonos verdes; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0193(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo técnico de ingresos de recursos propios.",
-"partido": ""
-},
-{
-"id": "2021/0197(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 3,
-"nota": "Emisiones cero para turismos y furgonetas nuevos desde 2035; beneficio climático, costes para la industria del automóvil.",
-"partido": ""
-},
-{
-"id": "2021/0200(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 2,
-"nota": "Eleva los objetivos nacionales de reducción de emisiones en transporte, edificios y agricultura; beneficio climático general.",
-"partido": ""
-},
-{
-"id": "2021/0201(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 2,
-"nota": "Objetivos de absorción de carbono en uso de la tierra y silvicultura; beneficio climático general.",
-"partido": ""
-},
-{
-"id": "2021/0202(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Refuerza la reserva de estabilidad del mercado de emisiones; encarece el CO2 a industria y energía.",
-"partido": ""
-},
-{
-"id": "2021/0203(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"pobreza": 1
-},
-"peso": 2,
-"nota": "Eficiencia energética: objetivos de ahorro, renovación de edificios públicos y medidas para hogares vulnerables.",
-"partido": ""
-},
-{
-"id": "2021/0204(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Notificación de compensaciones CORSIA de aerolíneas; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0205(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secTrans": -1
-},
-"peso": 2,
-"nota": "ReFuelEU: cuota obligatoria de combustibles sostenibles de aviación; beneficio climático, costes para aerolíneas.",
-"partido": ""
-},
-{
-"id": "2021/0206(COD)",
-"tipo": "eco",
-"imp": {
-"pobreza": 1,
-"cons": 1,
-"empMicro": 1
-},
-"peso": 2,
-"nota": "Fondo Social para el Clima: ayudas a hogares vulnerables, usuarios de transporte y microempresas ante el coste del CO2.",
-"partido": ""
-},
-{
-"id": "2021/0207(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secTrans": -1
-},
-"peso": 2,
-"nota": "Suprime gradualmente los derechos gratuitos de la aviación en el mercado de emisiones; costes para aerolíneas.",
-"partido": ""
-},
-{
-"id": "2021/0208(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adhesión al Convenio de La Haya de reconocimiento de sentencias; procesal.",
-"partido": ""
-},
-{
-"id": "2021/0210(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secTrans": -1
-},
-"peso": 2,
-"nota": "FuelEU Maritime: reduce la intensidad de carbono de los combustibles de buques; costes para navieras.",
-"partido": ""
-},
-{
-"id": "2021/0211A(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1,
-"secTrans": -1,
-"cons": -1
-},
-"peso": 3,
-"nota": "Reforma del mercado de emisiones y nuevo RCDE 2 para edificios y transporte; encarece CO2 a industria, transporte y consumidores.",
-"partido": ""
-},
-{
-"id": "2021/0211B(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secTrans": -1
-},
-"peso": 1,
-"nota": "Incorpora el transporte marítimo al seguimiento de emisiones del mercado de carbono; costes para navieras.",
-"partido": ""
-},
-{
-"id": "2021/0214(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1
-},
-"peso": 2,
-"nota": "Mecanismo de ajuste en frontera por carbono: grava el CO2 de ciertas importaciones; beneficio climático, efecto sectorial mixto.",
-"partido": ""
-},
-{
-"id": "2021/0215(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga de una disposición transitoria sobre fondos de inversión; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0218(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1
-},
-"peso": 2,
-"nota": "Eleva al 42,5 % el objetivo de renovables para 2030; beneficio climático general.",
-"partido": ""
-},
-{
-"id": "2021/0219(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Documentos de datos fundamentales de fondos de inversión; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0223(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"cons": 1
-},
-"peso": 2,
-"nota": "Obliga a desplegar puntos de recarga y repostaje alternativos; facilita la movilidad limpia a usuarios.",
-"partido": ""
-},
-{
-"id": "2021/0239(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "Reglamento contra el blanqueo: obligaciones de diligencia para entidades financieras y límite a pagos en efectivo.",
-"partido": ""
-},
-{
-"id": "2021/0241(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Trazabilidad de transferencias de fondos y criptoactivos; obligaciones para proveedores financieros.",
-"partido": ""
-},
-{
-"id": "2021/0242(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Medidas de conservación del atún rojo del sur; sin efecto relevante en España.",
-"partido": ""
-},
-{
-"id": "2021/0244(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acceso policial a registros de cuentas bancarias; cooperación administrativa.",
-"partido": ""
-},
-{
-"id": "2021/0248(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Refundición de normas de pesca del Mediterráneo; técnica.",
-"partido": ""
-},
-{
-"id": "2021/0250(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Mecanismos nacionales y autoridades contra el blanqueo; organización administrativa.",
-"partido": ""
-},
-{
-"id": "2021/0266(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Aplicación del Sistema de Información de Schengen en Chipre; institucional.",
-"partido": ""
-},
-{
-"id": "2021/0270(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Financiación de estadísticas agrícolas; técnico.",
-"partido": ""
-},
-{
-"id": "2021/0275(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada de controles del transporte de mercancías peligrosas; sin cambios de fondo.",
-"partido": ""
-},
-{
-"id": "2021/0291(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"secDig": -1
-},
-"peso": 1,
-"nota": "Cargador común USB-C para dispositivos; ahorro a consumidores, menos residuos electrónicos, obligación a fabricantes.",
-"partido": ""
-},
-{
-"id": "2021/0293(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Programa de objetivos digitales para 2030; marco de coordinación sin efecto directo.",
-"partido": ""
-},
-{
-"id": "2021/0295(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Revisión de Solvencia II para aseguradoras; efecto de signo mixto.",
-"partido": ""
-},
-{
-"id": "2021/0296(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Marco de resolución de aseguradoras; protege a asegurados y añade obligaciones al sector.",
-"partido": ""
-},
-{
-"id": "2021/0300(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Acuerdo pesquero con Mauritania; da acceso a caladeros a la flota de la UE, relevante para la española.",
-"partido": ""
-},
-{
-"id": "2021/0300M(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Acuerdo pesquero con Mauritania; da acceso a caladeros a la flota de la UE, relevante para la española.",
-"partido": ""
-},
-{
-"id": "2021/0312(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Protocolo pesquero con las Islas Cook; acceso a caladeros para la flota atunera de la UE.",
-"partido": ""
-},
-{
-"id": "2021/0316(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Ayuda a trabajadores despedidos del sector del metal en el País Vasco.",
-"partido": ""
-},
-{
-"id": "2021/0328(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Año Europeo de la Juventud; actividades simbólicas sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2021/0336(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de cooperación científica con Brasil; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2021/0337(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda a trabajadores despedidos en Italia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2021/0338(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda a trabajadores despedidos en Italia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2021/0340(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Rebaja los límites de contaminantes orgánicos persistentes en residuos; salud y medio ambiente, costes a la industria.",
-"partido": ""
-},
-{
-"id": "2021/0341(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "Directiva bancaria (Basilea III): más supervisión, sanciones y control de riesgos ambientales; obligaciones a la banca.",
-"partido": ""
-},
-{
-"id": "2021/0342(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "Reglamento bancario (Basilea III): requisitos de capital más exigentes y suelo de resultados para la banca.",
-"partido": ""
-},
-{
-"id": "2021/0343(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste técnico de requisitos de resolución de grandes grupos bancarios.",
-"partido": ""
-},
-{
-"id": "2021/0356(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Ayuda a trabajadores despedidos del sector del automóvil en Aragón.",
-"partido": ""
-},
-{
-"id": "2021/0359(BUD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda por terremotos en Croacia; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2021/0363(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda a trabajadores despedidos de Airbus en Francia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2021/0366(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secPrim": -1,
-"secInd": -1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Prohíbe comercializar productos vinculados a deforestación; beneficio ambiental, obligaciones de diligencia a productores, industria y comercio.",
-"partido": ""
-},
-{
-"id": "2021/0367(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Restringe y controla los traslados de residuos, sobre todo exportaciones; beneficio ambiental, costes para gestores e industria.",
-"partido": ""
-},
-{
-"id": "2021/0372(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma electoral sobre el voto de ciudadanos de la UE residentes en otro Estado; procedimental.",
-"partido": ""
-},
-{
-"id": "2021/0373(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Voto en elecciones municipales de ciudadanos de la UE residentes en otro Estado; procedimental.",
-"partido": ""
-}
+ {
+  "id": "2020/2005(INL)",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Propone derechos y condiciones mínimas para quienes hacen prácticas; beneficia a jóvenes en prácticas.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2006(INL)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Propone frenar la deforestación vinculada al consumo de la UE; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2012(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Recomienda un marco ético para la inteligencia artificial y la robótica; propuesta general sin efecto concreto con signo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2014(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Recomienda un régimen de responsabilidad civil por daños de la inteligencia artificial; el texto no permite determinar quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2018(INL)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Recomienda obligaciones de retirada de contenidos y transparencia para plataformas y servicios digitales; coste para el sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2019(INL)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Recomienda normas mercantiles y civiles más exigentes para plataformas en línea y su relación con usuarios; coste para el sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2026(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2034(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Recomienda regular los criptoactivos y su supervisión; el texto no permite atribuir efectos con signo a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2035(INL)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Propone medidas contra la ciberviolencia de género; protege a las mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2073(INL)",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1,
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Recomienda proteger los derechos de los organizadores de eventos deportivos y obligar a intermediarios en línea a retirar emisiones ilegales.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2092(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2094(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2129(INL)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Recomienda imponer obligaciones de diligencia debida en derechos humanos y medio ambiente a las grandes empresas en sus cadenas de valor.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2130(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Recomienda regular la financiación privada de litigios; el texto no permite atribuir efectos con signo a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2220(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2255(INL)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Propone ampliar y ordenar las vías de migración legal; beneficia a los inmigrantes.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2264(BUI)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2265(BUI)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0008(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0018(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0019(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0020(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0029(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0031(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0037M(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo pesquero que abre caladeros a la flota pesquera de la UE; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0045(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Mantiene la itinerancia móvil sin recargos en la UE; beneficia a los usuarios de telecomunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0046(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0048(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0049(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0050(COD)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Obliga a transparencia retributiva y refuerza la igualdad de pago; beneficia a las trabajadoras.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0055(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Exige a las importaciones de origen animal cumplir la prohibición de antimicrobianos; protege la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0058(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0078(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0104(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Amplía las obligaciones de información de sostenibilidad de las grandes empresas; les supone coste.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0105(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0106(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones a los proveedores de sistemas de inteligencia artificial; supone costes para el sector tecnológico.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0114(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0118(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0127(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo pesquero que abre caladeros a la flota pesquera de la UE; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0136(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0137(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0140(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0146(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0161(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0170(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad general de los productos y las garantías de los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0171(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de los usuarios de créditos al consumo e impone obligaciones a los prestamistas.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0176(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0184(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0191(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0193(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0197(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece los límites de CO2 de turismos y furgonetas nuevos; mejora ambiental y exige a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0200(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Reduce emisiones o refuerza la protección del clima; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0201(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Reduce emisiones o refuerza la protección del clima; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0202(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Retira más derechos de emisión del mercado de carbono; mejora la protección del clima y encarece el cumplimiento a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0203(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza los objetivos y obligaciones de eficiencia energética, también a las empresas energéticas; mejora el clima.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0204(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0205(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Exige combustibles sostenibles en la aviación; mejora ambiental y supone coste para el transporte aéreo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0206(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo para apoyar a hogares vulnerables ante los costes de la transición climática.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0207(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Endurece el régimen de emisiones de la aviación; mejora ambiental y supone coste para las aerolíneas.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0208(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0210(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Exige combustibles renovables en el transporte marítimo; mejora ambiental y supone coste para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0211A(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Endurece el comercio de derechos de emisión; mejora ambiental y supone coste para industria y transporte.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0211B(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Incorpora el transporte marítimo al comercio de emisiones; mejora ambiental y supone coste para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0214(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Crea un ajuste en frontera por carbono a importaciones de sectores intensivos en emisiones; refuerza la protección climática. Signo opuesto para la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0215(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0218(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Eleva los objetivos de energía renovable; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0219(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0223(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Obliga a desplegar puntos de recarga y repostaje de combustibles alternativos en la red de transporte; menos emisiones y más servicio a usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0239(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza las obligaciones contra el blanqueo de capitales de las entidades financieras; supone costes de cumplimiento.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0241(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a proveedores de pagos y de criptoactivos a acompañar las transferencias de datos del ordenante; supone costes.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0242(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0244(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0248(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0250(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0266(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0270(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0275(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0291(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Impone un cargador común a dispositivos radioeléctricos; beneficia a los usuarios y obliga a los fabricantes a adaptarse.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0293(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0295(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0296(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0300(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo pesquero que abre caladeros a la flota pesquera de la UE; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0300M(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo pesquero que abre caladeros a la flota pesquera de la UE; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0312(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo pesquero que abre caladeros a la flota pesquera de la UE; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0316(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Financia con fondos europeos la reincorporación laboral de trabajadores despedidos en el metal del País Vasco; no se asigna a ningún colectivo de la clasificación.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0328(COD)",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Declara el Año Europeo de la Juventud con actividades dirigidas a los jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0336(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0337(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0338(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0340(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Actualiza los límites a contaminantes orgánicos persistentes; protege la salud y el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0341(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0342(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0343(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0356(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Financia con fondos europeos la reincorporación laboral de trabajadores despedidos en la automoción de Aragón; no se asigna a ningún colectivo de la clasificación.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0359(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0363(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0366(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Prohíbe comercializar productos asociados a la deforestación; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0367(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza el control de los traslados de residuos; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0372(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0373(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+  "partido": ""
+ }
 ]

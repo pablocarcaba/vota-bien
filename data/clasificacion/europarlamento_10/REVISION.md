@@ -17,3 +17,12 @@ Clasificación inicial de 260 procedimientos legislativos (agentes, rúbrica vig
 - [ ] ITV (2025/0097): contenido de la propuesta, no del texto final.
 - [ ] Nuevas técnicas genómicas (2023/0226), IVA digital (2022/0407), perros y gatos (2023/0447): signos discutibles.
 - [ ] Informes de iniciativa legislativa laborales (INL): `+asal1-4` aunque solo piden una directiva.
+
+
+## Reclasificación con la rúbrica v3 (04/11/2026)
+
+Las 260 iniciativas se han reclasificado con la rúbrica v3 por tres lectores independientes (C, D y E), que no vieron la clasificación anterior ni el trabajo de los otros. Texto usado: título y contenido conocido de cada norma; para las que quedaron sin efectos, segunda lectura con el texto aprobado oficial del Parlamento Europeo (hasta 12.000 caracteres). 83 iniciativas que la primera pasada dejó sin efectos se volvieron a leer con más texto oficial. Clasificación final: consolidación por mayoría (`scripts/consolidar_lecturas.py`; un colectivo cuenta si lo marcan 2 de 3; tipo por mayoría; peso, la mediana).
+
+- Coincidencia entre lectores: 93–95 % idéntica, parecido medio 0.94, 0 con signo contrario; 235 de 260 idénticas en las tres lecturas.
+- 67 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
+- Sin efectos: 174 antes, 202 ahora.

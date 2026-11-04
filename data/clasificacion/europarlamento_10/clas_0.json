@@ -1,863 +1,841 @@
 [
-{
-"id": "2011/0102(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de transporte aéreo con EE. UU.; marco regulatorio sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2012/0231(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0072(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Revisión de los derechos de los pasajeros aéreos; el resultado final (umbrales de retraso) es incierto, sin signo claro.",
-"partido": ""
-},
-{
-"id": "2015/0012(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2015/0188(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0397(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Coordinación de la seguridad social entre Estados; reglas técnicas para trabajadores móviles sin signo claro.",
-"partido": ""
-},
-{
-"id": "2017/0159(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0902R(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Procedimiento institucional sobre el Estado de Derecho en Hungría; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2021/0042(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste técnico de contingentes arancelarios tras el Brexit; sin efecto sectorial claro.",
-"partido": ""
-},
-{
-"id": "2021/0297(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Renovación de las preferencias arancelarias a países en desarrollo; sin efecto sectorial claro en España.",
-"partido": ""
-},
-{
-"id": "2021/0372(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma electoral sobre el voto de ciudadanos de la UE residentes en otro Estado; procedimental.",
-"partido": ""
-},
-{
-"id": "2021/0375(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Estatuto y financiación de partidos europeos; norma institucional.",
-"partido": ""
-},
-{
-"id": "2022/0184(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2022/0184M(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2022/0407(CNS)",
-"tipo": "eco",
-"imp": {
-"secDig": -1,
-"secCom": 1
-},
-"peso": 2,
-"nota": "IVA en la era digital: plataformas de alojamiento y transporte recaudan IVA, igualando condiciones con hoteles y transportistas tradicionales.",
-"partido": ""
-},
-{
-"id": "2022/0408(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Armoniza aspectos de la insolvencia empresarial; efecto distributivo entre acreedores y deudores sin signo claro.",
-"partido": ""
-},
-{
-"id": "2023/0134(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste técnico de la clasificación por CO2 de camiones con remolque en los peajes.",
-"partido": ""
-},
-{
-"id": "2023/0135(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Armoniza delitos y penas de corrupción; norma penal e institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2023/0142(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2023/0158(CNS)",
-"tipo": "eco",
-"imp": {
-"secDig": -1,
-"secCom": 1
-},
-"peso": 2,
-"nota": "Las plataformas de venta a distancia de bienes importados recaudan el IVA; iguala condiciones con el comercio europeo.",
-"partido": ""
-},
-{
-"id": "2023/0169(COD)",
-"tipo": "soc",
-"imp": {
-"discapacidad": 1,
-"depend": 1
-},
-"peso": 1,
-"nota": "Facilita el reconocimiento entre países de medidas de protección de adultos vulnerables.",
-"partido": ""
-},
-{
-"id": "2023/0183(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste técnico de contingentes arancelarios tras el Brexit; sin efecto sectorial claro.",
-"partido": ""
-},
-{
-"id": "2023/0187(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Agiliza la devolución de retenciones a inversores transfronterizos; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2023/0202(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Normas procedimentales para aplicar el RGPD entre autoridades; técnica.",
-"partido": ""
-},
-{
-"id": "2023/0212(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Crea un medio de pago público digital gratuito para el uso básico; compite con servicios de pago bancarios.",
-"partido": ""
-},
-{
-"id": "2023/0226(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Flexibiliza la autorización de vegetales de nuevas técnicas genómicas; efectos sobre agricultores y consumidores sin signo claro.",
-"partido": ""
-},
-{
-"id": "2023/0232(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 2,
-"nota": "Sistema de vigilancia de la salud del suelo y de suelos contaminados; mejora ambiental general.",
-"partido": ""
-},
-{
-"id": "2023/0250(COD)",
-"tipo": "soc",
-"imp": {
-"victimas": 1
-},
-"peso": 2,
-"nota": "Refuerza los derechos, el apoyo y la protección de las víctimas de delitos.",
-"partido": ""
-},
-{
-"id": "2023/0284(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Exige diseño circular y reciclaje de vehículos; beneficio ambiental con costes para fabricantes.",
-"partido": ""
-},
-{
-"id": "2023/0321(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Base imponible común para grandes grupos empresariales; efecto sobre su tributación sin signo claro.",
-"partido": ""
-},
-{
-"id": "2023/0341(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste técnico de contingentes arancelarios tras el Brexit; sin efecto sectorial claro.",
-"partido": ""
-},
-{
-"id": "2023/0371(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Mecanismo para suspender la exención de visados a terceros países; sin efecto sobre residentes en España.",
-"partido": ""
-},
-{
-"id": "2023/0404(COD)",
-"tipo": "eco",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 2,
-"nota": "Plataforma de la UE para facilitar la contratación de trabajadores de terceros países.",
-"partido": ""
-},
-{
-"id": "2023/0410(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2023/0413(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Marco de seguimiento y datos sobre los bosques; sin obligaciones con efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2023/0435(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Refuerza la protección de quienes compran viajes combinados (reembolsos, bonos); obligaciones para agencias.",
-"partido": ""
-},
-{
-"id": "2023/0437(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secTrans": -1
-},
-"peso": 2,
-"nota": "Refuerza el cumplimiento de los derechos de los viajeros frente a los transportistas.",
-"partido": ""
-},
-{
-"id": "2023/0438(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Cooperación policial y papel de Europol contra el tráfico de migrantes; institucional.",
-"partido": ""
-},
-{
-"id": "2023/0441(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Protección consular de ciudadanos de la UE no representados; alcance reducido.",
-"partido": ""
-},
-{
-"id": "2023/0447(COD)",
-"tipo": "soc",
-"imp": {
-"secCom": -1
-},
-"peso": 2,
-"nota": "Normas de bienestar y trazabilidad de perros y gatos; obligaciones para criadores y vendedores.",
-"partido": ""
-},
-{
-"id": "2023/0453(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Plataforma de datos sobre sustancias químicas; técnica.",
-"partido": ""
-},
-{
-"id": "2023/0454(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2023/0455(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2023/0456(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2023/0462(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2023/0463(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Transparencia de la representación de intereses de terceros países; institucional.",
-"partido": ""
-},
-{
-"id": "2024/0006(COD)",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 1,
-"nota": "Refuerza los comités de empresa europeos en grandes multinacionales; más obligaciones de información y consulta.",
-"partido": ""
-},
-{
-"id": "2024/0010(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0011(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2024/0017(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Control de inversiones extranjeras por seguridad; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2024/0027(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Equivalencia técnica en semillas con Moldavia y Ucrania; sin efecto sectorial claro.",
-"partido": ""
-},
-{
-"id": "2024/0035(COD)",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"victimas": 1
-},
-"peso": 2,
-"nota": "Amplía delitos y protección frente al abuso y la explotación sexual de menores.",
-"partido": ""
-},
-{
-"id": "2024/0046(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0048(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0051(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de transferencia de datos de pasajeros aéreos; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2024/0052(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0061(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 2,
-"nota": "Programa de financiación de la industria de defensa europea.",
-"partido": ""
-},
-{
-"id": "2024/0071(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda macrofinanciera a un tercer país; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2024/0074(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0086(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda macrofinanciera a un tercer país; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2024/0089(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo técnico que consigna el excedente de 2023.",
-"partido": ""
-},
-{
-"id": "2024/0098(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Incorpora medidas técnicas de la Comisión General de Pesca del Mediterráneo; sin signo claro.",
-"partido": ""
-},
-{
-"id": "2024/0101R(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0128(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Visados de corta duración para un tercer país; sin efecto en residentes en España.",
-"partido": ""
-},
-{
-"id": "2024/0133(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Protocolo pesquero que da acceso a caladeros a la flota de la UE, incluida la española.",
-"partido": ""
-},
-{
-"id": "2024/0146(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo interpretativo del Tratado sobre la Carta de la Energía; técnico.",
-"partido": ""
-},
-{
-"id": "2024/0148(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo interpretativo del Tratado sobre la Carta de la Energía; técnico.",
-"partido": ""
-},
-{
-"id": "2024/0152(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Certificado digital de exención de IVA; técnico.",
-"partido": ""
-},
-{
-"id": "2024/0155(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0159(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Protocolo pesquero que da acceso a caladeros a la flota de la UE, incluida la española.",
-"partido": ""
-},
-{
-"id": "2024/0159M(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Protocolo pesquero que da acceso a caladeros a la flota de la UE, incluida la española.",
-"partido": ""
-},
-{
-"id": "2024/0167(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0176(BUD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"estud": 1
-},
-"peso": 3,
-"nota": "Presupuesto anual de la UE: financia política agrícola, cohesión territorial y programas educativos como Erasmus+.",
-"partido": ""
-},
-{
-"id": "2024/0178(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0185(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo técnico de ingresos y agencias.",
-"partido": ""
-},
-{
-"id": "2024/0187(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Seguridad de documentos de identidad y residencia; técnica.",
-"partido": ""
-},
-{
-"id": "2024/0212(BUD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda por catástrofes a otros Estados miembros; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2024/0214(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2024/0224(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Medidas contra terceros países con pesca no sostenible; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0226(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo para trabajadores despedidos en Bélgica; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2024/0234(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Préstamos excepcionales a Ucrania respaldados por activos rusos inmovilizados; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2024/0240(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0245(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0245M(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0249(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": -1,
-"secPrim": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Aplaza un año la ley contra la deforestación importada; alivia a productores e industria, retrasa el beneficio ambiental.",
-"partido": ""
-},
-{
-"id": "2024/0252(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo técnico de pagos e ingresos.",
-"partido": ""
-},
-{
-"id": "2024/0258(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda financiera a un tercer país; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2024/0260(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0260M(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0263(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Protocolo pesquero que da acceso a caladeros a la flota de la UE, incluida la española.",
-"partido": ""
-},
-{
-"id": "2024/0274(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"victimas": 1
-},
-"peso": 1,
-"nota": "Ayuda rural extraordinaria a agricultores afectados por catástrofes naturales.",
-"partido": ""
-},
-{
-"id": "2024/0275(COD)",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 1,
-"nota": "Permite usar fondos de cohesión para reconstrucción tras catástrofes, con apoyo a afectados y pymes.",
-"partido": ""
-},
-{
-"id": "2024/0276(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Cooperación administrativa e intercambio de información fiscal; técnica.",
-"partido": ""
-},
-{
-"id": "2024/0284(BUD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda por catástrofes a otros Estados miembros; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2024/0286(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo para trabajadores despedidos en Bélgica; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2024/0290(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga del acuerdo de transporte por carretera con Ucrania; sin efecto sectorial claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0301(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Interfaz digital para declarar el desplazamiento de trabajadores; simplificación técnica.",
-"partido": ""
-},
-{
-"id": "2024/0305(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2024/0311(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Requisitos técnicos de equipos de medida y recarga; técnica.",
-"partido": ""
-},
-{
-"id": "2024/0315(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Puesta en marcha progresiva del Sistema de Entradas y Salidas; técnica.",
-"partido": ""
-}
+ {
+  "id": "2011/0102(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0231(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0072(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0012(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0188(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0397(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0159(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0902R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0042(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0297(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0372(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0375(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0184(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0184M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0407(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obligaciones de facturación y declaración del IVA para operaciones transfronterizas y plataformas; efecto y signo por colectivo no determinables.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0408(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0134(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0135(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0142(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0158(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica del IVA sobre ventas a distancia de bienes importados; sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0169(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce en toda la Unión las medidas de protección y apoyo a adultos sin plena capacidad para velar por sus intereses en situaciones transfronterizas.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0183(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0187(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0202(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0212(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0226(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0232(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Marco de vigilancia y mejora de la salud del suelo; beneficia a la población como mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0250(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos, el apoyo y la protección de las víctimas de delitos.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0284(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Exige circularidad y reciclado en el diseño y fin de vida de los vehículos; mejora ambiental con coste para los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0321(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0341(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0371(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0404(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Crea una plataforma europea de talentos que facilita la incorporación de trabajadores de terceros países.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0410(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0413(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0435(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de los viajeros en viajes combinados; las obligaciones para organizadores son en parte simplificadas, sin signo único para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0437(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "discapacidad": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza el cumplimiento de los derechos de pasajeros, incluidas personas con movilidad reducida; añade obligaciones a las compañías de transporte.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0438(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0441(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0447(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Impone registro, identificación y requisitos de bienestar a criadores y vendedores de perros y gatos, con costes de cumplimiento.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0453(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0454(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0455(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0456(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0462(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0463(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0006(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza derechos de información y consulta de los comités de empresa europeos; obligaciones para multinacionales.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0010(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0011(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0017(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0027(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0035(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición penal sobre abuso sexual de menores y material de abuso, incluido el generado por IA; norma penal sin derechos específicos identificados.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0046(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0048(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0051(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0052(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0061(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Programa de ayudas e incentivos europeos a la industria de defensa.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0071(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0074(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0086(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0089(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0098(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0101R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0128(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0133(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Protocolo que da acceso a aguas de Cabo Verde a buques pesqueros europeos.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0146(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0148(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0152(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0155(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0159(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Protocolo que da acceso a aguas de Guinea-Bisáu a buques pesqueros europeos.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0159M(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Protocolo que da acceso a aguas de Guinea-Bisáu a buques pesqueros europeos.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0167(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0176(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0178(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0185(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0187(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0212(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0214(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0224(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0226(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0234(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0240(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0245(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0245M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0249(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1,
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Aplaza un año la aplicación de las exigencias contra la deforestación importada; rebaja temporal de protección ambiental y alivio de costes.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0252(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0258(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0260(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0260M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0263(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Protocolo que concede posibilidades de pesca a la flota de la Unión en aguas de Groenlandia.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0274(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Ayuda adicional del Feader a agricultores afectados por catástrofes naturales.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0275(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Apoyo regional urgente para la reconstrucción tras catástrofes.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0276(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0284(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0286(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0290(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0301(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0305(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0311(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2024/0315(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+  "partido": ""
+ }
 ]

@@ -1,927 +1,859 @@
 [
-{
-"id": "2021/0375(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Estatuto y financiación de partidos europeos; norma institucional.",
-"partido": ""
-},
-{
-"id": "2021/0376(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Revisión AIFMD/UCITS: más control de liquidez y comisiones de fondos; protege al inversor minorista con coste para gestoras.",
-"partido": ""
-},
-{
-"id": "2021/0377(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": 1
-},
-"peso": 1,
-"nota": "Flexibiliza los fondos ELTIF y abre su comercialización a minoristas; favorece a gestoras de inversión.",
-"partido": ""
-},
-{
-"id": "2021/0378(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Punto de acceso único europeo a información financiera y de sostenibilidad; infraestructura técnica sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2021/0379(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación técnica de directivas al punto de acceso único europeo.",
-"partido": ""
-},
-{
-"id": "2021/0380(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación técnica de reglamentos al punto de acceso único europeo.",
-"partido": ""
-},
-{
-"id": "2021/0381(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Transparencia y límites a la segmentación de la publicidad política; norma institucional sobre procesos electorales.",
-"partido": ""
-},
-{
-"id": "2021/0383(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Autorización para ratificar un protocolo del Convenio de Budapest sobre ciberdelincuencia; acuerdo internacional.",
-"partido": ""
-},
-{
-"id": "2021/0384(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Revisión MiFID II: prohíbe el pago por flujo de órdenes y mejora la transparencia para inversores minoristas.",
-"partido": ""
-},
-{
-"id": "2021/0385(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Revisión MiFIR: sistema de información consolidada de datos de mercado; norma técnica de mercados de capitales.",
-"partido": ""
-},
-{
-"id": "2021/0391(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Plataforma informática para equipos conjuntos de investigación penal; norma técnica de cooperación judicial.",
-"partido": ""
-},
-{
-"id": "2021/0393(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Intercambio digital de información en casos de terrorismo vía Eurojust; norma técnica de cooperación judicial.",
-"partido": ""
-},
-{
-"id": "2021/0394(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Digitaliza la cooperación judicial transfronteriza; norma procesal y técnica.",
-"partido": ""
-},
-{
-"id": "2021/0395(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adapta instrumentos de cooperación judicial a la digitalización; norma procesal y técnica.",
-"partido": ""
-},
-{
-"id": "2021/0399(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Alinea una decisión sobre terrorismo con las normas de protección de datos; norma técnica.",
-"partido": ""
-},
-{
-"id": "2021/0406(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Instrumento contra la coerción económica de terceros países; política comercial sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2021/0407(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Cuentas nacionales: simplifica la normativa estadística; norma técnica.",
-"partido": ""
-},
-{
-"id": "2021/0410(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Prüm II: intercambio automatizado de datos policiales (ADN, huellas, rostros); cooperación policial sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2021/0411(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Intercambio de información entre policías de los Estados miembros; cooperación policial.",
-"partido": ""
-},
-{
-"id": "2021/0414(COD)",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"jovenes": 1,
-"inmigrantes": 1,
-"secDig": -1,
-"secTrans": -1
-},
-"peso": 2,
-"nota": "Presunción de laboralidad y control de algoritmos en plataformas; beneficia a repartidores y conductores con coste para plataformas.",
-"partido": ""
-},
-{
-"id": "2021/0419(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Sistemas de transporte inteligentes por carretera; norma técnica sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2021/0420(COD)",
-"tipo": "eco",
-"imp": {
-"secTrans": 1
-},
-"peso": 2,
-"nota": "Nueva red transeuropea de transporte con plazos para corredores (Mediterráneo y Atlántico); favorece al transporte y logística.",
-"partido": ""
-},
-{
-"id": "2021/0422(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Endurece los delitos ambientales y sus sanciones; refuerza la protección ambiental con coste para la industria infractora.",
-"partido": ""
-},
-{
-"id": "2021/0423(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Obliga a detectar y reparar fugas de metano en el sector energético; beneficio climático con coste para el sector.",
-"partido": ""
-},
-{
-"id": "2021/0424(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Reglamento de mercados del gas e hidrógeno; descarbonización y protección del consumidor con coste para el sector gasista.",
-"partido": ""
-},
-{
-"id": "2021/0425(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"pobreza": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Directiva de gas e hidrógeno: derechos de consumidores, protección de vulnerables y salida progresiva del gas fósil.",
-"partido": ""
-},
-{
-"id": "2021/0426(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"viv1": -1,
-"viv2": -1,
-"secCons": 1,
-"pobreza": 1
-},
-"peso": 3,
-"nota": "Edificios de cero emisiones y renovación del parque menos eficiente; reduce emisiones y gasto energético, con coste de obras para propietarios.",
-"partido": ""
-},
-{
-"id": "2021/0428(COD)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": -1
-},
-"peso": 2,
-"nota": "Reforma del Código de fronteras Schengen: controles internos temporales y traslados de migrantes interceptados en fronteras.",
-"partido": ""
-},
-{
-"id": "2021/0429R(APP)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Informe provisional sobre la revisión del marco financiero plurianual; posición institucional.",
-"partido": ""
-},
-{
-"id": "2021/0430(CNS)",
-"tipo": "eco",
-"imp": {
-"secInd": -1
-},
-"peso": 2,
-"nota": "Nuevos recursos propios de la UE basados en el comercio de emisiones y el ajuste en frontera por carbono.",
-"partido": ""
-},
-{
-"id": "2021/0433(CNS)",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 2,
-"nota": "Impuesto mínimo global del 15 % para grupos multinacionales con más de 750 millones de facturación.",
-"partido": ""
-},
-{
-"id": "2021/0434(CNS)",
-"tipo": "eco",
-"imp": {
-"empGran": -1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Normas contra sociedades fantasma con fines fiscales; aumenta obligaciones a estructuras de planificación fiscal.",
-"partido": ""
-},
-{
-"id": "2021/0438(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda macrofinanciera a Moldavia; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2021/2026(INL)",
-"tipo": "soc",
-"imp": {
-"prop4": -1,
-"inmigrantes": -1
-},
-"peso": 1,
-"nota": "Pide suprimir las «visas de oro» por inversión; afecta a grandes inversores extranjeros.",
-"partido": ""
-},
-{
-"id": "2021/2035(INL)",
-"tipo": "soc",
-"imp": {
-"mujeres": 1,
-"victimas": 1
-},
-"peso": 2,
-"nota": "Pide incluir la violencia de género entre los eurodelitos para armonizar su persecución penal.",
-"partido": ""
-},
-{
-"id": "2021/2054(INL)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Pide digitalizar los sistemas de notificación, control y auditoría de fondos UE; norma administrativa.",
-"partido": ""
-},
-{
-"id": "2021/2161(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Pide normas sobre digitalización y procedimiento administrativo de la UE; norma institucional.",
-"partido": ""
-},
-{
-"id": "2021/2226(BUI)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Orientaciones del Parlamento para el presupuesto 2023; posición presupuestaria general.",
-"partido": ""
-},
-{
-"id": "2021/2227(BUI)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Previsiones de gastos del propio Parlamento Europeo para 2023; norma institucional.",
-"partido": ""
-},
-{
-"id": "2021/2229(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reparto de escaños del Parlamento Europeo para 2024; norma institucional.",
-"partido": ""
-},
-{
-"id": "2022/0005(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga del acuerdo Galileo-GPS con EE. UU.; acuerdo internacional técnico.",
-"partido": ""
-},
-{
-"id": "2022/0009(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Transforma el Observatorio de las Drogas en Agencia de la UE; norma institucional.",
-"partido": ""
-},
-{
-"id": "2022/0010(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para trabajadores despedidos de la automoción en Cataluña.",
-"partido": ""
-},
-{
-"id": "2022/0014(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Prórroga del protocolo pesquero con Mauricio; mantiene posibilidades de pesca para la flota atunera, incluida la española.",
-"partido": ""
-},
-{
-"id": "2022/0015(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Asistencia técnica del Fondo de Adaptación a la Globalización; gasto administrativo.",
-"partido": ""
-},
-{
-"id": "2022/0016(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Equivalencia de inspecciones de semillas en terceros países; norma técnica.",
-"partido": ""
-},
-{
-"id": "2022/0018(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo por el ajuste técnico del marco financiero; norma presupuestaria.",
-"partido": ""
-},
-{
-"id": "2022/0021(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Gobernanza de las organizaciones europeas de normalización; norma técnica.",
-"partido": ""
-},
-{
-"id": "2022/0023(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en Francia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2022/0027(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga del mecanismo de inversión del sujeto pasivo del IVA contra el fraude; norma técnica tributaria.",
-"partido": ""
-},
-{
-"id": "2022/0030(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga del certificado COVID digital de la UE; norma técnica sanitaria temporal.",
-"partido": ""
-},
-{
-"id": "2022/0031(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga del certificado COVID digital para nacionales de terceros países; norma técnica temporal.",
-"partido": ""
-},
-{
-"id": "2022/0032(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": 1,
-"secDig": 1
-},
-"peso": 2,
-"nota": "Ley de Chips: ayudas e incentivos a la producción de semiconductores en la UE.",
-"partido": ""
-},
-{
-"id": "2022/0033(NLE)",
-"tipo": "eco",
-"imp": {
-"secDig": 1
-},
-"peso": 1,
-"nota": "Crea la Empresa Común de Chips para financiar investigación en semiconductores.",
-"partido": ""
-},
-{
-"id": "2022/0035(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Medidas de conservación pesquera en el Atlántico Noroeste; transposición técnica de una organización regional.",
-"partido": ""
-},
-{
-"id": "2022/0036(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Requisitos de estabilidad de buques de pasaje; norma técnica de seguridad marítima.",
-"partido": ""
-},
-{
-"id": "2022/0039(COD)",
-"tipo": "eco",
-"imp": {
-"secDig": 1
-},
-"peso": 2,
-"nota": "Programa IRIS² de conectividad segura por satélite; financia al sector espacial y de telecomunicaciones.",
-"partido": ""
-},
-{
-"id": "2022/0047(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Ley de Datos: derecho de usuarios a acceder y compartir datos de sus dispositivos; obligaciones para fabricantes y nubes.",
-"partido": ""
-},
-{
-"id": "2022/0051(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"empGran": -1
-},
-"peso": 3,
-"nota": "Diligencia debida en sostenibilidad para grandes empresas: derechos humanos y medio ambiente en la cadena de valor.",
-"partido": ""
-},
-{
-"id": "2022/0066(COD)",
-"tipo": "soc",
-"imp": {
-"mujeres": 1,
-"victimas": 1
-},
-"peso": 2,
-"nota": "Primera directiva de violencia contra las mujeres: tipifica la mutilación genital y la ciberviolencia, y refuerza la asistencia a víctimas.",
-"partido": ""
-},
-{
-"id": "2022/0068(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Instrumentos para hacer cumplir el acuerdo de retirada del Reino Unido; política comercial.",
-"partido": ""
-},
-{
-"id": "2022/0071(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Procedimiento de puesta a disposición de nuevos recursos propios; norma técnica presupuestaria.",
-"partido": ""
-},
-{
-"id": "2022/0074(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Revisión técnica de los depositarios centrales de valores y la liquidación de valores.",
-"partido": ""
-},
-{
-"id": "2022/0082(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modificación del Convenio Internacional del Azúcar; acuerdo internacional.",
-"partido": ""
-},
-{
-"id": "2022/0085(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ciberseguridad de las instituciones de la UE; norma institucional.",
-"partido": ""
-},
-{
-"id": "2022/0089(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 2,
-"nota": "Reforma de indicaciones geográficas de vinos y alimentos; refuerza la protección de denominaciones de origen.",
-"partido": ""
-},
-{
-"id": "2022/0092(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 2,
-"nota": "Prohíbe el ecoblanqueo y la obsolescencia programada; mejora la información al consumidor.",
-"partido": ""
-},
-{
-"id": "2022/0094(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secCons": -1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Nuevo reglamento de productos de construcción con requisitos ambientales y de seguridad para fabricantes.",
-"partido": ""
-},
-{
-"id": "2022/0095(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"secInd": -1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Diseño ecológico de productos, pasaporte digital y prohibición de destruir textiles no vendidos.",
-"partido": ""
-},
-{
-"id": "2022/0098(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste de contingentes arancelarios con Nueva Zelanda tras el Brexit; acuerdo técnico.",
-"partido": ""
-},
-{
-"id": "2022/0099(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Eliminación progresiva de gases fluorados en refrigeración y climatización; beneficio climático con coste para la industria.",
-"partido": ""
-},
-{
-"id": "2022/0100(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Endurece las restricciones a sustancias que agotan la capa de ozono.",
-"partido": ""
-},
-{
-"id": "2022/0104(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1,
-"secPrim": -1
-},
-"peso": 2,
-"nota": "Revisión de emisiones industriales; amplía a grandes granjas porcinas y avícolas y endurece límites de contaminación.",
-"partido": ""
-},
-{
-"id": "2022/0105(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Portal de emisiones industriales con datos ambientales públicos por instalación.",
-"partido": ""
-},
-{
-"id": "2022/0111(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Medidas de conservación del atún de la CICAA; límites a la pesca de túnidos.",
-"partido": ""
-},
-{
-"id": "2022/0115(COD)",
-"tipo": "eco",
-"imp": {
-"empMicro": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Indicaciones geográficas para productos artesanales e industriales (cerámica, cuchillería, textil).",
-"partido": ""
-},
-{
-"id": "2022/0117(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Protección frente a demandas abusivas (SLAPP) contra periodistas y activistas; derecho procesal transfronterizo.",
-"partido": ""
-},
-{
-"id": "2022/0118(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Ayudas del FEMP a la pesca por la guerra de Ucrania: compensaciones por costes y paralizaciones.",
-"partido": ""
-},
-{
-"id": "2022/0119(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo que consigna el excedente de 2021; norma presupuestaria.",
-"partido": ""
-},
-{
-"id": "2022/0126(BUD)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Presupuesto rectificativo para financiar la acogida de personas que huyen de Ucrania.",
-"partido": ""
-},
-{
-"id": "2022/0131(COD)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 2,
-"nota": "Permiso único de residencia y trabajo: agiliza el trámite, permite cambiar de empleador y refuerza la igualdad de trato.",
-"partido": ""
-},
-{
-"id": "2022/0132A(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Digitalización del procedimiento de visado Schengen; norma técnica.",
-"partido": ""
-},
-{
-"id": "2022/0132B(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Modelo uniforme de visado digital; norma técnica.",
-"partido": ""
-},
-{
-"id": "2022/0138(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Suprime aranceles y cuotas a productos ucranianos; vacía como el resto del comercio con Ucrania (ver REVISION).",
-"partido": ""
-},
-{
-"id": "2022/0140(COD)",
-"tipo": "soc",
-"imp": {
-"pac": 1,
-"ciud": 1
-},
-"peso": 2,
-"nota": "Espacio Europeo de Datos Sanitarios: acceso del paciente a su historia clínica en toda la UE y uso secundario de datos.",
-"partido": ""
-},
-{
-"id": "2022/0142(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo FLEGT con Guyana sobre comercio legal de madera; acuerdo internacional.",
-"partido": ""
-},
-{
-"id": "2022/0143(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de Air France; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2022/0147(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Contratos financieros a distancia: derecho de desistimiento más claro y protección al consumidor en línea.",
-"partido": ""
-},
-{
-"id": "2022/0154(CNS)",
-"tipo": "eco",
-"imp": {
-"empGran": -1,
-"empMed": 1
-},
-"peso": 1,
-"nota": "DEBRA: bonificación al capital propio y límite a la deducción de intereses en el impuesto de sociedades.",
-"partido": ""
-},
-{
-"id": "2022/0157(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo con Nueva Zelanda para intercambio de datos con Europol; acuerdo internacional.",
-"partido": ""
-},
-{
-"id": "2022/0160(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"secInd": 1
-},
-"peso": 2,
-"nota": "REPowerEU: acelera los permisos de renovables y eleva el objetivo; favorece al sector renovable y reduce dependencia del gas ruso.",
-"partido": ""
-},
-{
-"id": "2022/0162(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Refundición del Reglamento financiero de la UE; norma presupuestaria técnica.",
-"partido": ""
-},
-{
-"id": "2022/0164(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secInd": 1,
-"ciud": 1
-},
-"peso": 2,
-"nota": "Capítulos REPowerEU en los planes de recuperación: fondos para renovables, eficiencia y ahorro energético.",
-"partido": ""
-},
-{
-"id": "2022/0165(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Orientaciones no vinculantes para las políticas de empleo; sin efecto distributivo directo.",
-"partido": ""
-},
-{
-"id": "2022/0167(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Recuperación y decomiso de activos del crimen organizado; norma penal y procesal.",
-"partido": ""
-},
-{
-"id": "2022/0170(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en Grecia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2022/0174(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Incorpora disciplinas de regulación interna de servicios de la OMC; acuerdo comercial técnico.",
-"partido": ""
-},
-{
-"id": "2022/0177(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Autoriza a Polonia a ratificar un convenio sobre el abadejo del mar de Bering.",
-"partido": ""
-},
-{
-"id": "2022/0179(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adopción del euro por Croacia; decisión institucional.",
-"partido": ""
-},
-{
-"id": "2022/0188(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Liberalización temporal del comercio con Moldavia; vacía como el resto del comercio con Ucrania (ver REVISION).",
-"partido": ""
-}
+ {
+  "id": "2021/0375(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0376(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0377(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0378(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0379(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0380(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0381(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0383(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0384(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0385(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0391(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0393(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0394(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0395(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0399(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0406(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0407(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0410(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0411(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0414(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones laborales a las plataformas digitales de trabajo; suponen un coste para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0419(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0420(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0422(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0423(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Exige reducir emisiones de metano al sector energético: mejora ambiental general y coste para la industria energética.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0424(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0425(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0426(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secCons": -1
+  },
+  "peso": 2,
+  "nota": "Endurece la eficiencia energética de los edificios: mejora climática general y exigencias para la construcción.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0428(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0429R(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0430(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica los recursos propios que financian el presupuesto de la UE; norma institucional sin efecto directo asignable a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0433(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Fija un impuesto mínimo global para grupos multinacionales, que soportan mayor carga fiscal.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0434(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0438(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2026(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Pide limitar los regímenes de ciudadanía y residencia por inversión; no consta un efecto directo y de signo claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2035(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Pide declarar la violencia de género ámbito delictivo europeo; norma penal sin derechos o ayudas concretos en el texto disponible.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2054(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2161(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2226(BUI)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2227(BUI)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2021/2229(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0005(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0009(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0010(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Financia con fondos europeos la reincorporación laboral de trabajadores despedidos en la automoción de Cataluña; no se asigna a ningún colectivo de la clasificación.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0014(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Prorroga las posibilidades de pesca y la contrapartida financiera del acuerdo pesquero con Mauricio, en favor de la flota.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0015(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0016(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0018(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0021(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0023(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0027(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0030(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Extiende el certificado COVID digital a nacionales de terceros países que residen legalmente, facilitando su circulación.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0031(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0032(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Establece medidas de apoyo y refuerzo del ecosistema europeo de semiconductores, beneficiando al sector tecnológico.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0033(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0035(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0036(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Impone prescripciones de estabilidad mejoradas a los buques de pasaje de transbordo rodado, con coste para los operadores.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0039(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0047(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Da a los usuarios acceso a los datos de sus dispositivos conectados e impone obligaciones de compartición a las empresas tecnológicas.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0051(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las grandes empresas a aplicar diligencia debida en sostenibilidad y derechos humanos en su cadena de valor.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0066(COD)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Establece medidas de protección y derechos para las víctimas de violencia contra las mujeres y violencia doméstica.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0068(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0071(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0074(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0082(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0085(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0089(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de indicaciones geográficas y regímenes de calidad agrícolas, en favor de los productores.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0092(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección e información de los consumidores frente a prácticas desleales y declaraciones ambientales engañosas.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0094(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0095(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija requisitos de diseño ecológico a los productos: beneficio ambiental general y exigencias para los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0098(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0099(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece la limitación de gases fluorados de efecto invernadero: beneficio climático general y coste para el sector que los usa.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0100(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Regula las sustancias que agotan la capa de ozono: beneficio ambiental general y obligaciones para la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0104(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece los límites de emisiones industriales y vertidos: beneficio ambiental general y exigencias para la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0105(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0111(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0115(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Crea una protección europea de indicaciones geográficas para productos artesanales e industriales; beneficia a sus productores.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0117(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0118(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Habilita medidas específicas de alivio para pesca y acuicultura ante las consecuencias de la guerra en Ucrania.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0119(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0126(BUD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Aporta 400 millones de euros del presupuesto europeo a los costes de acogida y registro de personas que huyen de Ucrania.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0131(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Simplifica el permiso único de residencia y trabajo y garantiza derechos comunes a trabajadores de terceros países.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0132A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0132B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0138(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0140(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Crea el Espacio Europeo de Datos Sanitarios: refuerza el acceso y control de los pacientes sobre sus datos de salud.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0142(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0143(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0147(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Refuerza los derechos de los consumidores en servicios financieros a distancia e impone obligaciones de información a las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0154(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0157(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0160(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los objetivos de energías renovables y eficiencia energética, con beneficio climático general.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0162(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0164(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0165(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0167(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0170(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0174(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0177(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0179(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2022/0188(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+  "partido": ""
+ }
 ]

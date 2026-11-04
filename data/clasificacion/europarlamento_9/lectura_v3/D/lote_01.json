@@ -1,0 +1,908 @@
+[
+ {
+  "id": "2020/2005(INL)",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Propone derechos y condiciones mínimas para quienes hacen prácticas; beneficia a jóvenes en prácticas.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2006(INL)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Propone frenar la deforestación asociada a productos comercializados en la Unión; mejora la protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2012(INL)",
+  "tipo": "soc",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Recomienda un marco de obligaciones para desarrolladores y usuarios de inteligencia artificial de alto riesgo; coste de cumplimiento para el sector tecnológico.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2014(INL)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Recomienda responsabilidad objetiva de los operadores de inteligencia artificial de alto riesgo y seguro obligatorio; coste para el sector tecnológico.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2018(INL)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Recomienda obligaciones de retirada de contenidos y transparencia para plataformas y servicios digitales; coste para el sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2019(INL)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Recomienda normas mercantiles y civiles más exigentes para plataformas en línea y su relación con usuarios; coste para el sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2026(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2034(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Recomienda regular y supervisar los criptoactivos; no consta un efecto con signo para un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2035(INL)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Propone medidas contra la ciberviolencia de género; beneficia a las mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2073(INL)",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1,
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Recomienda proteger los derechos de los organizadores de eventos deportivos y obligar a intermediarios en línea a retirar emisiones ilegales.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2092(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2094(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2129(INL)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Recomienda obligar a las grandes empresas a identificar y prevenir impactos sobre derechos humanos y medio ambiente en su cadena de valor.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2130(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Recomienda regular la financiación de litigios por terceros; efectos de signo mixto sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2220(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2255(INL)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Propone ampliar las vías de migración legal; beneficia a los inmigrantes.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2264(BUI)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2020/2265(BUI)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0008(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0018(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0019(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0020(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0029(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0031(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0037M(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede a la flota pesquera de la Unión posibilidades de pesca en aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0045(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Mantiene la itinerancia móvil en la Unión sin recargos para los usuarios; beneficia a los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0046(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0048(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0049(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0050(COD)",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Exige transparencia salarial para hacer efectiva la igualdad de retribución; beneficia a las trabajadoras.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0055(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza los controles de antimicrobianos en productos animales importados; mejora la salud pública y la seguridad alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0058(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0078(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0104(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las grandes empresas a publicar información de sostenibilidad; supone un coste de cumplimiento.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0105(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0106(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones a los proveedores de sistemas de inteligencia artificial; supone costes para el sector tecnológico.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0114(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0118(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0127(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede a la flota pesquera de la Unión posibilidades de pesca en aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0136(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0137(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0140(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0146(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0161(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0170(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad de los productos de consumo; beneficia a los consumidores y a la población.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0171(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de quien contrata créditos al consumo; impone obligaciones a las entidades de crédito.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0176(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0184(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0191(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0193(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0197(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece los límites de emisiones de CO2 de turismos y furgonetas; mejora el clima y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0200(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los objetivos vinculantes de reducción de emisiones de los Estados miembros; mejora la protección del clima.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0201(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Eleva los objetivos de absorción de carbono del uso del suelo y la silvicultura; mejora la protección del clima.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0202(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Retira más derechos de emisión del mercado de carbono; mejora la protección del clima y encarece el cumplimiento a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0203(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza los objetivos y obligaciones de eficiencia energética, también a las empresas energéticas; mejora el clima.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0204(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0205(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a usar combustibles de aviación sostenibles; mejora el medio ambiente y supone costes para el transporte aéreo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0206(COD)",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo para ayudar a hogares vulnerables y a usuarios del transporte frente al coste del carbono.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0207(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Amplía la contribución de la aviación a la reducción de emisiones; mejora el clima y encarece el transporte aéreo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0208(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0210(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a usar combustibles renovables en el transporte marítimo; mejora el medio ambiente y supone costes a navieras.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0211A(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Endurece el régimen de derechos de emisión, incluida la aviación y el transporte marítimo; mejora el clima y encarece el cumplimiento.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0211B(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Incorpora el transporte marítimo al régimen de derechos de emisión; mejora el clima y supone costes a navieras.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0214(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Crea un ajuste en frontera por carbono a importaciones de sectores intensivos en emisiones; refuerza la protección climática. Signo opuesto para la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0215(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0218(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Eleva los objetivos de energías renovables; mejora el medio ambiente y la protección del clima.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0219(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0223(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Obliga a desplegar puntos de recarga y repostaje de combustibles alternativos en la red de transporte; menos emisiones y más servicio a usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0239(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza las obligaciones contra el blanqueo de capitales de las entidades financieras; supone costes de cumplimiento.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0241(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a proveedores de pagos y de criptoactivos a acompañar las transferencias de datos del ordenante; supone costes.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0242(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0244(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0248(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0250(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0266(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0270(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0275(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0291(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Impone un cargador común (USB-C) a dispositivos electrónicos; evita compras de cargadores a usuarios y obliga a fabricantes a adaptarse.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0293(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0295(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0296(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Impone a las aseguradoras planes de recuperación y resolución; supone nuevas obligaciones para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0300(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede a la flota pesquera de la Unión posibilidades de pesca en aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0300M(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede a la flota pesquera de la Unión posibilidades de pesca en aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0312(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede a la flota pesquera de la Unión posibilidades de pesca en aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0316(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Financia con fondos europeos medidas de reinserción para trabajadores despedidos; el texto no fija si cobran prestación, por lo que no se marca ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0328(COD)",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Declara 2022 Año Europeo de la Juventud con actividades dirigidas a los jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0336(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0337(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0338(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0340(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Ajusta los límites de contaminantes orgánicos persistentes en residuos; mejora la salud pública y el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0341(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Refuerza las facultades de supervisión y los requisitos sobre riesgos para las entidades de crédito.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0342(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Endurece los requisitos de capital por riesgo de las entidades de crédito.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0343(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0356(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Financia con fondos europeos medidas de reinserción para trabajadores despedidos; el texto no fija si cobran prestación, por lo que no se marca ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0359(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0363(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0366(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Prohíbe comercializar productos asociados a la deforestación; mejora la protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0367(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Endurece las condiciones de los traslados de residuos, sobre todo a terceros países; mejora la protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0372(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2021/0373(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo; norma técnica, institucional, presupuestaria o de alcance exterior.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,838 @@
+[
+ {
+  "id": "2023/0062(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0063(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0064(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0068(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Financia servicios personalizados de reinserción para trabajadores despedidos por el cierre de Alu Ibérica en Galicia.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0076(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0077A(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de los consumidores de electricidad en contratos y suministro.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0077B(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de los consumidores de electricidad en contratos y suministro.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0079(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Marco europeo de suministro de materias primas fundamentales; combina exigencias y apoyos con signos opuestos y sin colectivo claramente determinado.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0080(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario o financiero de la Unión sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0081(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Apoya y agiliza la fabricación de tecnologías limpias en la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0083(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Crea un derecho a la reparación de bienes para los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0085(COD)",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Protege a los consumidores frente a alegaciones ambientales engañosas exigiendo su justificación.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0088(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0089(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0090(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0093(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0095(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prolonga el periodo transitorio de rescEU en protección civil; norma de cooperación entre administraciones sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0102(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0103(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario o financiero de la Unión sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0105(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0106(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario o financiero de la Unión sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0108(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0109(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0111(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0112(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0113(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0115(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0117(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede posibilidades de pesca en aguas de Madagascar a la flota pesquera de la Unión.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0124(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0126(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0127(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0128(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0129(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0130(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0131(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0132(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0133(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0136(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0137(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0138(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0143(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0144(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0147(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede posibilidades de pesca en aguas de Kiribati a la flota pesquera de la Unión.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0152(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario o financiero de la Unión sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0155(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0156(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0158(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Normas técnicas del IVA sobre ventas a distancia de bienes importados; sin colectivo con efecto de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0163(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0164(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0165(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0171(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0172(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0173(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0177(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0181(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0187(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0192(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0199(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0200(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0201(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario o financiero de la Unión sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0201R(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario o financiero de la Unión sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0202(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0206(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0207(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0209(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0210(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de los usuarios frente al fraude en pagos y obliga a los proveedores de pago.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0220(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0222(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0222R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0224(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0226(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0227(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0228(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0229(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0231(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0232(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Establece vigilancia y seguimiento de la salud del suelo, con beneficio ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0234(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija objetivos de reducción de residuos alimentarios y textiles y obliga a los productores.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0235(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0237(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0240(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario o financiero de la Unión sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0252(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0259(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0260(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0260R(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0264(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto general de la Unión para 2024; el texto no determina quién gana o pierde con un signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0265(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0266(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0271(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0272(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Restringe el mercurio en amalgamas dentales, reduciendo un riesgo ambiental y de salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0273(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0288(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0290(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "infancia": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece la seguridad de los juguetes, protegiendo a los menores y obligando a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0296(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0297(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario o financiero de la Unión sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0303(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de la Unión cuyo efecto sobre colectivos en España no puede determinarse con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0307(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0311(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Crea una tarjeta europea de discapacidad y de estacionamiento que reconoce derechos de acceso en otros Estados.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0314(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0315(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2023/0320(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Crea un régimen opcional de imposición en la sede que simplifica obligaciones fiscales de las pymes.",
+  "partido": ""
+ }
+]

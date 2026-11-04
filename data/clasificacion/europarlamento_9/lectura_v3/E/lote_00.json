@@ -1,0 +1,912 @@
+[
+ {
+  "id": "2010/0112(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo aéreo con terceros sin efecto de signo único sobre un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0060(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la contratación pública frente a terceros países; sin efecto directo identificable sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0425(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procedimental o de cooperación sin efecto directo identificable sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0220(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta un acuerdo de cooperación por la adhesión de Croacia; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0062A(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adhesión referida solo a instituciones y administración de la Unión; sin efecto directo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0062B(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Adhesión al convenio contra la violencia hacia las mujeres en cooperación judicial, asilo y no devolución; protege a víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0062R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adhesión referida solo a instituciones y administración de la Unión; sin efecto directo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0131(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Convierte la oficina de asilo en agencia; reorganización institucional.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0132(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Base de huellas dactilares de solicitantes de asilo y migrantes irregulares; el signo para el colectivo no es único.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0176(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Fija condiciones de entrada y residencia para extranjeros altamente cualificados con empleo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0222(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Normas de acogida de solicitantes de protección con efectos de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0223(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Requisitos y contenido de la protección internacional con efectos de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0224A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Procedimiento común de asilo con efectos de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0224B(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 2,
+  "nota": "Establece un procedimiento de retorno en frontera para solicitantes de protección rechazados.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0225(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Crea un marco común de reasentamiento que admite refugiados por vías legales.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0035(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Control de competencias de ejecución de la Comisión; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0360R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Procedimiento sobre el Estado de Derecho en otro Estado miembro; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0063A(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula administradores y compradores de créditos con obligaciones y facilidades de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0084(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención de visado de corta duración para ciudadanos de un tercer país; sin efecto sobre colectivos de la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0086(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención de visado para pasaportes diplomáticos y oficiales de un tercer país; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0107(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los prestadores de servicios digitales a designar representantes legales para atender requerimientos de pruebas electrónicas en procesos penales.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0108(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los prestadores de servicios a entregar y conservar pruebas electrónicas a requerimiento judicial.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0133(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajusta la recaudación de recursos propios del IVA entre Estados; sin efecto directo sobre contribuyentes.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0168(COD)",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la indemnización a víctimas de accidentes de circulación, incluidos casos de insolvencia del asegurador.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0193(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza las obligaciones de control, registro y seguimiento de las capturas de la flota pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0216(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Fija las normas de las ayudas de la PAC a agricultores y ganaderos mediante planes estratégicos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0217(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Regula la financiación de los fondos agrícolas de la PAC que reciben agricultores y ganaderos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0218(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la organización común de mercados agrarios, calidad y denominaciones de origen con medidas de signo mixto; no permite fijar un signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0356M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo comercial con Vietnam con efectos sectoriales de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0358M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo de protección de inversiones con Vietnam; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0429(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta un acuerdo de navegación por satélite por adhesiones a la Unión; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0902R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Procedimiento sobre valores de la Unión en otro Estado miembro; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0001B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Condiciones de acceso a sistemas de información para el sistema de autorización de viajes; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0017(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los operadores de buques a notificar su consumo de fueloil.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0101(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Homologación de emisiones de vehículos; el título no permite determinar el sentido del cambio.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0142M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reparto de un contingente arancelario de carne con efectos de signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0164(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protocolo de participación de la Autoridad Palestina en programas de la Unión; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0272(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Plan plurianual de ordenación del atún rojo; el título no permite fijar el signo para la pesca.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0900(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procedimental o de cooperación sin efecto directo identificable sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2022(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza con 100 millones de euros Horizonte 2020 y Erasmus+, programas de investigación y movilidad de estudiantes.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2028(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión con múltiples rúbricas de gasto de signo mixto; no se puede atribuir un efecto único a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2037(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reduce créditos del presupuesto de la Unión por menor ejecución; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2039(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajusta importes del instrumento de flexibilidad para migración y seguridad; sin efecto directo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2114(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Moviliza fondos para trabajadores despedidos en Bélgica; sin efecto en España.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2181(INL)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce a los trabajadores el derecho a desconectarse del trabajo fuera de su jornada.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2182(INL)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Pide medidas para identificar y retirar el amianto y reconocer las enfermedades profesionales asociadas; mejora la salud pública y beneficia a los enfermos.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2183(INL)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza derechos de información y consulta de trabajadores en multinacionales; impone obligaciones a grandes empresas.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2214(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Previsiones de gastos del Parlamento Europeo; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0002M(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo de pesca sostenible que da acceso a aguas de Seychelles a la flota pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0006(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo que financia la reconversión económica de los territorios más dependientes de combustibles fósiles e industria intensiva en carbono.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0011(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 1,
+  "nota": "Invita a ratificar el convenio de la OIT que protege a los trabajadores frente a violencia y acoso laboral.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0030(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Orientaciones de política de empleo para los Estados miembros; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0036(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija el objetivo vinculante de neutralidad climática, mejora de la protección del clima.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0053(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Equivalencia de inspecciones y semillas de cereales de Ucrania; sin efecto de signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0066(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Suaviza temporalmente requisitos de capital de los bancos ante la pandemia.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0082(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aplaza fechas de transposición de normas de IVA; sin cambio sustantivo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0097(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza el Mecanismo de Protección Civil de la Unión con más capacidad de respuesta ante catástrofes y emergencias sanitarias.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0102(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Programa de salud de la Unión para amenazas sanitarias y enfermedades; mejora la salud pública y la atención a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0104(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un mecanismo de financiación de reformas e inversiones de los Estados miembros con destinos diversos; no atribuye efectos directos a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0108(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Programa de garantías de la Unión que facilita financiación a la inversión, con una línea específica para pymes.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0112R(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procedimental o de cooperación sin efecto directo identificable sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0126(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la publicación electrónica del Diario Oficial; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0141(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Directrices técnicas del programa de investigación del carbón y el acero; sin efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0148(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las plataformas digitales a comunicar a las autoridades fiscales datos de los vendedores.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0152(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Reduce requisitos de información y gobernanza de productos para empresas de inversión.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0155(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Simplifica el folleto de emisión para intermediarios financieros.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0157M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo de comercio de madera legal con Honduras; sin efecto de signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0176(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aplicación de contingentes arancelarios; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0253(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Elimina derechos de aduana de productos no concretados en el título.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0262(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Amplía y endurece límites de exposición a sustancias cancerígenas y tóxicas para la reproducción; las empresas que las manipulan asumen nuevas exigencias.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0265(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Regula los mercados de criptoactivos y protege a los inversores y usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0266(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone exigencias de resiliencia digital a las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0267(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Régimen piloto que exime temporalmente a infraestructuras de mercado con registro descentralizado.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0268(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modificaciones de directivas financieras de ajuste; el título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0277(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de crisis en migración y asilo con efectos de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0278(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Control previo de nacionales de terceros países en frontera; el signo para el colectivo no es único.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0279(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Gestión del asilo y la migración con efectos de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0289(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía el acceso de organizaciones y ciudadanos a la revisión administrativa de actos de la Unión en materia ambiental; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0300(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Programa de acción ambiental hasta 2030, mejora de la protección del medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0302(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a documentar las capturas de atún rojo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0306(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ventanilla única aduanera; norma técnica sin efecto directo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0310(COD)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1
+  },
+  "peso": 2,
+  "nota": "Marco para que los salarios mínimos legales sean adecuados y se fomente la negociación colectiva; beneficia a los salarios en el nivel del mínimo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0320(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza el mandato del Centro Europeo para la Prevención y el Control de las Enfermedades en vigilancia y preparación ante amenazas sanitarias.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0321(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la Agencia Europea de Medicamentos para vigilar y prevenir la escasez de medicamentos y productos sanitarios en crisis.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0322(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Regula la respuesta a amenazas transfronterizas graves para la salud, mejora la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0329(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Versión codificada de las normas de formación marítima; sin cambio sustantivo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0331(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye competencias de ejecución a la Comisión en IVA; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0340(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Marco de gobernanza de datos con efectos de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0345(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sistema informático de comunicación judicial transfronteriza; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0349(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía las funciones de Europol; norma institucional sin efecto directo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0350(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite a Europol introducir descripciones en el sistema Schengen; norma de cooperación policial.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0353(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula sostenibilidad, reciclado y residuos de baterías; mejora ambiental y obligaciones para fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0359(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1,
+   "secTrans": -1,
+   "secFin": -1,
+   "secDig": -1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Impone medidas de ciberseguridad a operadores de energía, transporte, banca, sanidad e infraestructuras digitales.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0360(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Redefine las infraestructuras energéticas prioritarias, con apoyo a redes y nuevas tecnologías y fin de la financiación de proyectos de gas; signos opuestos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0361(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones a las plataformas y servicios digitales y refuerza las garantías de los usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0365(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1,
+   "secTrans": -1,
+   "secFin": -1,
+   "secDig": -1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones de resiliencia a entidades críticas de energía, transporte, banca, sanidad e infraestructuras digitales.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0371(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión con múltiples rúbricas de gasto de signo mixto; no se puede atribuir un efecto único a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0374(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Impone obligaciones a las grandes plataformas digitales y abre el mercado a otros operadores del mismo sector; signos opuestos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0380(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Crea una reserva de ayudas para sectores, empresas y pescadores afectados por la salida del Reino Unido.",
+  "partido": ""
+ },
+ {
+  "id": "2020/1998(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión con múltiples rúbricas de gasto de signo mixto; no se puede atribuir un efecto único a un colectivo.",
+  "partido": ""
+ }
+]

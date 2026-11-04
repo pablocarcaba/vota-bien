@@ -1,0 +1,898 @@
+[
+ {
+  "id": "2010/0112(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional de transporte aéreo; el título no permite determinar efectos concretos sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0060(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el acceso de terceros países a la contratación pública de la Unión; sin efecto directo determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0425(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0220(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional o técnico sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0062A(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adhesión de la Unión a un convenio, en lo relativo a sus instituciones y administración; sin efecto directo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0062B(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adhesión de la Unión a un convenio, en cooperación judicial, asilo y no devolución; efecto directo sobre colectivos no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0062R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adhesión de la Unión a un convenio, en lo relativo a sus instituciones y administración; sin efecto directo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0131(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza el mandato de una agencia europea; norma institucional sin efecto directo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0132(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición del sistema de huellas dactilares de solicitantes de asilo; el signo sobre colectivos no se puede determinar.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0176(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Fija condiciones de entrada y residencia para trabajadores extranjeros de alta cualificación; facilita su acceso.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0222(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Normas de acogida de solicitantes de protección internacional con medidas de signo mixto; efecto único no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0223(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Requisitos de reconocimiento de protección internacional con medidas de signo mixto; efecto único no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0224A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Procedimiento común de protección internacional con medidas de signo mixto; efecto único no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0224B(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Establece un procedimiento de retorno en frontera para solicitantes rechazados; endurece su situación.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0225(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Crea un marco de reasentamiento de refugiados en la Unión; amplía vías de acceso a protección.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0035(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0360R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0063A(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula administradores y compradores de créditos con medidas de signo mixto para el sector y los deudores.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0084(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional o técnico sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0086(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional o técnico sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0107(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los prestadores de servicios a designar establecimientos y representantes legales para atender requerimientos de pruebas electrónicas en procesos penales.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0108(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma procesal penal sobre órdenes de entrega de pruebas electrónicas; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0133(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la recaudación de recursos propios del IVA para el presupuesto de la Unión; sin efecto directo sobre contribuyentes.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0168(COD)",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la cobertura del seguro de automóviles y la protección de víctimas de accidentes; impone obligaciones a las aseguradoras.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0193(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza las obligaciones de control y seguimiento de la actividad pesquera; supone costes para el sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0216(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Regula los planes estratégicos de la política agrícola común, que canalizan ayudas al sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0217(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Regula la financiación y gestión de las ayudas de la política agrícola común al sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0218(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la organización común de mercados agrarios y los regímenes de calidad; con el texto disponible no consta quién gana o pierde con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0356M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo comercial con Vietnam; los efectos por sectores tienen signos mixtos y no se pueden determinar.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0358M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo de protección de inversiones con Vietnam; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0429(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional o técnico sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0902R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0001B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica sobre acceso a sistemas de información de la Unión para viajes; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0017(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Alinea el seguimiento del consumo de combustible de los buques con el sistema internacional; ajuste técnico sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0101(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Normas de homologación de emisiones de vehículos; el título no permite determinar el signo del efecto.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0142M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo sobre reparto de un contingente arancelario de carne de vacuno; efecto sobre el sector no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0164(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional o técnico sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0272(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Plan de gestión del atún rojo con medidas de signo mixto para el sector pesquero; efecto único no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0900(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2022(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza con fondos adicionales Horizonte 2020 y Erasmus+, programas de movilidad e investigación que financian a estudiantes.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2028(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión; el texto no permite atribuir efectos con signo a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2037(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario de la Unión; sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2039(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste de importes de un instrumento presupuestario de la Unión; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2114(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo para trabajadores despedidos en Bélgica; sin efecto sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2181(INL)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce a los trabajadores un derecho a la desconexión digital fuera de la jornada.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2182(INL)",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Recomienda reforzar la protección de los trabajadores frente a la exposición al amianto, con más garantías de seguridad y salud en el trabajo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2183(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Revisión de la directiva de comités de empresa europeos; el título no permite determinar el contenido ni el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2214(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0002M(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo de pesca sostenible con Seychelles; da acceso a aguas a flotas pesqueras de la Unión.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0006(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un fondo de la Unión para regiones en transición climática; el texto no permite determinar colectivos con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0011(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 1,
+  "nota": "Invita a ratificar el convenio de la OIT contra la violencia y el acoso en el trabajo; protege a los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0030(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Orientaciones de coordinación de políticas de empleo; sin efecto directo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0036(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija el marco de neutralidad climática de la Unión; mejora la protección del clima.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0053(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Equivalencia de inspecciones y semillas de cereales de Ucrania; ajuste técnico sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0066(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Ajusta requisitos de capital de entidades de crédito por la pandemia; alivia exigencias a la banca.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0082(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aplaza fechas de transposición de normas de IVA; ajuste técnico sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0097(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el Mecanismo de Protección Civil de la Unión, cuyo efecto sobre colectivos concretos no consta con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0102(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Crea el programa de salud de la Unión 2021-2027; financia acciones de salud pública y atención a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0104(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece el instrumento europeo de financiación de la recuperación entre Estados; el texto no permite atribuir efectos con signo a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0108(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea el programa de garantías de inversión InvestEU; el texto disponible no concreta a quién beneficia o perjudica.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0112R(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0126(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0141(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aprueba un programa de investigación del carbón y del acero; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0148(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las plataformas digitales a comunicar a las autoridades fiscales los ingresos de sus vendedores.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0152(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Reduce requisitos de información y de gobernanza de productos de las empresas de inversión.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0155(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Simplifica el folleto de emisión y alivia requisitos a intermediarios financieros.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0157M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo internacional o técnico sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0176(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Normas de gestión de contingentes arancelarios; ajuste técnico sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0253(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suspende derechos de aduana de ciertos productos; el título no permite determinar sectores afectados.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0262(COD)",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "proSan": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la protección frente a agentes carcinógenos y mutágenos en el trabajo y incluye los medicamentos peligrosos que manipula el personal sanitario.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0265(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula los mercados de criptoactivos; protege a los inversores e impone obligaciones a los emisores y proveedores.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0266(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone requisitos de resiliencia operativa digital a entidades del sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0267(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Crea un régimen piloto con exenciones para infraestructuras de mercado basadas en tecnología descentralizada.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0268(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modificaciones de varias directivas financieras; el título no permite determinar el contenido ni el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0277(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Normas excepcionales ante crisis migratorias; el signo sobre los colectivos no se puede determinar.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0278(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Introduce un control obligatorio de nacionales de terceros países en las fronteras exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0279(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reglamento de gestión del asilo con medidas de signo mixto; efecto único sobre colectivos no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0289(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la aplicación del Convenio de Aarhus a las instituciones de la Unión; norma de acceso a la justicia ambiental sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0300(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Fija el programa de acción ambiental de la Unión hasta 2030; mejora la protección del medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0302(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Establece un programa de documentación de capturas de atún rojo; añade obligaciones de trazabilidad a la pesca.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0306(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una ventanilla única aduanera de la Unión; ajuste técnico sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0310(COD)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1
+  },
+  "peso": 2,
+  "nota": "Fija criterios para unos salarios mínimos adecuados y promueve la negociación colectiva; beneficia a los salarios en el nivel del SMI.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0320(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza el Centro Europeo de Prevención y Control de Enfermedades para vigilar y responder a amenazas sanitarias, mejorando la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0321(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza el papel de la Agencia Europea de Medicamentos para vigilar la escasez de medicamentos y productos sanitarios en crisis, en beneficio de los pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0322(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la respuesta a amenazas transfronterizas graves para la salud; mejora la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0329(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Codificación de normas de formación marítima; sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0331(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye competencias de ejecución a la Comisión en materia de IVA; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0340(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la gobernanza y la reutilización de datos; el título no permite determinar el signo para el sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0345(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sistema informatizado de comunicación en procesos judiciales transfronterizos; norma procesal sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0349(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0350(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o de organización administrativa de la Unión, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0353(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula pilas, baterías y residuos con exigencias ambientales; mejora el medio ambiente y obliga a los productores.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0359(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1,
+   "secTrans": -1,
+   "secFin": -1,
+   "secSoc": -1,
+   "secDig": -1,
+   "empMed": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Impone medidas de ciberseguridad a entidades medianas y grandes de sectores esenciales; supone costes de cumplimiento.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0360(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Revisa las orientaciones sobre infraestructuras energéticas transeuropeas; efectos de signo opuesto o sin concretar sobre los colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0361(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones de diligencia y transparencia a plataformas y servicios digitales.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0365(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1,
+   "secTrans": -1,
+   "secFin": -1,
+   "secSoc": -1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones de resiliencia a entidades críticas de energía, transporte, banca, salud y digital.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0371(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión; el texto no permite atribuir efectos con signo a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0374(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula a los grandes operadores digitales con obligaciones y derechos de usuarios empresariales; signos opuestos dentro del sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "2020/0380(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una reserva de ayuda por el Brexit; el texto disponible no concreta los colectivos beneficiarios.",
+  "partido": ""
+ },
+ {
+  "id": "2020/1998(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión; el texto no permite atribuir efectos con signo a un colectivo concreto.",
+  "partido": ""
+ }
+]
