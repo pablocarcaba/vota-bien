@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>¿Quién legisla para ti?</title>
-<meta name="description" content="Elige tu perfil y descubre qué partidos presentaron y votaron leyes que te benefician o perjudican en las legislaturas del Congreso de los Diputados.">
+<meta name="description" content="El historial de cada partido, ordenado según lo que te importa. Marca tu perfil y descubre qué partidos votaron las leyes que te benefician o perjudican en el Congreso y el Parlamento Europeo.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
@@ -39,6 +39,18 @@ header.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items
 .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 h1{font-family:var(--display);font-weight:600;font-size:clamp(30px,5vw,44px);line-height:1.05;margin:6px 0 6px;text-wrap:balance}
 .lede{color:var(--muted);max-width:62ch;margin:0}
+/* Introducción: mensajes cortos para el votante medio */
+.intro{background:var(--sheet);border:1px solid var(--line);border-radius:10px;padding:22px 22px 18px;margin-bottom:16px}
+.intro .claim{font-family:var(--display);font-weight:600;font-size:clamp(22px,3.4vw,30px);line-height:1.15;margin:0 0 4px;text-wrap:balance}
+.intro .claim span{color:var(--accent)}
+.intro .sub{color:var(--muted);margin:0 0 18px;max-width:72ch}
+.intro ol{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.intro li{border-top:2px solid var(--accent);padding-top:10px}
+.intro li b{display:block;font-size:16px;margin-bottom:2px}
+.intro li small{font-size:13px;color:var(--muted);line-height:1.45;display:block}
+.intro .num{font-family:var(--mono);font-size:12px;color:var(--accent);letter-spacing:.06em}
+.intro .cta{display:inline-block;margin-top:16px;font-weight:600;text-decoration:none}
+@media (max-width:700px){.intro ol{grid-template-columns:minmax(0,1fr)}.intro{padding:18px 16px 14px}}
 .toplinks{display:flex;gap:16px;font-size:14px}
 .nav-btn{background:none;border:none;padding:0;cursor:pointer;color:var(--accent);text-decoration:underline;text-underline-offset:3px}
 .tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin:4px 0 12px}
@@ -148,7 +160,7 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
     <div>
       <div class="eyebrow" id="eyebrow">&nbsp;</div>
       <h1>¿Quién legisla para ti?</h1>
-      <p class="lede">Marca tu perfil y mira qué partidos presentaron leyes que te benefician o perjudican, y cómo votaron cada una.</p>
+      <p class="lede">Lo que te afecta, votado por cada partido. Datos oficiales, sin ideología.</p>
     </div>
     <nav class="toplinks">
       <button class="nav-btn" data-go="">Panel</button>
@@ -157,6 +169,16 @@ footer{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);font-si
   </header>
 
   <section id="view-panel">
+    <section class="intro" aria-label="Qué es esta web">
+      <p class="claim">El historial de cada partido, <span>ordenado según lo que te importa.</span></p>
+      <p class="sub">Hemos recopilado y clasificado lo que los partidos han legislado y votado en las últimas legislaturas, en el Congreso y en el Parlamento Europeo. Así puedes saber cuál ha estado más alineado con tus intereses. Porque en campaña todos dicen defenderte; aquí ves lo que hizo cada uno con las leyes que tocan tu bolsillo, tu trabajo y tu familia.</p>
+      <ol>
+        <li><span class="num">01</span><b>Dinos quién eres.</b><small>Edad, trabajo, vivienda, familia. Medio minuto, sin registrarte.</small></li>
+        <li><span class="num">02</span><b>Mira quién votó a tu favor.</b><small>Leyes reales del Congreso y del Parlamento Europeo, legislatura a legislatura.</small></li>
+        <li><span class="num">03</span><b>Decide tú.</b><small>No te decimos a quién votar. Te enseñamos lo que votaron.</small></li>
+      </ol>
+      <a class="cta" href="#filters" id="intro-cta">Empieza por tu perfil ↓</a>
+    </section>
     <div class="profile" id="profile"></div>
     <div class="grid">
       <aside class="panel" id="filters" aria-label="Tu perfil"></aside>
@@ -569,6 +591,7 @@ async function load(clave){
   $('foot-src').textContent = DATA.meta.fuente_txt; $('foot-leg').textContent = DATA.meta.leg;
   renderFuente(); route();
 }
+$('intro-cta').addEventListener('click',e=>{e.preventDefault();$('filters').scrollIntoView({behavior:'smooth',block:'start'});});
 document.querySelectorAll('header [data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
 window.addEventListener('hashchange',render);
 load(state.ds);
