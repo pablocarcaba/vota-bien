@@ -1,9 +1,12 @@
-<p align="center">
-  <a href="https://pablocarcaba.github.io/vota-bien/"><img src=".github/cabecera.svg" alt="¿A quién te conviene votar? Lo que votó cada partido en las leyes que te afectan" width="100%"></a>
-</p>
+<h1 align="center">¿A quién te conviene votar?</h1>
+
+<p align="center"><b>Lo que votó cada partido en las leyes que tocan tu sueldo, tu casa, tu negocio y tu familia.</b><br>
+Leyes y votos reales, de fuentes oficiales · Cálculo trazable ley a ley · Sin recoger ningún dato tuyo</p>
 
 <p align="center">
   <a href="https://pablocarcaba.github.io/vota-bien/"><b>Abrir la web →</b></a>
+  &nbsp;·&nbsp; <a href="#datos-reales-y-trazables">Trazabilidad</a>
+  &nbsp;·&nbsp; <a href="#privacidad">Privacidad</a>
   &nbsp;·&nbsp; <a href="#cómo-se-calcula">Cómo se calcula</a>
   &nbsp;·&nbsp; <a href="#reconstruir-los-datos">Reconstruir los datos</a>
   &nbsp;·&nbsp; <a href="#fuentes-y-licencia">Fuentes</a>
@@ -37,6 +40,38 @@ Tú madrugas, trabajas y pagas tus impuestos. **Ellos votan leyes.** Esta web te
 <p align="center"><img src=".github/captura-perfil.jpg" alt="El perfil: accesos rápidos por sueldo, casa, familia y negocio, y ayuda en cada categoría" width="88%"></p>
 
 > **Tu voto es tuyo.** Aquí nadie te dice a quién votar: te enseñamos lo que votaron.
+
+## Datos reales y trazables
+
+Cada número de la web se puede seguir hasta la ley y la votación de las que sale. Sin cajas negras.
+
+| Qué ves | De dónde sale | ¿Se puede comprobar? |
+|---|---|---|
+| **Leyes e iniciativas**: título, tipo, autor, fechas, resultado | Datos abiertos del [Congreso](https://www.congreso.es/es/opendata) y del [Parlamento Europeo](https://data.europarl.europa.eu) | Sí: cada ley enlaza a su ficha oficial |
+| **Votos**: qué votó cada partido y en qué votación | Votaciones nominales del Pleno (Congreso, actas del PE y [HowTheyVote.eu](https://howtheyvote.eu)) | Sí: votación, fecha y voto de cada partido, ley a ley |
+| **A quién afecta cada ley** y su alcance | Clasificación propia, hecha con ayuda de IA según una [rúbrica pública](data/clasificacion/RUBRICA.md) | Sí: está en [`data/clasificacion/`](data/clasificacion), y la web la muestra junto a cada ley |
+| **La nota de cada partido** | Se calcula en tu navegador con una fórmula pública | Sí: la ficha del partido desglosa cuánto suma o resta cada ley |
+
+**La cadena completa:** fuente oficial → `data/fuente/` (descarga tal cual) → `data/clasificacion/` (clasificación pública) → `site/data/<legislatura>.json` (lo que carga la web, descargable) → cálculo en tu navegador → desglose ley a ley en la ficha del partido.
+
+**Ejemplo de cómo se rastrea una nota.** Si un partido votó a favor del proyecto de ley de reducción de la jornada laboral ([121/000058](https://www.congreso.es/es/busqueda-de-iniciativas?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura=XV&_iniciativas_id=121/000058)) y tu perfil es un asalariado de 20.200–35.200 €:
+
+- **Alcance:** es una gran reforma, así que pesa ×9.
+- **Fuerza:** la votación clave fue una enmienda a la totalidad, que vale 0,5.
+- **Aportación:** suma +4,5 a favor de ese partido en tu nota.
+
+Esa misma línea aparece en la ficha del partido, junto a todas las demás, y la suma de todas da su nota.
+
+> **Lo que es oficial y lo que no.** Las leyes, las fechas y los votos son datos oficiales, sin tocar. Decidir a quién beneficia o perjudica una ley es una interpretación: por eso es pública, sigue una rúbrica fija igual para todos los partidos y se enseña al lado de cada ley para que la juzgues tú. Si ves una mal clasificada, abre un *issue*.
+
+## Privacidad
+
+**Es un simulador: no recoge ni guarda ningún dato tuyo.**
+
+- Lo que marcas se calcula en tu navegador. No se envía a ningún servidor, no hay registro, ni cookies, ni analítica.
+- La web es HTML estático en GitHub Pages; solo descarga los datos públicos de cada legislatura y las tipografías de Google Fonts.
+- En tu propio navegador solo se recuerdan dos preferencias de pantalla: ocultar partidos con pocos datos y pausar la animación.
+- Compartir tu perfil es opcional: el enlace lleva los rasgos marcados en la propia URL (`?p=…`) y solo lo tiene quien tú se lo pases.
 
 ## Qué datos incluye
 

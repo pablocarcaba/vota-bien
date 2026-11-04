@@ -355,6 +355,37 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .prose h3{font-family:var(--display);font-size:19px;font-weight:700;margin:28px 0 6px}
 .prose p,.prose li{color:var(--ink)}
 .prose .small{font-size:13px;color:var(--muted)}
+/* trazabilidad: desglose de la nota del partido, origen de cada dato y aportación de cada ley */
+.calc{margin:16px 0 0;max-width:780px;padding:18px clamp(14px,2.4vw,22px);border:1px solid var(--line);border-radius:20px;background:var(--sheet);box-shadow:var(--shadow)}
+.calc h3{display:flex;align-items:center;gap:8px;font-family:var(--display);font-size:18px;font-weight:800;letter-spacing:-.015em;margin:0 0 12px}
+.calc h3 .ico{color:var(--accent)}
+.calc-n{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:0}
+.calc-n div{padding:10px 12px;border-radius:14px;background:var(--soft);min-width:0}
+.calc-n dt{font-size:12.5px;font-weight:700;color:var(--muted)}
+.calc-n dd{margin:2px 0 0;font-family:var(--display);font-weight:800;font-size:clamp(20px,2.4vw,26px);letter-spacing:-.02em;line-height:1.15;font-variant-numeric:tabular-nums}
+.calc-n small{display:block;font-family:var(--body);font-weight:500;font-size:12.5px;letter-spacing:0;color:var(--muted)}
+.calc-n .k-pos dd{color:var(--pos-ink)}.calc-n .k-neg dd{color:var(--neg-ink)}.calc-n .k-mix dd{color:var(--mix-ink)}
+@media (max-width:620px){.calc-n{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.calc-f{margin:10px 0 0;padding:12px 14px;border-radius:14px;background:var(--night);color:#fff;font-family:var(--mono);font-size:clamp(14px,1.7vw,17px);font-variant-numeric:tabular-nums;overflow-wrap:anywhere;border:1px solid rgba(241,191,0,.28)}
+.calc-f span{display:block;font-family:var(--body);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.78);margin-bottom:2px}
+.calc-f b{color:var(--oro);font-weight:500}
+.calc-note{margin:10px 0 0;font-size:13.5px;color:var(--muted)}
+.dlinks{display:flex;flex-wrap:wrap;gap:4px 20px;margin:10px 0 0}
+.dlinks a{display:inline-flex;align-items:center;gap:7px;min-height:32px;font-size:14px;font-weight:600;text-underline-offset:3px}
+.dlinks .ico{width:16px;height:16px}
+.orig{display:inline-flex;align-items:center;gap:5px;font-family:var(--body);font-size:11.5px;font-weight:700;letter-spacing:.02em;line-height:1.5;padding:1px 9px 1px 7px;border-radius:999px;white-space:nowrap;vertical-align:1px}
+.orig .ico{width:13px;height:13px}
+.orig.of{background:var(--accent-soft);color:var(--accent)}
+.orig.cp{border:1px dashed color-mix(in srgb,var(--muted) 70%,transparent);color:var(--muted);padding:0 8px 0 6px}
+.orig.ca{background:var(--night);color:var(--oro)}
+.item .why .orig{margin-right:6px}
+.traza{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin:10px 0 0;padding:8px 12px;border-radius:12px;background:var(--soft);font-size:13.5px;line-height:1.45;color:var(--ink);font-variant-numeric:tabular-nums}
+.traza .ap{font-weight:800}
+.traza .ap.pos{color:var(--pos-ink)}.traza .ap.neg{color:var(--neg-ink)}.traza .ap.mix{color:var(--mix-ink)}
+.chain li{position:relative}
+.chain li:not(:last-child)::after{content:"";position:absolute;left:33px;bottom:-12px;width:2px;height:12px;background:var(--oro)}
+.chain .n .ico{width:19px;height:19px}
+.chain a{font-weight:600;text-underline-offset:3px}
 footer{position:relative;margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:flex;gap:14px;align-items:flex-start}
 footer b{color:var(--ink)}
 footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linear-gradient(var(--rojo) 25%,var(--oro) 25% 75%,var(--rojo) 75%);margin-top:2px}
@@ -378,6 +409,8 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
   <symbol id="i-wallet" viewBox="0 0 24 24"><path d="M19 7V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-3"/><path d="M21 9h-5a3 3 0 0 0 0 6h5z"/></symbol>
   <symbol id="i-people" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20v-1a6.5 6.5 0 0 1 13 0v1"/><circle cx="17.5" cy="9" r="2.5"/><path d="M17 14.5a5 5 0 0 1 4.5 5v.5"/></symbol>
   <symbol id="i-sliders" viewBox="0 0 24 24"><path d="M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0"/><circle cx="16" cy="6" r="2"/><circle cx="10" cy="12" r="2"/><circle cx="18" cy="18" r="2"/></symbol>
+  <symbol id="i-download" viewBox="0 0 24 24"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5"/><path d="M4 17v2a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-2"/></symbol>
+  <symbol id="i-code" viewBox="0 0 24 24"><path d="m8 7-5 5 5 5M16 7l5 5-5 5M13.5 4l-3 16"/></symbol>
   <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12"/><circle cx="4" cy="6" r="1.3"/><circle cx="4" cy="12" r="1.3"/><circle cx="4" cy="18" r="1.3"/></symbol>
 </svg>
 
@@ -414,7 +447,8 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
         <li><span class="tile" aria-hidden="true"><svg class="ico"><use href="#i-search"/></svg></span><b>Compruébalo tú mismo</b><small>Cada voto enlaza al registro oficial. Sin intermediarios ni tertulianos.</small></li>
       </ol>
       <ul class="trust" role="list">
-        <li><svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg>Votos: datos oficiales del Congreso y del Parlamento Europeo</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg>Leyes y votos reales, de fuentes oficiales: Congreso y Parlamento Europeo</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg>Cada nota es trazable: ves cuánto suma o resta cada ley</li>
         <li><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Qué leyes te afectan: lo hemos clasificado nosotros, con ayuda de IA, y puedes revisarlo ley a ley</li>
         <li><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>Lo que marcas no sale de tu móvil ni de tu ordenador</li>
       </ul>
@@ -450,7 +484,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
 
   <footer>
     <span class="mini" aria-hidden="true"></span>
-    <span><b>Hecho con datos públicos, para que decidas tú. No te pedimos el voto para nadie.</b> Fuente: <span id="foot-src">Congreso de los Diputados</span>, datos abiertos (iniciativas y votaciones de la <span id="foot-leg"></span> legislatura), consultados el <span id="gen"></span>. La clasificación de impactos es interpretativa; consulta <a href="#metodologia">cómo se calcula</a>.</span>
+    <span><b>Hecho con datos públicos, para que decidas tú. No te pedimos el voto para nadie.</b> Fuente: <span id="foot-src">Congreso de los Diputados</span>, datos abiertos (iniciativas y votaciones de la <span id="foot-leg"></span> legislatura), consultados el <span id="gen"></span>. La clasificación de impactos es interpretativa; consulta <a href="#metodologia">cómo se calcula</a>. El código y la clasificación son públicos en <a href="https://github.com/pablocarcaba/vota-bien" target="_blank" rel="noopener">GitHub<span class="sr-only"> (se abre en una pestaña nueva)</span></a>.</span>
   </footer>
 </div>
 
@@ -592,11 +626,13 @@ function evidence(it, p){
 function computeRank(){
   const U = universe();
   return PARTIES.map(p=>{
-    const r = {k:p, pos:0, neg:0, mix:0, pres:0, W:0, S:0, big:{pos:0,neg:0}, rel2:{pos:0,neg:0}};
+    const r = {k:p, pos:0, neg:0, mix:0, pres:0, W:0, S:0, Sp:0, Sn:0, Wm:0, big:{pos:0,neg:0}, rel2:{pos:0,neg:0}};
     U.forEach(it=>{
       const e = evidence(it,p); if(!e) return;
       const w = wOf(it)*e.f;
       r[e.c]++; r.W+=w; if(e.c==='pos') r.S+=w; else if(e.c==='neg') r.S-=w;
+      // solo para el desglose de la ficha: a favor, en contra y mixtas por separado
+      if(e.c==='pos') r.Sp+=w; else if(e.c==='neg') r.Sn+=w; else r.Wm+=w;
       if(e.c==='pos'||e.c==='neg'){ if(it.w===3) r.big[e.c]++; else if(it.w===2) r.rel2[e.c]++; }
       if(e.via==='pres') r.pres++;
     });
@@ -750,6 +786,30 @@ function renderPanel(){
 // ---------- list view ----------
 function openList(who, color){ state.list={who,color}; go('lista'); }
 const EV_TXT = {pos:'A tu favor', neg:'En tu contra', mix:'Mixta'};
+// trazabilidad: cifras con coma decimal, fuente oficial del dataset y enlaces a los datos y al código
+const nf = n => (Math.round(n*100)/100).toLocaleString('es-ES',{maximumFractionDigits:2});
+const srcName = () => DATA.meta.formato==='europarlamento' ? 'Parlamento Europeo' : 'Congreso';
+const REPO = 'https://github.com/pablocarcaba/vota-bien';
+const NUEVA = '<span class="sr-only"> (se abre en una pestaña nueva)</span>';
+const jsonLink = () => `<a href="data/${esc(state.ds)}.json" download="${esc(state.ds)}.json"><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Descargar los datos de esta legislatura (JSON)</a>`;
+const repoLink = (txt, path='') => `<a href="${REPO}${path}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-code"/></svg>${txt}${NUEVA}</a>`;
+const VK_FRASE = {'Votación final':'la votación final', 'Convalidación':'la convalidación', 'Toma en consideración':'la toma en consideración'};
+// «Cómo sale esta nota»: las mismas sumas que computeRank(), a la vista
+function calcBox(x){
+  const box = el('section',{class:'calc',id:'calc','aria-labelledby':'calc-h'});
+  const exacto = Math.abs(x.S/x.W*100 - x.s) < 1e-9;
+  const pl = (n, s, p) => n+' '+(n===1?s:p);
+  box.innerHTML = `<h3 id="calc-h"><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg>Cómo sale esta nota</h3>
+    <dl class="calc-n">
+      <div class="k-pos"><dt>A favor</dt><dd>${x.Sp?'+':''}${nf(x.Sp)}</dd><small>${pl(x.pos,'ley','leyes')}</small></div>
+      <div class="k-neg"><dt>En contra</dt><dd>${x.Sn?'−':''}${nf(x.Sn)}</dd><small>${pl(x.neg,'ley','leyes')}</small></div>
+      <div class="k-mix"><dt>Mixtas</dt><dd>${nf(x.Wm)}</dd><small>${pl(x.mix,'ley','leyes')}, ni suman ni restan</small></div>
+      <div><dt>Total</dt><dd>${nf(x.W)}</dd><small>${pl(x.rel,'ley cuenta','leyes cuentan')}</small></div>
+    </dl>
+    <p class="calc-f"><span>(a favor − en contra) ÷ total × 100</span>(${nf(x.Sp)} − ${nf(x.Sn)}) ÷ ${nf(x.W)} × 100 ${exacto?'=':'≈'} <b>${x.s>0?'+':''}${x.s}</b></p>
+    <p class="calc-note">Cada ley aporta su alcance (×1 menor, ×3 relevante, ×9 gran reforma) multiplicado por la fuerza de la prueba (1 votación final o convalidación, 0,5 toma en consideración o totalidad, 0,25 solo presentada). Las mixtas suman al total, pero no suman ni restan. Abajo, con «Todos los efectos», tienes la aportación de cada ley: suman exactamente estas cifras.${exacto?'':' La nota se redondea al entero más próximo.'}</p>`;
+  return box;
+}
 // cabecera de la ficha de un partido: presentadas, votaciones y balance para tu perfil (pestaña activa)
 function resumenPartido(p){
   const U = universe(), tab = state.tab==='eco'?'económicas':'sociales';
@@ -799,8 +859,12 @@ function renderList(){
       const bar = x.s>=0 ? `<span class="p" style="width:${w}%"></span>` : `<span class="n" style="width:${w}%"></span>`;
       head.appendChild(el('div',{class:'lscore'}, `<span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="ls-t">${x.puesto}.º${x.empate?' (empatado)':''} de ${rows.length} <span>· ${tab} · ${esc(vt)}</span></span><span class="dv" aria-hidden="true">${bar}</span>`));
     } else head.appendChild(el('p',{class:'lsub'}, ranked().all.some(r=>r.k===L.who) ? `Oculto en tu ranking de ${tab.toLowerCase()}: tiene menos de 3 leyes que te afecten.` : `Sin nota en ${tab.toLowerCase()}: ninguna ley de esta pestaña que te afecte cuenta en su saldo.`));
+    // el desglose sale aunque el partido esté oculto por «pocos datos»
+    const xc = x || ranked().all.find(r=>r.k===L.who);
+    if(xc) head.appendChild(calcBox(xc));
   }
-  head.appendChild(el('p',{class:'lsub'}, L.who ? 'Así votó, ley a ley, en lo que te afecta. Verde es a tu favor, rojo en tu contra. Cada ley enlaza a su registro oficial para que lo compruebes.' : 'Todas las leyes y propuestas de la legislatura. Marca tu perfil para ver cuáles te afectan.'));
+  head.appendChild(el('p',{class:'lsub'}, L.who ? `Así votó, ley a ley, en lo que te afecta. Verde es a tu favor, rojo en tu contra. En cada ley ves qué es dato oficial del ${srcName()}, qué es clasificación propia y cuánto suma o resta. Cada una enlaza a su registro oficial para que lo compruebes.` : `Todas las leyes y propuestas de la legislatura. En cada una ves qué es dato oficial del ${srcName()} y qué es clasificación propia. Marca tu perfil para ver cuáles te afectan.`));
+  head.appendChild(el('p',{class:'dlinks'}, jsonLink()+repoLink('Revisar la clasificación en GitHub','/tree/main/data/clasificacion')));
   v.appendChild(head);
   if(L.who) v.appendChild(resumenPartido(L.who));
   const fl=el('div',{class:'lfilters'});
@@ -839,11 +903,8 @@ function itemRow(it, color, who, ev){
   const mid=el('div',{style:'min-width:0'});
   mid.appendChild(el('p',{class:'tt'}, esc(it.t)));
   const autor = it.a[0]==='Otros' ? it.ao : it.a.map(pn).join(', ');
-  mid.appendChild(el('div',{class:'meta'}, `<span>${esc(it.k)}</span><span>${esc(autor)}</span><span>${esc(it.f)}</span>${it.r?`<span>${esc(it.r)}</span>`:''}<a href="${congresoUrl(it.id)}" target="_blank" rel="noopener">${esc(it.id)}</a>`));
-  const affected = [...RASGOS].filter(k=>it.imp[k]);
-  const why = (affected.length? affected.map(k=>`${LABEL[k]}: ${it.imp[k]>0?'beneficia':'perjudica'}`).join(' · ')+'. ' : '') + (it.n||'');
-  mid.appendChild(el('p',{class:'why'}, esc(why)));
-  mid.appendChild(el('a',{class:'olink',href:congresoUrl(it.id),target:'_blank',rel:'noopener'}, `Ver en el ${DATA.meta.formato==='europarlamento'?'Parlamento Europeo':'Congreso'}<span class="sr-only"> (se abre en una pestaña nueva)</span>&nbsp;<span aria-hidden="true">↗</span>`));
+  mid.appendChild(el('div',{class:'meta'}, `<span class="orig of"><svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg>Oficial · ${srcName()}</span><span>${esc(it.k)}</span><span>${esc(autor)}</span><span>${esc(it.f)}</span>${it.r?`<span>${esc(it.r)}</span>`:''}<a href="${congresoUrl(it.id)}" target="_blank" rel="noopener">${esc(it.id)}</a>`));
+  // dato oficial: votación y voto de cada partido
   if(it.v){
     const vs=el('div',{class:'votes',title:it.vk+' · '+it.vd});
     const vkTxt = it.vk==='Enmienda a la totalidad' ? 'Postura ante la ley (deducida de la enmienda a la totalidad: votar sí a la enmienda es estar en contra de la ley)' : it.vk;
@@ -851,6 +912,21 @@ function itemRow(it, color, who, ev){
     PARTIES.forEach(p=>{ if(it.v[p]) vs.appendChild(el('span',{class:'vv '+it.v[p]}, `${esc(pn(p))} ${VOTE_TXT[it.v[p]]}`)); });
     mid.appendChild(vs);
   }
+  // clasificación propia: a quién afecta y alcance
+  const affected = [...RASGOS].filter(k=>it.imp[k]);
+  const why = (affected.length? affected.map(k=>`${LABEL[k]}: ${it.imp[k]>0?'beneficia':'perjudica'}`).join(' · ')+'. ' : '') + (it.n||'');
+  const alcance = (PESO_TXT[it.w]||'Ley menor')+' (×'+wOf(it)+')';
+  mid.appendChild(el('p',{class:'why'}, `<span class="orig cp"><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Clasificación propia</span>${esc(why)}${why&&!/[.\s]$/.test(why)?'.':''} Alcance: ${esc(alcance.toLowerCase())}.`));
+  // ficha de un partido: aportación exacta de esta ley a su nota (evidence() × wOf())
+  if(who && ev){
+    const ap = wOf(it)*ev.f, v = it.v && it.v[who];
+    const prueba = ev.via==='pres' ? `Presentó la iniciativa${it.f?' el '+esc(it.f):''}, sin voto suyo en el Pleno`
+      : it.vk==='Enmienda a la totalidad' ? `Su postura ante la ley: <b>${VOTE_TXT[v]}</b>, deducida de la enmienda a la totalidad${it.vd?' del '+esc(it.vd):''}`
+      : `Votó <b>${VOTE_TXT[v]}</b> en ${esc(VK_FRASE[it.vk]||it.vk)}${it.vd?' del '+esc(it.vd):''}`;
+    const res = ev.c==='pos' ? `Suma +${nf(ap)}` : ev.c==='neg' ? `Resta ${nf(ap)}` : `Mixta: cuenta ${nf(ap)} en el total, no suma ni resta`;
+    mid.appendChild(el('p',{class:'traza','data-c':ev.c,'data-ap':String(ap)}, `<span class="orig ca">Cálculo</span><span>${prueba} · ${esc(alcance)} · Fuerza ${nf(ev.f)} · <b class="ap ${ev.c}">${res}</b></span>`));
+  }
+  mid.appendChild(el('a',{class:'olink',href:congresoUrl(it.id),target:'_blank',rel:'noopener'}, `Ver en el ${DATA.meta.formato==='europarlamento'?'Parlamento Europeo':'Congreso'}<span class="sr-only"> (se abre en una pestaña nueva)</span>&nbsp;<span aria-hidden="true">↗</span>`));
   r.appendChild(mid);
   const side=el('div',{class:'side'});
   side.appendChild(el('span',{class:'tag t-'+impactOf(it)}, esc(COLOR_TXT[impactOf(it)])));
@@ -873,6 +949,17 @@ function renderMethod(){
       <li><span class="n" aria-hidden="true">1</span><b>Miramos a quién afecta cada ley</b><span class="d">Clasificamos cada ley y propuesta por los colectivos a los que beneficia o perjudica. Lo hemos hecho nosotros, con ayuda de IA, así que puede haber errores.</span></li>
       <li><span class="n" aria-hidden="true">2</span><b>Miramos cómo votó cada partido</b><span class="d">Cuenta sobre todo el voto en el Pleno. Lo que un partido solo presentó, sin llegar a votarlo, pesa poco.</span></li>
       <li><span class="n" aria-hidden="true">3</span><b>Sumamos lo bueno y restamos lo malo</b><span class="d">Lo que va a tu favor suma y lo que va en tu contra resta. Las grandes reformas pesan más que las leyes menores. La nota va de −100 a +100.</span></li>
+    </ol>
+    <h3>Trazabilidad: de dónde sale cada dato</h3>
+    <p>Las leyes y los votos son datos oficiales; a quién afecta cada ley es una clasificación nuestra. Puedes seguir cualquier nota hasta su origen:</p>
+    <ol class="tldr chain" role="list">
+      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-landmark"/></svg></span><b>Fuente oficial</b><span class="d">${DATA.meta.formato==='europarlamento'
+        ? `Títulos y fechas, de los <a href="https://data.europarl.europa.eu" target="_blank" rel="noopener">datos abiertos del Parlamento Europeo${NUEVA}</a>. Votos, de las votaciones nominales del Pleno: actas oficiales del Parlamento, recopiladas por <a href="https://howtheyvote.eu" target="_blank" rel="noopener">HowTheyVote.eu${NUEVA}</a> en las legislaturas 9.ª y 10.ª.`
+        : `Leyes, autores, fechas y votaciones del Pleno, de los <a href="https://www.congreso.es/es/opendata" target="_blank" rel="noopener">datos abiertos del Congreso de los Diputados${NUEVA}</a>.`}</span></li>
+      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-download"/></svg></span><b>Datos descargados</b><span class="d">Un fichero por legislatura, el mismo que carga esta página, con el voto de cada partido ya agregado (el voto mayoritario de sus diputados presentes). <span class="dlinks">${jsonLink()}</span></span></li>
+      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-scale"/></svg></span><b>Clasificación pública en GitHub</b><span class="d">A quién afecta cada ley y su alcance lo clasificamos nosotros, con ayuda de IA y una rúbrica pública. Puede tener errores: está a la vista para que la revises ley a ley. <a href="${REPO}/tree/main/data/clasificacion" target="_blank" rel="noopener">Ver la clasificación${NUEVA}</a> · <a href="${REPO}/blob/main/data/clasificacion/RUBRICA.md" target="_blank" rel="noopener">Ver la rúbrica${NUEVA}</a></span></li>
+      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-code"/></svg></span><b>Cálculo en tu navegador</b><span class="d">La nota se calcula en tu dispositivo, con el código de esta misma página: sin servidor y sin enviar nada. El código es abierto. <span class="dlinks">${repoLink('Ver el código en GitHub')}</span></span></li>
+      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span><b>Desglose ley a ley</b><span class="d">En la ficha de cada partido ves la fórmula de su nota y cuánto suma o resta cada ley, con su votación, su alcance y la fuerza de la prueba. Las aportaciones cuadran con la nota.</span></li>
     </ol>
     <h3>Con más detalle</h3>
     <p>Esta herramienta cruza tres cosas: las iniciativas legislativas de la legislatura elegida (ahora, ${esc(DATA.meta.fuente_txt)}, ${esc(DATA.meta.titulo)}), una clasificación de a quién afecta cada una y el voto de cada partido en el Pleno. Cada fuente y legislatura se analiza por separado, porque los partidos y grupos cambian entre ellas.</p>
@@ -910,6 +997,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
       <li>El alcance de cada iniciativa es una estimación en tres niveles; dentro de cada nivel todas pesan igual.</li>
     </ul>
     <p class="small">Datos: ${esc(DATA.meta.fuente_txt)}, datos abiertos (iniciativas y votaciones). Generado el ${esc(DATA.meta.generado)}.</p>
+    <p class="dlinks">${jsonLink()}${repoLink('Código y clasificación en GitHub')}</p>
   </div>`;
   v.querySelectorAll('[data-go]').forEach(b=>b.addEventListener('click',()=>go(b.dataset.go)));
 }
@@ -989,7 +1077,7 @@ async function load(clave){
   $('foot-src').textContent = DATA.meta.fuente_txt; $('foot-leg').textContent = DATA.meta.leg;
   const nv = ITEMS.filter(i=>i.v).length;
   const sv = id => `<svg class="ico" aria-hidden="true"><use href="#${id}"/></svg>`;
-  $('hero-stats').innerHTML = `<span class="stat">${sv('i-file')}<b>${ITEMS.length.toLocaleString('es-ES')}</b> leyes y propuestas</span><span class="stat">${sv('i-vote')}<b>${nv.toLocaleString('es-ES')}</b> votadas en el Pleno</span><span class="stat src">${sv('i-cal')}Datos del ${esc(DATA.meta.generado.split('-').reverse().join('/'))}</span>`;
+  $('hero-stats').innerHTML = `<span class="stat">${sv('i-file')}<b>${ITEMS.length.toLocaleString('es-ES')}</b> leyes y propuestas</span><span class="stat">${sv('i-vote')}<b>${nv.toLocaleString('es-ES')}</b> votadas en el Pleno</span><span class="stat src">${sv('i-cal')}Actualizado el ${esc(DATA.meta.generado.split('-').reverse().join('/'))}</span>`;
   state.anim=true; renderFuente(); route();
   if(fk){ const t=document.querySelector('[data-k="'+fk+'"]'); if(t) t.focus({preventScroll:true}); }
 }
