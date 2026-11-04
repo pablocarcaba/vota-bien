@@ -1,0 +1,56 @@
+{
+  "generado": "2026-01-01T00:00:00.000Z",
+  "fuente": "fixture",
+  "legislatura": "FX",
+  "proyectos": [
+    {"TIPO": "Proyecto de ley", "OBJETO": "Proyecto de Ley   de\n prueba uno.", "NUMEXPEDIENTE": "121/000001/0000",
+     "FECHAPRESENTACION": "01/01/2024", "AUTOR": "Gobierno", "RESULTADOTRAMITACION": "Aprobado \n10/09/2024", "SITUACIONACTUAL": "Cerrado"}
+  ],
+  "proposiciones": [
+    {"TIPO": "Proposición de ley del Grupo Parlamentario Popular", "OBJETO": "Proposición de ley de prueba dos.",
+     "NUMEXPEDIENTE": "122/000002/0000", "FECHAPRESENTACION": "02/01/2024",
+     "AUTOR": "Grupo Parlamentario Popular en el Congreso", "RESULTADOTRAMITACION": "", "SITUACIONACTUAL": "En tramitación"},
+    {"TIPO": "Proposición de ley del Grupo Parlamentario Socialista", "OBJETO": "Proposición de ley de prueba cuatro.",
+     "NUMEXPEDIENTE": "122/000004/0000", "FECHAPRESENTACION": "03/01/2024",
+     "AUTOR": "Grupo Parlamentario Socialista", "RESULTADOTRAMITACION": "", "SITUACIONACTUAL": "Rechazada"},
+    {"TIPO": "Proposición de ley del Grupo Parlamentario Popular", "OBJETO": "Proposición de ley sin clasificar cinco.",
+     "NUMEXPEDIENTE": "122/000005/0000", "FECHAPRESENTACION": "04/01/2024",
+     "AUTOR": "Grupo Parlamentario Popular en el Congreso", "RESULTADOTRAMITACION": "", "SITUACIONACTUAL": "En tramitación"}
+  ],
+  "rdl": [
+    {"TIPO": "Real Decreto-ley", "OBJETO": "Real Decreto-ley de prueba tres.", "NUMEXPEDIENTE": "130/000003/0000",
+     "FECHAPRESENTACION": "05/01/2024", "AUTOR": "Gobierno", "RESULTADOTRAMITACION": "", "SITUACIONACTUAL": ""}
+  ],
+  "votaciones": [
+    {"exp": "121/000001", "d": "10/01/2024", "tit": "Dictámenes de Comisiones sobre Proyectos de Ley.",
+     "txt": "Votación de conjunto.", "tot": {"afavor": 200, "enContra": 100, "abstenciones": 0},
+     "g": {"GS": {"s": 120, "n": 0, "a": 0}, "GP": {"s": 0, "n": 130, "a": 0}}, "mx": {}},
+    {"exp": "121/000001", "d": "05/01/2024", "tit": "Toma en consideración de Proyectos de Ley.",
+     "txt": "Toma en consideración.", "tot": {"afavor": 1, "enContra": 1, "abstenciones": 0},
+     "g": {"GS": {"s": 120, "n": 0, "a": 0}, "GP": {"s": 130, "n": 0, "a": 0}}, "mx": {}},
+    {"exp": "121/000001", "d": "02/01/2024", "tit": "Debates de totalidad de iniciativas legislativas.",
+     "txt": "Enmienda a la totalidad.", "tot": {"afavor": 1, "enContra": 1, "abstenciones": 0},
+     "g": {"GS": {"s": 0, "n": 120, "a": 0}, "GP": {"s": 130, "n": 0, "a": 0}}, "mx": {}},
+    {"exp": "122/000002", "d": "03/01/2024", "tit": "Debates de totalidad de iniciativas legislativas.",
+     "txt": "Enmienda a la totalidad.", "tot": {"afavor": 1, "enContra": 1, "abstenciones": 0},
+     "g": {"GS": {"s": 0, "n": 120, "a": 0}, "GP": {"s": 130, "n": 0, "a": 0}}, "mx": {}},
+    {"exp": "122/000002", "d": "04/01/2024", "tit": "Toma en consideración de Proposiciones de Ley.",
+     "txt": "Toma en consideración.", "tot": {"afavor": 130, "enContra": 120, "abstenciones": 0},
+     "g": {"GS": {"s": 0, "n": 120, "a": 0}, "GP": {"s": 130, "n": 0, "a": 0}},
+     "mx": {"Belarra Urteaga, Ione": "Sí", "Otra Persona, Ana": "Sí", "Tercera, Eva": "No"}},
+    {"exp": "122/000004", "d": "06/01/2024", "tit": "Debates de totalidad de iniciativas legislativas.",
+     "txt": "Enmienda a la totalidad.", "tot": {"afavor": 1, "enContra": 1, "abstenciones": 0},
+     "g": {"GS": "Sí", "GP": {"s": 0, "n": 0, "a": 130}}, "mx": {}},
+    {"exp": "130/000003", "d": "07/01/2024", "tit": "Toma en consideración de Proposiciones de Ley.",
+     "txt": "Toma en consideración.", "tot": {"afavor": 10, "enContra": 20, "abstenciones": 0},
+     "g": {"GS": {"s": 0, "n": 120, "a": 0}, "GP": {"s": 130, "n": 0, "a": 0}}, "mx": {}},
+    {"exp": "130/000003", "d": "08/01/2024", "tit": "Convalidación o derogación de Reales Decretos-leyes.",
+     "txt": "Convalidación.", "tot": {"afavor": 180, "enContra": 150, "abstenciones": 0},
+     "g": {"GS": {"s": 120, "n": 0, "a": 0}, "GP": {"s": 0, "n": 130, "a": 0}}, "mx": {}},
+    {"exp": "130/000009", "d": "09/01/2024", "tit": "Convalidación o derogación de Reales Decretos-leyes.",
+     "txt": "Real Decreto-ley extraido de votaciones.", "tot": {"afavor": 1, "enContra": 0, "abstenciones": 0},
+     "g": {"GS": {"s": 120, "n": 0, "a": 0}}, "mx": {}},
+    {"exp": "130/000010", "d": "09/01/2024", "tit": "Convalidación o derogación de Reales Decretos-leyes.",
+     "txt": "Tramitación como proyecto de ley.", "tot": {}, "g": {}, "mx": {}}
+  ]
+}

@@ -1,0 +1,7 @@
+[
+  {"id": "121/000001", "tipo": "eco", "imp": {"ciud": 1, "asal3": -1}, "peso": 3, "nota": "Reforma de prueba."},
+  {"id": "122/000002", "tipo": "soc", "imp": {"jovenes": 1}, "peso": 1, "nota": "Proposicion de prueba.", "partido": ""},
+  {"id": "122/000004", "tipo": "soc", "imp": {}, "peso": 2, "nota": "Otra proposicion de prueba."},
+  {"id": "130/000003", "tipo": "eco", "imp": {"prop1": -1}, "peso": 2, "nota": "Decreto de prueba."},
+  {"id": "130/000009", "tipo": "eco", "imp": {"pen1": 1}, "peso": 1, "nota": "Decreto extraido de votaciones."}
+]
