@@ -66,12 +66,13 @@ Esa misma línea aparece en la ficha del partido, junto a todas las demás, y la
 
 ## Privacidad
 
-**Es un simulador: no recoge ni guarda ningún dato tuyo.**
+**No sale de tu dispositivo: tus respuestas se guardan solo en este navegador.**
 
 - Lo que marcas se calcula en tu navegador. No se envía a ningún servidor, no hay registro, ni cookies, ni analítica.
 - La web es HTML estático en GitHub Pages; solo descarga los datos públicos de cada legislatura y las tipografías de Google Fonts.
-- En tu propio navegador solo se recuerdan, si las usas, tus respuestas del perfil para no perderlas al recargar, la provincia del filtro y dos preferencias de pantalla (ocultar partidos con pocos datos y pausar la animación). Nada de eso sale de tu dispositivo.
-- Compartir tu perfil es opcional: el enlace lleva los rasgos marcados en la propia URL (`?p=…`) y solo lo tiene quien tú se lo pases.
+- En tu propio navegador (`localStorage`) se recuerdan tus respuestas del perfil, para no perderlas al recargar, la provincia del filtro y dos preferencias de pantalla (ocultar partidos con pocos datos y pausar la animación). Nada de eso sale de tu dispositivo.
+- El botón **«Borrar mis respuestas»** (en la barra de tu perfil y en el pie) borra del navegador el perfil y la provincia y reinicia el asistente.
+- Compartir tu perfil es opcional: el enlace lleva en la URL (`?p=…`) los rasgos de los pasos 1 a 3 y solo lo tiene quien tú se lo pases. **Lo que marques en el paso 4 (sexo, estado civil, cuidados, orientación, salud, discapacidad, origen y demás situación personal) nunca va en el enlace**: se queda en tu navegador.
 
 ## Qué datos incluye
 
@@ -175,7 +176,8 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 
 | Parámetro | Qué hace | Ejemplo |
 |---|---|---|
-| `p` | Rasgos del perfil, separados por comas | `?p=asal3,prop1` |
+| `p` | Rasgos del perfil, separados por comas (la web nunca pone en el enlace los del paso 4, de situación personal) | `?p=asal3,prop1` |
+| `rdl=0` | Excluye los reales decretos-ley del cálculo (por defecto se cuentan) | `?p=asal3&rdl=0` |
 | `c=0` | Desactiva «Ciudadanía general», que viene activa | `?p=asal3&c=0` |
 | `ds` | Abre otra legislatura (por defecto, la más reciente) | `?ds=congreso_xiv` |
 

@@ -1777,143 +1777,32 @@
    "titulo": "XIII legislatura · 2019",
    "fuente": "Congreso de los Diputados",
    "eco_con_ciud": {
-    "perfiles_con_resultado": 372,
+    "perfiles_con_resultado": 1655,
     "partidos": [
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 84.1,
+      "primero_pct": 90.3,
       "puesto_medio": 1.0,
-      "nota_media": 8,
-      "perfiles": 321
+      "nota_media": 19,
+      "perfiles": 1542
      },
      {
       "partido": "PP",
-      "primero_pct": 15.9,
-      "puesto_medio": 1.0,
+      "primero_pct": 9.7,
+      "puesto_medio": 1.7,
       "nota_media": 12,
-      "perfiles": 62
-     }
-    ],
-    "arquetipos_top3": {
-     "Asalariado medio con hipoteca e hijos": [],
-     "Joven de alquiler": [],
-     "Pensionista con casa propia": [],
-     "Pensionista con pensión baja": [],
-     "Autónomo del comercio": [],
-     "Empresario de pyme industrial": [],
-     "Funcionario docente": [],
-     "Policía o guardia civil": [],
-     "Sanitario asalariado": [],
-     "Familia numerosa": [],
-     "Rentas altas con patrimonio": [],
-     "Gran patrimonio y gran empresa": [
-      "Unidas Podemos -13"
-     ],
-     "Parado con subsidio": [
-      "Unidas Podemos +20"
-     ],
-     "Agricultor en el medio rural": [],
-     "Madre sola con hijo": [],
-     "Estudiante": [],
-     "Mayor dependiente": [],
-     "Casero con varias viviendas": [],
-     "Transportista autónomo": [],
-     "Asalariado de salario mínimo": []
-    }
-   },
-   "eco_sin_ciud": {
-    "perfiles_con_resultado": 193,
-    "partidos": [
-     {
-      "partido": "Unidas Podemos",
-      "primero_pct": 67.9,
-      "puesto_medio": 1.0,
-      "nota_media": -11,
-      "perfiles": 136
-     },
-     {
-      "partido": "PP",
-      "primero_pct": 32.1,
-      "puesto_medio": 1.0,
-      "nota_media": 12,
-      "perfiles": 62
-     }
-    ],
-    "arquetipos_top3": {
-     "Asalariado medio con hipoteca e hijos": [],
-     "Joven de alquiler": [],
-     "Pensionista con casa propia": [],
-     "Pensionista con pensión baja": [],
-     "Autónomo del comercio": [],
-     "Empresario de pyme industrial": [],
-     "Funcionario docente": [],
-     "Policía o guardia civil": [],
-     "Sanitario asalariado": [],
-     "Familia numerosa": [],
-     "Rentas altas con patrimonio": [],
-     "Gran patrimonio y gran empresa": [
-      "Unidas Podemos -20"
-     ],
-     "Parado con subsidio": [],
-     "Agricultor en el medio rural": [],
-     "Madre sola con hijo": [],
-     "Estudiante": [],
-     "Mayor dependiente": [],
-     "Casero con varias viviendas": [],
-     "Transportista autónomo": [],
-     "Asalariado de salario mínimo": []
-    }
-   },
-   "soc_con_ciud": {
-    "perfiles_con_resultado": 1837,
-    "partidos": [
-     {
-      "partido": "Unidas Podemos",
-      "primero_pct": 92.0,
-      "puesto_medio": 1.1,
-      "nota_media": 24,
-      "perfiles": 1792
-     },
-     {
-      "partido": "PSOE",
-      "primero_pct": 3.0,
-      "puesto_medio": 1.9,
-      "nota_media": 24,
-      "perfiles": 309
-     },
-     {
-      "partido": "Cs",
-      "primero_pct": 3.0,
-      "puesto_medio": 2.1,
-      "nota_media": 26,
-      "perfiles": 532
-     },
-     {
-      "partido": "PP",
-      "primero_pct": 2.0,
-      "puesto_medio": 2.8,
-      "nota_media": 0,
-      "perfiles": 709
-     },
-     {
-      "partido": "VOX",
-      "primero_pct": 0.0,
-      "puesto_medio": 4.0,
-      "nota_media": -17,
-      "perfiles": 1
+      "perfiles": 484
      }
     ],
     "arquetipos_top3": {
      "Asalariado medio con hipoteca e hijos": [
       "Unidas Podemos +20"
      ],
-     "Joven de alquiler": [],
-     "Pensionista con casa propia": [
-      "Unidas Podemos +16"
+     "Joven de alquiler": [
+      "PP +12"
      ],
-     "Pensionista con pensión baja": [
-      "Unidas Podemos +16"
-     ],
+     "Pensionista con casa propia": [],
+     "Pensionista con pensión baja": [],
      "Autónomo del comercio": [],
      "Empresario de pyme industrial": [],
      "Funcionario docente": [],
@@ -1923,58 +1812,160 @@
       "Unidas Podemos +20"
      ],
      "Rentas altas con patrimonio": [],
-     "Gran patrimonio y gran empresa": [],
+     "Gran patrimonio y gran empresa": [
+      "Unidas Podemos +7"
+     ],
      "Parado con subsidio": [],
      "Agricultor en el medio rural": [],
      "Madre sola con hijo": [
       "Unidas Podemos +20"
      ],
-     "Estudiante": [],
-     "Mayor dependiente": [
-      "Unidas Podemos +31"
+     "Estudiante": [
+      "PP +12"
      ],
+     "Mayor dependiente": [],
+     "Casero con varias viviendas": [],
+     "Transportista autónomo": [],
+     "Asalariado de salario mínimo": []
+    }
+   },
+   "eco_sin_ciud": {
+    "perfiles_con_resultado": 492,
+    "partidos": [
+     {
+      "partido": "PP",
+      "primero_pct": 98.4,
+      "puesto_medio": 1.0,
+      "nota_media": 12,
+      "perfiles": 484
+     },
+     {
+      "partido": "Unidas Podemos",
+      "primero_pct": 1.6,
+      "puesto_medio": 1.8,
+      "nota_media": -9,
+      "perfiles": 48
+     }
+    ],
+    "arquetipos_top3": {
+     "Asalariado medio con hipoteca e hijos": [],
+     "Joven de alquiler": [
+      "PP +12"
+     ],
+     "Pensionista con casa propia": [],
+     "Pensionista con pensión baja": [],
+     "Autónomo del comercio": [],
+     "Empresario de pyme industrial": [],
+     "Funcionario docente": [],
+     "Policía o guardia civil": [],
+     "Sanitario asalariado": [],
+     "Familia numerosa": [],
+     "Rentas altas con patrimonio": [],
+     "Gran patrimonio y gran empresa": [],
+     "Parado con subsidio": [],
+     "Agricultor en el medio rural": [],
+     "Madre sola con hijo": [],
+     "Estudiante": [
+      "PP +12"
+     ],
+     "Mayor dependiente": [],
+     "Casero con varias viviendas": [],
+     "Transportista autónomo": [],
+     "Asalariado de salario mínimo": []
+    }
+   },
+   "soc_con_ciud": {
+    "perfiles_con_resultado": 1728,
+    "partidos": [
+     {
+      "partido": "Unidas Podemos",
+      "primero_pct": 92.4,
+      "puesto_medio": 1.0,
+      "nota_media": 30,
+      "perfiles": 1612
+     },
+     {
+      "partido": "PSOE",
+      "primero_pct": 7.4,
+      "puesto_medio": 1.8,
+      "nota_media": 21,
+      "perfiles": 606
+     },
+     {
+      "partido": "Cs",
+      "primero_pct": 0.1,
+      "puesto_medio": 2.3,
+      "nota_media": 21,
+      "perfiles": 233
+     },
+     {
+      "partido": "PP",
+      "primero_pct": 0.0,
+      "puesto_medio": 3.0,
+      "nota_media": -4,
+      "perfiles": 2
+     }
+    ],
+    "arquetipos_top3": {
+     "Asalariado medio con hipoteca e hijos": [
+      "Unidas Podemos +29"
+     ],
+     "Joven de alquiler": [],
+     "Pensionista con casa propia": [],
+     "Pensionista con pensión baja": [],
+     "Autónomo del comercio": [],
+     "Empresario de pyme industrial": [],
+     "Funcionario docente": [],
+     "Policía o guardia civil": [],
+     "Sanitario asalariado": [],
+     "Familia numerosa": [
+      "Unidas Podemos +29"
+     ],
+     "Rentas altas con patrimonio": [],
+     "Gran patrimonio y gran empresa": [],
+     "Parado con subsidio": [],
+     "Agricultor en el medio rural": [],
+     "Madre sola con hijo": [
+      "Unidas Podemos +29",
+      "PSOE +20"
+     ],
+     "Estudiante": [],
+     "Mayor dependiente": [],
      "Casero con varias viviendas": [],
      "Transportista autónomo": [],
      "Asalariado de salario mínimo": []
     }
    },
    "soc_sin_ciud": {
-    "perfiles_con_resultado": 826,
+    "perfiles_con_resultado": 791,
     "partidos": [
      {
+      "partido": "PSOE",
+      "primero_pct": 75.9,
+      "puesto_medio": 1.0,
+      "nota_media": 21,
+      "perfiles": 606
+     },
+     {
       "partido": "Cs",
-      "primero_pct": 40.3,
+      "primero_pct": 16.6,
       "puesto_medio": 1.4,
-      "nota_media": 26,
-      "perfiles": 532
+      "nota_media": 21,
+      "perfiles": 233
      },
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 32.7,
-      "puesto_medio": 1.8,
-      "nota_media": 22,
-      "perfiles": 632
-     },
-     {
-      "partido": "PSOE",
-      "primero_pct": 24.7,
-      "puesto_medio": 1.2,
-      "nota_media": 24,
-      "perfiles": 309
+      "primero_pct": 7.5,
+      "puesto_medio": 2.0,
+      "nota_media": 19,
+      "perfiles": 172
      },
      {
       "partido": "PP",
-      "primero_pct": 2.3,
+      "primero_pct": 0.0,
       "puesto_medio": 3.0,
       "nota_media": -4,
-      "perfiles": 274
-     },
-     {
-      "partido": "VOX",
-      "primero_pct": 0.0,
-      "puesto_medio": 4.0,
-      "nota_media": -17,
-      "perfiles": 1
+      "perfiles": 2
      }
     ],
     "arquetipos_top3": {
@@ -1992,11 +1983,11 @@
      "Gran patrimonio y gran empresa": [],
      "Parado con subsidio": [],
      "Agricultor en el medio rural": [],
-     "Madre sola con hijo": [],
-     "Estudiante": [],
-     "Mayor dependiente": [
-      "Unidas Podemos +22"
+     "Madre sola con hijo": [
+      "PSOE +20"
      ],
+     "Estudiante": [],
+     "Mayor dependiente": [],
      "Casero con varias viviendas": [],
      "Transportista autónomo": [],
      "Asalariado de salario mínimo": []
@@ -2797,162 +2788,230 @@
    "titulo": "XI legislatura · 2016",
    "fuente": "Congreso de los Diputados",
    "eco_con_ciud": {
-    "perfiles_con_resultado": 730,
+    "perfiles_con_resultado": 290,
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 81.7,
-      "puesto_medio": 1.1,
-      "nota_media": 40,
-      "perfiles": 631
-     },
-     {
-      "partido": "DL",
-      "primero_pct": 9.8,
-      "puesto_medio": 1.6,
-      "nota_media": 11,
-      "perfiles": 105
+      "primero_pct": 78.6,
+      "puesto_medio": 1.2,
+      "nota_media": 0,
+      "perfiles": 249
      },
      {
       "partido": "Cs",
-      "primero_pct": 5.2,
-      "puesto_medio": 1.6,
-      "nota_media": 9,
-      "perfiles": 49
+      "primero_pct": 18.3,
+      "puesto_medio": 1.2,
+      "nota_media": 10,
+      "perfiles": 56
+     },
+     {
+      "partido": "PP",
+      "primero_pct": 0.9,
+      "puesto_medio": 1.0,
+      "nota_media": 25,
+      "perfiles": 8
+     },
+     {
+      "partido": "UPN",
+      "primero_pct": 0.9,
+      "puesto_medio": 2.0,
+      "nota_media": 25,
+      "perfiles": 8
+     },
+     {
+      "partido": "Foro",
+      "primero_pct": 0.9,
+      "puesto_medio": 3.0,
+      "nota_media": 25,
+      "perfiles": 8
      },
      {
       "partido": "Podemos",
-      "primero_pct": 3.3,
-      "puesto_medio": 2.7,
-      "nota_media": 26,
-      "perfiles": 56
+      "primero_pct": 0.3,
+      "puesto_medio": 3.3,
+      "nota_media": -24,
+      "perfiles": 174
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 2.2,
-      "nota_media": 29,
-      "perfiles": 41
+      "puesto_medio": 2.3,
+      "nota_media": -7,
+      "perfiles": 169
+     },
+     {
+      "partido": "DL",
+      "primero_pct": 0.0,
+      "puesto_medio": 4.3,
+      "nota_media": 20,
+      "perfiles": 7
+     },
+     {
+      "partido": "Compromís",
+      "primero_pct": 0.0,
+      "puesto_medio": 7.2,
+      "nota_media": 0,
+      "perfiles": 8
+     },
+     {
+      "partido": "IU",
+      "primero_pct": 0.0,
+      "puesto_medio": 8.2,
+      "nota_media": 0,
+      "perfiles": 8
      }
     ],
     "arquetipos_top3": {
      "Asalariado medio con hipoteca e hijos": [],
-     "Joven de alquiler": [
-      "PSOE +40"
-     ],
+     "Joven de alquiler": [],
      "Pensionista con casa propia": [],
      "Pensionista con pensión baja": [],
      "Autónomo del comercio": [],
-     "Empresario de pyme industrial": [],
-     "Funcionario docente": [],
-     "Policía o guardia civil": [
-      "PSOE +40"
+     "Empresario de pyme industrial": [
+      "Cs +12",
+      "PSOE -2",
+      "ERC -7"
      ],
+     "Funcionario docente": [],
+     "Policía o guardia civil": [],
      "Sanitario asalariado": [],
      "Familia numerosa": [],
      "Rentas altas con patrimonio": [],
      "Gran patrimonio y gran empresa": [],
-     "Parado con subsidio": [
-      "PSOE +41"
-     ],
-     "Agricultor en el medio rural": [
-      "Cs +8"
-     ],
-     "Madre sola con hijo": [
-      "PSOE +40"
-     ],
+     "Parado con subsidio": [],
+     "Agricultor en el medio rural": [],
+     "Madre sola con hijo": [],
      "Estudiante": [],
      "Mayor dependiente": [],
      "Casero con varias viviendas": [],
      "Transportista autónomo": [],
-     "Asalariado de salario mínimo": [
-      "PSOE +40"
-     ]
+     "Asalariado de salario mínimo": []
     }
    },
    "eco_sin_ciud": {
-    "perfiles_con_resultado": 730,
+    "perfiles_con_resultado": 290,
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 81.7,
-      "puesto_medio": 1.1,
-      "nota_media": 40,
-      "perfiles": 631
-     },
-     {
-      "partido": "DL",
-      "primero_pct": 9.8,
-      "puesto_medio": 1.6,
-      "nota_media": 11,
-      "perfiles": 105
+      "primero_pct": 78.6,
+      "puesto_medio": 1.2,
+      "nota_media": 0,
+      "perfiles": 249
      },
      {
       "partido": "Cs",
-      "primero_pct": 5.2,
-      "puesto_medio": 1.6,
-      "nota_media": 9,
-      "perfiles": 49
+      "primero_pct": 18.3,
+      "puesto_medio": 1.2,
+      "nota_media": 10,
+      "perfiles": 56
+     },
+     {
+      "partido": "PP",
+      "primero_pct": 0.9,
+      "puesto_medio": 1.0,
+      "nota_media": 25,
+      "perfiles": 8
+     },
+     {
+      "partido": "UPN",
+      "primero_pct": 0.9,
+      "puesto_medio": 2.0,
+      "nota_media": 25,
+      "perfiles": 8
+     },
+     {
+      "partido": "Foro",
+      "primero_pct": 0.9,
+      "puesto_medio": 3.0,
+      "nota_media": 25,
+      "perfiles": 8
      },
      {
       "partido": "Podemos",
-      "primero_pct": 3.3,
-      "puesto_medio": 2.7,
-      "nota_media": 26,
-      "perfiles": 56
+      "primero_pct": 0.3,
+      "puesto_medio": 3.3,
+      "nota_media": -24,
+      "perfiles": 174
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 2.2,
-      "nota_media": 29,
-      "perfiles": 41
+      "puesto_medio": 2.3,
+      "nota_media": -7,
+      "perfiles": 169
+     },
+     {
+      "partido": "DL",
+      "primero_pct": 0.0,
+      "puesto_medio": 4.3,
+      "nota_media": 20,
+      "perfiles": 7
+     },
+     {
+      "partido": "Compromís",
+      "primero_pct": 0.0,
+      "puesto_medio": 7.2,
+      "nota_media": 0,
+      "perfiles": 8
+     },
+     {
+      "partido": "IU",
+      "primero_pct": 0.0,
+      "puesto_medio": 8.2,
+      "nota_media": 0,
+      "perfiles": 8
      }
     ],
     "arquetipos_top3": {
      "Asalariado medio con hipoteca e hijos": [],
-     "Joven de alquiler": [
-      "PSOE +40"
-     ],
+     "Joven de alquiler": [],
      "Pensionista con casa propia": [],
      "Pensionista con pensión baja": [],
      "Autónomo del comercio": [],
-     "Empresario de pyme industrial": [],
-     "Funcionario docente": [],
-     "Policía o guardia civil": [
-      "PSOE +40"
+     "Empresario de pyme industrial": [
+      "Cs +12",
+      "PSOE -2",
+      "ERC -7"
      ],
+     "Funcionario docente": [],
+     "Policía o guardia civil": [],
      "Sanitario asalariado": [],
      "Familia numerosa": [],
      "Rentas altas con patrimonio": [],
      "Gran patrimonio y gran empresa": [],
-     "Parado con subsidio": [
-      "PSOE +41"
-     ],
-     "Agricultor en el medio rural": [
-      "Cs +8"
-     ],
-     "Madre sola con hijo": [
-      "PSOE +40"
-     ],
+     "Parado con subsidio": [],
+     "Agricultor en el medio rural": [],
+     "Madre sola con hijo": [],
      "Estudiante": [],
      "Mayor dependiente": [],
      "Casero con varias viviendas": [],
      "Transportista autónomo": [],
-     "Asalariado de salario mínimo": [
-      "PSOE +40"
-     ]
+     "Asalariado de salario mínimo": []
     }
    },
    "soc_con_ciud": {
-    "perfiles_con_resultado": 50,
+    "perfiles_con_resultado": 81,
     "partidos": [
      {
       "partido": "PSOE",
       "primero_pct": 100.0,
       "puesto_medio": 1.0,
-      "nota_media": 22,
-      "perfiles": 50
+      "nota_media": 21,
+      "perfiles": 81
+     },
+     {
+      "partido": "Podemos",
+      "primero_pct": 0.0,
+      "puesto_medio": 2.0,
+      "nota_media": 20,
+      "perfiles": 6
+     },
+     {
+      "partido": "ERC",
+      "primero_pct": 0.0,
+      "puesto_medio": 2.4,
+      "nota_media": 11,
+      "perfiles": 5
      }
     ],
     "arquetipos_top3": {
@@ -2979,14 +3038,28 @@
     }
    },
    "soc_sin_ciud": {
-    "perfiles_con_resultado": 7,
+    "perfiles_con_resultado": 27,
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 100.0,
+      "primero_pct": 79.6,
       "puesto_medio": 1.0,
-      "nota_media": 22,
-      "perfiles": 7
+      "nota_media": 21,
+      "perfiles": 23
+     },
+     {
+      "partido": "Podemos",
+      "primero_pct": 13.0,
+      "puesto_medio": 1.7,
+      "nota_media": 20,
+      "perfiles": 6
+     },
+     {
+      "partido": "ERC",
+      "primero_pct": 7.4,
+      "puesto_medio": 1.8,
+      "nota_media": 11,
+      "perfiles": 5
      }
     ],
     "arquetipos_top3": {

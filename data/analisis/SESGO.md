@@ -386,13 +386,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidas Podemos | 84.1 % | 1.0 | +8 |
-| PP | 15.9 % | 1.0 | +12 |
+| Unidas Podemos | 90.3 % | 1.0 | +19 |
+| PP | 9.7 % | 1.7 | +12 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: sin resultado
-- Joven de alquiler: sin resultado
+- Asalariado medio con hipoteca e hijos: Unidas Podemos +20
+- Joven de alquiler: PP +12
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
 - Autónomo del comercio: sin resultado
@@ -400,13 +400,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Funcionario docente: sin resultado
 - Policía o guardia civil: sin resultado
 - Sanitario asalariado: sin resultado
-- Familia numerosa: sin resultado
+- Familia numerosa: Unidas Podemos +20
 - Rentas altas con patrimonio: sin resultado
-- Gran patrimonio y gran empresa: Unidas Podemos -13
-- Parado con subsidio: Unidas Podemos +20
+- Gran patrimonio y gran empresa: Unidas Podemos +7
+- Parado con subsidio: sin resultado
 - Agricultor en el medio rural: sin resultado
-- Madre sola con hijo: sin resultado
-- Estudiante: sin resultado
+- Madre sola con hijo: Unidas Podemos +20
+- Estudiante: PP +12
 - Mayor dependiente: sin resultado
 - Casero con varias viviendas: sin resultado
 - Transportista autónomo: sin resultado
@@ -418,13 +418,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidas Podemos | 67.9 % | 1.0 | -11 |
-| PP | 32.1 % | 1.0 | +12 |
+| PP | 98.4 % | 1.0 | +12 |
+| Unidas Podemos | 1.6 % | 1.8 | -9 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: sin resultado
-- Joven de alquiler: sin resultado
+- Joven de alquiler: PP +12
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
 - Autónomo del comercio: sin resultado
@@ -434,11 +434,11 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Sanitario asalariado: sin resultado
 - Familia numerosa: sin resultado
 - Rentas altas con patrimonio: sin resultado
-- Gran patrimonio y gran empresa: Unidas Podemos -20
+- Gran patrimonio y gran empresa: sin resultado
 - Parado con subsidio: sin resultado
 - Agricultor en el medio rural: sin resultado
 - Madre sola con hijo: sin resultado
-- Estudiante: sin resultado
+- Estudiante: PP +12
 - Mayor dependiente: sin resultado
 - Casero con varias viviendas: sin resultado
 - Transportista autónomo: sin resultado
@@ -450,31 +450,30 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidas Podemos | 92.0 % | 1.1 | +24 |
-| PSOE | 3.0 % | 1.9 | +24 |
-| Cs | 3.0 % | 2.1 | +26 |
-| PP | 2.0 % | 2.8 | +0 |
-| VOX | 0.0 % | 4.0 | -17 |
+| Unidas Podemos | 92.4 % | 1.0 | +30 |
+| PSOE | 7.4 % | 1.8 | +21 |
+| Cs | 0.1 % | 2.3 | +21 |
+| PP | 0.0 % | 3.0 | -4 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Unidas Podemos +20
+- Asalariado medio con hipoteca e hijos: Unidas Podemos +29
 - Joven de alquiler: sin resultado
-- Pensionista con casa propia: Unidas Podemos +16
-- Pensionista con pensión baja: Unidas Podemos +16
+- Pensionista con casa propia: sin resultado
+- Pensionista con pensión baja: sin resultado
 - Autónomo del comercio: sin resultado
 - Empresario de pyme industrial: sin resultado
 - Funcionario docente: sin resultado
 - Policía o guardia civil: sin resultado
 - Sanitario asalariado: sin resultado
-- Familia numerosa: Unidas Podemos +20
+- Familia numerosa: Unidas Podemos +29
 - Rentas altas con patrimonio: sin resultado
 - Gran patrimonio y gran empresa: sin resultado
 - Parado con subsidio: sin resultado
 - Agricultor en el medio rural: sin resultado
-- Madre sola con hijo: Unidas Podemos +20
+- Madre sola con hijo: Unidas Podemos +29, PSOE +20
 - Estudiante: sin resultado
-- Mayor dependiente: Unidas Podemos +31
+- Mayor dependiente: sin resultado
 - Casero con varias viviendas: sin resultado
 - Transportista autónomo: sin resultado
 - Asalariado de salario mínimo: sin resultado
@@ -485,11 +484,10 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Cs | 40.3 % | 1.4 | +26 |
-| Unidas Podemos | 32.7 % | 1.8 | +22 |
-| PSOE | 24.7 % | 1.2 | +24 |
-| PP | 2.3 % | 3.0 | -4 |
-| VOX | 0.0 % | 4.0 | -17 |
+| PSOE | 75.9 % | 1.0 | +21 |
+| Cs | 16.6 % | 1.4 | +21 |
+| Unidas Podemos | 7.5 % | 2.0 | +19 |
+| PP | 0.0 % | 3.0 | -4 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -507,9 +505,9 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Gran patrimonio y gran empresa: sin resultado
 - Parado con subsidio: sin resultado
 - Agricultor en el medio rural: sin resultado
-- Madre sola con hijo: sin resultado
+- Madre sola con hijo: PSOE +20
 - Estudiante: sin resultado
-- Mayor dependiente: Unidas Podemos +22
+- Mayor dependiente: sin resultado
 - Casero con varias viviendas: sin resultado
 - Transportista autónomo: sin resultado
 - Asalariado de salario mínimo: sin resultado
@@ -696,34 +694,39 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 81.7 % | 1.1 | +40 |
-| DL | 9.8 % | 1.6 | +11 |
-| Cs | 5.2 % | 1.6 | +9 |
-| Podemos | 3.3 % | 2.7 | +26 |
-| ERC | 0.0 % | 2.2 | +29 |
+| PSOE | 78.6 % | 1.2 | +0 |
+| Cs | 18.3 % | 1.2 | +10 |
+| PP | 0.9 % | 1.0 | +25 |
+| UPN | 0.9 % | 2.0 | +25 |
+| Foro | 0.9 % | 3.0 | +25 |
+| Podemos | 0.3 % | 3.3 | -24 |
+| ERC | 0.0 % | 2.3 | -7 |
+| DL | 0.0 % | 4.3 | +20 |
+| Compromís | 0.0 % | 7.2 | +0 |
+| IU | 0.0 % | 8.2 | +0 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: sin resultado
-- Joven de alquiler: PSOE +40
+- Joven de alquiler: sin resultado
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
 - Autónomo del comercio: sin resultado
-- Empresario de pyme industrial: sin resultado
+- Empresario de pyme industrial: Cs +12, PSOE -2, ERC -7
 - Funcionario docente: sin resultado
-- Policía o guardia civil: PSOE +40
+- Policía o guardia civil: sin resultado
 - Sanitario asalariado: sin resultado
 - Familia numerosa: sin resultado
 - Rentas altas con patrimonio: sin resultado
 - Gran patrimonio y gran empresa: sin resultado
-- Parado con subsidio: PSOE +41
-- Agricultor en el medio rural: Cs +8
-- Madre sola con hijo: PSOE +40
+- Parado con subsidio: sin resultado
+- Agricultor en el medio rural: sin resultado
+- Madre sola con hijo: sin resultado
 - Estudiante: sin resultado
 - Mayor dependiente: sin resultado
 - Casero con varias viviendas: sin resultado
 - Transportista autónomo: sin resultado
-- Asalariado de salario mínimo: PSOE +40
+- Asalariado de salario mínimo: sin resultado
 
 </details>
 
@@ -731,34 +734,39 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 81.7 % | 1.1 | +40 |
-| DL | 9.8 % | 1.6 | +11 |
-| Cs | 5.2 % | 1.6 | +9 |
-| Podemos | 3.3 % | 2.7 | +26 |
-| ERC | 0.0 % | 2.2 | +29 |
+| PSOE | 78.6 % | 1.2 | +0 |
+| Cs | 18.3 % | 1.2 | +10 |
+| PP | 0.9 % | 1.0 | +25 |
+| UPN | 0.9 % | 2.0 | +25 |
+| Foro | 0.9 % | 3.0 | +25 |
+| Podemos | 0.3 % | 3.3 | -24 |
+| ERC | 0.0 % | 2.3 | -7 |
+| DL | 0.0 % | 4.3 | +20 |
+| Compromís | 0.0 % | 7.2 | +0 |
+| IU | 0.0 % | 8.2 | +0 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: sin resultado
-- Joven de alquiler: PSOE +40
+- Joven de alquiler: sin resultado
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
 - Autónomo del comercio: sin resultado
-- Empresario de pyme industrial: sin resultado
+- Empresario de pyme industrial: Cs +12, PSOE -2, ERC -7
 - Funcionario docente: sin resultado
-- Policía o guardia civil: PSOE +40
+- Policía o guardia civil: sin resultado
 - Sanitario asalariado: sin resultado
 - Familia numerosa: sin resultado
 - Rentas altas con patrimonio: sin resultado
 - Gran patrimonio y gran empresa: sin resultado
-- Parado con subsidio: PSOE +41
-- Agricultor en el medio rural: Cs +8
-- Madre sola con hijo: PSOE +40
+- Parado con subsidio: sin resultado
+- Agricultor en el medio rural: sin resultado
+- Madre sola con hijo: sin resultado
 - Estudiante: sin resultado
 - Mayor dependiente: sin resultado
 - Casero con varias viviendas: sin resultado
 - Transportista autónomo: sin resultado
-- Asalariado de salario mínimo: PSOE +40
+- Asalariado de salario mínimo: sin resultado
 
 </details>
 
@@ -766,7 +774,9 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 100.0 % | 1.0 | +22 |
+| PSOE | 100.0 % | 1.0 | +21 |
+| Podemos | 0.0 % | 2.0 | +20 |
+| ERC | 0.0 % | 2.4 | +11 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -797,7 +807,9 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 100.0 % | 1.0 | +22 |
+| PSOE | 79.6 % | 1.0 | +21 |
+| Podemos | 13.0 % | 1.7 | +20 |
+| ERC | 7.4 % | 1.8 | +11 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
