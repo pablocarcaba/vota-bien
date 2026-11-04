@@ -1,92 +1,146 @@
-# ¿A quién puedo votar?
+<p align="center">
+  <a href="https://pablocarcaba.github.io/vota-bien/"><img src=".github/banner.svg" alt="¿A quién te conviene votar? Lo que votó cada partido en las leyes que te afectan" width="100%"></a>
+</p>
 
-Herramienta web que permite a cualquier persona marcar su perfil (tramo de IRPF, funcionario, pensionista, propietario, empresario, colectivos sociales…) y ver qué partidos presentaron y votaron leyes que le benefician o perjudican.
+<p align="center">
+  <a href="https://pablocarcaba.github.io/vota-bien/"><b>Abrir la web →</b></a>
+  &nbsp;·&nbsp; <a href="#cómo-se-calcula">Cómo se calcula</a>
+  &nbsp;·&nbsp; <a href="#reconstruir-los-datos">Reconstruir los datos</a>
+  &nbsp;·&nbsp; <a href="#fuentes-y-licencia">Fuentes</a>
+</p>
 
-Web: https://pablocarcaba.github.io/vota-bien/
+<p align="center">
+  <img alt="Legislaturas" src="https://img.shields.io/badge/legislaturas-8-AA151B">
+  <img alt="Iniciativas" src="https://img.shields.io/badge/iniciativas-3.164-F1BF00">
+  <img alt="Votaciones" src="https://img.shields.io/badge/votaciones%20clave-1.764-16181d">
+  <img alt="Sin dependencias" src="https://img.shields.io/badge/JS-sin%20dependencias-2f7d32">
+</p>
 
-Disponible: XV legislatura del Congreso de los Diputados (17/08/2023 – disolución 06/10/2026), datos descargados el 02/11/2026. En preparación: XIV legislatura.
+---
 
-## Estructura
+## Qué es
 
-Cada fuente y legislatura es un dataset independiente con clave `<fuente>_<legislatura>` (p. ej. `congreso_xv`). Los partidos cambian entre legislaturas, así que nunca se mezclan: la web tiene un selector de fuente y otro de legislatura.
+En campaña todos prometen defenderte. **¿A quién te conviene votar?** te enseña lo que votó cada partido cuando las leyes tocaban tu bolsillo, tu casa y tu familia.
+
+1. **Cuéntanos tu situación.** Marcas tu tramo de IRPF, si eres funcionario o pensionista, si tienes vivienda o empresa, tus hijos… Sin registrarte, y tus respuestas no salen del navegador.
+2. **Mira quién votó a tu favor.** Un ranking de −100 a +100 con lo que cada partido votó en las leyes que te afectan.
+3. **Compruébalo ley a ley.** Pulsas un partido y ves cada iniciativa, su voto y por qué te afecta, con enlace a la fuente oficial.
+
+> **No te decimos a quién votar. Te enseñamos lo que votaron.**
+
+## Qué datos incluye
+
+| Fuente | Legislatura | Iniciativas | Con votación clave |
+|---|---|---:|---:|
+| Congreso de los Diputados | XV · 2023–2026 | 540 | 213 |
+| Congreso de los Diputados | XIV · 2019–2023 | 662 | 284 |
+| Congreso de los Diputados | XIII · 2019 | 88 | 2 |
+| Congreso de los Diputados | XII · 2016–2019 | 508 | 158 |
+| Congreso de los Diputados | XI · 2016 | 51 | 7 |
+| Congreso de los Diputados | X · 2011–2015 | 510 | 295 |
+| Parlamento Europeo | 10.ª · 2024–2029 (en curso) | 260 | 260 |
+| Parlamento Europeo | 9.ª · 2019–2024 | 545 | 545 |
+
+Cada fuente y legislatura es un dataset independiente. Los partidos cambian entre legislaturas, así que **nunca se mezclan**: la web tiene un selector de fuente y otro de legislatura.
+
+## Cómo se calcula
+
+- **Autoría.** Los proyectos de ley y los reales decretos-ley son del Gobierno. Una proposición firmada por varios grupos cuenta para cada uno. Las del Grupo Mixto aparecen como «Grupo Mixto» porque el Congreso no indica el partido, salvo las que se han podido identificar (campo `partido` en `clas_*.json`).
+- **Votación clave por iniciativa**, por este orden de prioridad: votación final (de conjunto o del dictamen) > convalidación del real decreto-ley > toma en consideración > enmienda a la totalidad. En la enmienda a la totalidad, votar sí equivale a oponerse a la ley, y se invierte.
+- **Voto de un partido** = voto mayoritario de sus diputados presentes. Los partidos que comparten grupo, como Podemos, BNG, CC, UPN o Compromís dentro del Mixto, se separan por voto nominal. Los no adscritos no se cuentan.
+- **Impactos.** Cada iniciativa se clasifica como económica o social y se marca a qué colectivos beneficia (+1) o perjudica (−1), según [`RUBRICA.md`](data/clasificacion/RUBRICA.md). La clasificación es asistida por IA e **interpretativa**: conviene revisar las leyes de mayor relevancia.
+- **Nota del ranking.** (a favor − en contra) ÷ total × 100. Votar el texto final pesa 1, una toma en consideración 0,5 y lo que solo se presentó 0,25. Una gran reforma pesa como 9 leyes menores, y una ley relevante como 3.
+- **Colores.** Verde: beneficia algún rasgo de tu perfil y no perjudica ninguno. Rojo: al revés. Ámbar: ambas cosas. Gris: no te afecta.
+
+La metodología completa está en la propia web, en el apartado **Cómo se calcula**.
+
+## Reconstruir los datos
+
+```bash
+python3 scripts/build_items.py congreso_xv       # fuente → items normalizados
+python3 scripts/validar_clasificacion.py         # tiene que dar 0 errores
+python3 scripts/build_data.py congreso_xv        # items + clasificación + votos → site/data
+python3 scripts/build_page.py                    # template.html → index.html
+```
+
+`build_data.py` imprime las votaciones que reasigna, porque la web del Congreso no siempre indica el expediente de cada votación y se comprueba comparando títulos. La página carga los datos con `fetch`, así que en local tienes que servirla:
+
+```bash
+python3 -m http.server 8000 --directory site    # http://localhost:8000
+```
+
+<details>
+<summary><b>Añadir una legislatura</b></summary>
+
+1. **Descargar:** `python3 scripts/descargar_legislatura.py --leg XIV --desde 2019-12-03 --hasta 2023-05-30`. Tarda entre 1,5 y 2 h (una petición cada ~2,5 s) y se puede reanudar.
+2. **Configurar** grupos, partidos y textos en `scripts/legislaturas.py`.
+3. **Clasificar:** `build_items.py <clave>` y después el proceso de [`INSTRUCCIONES.md`](data/clasificacion/INSTRUCCIONES.md): `preparar_lotes.py` → clasificar los lotes → `integrar_clasificacion.py`.
+4. **Grupo Mixto o Plural:** `.venv/bin/python scripts/identificar_mixto.py <clave>` y llevar el partido a `clas_*.json`.
+5. **Publicar:** `build_data.py <clave>` y `build_page.py`. La legislatura aparece sola en el selector.
+
+**Parlamento Europeo:** `python3 scripts/descargar_europarlamento.py [--actualizar]`. Usa un formato propio, declarado con `"formato": "europarlamento"` en `legislaturas.py`; el resto del proceso es igual.
+
+> **Aviso:** congreso.es tiene protección anti-bots. Nunca lances peticiones en paralelo, deja una cada 2-3 s y para ante un 403.
+
+</details>
+
+<details>
+<summary><b>Estructura del repositorio</b></summary>
 
 ```
 data/
-  fuente/                     Datos de origen (no se editan)
-    congreso_xv.json            Iniciativas y votaciones de la XV
-    congreso_xv_votos_extra.json  38 votaciones finales que faltaban en la primera pasada
-    congreso_xiv.json           (en descarga) XIV legislatura
+  fuente/                       Datos de origen, uno por dataset (no se editan)
   clasificacion/
     RUBRICA.md                  Criterios de clasificación, comunes a todas las legislaturas
-    INSTRUCCIONES.md            Proceso y encargo fijo para clasificar lotes
-    congreso_xv/
-      clas_0..4.json            Clasificación de cada iniciativa: tipo, impactos por colectivo (+1/-1), nota
-      REVISION.md               Casos dudosos pendientes de revisión
-      lotes/chunk_0..4.json     Lotes enviados a clasificar (histórico)
-  generado/<clave>/items.json   Iniciativas normalizadas (build_items.py); no editar
-  cache/                      Respuestas de congreso.es guardadas por la descarga (ignorado por git)
+    INSTRUCCIONES.md            Proceso para clasificar lotes
+    <clave>/clas_*.json         Tipo, impactos por colectivo (+1/−1) y nota de cada iniciativa
+    <clave>/REVISION.md         Casos dudosos pendientes de revisión
+  generado/<clave>/items.json   Iniciativas normalizadas (generado; no editar)
+  cache/                        Respuestas de congreso.es (ignorado por git)
 scripts/
-  legislaturas.py             Configuración por legislatura: grupos, partidos, textos
-  descargar_legislatura.py    Descarga fichas de iniciativas y votaciones del Pleno (reanudable)
-  descargar_historico.sh      Descarga en serie las legislaturas X–XIII del Congreso
-  descargar_europarlamento.py Parlamento Europeo (10.ª): procedimientos y voto de eurodiputados españoles
-  identificar_mixto.py        Partido de las proposiciones de los grupos Mixto y Plural (por el BOCG)
-  textos_bocg.py              Texto de iniciativas concretas (BOCG) para revisar su clasificación
-  build_items.py              data/fuente/<clave>.json -> data/generado/<clave>/items.json
-  build_data.py               items + clasificación + votaciones -> site/data/<clave>.json
-  build_page.py               template.html + catálogo de datasets -> site/index.html
-  preparar_lotes.py           Lotes de iniciativas sin clasificar
-  integrar_clasificacion.py   Integra lotes clasificados, armoniza RDL duplicados y valida
-  validar_clasificacion.py    Comprueba clas_*.json contra la rúbrica y los colectivos de la web
+  legislaturas.py               Configuración por legislatura: grupos, partidos, textos
+  descargar_legislatura.py      Iniciativas y votaciones del Pleno del Congreso (reanudable)
+  descargar_historico.sh        Descarga en serie de las legislaturas X–XIII
+  descargar_europarlamento.py   Parlamento Europeo: procedimientos y voto de eurodiputados españoles
+  identificar_mixto.py          Partido de las proposiciones del Mixto y del Plural (por el BOCG)
+  textos_bocg.py                Texto de iniciativas concretas para revisar su clasificación
+  build_items.py                fuente → items.json
+  build_data.py                 items + clasificación + votaciones → site/data/<clave>.json
+  build_page.py                 template.html + catálogo de datasets → index.html
+  preparar_lotes.py             Lotes de iniciativas sin clasificar
+  integrar_clasificacion.py     Integra lotes, armoniza RDL duplicados y valida
+  validar_clasificacion.py      Comprueba clas_*.json contra la rúbrica y la web
 site/
-  template.html               Página (HTML/CSS/JS sin dependencias, salvo Google Fonts)
-  index.html                  Página final (generada)
-  data/<clave>.json           Un dataset por fuente y legislatura; la página los carga con fetch
+  template.html                 La página: HTML/CSS/JS sin dependencias (solo Google Fonts)
+  index.html                    Página final (generada)
+  data/<clave>.json             Un dataset por fuente y legislatura
 ```
 
-## Reconstruir
-
-```
-python3 scripts/build_items.py congreso_xv
-python3 scripts/validar_clasificacion.py
-python3 scripts/build_data.py congreso_xv
-python3 scripts/build_page.py
-```
-
-`build_data.py` imprime las votaciones que reasigna (la web del Congreso no siempre indica el expediente de cada votación; se comprueba comparando títulos). La página carga los datos con `fetch`: para verla en local, sírvela con `python3 -m http.server 8000 --directory site`.
-
-## Añadir una legislatura
-
-1. Descargar: `python3 scripts/descargar_legislatura.py --leg XIV --desde 2019-12-03 --hasta 2023-05-30` (1,5–2 h; una petición cada ~2,5 s; reanudable).
-2. Configurar grupos, partidos y textos en `scripts/legislaturas.py`.
-3. `build_items.py <clave>` y clasificar con el proceso de `data/clasificacion/INSTRUCCIONES.md` (`preparar_lotes.py` → clasificar lotes → `integrar_clasificacion.py`).
-4. Si hay Grupo Mixto o Plural: `.venv/bin/python scripts/identificar_mixto.py <clave>` y llevar el partido a `clas_*.json`.
-5. `build_data.py <clave>` y `build_page.py`: la legislatura aparece sola en el selector.
-
-Parlamento Europeo: `python3 scripts/descargar_europarlamento.py [--actualizar]` (clave `europarlamento_10`, formato propio declarado con `"formato": "europarlamento"` en `legislaturas.py`); el resto del proceso es igual.
-
-## Metodología resumida
-
-- **Autoría:** proyectos de ley y reales decretos-ley = Gobierno (PSOE–Sumar). Proposiciones con varios grupos cuentan para cada uno. Las del Grupo Mixto aparecen como "Grupo Mixto" porque el Congreso no indica el partido (solo 8 identificadas: campo `partido` en data/clasificacion/congreso_xv/clas_*.json).
-- **Votación clave por iniciativa**, por prioridad: votación final (conjunto/dictamen) > convalidación de RDL > toma en consideración > enmienda a la totalidad (en esta, votar sí = oponerse; se invierte).
-- **Voto de un partido** = voto mayoritario de sus diputados presentes. Podemos (Belarra, Sánchez Serna, Velarde, Santana), BNG (Rego), CC (Valido), UPN (Catalán) y Compromís (Micó) se separan del Grupo Mixto por voto nominal. Ábalos, Ortega Smith y Verstrynge no se cuentan.
-- **Impactos:** clasificación asistida por IA a partir del título, según data/clasificacion/RUBRICA.md. Interpretativa; conviene revisar las de mayor relevancia.
-- **Colores:** verde = beneficia algún rasgo del perfil y no perjudica ninguno; rojo = al revés; ámbar = ambas; gris = no afecta. En votos: sí a lo que beneficia o no a lo que perjudica = verde.
-
-## Pendiente (siguientes pasos)
-
-1. **Imagen de previsualización** (Open Graph) y metaetiquetas para compartir en redes y WhatsApp.
-2. **Revisar clasificaciones** de las leyes más relevantes (fiscales, vivienda, pensiones, laboral, migración).
-3. **Identificar el partido** de las 54 proposiciones del Grupo Mixto (ficha de cada iniciativa en congreso.es, campo de autores/firmantes).
-4. **Otras legislaturas**: XIV en descarga; falta configurarla, clasificarla y convertir la clasificación en un proceso repetible.
-5. **Leyes ómnibus**: leer el texto (BOE / BOCG) y clasificar medida a medida.
+</details>
 
 ## Publicación
 
-Cada push a `main` que toque `site/` publica la carpeta en GitHub Pages (`.github/workflows/pages.yml`). Los enlaces por perfil usan `?p=asal3,prop1`; `&c=0` desactiva «Ciudadanía general», que está activa por defecto, y `&ds=congreso_xiv` abre otra legislatura (por defecto, la más reciente).
+Cada push a `main` que toque `site/` publica la carpeta en GitHub Pages (`.github/workflows/pages.yml`).
 
-## Fuente y licencia de los datos
+Los enlaces se pueden compartir con un perfil ya marcado:
 
-Congreso de los Diputados, datos abiertos: https://www.congreso.es/es/opendata — su reutilización exige citar la fuente.
+| Parámetro | Qué hace | Ejemplo |
+|---|---|---|
+| `p` | Rasgos del perfil, separados por comas | `?p=asal3,prop1` |
+| `c=0` | Desactiva «Ciudadanía general», que viene activa | `?p=asal3&c=0` |
+| `ds` | Abre otra legislatura (por defecto, la más reciente) | `?ds=congreso_xiv` |
 
-Parlamento Europeo: votaciones nominales de HowTheyVote.eu (https://howtheyvote.eu, datos abiertos con atribución) y títulos y fechas de la API de datos abiertos del Parlamento Europeo (https://data.europarl.europa.eu).
+## Pendiente
+
+- [ ] **Imagen de previsualización** (Open Graph) y metaetiquetas para compartir en redes y WhatsApp.
+- [ ] **Revisar las clasificaciones** de las leyes más relevantes: fiscales, vivienda, pensiones, laboral, migración.
+- [ ] **Identificar el partido** de las proposiciones del Grupo Mixto (ficha de cada iniciativa en congreso.es, campo de autores o firmantes).
+- [ ] **Convertir la clasificación en un proceso repetible** entre legislaturas.
+- [ ] **Leyes ómnibus:** leer el texto (BOE / BOCG) y clasificar medida a medida.
+
+## Fuentes y licencia
+
+- **Congreso de los Diputados**, datos abiertos: <https://www.congreso.es/es/opendata>. Su reutilización exige citar la fuente.
+- **Parlamento Europeo:** votaciones nominales de [HowTheyVote.eu](https://howtheyvote.eu) (datos abiertos con atribución), y títulos y fechas de la [API de datos abiertos del Parlamento Europeo](https://data.europarl.europa.eu).
+
+La clasificación de impactos es propia e interpretativa. Si ves una ley mal clasificada, abre un *issue*.

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-label="¿A quién te conviene votar? Lo que votó cada partido en las leyes que te afectan">
+  <defs>
+    <linearGradient id="ondea" x1="0" x2="1" y1="0" y2="0">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".25" stop-color="#fff" stop-opacity=".10"/>
+      <stop offset=".45" stop-color="#000" stop-opacity=".05"/>
+      <stop offset=".7" stop-color="#fff" stop-opacity=".09"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".04"/>
+    </linearGradient>
+    <clipPath id="r"><rect width="1200" height="360" rx="28"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1200" height="360" fill="#F1BF00"/>
+    <rect width="1200" height="64" fill="#AA151B"/>
+    <rect y="296" width="1200" height="64" fill="#AA151B"/>
+    <rect width="1200" height="360" fill="url(#ondea)"/>
+  </g>
+  <g font-family="'Bricolage Grotesque','Arial Black','Helvetica Neue',Arial,sans-serif">
+    <text x="64" y="42" fill="#fff" font-size="22" font-weight="700">Lo que votaron</text>
+    <text x="64" y="168" fill="#1d1600" font-size="74" font-weight="800" letter-spacing="-2.5">¿A quién te conviene</text>
+    <text x="64" y="244" fill="#1d1600" font-size="74" font-weight="800" letter-spacing="-2.5">votar?</text>
+    <rect x="64" y="256" width="236" height="9" rx="3" fill="#AA151B"/>
+    <text x="64" y="336" fill="#fff" font-size="21" font-weight="600">No lo que prometieron: lo que votaron. Congreso y Parlamento Europeo.</text>
+  </g>
+  <g transform="translate(900 62)">
+    <rect x="58" y="0" width="104" height="128" rx="8" fill="#fff" stroke="#16181d" stroke-width="5" transform="rotate(-4 110 64)"/>
+    <circle cx="110" cy="86" r="22" fill="none" stroke="#AA151B" stroke-width="5"/>
+    <path d="m99 86 8 8 15-16" fill="none" stroke="#AA151B" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="76" y="24" width="66" height="8" rx="4" fill="#16181d" opacity=".85"/>
+    <path d="M14 120h192l-13 104H27z" fill="#fff" fill-opacity=".55" stroke="#16181d" stroke-width="5" stroke-linejoin="round"/>
+    <rect x="0" y="104" width="220" height="28" rx="8" fill="#16181d"/>
+    <rect x="55" y="113" width="110" height="9" rx="4.5" fill="#F1BF00"/>
+    <rect x="66" y="176" width="88" height="30" rx="6" fill="#AA151B"/>
+    <rect x="66" y="186" width="88" height="10" fill="#F1BF00"/>
+  </g>
+</svg>
