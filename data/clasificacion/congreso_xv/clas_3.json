@@ -47,7 +47,7 @@
   "tipo": "soc",
   "imp": {
    "inq": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Restringe la publicidad y contratación de pisos turísticos; beneficia a inquilinos y limita a quienes alquilan para uso turístico.",
@@ -754,7 +754,8 @@
   "tipo": "eco",
   "imp": {
    "inq": 1,
-   "viv2": -1
+   "viv2": -1,
+   "casero": -1
   },
   "peso": 1,
   "nota": "Prioriza el uso residencial de la vivienda en Baleares frente a segundas residencias, vacías y alquiler vacacional; restringe a propietarios y favorece a inquilinos.",

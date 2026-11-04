@@ -803,7 +803,7 @@ const CATS = [
   {id:'aut', name:'Autónomos', opts:[['empAut','Autónomos']]},
   {id:'est', name:'Estudiantes', opts:[['estud','Estudiante (de cualquier nivel)']]},
   {id:'vivn', name:'Viviendas en propiedad', pre:'Viviendas: ', opts:[['viv0','Ninguna'],['viv1','Una, la habitual'],['viv2','Dos o más']]},
-  {id:'vivs', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler']]}
+  {id:'vivs', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler'],['casero','Alquilo una vivienda a otros']]}
 ];
 // rasgos del perfil que activan colectivos de la clasificación
 const IMPLICA = {hij1:['infancia'], hij2:['infancia'], hij3:['infancia'], cuid:['depend']};
@@ -819,6 +819,8 @@ const CAT_OF = {}; CATS.forEach(c=>c.opts.forEach(([k])=>CAT_OF[k]=c));
 const CATBY = {}; CATS.forEach(c=>CATBY[c.id]=c);
 const tiene = k => state.pasos.ui.has(k);
 const asalariado = () => tiene('trAjena') || tiene('trFun');
+// tiene una vivienda en la que no vive (y que podría alquilar)
+const tieneOtra = () => tiene('nv2') || (tiene('nv1') && !tiene('vdPropia'));
 const PASOS = [
   {t:'Tú y tu familia', d:'Empieza por ti: tu edad y si tienes hijos.', q:[
     {id:'edad', cat:'edad', req:true},
@@ -837,6 +839,8 @@ const PASOS = [
     {id:'donde', name:'¿Dónde vives?', req:true, ui:[['vdPropia','En casa propia','Vivo en casa propia'],['vdAlq','De alquiler','Vivo de alquiler'],['vdFam','Con mi familia u otra situación','Vivo con mi familia u otra situación']]},
     {id:'nviv', name:'¿Cuántas viviendas tienes en propiedad, en total?', req:true, ui:[['nv0','Ninguna','Ninguna vivienda en propiedad'],['nv1','1','1 vivienda en propiedad'],['nv2','2 o más','2 o más viviendas en propiedad']], off:k=>k==='nv0'&&tiene('vdPropia')?'Vives en una propia':''},
     {id:'hip', name:'¿Tienes hipoteca?', req:true, ui:[['hipSi','Sí','Con hipoteca'],['hipNo','No','Sin hipoteca']], si:()=>tiene('nv1')||tiene('nv2')},
+    // solo quien alquila es casero: tener una segunda vivienda (de vacaciones, del pueblo, vacía) no lo hace arrendador
+    {id:'alq', name:'¿Alquilas alguna de tus viviendas a otras personas?', req:true, ui:[['alqSi','Sí','Alquilo una vivienda a otros'],['alqNo','No','No alquilo ninguna vivienda']], si:tieneOtra},
     {id:'prop', cat:'prop', req:true}]},
   // opcional (opt): el resultado sale al terminar el paso 3. Nada de este paso viaja en los enlaces que se comparten (PRIVADO)
   {t:'Tu situación personal', opt:true, d:'Opcional: afina tu resultado si quieres. Nada de lo que marques aquí sale de tu dispositivo ni va en los enlaces que compartas.', q:[
@@ -848,7 +852,7 @@ const PASOS = [
 ];
 const UI_TXT = {}; PASOS.forEach(P=>P.q.forEach(q=>(q.ui||[]).forEach(([k,v,r])=>UI_TXT[k]=r||v)));
 // colectivos que pone deriva() a partir de las respuestas; en la barra de perfil salen como «se deduce»
-const DERIV = ['empAut','estud','viv0','viv1','viv2','inq','hipot'];
+const DERIV = ['empAut','estud','viv0','viv1','viv2','inq','hipot','casero'];
 const NPASOS = PASOS.length;
 // rasgos y respuestas del paso opcional (sexo, orientación, salud, origen…): se quedan en este navegador, nunca en un enlace
 const PRIVADO = new Set(); PASOS.forEach(P=>{ if(P.opt) P.q.forEach(q=>qOpts(q).forEach(k=>PRIVADO.add(k))); });
@@ -1119,6 +1123,7 @@ function deriva(){
   if(!tiene('trParo')) quita('des');
   if(tiene('vdPropia')) U.delete('nv0');
   if(!tiene('nv1') && !tiene('nv2')){ U.delete('hipSi'); U.delete('hipNo'); }
+  if(!tieneOtra()){ U.delete('alqSi'); U.delete('alqNo'); }
   DERIV.forEach(k=>S.delete(k));
   if(tiene('trAut')) S.add('empAut');
   if(tiene('trEst')) S.add('estud');
@@ -1127,6 +1132,7 @@ function deriva(){
   if(tiene('nv2')) S.add('viv2');
   if(tiene('vdAlq')) S.add('inq');
   if(tiene('hipSi')) S.add('hipot');
+  if(tiene('alqSi')) S.add('casero');
 }
 // enlace antiguo (?p= sin &u=): sus colectivos se traducen a las respuestas del asistente
 function desdeAntiguo(){
@@ -1141,6 +1147,7 @@ function desdeAntiguo(){
   if(h('inq')) U.add('vdAlq'); else if(h('viv1') || h('viv2')) U.add('vdPropia'); else if(h('viv0')) U.add('vdFam');
   if(h('viv0')) U.add('nv0'); else if(h('viv1')) U.add('nv1'); else if(h('viv2')) U.add('nv2');
   if(h('viv1') || h('viv2')) U.add(h('hipot')?'hipSi':'hipNo');
+  if(h('casero')) U.add('alqSi');
 }
 // declaraciones (no const) porque la carga inicial del perfil las usa antes de llegar aquí
 function qName(q){ return q.name || CATBY[q.cat].name; }

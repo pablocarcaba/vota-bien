@@ -113,7 +113,7 @@ TRABAJO = {  # situación laboral principal (una)
     "emp": ["empAut", "empMicro", "empPeq", "empMed", "empGran"],
 }
 VARIOS = {
-    "vivs": ["hipot", "inq"],
+    "vivs": ["hipot", "inq", "casero"],
     "pro": ["proSeg", "proSan", "proDoc"],
     "sec": ["secPrim", "secInd", "secCons", "secTrans", "secCom", "secFin", "secDig", "secSoc"],
     "soc": ["estud", "pac", "depend", "discapacidad", "inmigrantes", "minorias", "rural", "victimas", "pobreza"],
@@ -138,7 +138,7 @@ ARQUETIPOS = {
     "Madre sola con hijo": ["mujeres", "civSep", "hij1", "asal2", "inq", "adultos"],
     "Estudiante": ["estud", "jovenes", "viv0", "civSol"],
     "Mayor dependiente": ["pen1", "mayores", "depend", "viv1"],
-    "Casero con varias viviendas": ["asal4", "viv2", "prop2", "adultos"],
+    "Casero con varias viviendas": ["asal4", "viv2", "casero", "prop2", "adultos"],
     "Transportista autónomo": ["empAut", "secTrans", "viv1", "adultos"],
     "Asalariado de salario mínimo": ["asal1", "inq", "adultos"],
 }

@@ -63,7 +63,7 @@
    "inq": 1,
    "pobreza": 1,
    "secFin": -1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Protege a familias vulnerables frente a desahucios y pobreza energética; limita a arrendadores y entidades acreedoras.",
@@ -487,7 +487,7 @@
   "tipo": "eco",
   "imp": {
    "inq": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Regula los alquileres abusivos y mejora garantías de los inquilinos; limita al arrendador.",

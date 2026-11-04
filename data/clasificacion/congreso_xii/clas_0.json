@@ -446,7 +446,7 @@
   "imp": {
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Amplía la duración mínima de los alquileres y limita al arrendador, y protege frente al desahucio a personas vulnerables.",
@@ -823,7 +823,7 @@
   "imp": {
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Amplía la duración de los contratos de alquiler y limita costes al inquilino; refuerza la protección de hogares vulnerables ante desahucios; restringe al arrendador.",

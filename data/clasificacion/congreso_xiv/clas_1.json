@@ -144,7 +144,7 @@
   "imp": {
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Protege a inquilinos vulnerables con suspensión de desahucios y prórrogas de alquiler; restringe al arrendador.",
@@ -156,7 +156,7 @@
   "imp": {
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Protege a inquilinos vulnerables con suspensión de desahucios y prórrogas de alquiler; restringe al arrendador.",
@@ -349,7 +349,7 @@
    "mujeres": 1,
    "pobreza": 1,
    "victimas": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Prorroga rebaja de IVA de alimentos y suspensión de desahucios de vulnerables, ayuda a La Palma y amplía permisos de conciliación y cuidado.",
@@ -409,7 +409,7 @@
    "secInd": 1,
    "secPrim": 1,
    "secTrans": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Rebaja costes energéticos, limita la subida del alquiler, refuerza protección de vulnerables y ayuda a transporte, industria y sector agrario.",
@@ -425,7 +425,7 @@
    "secInd": 1,
    "secPrim": 1,
    "secTrans": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Rebaja costes energéticos, limita la subida del alquiler, refuerza protección de vulnerables y ayuda a transporte, industria y sector agrario.",

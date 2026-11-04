@@ -30,7 +30,7 @@
    "pen3": 1,
    "pobreza": 1,
    "secPrim": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones, prorroga la rebaja del IVA de alimentos y ayudas al transporte, suspende desahucios de vulnerables y ayuda al sector agrario.",
@@ -236,7 +236,7 @@
   "imp": {
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 1,
   "nota": "Prorroga la suspensión de lanzamientos de la vivienda habitual de hogares vulnerables; protege a inquilinos y limita al arrendador.",
@@ -472,7 +472,7 @@
    "pen2": 1,
    "pen3": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones, prorroga ayudas al transporte y suspende desahucios de personas vulnerables.",

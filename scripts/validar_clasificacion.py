@@ -22,7 +22,7 @@ COLECTIVOS = {
     "prop1", "prop2", "prop3", "prop4",
     "empAut", "empMicro", "empPeq", "empMed", "empGran",
     "secPrim", "secInd", "secCons", "secTrans", "secCom", "secFin", "secDig", "secSoc",
-    "viv0", "viv1", "viv2", "inq", "hipot", "cons",
+    "viv0", "viv1", "viv2", "casero", "inq", "hipot", "cons",
     "proSeg", "proSan", "proDoc",
     "civSol", "civPar", "civSep", "civViu", "hij1", "hij2", "hij3", "monop",
     "hombres", "mujeres", "lgtbi", "jovenes", "adultos", "infancia", "mayores", "inmigrantes", "discapacidad",

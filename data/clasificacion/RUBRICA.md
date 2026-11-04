@@ -10,6 +10,8 @@ Versión 3 (fecha 04/11/2026). Cambios respecto a la v2:
 - **Ejemplos resueltos** con casos reales de la doble lectura de la XV (5).
 - Los identificadores de colectivos y el formato de salida no cambian.
 
+Cambio posterior (04/11/2026): nuevo colectivo **`casero`** (alquila una vivienda a otros). Las medidas sobre el arrendador pasan de `viv2` a `casero`; `viv2` queda para quien tiene más de una vivienda, la alquile o no (okupación, IBI, plusvalía). Tener una segunda vivienda no convierte a nadie en arrendador.
+
 Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social y (2) a qué colectivos beneficia (+1) o perjudica (−1) a partir de su título y del texto o contenido que se conozca con seguridad. La clasificación debe ser neutral, sobria y defendible: describe efectos, no opina sobre si la medida es buena o mala. **Cada regla se aplica igual sea cual sea el autor de la iniciativa y la orientación de la medida**: si una regla marca −1 al endurecer una exigencia, marca +1 al suavizarla, y viceversa.
 
 ## 1. Tipo
@@ -28,7 +30,7 @@ Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social
 - Pensionistas por pensión anual: `pen1` (<12.000 €, mínimas y no contributivas), `pen2` (12.000–25.000), `pen3` (25.000–42.000, hasta la máxima)
 - Desempleados: `desPres` (con prestación contributiva), `desSub` (subsidio o Ingreso Mínimo Vital)
 - Vivienda en propiedad: `viv0` (ninguna), `viv1` (una, la habitual), `viv2` (dos o más)
-- Hipoteca y alquiler: `hipot` (con hipoteca), `inq` (vive de alquiler)
+- Hipoteca y alquiler: `hipot` (con hipoteca), `inq` (vive de alquiler), `casero` (alquila una vivienda a otros; el asistente lo pregunta a quien tiene una vivienda en la que no vive)
 - Otro patrimonio neto **sin contar la vivienda habitual**: `prop1` (<200.000 €), `prop2` (200.000–700.000), `prop3` (700.000–3 M), `prop4` (>3 M)
 - Empresarios por tamaño: `empAut` (autónomos), `empMicro` (<2 M€ de facturación), `empPeq` (2–10 M), `empMed` (10–50 M), `empGran` (>50 M)
 - Empresarios por sector (complementa al tamaño): `secPrim` (agricultura, ganadería, pesca, forestal), `secInd` (industria, energía, minería, química), `secCons` (construcción, promoción e inmobiliario), `secTrans` (transporte y logística), `secCom` (comercio, hostelería y turismo), `secFin` (banca, seguros y finanzas), `secDig` (tecnología, telecomunicaciones y medios digitales), `secSoc` (sanidad, educación y cuidados privados: clínicas, aseguradoras de salud, centros concertados, residencias)
@@ -72,7 +74,7 @@ Solo estos efectos se marcan aunque la ley no nombre al colectivo (P1 «no»). D
 2. Coste laboral general a cargo de la empresa → −1 `empAut`, `empMicro`, `empPeq` (3.4.2).
 3. Medidas generales de IRPF que alcanzan a las pensiones por tributar como rendimientos del trabajo → tramos `pen` según 3.3.1.
 
-No son indirectos, porque la ley regula directamente su actividad o situación (P1 «sí»): el arrendador en las medidas de alquiler (`viv2`) y el sector que cumple una exigencia ambiental, sanitaria o de seguridad.
+No son indirectos, porque la ley regula directamente su actividad o situación (P1 «sí»): el arrendador en las medidas de alquiler (`casero`) y el sector que cumple una exigencia ambiental, sanitaria o de seguridad.
 
 ### 3.2 Ciudadanía general (`ciud`)
 El criterio de fondo no cambia respecto a la v2. Esta sección solo lo hace más predecible.
@@ -158,7 +160,7 @@ Si la ley da el umbral en **salario bruto** o en otra magnitud (rendimientos, re
 | Producción y venta de electricidad, gas, petróleo; industria electrointensiva; defensa y armamento; industria alimentaria; laboratorios farmacéuticos y fabricantes de productos sanitarios | `secInd` |
 | Agricultura, ganadería (incluida la de lidia), pesca, acuicultura, regadío, forestal | `secPrim` |
 | Comercio, hostelería, turismo, ocio y espectáculos privados, servicios personales (peluquería, estética), farmacias y ópticas como venta minorista | `secCom` |
-| Construcción, promoción, inmobiliarias, alquiler de vivienda por empresas | `secCons` (el alquiler por particulares va a `viv2`, 3.5) |
+| Construcción, promoción, inmobiliarias, alquiler de vivienda por empresas | `secCons` (el alquiler por particulares va a `casero`, 3.5) |
 | Clínicas, hospitales privados, aseguradoras de salud, centros concertados, residencias, servicios de cuidados privados | `secSoc` |
 | Banca, seguros, fondos, mercados financieros | `secFin` |
 | Telecomunicaciones, plataformas digitales, tecnología, medios audiovisuales y prensa | `secDig` |
@@ -181,11 +183,11 @@ Si la ley da el umbral en **salario bruto** o en otra magnitud (rendimientos, re
 ### 3.5 Vivienda, patrimonio, consumo y pobreza
 
 #### Vivienda y patrimonio (sin cambios de fondo respecto a la v2)
-- Control de alquileres, limitación de desahucios, prórroga de contratos o restricciones al arrendador (incluido el alquiler turístico por particulares) → +1 `inq` (y `jovenes` si se dirige a ellos; `pobreza` si protege a vulnerables) y −1 `viv2`. **No** uses los tramos `prop*` para esto.
-- Incentivos fiscales al arrendador (por ejemplo, rebajas de IRPF por alquilar barato) → +1 `viv2`. Si la misma ley también limita o grava al arrendador, `viv2` tiene signos opuestos y no se marca (3.1.1).
-- Medidas contra grandes tenedores o la especulación inmobiliaria → −1 `prop3`/`prop4` (no `viv2`).
+- Control de alquileres, limitación de desahucios, prórroga de contratos o restricciones al arrendador (incluido el alquiler turístico por particulares) → +1 `inq` (y `jovenes` si se dirige a ellos; `pobreza` si protege a vulnerables) y −1 `casero`. **No** uses `viv2` (no todo el que tiene dos viviendas alquila) ni los tramos `prop*` para esto.
+- Incentivos fiscales al arrendador (por ejemplo, rebajas de IRPF por alquilar barato) → +1 `casero`. Si la misma ley también limita o grava al arrendador, o le compensa y además le da un incentivo, `casero` tiene signos opuestos y no se marca (3.1.1).
+- Medidas contra grandes tenedores o la especulación inmobiliaria → −1 `prop3`/`prop4` (no `viv2` ni `casero`).
 - Ayudas a la compra de la primera vivienda → +1 `viv0`. IBI de la vivienda habitual o comunidades de propietarios → `viv1` (y `viv2` si afectan a cualquier vivienda). Una modificación de la Ley de Propiedad Horizontal solo se marca si se conoce qué cambia (3.9).
-- Okupación y desalojos exprés → +1 `viv2`. **No** marques `viv1`.
+- Okupación y desalojos exprés → +1 `viv2`. **No** marques `viv1`. Restricciones a las segundas residencias o a las viviendas vacías → `viv2`; si además limitan el alquiler, también `casero`.
 - Hipotecas (Euríbor, ayudas, código de buenas prácticas) → +1 `hipot`; si cuestan a la banca, −1 `secFin`.
 
 #### 3.5.1 Tabla de `cons`
@@ -301,7 +303,7 @@ Impulsa el almacenamiento, impone exigencias técnicas a los operadores y recupe
 ### 5.7 Medida mixta sobre el arrendador: 122/000196 (alquiler asequible)
 Rebajas de IRPF a quien alquila barato o a jóvenes, IVA del 21 % al alquiler turístico, impuesto a compradores extracomunitarios y vivienda pública.
 - Vigente: `inq`, `jovenes`, `viv2` +, `secCom −`. A: `inq`, `jovenes`, `viv2`, `secCons` +. B: `inq`, `jovenes` +, `viv2 −`.
-- **v3**: `{"inq":1,"jovenes":1}`, peso 2. `viv2` gana con la rebaja de IRPF y pierde con el IVA turístico: signos opuestos, no se marca (3.1.1, 3.5). `secCom` solo si la ley grava expresamente a empresas turísticas; el alquiler turístico de particulares va a `viv2` (3.4.1). `secCons` no: «más oferta beneficia a la construcción» necesita dos «porque» (P3).
+- **v3**: `{"inq":1,"jovenes":1}`, peso 2. El arrendador (hoy `casero`) gana con la rebaja de IRPF y pierde con el IVA turístico: signos opuestos, no se marca (3.1.1, 3.5). `secCom` solo si la ley grava expresamente a empresas turísticas; el alquiler turístico de particulares va a `casero` (3.4.1). `secCons` no: «más oferta beneficia a la construcción» necesita dos «porque» (P3).
 
 ### 5.8 Peso por contenido, no por la ley modificada: 122/000117 (comedores escolares en la LOE)
 Mandata comedores escolares universales, gratuitos y abiertos todo el año en centros públicos.
@@ -311,7 +313,7 @@ Mandata comedores escolares universales, gratuitos y abiertos todo el año en ce
 ### 5.9 Ómnibus: 130/000012 (Real Decreto-ley 9/2024)
 Revaloriza las pensiones, prorroga ayudas al transporte y la suspensión de desahucios de personas vulnerables.
 - Vigente: `pen1–3`, `inq`, `pobreza`, `cons` +, `viv2 −`. A: añade `mayores`, `secTrans`, `empAut` y quita `inq` y `viv2`. B: `pen1`, `pen2`, `mayores`, `cons`, `pobreza`, `inq`, `asal1`, `asal2` +.
-- **v3**: `{"pen1":1,"pen2":1,"pen3":1,"mayores":1,"cons":1,"inq":1,"pobreza":1,"viv2":-1}`, peso 3. Unión de los bloques identificables (3.8): revalorización general → los tres tramos + `mayores` (3.3.2); transporte → `cons`, sin `secTrans` (3.3.3); desahucios de vulnerables → `inq`, `pobreza`, −`viv2` (3.5). `asal1`/`asal2` no: no hay medida sobre salarios (3.3.1). `empAut` no: no consta el bloque en el título ni en el texto disponible. Peso 3 porque incluye la revalorización general de las pensiones (3.8, paso 1, y regla de ómnibus).
+- **v3**: `{"pen1":1,"pen2":1,"pen3":1,"mayores":1,"cons":1,"inq":1,"pobreza":1,"casero":-1}`, peso 3. Unión de los bloques identificables (3.8): revalorización general → los tres tramos + `mayores` (3.3.2); transporte → `cons`, sin `secTrans` (3.3.3); desahucios de vulnerables → `inq`, `pobreza`, −`casero` (3.5). `asal1`/`asal2` no: no hay medida sobre salarios (3.3.1). `empAut` no: no consta el bloque en el título ni en el texto disponible. Peso 3 porque incluye la revalorización general de las pensiones (3.8, paso 1, y regla de ómnibus).
 
 ### 5.10 Tipo reducido de IVA de un servicio: 124/000001
 Título: «modifica el apartado Uno, punto 2, del artículo 91 de la Ley del IVA». El texto aplica el 10 % a peluquería, barbería y estética.

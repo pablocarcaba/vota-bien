@@ -532,7 +532,7 @@
   "imp": {
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 1,
   "nota": "Prorroga la suspensión de lanzamientos de vivienda habitual de vulnerables: protege a inquilinos y limita al arrendador.",
@@ -632,7 +632,7 @@
    "pen2": 1,
    "pen3": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones, prorroga ayudas al transporte y la suspensión de desahucios de personas vulnerables; limita al arrendador.",
@@ -673,7 +673,7 @@
    "pen2": 1,
    "pen3": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones, prorroga ayudas al transporte y la suspensión de desahucios de personas vulnerables; limita al arrendador.",
@@ -835,7 +835,7 @@
   "imp": {
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Prorroga la suspensión de desahucios de personas vulnerables: protege a inquilinos y limita al arrendador.",

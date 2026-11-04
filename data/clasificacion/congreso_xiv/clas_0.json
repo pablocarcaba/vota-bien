@@ -159,7 +159,7 @@
    "inq": 1,
    "pobreza": 1,
    "victimas": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Prorroga rebajas de IVA energético, limita la subida del alquiler, protege a vulnerables y ayuda a los afectados de La Palma.",
@@ -173,7 +173,7 @@
    "inq": 1,
    "pobreza": 1,
    "victimas": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Prorroga rebajas de IVA energético, limita la subida del alquiler, protege a vulnerables y ayuda a los afectados de La Palma.",
@@ -400,7 +400,7 @@
    "cons": 1,
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Prorroga la protección de vulnerables: suspensión de desahucios, bono social y garantía de suministros; limita al arrendador y protege al inquilino.",
@@ -413,7 +413,7 @@
    "cons": 1,
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Prorroga la protección de vulnerables: suspensión de desahucios, bono social y garantía de suministros; limita al arrendador y protege al inquilino.",
@@ -670,7 +670,7 @@
    "inq": 1,
    "pobreza": 1,
    "victimas": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Protege a autónomos, ayuda a los afectados por el volcán de La Palma y prorroga la suspensión de desahucios de vulnerables, que perjudica a arrendadores.",
@@ -758,7 +758,7 @@
    "pobreza": 1,
    "secPrim": 1,
    "victimas": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones, baja el IVA de alimentos y energía, ayuda al transporte, limita alquileres, protege a vulnerables y apoya a La Palma y al campo.",
@@ -778,7 +778,7 @@
    "pobreza": 1,
    "secPrim": 1,
    "victimas": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones, baja el IVA de alimentos y energía, ayuda al transporte, limita alquileres, protege a vulnerables y apoya a La Palma y al campo.",
@@ -810,7 +810,7 @@
   "imp": {
    "inq": 1,
    "pobreza": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Prorroga la protección de hogares vulnerables frente a desahucios y cortes de suministros; beneficia a inquilinos vulnerables y perjudica a arrendadores.",

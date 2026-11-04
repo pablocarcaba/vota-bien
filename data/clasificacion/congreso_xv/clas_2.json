@@ -161,7 +161,7 @@
   "tipo": "eco",
   "imp": {
    "inq": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Regula los contratos de temporada y de habitaciones para evitar eludir la regulación del alquiler; protege al inquilino y restringe al arrendador.",
@@ -331,7 +331,7 @@
   "tipo": "eco",
   "imp": {
    "inq": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Regula los contratos temporales y de habitaciones para evitar eludir la regulación del alquiler; protege al inquilino y restringe al arrendador.",
@@ -431,7 +431,7 @@
   "tipo": "eco",
   "imp": {
    "secCons": 1,
-   "viv2": 1
+   "casero": 1
   },
   "peso": 1,
   "nota": "Permite materializar la RIC en vivienda destinada a alquiler en Canarias; incentivo fiscal a arrendadores y empresas inversoras.",
@@ -609,7 +609,7 @@
   "tipo": "eco",
   "imp": {
    "inq": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 2,
   "nota": "Introduce el contrato de alquiler indefinido; da estabilidad al inquilino y limita al arrendador.",
@@ -903,7 +903,7 @@
   "tipo": "eco",
   "imp": {
    "inq": 1,
-   "viv2": -1
+   "casero": -1
   },
   "peso": 1,
   "nota": "Restablece el tanteo y retracto del inquilino en ventas conjuntas; restringe al propietario.",
