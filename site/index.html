@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>¿A quién te conviene votar?</title>
-<meta name="description" content="En campaña todos prometen. Marca tu situación (trabajo, impuestos, vivienda, familia) y descubre qué partidos votaron a favor o en contra de las leyes que te afectan, en el Congreso y en el Parlamento Europeo.">
+<meta name="description" content="Tú madrugas, trabajas y pagas tus impuestos. Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia, en el Congreso y en el Parlamento Europeo.">
 <meta name="theme-color" content="#0a0f1c">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23AA151B'/%3E%3Crect y='8' width='32' height='16' fill='%23F1BF00'/%3E%3Cpath d='m9 16.5 5 5 9-10' fill='none' stroke='%231d1600' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,32 +56,39 @@ h1,h2,h3{text-wrap:balance}
 .hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;
   background-image:linear-gradient(rgba(255,255,255,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.035) 1px,transparent 1px);background-size:56px 56px;
   -webkit-mask-image:radial-gradient(80% 70% at 30% 40%,#000,transparent 75%);mask-image:radial-gradient(80% 70% at 30% 40%,#000,transparent 75%)}
-/* la bandera: franjas que ondean con desfase */
-.flag{position:absolute;z-index:-2;right:-8%;top:6%;width:min(92vw,1100px);aspect-ratio:3/2;display:flex;opacity:.42;transform:rotate(-9deg);
-  -webkit-mask-image:radial-gradient(closest-side,#000 55%,transparent 100%);mask-image:radial-gradient(closest-side,#000 55%,transparent 100%)}
-.flag i{flex:1;margin-right:-1px;height:100%;background:linear-gradient(#AA151B 0 25%,#F1BF00 25% 75%,#AA151B 75%);
-  transform:translateY(calc(sin(var(--i) * .17rad) * 3%));filter:brightness(calc(1 + cos(var(--i) * .17rad) * .14))}
+/* la bandera: franjas que ondean con desfase. En escritorio ocupa la mitad derecha, detrás de la tarjeta; solo se funde por la izquierda, hacia el texto, para que se vea su forma y su ondeo */
+.flag{position:absolute;z-index:-2;left:50%;top:9%;width:58%;aspect-ratio:3/2;display:flex;align-items:center;opacity:.72;transform:rotate(-5deg);--amp:3.4%;
+  -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 20%);mask-image:linear-gradient(90deg,transparent 0,#000 20%)}
+.flag i{flex:1;margin-right:-1px;height:86%;background:linear-gradient(#D2101E 0 25%,#FFC400 25% 75%,#D2101E 75%);
+  transform:translateY(calc(sin(var(--i) * .17rad) * var(--amp)));filter:brightness(calc(1 + cos(var(--i) * .17rad) * .14))}
 @media (prefers-reduced-motion:no-preference){
   .flag i{animation:ondea 3.8s ease-in-out infinite;animation-delay:calc(var(--i) * -.045s)}
   .scroll-cue svg{animation:baja 2.2s ease-in-out infinite}
   .kicker i{animation:late 2.4s ease-in-out infinite}
 }
-@keyframes ondea{0%,100%{transform:translateY(-3.2%);filter:brightness(1.16)}50%{transform:translateY(3.2%);filter:brightness(.78)}}
+@keyframes ondea{0%,100%{transform:translateY(calc(var(--amp) * -1));filter:brightness(1.14)}50%{transform:translateY(var(--amp));filter:brightness(.74)}}
 @keyframes baja{0%,100%{transform:translateY(0)}50%{transform:translateY(6px)}}
 @keyframes late{0%,100%{box-shadow:0 0 0 0 rgba(241,191,0,.55)}60%{box-shadow:0 0 0 7px rgba(241,191,0,0)}}
 .hero.paused *,.hero.paused *::before{animation-play-state:paused!important}
-@media (max-width:980px){.flag{right:-30%;top:-4%;width:150vw;opacity:.22}}
+/* tableta y móvil: la bandera sale del texto y ondea en una banda propia, entre la barra superior y el título */
+@media (max-width:980px){
+  .topbar{order:0}.hero-in{order:2}
+  .flag{order:1;position:relative;left:auto;top:auto;width:100%;height:clamp(92px,24vw,176px);aspect-ratio:auto;flex:none;opacity:.94;transform:none;--amp:6%;
+    -webkit-mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent);mask-image:linear-gradient(90deg,transparent,#000 9%,#000 91%,transparent)}
+  .flag i{height:80%}
+}
 /* A5: la palabra en degradado no pierde contraste cuando pasa la franja amarilla */
 .hero h1 em{filter:drop-shadow(0 0 1px #0a0f1c) drop-shadow(0 2px 12px rgba(10,15,28,.7))}
 
+.topbar::before{content:"";position:absolute;left:0;right:0;top:0;height:8px;z-index:1;background:linear-gradient(var(--rojo) 0 25%,var(--oro) 25% 75%,var(--rojo) 75%)}
 .topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:18px;padding-bottom:18px;width:100%}
 .brand{display:flex;align-items:center;gap:10px;font-family:var(--display);font-weight:800;font-size:18px;letter-spacing:-.01em;color:#fff;text-decoration:none}
 .brand .mark{width:34px;height:34px;border-radius:10px;display:grid;place-items:center;background:linear-gradient(#AA151B 0 25%,#F1BF00 25% 75%,#AA151B 75%);box-shadow:0 6px 18px -6px rgba(241,191,0,.6),inset 0 0 0 1px rgba(255,255,255,.25)}
 .brand .mark svg{width:18px;height:18px;stroke:#1d1600;stroke-width:3;fill:none;stroke-linecap:round;stroke-linejoin:round}
 .topbar nav{display:flex;gap:6px;margin-left:auto}
 .nav-btn{background:none;border:none;padding:0;cursor:pointer;color:var(--accent);font-weight:600;text-decoration:none}
-.topbar .nav-btn{display:inline-flex;align-items:center;gap:7px;color:#fff;padding:9px 14px;border-radius:999px;font-size:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
-.topbar .nav-btn:hover{background:rgba(255,255,255,.14)}
+.topbar .nav-btn{display:inline-flex;align-items:center;gap:7px;color:#fff;padding:9px 14px;border-radius:999px;font-size:14px;background:rgba(10,15,28,.5);border:1px solid rgba(255,255,255,.12);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.topbar .nav-btn:hover{background:rgba(10,15,28,.72)}
 .topbar .nav-btn .ico{width:16px;height:16px}
 @media (max-width:520px){.topbar .nav-btn span{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}.topbar .nav-btn{padding:10px}}
 
@@ -95,8 +102,8 @@ h1,h2,h3{text-wrap:balance}
 .hero h1 em{font-style:normal;background:linear-gradient(95deg,#F1BF00 0%,#ffd84a 45%,#ff7a5c 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
 .lede{font-size:clamp(18px,2vw,22px);line-height:1.5;max-width:40ch;margin:0 0 32px;color:rgba(255,255,255,.80)}
 .lede b{color:#fff;font-weight:600}
-.cta-row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;font-size:17px;padding:16px 26px;border-radius:14px;text-decoration:none;border:none;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
+.cta-row{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font-weight:700;font-size:17px;padding:16px 22px;border-radius:14px;text-decoration:none;border:none;cursor:pointer;transition:transform .18s ease,box-shadow .18s ease,background .18s ease}
 .btn-primary{background:var(--oro);color:var(--oro-ink);box-shadow:0 14px 34px -14px rgba(241,191,0,.75)}
 .btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 40px -14px rgba(241,191,0,.85)}
 .btn-ghost{color:#fff;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.16);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
@@ -106,11 +113,12 @@ h1,h2,h3{text-wrap:balance}
 .stat .ico{color:var(--oro);width:18px;height:18px}
 .stat b{font-family:var(--display);font-weight:800;font-size:20px;color:#fff;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .stat.src{font-size:13px}
-@media (max-width:640px){.cta-row .btn{flex:1 1 100%}.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.stat{white-space:normal;line-height:1.25;min-width:0;overflow-wrap:break-word}.stat b{white-space:nowrap}.stat.src{grid-column:1/-1}}
+@media (max-width:640px){.cta-row .btn{flex:1 1 100%;font-size:16px;padding:16px 18px}.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.stat{white-space:normal;line-height:1.25;min-width:0;overflow-wrap:break-word}.stat b{white-space:nowrap}.stat.src{grid-column:1/-1}}
 @media (max-width:360px){.stat{padding:10px;gap:7px}.stat .ico{display:none}}
 
 /* tarjeta de cristal */
-.glass{position:relative;border-radius:26px;padding:clamp(20px,3vw,32px);background:linear-gradient(160deg,rgba(10,15,28,.62),rgba(10,15,28,.46));border:1px solid rgba(255,255,255,.16);-webkit-backdrop-filter:blur(22px) saturate(1.2);backdrop-filter:blur(22px) saturate(1.2);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.glass{position:relative;border-radius:26px;padding:clamp(20px,3vw,32px);background:linear-gradient(160deg,rgba(10,15,28,.7),rgba(10,15,28,.58));border:1px solid rgba(255,255,255,.18);-webkit-backdrop-filter:blur(10px) saturate(1.15);backdrop-filter:blur(10px) saturate(1.15);box-shadow:0 30px 60px -30px rgba(0,0,0,.6)}
+.glass h2,.glass b,.glass small,.trust li,.promise{text-shadow:0 1px 2px rgba(10,15,28,.85)}
 .glass h2{font-family:var(--display);font-size:13px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:rgba(255,255,255,.85);margin:0 0 18px}
 .steps{list-style:none;margin:0;padding:0;display:grid;gap:18px}
 .steps li{display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 16px;align-items:start}
@@ -118,14 +126,15 @@ h1,h2,h3{text-wrap:balance}
 .steps .tile .ico{width:22px;height:22px}
 .steps b{font-family:var(--display);font-weight:700;font-size:18px;line-height:1.25;letter-spacing:-.01em}
 .steps small{font-size:14.5px;color:rgba(255,255,255,.9);line-height:1.45}
-.trust{list-style:none;margin:22px 0 0;padding:18px 0 0;border-top:1px solid rgba(255,255,255,.12);display:grid;gap:10px;font-size:14px;color:rgba(255,255,255,.9)}
+.trust{position:relative;list-style:none;margin:22px 0 0;padding:18px 0 0;border-top:1px solid rgba(255,255,255,.12);display:grid;gap:10px;font-size:14px;color:rgba(255,255,255,.9)}
+.trust::before,footer::before{content:"";position:absolute;left:0;top:-2px;width:44px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--rojo) 0 25%,var(--oro) 25% 75%,var(--rojo) 75%)}
 .trust li{display:flex;gap:10px;align-items:flex-start}
 .trust .ico{width:18px;height:18px;color:#7fd08a;margin-top:1px}
-.promise{font-family:var(--display);font-weight:800;font-size:clamp(18px,1.8vw,21px);letter-spacing:-.015em;line-height:1.3;margin:20px 0 0;padding:16px 18px;border-radius:16px;background:rgba(10,15,28,.45);border:1px solid rgba(255,255,255,.1)}
-.promise span{color:var(--oro)}
+.promise{font-family:var(--display);font-weight:700;font-size:clamp(18px,1.8vw,21px);letter-spacing:-.015em;line-height:1.3;margin:20px 0 0;padding:16px 18px;border-radius:16px;background:rgba(10,15,28,.6);border:1px solid rgba(255,255,255,.1)}
+.promise span{color:var(--oro);font-weight:800}
 .scroll-cue{position:absolute;left:50%;bottom:74px;transform:translateX(-50%);color:rgba(255,255,255,.55);display:flex;flex-direction:column;align-items:center;gap:4px;font-size:12px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
-.motion-btn{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;cursor:pointer;color:#fff;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16)}
-.motion-btn:hover{background:rgba(255,255,255,.16)}
+.motion-btn{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;cursor:pointer;color:#fff;background:rgba(10,15,28,.5);border:1px solid rgba(255,255,255,.16)}
+.motion-btn:hover{background:rgba(10,15,28,.72)}
 .motion-btn .ico{width:16px;height:16px}
 .motion-btn .play{display:none}.hero.paused .motion-btn .play{display:block}.hero.paused .motion-btn .pause{display:none}
 @media (max-width:980px){.scroll-cue{display:none}}
@@ -136,7 +145,8 @@ body.sub .scroll-cue,body.sub .glass,body.sub .hero-in > div > :not(h1){display:
 body.sub .hero-in{display:block;padding:0}
 body.sub .hero h1{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
 body.sub .flag i{animation:none}
-body.sub .flag{opacity:.22;top:-60%;width:70vw}
+body.sub .flag{opacity:.4;top:-70%;width:62%;--amp:0%}
+@media (max-width:980px){body.sub .flag{top:auto;width:100%;height:40px;opacity:.85}}
 body.sub .hero{padding-bottom:44px}
 body.sub .wrap{margin-top:-24px;padding-top:0}
 
@@ -160,7 +170,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.08fr);gap:22px;align-items:start}
 @media (max-width:900px){.grid{grid-template-columns:minmax(0,1fr)}}
 .panel{position:relative;background:var(--sheet);border:1px solid var(--line);border-radius:24px;padding:clamp(18px,2.4vw,26px);box-shadow:var(--shadow)}
-.panel::before{content:"";position:absolute;left:28px;top:-1px;width:64px;height:4px;border-radius:0 0 6px 6px;background:linear-gradient(90deg,var(--rojo),var(--oro))}
+.panel::before{content:"";position:absolute;left:28px;top:-1px;width:72px;height:5px;border-radius:0 0 5px 5px;background:linear-gradient(90deg,var(--rojo) 0 25%,var(--oro) 25% 75%,var(--rojo) 75%)}
 .panel h2{font-family:var(--display);font-weight:800;font-size:clamp(22px,2.2vw,27px);letter-spacing:-.025em;line-height:1.12;margin:0 0 6px}
 .panel .hint{font-size:14px;color:var(--muted);margin:0 0 14px}
 .shead{display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:start;margin-bottom:8px}
@@ -182,7 +192,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .qs-btn .qt{flex:1;min-width:0;color:var(--ink)}
 .qs-btn small{display:block;font-weight:500;font-size:12.5px;color:var(--muted)}
 .qs-btn .ar{flex:none;font-size:18px;line-height:1;color:var(--accent)}
-@media (max-width:560px){.qs-grid{grid-template-columns:minmax(0,1fr)}.qs-btn{min-height:52px}.qs-btn small{display:inline;margin-left:6px}}
+@media (max-width:560px){.qs-grid{grid-template-columns:minmax(0,1fr)}.qs-btn{min-height:52px}}
 .grp{border:1px solid var(--line);border-radius:18px;margin-top:10px;background:var(--sheet);overflow:hidden;transition:border-color .15s ease,box-shadow .15s ease}
 .grp[open]{border-color:color-mix(in srgb,var(--accent) 30%,var(--line));box-shadow:0 10px 30px -22px rgba(30,58,110,.5)}
 .grp summary{list-style:none;display:flex;align-items:center;gap:14px;padding:14px 16px;cursor:pointer;font-weight:700;font-size:16px;user-select:none}
@@ -198,15 +208,19 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .gbody{padding:2px 16px 16px}
 .cat{margin-top:12px}
 .cat h3,.cat h4{font-size:13.5px;font-weight:600;color:var(--ink);margin:0 0 8px}
-.cat .one{font-weight:500;color:var(--muted)}
+.gnote{margin:10px 0 2px;padding:8px 12px;border-radius:10px;background:var(--soft);font-size:13px;color:var(--muted)}
 .catsub{font-family:var(--display);font-size:15px;font-weight:700;margin:16px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .catsub:first-child{border-top:none;padding-top:4px;margin-top:6px}
 .cnote{font-size:13px;color:var(--muted);margin:-2px 0 8px}
 .opts{display:flex;flex-wrap:wrap;gap:8px}
-.opt{font-size:14px;font-weight:500;padding:9px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--sheet);cursor:pointer;font-variant-numeric:tabular-nums;display:inline-flex;align-items:center;gap:6px;transition:border-color .12s ease,background .12s ease,transform .12s ease}
+.opt{font-size:14px;font-weight:500;text-align:left;padding:9px 14px;border:1.5px solid var(--line);border-radius:12px;background:var(--sheet);cursor:pointer;font-variant-numeric:tabular-nums;display:inline-flex;align-items:center;gap:6px;transition:border-color .12s ease,background .12s ease,transform .12s ease}
 .opt:hover{border-color:var(--accent);transform:translateY(-1px)}
 .opt[aria-pressed="true"]{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
-.opt[aria-pressed="true"]::before{content:"";width:6px;height:10px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg) translate(-1px,-1px);margin-right:2px}
+/* casilla cuadrada si se pueden marcar varias; círculo si es una sola opción (.solo) */
+.opt::before{content:"";flex:none;width:14px;height:14px;box-sizing:border-box;border:1.5px solid color-mix(in srgb,currentColor 65%,transparent);border-radius:4px}
+.solo .opt::before{border-radius:50%}
+.opt[aria-pressed="true"]::before{width:6px;height:10px;border:solid currentColor;border-width:0 2px 2px 0;border-radius:0;transform:rotate(45deg) translate(-1px,-1px);margin:0 2px 0 4px}
+.solo .opt[aria-pressed="true"]::before{width:14px;height:14px;border:1.5px solid currentColor;border-radius:50%;transform:none;margin:0;background:radial-gradient(circle,currentColor 0 3px,transparent 3.6px)}
 
 /* fuente y legislatura */
 .panel.fuente{padding:0}
@@ -275,7 +289,8 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 /* barra de acceso al resultado (móvil) */
 .mbar{display:none}
 @media (max-width:900px){
-  body.mb-on .mbar{display:flex;position:fixed;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:10;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px 12px 18px;border-radius:18px;background:rgba(10,15,28,.92);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);color:#fff;border:1px solid rgba(255,255,255,.12);font:inherit;font-size:15px;cursor:pointer;box-shadow:0 16px 36px -12px rgba(0,0,0,.6);text-align:left}
+  body.mb-on .mbar{display:flex;overflow:hidden;position:fixed;left:12px;right:12px;bottom:max(12px,env(safe-area-inset-bottom,0px));z-index:10;align-items:center;justify-content:space-between;gap:12px;padding:12px 14px 12px 18px;border-radius:18px;background:rgba(10,15,28,.92);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px);color:#fff;border:1px solid rgba(255,255,255,.12);font:inherit;font-size:15px;cursor:pointer;box-shadow:0 16px 36px -12px rgba(0,0,0,.6);text-align:left}
+  .mbar::before{content:"";position:absolute;left:0;right:0;top:0;height:6px;background:linear-gradient(var(--rojo) 0 25%,var(--oro) 25% 75%,var(--rojo) 75%)}
   .mbar b{font-family:var(--display);font-weight:800;font-size:17px}
   .mbar .go{background:var(--oro);color:var(--oro-ink);font-weight:700;border-radius:12px;padding:8px 13px;white-space:nowrap}
   body.mb-on .wrap{padding-bottom:110px}
@@ -336,7 +351,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .prose h3{font-family:var(--display);font-size:19px;font-weight:700;margin:28px 0 6px}
 .prose p,.prose li{color:var(--ink)}
 .prose .small{font-size:13px;color:var(--muted)}
-footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:flex;gap:14px;align-items:flex-start}
+footer{position:relative;margin-top:48px;padding-top:20px;border-top:1px solid var(--line);font-size:13px;color:var(--muted);display:flex;gap:14px;align-items:flex-start}
 footer b{color:var(--ink)}
 footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linear-gradient(var(--rojo) 25%,var(--oro) 25% 75%,var(--rojo) 75%);margin-top:2px}
 </style>
@@ -379,9 +394,9 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
     <div>
       <span class="kicker"><i aria-hidden="true"></i><span id="eyebrow">Datos oficiales</span></span>
       <h1>¿A quién te <em>conviene</em> votar?</h1>
-      <p class="lede">En campaña todos prometen. <b>Los votos quedan escritos.</b> Mira qué votó cada partido sobre tu sueldo, tus impuestos, tu casa y tu familia.</p>
+      <p class="lede">Tú madrugas, trabajas y pagas tus impuestos. <b>Ellos votan leyes.</b> Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.</p>
       <div class="cta-row">
-        <a class="btn btn-primary" href="#filters" id="intro-cta">Descúbrelo en un minuto <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-primary" href="#filters" id="intro-cta">Descubre quién defendió tu bolsillo <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <a class="btn btn-ghost" href="#metodologia"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>¿De dónde salen los datos?</a>
       </div>
       <div class="stats" id="hero-stats" aria-live="polite"><span class="stat">Cargando datos…</span></div>
@@ -389,16 +404,16 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
     <aside class="glass" aria-labelledby="how-h">
       <h2 id="how-h">Así funciona</h2>
       <ol class="steps" role="list">
-        <li><span class="tile" aria-hidden="true"><svg class="ico"><use href="#i-user"/></svg></span><b>Marca tu situación</b><small>Sueldo, casa, hijos, negocio. Una casilla basta. Sin registro y sin dar tus datos.</small></li>
-        <li><span class="tile" aria-hidden="true"><svg class="ico"><use href="#i-chart"/></svg></span><b>Mira cómo votó cada partido</b><small>Solo cuentan las leyes que te tocan a ti. Misma vara para todos, por lo votado y no por lo prometido.</small></li>
-        <li><span class="tile" aria-hidden="true"><svg class="ico"><use href="#i-search"/></svg></span><b>No te fíes: compruébalo</b><small>Cada ley enlaza al registro oficial. Mira tú mismo qué votó cada uno.</small></li>
+        <li><span class="tile" aria-hidden="true"><svg class="ico"><use href="#i-user"/></svg></span><b>Marca tu situación</b><small>Tu sueldo, tus impuestos, tu casa, tu familia. Un minuto, sin registro.</small></li>
+        <li><span class="tile" aria-hidden="true"><svg class="ico"><use href="#i-chart"/></svg></span><b>Quién votó a tu favor y quién en tu contra</b><small>Lo que votó cada partido cuando se decidía tu dinero. No lo que prometió en campaña.</small></li>
+        <li><span class="tile" aria-hidden="true"><svg class="ico"><use href="#i-search"/></svg></span><b>Compruébalo tú mismo</b><small>Cada voto enlaza al registro oficial. Sin intermediarios ni tertulianos.</small></li>
       </ol>
       <ul class="trust" role="list">
-        <li><svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg>Votos: datos oficiales del Pleno</li>
-        <li><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Qué leyes te afectan: lo hemos clasificado nosotros (con ayuda de IA), y se puede revisar ley a ley</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg>Votos: datos oficiales del Congreso y del Parlamento Europeo</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Qué leyes te afectan: lo hemos clasificado nosotros, con ayuda de IA, y puedes revisarlo ley a ley</li>
         <li><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>Lo que marcas no sale de tu móvil ni de tu ordenador</li>
       </ul>
-      <p class="promise">Aquí nadie te dice a quién votar. <span>Te enseñamos lo que votaron.</span></p>
+      <p class="promise">Tu voto es tuyo. <span>Aquí nadie te dice a quién votar: te enseñamos lo que votaron.</span></p>
     </aside>
   </div>
   <a class="scroll-cue" href="#filters" tabindex="-1" aria-hidden="true">Empieza<svg class="ico" width="20" height="20"><use href="#i-arrow"/></svg></a>
@@ -430,7 +445,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
 
   <footer>
     <span class="mini" aria-hidden="true"></span>
-    <span><b>No te pedimos el voto para nadie.</b> Fuente: <span id="foot-src">Congreso de los Diputados</span>, datos abiertos (iniciativas y votaciones de la <span id="foot-leg"></span> legislatura), consultados el <span id="gen"></span>. La clasificación de impactos es interpretativa; consulta <a href="#metodologia">cómo se calcula</a>.</span>
+    <span><b>Hecho con datos públicos, para que decidas tú. No te pedimos el voto para nadie.</b> Fuente: <span id="foot-src">Congreso de los Diputados</span>, datos abiertos (iniciativas y votaciones de la <span id="foot-leg"></span> legislatura), consultados el <span id="gen"></span>. La clasificación de impactos es interpretativa; consulta <a href="#metodologia">cómo se calcula</a>.</span>
   </footer>
 </div>
 
@@ -499,7 +514,27 @@ const GRP_ICON = {
   'Empresa': ico('<path d="M3 21h18M5 21V8l7-4v17M19 21V11l-7-3"/><path d="M8 11h1M8 14h1M8 17h1M15 14h1M15 17h1"/>'),
   'Condición social': ico('<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>')
 };
-const CAT_NOTE = {asal:'Tramo por base liquidable de tu declaración de la renta, que suele ser bastante menor que el sueldo bruto.'};
+// línea de ayuda de cada categoría: a quién le toca y qué marcar
+const CAT_NOTE = {
+  sexo:'Opcional. Hay leyes dirigidas específicamente a hombres o a mujeres.',
+  ori:'Opcional. Márcalo solo si te identificas como LGTBI+.',
+  edad:'Tu tramo de edad actual. Solo uno.',
+  civ:'Tu situación hoy. Si no tienes pareja y tienes hijos, contamos también las leyes para familias monoparentales.',
+  hij:'Hijos menores de edad que viven contigo o que mantienes.',
+  car:'Márcalo si cuidas en casa de un familiar dependiente.',
+  asal:'Solo si trabajas por cuenta ajena. Mira la base liquidable de tu declaración de la renta: suele ser bastante menor que tu sueldo bruto.',
+  fun:'Solo si eres funcionario: elige tu subgrupo.',
+  pro:'Si trabajas en alguno de estos servicios públicos. Puedes marcar varios.',
+  pen:'Solo si cobras una pensión: lo que cobras al año, en bruto.',
+  des:'Solo si estás en paro ahora mismo.',
+  vivn:'Cuántas viviendas tienes en propiedad, contando la tuya.',
+  vivs:'Marca lo que te aplique; pueden ser las dos.',
+  prop:'Ahorros, inversiones, acciones u otros inmuebles, sin contar tu casa.',
+  emp:'Solo si tienes negocio: autónomo, o el tamaño de tu empresa por facturación anual.',
+  sec:'El sector de tu negocio o de tu trabajo. Puedes marcar varios.',
+  cons:'Leyes que te afectan como cliente: bancos, luz, telefonía, compras.',
+  soc:'Marca solo lo que te describa ahora mismo. Puedes marcar varias.'
+};
 // veredicto en palabras para el saldo de un partido
 // habla de los votos, no del partido
 const veredicto = (s,n) => { const muy = n>=5; return s>=50&&muy?['pos','Sus votos te favorecieron mucho']:s>=15?['pos','Te favorecieron']:s>-15?['neu','Ni a favor ni en contra']:s>-50||!muy?['neg','Te perjudicaron']:['neg','Te perjudicaron mucho']; };
@@ -631,10 +666,10 @@ function renderFilters(){
   f.appendChild(el('div',{class:'shead'},'<span class="step" data-n="1" aria-hidden="true"><svg class="ico"><use href="#i-sliders"/></svg></span><div><h2 id="filters-h" tabindex="-1">Marca tu situación</h2><p class="hint">'+(propio()?'Marca lo que te describa; no hace falta rellenarlo todo. Donde hay tramos, elige uno. El resultado se actualiza al momento.':'No hace falta rellenarlo todo: con una opción ya sale tu ranking.')+'</p></div>'));
   if(!propio()){
     const qs=el('div',{class:'qs',role:'group','aria-labelledby':'qs-h'});
-    qs.appendChild(el('p',{id:'qs-h'},'Empieza aquí: ¿qué te toca más el bolsillo?'));
+    qs.appendChild(el('p',{id:'qs-h'},'Empieza por lo que más te toca el bolsillo'));
     qs.appendChild(el('p',{class:'qs-sub'},'Elige uno y se abre su apartado.'));
     const g=el('div',{class:'qs-grid'});
-    [['Trabajo e ingresos','Mi sueldo','o mi pensión'],['Patrimonio','Mi casa','y mis ahorros'],['Persona y familia','Mi familia','hijos y pareja'],['Empresa','Mi negocio','autónomo o empresa']].forEach(([n,t,sm])=>
+    [['Trabajo e ingresos','Mi sueldo','y lo que pago de IRPF'],['Patrimonio','Mi casa','propiedad, hipoteca o alquiler'],['Persona y familia','Mi familia','hijos y mayores a cargo'],['Empresa','Mi negocio','autónomo o empresa']].forEach(([n,t,sm])=>
       g.appendChild(el('button',{type:'button',class:'qs-btn','data-k':'qs-'+n,onclick:()=>abrirBloque(n)},`<span class="gi" aria-hidden="true">${GRP_ICON[n]}</span><span class="qt">${t}<small>${sm}</small></span><span class="ar" aria-hidden="true">→</span>`)));
     qs.appendChild(g); f.appendChild(qs);
   }
@@ -647,12 +682,15 @@ function renderFilters(){
     d.addEventListener('toggle',()=>{ if(d.open) state.open.add(g); else state.open.delete(g); });
     d.appendChild(el('summary',{}, `<span class="gi" aria-hidden="true">${GRP_ICON[g]||''}</span><span class="gt">${esc(g)}<small>${marked.length?esc(marked.join(' · ')):'Sin marcar'}</small></span>${marked.length?`<span class="gn" aria-hidden="true">${marked.length}</span>`:''}<span class="chev" aria-hidden="true"></span>`));
     const body=el('div',{class:'gbody'}); let sub=null;
+    body.appendChild(el('p',{class:'gnote'},'Marca solo lo que vaya contigo. Lo que no te aplique, déjalo en blanco.'));
     cats.forEach(c=>{
       if(c.sub && c.sub!==sub){ sub=c.sub; body.appendChild(el('h3',{class:'catsub'},esc(sub))); }
       const box=el('div',{class:'cat'});
-      box.appendChild(el(c.sub?'h4':'h3',{}, esc(c.name)+(c.multi?'':' <span class="one">· elige una</span>')));
-      if(CAT_NOTE[c.id]) box.appendChild(el('p',{class:'cnote'},esc(CAT_NOTE[c.id])));
-      const o=el('div',{class:'opts'});
+      box.appendChild(el(c.sub?'h4':'h3',{id:'cat-'+c.id}, esc(c.name)));
+      if(CAT_NOTE[c.id]) box.appendChild(el('p',{class:'cnote',id:'cn-'+c.id},esc(CAT_NOTE[c.id])));
+      // una sola opción: sin «multi» o con todas sus opciones excluyentes entre sí (Hombre/Mujer)
+      const solo = !c.multi || (c.excl && c.excl.length===c.opts.length);
+      const o=el('div',{class:'opts'+(solo?' solo':''),role:'group','aria-labelledby':'cat-'+c.id,...(CAT_NOTE[c.id]?{'aria-describedby':'cn-'+c.id}:{})});
       c.opts.forEach(([k,v])=>o.appendChild(el('button',{class:'opt','data-k':k,'aria-pressed':String(state.sel.has(k)),onclick:()=>toggle(k)},esc(v))));
       box.appendChild(o); body.appendChild(box);
     });
