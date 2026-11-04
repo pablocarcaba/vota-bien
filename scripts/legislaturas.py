@@ -197,4 +197,20 @@ LEGISLATURAS = {
         "partidos": ['PP', 'PSOE', 'VOX', 'SALF', 'Sumar', 'Podemos', 'ERC', 'Bildu', 'PNV', 'BNG', 'Compromís', 'Comuns'],
         "autores_web": ["Comisión Europea", "Parlamento Europeo"],
     },
+    "europarlamento_9": {
+        "fuente": "europarlamento",
+        "formato": "europarlamento",
+        "leg": "9.ª",
+        "titulo": "9.ª legislatura · 2019–2024",
+        "periodo": "entre el 2 de julio de 2019 y el 15 de julio de 2024",
+        "gobierno": "Comisión von der Leyen I",
+        # «Independiente» (eurodiputados que dejaron su partido) no se cuenta
+        "grupos": {p: p for p in ['PP', 'PSOE', 'Cs', 'VOX', 'Podemos', 'Junts', 'ERC', 'IU', 'PNV', 'Comuns', 'BNG', 'Bildu', 'Anticapitalistas']},
+        "nominal": {},
+        "nominal_txt": "",
+        "autores": {"Comisión Europea": "Comisión Europea", "Parlamento Europeo": "Parlamento Europeo"},
+        "etiquetas": {},
+        "partidos": ['PP', 'PSOE', 'Cs', 'VOX', 'Podemos', 'Junts', 'ERC', 'IU', 'PNV', 'Comuns', 'BNG', 'Bildu', 'Anticapitalistas'],
+        "autores_web": ["Comisión Europea", "Parlamento Europeo"],
+    },
 }

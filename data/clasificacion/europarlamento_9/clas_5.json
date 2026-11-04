@@ -1,0 +1,386 @@
+[
+{
+"id": "2023/0322(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Armoniza normas sobre precios de transferencia; técnica, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0323(COD)",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Limita a 30 días el plazo de pago entre empresas; favorece a autónomos y pymes acreedores.",
+"partido": ""
+},
+{
+"id": "2023/0338(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0352(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Globalización para despedidos en Bélgica; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2023/0353(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Tratado sobre biodiversidad marina en alta mar; acuerdo internacional.",
+"partido": ""
+},
+{
+"id": "2023/0355(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Simplifica obligaciones de información sobre falsificación del euro; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0356(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o administrativa sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0361(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o administrativa sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0362(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o administrativa sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0363(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o administrativa sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0367(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo que reduce créditos de pago; técnico.",
+"partido": ""
+},
+{
+"id": "2023/0368(COD)",
+"tipo": "eco",
+"imp": {
+"ciud": -1,
+"empGran": 1
+},
+"peso": 1,
+"nota": "Aplaza dos años las normas sectoriales de información sobre sostenibilidad; alivia a grandes empresas y retrasa exigencias ambientales.",
+"partido": ""
+},
+{
+"id": "2023/0369(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o administrativa sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0370(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Norma técnica o administrativa sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0373(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Prevención de pérdidas de granza de plástico; reduce microplásticos con coste para la industria del plástico.",
+"partido": ""
+},
+{
+"id": "2023/0375(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Suprime la plataforma europea de litigios en línea, poco utilizada; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0376(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Actualiza la resolución alternativa de litigios de consumo; facilita reclamaciones de consumidores.",
+"partido": ""
+},
+{
+"id": "2023/0378(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Sanidad vegetal: prospección y notificación de plagas; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0379(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Índices de referencia financieros: reduce su ámbito; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0393(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Extiende las asociaciones transfronterizas a extranjeros residentes legales; alcance reducido.",
+"partido": ""
+},
+{
+"id": "2023/0397(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Mecanismo de reforma y crecimiento para los Balcanes Occidentales; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2023/0400(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0418(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Régimen de visados para ciertos pasaportes serbios; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0419(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0441(CNS)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección consular de ciudadanos de la UE no representados; alcance reducido.",
+"partido": ""
+},
+{
+"id": "2023/0450(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0452(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Prórroga de la excepción temporal para detectar abusos sexuales a menores en línea; técnica y temporal.",
+"partido": ""
+},
+{
+"id": "2023/0464(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0464M(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0900(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Composición del Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2023/2037(BUI)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Coste de los intereses de NextGenerationEU en el presupuesto; institucional.",
+"partido": ""
+},
+{
+"id": "2023/2051(INL)",
+"tipo": "eco",
+"imp": {
+"empAut": 1,
+"asal1": 1,
+"asal2": 1
+},
+"peso": 1,
+"nota": "Pide un marco europeo de condiciones laborales y protección social para artistas y trabajadores culturales.",
+"partido": ""
+},
+{
+"id": "2023/2184(INL)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Pide proteger la libertad de investigación científica; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/2220(BUI)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones para el presupuesto 2025; institucional.",
+"partido": ""
+},
+{
+"id": "2023/2221(BUI)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Previsiones de gastos del Parlamento Europeo; institucional.",
+"partido": ""
+},
+{
+"id": "2024/0003(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Asistencia técnica del Fondo de Globalización; técnica.",
+"partido": ""
+},
+{
+"id": "2024/0019(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Ampliación de capital del BERD; institucional.",
+"partido": ""
+},
+{
+"id": "2024/0021(COD)",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"secInd": 1
+},
+"peso": 1,
+"nota": "Amplía plazos transitorios de productos sanitarios y obliga a avisar de interrupciones de suministro; evita escasez.",
+"partido": ""
+},
+{
+"id": "2024/0028(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Liberalización temporal del comercio con Ucrania con salvaguardias; efecto en España sin signo claro.",
+"partido": ""
+},
+{
+"id": "2024/0029(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Liberalización temporal del comercio con Moldavia; efecto en España sin signo claro.",
+"partido": ""
+},
+{
+"id": "2024/0044(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Globalización para despedidos en Dinamarca; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2024/0049(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Globalización para despedidos en Alemania; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2024/0056(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo por la revisión del marco financiero; técnico.",
+"partido": ""
+},
+{
+"id": "2024/0073(COD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1,
+"ciud": -1
+},
+"peso": 2,
+"nota": "Simplificación de la PAC: suaviza la condicionalidad ambiental y exime a pequeñas explotaciones de controles.",
+"partido": ""
+},
+{
+"id": "2024/0090(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refuerzo presupuestario de la Fiscalía Europea; institucional.",
+"partido": ""
+}
+]

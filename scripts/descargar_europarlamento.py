@@ -60,18 +60,22 @@ import ssl
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 CACHE = os.path.join(ROOT, "data", "cache", "europarlamento_10")
+# legislaturas cubiertas por HowTheyVote (desde julio de 2019): sesión constitutiva y último día
+TERMS = {"9": ("2019-07-02", "2024-07-15"), "10": ("2024-07-16", "9999-12-31")}
+INICIO, FIN = TERMS["10"]
 SALIDA = os.path.join(ROOT, "data", "fuente", "europarlamento_10.json")
-INICIO = "2024-07-16"  # sesión constitutiva de la 10.ª legislatura
 HTV = "https://github.com/HowTheyVote/data/releases"
 EPAPI = "https://data.europarl.europa.eu/api/v2/procedures/"
 UA = {"User-Agent": "quien-legisla (proyecto ciudadano; datos abiertos)"}
-PAUSA = 1.2
+PAUSA = 2.0
 TABLAS = ["votes", "members", "national_parties", "national_party_memberships", "groups", "group_memberships",
           "member_votes"]
 PARTIDOS = {"PSOE": "PSOE", "PSC-PSOE": "PSOE", "PP": "PP", "VOX": "VOX", "SALF": "SALF", "SMR": "Sumar",
             "Catalunya en Comú": "Comuns", "Compromís": "Compromís", "PODEMOS": "Podemos", "ERC": "ERC",
             "EH BILDU": "Bildu", "PNV": "PNV", "BNG": "BNG", "JxCat-Junts": "Junts", "Junts": "Junts",
-            "IU": "IU", "Independiente": "Independiente"}
+            "IU": "IU", "Independiente": "Independiente",
+            # 9.ª legislatura
+            "CS": "Cs", "DCE": "Cs", "ANTICAPITALISTAS": "Anticapitalistas"}
 VOTO = {"FOR": "Sí", "AGAINST": "No", "ABSTENTION": "Abstención", "DID_NOT_VOTE": "No vota"}
 CLAVE_VOTO = {"FOR": "s", "AGAINST": "n", "ABSTENTION": "a", "DID_NOT_VOTE": "nv"}
 TIPOS = {"COD": "Procedimiento legislativo ordinario", "CNS": "Consulta legislativa", "APP": "Aprobación legislativa",
@@ -164,13 +168,15 @@ def procedimiento(ref):
         except ValueError:
             x = {}
         t = x.get("process_title") or {}
-        val.update(es=t.get("es", ""), en=t.get("en", ""), fase=(x.get("current_stage") or "").rsplit("/", 1)[-1])
+        val.update(es=t.get("es", ""), en=t.get("en", ""), fase=str((x.get("current_stage") or [""])[0] if isinstance(x.get("current_stage"), list) else (x.get("current_stage") or "")).rsplit("/", 1)[-1])
+        uno = lambda v: (v[0] if v else "") if isinstance(v, list) else (v or "")  # a veces llegan listas
         for ev in x.get("consists_of") or []:
-            tipo = (ev.get("had_activity_type") or "").rsplit("/", 1)[-1]
+            tipo = str(uno(ev.get("had_activity_type"))).rsplit("/", 1)[-1]
+            fecha_ev = str(uno(ev.get("activity_date")))
             if tipo == "SIGNATURE":
-                val["firma"] = max(val["firma"], ev.get("activity_date", ""))
+                val["firma"] = max(val["firma"], fecha_ev)
             elif tipo == "PUBLICATION_OFFICIAL_JOURNAL":
-                val["doue"] = max(val["doue"], ev.get("activity_date", ""))
+                val["doue"] = max(val["doue"], fecha_ev)
     os.makedirs(os.path.dirname(p), exist_ok=True)
     with open(p + ".tmp", "w", encoding="utf-8") as f:
         json.dump(val, f, ensure_ascii=False)
@@ -181,12 +187,16 @@ def procedimiento(ref):
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
     ap.add_argument("--actualizar", action="store_true", help="descargar la última versión semanal de HowTheyVote")
+    ap.add_argument("--leg", default="10", choices=sorted(TERMS), help="legislatura (9 o 10)")
     a = ap.parse_args()
+    global INICIO, FIN, SALIDA
+    INICIO, FIN = TERMS[a.leg]
+    SALIDA = os.path.join(ROOT, "data", "fuente", f"europarlamento_{a.leg}.json")
     ver = version_htv(a.actualizar)
     d = descargar_htv(ver)
 
     # votaciones principales de la legislatura ligadas a un procedimiento
-    votos = [v for v in leer(d, "votes") if v["timestamp"] >= INICIO and v["is_main"] == "True"
+    votos = [v for v in leer(d, "votes") if INICIO <= v["timestamp"][:10] <= FIN and v["is_main"] == "True"
              and v["procedure_reference"]]
     votos.sort(key=lambda v: v["timestamp"])
     por_proc = {}
@@ -204,10 +214,10 @@ def main():
     grupos = {g["code"]: g["short_label"] for g in leer(d, "groups")}
     gm = {}
     for g in leer(d, "group_memberships"):
-        if g["term"] == "10":
+        if g["term"] == a.leg:
             gm.setdefault(g["member_id"], []).append(g)
     afil = [m for m in leer(d, "national_party_memberships") if np_[m["national_party_id"]]["country_code"] == "ESP"
-            and (not m["end_date"] or m["end_date"] >= INICIO)]
+            and (not m["end_date"] or m["end_date"] >= INICIO) and m["start_date"] <= FIN]
 
     # voto de cada eurodiputado español (member_votes es grande: se lee en streaming)
     ids = {v["id"]: v["timestamp"][:10] for v in votos}
@@ -234,7 +244,7 @@ def main():
         eurodiputados.append({"id": int(m["member_id"]), "nombre": nombre(m["member_id"]),
                               "partido": PARTIDOS.get(p["short_label"], p["short_label"]),
                               "partido_oficial": p["label"], "grupo": grupo(m["member_id"], m["start_date"]),
-                              "desde": fecha(max(m["start_date"], INICIO)), "hasta": fecha(m["end_date"]),
+                              "desde": fecha(max(m["start_date"], INICIO)), "hasta": fecha(min(m["end_date"] or FIN, FIN) if FIN < "9999" else m["end_date"]),
                               "votos": sum(m["start_date"] <= f <= (m["end_date"] or "9999")
                                            for f in fechas_voto.get(m["member_id"], []))})
 
@@ -242,9 +252,10 @@ def main():
     procedimientos, titulos = [], {}
     for i, (ref, vs) in enumerate(sorted(por_proc.items())):
         print(f"\r{i + 1}/{len(por_proc)} {ref:20}", end="", file=sys.stderr)
-        info = procedimiento(ref)
         k = next(v for v in vs if v["id"] == clave[ref])
         tipo = k["procedure_type"] or (ref.split("(")[-1].rstrip(")") if "(" in ref else "")
+        # la API solo se consulta para los legislativos (los únicos que usa la web): menos peticiones
+        info = procedimiento(ref) if tipo in LEGISLATIVOS else {"es": "", "en": "", "firma": "", "doue": ""}
         titulos[ref] = info["es"] or k["procedure_title"] or k["display_title"]
         procedimientos.append({
             "exp": ref, "tipo": tipo, "tipo_txt": TIPOS.get(tipo, tipo), "legislativo": tipo in LEGISLATIVOS,
@@ -275,7 +286,7 @@ def main():
     out = {"generado": dt.datetime.now().strftime("%Y-%m-%d %H:%M"),
            "fuente": f"HowTheyVote.eu (versión {ver}, github.com/HowTheyVote/data) + API de datos abiertos del "
                      "Parlamento Europeo (data.europarl.europa.eu)",
-           "legislatura": "10", "desde": fecha(INICIO), "procedimientos": procedimientos,
+           "legislatura": a.leg, "desde": fecha(INICIO), "procedimientos": procedimientos,
            "votaciones": votaciones, "eurodiputados": eurodiputados}
     with open(SALIDA + ".tmp", "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, separators=(",", ":"))

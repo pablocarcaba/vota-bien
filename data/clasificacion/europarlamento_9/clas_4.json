@@ -1,0 +1,888 @@
+[
+{
+"id": "2023/0062(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Régimen especial para Irlanda del Norte tras el Brexit; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2023/0063(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Contingentes arancelarios aplicados a Irlanda del Norte; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2023/0064(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Medicamentos en Irlanda del Norte tras el Brexit; sin efecto previsible en España.",
+"partido": ""
+},
+{
+"id": "2023/0068(BUD)",
+"tipo": "eco",
+"imp": {
+"desPres": 1
+},
+"peso": 1,
+"nota": "Fondo de Globalización para trabajadores despedidos de Alu Ibérica (A Coruña y Avilés): formación y ayudas a la recolocación.",
+"partido": ""
+},
+{
+"id": "2023/0076(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Refuerza la supervisión contra la manipulación del mercado mayorista de la energía; protege a los consumidores de electricidad y gas.",
+"partido": ""
+},
+{
+"id": "2023/0077A(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"pobreza": 1
+},
+"peso": 2,
+"nota": "Reforma del mercado eléctrico: contratos por diferencias y a largo plazo para estabilizar precios; más protección a consumidores vulnerables.",
+"partido": ""
+},
+{
+"id": "2023/0077B(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"pobreza": 1
+},
+"peso": 2,
+"nota": "Reforma del mercado eléctrico: derecho a contratos de precio fijo y protección frente a cortes de suministro a consumidores vulnerables.",
+"partido": ""
+},
+{
+"id": "2023/0079(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 2,
+"nota": "Ley de materias primas fundamentales: proyectos estratégicos con permisos más rápidos y apoyo a la extracción y transformación.",
+"partido": ""
+},
+{
+"id": "2023/0080(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo con ajustes técnicos; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0081(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1
+},
+"peso": 2,
+"nota": "Ley de industria de cero emisiones netas: agiliza permisos y apoya la fabricación de tecnologías limpias.",
+"partido": ""
+},
+{
+"id": "2023/0083(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Derecho a reparar: obliga a fabricantes a reparar ciertos bienes; favorece a consumidores y reduce residuos.",
+"partido": ""
+},
+{
+"id": "2023/0085(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Obliga a justificar las alegaciones ecológicas; protege al consumidor frente al ecopostureo y supone costes a las empresas.",
+"partido": ""
+},
+{
+"id": "2023/0088(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0089(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Digitalización de trámites del Derecho de sociedades; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0090(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Homologación de maquinaria móvil no de carretera; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0093(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Cooperación judicial para trasladar procesos penales entre Estados; procesal.",
+"partido": ""
+},
+{
+"id": "2023/0095(COD)",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Refuerza el Mecanismo de Protección Civil de la UE ante catástrofes; beneficia a las víctimas de emergencias.",
+"partido": ""
+},
+{
+"id": "2023/0102(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0103(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo que consigna el excedente de 2022; técnico.",
+"partido": ""
+},
+{
+"id": "2023/0105(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Directivas de desayuno: etiquetado del origen de la miel y otros productos; informa al consumidor y favorece la producción europea.",
+"partido": ""
+},
+{
+"id": "2023/0106(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Asistencia técnica del Fondo de Globalización; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0108(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Certificación de ciberseguridad de servicios gestionados; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0109(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Ley de cibersolidaridad: capacidades comunes de detección y respuesta; institucional.",
+"partido": ""
+},
+{
+"id": "2023/0111(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Gestión de crisis bancarias: resolución y actuación temprana; técnica, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0112(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Gestión de crisis bancarias: resolución y actuación temprana; técnica, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0113(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Requisito mínimo de fondos propios y pasivos admisibles de bancos; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0115(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Amplía la protección de los fondos de garantía de depósitos; beneficia a los depositantes.",
+"partido": ""
+},
+{
+"id": "2023/0117(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Acuerdo de pesca con Madagascar; da posibilidades de pesca a la flota atunera, incluida la española.",
+"partido": ""
+},
+{
+"id": "2023/0124(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Detergentes: simplifica el etiquetado y actualiza requisitos; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0126(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Certificado complementario unitario para fitosanitarios; técnica de propiedad industrial.",
+"partido": ""
+},
+{
+"id": "2023/0127(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Certificado complementario unitario para medicamentos; técnica de propiedad industrial.",
+"partido": ""
+},
+{
+"id": "2023/0128(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refundición del certificado complementario para fitosanitarios; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0129(COD)",
+"tipo": "eco",
+"imp": {
+"pac": 1,
+"secInd": -1
+},
+"peso": 1,
+"nota": "Licencias obligatorias de patentes en crisis; facilita el acceso a productos sanitarios a costa de los titulares.",
+"partido": ""
+},
+{
+"id": "2023/0130(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Refundición del certificado complementario para medicamentos; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0131(COD)",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Paquete farmacéutico: acceso a medicamentos, lucha contra la escasez y antimicrobianos; acorta la protección regulatoria de la industria.",
+"partido": ""
+},
+{
+"id": "2023/0132(COD)",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Código de medicamentos: genéricos antes, prevención de escasez y resistencia antimicrobiana; reduce exclusividad de la industria.",
+"partido": ""
+},
+{
+"id": "2023/0133(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Patentes esenciales para normas técnicas; registro y licencias, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0136(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reglas fiscales 2024: requisitos de los marcos presupuestarios nacionales; institucional.",
+"partido": ""
+},
+{
+"id": "2023/0137(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Reglas fiscales 2024: procedimiento de déficit excesivo; efecto distributivo sin signo claro.",
+"partido": ""
+},
+{
+"id": "2023/0138(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 3,
+"nota": "Reglas fiscales 2024: planes de gasto a medio plazo; gran reforma institucional sin efecto distributivo de signo claro.",
+"partido": ""
+},
+{
+"id": "2023/0143(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Adapta una decisión de cooperación aduanera a las normas de protección de datos; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0144(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Liberalización temporal del comercio con Moldavia; efecto en España sin signo claro.",
+"partido": ""
+},
+{
+"id": "2023/0147(NLE)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1
+},
+"peso": 1,
+"nota": "Protocolo de pesca con Kiribati; posibilidades de pesca para la flota atunera, incluida la española.",
+"partido": ""
+},
+{
+"id": "2023/0152(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Globalización para despedidos en Bélgica; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2023/0155(COD)",
+"tipo": "eco",
+"imp": {
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Flexibiliza pausas y descansos de conductores de autocares en viajes discrecionales; favorece a las empresas del sector.",
+"partido": ""
+},
+{
+"id": "2023/0156(COD)",
+"tipo": "eco",
+"imp": {
+"secCom": 1,
+"secDig": -1
+},
+"peso": 2,
+"nota": "Reforma aduanera: suprime la franquicia de 150 € y responsabiliza a las plataformas; iguala condiciones con el comercio europeo.",
+"partido": ""
+},
+{
+"id": "2023/0158(CNS)",
+"tipo": "eco",
+"imp": {
+"secDig": -1,
+"secCom": 1
+},
+"peso": 2,
+"nota": "Las plataformas de venta a distancia de bienes importados recaudan el IVA; iguala condiciones con el comercio europeo.",
+"partido": ""
+},
+{
+"id": "2023/0163(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Agencia Europea de Seguridad Marítima; institucional.",
+"partido": ""
+},
+{
+"id": "2023/0164(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Investigación de accidentes marítimos; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0165(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Control de buques por el Estado del puerto; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0171(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secTrans": -1
+},
+"peso": 1,
+"nota": "Endurece las sanciones por contaminación procedente de buques; mejora ambiental con coste para el transporte marítimo.",
+"partido": ""
+},
+{
+"id": "2023/0172(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Obligaciones del Estado de abanderamiento; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0173(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Orientaciones de empleo no vinculantes; sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "2023/0177(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Regula a los proveedores de calificaciones ASG; técnica del sector financiero.",
+"partido": ""
+},
+{
+"id": "2023/0181(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0187(CNS)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Agiliza la devolución de retenciones a inversores transfronterizos; técnica, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0192(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0199(COD)",
+"tipo": "eco",
+"imp": {
+"secInd": 1,
+"secDig": 1
+},
+"peso": 2,
+"nota": "Plataforma STEP: reorienta fondos europeos a tecnologías digitales, limpias y biotecnológicas.",
+"partido": ""
+},
+{
+"id": "2023/0200(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Mecanismo para Ucrania (hasta 50.000 M€); sin efecto distributivo directo en España.",
+"partido": ""
+},
+{
+"id": "2023/0201(APP)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Revisión del marco financiero 2021-2027 (Ucrania, migración, STEP); sin efecto distributivo de signo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0201R(APP)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Informe provisional sobre la revisión del marco financiero; sin efecto directo.",
+"partido": ""
+},
+{
+"id": "2023/0202(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Normas procedimentales para aplicar el RGPD entre autoridades; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0206(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Medidas de conservación pesquera en el Atlántico nororiental (NEAFC); transposición técnica.",
+"partido": ""
+},
+{
+"id": "2023/0207(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Continuidad de la participación de la UE en la asociación de investigación PRIMA; institucional.",
+"partido": ""
+},
+{
+"id": "2023/0209(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1
+},
+"peso": 1,
+"nota": "Servicios de pago y dinero electrónico: autorización y supervisión de entidades; más transparencia para usuarios.",
+"partido": ""
+},
+{
+"id": "2023/0210(COD)",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Reglamento de servicios de pago: más protección frente al fraude por suplantación y transparencia de comisiones, a cargo de la banca.",
+"partido": ""
+},
+{
+"id": "2023/0220(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0222(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0222R(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0224(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0226(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Flexibiliza la autorización de vegetales de nuevas técnicas genómicas; efectos sobre agricultores y consumidores sin signo claro.",
+"partido": ""
+},
+{
+"id": "2023/0227(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Producción y comercialización de semillas y material vegetal; técnica, efecto sin signo claro.",
+"partido": ""
+},
+{
+"id": "2023/0228(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Material forestal de reproducción; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0229(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0231(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0232(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1
+},
+"peso": 2,
+"nota": "Sistema de vigilancia de la salud del suelo y de suelos contaminados; mejora ambiental general.",
+"partido": ""
+},
+{
+"id": "2023/0234(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Residuos: responsabilidad ampliada del productor de textiles y objetivos de reducción del desperdicio alimentario.",
+"partido": ""
+},
+{
+"id": "2023/0235(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0237(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Estadística europea; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0240(BUD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Presupuesto rectificativo de ingresos y ajustes técnicos; sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "2023/0252(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Prórroga del sistema de preferencias arancelarias generalizadas; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0259(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0260(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0260R(NLE)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0264(BUD)",
+"tipo": "eco",
+"imp": {
+"secPrim": 1,
+"rural": 1,
+"estud": 1
+},
+"peso": 3,
+"nota": "Presupuesto anual de la UE: financia la PAC, la cohesión y Erasmus+, entre otros programas.",
+"partido": ""
+},
+{
+"id": "2023/0265(COD)",
+"tipo": "eco",
+"imp": {
+"secTrans": 1
+},
+"peso": 1,
+"nota": "Pesos y dimensiones de camiones: permite más peso a los vehículos de cero emisiones; favorece al transporte por carretera.",
+"partido": ""
+},
+{
+"id": "2023/0266(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Metodología común para contabilizar emisiones del transporte; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0271(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Gestión de la capacidad de la infraestructura ferroviaria; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0272(COD)",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secSoc": -1
+},
+"peso": 1,
+"nota": "Prohíbe las amalgamas dentales con mercurio; mejora sanitaria y ambiental con coste para las clínicas dentales.",
+"partido": ""
+},
+{
+"id": "2023/0273(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0288(COD)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Estadísticas del mercado laboral; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0290(COD)",
+"tipo": "soc",
+"imp": {
+"infancia": 1,
+"cons": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Seguridad de los juguetes: prohíbe sustancias químicas nocivas y crea pasaporte digital; protege a la infancia, con costes para fabricantes.",
+"partido": ""
+},
+{
+"id": "2023/0296(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0297(BUD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Fondo de Solidaridad para Rumanía, Italia y Turquía; sin efecto en España.",
+"partido": ""
+},
+{
+"id": "2023/0303(NLE)",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
+"partido": ""
+},
+{
+"id": "2023/0307(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reconocimiento de cualificaciones de enfermeros formados en Rumanía; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0311(COD)",
+"tipo": "soc",
+"imp": {
+"discapacidad": 1
+},
+"peso": 2,
+"nota": "Tarjeta Europea de Discapacidad y de Estacionamiento: reconocimiento mutuo de derechos de personas con discapacidad.",
+"partido": ""
+},
+{
+"id": "2023/0314(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Uso del sistema IMI y la pasarela digital única; técnica.",
+"partido": ""
+},
+{
+"id": "2023/0315(COD)",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Asociaciones sin ánimo de lucro transfronterizas; institucional.",
+"partido": ""
+},
+{
+"id": "2023/0320(CNS)",
+"tipo": "eco",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Imposición en la sede para pymes con establecimientos en otros Estados; simplifica cargas fiscales.",
+"partido": ""
+}
+]
