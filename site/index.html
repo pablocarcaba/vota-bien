@@ -195,38 +195,53 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .shead{display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:start;margin-bottom:8px}
 .step{position:relative;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:var(--night);color:var(--oro);box-shadow:inset 0 0 0 1px rgba(241,191,0,.3)}
 .step .ico{width:22px;height:22px}
-.step::after{content:attr(data-n);position:absolute;right:-7px;top:-7px;width:21px;height:21px;border-radius:50%;background:var(--oro);color:var(--oro-ink);font:800 12px/21px var(--display);text-align:center;border:2px solid var(--sheet)}
 .results{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto;overscroll-behavior:contain;scrollbar-gutter:stable;border-radius:24px}
 @media (max-width:900px){.results{position:static;max-height:none;overflow:visible}}
 .main{display:flex;flex-direction:column;gap:16px;min-width:0}
 
-/* bloques del perfil */
-.qs{margin:14px 0 6px;padding:16px;border-radius:18px;background:linear-gradient(160deg,color-mix(in srgb,var(--oro) 18%,var(--sheet)),var(--sheet));border:1px solid color-mix(in srgb,var(--oro) 50%,var(--line))}
-.qs p{margin:0 0 10px;font-family:var(--display);font-weight:800;font-size:16px;letter-spacing:-.01em}
-.qs .qs-sub{margin:-6px 0 12px;font-family:var(--body);font-weight:400;font-size:14px;letter-spacing:0;color:var(--muted)}
-.qs-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
-.qs-btn{display:flex;align-items:center;gap:10px;min-height:56px;padding:9px 10px 9px 12px;border-radius:999px;border:none;background:color-mix(in srgb,var(--sheet) 70%,transparent);color:var(--accent);cursor:pointer;text-align:left;font-weight:700;font-size:15px;line-height:1.2;transition:background .12s ease,transform .12s ease}
-.qs-btn:hover{background:var(--sheet);transform:translateX(2px)}
-.qs-btn .gi{width:34px;height:34px;border-radius:50%;background:var(--accent-soft)}
-.qs-btn .qt{flex:1;min-width:0;color:var(--ink)}
-.qs-btn small{display:block;font-weight:500;font-size:12.5px;color:var(--muted)}
-.qs-btn .ar{flex:none;font-size:18px;line-height:1;color:var(--accent)}
-@media (max-width:560px){.qs-grid{grid-template-columns:minmax(0,1fr)}.qs-btn{min-height:52px}}
-.grp{border:1px solid var(--line);border-radius:18px;margin-top:10px;background:var(--sheet);overflow:hidden;transition:border-color .15s ease,box-shadow .15s ease}
-.grp[open]{border-color:color-mix(in srgb,var(--accent) 30%,var(--line));box-shadow:0 10px 30px -22px rgba(30,58,110,.5)}
-.grp summary{list-style:none;display:flex;align-items:center;gap:14px;padding:14px 16px;cursor:pointer;font-weight:700;font-size:16px;user-select:none}
-.grp summary::-webkit-details-marker{display:none}
-.grp summary:hover{background:var(--soft)}
+/* asistente del perfil: 4 pasos en orden, unidos por una línea; verde cuando el paso tiene sus respuestas obligatorias */
+.pasos{list-style:none;margin:16px 0 0;padding:0}
+.paso{position:relative;display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;padding-bottom:12px}
+.paso:last-child{padding-bottom:0}
+.paso::before{content:"";position:absolute;left:21px;top:58px;bottom:2px;width:2px;border-radius:2px;background:var(--line)}
+.paso:last-child::before{display:none}
+.paso.done::before{background:var(--pos)}
+.pnum{position:relative;width:44px;height:44px;margin-top:10px;border-radius:50%;display:grid;place-items:center;font:800 20px/1 var(--display);font-variant-numeric:tabular-nums;background:var(--soft);color:var(--muted);border:2px solid var(--line)}
+.paso.cur .pnum{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.paso.ok .pnum{background:var(--pos);color:var(--sheet);border-color:var(--pos)}
+.pnum .pchk{position:absolute;right:-6px;bottom:-5px;width:20px;height:20px;padding:2px;border-radius:50%;background:var(--sheet);color:var(--pos-ink);stroke-width:3;border:1.5px solid var(--pos)}
+.pcard{min-width:0;border:1px solid var(--line);border-radius:18px;background:var(--sheet);padding:14px 16px;transition:border-color .15s ease,background .15s ease}
+.paso.cur .pcard{border-color:color-mix(in srgb,var(--accent) 35%,var(--line));box-shadow:0 10px 30px -22px rgba(30,58,110,.5)}
+.paso.ok .pcard{border-color:var(--pos);background:var(--pos-soft)}
+.paso.lock .pcard{background:var(--soft);border-style:dashed}
+.phead{display:flex;flex-wrap:wrap;align-items:center;gap:2px 12px}
+.ptit{margin:0;font-family:var(--display);font-weight:800;font-size:18px;letter-spacing:-.015em;line-height:1.25}
+.paso.lock .ptit{font-size:15.5px;font-weight:700;color:var(--muted)}
+.ptit small{font-family:var(--body);font-weight:500;font-size:13.5px;letter-spacing:0}
+.pst{display:inline-flex;align-items:center;gap:5px;font-size:13.5px;font-weight:600;color:var(--muted)}
+.pst.ok{color:var(--pos-ink)}
+.pst .ico{width:16px;height:16px;stroke-width:3}
+.pcam{margin-left:auto;min-height:44px;padding:0 4px}
+.psum{margin:2px 0 0;font-size:13.5px;color:var(--ink)}
+.pdesc{margin:6px 0 0;font-size:15px;color:var(--ink)}
+.pfoot{display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px;margin-top:16px;padding-top:14px;border-top:1px dashed color-mix(in srgb,var(--muted) 40%,transparent)}
+.pfalta{margin:0;flex:1 1 220px;font-size:13.5px;color:var(--muted)}
+.pcont{margin-left:auto;font-size:16px;padding:12px 20px;min-height:48px;background:var(--accent);color:var(--accent-ink)}
+.pcont:hover{transform:translateY(-1px)}
+.pcont[aria-disabled="true"]{background:var(--soft);color:var(--muted);cursor:not-allowed;transform:none;box-shadow:inset 0 0 0 1.5px var(--line)}
+.opt.opt-no{border-style:dashed}
+.opt[aria-disabled="true"]{cursor:not-allowed;color:var(--muted);background:var(--soft);border-style:dashed;transform:none}
+.opt .offr{font-size:12.5px;font-weight:500}
+.qopt{font-size:12px;font-weight:600;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:1px 8px;margin-left:4px;white-space:nowrap}
+.cat.cond{padding-left:12px;border-left:3px solid color-mix(in srgb,var(--accent) 35%,var(--line))}
+@media (max-width:440px){.paso{grid-template-columns:36px minmax(0,1fr);gap:8px}.pnum{width:36px;height:36px;font-size:17px}.paso::before{left:17px;top:50px}.pcard{padding:12px}.pcont{flex:1 1 100%}}
 .gi{width:40px;height:40px;border-radius:12px;display:grid;place-items:center;background:var(--soft);color:var(--accent);flex:none;transition:background .15s ease,color .15s ease}
-.grp[open] .gi{background:var(--night);color:var(--oro)}
 .gt{flex:1;min-width:0}
 .gt small{display:block;font-weight:500;font-size:13px;color:var(--muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .gn{font-size:12.5px;font-weight:700;background:var(--oro);color:var(--oro-ink);border-radius:999px;min-width:24px;height:24px;padding:0 8px;display:grid;place-items:center}
 .chev{width:10px;height:10px;border-right:2px solid var(--muted);border-bottom:2px solid var(--muted);transform:rotate(45deg);margin:-4px 6px 0 2px;transition:transform .2s ease}
-.grp[open] .chev{transform:rotate(-135deg);margin-top:4px}
-.gbody{padding:2px 16px 16px}
 .cat{margin-top:12px}
-.cat h3,.cat h4{font-size:13.5px;font-weight:600;color:var(--ink);margin:0 0 8px}
+.cat h4,.cat h5{font-size:13.5px;font-weight:600;color:var(--ink);margin:0 0 8px}
 .gnote{margin:10px 0 2px;padding:8px 12px;border-radius:10px;background:var(--soft);font-size:13px;color:var(--muted)}
 .catsub{font-family:var(--display);font-size:15px;font-weight:700;margin:16px 0 0;padding-top:12px;border-top:1px dashed var(--line)}
 .catsub:first-child{border-top:none;padding-top:4px;margin-top:6px}
@@ -275,6 +290,16 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .rank-empty{display:grid;gap:8px;justify-items:start;padding:26px;border:2px dashed var(--line);border-radius:18px;color:var(--muted)}
 .rank-empty .ico{width:30px;height:30px;color:var(--accent)}
 .rank-empty b{font-family:var(--display);font-size:21px;color:var(--ink);letter-spacing:-.015em}
+.rank-wait{display:grid;gap:14px;justify-items:start;padding:22px;border:2px dashed var(--line);border-radius:18px;color:var(--muted)}
+.rank-wait p{margin:0}
+.rank-wait b{display:block;font-family:var(--display);font-size:20px;color:var(--ink);letter-spacing:-.015em;line-height:1.2;margin-bottom:4px}
+.prog{list-style:none;margin:0;padding:0;width:100%;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}
+.prog li{height:36px;border-radius:10px;display:grid;place-items:center;background:var(--soft);color:var(--muted);font:800 15px/1 var(--display);border:1.5px solid var(--line)}
+.prog li.cur{border-color:var(--accent);color:var(--accent);border-width:2px}
+.prog li.ok{background:var(--pos-soft);border-color:var(--pos);color:var(--pos-ink)}
+.prog .ico{width:18px;height:18px;stroke-width:3}
+.prog-ok{color:var(--pos-ink);font-weight:600;display:inline-flex;align-items:center;gap:5px}
+.prog-ok .ico{width:16px;height:16px;stroke-width:3}
 .empty{font-size:15px;color:var(--muted);padding:16px;background:var(--soft);border-radius:14px}
 .rrow{display:grid;grid-template-columns:42px minmax(0,1fr) auto;grid-template-areas:"pos who sc" "pos dv dv" "pos det det";align-items:center;gap:7px 14px;padding:14px 16px;width:100%;background:var(--sheet);border:1px solid var(--line);border-radius:18px;color:inherit;font-family:inherit;text-align:left;cursor:pointer;transition:border-color .15s ease,transform .15s ease,box-shadow .15s ease}
 .rrow:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:var(--shadow)}
@@ -299,6 +324,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .scale{display:grid;grid-template-columns:1fr auto 1fr;font-size:12px;font-weight:600;color:var(--muted);padding:0 16px 0 72px;margin-top:-2px}
 .scale span:nth-child(2){text-align:center}
 @media (max-width:520px){.scale .w{display:none}}.scale span:last-child{text-align:right}
+.legend[hidden],.tabs[hidden]{display:none}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin:0 0 4px}
 .legend span{display:inline-flex;align-items:center;gap:7px}
 .legend i{width:11px;height:11px;border-radius:4px;flex:none}
@@ -322,7 +348,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .back:hover{border-color:var(--accent)}
 .eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
 .lhead h2{font-family:var(--display);font-size:clamp(36px,6vw,64px);font-weight:800;letter-spacing:-.045em;line-height:1;margin:6px 0 0}
-.lscore{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:14px 0 0;max-width:640px}
+.lscore{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;margin:14px 0 0}
 .lscore .sc{font-family:var(--display);font-weight:800;font-size:22px;letter-spacing:-.03em;font-variant-numeric:tabular-nums;line-height:1;padding:7px 11px;border-radius:12px}
 .lscore .sc.v-pos{color:var(--pos-ink);background:var(--pos-soft)}.lscore .sc.v-neg{color:var(--neg-ink);background:var(--neg-soft)}.lscore .sc.v-neu{color:var(--muted);background:var(--soft)}
 .lscore .ls-t{font-weight:600;font-size:15px;color:var(--ink)}
@@ -371,7 +397,10 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .prose p,.prose li{color:var(--ink)}
 .prose .small{font-size:13px;color:var(--muted)}
 /* trazabilidad: desglose de la nota del partido, origen de cada dato y aportación de cada ley */
-.calc{margin:16px 0 0;max-width:780px;padding:18px clamp(14px,2.4vw,22px);border:1px solid var(--line);border-radius:20px;background:var(--sheet);box-shadow:var(--shadow)}
+.calc{margin:16px 0 0;padding:18px clamp(14px,2.4vw,22px);border:1px solid var(--line);border-radius:20px;background:var(--sheet);box-shadow:var(--shadow)}
+.fduo{display:grid;grid-template-columns:minmax(0,1fr);gap:16px;margin-top:16px}
+.fduo>.calc{margin:0}
+@media (min-width:1100px){.fduo{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:stretch}}
 .calc h3{display:flex;align-items:center;gap:8px;font-family:var(--display);font-size:18px;font-weight:800;letter-spacing:-.015em;margin:0 0 12px}
 .calc h3 .ico{color:var(--accent)}
 .calc-n{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin:0}
@@ -546,6 +575,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
   <symbol id="i-flagq" viewBox="0 0 24 24"><path d="M5 21V4M5 4h11l-2 4 2 4H5"/></symbol>
   <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></symbol>
   <symbol id="i-share" viewBox="0 0 24 24"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
   <symbol id="i-list" viewBox="0 0 24 24"><path d="M9 6h12M9 12h12M9 18h12"/><circle cx="4" cy="6" r="1.3"/><circle cx="4" cy="12" r="1.3"/><circle cx="4" cy="18" r="1.3"/></symbol>
 </svg>
 
@@ -605,7 +635,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
       <div class="main results">
         <div class="panel fuente" id="fuente" role="group" aria-label="Fuente y legislatura"></div>
         <section class="panel" id="rank-sec">
-          <div class="shead"><span class="step" data-n="2" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span><div><h2 id="rank-h" tabindex="-1">Cómo han votado en lo que te afecta</h2><p class="hint" id="rank-hint"></p></div></div>
+          <div class="shead"><span class="step" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span><div><h2 id="rank-h" tabindex="-1">Cómo han votado en lo que te afecta</h2><p class="hint" id="rank-hint"></p></div></div>
           <p class="legend" id="legend"><span><i class="c-pos"></i>Votó a tu favor: sube la nota</span><span><i class="c-neg"></i>Votó en tu contra: la baja</span><span>Una gran reforma pesa como 9 leyes menores; una ley relevante, como 3.</span></p>
           <div class="tabs" role="group" id="tabs" aria-label="Tipo de leyes"></div>
           <div class="rank" id="rank"></div>
@@ -691,27 +721,33 @@ const CACHE = {};
 // Perfil único (las pestañas solo filtran los resultados). Los ids son colectivos de la rúbrica,
 // salvo los que solo existen en el perfil y se traducen a colectivos mediante IMPLICA.
 const CATS = [
-  // Ciudadanía general: rasgo común a todo el mundo, activo por defecto
+  // Ciudadanía general y consumo: rasgos comunes a todo el mundo, activos por defecto (casillas junto al ranking)
   {id:'ciu', name:'Todos', multi:true, opts:[['ciud','Ciudadanía general']]},
-  // Hombre/Mujer se excluyen entre sí; LGTBI+ va aparte y se puede combinar con cualquiera de los dos
-  {id:'sexo', grp:'Persona y familia', name:'Sexo', multi:true, excl:['hombres','mujeres'], opts:[['hombres','Hombre'],['mujeres','Mujer']]},
-  {id:'ori', grp:'Persona y familia', name:'Orientación o identidad (opcional)', multi:true, opts:[['lgtbi','LGTBI+']]},
-  {id:'edad', grp:'Persona y familia', name:'Edad', pre:'Edad: ', opts:[['jovenes','Hasta 35 años'],['adultos','36–64 años'],['mayores','65 años o más']]},
-  {id:'civ', grp:'Persona y familia', name:'Estado civil', opts:[['civSol','Soltero/a'],['civPar','Casado/a o pareja de hecho'],['civSep','Separado/a o divorciado/a'],['civViu','Viudo/a']]},
-  {id:'hij', grp:'Persona y familia', name:'Hijos menores a cargo', pre:'Hijos: ', opts:[['hij0','Ninguno'],['hij1','1'],['hij2','2'],['hij3','3 o más (familia numerosa)']]},
-  {id:'car', grp:'Persona y familia', name:'Personas a cargo', multi:true, opts:[['cuid','Cuido de una persona dependiente']]},
-  {id:'asal', grp:'Trabajo e ingresos', name:'Asalariados · tramo IRPF', opts:[['asal1','Hasta 12.450 €'],['asal2','12.450–20.200 €'],['asal3','20.200–35.200 €'],['asal4','35.200–60.000 €'],['asal5','60.000–300.000 €'],['asal6','Más de 300.000 €']]},
-  {id:'fun', grp:'Trabajo e ingresos', name:'Funcionarios · subgrupo', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
-  {id:'pro', grp:'Trabajo e ingresos', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]},
-  {id:'pen', grp:'Trabajo e ingresos', name:'Pensionistas · pensión anual', opts:[['pen1','Menos de 12.000 €'],['pen2','12.000–25.000 €'],['pen3','25.000–42.000 €']]},
-  {id:'des', grp:'Trabajo e ingresos', name:'Desempleados', opts:[['desPres','Cobro el paro (prestación)'],['desSub','Cobro un subsidio o el Ingreso Mínimo Vital']]},
-  {id:'vivn', grp:'Patrimonio', sub:'Vivienda', name:'Viviendas en propiedad', pre:'Viviendas: ', opts:[['viv0','Ninguna'],['viv1','Una, la habitual'],['viv2','Dos o más']]},
-  {id:'vivs', grp:'Patrimonio', sub:'Vivienda', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler']]},
-  {id:'prop', grp:'Patrimonio', sub:'Otro patrimonio', name:'Sin contar la vivienda habitual', pre:'Otro patrimonio ', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
-  {id:'emp', grp:'Empresa', name:'Tu negocio · facturación anual', opts:[['empAut','Autónomos'],['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
-  {id:'sec', grp:'Empresa', name:'Sector', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones'],['secSoc','Sanidad, educación y cuidados privados']]},
   {id:'cons', name:'Consumo', multi:true, opts:[['cons','Consumidor y usuario']]},
-  {id:'soc', grp:'Condición social', name:'Tu situación personal', multi:true, opts:[['estud','Estudiante (de cualquier nivel)'],['pac','Paciente o enfermo crónico'],['depend','Persona dependiente (con grado reconocido)'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante (extranjero que vive en España)'],['minorias','Minoría étnica o religiosa (p. ej., etnia gitana)'],['rural','Vivo en el medio rural'],['victimas','Víctima de violencia, terrorismo, catástrofe o accidente'],['pobreza','En riesgo de pobreza (IMV, bono social…)']]}
+  // paso 1. Hombre/Mujer se excluyen entre sí; LGTBI+ va aparte y se puede combinar con cualquiera de los dos
+  {id:'edad', name:'Edad', pre:'Edad: ', opts:[['jovenes','Hasta 35 años'],['adultos','36–64 años'],['mayores','65 años o más']]},
+  {id:'hij', name:'Hijos menores a cargo', pre:'Hijos: ', opts:[['hij0','Ninguno'],['hij1','1'],['hij2','2'],['hij3','3 o más (familia numerosa)']]},
+  {id:'sexo', name:'Sexo', multi:true, excl:['hombres','mujeres'], opts:[['hombres','Hombre'],['mujeres','Mujer']]},
+  {id:'ori', name:'Orientación o identidad', multi:true, opts:[['lgtbi','LGTBI+']]},
+  {id:'civ', name:'Estado civil', opts:[['civSol','Soltero/a'],['civPar','Casado/a o pareja de hecho'],['civSep','Separado/a o divorciado/a'],['civViu','Viudo/a']]},
+  {id:'car', name:'Personas a cargo', multi:true, opts:[['cuid','Cuido de una persona dependiente']]},
+  // paso 2: subpreguntas de «¿De qué vives?»
+  {id:'asal', name:'Tramo de IRPF', opts:[['asal1','Hasta 12.450 €'],['asal2','12.450–20.200 €'],['asal3','20.200–35.200 €'],['asal4','35.200–60.000 €'],['asal5','60.000–300.000 €'],['asal6','Más de 300.000 €']]},
+  {id:'fun', name:'Subgrupo de funcionario', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
+  {id:'pro', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]},
+  {id:'emp', name:'Tamaño de tu empresa · facturación anual', opts:[['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
+  {id:'sec', name:'Sector de tu negocio', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones'],['secSoc','Sanidad, educación y cuidados privados']]},
+  {id:'pen', name:'Pensión anual', opts:[['pen1','Menos de 12.000 €'],['pen2','12.000–25.000 €'],['pen3','25.000–42.000 €']]},
+  {id:'des', name:'¿Qué cobras?', opts:[['desPres','Cobro el paro (prestación)'],['desSub','Cobro un subsidio o el Ingreso Mínimo Vital']]},
+  // paso 3
+  {id:'prop', name:'Ahorros e inversiones, sin contar tu casa', pre:'Otro patrimonio ', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
+  // paso 4
+  {id:'soc', name:'Tu situación personal', multi:true, opts:[['pac','Paciente o enfermo crónico'],['depend','Persona dependiente (con grado reconocido)'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante (extranjero que vive en España)'],['minorias','Minoría étnica o religiosa (p. ej., etnia gitana)'],['rural','Vivo en el medio rural'],['victimas','Víctima de violencia, terrorismo, catástrofe o accidente'],['pobreza','En riesgo de pobreza (IMV, bono social…)']]},
+  // se deducen de las respuestas del asistente (deriva()); no son botones del formulario
+  {id:'aut', name:'Autónomos', opts:[['empAut','Autónomos']]},
+  {id:'est', name:'Estudiantes', opts:[['estud','Estudiante (de cualquier nivel)']]},
+  {id:'vivn', name:'Viviendas en propiedad', pre:'Viviendas: ', opts:[['viv0','Ninguna'],['viv1','Una, la habitual'],['viv2','Dos o más']]},
+  {id:'vivs', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler']]}
 ];
 // rasgos del perfil que activan colectivos de la clasificación
 const IMPLICA = {hij1:['infancia'], hij2:['infancia'], hij3:['infancia'], cuid:['depend']};
@@ -721,6 +757,42 @@ const LABEL = {infancia:'Familia con hijos menores', monop:'Familia monoparental
 const LABEL_DEDUCIDO = {infancia:'Familia con hijos menores', monop:'Familia monoparental', depend:'Dependencia de un familiar'};
 CATS.forEach(c=>c.opts.forEach(([k,v])=>{ const pre=c.pre||PRE[c.id]||''; LABEL[k]=pre+(pre&&/^[A-ZÁÉÍÓÚ][a-záéíóúñ]/.test(v)?v[0].toLowerCase()+v.slice(1):v); }));
 const CAT_OF = {}; CATS.forEach(c=>c.opts.forEach(([k])=>CAT_OF[k]=c));
+// asistente del perfil: 4 pasos en orden. Cada pregunta toma sus opciones de CATS (colectivos, por id) y/o de «ui»
+// (respuestas de interfaz, en state.pasos.ui: nunca entran en state.sel ni en el cálculo). «si»: solo aparece si se cumple;
+// «req»: obligatoria; «none»: respuesta excluyente; «off»: motivo por el que una opción no se puede marcar
+const CATBY = {}; CATS.forEach(c=>CATBY[c.id]=c);
+const tiene = k => state.pasos.ui.has(k);
+const asalariado = () => tiene('trAjena') || tiene('trFun');
+const PASOS = [
+  {t:'Tú y tu familia', d:'Empieza por ti: tu edad y si tienes hijos. El resto es opcional.', q:[
+    {id:'edad', cat:'edad', req:true},
+    {id:'hij', cat:'hij', req:true},
+    {id:'sexo', cat:'sexo', ui:[['sexOtro','Otro','Sexo: otro'],['sexNs','Prefiero no decirlo','Sexo: prefiero no decirlo']]},
+    {id:'ori', cat:'ori'},
+    {id:'civ', cat:'civ'},
+    {id:'car', cat:'car'}]},
+  {t:'Trabajo e ingresos', d:'¿De qué vives? Marca todo lo que te aplique y solo te preguntaremos lo que haga falta.', q:[
+    {id:'sit', name:'¿De qué vives?', req:true, multi:true, none:'trNada', ui:[['trAjena','Trabajo por cuenta ajena','Cuenta ajena'],['trFun','Soy funcionario o empleado público','Funcionario o empleado público'],['trAut','Soy autónomo','Autónomo'],['trEmp','Tengo una empresa','Empresa propia'],['trPen','Cobro pensión','Pensionista'],['trParo','Estoy en paro','En paro'],['trEst','Estudio','Estudiante'],['trNada','Ninguna de estas','Ninguna de estas situaciones']]},
+    {id:'asal', cat:'asal', req:true, si:asalariado},
+    {id:'fun', cat:'fun', req:true, si:()=>tiene('trFun')},
+    {id:'pro', cat:'pro', si:asalariado},
+    {id:'emp', cat:'emp', req:true, si:()=>tiene('trEmp')},
+    {id:'sec', cat:'sec', req:true, si:()=>tiene('trAut')||tiene('trEmp')},
+    {id:'pen', cat:'pen', req:true, si:()=>tiene('trPen')},
+    {id:'des', cat:'des', req:true, si:()=>tiene('trParo')}]},
+  {t:'Vivienda y ahorros', d:'Dónde vives, cuántas viviendas tienes y tus ahorros.', q:[
+    {id:'donde', name:'¿Dónde vives?', req:true, ui:[['vdPropia','En casa propia','Vivo en casa propia'],['vdAlq','De alquiler','Vivo de alquiler'],['vdFam','Con mi familia u otra situación','Vivo con mi familia u otra situación']]},
+    {id:'nviv', name:'¿Cuántas viviendas tienes en propiedad, en total?', req:true, ui:[['nv0','Ninguna','Ninguna vivienda en propiedad'],['nv1','1','1 vivienda en propiedad'],['nv2','2 o más','2 o más viviendas en propiedad']], off:k=>k==='nv0'&&tiene('vdPropia')?'Vives en una propia':''},
+    {id:'hip', name:'¿Tienes hipoteca?', req:true, ui:[['hipSi','Sí','Con hipoteca'],['hipNo','No','Sin hipoteca']], si:()=>tiene('nv1')||tiene('nv2')},
+    {id:'prop', cat:'prop', req:true}]},
+  {t:'Tu situación', d:'Opcional: marca lo que te describa ahora mismo, o «Ninguna me describe».', q:[
+    {id:'soc', cat:'soc', none:'socNo', ui:[['socNo','Ninguna me describe','Ninguna situación personal']]}]}
+];
+const UI_TXT = {}; PASOS.forEach(P=>P.q.forEach(q=>(q.ui||[]).forEach(([k,v,r])=>UI_TXT[k]=r||v)));
+// colectivos que pone deriva() a partir de las respuestas; en la barra de perfil salen como «se deduce»
+const DERIV = ['empAut','estud','viv0','viv1','viv2','inq','hipot'];
+const NPASOS = PASOS.length;
+const CHECK = '<svg class="ico pchk" aria-hidden="true"><use href="#i-check"/></svg>';
 // conjunto de colectivos efectivo: lo marcado + lo que se deduce de ello
 let RASGOS = new Set();
 function rasgos(){
@@ -734,38 +806,26 @@ const pn = p => PNAME[p]||p;
 const COLOR_TXT = {pos:'Beneficia', neg:'Perjudica', mix:'Mixta', neu:'Sin efecto en tu perfil'};
 const VOTE_TXT = {s:'Sí', n:'No', a:'Abst.'};
 
-const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null, hideFew:false, open:new Set(), anim:true};
-// bloques del perfil: las categorías sin grupo van al bloque común
-const GENERAL = 'Para todo el mundo';
-const ico = d => `<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
-const GRP_ICON = {
-  [GENERAL]: ico('<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/>'),
-  'Persona y familia': ico('<circle cx="9" cy="7" r="3"/><path d="M3 20v-1a6 6 0 0 1 12 0v1"/><circle cx="17.5" cy="9.5" r="2.5"/><path d="M16 14.2a5 5 0 0 1 5 4.8v1"/>'),
-  'Trabajo e ingresos': ico('<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v2M3 13h18"/>'),
-  'Patrimonio': ico('<path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>'),
-  'Empresa': ico('<path d="M3 21h18M5 21V8l7-4v17M19 21V11l-7-3"/><path d="M8 11h1M8 14h1M8 17h1M15 14h1M15 17h1"/>'),
-  'Condición social': ico('<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>')
-};
+const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null, hideFew:false, anim:true, pasos:{ui:new Set(), done:new Set(), cur:0}};
 // línea de ayuda de cada categoría: a quién le toca y qué marcar
 const CAT_NOTE = {
-  sexo:'Opcional. Hay leyes dirigidas específicamente a hombres o a mujeres.',
-  ori:'Opcional. Márcalo solo si te identificas como LGTBI+.',
   edad:'Tu tramo de edad actual. Solo uno.',
-  civ:'Tu situación hoy. Si no tienes pareja y tienes hijos, contamos también las leyes para familias monoparentales.',
   hij:'Hijos menores de edad que viven contigo o que mantienes.',
+  sexo:'Hay leyes dirigidas específicamente a hombres o a mujeres.',
+  ori:'Márcalo solo si te identificas como LGTBI+.',
+  civ:'Sirve para las leyes de viudedad, divorcio y familias monoparentales.',
   car:'Márcalo si cuidas en casa de un familiar dependiente.',
-  asal:'Solo si trabajas por cuenta ajena. Mira la base liquidable de tu declaración de la renta: suele ser bastante menor que tu sueldo bruto.',
-  fun:'Solo si eres funcionario: elige tu subgrupo.',
+  sit:'Puedes marcar varias: por ejemplo, si trabajas y estudias.',
+  asal:'Mira la base liquidable de tu declaración de la renta: suele ser bastante menor que tu sueldo bruto.',
+  fun:'Tu subgrupo como funcionario.',
   pro:'Si trabajas en alguno de estos servicios públicos. Puedes marcar varios.',
-  pen:'Solo si cobras una pensión: lo que cobras al año, en bruto.',
-  des:'Solo si estás en paro ahora mismo.',
-  vivn:'Cuántas viviendas tienes en propiedad, contando la tuya.',
-  vivs:'Marca lo que te aplique; pueden ser las dos.',
-  prop:'Ahorros, inversiones, acciones u otros inmuebles, sin contar tu casa.',
-  emp:'Solo si tienes negocio: autónomo, o el tamaño de tu empresa por facturación anual.',
-  sec:'El sector de tu negocio o de tu trabajo. Puedes marcar varios.',
-  cons:'Leyes que te afectan como cliente: bancos, luz, telefonía, compras.',
-  soc:'Marca solo lo que te describa ahora mismo. Puedes marcar varias.'
+  emp:'Por facturación anual.',
+  sec:'El sector de tu negocio. Puedes marcar varios.',
+  pen:'Lo que cobras al año, en bruto.',
+  des:'Lo que cobras ahora mismo.',
+  nviv:'Cuenta la tuya si es propia.',
+  prop:'Ahorros, inversiones, acciones u otros inmuebles, sin contar tu casa. «Menos de 200.000 €» incluye no tener nada.',
+  soc:'Puedes marcar varias.'
 };
 // veredicto en palabras para el saldo de un partido
 // habla de los votos, no del partido
@@ -776,17 +836,33 @@ try{ const d=new URLSearchParams(location.search).get('ds'); if(CATALOGO.some(c=
 let DEEP = null;
 try{ const q=new URLSearchParams(location.search), t=q.get('t'), w=q.get('partido'); if(t==='eco'||t==='soc') state.tab=t; if(w) DEEP=w; }catch(e){}
 
-// perfil inicial: ?p=... (GitHub Pages) o ejemplo
+// perfil inicial: ?p=… (colectivos) y &u=… (respuestas del asistente) de un enlace compartido, o el progreso guardado en
+// este navegador. Las claves desconocidas se ignoran. Un ?p= sin &u= es un enlace antiguo y se traduce a las respuestas nuevas
+const esPerfil = k => LABEL[k] && k!=='ciud' && k!=='cons';
 try{
-  const q = new URLSearchParams(location.search).get('p');
-  if(q) q.split(',').filter(k=>LABEL[k]&&k!=='ciud').forEach(k=>state.sel.add(k));
+  const q = new URLSearchParams(location.search), p = q.get('p'), u = q.get('u'), P = state.pasos;
+  if(p){
+    p.split(',').filter(esPerfil).forEach(k=>state.sel.add(k));
+    if(u!==null) u.split(',').filter(k=>UI_TXT[k]).forEach(k=>P.ui.add(k)); else desdeAntiguo();
+  } else {
+    const g = JSON.parse(localStorage.getItem('pasosPerfil')||'null');
+    if(g){
+      (g.sel||[]).filter(esPerfil).forEach(k=>state.sel.add(k));
+      (g.ui||[]).filter(k=>UI_TXT[k]).forEach(k=>P.ui.add(k));
+      (g.done||[]).filter(i=>PASOS[i]).forEach(i=>P.done.add(i));
+      if(Number.isInteger(g.cur) && g.cur>=-1 && g.cur<NPASOS) P.cur = g.cur;
+    }
+  }
+  deriva();
+  // perfil compartido: los pasos que llegan completos se dan por confirmados
+  if(p){ PASOS.forEach((_,i)=>{ if(completo(i)) P.done.add(i); }); P.cur = PASOS.findIndex((_,i)=>!P.done.has(i)); }
 }catch(e){}
-// con un perfil en el enlace, se abren los bloques donde hay algo marcado; con perfil vacío, todos cerrados
-state.sel.forEach(k=>{ const c=CAT_OF[k]; if(c&&c.grp) state.open.add(c.grp); });
+ajustaPasos();
 let isExample = false;
-const propio = () => [...state.sel].some(k=>k!=='ciud');
-// ciudadanía activa salvo que el enlace diga c=0
+const propio = () => [...state.sel].some(k=>k!=='ciud' && k!=='cons');
+// ciudadanía y consumo activos salvo que el enlace diga c=0 / co=0
 try{ if(new URLSearchParams(location.search).get('c')!=='0') state.sel.add('ciud'); }catch(e){ state.sel.add('ciud'); }
+try{ if(new URLSearchParams(location.search).get('co')!=='0') state.sel.add('cons'); }catch(e){ state.sel.add('cons'); }
 
 function impactOf(it){
   let p=false,n=false;
@@ -867,19 +943,20 @@ function renderTabs(){
 }
 function renderProfile(){
   const p=$('profile'); p.innerHTML=''; p.classList.toggle('vacio',!propio());
-  // perfil vacío: la única guía está en los accesos rápidos del panel
+  // perfil vacío: la guía son los pasos del panel
   if(!propio()) return;
   p.appendChild(el('span',{class:'lbl'+(isExample?' ex':'')}, isExample?'Perfil de ejemplo, cámbialo por el tuyo:':'Tu perfil:'));
-  [...state.sel].filter(k=>k!=='ciud').forEach(k=>p.appendChild(el('button',{class:'pchip','data-k':'chip-'+k,'aria-label':'Quitar '+LABEL[k],onclick:()=>{toggle(k);}}, esc(LABEL[k])+'<span aria-hidden="true">×</span>')));
-  [...RASGOS].filter(k=>!state.sel.has(k)).forEach(k=>p.appendChild(el('span',{class:'ded',title:'Se deduce de tu perfil'}, '+ '+esc(LABEL_DEDUCIDO[k]||LABEL[k]||k))));
+  [...state.sel].filter(k=>esPerfil(k) && !DERIV.includes(k)).forEach(k=>p.appendChild(el('button',{class:'pchip','data-k':'chip-'+k,'aria-label':'Quitar '+LABEL[k],onclick:()=>quitar(k)}, esc(LABEL[k])+'<span aria-hidden="true">×</span>')));
+  // lo deducido de tus respuestas (vivienda, autónomo, estudiante) y de otros rasgos (hijos, dependencia): se cambia desde los pasos
+  [...RASGOS].filter(k=>!state.sel.has(k) || DERIV.includes(k)).filter(k=>k!=='ciud' && k!=='cons').forEach(k=>p.appendChild(el('span',{class:'ded',title:'Se deduce de tu perfil'}, '+ '+esc(LABEL_DEDUCIDO[k]||LABEL[k]||k))));
   const act=el('div',{class:'actions'});
   if(propio()) act.appendChild(el('button',{class:'linkbtn',onclick:copyLink,id:'copy-btn'},'Compartir mi perfil'));
-  if([...state.sel].some(k=>k!=='ciud')) act.appendChild(el('button',{class:'linkbtn',onclick:()=>{const c=state.sel.has('ciud');state.sel.clear();if(c)state.sel.add('ciud');isExample=false;state.open.clear();render();$('filters-h').focus({preventScroll:true});}},'Borrar'));
+  act.appendChild(el('button',{class:'linkbtn',onclick:()=>{[...state.sel].filter(esPerfil).forEach(k=>state.sel.delete(k));isExample=false;state.pasos={ui:new Set(),done:new Set(),cur:0};guardarPasos();render();irPaso(0);}},'Borrar'));
   p.appendChild(act);
 }
 function copyLink(){
   const base = location.origin && location.origin!=='null' ? location.origin+location.pathname : '';
-  const url = base + '?p=' + [...state.sel].filter(k=>k!=='ciud').join(',') + (state.sel.has('ciud')?'':'&c=0') + (state.ds!==CATALOGO[0].clave?'&ds='+state.ds:'');
+  const url = base + '?p=' + [...state.sel].filter(esPerfil).join(',') + '&u=' + [...state.pasos.ui].join(',') + (state.sel.has('ciud')?'':'&c=0') + (state.sel.has('cons')?'':'&co=0') + (state.ds!==CATALOGO[0].clave?'&ds='+state.ds:'');
   copyUrl($('copy-btn'), url, 'Compartir mi perfil');
 }
 // copia un enlace y lo confirma en el propio botón; si el portapapeles falla, enseña la URL
@@ -891,70 +968,159 @@ function copyUrl(b, url, label){
 // Las claves salen siempre de los datos (partidos y leyes del dataset), nunca de texto libre
 function shareUrl(who, ley){
   const base = location.origin && location.origin!=='null' ? location.origin+location.pathname : location.pathname;
-  const q=[], p=[...state.sel].filter(k=>k!=='ciud' && LABEL[k]);
-  if(p.length) q.push('p='+p.map(encodeURIComponent).join(','));
+  const q=[], p=[...state.sel].filter(esPerfil);
+  if(p.length) q.push('p='+p.map(encodeURIComponent).join(','), 'u='+[...state.pasos.ui].join(','));
   if(!state.sel.has('ciud')) q.push('c=0');
+  if(!state.sel.has('cons')) q.push('co=0');
   if(state.ds!==CATALOGO[0].clave) q.push('ds='+encodeURIComponent(state.ds));
   if(state.tab!=='eco') q.push('t='+state.tab);
   if(who && PARTIES.includes(who)) q.push('partido='+encodeURIComponent(who));
   return base+(q.length?'?'+q.join('&'):'')+(ley?'#ley='+encodeURIComponent(ley):'#lista');
 }
-function toggle(k){
-  const c=CAT_OF[k];
-  if(state.sel.has(k)) state.sel.delete(k);
+// marca o desmarca una opción de una pregunta (colectivo o respuesta de interfaz)
+function elegir(q, k){
+  if(q.off && q.off(k)) return;
+  const antes=minimoActual(), S=UI_TXT[k]?state.pasos.ui:state.sel;
+  if(S.has(k)) S.delete(k);
   else {
-    if(!c.multi) c.opts.forEach(([o])=>state.sel.delete(o));
-    if(c.excl && c.excl.includes(k)) c.excl.forEach(o=>state.sel.delete(o));
-    state.sel.add(k);
+    if(qSolo(q) || k===q.none) qOpts(q).forEach(o=>{ state.sel.delete(o); state.pasos.ui.delete(o); });
+    else if(q.none) state.pasos.ui.delete(q.none);
+    S.add(k);
   }
-  isExample=false; render();
+  deriva(); isExample=false; guardarPasos(); render(); avisaMinimo(antes);
 }
-// acceso rápido: abre su bloque, cierra los demás y lleva el foco a la primera opción
-function abrirBloque(g){
-  state.open = new Set([g]); render();
-  const d=document.querySelector('details.grp[data-g="'+g+'"]');
-  if(d){ d.scrollIntoView({behavior:smooth,block:'start'}); const o=d.querySelector('.opt'); (o||d.querySelector('summary')).focus({preventScroll:true}); }
+// quitar un rasgo desde la barra «Tu perfil»
+function quitar(k){ state.sel.delete(k); deriva(); guardarPasos(); render(); }
+// las subpreguntas dependen de «¿De qué vives?» y de la vivienda: al quitar lo que las activa se quitan sus colectivos,
+// y los colectivos deducidos se recalculan desde las respuestas
+function deriva(){
+  const S=state.sel, U=state.pasos.ui, quita=(...ids)=>ids.forEach(id=>CATBY[id].opts.forEach(([o])=>S.delete(o)));
+  if(!asalariado()) quita('asal','pro');
+  if(!tiene('trFun')) quita('fun');
+  if(!tiene('trEmp')) quita('emp');
+  if(!tiene('trAut') && !tiene('trEmp')) quita('sec');
+  if(!tiene('trPen')) quita('pen');
+  if(!tiene('trParo')) quita('des');
+  if(tiene('vdPropia')) U.delete('nv0');
+  if(!tiene('nv1') && !tiene('nv2')){ U.delete('hipSi'); U.delete('hipNo'); }
+  DERIV.forEach(k=>S.delete(k));
+  if(tiene('trAut')) S.add('empAut');
+  if(tiene('trEst')) S.add('estud');
+  if(tiene('nv0')) S.add('viv0');
+  if(tiene('nv1')) S.add(tiene('vdPropia')?'viv1':'viv2');   // una vivienda en la que no vives: casero
+  if(tiene('nv2')) S.add('viv2');
+  if(tiene('vdAlq')) S.add('inq');
+  if(tiene('hipSi')) S.add('hipot');
+}
+// enlace antiguo (?p= sin &u=): sus colectivos se traducen a las respuestas del asistente
+function desdeAntiguo(){
+  const S=state.sel, U=state.pasos.ui, h=k=>S.has(k), de=id=>CATBY[id].opts.some(([o])=>S.has(o));
+  if(h('empAut')) U.add('trAut');
+  if(de('emp')) U.add('trEmp');
+  if(de('fun')) U.add('trFun'); else if(de('asal') || de('pro')) U.add('trAjena');
+  if(de('pen')) U.add('trPen');
+  if(de('des')) U.add('trParo');
+  if(h('estud')) U.add('trEst');
+  // inversa exacta de deriva(): sin alquiler, quien tiene vivienda vive en una propia y quien no tiene, con su familia
+  if(h('inq')) U.add('vdAlq'); else if(h('viv1') || h('viv2')) U.add('vdPropia'); else if(h('viv0')) U.add('vdFam');
+  if(h('viv0')) U.add('nv0'); else if(h('viv1')) U.add('nv1'); else if(h('viv2')) U.add('nv2');
+  if(h('viv1') || h('viv2')) U.add(h('hipot')?'hipSi':'hipNo');
+}
+// declaraciones (no const) porque la carga inicial del perfil las usa antes de llegar aquí
+function qName(q){ return q.name || CATBY[q.cat].name; }
+function qOpts(q){ return [...(q.cat?CATBY[q.cat].opts.map(([k])=>k):[]), ...(q.ui||[]).map(([k])=>k)]; }
+function qSolo(q){ if(!q.cat) return !q.multi; const c=CATBY[q.cat]; return !c.multi || !!(c.excl && c.excl.length===c.opts.length); }
+function visible(q){ return !q.si || q.si(); }
+function respondida(q){ return qOpts(q).some(k=>state.sel.has(k)||state.pasos.ui.has(k)); }
+function faltan(i){ return PASOS[i].q.filter(q=>q.req && visible(q) && !respondida(q)).map(qName); }
+function completo(i){ return !faltan(i).length; }
+function terminado(){ return PASOS.every((_,i)=>state.pasos.done.has(i)); }
+function minimoActual(){ return state.pasos.cur>=0 && completo(state.pasos.cur); }
+// un paso confirmado deja de estarlo si pierde una respuesta obligatoria (p. ej. al quitar un rasgo desde «Tu perfil»)
+function ajustaPasos(){
+  const P=state.pasos; P.done.forEach(i=>{ if(!completo(i)) P.done.delete(i); });
+  if(P.cur<0 && !terminado()) P.cur = PASOS.findIndex((_,i)=>!P.done.has(i));
+}
+function guardarPasos(){
+  try{ localStorage.setItem('pasosPerfil', JSON.stringify({sel:[...state.sel].filter(esPerfil), ui:[...state.pasos.ui], done:[...state.pasos.done], cur:state.pasos.cur})); }catch(e){}
+}
+function avisaMinimo(antes){ if(!antes && minimoActual()) $('live').textContent = 'Paso '+(state.pasos.cur+1)+' completado. Ya puedes continuar.'; }
+// lleva al título de un paso y lo anuncia
+function irPaso(i){
+  const h=$('paso-h-'+i); if(!h) return;
+  h.closest('.paso').scrollIntoView({behavior:smooth,block:'start'}); h.focus({preventScroll:true});
+  $('live').textContent = 'Paso '+(i+1)+' de '+NPASOS+': '+PASOS[i].t;
+}
+function continuar(i){
+  const P=state.pasos;
+  if(!completo(i)) return;
+  P.done.add(i);
+  const sig = [...PASOS.keys()].find(j=>j>i && !P.done.has(j));
+  P.cur = sig!==undefined ? sig : PASOS.findIndex((_,j)=>!P.done.has(j));
+  guardarPasos(); render();
+  if(P.cur<0) verResultado(); else irPaso(P.cur);
+}
+function cambiar(i){ state.pasos.cur=i; guardarPasos(); render(); irPaso(i); }
+function verResultado(){ $('rank-sec').scrollIntoView({behavior:smooth,block:'start'}); $('rank-h').focus({preventScroll:true}); }
+function resumen(i){
+  const out=[];
+  PASOS[i].q.filter(visible).forEach(q=>qOpts(q).forEach(k=>{ if(UI_TXT[k]){ if(tiene(k)) out.push(UI_TXT[k]); } else if(state.sel.has(k)) out.push(LABEL[k]); }));
+  return out;
 }
 function renderFilters(){
   const f=$('filters'); f.innerHTML='';
-  f.appendChild(el('div',{class:'shead'},'<span class="step" data-n="1" aria-hidden="true"><svg class="ico"><use href="#i-sliders"/></svg></span><div><h2 id="filters-h" tabindex="-1">Marca tu situación</h2><p class="hint">'+(propio()?'Marca lo que te describa; no hace falta rellenarlo todo. Donde hay tramos, elige uno. El resultado se actualiza al momento.':'No hace falta rellenarlo todo: con una opción ya sale tu ranking.')+'</p></div>'));
-  if(!propio()){
-    const qs=el('div',{class:'qs',role:'group','aria-labelledby':'qs-h'});
-    qs.appendChild(el('p',{id:'qs-h'},'Empieza por lo que más te toca el bolsillo'));
-    qs.appendChild(el('p',{class:'qs-sub'},'Elige uno y se abre su apartado.'));
-    const g=el('div',{class:'qs-grid'});
-    [['Trabajo e ingresos','Mi sueldo','y lo que pago de IRPF'],['Patrimonio','Mi casa','propiedad, hipoteca o alquiler'],['Persona y familia','Mi familia','hijos y mayores a cargo'],['Empresa','Mi negocio','autónomo o empresa']].forEach(([n,t,sm])=>
-      g.appendChild(el('button',{type:'button',class:'qs-btn','data-k':'qs-'+n,onclick:()=>abrirBloque(n)},`<span class="gi" aria-hidden="true">${GRP_ICON[n]}</span><span class="qt">${t}<small>${sm}</small></span><span class="ar" aria-hidden="true">→</span>`)));
-    qs.appendChild(g); f.appendChild(qs);
-  }
-  // bloques plegables (p. ej. Patrimonio → Vivienda / Otro patrimonio); el estado abierto sobrevive al re-render
-  const groups = new Map();
-  CATS.forEach(c=>{ if(c.id==='ciu') return; const g=c.grp||(c.id==='cons'?'Condición social':GENERAL); if(!groups.has(g)) groups.set(g,[]); groups.get(g).push(c); });
-  groups.forEach((cats,g)=>{
-    const marked = cats.flatMap(c=>c.opts.filter(([k])=>state.sel.has(k)).map(([k])=>LABEL[k]));
-    const d=el('details',{class:'grp','data-g':g}); if(state.open.has(g)) d.open=true;
-    d.addEventListener('toggle',()=>{ if(d.open) state.open.add(g); else state.open.delete(g); });
-    d.appendChild(el('summary',{}, `<span class="gi" aria-hidden="true">${GRP_ICON[g]||''}</span><span class="gt">${esc(g)}<small>${marked.length?esc(marked.join(' · ')):'Sin marcar'}</small></span>${marked.length?`<span class="gn" aria-hidden="true">${marked.length}</span>`:''}<span class="chev" aria-hidden="true"></span>`));
-    const body=el('div',{class:'gbody'}); let sub=null;
-    body.appendChild(el('p',{class:'gnote'},'Marca solo lo que vaya contigo. Lo que no te aplique, déjalo en blanco.'));
-    cats.forEach(c=>{
-      if(c.sub && c.sub!==sub){ sub=c.sub; body.appendChild(el('h3',{class:'catsub'},esc(sub))); }
-      const box=el('div',{class:'cat'});
-      box.appendChild(el(c.sub?'h4':'h3',{id:'cat-'+c.id}, esc(c.name)));
-      if(CAT_NOTE[c.id]) box.appendChild(el('p',{class:'cnote',id:'cn-'+c.id},esc(CAT_NOTE[c.id])));
-      // una sola opción: sin «multi» o con todas sus opciones excluyentes entre sí (Hombre/Mujer)
-      const solo = !c.multi || (c.excl && c.excl.length===c.opts.length);
-      const o=el('div',{class:'opts'+(solo?' solo':''),role:solo?'radiogroup':'group','aria-labelledby':'cat-'+c.id,...(CAT_NOTE[c.id]?{'aria-describedby':'cn-'+c.id}:{})});
-      if(solo){
-        // una sola opción: radios con un único elemento tabulable; flechas para moverse, Espacio para marcar y otra vez para quitar
-        const on = c.opts.findIndex(([k])=>state.sel.has(k));
-        c.opts.forEach(([k,v],i)=>o.appendChild(el('button',{type:'button',class:'opt',role:'radio','data-k':k,'aria-checked':String(state.sel.has(k)),tabindex:i===(on<0?0:on)?'0':'-1',...(state.sel.has(k)?{'aria-describedby':'rdesel'}:{}),onclick:()=>toggle(k)},esc(v))));
-        o.addEventListener('keydown',radioKeys);
-      } else c.opts.forEach(([k,v])=>o.appendChild(el('button',{class:'opt','data-k':k,'aria-pressed':String(state.sel.has(k)),onclick:()=>toggle(k)},esc(v))));
-      box.appendChild(o); body.appendChild(box);
-    });
-    d.appendChild(body); f.appendChild(d);
+  f.appendChild(el('div',{class:'shead'},'<span class="step" aria-hidden="true"><svg class="ico"><use href="#i-sliders"/></svg></span><div><h2 id="filters-h" tabindex="-1">Marca tu situación</h2><p class="hint">Marca tu situación en 4 pasos. Solo te pedimos lo imprescindible para calcular bien tu resultado.</p></div>'));
+  const P=state.pasos, ol=el('ol',{class:'pasos',role:'list'});
+  PASOS.forEach(({t:g,d:txt,q:qs},i)=>{
+    const n=i+1, hecho=P.done.has(i), abierto=i===P.cur, bloq=!hecho&&!abierto, ok=!bloq&&completo(i), falta=faltan(i);
+    const li=el('li',{class:'paso '+(abierto?'cur':hecho?'done':'lock')+(ok?' ok':'')});
+    li.appendChild(el('span',{class:'pnum','aria-hidden':'true'}, n+(ok?CHECK:'')));
+    const st = ok ? '<span class="pst ok"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Mínimo completado</span>' : '<span class="pst">Falta: '+esc(falta.join(', '))+'</span>';
+    let card;
+    if(bloq){
+      // visible pero sin poder abrirse hasta terminar el anterior
+      card=el('div',{class:'pcard',role:'group','aria-disabled':'true','aria-labelledby':'paso-h-'+i},
+        `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}: </span><span aria-hidden="true">Paso ${n} · </span>${esc(g)} <small>— completa el paso anterior</small></h3>`);
+    } else if(!abierto){
+      card=el('div',{class:'pcard'});
+      const h=el('div',{class:'phead'}, `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}, hecho: </span>${esc(g)}</h3>${st}`);
+      h.appendChild(el('button',{type:'button',class:'linkbtn pcam','data-k':'cam-'+i,'aria-label':'Cambiar el paso '+n+': '+g,onclick:()=>cambiar(i)},'Cambiar'));
+      card.appendChild(h);
+      const r=resumen(i);
+      card.appendChild(el('p',{class:'psum'}, r.length?esc(r.join(' · ')):'Sin marcar'));
+    } else {
+      card=el('div',{class:'pcard'});
+      card.appendChild(el('div',{class:'phead'}, `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}: </span>${esc(g)}</h3>${st}`));
+      card.appendChild(el('p',{class:'pdesc'}, esc(txt)));
+      card.appendChild(el('p',{class:'gnote'},'Marca solo lo que vaya contigo. Lo opcional, si no te aplica, déjalo en blanco.'));
+      qs.filter(visible).forEach(q=>{
+        const box=el('div',{class:'cat'+(q.si?' cond':'')});
+        box.appendChild(el('h4',{id:'cat-'+q.id}, esc(qName(q))+(q.req?'':' <span class="qopt">opcional</span>')));
+        if(CAT_NOTE[q.id]) box.appendChild(el('p',{class:'cnote',id:'cn-'+q.id},esc(CAT_NOTE[q.id])));
+        const solo=qSolo(q);
+        const o=el('div',{class:'opts'+(solo?' solo':''),role:solo?'radiogroup':'group','aria-labelledby':'cat-'+q.id,...(CAT_NOTE[q.id]?{'aria-describedby':'cn-'+q.id}:{})});
+        const all=[...(q.cat?CATBY[q.cat].opts.map(([k,v])=>({k,v,dk:k,on:state.sel.has(k)})):[]), ...(q.ui||[]).map(([k,v])=>({k,v,dk:'ui-'+k,on:tiene(k),no:k===q.none}))];
+        all.forEach(x=>{ x.off = q.off ? q.off(x.k) : ''; });
+        const tab = all.findIndex(x=>x.on)>=0 ? all.findIndex(x=>x.on) : Math.max(0, all.findIndex(x=>!x.off));
+        all.forEach((x,j)=>{
+          const a={type:'button',class:'opt'+(x.no?' opt-no':''),'data-k':x.dk,onclick:()=>elegir(q,x.k)};
+          if(solo){ a.role='radio'; a['aria-checked']=String(x.on); a.tabindex=j===tab?'0':'-1'; if(x.on) a['aria-describedby']='rdesel'; }
+          else a['aria-pressed']=String(x.on);
+          if(x.off){ a['aria-disabled']='true'; a['aria-describedby']='off-'+x.k; }
+          o.appendChild(el('button',a, esc(x.v)+(x.off?`<small class="offr" id="off-${x.k}">· ${esc(x.off)}</small>`:'')));
+        });
+        if(solo) o.addEventListener('keydown',radioKeys);
+        box.appendChild(o); card.appendChild(box);
+      });
+      const fin = PASOS.every((_,j)=>j===i||P.done.has(j));
+      const foot=el('div',{class:'pfoot'});
+      if(!ok) foot.appendChild(el('p',{class:'pfalta',id:'falta-'+i},'Para continuar, responde: '+esc(falta.join(', '))+'.'));
+      foot.appendChild(el('button',{type:'button',class:'btn pcont','data-k':'cont-'+i,'aria-disabled':String(!ok),...(ok?{}:{'aria-describedby':'falta-'+i}),onclick:()=>continuar(i)}, fin?'Ver mi resultado <span aria-hidden="true">↓</span>':'Continuar <span aria-hidden="true">→</span>'));
+      card.appendChild(foot);
+    }
+    li.appendChild(card); ol.appendChild(li);
   });
+  f.appendChild(ol);
 }
 // flechas dentro de un grupo de radios: mueven el foco (y el único elemento tabulable) sin marcar
 function radioKeys(e){
@@ -968,8 +1134,16 @@ function radioKeys(e){
 }
 function renderRank(){
   const r=$('rank'); r.innerHTML='';
+  const mb=$('mbar'), fin=terminado();
+  // sin los 4 pasos no hay ranking: un perfil a medias daría un resultado erróneo
+  $('legend').hidden = $('tabs').hidden = !fin;
+  if(!fin){
+    mb.hidden=true;
+    $('rank-hint').textContent = 'Tu ranking sale al terminar los 4 pasos, para que no veas un resultado con tu perfil a medias.';
+    r.appendChild(espera());
+    return;
+  }
   $('rank-hint').innerHTML = 'Cada partido saca una nota de −100 a +100 según lo que votó en las leyes que te afectan. '+(DATA.meta.formato==='europarlamento'?'Cuenta solo cómo votó.':'Cuenta sobre todo el voto; lo que solo presentó pesa poco.')+' <b>Pulsa un partido para ver ley a ley.</b> <a href="#metodologia">Cómo se calcula</a>';
-  const mb=$('mbar');
   // pocas votaciones clave en el dataset: el ranking es solo orientativo
   const nvot = ITEMS.filter(i=>i.v).length;
   if(nvot<30) r.appendChild(el('p',{class:'lowdata',role:'note'}, `<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg><span><b>Esta legislatura tiene muy pocas votaciones en el Pleno (${nvot}).</b> El ranking es poco fiable: tómalo como orientación.</span>`));
@@ -979,6 +1153,12 @@ function renderRank(){
   cc.addEventListener('change',()=>{ if(cc.checked) state.sel.add('ciud'); else state.sel.delete('ciud'); render(); });
   ciu.appendChild(cc); ciu.appendChild(el('span',{},'Incluir leyes que afectan a todos<small>IVA y otros impuestos que paga todo el mundo, sanidad, medio ambiente, servicios públicos. <a href="#metodologia">Qué se cuenta aquí</a></small>'));
   r.appendChild(ciu);
+  // consumo: activo por defecto, como la ciudadanía; se quita con co=0
+  const con = el('label',{class:'chk ciu'});
+  const ck = el('input',{type:'checkbox','data-k':'cons-chk'}); ck.checked = state.sel.has('cons');
+  ck.addEventListener('change',()=>{ if(ck.checked) state.sel.add('cons'); else state.sel.delete('cons'); render(); });
+  con.appendChild(ck); con.appendChild(el('span',{},'Incluir leyes de consumo: luz, gas, banca, telefonía, transporte<small>Te afectan como cliente, como a casi todo el mundo. <a href="#metodologia">Qué se cuenta aquí</a></small>'));
+  r.appendChild(con);
   if(!propio()){
     mb.hidden=true;
     r.appendChild(el('div',{class:'rank-empty'},'<svg class="ico" aria-hidden="true"><use href="#i-list"/></svg><b>Aquí saldrá tu ranking</b><span>Marca una sola casilla (tu sueldo, tu casa, tus hijos…) y aparece al instante, con la nota de cada partido de −100 a +100.</span>'));
@@ -1010,6 +1190,22 @@ function renderRank(){
   r.appendChild(el('p',{class:'note'}, state.hideFew ? (ocultos?`${ocultos} partido${ocultos>1?'s':''} oculto${ocultos>1?'s':''} por tener menos de 3 iniciativas que te afecten.`:'Ningún partido oculto.') : '«Pocos datos»: menos de 3 leyes que te afecten. Tómalo con cautela.'));
   r.appendChild(el('button',{class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las leyes de la legislatura, una a una →'));
 }
+// estado de espera del resultado: en qué paso vas, con una mini barra de progreso
+function espera(){
+  const P=state.pasos, n=P.cur+1, ok=minimoActual();
+  const d=el('div',{class:'rank-wait'});
+  d.appendChild(el('p',{}, `<b>Completa los ${NPASOS} pasos para ver tu resultado.</b>Vas por el paso ${n}.`));
+  const ol=el('ol',{class:'prog',role:'list','aria-label':'Tu progreso en los '+NPASOS+' pasos'});
+  PASOS.forEach(({t:g},i)=>{
+    const h=P.done.has(i), v=h||(i===P.cur&&ok);
+    const st = h?'hecho':i===P.cur?(ok?'mínimo completado':'en curso'):'pendiente';
+    ol.appendChild(el('li',{class:(v?'ok':'')+(i===P.cur?' cur':'')}, `<span aria-hidden="true">${v?'<svg class="ico"><use href="#i-check"/></svg>':i+1}</span><span class="sr-only">Paso ${i+1}, ${esc(g)}: ${st}</span>`));
+  });
+  d.appendChild(ol);
+  if(ok) d.appendChild(el('p',{class:'prog-ok'}, `<svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Paso ${n}: mínimo completado. Pulsa «${PASOS.every((_,j)=>j===P.cur||P.done.has(j))?'Ver mi resultado':'Continuar'}».`));
+  d.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'ir-paso',onclick:()=>irPaso(P.cur)}, `Ir al paso ${n}: ${esc(PASOS[P.cur].t)} →`));
+  return d;
+}
 // las leyes que más te afectan en la pestaña activa: por alcance y, después, por fecha. Partidos en orden alfabético
 const IMP_TXT = {pos:'Te beneficia', neg:'Te perjudica', mix:'Mixta'};
 function top5(){
@@ -1040,7 +1236,7 @@ function top5(){
   return d;
 }
 function renderPanel(){
-  renderTabs(); renderProfile(); renderFilters();
+  ajustaPasos(); renderTabs(); renderProfile(); renderFilters();
   renderRank();
 }
 
@@ -1246,7 +1442,8 @@ function renderList(){
     // el desglose sale aunque el partido esté oculto por «pocos datos»
     const xc = x || ranked().all.find(r=>r.k===L.who);
     head.appendChild(shareFicha(L.who));
-    if(xc){ head.appendChild(porQue(L.who)); head.appendChild(calcBox(xc)); }
+    // a todo el ancho de la ficha; en escritorio, en dos columnas
+    if(xc){ const duo=el('div',{class:'fduo'}); duo.appendChild(porQue(L.who)); duo.appendChild(calcBox(xc)); head.appendChild(duo); }
   } else if(L.who) head.appendChild(shareFicha(L.who));
   head.appendChild(el('p',{class:'lsub'}, L.who ? `Así votó, ley a ley, en lo que te afecta. Verde es a tu favor, rojo en tu contra. En cada ley ves qué es dato oficial del ${srcName()}, qué es clasificación propia y cuánto suma o resta. Cada una enlaza a su registro oficial para que lo compruebes.` : `Todas las leyes y propuestas de la legislatura. En cada una ves qué es dato oficial del ${srcName()} y qué es clasificación propia. Marca tu perfil para ver cuáles te afectan.`));
   head.appendChild(el('p',{class:'dlinks'}, jsonLink()+repoLink('Revisar la clasificación en GitHub','/tree/main/data/clasificacion')+histLink()));
@@ -1375,10 +1572,12 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
 `}    <h3>Clasificación de impactos</h3>
     <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
     <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. También recoge lo público frente a lo privado: lo de titularidad o gestión pública es patrimonio de todos, así que las leyes que lo amplían (nacionalizaciones, gestión pública de la sanidad, reversión de concesiones) benefician a la ciudadanía y perjudican al sector privado afectado, y las que lo traspasan a empresas (privatizaciones, externalizaciones, liberalizaciones) hacen lo contrario. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
+    <p>«Consumidor y usuario» recoge las leyes que te afectan como cliente: luz, gas, banca, telefonía, transporte o compras. Como casi todo el mundo es consumidor, también está activa por defecto en todos los perfiles; puedes quitarla con la casilla «Incluir leyes de consumo», junto al ranking.</p>
     <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las leyes sobre alquiler y okupación afectan a quien tiene dos o más), hipoteca y alquiler; otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte.</p>
     <h3>Alcance de cada iniciativa</h3>
     <p>Cada iniciativa tiene un alcance: gran reforma (cambia de forma estructural un ámbito que afecta a millones de personas, como una reforma laboral, de pensiones o unos presupuestos), ley relevante (regula de forma sustantiva un sector, un colectivo amplio o un derecho) o ley menor o técnica. Mide el tamaño de la norma, no si es buena o mala ni si se aprobó, y forma parte de la misma clasificación interpretativa.</p>
     <h3>Cómo se calcula el ranking</h3>
+    <p>Tu perfil son los rasgos que marcas en los 4 pasos, los que se deducen de tus respuestas (por ejemplo, vivir de alquiler o tener dos viviendas) y, salvo que las quites, «Ciudadanía general» y «Consumidor y usuario», que están activas por defecto.</p>
     <p>Para cada partido se toman las iniciativas que afectan a tu perfil y se cuenta cada una una sola vez, según la mejor prueba que haya de su postura. Lo que más pesa es cómo votó: votar el texto final o la convalidación de un real decreto-ley cuenta 1; la toma en consideración o una enmienda a la totalidad, 0,5, porque solo decide si se debate. Las iniciativas que el partido presentó pero no llegó a votar en el Pleno cuentan 0,25: presentar una ley cuesta poco y no siempre busca aprobarla. Las abstenciones no cuentan.</p>
     <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. Al total se le suman 9 puntos neutros de prudencia, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema: el saldo es (a favor − en contra) ÷ (total + 9) × 100, de −100 a +100. Con muchas leyes la prudencia apenas cuenta; con pocas, acerca la nota a 0. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ (12 + 9) × 100 = +29. Sin la prudencia saldría +50.</p>
     <p>${DATA.meta.formato==='europarlamento' ? 'La Comisión Europea no aparece en el ranking: sus propuestas cuentan a través de cómo las votó cada partido.' : 'El Gobierno no aparece en el ranking: sus proyectos de ley y reales decretos-ley cuentan a través de cómo los votó cada partido.'}</p>
@@ -1402,17 +1601,17 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>«Signo contrario» quiere decir que una lectura marca que la ley beneficia a un colectivo y otra que lo perjudica. El parecido va de 0 (ningún colectivo marcado en común) a 1 (los mismos colectivos con el mismo efecto). 255 de las 540 iniciativas coinciden en las tres lecturas; <b>115 casos están en revisión humana</b>. La clasificación vigente no se ha cambiado: cada caso se decide uno a uno.</p>
     <p class="dlinks">${repoLink('Ver los 115 casos en revisión (GitHub)','/blob/main/data/clasificacion/congreso_xv/doble_lectura/DISCREPANCIAS.md')}</p>
     <h3>Prueba de sesgo</h3>
-    <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 20 arquetipos (asalariado con hipoteca, pensionista, autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web, en cada legislatura y pestaña, con y sin «Ciudadanía general». Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
+    <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 20 arquetipos (asalariado con hipoteca, pensionista, autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web, en cada legislatura y pestaña, con y sin «Ciudadanía general» y con «Consumidor» activo, como viene por defecto. Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
     <p>«Ciudadanía general» cambia mucho el resultado en el Parlamento Europeo:</p>
     <table class="tbl">
       <caption>Parlamento Europeo, leyes económicas: partido que sale primero en más perfiles y en qué porcentaje de ellos</caption>
       <thead><tr><th scope="col">Legislatura</th><th scope="col">Con «Ciudadanía general»</th><th scope="col">Sin ella</th></tr></thead>
       <tbody>
-        <tr><th scope="row">10.ª · 2024–2029</th><td>ERC · 65,0 %</td><td>PP · 42,1 %</td></tr>
-        <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 34,9 %</td><td>VOX · 28,9 %</td></tr>
+        <tr><th scope="row">10.ª · 2024–2029</th><td>ERC · 74,5 %</td><td>PNV · 43,6 %</td></tr>
+        <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 48,0 %</td><td>Comuns · 62,4 %</td></tr>
       </tbody>
     </table>
-    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros PNV en el 40,2 % de los perfiles, Junts en el 25,0 % y CC en el 14,6 %. En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100 % de los perfiles.</p>
+    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros PNV en el 44,4 % de los perfiles, Junts en el 18,3 % y CC en el 17,0 %. En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
     <p><span class="tag-int">Interpretación nuestra</span>Los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.</p>
     <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','/blob/main/data/analisis/SESGO.md')}</p>
     <h3>Versión de la metodología</h3>
@@ -1471,7 +1670,7 @@ let anuncioT=null;
 function anunciar(){
   clearTimeout(anuncioT);
   anuncioT=setTimeout(()=>{
-    if($('view-panel').hidden) return;
+    if($('view-panel').hidden || !terminado()) return;
     const n=document.querySelectorAll('#rank .rrow').length;
     $('live').textContent = n ? 'Resultado actualizado: '+n+' partidos comparados.' : (propio()?'Ninguna iniciativa afecta a tu perfil.':'');
   },500);
@@ -1529,7 +1728,7 @@ async function load(clave){
 }
 const smooth = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
 $('intro-cta').addEventListener('click',e=>{e.preventDefault();$('filters').scrollIntoView({behavior:smooth,block:'start'});$('filters-h').focus({preventScroll:true});});
-$('mbar').addEventListener('click',()=>{$('rank-sec').scrollIntoView({behavior:smooth,block:'start'});$('rank-h').focus({preventScroll:true});});
+$('mbar').addEventListener('click',verResultado);
 // barra de resultado en móvil: solo en el panel, pasada la cabecera y con el ranking fuera de la vista
 const VIS = {};
 function mbarSync(){ document.body.classList.toggle('mb-on', !$('view-panel').hidden && !$('mbar').hidden && VIS.past && !VIS.rank && !VIS.form); }

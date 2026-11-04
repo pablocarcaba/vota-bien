@@ -117,7 +117,7 @@ VARIOS = {
     "pro": ["proSeg", "proSan", "proDoc"],
     "sec": ["secPrim", "secInd", "secCons", "secTrans", "secCom", "secFin", "secDig", "secSoc"],
     "soc": ["estud", "pac", "depend", "discapacidad", "inmigrantes", "minorias", "rural", "victimas", "pobreza"],
-    "otros": ["cuid", "cons", "lgtbi"],
+    "otros": ["cuid", "lgtbi"],
 }
 
 ARQUETIPOS = {
@@ -127,8 +127,8 @@ ARQUETIPOS = {
     "Pensionista con pensión baja": ["pen1", "mayores", "viv1", "civViu"],
     "Autónomo del comercio": ["empAut", "secCom", "viv1", "hipot", "adultos"],
     "Empresario de pyme industrial": ["empPeq", "secInd", "viv2", "prop2", "adultos"],
-    "Funcionario docente": ["funA2", "proDoc", "viv1", "hipot", "adultos"],
-    "Policía o guardia civil": ["funC1", "proSeg", "viv1", "hipot", "adultos"],
+    "Funcionario docente": ["funA2", "asal3", "proDoc", "viv1", "hipot", "adultos"],
+    "Policía o guardia civil": ["funC1", "asal2", "proSeg", "viv1", "hipot", "adultos"],
     "Sanitario asalariado": ["asal3", "proSan", "viv1", "adultos"],
     "Familia numerosa": ["asal3", "hij3", "civPar", "viv1", "hipot", "adultos"],
     "Rentas altas con patrimonio": ["asal5", "prop3", "viv2", "adultos"],
@@ -145,15 +145,29 @@ ARQUETIPOS = {
 
 
 def aleatorio(rng):
-    sel = set()
-    for opts in UNO.values():
-        if rng.random() < 0.75:
-            sel.add(rng.choice(opts))
-    sel.add(rng.choice(TRABAJO[rng.choice(list(TRABAJO))]))
-    for opts in VARIOS.values():
-        for o in opts:
-            if rng.random() < 0.12:
-                sel.add(o)
+    """Un perfil como los que permite el formulario de la web: edad e hijos siempre; una o dos
+    situaciones laborales con sus subpreguntas (el funcionario también marca tramo; el sector solo
+    con negocio); vivienda y ahorros siempre; el resto opcional."""
+    sel = {rng.choice(UNO["edad"]), rng.choice(UNO["hij"]), rng.choice(UNO["prop"])}
+    for k in ("civ", "sexo"):
+        if rng.random() < 0.6:
+            sel.add(rng.choice(UNO[k]))
+    sel.add(rng.choice(UNO["vivn"]))
+    if "viv0" not in sel and rng.random() < 0.4:
+        sel.add("hipot")
+    if rng.random() < 0.3:
+        sel.add("inq")
+    for t in rng.sample(list(TRABAJO), 2 if rng.random() < 0.15 else 1):
+        sel.add(rng.choice(TRABAJO[t]))
+        if t == "fun":
+            sel.add(rng.choice(TRABAJO["asal"]))
+        if t in ("asal", "fun") and rng.random() < 0.15:
+            sel.add(rng.choice(VARIOS["pro"]))
+        if t == "emp":
+            sel.add(rng.choice(VARIOS["sec"]))
+    for o in VARIOS["soc"] + ["cuid", "lgtbi"]:
+        if rng.random() < 0.08:
+            sel.add(o)
     return sel
 
 
@@ -179,7 +193,7 @@ def main():
                 nota = {p: [] for p in parties}
                 validos = 0
                 for sel in muestra:
-                    s = set(sel) | ({"ciud"} if ciud else set())
+                    s = set(sel) | {"cons"} | ({"ciud"} if ciud else set())
                     rank = compute_rank(items, parties, rasgos(s), tab)
                     rank = [r for r in rank if r["rel"] >= 3]  # como «ocultar pocos datos»: evita primeros con 1-2 leyes
                     if not rank:
@@ -199,7 +213,7 @@ def main():
                     key=lambda x: -x["primero_pct"])
                 arq = {}
                 for nombre, rasg in ARQUETIPOS.items():
-                    s = set(rasg) | ({"ciud"} if ciud else set())
+                    s = set(rasg) | {"cons"} | ({"ciud"} if ciud else set())
                     rank = [r for r in compute_rank(items, parties, rasgos(s), tab) if r["rel"] >= 3]
                     arq[nombre] = [f"{r['k']} {r['s']:+d}" for r in rank[:3]]
                 res["legislaturas"][clave][f"{tab}_{'con' if ciud else 'sin'}_ciud"] = {
