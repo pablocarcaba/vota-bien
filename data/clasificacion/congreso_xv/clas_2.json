@@ -120,7 +120,7 @@
 "secCons": 1
 },
 "peso": 2,
-"nota": "Reforma de la Ley de Suelo para dar seguridad jurídica al planeamiento urbanístico; favorece al sector promotor y constructor.",
+"nota": "Limita la nulidad de planes urbanísticos por vicios formales y permite subsanarlos; da seguridad jurídica a promotores y constructores.",
 "partido": ""
 },
 {
@@ -142,9 +142,13 @@
 {
 "id": "122/000117",
 "tipo": "soc",
-"imp": {},
+"imp": {
+"infancia": 1,
+"estud": 1,
+"pobreza": 1
+},
 "peso": 2,
-"nota": "Reforma de la LOE sin contenido distributivo identificable por el título.",
+"nota": "Mandata regular comedores escolares universales, gratuitos y abiertos todo el año en centros públicos; beneficia a familias con hijos.",
 "partido": "Podemos"
 },
 {
@@ -204,7 +208,7 @@
 "infancia": 1
 },
 "peso": 2,
-"nota": "Reforma de extranjería sobre acogida de menores migrantes no acompañados; mejora su atención y reparto territorial.",
+"nota": "Establece un reparto obligatorio entre comunidades de menores migrantes no acompañados en contingencias; mejora su atención y acogida.",
 "partido": ""
 },
 {
@@ -376,9 +380,11 @@
 {
 "id": "122/000140",
 "tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modificación de la ley de residuos sin dirección de efecto identificable por el título.",
+"imp": {
+"secInd": 1
+},
+"peso": 2,
+"nota": "Suprime el impuesto a envases de plástico no reutilizables, rebaja objetivos de reutilización y favorece la valorización energética; reduce costes industriales.",
 "partido": ""
 },
 {
@@ -439,7 +445,7 @@
 "inq": 1
 },
 "peso": 1,
-"nota": "Permite materializar la RIC canaria en vivienda en alquiler; incentiva a empresas canarias y amplía oferta para inquilinos.",
+"nota": "Permite materializar la RIC canaria en compra o construcción de vivienda para alquiler habitual, no vacacional; incentiva empresas y amplía oferta.",
 "partido": "CC"
 },
 {
@@ -529,9 +535,11 @@
 {
 "id": "122/000155",
 "tipo": "eco",
-"imp": {},
-"peso": 3,
-"nota": "Reforma de IRPF, Sociedades, no residentes y Patrimonio; el título no permite fijar la dirección del efecto.",
+"imp": {
+"asal1": 1
+},
+"peso": 1,
+"nota": "Prohíbe practicar retenciones de IRPF a quienes cobran el salario mínimo; aumenta su salario neto mensual.",
 "partido": "Podemos"
 },
 {
@@ -641,7 +649,7 @@
 "tipo": "eco",
 "imp": {},
 "peso": 1,
-"nota": "Reforma de la ley de puertos sin dirección de efecto identificable por el título.",
+"nota": "Atribuye al Ministerio el nombramiento de los órganos de las autoridades portuarias, hoy compartido con las comunidades; norma organizativa.",
 "partido": ""
 },
 {
@@ -684,7 +692,7 @@
 "secTrans": -1
 },
 "peso": 2,
-"nota": "Amplía el comercio de derechos de emisión; reduce emisiones y encarece la actividad industrial y del transporte.",
+"nota": "Registro duplicado de la 122/000170 (mismo título, autores y fecha), retirado al calificarse; mismo efecto sobre el comercio de emisiones.",
 "partido": ""
 },
 {
@@ -696,7 +704,7 @@
 "secTrans": -1
 },
 "peso": 2,
-"nota": "Amplía el comercio de derechos de emisión; reduce emisiones y encarece la actividad industrial y del transporte.",
+"nota": "Transpone la reforma europea del comercio de emisiones: menos derechos gratuitos e inclusión del transporte marítimo y la aviación.",
 "partido": ""
 },
 {
@@ -856,9 +864,11 @@
 {
 "id": "122/000186",
 "tipo": "soc",
-"imp": {},
+"imp": {
+"estud": 1
+},
 "peso": 1,
-"nota": "Reforma de la ley universitaria sin efecto distributivo identificable por el título.",
+"nota": "Prohíbe que universidades paguen o donen a cambio de prácticas curriculares de sus estudiantes; garantiza acceso igual a las prácticas.",
 "partido": ""
 },
 {
@@ -954,10 +964,12 @@
 "tipo": "eco",
 "imp": {
 "inq": 1,
-"viv2": 1
+"viv2": 1,
+"jovenes": 1,
+"secCom": -1
 },
 "peso": 2,
-"nota": "Incentivos fiscales al alquiler asequible; beneficia a inquilinos y a propietarios que alquilan a precio limitado.",
+"nota": "Rebajas de IRPF a quien alquila barato o a jóvenes, IVA del 21 % al alquiler turístico, impuesto a compradores extracomunitarios y vivienda pública.",
 "partido": ""
 },
 {
@@ -1074,9 +1086,11 @@
 {
 "id": "122/000208",
 "tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Reforma de la LOMLOE; dirección del efecto discutible según el colectivo.",
+"imp": {
+"secSoc": 1
+},
+"peso": 1,
+"nota": "Suprime las previsiones de la LOMLOE para trasladar alumnado de centros de educación especial a ordinarios; preserva esos centros, incluidos concertados.",
 "partido": ""
 },
 {

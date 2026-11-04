@@ -43,7 +43,7 @@
 "tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Iniciativa sobre cultura y bienestar sin efecto distributivo claro sobre colectivos concretos.",
+"nota": "Integra la cultura en la salud pública: prescripción social, mapa de activos culturales y órganos de coordinación; programática, sin efecto distributivo claro.",
 "partido": ""
 },
 {
@@ -56,7 +56,7 @@
 "viv2": -1
 },
 "peso": 2,
-"nota": "Restringe publicidad y contratación de pisos turísticos; limita a propietarios, turismo y plataformas, y busca liberar vivienda para alquiler residencial.",
+"nota": "Obliga a las plataformas a verificar licencia de pisos turísticos antes de anunciarlos, con sanciones; frena oferta ilegal y busca liberar vivienda.",
 "partido": ""
 },
 {
@@ -352,10 +352,10 @@
 },
 {
 "id": "122/000245",
-"tipo": "eco",
+"tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Modifica el Estatuto del Empleado Público y la Ley de Subvenciones; efecto concreto no deducible del título.",
+"nota": "Impide acceder a empleos públicos con menores y a subvenciones para actividades con menores a condenados por terrorismo; sin efecto distributivo.",
 "partido": "UPN"
 },
 {
@@ -825,9 +825,11 @@
 {
 "id": "122/000292",
 "tipo": "soc",
-"imp": {},
+"imp": {
+"proSeg": 1
+},
 "peso": 1,
-"nota": "Modifica la Ley de Fuerzas y Cuerpos de Seguridad; efecto concreto no deducible del título.",
+"nota": "Regula el uso de armas de fuego por la policía, incluido el fuego inhabilitante contra narcolanchas; da seguridad jurídica a los agentes.",
 "partido": ""
 },
 {
@@ -998,7 +1000,7 @@
 "empMicro": 1
 },
 "peso": 1,
-"nota": "Aplica IVA reducido a servicios de peluquería; abarata el servicio y beneficia a pequeños negocios del sector.",
+"nota": "Aplica el IVA reducido del 10 % a peluquería, barbería y estética; abarata el servicio y beneficia a pequeños negocios del sector.",
 "partido": ""
 },
 {
@@ -1028,7 +1030,7 @@
 "tipo": "soc",
 "imp": {},
 "peso": 1,
-"nota": "Modificación del Código Penal sin efecto distributivo claro a partir del título.",
+"nota": "Modificación del Código Penal del Grupo Popular del Senado; el texto disponible no detalla su contenido. Sin efecto distributivo claro.",
 "partido": ""
 },
 {

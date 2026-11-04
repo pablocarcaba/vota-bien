@@ -47,12 +47,10 @@
 "imp": {
 "victimas": 1,
 "empAut": 1,
-"empMicro": 1,
-"rural": 1,
-"secPrim": 1
+"empMicro": 1
 },
 "peso": 1,
-"nota": "Protección laboral y social ante incendios forestales: ayuda a afectados, autónomos, pequeños negocios y explotaciones agrarias de zonas rurales.",
+"nota": "Prestación extraordinaria para trabajadores afectados por incendios, cese de actividad sin requisitos para autónomos y exención de cotizaciones a empresas en ERTE.",
 "partido": ""
 },
 {
@@ -186,9 +184,11 @@
 {
 "id": "122/000013",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"empAut": 1
+},
 "peso": 1,
-"nota": "Modificación de la Ley General de la Seguridad Social de alcance no determinable por el título; sin impactos claros.",
+"nota": "Ajusta la cotización al régimen de autónomos de socios de cooperativas con previsión propia y excluye rendimientos del capital; reduce su cotización.",
 "partido": ""
 },
 {
@@ -1066,7 +1066,7 @@
 "secCons": -1
 },
 "peso": 1,
-"nota": "Modifica la ley de emprendedores, previsiblemente suprimiendo la residencia por inversión inmobiliaria; perjudica al sector inmobiliario.",
+"nota": "Suprime el visado de residencia por compra de inmuebles de 500.000 €, sustituido por proyectos empresariales; resta demanda al sector inmobiliario.",
 "partido": ""
 },
 {

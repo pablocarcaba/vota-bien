@@ -30,10 +30,12 @@
 "secPrim": 1,
 "rural": 1,
 "inq": 1,
-"viv2": -1
+"viv2": -1,
+"hipot": 1,
+"secFin": -1
 },
 "peso": 3,
-"nota": "Prorroga rebaja del IVA de alimentos, ayudas al transporte, bono social y suspensión de desahucios; ayudas agrarias por sequía.",
+"nota": "Prorroga rebajas fiscales, ayudas y escudo social; amplía hasta 2024 el alivio a hipotecados sin comisiones bancarias y limita comisiones por efectivo.",
 "partido": ""
 },
 {
@@ -434,10 +436,11 @@
 "empPeq": 1,
 "secPrim": 1,
 "hipot": 1,
-"secCom": 1
+"secCom": 1,
+"secInd": 1
 },
 "peso": 2,
-"nota": "Ayudas directas a afectados por la DANA, negocios y agricultores; moratoria de préstamos hipotecarios.",
+"nota": "Ayudas a afectados por la DANA, pymes, autónomos, explotaciones agrarias e industria; flexibiliza suministros y préstamos de los damnificados.",
 "partido": ""
 },
 {
@@ -522,7 +525,7 @@
 "secFin": -1
 },
 "peso": 2,
-"nota": "Regula compradores y gestores de créditos; protege a deudores hipotecarios y de consumo cuando se vende su deuda.",
+"nota": "Regula compradores y gestores de créditos dudosos; mantiene derechos del deudor, obliga a informarle y ofrecer planes de pago a vulnerables.",
 "partido": ""
 },
 {
@@ -951,9 +954,16 @@
 {
 "id": "121/000091",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"ciud": 1,
+"cons": 1,
+"pobreza": 1,
+"secTrans": 1,
+"secPrim": 1,
+"secInd": 1
+},
 "peso": 3,
-"nota": "Plan de respuesta a la crisis en Oriente Medio; el título no permite concretar beneficiarios.",
+"nota": "Baja la fiscalidad energética, amplía el bono social, prohíbe cortes a vulnerables, ayuda a transportistas, agricultores, pescadores e industria electrointensiva.",
 "partido": ""
 },
 {
@@ -972,9 +982,11 @@
 {
 "id": "121/000093",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"secTrans": 1
+},
 "peso": 1,
-"nota": "Medidas urgentes de transporte; el título no permite concretar efectos.",
+"nota": "Revisión obligatoria del precio del transporte por carretera según el gasóleo y ayudas al transporte ferroviario de mercancías; beneficia al sector.",
 "partido": ""
 },
 {
@@ -1016,11 +1028,14 @@
 "imp": {
 "pac": 1,
 "pen1": 1,
-"desSub": 1,
-"asal1": 1
+"pen2": 1,
+"pen3": 1,
+"asal1": 1,
+"asal2": 1,
+"asal3": 1
 },
 "peso": 2,
-"nota": "Reduce la aportación farmacéutica de pacientes, sobre todo pensionistas y rentas bajas.",
+"nota": "Rehace el copago farmacéutico: topes para activos con rentas bajo 35.000 €, tope intermedio para pensionistas y exención con complemento a mínimos.",
 "partido": ""
 },
 {
@@ -1111,9 +1126,14 @@
 {
 "id": "121/000107",
 "tipo": "eco",
-"imp": {},
+"imp": {
+"ciud": 1,
+"cons": 1,
+"secTrans": 1,
+"secPrim": 1
+},
 "peso": 2,
-"nota": "Medidas del plan ante la crisis de Oriente Medio; el título no permite concretar beneficiarios.",
+"nota": "Prorroga con retirada gradual hasta septiembre de 2026 las rebajas fiscales energéticas y mantiene ayudas a transportistas, agricultores y pescadores.",
 "partido": ""
 },
 {
