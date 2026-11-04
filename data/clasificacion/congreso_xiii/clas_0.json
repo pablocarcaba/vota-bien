@@ -1,0 +1,872 @@
+[
+{
+"id": "130/000001",
+"tipo": "eco",
+"imp": {
+"victimas": 1,
+"secPrim": 1,
+"empAut": 1,
+"empMicro": 1
+},
+"peso": 1,
+"nota": "Ayudas por temporales y catástrofes de 2019, incluida la DANA de septiembre, a damnificados, explotaciones agrarias y pequeños negocios.",
+"partido": ""
+},
+{
+"id": "121/000001",
+"tipo": "eco",
+"imp": {
+"secCom": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Thomas Cook: líneas de financiación y bonificaciones a la Seguridad Social para empresas turísticas afectadas, sobre todo en Canarias y Baleares.",
+"partido": ""
+},
+{
+"id": "130/000002",
+"tipo": "eco",
+"imp": {
+"secCom": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1,
+"nota": "Thomas Cook: líneas de financiación y bonificaciones a la Seguridad Social para empresas turísticas afectadas, sobre todo en Canarias y Baleares.",
+"partido": ""
+},
+{
+"id": "130/000003",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Actualiza las entregas a cuenta de comunidades y entidades locales con presupuesto prorrogado; financiación territorial sin colectivo concreto.",
+"partido": ""
+},
+{
+"id": "130/000004",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Medidas de seguridad pública en administración digital, contratación y telecomunicaciones; norma institucional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "130/000005",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Medidas para organizar la cumbre del clima COP25 en Madrid; organizativa, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "130/000006",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Habilita créditos para ejecutar el presupuesto de la Seguridad Social prorrogado; técnica, sin cambio en las prestaciones.",
+"partido": ""
+},
+{
+"id": "130/000007",
+"tipo": "eco",
+"imp": {},
+"peso": 2,
+"nota": "Fija la rentabilidad razonable de renovables y redes eléctricas para 2020-2025 y regula el cierre de térmicas; efectos de signo mixto.",
+"partido": ""
+},
+{
+"id": "122/000016",
+"tipo": "eco",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Modifica puntualmente las ayudas por el terremoto de Lorca de 2011; beneficia a los damnificados.",
+"partido": ""
+},
+{
+"id": "122/000004",
+"tipo": "soc",
+"imp": {
+"jovenes": 1,
+"discapacidad": 1,
+"estud": 1
+},
+"peso": 1,
+"nota": "Fomenta la FP dual para jóvenes y personas con discapacidad inscritos en Garantía Juvenil.",
+"partido": ""
+},
+{
+"id": "120/000001",
+"tipo": "soc",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"mayores": 1
+},
+"peso": 2,
+"nota": "Propone reducir el copago de los usuarios de las prestaciones y servicios de dependencia.",
+"partido": ""
+},
+{
+"id": "120/000002",
+"tipo": "eco",
+"imp": {
+"pobreza": 1,
+"desSub": 1
+},
+"peso": 3,
+"nota": "Propone una prestación estatal de ingresos mínimos para personas sin recursos.",
+"partido": ""
+},
+{
+"id": "120/000003",
+"tipo": "eco",
+"imp": {
+"proSeg": 1,
+"funC1": 1
+},
+"peso": 2,
+"nota": "Propone equiparar salarios de Policía Nacional y Guardia Civil con las policías autonómicas.",
+"partido": ""
+},
+{
+"id": "120/000004",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Propone la gestión pública de los saltos hidroeléctricos al vencer sus concesiones; perjudica a las grandes eléctricas concesionarias.",
+"partido": ""
+},
+{
+"id": "120/000005",
+"tipo": "soc",
+"imp": {
+"proSan": 1,
+"pac": 1,
+"ciud": 1,
+"secSoc": -1
+},
+"peso": 2,
+"nota": "Propone ratios mínimos de enfermeras por paciente en centros sanitarios, públicos y privados.",
+"partido": ""
+},
+{
+"id": "120/000006",
+"tipo": "soc",
+"imp": {
+"funA1": 1,
+"funA2": 1,
+"funB": 1,
+"funC1": 1,
+"funC2E": 1
+},
+"peso": 1,
+"nota": "Propone regular condiciones específicas para el personal de mayor edad de las Administraciones Públicas.",
+"partido": ""
+},
+{
+"id": "120/000007",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modificación de la ley de medicamentos de contenido no determinable por el título.",
+"partido": ""
+},
+{
+"id": "120/000008",
+"tipo": "soc",
+"imp": {
+"mayores": 1,
+"pac": 1
+},
+"peso": 1,
+"nota": "Propone eliminar el copago farmacéutico del 30 % para pensionistas de MUFACE e ISFAS.",
+"partido": ""
+},
+{
+"id": "122/000001",
+"tipo": "soc",
+"imp": {
+"viv2": 1
+},
+"peso": 2,
+"nota": "Agiliza el desalojo de viviendas ocupadas; beneficia a propietarios de viviendas distintas de la habitual.",
+"partido": ""
+},
+{
+"id": "122/000002",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Suspende la financiación de partidos en ciertos supuestos; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "122/000003",
+"tipo": "eco",
+"imp": {
+"cons": 1,
+"secInd": 1
+},
+"peso": 2,
+"nota": "Suprime el impuesto del 7 % sobre la producción eléctrica; beneficia a generadores y abarata la factura de los consumidores.",
+"partido": ""
+},
+{
+"id": "122/000005",
+"tipo": "eco",
+"imp": {
+"funA1": 1
+},
+"peso": 1,
+"nota": "Complemento de destino para jueces y fiscales en circunstancias especiales; mejora retributiva de ese colectivo (A1).",
+"partido": ""
+},
+{
+"id": "122/000006",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección de denunciantes de corrupción; institucional, sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "122/000007",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Control parlamentario del Gobierno en funciones; norma institucional.",
+"partido": ""
+},
+{
+"id": "122/000008",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reforma la ley de secretos oficiales; norma institucional.",
+"partido": ""
+},
+{
+"id": "122/000009",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Suprime la prisión permanente revisable y fija nuevos límites de cumplimiento; norma penal sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "122/000010",
+"tipo": "soc",
+"imp": {},
+"peso": 2,
+"nota": "Reforma la ley de seguridad ciudadana; efecto general discutible, sin colectivos de signo claro.",
+"partido": ""
+},
+{
+"id": "122/000011",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reforma la ley del Tribunal Constitucional; norma institucional.",
+"partido": ""
+},
+{
+"id": "122/000012",
+"tipo": "soc",
+"imp": {
+"infancia": 1,
+"hij3": 1,
+"monop": 1
+},
+"peso": 2,
+"nota": "Ley integral de apoyo a las familias; beneficia a familias con hijos, numerosas y monoparentales.",
+"partido": ""
+},
+{
+"id": "122/000013",
+"tipo": "eco",
+"imp": {
+"secFin": 1,
+"hipot": 1
+},
+"peso": 1,
+"nota": "Modifica el impuesto de actos jurídicos documentados en escrituras hipotecarias; rebaja la carga sobre los préstamos hipotecarios.",
+"partido": ""
+},
+{
+"id": "122/000014",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 2,
+"nota": "Memoria, dignidad y reparación de las víctimas del terrorismo; beneficia a ese colectivo.",
+"partido": ""
+},
+{
+"id": "122/000015",
+"tipo": "soc",
+"imp": {
+"lgtbi": 1
+},
+"peso": 2,
+"nota": "Regula la gestación por sustitución; facilita la paternidad a parejas que no pueden gestar, entre ellas parejas de hombres.",
+"partido": ""
+},
+{
+"id": "122/000017",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"secTrans": -1
+},
+"peso": 2,
+"nota": "Ley de cambio climático: objetivos de emisiones y transición energética; beneficio ambiental general con coste para industria y transporte.",
+"partido": ""
+},
+{
+"id": "122/000018",
+"tipo": "eco",
+"imp": {
+"infancia": 1,
+"pobreza": 1,
+"asal1": 1,
+"desSub": 1
+},
+"peso": 2,
+"nota": "Mejora la prestación por hijo o menor a cargo; beneficia a familias con hijos de rentas bajas.",
+"partido": ""
+},
+{
+"id": "122/000019",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Suprime el plazo máximo de instrucción penal; procesal, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "122/000020",
+"tipo": "eco",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Propone revertir a gestión pública los saltos hidroeléctricos con concesión vencida; perjudica a las grandes eléctricas concesionarias.",
+"partido": ""
+},
+{
+"id": "122/000021",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modificación del Código Penal Militar; norma penal sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "122/000022",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Anula preceptos de la Ley de Amnistía de 1977 para permitir investigar crímenes del franquismo; beneficia a sus víctimas.",
+"partido": ""
+},
+{
+"id": "122/000023",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1,
+"secCom": -1
+},
+"peso": 2,
+"nota": "Reduce los plásticos de un solo uso; beneficio ambiental general con coste para fabricantes, comercio y hostelería.",
+"partido": ""
+},
+{
+"id": "122/000024",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Endurece las penas por maltrato animal en el Código Penal.",
+"partido": ""
+},
+{
+"id": "122/000025",
+"tipo": "eco",
+"imp": {
+"secInd": -1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Calendario de cierre progresivo de las centrales nucleares; afecta a las grandes eléctricas propietarias.",
+"partido": ""
+},
+{
+"id": "122/000026",
+"tipo": "soc",
+"imp": {
+"discapacidad": 1,
+"mayores": 1
+},
+"peso": 1,
+"nota": "Fondo estatal para financiar la accesibilidad universal; beneficia a personas con discapacidad y mayores.",
+"partido": ""
+},
+{
+"id": "122/000027",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Incompatibilidades y puertas giratorias de altos cargos; norma institucional sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "122/000028",
+"tipo": "soc",
+"imp": {
+"infancia": 1,
+"victimas": 1
+},
+"peso": 2,
+"nota": "LOPIVI: protección integral de niños y adolescentes frente a la violencia.",
+"partido": ""
+},
+{
+"id": "122/000029",
+"tipo": "eco",
+"imp": {
+"secFin": -1,
+"empGran": -1
+},
+"peso": 2,
+"nota": "Crea un recargo fiscal de solidaridad sobre la banca; perjudica a las entidades financieras.",
+"partido": ""
+},
+{
+"id": "122/000030",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"discapacidad": 1,
+"depend": 1
+},
+"peso": 2,
+"nota": "Regula la eutanasia como derecho de pacientes con enfermedad grave e incurable o padecimiento crónico imposibilitante.",
+"partido": ""
+},
+{
+"id": "122/000031",
+"tipo": "soc",
+"imp": {
+"mujeres": 1
+},
+"peso": 2,
+"nota": "Medidas de igualdad entre mujeres y hombres en el empleo, incluida la igualdad retributiva; beneficia a las trabajadoras.",
+"partido": ""
+},
+{
+"id": "122/000032",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Cambia la tramitación de la senda de déficit; procedimiento presupuestario sin efecto distributivo directo.",
+"partido": ""
+},
+{
+"id": "122/000033",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"discapacidad": 1,
+"depend": 1
+},
+"peso": 2,
+"nota": "Regula la eutanasia; reconoce el derecho a pacientes con enfermedad grave e incurable o padecimiento crónico imposibilitante.",
+"partido": ""
+},
+{
+"id": "122/000034",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Suprime el plazo máximo de instrucción penal; procesal, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "122/000035",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 2,
+"nota": "Memoria democrática: reconocimiento, búsqueda de desaparecidos y reparación de víctimas de la guerra y la dictadura.",
+"partido": ""
+},
+{
+"id": "122/000036",
+"tipo": "soc",
+"imp": {
+"minorias": 1,
+"inmigrantes": 1,
+"lgtbi": 1,
+"discapacidad": 1
+},
+"peso": 2,
+"nota": "Ley integral de igualdad de trato: protege frente a discriminación por origen, etnia, orientación, discapacidad y otros motivos.",
+"partido": ""
+},
+{
+"id": "122/000037",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Tipifica los homenajes a terroristas y endurece la prescripción de delitos terroristas; beneficia a las víctimas del terrorismo.",
+"partido": ""
+},
+{
+"id": "122/000038",
+"tipo": "soc",
+"imp": {
+"mujeres": 1
+},
+"peso": 2,
+"nota": "Medidas de igualdad entre mujeres y hombres en el empleo, incluida la igualdad retributiva; beneficia a las trabajadoras.",
+"partido": ""
+},
+{
+"id": "122/000039",
+"tipo": "soc",
+"imp": {
+"proSeg": 1
+},
+"peso": 1,
+"nota": "Reconoce a los funcionarios de prisiones como agentes de la autoridad; beneficia a ese colectivo profesional.",
+"partido": ""
+},
+{
+"id": "122/000040",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Regula facultades y obligaciones del Gobierno en funciones; norma institucional.",
+"partido": ""
+},
+{
+"id": "122/000041",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Incompatibilidades y puertas giratorias de altos cargos; norma institucional sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "122/000042",
+"tipo": "soc",
+"imp": {
+"viv2": 1
+},
+"peso": 2,
+"nota": "Agiliza el desalojo de viviendas ocupadas; beneficia a propietarios de viviendas distintas de la habitual.",
+"partido": ""
+},
+{
+"id": "122/000043",
+"tipo": "soc",
+"imp": {
+"secCom": 1
+},
+"peso": 1,
+"nota": "Agravante por multirreincidencia en hurto leve; beneficia a comercios, principales afectados por estos hurtos.",
+"partido": ""
+},
+{
+"id": "122/000044",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Coordinación de la acción exterior autonómica; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "122/000045",
+"tipo": "soc",
+"imp": {
+"pac": 1,
+"depend": 1
+},
+"peso": 2,
+"nota": "Regula derechos al final de la vida y cuidados paliativos; beneficia a pacientes terminales y personas dependientes.",
+"partido": ""
+},
+{
+"id": "122/000046",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Rendición de cuentas del Gobierno sobre su actuación en la UE; norma institucional.",
+"partido": ""
+},
+{
+"id": "122/000047",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Mantiene el Registro Civil como servicio público gratuito del Ministerio de Justicia, electrónico y con su personal actual; norma organizativa.",
+"partido": ""
+},
+{
+"id": "122/000048",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reforma de la ley del indulto; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "122/000049",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"pac": 1,
+"secSoc": -1
+},
+"peso": 1,
+"nota": "Regula la publicidad sanitaria para proteger a pacientes; obligaciones para clínicas y centros privados.",
+"partido": ""
+},
+{
+"id": "122/000050",
+"tipo": "soc",
+"imp": {
+"victimas": -1
+},
+"peso": 2,
+"nota": "Propone derogar la ley de memoria histórica y las medidas de reparación a víctimas de la guerra y la dictadura.",
+"partido": ""
+},
+{
+"id": "122/000051",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Transfiere a Galicia la titularidad y competencias de la AP-9, incluidas las tarifas; traspaso entre administraciones, la concesión sigue vigente.",
+"partido": ""
+},
+{
+"id": "122/000052",
+"tipo": "soc",
+"imp": {
+"proSeg": 1
+},
+"peso": 1,
+"nota": "Reconoce a los funcionarios de prisiones como agentes de la autoridad; beneficia a ese colectivo profesional.",
+"partido": ""
+},
+{
+"id": "122/000053",
+"tipo": "eco",
+"imp": {
+"pobreza": 1
+},
+"peso": 2,
+"nota": "Mejora la garantía de ingresos suficientes a través de la Seguridad Social; beneficia a personas con rentas insuficientes.",
+"partido": ""
+},
+{
+"id": "122/000054",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reformas sobre derechos y libertades políticas; norma institucional sin efecto distributivo claro.",
+"partido": ""
+},
+{
+"id": "123/000001",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Reforma de la ley del indulto; institucional, sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "123/000002",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Protección de personas que denuncian irregularidades; norma institucional sin efecto distributivo claro.",
+"partido": "Compromís"
+},
+{
+"id": "125/000001",
+"tipo": "eco",
+"imp": {
+"prop1": 1,
+"cons": 1,
+"secFin": -1
+},
+"peso": 2,
+"nota": "Garantiza la devolución íntegra de preferentes y deuda subordinada a pequeños ahorradores; coste para entidades de crédito.",
+"partido": ""
+},
+{
+"id": "125/000002",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Modificación del régimen especial de Baleares; alcance territorial sin colectivo de perfil asignable.",
+"partido": ""
+},
+{
+"id": "125/000003",
+"tipo": "soc",
+"imp": {
+"victimas": 1
+},
+"peso": 1,
+"nota": "Amplía derechos de quienes sufrieron persecución o violencia en la Guerra Civil y la dictadura.",
+"partido": ""
+},
+{
+"id": "125/000004",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"pac": 1,
+"inmigrantes": 1
+},
+"peso": 2,
+"nota": "Universaliza la asistencia sanitaria pública, incluidas personas extranjeras sin residencia legal.",
+"partido": ""
+},
+{
+"id": "125/000005",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Reforma del Régimen General de la Seguridad Social de contenido no determinable con seguridad por el título.",
+"partido": ""
+},
+{
+"id": "125/000006",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Modificación del régimen especial de Baleares; alcance territorial sin colectivo de perfil asignable.",
+"partido": ""
+},
+{
+"id": "125/000007",
+"tipo": "eco",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 3,
+"nota": "Deroga la reforma laboral de 2012; beneficia a los asalariados y eleva el coste laboral para las empresas.",
+"partido": ""
+},
+{
+"id": "125/000008",
+"tipo": "soc",
+"imp": {
+"pac": 1
+},
+"peso": 2,
+"nota": "Regula el cannabis, incluido su uso terapéutico; beneficia a pacientes que lo usan como tratamiento.",
+"partido": ""
+},
+{
+"id": "125/000009",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Saca la enseñanza de la religión del currículo escolar; sin efecto distributivo de signo claro.",
+"partido": ""
+},
+{
+"id": "125/000010",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modificación parcial de la ley de cohesión del SNS; contenido no determinable con seguridad por el título.",
+"partido": ""
+},
+{
+"id": "125/000011",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Transfiere a Galicia la titularidad y competencias de la AP-9, incluidas las tarifas; traspaso entre administraciones, la concesión sigue vigente.",
+"partido": ""
+},
+{
+"id": "125/000012",
+"tipo": "soc",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2,
+"nota": "Prohíbe la exploración y explotación de hidrocarburos en el Mediterráneo español; protección ambiental con coste para la industria extractiva.",
+"partido": ""
+},
+{
+"id": "125/000013",
+"tipo": "eco",
+"imp": {},
+"peso": 1,
+"nota": "Vuelve a limitar las rebajas a dos temporadas anuales de entre una semana y dos meses; signo del efecto sobre el comercio no claro.",
+"partido": ""
+},
+{
+"id": "125/000014",
+"tipo": "soc",
+"imp": {},
+"peso": 1,
+"nota": "Modificación de la ley electoral y de financiación de partidos; norma electoral sin efecto distributivo.",
+"partido": ""
+},
+{
+"id": "125/000015",
+"tipo": "soc",
+"imp": {
+"victimas": 1,
+"pac": 1
+},
+"peso": 2,
+"nota": "Crea un fondo para indemnizar a víctimas del amianto y a sus familias.",
+"partido": ""
+},
+{
+"id": "125/000016",
+"tipo": "soc",
+"imp": {
+"pac": 1
+},
+"peso": 2,
+"nota": "Despenaliza la eutanasia y la ayuda al suicidio; amplía opciones de pacientes con enfermedades graves e incurables.",
+"partido": ""
+}
+]

@@ -353,7 +353,7 @@ function renderFilters(){
 function renderRank(){
   const r=$('rank'); r.innerHTML='';
   $('rank-hint').innerHTML = state.sel.size
-    ? 'Saldo de −100 a +100 entre las iniciativas que afectan a tu perfil: lo que te favorece menos lo que te perjudica. Cuenta sobre todo cómo votó cada partido; lo que solo presentó pesa poco. Pulsa un partido para ver sus iniciativas. <a href="#metodologia">Cómo se calcula</a>.'
+    ? 'Saldo de −100 a +100 entre las iniciativas que afectan a tu perfil: lo que te favorece menos lo que te perjudica. '+(DATA.meta.formato==='europarlamento'?'Se basa en cómo votó cada partido.':'Cuenta sobre todo cómo votó cada partido; lo que solo presentó pesa poco.')+' Pulsa un partido para ver sus iniciativas. <a href="#metodologia">Cómo se calcula</a>.'
     : 'Marca al menos un rasgo en tu perfil para ver el ranking.';
   if(!state.sel.size) return;
   const all = computeRank(), rows = state.hideFew ? all.filter(x=>x.rel>=3) : all;
@@ -362,7 +362,7 @@ function renderRank(){
   cb.addEventListener('change',()=>{ state.hideFew=cb.checked; try{ localStorage.setItem('ocultarPocos', cb.checked?'1':'0'); }catch(e){} renderRank(); });
   chk.appendChild(cb); chk.appendChild(document.createTextNode(' Ocultar partidos con menos de 3 iniciativas que te afecten'));
   r.appendChild(chk);
-  if(!rows.length){ r.appendChild(el('div',{class:'empty'},'Ninguna iniciativa de esta pestaña afecta a tu perfil.')); return; }
+  if(!rows.length){ r.appendChild(el('div',{class:'empty'}, all.length ? (all.length===1 ? 'El único partido con iniciativas que te afectan tiene menos de 3: desmarca la casilla para verlo.' : `Los ${all.length} partidos con iniciativas que te afectan tienen menos de 3: desmarca la casilla para verlos.`) : 'Ninguna iniciativa de esta pestaña afecta a tu perfil.')); return; }
   rows.forEach((x,i)=>{
     const w = Math.abs(x.s)/2;
     const bar = x.s>=0 ? `<span style="left:50%;width:${w}%;background:var(--pos)"></span>` : `<span style="right:50%;width:${w}%;background:var(--neg)"></span>`;
