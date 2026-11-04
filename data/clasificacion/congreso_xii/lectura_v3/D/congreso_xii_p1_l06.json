@@ -1,0 +1,45 @@
+[
+ {
+  "id": "125/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exime de responsabilidad penal la ayuda a morir a petición de enfermos graves; reforma penal sin derechos o prestaciones específicas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000020",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Deroga la reforma laboral de 2012 en contratación, despido y negociación colectiva; amplía derechos de los asalariados y eleva el coste laboral empresarial.",
+  "partido": ""
+ },
+ {
+  "id": "125/000021",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula los clubes y el autocultivo de cannabis para personas consumidoras adultas; sin impacto claro sobre los colectivos definidos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000025",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Protege el Mediterráneo frente a la exploración y explotación de hidrocarburos; mejora la protección ambiental y restringe a la industria extractiva.",
+  "partido": ""
+ }
+]

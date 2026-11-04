@@ -29,3 +29,12 @@
 - [x] 40 proposiciones del Grupo Mixto: 35 identificadas por la firma del BOCG (`partidos_mixto.json`).
 - [ ] Sin BOCG, deducidas: 122/000181 → PDeCAT (mismo título que 122/000182, firmada por el PDeCAT); 122/000324, 325 y 327 (deuda del Consorcio Valencia 2007) → Compromís.
 - [ ] 122/000262 (transparencia de la Casa del Rey): sin BOCG; partido sin identificar.
+
+
+## Reclasificación con la rúbrica v3 (04/11/2026)
+
+Las 508 iniciativas se han reclasificado con la rúbrica v3 por tres lectores independientes (C, D y E), que no vieron la clasificación anterior ni el trabajo de los otros. Texto usado: extracto de hasta 5.000 caracteres del texto oficial (BOCG) de cada iniciativa; en los reales decretos-ley, el de su proyecto de ley; las pocas sin texto publicado, solo con el título. 56 iniciativas que la primera pasada dejó sin efectos se volvieron a leer con más texto oficial. Clasificación final: consolidación por mayoría (`scripts/consolidar_lecturas.py`; un colectivo cuenta si lo marcan 2 de 3; tipo por mayoría; peso, la mediana).
+
+- Coincidencia entre lectores: 81–85 % idéntica, parecido medio 0.88, 3 con signo contrario; 385 de 508 idénticas en las tres lecturas.
+- 223 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
+- Sin efectos: 201 antes, 228 ahora.

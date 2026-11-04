@@ -1,0 +1,490 @@
+[
+ {
+  "id": "122/000282",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la protección y oficialidad de lenguas; norma institucional y cultural sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000283",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la suspensión o limitación de la financiación estatal de partidos; norma institucional sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000284",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Actualiza la regulación de la acción exterior del Estado; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000285",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regla interpretativa de liquidación de la financiación autonómica de 2017; afecta a administraciones, sin colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000289",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el acceso a la alta dirección pública por concurso; organización administrativa sin signo claro para colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000290",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el intercambio de antecedentes penales en la UE; norma procesal sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000292",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Promueve el mecenazgo; el texto disponible no permite determinar colectivos y signos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000295",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Permite a mujeres víctimas de violencia de género acceder con perros de apoyo a lugares donde hoy no pueden.",
+  "partido": ""
+ },
+ {
+  "id": "122/000297",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Devuelve a los ayuntamientos la facultad de denegar gasolineras en suelo comercial o industrial; restringe a los operadores minoristas de carburantes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000298",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Crea un permiso retribuido para acudir a consultas y pruebas médicas propias, de hijos menores y de familiares.",
+  "partido": ""
+ },
+ {
+  "id": "122/000300",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reduce cargas administrativas de organismos públicos de investigación; organización administrativa sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000301",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea el Consejo General de Colegios de Periodistas; organización corporativa sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000302",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "viv0": 1
+  },
+  "peso": 1,
+  "nota": "Fija en cero la cuota variable del AJD en hipotecas para primera vivienda; reduce el coste de hipotecarse al comprar.",
+  "partido": ""
+ },
+ {
+  "id": "122/000305",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula entidades locales menores; organización territorial sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000306",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Fomenta las instalaciones renovables de pequeño tamaño en el sector eléctrico; favorece a sus productores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000307",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la protección y oficialidad de lenguas; norma institucional y cultural sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000308",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye al órgano de administración el cambio de domicilio social; norma de derecho societario sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000309",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Garantiza delegaciones de la Fiscalía Anticorrupción en cada comunidad; organización institucional sin colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000311",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Complemento retributivo para jueces y fiscales destinados en Cataluña; colectivo no incluido en la lista.",
+  "partido": ""
+ },
+ {
+  "id": "122/000312",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: redefine las agresiones sexuales (grupo, sumisión química) y agravantes; sin impactos (3.7).",
+  "partido": ""
+ },
+ {
+  "id": "122/000313",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Prohíbe la esterilización forzosa o no consentida de personas con discapacidad incapacitadas judicialmente.",
+  "partido": ""
+ },
+ {
+  "id": "122/000315",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía los supuestos de prisión permanente revisable; norma penal sin derechos ni ayudas para un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000316",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la rebeldía en el proceso penal; norma procesal sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000317",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Incluye a buceadores profesionales en la protección social marítimo-pesquera; colectivo sin identificador aplicable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000320",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el voto de españoles en el extranjero; norma electoral sin colectivos con identificador aplicable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000323",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la recopilación de datos de opinión política por partidos; norma electoral sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000324",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000325",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000327",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000329",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula conflictos de intereses y puertas giratorias; norma institucional sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000330",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título y el texto disponible no permiten determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000333",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Regula la publicidad de servicios sanitarios con exigencias de veracidad; protege a pacientes y obliga a clínicas y centros.",
+  "partido": ""
+ },
+ {
+  "id": "123/000001",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Facilita demandas colectivas de afectados y ajusta fianzas; refuerza la defensa de consumidores afectados por cláusulas abusivas.",
+  "partido": ""
+ },
+ {
+  "id": "124/000001",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza la participación de personas con discapacidad en el jurado sin exclusiones.",
+  "partido": ""
+ },
+ {
+  "id": "124/000002",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 1,
+  "nota": "Incluye la erradicación de homofobia, bifobia y transfobia en la ley contra la violencia en el deporte.",
+  "partido": ""
+ },
+ {
+  "id": "124/000004",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 1,
+  "nota": "Añade la baja por maternidad o paternidad del abogado como causa de suspensión del juicio oral.",
+  "partido": ""
+ },
+ {
+  "id": "124/000005",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el acceso a la nacionalidad española de nietos e hijos mayores de edad de españoles nacidos en el extranjero y fija el procedimiento.",
+  "partido": ""
+ },
+ {
+  "id": "124/000006",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Exime del pago de peajes a personas con discapacidad y movilidad reducida.",
+  "partido": ""
+ },
+ {
+  "id": "124/000007",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "depend": 1
+  },
+  "peso": 1,
+  "nota": "Asimila la valoración de dependencia al grado mínimo de discapacidad; amplía el reconocimiento a dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "124/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula con carácter básico el cuerpo de agentes forestales; el texto disponible no determina efectos con signo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Añade motivos como agravante penal; norma penal sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "124/000010",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Elimina desigualdades entre mujeres y hombres en los premios de competiciones deportivas.",
+  "partido": ""
+ },
+ {
+  "id": "124/000011",
+  "tipo": "eco",
+  "imp": {
+   "depend": 1,
+   "cons": 1,
+   "secSoc": 1
+  },
+  "peso": 1,
+  "nota": "Aplica el IVA del 4 % a los servicios de atención a la dependencia; abarata el servicio a usuarios y a prestadores.",
+  "partido": ""
+ },
+ {
+  "id": "124/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce a un tribunal consuetudinario de aguas; norma institucional local sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "124/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce a un tribunal consuetudinario de aguas; norma institucional local sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "124/000014",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Amplía las comunicaciones de presos con sus hijos menores en centros penitenciarios.",
+  "partido": ""
+ },
+ {
+  "id": "124/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título y el texto disponible no permiten determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "125/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el régimen de vecindad civil; norma civil sin colectivos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prevé un plan de apoyo al deporte base y su régimen laboral; sin efecto concreto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000004",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transfiere la titularidad de una autopista a una comunidad autónoma; traspaso entre administraciones sin efecto conocido.",
+  "partido": ""
+ },
+ {
+  "id": "125/000007",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Aplica reducciones y tarifa máxima en transporte marítimo y aéreo interinsular a residentes de Baleares.",
+  "partido": ""
+ },
+ {
+  "id": "125/000008",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Declara nulas las cláusulas contractuales que excluyan a personas con VIH/SIDA.",
+  "partido": ""
+ },
+ {
+  "id": "125/000010",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Amplía derechos y compensaciones de quienes sufrieron persecución o incautaciones durante la Guerra Civil y la Dictadura.",
+  "partido": ""
+ },
+ {
+  "id": "125/000013",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transfiere la titularidad de una autopista a una comunidad autónoma; traspaso entre administraciones sin efecto conocido.",
+  "partido": ""
+ },
+ {
+  "id": "125/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Incluye a cargos electos autonómicos y locales en el régimen de Seguridad Social y desempleo; sin identificador aplicable.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,519 @@
+[
+ {
+  "id": "122/000028",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Reduce cuotas, recargos y trabas administrativas y amplía la protección social de los autónomos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000029",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Paraliza la implantación de la LOMCE y deroga las evaluaciones finales de etapa; afecta a los estudiantes.",
+  "partido": "PDeCAT"
+ },
+ {
+  "id": "122/000030",
+  "tipo": "soc",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Exime de tasas judiciales a las entidades de reducida dimensión y sin fines lucrativos; beneficia a pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000031",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación de la Seguridad Social por hijo a cargo; beneficia a las familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000032",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Permite a las personas con discapacidad ser jurado y prevé adaptaciones y apoyos; beneficia a las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000033",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Régimen sancionador por incumplir plazos de pago entre empresas: afecta a deudores y acreedores de todos los tamaños con signos opuestos.",
+  "partido": "PDeCAT"
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime la licencia federativa única estatal; el efecto sobre un colectivo definido no consta con claridad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000035",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Elimina el voto rogado de los residentes en el exterior y crea votación electrónica; norma electoral sin colectivo definido.",
+  "partido": "PDeCAT"
+ },
+ {
+  "id": "122/000036",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite revisar los objetivos de estabilidad presupuestaria con Gobierno en funciones; norma institucional sin efecto directo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000037",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija el calendario de convocatoria automática de elecciones; norma electoral sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000038",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas urgentes sobre régimen local de organización administrativa; no consta un efecto directo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000039",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Fija una revalorización de las pensiones igual a la inflación prevista, con cláusula de ajuste y aportación del Estado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000040",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la publicidad de los procedimientos de contratación pública; norma de contratación sin efecto directo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000041",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime las tasas judiciales; el texto disponible no permite asignar el efecto a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000042",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la ley del Tribunal Constitucional sobre el control previo de estatutos; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000043",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Reduce cuotas, recargos y trabas administrativas y amplía la protección social de los autónomos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000044",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Despenaliza injurias a la Corona y ultrajes a España; norma penal sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000045",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Aplica el tipo reducido de IVA a la entrada a espectáculos y centros culturales; beneficia a usuarios y al sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000046",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el plazo de prescripción de delitos sexuales contra menores, contado desde que la víctima cumple 30 años.",
+  "partido": "PDeCAT"
+ },
+ {
+  "id": "122/000047",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fomento del vehículo eléctrico: ayudas y aclaración del gestor de carga, sin colectivo con efecto directo de signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000048",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Protege a los consumidores vulnerables de energía con bono social y prohibición de cortes; beneficia a usuarios en riesgo de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "122/000049",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce y repara a las víctimas de la guerra civil y la dictadura y regula la recuperación de la memoria histórica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000050",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sustituye la ley de seguridad ciudadana por otra con régimen sancionador distinto; el texto disponible no fija un efecto claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000051",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos del paciente ante el final de la vida; beneficia a los pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000052",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la ejecución de resoluciones del Tribunal Constitucional con suspensión de cargos; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000053",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exige comparecencia previa en el Congreso de los candidatos a organismos reguladores; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000054",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: castiga la imprudencia leve con resultado de muerte y la fuga tras un accidente.",
+  "partido": ""
+ },
+ {
+  "id": "122/000055",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Concede la nacionalidad española de origen a descendientes nacidos en el extranjero de españoles; amplía derechos de extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000056",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 2,
+  "nota": "Amplía los permisos y prestaciones de nacimiento y cuidado de menores para ambos progenitores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000057",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Adapta la regulación del matrimonio a la Convención de la ONU sobre discapacidad, reconociendo la capacidad jurídica de estas personas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000058",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la compensación a editores por agregación de noticias; beneficia a unos operadores digitales y perjudica a otros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000059",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Prevé apoyos para que las personas con discapacidad presten consentimiento matrimonial en la jurisdicción voluntaria.",
+  "partido": ""
+ },
+ {
+  "id": "122/000060",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce el derecho a la eutanasia y al suicidio médicamente asistido; amplía los derechos de los pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000061",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Crea un cauce civil para desalojar viviendas ocupadas ilegalmente; beneficia a los propietarios de viviendas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000062",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la ley de seguridad ciudadana y la de reunión; el texto disponible no fija un efecto claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000063",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye de la defensa letrada del Estado a altos cargos investigados por corrupción; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000064",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce el derecho a autoconsumir electricidad sin cargos; beneficia a los consumidores que autoconsumen.",
+  "partido": ""
+ },
+ {
+  "id": "122/000065",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación de la Seguridad Social por hijo a cargo; beneficia a las familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000066",
+  "tipo": "soc",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Exime de tasas judiciales a las entidades de reducida dimensión y sin fines lucrativos; beneficia a pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000067",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos del paciente ante el final de la vida; beneficia a los pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000068",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce el derecho de sufragio de las personas con discapacidad incapacitadas o internadas; beneficia a las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000069",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica los supuestos de jurisdicción española sobre delitos cometidos en el extranjero; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000070",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fomento del vehículo eléctrico: ayudas y aclaración del gestor de carga, sin colectivo con efecto directo de signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000071",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce y ampara la pluralidad lingüística de España; norma institucional sin efecto sobre un colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000072",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 1,
+  "nota": "Permite rectificar mención de sexo y nombre de menores trans y elimina requisitos médicos; beneficia a las personas trans.",
+  "partido": ""
+ },
+ {
+  "id": "122/000073",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Establece el cierre de las centrales nucleares; perjudica al sector de producción eléctrica nuclear.",
+  "partido": ""
+ },
+ {
+  "id": "122/000074",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el sistema de nombramiento del Consejo de RTVE; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000075",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe autorizar la reapertura de centrales nucleares tras su cese definitivo; perjudica al sector eléctrico nuclear.",
+  "partido": ""
+ },
+ {
+  "id": "122/000076",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la desclasificación y el control de los gastos reservados; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000077",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "lgtbi": 1,
+   "discapacidad": 1,
+   "minorias": 1
+  },
+  "peso": 2,
+  "nota": "Ley integral de igualdad de trato frente a la discriminación por sexo, origen racial o étnico, religión, discapacidad y orientación sexual.",
+  "partido": ""
+ },
+ {
+  "id": "122/000078",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Protege a los consumidores vulnerables de energía con bono social y prohibición de cortes; beneficia a usuarios en riesgo de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "122/000079",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la pensión y protección de los huérfanos de víctimas de violencia de género.",
+  "partido": ""
+ },
+ {
+  "id": "122/000080",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye a la jurisdicción social la competencia procesal sobre dependencia; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000081",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe la fractura hidráulica en la extracción de hidrocarburos; protege el medio ambiente y perjudica a las empresas del sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000082",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Crea una comisión de expertos y un régimen de control y sanciones para el desarrollo educativo en igualdad de género.",
+  "partido": ""
+ }
+]

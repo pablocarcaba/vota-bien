@@ -1,0 +1,489 @@
+[
+ {
+  "id": "122/000174",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Limita el uso de cooperativas de trabajo asociado en la industria cárnica y mataderos; supone una exigencia al sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000175",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección y oficialidad de lenguas; norma institucional sin efecto directo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000178",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el delito de rebelión; norma penal sin efecto directo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000179",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Elimina el requisito lingüístico de acceso al empleo público; no se asigna a ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000180",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el funcionamiento y nombramientos del Consejo de Seguridad Nuclear; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000181",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica un artículo procesal de suspensión de cargos públicos procesados; sin impactos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000182",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica un artículo procesal de suspensión de cargos públicos procesados; sin impactos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000183",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Rehabilita penas y sanciones disciplinarias sufridas por guardias civiles; beneficia a este colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000185",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el procedimiento de elección de los órganos de RTVE; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000187",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 1,
+  "nota": "Limita los requisitos nacionales al transporte transfronterizo de fondos en euros; facilita la actividad de las empresas del sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000188",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia causas de inelegibilidad electoral; norma electoral sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000189",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "La comunidad de propietarios asume las obras de accesibilidad; beneficia a personas con discapacidad y mayores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000192",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "secSoc": -1
+  },
+  "peso": 1,
+  "nota": "Excluye la segregación por sexos en la enseñanza concertada; los centros concertados afectados pierden esa vía.",
+  "partido": ""
+ },
+ {
+  "id": "122/000193",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la financiación y control de los partidos políticos; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000198",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite colocar otras enseñas fuera de los espacios de honor; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000200",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone directivas en materia penal; norma penal sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000202",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Desarrolla la regla de gasto constitucional; norma de estabilidad presupuestaria sin colectivo directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000204",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma sancionadora: multas administrativas por enaltecer el terrorismo o humillar a las víctimas; no otorga derechos ni ayudas a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000205",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la dispensación y sustitución de medicamentos favoreciendo el más barato y el genérico; signos opuestos para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000206",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1,
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Regulariza deudas fiscales por pensiones del extranjero y aplica la exención por incapacidad; beneficia a pensionistas afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000207",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone obligaciones técnicas de supervisión de entidades de crédito; el signo no consta.",
+  "partido": ""
+ },
+ {
+  "id": "122/000208",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la selección de candidatos a tribunales europeos; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000210",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "secSoc": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a publicar la voluntariedad de las cuotas en centros concertados; beneficia a familias con hijos y supone una exigencia al sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000211",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica delitos de expresión; norma penal sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000212",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: reduce la pena de la venta ambulante de mercancías que infringen propiedad intelectual y la despenaliza por debajo de 400 euros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000214",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Facilita las obras de accesibilidad en comunidades de propietarios; beneficia a personas con discapacidad y mayores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000216",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Regula la tributación de pensiones procedentes del extranjero de emigrantes retornados; beneficia a estos pensionistas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000218",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Eleva el recargo potestativo del IBI a viviendas desocupadas y permite bonificaciones municipales; el efecto depende de que cada ayuntamiento lo aplique.",
+  "partido": ""
+ },
+ {
+  "id": "122/000219",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce la condición de agentes de la autoridad a los funcionarios de prisiones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000220",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la formación en igualdad y violencia de género de jueces y fiscales y crea pruebas de especialización; reforma institucional sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000221",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traspasa la titularidad de una autopista del Estado a una comunidad autónoma; traspaso entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000222",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Reduce las tasas judiciales y mejora el acceso a la justicia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000226",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce asistencia jurídica gratuita a asociaciones ambientales sin ánimo de lucro; ningún colectivo del catálogo se ve afectado directamente.",
+  "partido": ""
+ },
+ {
+  "id": "122/000229",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible solo recoge el preámbulo sobre guardacostas; no permite determinar a quién beneficia ni con qué signo la edad de jubilación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000230",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "depend": 1
+  },
+  "peso": 1,
+  "nota": "Crea un fondo estatal para financiar la accesibilidad universal; beneficia a personas con discapacidad y dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000235",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el estatuto de los bomberos forestales; el signo para un colectivo definido no consta.",
+  "partido": ""
+ },
+ {
+  "id": "122/000238",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exige dictámenes previos para cerrar centrales de más de 50 MW y amplía causas de denegación, pero limita otras; efecto sectorial no unívoco.",
+  "partido": ""
+ },
+ {
+  "id": "122/000240",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: considera siempre intimidación la agresión sexual cometida por dos o más personas; no otorga derechos ni ayudas a las víctimas.",
+  "partido": "UPN"
+ },
+ {
+  "id": "122/000242",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Regula las redes eléctricas de distribución cerradas para polígonos industriales; reduce costes energéticos de la industria.",
+  "partido": ""
+ },
+ {
+  "id": "122/000243",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la autonomía y rendición de cuentas de las universidades; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000248",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Apoya a quienes tienen préstamos renta universidad con medidas de alivio; beneficia a estudiantes y titulados prestatarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000250",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Exime de tasas judiciales a entidades de reducida dimensión; beneficia a microempresas y pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000251",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Recupera la deducción por reinversión de beneficios en el Impuesto sobre Sociedades para empresas de reducida dimensión.",
+  "partido": "PDeCAT"
+ },
+ {
+  "id": "122/000255",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el concepto de violencia contra la mujer y extiende la protección integral a madres y tutoras de menores víctimas; refuerza derechos de las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000259",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reorganiza el Centro de Investigaciones Sociológicas; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000260",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la independencia judicial; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000261",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe financiar gasto militar con deuda o con el Fondo de Contingencia y exige reintegrar los créditos a empresas armamentísticas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000262",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece transparencia presupuestaria de la Casa Real; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000266",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: tipifica difundir información falsa sobre terapias no autorizadas que lleven a abandonar tratamientos; sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000267",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma las elecciones municipales; norma electoral sin efecto sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000269",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el procedimiento de aprobación de objetivos de estabilidad presupuestaria; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000271",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula símbolos nacionales y neutralidad institucional; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000275",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce y protege a afectados por sustracción de bebés; beneficia a víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000276",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica delitos contra las instituciones; norma penal sin asignación a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000280",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula las consecuencias de anular planes urbanísticos y la valoración expropiatoria; reforma administrativa y procesal sin colectivo con efecto directo y de signo claro.",
+  "partido": ""
+ }
+]

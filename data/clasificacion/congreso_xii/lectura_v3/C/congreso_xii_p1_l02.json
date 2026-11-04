@@ -1,0 +1,528 @@
+[
+ {
+  "id": "120/000018",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "proSan": 1
+  },
+  "peso": 1,
+  "nota": "Fija ratios de enfermeras en centros sanitarios: mejora la seguridad de los pacientes y regula la dotación de personal de enfermería.",
+  "partido": ""
+ },
+ {
+  "id": "120/000019",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000020",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma constitucional sobre la Jefatura del Estado y los derechos fundamentales; norma institucional sin efecto directo sobre un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "121/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transposición técnica sobre restitución de bienes culturales sacados ilegalmente de un Estado miembro; sin efecto claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000002",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transposición de directivas de contratación pública y concesiones: normas de procedimiento de contratación sin colectivo con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000003",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transposición de la directiva de contratación en agua, energía, transportes y servicios postales; norma de procedimiento sin efecto claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la comercialización y el uso de precursores de explosivos; las obligaciones alcanzan a varios sectores y no se marca ninguno.",
+  "partido": ""
+ },
+ {
+  "id": "121/000005",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Transpone la resolución alternativa de litigios de consumo: da a los consumidores cauces sencillos y de bajo coste para reclamar.",
+  "partido": ""
+ },
+ {
+  "id": "121/000006",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos de 2017: revalorización de las pensiones y subida retributiva de los empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000008",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas urgentes por sequía en varias cuencas y reforma de la Ley de Aguas; el texto disponible no fija a quién beneficia o perjudica.",
+  "partido": ""
+ },
+ {
+  "id": "121/000009",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Modifica el régimen económico y fiscal de Canarias: actualiza los descuentos al transporte de los residentes en las islas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000010",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el Concierto Económico con el País Vasco a reformas tributarias estatales; norma de relación entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000011",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aprueba la metodología del cupo del País Vasco para 2017-2021; norma de financiación entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000012",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula los contratos de crédito inmobiliario reforzando la protección de quien contrata una hipoteca y las obligaciones de las entidades de crédito.",
+  "partido": ""
+ },
+ {
+  "id": "121/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula derechos y obligaciones de protección de datos para todos los responsables; sin colectivo con signo definido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la Orden Europea de Investigación en el reconocimiento mutuo de resoluciones penales; cooperación judicial procesal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000015",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a determinadas grandes empresas a divulgar información no financiera y sobre diversidad.",
+  "partido": ""
+ },
+ {
+  "id": "121/000018",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transposición técnica de la directiva de evaluación de impacto ambiental: trámites, plazos y consultas, sin cambio de protección de signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000019",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 1,
+  "nota": "Transpone la directiva de viajes combinados: refuerza la protección de los viajeros y las obligaciones de organizadores y agencias.",
+  "partido": ""
+ },
+ {
+  "id": "121/000020",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos de 2018: revalorización de las pensiones y subida retributiva de los empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000022",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Transpone la directiva de distribución de seguros: igual protección a los clientes y nuevas exigencias a aseguradoras y mediadores.",
+  "partido": ""
+ },
+ {
+  "id": "121/000023",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protege los secretos empresariales frente a su obtención o uso ilícitos; el efecto sobre cada colectivo no tiene un único signo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000029",
+  "tipo": "soc",
+  "imp": {
+   "proDoc": 1,
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Revierte la subida de ratios y de horas lectivas docentes de 2012: mejora las condiciones de los docentes y la atención al alumnado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000035",
+  "tipo": "soc",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Regula el uso de los datos de pasajeros para prevenir el terrorismo; obliga a las compañías de transporte aéreo a transmitirlos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000038",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos de 2019: revalorización de las pensiones y subida retributiva de los empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000039",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre determinados servicios digitales que grava a las grandes empresas del sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "121/000040",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre transacciones financieras que grava operaciones del sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "121/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Revierte reformas educativas anteriores en currículo, evaluaciones y gobierno de centros; el texto disponible no fija efectos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suspende el calendario de implantación de la reforma educativa de 2013; el texto no fija un efecto claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000002",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1,
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Universaliza el derecho a la asistencia sanitaria pública y amplía la cobertura a quienes la perdieron, entre ellos los extranjeros sin residencia legal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Facilita el voto de los españoles en el exterior; reforma electoral sin efecto sobre un colectivo económico o social concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la elección parlamentaria de los órganos de RTVE; norma de organización institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga el plazo máximo de instrucción penal; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000006",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Protege a los consumidores vulnerables: suministro eléctrico y de gas a precio asequible y prohibición de cortes en periodos críticos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000007",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el derecho de voto a los mayores de 16 años.",
+  "partido": ""
+ },
+ {
+  "id": "122/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el Poder Judicial para ampliar la jurisdicción universal; norma procesal sin efecto sobre un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Despenaliza el derecho de huelga en el Código Penal; norma penal sin efecto asignable a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma las reglas del indulto para permitir el control de su motivación; norma procesal e institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga un precepto penal sobre coacciones en huelga; norma penal sin efecto asignable a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Endurece las reglas de donaciones y bienes inmuebles en la financiación de partidos; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000013",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": -1
+  },
+  "peso": 1,
+  "nota": "Sanciona la morosidad de los grandes contratistas de obra pública con las pymes subcontratistas y proveedoras.",
+  "partido": ""
+ },
+ {
+  "id": "122/000014",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Suprime las tasas judiciales y mejora el acceso a la justicia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000015",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Iguala condiciones esenciales de trabajadores subcontratados con las de la empresa principal; sin tramo de renta ni tamaño de empresa determinados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía la jurisdicción universal de los tribunales españoles; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000017",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Elimina trabas al autoconsumo eléctrico renovable: reduce el impacto ambiental de la generación y la factura de quien autoconsume.",
+  "partido": ""
+ },
+ {
+  "id": "122/000018",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma los delitos contra la Hacienda Pública y la Seguridad Social; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reduce la duración de las campañas electorales si hay disolución automática de las Cámaras; norma electoral.",
+  "partido": ""
+ },
+ {
+  "id": "122/000020",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del Código Penal para suprimir la prisión permanente revisable; norma penal sin efecto asignable a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000021",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la ley de secretos oficiales; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000022",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de lucha contra la corrupción y protección de denunciantes; norma institucional y sancionadora.",
+  "partido": ""
+ },
+ {
+  "id": "122/000023",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Modifica el régimen de tasas judiciales para mejorar el acceso a la justicia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la reforma que dio al Tribunal Constitucional facultades de ejecución de sus resoluciones; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000025",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000026",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Fija la cuantía del salario mínimo interprofesional al alza: mejora los salarios mínimos y eleva el coste laboral de las empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000027",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Modifica las tasas judiciales y fija exenciones para mejorar el acceso a la justicia.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,489 @@
+[
+ {
+  "id": "122/000282",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce y protege las lenguas españolas distintas del castellano; sin efecto sobre colectivos de la lista.",
+  "partido": ""
+ },
+ {
+  "id": "122/000283",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suspende o limita la financiación estatal de partidos; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000284",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la acción exterior del Estado; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000285",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija cómo se computa el IVA de 2017 en la liquidación de la financiación autonómica; afecta a las comunidades autónomas, no a colectivos del catálogo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000289",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la provisión profesional de la alta dirección pública; el texto no concreta subgrupos de funcionarios afectados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000290",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el intercambio de antecedentes penales en la Unión Europea; norma procesal sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000292",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Promoción del mecenazgo; el texto disponible no permite determinar con seguridad quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "122/000295",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Permite a mujeres víctimas de violencia de género acceder con perros de apoyo y protección a lugares restringidos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000297",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Devuelve a los ayuntamientos la facultad de denegar gasolineras en suelo comercial o industrial; restringe a los operadores de carburantes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000298",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "depend": 1
+  },
+  "peso": 2,
+  "nota": "Crea un permiso retribuido para acudir a consultas médicas y acompañar a hijos menores y familiares.",
+  "partido": ""
+ },
+ {
+  "id": "122/000300",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Agiliza convenios, contratación y control económico de los organismos públicos de investigación; régimen administrativo sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000301",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea el Consejo General de Colegios de Periodistas; norma de organización profesional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000302",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "viv0": 1
+  },
+  "peso": 1,
+  "nota": "Fija en cero la cuota variable del AJD en hipotecas para adquirir la primera vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "122/000305",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula las entidades locales de ámbito inferior al municipio; organización administrativa sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000306",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Fomenta las instalaciones renovables de pequeño tamaño en la Ley del Sector Eléctrico; beneficia a sus productores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000307",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce y protege las lenguas españolas distintas del castellano; sin efecto sobre colectivos de la lista.",
+  "partido": ""
+ },
+ {
+  "id": "122/000308",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye al órgano de administración el cambio de domicilio social salvo disposición estatutaria; norma societaria sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000309",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Garantiza delegaciones de la Fiscalía Anticorrupción en todas las comunidades; organización institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000311",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un complemento retributivo para jueces y fiscales destinados en Cataluña; la carrera judicial y fiscal no figura entre los colectivos del catálogo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000312",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: redefine las agresiones sexuales por actuación en grupo o sumisión química y agrava penas; sin derechos ni ayudas a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000313",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Prohíbe la esterilización forzosa o no consentida de personas con discapacidad incapacitadas judicialmente.",
+  "partido": ""
+ },
+ {
+  "id": "122/000315",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía los supuestos de prisión permanente revisable en el Código Penal; norma penal sin colectivo con derechos o ayudas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000316",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la declaración de rebeldía en el proceso penal; norma procesal sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000317",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Incluye a buceadores profesionales industriales en el régimen de protección del sector marítimo-pesquero; colectivo no incluido en la lista.",
+  "partido": ""
+ },
+ {
+  "id": "122/000320",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el voto de españoles en el extranjero; norma electoral sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000323",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga el artículo 58 bis de la LOREG sobre recopilación de datos por partidos; norma electoral.",
+  "partido": ""
+ },
+ {
+  "id": "122/000324",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traslada a la Administración General del Estado la deuda de un consorcio; traspaso entre administraciones sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000325",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traslada a la Administración General del Estado la deuda de un consorcio; traspaso entre administraciones sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000327",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traslada a la Administración General del Estado la deuda de un consorcio; traspaso entre administraciones sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000329",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula intereses privados en el sector público y puertas giratorias; norma de transparencia y anticorrupción.",
+  "partido": ""
+ },
+ {
+  "id": "122/000330",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Garantía de la libertad de conciencia; el texto disponible no permite determinar efectos sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000333",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Regula la publicidad de servicios sanitarios, restringiéndola a los centros y profesionales; protege a pacientes frente a publicidad engañosa.",
+  "partido": ""
+ },
+ {
+  "id": "123/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Facilita demandas colectivas y agrupadas en la Ley de Enjuiciamiento Civil; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "124/000001",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza la participación de personas con discapacidad en el Tribunal del Jurado sin exclusiones.",
+  "partido": ""
+ },
+ {
+  "id": "124/000002",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 1,
+  "nota": "Añade la eliminación de la homofobia, bifobia y transfobia a los fines de la ley contra la violencia en el deporte.",
+  "partido": ""
+ },
+ {
+  "id": "124/000004",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 1,
+  "nota": "Incluye la maternidad y paternidad entre las causas de suspensión del juicio oral.",
+  "partido": ""
+ },
+ {
+  "id": "124/000005",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el acceso a la nacionalidad española por opción a descendientes de emigrantes españoles nacidos en el extranjero y regula el procedimiento.",
+  "partido": ""
+ },
+ {
+  "id": "124/000006",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Exime del pago de peajes a personas con movilidad reducida.",
+  "partido": ""
+ },
+ {
+  "id": "124/000007",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "depend": 1
+  },
+  "peso": 1,
+  "nota": "Asimila la valoración de la dependencia a la de discapacidad a efectos de reconocimiento de derechos.",
+  "partido": ""
+ },
+ {
+  "id": "124/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ley básica de agentes forestales; el texto no permite determinar el signo para el colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "124/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Incluye la situación de pobreza o sin hogar como agravante en delitos de odio; norma penal sin efecto asignable.",
+  "partido": ""
+ },
+ {
+  "id": "124/000010",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Obliga a igualar los premios de mujeres y hombres en competiciones deportivas con apoyo público.",
+  "partido": ""
+ },
+ {
+  "id": "124/000011",
+  "tipo": "eco",
+  "imp": {
+   "depend": 1,
+   "secSoc": 1
+  },
+  "peso": 1,
+  "nota": "Aplica el IVA del 4 % a los servicios de atención a la dependencia no exentos; beneficia a usuarios y prestadores.",
+  "partido": ""
+ },
+ {
+  "id": "124/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce como tribunal consuetudinario al Juzgado Privativo de Aguas de Orihuela; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "124/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce como tribunal consuetudinario al Tribunal del Comuner de Aldaia; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "124/000014",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Amplía las comunicaciones entre menores y sus progenitores presos en centros penitenciarios.",
+  "partido": ""
+ },
+ {
+  "id": "124/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Estatuto básico de bomberos forestales; el texto no permite determinar el signo para el colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "125/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula conflictos de vecindad civil y estatuto personal; norma civil sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000002",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prevé un plan de apoyo al deporte base y de regulación de la actividad remunerada de los clubes; contenido sin efecto concreto.",
+  "partido": ""
+ },
+ {
+  "id": "125/000004",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traspasa la titularidad de la AP-9 a Galicia; traspaso entre administraciones sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000007",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Aplica tarifas reducidas y máximo de 30 euros al transporte interinsular de viajeros en Baleares.",
+  "partido": ""
+ },
+ {
+  "id": "125/000008",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Anula las cláusulas contractuales que excluyen a personas por tener VIH/SIDA.",
+  "partido": ""
+ },
+ {
+  "id": "125/000010",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Prevé reparación por los billetes republicanos incautados durante la Guerra Civil y la dictadura.",
+  "partido": ""
+ },
+ {
+  "id": "125/000013",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traspasa la titularidad de la AP-9 a Galicia; traspaso entre administraciones sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000014",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce prestación por desempleo a cargos electos que cesan en su mandato.",
+  "partido": ""
+ }
+]

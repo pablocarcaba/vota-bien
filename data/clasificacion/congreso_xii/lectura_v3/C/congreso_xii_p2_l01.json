@@ -1,0 +1,490 @@
+[
+ {
+  "id": "122/000174",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Limita el uso de cooperativas de trabajo asociado en industrias cárnicas y mataderos; impone exigencias a las empresas del sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000175",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma lingüística y cultural de protección de lenguas; no establece efectos directos sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000178",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre rebelión y sedición; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000179",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula requisitos lingüísticos en el acceso al empleo público; el signo para los colectivos no consta con claridad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000180",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre el funcionamiento y nombramientos del Consejo de Seguridad Nuclear; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000181",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma procesal sobre suspensión de cargos públicos procesados; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000182",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma procesal sobre suspensión de cargos públicos procesados; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000183",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Rehabilita penas y sanciones disciplinarias a guardias civiles; mejora su situación profesional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000185",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre la elección de los órganos de la Corporación RTVE; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000187",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el transporte transfronterizo de fondos en euros; el texto no permite determinar el signo para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000188",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma electoral sobre inelegibilidad de personas huidas de la justicia; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000189",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "mayores": 1,
+   "viv1": -1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Hace obligatorias las obras de accesibilidad con coste de la comunidad; beneficia a personas con discapacidad y mayores de 70 años; los propietarios las costean.",
+  "partido": ""
+ },
+ {
+  "id": "122/000192",
+  "tipo": "soc",
+  "imp": {
+   "secSoc": -1
+  },
+  "peso": 1,
+  "nota": "Elimina los conciertos educativos a centros que separan por sexo; perjudica a esos centros concertados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000193",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma sobre consolidación de cuentas de partidos políticos; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000198",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre el uso de banderas y enseñas en edificios públicos; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000200",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transposición penal de directivas europeas; norma penal sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000202",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de estabilidad presupuestaria; el texto disponible no permite determinar efectos concretos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000204",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Tipifica infracciones administrativas y multas por enaltecimiento del terrorismo y humillación a las víctimas; norma sancionadora sin derechos nuevos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000205",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia reglas de prescripción y sustitución de medicamentos; ganadores y perdedores no se pueden fijar con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000206",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Regulariza y exime a emigrantes retornados con pensiones del extranjero en el IRPF; reduce su carga fiscal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000207",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la supervisión financiera y crea canales de comunicación de infracciones; efectos sobre colectivos no determinables con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000208",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre selección de candidatos a tribunales europeos; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000210",
+  "tipo": "soc",
+  "imp": {
+   "secSoc": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los centros concertados a dar publicidad activa de la voluntariedad de las cuotas; nueva exigencia para esos centros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000211",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal en materia de libertad de expresión; norma penal sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000212",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: reduce penas y excluye la punibilidad de la venta ambulante de pequeña escala de productos que infringen propiedad intelectual.",
+  "partido": ""
+ },
+ {
+  "id": "122/000214",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "mayores": 1,
+   "viv1": -1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Elimina el límite de coste de las obras de accesibilidad; beneficia a personas con discapacidad y mayores de 70 años; los propietarios las costean.",
+  "partido": ""
+ },
+ {
+  "id": "122/000216",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Equipara pensiones de incapacidad extranjeras y abre nuevo plazo de regularización fiscal para pensionistas emigrantes retornados; reduce su carga.",
+  "partido": ""
+ },
+ {
+  "id": "122/000218",
+  "tipo": "eco",
+  "imp": {
+   "viv1": 1,
+   "viv2": -1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Eleva el recargo del IBI a viviendas desocupadas y permite bonificar hasta el 90 % la vivienda habitual de hogares con rentas insuficientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000219",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los funcionarios de prisiones la condición de agentes de la autoridad; refuerza su posición profesional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000220",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Formación y pruebas de especialización en violencia de género para jueces y fiscales; reforma institucional sin derechos directos para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000221",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traspasa a una comunidad autónoma la titularidad de una autopista; traspaso entre administraciones sin cambio de derechos conocido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000222",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Revisa el régimen de tasas judiciales para facilitar el acceso a la justicia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000226",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce asistencia jurídica gratuita a asociaciones ambientales sin ánimo de lucro; ningún colectivo de la lista resulta afectado directamente.",
+  "partido": ""
+ },
+ {
+  "id": "122/000229",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Edad de jubilación del Servicio de Guardacostas de Galicia: colectivo no incluido en las categorías de la lista y sentido no determinado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000230",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "depend": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo estatal para financiar la accesibilidad universal de personas con discapacidad y dependientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000235",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Estatuto de una profesión concreta; el texto disponible no permite fijar el signo para un colectivo de la lista.",
+  "partido": ""
+ },
+ {
+  "id": "122/000238",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Somete el cierre de centrales eléctricas de más de 50 MW a dictámenes vinculantes que pueden denegarlo; limita a los titulares generadores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000240",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: considera siempre intimidación la agresión sexual cometida por dos o más personas; sin impactos (3.7).",
+  "partido": ""
+ },
+ {
+  "id": "122/000242",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula redes de distribución eléctrica cerradas en zonas industriales; el signo para el sector no es uniforme.",
+  "partido": ""
+ },
+ {
+  "id": "122/000243",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la autonomía y rendición de cuentas de las universidades; el texto no permite fijar efectos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000248",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Mejora las condiciones de quienes tienen préstamos renta universidad para financiar sus estudios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000250",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Exime de tasas judiciales a entidades sin fines lucrativos y de reducida dimensión; reduce costes a pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000251",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Crea una deducción del 15 % en Sociedades por reinversión de beneficios para empresas de reducida dimensión.",
+  "partido": ""
+ },
+ {
+  "id": "122/000255",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el concepto de violencia contra la mujer, extiende la protección integral a madres o tutoras de menores y crea planes y datos específicos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000259",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre la independencia del Centro de Investigaciones Sociológicas; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000260",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre la elección de vocales del Consejo General del Poder Judicial; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000261",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe financiar con deuda y con el Fondo de Contingencia el gasto militar y exige reintegrar créditos a empresas armamentísticas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000262",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma de transparencia sobre las cuentas de la Casa Real; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000266",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: tipifica la difusión de información falsa sobre terapias no autorizadas contra enfermedades graves; sin impactos (3.7).",
+  "partido": ""
+ },
+ {
+  "id": "122/000267",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma electoral sobre elecciones municipales; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000269",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre la aprobación de objetivos de estabilidad presupuestaria; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000271",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma sobre símbolos nacionales y neutralidad institucional; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000275",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título y el texto disponible no permiten determinar los derechos o ayudas concretos ni su signo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000276",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma penal sobre delitos contra instituciones del Estado; norma penal sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000280",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reglas procesales y de nulidad de planes urbanísticos y valoración expropiatoria; medidas técnicas sin colectivo afectado directamente.",
+  "partido": ""
+ }
+]

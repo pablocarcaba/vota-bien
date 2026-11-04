@@ -1,0 +1,581 @@
+[
+ {
+  "id": "122/000231",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza una cartera común de prestaciones sanitarias con equidad y accesibilidad en el sistema público; beneficia a pacientes y mejora el servicio público.",
+  "partido": ""
+ },
+ {
+  "id": "122/000232",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea un recargo a las entidades de crédito para recuperar las ayudas públicas recibidas; grava al sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "122/000233",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones y suprime el factor de sostenibilidad; beneficia a todos los pensionistas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000234",
+  "tipo": "soc",
+  "imp": {
+   "inq": 1,
+   "hipot": 1,
+   "pobreza": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Medidas de emergencia habitacional para familias vulnerables: protege a inquilinos y deudores hipotecarios y limita desahucios, con coste para propietarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000236",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Regula la integración de centros privados y concertados en la red pública de enseñanza; traspaso de privado a público.",
+  "partido": ""
+ },
+ {
+  "id": "122/000237",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Adapta la Ley de Aguas a la protección ambiental y al derecho humano al agua; mejora la protección del agua.",
+  "partido": ""
+ },
+ {
+  "id": "122/000239",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula la eutanasia: reconoce a pacientes con sufrimiento grave e irreversible un derecho con garantías.",
+  "partido": ""
+ },
+ {
+  "id": "122/000241",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce el derecho al autoconsumo eléctrico renovable sin cargos y elimina trabas; ahorro para consumidores y beneficio ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "122/000244",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de conciliación, igualdad y apoyo a las familias con hijos; beneficia a familias y a mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000245",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Reduce los plásticos de un solo uso; mejora la protección ambiental y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000246",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Medidas contra la explotación sexual de mujeres, centradas en tipos penales del proxenetismo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000247",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija una regulación del cambio climático y la transición energética; mejora la protección del clima.",
+  "partido": ""
+ },
+ {
+  "id": "122/000249",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Limita la contratación temporal y refuerza la estabilidad en el empleo; mejora derechos de asalariados y encarece el coste laboral.",
+  "partido": ""
+ },
+ {
+  "id": "122/000252",
+  "tipo": "eco",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación de la Seguridad Social por crianza de hijos; beneficia a familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000253",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fomenta el vehículo eléctrico y su infraestructura de recarga para reducir contaminación y emisiones; mejora la calidad del aire.",
+  "partido": ""
+ },
+ {
+  "id": "122/000254",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce y repara a las víctimas del franquismo y la Transición con derechos y medidas de reparación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000256",
+  "tipo": "soc",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Ley integral contra la pobreza y la exclusión social; protege a personas en riesgo de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "122/000257",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Protección integral frente a violencias sexuales: prevención, atención, derechos y protección procesal de las víctimas, mayoritariamente mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000258",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Protección integral frente a violencias sexuales: prevención, atención, derechos y protección procesal de las víctimas, mayoritariamente mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000263",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el reconocimiento y la reparación de todas las víctimas de la dictadura y recupera la memoria histórica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000264",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido: el texto disponible no recoge el articulado sobre morosidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000265",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Regula el cambio climático y la transición energética con objetivos de reducción de emisiones; mejora la protección del clima.",
+  "partido": ""
+ },
+ {
+  "id": "122/000268",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza la igualdad de trato y de oportunidades entre mujeres y hombres en el empleo y la ocupación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000270",
+  "tipo": "eco",
+  "imp": {
+   "prop1": 1,
+   "prop2": 1,
+   "prop3": 1,
+   "prop4": 1
+  },
+  "peso": 2,
+  "nota": "Rebaja el impuesto de sucesiones y donaciones: exime las herencias entre familiares directos y reduce la tributación de hermanos y parientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000272",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Mejora los derechos, la reparación y el reconocimiento de las víctimas del terrorismo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000273",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Fija en el 0 % el impuesto sobre el valor de la producción de energía eléctrica; beneficia a los productores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000274",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce la gratuidad de libros de texto y material curricular en la educación básica; beneficia a alumnado y familias.",
+  "partido": ""
+ },
+ {
+  "id": "122/000277",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Impulsa la guarda y custodia compartida de los menores tras la ruptura de los progenitores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000278",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce y repara a las víctimas del franquismo y la Transición con derechos y medidas de reparación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000279",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Protección integral frente a violencias sexuales: prevención, atención, derechos y protección procesal de las víctimas, mayoritariamente mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000281",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Promueve el buen trato y protege a la infancia y adolescencia frente a la violencia, con asistencia, garantías procesales y reparación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000286",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Establece la igualdad retributiva y la transparencia salarial entre mujeres y hombres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000288",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Crea un marco común para los servicios de bomberos, defiende su carácter público e integra el servicio aeroportuario; mejora la calidad del servicio público.",
+  "partido": ""
+ },
+ {
+  "id": "122/000291",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000293",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el mecenazgo, micromecenazgo y voluntariado; sin colectivo con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000294",
+  "tipo": "eco",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 1,
+  "nota": "Declara exentas del IRPF las prestaciones públicas por maternidad y paternidad; beneficia a las familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000299",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Regula el tiempo de trabajo corresponsable: adaptación de jornada, desconexión y tiempo parcial para conciliar y favorecer la igualdad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000303",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Medidas urgentes de protección de consumidores en cláusulas suelo hipotecarias; beneficia a hipotecados y supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000304",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Medidas urgentes de protección de consumidores en cláusulas suelo hipotecarias; beneficia a hipotecados y supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000314",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce el derecho al agua y al saneamiento y regula la calidad de las aguas de consumo; beneficia a usuarios y salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000318",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Revaloriza las pensiones mínimas en 2019 con un incremento adicional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000319",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 2,
+  "nota": "Endurece la respuesta a la ocupación ilegal de viviendas y protege a propietarios y comunidades.",
+  "partido": ""
+ },
+ {
+  "id": "122/000321",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secCons": -1
+  },
+  "peso": 2,
+  "nota": "Protege los suelos agrarios de alto valor frente a su transformación; refuerza la protección ambiental y limita la urbanización.",
+  "partido": ""
+ },
+ {
+  "id": "122/000322",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la financiación estatal del transporte urbano colectivo; sin efecto determinable sobre un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000326",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Impone condiciones y sanciones a empresas industriales beneficiarias de ayudas públicas que deslocalicen su actividad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000328",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la protección por desempleo y las condiciones de trabajo de los eventuales agrarios de Andalucía y Extremadura.",
+  "partido": ""
+ },
+ {
+  "id": "122/000331",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos de las personas con problemas de salud mental y refuerza su atención sanitaria.",
+  "partido": ""
+ },
+ {
+  "id": "122/000332",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Reforma la Ley General de la Seguridad Social para mejorar la garantía de ingresos de hogares en situación de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "124/000003",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un régimen de infracciones y multas por impago de plazos entre empresas; afecta a todas como deudoras o acreedoras, sin signo único por colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "125/000003",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fomenta la generación eléctrica renovable para autoconsumo y elimina barreras; ahorro para consumidores y beneficio ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Crea un fondo de compensación para las víctimas del amianto sin empresa responsable a la que reclamar.",
+  "partido": ""
+ },
+ {
+  "id": "125/000006",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Garantiza a los ahorradores minoristas la devolución íntegra de híbridos y deuda subordinada, a cargo de las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "125/000009",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Crea un fondo de compensación para las víctimas del amianto sin empresa responsable a la que reclamar.",
+  "partido": ""
+ },
+ {
+  "id": "125/000011",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "inmigrantes": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Universaliza la asistencia sanitaria pública, incluidos los extranjeros sin permiso de residencia; amplía la cobertura del servicio público.",
+  "partido": ""
+ },
+ {
+  "id": "125/000012",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Protege el Mediterráneo frente a la exploración y explotación de hidrocarburos; refuerza la protección ambiental y limita al sector energético.",
+  "partido": ""
+ }
+]

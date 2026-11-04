@@ -1,0 +1,45 @@
+[
+ {
+  "id": "125/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exime de responsabilidad penal a quien cause la muerte o coopere a ella a petición de un enfermo grave; modificación penal sin otros efectos directos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000020",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Deroga la reforma laboral de 2012 (contratación, despido, negociación colectiva): restituye derechos laborales a los asalariados y eleva el coste laboral de las empresas pequeñas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000021",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el autocultivo de cannabis y las asociaciones de consumidores; no define un colectivo con efecto directo y de signo claro en la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "125/000025",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección ambiental del Mediterráneo frente a la exploración y explotación de hidrocarburos y minerales, que restringe a las empresas del sector.",
+  "partido": ""
+ }
+]

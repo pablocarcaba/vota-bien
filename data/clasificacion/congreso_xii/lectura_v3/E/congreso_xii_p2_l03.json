@@ -1,0 +1,85 @@
+[
+ {
+  "id": "125/000015",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "hij3": 1
+  },
+  "peso": 1,
+  "nota": "Fija una tarifa máxima universal de 30 € en el transporte aéreo interinsular balear, con descuentos a familias numerosas; beneficia a los usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "125/000016",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Elimina la privación del derecho de sufragio por incapacidad judicial o internamiento; amplía el derecho de voto de las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "125/000018",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Autoriza transferir hasta 19,99 hm3 anuales entre demarcaciones para garantizar el abastecimiento del Condado de Huelva y recuperar los acuíferos de Doñana.",
+  "partido": ""
+ },
+ {
+  "id": "125/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Encarga un plan de apoyo al deporte base y su régimen del voluntariado; sin medidas concretas sobre un colectivo con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "125/000022",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Retira la religión confesional del currículo escolar; el signo para estudiantes o minorías religiosas no consta con claridad.",
+  "partido": ""
+ },
+ {
+  "id": "125/000023",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Restablece la universalidad de la asistencia sanitaria pública, incluidos los extranjeros en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "125/000024",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transfiere la titularidad y competencias de la autopista AP-9 del Estado a Galicia; traspaso entre administraciones sin cambio de derechos concreto.",
+  "partido": ""
+ },
+ {
+  "id": "125/000026",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reordena las temporadas de rebajas del comercio minorista, con fechas fijadas por las comunidades; el signo para el sector no consta.",
+  "partido": ""
+ },
+ {
+  "id": "125/000027",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el límite de gasto electoral y suprime la sanción mínima por excederlo; norma electoral sin efecto sobre colectivos de la lista.",
+  "partido": ""
+ }
+]

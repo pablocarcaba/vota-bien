@@ -1,0 +1,544 @@
+[
+ {
+  "id": "121/000046",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la fiscalidad y la protección laboral de los profesionales de la cultura y permite compatibilizar la pensión de jubilación con derechos de autor.",
+  "partido": ""
+ },
+ {
+  "id": "130/000053",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la fiscalidad y la protección laboral de los profesionales de la cultura y permite compatibilizar la pensión de jubilación con derechos de autor.",
+  "partido": ""
+ },
+ {
+  "id": "121/000042",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Declara exentas del IRPF las prestaciones por maternidad y paternidad, incluidas las de empleados públicos y mutualistas; beneficia a madres, padres y familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000054",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Declara exentas del IRPF las prestaciones por maternidad y paternidad, incluidas las de empleados públicos y mutualistas; beneficia a madres, padres y familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000047",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "asal5": -1,
+   "asal6": -1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones públicas un 1,6 % y eleva la base máxima de cotización; los salarios altos cotizan más.",
+  "partido": ""
+ },
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "asal5": -1,
+   "asal6": -1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones públicas un 1,6 % y eleva la base máxima de cotización; los salarios altos cotizan más.",
+  "partido": ""
+ },
+ {
+  "id": "130/000002",
+  "tipo": "eco",
+  "imp": {
+   "empMed": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Endurece el pago fraccionado y la compensación de bases negativas del Impuesto sobre Sociedades para empresas de mayor facturación.",
+  "partido": ""
+ },
+ {
+  "id": "130/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la lucha contra el dopaje al Código Mundial Antidopaje; norma técnica sin efecto de signo conocido sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000030",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Restringe el arrendamiento de vehículos con conductor; favorece a unos operadores del transporte y perjudica a otros.",
+  "partido": ""
+ },
+ {
+  "id": "121/000049",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas organizativas en ciencia, tecnología, innovación y universidad; sin efecto de signo conocido sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000058",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas organizativas en ciencia, tecnología, innovación y universidad; sin efecto de signo conocido sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000003",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000010",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Suprime la obligación de las empresas estibadoras de participar en sociedades de estibadores y de contratar su personal; libertad de contratación con régimen transitorio.",
+  "partido": ""
+ },
+ {
+  "id": "130/000031",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la designación del Consejo de Administración y del presidente de RTVE; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000059",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Régimen especial de una comunidad autónoma; el texto disponible no permite determinar efectos con signo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000004",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el calendario de implantación de la reforma educativa; las evaluaciones finales no condicionan la titulación de los estudiantes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000011",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "pobreza": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Amplía la protección de deudores hipotecarios sin recursos y suspende lanzamientos de familias vulnerables; supone un coste para las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "130/000032",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la normativa de protección de datos al derecho de la Unión Europea; sin efecto de signo conocido sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000060",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de contingencia ante el Brexit sin acuerdo; el contenido disponible no permite fijar colectivos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000296",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Condona los intereses de reintegro de las ayudas del terremoto de Lorca a las familias damnificadas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000005",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Impulsa el Sistema Nacional de Garantía Juvenil para favorecer la inserción laboral de los jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000012",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija plazas de empleo público en docencia, fuerzas armadas y policía; no regula sus condiciones laborales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000033",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Oferta extraordinaria de empleo público para reforzar la atención a asilados y refugiados; sin cambio de derechos conocido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000062",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Impone planes de igualdad y transparencia retributiva e iguala los permisos de nacimiento de ambos progenitores; beneficia a mujeres, hombres y familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000006",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Reparte entre las empresas eléctricas el coste del bono social y refuerza la protección del consumidor vulnerable de electricidad.",
+  "partido": ""
+ },
+ {
+  "id": "130/000013",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Prorroga y modifica la ayuda del Programa de Activación para el Empleo a parados de larga duración.",
+  "partido": ""
+ },
+ {
+  "id": "121/000024",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1,
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Restablece el acceso universal a la sanidad pública, incluidas personas extranjeras sin residencia legal; mejora la cobertura del servicio para pacientes y población.",
+  "partido": ""
+ },
+ {
+  "id": "130/000034",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1,
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Restablece el acceso universal a la sanidad pública, incluidas personas extranjeras sin residencia legal; mejora la cobertura del servicio para pacientes y población.",
+  "partido": ""
+ },
+ {
+  "id": "130/000061",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "viv2": -1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la duración de los contratos de alquiler, limita garantías al inquilino y protege del desahucio a vulnerables; restringe al arrendador.",
+  "partido": ""
+ },
+ {
+  "id": "122/000310",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1,
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Eleva las bonificaciones de los contratos de formación y aprendizaje para jóvenes de Garantía Juvenil y personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "130/000014",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Suprime la obligación de las empresas estibadoras de participar en sociedades de estibadores y de contratar su personal; libertad de contratación con régimen transitorio.",
+  "partido": ""
+ },
+ {
+  "id": "130/000035",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000063",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "desSub": 1,
+   "adultos": 1,
+   "depend": 1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "empMed": -1,
+   "empGran": -1
+  },
+  "peso": 3,
+  "nota": "Registro de jornada obligatorio, subsidio para mayores de 52 años y cotización de cuidadores no profesionales; las empresas asumen el registro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000007",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone directivas europeas financieras, mercantiles, sanitarias y de desplazamiento de trabajadores; norma técnica sin efectos de signo conocido sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000015",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transpone directivas europeas financieras, mercantiles, sanitarias y de desplazamiento de trabajadores; norma técnica sin efectos de signo conocido sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000025",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la asistencia y protección de las víctimas de violencia de género y la financiación de las medidas del Pacto de Estado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000036",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la asistencia y protección de las víctimas de violencia de género y la financiación de las medidas del Pacto de Estado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000064",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el régimen de las empresas de trabajo temporal a la estiba portuaria; sin efecto de signo conocido sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000001",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1,
+   "discapacidad": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Reduce la participación en el coste de las prestaciones de dependencia; beneficia a personas dependientes, con discapacidad y mayores.",
+  "partido": ""
+ },
+ {
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación de ingresos mínimos en la Seguridad Social para hogares sin recursos; beneficia a personas sin ingresos y en riesgo de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "120/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000004",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Permite saldar la deuda hipotecaria entregando la vivienda; protege a quienes tienen hipoteca y supone un coste para las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "120/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime privilegios retributivos de cargos políticos cesados; sin efecto sobre ningún colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma de memoria histórica sin efectos directos sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma de memoria histórica sin efectos directos sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma de memoria histórica sin efectos directos sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000011",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Promociona la actividad de la venta no sedentaria; beneficia al comercio ambulante.",
+  "partido": ""
+ },
+ {
+  "id": "120/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Libertad de elección lingüística; el contenido disponible no permite determinar colectivos ni signo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000014",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Establece alternativas a la prisión para personas con enfermedad mental; beneficia a pacientes de salud mental.",
+  "partido": ""
+ },
+ {
+  "id": "120/000015",
+  "tipo": "eco",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Equipara los salarios de las Policías del Estado; beneficia a los profesionales de la seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "120/000016",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000017",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,590 @@
+[
+ {
+  "id": "122/000083",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Limita la compraventa de derechos concesionales de agua y refuerza la titularidad pública del dominio hídrico.",
+  "partido": ""
+ },
+ {
+  "id": "122/000084",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la normativa de información geográfica a la directiva INSPIRE; norma técnica sin efectos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000085",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el acceso a Comisario Principal de la Policía Nacional; signo desigual entre los mandos y sin efecto claro sobre el colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000086",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga el plazo máximo de instrucción penal; norma procesal sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000087",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 2,
+  "nota": "Reforma los permisos y prestaciones por nacimiento, adopción y acogimiento para ambos progenitores; beneficia a las familias con hijos y a ambos sexos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000088",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime un apartado del Código Penal sobre coacciones en huelga; norma penal sin asignación a colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000089",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la organización y gestión colegial del servicio de asistencia jurídica gratuita; sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000090",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 1,
+  "nota": "Extiende el permiso de maternidad y paternidad a acogimientos inferiores a un año; beneficia a familias acogedoras.",
+  "partido": ""
+ },
+ {
+  "id": "122/000091",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Fija una rentabilidad razonable estable a largo plazo para las instalaciones renovables, de cogeneración y residuos; beneficia a sus productores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000093",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación económica de la Seguridad Social por hijo o menor a cargo; beneficia a las familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000095",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fomenta la movilidad eléctrica por carretera para reducir la contaminación del aire y las emisiones; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "122/000096",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el reconocimiento y la reparación a las víctimas de la dictadura y regula la recuperación de la memoria histórica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000097",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza derechos y prohíbe la discriminación por orientación sexual, identidad y características sexuales; beneficia al colectivo LGTBI.",
+  "partido": ""
+ },
+ {
+  "id": "122/000098",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Régimen de infracciones y sanciones por impago a proveedores entre empresas y administraciones; sin colectivo con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "122/000099",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el reconocimiento y la reparación a las víctimas de la dictadura y regula la recuperación de la memoria histórica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000107",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Fortalece la negociación colectiva sectorial en el Estatuto de los Trabajadores; beneficia a los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000109",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "empMed": -1,
+   "empGran": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a registrar diariamente el horario de entrada y salida de cada trabajador; beneficia a asalariados y supone una obligación para las empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000115",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación económica de la Seguridad Social por hijo o menor a cargo; beneficia a las familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000117",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la gestación por subrogación altruista, con registro y centros autorizados; sin colectivo del catálogo con efecto directo de signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000119",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Reforma el sistema de pensiones para mejorar su cuantía y revalorización; beneficia a pensionistas de todos los tramos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000121",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1,
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Regula las prácticas académicas externas con más derechos para el alumnado en prácticas; beneficia a estudiantes y jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000131",
+  "tipo": "eco",
+  "imp": {
+   "civViu": 1,
+   "pen1": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la pensión de viudedad de mayores de 65 años con menores ingresos; beneficia a viudos y pensionistas de mínimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000138",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Establece medidas contra la brecha salarial y la discriminación retributiva por sexo; beneficia a las mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000142",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la transparencia en la contratación predispuesta de consumidores, seguros y mercado de valores; beneficia a consumidores y supone obligaciones para el sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "122/000145",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la conservación y gestión sostenible de los montes y la protección frente a incendios forestales; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "122/000148",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la organización y el régimen de elección del Consejo General del Poder Judicial; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000152",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe la exploración y explotación de hidrocarburos en el medio marino; protege el medio ambiente y perjudica al sector energético.",
+  "partido": ""
+ },
+ {
+  "id": "122/000156",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza una cartera común de servicios en el Sistema Nacional de Salud con equidad y accesibilidad; beneficia a pacientes y a la ciudadanía.",
+  "partido": ""
+ },
+ {
+  "id": "122/000162",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Crea un régimen de segunda oportunidad para personas físicas, autónomos y empresarios individuales sobreendeudados; beneficia a los autónomos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000165",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Crea un régimen de segunda oportunidad para personas físicas, autónomos y empresarios individuales sobreendeudados; beneficia a los autónomos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000167",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Crea un recargo de solidaridad sobre las entidades de crédito; supone un coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000169",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Mejora la revalorización y el sistema de pensiones públicas; beneficia a pensionistas de todos los tramos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000172",
+  "tipo": "soc",
+  "imp": {
+   "pobreza": 1,
+   "inq": 1,
+   "hipot": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Protege a familias vulnerables frente a desahucios y pobreza energética en hipoteca y alquiler; limita al propietario.",
+  "partido": ""
+ },
+ {
+  "id": "122/000176",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Regula la integración voluntaria de centros privados concertados en la red pública; refuerza la gestión pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000177",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula la reversión al Estado de los saltos hidroeléctricos al terminar la concesión; refuerza la titularidad pública y afecta a los concesionarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000184",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Establece medidas contra la brecha salarial y la discriminación retributiva por sexo; beneficia a las mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000186",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Reforma la Ley de Aguas para reforzar la protección ambiental y el derecho humano al agua; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "122/000190",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Protege jurídicamente a las personas trans y garantiza su derecho a la identidad de género en varios ámbitos; beneficia al colectivo LGTBI.",
+  "partido": ""
+ },
+ {
+  "id": "122/000191",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 2,
+  "nota": "Protege jurídicamente a las personas trans y garantiza su derecho a la identidad de género en varios ámbitos; beneficia al colectivo LGTBI.",
+  "partido": ""
+ },
+ {
+  "id": "122/000194",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 2,
+  "nota": "Generaliza el contrato indefinido, restringe los temporales a sustitución y formación y equipara indemnizaciones; beneficia a asalariados y encarece la contratación a pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000195",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Garantiza la revalorización de las pensiones de 2018 según la inflación; beneficia a pensionistas de todos los tramos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000196",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Modifica la plusvalía municipal y otros tributos; exime las ayudas a las víctimas de un accidente aéreo. Signo desigual en el resto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000197",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Garantiza la revalorización de las pensiones de 2018 según la inflación; beneficia a pensionistas de todos los tramos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000199",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Desarrolla medidas del Pacto de Estado contra la violencia de género; beneficia a mujeres y víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000201",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000203",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Establece medidas contra la brecha salarial y la discriminación retributiva por sexo; beneficia a las mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "122/000209",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1
+  },
+  "peso": 2,
+  "nota": "Fomenta el alquiler estable de vivienda con medidas de protección al inquilino; signo desigual para propietarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000213",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la protección de la propiedad frente a la ocupación ilegal de viviendas y agiliza la recuperación de la posesión; beneficia a propietarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000215",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "desSub": 1
+  },
+  "peso": 2,
+  "nota": "Reforma la protección por desempleo reforzando la suficiencia de la prestación contributiva y asistencial; beneficia a personas desempleadas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000217",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Regula los alquileres abusivos y mejora las garantías del inquilino; beneficia a quienes viven de alquiler y limita al arrendador.",
+  "partido": ""
+ },
+ {
+  "id": "122/000223",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 2,
+  "nota": "Reforma los permisos y prestaciones por nacimiento, adopción y acogimiento para ambos progenitores; beneficia a las familias con hijos y a ambos sexos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000224",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Establece el cierre de las centrales nucleares; reduce el riesgo ambiental y perjudica al sector de generación nuclear.",
+  "partido": ""
+ },
+ {
+  "id": "122/000225",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Fortalece la negociación colectiva sectorial en el Estatuto de los Trabajadores; beneficia a los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000227",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación económica de la Seguridad Social por hijo o menor a cargo; beneficia a las familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000228",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Reforma el sistema de pensiones para mejorar su cuantía y revalorización; beneficia a pensionistas de todos los tramos.",
+  "partido": ""
+ }
+]

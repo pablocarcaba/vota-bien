@@ -1,0 +1,534 @@
+[
+ {
+  "id": "130/000007",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a los bancos a un procedimiento de devolución de cláusulas suelo; beneficia a los hipotecados y consumidores y supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "130/000028",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prorroga el destino del superávit de las entidades locales a inversiones; afecta a administraciones, no a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000056",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta las competencias del organismo regulador de mercados al derecho europeo; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "130/000016",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de apoyo a regantes y explotaciones de cuencas afectadas por la sequía; beneficia al sector primario.",
+  "partido": ""
+ },
+ {
+  "id": "121/000026",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula dónde pueden yacer los restos en el Valle de los Caídos y su carácter de homenaje; norma simbólica sin derechos ni ayudas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000037",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula dónde pueden yacer los restos en el Valle de los Caídos y su carácter de homenaje; norma simbólica sin derechos ni ayudas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000065",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prorroga el destino del superávit de comunidades y entidades locales y regula funciones de habilitados nacionales; norma administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "130/000017",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula cooperativas de crédito y el orden de créditos en la resolución bancaria; efecto sobre la banca de signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "121/000027",
+  "tipo": "eco",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Transpone directivas sobre planes de pensiones, blanqueo y entrada y residencia de extranjeros con fines de estudio e investigación; amplía vías de residencia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000038",
+  "tipo": "eco",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Transpone directivas sobre planes de pensiones, blanqueo y entrada y residencia de extranjeros con fines de estudio e investigación; amplía vías de residencia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000116",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obliga a publicar la identidad de quienes se acogieron a una regularización fiscal; sin colectivo definido por los criterios de la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "130/000018",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el sistema de compensación por copia privada; no se determina con seguridad el sector gravado ni el signo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000028",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones de seguridad de redes y sistemas a operadores de servicios esenciales y proveedores de servicios digitales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000039",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones de seguridad de redes y sistemas a operadores de servicios esenciales y proveedores de servicios digitales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000019",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aprueba una oferta extraordinaria de empleo público y crea especialidades en cuerpos de la Administración; sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000032",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite regular el arrendamiento de vehículos con conductor; favorece a unos operadores del transporte y restringe a otros.",
+  "partido": ""
+ },
+ {
+  "id": "130/000040",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite regular el arrendamiento de vehículos con conductor; favorece a unos operadores del transporte y restringe a otros.",
+  "partido": ""
+ },
+ {
+  "id": "130/000020",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Reactiva el programa de recualificación con ayuda para personas que agotan su protección por desempleo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000030",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000041",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000144",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga una norma sobre movilidad de operadores económicos dentro del territorio nacional; sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "130/000021",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Facilita la movilidad de domicilio de operadores económicos dentro del territorio nacional; sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "121/000031",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la protección del bono social y frente a cortes de suministro y facilita el autoconsumo eléctrico; beneficia a consumidores y vulnerables.",
+  "partido": ""
+ },
+ {
+  "id": "130/000042",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la protección del bono social y frente a cortes de suministro y facilita el autoconsumo eléctrico; beneficia a consumidores y vulnerables.",
+  "partido": ""
+ },
+ {
+  "id": "130/000022",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Impone requisitos de seguridad a la explotación de hidrocarburos en el mar; mejora la protección ambiental y supone coste para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "130/000043",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas contra el tráfico ilícito con embarcaciones; norma sancionadora sin colectivo con derechos o cargas propias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000023",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Endurece envasado, etiquetado y venta de productos del tabaco; mejora la salud pública y obliga a la industria tabacalera.",
+  "partido": ""
+ },
+ {
+  "id": "121/000033",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "El impuesto de actos jurídicos documentados de las hipotecas pasa a pagarlo el banco; beneficia a quien tiene hipoteca.",
+  "partido": ""
+ },
+ {
+  "id": "130/000044",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "El impuesto de actos jurídicos documentados de las hipotecas pasa a pagarlo el banco; beneficia a quien tiene hipoteca.",
+  "partido": ""
+ },
+ {
+  "id": "130/000024",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las grandes empresas a informar sobre aspectos no financieros y diversidad.",
+  "partido": ""
+ },
+ {
+  "id": "121/000034",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Impone desvío de pesados a autopistas de peaje, sanciona la negligencia de concesionarios y permite a SEITTSA explotar directamente autopistas revertidas al Estado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000045",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Impone desvío de pesados a autopistas de peaje, sanciona la negligencia de concesionarios y permite a SEITTSA explotar directamente autopistas revertidas al Estado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000025",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea el derecho a cuentas de pago básicas, gratuitas para personas vulnerables, y exige comparabilidad de comisiones; supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "121/000036",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Transpone la normativa europea de servicios de pago; refuerza la protección de los usuarios de pagos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Transpone la normativa europea de servicios de pago; refuerza la protección de los usuarios de pagos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000001",
+  "tipo": "eco",
+  "imp": {
+   "empMed": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Eleva pagos fraccionados y limita deducciones del Impuesto sobre Sociedades para empresas de mayor facturación.",
+  "partido": ""
+ },
+ {
+  "id": "130/000008",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Ayudas para paliar los daños de unos temporales; beneficia a los afectados por la catástrofe.",
+  "partido": ""
+ },
+ {
+  "id": "121/000021",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Transpone directivas sobre entidades de gestión de derechos de autor y acceso a obras para personas con discapacidad visual.",
+  "partido": ""
+ },
+ {
+  "id": "130/000029",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Transpone directivas sobre entidades de gestión de derechos de autor y acceso a obras para personas con discapacidad visual.",
+  "partido": ""
+ },
+ {
+  "id": "130/000057",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Ayudas para paliar los daños de temporales y otras catástrofes; beneficia a los afectados.",
+  "partido": ""
+ },
+ {
+  "id": "121/000016",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga los límites del método de estimación objetiva y de los regímenes agrarios de IVA; beneficia a autónomos y al sector primario; incluye actualización catastral.",
+  "partido": ""
+ },
+ {
+  "id": "130/000026",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga los límites del método de estimación objetiva y de los regímenes agrarios de IVA; beneficia a autónomos y al sector primario; incluye actualización catastral.",
+  "partido": ""
+ },
+ {
+  "id": "121/000037",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000047",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000017",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el régimen de los centros de negociación de valores a la normativa europea; norma técnica de mercados.",
+  "partido": ""
+ },
+ {
+  "id": "130/000027",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el régimen de los centros de negociación de valores a la normativa europea; norma técnica de mercados.",
+  "partido": ""
+ },
+ {
+  "id": "130/000048",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "viv2": -1
+  },
+  "peso": 2,
+  "nota": "Alarga la duración de los contratos de alquiler de vivienda y limita al arrendador; beneficia a inquilinos y perjudica a propietarios de varias viviendas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000041",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea herramientas macroprudenciales y una autoridad nacional; norma institucional de supervisión financiera.",
+  "partido": ""
+ },
+ {
+  "id": "130/000049",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea herramientas macroprudenciales y una autoridad nacional; norma institucional de supervisión financiera.",
+  "partido": ""
+ },
+ {
+  "id": "121/000043",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Transpone directivas sobre marcas, ferrocarril y viajes combinados; refuerza derechos de los viajeros y obligaciones de las agencias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000050",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Transpone directivas sobre marcas, ferrocarril y viajes combinados; refuerza derechos de los viajeros y obligaciones de las agencias.",
+  "partido": ""
+ },
+ {
+  "id": "121/000044",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 2,
+  "nota": "Fija el incremento retributivo de los empleados públicos; beneficia a funcionarios de todos los subgrupos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000052",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 2,
+  "nota": "Fija el incremento retributivo de los empleados públicos; beneficia a funcionarios de todos los subgrupos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000045",
+  "tipo": "soc",
+  "imp": {
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de transición justa y desarrollo de las comarcas mineras; beneficia al medio rural de esas zonas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000051",
+  "tipo": "soc",
+  "imp": {
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de transición justa y desarrollo de las comarcas mineras; beneficia al medio rural de esas zonas.",
+  "partido": ""
+ }
+]

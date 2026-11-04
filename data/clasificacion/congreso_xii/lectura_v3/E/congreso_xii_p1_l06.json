@@ -1,0 +1,45 @@
+[
+ {
+  "id": "125/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exime de responsabilidad penal la eutanasia y la cooperación al suicidio en enfermedad grave o sufrimiento permanente; reforma penal sin otros efectos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000020",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Deroga la reforma laboral de 2012 (contratación, despido, negociación colectiva): refuerza derechos de los asalariados y encarece el coste laboral de las empresas pequeñas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000021",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el autocultivo y las asociaciones de personas consumidoras de cannabis; ningún colectivo definido gana o pierde con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000025",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Protege el Mediterráneo frente a la exploración y explotación de hidrocarburos: mejora ambiental general y restricción para el sector energético.",
+  "partido": ""
+ }
+]

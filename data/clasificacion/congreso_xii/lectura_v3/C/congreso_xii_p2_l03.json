@@ -1,0 +1,86 @@
+[
+ {
+  "id": "125/000015",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "hij3": 1,
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Fija una tarifa máxima universal de 30 € en vuelos interinsulares de Baleares, con descuentos a menores de 14 años y familias numerosas.",
+  "partido": ""
+ },
+ {
+  "id": "125/000016",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce el derecho de sufragio a todas las personas con discapacidad, suprimiendo la privación del voto por incapacidad judicial o internamiento.",
+  "partido": ""
+ },
+ {
+  "id": "125/000018",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Autoriza trasvasar hasta 19,99 hm3 anuales al Guadalquivir para abastecer municipios del Condado de Huelva y sustituir aguas subterráneas en regadíos existentes.",
+  "partido": ""
+ },
+ {
+  "id": "125/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Encarga un plan para regular la compensación de gastos al voluntariado deportivo como no salarial; sin colectivo identificable con signo seguro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000022",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Retira la religión confesional del currículo escolar; el texto disponible no permite fijar un colectivo con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "125/000023",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Restablece la universalidad de la asistencia sanitaria pública, incluida la de inmigrantes en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "125/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traspasa a Galicia la titularidad de la AP-9; transferencia entre administraciones sin cambio conocido de peajes ni derechos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000026",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Devuelve a las comunidades autónomas la fijación de fechas de rebajas; el signo para el comercio no consta en el texto.",
+  "partido": ""
+ },
+ {
+  "id": "125/000027",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el límite de gasto electoral y la financiación de partidos; norma electoral sin efecto sobre colectivos de la lista.",
+  "partido": ""
+ }
+]

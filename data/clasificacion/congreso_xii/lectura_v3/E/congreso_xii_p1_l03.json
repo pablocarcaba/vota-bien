@@ -1,0 +1,525 @@
+[
+ {
+  "id": "122/000028",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la cotización y la protección social de los autónomos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000029",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Paraliza el calendario de la LOMCE y deroga sus reales decretos; el texto no fija un efecto claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000030",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Exime de tasas judiciales a entidades sin fines lucrativos y de reducida dimensión.",
+  "partido": ""
+ },
+ {
+  "id": "122/000031",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación de la Seguridad Social por crianza de hijos a cargo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000032",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Impide excluir a las personas con discapacidad de la función de jurado y prevé apoyos y ajustes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000033",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Régimen de infracciones y sanciones por impago a proveedores entre empresas y administraciones; sin colectivo con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime la licencia federativa única; el texto no permite determinar un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000035",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o penal sin efecto sobre colectivos concretos. Regula el voto de residentes en el exterior.",
+  "partido": ""
+ },
+ {
+  "id": "122/000036",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regla de procedimiento para fijar objetivos de estabilidad con un Gobierno en funciones; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000037",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o penal sin efecto sobre colectivos concretos. Regula el calendario electoral.",
+  "partido": ""
+ },
+ {
+  "id": "122/000038",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de régimen local y financiación municipal; el texto no permite determinar un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000039",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Garantiza la suficiencia de la revalorización de todas las pensiones en 2017 y su financiación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000040",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obligaciones de información y transparencia en la contratación pública; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000041",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
+  },
+  "peso": 2,
+  "nota": "Suprime las tasas judiciales que pagan las personas jurídicas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000042",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o penal sin efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000043",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Reforma la cotización y protección social de los trabajadores autónomos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000044",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Despenaliza injurias a la Corona y ultrajes a España; norma penal sin efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000045",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Reduce el IVA de entradas a espectáculos y actividades culturales; beneficia a usuarios y al sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000046",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía el plazo de prescripción de delitos sexuales contra menores; norma penal sin derechos ni ayudas específicos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000047",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Aclara el régimen del gestor de carga y prevé ayudas a vehículos eléctricos y a puntos de recarga, con menor coste de potencia eléctrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000048",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Protege a consumidores vulnerables de electricidad y gas y regula la pobreza energética.",
+  "partido": ""
+ },
+ {
+  "id": "122/000049",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce y repara a todas las víctimas de la dictadura y recupera la memoria histórica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000050",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sustituye la ley de seguridad ciudadana; norma sancionadora y de orden público sin efecto asignable a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000051",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos y garantías de los pacientes ante el proceso final de la vida.",
+  "partido": ""
+ },
+ {
+  "id": "122/000052",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o penal sin efecto sobre colectivos concretos. Afecta al Tribunal Constitucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000053",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o penal sin efecto sobre colectivos concretos. Regula nombramientos en organismos reguladores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000054",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Tipifica la imprudencia leve con resultado de muerte y la fuga tras un accidente; norma penal sin derechos específicos para colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000055",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Facilita la nacionalidad española a descendientes nacidos en el extranjero de españoles emigrados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000056",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 2,
+  "nota": "Reforma permisos y prestaciones por nacimiento, adopción y acogimiento para ambos progenitores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000057",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Adapta el derecho a contraer matrimonio a la Convención sobre derechos de las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000058",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la compensación de editores por agregación de contenidos; favorece a agregadores y perjudica a editores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000059",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza apoyos a las personas con discapacidad en el consentimiento matrimonial de la jurisdicción voluntaria.",
+  "partido": ""
+ },
+ {
+  "id": "122/000060",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Regula el derecho a la eutanasia y al suicidio médicamente asistido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000061",
+  "tipo": "soc",
+  "imp": {
+   "viv2": 1
+  },
+  "peso": 1,
+  "nota": "Agiliza los desalojos por ocupación ilegal de viviendas, en favor de sus propietarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000062",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la ley de seguridad ciudadana; sin efecto asignable a un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000063",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o penal sin efecto sobre colectivos concretos. Regula la defensa jurídica de altos cargos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000064",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce el derecho a autoconsumir electricidad sin cargos y simplifica sus modalidades.",
+  "partido": ""
+ },
+ {
+  "id": "122/000065",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación de la Seguridad Social por crianza de hijos a cargo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000066",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Exime de tasas judiciales a entidades sin fines lucrativos y de reducida dimensión.",
+  "partido": ""
+ },
+ {
+  "id": "122/000067",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos de las personas ante el proceso final de la vida.",
+  "partido": ""
+ },
+ {
+  "id": "122/000068",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce el derecho de sufragio de personas incapacitadas o internadas judicialmente.",
+  "partido": ""
+ },
+ {
+  "id": "122/000069",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o penal sin efecto sobre colectivos concretos. Regula la jurisdicción universal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000070",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Aclara el régimen del gestor de carga y prevé ayudas a vehículos eléctricos y a puntos de recarga, con menor coste de potencia eléctrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000071",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce y ampara la pluralidad lingüística; sin efecto asignable a un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000072",
+  "tipo": "soc",
+  "imp": {
+   "lgtbi": 1
+  },
+  "peso": 1,
+  "nota": "Permite la rectificación registral del sexo y nombre de menores transexuales y suprime requisitos patologizantes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000073",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Ordena el cierre de las centrales nucleares, afectando al sector eléctrico nuclear.",
+  "partido": ""
+ },
+ {
+  "id": "122/000074",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o penal sin efecto sobre colectivos concretos. Regula nombramientos en RTVE.",
+  "partido": ""
+ },
+ {
+  "id": "122/000075",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Impide autorizar la explotación de centrales nucleares tras su cese definitivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000076",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o penal sin efecto sobre colectivos concretos. Regula los gastos reservados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000077",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "lgtbi": 1,
+   "discapacidad": 1,
+   "minorias": 1
+  },
+  "peso": 2,
+  "nota": "Ley integral de igualdad de trato y no discriminación por sexo, orientación sexual, discapacidad y origen étnico.",
+  "partido": ""
+ },
+ {
+  "id": "122/000078",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Protege a consumidores vulnerables de gas, con prohibición de cortes a vulnerables severos con bono social.",
+  "partido": ""
+ },
+ {
+  "id": "122/000079",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "infancia": 1,
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la orfandad de hijos de víctimas de violencia de género y los derechos laborales de las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000080",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Atribuye a la jurisdicción social la materia de dependencia; cambio procesal sin efecto en derechos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000081",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe el fracking por riesgos para salud y medio ambiente; afecta a la extracción de hidrocarburos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000082",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Crea comisión de expertos y régimen de control para el cumplimiento de los valores de igualdad en la educación.",
+  "partido": ""
+ }
+]

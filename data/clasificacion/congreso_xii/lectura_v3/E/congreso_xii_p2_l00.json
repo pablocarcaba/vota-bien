@@ -1,0 +1,498 @@
+[
+ {
+  "id": "122/000092",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre financiación ilegal de partidos; sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000094",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Exime de tasas judiciales a entidades de reducida dimensión y sin fines lucrativos; reduce su coste de litigar.",
+  "partido": ""
+ },
+ {
+  "id": "122/000100",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite el voto telemático de concejales en supuestos de baja; norma institucional local sin colectivo afectado en la lista.",
+  "partido": ""
+ },
+ {
+  "id": "122/000101",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el estatuto de los agentes forestales; el texto disponible no fija con signo claro efectos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000102",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite que funcionarios de otros subgrupos del grupo A ejerzan la secretaría de comisiones de asistencia jurídica gratuita; organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000103",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Permite caza y pesca de especies exóticas en áreas concretas y regula la acuicultura; favorece a los sectores cinegético y piscícola.",
+  "partido": ""
+ },
+ {
+  "id": "122/000104",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia el nombramiento y cese del Fiscal General del Estado; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000105",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia nombramiento del Fiscal General y composición del Consejo Fiscal; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000106",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aclara que las entidades benéficas receptoras de alimentos donados son consumidores finales; no se identifica un colectivo con efecto directo y de signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000108",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Limita la aplicación del Código Penal Militar a los guardias civiles a supuestos tasados; reduce su sujeción a esa jurisdicción.",
+  "partido": ""
+ },
+ {
+  "id": "122/000110",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Suprime la aplicación del Código Penal Militar a los guardias civiles fuera de los supuestos del apartado 4; reduce su sujeción a esa jurisdicción.",
+  "partido": ""
+ },
+ {
+  "id": "122/000111",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000112",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce asistencia jurídica gratuita a asociaciones ambientales sin ánimo de lucro; ningún colectivo del catálogo se ve afectado directamente.",
+  "partido": ""
+ },
+ {
+  "id": "122/000113",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000114",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal: endurece penas de imprudencia al volante y tipifica el abandono del lugar del accidente; sin derechos ni ayudas a colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000118",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el embargo preventivo de buques por créditos de tripulaciones; sin colectivo de la lista con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000120",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Permite identificar a funcionarios de prisiones y miembros de cuerpos de seguridad por su número de registro al declarar como testigos; protege su identidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000122",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Declara la nulidad e ilegitimidad de tribunales y sentencias del franquismo; reconoce reparación jurídica a sus víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000123",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia requisitos de acceso al cargo de miembro del Gobierno; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000124",
+  "tipo": "soc",
+  "imp": {
+   "pen1": 1
+  },
+  "peso": 1,
+  "nota": "Limita el cómputo de la unidad de convivencia en pensiones no contributivas; evita su pérdida por convivir en residencia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000125",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Restablece la garantía de plazas públicas suficientes en la programación de la enseñanza; refuerza la red pública frente a la concertada.",
+  "partido": ""
+ },
+ {
+  "id": "122/000126",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Revierte itinerarios tempranos en la ESO, restituye programas de diversificación y quita valor académico a Religión; beneficia al alumnado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000127",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Recupera competencias de decisión del Consejo Escolar y limita las del director; norma de gobierno de centros sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000128",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el criterio de condena en costas procesales; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000129",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajusta la eficacia de los actos de comunicación al Ministerio Fiscal; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000130",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Protege frente al despido a trabajadoras en tratamiento de reproducción asistida; amplía su protección laboral.",
+  "partido": ""
+ },
+ {
+  "id": "122/000132",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica los criterios de la regla de gasto de las administraciones; norma de estabilidad presupuestaria sin colectivo directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000133",
+  "tipo": "soc",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 1,
+  "nota": "Restablece vacaciones y permisos del personal al servicio de la Administración de Justicia; mejora sus condiciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000134",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce a los animales como seres sintientes en el Código Civil; norma civil sin colectivo directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000135",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una agencia independiente para la Alta Inspección Educativa; organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000136",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la organización y el funcionamiento del Registro Civil; organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000137",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Permite caza y pesca de especies exóticas en áreas concretas y regula la acuicultura; favorece a los sectores cinegético y piscícola.",
+  "partido": ""
+ },
+ {
+  "id": "122/000139",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Impide que la Ley de Amnistía bloquee investigar crímenes del franquismo; garantiza acceso a la justicia de sus víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000140",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Permite aplicar los delitos de lesa humanidad y genocidio a hechos del franquismo; garantiza acceso a la justicia de sus víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000141",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Anula la Ley de Amnistía y las sentencias franquistas; abre la investigación y reparación de las víctimas del franquismo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000143",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la validación de obras del trasvase del Castril; afecta a una actuación local sin colectivo de la lista.",
+  "partido": ""
+ },
+ {
+  "id": "122/000146",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Promueve la igualdad entre los sexos y la erradicación de la violencia machista en la Administración Local.",
+  "partido": ""
+ },
+ {
+  "id": "122/000147",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Promueve la igualdad entre los sexos y la erradicación de la violencia machista en la Administración Local.",
+  "partido": ""
+ },
+ {
+  "id": "122/000149",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible solo recoge el preámbulo sobre guardacostas; no permite determinar a quién beneficia ni con qué signo la edad de jubilación.",
+  "partido": ""
+ },
+ {
+  "id": "122/000150",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el modelo y la implantación del Registro Civil; organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000151",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el derecho de separación de socios por falta de reparto de dividendos; el texto no fija un signo claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000153",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Eleva a 25 años la edad límite de la pensión de orfandad en clases pasivas para huérfanos sin ingresos o con ingresos bajos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000154",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Crea un Fondo Estatal que financia actuaciones de accesibilidad universal; beneficia a las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000155",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Extiende la plantilla adicional a todos los empleos de la Guardia Civil, liberando vacantes para ascensos de sus miembros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000157",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Amplía medidas de reconocimiento y reparación para las víctimas de la Guerra Civil y el franquismo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000158",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Crea un Fondo de accesibilidad universal para cumplir las condiciones de accesibilidad; beneficia a las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000159",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Reforma la Ley 52/2007 sobre reparación de víctimas del franquismo en materia de juicios y sentencias militares.",
+  "partido": ""
+ },
+ {
+  "id": "122/000160",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 2,
+  "nota": "Mejora el acceso y la duración de las prestaciones por desempleo en trabajo a tiempo parcial.",
+  "partido": ""
+ },
+ {
+  "id": "122/000161",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 2,
+  "nota": "Mejora el acceso y la duración de las prestaciones por desempleo en trabajo a tiempo parcial.",
+  "partido": ""
+ },
+ {
+  "id": "122/000163",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Trata el IVA de las subvenciones públicas; el texto no permite determinar un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000166",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga el artículo 71 de la Ley de Propiedad Intelectual sobre edición musical; el texto no permite fijar un signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000168",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el control parlamentario del Gobierno y del Gobierno en funciones; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000170",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre maltrato animal; sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000171",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transfiere la titularidad de la autopista AP-9 a Galicia; traspaso entre administraciones sin cambio de derechos conocido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000173",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el estatuto de los bomberos forestales; ningún colectivo de la lista con signo claro.",
+  "partido": ""
+ }
+]
