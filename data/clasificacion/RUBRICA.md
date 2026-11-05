@@ -88,17 +88,16 @@ El criterio de fondo no cambia respecto a la v2. Esta sección solo lo hace más
 | Endurecimiento de esa protección | +1 (y −1 al sector que la cumple) |
 | Mejora del acceso, la cobertura o la calidad de un **servicio público universal** en su conjunto (sanidad pública, atención en las administraciones, justicia, educación pública) | +1 (empeorarlo: −1) |
 | Subida de un impuesto que paga toda la población (IVA general, IVA de los alimentos, impuestos especiales de consumo general) | −1 (bajada: +1) |
-| **Lo público frente a lo privado**: traspaso a manos privadas de un servicio, empresa, infraestructura o concesión pública (privatización, liberalización que reparte un mercado público, externalización, conciertos, concesiones) | −1, y +1 al sector que lo recibe (y a `empGran` si son grandes empresas) |
-| Lo inverso: nacionalización, reversión de concesiones, gestión directa, titularidad pública, devolución de ayudas públicas | +1, y −1 al sector afectado |
+| **Lo público frente a lo privado** (privatización, liberalización, externalización, conciertos, concesiones; o, al revés, nacionalización, reversión, gestión directa) | **No se marca `ciud`** (decisión del 06/11/2026: es un juicio de valor, no un efecto sobre toda la población). Solo el sector afectado: +1 al que recibe la actividad, −1 al que la pierde (y `empGran` si son grandes empresas) |
 
-Ejemplos del eje público/privado (de la v2): liberalización del ferrocarril → −1 `ciud`, +1 `secTrans`; gestión pública de la sanidad → +1 `ciud`, −1 `secSoc`.
+Ejemplos: liberalización del ferrocarril → +1 `secTrans` (sin `ciud`); gestión pública de la sanidad → −1 `secSoc` (sin `ciud`). La prueba de sesgo mostró que esta regla movía el resultado hacia un lado; sin ella la izquierda sale primera en el 56 % de los perfiles y la derecha en el 22 % (antes, 60 % y 19 %).
 
 **Cuándo no se marca `ciud`** (aclaraciones de aplicación):
 - Leyes institucionales, ideológicas o de derechos cuyo efecto general sea discutible: sistema electoral, CGPJ, símbolos, memoria, seguridad ciudadana, política exterior, transparencia o lucha contra la corrupción.
 - **Normas penales o sancionadoras**, incluidas las de tráfico que solo tipifican delitos o cambian penas. En cambio, las normas administrativas que reducen un riesgo para la salud de todos (por ejemplo, bajar la tasa máxima de alcohol al volante para todos los conductores) son salud pública → +1 `ciud`.
 - **Suministros** (luz, gas, agua, telecomunicaciones) y servicios contratados por usuarios: su precio, calidad o seguridad de suministro van a `cons`, no a `ciud`.
 - **Rebajas de precio, ayudas o gratuidades** para los usuarios de un servicio (bonos de transporte, gafas gratuitas, comedor gratuito): se marcan sus usuarios (`cons`, `pac`, `estud`, `infancia`…), no `ciud`. `ciud` solo si la ley mejora el servicio público en su conjunto (cobertura, acceso o calidad para todos).
-- **El eje público/privado exige un traspaso** de titularidad o de gestión entre lo público y lo privado (en uno u otro sentido). No se aplica a: traspasos entre administraciones (del Estado a una comunidad autónoma, cogestión autonómica), reglas de contratación pública que no cambian quién presta el servicio, regulación de empresas privadas ya privadas, ni a la financiación de la inversión pública.
+- **El eje público/privado** (solo efecto sectorial, sin `ciud`) exige un traspaso de titularidad o de gestión entre lo público y lo privado (en uno u otro sentido). No se aplica a: traspasos entre administraciones (del Estado a una comunidad autónoma, cogestión autonómica), reglas de contratación pública que no cambian quién presta el servicio, regulación de empresas privadas ya privadas, ni a la financiación de la inversión pública.
 - Prohibiciones de bienestar animal con efecto sobre una actividad económica → −1 al sector afectado (por ejemplo, `secPrim` en la acuicultura). `ciud` solo si hay un beneficio general sanitario o ambiental claro.
 
 ### 3.3 Impuestos, prestaciones, tramos de IRPF y pensiones
@@ -213,7 +212,7 @@ Si la protección del consumidor supone un coste para el sector regulado, −1 a
 ### 3.6 Educación, sanidad y cuidados
 - Becas, tasas, acceso a la universidad o FP → `estud` (+ tramos de renta solo si la ley fija un umbral, según 3.3.1).
 - Sanidad pública, listas de espera, enfermedades raras, ELA, salud mental o medicamentos → `pac` (+ `discapacidad`/`depend` si procede). Salud pública general → también `ciud`.
-- Gestión sanitaria pública o privada → regla «lo público frente a lo privado» (3.2): +1 `ciud` y −1 `secSoc` si refuerza la gestión pública; al revés si amplía la privada.
+- Gestión sanitaria pública o privada → regla «lo público frente a lo privado» (3.2): −1 `secSoc` si refuerza la gestión pública; +1 si amplía la privada; sin `ciud`.
 - Dependencia, permisos y prestaciones por cuidado → `depend` (+ `mujeres` si el efecto sobre las cuidadoras es explícito en la ley, + `mayores` si procede).
 - Condiciones laborales del personal sanitario, de los docentes o de las fuerzas de seguridad (salarios, equiparación, jubilación, condición de agente de la autoridad) → `proSan`/`proDoc`/`proSeg`. Se marcan solo si la ley regula esas condiciones; una reforma educativa o sanitaria que no las toca no marca `proDoc` ni `proSan`.
 

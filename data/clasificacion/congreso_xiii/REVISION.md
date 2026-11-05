@@ -36,3 +36,5 @@ Tras corregir en la rúbrica la definición de `desSub` (solo subsidio por desem
 ### Relectura de las ILP con el texto bien recortado (05/11/2026)
 
 El texto del BOCG en caché de las iniciativas legislativas populares (120/) empezaba en el sumario del boletín y arrastraba iniciativas vecinas (corregido en 33661ff). Las ILP afectadas de esta legislatura se releyeron con el texto correcto por tres lectores independientes y se consolidaron por mayoría. Lecturas en `data/clasificacion/lecturas_ilp_05-11-2026/`.
+
+- [x] **Sin la regla «lo público frente a lo privado» en `ciud`** (decisión del 06/11/2026, rúbrica 3.2): se quita `ciud` de 122/000020. Se mantiene el efecto sobre el sector afectado.

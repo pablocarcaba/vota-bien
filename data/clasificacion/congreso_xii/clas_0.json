@@ -506,7 +506,6 @@
   "id": "121/000043",
   "tipo": "eco",
   "imp": {
-   "ciud": -1,
    "cons": 1,
    "secCom": -1,
    "secTrans": 1
@@ -518,7 +517,6 @@
    {
     "d": "Apertura del transporte ferroviario de viajeros a la competencia",
     "imp": {
-     "ciud": -1,
      "secTrans": 1
     },
     "peso": 2
@@ -537,7 +535,6 @@
   "id": "130/000050",
   "tipo": "eco",
   "imp": {
-   "ciud": -1,
    "cons": 1,
    "secCom": -1,
    "secTrans": 1
@@ -549,7 +546,6 @@
    {
     "d": "Apertura del transporte ferroviario de viajeros a la competencia",
     "imp": {
-     "ciud": -1,
      "secTrans": 1
     },
     "peso": 2

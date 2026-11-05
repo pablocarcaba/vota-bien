@@ -95,3 +95,5 @@ Clasificadas con la regla «Medidas» de 3.8 por tres lectores independientes (C
 
 - [ ] Criterios discutibles que se repiten entre lectores: congelación salarial pública como −`fun*` (Presupuestos 2012-2015); prórrogas pesadas como bloques nuevos (3.8); peso 1 de los decretos de la DANA por su ámbito territorial; `ciud` o `cons` para la rebaja del impuesto de hidrocarburos; −`casero` en las prórrogas de la suspensión de desahucios pese a la compensación al arrendador.
 - [x] **RDL 2/2026 (130/000033)**: la mayoría de lectores marca −`casero` en la suspensión de desahucios; se quita por decisión manual, porque el decreto excluye a quien tiene dos viviendas o menos (el casero particular).
+
+- [x] **Sin la regla «lo público frente a lo privado» en `ciud`** (decisión del 06/11/2026, rúbrica 3.2): se quita `ciud` de 121/000094, 122/000082, 122/000185, 122/000197, 122/000236, 122/000258. Se mantiene el efecto sobre el sector afectado.

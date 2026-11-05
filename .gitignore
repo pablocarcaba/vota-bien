@@ -15,3 +15,6 @@ __pycache__/
 
 # Caché de descargas de congreso.es (se regenera con descargar_legislatura.py)
 data/cache/
+
+# Contactos de difusión (datos de personas: no se publican)
+difusion/

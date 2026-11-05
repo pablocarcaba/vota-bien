@@ -440,7 +440,6 @@
   "id": "121/000077",
   "tipo": "eco",
   "imp": {
-   "ciud": -1,
    "secTrans": 1
   },
   "peso": 2,
@@ -673,7 +672,6 @@
   "id": "121/000110",
   "tipo": "soc",
   "imp": {
-   "ciud": 1,
    "pac": 1,
    "secSoc": -1
   },

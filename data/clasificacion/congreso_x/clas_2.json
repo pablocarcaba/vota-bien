@@ -322,9 +322,7 @@
  {
   "id": "122/000037",
   "tipo": "soc",
-  "imp": {
-   "ciud": 1
-  },
+  "imp": {},
   "peso": 1,
   "nota": "Suprime la gestión por entidades privadas de la ejecución de medidas de internamiento de menores: pasa a gestión pública.",
   "partido": ""
@@ -415,7 +413,6 @@
   "id": "122/000047",
   "tipo": "soc",
   "imp": {
-   "ciud": 1,
    "secSoc": -1
   },
   "peso": 2,
