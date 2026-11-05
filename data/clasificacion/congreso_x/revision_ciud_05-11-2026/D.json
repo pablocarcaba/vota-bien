@@ -1,0 +1,171 @@
+[
+ {
+  "id": "120/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000025",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido. El texto disponible no corresponde a la iniciativa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000029",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de Costas con signos mezclados: refuerza controles ambientales, prorroga concesiones y excluye núcleos residenciales del dominio público. Sin signo único por colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible es solo la exposición de motivos de la reforma educativa; no concreta efectos por colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000049",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Restringe tamaño y ámbito territorial de las cajas de ahorros y somete a las fundaciones bancarias a regulación financiera.",
+  "partido": ""
+ },
+ {
+  "id": "121/000050",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Nueva regulación del sector de seguridad privada y detectives, con desregulación de aspectos accesorios y colaboración con la seguridad pública; sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000077",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la prevención ambiental pero simplifica y exime de garantías financieras a operadores; signos opuestos para el sector y sin efecto general claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000104",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Programa de garantías del ICO y FONPYME para financiar e internacionalizar pymes; permite a entidades locales cancelar deudas con el fondo de proveedores.",
+  "partido": ""
+ },
+ {
+  "id": "121/000128",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la Ley de Montes: simplifica la planificación de montes pequeños y refuerza la defensa del dominio público forestal; signos mezclados.",
+  "partido": ""
+ },
+ {
+  "id": "121/000145",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de la biodiversidad: nuevo principio de no pérdida neta, infraestructura verde y mejor gestión de espacios Red Natura 2000.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {
+   "viv1": 1,
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Reduce de 100 a 20 metros la servidumbre de costas en núcleos rurales tradicionales gallegos; beneficia a sus propietarios y rebaja la protección del litoral.",
+  "partido": ""
+ },
+ {
+  "id": "122/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000050",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Excluye del dominio público marítimo-terrestre las ciudades navegables y áreas urbanas consolidadas, devolviendo la propiedad a particulares y concesiones a ayuntamientos o propietarios.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "soc",
+  "imp": {
+   "viv1": 1,
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Flexibiliza la Ley de Costas para núcleos rurales gallegos y propietarios afectados por deslindes: concesiones sin canon y menor servidumbre; rebaja la protección del litoral.",
+  "partido": ""
+ },
+ {
+  "id": "130/000023",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido. El texto disponible no corresponde a la norma.",
+  "partido": ""
+ },
+ {
+  "id": "130/000033",
+  "tipo": "soc",
+  "imp": {
+   "hipot": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Rebaja tasas judiciales a personas físicas, excluye la tasa de las costas en ejecuciones hipotecarias de vivienda habitual y amplía la asistencia jurídica gratuita.",
+  "partido": ""
+ },
+ {
+  "id": "130/000053",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Regula el otorgamiento por concurso de la explotación minera de Aznalcóllar, reabriendo la actividad extractiva en esa zona.",
+  "partido": ""
+ },
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Programa de garantías del ICO y FONPYME para financiar e internacionalizar pymes; permite a entidades locales cancelar deudas con el fondo de proveedores.",
+  "partido": ""
+ }
+]

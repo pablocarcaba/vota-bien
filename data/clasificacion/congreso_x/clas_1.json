@@ -336,10 +336,12 @@
   "id": "121/000104",
   "tipo": "eco",
   "imp": {
-   "jovenes": 1
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1
   },
-  "peso": 3,
-  "nota": "Ómnibus de competitividad, financiación y empleabilidad; incluye el sistema de garantía juvenil, que beneficia a los jóvenes.",
+  "peso": 2,
+  "nota": "Programa de garantías del ICO para financiar e internacionalizar pymes; beneficia a microempresas, pequeñas y medianas empresas. Resto de medidas sin contenido determinable.",
   "partido": ""
  },
  {
@@ -557,10 +559,10 @@
  },
  {
   "id": "121/000128",
-  "tipo": "eco",
+  "tipo": "soc",
   "imp": {},
   "peso": 1,
-  "nota": "Modifica la ley de montes: planificación simplificada, protección del dominio público forestal y competencias estatales; efectos de signo mixto.",
+  "nota": "Reforma de la ley de montes: refuerza defensa del dominio público forestal y simplifica la gestión de montes pequeños; signos mixtos.",
   "partido": ""
  },
  {
@@ -708,8 +710,8 @@
   "imp": {
    "ciud": 1
   },
-  "peso": 1,
-  "nota": "Refuerza la protección del patrimonio natural y la biodiversidad y la gestión de espacios protegidos.",
+  "peso": 2,
+  "nota": "Refuerza la protección del patrimonio natural: pérdida neta cero de biodiversidad, cambio climático, gestión de Red Natura 2000 e infraestructura verde.",
   "partido": ""
  },
  {

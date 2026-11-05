@@ -67,3 +67,7 @@ La rúbrica (línea de Desempleados) deja `desSub` solo para el subsidio por des
 ### Reclasificación del IMV y de ingresos mínimos (05/11/2026)
 
 Tras corregir en la rúbrica la definición de `desSub` (solo subsidio por desempleo; el IMV y las rentas mínimas van a `pobreza`, 3.5.2), las iniciativas de esta legislatura que tenían `desSub` y trataban del IMV o de ingresos mínimos se releyeron con el texto oficial del BOCG por tres lectores independientes (C, D y E) y se consolidaron por mayoría. Lecturas y consolidación en `data/clasificacion/lecturas_imv_05-11-2026/`; resultado: `desSub` se retira salvo donde el texto trata del subsidio por desempleo.
+
+### Revisión de «Ciudadanía general» tras la v3 (05/11/2026)
+
+El análisis de la prueba de sesgo vio que la v3 había quitado casi todos los `ciud` en contra de la X (de 16 a favor y 10 en contra a 18 y 1), lo que empujaba a NC a salir primero. Se releyeron con el texto oficial del BOCG, por tres lectores independientes y consolidación por mayoría, las 16 iniciativas que perdieron `ciud` −1, 121/000145 (signo invertido respecto a la v2) y 130/000033 (RDL 3/2013, tasas judiciales). Resultado: 122/000034, 122/000050 y 125/000005 (Costas) recuperan `ciud` −1; 121/000145 se confirma en +1 (la v2 estaba mal); 130/000033 se queda en +1 (2 de 3); el resto sigue sin `ciud`. Cambian 8 iniciativas. Lecturas en `revision_ciud_05-11-2026/`.

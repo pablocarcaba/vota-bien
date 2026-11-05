@@ -1,0 +1,164 @@
+[
+ {
+  "id": "120/000024",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000025",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000029",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma de Costas: prorroga concesiones, excluye núcleos residenciales del dominio público y refuerza la protección ambiental; signos mixtos, ningún colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma educativa general (itinerarios, programas de rendimiento); el texto no concreta efectos con signo único sobre estudiantes ni docentes.",
+  "partido": ""
+ },
+ {
+  "id": "121/000049",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula cajas de ahorros y fundaciones bancarias: límites de tamaño y ámbito territorial; efectos de signo no determinable sobre el sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "121/000050",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Nueva regulación de la seguridad privada y los detectives; sin colectivo definido ni signo común.",
+  "partido": ""
+ },
+ {
+  "id": "121/000077",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Responsabilidad medioambiental: amplía a aguas marinas y refuerza la prevención, pero simplifica garantías y exime actividades; signos opuestos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000104",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Programa de garantías del ICO para financiar e internacionalizar pymes; beneficia a microempresas, pequeñas y medianas empresas. Resto de medidas sin contenido determinable.",
+  "partido": ""
+ },
+ {
+  "id": "121/000128",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de la ley de montes: refuerza defensa del dominio público forestal y simplifica la gestión de montes pequeños; signos mixtos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000145",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección del patrimonio natural: pérdida neta cero de biodiversidad, cambio climático, gestión de Red Natura 2000 e infraestructura verde.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Reduce la servidumbre de protección costera de 100 a 20 metros en núcleos rurales tradicionales gallegos; rebaja de protección del litoral.",
+  "partido": ""
+ },
+ {
+  "id": "122/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000050",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Excluye del dominio público marítimo-terrestre las ciudades navegables y áreas urbanas consolidadas, con concesiones a propietarios; rebaja de protección del litoral.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Flexibiliza la Ley de Costas para núcleos rurales gallegos y propietarios con construcciones previas: concesiones sin canon y menor afección; rebaja de protección.",
+  "partido": ""
+ },
+ {
+  "id": "130/000023",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000033",
+  "tipo": "soc",
+  "imp": {
+   "hipot": 1
+  },
+  "peso": 2,
+  "nota": "Excluye la tasa judicial de las costas del ejecutado por hipoteca de vivienda habitual; reduce tasas a personas físicas y amplía la justicia gratuita.",
+  "partido": ""
+ },
+ {
+  "id": "130/000053",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el otorgamiento por concurso de la explotación minera de Aznalcóllar; medida local sin colectivo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Programa de garantías del ICO para financiar e internacionalizar pymes; beneficia a microempresas, pequeñas y medianas empresas. Resto de medidas sin contenido determinable.",
+  "partido": ""
+ }
+]

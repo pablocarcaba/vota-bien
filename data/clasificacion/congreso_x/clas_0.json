@@ -783,9 +783,11 @@
  {
   "id": "121/000049",
   "tipo": "eco",
-  "imp": {},
-  "peso": 1,
-  "nota": "Regula cajas de ahorros y fundaciones bancarias: tamaño, ámbito territorial y gobierno; exigencias de signo no determinado para el sector.",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Restringe tamaño y ámbito territorial de las cajas de ahorros y somete a las fundaciones bancarias a regulación financiera.",
   "partido": ""
  },
  {

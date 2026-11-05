@@ -1,0 +1,170 @@
+[
+ {
+  "id": "120/000024",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000025",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000029",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de Costas con refuerzo de protección y control del dominio público, y prórroga de concesiones y menos limitaciones a propietarios: signos opuestos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma educativa general cuyo texto disponible solo expone principios; no consta a qué colectivo beneficia o perjudica.",
+  "partido": ""
+ },
+ {
+  "id": "121/000049",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Régimen de cajas de ahorros y fundaciones bancarias: límites de tamaño y territorio, exigencias de solvencia y supervisión para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "121/000050",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Nueva ley del sector de seguridad privada; el texto disponible mezcla exigencias y desregulación sin un efecto claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000077",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza prevención y amplía ámbito marino, pero simplifica garantías financieras y exime a operadores: signos opuestos en protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "121/000104",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Garantías del ICO y financiación para pymes y cancelación anticipada de deudas de entidades locales; el resto de bloques no consta en el texto.",
+  "partido": ""
+ },
+ {
+  "id": "121/000128",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de la ley de montes: refuerza defensa del dominio forestal y simplifica la planificación de montes pequeños; signos opuestos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000145",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza protección de la biodiversidad y espacios protegidos: evitar pérdida neta, infraestructura verde, gestión de Red Natura 2000.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Reduce de 100 a 20 metros la servidumbre de protección de la costa en núcleos rurales tradicionales gallegos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000050",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Saca del dominio público marítimo-terrestre las ciudades navegables y áreas urbanas consolidadas, y devuelve la propiedad a quienes la perdieron por expropiación.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1
+  },
+  "peso": 1,
+  "nota": "Flexibiliza la Ley de Costas para propietarios y núcleos rurales gallegos: concesiones de 30 años prorrogables sin canon y menos restricciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000023",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000033",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "hipot": 1
+  },
+  "peso": 2,
+  "nota": "Rebaja tasas judiciales a personas físicas, amplía la justicia gratuita y excluye la tasa de las costas en ejecuciones hipotecarias de vivienda habitual.",
+  "partido": ""
+ },
+ {
+  "id": "130/000053",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Concede por concurso la explotación minera de Aznalcóllar a un operador privado; reabre una mina próxima a Doñana.",
+  "partido": ""
+ },
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Garantías del ICO y financiación para pymes y cancelación anticipada de deudas de entidades locales; el resto de bloques no consta en el texto.",
+  "partido": ""
+ }
+]

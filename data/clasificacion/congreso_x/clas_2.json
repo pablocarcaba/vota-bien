@@ -289,10 +289,10 @@
   "id": "122/000034",
   "tipo": "soc",
   "imp": {
-   "rural": 1
+   "ciud": -1
   },
   "peso": 1,
-  "nota": "Aplica una servidumbre de costas de 20 metros a núcleos rurales tradicionales de Galicia en lugar de 100; medida territorial rural.",
+  "nota": "Reduce la servidumbre de protección costera de 100 a 20 metros en núcleos rurales tradicionales gallegos; rebaja de protección del litoral.",
   "partido": "BNG"
  },
  {
@@ -441,9 +441,11 @@
  {
   "id": "122/000050",
   "tipo": "soc",
-  "imp": {},
+  "imp": {
+   "ciud": -1
+  },
   "peso": 1,
-  "nota": "Excluye del dominio público marítimo-terrestre determinadas urbanizaciones costeras concretas; alcance local y signo general no determinable.",
+  "nota": "Excluye del dominio público marítimo-terrestre las ciudades navegables y áreas urbanas consolidadas, con concesiones a propietarios; rebaja de protección del litoral.",
   "partido": ""
  },
  {

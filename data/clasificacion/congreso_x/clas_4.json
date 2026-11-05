@@ -162,9 +162,11 @@
  {
   "id": "125/000005",
   "tipo": "soc",
-  "imp": {},
+  "imp": {
+   "ciud": -1
+  },
   "peso": 1,
-  "nota": "Concede a propietarios costeros gallegos concesión gratuita en el dominio público marítimo-terrestre y regula asentamientos rurales; alcance autonómico.",
+  "nota": "Flexibiliza la Ley de Costas para núcleos rurales gallegos y propietarios con construcciones previas: concesiones sin canon y menor afección; rebaja de protección.",
   "partido": ""
  },
  {
@@ -640,10 +642,10 @@
   "tipo": "soc",
   "imp": {
    "ciud": 1,
-   "victimas": 1
+   "hipot": 1
   },
   "peso": 2,
-  "nota": "Reduce el efecto de las tasas judiciales y amplía la asistencia jurídica gratuita a víctimas.",
+  "nota": "Rebaja tasas judiciales a personas físicas, excluye la tasa de las costas en ejecuciones hipotecarias de vivienda habitual y amplía la asistencia jurídica gratuita.",
   "partido": ""
  },
  {
@@ -840,10 +842,12 @@
   "id": "130/000055",
   "tipo": "eco",
   "imp": {
-   "jovenes": 1
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1
   },
   "peso": 2,
-  "nota": "Crea el Sistema Nacional de Garantía Juvenil con medidas de empleo para jóvenes y otras medidas económicas diversas.",
+  "nota": "Programa de garantías del ICO para financiar e internacionalizar pymes; beneficia a microempresas, pequeñas y medianas empresas. Resto de medidas sin contenido determinable.",
   "partido": ""
  },
  {
