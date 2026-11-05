@@ -351,12 +351,13 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .pchipsel select:disabled{color:var(--muted);border-style:dashed;cursor:not-allowed}
 .pchip-n{flex-basis:100%;margin:-6px 0 0;font-size:12.5px;color:var(--muted)}
 @media (max-width:480px){.rtools .tabs{flex:1 1 100%}.pchipsel{flex:1 1 100%;border-radius:16px}.pchipsel select{flex:1 1 auto}}
-.ajustar{border:1px solid var(--line);border-radius:18px;background:var(--sheet)}
-.ajustar summary{list-style:none;display:flex;align-items:center;gap:12px;padding:12px 16px;min-height:52px;cursor:pointer}
+#raj{flex:1 1 100%;min-width:0}#raj:empty{display:none}
+.ajustar{border:1px solid var(--line);border-radius:16px;background:var(--sheet)}
+.ajustar summary{list-style:none;display:flex;align-items:center;gap:10px;padding:6px 12px 6px 8px;min-height:46px;cursor:pointer}
 .ajustar summary::-webkit-details-marker{display:none}
-.ajustar summary .gi{width:36px;height:36px}
-.ajustar summary .gt{font-family:var(--display);font-weight:800;font-size:16px;letter-spacing:-.01em}
-.ajustar summary .gt small{white-space:normal;font-family:var(--body);letter-spacing:0}
+.ajustar summary .gi{width:32px;height:32px;border-radius:10px}
+.ajustar summary .gt{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 10px;font-family:var(--display);font-weight:800;font-size:15px;letter-spacing:-.01em}
+.ajustar summary .gt small{display:inline;white-space:normal;font-family:var(--body);letter-spacing:0;font-size:12.5px}
 .ajustar[open] .chev{transform:rotate(-135deg);margin-top:4px}
 .aj-b{display:grid;gap:8px;padding:0 16px 14px}
 .aj-b .legend{margin:0 0 4px}
@@ -407,6 +408,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .slegend{display:flex;flex-wrap:wrap;gap:4px 16px;font-size:13.5px;color:var(--muted);margin-top:10px}
 .slegend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
 .lfilters{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+.lfilters.ltop{margin:14px 0 0}
 .lfilters select{font:inherit;font-size:14px;font-weight:600;padding:9px 12px;border:1px solid var(--line);border-radius:12px;background:var(--sheet);color:var(--ink);max-width:100%}
 .items{display:flex;flex-direction:column;gap:10px}
 .item{display:grid;grid-template-columns:6px minmax(0,1fr) auto;gap:16px;padding:16px 18px 16px 0;background:var(--sheet);border:1px solid var(--line);border-radius:18px;overflow:hidden}
@@ -693,7 +695,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
         <div class="panel fuente" id="fuente" role="group" aria-label="Fuente y legislatura"></div>
         <section class="panel" id="rank-sec">
           <div class="shead"><span class="step" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span><div><h2 id="rank-h" tabindex="-1">Cómo han votado en lo que te afecta</h2><p class="hint" id="rank-hint"></p></div></div>
-          <div class="rtools" id="rtools"><div class="tabs" role="group" id="tabs" aria-label="Tipo de leyes"></div><div id="rprov"></div></div>
+          <div class="rtools" id="rtools"><div class="tabs" role="group" id="tabs" aria-label="Tipo de leyes"></div><div id="rprov"></div><div id="raj"></div></div>
           <div class="rank" id="rank"></div>
         </section>
       </div>
@@ -1329,7 +1331,7 @@ function radioKeys(e){
   rs[n].focus();
 }
 function renderRank(){
-  const r=$('rank'); r.innerHTML='';
+  const r=$('rank'); r.innerHTML=''; $('raj').innerHTML='';
   const mb=$('mbar'), fin=terminado();
   // sin los pasos obligatorios no hay ranking: un perfil a medias daría un resultado erróneo
   $('rtools').hidden = !fin;
@@ -1341,10 +1343,11 @@ function renderRank(){
   }
   $('rank-hint').innerHTML = 'Nota de −100 a +100 según lo que votó cada partido en las leyes que te afectan. <b>Pulsa un partido para verlo ley a ley.</b> <a href="#metodologia">Cómo se calcula</a>';
   renderProvChip();
+  // «Ajustar el ranking» va en la barra de arriba, con las pestañas y la provincia: filtra lo que viene debajo
+  $('raj').appendChild(ajustarEl());
   if(!propio()){
     mb.hidden=true;
     r.appendChild(el('div',{class:'rank-empty'},'<svg class="ico" aria-hidden="true"><use href="#i-list"/></svg><b>Aquí saldrá tu ranking</b><span>Falta tu perfil: responde a los '+NOBL+' primeros pasos (tú y tu familia, trabajo e ingresos, vivienda y ahorros) y verás la nota de cada partido, de −100 a +100.</span>'));
-    r.appendChild(ajustarEl());
     return;
   }
   // pocas votaciones clave en el dataset: el ranking es solo orientativo
@@ -1357,7 +1360,7 @@ function renderRank(){
   if(!rows.length){ mb.hidden=true; r.appendChild(el('div',{class:'empty'}, !all.length ? 'Ninguna ley de esta pestaña afecta a tu perfil. Prueba con la otra pestaña o marca más rasgos.'
     : !nAqui ? `Ninguno de los partidos con leyes que te afectan se presenta en ${esc(provName())}. Elige «Toda España» en «¿En qué provincia votas?» para verlos.`
     : nAqui===1 ? 'El único partido con iniciativas que te afectan tiene menos de 3: desmarca «Ocultar partidos con menos de 3 leyes» en «Ajustar el ranking» para verlo.' : `Los ${nAqui} partidos con iniciativas que te afectan tienen menos de 3: desmarca «Ocultar partidos con menos de 3 leyes» en «Ajustar el ranking» para verlos.`));
-    r.appendChild(ajustarEl()); return; }
+    return; }
   r.classList.toggle('anim', state.anim); state.anim=false;
   r.appendChild(el('div',{class:'scale','aria-hidden':'true'},'<span>← −100<span class="w"> En tu contra</span></span><span>0</span><span>+100<span class="w"> A tu favor</span> →</span>'));
   // puesto con empates: misma nota, mismo puesto (ranked())
@@ -1380,7 +1383,6 @@ function renderRank(){
   r.appendChild(el('p',{class:'note'}, (state.hideFew ? (pocos?`${pocos} partido${pocos>1?'s':''} oculto${pocos>1?'s':''} por tener menos de 3 iniciativas que te afecten.`:fuera?'Ningún partido oculto por tener pocos datos.':'Ningún partido oculto.') : '«Pocos datos»: menos de 3 leyes que te afecten. Tómalo con cautela.') + (state.sinRDL&&!europeas()?' <b>Sin reales decretos-ley.</b>':'') + notaProv));
   // efecto Gobierno: dato comprobable en la ficha de cada partido (etiqueta «Iniciativa del Gobierno»)
   if(!europeas() && ITEMS.some(it=>it.k==='Real decreto-ley')) r.appendChild(el('p',{class:'gobnote',role:'note'}, `<svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg><span>Gobierno en esta legislatura: ${esc(DATA.meta.gobierno)}. Los partidos del Gobierno suelen votar a favor de sus propias iniciativas, sobre todo de los reales decretos-ley, así que esas leyes mueven mucho su nota. En la ficha de cada partido, los proyectos de ley y los reales decretos-ley del Gobierno van marcados como «Iniciativa del Gobierno»${gobiernos()?`, con el Gobierno que había al presentarlos (${esc(gobiernos().map(g=>g.nombre).join(' o '))})`:''}, y en «Ajustar el ranking» puedes excluir los decretos-ley.</span>`));
-  r.appendChild(ajustarEl());
   r.appendChild(top5());
   r.appendChild(el('button',{type:'button',class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las leyes de la legislatura, una a una →'));
 }
@@ -1395,7 +1397,7 @@ function renderProvChip(){
   box.appendChild(el('p',{class:'pchip-n',id:'prov-d'}, eu ? 'En las europeas España es una circunscripción única: puedes votar a cualquier lista desde cualquier lugar.'
     : state.prov ? `Ves solo los partidos a los que puedes votar en ${esc(provName())}. No cambia ninguna nota.` : 'Elige tu provincia para ver solo los partidos a los que puedes votar ahí. No cambia ninguna nota.'));
 }
-// «Ajustar el ranking»: leyenda y casillas del cálculo, plegado bajo las filas, con un resumen de lo activo
+// «Ajustar el ranking»: leyenda y casillas del cálculo, plegado en la barra de arriba, con un resumen de lo activo en una línea
 function ajustarEl(){
   const d=el('details',{class:'ajustar'}); if(state.ajOpen) d.open=true;
   d.addEventListener('toggle',()=>{ state.ajOpen=d.open; });
@@ -1707,9 +1709,25 @@ function renderList(){
   const v=$('view-lista'); v.innerHTML='';
   const L = state.list || {who:'', color:null};
   v.appendChild(el('button',{class:'nav-btn back',onclick:()=>go('')},'← Volver a mi ranking'));
+  // filtros: tipo de leyes y partido cambian toda la ficha (nota, «Por qué sale aquí», plegables), así que en la ficha van
+  // arriba, bajo el nombre; el efecto solo filtra la lista y va justo encima de ella. En «Todas» van los tres sobre la lista
+  const sTab=el('select',{id:'f-tab','data-k':'f-tab'}); [['eco','Económicas'],['soc','Sociales']].forEach(([k,t])=>sTab.appendChild(new Option(t,k,false,k===state.tab)));
+  const sWho=el('select',{id:'f-who','data-k':'f-who'}); sWho.appendChild(new Option('Todos los partidos','',false,!L.who)); PARTIES.forEach(p=>sWho.appendChild(new Option(pn(p),p,false,p===L.who)));
+  const cols = L.who ? EV_TXT : COLOR_TXT;
+  let rows = universe().map(it=>({it, e: L.who ? evidence(it,L.who) : {c:impactOf(it)}}));
+  if(L.who) rows = rows.filter(x=>x.e);
+  // cuántas hay de cada efecto con el tipo y el partido elegidos: el mismo recuento que el balance de «Sus leyes y votaciones», junto a la lista
+  const nCol = {}; rows.forEach(x=>{ nCol[x.e.c]=(nCol[x.e.c]||0)+1; });
+  const sCol=el('select',{id:'f-col','data-k':'f-col'}); sCol.appendChild(new Option(`Todos los efectos (${rows.length})`,'',false,!L.color)); Object.entries(cols).forEach(([c,t])=>sCol.appendChild(new Option(`${t} (${nCol[c]||0})`,c,false,c===L.color)));
+  const upd=()=>{ state.tab=sTab.value; const w=sWho.value; let c=sCol.value||null; if(w && c==='neu') c=null; state.list={who:w,color:c}; keepFocus(renderList);
+    // al pasar a «Todos los partidos» la cabecera de la ficha desaparece y el select enfocado queda fuera de la vista (2.4.7)
+    const f=document.activeElement; if(f && f.closest && f.closest('.lfilters')) f.scrollIntoView({block:'nearest'});
+    say('Lista actualizada: '+LIST_MSG); };
+  const filtros = (cls, ss) => { const fl=el('div',{class:cls}); ss.forEach(([s,t])=>{ s.addEventListener('change',upd); const l=el('label',{for:s.id},esc(t)); l.appendChild(s); fl.appendChild(l); }); return fl; };
   const head=el('div',{class:'lhead'});
   head.appendChild(el('div',{class:'eyebrow'}, `Iniciativas · ${state.tab==='eco'?'Económicas':'Sociales'}`));
   head.appendChild(el('h2',{}, L.who ? esc(pn(L.who)) : 'Todas las iniciativas'));
+  if(L.who) head.appendChild(filtros('lfilters ltop', [[sTab,'Tipo de leyes'],[sWho,'Partido']]));
   // nota y puesto del partido, con la misma barra que en el ranking
   let xc = null;
   if(L.who && propio()){
@@ -1738,20 +1756,8 @@ function renderList(){
   lb.appendChild(el('p',{class:'lsub'}, L.who ? `Así votó, ley a ley, en lo que te afecta. Verde es a tu favor, rojo en tu contra. En cada ley ves qué es dato oficial del ${srcName()}, qué es clasificación propia y cuánto suma o resta. Cada una enlaza a su registro oficial para que lo compruebes.` : `Todas las leyes y propuestas de la legislatura. En cada una ves qué es dato oficial del ${srcName()} y qué es clasificación propia. Marca tu perfil para ver cuáles te afectan.`));
   lb.appendChild(el('p',{class:'dlinks'}, jsonLink()+repoLink('Revisar la clasificación en GitHub','/tree/main/data/clasificacion')+histLink()));
   v.appendChild(lb);
-  const fl=el('div',{class:'lfilters'});
-  const sTab=el('select',{id:'f-tab','data-k':'f-tab'}); [['eco','Económicas'],['soc','Sociales']].forEach(([k,t])=>sTab.appendChild(new Option(t,k,false,k===state.tab)));
-  const sWho=el('select',{id:'f-who','data-k':'f-who'}); sWho.appendChild(new Option('Todos los partidos','',false,!L.who)); PARTIES.forEach(p=>sWho.appendChild(new Option(pn(p),p,false,p===L.who)));
-  const cols = L.who ? EV_TXT : COLOR_TXT;
-  const sCol=el('select',{id:'f-col','data-k':'f-col'}); sCol.appendChild(new Option('Todos los efectos','',false,!L.color)); Object.entries(cols).forEach(([c,t])=>sCol.appendChild(new Option(t,c,false,c===L.color)));
-  const upd=()=>{ state.tab=sTab.value; const w=sWho.value; let c=sCol.value||null; if(w && c==='neu') c=null; state.list={who:w,color:c}; keepFocus(renderList);
-    // al pasar a «Todos los partidos» la cabecera de la ficha desaparece y el select enfocado queda fuera de la vista (2.4.7)
-    const f=document.activeElement; if(f && f.closest && f.closest('.lfilters')) f.scrollIntoView({block:'nearest'});
-    say('Lista actualizada: '+LIST_MSG); };
-  [[sTab,'Tipo de leyes'],[sWho,'Partido'],[sCol,'Efecto']].forEach(([s,t])=>{ s.addEventListener('change',upd); const l=el('label',{for:s.id},esc(t)); l.appendChild(s); fl.appendChild(l); });
-  v.appendChild(fl);
+  v.appendChild(filtros('lfilters', L.who ? [[sCol,'Efecto']] : [[sTab,'Tipo de leyes'],[sWho,'Partido'],[sCol,'Efecto']]));
 
-  let rows = universe().map(it=>({it, e: L.who ? evidence(it,L.who) : {c:impactOf(it)}}));
-  if(L.who) rows = rows.filter(x=>x.e);
   if(L.color) rows = rows.filter(x=>x.e.c===L.color);
   // ficha de un partido: primero lo que más mueve su nota (peso × fuerza de la prueba); si no, por alcance. Después, por fecha
   if(L.who) rows.sort((a,b)=>wOf(b.it)*b.e.f-wOf(a.it)*a.e.f || dkey(b.it)-dkey(a.it));
