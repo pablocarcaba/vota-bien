@@ -10,7 +10,7 @@ Uso: python3 scripts/cerrar_reclasificacion.py [--rubrica v3] [--solo-alcance]
   3. Actualiza en site/template.html las cifras de la metodología (tabla del Parlamento Europeo y frases del Congreso)
      desde sesgo.json. Si una de esas frases ya no existe en la plantilla, falla y dice cuál: hay que
      sincronizar este script con el texto.
-  4. Regenera la página (build_page.py), valida todas las clasificaciones (0 errores en todas) y pasa los tests.
+  4. Valida todas las clasificaciones (0 errores en todas), regenera la página (build_page.py) y pasa los tests.
 No hace peticiones de red.
 
 Flujo completo del proceso (detalle en scripts/lotes_reclasificacion.py):
@@ -88,27 +88,28 @@ def actualizar_cifras(html, sesgo):
     return html
 
 
-def main():
+def main(argv=None):
     ap = argparse.ArgumentParser(description="Cierra una reclasificación: metodología, sesgo, página y tests.")
     ap.add_argument("--rubrica", help="versión de la rúbrica (vN); por defecto, la de RUBRICA.md")
     ap.add_argument("--solo-alcance", action="store_true", help="solo reescribe la frase de alcance")
-    a = ap.parse_args()
+    a = ap.parse_args(argv)
     ver = version_rubrica(ROOT, a.rubrica)
     tpl = os.path.join(ROOT, "site", "template.html")
     frase = frase_alcance(ROOT, ver)
     html = reescribir_alcance(open(tpl, encoding="utf-8").read(), frase)
-    open(tpl, "w", encoding="utf-8").write(html)
     print(frase)
     if a.solo_alcance:
+        open(tpl, "w", encoding="utf-8").write(html)
         return
     run("python3", "scripts/prueba_sesgo.py", "--perfiles", "2000", "--guardar")
     sesgo = json.load(open(os.path.join(ROOT, "data", "analisis", "sesgo.json"), encoding="utf-8"))["legislaturas"]
-    html = actualizar_cifras(open(tpl, encoding="utf-8").read(), sesgo)
-    open(tpl, "w", encoding="utf-8").write(html)
-    run("python3", "scripts/build_page.py")
+    html = actualizar_cifras(html, sesgo)
+    # la plantilla no se escribe hasta que las clasificaciones validan
     val = run("python3", "scripts/validar_clasificacion.py")
     if val.count(" 0 errores") != len(LEGISLATURAS):
         sys.exit("Validación con errores:\n" + val)
+    open(tpl, "w", encoding="utf-8").write(html)
+    run("python3", "scripts/build_page.py")
     t = subprocess.run(["python3", "-m", "unittest", "discover", "-s", "tests"], cwd=ROOT, capture_output=True, text=True)
     if t.returncode:
         sys.exit("Tests en rojo:\n" + t.stderr[-2000:])

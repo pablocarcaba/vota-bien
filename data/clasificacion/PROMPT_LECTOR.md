@@ -1,7 +1,8 @@
 # Prompt de los lectores independientes
 
-Texto literal con el que se lanzó cada lector (un agente de IA por lector y por lote) en la reclasificación con la
-rúbrica v3. Forma parte del proceso repetible descrito en `scripts/lotes_reclasificacion.py`,
+Prompt de referencia normalizado para repetir el proceso (un agente de IA por lector y por lote). No es el texto
+literal de la reclasificación con la rúbrica v3: los lectores reales se lanzaron con variantes cuya redacción y
+restricciones difirieron entre lectores y rondas; aquí se unifican. Forma parte del proceso repetible descrito en `scripts/lotes_reclasificacion.py`,
 `scripts/aplicar_reclasificacion.py` y `scripts/cerrar_reclasificacion.py`.
 
 Marcadores que hay que sustituir antes de lanzar cada lector:

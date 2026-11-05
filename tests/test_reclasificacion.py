@@ -1,13 +1,17 @@
 """Proceso repetible de reclasificación: lotes con texto (+ hueco de la segunda ronda), aplicar y cerrar.
 Todo corre sobre árboles temporales (tests/helpers.py), nunca sobre los datos reales del repo."""
+import datetime
 import json
 import os
 import sys
+import types
 import unittest
+from unittest import mock
 
 from helpers import CLAVE, REPO, TempTree
 
 sys.path.insert(0, os.path.join(REPO, "scripts"))
+import aplicar_reclasificacion as AR
 import cerrar_reclasificacion as CR
 
 PE = "fixture_pe"
@@ -155,6 +159,61 @@ class LotesTest(unittest.TestCase):
         volcar(self.tree.path("ids.json"), [])
         p = self.tree.run("lotes_reclasificacion.py", CLAVE, self.out, "--ids", self.tree.path("ids.json"), "--hueco", self.tree.path("r1"))
         self.assertNotEqual(p.returncode, 0)
+        self.assertIn("not allowed with", p.stderr)
+
+    def hueco_fallido(self, quitar):
+        a = {"jovenes": 1}
+        self.tree.put_lotes(CLAVE, [{"id": "A", "titulo": "t"}])
+        volcar(self.tree.path("data", "clasificacion", CLAVE, "clas_0.json"), [lectura("A", a)])
+        for x in "CDE":
+            if x != quitar:
+                volcar(self.tree.path("r1", x, "lote_00.json"), [lectura("A", {})])
+        p = self.tree.run("lotes_reclasificacion.py", CLAVE, self.out, "--hueco", self.tree.path("r1"))
+        self.assertNotEqual(p.returncode, 0)
+        return p
+
+    def test_hueco_falla_si_falta_un_lector(self):
+        for x in "CDE":
+            with self.subTest(falta=x):
+                self.tree.cleanup()
+                self.setUp()
+                p = self.hueco_fallido(x)
+                self.assertIn(f"{x} no tiene lecturas", p.stderr)
+                self.assertFalse(os.path.exists(self.tree.path("salida", "ids_hueco.json")))
+
+    def test_hueco_recorre_la_union_de_los_lectores_y_avisa_de_lo_no_leido(self):
+        a = {"jovenes": 1}
+        self.tree.put_lotes(CLAVE, [{"id": i, "titulo": "t"} for i in ("A", "B")])
+        volcar(self.tree.path("data", "clasificacion", CLAVE, "clas_0.json"), [lectura("A", a), lectura("B", a)])
+        # C no leyó B; D y E sí, y sin efectos: B solo entra si se recorre la unión, no solo los ids de C
+        volcar(self.tree.path("r1", "C", "lote_00.json"), [lectura("A", a)])
+        volcar(self.tree.path("r1", "D", "lote_00.json"), [lectura("A", a), lectura("B", {})])
+        volcar(self.tree.path("r1", "E", "lote_00.json"), [lectura("A", a), lectura("B", {})])
+        p = self.lotes(CLAVE, "--hueco", self.tree.path("r1"))
+        self.assertEqual(self.tree.read_json("salida", "ids_hueco.json"), ["B"])
+        self.assertIn("el lector C no leyó 1 iniciativas", p.stderr)
+
+    def test_titulo_completo_de_items_para_encontrar_el_proyecto_de_ley(self):
+        largo = "Proyecto de Ley " + "x" * 600 + " (procedente del Real Decreto-ley 3/2024, de 5 de marzo)."
+        lotes = [{"id": "121/000005", "titulo": largo[:500]},  # el lote lo trae truncado, sin el real decreto-ley
+                 {"id": "130/000003", "titulo": "Real Decreto-ley 3/2024, de 5 de marzo."}]
+        self.tree.put_lotes(CLAVE, lotes)
+        volcar(self.tree.path("data", "generado", CLAVE, "items.json"), [{"id": "121/000005", "titulo": largo}])
+        escribir(self.tree.path("data", "cache", "fx", "textos", "121_000005.txt"), "Texto del proyecto.")
+        self.lotes(CLAVE)
+        self.assertEqual(self.salida()["130/000003"]["texto"], "Texto del proyecto.")
+
+    def test_sin_items_json_avisa_y_con_items_json_no(self):
+        self.tree.put_lotes(CLAVE, [{"id": "121/000001", "titulo": "Ley uno."}])
+        self.assertIn("no existe", self.lotes(CLAVE).stderr)
+        volcar(self.tree.path("data", "generado", CLAVE, "items.json"), [{"id": "121/000001", "titulo": "Ley uno."}])
+        self.assertNotIn("Aviso", self.lotes(CLAVE).stderr)
+
+    def test_chars_cero_deja_el_texto_vacio(self):
+        self.tree.put_lotes(CLAVE, [{"id": "121/000001", "titulo": "Ley uno."}])
+        escribir(self.tree.path("data", "cache", "fx", "textos", "121_000001.txt"), "x" * 300)
+        self.lotes(CLAVE, "--chars", "0")
+        self.assertEqual(self.salida()["121/000001"]["texto"], "")
 
 
 class AplicarTest(unittest.TestCase):
@@ -237,10 +296,12 @@ class AplicarTest(unittest.TestCase):
         self.assertTrue(os.path.isdir(self.tree.path("data", "clasificacion", CLAVE, "lectura_v9")))
 
     def test_fecha_por_defecto_es_hoy(self):
-        import datetime
+        self.assertEqual(AR.fecha_por_defecto(datetime.date(2027, 1, 2)), "02/01/2027")
+        antes = datetime.date.today()
         self.aplicar("--fuente", "x")
+        despues = datetime.date.today()  # tolera que el test cruce la medianoche
         rev = leer(self.tree.path("data", "clasificacion", CLAVE, "REVISION.md"))
-        self.assertIn(f"({datetime.date.today().strftime('%d/%m/%Y')})", rev)
+        self.assertTrue(any(f"({AR.fecha_por_defecto(d)})" in rev for d in (antes, despues)), rev)
 
     def test_repetir_reemplaza_la_seccion_de_esa_version_y_respeta_el_resto(self):
         rev = self.tree.path("data", "clasificacion", CLAVE, "REVISION.md")
@@ -261,6 +322,234 @@ class AplicarTest(unittest.TestCase):
         self.assertIn("lotes incompletos", p.stderr)
         self.assertEqual(leer(self.tree.path("data", "clasificacion", CLAVE, "clas_0.json")), antes)
         self.assertFalse(os.path.exists(self.tree.path("data", "clasificacion", CLAVE, "lectura_v3")))
+
+    # --- estado del repo para comprobar que un fallo no escribe nada
+    def estado(self):
+        base = self.tree.path("data", "clasificacion", CLAVE)
+        return {f: leer(os.path.join(base, f)) for f in sorted(os.listdir(base)) if f.endswith((".json", ".md"))}, \
+            os.path.isdir(os.path.join(base, "lectura_v3")), os.path.exists(self.tree.path("site", "data", CLAVE + ".json"))
+
+    def editar_vigente(self, i, imp=None, **campos):
+        f = self.tree.path("data", "clasificacion", CLAVE, "clas_0.json")
+        datos = self.tree.read_json("data", "clasificacion", CLAVE, "clas_0.json")
+        for it in datos:
+            if it["id"] == i:
+                if imp is not None:
+                    it["imp"] = imp
+                it.update(campos)
+        volcar(f, datos)
+
+    def cambiar_lecturas(self, i, imp):
+        """Las tres lecturas de la ronda 1 pasan a dar `imp` en la iniciativa i."""
+        for x in "CDE":
+            f = self.tree.path("r1", x, "lote_00.json")
+            volcar(f, [dict(it, imp=imp) if it["id"] == i else it for it in self.tree.read_json("r1", x, "lote_00.json")])
+
+    def test_lector_sin_lotes_falla_sin_escribir(self):
+        os.remove(self.tree.path("r1", "D", "lote_00.json"))
+        antes = self.estado()
+        p = self.aplicar("--fuente", "x", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("r1/D no tiene lotes", p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_si_build_data_falla_se_restaura_todo(self):
+        escribir(self.tree.path("data", "clasificacion", CLAVE, "REVISION.md"), "# Revisión\n\nprevio\n")
+        escribir(self.tree.path("scripts", "build_data.py"), "import sys\nsys.exit('boom')\n")
+        antes = self.estado()
+        p = self.aplicar("--fuente", "x", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("restaurado", p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_reaplicar_exige_rehacer_con_motivo(self):
+        self.aplicar("--fuente", "x", "--fecha", "15/11/2026")
+        antes = self.estado()
+        p = self.aplicar("--fuente", "x", ok=False)
+        self.assertIn("ya existe", p.stderr)
+        p = self.aplicar("--fuente", "x", "--rehacer", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("--motivo", p.stderr)
+        p = self.aplicar("--fuente", "x", "--rehacer", "--motivo", "  ", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertEqual(self.estado(), antes)
+        self.aplicar("--fuente", "x", "--fecha", "16/11/2026", "--rehacer", "--motivo", "lecturas corregidas")
+        rev = leer(self.tree.path("data", "clasificacion", CLAVE, "REVISION.md"))
+        self.assertEqual(rev.count("## Reclasificación con la rúbrica v3"), 1)
+        self.assertIn("Motivo: lecturas corregidas", rev)
+
+    def test_vigente_editada_a_mano_tras_aplicar_obliga_a_decidir_cada_iniciativa(self):
+        self.aplicar("--fuente", "x")
+        self.editar_vigente("122/000002", {"casero": 1})
+        antes = self.estado()
+        # --rehacer + motivo solo autoriza repetir: no autoriza a perder la corrección
+        p = self.aplicar("--fuente", "x", "--rehacer", "--motivo", "prueba", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("corregidas a mano después de las lecturas y se perderían: 122/000002", p.stderr)
+        self.assertIn("Sin decidir", p.stderr)
+        self.assertEqual(self.estado(), antes)
+        # sobrescribir explícito
+        self.aplicar("--fuente", "x", "--rehacer", "--motivo", "prueba", "--sobrescribir", "122/000002")
+        self.assertEqual(self.final()["122/000002"]["imp"], {"jovenes": 1})
+        rev = leer(self.tree.path("data", "clasificacion", CLAVE, "REVISION.md"))
+        self.assertIn("Se han sobrescrito 1 iniciativas", rev)
+        self.assertIn("122/000002", rev)
+        # conservar explícito
+        self.editar_vigente("122/000002", {"casero": 1})
+        self.aplicar("--fuente", "x", "--rehacer", "--motivo", "prueba", "--conservar", "122/000002")
+        self.assertEqual(self.final()["122/000002"]["imp"], {"casero": 1})
+        self.assertEqual(self.final()["130/000003"]["imp"], {"prop1": -1})
+        rev = leer(self.tree.path("data", "clasificacion", CLAVE, "REVISION.md"))
+        self.assertIn("Se han conservado 1 iniciativas", rev)
+        self.assertNotIn("Se han sobrescrito", rev)
+
+    def test_conservar_y_sobrescribir_no_pueden_compartir_ids(self):
+        p = self.aplicar("--fuente", "x", "--conservar", "122/000002", "--sobrescribir", "122/000002,130/000003", ok=False)
+        self.assertIn("comparten ids", p.stderr)
+
+    def test_rehacer_sin_lectura_previa_falla(self):
+        antes = self.estado()
+        p = self.aplicar("--fuente", "x", "--rehacer", "--motivo", "m", ok=False)
+        self.assertIn("no existe", p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_rehacer_con_lecturas_nuevas_y_vigente_sin_editar_no_bloquea(self):
+        self.aplicar("--fuente", "x")
+        self.cambiar_lecturas("122/000002", {"mayores": 1})
+        p = self.aplicar("--fuente", "x", "--rehacer", "--motivo", "lecturas corregidas")
+        self.assertNotIn("a mano", p.stderr)
+        self.assertEqual(self.final()["122/000002"]["imp"], {"mayores": 1})
+
+    def test_correccion_manual_solo_de_peso_o_de_tipo_tambien_cuenta(self):
+        self.aplicar("--fuente", "x")
+        for campo, valor, original in (("peso", 3, 1), ("tipo", "soc", "eco")):
+            with self.subTest(campo=campo):
+                self.editar_vigente("122/000002", **{campo: valor})
+                p = self.aplicar("--fuente", "x", "--rehacer", "--motivo", "m", ok=False)
+                self.assertIn("se perderían: 122/000002", p.stderr)
+                self.editar_vigente("122/000002", **{campo: original})
+
+    def test_consolidacion_que_no_valida_falla_sin_escribir(self):
+        for n, x in enumerate("CDE"):
+            volcar(self.tree.path("r1", x, "lote_00.json"),
+                   [lectura(it["id"], {"zzz": 1} if it["id"] == "121/000001" else it["imp"], it["peso"])
+                    for it in self.tree.read_json("r1", x, "lote_00.json")])
+        antes = self.estado()
+        p = self.aplicar("--fuente", "x", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("colectivo desconocido", p.stdout + p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_colectivo_obsoleto_fuera_de_la_rubrica_no_bloquea_pero_se_avisa(self):
+        self.editar_vigente("122/000002", {"viv2": 1})  # ninguna lectura lo usa, pero la rúbrica no lo menciona
+        p = self.aplicar("--fuente", "x")
+        self.assertIn("no coincide con ninguna lectura", p.stderr)
+        self.assertIn("122/000002", p.stderr)
+        self.assertNotIn("a mano", p.stderr)
+        self.assertEqual(self.final()["122/000002"]["imp"], {"jovenes": 1})
+
+    def test_colectivo_que_usan_las_lecturas_de_otra_legislatura_no_bloquea(self):
+        self.con_casero_en_la_rubrica()
+        volcar(self.tree.path("data", "clasificacion", "otra_leg", "lectura_v3", "C", "lote_00.json"), [lectura("X", {"casero": 1})])
+        p = self.aplicar("--fuente", "x")
+        self.assertNotIn("a mano", p.stderr)
+
+    def test_edicion_posterior_a_la_version_anterior_se_avisa_sin_bloquear(self):
+        for x in "CDE":
+            volcar(self.tree.path("data", "clasificacion", CLAVE, "lectura_v2", x, "lote_00.json"),
+                   [lectura(i, {"jovenes": 1}) for i in self.IDS])
+        self.editar_vigente("122/000002", {"inq": 1})  # la vigente ya no es la consolidación de la v2
+        p = self.aplicar("--fuente", "x")
+        self.assertIn("AVISO", p.stderr)
+        self.assertIn("lectura_v2", p.stderr)
+        self.assertIn("122/000002", p.stderr)
+
+    def con_casero_en_la_rubrica(self):
+        escribir(self.tree.path("data", "clasificacion", "RUBRICA.md"),
+                 "# Rúbrica\n\nVersión 3 (fecha 04/11/2026).\n\nNuevo colectivo `casero`.\n")
+        self.editar_vigente("122/000002", {"casero": 1})  # corrección manual posterior a las lecturas
+
+    def test_colectivo_de_la_rubrica_que_ninguna_lectura_conoce_bloquea_la_primera_aplicacion(self):
+        self.con_casero_en_la_rubrica()
+        antes = self.estado()
+        p = self.aplicar("--fuente", "x", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("122/000002", p.stderr)
+        self.assertIn("--conservar", p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_conservar_por_ids_o_por_fichero_mantiene_el_valor(self):
+        self.con_casero_en_la_rubrica()
+        self.aplicar("--fuente", "x", "--conservar", "122/000002")
+        self.assertEqual(self.final()["122/000002"]["imp"], {"casero": 1})
+        self.assertEqual(self.final()["130/000003"]["imp"], {"prop1": -1})
+        volcar(self.tree.path("conservar.json"), ["122/000002"])
+        self.aplicar("--fuente", "x", "--rehacer", "--motivo", "m", "--conservar", self.tree.path("conservar.json"))
+        self.assertEqual(self.final()["122/000002"]["imp"], {"casero": 1})
+
+    def test_sobrescribir_decide_la_primera_aplicacion(self):
+        self.con_casero_en_la_rubrica()
+        self.aplicar("--fuente", "x", "--sobrescribir", "122/000002")
+        self.assertEqual(self.final()["122/000002"]["imp"], {"jovenes": 1})
+
+    def test_conservar_un_id_que_no_existe_falla(self):
+        antes = self.estado()
+        p = self.aplicar("--fuente", "x", "--conservar", "999/000001", ok=False)
+        self.assertIn("999/000001", p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_las_secciones_posteriores_de_revision_se_conservan(self):
+        rev = self.tree.path("data", "clasificacion", CLAVE, "REVISION.md")
+        escribir(rev, "# Revisión\n\n## Antes\n\nA\n\n## Reclasificación con la rúbrica v3 (01/01/2026)\n\nviejo\n\n"
+                      "## Revisiones posteriores\n\n- 04/11/2026 · 121/000021: casero.\n")
+        self.aplicar("--fuente", "x", "--fecha", "15/11/2026")
+        self.aplicar("--fuente", "x", "--fecha", "16/11/2026", "--rehacer", "--motivo", "m")
+        txt = leer(rev)
+        self.assertIn("## Revisiones posteriores\n\n- 04/11/2026 · 121/000021: casero.\n", txt)
+        self.assertIn("## Antes\n\nA", txt)
+        self.assertEqual(txt.count("## Reclasificación con la rúbrica v3"), 1)
+        self.assertIn("(16/11/2026)", txt)
+        self.assertNotIn("viejo", txt)
+
+    # --- ronda 2
+    def r2_en(self, lector, items):
+        volcar(self.tree.path("r2", lector, "lote_00.json"), items)
+
+    def test_ronda2_incompleta_en_un_lector_falla_antes_de_escribir(self):
+        self.r2_en("E", [])
+        antes = self.estado()
+        p = self.aplicar(self.tree.path("r2"), "--fuente", "x", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("Ronda 2 parcial", p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_ronda2_con_ids_que_no_estan_en_la_ronda1_falla(self):
+        for x in "CDE":
+            self.r2_en(x, [lectura("122/000004", {"mayores": 1}, 2), lectura("999/000001", {"mayores": 1}, 2)])
+        antes = self.estado()
+        p = self.aplicar(self.tree.path("r2"), "--fuente", "x", ok=False)
+        self.assertIn("no están en la ronda 1", p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_ronda2_debe_coincidir_con_ids_hueco(self):
+        volcar(self.tree.path("r2", "ids_hueco.json"), ["122/000004", "121/000001"])
+        antes = self.estado()
+        p = self.aplicar(self.tree.path("r2"), "--fuente", "x", ok=False)
+        self.assertIn("ids_hueco.json", p.stderr)
+        self.assertEqual(self.estado(), antes)
+        volcar(self.tree.path("r2", "ids_hueco.json"), ["122/000004"])
+        p = self.aplicar(self.tree.path("r2"), "--fuente", "x")
+        self.assertEqual(json.loads(p.stdout.strip().splitlines()[-1])["ronda2"], 1)
+
+    def test_ronda2_ids_hueco_por_opcion(self):
+        volcar(self.tree.path("hueco.json"), ["121/000001"])
+        p = self.aplicar(self.tree.path("r2"), "--fuente", "x", "--ids-hueco", self.tree.path("hueco.json"), ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("hueco.json", p.stderr)
+
+    def test_n2_cuenta_solo_los_ids_aplicados(self):
+        p = self.aplicar(self.tree.path("r2"), "--fuente", "x")
+        self.assertEqual(json.loads(p.stdout.strip().splitlines()[-1])["ronda2"], 1)
 
 
 class CerrarTest(unittest.TestCase):
@@ -330,6 +619,43 @@ class CerrarTest(unittest.TestCase):
         self.assertIn('<tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 60,0 %</td><td>VOX · 12,3 %</td></tr>', h)
         self.assertIn("salen primeros CC en el 50,0 % de los perfiles, PNV en el 20,5 % y ERC en el 10,1 %.", h)
         self.assertIn("en la XI, en leyes sociales, PSOE sale primero en el 99,0 % de los perfiles", h)
+
+    def cerrar_simulado(self, validacion):
+        """Ejecuta main() con los pasos externos simulados; devuelve (órdenes lanzadas, excepción o None)."""
+        escribir(self.tmp.path("site", "template.html"), self.PLANTILLA + '<span id="alcance-v3">v</span>')
+        escribir(self.tmp.path("data", "clasificacion", "RUBRICA.md"), "Versión 3 (fecha 04/11/2026).\n")
+        volcar(self.tmp.path("data", "analisis", "sesgo.json"), {"legislaturas": self.SESGO})
+        os.makedirs(self.tmp.path("data", "clasificacion", "congreso_xv", "lectura_v3"), exist_ok=True)
+        ordenes = []
+
+        def run(*cmd):
+            ordenes.append(os.path.basename(cmd[1]))
+            if cmd[1].endswith("build_page.py"):  # build_page lee la plantilla: ya debe estar escrita
+                self.plantilla_en_build_page = leer(self.tmp.path("site", "template.html"))
+            return validacion if cmd[1].endswith("validar_clasificacion.py") else ""
+        tests = types.SimpleNamespace(returncode=0, stderr="a\nb\nc\nOK")
+        err = None
+        with mock.patch.object(CR, "ROOT", self.tmp.root), mock.patch.object(CR, "run", run), \
+                mock.patch.object(CR.subprocess, "run", return_value=tests):
+            try:
+                CR.main([])
+            except SystemExit as e:
+                err = e
+        return ordenes, err
+
+    def test_cerrar_valida_las_clasificaciones_antes_de_regenerar_la_pagina(self):
+        n = len(CR.LEGISLATURAS)
+        ordenes, err = self.cerrar_simulado(" 0 errores" * (n - 1) + " 2 errores")
+        self.assertIsNotNone(err)
+        self.assertIn("Validación con errores", str(err))
+        self.assertNotIn("build_page.py", ordenes)
+        # la plantilla no se toca hasta que valida
+        self.assertEqual(leer(self.tmp.path("site", "template.html")), self.PLANTILLA + '<span id="alcance-v3">v</span>')
+        ordenes, err = self.cerrar_simulado(" 0 errores" * n)
+        self.assertIsNone(err)
+        self.assertEqual(ordenes, ["prueba_sesgo.py", "validar_clasificacion.py", "build_page.py"])
+        self.assertIn("Están clasificadas con la v3", self.plantilla_en_build_page)
+        self.assertIn("EH Bildu · 41,3 %", self.plantilla_en_build_page)
 
     def test_cifras_falla_y_nombra_la_frase_que_ya_no_casa(self):
         for quitar in ('en la XI, en leyes sociales, VOX sale primero en el 5,0 % de los perfiles', '9.ª · 2019–2024'):
