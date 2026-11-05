@@ -10,12 +10,12 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 42.4 % | 2.5 | +88 |
-| PNV | 30.6 % | 2.7 | +88 |
-| PSOE | 11.4 % | 2.4 | +86 |
-| ERC | 9.0 % | 3.9 | +81 |
-| Bildu | 3.5 % | 5.1 | +80 |
-| Sumar | 3.1 % | 4.6 | +80 |
+| CC | 41.9 % | 2.5 | +88 |
+| PNV | 30.1 % | 2.7 | +88 |
+| PSOE | 10.9 % | 2.5 | +86 |
+| ERC | 8.5 % | 4.0 | +81 |
+| Sumar | 5.5 % | 4.3 | +81 |
+| Bildu | 3.1 % | 5.1 | +80 |
 | PP | 0.0 % | 12.0 | +2 |
 | VOX | 0.0 % | 13.0 | -75 |
 | Junts | 0.0 % | 9.9 | +49 |
@@ -26,7 +26,7 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PSOE +89, ERC +89, Bildu +89
+- Asalariado medio con hipoteca e hijos: Sumar +89, PSOE +89, ERC +89
 - Joven de alquiler: Sumar +90, PSOE +90, ERC +90
 - Pensionista con casa propia: ERC +90, PSOE +90, PNV +90
 - Pensionista con pensión baja: PSOE +90, ERC +90, PNV +90
@@ -35,12 +35,12 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Funcionario docente: PSOE +90, ERC +90, Bildu +90
 - Policía o guardia civil: PSOE +90, ERC +90, Bildu +90
 - Sanitario asalariado: PSOE +89, ERC +89, Bildu +89
-- Familia numerosa: PSOE +89, ERC +89, Bildu +89
+- Familia numerosa: Sumar +89, PSOE +89, ERC +89
 - Rentas altas con patrimonio: CC +89, PNV +89, PSOE +85
 - Gran patrimonio y gran empresa: PNV +80, CC +79, PSOE +70
 - Parado con subsidio: Sumar +90, PSOE +90, ERC +90
 - Agricultor en el medio rural: PNV +85, CC +82, ERC +78
-- Madre sola con hijo: Sumar +90, PSOE +90, ERC +90
+- Madre sola con hijo: Sumar +91, PSOE +90, ERC +90
 - Estudiante: PSOE +88, ERC +88, Sumar +88
 - Mayor dependiente: PSOE +90, ERC +90, PNV +90
 - Casero con varias viviendas: Compromís +76, ERC +62, PSOE +62
@@ -53,12 +53,12 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 42.2 % | 2.4 | +88 |
-| PNV | 33.5 % | 2.6 | +88 |
-| PSOE | 10.2 % | 2.3 | +85 |
-| ERC | 7.3 % | 4.2 | +80 |
-| Bildu | 3.7 % | 5.1 | +78 |
-| Sumar | 3.0 % | 4.6 | +79 |
+| CC | 41.7 % | 2.4 | +88 |
+| PNV | 33.0 % | 2.7 | +88 |
+| PSOE | 9.6 % | 2.4 | +85 |
+| ERC | 6.7 % | 4.3 | +80 |
+| Sumar | 5.4 % | 4.3 | +80 |
+| Bildu | 3.4 % | 5.1 | +78 |
 | Compromís | 0.1 % | 7.9 | +69 |
 | PP | 0.0 % | 12.0 | +3 |
 | VOX | 0.0 % | 13.0 | -74 |
@@ -184,42 +184,42 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Compromís | 46.6 % | 2.4 | +82 |
-| Unidas Podemos | 24.7 % | 1.7 | +82 |
-| Bildu | 9.7 % | 6.5 | +75 |
-| CC | 7.4 % | 10.1 | +63 |
-| PNV | 4.6 % | 7.6 | +71 |
-| Teruel Existe | 2.9 % | 6.7 | +74 |
-| NC | 1.4 % | 9.2 | +68 |
-| PSOE | 1.3 % | 4.4 | +77 |
-| Más País | 1.2 % | 4.0 | +80 |
+| Compromís | 44.3 % | 2.4 | +82 |
+| Unidas Podemos | 21.5 % | 1.9 | +82 |
+| PNV | 11.2 % | 8.1 | +69 |
+| Bildu | 9.4 % | 6.5 | +75 |
+| CC | 7.4 % | 9.8 | +63 |
+| Teruel Existe | 2.6 % | 6.5 | +74 |
+| PSOE | 1.2 % | 4.5 | +77 |
+| NC | 1.2 % | 8.8 | +68 |
+| Más País | 1.1 % | 4.0 | +80 |
 | PRC | 0.1 % | 6.5 | +75 |
-| PP | 0.0 % | 16.0 | +13 |
-| VOX | 0.0 % | 19.9 | -55 |
-| ERC | 0.0 % | 10.9 | +63 |
-| Cs | 0.0 % | 13.5 | +36 |
-| Junts | 0.0 % | 15.8 | +15 |
-| PDeCAT | 0.0 % | 8.7 | +70 |
-| BNG | 0.0 % | 12.8 | +44 |
-| CUP | 0.0 % | 19.0 | -35 |
-| UPN | 0.0 % | 16.2 | +13 |
-| Foro | 0.0 % | 18.0 | -15 |
+| PP | 0.0 % | 16.1 | +8 |
+| VOX | 0.0 % | 19.9 | -57 |
+| ERC | 0.0 % | 10.6 | +63 |
+| Cs | 0.0 % | 13.7 | +32 |
+| Junts | 0.0 % | 15.6 | +16 |
+| PDeCAT | 0.0 % | 9.2 | +68 |
+| BNG | 0.0 % | 12.7 | +44 |
+| CUP | 0.0 % | 19.0 | -38 |
+| UPN | 0.0 % | 16.2 | +8 |
+| Foro | 0.0 % | 18.0 | -20 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Compromís +90, Unidas Podemos +89, Más País +89
+- Asalariado medio con hipoteca e hijos: Unidas Podemos +90, Compromís +90, Más País +89
 - Joven de alquiler: Unidas Podemos +90, Compromís +90, Más País +89
 - Pensionista con casa propia: PNV +91, Compromís +90, Unidas Podemos +89
 - Pensionista con pensión baja: PNV +91, Compromís +90, Unidas Podemos +89
-- Autónomo del comercio: Bildu +79, NC +78, CC +77
+- Autónomo del comercio: Bildu +80, NC +79, CC +78
 - Empresario de pyme industrial: CC +69, NC +65, PSOE +61
-- Funcionario docente: Compromís +91, Unidas Podemos +90, Más País +90
-- Policía o guardia civil: Unidas Podemos +90, Compromís +90, Más País +89
-- Sanitario asalariado: Compromís +90, Unidas Podemos +89, Más País +88
-- Familia numerosa: Compromís +90, Unidas Podemos +89, Más País +89
+- Funcionario docente: Unidas Podemos +91, Compromís +91, Más País +90
+- Policía o guardia civil: Compromís +91, Unidas Podemos +90, Más País +89
+- Sanitario asalariado: Compromís +90, Unidas Podemos +89, Más País +89
+- Familia numerosa: Unidas Podemos +90, Compromís +90, Más País +89
 - Rentas altas con patrimonio: Bildu +81, Compromís +73, PNV +73
 - Gran patrimonio y gran empresa: CC +67, PNV +64, PSOE +63
-- Parado con subsidio: Unidas Podemos +90, Compromís +90, Bildu +90
+- Parado con subsidio: Compromís +91, Unidas Podemos +90, Más País +90
 - Agricultor en el medio rural: Bildu +85, Unidas Podemos +78, PSOE +77
 - Madre sola con hijo: Unidas Podemos +91, Compromís +91, Más País +90
 - Estudiante: PNV +89, Unidas Podemos +87, Compromís +87
@@ -234,42 +234,42 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Compromís | 41.9 % | 2.7 | +83 |
+| Compromís | 42.8 % | 2.7 | +83 |
 | PRC | 28.2 % | 3.3 | +82 |
-| Unidas Podemos | 12.0 % | 2.8 | +83 |
-| Teruel Existe | 6.7 % | 6.3 | +77 |
-| Bildu | 5.2 % | 7.6 | +74 |
-| CC | 4.1 % | 10.2 | +61 |
-| Más País | 0.8 % | 4.6 | +82 |
-| PSOE | 0.5 % | 4.5 | +80 |
-| NC | 0.4 % | 9.6 | +67 |
-| PDeCAT | 0.2 % | 7.6 | +73 |
-| PP | 0.0 % | 15.2 | +20 |
-| VOX | 0.0 % | 19.9 | -52 |
-| ERC | 0.0 % | 11.6 | +59 |
-| Cs | 0.0 % | 13.3 | +37 |
-| Junts | 0.0 % | 16.7 | +9 |
-| PNV | 0.0 % | 8.4 | +71 |
-| BNG | 0.0 % | 12.9 | +44 |
-| CUP | 0.0 % | 19.1 | -35 |
-| UPN | 0.0 % | 16.0 | +17 |
-| Foro | 0.0 % | 17.8 | -4 |
+| Unidas Podemos | 11.1 % | 2.9 | +83 |
+| Teruel Existe | 6.9 % | 6.1 | +77 |
+| Bildu | 4.7 % | 7.4 | +73 |
+| CC | 4.0 % | 10.1 | +61 |
+| Más País | 0.9 % | 4.7 | +82 |
+| PSOE | 0.6 % | 4.6 | +80 |
+| NC | 0.4 % | 9.2 | +67 |
+| PDeCAT | 0.2 % | 8.0 | +70 |
+| BNG | 0.1 % | 12.8 | +43 |
+| PP | 0.0 % | 15.4 | +15 |
+| VOX | 0.0 % | 19.9 | -54 |
+| ERC | 0.0 % | 11.3 | +59 |
+| Cs | 0.0 % | 13.4 | +33 |
+| Junts | 0.0 % | 16.3 | +10 |
+| PNV | 0.0 % | 8.7 | +69 |
+| CUP | 0.0 % | 19.1 | -39 |
+| UPN | 0.0 % | 16.2 | +13 |
+| Foro | 0.0 % | 17.8 | -9 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Compromís +93, Unidas Podemos +92, Más País +91
+- Asalariado medio con hipoteca e hijos: Compromís +93, Unidas Podemos +92, Más País +92
 - Joven de alquiler: Compromís +93, Unidas Podemos +92, Más País +92
 - Pensionista con casa propia: PRC +94, PNV +93, PDeCAT +93
 - Pensionista con pensión baja: PRC +94, PNV +93, PDeCAT +93
-- Autónomo del comercio: Bildu +78, CC +77, NC +77
+- Autónomo del comercio: Bildu +79, CC +78, NC +78
 - Empresario de pyme industrial: CC +67, PRC +65, Cs +64
-- Funcionario docente: Unidas Podemos +93, Compromís +93, Más País +92
-- Policía o guardia civil: Compromís +93, Unidas Podemos +92, Más País +91
-- Sanitario asalariado: Compromís +92, Unidas Podemos +91, Más País +91
-- Familia numerosa: Compromís +93, Unidas Podemos +92, Más País +91
+- Funcionario docente: Compromís +94, Unidas Podemos +93, Más País +93
+- Policía o guardia civil: Compromís +93, Unidas Podemos +92, Más País +92
+- Sanitario asalariado: Compromís +93, Unidas Podemos +92, Más País +92
+- Familia numerosa: Compromís +93, Unidas Podemos +92, Más País +92
 - Rentas altas con patrimonio: Bildu +79, PRC +78, Compromís +74
 - Gran patrimonio y gran empresa: PRC +69, CC +66, Teruel Existe +66
-- Parado con subsidio: Compromís +93, Unidas Podemos +92, Más País +92
+- Parado con subsidio: Unidas Podemos +93, Compromís +93, Más País +92
 - Agricultor en el medio rural: Bildu +84, PRC +81, PSOE +79
 - Madre sola con hijo: Compromís +94, Unidas Podemos +93, Más País +93
 - Estudiante: PRC +93, PDeCAT +91, Compromís +90
@@ -520,19 +520,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 61.5 % | 2.8 | +62 |
-| CC | 24.5 % | 2.1 | +64 |
+| PNV | 61.5 % | 2.8 | +61 |
+| CC | 24.4 % | 2.1 | +64 |
 | NC | 5.6 % | 4.1 | +51 |
-| PDeCAT | 4.2 % | 7.2 | +37 |
-| UPN | 2.3 % | 5.0 | +46 |
-| Cs | 1.8 % | 5.3 | +46 |
-| PSOE | 0.1 % | 4.0 | +53 |
-| Foro | 0.1 % | 7.8 | +35 |
-| PP | 0.0 % | 8.8 | +30 |
-| Unidos Podemos | 0.0 % | 9.6 | +25 |
-| ERC | 0.0 % | 11.7 | +4 |
-| Compromís | 0.0 % | 9.5 | +27 |
-| Bildu | 0.0 % | 13.0 | -12 |
+| PDeCAT | 4.2 % | 7.3 | +36 |
+| UPN | 2.3 % | 4.9 | +47 |
+| Cs | 1.9 % | 5.1 | +47 |
+| PSOE | 0.1 % | 4.1 | +53 |
+| Foro | 0.1 % | 7.6 | +37 |
+| PP | 0.0 % | 8.6 | +32 |
+| Unidos Podemos | 0.0 % | 9.9 | +24 |
+| ERC | 0.0 % | 11.8 | +3 |
+| Compromís | 0.0 % | 9.7 | +26 |
+| Bildu | 0.0 % | 13.0 | -13 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -563,19 +563,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 58.0 % | 3.2 | +58 |
+| PNV | 58.0 % | 3.4 | +58 |
 | CC | 24.3 % | 2.2 | +64 |
-| UPN | 10.2 % | 3.5 | +54 |
-| NC | 4.3 % | 4.4 | +51 |
-| PDeCAT | 2.1 % | 8.2 | +31 |
-| Cs | 0.5 % | 6.4 | +42 |
-| Foro | 0.3 % | 6.3 | +43 |
-| PP | 0.2 % | 7.4 | +39 |
-| PSOE | 0.0 % | 4.9 | +50 |
-| Unidos Podemos | 0.0 % | 10.1 | +19 |
-| ERC | 0.0 % | 11.7 | +4 |
-| Compromís | 0.0 % | 9.7 | +22 |
-| Bildu | 0.0 % | 13.0 | -12 |
+| UPN | 10.3 % | 3.3 | +55 |
+| NC | 4.3 % | 4.5 | +51 |
+| PDeCAT | 2.1 % | 8.3 | +31 |
+| Cs | 0.5 % | 6.2 | +43 |
+| Foro | 0.3 % | 6.1 | +44 |
+| PP | 0.2 % | 7.2 | +40 |
+| PSOE | 0.0 % | 4.9 | +49 |
+| Unidos Podemos | 0.0 % | 10.3 | +18 |
+| ERC | 0.0 % | 11.8 | +3 |
+| Compromís | 0.0 % | 9.9 | +22 |
+| Bildu | 0.0 % | 13.0 | -13 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -842,20 +842,20 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 55.9 % | 2.1 | +44 |
+| PNV | 56.0 % | 2.1 | +44 |
 | UPN | 27.0 % | 7.8 | +17 |
 | CiU | 5.5 % | 8.2 | +21 |
 | Foro | 4.9 % | 7.2 | +23 |
-| UPyD | 4.3 % | 3.4 | +37 |
-| NC | 2.0 % | 5.2 | +31 |
+| UPyD | 4.2 % | 3.4 | +37 |
+| NC | 2.0 % | 5.1 | +31 |
 | Geroa Bai | 0.5 % | 7.0 | +23 |
-| PP | 0.0 % | 12.5 | -12 |
+| PP | 0.0 % | 12.6 | -13 |
 | PSOE | 0.0 % | 6.5 | +24 |
 | IU-ICV | 0.0 % | 9.5 | +15 |
 | Amaiur | 0.0 % | 7.2 | +24 |
-| ERC | 0.0 % | 12.9 | +5 |
+| ERC | 0.0 % | 12.9 | +6 |
 | BNG | 0.0 % | 11.0 | +12 |
-| Compromís | 0.0 % | 12.6 | +7 |
+| Compromís | 0.0 % | 12.6 | +8 |
 | CC | 0.0 % | 6.7 | +26 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
@@ -863,7 +863,7 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Asalariado medio con hipoteca e hijos: PNV +79, Amaiur +71, NC +68
 - Joven de alquiler: PNV +73, UPyD +61, NC +60
 - Pensionista con casa propia: UPN +32, Foro +25, PNV +24
-- Pensionista con pensión baja: UPN +32, Geroa Bai +15, PNV +13
+- Pensionista con pensión baja: UPN +34, Geroa Bai +16, PNV +14
 - Autónomo del comercio: CiU +46, NC +41, Foro +40
 - Empresario de pyme industrial: CiU +39, Geroa Bai +32, PNV +29
 - Funcionario docente: PNV +72, Amaiur +64, UPyD +61
@@ -875,11 +875,11 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Parado con subsidio: NC +76, CiU +69, PNV +67
 - Agricultor en el medio rural: Foro +40, CiU +37, NC +33
 - Madre sola con hijo: PNV +76, Amaiur +69, UPyD +68
-- Estudiante: Geroa Bai +59, PNV +58, NC +58
-- Mayor dependiente: UPN +32, Geroa Bai +15, PNV +13
+- Estudiante: PNV +60, Geroa Bai +60, NC +60
+- Mayor dependiente: UPN +34, Geroa Bai +16, PNV +14
 - Casero con varias viviendas: PNV +76, UPyD +68, Amaiur +68
 - Transportista autónomo: Foro +43, CiU +40, NC +33
-- Asalariado de salario mínimo: PNV +78, UPyD +70, Amaiur +70
+- Asalariado de salario mínimo: PNV +78, Amaiur +71, UPyD +70
 
 </details>
 
@@ -887,20 +887,20 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 52.7 % | 2.4 | +41 |
-| UPN | 31.6 % | 7.5 | +18 |
+| PNV | 52.8 % | 2.4 | +41 |
+| UPN | 31.7 % | 7.5 | +19 |
 | CiU | 8.2 % | 8.0 | +20 |
-| Foro | 3.9 % | 7.4 | +20 |
-| UPyD | 2.0 % | 4.1 | +32 |
-| NC | 1.0 % | 6.6 | +24 |
+| Foro | 3.8 % | 7.4 | +21 |
+| UPyD | 1.9 % | 4.2 | +32 |
+| NC | 1.0 % | 6.6 | +25 |
 | Geroa Bai | 0.5 % | 7.6 | +18 |
 | Amaiur | 0.1 % | 6.0 | +25 |
-| PP | 0.0 % | 11.0 | -7 |
+| PP | 0.0 % | 11.1 | -7 |
 | PSOE | 0.0 % | 7.6 | +18 |
 | IU-ICV | 0.0 % | 9.2 | +13 |
-| ERC | 0.0 % | 12.8 | +5 |
-| BNG | 0.0 % | 10.5 | +11 |
-| Compromís | 0.0 % | 12.4 | +7 |
+| ERC | 0.0 % | 12.8 | +6 |
+| BNG | 0.0 % | 10.6 | +12 |
+| Compromís | 0.0 % | 12.4 | +8 |
 | CC | 0.0 % | 6.9 | +23 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
@@ -908,7 +908,7 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Asalariado medio con hipoteca e hijos: PNV +79, Amaiur +74, CC +64
 - Joven de alquiler: PNV +72, Amaiur +62, UPyD +56
 - Pensionista con casa propia: UPN +35, Foro +18, PNV +14
-- Pensionista con pensión baja: UPN +35, PP +9, CiU +2
+- Pensionista con pensión baja: UPN +36, PP +7, Geroa Bai +5
 - Autónomo del comercio: CiU +45, Foro +35, PNV +34
 - Empresario de pyme industrial: CiU +37, Geroa Bai +24, Amaiur +21
 - Funcionario docente: PNV +74, Amaiur +66, CC +62
@@ -920,8 +920,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Parado con subsidio: CiU +72, NC +69, PNV +65
 - Agricultor en el medio rural: CiU +35, Foro +34, PNV +21
 - Madre sola con hijo: PNV +77, Amaiur +72, UPyD +64
-- Estudiante: Geroa Bai +52, PNV +51, CiU +48
-- Mayor dependiente: UPN +35, Geroa Bai +15, PNV +13
+- Estudiante: Geroa Bai +54, PNV +53, CiU +50
+- Mayor dependiente: UPN +36, Geroa Bai +16, CiU +14
 - Casero con varias viviendas: PNV +76, Amaiur +71, UPyD +63
 - Transportista autónomo: CiU +37, Foro +37, UPN +24
 - Asalariado de salario mínimo: PNV +78, Amaiur +74, UPyD +66
