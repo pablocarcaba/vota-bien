@@ -388,9 +388,13 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .emp-tag{font-size:12px;font-weight:600;color:var(--ink);border:1px dashed color-mix(in srgb,var(--muted) 70%,transparent);border-radius:999px;padding:1px 8px}
 .emp-tag.tec{border-style:solid;background:var(--soft);cursor:help}
 .lscore .ls-t .emp-tag{display:inline-block;margin-left:4px;vertical-align:1px}
-.tecnote{margin:0 0 10px}
-.lpart{display:flex;gap:9px;align-items:flex-start;margin:12px 0 0;font-size:14px;line-height:1.45;color:var(--ink);max-width:70ch}
-.lpart .ico{width:18px;height:18px;flex:none;margin-top:1px;color:var(--accent)}
+.tecblk{display:grid;gap:8px;padding:10px 8px 8px;border-radius:22px;background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 22%,transparent)}
+.tecnote{display:flex;gap:8px;align-items:flex-start;margin:0;padding:0 8px;font-size:13.5px;line-height:1.4;color:var(--ink);text-wrap:pretty}
+.tecnote .ico{width:17px;height:17px;flex:none;margin-top:1px;color:var(--accent)}
+.rrow.tec .pos{background:var(--accent-soft);color:var(--accent)}
+.ltec{margin:8px 0 0;font-size:14px;line-height:1.4;color:var(--ink)}
+.lpart{display:inline-flex;gap:7px;align-items:flex-start;flex:1 1 260px;margin:0;font-size:13px;line-height:1.4;color:var(--muted);max-width:70ch;align-self:center}
+.lpart .ico{width:15px;height:15px;flex:none;margin-top:1px;color:var(--accent)}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted);margin:0 0 4px}
 .legend span{display:inline-flex;align-items:center;gap:7px}
 .legend i{width:11px;height:11px;border-radius:4px;flex:none}
@@ -1019,7 +1023,7 @@ const PESO_TXT = {2:'Ley relevante', 3:'Gran reforma'};
 const wOf = it => PESO[it.w]||1;
 // prudencia: puntos neutros (el peso de una gran reforma) que se suman al total para que pocas leyes no den notas extremas
 const K = 9;
-// empate técnico: a esta distancia o menos del primero (puntos de nota) la diferencia no es significativa. Mismo umbral
+// empate en cabeza: a esta distancia o menos del primero (puntos de nota) la diferencia es demasiado pequeña para ordenarlos. Mismo umbral
 // en scripts/prueba_sesgo.py (EMPATE)
 const EMPATE = 3;
 // prueba de la postura de un partido ante una iniciativa (una sola vez por partido y ley):
@@ -1081,20 +1085,23 @@ function ranked(){
   const all = computeRank(), rows = all.filter(x=>(!state.hideFew || x.rel>=3) && seVota(x.k));
   let puesto = 0;
   rows.forEach((x,i)=>{ if(i===0 || x.s!==rows[i-1].s) puesto = i+1; x.puesto = puesto; x.empate = rows.some((y,j)=>j!==i && y.s===x.s); });
-  // empate técnico en cabeza: el 2.º (y los que sigan) a EMPATE puntos o menos del 1.º, incluido el empate exacto.
+  // empate en cabeza: el 2.º (y los que sigan) a EMPATE puntos o menos del 1.º, incluido el empate exacto.
   // No cambia ni el orden ni la nota; solo cómo se lee
   const tec = rows.length>1 && rows[0].s-rows[1].s<=EMPATE;
   rows.forEach(x=>{ x.tec = tec && rows[0].s-x.s<=EMPATE; });
   return {all, rows};
 }
-// cómo se lee el puesto: empate técnico en cabeza o, más abajo, empate exacto (misma nota, mismo puesto)
-const tecTxt = x => (x.puesto===1 ? `el 2.º queda a ${EMPATE} puntos o menos` : `a ${EMPATE} puntos o menos del 1.º`)+': la diferencia no es significativa';
-const empTxt = x => x.tec ? `, empate técnico en cabeza (${tecTxt(x)})` : x.empate ? ' empatado' : '';
-// frase del empate técnico en cabeza (ranking y ficha); '' si el 1.º no tiene a nadie a EMPATE puntos o menos
-function tecFrase(rows){
+// cómo se lee el puesto: el bloque empatado en cabeza comparte el 1.º (ni el orden ni la nota cambian); más abajo, empate
+// exacto (misma nota, mismo puesto)
+const puestoDe = x => x.tec ? 1 : x.puesto;
+const tecTxt = `a ${EMPATE} puntos o menos: la diferencia es demasiado pequeña para ordenarlos`;
+const empTxt = x => x.tec ? ', empatado en cabeza' : x.empate ? ' empatado' : '';
+// frase del empate en cabeza: en el ranking, todo el bloque; en la ficha (who), con quién empata. '' si no hay empate en cabeza
+function tecFrase(rows, who){
   const cab = rows.filter(x=>x.tec);
   if(!cab.length) return '';
-  return `<b>Empate técnico en cabeza.</b> ${esc(yLista(cab.slice(1).map(x=>pn(x.k))))} ${cab.length>2?'quedan':'queda'} a ${EMPATE} puntos o menos de ${esc(pn(cab[0].k))}. Con una diferencia tan pequeña, el orden entre ${cab.length>2?'ellos':'los dos'} no es significativo.`;
+  if(who) return `Empatado en cabeza con ${esc(yLista(cab.filter(x=>x.k!==who).map(x=>pn(x.k))))}, a ${EMPATE} puntos o menos`;
+  return `${esc(yLista(cab.map(x=>pn(x.k))))} están prácticamente empatados (a ${EMPATE} puntos o menos).`;
 }
 // recuento con el peso a la vista: «25 a favor, 3 grandes reformas»
 function cuenta(n, x, c, txt){
@@ -1495,21 +1502,27 @@ function renderRank(){
     : nAqui===1 ? 'El único partido con iniciativas que te afectan tiene menos de 3: desmarca «Ocultar partidos con menos de 3 leyes» en «Ajustar el ranking» para verlo.' : `Los ${nAqui} partidos con iniciativas que te afectan tienen menos de 3: desmarca «Ocultar partidos con menos de 3 leyes» en «Ajustar el ranking» para verlos.`));
     return; }
   r.classList.toggle('anim', state.anim); state.anim=false;
-  const tf = tecFrase(rows);
-  if(tf) r.appendChild(el('p',{class:'gobnote tecnote',role:'note'}, `<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg><span>${tf} Pulsa cada uno para comparar sus leyes.</span>`));
   r.appendChild(el('div',{class:'scale','aria-hidden':'true'},'<span>← −100<span class="w"> En tu contra</span></span><span>0</span><span>+100<span class="w"> A tu favor</span> →</span>'));
+  // empate en cabeza: las filas empatadas van juntas en un bloque, con la nota encima y el mismo puesto (puestoDe())
+  const tf = tecFrase(rows);
+  let blk = null;
+  if(tf){
+    blk = el('div',{class:'tecblk',role:'group','aria-labelledby':'tec-n'});
+    blk.appendChild(el('p',{class:'tecnote',id:'tec-n'}, `<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg><span>${tf}</span>`));
+    r.appendChild(blk);
+  }
   // puesto con empates: misma nota, mismo puesto (ranked())
   rows.forEach(x=>{
-    const puesto = x.puesto;
+    const puesto = puestoDe(x);
     const w = Math.abs(x.s)/2, [vc,vt] = veredicto(x.s, x.rel);
     const bar = x.s>=0 ? `<span class="p" style="width:${w}%"></span>` : `<span class="n" style="width:${w}%"></span>`;
     const det = `${cuenta(x.pos,x,'pos','a tu favor')} · ${cuenta(x.neg,x,'neg','en tu contra')}${x.mix?` · ${x.mix} mixta${x.mix>1?'s':''}`:''}${x.pres?` · ${x.pres} solo presentada${x.pres>1?'s':''}`:''}`;
     const few = x.rel<3 ? '<span class="few-tag">pocos datos</span>' : '';
-    const emp = x.tec ? `<span class="emp-tag tec" aria-hidden="true" title="Empate técnico: ${tecTxt(x)}">Empate técnico</span>` : x.empate ? '<span class="emp-tag" aria-hidden="true">empatado</span>' : '';
+    const emp = x.tec ? `<span class="emp-tag tec" aria-hidden="true" title="Empatado en cabeza, ${tecTxt}">Empatado en cabeza</span>` : x.empate ? '<span class="emp-tag" aria-hidden="true">empatado</span>' : '';
     // matiz del mapa de ámbitos (dónde no se presenta igual), solo con el filtro activo
     const nota = filtraProv() && AMB.notas[x.k] ? AMB.notas[x.k] : '';
     const amb = nota ? `<span class="amb-n"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>${esc(nota)}</span>` : '';
-    r.appendChild(el('button',{class:'rrow','data-p':x.k,'aria-label':`${puesto}.º ${pn(x.k)}${empTxt(x)}: ${vt.toLowerCase()}, nota ${x.s}${x.rel<3?', pocos datos':''}. ${det}.${nota?' Aviso: '+nota:''} Ver ley a ley`,onclick:()=>openList(x.k,null)},
+    (x.tec && blk ? blk : r).appendChild(el('button',{class:'rrow'+(x.tec?' tec':''),'data-p':x.k,'aria-label':`${puesto}.º ${pn(x.k)}${empTxt(x)}: ${vt.toLowerCase()}, nota ${x.s}${x.rel<3?', pocos datos':''}. ${det}.${nota?' Aviso: '+nota:''} Ver ley a ley`,onclick:()=>openList(x.k,null)},
       `<span class="pos">${puesto}.º</span><span class="who"><span class="nm">${esc(pn(x.k))}</span><span class="vd v-${vc}">${vt}</span>${emp}${few}${amb}</span><span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="dv">${bar}</span><span class="det">${det} · <span class="go">Ver ley a ley ›</span></span>`));
   });
   mb.hidden=false;
@@ -1841,18 +1854,22 @@ function participacion(p){
   const U = universe().filter(it=>it.v), vot = U.filter(it=>it.v[p]).length, pudo = vot + U.filter(it=>it.nv && it.nv.includes(p)).length;
   return pudo ? {vot, pudo, pct: Math.round(100*vot/pudo)} : null;
 }
+// participación como metadato pequeño, junto a «Compartir esta ficha». Con los decretos-ley excluidos, se dice
+const sinRDLtxt = () => state.sinRDL && !europeas() && ITEMS.some(it=>it.k==='Real decreto-ley') ? ' (sin reales decretos-ley)' : '';
 function partEl(p){
   const x = participacion(p); if(!x) return null;
   const tab = state.tab==='eco'?'leyes económicas':'leyes sociales', baja = x.pct<PART_BAJA;
-  return el('p',{class:'lpart'}, `<svg class="ico" aria-hidden="true"><use href="#i-vote"/></svg><span>Votó en el <b>${x.pct} %</b> de las votaciones clave de ${tab} en las que tenía escaño (${x.vot.toLocaleString('es-ES')} de ${x.pudo.toLocaleString('es-ES')}).${baja?' <b>Las votaciones a las que no asiste no suman ni restan a su nota.</b>':''}</span>`);
+  return el('span',{class:'lpart'}, `<svg class="ico" aria-hidden="true"><use href="#i-vote"/></svg><span>Votó en el ${x.pct} % de las votaciones clave de ${tab}${sinRDLtxt()} en las que tenía escaño (${x.vot.toLocaleString('es-ES')} de ${x.pudo.toLocaleString('es-ES')}).${baja?' Las votaciones en las que no vota no suman ni restan a su nota.':''}</span>`);
 }
 function shareFicha(p){
-  const sh=el('p',{class:'lshare'}), lbl='<svg class="ico" aria-hidden="true"><use href="#i-share"/></svg>Compartir esta ficha';
+  const sh=el('div',{class:'lshare'}), lbl='<svg class="ico" aria-hidden="true"><use href="#i-share"/></svg>Compartir esta ficha';
   const b=el('button',{type:'button',class:'linkbtn','data-k':'share-ficha'},lbl);
   b.addEventListener('click',()=>copyUrl(b, shareUrl(p,null)));
-  sh.appendChild(b); return sh;
+  sh.appendChild(b);
+  const pe = partEl(p); if(pe) sh.appendChild(pe);
+  return sh;
 }
-let LIST_MSG = '';
+let LIST_MSG = '', FICHA_MSG = '';
 function renderList(){
   const v=$('view-lista'); v.innerHTML='';
   const L = state.list || {who:'', color:null};
@@ -1867,31 +1884,34 @@ function renderList(){
   // cuántas hay de cada efecto con el tipo y el partido elegidos: el mismo recuento que el balance de «Sus leyes y votaciones», junto a la lista
   const nCol = {}; rows.forEach(x=>{ nCol[x.e.c]=(nCol[x.e.c]||0)+1; });
   const sCol=el('select',{id:'f-col','data-k':'f-col'}); sCol.appendChild(new Option(`Todos los efectos (${rows.length})`,'',false,!L.color)); Object.entries(cols).forEach(([c,t])=>sCol.appendChild(new Option(`${t} (${nCol[c]||0})`,c,false,c===L.color)));
-  const upd=()=>{ state.tab=sTab.value; const w=sWho.value; let c=sCol.value||null; if(w && c==='neu') c=null; state.list={who:w,color:c}; keepFocus(renderList);
+  const upd=()=>{ const cab = state.tab!==sTab.value || L.who!==sWho.value;
+    state.tab=sTab.value; const w=sWho.value; let c=sCol.value||null; if(w && c==='neu') c=null; state.list={who:w,color:c}; keepFocus(renderList);
     // al pasar a «Todos los partidos» la cabecera de la ficha desaparece y el select enfocado queda fuera de la vista (2.4.7)
     const f=document.activeElement; if(f && f.closest && f.closest('.lfilters')) f.scrollIntoView({block:'nearest'});
-    say('Lista actualizada: '+LIST_MSG); };
+    // tipo de leyes o partido recalculan la cabecera de la ficha (nota, puesto, participación): se anuncia antes que la lista
+    say((cab && FICHA_MSG ? FICHA_MSG+' ' : '')+'Lista actualizada: '+LIST_MSG); };
   const filtros = (cls, ss) => { const fl=el('div',{class:cls}); ss.forEach(([s,t])=>{ s.addEventListener('change',upd); const l=el('label',{for:s.id},esc(t)); l.appendChild(s); fl.appendChild(l); }); return fl; };
   const head=el('div',{class:'lhead'});
   head.appendChild(el('div',{class:'eyebrow'}, `Iniciativas · ${state.tab==='eco'?'Económicas':'Sociales'}`));
   head.appendChild(el('h2',{}, L.who ? esc(pn(L.who)) : 'Todas las iniciativas'));
   if(L.who) head.appendChild(filtros('lfilters ltop', [[sTab,'Tipo de leyes'],[sWho,'Partido']]));
   // nota y puesto del partido, con la misma barra que en el ranking
-  let xc = null;
+  let xc = null; FICHA_MSG = '';
+  if(L.who){ const pa = participacion(L.who); if(pa) FICHA_MSG = `Votó en el ${pa.pct} % de las votaciones clave.`; }
   if(L.who && propio()){
     const {rows} = ranked(), x = rows.find(r=>r.k===L.who), tab = state.tab==='eco'?'Leyes económicas':'Leyes sociales';
     if(x){
       const [vc,vt] = veredicto(x.s, x.rel), w = Math.abs(x.s)/2;
       const bar = x.s>=0 ? `<span class="p" style="width:${w}%"></span>` : `<span class="n" style="width:${w}%"></span>`;
-      head.appendChild(el('div',{class:'lscore'}, `<span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="ls-t">${x.puesto}.º${x.tec?'':x.empate?' empatado':''} de ${rows.length}${x.tec?` <b class="emp-tag tec" title="Empate técnico: ${tecTxt(x)}">Empate técnico</b>`:''} <span>· ${tab} · ${esc(vt)}</span></span><span class="dv" aria-hidden="true">${bar}</span>`));
-      if(x.tec) head.appendChild(el('p',{class:'lsub'}, tecFrase(rows)));
+      head.appendChild(el('div',{class:'lscore'}, `<span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="ls-t">${puestoDe(x)}.º${!x.tec&&x.empate?' empatado':''} de ${rows.length} <span>· ${tab} · ${esc(vt)}</span></span><span class="dv" aria-hidden="true">${bar}</span>`));
+      if(x.tec) head.appendChild(el('p',{class:'ltec',title:`Empatado en cabeza, ${tecTxt}`}, tecFrase(rows, L.who)));
+      FICHA_MSG = `Nota ${x.s>0?'+':''}${x.s}, ${puestoDe(x)}.º de ${rows.length}${x.tec?', empatado en cabeza':x.empate?', empatado':''}. `+FICHA_MSG;
     } else head.appendChild(el('p',{class:'lsub'}, !seVota(L.who) && ranked().all.some(r=>r.k===L.who) ? `Oculto en tu ranking de ${tab.toLowerCase()}: no se presenta en ${esc(provName())}. Aquí ves igualmente cómo votó.` : ranked().all.some(r=>r.k===L.who) ? `Oculto en tu ranking de ${tab.toLowerCase()}: tiene menos de 3 leyes que te afecten.` : `Sin nota en ${tab.toLowerCase()}: ninguna ley de esta pestaña que te afecte cuenta en su saldo.`));
     // el desglose sale aunque el partido esté oculto por «pocos datos»
     xc = x || ranked().all.find(r=>r.k===L.who);
-    const pe = partEl(L.who); if(pe) head.appendChild(pe);
     head.appendChild(shareFicha(L.who));
     if(xc) head.appendChild(porQue(L.who, xc));
-  } else if(L.who){ const pe = partEl(L.who); if(pe) head.appendChild(pe); head.appendChild(shareFicha(L.who)); }
+  } else if(L.who) head.appendChild(shareFicha(L.who));
   v.appendChild(head);
   // plegados: el cálculo, el resumen de sus leyes, comparar y otras legislaturas (todos a todo el ancho)
   if(L.who){
@@ -2012,7 +2032,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <h3>Autoría</h3>
     <p>En la Unión Europea las propuestas legislativas las presenta la Comisión Europea (${esc(DATA.meta.gobierno)}); los partidos no presentan leyes, así que el ranking se basa solo en cómo votaron.</p>
     <h3>Votaciones</h3>
-    <p>Para cada procedimiento se toma una votación clave del Pleno: la del acuerdo con el Consejo o la resolución legislativa final (no las enmiendas ni la apertura de negociaciones). ${nv} procedimientos tienen votación clave. Solo se muestran los eurodiputados españoles, agrupados por su partido nacional en la fecha de cada votación; el voto de un partido es el voto mayoritario de sus eurodiputados presentes. Los independientes no se cuentan. Si ninguno de sus eurodiputados vota en esa votación, su ausencia no suma ni resta a su nota; en la ficha de cada partido ves en qué porcentaje de las votaciones clave votó.</p>
+    <p>Para cada procedimiento se toma una votación clave del Pleno: la del acuerdo con el Consejo o la resolución legislativa final (no las enmiendas ni la apertura de negociaciones). ${nv} procedimientos tienen votación clave. Solo se muestran los eurodiputados españoles, agrupados por su partido nacional en la fecha de cada votación; el voto de un partido es el voto mayoritario de sus eurodiputados presentes. Los independientes no se cuentan. Si ninguno de sus eurodiputados vota en esa votación, el partido no vota: las votaciones en las que no vota no suman ni restan a su nota. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
     <p class="small">Datos de votaciones: HowTheyVote.eu, a partir de las listas oficiales de votación nominal; títulos y fechas: datos abiertos del Parlamento Europeo.</p>
 ` : `    <h3>Qué iniciativas incluye</h3>
     <p>${ITEMS.length} iniciativas presentadas ${esc(DATA.meta.periodo)}: ${kinds['Proyecto de ley']||0} proyectos de ley del Gobierno, ${kinds['Real decreto-ley']||0} reales decretos-ley y ${kinds['Proposición de ley']||0} proposiciones de ley de los grupos, del Senado, de parlamentos autonómicos e iniciativa popular. Se cuentan todas, se aprobaran o no.</p>
@@ -2020,7 +2040,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>Los proyectos de ley y los reales decretos-ley figuran como del Gobierno (${esc(DATA.meta.gobierno)}). Una proposición firmada por varios grupos cuenta para cada uno. El Congreso publica como autor al Grupo Mixto sin indicar el partido, por lo que esas proposiciones aparecen como Grupo Mixto salvo cuando se ha podido identificar el partido. Las del Senado, parlamentos autonómicos e iniciativa popular no se atribuyen a ningún partido.</p>
     <h3>Votaciones</h3>
     <p>Para cada iniciativa se toma una votación clave del Pleno, por este orden de preferencia: votación final (de conjunto o del dictamen), convalidación del real decreto-ley, toma en consideración y enmienda a la totalidad. En las enmiendas a la totalidad, votar sí equivale a oponerse a la ley, y se interpreta así. ${nv} iniciativas tienen votación clave en el Pleno; el resto no llegó a votarse en Pleno o se aprobó en comisión.</p>
-    <p>El voto de un partido es el voto mayoritario de sus diputados presentes. Para ${esc(DATA.meta.nominal_txt)}, se usa el voto nominal de sus diputados. Los diputados no adscritos no se cuentan. Si ninguno de sus diputados vota en esa votación, su ausencia no suma ni resta a su nota; en la ficha de cada partido ves en qué porcentaje de las votaciones clave votó.</p>
+    <p>El voto de un partido es el voto mayoritario de sus diputados presentes. Para ${esc(DATA.meta.nominal_txt)}, se usa el voto nominal de sus diputados. Los diputados no adscritos no se cuentan. Si ninguno de sus diputados vota en esa votación, el partido no vota: las votaciones en las que no vota no suman ni restan a su nota. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
 `}    <h3>Clasificación de impactos</h3>
     <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
     <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. También recoge lo público frente a lo privado: lo de titularidad o gestión pública es patrimonio de todos, así que las leyes que lo amplían (nacionalizaciones, gestión pública de la sanidad, reversión de concesiones) benefician a la ciudadanía y perjudican al sector privado afectado, y las que lo traspasan a empresas (privatizaciones, externalizaciones, liberalizaciones) hacen lo contrario. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
@@ -2067,7 +2087,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
         <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 60,2 %</td><td>PP · 24,6 %</td></tr>
       </tbody>
     </table>
-    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 41,9 % de los perfiles, PNV en el 30,1 % y PSOE en el 10,9 %. Pero salir primero puede ser un empate técnico: en esa misma pestaña, el 2.º queda a ${EMPATE} puntos o menos del 1.º en el 98,7 % de los perfiles (margen mediano: 0 puntos). Con tan poca diferencia, el orden no es significativo, y el ranking marca esos casos como «Empate técnico». En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
+    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 41,9 % de los perfiles, PNV en el 30,1 % y PSOE en el 10,9 %. Pero salir primero puede ser un empate en cabeza: en esa misma pestaña, el 2.º queda a ${EMPATE} puntos o menos del 1.º en el 98,7 % de los perfiles (margen mediano: 0 puntos). Esa diferencia es demasiado pequeña para ordenarlos, así que el ranking agrupa a los partidos a ${EMPATE} puntos o menos del 1.º como «Empatado en cabeza», todos con el 1.º (sin cambiar su orden ni su nota). En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
     <p><span class="tag-int">Interpretación nuestra</span>Los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.</p>
     <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','/blob/main/data/analisis/SESGO.md')}</p>
     <h3>Versión de la metodología</h3>
@@ -2146,7 +2166,8 @@ let anuncioT=null, PEND='', ULT_RES='';
 function resultado(){
   if($('view-panel').hidden || !terminado()) return ['',''];
   const n=document.querySelectorAll('#rank .rrow').length;
-  const res = n ? 'Resultado actualizado: '+n+' partidos comparados'+(filtraProv()?' que se presentan en '+provName():'')+'.' : (propio()?'Ninguna iniciativa afecta a tu perfil.':'');
+  const cab = [...document.querySelectorAll('#rank .rrow.tec')].map(b=>pn(b.dataset.p));
+  const res = n ? 'Resultado actualizado: '+n+' partidos comparados'+(filtraProv()?' que se presentan en '+provName():'')+'.'+(cab.length?' Empatados en cabeza: '+yLista(cab)+'.':'') : (propio()?'Ninguna iniciativa afecta a tu perfil.':'');
   return [res, res+'|'+$('rank').textContent];
 }
 function anunciar(){

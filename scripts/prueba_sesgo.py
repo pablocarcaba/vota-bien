@@ -27,7 +27,7 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 # --- cálculo de la web (site/template.html) ---
 PESO = {1: 1, 2: 3, 3: 9}
 K = 9
-# empate técnico: a esta distancia o menos del primero (en puntos de nota) la diferencia no es significativa (EMPATE en la web)
+# empate técnico: a esta distancia o menos del primero (en puntos de nota) la diferencia es demasiado pequeña para ordenarlos (EMPATE en la web)
 EMPATE = 3
 FUERZA = {"Votación final": 1, "Convalidación": 1, "Toma en consideración": 0.5, "Enmienda a la totalidad": 0.5}
 IMPLICA = {"hij1": ["infancia"], "hij2": ["infancia"], "hij3": ["infancia"], "cuid": ["depend"]}
@@ -287,7 +287,7 @@ def main():
                      "Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Si uno gana "
                      "para casi cualquier perfil, la clasificación o el método empujan hacia él. Se publica tal cual sale.\n\n"
                      f"Salir primero puede ser un empate técnico: si el 2.º queda a {EMPATE} puntos o menos del 1.º, la diferencia "
-                     "no es significativa y la web los marca así. Bajo cada tabla, el margen mediano entre el 1.º y el 2.º "
+                     "es demasiado pequeña para ordenarlos y la web los agrupa como «Empatado en cabeza». Bajo cada tabla, el margen mediano entre el 1.º y el 2.º "
                      f"(en puntos de nota, de −100 a +100) y el porcentaje de perfiles con empate técnico en cabeza: con el 2.º a "
                      f"{EMPATE} puntos o menos, y con 2 o más partidos, además del primero, a esa distancia.\n")
             for clave, v in res["legislaturas"].items():

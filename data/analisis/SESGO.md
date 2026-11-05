@@ -4,7 +4,7 @@ Generado por `scripts/prueba_sesgo.py` (semilla 2026, 2000 perfiles aleatorios y
 
 Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Si uno gana para casi cualquier perfil, la clasificación o el método empujan hacia él. Se publica tal cual sale.
 
-Salir primero puede ser un empate técnico: si el 2.º queda a 3 puntos o menos del 1.º, la diferencia no es significativa y la web los marca así. Bajo cada tabla, el margen mediano entre el 1.º y el 2.º (en puntos de nota, de −100 a +100) y el porcentaje de perfiles con empate técnico en cabeza: con el 2.º a 3 puntos o menos, y con 2 o más partidos, además del primero, a esa distancia.
+Salir primero puede ser un empate técnico: si el 2.º queda a 3 puntos o menos del 1.º, la diferencia es demasiado pequeña para ordenarlos y la web los agrupa como «Empatado en cabeza». Bajo cada tabla, el margen mediano entre el 1.º y el 2.º (en puntos de nota, de −100 a +100) y el porcentaje de perfiles con empate técnico en cabeza: con el 2.º a 3 puntos o menos, y con 2 o más partidos, además del primero, a esa distancia.
 
 ## Congreso de los Diputados · XV legislatura · 2023–2026
 
