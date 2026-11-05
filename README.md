@@ -32,7 +32,7 @@ Leyes y votos reales, de fuentes oficiales · Cálculo trazable ley a ley · Tus
 
 ## Qué es
 
-Tú madrugas, trabajas y pagas tus impuestos. **Ellos votan leyes.** Esta web te enseña qué votó cada partido cuando se decidía tu sueldo, tu casa, tu negocio y tu familia: no lo que prometió en campaña, sino lo que votó.
+Tú madrugas, trabajas y pagas tus impuestos. **Quienes te representan votan leyes.** Esta web te enseña qué votó cada partido cuando se decidía tu sueldo, tu casa, tu negocio y tu familia: no lo que prometió en campaña, sino lo que votó.
 
 > **Tu voto es tuyo.** Aquí nadie te dice a quién votar: te enseñamos lo que votaron. Es un simulador informativo, no una recomendación de voto ni una encuesta.
 
@@ -112,7 +112,7 @@ Cada fuente y legislatura es un dataset independiente. Los partidos cambian entr
 
 - **Autoría.** Los proyectos de ley y los reales decretos-ley son del Gobierno. Una proposición firmada por varios grupos cuenta para cada uno. Las del Grupo Mixto aparecen como «Grupo Mixto» porque el Congreso no indica el partido, salvo las que se han podido identificar (campo `partido` en `clas_*.json`).
 - **Votación clave por iniciativa**, por este orden de prioridad: votación final (de conjunto o del dictamen) > convalidación del real decreto-ley > toma en consideración > enmienda a la totalidad. En la enmienda a la totalidad, votar sí equivale a oponerse a la ley, y se invierte.
-- **Voto de un partido** = voto mayoritario de sus diputados presentes. Los partidos que comparten grupo, como Podemos, BNG, CC, UPN o Compromís dentro del Mixto, se separan por voto nominal. Los no adscritos no se cuentan.
+- **Voto de un partido** = voto mayoritario de sus diputadas y diputados presentes. Los partidos que comparten grupo, como Podemos, BNG, CC, UPN o Compromís dentro del Mixto, se separan por voto nominal. Los no adscritos no se cuentan.
 - **Impactos.** Cada iniciativa se clasifica como económica o social y se marca a qué colectivos beneficia (+1) o perjudica (−1), según [`RUBRICA.md`](data/clasificacion/RUBRICA.md). La clasificación es asistida por IA e **interpretativa**: conviene revisar las leyes de mayor relevancia.
 - **Peso de cada voto.** Votar el texto final o la convalidación de un real decreto-ley cuenta 1; la toma en consideración o una enmienda a la totalidad, 0,5; lo que el partido solo presentó y no llegó a votar en el Pleno, 0,25. Las abstenciones no cuentan.
 - **Alcance.** Una gran reforma pesa como 9 leyes menores, y una ley relevante como 3.
@@ -201,7 +201,7 @@ scripts/
   legislaturas.py               Configuración por legislatura: grupos, partidos, textos
   descargar_legislatura.py      Iniciativas y votaciones del Pleno del Congreso (reanudable)
   descargar_historico.sh        Descarga en serie de las legislaturas X–XIII
-  descargar_europarlamento.py   Parlamento Europeo 9.ª y 10.ª: procedimientos y voto de eurodiputados españoles
+  descargar_europarlamento.py   Parlamento Europeo 9.ª y 10.ª: procedimientos y voto de las eurodiputadas y los eurodiputados de España
   descargar_europarlamento_historico.py  Parlamento Europeo 6.ª a 8.ª (actas oficiales del PE y Parltrack)
   identificar_mixto.py          Partido de las proposiciones del Mixto y del Plural (por el BOCG)
   textos_bocg.py                Texto de iniciativas concretas para revisar su clasificación

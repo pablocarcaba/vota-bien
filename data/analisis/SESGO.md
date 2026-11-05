@@ -1,6 +1,6 @@
 # Prueba de sesgo
 
-Generado por `scripts/prueba_sesgo.py` (semilla 2026, 2000 perfiles aleatorios y 20 arquetipos, prudencia K = 9). Mismo cálculo que la web; solo se cuentan partidos con 3 o más iniciativas que afecten al perfil. «Primero» reparte los empates. En la muestra aleatoria, el 25 % de los asalariados y funcionarios responde «No lo sé» en el tramo de IRPF.
+Generado por `scripts/prueba_sesgo.py` (semilla 2026, 2000 perfiles aleatorios y 20 arquetipos, prudencia K = 9). Mismo cálculo que la web; solo se cuentan partidos con 3 o más iniciativas que afecten al perfil. «Primero» reparte los empates. En la muestra aleatoria, el 25 % de las personas asalariadas y del sector público responde «No lo sé» en el tramo de IRPF.
 
 Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Si uno gana para casi cualquier perfil, la clasificación o el método empujan hacia él. Se publica tal cual sale.
 

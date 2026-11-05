@@ -11,14 +11,14 @@
 <meta property="og:locale" content="es_ES">
 <meta property="og:url" content="https://www.votarbien.info/">
 <meta property="og:title" content="¿A quién te conviene votar?">
-<meta property="og:description" content="Tú madrugas, trabajas y pagas tus impuestos. Ellos votan leyes. Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.">
+<meta property="og:description" content="Tú madrugas, trabajas y pagas tus impuestos. Quienes te representan votan leyes. Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.">
 <meta property="og:image" content="https://www.votarbien.info/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta property="og:image:alt" content="¿A quién te conviene votar? Mira qué votó cada partido con tu sueldo, tu casa y tu familia. Lo que votaron.">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="¿A quién te conviene votar?">
-<meta name="twitter:description" content="Tú madrugas, trabajas y pagas tus impuestos. Ellos votan leyes. Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.">
+<meta name="twitter:description" content="Tú madrugas, trabajas y pagas tus impuestos. Quienes te representan votan leyes. Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.">
 <meta name="twitter:image" content="https://www.votarbien.info/og.png">
 <meta name="twitter:image:alt" content="¿A quién te conviene votar? Mira qué votó cada partido con tu sueldo, tu casa y tu familia. Lo que votaron.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23AA151B'/%3E%3Crect y='8' width='32' height='16' fill='%23F1BF00'/%3E%3Cpath d='m9 16.5 5 5 9-10' fill='none' stroke='%231d1600' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
@@ -687,7 +687,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
     <div>
       <span class="kicker"><i aria-hidden="true"></i><span id="eyebrow">Datos oficiales</span></span>
       <h1>¿A quién te <em>conviene</em> votar?</h1>
-      <p class="lede">Tú madrugas, trabajas y pagas tus impuestos. <b>Ellos votan leyes.</b> Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.</p>
+      <p class="lede">Tú madrugas, trabajas y pagas tus impuestos. <b>Quienes te representan votan leyes.</b> Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="#filters" id="intro-cta">Descubre quién defendió tu bolsillo <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <a class="btn btn-ghost" href="#metodologia"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>¿De dónde salen los datos?</a>
@@ -704,7 +704,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
       <ul class="trust" role="list">
         <li><svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg>Leyes y votos reales, de fuentes oficiales: Congreso y Parlamento Europeo</li>
         <li><svg class="ico" aria-hidden="true"><use href="#i-chart"/></svg>Cada nota es trazable: ves cuánto suma o resta cada ley</li>
-        <li><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Qué leyes te afectan: lo hemos clasificado nosotros, con ayuda de IA, y puedes revisarlo ley a ley</li>
+        <li><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Qué leyes te afectan: lo hemos clasificado en este proyecto, con ayuda de IA, y puedes revisarlo ley a ley</li>
         <li><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>Lo que marcas no sale de tu móvil ni de tu ordenador</li>
       </ul>
       <p class="promise">Tu voto es tuyo. <span>Aquí nadie te dice a quién votar: te enseñamos lo que votaron.</span></p>
@@ -779,7 +779,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
         <h3 id="fc-quien"><svg class="ico" aria-hidden="true"><use href="#i-user"/></svg>Quién hace esto</h3>
         <p>Pablo Carcaba y Nacho Rodríguez. Sin vínculos con partidos políticos ni financiación.</p>
         <ul class="flinks" role="list">
-          <li><a href="#quienes">Más sobre nosotros</a></li>
+          <li><a href="#quienes">Quiénes somos</a></li>
           <li><a href="https://github.com/pablocarcaba/vota-bien/issues" target="_blank" rel="noopener">Avísanos de un error en GitHub<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
         </ul>
       </section>
@@ -820,16 +820,16 @@ const CACHE = {};
 const CATS = [
   // Ciudadanía general y consumo: rasgos comunes a todo el mundo, activos por defecto (casillas junto al ranking)
   {id:'ciu', name:'Todos', multi:true, opts:[['ciud','Ciudadanía general']]},
-  {id:'cons', name:'Consumo', multi:true, opts:[['cons','Consumidor y usuario']]},
+  {id:'cons', name:'Consumo', multi:true, opts:[['cons','Persona consumidora y usuaria']]},
   // paso 1: tú y tu familia. Hombre/Mujer se excluyen entre sí; LGTBI+ (paso 4) va aparte y se combina con cualquiera de los dos
   {id:'edad', name:'Edad', pre:'Edad: ', opts:[['jovenes','Hasta 35 años'],['adultos','36–64 años'],['mayores','65 años o más']]},
-  {id:'hij', name:'Hijos menores a cargo', pre:'Hijos: ', opts:[['hij0','Ninguno'],['hij1','1'],['hij2','2'],['hij3','3 o más (familia numerosa)']]},
+  {id:'hij', name:'Hijas e hijos menores a cargo', pre:'Hijas e hijos: ', opts:[['hij0','Ninguno'],['hij1','1'],['hij2','2'],['hij3','3 o más (familia numerosa)']]},
   {id:'sexo', name:'Sexo', multi:true, excl:['hombres','mujeres'], opts:[['hombres','Hombre'],['mujeres','Mujer']]},
   {id:'civ', name:'Estado civil', pre:'Estado civil: ', opts:[['civSol','Soltero/a'],['civPar','Casado/a o pareja de hecho'],['civSep','Separado/a o divorciado/a'],['civViu','Viudo/a']]},
   {id:'car', name:'Personas a cargo', multi:true, opts:[['cuid','Cuido de una persona dependiente']]},
   // paso 2: subpreguntas de «¿De qué vives?» y la ayuda social
   {id:'asal', name:'Tramo de IRPF', opts:[['asal1','Hasta 12.450 €'],['asal2','12.450–20.200 €'],['asal3','20.200–35.200 €'],['asal4','35.200–60.000 €'],['asal5','60.000–300.000 €'],['asal6','Más de 300.000 €']]},
-  {id:'fun', name:'Subgrupo de funcionario', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
+  {id:'fun', name:'Subgrupo en la función pública', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
   {id:'pro', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]},
   {id:'emp', name:'Tamaño de tu empresa · facturación anual', opts:[['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
   {id:'sec', name:'Sector de tu negocio', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones'],['secSoc','Sanidad, educación y cuidados privados']]},
@@ -842,19 +842,19 @@ const CATS = [
   {id:'prop', name:'Ahorros e inversiones, sin contar tu casa', pre:'Otro patrimonio ', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
   // paso 4 (opcional): datos sensibles, que no viajan en los enlaces (PRIVADO)
   {id:'ori', name:'Orientación o identidad', multi:true, opts:[['lgtbi','LGTBI+']]},
-  {id:'soc', name:'Tu salud y tu situación', multi:true, opts:[['pac','Paciente o enfermo crónico'],['depend','Persona dependiente (con grado reconocido)'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante (extranjero que vive en España)'],['minorias','Minoría étnica o religiosa (p. ej., etnia gitana)'],['victimas','Víctima de violencia, terrorismo, catástrofe o accidente']]},
+  {id:'soc', name:'Tu salud y tu situación', multi:true, opts:[['pac','Paciente o persona con enfermedad crónica'],['depend','Persona dependiente (con grado reconocido)'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante (persona extranjera que vive en España)'],['minorias','Minoría étnica o religiosa (p. ej., etnia gitana)'],['victimas','Víctima de violencia, terrorismo, catástrofe o accidente']]},
   // se deducen de las respuestas del asistente (deriva()); no son botones del formulario
-  {id:'aut', name:'Autónomos', opts:[['empAut','Autónomos']]},
+  {id:'aut', name:'Trabajo autónomo', opts:[['empAut','Trabajo autónomo']]},
   {id:'est', name:'Estudiantes', opts:[['estud','Estudiante (de cualquier nivel)']]},
   {id:'vivn', name:'Viviendas en propiedad', pre:'Viviendas: ', opts:[['viv0','Ninguna'],['viv1','Una, la habitual'],['viv2','Dos o más']]},
-  {id:'vivs', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler'],['casero','Alquilo una vivienda a otros']]}
+  {id:'vivs', name:'Hipoteca y alquiler', multi:true, opts:[['hipot','Con hipoteca'],['inq','Vivo de alquiler'],['casero','Alquilo una vivienda a otras personas']]}
 ];
 // rasgos del perfil que activan colectivos de la clasificación
 const IMPLICA = {hij1:['infancia'], hij2:['infancia'], hij3:['infancia'], cuid:['depend']};
 const SIN_PAREJA = ['civSol','civSep','civViu'], CON_HIJOS = ['hij1','hij2','hij3'];
-const PRE = {asal:'IRPF ', fun:'Funcionario ', pen:'Pensión '};
-const LABEL = {infancia:'Familia con hijos menores', monop:'Familia monoparental'};
-const LABEL_DEDUCIDO = {infancia:'Familia con hijos menores', monop:'Familia monoparental', depend:'Dependencia de un familiar'};
+const PRE = {asal:'IRPF ', fun:'Función pública ', pen:'Pensión '};
+const LABEL = {infancia:'Familia con hijas o hijos menores', monop:'Familia monoparental'};
+const LABEL_DEDUCIDO = {infancia:'Familia con hijas o hijos menores', monop:'Familia monoparental', depend:'Dependencia de un familiar'};
 CATS.forEach(c=>c.opts.forEach(([k,v])=>{ const pre=c.pre||PRE[c.id]||''; LABEL[k]=pre+(pre&&/^[A-ZÁÉÍÓÚ][a-záéíóúñ]/.test(v)?v[0].toLowerCase()+v.slice(1):v); }));
 const CAT_OF = {}; CATS.forEach(c=>c.opts.forEach(([k])=>CAT_OF[k]=c));
 // «No lo sé» en el tramo de IRPF (respuesta asalNs): cuenta como asalariado sin tramo concreto. Le aplican las leyes que
@@ -872,7 +872,7 @@ const asalariado = () => tiene('trAjena') || tiene('trFun');
 // tiene una vivienda en la que no vive (y que podría alquilar)
 const tieneOtra = () => tiene('nv2') || (tiene('nv1') && !tiene('vdPropia'));
 const PASOS = [
-  {t:'Tú y tu familia', d:'Tu edad y si tienes hijos. Si quieres, también tu sexo, tu estado civil y si cuidas de alguien.', q:[
+  {t:'Tú y tu familia', d:'Tu edad y si tienes hijas o hijos. Si quieres, también tu sexo, tu estado civil y si cuidas de alguien.', q:[
     {id:'edad', cat:'edad', req:true},
     {id:'hij', cat:'hij', req:true},
     // «sub»: subbloque de preguntas opcionales, agrupado tras las obligatorias
@@ -880,7 +880,7 @@ const PASOS = [
     {id:'civ', cat:'civ', sub:'Si quieres (opcional)'},
     {id:'car', cat:'car', sub:'Si quieres (opcional)'}]},
   {t:'Trabajo e ingresos', d:'¿De qué vives? Marca todo lo que te aplique y solo te preguntaremos lo que haga falta.', q:[
-    {id:'sit', name:'¿De qué vives?', req:true, multi:true, none:'trNada', ui:[['trAjena','Trabajo por cuenta ajena','Cuenta ajena'],['trFun','Soy funcionario o empleado público','Funcionario o empleado público'],['trAut','Soy autónomo','Autónomo'],['trEmp','Tengo una empresa','Empresa propia'],['trPen','Cobro pensión','Pensionista'],['trParo','Estoy en paro','En paro'],['trEst','Estudio','Estudiante'],['trNada','Ninguna de estas','Ninguna de estas situaciones']]},
+    {id:'sit', name:'¿De qué vives?', req:true, multi:true, none:'trNada', ui:[['trAjena','Trabajo por cuenta ajena','Cuenta ajena'],['trFun','Trabajo en la función pública o el sector público','Empleo público'],['trAut','Trabajo por cuenta propia (autónomo/a)','Trabajo autónomo'],['trEmp','Tengo una empresa','Empresa propia'],['trPen','Cobro pensión','Pensionista'],['trParo','Estoy en paro','En paro'],['trEst','Estudio','Estudiante'],['trNada','Ninguna de estas','Ninguna de estas situaciones']]},
     // «No lo sé» es una respuesta de interfaz (no entra en state.sel): rasgos() la convierte en el rasgo asalNs (ver impNs)
     {id:'asal', cat:'asal', req:true, si:asalariado, ui:[['asalNs','No lo sé','IRPF: no lo sé']]},
     {id:'fun', cat:'fun', req:true, si:()=>tiene('trFun')},
@@ -894,7 +894,7 @@ const PASOS = [
     {id:'donde', name:'¿Dónde vives?', req:true, ui:[['vdPropia','En casa propia','Vivo en casa propia'],['vdAlq','De alquiler','Vivo de alquiler'],['vdFam','Con mi familia u otra situación','Vivo con mi familia u otra situación']]},
     {id:'nviv', name:'¿Cuántas viviendas tienes en propiedad, en total?', req:true, ui:[['nv0','Ninguna','Ninguna vivienda en propiedad'],['nv1','1','1 vivienda en propiedad'],['nv2','2 o más','2 o más viviendas en propiedad']], off:k=>k==='nv0'&&tiene('vdPropia')?'Vives en una propia':''},
     // solo quien alquila es casero: tener una segunda vivienda (de vacaciones, del pueblo, vacía) no lo hace arrendador
-    {id:'alq', name:'¿Alquilas alguna de tus viviendas a otras personas?', req:true, ui:[['alqSi','Sí','Alquilo una vivienda a otros'],['alqNo','No','No alquilo ninguna vivienda']], si:tieneOtra},
+    {id:'alq', name:'¿Alquilas alguna de tus viviendas a otras personas?', req:true, ui:[['alqSi','Sí','Alquilo una vivienda a otras personas'],['alqNo','No','No alquilo ninguna vivienda']], si:tieneOtra},
     {id:'hip', name:'¿Tienes hipoteca?', req:true, ui:[['hipSi','Sí','Con hipoteca'],['hipNo','No','Sin hipoteca']], si:()=>tiene('nv1')||tiene('nv2')},
     {id:'prop', cat:'prop', req:true},
     {id:'rur', cat:'rur'}]},
@@ -941,13 +941,13 @@ const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null, hideFe
 // línea de ayuda de cada categoría: a quién le toca y qué marcar
 const CAT_NOTE = {
   edad:'Tu tramo de edad actual. Solo uno.',
-  hij:'Hijos menores de edad que viven contigo o que mantienes.',
+  hij:'Hijas e hijos menores de edad que viven contigo o que mantienes.',
   ori:'Márcalo solo si te identificas como LGTBI+.',
   civ:'Sirve para las leyes de viudedad, divorcio y familias monoparentales.',
   car:'Márcalo si cuidas en casa de un familiar dependiente.',
   sit:'Puedes marcar varias: por ejemplo, si trabajas y estudias.',
-  asal:'Mira la base liquidable de tu declaración de la renta: suele ser bastante menor que tu sueldo bruto. Si no la sabes, marca «No lo sé»: contarás como asalariado sin tramo concreto. Te aplicarán las leyes que afectan a 3 o más de los 6 tramos, como las generales de trabajo, y no las que solo afectan a 1 o 2.',
-  fun:'Tu subgrupo como funcionario.',
+  asal:'Mira la base liquidable de tu declaración de la renta: suele ser bastante menor que tu sueldo bruto. Si no la sabes, marca «No lo sé»: contarás como persona asalariada sin tramo concreto. Te aplicarán las leyes que afectan a 3 o más de los 6 tramos, como las generales de trabajo, y no las que solo afectan a 1 o 2.',
+  fun:'Tu subgrupo en la función pública.',
   pro:'Si trabajas en alguno de estos servicios públicos. Puedes marcar varios.',
   emp:'Por facturación anual.',
   sec:'El sector de tu negocio. Puedes marcar varios.',
@@ -1601,7 +1601,7 @@ function ajustarEl(){
   const d=el('details',{class:'ajustar'}); if(state.ajOpen) d.open=true;
   d.addEventListener('toggle',()=>{ state.ajOpen=d.open; });
   const eu = europeas(), hayRDL = !eu && ITEMS.some(it=>it.k==='Real decreto-ley');
-  const res = [state.sel.has('ciud')?'leyes de todos: sí':'leyes de todos: no', state.sel.has('cons')?'consumo: sí':'consumo: no', state.hideFew?'ocultos los de pocos datos':'', hayRDL&&state.sinRDL?'sin decretos-ley':''].filter(Boolean).join(' · ');
+  const res = [state.sel.has('ciud')?'leyes comunes: sí':'leyes comunes: no', state.sel.has('cons')?'consumo: sí':'consumo: no', state.hideFew?'ocultos los de pocos datos':'', hayRDL&&state.sinRDL?'sin decretos-ley':''].filter(Boolean).join(' · ');
   d.appendChild(el('summary',{'data-k':'aj-s'}, `<span class="gi" aria-hidden="true"><svg class="ico"><use href="#i-sliders"/></svg></span><span class="gt">Ajustar el ranking<small>${esc(res.charAt(0).toUpperCase()+res.slice(1))}</small></span><span class="chev" aria-hidden="true"></span>`));
   const b=el('div',{class:'aj-b'});
   b.appendChild(el('p',{class:'legend'},'<span><i class="c-pos"></i>Votó a tu favor: sube la nota</span><span><i class="c-neg"></i>Votó en tu contra: la baja</span><span>Una gran reforma pesa como 9 leyes menores; una ley relevante, como 3.</span>'));
@@ -1610,7 +1610,7 @@ function ajustarEl(){
     i.checked=on; i.addEventListener('change',()=>fn(i.checked)); w.appendChild(i);
     t.appendChild(el('label',{for:id},esc(txt))); t.appendChild(el('small',{id:id+'-d'},desc)); w.appendChild(t); b.appendChild(w); };
   // «Ciudadanía general» y consumo son interruptores del cálculo, no rasgos del perfil
-  caja('ciu-chk','Incluir leyes que afectan a todos','IVA y otros impuestos que paga todo el mundo, sanidad, medio ambiente, servicios públicos. <a href="#metodologia">Qué se cuenta aquí</a>', state.sel.has('ciud'), v=>{ if(v) state.sel.add('ciud'); else state.sel.delete('ciud'); render(); });
+  caja('ciu-chk','Incluir leyes que afectan a todo el mundo','IVA y otros impuestos que paga todo el mundo, sanidad, medio ambiente, servicios públicos. <a href="#metodologia">Qué se cuenta aquí</a>', state.sel.has('ciud'), v=>{ if(v) state.sel.add('ciud'); else state.sel.delete('ciud'); render(); });
   caja('cons-chk','Incluir leyes de consumo: luz, gas, banca, telefonía, transporte','Te afectan como cliente, como a casi todo el mundo. <a href="#metodologia">Qué se cuenta aquí</a>', state.sel.has('cons'), v=>{ if(v) state.sel.add('cons'); else state.sel.delete('cons'); render(); });
   if(hayRDL) caja('rdl-chk','Excluir los reales decretos-ley','Los aprueba el Gobierno y el Congreso los convalida. Desactivado por defecto: con la casilla marcada, no cuentan en ninguna nota.', !!state.sinRDL, v=>{ state.sinRDL=v; state.anim=true; render(); });
   if(propio()) caja('few-chk','Ocultar partidos con menos de 3 leyes que te afecten','Solo oculta filas: no cambia ninguna nota.', state.hideFew, v=>{ state.hideFew=v; try{ localStorage.setItem('ocultarPocos', v?'1':'0'); }catch(e){} render(); });
@@ -1720,7 +1720,7 @@ function calcBox(x){
       <div><dt>Total</dt><dd>${nf(x.W)}<small>${pl(x.rel,'ley cuenta','leyes cuentan')}<span class="pru">+ ${K} de prudencia</span></small></dd></div>
     </dl>
     <p class="calc-f"><span>(a favor − en contra) ÷ (total + ${K}) × 100</span>(${nf(x.Sp)} − ${nf(x.Sn)}) ÷ (${nf(x.W)} + ${K}) × 100 ${exacto?'=':'≈'} <b>${x.s>0?'+':''}${x.s}</b></p>
-    <p class="calc-note">Sumamos ${K} puntos neutros, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema. Cada ley aporta su alcance (×1 menor, ×3 relevante, ×9 gran reforma), a la mitad si solo te afecta como ciudadano o consumidor, multiplicado por la fuerza de la prueba (1 votación final o convalidación, 0,5 toma en consideración o totalidad, 0,25 solo presentada). Las mixtas suman al total, pero no suman ni restan; igual que las votaciones clave en las que el partido tenía escaño y no votó, para que faltar no puntúe mejor que votar. Las iniciativas con el mismo contenido (la misma proposición presentada varias veces, o un real decreto-ley y el proyecto de ley que procede de él) cuentan una sola vez, con la mejor prueba de su postura. Abajo, con «Todos los efectos», tienes la aportación de cada ley: suman exactamente estas cifras.${exacto?'':' La nota se redondea al entero más próximo.'}</p>`;
+    <p class="calc-note">Sumamos ${K} puntos neutros, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema. Cada ley aporta su alcance (×1 menor, ×3 relevante, ×9 gran reforma), a la mitad si solo te afecta como parte de la ciudadanía o como persona consumidora, multiplicado por la fuerza de la prueba (1 votación final o convalidación, 0,5 toma en consideración o totalidad, 0,25 solo presentada). Las mixtas suman al total, pero no suman ni restan; igual que las votaciones clave en las que el partido tenía escaño y no votó, para que faltar no puntúe mejor que votar. Las iniciativas con el mismo contenido (la misma proposición presentada varias veces, o un real decreto-ley y el proyecto de ley que procede de él) cuentan una sola vez, con la mejor prueba de su postura. Abajo, con «Todos los efectos», tienes la aportación de cada ley: suman exactamente estas cifras.${exacto?'':' La nota se redondea al entero más próximo.'}</p>`;
   return box;
 }
 // iniciativa del propio Gobierno (proyecto de ley o real decreto-ley): el autor viene en los datos (campo a)
@@ -2035,7 +2035,7 @@ function itemRow(it, color, who, ev){
     mid.appendChild(el('p',{class:'why'}, `<span class="orig cp"><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Clasificación propia</span>Ley ómnibus: cada medida se clasifica por separado y solo cuentan las que te afectan, con su peso.`));
     mid.appendChild(ul);
   }
-  const alcance = (PESO_TXT[efecto(it).w]||'Ley menor')+' (×'+wOf(it)+')'+(it.m?', la mayor de las medidas que te afectan':'')+(soloComun(it)?`, ×${nf(F_COMUN)} por afectarte solo como ciudadano o consumidor`:'');
+  const alcance = (PESO_TXT[efecto(it).w]||'Ley menor')+' (×'+wOf(it)+')'+(it.m?', la mayor de las medidas que te afectan':'')+(soloComun(it)?`, ×${nf(F_COMUN)} por afectarte solo como parte de la ciudadanía o como persona consumidora`:'');
   mid.appendChild(el('p',{class:'why'}, `<span class="orig cp"><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Clasificación propia</span>${esc(why)}${why&&!/[.\s]$/.test(why)?'.':''} Alcance: ${esc(alcance.toLowerCase())}.`));
   // ficha de un partido: aportación exacta de esta ley a su nota (evidence() × wEf())
   if(who && ev){
@@ -2076,7 +2076,7 @@ function renderMethod(){
     <p class="lead">Sin letra pequeña: así sale cada nota, en tres pasos.</p>
     <p class="mver"><span>${esc(RUBRICA_TXT)}${rubDe(state.ds) && RUB_ULT && rubDe(state.ds).version!==RUB_ULT.version ? ` · esta legislatura sigue con la ${esc(rubTxt(rubDe(state.ds)).replace('Rúbrica ','rúbrica '))}` : ''}</span> <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
     <ol class="tldr" role="list">
-      <li><span class="n" aria-hidden="true">1</span><b>Miramos a quién afecta cada ley</b><span class="d">Clasificamos cada ley y propuesta por los colectivos a los que beneficia o perjudica. Lo hemos hecho nosotros, con ayuda de IA, así que puede haber errores.</span></li>
+      <li><span class="n" aria-hidden="true">1</span><b>Miramos a quién afecta cada ley</b><span class="d">Clasificamos cada ley y propuesta por los colectivos a los que beneficia o perjudica. Lo hemos hecho en este proyecto, con ayuda de IA, así que puede haber errores.</span></li>
       <li><span class="n" aria-hidden="true">2</span><b>Miramos cómo votó cada partido</b><span class="d">Cuenta sobre todo el voto en el Pleno. Lo que un partido solo presentó, sin llegar a votarlo, pesa poco.</span></li>
       <li><span class="n" aria-hidden="true">3</span><b>Sumamos lo bueno y restamos lo malo</b><span class="d">Lo que va a tu favor suma y lo que va en tu contra resta. Las grandes reformas pesan más que las leyes menores. Y sumamos 9 puntos neutros de prudencia, para que con pocas leyes no salga una nota extrema. La nota va de −100 a +100.</span></li>
     </ol>
@@ -2086,8 +2086,8 @@ function renderMethod(){
       <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-landmark"/></svg></span><b>Fuente oficial</b><span class="d">${DATA.meta.formato==='europarlamento'
         ? `Títulos y fechas, de los <a href="https://data.europarl.europa.eu" target="_blank" rel="noopener">datos abiertos del Parlamento Europeo${NUEVA}</a>. Votos, de las votaciones nominales del Pleno: actas oficiales del Parlamento, recopiladas por <a href="https://howtheyvote.eu" target="_blank" rel="noopener">HowTheyVote.eu${NUEVA}</a> en las legislaturas 9.ª y 10.ª.`
         : `Leyes, autores, fechas y votaciones del Pleno, de los <a href="https://www.congreso.es/es/opendata" target="_blank" rel="noopener">datos abiertos del Congreso de los Diputados${NUEVA}</a>.`}</span></li>
-      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-download"/></svg></span><b>Datos descargados</b><span class="d">Un fichero por legislatura, el mismo que carga esta página, con el voto de cada partido ya agregado (el voto mayoritario de sus diputados presentes). <span class="dlinks">${jsonLink()}</span></span></li>
-      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-scale"/></svg></span><b>Clasificación pública en GitHub</b><span class="d">A quién afecta cada ley y su alcance lo clasificamos nosotros, con ayuda de IA y una rúbrica pública. Puede tener errores: está a la vista para que la revises ley a ley. <a href="${REPO}/tree/main/data/clasificacion" target="_blank" rel="noopener">Ver la clasificación${NUEVA}</a> · <a href="${REPO}/blob/main/data/clasificacion/RUBRICA.md" target="_blank" rel="noopener">Ver la rúbrica${NUEVA}</a> <span class="dlinks">${histLink()}</span></span></li>
+      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-download"/></svg></span><b>Datos descargados</b><span class="d">Un fichero por legislatura, el mismo que carga esta página, con el voto de cada partido ya agregado (el voto mayoritario de sus diputadas y diputados presentes). <span class="dlinks">${jsonLink()}</span></span></li>
+      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-scale"/></svg></span><b>Clasificación pública en GitHub</b><span class="d">A quién afecta cada ley y su alcance lo clasificamos en este proyecto, con ayuda de IA y una rúbrica pública. Puede tener errores: está a la vista para que la revises ley a ley. <a href="${REPO}/tree/main/data/clasificacion" target="_blank" rel="noopener">Ver la clasificación${NUEVA}</a> · <a href="${REPO}/blob/main/data/clasificacion/RUBRICA.md" target="_blank" rel="noopener">Ver la rúbrica${NUEVA}</a> <span class="dlinks">${histLink()}</span></span></li>
       <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-code"/></svg></span><b>Cálculo en tu navegador</b><span class="d">La nota se calcula en tu dispositivo, con el código de esta misma página: sin servidor y sin enviar nada. El código es abierto. <span class="dlinks">${repoLink('Ver el código en GitHub')}</span></span></li>
       <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span><b>Desglose ley a ley</b><span class="d">En la ficha de cada partido ves la fórmula de su nota y cuánto suma o resta cada ley, con su votación, su alcance y la fuerza de la prueba. Las aportaciones cuadran con la nota.</span></li>
     </ol>
@@ -2098,7 +2098,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <h3>Autoría</h3>
     <p>En la Unión Europea las propuestas legislativas las presenta la Comisión Europea (${esc(DATA.meta.gobierno)}); los partidos no presentan leyes, así que el ranking se basa solo en cómo votaron.</p>
     <h3>Votaciones</h3>
-    <p>Para cada procedimiento se toma una votación clave del Pleno: la del acuerdo con el Consejo o la resolución legislativa final (no las enmiendas ni la apertura de negociaciones). ${nv} procedimientos tienen votación clave. Solo se muestran los eurodiputados españoles, agrupados por su partido nacional en la fecha de cada votación; el voto de un partido es el voto mayoritario de sus eurodiputados presentes. Los independientes no se cuentan. Si ninguno de sus eurodiputados vota en esa votación, el partido no vota: la ley cuenta en el total de su nota sin sumar ni restar (como una mixta), para que faltar no puntúe mejor que votar; si aún no tenía escaño, no cuenta. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
+    <p>Para cada procedimiento se toma una votación clave del Pleno: la del acuerdo con el Consejo o la resolución legislativa final (no las enmiendas ni la apertura de negociaciones). ${nv} procedimientos tienen votación clave. Solo se muestran las eurodiputadas y los eurodiputados de España, agrupados por su partido nacional en la fecha de cada votación; el voto de un partido es el voto mayoritario de sus eurodiputadas y eurodiputados presentes. No se cuentan quienes son independientes. Si no vota nadie de su delegación en esa votación, el partido no vota: la ley cuenta en el total de su nota sin sumar ni restar (como una mixta), para que faltar no puntúe mejor que votar; si aún no tenía escaño, no cuenta. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
     <p class="small">Datos de votaciones: HowTheyVote.eu, a partir de las listas oficiales de votación nominal; títulos y fechas: datos abiertos del Parlamento Europeo.</p>
 ` : `    <h3>Qué iniciativas incluye</h3>
     <p>${ITEMS.length} iniciativas presentadas ${esc(DATA.meta.periodo)}: ${kinds['Proyecto de ley']||0} proyectos de ley del Gobierno, ${kinds['Real decreto-ley']||0} reales decretos-ley y ${kinds['Proposición de ley']||0} proposiciones de ley de los grupos, del Senado, de parlamentos autonómicos e iniciativa popular. Se cuentan todas, se aprobaran o no.</p>
@@ -2106,18 +2106,18 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>Los proyectos de ley y los reales decretos-ley figuran como del Gobierno (${esc(DATA.meta.gobierno)}). Una proposición firmada por varios grupos cuenta para cada uno. El Congreso publica como autor al Grupo Mixto sin indicar el partido, por lo que esas proposiciones aparecen como Grupo Mixto salvo cuando se ha podido identificar el partido. Las del Senado, parlamentos autonómicos e iniciativa popular no se atribuyen a ningún partido.</p>
     <h3>Votaciones</h3>
     <p>Para cada iniciativa se toma una votación clave del Pleno, por este orden de preferencia: votación final (de conjunto o del dictamen), convalidación del real decreto-ley, toma en consideración y enmienda a la totalidad. En las enmiendas a la totalidad, votar sí equivale a oponerse a la ley, y se interpreta así. ${nv} iniciativas tienen votación clave en el Pleno; el resto no llegó a votarse en Pleno o se aprobó en comisión.</p>
-    <p>El voto de un partido es el voto mayoritario de sus diputados presentes. Para ${esc(DATA.meta.nominal_txt)}, se usa el voto nominal de sus diputados. Los diputados no adscritos no se cuentan. Si ninguno de sus diputados vota en esa votación, el partido no vota: la ley cuenta en el total de su nota sin sumar ni restar (como una mixta), para que faltar no puntúe mejor que votar; si aún no tenía escaño, no cuenta. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
+    <p>El voto de un partido es el voto mayoritario de sus diputadas y diputados presentes. Para ${esc(DATA.meta.nominal_txt)}, se usa el voto nominal de cada escaño. No se cuentan quienes no están adscritos a un grupo. Si no vota nadie de su grupo en esa votación, el partido no vota: la ley cuenta en el total de su nota sin sumar ni restar (como una mixta), para que faltar no puntúe mejor que votar; si aún no tenía escaño, no cuenta. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
 `}    <h3>Clasificación de impactos</h3>
     <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su texto oficial: el publicado en el Boletín Oficial de las Cortes Generales (BOCG) o, en los reales decretos-ley, que no pasan por el BOCG, el del Boletín Oficial del Estado (BOE); en el Parlamento Europeo, el texto aprobado. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
-    <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. También recoge lo público frente a lo privado: lo de titularidad o gestión pública es patrimonio de todos, así que las leyes que lo amplían (nacionalizaciones, gestión pública de la sanidad, reversión de concesiones) benefician a la ciudadanía y perjudican al sector privado afectado, y las que lo traspasan a empresas (privatizaciones, externalizaciones, liberalizaciones) hacen lo contrario. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
-    <p>«Consumidor y usuario» recoge las leyes que te afectan como cliente: luz, gas, banca, telefonía, transporte o compras. Como casi todo el mundo es consumidor, también está activa por defecto en todos los perfiles; puedes quitarla con la casilla «Incluir leyes de consumo», junto al ranking.</p>
-    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las de okupación, IBI o segundas residencias afectan a quien tiene dos o más), hipoteca, si vives de alquiler y si alquilas una vivienda a otros (las leyes sobre el arrendador solo afectan a quien alquila); otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte. Si en el tramo de IRPF marcas «No lo sé», cuentas como asalariado sin tramo concreto: te aplican las leyes que afectan a 3 o más de los 6 tramos, con su efecto, y no las que afectan solo a 1 o 2.</p>
+    <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. También recoge lo público frente a lo privado: lo de titularidad o gestión pública es patrimonio común, así que las leyes que lo amplían (nacionalizaciones, gestión pública de la sanidad, reversión de concesiones) benefician a la ciudadanía y perjudican al sector privado afectado, y las que lo traspasan a empresas (privatizaciones, externalizaciones, liberalizaciones) hacen lo contrario. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
+    <p>«Persona consumidora y usuaria» recoge las leyes que te afectan como cliente: luz, gas, banca, telefonía, transporte o compras. Como casi todo el mundo consume, también está activa por defecto en todos los perfiles; puedes quitarla con la casilla «Incluir leyes de consumo», junto al ranking.</p>
+    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las de okupación, IBI o segundas residencias afectan a quien tiene dos o más), hipoteca, si vives de alquiler y si alquilas una vivienda a otros (las leyes sobre la parte arrendadora solo afectan a quien alquila); otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con el trabajo autónomo aparte. Si en el tramo de IRPF marcas «No lo sé», cuentas como persona asalariada sin tramo concreto: te aplican las leyes que afectan a 3 o más de los 6 tramos, con su efecto, y no las que afectan solo a 1 o 2.</p>
     <h3>Alcance de cada iniciativa</h3>
     <p>Cada iniciativa tiene un alcance: gran reforma (cambia de forma estructural un ámbito que afecta a millones de personas, como una reforma laboral, de pensiones o unos presupuestos), ley relevante (regula de forma sustantiva un sector, un colectivo amplio o un derecho) o ley menor o técnica. Mide el tamaño de la norma, no si es buena o mala ni si se aprobó, y forma parte de la misma clasificación interpretativa.</p>
     <h3>Cómo se calcula el ranking</h3>
-    <p>Tu perfil son los rasgos que marcas en los 4 pasos, los que se deducen de tus respuestas (por ejemplo, vivir de alquiler o tener dos viviendas) y, salvo que las quites, «Ciudadanía general» y «Consumidor y usuario», que están activas por defecto.</p>
+    <p>Tu perfil son los rasgos que marcas en los 4 pasos, los que se deducen de tus respuestas (por ejemplo, vivir de alquiler o tener dos viviendas) y, salvo que las quites, «Ciudadanía general» y «Persona consumidora y usuaria», que están activas por defecto.</p>
     <p>Para cada partido se toman las iniciativas que afectan a tu perfil y se cuenta cada una una sola vez, según la mejor prueba que haya de su postura. Lo que más pesa es cómo votó: votar el texto final o la convalidación de un real decreto-ley cuenta 1; la toma en consideración o una enmienda a la totalidad, 0,5, porque solo decide si se debate. Las iniciativas que el partido presentó pero no llegó a votar en el Pleno cuentan 0,25: presentar una ley cuesta poco y no siempre busca aprobarla. Las abstenciones no cuentan.</p>
-    <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las leyes ómnibus (las que reúnen medidas distintas, como muchos reales decretos-ley) se clasifican medida a medida: solo cuentan las medidas que te afectan, la ley pesa como la mayor de ellas y su efecto es el saldo de esas medidas según su peso; si te afectan dos a favor y una en contra, la ley suma en proporción en vez de quedar como mixta. Las iniciativas con el mismo contenido (la misma proposición presentada varias veces o por varios grupos, o un real decreto-ley y el proyecto de ley que procede de él) cuentan una sola vez por partido, con la mejor prueba de su postura. Si una iniciativa solo te afecta por «Ciudadanía general» o como consumidor, pesa la mitad: así lo que es común a todo el mundo no tapa tus rasgos propios; si además toca algún rasgo tuyo, pesa entera. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. Al total se le suman 9 puntos neutros de prudencia, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema: el saldo es (a favor − en contra) ÷ (total + 9) × 100, de −100 a +100. Con muchas leyes la prudencia apenas cuenta; con pocas, acerca la nota a 0. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ (12 + 9) × 100 = +29. Sin la prudencia saldría +50.</p>
+    <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las leyes ómnibus (las que reúnen medidas distintas, como muchos reales decretos-ley) se clasifican medida a medida: solo cuentan las medidas que te afectan, la ley pesa como la mayor de ellas y su efecto es el saldo de esas medidas según su peso; si te afectan dos a favor y una en contra, la ley suma en proporción en vez de quedar como mixta. Las iniciativas con el mismo contenido (la misma proposición presentada varias veces o por varios grupos, o un real decreto-ley y el proyecto de ley que procede de él) cuentan una sola vez por partido, con la mejor prueba de su postura. Si una iniciativa solo te afecta por «Ciudadanía general» o como persona consumidora, pesa la mitad: así lo que es común a todo el mundo no tapa tus rasgos propios; si además toca algún rasgo tuyo, pesa entera. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. Al total se le suman 9 puntos neutros de prudencia, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema: el saldo es (a favor − en contra) ÷ (total + 9) × 100, de −100 a +100. Con muchas leyes la prudencia apenas cuenta; con pocas, acerca la nota a 0. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ (12 + 9) × 100 = +29. Sin la prudencia saldría +50.</p>
     <p>${DATA.meta.formato==='europarlamento' ? 'La Comisión Europea no aparece en el ranking: sus propuestas cuentan a través de cómo las votó cada partido.' : 'El Gobierno no aparece en el ranking: sus proyectos de ley y reales decretos-ley cuentan a través de cómo los votó cada partido.'}</p>
     <p>${DATA.meta.formato==='europarlamento' ? 'Junto al ranking puedes elegir «¿En qué provincia votas?» en las legislaturas del Congreso. En las elecciones europeas no se aplica: España es una circunscripción única y puedes votar a cualquier lista desde cualquier lugar.'
       : 'Con «¿En qué provincia votas?», junto al ranking, ves solo los partidos a los que se puede votar en tu provincia: los de ámbito estatal y los que se presentan en tu provincia o en tu comunidad. El filtro solo oculta filas, como «Ocultar partidos con menos de 3 leyes»: no cambia la nota de nadie, y los puestos se cuentan de nuevo entre los partidos que quedan. Un partido que no esté en el mapa se muestra siempre.'}
@@ -2133,7 +2133,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
       <li>El alcance de cada iniciativa es una estimación en tres niveles; dentro de cada nivel todas pesan igual.</li>
     </ul>
     <h3>Clasificación contrastada (XV)</h3>
-    <p>Las 540 iniciativas de la XV legislatura del Congreso se han clasificado <b>tres veces, de forma independiente</b>, con la rúbrica v3 y con el texto oficial de cada ley publicado en el BOCG. Ninguna lectura vio las otras ni la clasificación anterior. La clasificación que usa la web es la <b>mayoría</b>: un colectivo solo cuenta si lo marcan al menos dos de las tres lecturas. Los lectores son modelos de IA del mismo tipo, no personas, así que no sustituyen a una revisión humana.</p>
+    <p>Las 540 iniciativas de la XV legislatura del Congreso se han clasificado <b>tres veces, de forma independiente</b>, con la rúbrica v3 y con el texto oficial de cada ley publicado en el BOCG. Ninguna lectura vio las otras ni la clasificación anterior. La clasificación que usa la web es la <b>mayoría</b>: un colectivo solo cuenta si lo marcan al menos dos de las tres lecturas. Las lecturas las hacen modelos de IA del mismo tipo, no personas, así que no sustituyen a una revisión humana.</p>
     <p>Las leyes ómnibus del Congreso (las que reúnen medidas distintas) se han releído medida a medida, también tres veces y de forma independiente, con su texto oficial del BOCG o, en los reales decretos-ley, del BOE. Una ley se divide en medidas si así lo deciden al menos dos lecturas, y en cada medida solo cuentan los colectivos que marcan al menos dos.</p>
     <dl class="kpi">
       <div><dt>Lecturas independientes</dt><dd>3</dd></div>
@@ -2144,7 +2144,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>«Signo contrario» quiere decir que una lectura marca que la ley beneficia a un colectivo y otra que lo perjudica. El parecido va de 0 (ningún colectivo en común) a 1 (los mismos colectivos con el mismo efecto). En una primera prueba, con la rúbrica anterior y solo con el título de cada ley, el parecido era de 0,83 y había 3 leyes con signo contrario. Las 108 iniciativas en las que las tres lecturas no coinciden del todo pasan a revisión humana.</p>
     <p class="dlinks">${repoLink('Ver qué cambió en cada ley (GitHub)','/blob/main/data/clasificacion/congreso_xv/lectura_v3/CAMBIOS.md')} ${repoLink('Ver las tres lecturas (GitHub)','/tree/main/data/clasificacion/congreso_xv/lectura_v3')}</p>
     <h3>Prueba de sesgo</h3>
-    <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 20 arquetipos (asalariado con hipoteca, pensionista, autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web (en la muestra aleatoria, el 25 % de los asalariados y funcionarios responde «No lo sé» en el tramo de IRPF), en cada legislatura y pestaña, con y sin «Ciudadanía general» y con «Consumidor» activo, como viene por defecto. Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
+    <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 20 arquetipos (persona asalariada con hipoteca, pensionista, trabajo autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web (en la muestra aleatoria, el 25 % de las personas asalariadas y del sector público responde «No lo sé» en el tramo de IRPF), en cada legislatura y pestaña, con y sin «Ciudadanía general» y con «Consumidor» activo, como viene por defecto. Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
     <p>«Ciudadanía general» cambia mucho el resultado en el Parlamento Europeo:</p>
     <table class="tbl">
       <caption>Parlamento Europeo, leyes económicas: partido que sale primero en más perfiles y en qué porcentaje de ellos</caption>
