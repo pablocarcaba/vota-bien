@@ -183,6 +183,11 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .pchip span{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:color-mix(in srgb,var(--accent) 16%,transparent);font-size:12px;line-height:1}
 .pchip:hover span{background:var(--accent);color:var(--accent-ink)}
 .pans{font-size:13.5px;font-weight:600;color:var(--ink);background:var(--soft);border-radius:999px;padding:6px 13px}
+.pchip.ret,.pans.ret{border:1.5px dashed var(--mix-ink);padding-top:4.5px;padding-bottom:4.5px}
+.pchip.ret>.ico,.pans.ret>.ico{width:14px;height:14px;flex:none;color:var(--mix-ink);margin-right:-2px}
+.pans.ret{display:inline-flex;align-items:center;gap:7px}
+.pretl{flex-basis:100%;display:flex;align-items:flex-start;gap:8px;margin:0;font-size:13.5px;color:var(--ink)}
+.pretl>.ico{width:15px;height:15px;flex:none;color:var(--mix-ink);margin-top:2px}
 .ded{font-size:13px;color:var(--muted);border:1px dashed var(--line);border-radius:999px;padding:5px 11px}
 .profile .actions{margin-left:auto;display:flex;gap:16px}
 .linkbtn{background:none;border:none;padding:0;cursor:pointer;color:var(--accent);font-size:14px;font-weight:600}
@@ -207,6 +212,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .paso::before{content:"";position:absolute;left:21px;top:58px;bottom:2px;width:2px;border-radius:2px;background:var(--line)}
 .paso:last-child::before{display:none}
 .paso.done::before{background:var(--pos)}
+.paso.rev::before{background:var(--mix)}
 .pnum{position:relative;width:44px;height:44px;margin-top:10px;border-radius:50%;display:grid;place-items:center;font:800 20px/1 var(--display);font-variant-numeric:tabular-nums;background:var(--soft);color:var(--muted);border:2px solid var(--line)}
 .paso.cur .pnum{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
 .paso.ok .pnum{background:var(--pos);color:var(--sheet);border-color:var(--pos)}
@@ -221,6 +227,10 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .ptit small{font-family:var(--body);font-weight:500;font-size:13.5px;letter-spacing:0}
 .pst{display:inline-flex;align-items:center;gap:5px;font-size:13.5px;font-weight:600;color:var(--muted)}
 .pst.ok{color:var(--pos-ink)}
+.pst.rev{color:var(--mix-ink)}
+.paso.rev .pcard{border-color:var(--mix)}
+.pret{display:flex;gap:7px;align-items:flex-start;margin:8px 0 0;font-size:13.5px;line-height:1.45;color:var(--ink)}
+.pret .ico{width:16px;height:16px;flex:none;color:var(--mix-ink);margin-top:2px}
 .pst .ico{width:16px;height:16px;stroke-width:3}
 .pcam{margin-left:auto;min-height:44px;padding:0 4px}
 .psum{margin:2px 0 0;font-size:13.5px;color:var(--ink)}
@@ -295,8 +305,11 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .reord>.ico{width:18px;height:18px;flex:none;color:var(--mix-ink);margin-top:2px}
 .reord p{margin:0}
 .reord .linkbtn{min-height:44px}
+.reord .racc{display:flex;flex-wrap:wrap;align-items:center;gap:4px 20px;margin-top:6px}
+.reord .rlib{min-height:44px;padding:10px 16px;border-radius:12px;border:none;cursor:pointer;font:inherit;font-weight:700;background:var(--accent);color:var(--accent-ink)}
+.cstat .lib{display:flex;min-height:44px;margin-top:4px;text-align:left}
 .qsub{margin-top:16px;padding:4px 14px 14px;border:1px dashed var(--line);border-radius:14px;background:color-mix(in srgb,var(--soft) 55%,transparent)}
-.qsubt{margin:10px 0 0;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.qsubt{margin:10px 0 0;font-size:14px;font-weight:700;color:var(--ink)}
 .qsubd{margin:2px 0 0;font-size:13px;color:var(--muted)}
 .qsub .qopt{display:none}
 .donde{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:6px 12px;margin:6px 0 12px;padding:10px 14px;border:1px solid var(--line);border-radius:14px;background:var(--sheet)}
@@ -1093,12 +1106,17 @@ function renderProfile(){
   // Lo deducido de tus respuestas (vivienda, autónomo, estudiante) y de otros rasgos (hijos, dependencia) va junto a su pregunta
   const ded = [...RASGOS].filter(k=>(!state.sel.has(k) || DERIV.includes(k)) && k!=='ciud' && k!=='cons' && k!=='asalNs');
   const pos = k => DED_DE[k] ? (ORDEN[DED_DE[k]]??1e3)+.5 : (ORDEN[k]??1e3);
+  // lo retenido (pasos.ret) lleva candado y borde punteado, y una leyenda visible: aún no va en los enlaces
+  const ret = state.pasos.ret, RET = ' (aún no va en los enlaces)';
   [...['trAjena','asalNs','sexOtro','sexNs'].filter(tiene), ...[...state.sel].filter(k=>esPerfil(k) && !DERIV.includes(k)), ...ded].sort((a,b)=>pos(a)-pos(b)).forEach(k=>p.appendChild(
-    ded.includes(k) ? el('span',{class:'ded',title:'Se deduce de tu perfil'}, '+ '+esc(k==='viv2' && tiene('nv1') ? 'Una vivienda en propiedad en la que no vives' : LABEL_DEDUCIDO[k]||LABEL[k]||k))
+    ret.has(k) && (k==='sexOtro' || k==='sexNs') ? el('span',{class:'pans ret'}, '<svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>'+esc(UI_TXT[k])+'<span class="sr-only">'+RET+'</span>')
+    : ret.has(k) ? el('button',{class:'pchip ret','data-k':'chip-'+k,'aria-label':'Quitar '+LABEL[k]+RET,onclick:()=>quitar(k)}, '<svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>'+esc(LABEL[k])+'<span aria-hidden="true">×</span>')
+    : ded.includes(k) ? el('span',{class:'ded',title:'Se deduce de tu perfil'}, '+ '+esc(k==='viv2' && tiene('nv1') ? 'Una vivienda en propiedad en la que no vives' : LABEL_DEDUCIDO[k]||LABEL[k]||k))
     : k==='trAjena' ? el('span',{class:'pans',title:'Se cambia en el paso 2'}, esc(UI_TXT.trAjena))
     : k==='sexOtro' || k==='sexNs' ? el('span',{class:'pans',title:k==='sexOtro'?'No cambia tu nota y no va en los enlaces':'No cambia tu nota'}, esc(UI_TXT[k]))
     : k==='asalNs' ? el('button',{class:'pchip','data-k':'chip-asalNs','aria-label':'Quitar '+UI_TXT.asalNs,onclick:()=>quitarUi('asalNs')}, esc(UI_TXT.asalNs)+'<span aria-hidden="true">×</span>')
     : el('button',{class:'pchip','data-k':'chip-'+k,'aria-label':'Quitar '+LABEL[k],onclick:()=>quitar(k)}, esc(LABEL[k])+'<span aria-hidden="true">×</span>')));
+  if([...ret].some(marcada)) p.appendChild(el('p',{class:'pretl'}, '<svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg><span>Lo marcado con candado aún no va en los enlaces que compartas.</span>'));
   const act=el('div',{class:'actions'});
   if(propio()) act.appendChild(el('button',{type:'button',class:'linkbtn',onclick:copyLink,id:'copy-btn','data-k':'copy-btn'},'Compartir mi perfil'));
   act.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'borrar-perfil',onclick:borrarRespuestas},'Borrar mis respuestas'));
@@ -1142,13 +1160,16 @@ function copyUrl(b, url){
   let out = ancla.nextElementSibling;
   if(!out || !out.classList.contains('cstat')){ out=el('p',{class:'cstat'}); ancla.after(out); }
   // qué lleva el enlace, siempre: respuestas de los pasos 1 a 3 (sin las retenidas) y la provincia
-  const ret = [...new Set([...state.pasos.ret].sort((a,b)=>(ORDEN[a]??1e3)-(ORDEN[b]??1e3)).map(k=>MOVIDAS_TXT[CAT_OF[k] ? CAT_OF[k].id : 'sexo']))];
+  // lo retenido, agrupado por su paso: «sexo y estado civil (paso 1) y ayuda social (paso 2)»
+  const ret = propio() ? PASOS.map((_,i)=>nombresRet(retPaso(i).filter(marcada))).map((n,i)=>n.length ? yLista(n)+' (paso '+(i+1)+')' : '').filter(Boolean) : [];
   const priv = propio()
     ? ' Lleva tus respuestas de los pasos 1 a '+NOBL+(state.prov?' y tu provincia':'')+'; nunca las del paso '+NPASOS+' ni «Otro» en sexo.'
-      +(ret.length ? ' Aún no lleva lo que marcaste antes en '+ret.join(', ').replace(/, ([^,]*)$/,' ni $1')+': confirma su paso para incluirlo.' : '')
+      +(ret.length ? ' Aún no lleva lo que marcaste antes en '+yLista(ret)+'. Para incluirlo, pulsa «'+LIBERAR+'», debajo, y vuelve a copiarlo.' : '')
     : state.prov ? ' Lleva tu provincia.' : '';
-  const ok = ()=>{ out.textContent='Enlace copiado.'+priv; say('Enlace copiado.'+priv); };
-  const ko = ()=>{ out.textContent='No se ha podido copiar. Copia este enlace:'+priv; const i=el('input',{type:'text',readonly:'',value:url,'aria-label':'Enlace para compartir'}); out.appendChild(i); i.select(); say('No se ha podido copiar el enlace: lo tienes en un campo de texto junto al botón.'); };
+  // botón para incluir lo retenido; tras pulsarlo el foco vuelve a «Compartir mi perfil», para copiar el enlace con todo
+  const lib = ()=>{ if(ret.length) out.appendChild(el('button',{type:'button',class:'linkbtn lib','data-k':'lib-copia',onclick:()=>liberarTodo(true)}, LIBERAR)); };
+  const ok = ()=>{ out.textContent='Enlace copiado.'+priv; lib(); say('Enlace copiado.'+priv); };
+  const ko = ()=>{ out.textContent='No se ha podido copiar. Copia este enlace:'+priv; const i=el('input',{type:'text',readonly:'',value:url,'aria-label':'Enlace para compartir'}); out.appendChild(i); lib(); i.select(); say('No se ha podido copiar el enlace: lo tienes en un campo de texto debajo del botón.'+priv); };
   try{ navigator.clipboard.writeText(url).then(ok,ko); }catch(e){ ko(); }
 }
 // enlace directo a la ficha de un partido (y, si se pide, a una ley): perfil, ciudadanía, dataset y pestaña actuales.
@@ -1184,12 +1205,12 @@ function elegir(q, k){
   const nuevas = cur>=0 ? PASOS[cur].q.filter(x=>visible(x) && !qAntes.includes(x)).map(qName) : [];
   const propias = qOpts(q), quitadas = rAntes.filter(x=>!propias.includes(x) && !state.sel.has(x) && !state.pasos.ui.has(x) && !DERIV.includes(x)).map(x=>UI_TXT[x]||LABEL[x]);
   const msg = [nuevas.length ? (nuevas.length>1?'Nuevas preguntas: ':'Nueva pregunta: ')+nuevas.join(', ')+'.' : '', quitadas.length ? 'Se ha quitado: '+quitadas.join(', ')+'.' : ''].filter(Boolean).join(' ');
-  if(msg) PEND = msg;
+  if(msg) PEND = PEND ? PEND+' '+msg : msg;
   render(); avisaMinimo(antes);
 }
 // quitar un rasgo desde la barra «Tu perfil»
-function quitar(k){ const t=terminado(); state.sel.delete(k); deriva(); avisaQuitado(LABEL[k], t); guardarPasos(); render(); }
-function quitarUi(k){ const t=terminado(); state.pasos.ui.delete(k); deriva(); avisaQuitado(UI_TXT[k], t); guardarPasos(); render(); }
+function quitar(k){ const t=terminado(); state.sel.delete(k); confirma([k]); deriva(); avisaQuitado(LABEL[k], t); guardarPasos(); render(); }
+function quitarUi(k){ const t=terminado(); state.pasos.ui.delete(k); confirma([k]); deriva(); avisaQuitado(UI_TXT[k], t); guardarPasos(); render(); }
 // si al quitarlo el perfil queda incompleto, el ranking desaparece: se dice por qué y qué paso falta (4.1.3)
 function avisaQuitado(nombre, antes){
   ajustaPasos();
@@ -1267,8 +1288,30 @@ function cargarGuardado(g){
   if(g.v>=PASOS_V){ (g.ret||[]).filter(k=>MOVIDAS.has(k)).forEach(k=>P.ret.add(k)); P.aviso = g.aviso===true && P.ret.size>0; }
   else { [...state.sel, ...P.ui].filter(k=>MOVIDAS.has(k)).forEach(k=>P.ret.add(k)); P.aviso = P.ret.size>0; }
 }
-// confirmar una respuesta retenida: tocar su pregunta o pulsar «Continuar» en su paso
-function confirma(keys){ keys.forEach(k=>state.pasos.ret.delete(k)); if(!state.pasos.ret.size) state.pasos.aviso=false; }
+// confirmar una respuesta retenida: tocar su pregunta, pulsar «Continuar» en su paso o «Incluir también estas respuestas…».
+// Lo que pasa a ir en los enlaces se anuncia (PEND), y también si con eso se cierra el aviso
+function confirma(keys){
+  const P=state.pasos, habia=P.aviso && P.ret.size>0;
+  const sale = keys.filter(k=>P.ret.has(k) && marcada(k));
+  keys.forEach(k=>P.ret.delete(k)); if(!P.ret.size) P.aviso=false;
+  if(sale.length) PEND = (PEND?PEND+' ':'')+'Ya se incluyen en los enlaces: '+yLista(nombresRet(sale))+'.'+(habia && !P.aviso ? ' Se ha cerrado el aviso de las preguntas reordenadas.' : '');
+}
+const LIBERAR = 'Incluir también estas respuestas en mis enlaces';
+// decisión explícita: todo lo retenido pasa a los enlaces. Desde la nota de copiar, el foco vuelve a «Compartir mi perfil»
+function liberarTodo(copia){
+  confirma([...state.pasos.ret]); guardarPasos();
+  if(copia) PEND = (PEND?PEND+' ':'')+'Vuelve a pulsar «Compartir mi perfil» para copiar el enlace con todo.';
+  render();
+  const b = copia && $('copy-btn'); (b || $('filters-h')).focus();
+}
+// «a, b y c»
+function yLista(a){ return a.length>1 ? a.slice(0,-1).join(', ')+' y '+a[a.length-1] : a.join(''); }
+// nombre de la pregunta de cada respuesta retenida, sin repetir y en el orden de los pasos («sexo», «estado civil»…)
+function nombresRet(keys){ return [...new Set([...keys].sort((a,b)=>(ORDEN[a]??1e3)-(ORDEN[b]??1e3)).map(k=>MOVIDAS_TXT[CAT_OF[k] ? CAT_OF[k].id : 'sexo']))]; }
+// respuesta marcada, sea colectivo (sel) o de interfaz (ui)
+function marcada(k){ return state.sel.has(k) || state.pasos.ui.has(k); }
+// respuestas retenidas de un paso
+function retPaso(i){ return PASOS[i].q.flatMap(qOpts).filter(k=>state.pasos.ret.has(k)); }
 function avisaMinimo(antes){ if(!antes && minimoActual()) PEND = (PEND?PEND+' ':'')+'Paso '+(state.pasos.cur+1)+' completado. Ya puedes continuar.'; }
 // lleva al título de un paso y lo anuncia
 function irPaso(i){
@@ -1280,6 +1323,8 @@ function continuar(i){
   const P=state.pasos;
   if(!completo(i)) return;
   P.done.add(i); confirma(PASOS[i].q.flatMap(qOpts));
+  const rev = PASOS.findIndex((_,j)=>j!==i && P.done.has(j) && retPaso(j).length);
+  if(rev>=0){ P.cur=rev; guardarPasos(); render(); irPaso(rev); return; }
   const sig = [...PASOS.keys()].find(j=>j>i && !P.done.has(j));
   P.cur = sig!==undefined ? sig : PASOS.findIndex((_,j)=>!P.done.has(j));
   guardarPasos(); render();
@@ -1302,19 +1347,23 @@ function renderFilters(){
     f.appendChild(u);
   }
   // perfil guardado antes del reordenamiento (v10 o anterior): se avisa una vez de qué ha cambiado en los enlaces
-  if(state.pasos.aviso && state.pasos.ret.size){
-    const a=el('div',{class:'reord',role:'note'},'<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg><div><p id="reord-h"><b>Hemos reordenado las preguntas.</b> Sexo, estado civil, cuidados, medio rural y ayuda social ahora van en los pasos 1 a 3 y sí viajan en los enlaces que compartas. Hasta que confirmes esos pasos, no los incluiremos.</p></div>');
-    a.lastChild.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'reord-ok',onclick:()=>{ state.pasos.aviso=false; guardarPasos(); render(); $('filters-h').focus(); say('Aviso cerrado.'); }},'Entendido, cerrar aviso'));
+  if(state.pasos.aviso && [...state.pasos.ret].some(marcada)){
+    const a=el('div',{class:'reord',role:'note'},'<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg><div><p id="reord-h"><b>Hemos reordenado las preguntas.</b> Sexo, estado civil, cuidados, medio rural y ayuda social ahora van en los pasos 1 a 3 y sí viajan en los enlaces que compartas. Lo que marcaste antes en '+esc(yLista(PASOS.map((_,i)=>nombresRet(retPaso(i).filter(marcada))).map((n,i)=>n.length ? yLista(n)+' (paso '+(i+1)+')' : '').filter(Boolean)))+' no irá en tus enlaces hasta que lo confirmes.</p></div>');
+    const acc=el('div',{class:'racc'});
+    acc.appendChild(el('button',{type:'button',class:'rlib','data-k':'reord-lib',onclick:()=>liberarTodo(false)}, LIBERAR));
+    acc.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'reord-ok',onclick:()=>{ state.pasos.aviso=false; guardarPasos(); render(); $('filters-h').focus(); say('Aviso cerrado. Lo que marcaste antes sigue sin ir en tus enlaces hasta que lo confirmes.'); }},'Ahora no, cerrar aviso'));
+    a.lastChild.appendChild(acc);
     f.appendChild(a);
   }
   const P=state.pasos, ol=el('ol',{class:'pasos',role:'list'});
   PASOS.forEach(({t:g,d:txt,q:qs},i)=>{
     const n=i+1, hecho=P.done.has(i), abierto=i===P.cur, bloq=!hecho&&!abierto, ok=!bloq&&completo(i), falta=faltan(i);
     // el paso opcional sin nada marcado no se pinta de verde: no hay nada «completado»
-    const vacio=pasoVacio(i), verde=ok&&!vacio;
-    const li=el('li',{class:'paso '+(abierto?'cur':hecho?'done':'lock')+(verde?' ok':'')});
+    // con respuestas retenidas el paso no está en verde: hay que revisarlo y confirmarlo
+    const vacio=pasoVacio(i), rp=nombresRet(retPaso(i).filter(marcada)), rev=ok&&rp.length>0, verde=ok&&!vacio&&!rev;
+    const li=el('li',{class:'paso '+(abierto?'cur':hecho?'done':'lock')+(verde?' ok':'')+(rev?' rev':'')});
     li.appendChild(el('span',{class:'pnum','aria-hidden':'true'}, n+(verde?CHECK:'')));
-    const st = verde ? '<span class="pst ok"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>'+(PASOS[i].opt?'Opcional':'Mínimo completado')+'</span>' : ok ? '<span class="pst">Opcional</span>' : '<span class="pst">Falta: '+esc(falta.join(', '))+'</span>';
+    const st = rev ? '<span class="pst rev"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>Revisa y confirma</span>' : verde ? '<span class="pst ok"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>'+(PASOS[i].opt?'Opcional':'Mínimo completado')+'</span>' : ok ? '<span class="pst">Opcional</span>' : '<span class="pst">Falta: '+esc(falta.join(', '))+'</span>';
     let card;
     if(bloq){
       // visible pero sin poder abrirse hasta terminar el anterior
@@ -1322,11 +1371,12 @@ function renderFilters(){
         `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}: </span><span aria-hidden="true">Paso ${n} · </span>${esc(g)} <small>— completa el paso anterior</small></h3>`);
     } else if(!abierto){
       card=el('div',{class:'pcard'});
-      const h=el('div',{class:'phead'}, `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}, ${vacio?'sin marcar':'hecho'}: </span>${esc(g)}</h3>${st}`);
+      const h=el('div',{class:'phead'}, `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}, ${vacio?'sin marcar':rev?'pendiente de confirmar':'hecho'}: </span>${esc(g)}</h3>${st}`);
       h.appendChild(el('button',{type:'button',class:'linkbtn pcam','data-k':'cam-'+i,'aria-label':'Cambiar el paso '+n+': '+g,onclick:()=>cambiar(i)},'Cambiar'));
       card.appendChild(h);
       const r=resumen(i);
       card.appendChild(el('p',{class:'psum'}, r.length?esc(r.join(' · ')):'Sin marcar'));
+      if(rev) card.appendChild(el('p',{class:'pret'}, '<svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg><span>Aún no va en tus enlaces: '+esc(yLista(rp))+'. Pulsa «Cambiar» y luego «Continuar» para incluirlo.</span>'));
     } else {
       card=el('div',{class:'pcard'});
       card.appendChild(el('div',{class:'phead'}, `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}: </span>${esc(g)}</h3>${st}`));
@@ -1337,10 +1387,11 @@ function renderFilters(){
         const box=el('div',{class:'cat'+(q.si?' cond':'')});
         // subbloque opcional («sub»): un grupo con su título, después de las preguntas obligatorias
         if(q.sub && (!sub || sub.dataset.t!==q.sub)){
-          sub=el('div',{class:'qsub',role:'group','aria-labelledby':'qsub-'+q.id,'data-t':q.sub},`<p class="qsubt" id="qsub-${q.id}">${esc(q.sub)}</p><p class="qsubd">No hace falta para ver tu resultado.</p>`);
+          sub=el('div',{class:'qsub',role:'group','aria-labelledby':'qsub-'+q.id,'aria-describedby':'qsubd-'+q.id,'data-t':q.sub},`<h4 class="qsubt" id="qsub-${q.id}">${esc(q.sub)}</h4><p class="qsubd" id="qsubd-${q.id}">No hace falta para ver tu resultado.</p>`);
           card.appendChild(sub);
         } else if(!q.sub) sub=null;
-        box.appendChild(el('h4',{id:'cat-'+q.id}, esc(qName(q))+(q.req?'':' <span class="qopt">opcional</span>')));
+        // dentro del subbloque, las preguntas cuelgan de su título (h4): van un nivel por debajo
+        box.appendChild(el(sub?'h5':'h4',{id:'cat-'+q.id}, esc(qName(q))+(q.req?'':' <span class="qopt">opcional</span>')));
         if(CAT_NOTE[q.id]) box.appendChild(el('p',{class:'cnote',id:'cn-'+q.id},esc(CAT_NOTE[q.id])));
         const solo=qSolo(q);
         const o=el('div',{class:'opts'+(solo?' solo':''),role:solo?'radiogroup':'group','aria-labelledby':'cat-'+q.id,...(CAT_NOTE[q.id]?{'aria-describedby':'cn-'+q.id}:{})});
@@ -1360,7 +1411,8 @@ function renderFilters(){
       const fin = cierra(i);
       const foot=el('div',{class:'pfoot'});
       if(!ok) foot.appendChild(el('p',{class:'pfalta',id:'falta-'+i},'Para continuar, responde: '+esc(falta.join(', '))+'.'));
-      foot.appendChild(el('button',{type:'button',class:'btn pcont','data-k':'cont-'+i,'aria-disabled':String(!ok),...(ok?{}:{'aria-describedby':'falta-'+i}),onclick:()=>continuar(i)}, PASOS[i].opt?'Listo, ver mi resultado <span aria-hidden="true">↓</span>':fin?'Ver mi resultado <span aria-hidden="true">↓</span>':'Continuar <span aria-hidden="true">→</span>'));
+      else if(rev) foot.appendChild(el('p',{class:'pfalta',id:'falta-'+i},'Al continuar, incluiremos en tus enlaces: '+esc(yLista(rp))+'.'));
+      foot.appendChild(el('button',{type:'button',class:'btn pcont','data-k':'cont-'+i,'aria-disabled':String(!ok),...(ok&&!rev?{}:{'aria-describedby':'falta-'+i}),onclick:()=>continuar(i)}, PASOS[i].opt?'Listo, ver mi resultado <span aria-hidden="true">↓</span>':fin?'Ver mi resultado <span aria-hidden="true">↓</span>':'Continuar <span aria-hidden="true">→</span>'));
       card.appendChild(foot);
     }
     li.appendChild(card); ol.appendChild(li);
@@ -2037,15 +2089,20 @@ function keepFocus(fn){
 }
 function render(){ if(DATA){ keepFocus(route); mbarSync(); anunciar(); } }
 // 12. aviso para lectores de pantalla cuando cambia el resultado; PEND: lo que ha cambiado en el asistente (elegir())
-let anuncioT=null, PEND='';
+// ULT_RES: último resultado anunciado; si no ha cambiado (cerrar un aviso, «Cambiar», «Continuar» sin tocar nada) no se repite
+let anuncioT=null, PEND='', ULT_RES='';
+// texto del resultado y su firma (el texto del ranking): si la firma no cambia, el resultado tampoco
+function resultado(){
+  if($('view-panel').hidden || !terminado()) return ['',''];
+  const n=document.querySelectorAll('#rank .rrow').length;
+  const res = n ? 'Resultado actualizado: '+n+' partidos comparados'+(filtraProv()?' que se presentan en '+provName():'')+'.' : (propio()?'Ninguna iniciativa afecta a tu perfil.':'');
+  return [res, res+'|'+$('rank').textContent];
+}
 function anunciar(){
   clearTimeout(anuncioT);
   anuncioT=setTimeout(()=>{
-    let res='';
-    if(!$('view-panel').hidden && terminado()){
-      const n=document.querySelectorAll('#rank .rrow').length;
-      res = n ? 'Resultado actualizado: '+n+' partidos comparados'+(filtraProv()?' que se presentan en '+provName():'')+'.' : (propio()?'Ninguna iniciativa afecta a tu perfil.':'');
-    }
+    let [res, firma] = resultado();
+    if(firma===ULT_RES) res=''; else ULT_RES=firma;
     const t=[PEND,res].filter(Boolean).join(' '); PEND='';
     if(t) say(t);
   },500);
@@ -2101,7 +2158,7 @@ async function load(clave){
   $('hero-stats').innerHTML = `<span class="stat">${sv('i-file')}<b>${ITEMS.length.toLocaleString('es-ES')}</b> leyes y propuestas</span><span class="stat">${sv('i-vote')}<b>${nv.toLocaleString('es-ES')}</b> votadas en el Pleno</span><span class="stat src">${sv('i-cal')}Actualizado el ${esc(DATA.meta.generado.split('-').reverse().join('/'))}</span>`;
   // primera carga con ?partido=: se abre su ficha solo si el partido existe en este dataset
   if(DEEP!==null){ const w=DEEP; DEEP=null; if(PARTIES.includes(w)){ state.list={who:w,color:null}; if(!location.hash){ try{ history.replaceState(null,'',location.pathname+location.search+'#lista'); }catch(e){} } } }
-  state.anim=true; renderFuente(); route();
+  state.anim=true; renderFuente(); route(); ULT_RES = resultado()[1];
   if(fk){ const t=document.querySelector('[data-k="'+fk+'"]'); if(t) t.focus({preventScroll:true}); }
 }
 const smooth = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
