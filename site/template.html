@@ -728,7 +728,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
       <section class="fcol" aria-labelledby="fc-priv">
         <h3 id="fc-priv"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>Privacidad</h3>
         <p>No sale de tu dispositivo: todo se calcula en tu navegador y tus respuestas se guardan solo en este navegador. Sin registro, sin cookies, sin analítica.</p>
-        <p>Si compartes tu perfil, el enlace no lleva lo que marques en el paso 4 (tu situación personal), y solo lo tiene quien tú elijas.</p>
+        <p>Si compartes tu perfil, el enlace lleva tus respuestas de los pasos 1 a 3 (también sexo, estado civil, cuidados, ayuda social y medio rural), pero nunca las del paso 4: orientación, salud, discapacidad, origen ni si eres víctima. Solo lo tiene quien tú elijas.</p>
         <p><button type="button" class="linkbtn" id="borrar-foot">Borrar mis respuestas</button></p>
       </section>
       <section class="fcol" aria-labelledby="fc-datos">
@@ -789,25 +789,28 @@ const CATS = [
   // Ciudadanía general y consumo: rasgos comunes a todo el mundo, activos por defecto (casillas junto al ranking)
   {id:'ciu', name:'Todos', multi:true, opts:[['ciud','Ciudadanía general']]},
   {id:'cons', name:'Consumo', multi:true, opts:[['cons','Consumidor y usuario']]},
-  // paso 4 (opcional). Hombre/Mujer se excluyen entre sí; LGTBI+ va aparte y se puede combinar con cualquiera de los dos
+  // paso 1: tú y tu familia. Hombre/Mujer se excluyen entre sí; LGTBI+ (paso 4) va aparte y se combina con cualquiera de los dos
   {id:'edad', name:'Edad', pre:'Edad: ', opts:[['jovenes','Hasta 35 años'],['adultos','36–64 años'],['mayores','65 años o más']]},
   {id:'hij', name:'Hijos menores a cargo', pre:'Hijos: ', opts:[['hij0','Ninguno'],['hij1','1'],['hij2','2'],['hij3','3 o más (familia numerosa)']]},
   {id:'sexo', name:'Sexo', multi:true, excl:['hombres','mujeres'], opts:[['hombres','Hombre'],['mujeres','Mujer']]},
-  {id:'ori', name:'Orientación o identidad', multi:true, opts:[['lgtbi','LGTBI+']]},
   {id:'civ', name:'Estado civil', opts:[['civSol','Soltero/a'],['civPar','Casado/a o pareja de hecho'],['civSep','Separado/a o divorciado/a'],['civViu','Viudo/a']]},
   {id:'car', name:'Personas a cargo', multi:true, opts:[['cuid','Cuido de una persona dependiente']]},
-  // paso 2: subpreguntas de «¿De qué vives?»
+  // paso 2: subpreguntas de «¿De qué vives?» y la ayuda social
   {id:'asal', name:'Tramo de IRPF', opts:[['asal1','Hasta 12.450 €'],['asal2','12.450–20.200 €'],['asal3','20.200–35.200 €'],['asal4','35.200–60.000 €'],['asal5','60.000–300.000 €'],['asal6','Más de 300.000 €']]},
   {id:'fun', name:'Subgrupo de funcionario', opts:[['funA1','A1'],['funA2','A2'],['funB','B'],['funC1','C1'],['funC2E','C2 y E']]},
   {id:'pro', name:'Profesión pública', multi:true, opts:[['proSeg','Policía, Guardia Civil, prisiones o militar'],['proSan','Personal sanitario'],['proDoc','Docente']]},
   {id:'emp', name:'Tamaño de tu empresa · facturación anual', opts:[['empMicro','Micro, menos de 2 M€'],['empPeq','Pequeña, 2–10 M€'],['empMed','Mediana, 10–50 M€'],['empGran','Grande, más de 50 M€']]},
   {id:'sec', name:'Sector de tu negocio', multi:true, opts:[['secPrim','Agro, ganadería y pesca'],['secInd','Industria y energía'],['secCons','Construcción e inmobiliario'],['secTrans','Transporte y logística'],['secCom','Comercio, hostelería y turismo'],['secFin','Banca y seguros'],['secDig','Tecnología y telecomunicaciones'],['secSoc','Sanidad, educación y cuidados privados']]},
   {id:'pen', name:'Pensión anual', opts:[['pen1','Menos de 12.000 €'],['pen2','12.000–25.000 €'],['pen3','25.000–42.000 €']]},
-  {id:'des', name:'¿Qué cobras?', opts:[['desPres','Cobro el paro (prestación)'],['desSub','Cobro un subsidio o el Ingreso Mínimo Vital']]},
-  // paso 3
+  {id:'des', name:'¿Qué cobras?', opts:[['desPres','Cobro el paro (prestación)'],['desSub','Cobro un subsidio por desempleo']]},
+  // el IMV se pregunta solo aquí (no en «¿Qué cobras?»), a todo el mundo y no solo a quien está en paro
+  {id:'ayu', name:'¿Recibes alguna ayuda social?', multi:true, opts:[['pobreza','Recibo una ayuda social (IMV, bono social…)']]},
+  // paso 3: vivienda y ahorros
+  {id:'rur', name:'¿Vives en el medio rural?', multi:true, opts:[['rural','Vivo en el medio rural']]},
   {id:'prop', name:'Ahorros e inversiones, sin contar tu casa', pre:'Otro patrimonio ', opts:[['prop1','Menos de 200.000 €'],['prop2','200.000–700.000 €'],['prop3','700.000 €–3 M€'],['prop4','Más de 3 M€']]},
-  // paso 4
-  {id:'soc', name:'Tu situación personal', multi:true, opts:[['pac','Paciente o enfermo crónico'],['depend','Persona dependiente (con grado reconocido)'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante (extranjero que vive en España)'],['minorias','Minoría étnica o religiosa (p. ej., etnia gitana)'],['rural','Vivo en el medio rural'],['victimas','Víctima de violencia, terrorismo, catástrofe o accidente'],['pobreza','En riesgo de pobreza (IMV, bono social…)']]},
+  // paso 4 (opcional): datos sensibles, que no viajan en los enlaces (PRIVADO)
+  {id:'ori', name:'Orientación o identidad', multi:true, opts:[['lgtbi','LGTBI+']]},
+  {id:'soc', name:'Tu salud y tu situación', multi:true, opts:[['pac','Paciente o enfermo crónico'],['depend','Persona dependiente (con grado reconocido)'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante (extranjero que vive en España)'],['minorias','Minoría étnica o religiosa (p. ej., etnia gitana)'],['victimas','Víctima de violencia, terrorismo, catástrofe o accidente']]},
   // se deducen de las respuestas del asistente (deriva()); no son botones del formulario
   {id:'aut', name:'Autónomos', opts:[['empAut','Autónomos']]},
   {id:'est', name:'Estudiantes', opts:[['estud','Estudiante (de cualquier nivel)']]},
@@ -837,9 +840,12 @@ const asalariado = () => tiene('trAjena') || tiene('trFun');
 // tiene una vivienda en la que no vive (y que podría alquilar)
 const tieneOtra = () => tiene('nv2') || (tiene('nv1') && !tiene('vdPropia'));
 const PASOS = [
-  {t:'Tú y tu familia', d:'Empieza por ti: tu edad y si tienes hijos.', q:[
+  {t:'Tú y tu familia', d:'Tu edad y si tienes hijos. Si quieres, también tu sexo, tu estado civil y si cuidas de alguien.', q:[
     {id:'edad', cat:'edad', req:true},
-    {id:'hij', cat:'hij', req:true}]},
+    {id:'sexo', cat:'sexo', ui:[['sexOtro','Otro','Sexo: otro'],['sexNs','Prefiero no decirlo','Sexo: prefiero no decirlo']]},
+    {id:'hij', cat:'hij', req:true},
+    {id:'civ', cat:'civ'},
+    {id:'car', cat:'car'}]},
   {t:'Trabajo e ingresos', d:'¿De qué vives? Marca todo lo que te aplique y solo te preguntaremos lo que haga falta.', q:[
     {id:'sit', name:'¿De qué vives?', req:true, multi:true, none:'trNada', ui:[['trAjena','Trabajo por cuenta ajena','Cuenta ajena'],['trFun','Soy funcionario o empleado público','Funcionario o empleado público'],['trAut','Soy autónomo','Autónomo'],['trEmp','Tengo una empresa','Empresa propia'],['trPen','Cobro pensión','Pensionista'],['trParo','Estoy en paro','En paro'],['trEst','Estudio','Estudiante'],['trNada','Ninguna de estas','Ninguna de estas situaciones']]},
     // «No lo sé» es una respuesta de interfaz (no entra en state.sel): rasgos() la convierte en el rasgo asalNs (ver impNs)
@@ -849,19 +855,18 @@ const PASOS = [
     {id:'emp', cat:'emp', req:true, si:()=>tiene('trEmp')},
     {id:'sec', cat:'sec', req:true, si:()=>tiene('trAut')||tiene('trEmp')},
     {id:'pen', cat:'pen', req:true, si:()=>tiene('trPen')},
-    {id:'des', cat:'des', req:true, si:()=>tiene('trParo')}]},
+    {id:'des', cat:'des', req:true, si:()=>tiene('trParo')},
+    {id:'ayu', cat:'ayu'}]},
   {t:'Vivienda y ahorros', d:'Dónde vives, cuántas viviendas tienes y tus ahorros.', q:[
     {id:'donde', name:'¿Dónde vives?', req:true, ui:[['vdPropia','En casa propia','Vivo en casa propia'],['vdAlq','De alquiler','Vivo de alquiler'],['vdFam','Con mi familia u otra situación','Vivo con mi familia u otra situación']]},
+    {id:'rur', cat:'rur'},
     {id:'nviv', name:'¿Cuántas viviendas tienes en propiedad, en total?', req:true, ui:[['nv0','Ninguna','Ninguna vivienda en propiedad'],['nv1','1','1 vivienda en propiedad'],['nv2','2 o más','2 o más viviendas en propiedad']], off:k=>k==='nv0'&&tiene('vdPropia')?'Vives en una propia':''},
-    {id:'hip', name:'¿Tienes hipoteca?', req:true, ui:[['hipSi','Sí','Con hipoteca'],['hipNo','No','Sin hipoteca']], si:()=>tiene('nv1')||tiene('nv2')},
     // solo quien alquila es casero: tener una segunda vivienda (de vacaciones, del pueblo, vacía) no lo hace arrendador
     {id:'alq', name:'¿Alquilas alguna de tus viviendas a otras personas?', req:true, ui:[['alqSi','Sí','Alquilo una vivienda a otros'],['alqNo','No','No alquilo ninguna vivienda']], si:tieneOtra},
+    {id:'hip', name:'¿Tienes hipoteca?', req:true, ui:[['hipSi','Sí','Con hipoteca'],['hipNo','No','Sin hipoteca']], si:()=>tiene('nv1')||tiene('nv2')},
     {id:'prop', cat:'prop', req:true}]},
-  // opcional (opt): el resultado sale al terminar el paso 3. Nada de este paso viaja en los enlaces que se comparten (PRIVADO)
-  {t:'Tu situación personal', opt:true, d:'Opcional: afina tu resultado si quieres. Nada de lo que marques aquí sale de tu dispositivo ni va en los enlaces que compartas.', q:[
-    {id:'sexo', cat:'sexo', ui:[['sexOtro','Otro','Sexo: otro'],['sexNs','Prefiero no decirlo','Sexo: prefiero no decirlo']]},
-    {id:'civ', cat:'civ'},
-    {id:'car', cat:'car'},
+  // opcional (opt): el resultado sale al terminar el paso 3. Son datos sensibles: nada de este paso viaja en los enlaces (PRIVADO)
+  {t:'Salud y situación personal', opt:true, d:'Opcional. Son datos sensibles (salud, orientación, origen…): se quedan en tu dispositivo y nunca van en los enlaces que compartas.', q:[
     {id:'ori', cat:'ori'},
     {id:'soc', cat:'soc', none:'socNo', ui:[['socNo','Ninguna me describe','Ninguna situación personal']]}]}
 ];
@@ -869,8 +874,12 @@ const UI_TXT = {}; PASOS.forEach(P=>P.q.forEach(q=>(q.ui||[]).forEach(([k,v,r])=
 // colectivos que pone deriva() a partir de las respuestas; en la barra de perfil salen como «se deduce»
 const DERIV = ['empAut','estud','viv0','viv1','viv2','inq','hipot','casero'];
 const NPASOS = PASOS.length;
-// rasgos y respuestas del paso opcional (sexo, orientación, salud, origen…): se quedan en este navegador, nunca en un enlace
-const PRIVADO = new Set(); PASOS.forEach(P=>{ if(P.opt) P.q.forEach(q=>qOpts(q).forEach(k=>PRIVADO.add(k))); });
+// datos sensibles (paso 4: orientación, salud, discapacidad, origen, víctimas) y su respuesta «Ninguna me describe»:
+// se quedan en este navegador, nunca en un enlace. Sexo, estado civil, cuidados, ayuda social y medio rural sí viajan
+const PRIVADO = new Set(['lgtbi','pac','depend','discapacidad','inmigrantes','minorias','victimas','socNo']);
+// orden de las respuestas en la barra «Tu perfil»: el de los pasos y sus preguntas
+const ORDEN = {}; PASOS.forEach(P=>P.q.forEach(q=>qOpts(q).forEach(k=>{ if(!(k in ORDEN)) ORDEN[k]=Object.keys(ORDEN).length; })));
+const porOrden = (a,b) => (ORDEN[a]??1e3)-(ORDEN[b]??1e3);
 const NOBL = PASOS.filter(P=>!P.opt).length;
 const CHECK = '<svg class="ico pchk" aria-hidden="true"><use href="#i-check"/></svg>';
 // conjunto de colectivos efectivo: lo marcado + lo que se deduce de ello
@@ -902,7 +911,9 @@ const CAT_NOTE = {
   emp:'Por facturación anual.',
   sec:'El sector de tu negocio. Puedes marcar varios.',
   pen:'Lo que cobras al año, en bruto.',
-  des:'Lo que cobras ahora mismo.',
+  des:'Lo que cobras ahora mismo. El IMV y el bono social van en la pregunta de la ayuda social.',
+  ayu:'Márcalo si recibes el Ingreso Mínimo Vital, el bono social u otra ayuda por renta baja.',
+  rur:'Márcalo si vives en un pueblo o en una zona rural.',
   nviv:'Cuenta la tuya si es propia.',
   prop:'Ahorros, inversiones, acciones u otros inmuebles, sin contar tu casa. «Menos de 200.000 €» incluye no tener nada.',
   soc:'Puedes marcar varias.',
@@ -1062,10 +1073,12 @@ function renderProfile(){
   // perfil vacío: la guía son los pasos del panel
   if(!propio()) return;
   p.appendChild(el('span',{class:'lbl'+(isExample?' ex':'')}, isExample?'Perfil de ejemplo, cámbialo por el tuyo:':'Tu perfil:'));
-  // tu trabajo: «cuenta ajena» no es un colectivo (se cambia en el paso 2) y «No lo sé» en el IRPF se puede quitar como un tramo
-  if(tiene('trAjena')) p.appendChild(el('span',{class:'pans',title:'Se cambia en el paso 2'}, esc(UI_TXT.trAjena)));
-  if(tiene('asalNs')) p.appendChild(el('button',{class:'pchip','data-k':'chip-asalNs','aria-label':'Quitar '+UI_TXT.asalNs,onclick:()=>quitarUi('asalNs')}, esc(UI_TXT.asalNs)+'<span aria-hidden="true">×</span>'));
-  [...state.sel].filter(k=>esPerfil(k) && !DERIV.includes(k)).forEach(k=>p.appendChild(el('button',{class:'pchip','data-k':'chip-'+k,'aria-label':'Quitar '+LABEL[k],onclick:()=>quitar(k)}, esc(LABEL[k])+'<span aria-hidden="true">×</span>')));
+  // en el orden de los pasos. Tu trabajo: «cuenta ajena» no es un colectivo (se cambia en el paso 2) y «No lo sé» en el IRPF
+  // se puede quitar como un tramo
+  [...['trAjena','asalNs'].filter(tiene), ...[...state.sel].filter(k=>esPerfil(k) && !DERIV.includes(k))].sort(porOrden).forEach(k=>p.appendChild(
+    k==='trAjena' ? el('span',{class:'pans',title:'Se cambia en el paso 2'}, esc(UI_TXT.trAjena))
+    : k==='asalNs' ? el('button',{class:'pchip','data-k':'chip-asalNs','aria-label':'Quitar '+UI_TXT.asalNs,onclick:()=>quitarUi('asalNs')}, esc(UI_TXT.asalNs)+'<span aria-hidden="true">×</span>')
+    : el('button',{class:'pchip','data-k':'chip-'+k,'aria-label':'Quitar '+LABEL[k],onclick:()=>quitar(k)}, esc(LABEL[k])+'<span aria-hidden="true">×</span>')));
   // lo deducido de tus respuestas (vivienda, autónomo, estudiante) y de otros rasgos (hijos, dependencia): se cambia desde los pasos
   [...RASGOS].filter(k=>!state.sel.has(k) || DERIV.includes(k)).filter(k=>k!=='ciud' && k!=='cons' && k!=='asalNs').forEach(k=>p.appendChild(el('span',{class:'ded',title:'Se deduce de tu perfil'}, '+ '+esc(LABEL_DEDUCIDO[k]||LABEL[k]||k))));
   const act=el('div',{class:'actions'});
@@ -1108,14 +1121,14 @@ function copyLink(){ copyUrl($('copy-btn'), shareUrl(null,null,true)); }
 function copyUrl(b, url){
   let out = b.nextElementSibling;
   if(!out || !out.classList.contains('cstat')){ out=el('p',{class:'cstat'}); b.after(out); }
-  const priv = [...state.sel, ...state.pasos.ui].some(k=>PRIVADO.has(k)) ? ' No lleva lo que marcaste en el paso '+NPASOS+' (tu situación personal): eso no sale de tu dispositivo.' : '';
+  const priv = [...state.sel, ...state.pasos.ui].some(k=>PRIVADO.has(k)) ? ' Lleva tus respuestas de los pasos 1 a '+NOBL+', pero no lo que marcaste en el paso '+NPASOS+' (salud, orientación, origen…): eso no sale de tu dispositivo.' : '';
   const ok = ()=>{ out.textContent='Enlace copiado.'+priv; say('Enlace copiado.'+priv); };
   const ko = ()=>{ out.textContent='No se ha podido copiar. Copia este enlace:'+priv; const i=el('input',{type:'text',readonly:'',value:url,'aria-label':'Enlace para compartir'}); out.appendChild(i); i.select(); say('No se ha podido copiar el enlace: lo tienes en un campo de texto junto al botón.'); };
   try{ navigator.clipboard.writeText(url).then(ok,ko); }catch(e){ ko(); }
 }
 // enlace directo a la ficha de un partido (y, si se pide, a una ley): perfil, ciudadanía, dataset y pestaña actuales.
 // Las claves salen siempre de los datos (partidos y leyes del dataset), nunca de texto libre
-// Los rasgos y respuestas del paso opcional (PRIVADO: sexo, orientación, salud, origen…) nunca van en el enlace
+// Los datos sensibles del paso 4 (PRIVADO: orientación, salud, discapacidad, origen, víctimas) nunca van en el enlace
 function shareUrl(who, ley, perfil){
   const base = location.origin && location.origin!=='null' ? location.origin+location.pathname : location.pathname;
   const q=[], p=[...state.sel].filter(k=>esPerfil(k) && !PRIVADO.has(k)), u=[...state.pasos.ui].filter(k=>!PRIVADO.has(k));
