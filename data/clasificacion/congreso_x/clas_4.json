@@ -313,18 +313,108 @@
    "asal4": -1,
    "asal5": -1,
    "asal6": -1,
+   "desSub": 1,
+   "empAut": 1,
+   "empMicro": 1,
    "funA1": -1,
    "funA2": -1,
    "funB": -1,
    "funC1": -1,
    "funC2E": -1,
+   "inq": -1,
+   "jovenes": -1,
+   "mayores": 1,
    "pen1": 1,
+   "secDig": 1,
+   "viv0": 1,
    "viv1": -1,
    "viv2": -1
   },
   "peso": 3,
-  "nota": "Recargo temporal del IRPF y del IBI, congelación de sueldos y recortes a empleados públicos, fin de la congelación de pensiones.",
-  "partido": ""
+  "nota": "Sube 1 % las pensiones, congela sueldos públicos, alarga su jornada, añade recargo de IRPF, sube el IBI y suprime la renta de emancipación.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización del 1 % de todas las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Congelación salarial, de plantillas y jornada de 37,5 horas públicas",
+    "imp": {
+     "funA1": -1,
+     "funA2": -1,
+     "funB": -1,
+     "funC1": -1,
+     "funC2E": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Gravamen complementario del IRPF sobre toda la tarifa",
+    "imp": {
+     "asal1": -1,
+     "asal2": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "asal5": -1,
+     "asal6": -1,
+     "pen2": -1,
+     "pen3": -1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida temporal del IBI urbano",
+    "imp": {
+     "viv1": -1,
+     "viv2": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de incentivos fiscales a microempresas y autónomos que mantienen empleo",
+    "imp": {
+     "empMicro": 1,
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga del IVA superreducido en la compra de vivienda",
+    "imp": {
+     "viv0": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Supresión de la renta básica de emancipación para nuevos beneficiarios",
+    "imp": {
+     "jovenes": -1,
+     "inq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del programa de ayuda a quien agota el desempleo",
+    "imp": {
+     "desSub": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Supresión del canon por copia privada sobre equipos",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000002",
@@ -350,17 +440,48 @@
   "id": "130/000004",
   "tipo": "eco",
   "imp": {
-   "asal1": -1,
-   "asal2": -1,
-   "asal3": -1,
-   "asal4": -1,
    "empAut": 1,
    "empMicro": 1,
-   "empPeq": 1
+   "empPeq": 1,
+   "jovenes": 1
   },
   "peso": 3,
-  "nota": "Reforma laboral: abarata el despido y flexibiliza contratación, jornada y negociación colectiva; reduce protecciones de asalariados y costes de pequeñas empresas.",
-  "partido": ""
+  "nota": "Reforma laboral: descuelgue, prioridad del convenio de empresa, ultractividad limitada y ERE sin autorización; contrato indefinido bonificado para pequeñas empresas y jóvenes.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Flexibilidad interna, negociación colectiva y extinción del contrato",
+    "imp": {
+     "asal1": -1,
+     "asal2": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Contrato indefinido de emprendedores y bonificaciones por jóvenes",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1,
+     "jovenes": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Permiso retribuido de formación y límite al encadenamiento de temporales",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000005",
@@ -473,17 +594,101 @@
   "id": "130/000017",
   "tipo": "soc",
   "imp": {
+   "asal3": -1,
+   "asal4": -1,
+   "asal5": -1,
+   "asal6": -1,
    "ciud": -1,
    "inmigrantes": -1,
    "mayores": -1,
    "pac": -1,
    "pen1": -1,
    "pen2": -1,
-   "pen3": -1
+   "pen3": -1,
+   "pobreza": 1,
+   "proSan": -1,
+   "secCom": 1,
+   "secSoc": -1
   },
-  "peso": 3,
-  "nota": "Restringe la condición de asegurado, introduce copago farmacéutico a pensionistas y recorta prestaciones del sistema sanitario público.",
-  "partido": ""
+  "peso": 2,
+  "nota": "Restringe la sanidad pública a asegurados, excluyendo a extranjeros no residentes; extiende el copago por renta y a pensionistas; endurece la financiación de medicamentos.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Condición de asegurado; excluye a extranjeros no residentes",
+    "imp": {
+     "inmigrantes": -1,
+     "ciud": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Copago farmacéutico por renta y para pensionistas",
+    "imp": {
+     "asal3": -1,
+     "asal4": -1,
+     "asal5": -1,
+     "asal6": -1,
+     "pen1": -1,
+     "pen2": -1,
+     "pen3": -1,
+     "mayores": -1,
+     "pac": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Precios seleccionados y exclusión de medicamentos de la financiación",
+    "imp": {
+     "secInd": -1,
+     "pac": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Copago farmacéutico por renta y para pensionistas",
+    "imp": {
+     "pen1": -1,
+     "pen2": -1,
+     "pen3": -1,
+     "mayores": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "asal5": -1,
+     "asal6": -1,
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Índice corrector de márgenes para farmacias de pocas ventas",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Farmacia hospitalaria obligatoria en centros de cien o más camas",
+    "imp": {
+     "secSoc": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Recortes en condiciones del personal estatutario sanitario",
+    "imp": {
+     "proSan": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Precios libres de medicamentos no financiados",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000018",
@@ -517,18 +722,129 @@
   "id": "130/000021",
   "tipo": "eco",
   "imp": {
+   "adultos": -1,
    "ciud": -1,
+   "cons": -1,
    "depend": -1,
    "desPres": -1,
+   "desSub": -1,
+   "empGran": -1,
    "funA1": -1,
    "funA2": -1,
    "funB": -1,
    "funC1": -1,
-   "funC2E": -1
+   "funC2E": -1,
+   "hipot": -1,
+   "inq": -1,
+   "jovenes": -1,
+   "proDoc": -1,
+   "proSan": -1,
+   "proSeg": -1,
+   "secInd": -1,
+   "secTrans": -1,
+   "viv1": -1
   },
-  "peso": 3,
-  "nota": "Sube el IVA, suprime la paga extra de los empleados públicos y reduce la prestación por desempleo y la ayuda a la dependencia.",
-  "partido": ""
+  "peso": 2,
+  "nota": "Recorta salarios y permisos públicos, prestaciones por desempleo y dependencia; sube el IVA; endurece Sociedades a grandes empresas; liberaliza horarios comerciales.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Supresión de la paga extra y recortes de permisos públicos",
+    "imp": {
+     "funA1": -1,
+     "funA2": -1,
+     "funB": -1,
+     "funC1": -1,
+     "funC2E": -1,
+     "proSeg": -1,
+     "proSan": -1,
+     "proDoc": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prestación contributiva por desempleo al 50 % desde el séptimo mes",
+    "imp": {
+     "desPres": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Endurecimiento de subsidios por desempleo para mayores de 45 y 52",
+    "imp": {
+     "desSub": -1,
+     "adultos": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebaja de prestaciones por cuidados familiares y financiación de la dependencia",
+    "imp": {
+     "depend": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida del IVA general y reducido",
+    "imp": {
+     "ciud": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Paso al IVA general de peluquería, espectáculos y otros servicios",
+    "imp": {
+     "cons": -1,
+     "secCom": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Endurecimiento del Impuesto sobre Sociedades para grandes empresas",
+    "imp": {
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la compensación fiscal por compra de vivienda anterior a 2006",
+    "imp": {
+     "hipot": -1,
+     "viv1": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Liberalización de horarios comerciales y promociones de ventas",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Fin de subsidiación de préstamos y recorte de la renta de emancipación",
+    "imp": {
+     "hipot": -1,
+     "jovenes": -1,
+     "inq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la compensación a concesionarias de autopistas",
+    "imp": {
+     "secTrans": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Menor retribución del transporte eléctrico y generación extrapeninsular",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 2
+   }
+  ]
  },
  {
   "id": "130/000022",
@@ -608,14 +924,42 @@
   "id": "130/000030",
   "tipo": "eco",
   "imp": {
+   "cons": 1,
+   "discapacidad": 1,
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
    "pen3": 1
   },
-  "peso": 2,
-  "nota": "Fija el incremento de las pensiones de 2013 (2 % hasta 14.000 € anuales, 1 % el resto) y modifica cotización de empleados de hogar.",
-  "partido": ""
+  "peso": 3,
+  "nota": "Aplica la revalorización de pensiones de 2013, amplía la orfandad de huérfanos con discapacidad y congela el precio del butano.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización de pensiones de 2013, mayor para las bajas",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Límite de edad de orfandad para huérfanos con discapacidad",
+    "imp": {
+     "discapacidad": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Congelación del precio máximo del butano",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000031",
@@ -665,22 +1009,75 @@
   "tipo": "eco",
   "imp": {
    "adultos": -1,
-   "mayores": 1
+   "desSub": -1,
+   "mayores": 1,
+   "pen1": -1,
+   "pen2": -1,
+   "pen3": -1
   },
   "peso": 2,
-  "nota": "Permite compatibilizar pensión y trabajo y endurece los requisitos de la jubilación parcial y anticipada.",
-  "partido": ""
+  "nota": "Permite compatibilizar pensión y trabajo; endurece la jubilación anticipada y parcial; exige rentas familiares para el subsidio de mayores de 55 años.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Compatibilidad de la pensión de jubilación con el trabajo",
+    "imp": {
+     "mayores": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Endurecimiento de la jubilación anticipada y parcial",
+    "imp": {
+     "pen1": -1,
+     "pen2": -1,
+     "pen3": -1,
+     "adultos": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Requisito de rentas familiares en el subsidio de mayores de 55",
+    "imp": {
+     "desSub": -1,
+     "adultos": -1
+    },
+    "peso": 2
+   }
+  ]
  },
  {
   "id": "130/000036",
   "tipo": "eco",
   "imp": {
-   "cons": 1,
-   "secFin": -1
+   "cons": 1
   },
   "peso": 2,
-  "nota": "Protege a los titulares de preferentes y otros productos de ahorro con vías de reclamación a cargo de las entidades.",
-  "partido": ""
+  "nota": "Da liquidez y arbitraje a titulares de preferentes y deuda subordinada; impone contribución extraordinaria de la banca al FGD; habilita agencias de suscripción.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Liquidez y arbitraje para titulares de preferentes y deuda subordinada",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Contribución especial de las entidades al Fondo de Garantía de Depósitos",
+    "imp": {
+     "secFin": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Agencias de suscripción para las aseguradoras españolas",
+    "imp": {
+     "secFin": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000037",

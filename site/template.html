@@ -411,7 +411,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 }
 
 /* ---------- listado ---------- */
-.c-pos{background:var(--pos)}.c-neg{background:var(--neg)}.c-mix{background:var(--mix)}.c-neu{background:var(--neu)}
+.c-pos{background:var(--pos)}.c-neg{background:var(--neg)}.c-mix{background:var(--mix)}.c-neu{background:var(--neu)}.c-aus,.c-rep{background:var(--neu)}
 .back{margin:0 0 18px;font-size:15px;display:inline-flex;align-items:center;gap:6px;background:var(--sheet);border:1px solid var(--line);border-radius:999px;padding:11px 18px;box-shadow:var(--shadow)}
 .back:hover{border-color:var(--accent)}
 .eyebrow{font-size:12.5px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
@@ -448,7 +448,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .item .side{font-size:12px;text-align:right;min-width:110px;display:flex;flex-direction:column;gap:5px;align-items:flex-end}
 .tag.peso{background:transparent;border:1px solid var(--line);color:var(--muted)}
 .tag{display:inline-block;font-size:12.5px;font-weight:600;padding:3px 10px;border-radius:999px;white-space:nowrap}
-.t-pos{background:var(--pos-soft);color:var(--pos-ink)}.t-neg{background:var(--neg-soft);color:var(--neg-ink)}.t-mix{background:var(--mix-soft);color:var(--mix-ink)}.t-neu{background:var(--soft);color:var(--muted)}
+.t-pos{background:var(--pos-soft);color:var(--pos-ink)}.t-neg{background:var(--neg-soft);color:var(--neg-ink)}.t-mix{background:var(--mix-soft);color:var(--mix-ink)}.t-neu{background:var(--soft);color:var(--muted)}.t-aus,.t-rep{background:var(--soft);color:var(--muted)}
 .votes{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
 .vv{font-family:var(--mono);font-size:12px;padding:2px 8px;border-radius:6px;border:1px solid var(--line)}
 .vv.s{color:var(--pos-ink);background:var(--pos-soft);border-color:transparent}.vv.n{color:var(--neg-ink);background:var(--neg-soft);border-color:transparent}.vv.a{color:var(--muted)}
@@ -476,7 +476,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .calc-n dt{font-size:12.5px;font-weight:700;color:var(--muted)}
 .calc-n dd{margin:2px 0 0;font-family:var(--display);font-weight:800;font-size:clamp(20px,2.4vw,26px);letter-spacing:-.02em;line-height:1.15;font-variant-numeric:tabular-nums}
 .calc-n small{display:block;font-family:var(--body);font-weight:500;font-size:12.5px;letter-spacing:0;color:var(--muted)}
-.calc-n .k-pos dd{color:var(--pos-ink)}.calc-n .k-neg dd{color:var(--neg-ink)}.calc-n .k-mix dd{color:var(--mix-ink)}
+.calc-n .k-pos dd{color:var(--pos-ink)}.calc-n .k-neg dd{color:var(--neg-ink)}.calc-n .k-mix dd{color:var(--mix-ink)}.calc-n .k-aus dd{color:var(--muted)}
 @media (max-width:620px){.calc-n{grid-template-columns:repeat(2,minmax(0,1fr))}}
 .calc-f{margin:10px 0 0;padding:12px 14px;border-radius:14px;background:var(--night);color:#fff;font-family:var(--mono);font-size:clamp(14px,1.7vw,17px);font-variant-numeric:tabular-nums;overflow-wrap:anywhere;border:1px solid rgba(241,191,0,.28)}
 .calc-f span{display:block;font-family:var(--body);font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:rgba(255,255,255,.78);margin-bottom:2px}
@@ -493,7 +493,8 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .item .why .orig{margin-right:6px}
 .traza{display:flex;flex-wrap:wrap;align-items:center;gap:4px 8px;margin:10px 0 0;padding:8px 12px;border-radius:12px;background:var(--soft);font-size:13.5px;line-height:1.45;color:var(--ink);font-variant-numeric:tabular-nums}
 .traza .ap{font-weight:800}
-.traza .ap.pos{color:var(--pos-ink)}.traza .ap.neg{color:var(--neg-ink)}.traza .ap.mix{color:var(--mix-ink)}
+.traza .ap.pos{color:var(--pos-ink)}.traza .ap.neg{color:var(--neg-ink)}.traza .ap.mix{color:var(--mix-ink)}.traza .ap.aus,.traza .ap.rep{color:var(--muted)}
+.medidas{margin:4px 0 8px;padding-left:18px;font-size:13px;line-height:1.45}.medidas li{margin:2px 0}.medidas li.no{color:var(--muted)}.medidas small{color:var(--muted)}
 .chain li{position:relative}
 .chain li:not(:last-child)::after{content:"";position:absolute;left:33px;bottom:-12px;width:2px;height:12px;background:var(--oro)}
 .chain .n .ico{width:19px;height:19px}
@@ -766,7 +767,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
         <h3 id="fc-datos"><svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg>Datos y trazabilidad</h3>
         <p>Leyes y votos reales, de fuentes oficiales: <a href="https://www.congreso.es/es/opendata" target="_blank" rel="noopener">Congreso de los Diputados<span class="sr-only"> (se abre en una pestaña nueva)</span></a> y <a href="https://data.europarl.europa.eu" target="_blank" rel="noopener">Parlamento Europeo<span class="sr-only"> (se abre en una pestaña nueva)</span></a>.</p>
         <p>Cada nota es trazable ley a ley en la ficha de cada partido.</p>
-        <p>Clasificación propia con ayuda de IA, pública y revisable.</p>
+        <p>Clasificación propia con ayuda de IA, pública y revisable, hecha con el texto oficial de cada ley: <a href="https://www.congreso.es/es/publicaciones" target="_blank" rel="noopener">BOCG<span class="sr-only"> (Boletín Oficial de las Cortes Generales; se abre en una pestaña nueva)</span></a> y, en los reales decretos-ley, <a href="https://www.boe.es" target="_blank" rel="noopener">BOE<span class="sr-only"> (Boletín Oficial del Estado; se abre en una pestaña nueva)</span></a>.</p>
         <ul class="flinks" role="list">
           <li><a href="#metodologia">Cómo se calcula</a></li>
           <li><a id="foot-json" href="data/congreso_xv.json" download>Descargar los datos (JSON)</a></li>
@@ -1001,11 +1002,31 @@ const propio = () => [...state.sel].some(k=>k!=='ciud' && k!=='cons');
 try{ if(new URLSearchParams(location.search).get('c')!=='0') state.sel.add('ciud'); }catch(e){ state.sel.add('ciud'); }
 try{ if(new URLSearchParams(location.search).get('co')!=='0') state.sel.add('cons'); }catch(e){ state.sel.add('cons'); }
 
-function impactOf(it){
-  let p=false,n=false;
+// signo de un bloque de efectos (imp) para el perfil: 1, -1, 0 (signos opuestos: se compensan) o null (no le afecta)
+function signoImp(imp){
+  let p=false,n=false; const it={imp};
   for(const k of RASGOS){ const v=impDe(it,k); if(v>0)p=true; else if(v<0)n=true; }
-  return p&&n?'mix':p?'pos':n?'neg':'neu';
+  return p&&n?0:p?1:n?-1:null;
 }
+// efecto de una iniciativa en el perfil. Sin medidas: el de su imp (pos, neg, mix o neu), con su peso.
+// Ley ómnibus (campo m: medidas con su propio imp y peso, rúbrica 3.8): solo cuentan las medidas que te afectan; su
+// saldo es la media de sus signos ponderada por su peso (q = |saldo|, entre 0 y 1) y la ley pesa como la mayor de ellas.
+// Así una ley con dos medidas a tu favor y una en contra no es «mixta» sin más: suma en proporción
+let EF_R = null, EF = new WeakMap();
+function efecto(it){
+  if(EF_R!==RASGOS){ EF_R=RASGOS; EF=new WeakMap(); }
+  let e = EF.get(it); if(e) return e;
+  if(!it.m){
+    const s = signoImp(it.imp);
+    e = {c: s===null?'neu':s===0?'mix':s>0?'pos':'neg', q: s?1:0, w: it.w, med: null};
+  } else {
+    let num=0, den=0, w=0; const med = it.m.map(m=>{ const s=signoImp(m.imp); if(s!==null){ num+=s*PESO[m.w]; den+=PESO[m.w]; w=Math.max(w,m.w); } return s; });
+    const net = den ? num/den : 0;
+    e = !den ? {c:'neu', q:0, w:it.w, med} : {c: Math.abs(net)<1e-9?'mix':net>0?'pos':'neg', q: Math.abs(net), w, med};
+  }
+  EF.set(it,e); return e;
+}
+function impactOf(it){ return efecto(it).c; }
 function voteColor(imp, v){
   if(!v) return null;
   if(imp==='mix') return 'mix';
@@ -1019,7 +1040,14 @@ const universe = () => ITEMS.filter(it=>it.tp===state.tab && !(state.sinRDL && i
 // peso de cada iniciativa según su alcance (campo w: 1 menor, 2 relevante, 3 gran reforma)
 const PESO = {1:1, 2:3, 3:9};
 const PESO_TXT = {2:'Ley relevante', 3:'Gran reforma'};
-const wOf = it => PESO[it.w]||1;
+const wOf = it => PESO[efecto(it).w]||1;
+// leyes que solo te afectan por los rasgos comunes a todos (Ciudadanía general, consumidor): cuentan la mitad, para que
+// el núcleo común no tape los rasgos propios del perfil. Si además afectan a un rasgo tuyo, cuentan enteras
+const COMUN = new Set(['ciud','cons']), F_COMUN = 0.5;
+function soloComun(it){ let a=false; for(const imp of (it.m?it.m.map(m=>m.imp):[it.imp])) for(const k of RASGOS){ if(impDe({imp},k)){ if(!COMUN.has(k)) return false; a=true; } } return a; }
+const fComun = it => soloComun(it) ? F_COMUN : 1;
+// peso efectivo en la nota: alcance × factor de lo común
+const wEf = it => wOf(it)*fComun(it);
 // prudencia: puntos neutros (el peso de una gran reforma) que se suman al total para que pocas leyes no den notas extremas
 const K = 9;
 // empate en cabeza: a esta distancia o menos del primero (puntos de nota) la diferencia es demasiado pequeña para ordenarlos. Mismo umbral
@@ -1033,25 +1061,47 @@ function evidence(it, p){
   if(imp==='neu') return null;
   if(it.v && it.v[p]){
     const c = voteColor(imp, it.v[p]);
-    return c==='neu' ? null : {c, f:FUERZA[it.vk]||0.5, via:'voto'};
+    return c==='neu' ? null : {c, f:FUERZA[it.vk]||0.5, via:'voto', q: c==='mix'?0:efecto(it).q};
   }
-  if(it.a.includes(p)) return {c:imp, f:0.25, via:'pres'};
+  // ausencia: tenía escaño en la votación clave y no votó. Cuenta en el total con su peso, pero no suma ni resta
+  // (como una ley mixta): faltar no puede salir mejor que votar. Sin escaño (aún no era diputado) no cuenta
+  if(it.v && it.nv && it.nv.includes(p)) return {c:'aus', f:FUERZA[it.vk]||0.5, via:'aus'};
+  if(it.a.includes(p)) return {c:imp, f:0.25, via:'pres', q: imp==='mix'?0:efecto(it).q};
   return null;
+}
+// mismo contenido (campo g, rúbrica 3.9): cada partido cuenta el grupo una sola vez, con su mejor prueba (votó > tenía
+// escaño y no votó > solo la presentó; después, más peso y más reciente). Las demás quedan como «rep»: ni suman ni cuentan
+const VIA_RANGO = {voto:2, aus:1, pres:0};
+function evidencias(p, U){
+  const m = new Map(), best = {};
+  U.forEach(it=>{
+    const e = evidence(it,p); if(!e) return; m.set(it,e);
+    if(!it.g) return;
+    const b = best[it.g];
+    const mejor = !b || VIA_RANGO[e.via]-VIA_RANGO[b.e.via] || wEf(it)*e.f-wEf(b.it)*b.e.f || dkey(it)-dkey(b.it);
+    if(!b || mejor>0) best[it.g] = {it,e};
+  });
+  U.forEach(it=>{ const e=m.get(it); if(e && it.g && best[it.g].it!==it) m.set(it, {c:'rep', f:0, via:e.via, orig:e, de:best[it.g].it}); });
+  return m;
 }
 function computeRank(){
   const U = universe();
   return PARTIES.map(p=>{
-    const r = {k:p, pos:0, neg:0, mix:0, pres:0, W:0, S:0, Sp:0, Sn:0, Wm:0, big:{pos:0,neg:0}, rel2:{pos:0,neg:0}};
+    const M = evidencias(p,U);
+    const r = {k:p, pos:0, neg:0, mix:0, aus:0, rep:0, omni:0, pres:0, W:0, S:0, Sp:0, Sn:0, Wm:0, Wa:0, big:{pos:0,neg:0}, rel2:{pos:0,neg:0}};
     U.forEach(it=>{
-      const e = evidence(it,p); if(!e) return;
-      const w = wOf(it)*e.f;
-      r[e.c]++; r.W+=w; if(e.c==='pos') r.S+=w; else if(e.c==='neg') r.S-=w;
-      // solo para el desglose de la ficha: a favor, en contra y mixtas por separado
-      if(e.c==='pos') r.Sp+=w; else if(e.c==='neg') r.Sn+=w; else r.Wm+=w;
+      const e = M.get(it); if(!e) return;
+      if(e.c==='rep'){ r.rep++; return; }
+      const w = wEf(it)*e.f, s = w*(e.q??1);
+      r[e.c]++; r.W+=w; if(e.c==='pos') r.S+=s; else if(e.c==='neg') r.S-=s;
+      // solo para el desglose de la ficha: a favor, en contra y mixtas por separado. En una ómnibus que te afecta en los
+      // dos sentidos, la parte que se compensa (w − s) va con las mixtas
+      if((e.c==='pos'||e.c==='neg') && e.q<1) r.omni++;
+      if(e.c==='pos'){ r.Sp+=s; r.Wm+=w-s; } else if(e.c==='neg'){ r.Sn+=s; r.Wm+=w-s; } else if(e.c==='aus') r.Wa+=w; else r.Wm+=w;
       if(e.c==='pos'||e.c==='neg'){ if(it.w===3) r.big[e.c]++; else if(it.w===2) r.rel2[e.c]++; }
       if(e.via==='pres') r.pres++;
     });
-    r.rel = r.pos+r.neg+r.mix; r.s = Math.round(r.S/(r.W+K)*100);
+    r.rel = r.pos+r.neg+r.mix+r.aus; r.s = Math.round(r.S/(r.W+K)*100);
     return r;
   }).filter(r=>r.rel>0).sort((a,b)=>b.s-a.s || b.rel-a.rel);
 }
@@ -1516,7 +1566,7 @@ function renderRank(){
     const puesto = puestoDe(x);
     const w = Math.abs(x.s)/2, [vc,vt] = veredicto(x.s, x.rel);
     const bar = x.s>=0 ? `<span class="p" style="width:${w}%"></span>` : `<span class="n" style="width:${w}%"></span>`;
-    const det = `${cuenta(x.pos,x,'pos','a tu favor')} · ${cuenta(x.neg,x,'neg','en tu contra')}${x.mix?` · ${x.mix} mixta${x.mix>1?'s':''}`:''}${x.pres?` · ${x.pres} solo presentada${x.pres>1?'s':''}`:''}`;
+    const det = `${cuenta(x.pos,x,'pos','a tu favor')} · ${cuenta(x.neg,x,'neg','en tu contra')}${x.mix?` · ${x.mix} mixta${x.mix>1?'s':''}`:''}${x.aus?` · ${x.aus} sin votar`:''}${x.pres?` · ${x.pres} solo presentada${x.pres>1?'s':''}`:''}`;
     const few = x.rel<3 ? '<span class="few-tag">pocos datos</span>' : '';
     // dentro del bloque empatado lo dice la nota del bloque: sin chip en cada fila
     const emp = x.tec ? '' : x.empate ? '<span class="emp-tag" aria-hidden="true">empatado</span>' : '';
@@ -1622,7 +1672,7 @@ function renderPanel(){
 
 // ---------- list view ----------
 function openList(who, color){ state.list={who,color}; go('lista'); }
-const EV_TXT = {pos:'A tu favor', neg:'En tu contra', mix:'Mixta'};
+const EV_TXT = {pos:'A tu favor', neg:'En tu contra', mix:'Mixta', aus:'No votó', rep:'Repetida (cuenta una vez)'};
 // trazabilidad: cifras con coma decimal, fuente oficial del dataset y enlaces a los datos y al código
 const nf = n => (Math.round(n*100)/100).toLocaleString('es-ES',{maximumFractionDigits:2});
 const srcName = () => DATA.meta.formato==='europarlamento' ? 'Parlamento Europeo' : 'Congreso';
@@ -1664,11 +1714,13 @@ function calcBox(x){
   box.innerHTML = `<dl class="calc-n">
       <div class="k-pos"><dt>A favor</dt><dd>${x.Sp?'+':''}${nf(x.Sp)}<small>${pl(x.pos,'ley','leyes')}</small></dd></div>
       <div class="k-neg"><dt>En contra</dt><dd>${x.Sn?'−':''}${nf(x.Sn)}<small>${pl(x.neg,'ley','leyes')}</small></dd></div>
-      <div class="k-mix"><dt>Mixtas</dt><dd>${nf(x.Wm)}<small>${pl(x.mix,'ley','leyes')}, ni suman ni restan</small></dd></div>
+      <div class="k-mix"><dt>Mixtas</dt><dd>${nf(x.Wm)}<small>${pl(x.mix,'ley','leyes')}, ni suman ni restan${x.omni?`; y la parte que se compensa en ${pl(x.omni,'ley ómnibus','leyes ómnibus')}`:''}</small></dd></div>
+      ${x.rep?`<div class="k-aus"><dt>Repetidas</dt><dd>0<small>${pl(x.rep,'ley','leyes')} con el mismo contenido que otra: cuenta una sola vez</small></dd></div>`:''}
+      ${x.aus?`<div class="k-aus"><dt>Sin votar</dt><dd>${nf(x.Wa)}<small>${pl(x.aus,'ley','leyes')} en las que tenía escaño y no votó: cuentan en el total, ni suman ni restan</small></dd></div>`:''}
       <div><dt>Total</dt><dd>${nf(x.W)}<small>${pl(x.rel,'ley cuenta','leyes cuentan')}<span class="pru">+ ${K} de prudencia</span></small></dd></div>
     </dl>
     <p class="calc-f"><span>(a favor − en contra) ÷ (total + ${K}) × 100</span>(${nf(x.Sp)} − ${nf(x.Sn)}) ÷ (${nf(x.W)} + ${K}) × 100 ${exacto?'=':'≈'} <b>${x.s>0?'+':''}${x.s}</b></p>
-    <p class="calc-note">Sumamos ${K} puntos neutros, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema. Cada ley aporta su alcance (×1 menor, ×3 relevante, ×9 gran reforma) multiplicado por la fuerza de la prueba (1 votación final o convalidación, 0,5 toma en consideración o totalidad, 0,25 solo presentada). Las mixtas suman al total, pero no suman ni restan. Abajo, con «Todos los efectos», tienes la aportación de cada ley: suman exactamente estas cifras.${exacto?'':' La nota se redondea al entero más próximo.'}</p>`;
+    <p class="calc-note">Sumamos ${K} puntos neutros, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema. Cada ley aporta su alcance (×1 menor, ×3 relevante, ×9 gran reforma), a la mitad si solo te afecta como ciudadano o consumidor, multiplicado por la fuerza de la prueba (1 votación final o convalidación, 0,5 toma en consideración o totalidad, 0,25 solo presentada). Las mixtas suman al total, pero no suman ni restan; igual que las votaciones clave en las que el partido tenía escaño y no votó, para que faltar no puntúe mejor que votar. Las iniciativas con el mismo contenido (la misma proposición presentada varias veces, o un real decreto-ley y el proyecto de ley que procede de él) cuentan una sola vez, con la mejor prueba de su postura. Abajo, con «Todos los efectos», tienes la aportación de cada ley: suman exactamente estas cifras.${exacto?'':' La nota se redondea al entero más próximo.'}</p>`;
   return box;
 }
 // iniciativa del propio Gobierno (proyecto de ley o real decreto-ley): el autor viene en los datos (campo a)
@@ -1692,8 +1744,9 @@ function tCorto(t){
 // empezando por el signo que domina su nota
 function porQue(p, x){
   const box = el('section',{class:'calc','aria-labelledby':'pq-h'});
-  const L = universe().map(it=>({it, e:evidence(it,p)})).filter(y=>y.e && (y.e.c==='pos'||y.e.c==='neg'))
-    .map(y=>({...y, ap:wOf(y.it)*y.e.f})).sort((a,b)=>b.ap-a.ap || dkey(b.it)-dkey(a.it));
+  const U = universe(), M = evidencias(p,U);
+  const L = U.map(it=>({it, e:M.get(it)})).filter(y=>y.e && (y.e.c==='pos'||y.e.c==='neg'))
+    .map(y=>({...y, ap:wEf(y.it)*y.e.f*(y.e.q??1)})).sort((a,b)=>b.ap-a.ap || dkey(b.it)-dkey(a.it));
   box.innerHTML = `<h3 id="pq-h"><svg class="ico" aria-hidden="true"><use href="#i-star"/></svg>Por qué sale aquí</h3>`;
   if(!L.length){ box.appendChild(el('p',{class:'calc-note'},'Ninguna ley le suma ni le resta con tu perfil: las que cuentan son mixtas.')); return box; }
   // como mucho 2 leyes por grupo y títulos en 2 líneas; el resto, ley a ley en la lista de abajo
@@ -1860,7 +1913,7 @@ const sinRDLtxt = () => state.sinRDL && !europeas() && ITEMS.some(it=>it.k==='Re
 function partEl(p){
   const x = participacion(p); if(!x) return null;
   const tab = state.tab==='eco'?'leyes económicas':'leyes sociales', baja = x.pct<PART_BAJA;
-  return el('span',{class:'lpart'}, `<svg class="ico" aria-hidden="true"><use href="#i-vote"/></svg><span>Votó en el ${x.pct} % de las votaciones clave de ${tab}${sinRDLtxt()} en las que tenía escaño (${x.vot.toLocaleString('es-ES')} de ${x.pudo.toLocaleString('es-ES')}).${baja?' Las votaciones en las que no vota no suman ni restan a su nota.':''}</span>`);
+  return el('span',{class:'lpart'}, `<svg class="ico" aria-hidden="true"><use href="#i-vote"/></svg><span>Votó en el ${x.pct} % de las votaciones clave de ${tab}${sinRDLtxt()} en las que tenía escaño (${x.vot.toLocaleString('es-ES')} de ${x.pudo.toLocaleString('es-ES')}).${baja?' Las votaciones en las que no vota cuentan en el total de su nota sin sumar: le bajan la nota.':''}</span>`);
 }
 function shareFicha(p){
   const sh=el('div',{class:'lshare'}), lbl='<svg class="ico" aria-hidden="true"><use href="#i-share"/></svg>Compartir esta ficha';
@@ -1880,7 +1933,8 @@ function renderList(){
   const sTab=el('select',{id:'f-tab','data-k':'f-tab'}); [['eco','Económicas'],['soc','Sociales']].forEach(([k,t])=>sTab.appendChild(new Option(t,k,false,k===state.tab)));
   const sWho=el('select',{id:'f-who','data-k':'f-who'}); sWho.appendChild(new Option('Todos los partidos','',false,!L.who)); PARTIES.forEach(p=>sWho.appendChild(new Option(pn(p),p,false,p===L.who)));
   const cols = L.who ? EV_TXT : COLOR_TXT;
-  let rows = universe().map(it=>({it, e: L.who ? evidence(it,L.who) : {c:impactOf(it)}}));
+  const UL = universe(), EVM = L.who ? evidencias(L.who, UL) : null;
+  let rows = UL.map(it=>({it, e: L.who ? EVM.get(it) : {c:impactOf(it)}}));
   if(L.who) rows = rows.filter(x=>x.e);
   // cuántas hay de cada efecto con el tipo y el partido elegidos: el mismo recuento que el balance de «Sus leyes y votaciones», junto a la lista
   const nCol = {}; rows.forEach(x=>{ nCol[x.e.c]=(nCol[x.e.c]||0)+1; });
@@ -1898,7 +1952,7 @@ function renderList(){
   if(L.who) head.appendChild(filtros('lfilters ltop', [[sTab,'Tipo de leyes'],[sWho,'Partido']]));
   // nota y puesto del partido, con la misma barra que en el ranking
   let xc = null; FICHA_MSG = '';
-  if(L.who){ const pa = participacion(L.who); if(pa) FICHA_MSG = `Votó en el ${pa.pct} % de las votaciones clave.`+(pa.pct<PART_BAJA?' Las votaciones en las que no vota no suman ni restan a su nota.':''); }
+  if(L.who){ const pa = participacion(L.who); if(pa) FICHA_MSG = `Votó en el ${pa.pct} % de las votaciones clave.`+(pa.pct<PART_BAJA?' Las votaciones en las que no vota cuentan en el total de su nota sin sumar: le bajan la nota.':''); }
   if(L.who && propio()){
     const {rows} = ranked(), x = rows.find(r=>r.k===L.who), tab = state.tab==='eco'?'Leyes económicas':'Leyes sociales';
     if(x){
@@ -1931,10 +1985,10 @@ function renderList(){
 
   if(L.color) rows = rows.filter(x=>x.e.c===L.color);
   // ficha de un partido: primero lo que más mueve su nota (peso × fuerza de la prueba); si no, por alcance. Después, por fecha
-  if(L.who) rows.sort((a,b)=>wOf(b.it)*b.e.f-wOf(a.it)*a.e.f || dkey(b.it)-dkey(a.it));
+  if(L.who) rows.sort((a,b)=>wEf(b.it)*b.e.f-wEf(a.it)*a.e.f || dkey(b.it)-dkey(a.it));
   else rows.sort((a,b)=>(b.it.w||1)-(a.it.w||1) || dkey(b.it)-dkey(a.it));
   const hint = !state.sel.size ? `${rows.length} iniciativas. Marca tu perfil en el panel para ver colores.`
-    : L.who ? `${rows.length} iniciativas cuentan en el saldo de ${pn(L.who)}: las que te afectan y votó en el Pleno (sin contar abstenciones) o presentó sin llegar a votarlas.`
+    : L.who ? `${rows.length} iniciativas cuentan en el saldo de ${pn(L.who)}: las que te afectan y votó en el Pleno (sin contar abstenciones), no votó teniendo escaño o presentó sin llegar a votarlas.`
     : `${rows.length} iniciativas.`;
   v.appendChild(el('p',{class:'hint'}, esc(hint)));
   // lo que anuncian los filtros: cuántas quedan y con qué filtro
@@ -1972,16 +2026,27 @@ function itemRow(it, color, who, ev){
   if(it.v) mid.appendChild(votesEl(it, PARTIES));
   // clasificación propia: a quién afecta y alcance
   const affected = [...RASGOS].filter(k=>impDe(it,k));
-  const why = (affected.length? affected.map(k=>`${LABEL[k]}: ${impDe(it,k)>0?'beneficia':'perjudica'}`).join(' · ')+'. ' : '') + (it.n||'');
-  const alcance = (PESO_TXT[it.w]||'Ley menor')+' (×'+wOf(it)+')';
+  const why = (affected.length && !it.m ? affected.map(k=>`${LABEL[k]}: ${impDe(it,k)>0?'beneficia':'perjudica'}`).join(' · ')+'. ' : '') + (it.n||'');
+  // ley ómnibus: sus medidas, cada una con su efecto para ti; solo cuentan las que te afectan
+  if(it.m){
+    const med = efecto(it).med, TXT = {1:'te beneficia', '-1':'te perjudica', 0:'efectos opuestos para ti'};
+    const ul = el('ul',{class:'medidas'});
+    it.m.forEach((m,i)=>ul.appendChild(el('li',{class:med[i]===null?'no':''}, `${esc(m.d)} <small>· ${{1:'medida menor (×1)',2:'medida relevante (×3)',3:'gran medida (×9)'}[m.w]} · ${med[i]===null?'no te afecta':TXT[med[i]]}</small>`)));
+    mid.appendChild(el('p',{class:'why'}, `<span class="orig cp"><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Clasificación propia</span>Ley ómnibus: cada medida se clasifica por separado y solo cuentan las que te afectan, con su peso.`));
+    mid.appendChild(ul);
+  }
+  const alcance = (PESO_TXT[efecto(it).w]||'Ley menor')+' (×'+wOf(it)+')'+(it.m?', la mayor de las medidas que te afectan':'')+(soloComun(it)?`, ×${nf(F_COMUN)} por afectarte solo como ciudadano o consumidor`:'');
   mid.appendChild(el('p',{class:'why'}, `<span class="orig cp"><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Clasificación propia</span>${esc(why)}${why&&!/[.\s]$/.test(why)?'.':''} Alcance: ${esc(alcance.toLowerCase())}.`));
-  // ficha de un partido: aportación exacta de esta ley a su nota (evidence() × wOf())
+  // ficha de un partido: aportación exacta de esta ley a su nota (evidence() × wEf())
   if(who && ev){
-    const ap = wOf(it)*ev.f, v = it.v && it.v[who];
-    const prueba = ev.via==='pres' ? `Presentó la iniciativa${it.f?' el '+esc(it.f):''}, sin voto suyo en el Pleno`
+    const ap = wEf(it)*ev.f, v = it.v && it.v[who];
+    const prueba = ev.c==='rep' ? `${ev.via==='voto'?`Votó <b>${VOTE_TXT[v]}</b>`:ev.via==='aus'?'Tenía escaño y <b>no votó</b>':'La presentó, sin voto suyo en el Pleno'}. Mismo contenido que <a href="#ley=${encodeURIComponent(ev.de.id)}">${tCorto(ev.de.t)}</a>, que es la que cuenta`
+      : ev.via==='aus' ? `Tenía escaño y <b>no votó</b> en ${esc(VK_FRASE[it.vk]||it.vk)}${it.vd?' del '+esc(it.vd):''}`
+      : ev.via==='pres' ? `Presentó la iniciativa${it.f?' el '+esc(it.f):''}, sin voto suyo en el Pleno`
       : it.vk==='Enmienda a la totalidad' ? `Su postura ante la ley: <b>${VOTE_TXT[v]}</b>, deducida de la enmienda a la totalidad${it.vd?' del '+esc(it.vd):''}`
       : `Votó <b>${VOTE_TXT[v]}</b> en ${esc(VK_FRASE[it.vk]||it.vk)}${it.vd?' del '+esc(it.vd):''}`;
-    const res = ev.c==='pos' ? `Suma +${nf(ap)}` : ev.c==='neg' ? `Resta ${nf(ap)}` : `Mixta: cuenta ${nf(ap)} en el total, no suma ni resta`;
+    const sq = ap*(ev.q??1), parte = (ev.q??1)<1 ? ` de ${nf(ap)} (el resto se compensa entre sus medidas)` : '';
+    const res = ev.c==='rep' ? 'Cuenta una sola vez: aquí ni suma ni resta' : ev.c==='pos' ? `Suma +${nf(sq)}${parte}` : ev.c==='neg' ? `Resta ${nf(sq)}${parte}` : ev.c==='aus' ? `No votó: cuenta ${nf(ap)} en el total, no suma ni resta` : `Mixta: cuenta ${nf(ap)} en el total, no suma ni resta`;
     mid.appendChild(el('p',{class:'traza','data-c':ev.c,'data-ap':String(ap)}, `<span class="orig ca">Cálculo</span>${delGobierno(it)?gobTag(it):''}<span>${prueba} · ${esc(alcance)} · Fuerza ${nf(ev.f)} · <b class="ap ${ev.c}">${res}</b></span>`));
   }
   const lk=el('div',{class:'ilinks'});
@@ -1995,7 +2060,7 @@ function itemRow(it, color, who, ev){
   const side=el('div',{class:'side'});
   side.appendChild(el('span',{class:'tag t-'+impactOf(it)}, esc(COLOR_TXT[impactOf(it)])));
   if(PESO_TXT[it.w]) side.appendChild(el('span',{class:'tag peso',title:'Alcance de la iniciativa; cuenta más en el saldo del ranking'}, esc(PESO_TXT[it.w])));
-  if(who && ev) side.appendChild(el('span',{class:'tag t-'+c}, ev.via==='pres' ? `Presentada por ${esc(pn(who))}, sin votar` : `${esc(pn(who))}: ${VOTE_TXT[it.v[who]]}`));
+  if(who && ev) side.appendChild(el('span',{class:'tag t-'+c}, ev.via==='pres' ? `Presentada por ${esc(pn(who))}, sin votar` : ev.via==='aus' ? `${esc(pn(who))}: no votó` : `${esc(pn(who))}: ${VOTE_TXT[it.v[who]]}`));
   r.appendChild(side);
   return r;
 }
@@ -2033,7 +2098,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <h3>Autoría</h3>
     <p>En la Unión Europea las propuestas legislativas las presenta la Comisión Europea (${esc(DATA.meta.gobierno)}); los partidos no presentan leyes, así que el ranking se basa solo en cómo votaron.</p>
     <h3>Votaciones</h3>
-    <p>Para cada procedimiento se toma una votación clave del Pleno: la del acuerdo con el Consejo o la resolución legislativa final (no las enmiendas ni la apertura de negociaciones). ${nv} procedimientos tienen votación clave. Solo se muestran los eurodiputados españoles, agrupados por su partido nacional en la fecha de cada votación; el voto de un partido es el voto mayoritario de sus eurodiputados presentes. Los independientes no se cuentan. Si ninguno de sus eurodiputados vota en esa votación, el partido no vota: las votaciones en las que no vota no suman ni restan a su nota. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
+    <p>Para cada procedimiento se toma una votación clave del Pleno: la del acuerdo con el Consejo o la resolución legislativa final (no las enmiendas ni la apertura de negociaciones). ${nv} procedimientos tienen votación clave. Solo se muestran los eurodiputados españoles, agrupados por su partido nacional en la fecha de cada votación; el voto de un partido es el voto mayoritario de sus eurodiputados presentes. Los independientes no se cuentan. Si ninguno de sus eurodiputados vota en esa votación, el partido no vota: la ley cuenta en el total de su nota sin sumar ni restar (como una mixta), para que faltar no puntúe mejor que votar; si aún no tenía escaño, no cuenta. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
     <p class="small">Datos de votaciones: HowTheyVote.eu, a partir de las listas oficiales de votación nominal; títulos y fechas: datos abiertos del Parlamento Europeo.</p>
 ` : `    <h3>Qué iniciativas incluye</h3>
     <p>${ITEMS.length} iniciativas presentadas ${esc(DATA.meta.periodo)}: ${kinds['Proyecto de ley']||0} proyectos de ley del Gobierno, ${kinds['Real decreto-ley']||0} reales decretos-ley y ${kinds['Proposición de ley']||0} proposiciones de ley de los grupos, del Senado, de parlamentos autonómicos e iniciativa popular. Se cuentan todas, se aprobaran o no.</p>
@@ -2041,18 +2106,18 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>Los proyectos de ley y los reales decretos-ley figuran como del Gobierno (${esc(DATA.meta.gobierno)}). Una proposición firmada por varios grupos cuenta para cada uno. El Congreso publica como autor al Grupo Mixto sin indicar el partido, por lo que esas proposiciones aparecen como Grupo Mixto salvo cuando se ha podido identificar el partido. Las del Senado, parlamentos autonómicos e iniciativa popular no se atribuyen a ningún partido.</p>
     <h3>Votaciones</h3>
     <p>Para cada iniciativa se toma una votación clave del Pleno, por este orden de preferencia: votación final (de conjunto o del dictamen), convalidación del real decreto-ley, toma en consideración y enmienda a la totalidad. En las enmiendas a la totalidad, votar sí equivale a oponerse a la ley, y se interpreta así. ${nv} iniciativas tienen votación clave en el Pleno; el resto no llegó a votarse en Pleno o se aprobó en comisión.</p>
-    <p>El voto de un partido es el voto mayoritario de sus diputados presentes. Para ${esc(DATA.meta.nominal_txt)}, se usa el voto nominal de sus diputados. Los diputados no adscritos no se cuentan. Si ninguno de sus diputados vota en esa votación, el partido no vota: las votaciones en las que no vota no suman ni restan a su nota. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
+    <p>El voto de un partido es el voto mayoritario de sus diputados presentes. Para ${esc(DATA.meta.nominal_txt)}, se usa el voto nominal de sus diputados. Los diputados no adscritos no se cuentan. Si ninguno de sus diputados vota en esa votación, el partido no vota: la ley cuenta en el total de su nota sin sumar ni restar (como una mixta), para que faltar no puntúe mejor que votar; si aún no tenía escaño, no cuenta. En la ficha de cada partido ves en qué porcentaje de las votaciones clave votó, de las que tenía escaño.</p>
 `}    <h3>Clasificación de impactos</h3>
-    <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
+    <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su texto oficial: el publicado en el Boletín Oficial de las Cortes Generales (BOCG) o, en los reales decretos-ley, que no pasan por el BOCG, el del Boletín Oficial del Estado (BOE); en el Parlamento Europeo, el texto aprobado. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
     <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. También recoge lo público frente a lo privado: lo de titularidad o gestión pública es patrimonio de todos, así que las leyes que lo amplían (nacionalizaciones, gestión pública de la sanidad, reversión de concesiones) benefician a la ciudadanía y perjudican al sector privado afectado, y las que lo traspasan a empresas (privatizaciones, externalizaciones, liberalizaciones) hacen lo contrario. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
     <p>«Consumidor y usuario» recoge las leyes que te afectan como cliente: luz, gas, banca, telefonía, transporte o compras. Como casi todo el mundo es consumidor, también está activa por defecto en todos los perfiles; puedes quitarla con la casilla «Incluir leyes de consumo», junto al ranking.</p>
-    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las leyes sobre alquiler y okupación afectan a quien tiene dos o más), hipoteca y alquiler; otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte. Si en el tramo de IRPF marcas «No lo sé», cuentas como asalariado sin tramo concreto: te aplican las leyes que afectan a 3 o más de los 6 tramos, con su efecto, y no las que afectan solo a 1 o 2.</p>
+    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las de okupación, IBI o segundas residencias afectan a quien tiene dos o más), hipoteca, si vives de alquiler y si alquilas una vivienda a otros (las leyes sobre el arrendador solo afectan a quien alquila); otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte. Si en el tramo de IRPF marcas «No lo sé», cuentas como asalariado sin tramo concreto: te aplican las leyes que afectan a 3 o más de los 6 tramos, con su efecto, y no las que afectan solo a 1 o 2.</p>
     <h3>Alcance de cada iniciativa</h3>
     <p>Cada iniciativa tiene un alcance: gran reforma (cambia de forma estructural un ámbito que afecta a millones de personas, como una reforma laboral, de pensiones o unos presupuestos), ley relevante (regula de forma sustantiva un sector, un colectivo amplio o un derecho) o ley menor o técnica. Mide el tamaño de la norma, no si es buena o mala ni si se aprobó, y forma parte de la misma clasificación interpretativa.</p>
     <h3>Cómo se calcula el ranking</h3>
     <p>Tu perfil son los rasgos que marcas en los 4 pasos, los que se deducen de tus respuestas (por ejemplo, vivir de alquiler o tener dos viviendas) y, salvo que las quites, «Ciudadanía general» y «Consumidor y usuario», que están activas por defecto.</p>
     <p>Para cada partido se toman las iniciativas que afectan a tu perfil y se cuenta cada una una sola vez, según la mejor prueba que haya de su postura. Lo que más pesa es cómo votó: votar el texto final o la convalidación de un real decreto-ley cuenta 1; la toma en consideración o una enmienda a la totalidad, 0,5, porque solo decide si se debate. Las iniciativas que el partido presentó pero no llegó a votar en el Pleno cuentan 0,25: presentar una ley cuesta poco y no siempre busca aprobarla. Las abstenciones no cuentan.</p>
-    <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. Al total se le suman 9 puntos neutros de prudencia, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema: el saldo es (a favor − en contra) ÷ (total + 9) × 100, de −100 a +100. Con muchas leyes la prudencia apenas cuenta; con pocas, acerca la nota a 0. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ (12 + 9) × 100 = +29. Sin la prudencia saldría +50.</p>
+    <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las leyes ómnibus (las que reúnen medidas distintas, como muchos reales decretos-ley) se clasifican medida a medida: solo cuentan las medidas que te afectan, la ley pesa como la mayor de ellas y su efecto es el saldo de esas medidas según su peso; si te afectan dos a favor y una en contra, la ley suma en proporción en vez de quedar como mixta. Las iniciativas con el mismo contenido (la misma proposición presentada varias veces o por varios grupos, o un real decreto-ley y el proyecto de ley que procede de él) cuentan una sola vez por partido, con la mejor prueba de su postura. Si una iniciativa solo te afecta por «Ciudadanía general» o como consumidor, pesa la mitad: así lo que es común a todo el mundo no tapa tus rasgos propios; si además toca algún rasgo tuyo, pesa entera. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. Al total se le suman 9 puntos neutros de prudencia, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema: el saldo es (a favor − en contra) ÷ (total + 9) × 100, de −100 a +100. Con muchas leyes la prudencia apenas cuenta; con pocas, acerca la nota a 0. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ (12 + 9) × 100 = +29. Sin la prudencia saldría +50.</p>
     <p>${DATA.meta.formato==='europarlamento' ? 'La Comisión Europea no aparece en el ranking: sus propuestas cuentan a través de cómo las votó cada partido.' : 'El Gobierno no aparece en el ranking: sus proyectos de ley y reales decretos-ley cuentan a través de cómo los votó cada partido.'}</p>
     <p>${DATA.meta.formato==='europarlamento' ? 'Junto al ranking puedes elegir «¿En qué provincia votas?» en las legislaturas del Congreso. En las elecciones europeas no se aplica: España es una circunscripción única y puedes votar a cualquier lista desde cualquier lugar.'
       : 'Con «¿En qué provincia votas?», junto al ranking, ves solo los partidos a los que se puede votar en tu provincia: los de ámbito estatal y los que se presentan en tu provincia o en tu comunidad. El filtro solo oculta filas, como «Ocultar partidos con menos de 3 leyes»: no cambia la nota de nadie, y los puestos se cuentan de nuevo entre los partidos que quedan. Un partido que no esté en el mapa se muestra siempre.'}
@@ -2069,6 +2134,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     </ul>
     <h3>Clasificación contrastada (XV)</h3>
     <p>Las 540 iniciativas de la XV legislatura del Congreso se han clasificado <b>tres veces, de forma independiente</b>, con la rúbrica v3 y con el texto oficial de cada ley publicado en el BOCG. Ninguna lectura vio las otras ni la clasificación anterior. La clasificación que usa la web es la <b>mayoría</b>: un colectivo solo cuenta si lo marcan al menos dos de las tres lecturas. Los lectores son modelos de IA del mismo tipo, no personas, así que no sustituyen a una revisión humana.</p>
+    <p>Las leyes ómnibus del Congreso (las que reúnen medidas distintas) se han releído medida a medida, también tres veces y de forma independiente, con su texto oficial del BOCG o, en los reales decretos-ley, del BOE. Una ley se divide en medidas si así lo deciden al menos dos lecturas, y en cada medida solo cuentan los colectivos que marcan al menos dos.</p>
     <dl class="kpi">
       <div><dt>Lecturas independientes</dt><dd>3</dd></div>
       <div><dt>Con signo contrario entre lecturas</dt><dd>0 de 540</dd></div>
@@ -2084,11 +2150,11 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
       <caption>Parlamento Europeo, leyes económicas: partido que sale primero en más perfiles y en qué porcentaje de ellos</caption>
       <thead><tr><th scope="col">Legislatura</th><th scope="col">Con «Ciudadanía general»</th><th scope="col">Sin ella</th></tr></thead>
       <tbody>
-        <tr><th scope="row">10.ª · 2024–2029</th><td>BNG · 46,7 %</td><td>PP · 28,1 %</td></tr>
-        <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 60,2 %</td><td>PP · 24,6 %</td></tr>
+        <tr><th scope="row">10.ª · 2024–2029</th><td>BNG · 43,1 %</td><td>PP · 28,8 %</td></tr>
+        <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 96,6 %</td><td>PP · 24,7 %</td></tr>
       </tbody>
     </table>
-    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 41,9 % de los perfiles, PNV en el 30,1 % y PSOE en el 10,9 %. Pero salir primero puede ser un empate en cabeza: en esa misma pestaña, el 2.º queda a ${EMPATE} puntos o menos del 1.º en el 98,7 % de los perfiles (margen mediano: 0 puntos). Esa diferencia es demasiado pequeña para ordenarlos, así que el ranking agrupa a los partidos a ${EMPATE} puntos o menos del 1.º como «Empatado en cabeza», todos con el 1.º (sin cambiar su orden ni su nota). En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
+    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 46,7 % de los perfiles, PNV en el 23,5 % y PSOE en el 12,1 %. Pero salir primero puede ser un empate en cabeza: en esa misma pestaña, el 2.º queda a ${EMPATE} puntos o menos del 1.º en el 97,4 % de los perfiles (margen mediano: 0 puntos). Esa diferencia es demasiado pequeña para ordenarlos, así que el ranking agrupa a los partidos a ${EMPATE} puntos o menos del 1.º como «Empatado en cabeza», todos con el 1.º (sin cambiar su orden ni su nota). En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
     <p><span class="tag-int">Interpretación nuestra</span>Los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.</p>
     <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','/blob/main/data/analisis/SESGO.md')}</p>
     <h3>Versión de la metodología</h3>

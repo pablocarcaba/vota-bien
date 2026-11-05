@@ -500,14 +500,19 @@
   "id": "122/000166",
   "tipo": "eco",
   "imp": {
+   "casero": -1,
    "hipot": 1,
    "inq": 1,
    "pobreza": 1,
+   "prop3": -1,
+   "prop4": -1,
+   "secCons": -1,
    "secFin": -1,
-   "casero": -1
+   "secInd": -1,
+   "viv2": -1
   },
   "peso": 3,
-  "nota": "Ley integral de vivienda: frena desahucios, regula alquileres y limita deudas hipotecarias; beneficia a inquilinos, deudores y vulnerables, y perjudica a arrendadores y banca.",
+  "nota": "Frena desahucios de vulnerables, regula alquileres, introduce dación en pago, obliga a grandes tenedores, recarga la vivienda vacía y crea tarifa social de suministros.",
   "partido": ""
  },
  {
@@ -572,7 +577,7 @@
    "secSoc": -1
   },
   "peso": 2,
-  "nota": "Integra voluntariamente centros privados concertados en la red pública; traslada la prestación educativa de lo privado a lo público.",
+  "nota": "Regula la integración de centros privados concertados en la red pública; refuerza la titularidad pública y reduce el espacio del sector privado de enseñanza.",
   "partido": ""
  },
  {

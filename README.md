@@ -205,6 +205,9 @@ scripts/
   descargar_europarlamento_historico.py  Parlamento Europeo 6.ª a 8.ª (actas oficiales del PE y Parltrack)
   identificar_mixto.py          Partido de las proposiciones del Mixto y del Plural (por el BOCG)
   textos_bocg.py                Texto de iniciativas concretas para revisar su clasificación
+  textos_boe.py                 Texto de los reales decretos-ley en el BOE (por ELI)
+  agrupar_temas.py              Iniciativas con el mismo contenido (temas.json): cuentan una vez
+  consolidar_medidas.py         Mayoría de 3 lecturas en la ronda de leyes ómnibus (medidas)
   build_items.py                fuente → items.json
   build_data.py                 items + clasificación + votaciones → site/data/<clave>.json
   build_page.py                 template.html + catálogo de datasets → index.html
@@ -251,7 +254,7 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 - [ ] **Revisar las clasificaciones** de las leyes más relevantes: fiscales, vivienda, pensiones, laboral, migración.
 - [x] **Identificar el partido** de las proposiciones del Grupo Mixto y del Grupo Plural: hecho en 169 de 185 (122/000033 de la X ya está asignada al BNG). Las 16 restantes son, en su mayoría, iniciativas inadmitidas o retiradas sin texto publicado, y el BOCG no dice quién las firma (`data/clasificacion/<clave>/partidos_mixto.json`).
 - [x] **Convertir la clasificación en un proceso repetible** entre legislaturas: [`scripts/lotes_reclasificacion.py`](scripts/lotes_reclasificacion.py), [`scripts/aplicar_reclasificacion.py`](scripts/aplicar_reclasificacion.py), [`scripts/cerrar_reclasificacion.py`](scripts/cerrar_reclasificacion.py) y [`data/clasificacion/PROMPT_LECTOR.md`](data/clasificacion/PROMPT_LECTOR.md).
-- [ ] **Leyes ómnibus:** leer el texto (BOE / BOCG) y clasificar medida a medida.
+- [x] **Leyes ómnibus:** clasificadas medida a medida (campo `medidas`, rúbrica 3.8) con el texto del BOCG o del BOE y tres lecturas independientes (`scripts/consolidar_medidas.py`).
 
 ## Quién hace esto
 
@@ -262,6 +265,7 @@ Lo hacemos **Pablo Carcaba** y **Nacho Rodríguez**, desarrolladores profesional
 ## Fuentes y licencia
 
 - **Congreso de los Diputados**, datos abiertos: <https://www.congreso.es/es/opendata>. Su reutilización exige citar la fuente.
+- **Textos oficiales para clasificar:** Boletín Oficial de las Cortes Generales (BOCG, en las fichas del Congreso) y, para los reales decretos-ley, [Boletín Oficial del Estado](https://www.boe.es) (BOE, por su identificador ELI; `scripts/textos_boe.py`). Los textos se guardan en la caché local y no se publican.
 - **Parlamento Europeo:** votaciones nominales de [HowTheyVote.eu](https://howtheyvote.eu) (9.ª y 10.ª, datos abiertos con atribución) y de las actas oficiales del Parlamento Europeo (6.ª a 8.ª); títulos y fechas de la [API de datos abiertos del Parlamento Europeo](https://data.europarl.europa.eu). Para la 6.ª, también [Parltrack](https://parltrack.org) (ODbL 1.0).
 
 La clasificación de impactos es propia e interpretativa. Si ves una ley mal clasificada, abre un *issue*.

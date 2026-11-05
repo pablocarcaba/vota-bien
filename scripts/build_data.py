@@ -156,9 +156,11 @@ if EP:  # Parlamento Europeo: una votación clave por procedimiento, ya marcada 
     for v in raw["votaciones"]:
         if v.get("clave") and v["exp"] in ids:
             tot = v.get("tot") or {}
+            desde = CFG.get("escano_desde", {})
+            iso = "-".join(reversed(v["d"].split("/"))) if "/" in v["d"] else v["d"]
+            seated = {p for p in party_seated(v["g"], {}) if iso >= desde.get(p, "")}
             consider(v["exp"], "final", v["d"], party_stances(v["g"], {}),
-                     {"s": tot.get("afavor"), "n": tot.get("enContra"), "a": tot.get("abstenciones")},
-                     party_seated(v["g"], {}))
+                     {"s": tot.get("afavor"), "n": tot.get("enContra"), "a": tot.get("abstenciones")}, seated)
 for v in ([] if EP else raw["votaciones"]):
     k = vote_kind(v)
     if not k:
@@ -235,6 +237,15 @@ def short_kind(it):
     return "Proposición de ley"
 
 
+# iniciativas con el mismo contenido (data/clasificacion/<clave>/temas.json, scripts/agrupar_temas.py): campo «g»
+# con el id del primero del grupo; en la nota, cada partido cuenta el grupo una sola vez
+TEMA = {}
+_tf = os.path.join(ROOT, "data", "clasificacion", CLAVE, "temas.json")
+if os.path.exists(_tf):
+    for g in json.load(open(_tf, encoding="utf-8")):
+        for i in g["ids"]:
+            TEMA[i] = g["ids"][0]
+
 out = []
 for it in items:
     c = clas.get(it["id"])
@@ -258,6 +269,11 @@ for it in items:
         nv = [p for p in b["nv"] if p in PARTIES]
         if nv:
             rec["nv"] = nv
+    if it["id"] in TEMA:
+        rec["g"] = TEMA[it["id"]]
+    # ley ómnibus (rúbrica 3.8): sus medidas, cada una con su imp y su peso
+    if c.get("medidas"):
+        rec["m"] = [{"d": m["d"], "imp": m["imp"], "w": m["peso"]} for m in c["medidas"]]
     out.append(rec)
 
 meta = {"clave": CLAVE, "fuente": CFG["fuente"], "fuente_txt": FUENTES[CFG["fuente"]], "leg": CFG["leg"],

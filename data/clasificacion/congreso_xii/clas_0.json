@@ -281,22 +281,20 @@
   "id": "121/000034",
   "tipo": "eco",
   "imp": {
-   "ciud": 1,
    "secTrans": -1
   },
-  "peso": 2,
-  "nota": "Gestión directa pública de autopistas revertidas; endurece sanciones a concesionarios y obliga a vehículos pesados a desviarse a autopistas de peaje.",
+  "peso": 1,
+  "nota": "Permite obligar a los vehículos pesados a circular por autopistas de peaje; el resto ordena sanciones a concesionarias, peajes públicos y expropiaciones.",
   "partido": ""
  },
  {
   "id": "130/000045",
   "tipo": "eco",
   "imp": {
-   "ciud": 1,
    "secTrans": -1
   },
-  "peso": 2,
-  "nota": "Gestión directa pública de autopistas revertidas; endurece sanciones a concesionarios y obliga a vehículos pesados a desviarse a autopistas de peaje.",
+  "peso": 1,
+  "nota": "Permite obligar a los vehículos pesados a circular por autopistas de peaje; el resto ordena sanciones a concesionarias, peajes públicos y expropiaciones.",
   "partido": ""
  },
  {
@@ -444,13 +442,49 @@
   "id": "130/000048",
   "tipo": "eco",
   "imp": {
+   "casero": -1,
+   "discapacidad": 1,
    "inq": 1,
    "pobreza": 1,
-   "casero": -1
+   "secCons": -1
   },
   "peso": 2,
-  "nota": "Amplía la duración mínima de los alquileres y limita al arrendador, y protege frente al desahucio a personas vulnerables.",
-  "partido": ""
+  "nota": "Amplía la duración de los alquileres y limita garantías, suspende desahucios de hogares vulnerables, impulsa obras de accesibilidad y exime de ITP ciertos arrendamientos.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Prórroga obligatoria de alquileres a 5-7 años y límite de garantías",
+    "imp": {
+     "inq": 1,
+     "casero": -1,
+     "secCons": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Suspensión del desahucio de hogares vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Obras obligatorias de accesibilidad en comunidades de propietarios",
+    "imp": {
+     "discapacidad": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención del ITP en arrendamientos de vivienda",
+    "imp": {
+     "inq": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000041",
@@ -472,23 +506,63 @@
   "id": "121/000043",
   "tipo": "eco",
   "imp": {
+   "ciud": -1,
    "cons": 1,
-   "secCom": -1
+   "secCom": -1,
+   "secTrans": 1
   },
   "peso": 2,
-  "nota": "Transpone directivas de marcas, transporte ferroviario y viajes combinados; refuerza garantías de viajeros y obligaciones de agencias de viajes.",
-  "partido": ""
+  "nota": "Liberaliza el transporte ferroviario de viajeros y refuerza los derechos de quienes contratan viajes combinados; la reforma de marcas no tiene efecto claro.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Apertura del transporte ferroviario de viajeros a la competencia",
+    "imp": {
+     "ciud": -1,
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Más derechos y garantías en los viajes combinados",
+    "imp": {
+     "cons": 1,
+     "secCom": -1
+    },
+    "peso": 2
+   }
+  ]
  },
  {
   "id": "130/000050",
   "tipo": "eco",
   "imp": {
+   "ciud": -1,
    "cons": 1,
-   "secCom": -1
+   "secCom": -1,
+   "secTrans": 1
   },
   "peso": 2,
-  "nota": "Transpone directivas de marcas, transporte ferroviario y viajes combinados; refuerza garantías de viajeros y obligaciones de agencias de viajes.",
-  "partido": ""
+  "nota": "Liberaliza el transporte ferroviario de viajeros y refuerza los derechos de quienes contratan viajes combinados; la reforma de marcas no tiene efecto claro.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Apertura del transporte ferroviario de viajeros a la competencia",
+    "imp": {
+     "ciud": -1,
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Más derechos y garantías en los viajes combinados",
+    "imp": {
+     "cons": 1,
+     "secCom": -1
+    },
+    "peso": 2
+   }
+  ]
  },
  {
   "id": "121/000044",
@@ -586,27 +660,149 @@
   "id": "121/000047",
   "tipo": "eco",
   "imp": {
+   "asal5": -1,
+   "asal6": -1,
+   "desSub": 1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "estud": 1,
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "secPrim": 1,
+   "victimas": 1
   },
   "peso": 3,
-  "nota": "Revaloriza las pensiones públicas un 1,6 % y fija las cuantías mínimas y límites de 2019, con otras medidas sociales y laborales.",
-  "partido": ""
+  "nota": "Revaloriza las pensiones un 1,6 %; sube el tope y las bases de cotización; amplía la protección de autónomos, becarios y eventuales agrarios.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Más protección por cese de actividad de los autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Tarifa plana para autónomos agrarios",
+    "imp": {
+     "empAut": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del tope máximo y las bases mínimas de cotización",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Alta en la Seguridad Social de prácticas y becarios",
+    "imp": {
+     "estud": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Menos jornadas para el subsidio agrario por lluvias",
+    "imp": {
+     "desSub": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000055",
   "tipo": "eco",
   "imp": {
+   "asal5": -1,
+   "asal6": -1,
+   "desSub": 1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "estud": 1,
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "secPrim": 1,
+   "victimas": 1
   },
   "peso": 3,
-  "nota": "Revaloriza las pensiones públicas un 1,6 % y fija las cuantías mínimas y límites de 2019, con otras medidas sociales y laborales.",
-  "partido": ""
+  "nota": "Revaloriza las pensiones un 1,6 %; sube el tope y las bases de cotización; amplía la protección de autónomos, becarios y eventuales agrarios.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Más protección por cese de actividad de los autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Tarifa plana para autónomos agrarios",
+    "imp": {
+     "empAut": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del tope máximo y las bases mínimas de cotización",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Alta en la Seguridad Social de prácticas y becarios",
+    "imp": {
+     "estud": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Menos jornadas para el subsidio agrario por lluvias",
+    "imp": {
+     "desSub": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000002",

@@ -322,13 +322,30 @@
   "tipo": "eco",
   "imp": {
    "empGran": -1,
-   "prop4": -1,
    "secFin": -1,
    "secInd": -1
   },
-  "peso": 3,
-  "nota": "Crea gravámenes temporales a energéticas y banca y un impuesto a grandes fortunas; perjudica a esas empresas, sectores y patrimonios.",
-  "partido": ""
+  "peso": 2,
+  "nota": "Crea gravámenes temporales sobre la cifra de negocios de las grandes energéticas y sobre el margen de intereses y comisiones de los grandes bancos.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Gravamen temporal del 1,2 % a grandes energéticas",
+    "imp": {
+     "empGran": -1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Gravamen temporal del 4,8 % a grandes entidades de crédito",
+    "imp": {
+     "empGran": -1,
+     "secFin": -1
+    },
+    "peso": 2
+   }
+  ]
  },
  {
   "id": "122/000248",

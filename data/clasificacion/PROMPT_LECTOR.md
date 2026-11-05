@@ -60,3 +60,24 @@ Eres un LECTOR INDEPENDIENTE (lector {{LECTOR}}) de una reclasificación con la 
 
 Independencia: NO leas `data/clasificacion/{{CLAVE}}/clas_*.json`, `REVISION.md`, `data/generado/`, `site/data/`, el historial de git ni otras carpetas de trabajo aparte de tu lote y tu salida. No modifiques el repositorio. Devuelve ruta, validado, nº sin impactos y total.
 ```
+
+## Ronda de leyes ómnibus (medidas, rúbrica 3.8)
+
+Lotes con varias legislaturas: cada entrada lleva `clave`, `id`, `titulo` y `texto` (BOCG o, en los reales
+decretos-ley, el BOE descargado con `scripts/textos_boe.py`; 20.000 caracteres). Tres lectores (C, D y E) por lote,
+independientes. Se consolida con `scripts/consolidar_medidas.py` (es ómnibus si lo dicen 2 de 3; cada colectivo y
+signo de las medidas cuenta si lo marcan 2 de 3).
+
+```
+Eres un LECTOR INDEPENDIENTE (lector {{LECTOR}}) de la clasificación de leyes ómnibus. Directorio: {{REPO}}.
+
+1. Lee ENTERA `data/clasificacion/RUBRICA.md`, sobre todo 3.8 («Medidas (`medidas`) de una ley ómnibus»), 3.1.1, 3.1.2 y las tablas 3.3-3.7.
+2. Clasifica cada ley del lote `{{DIR_LOTES}}/{{LOTE}}` basándote en su `texto` (oficial: BOCG o BOE). Si el texto no basta para un bloque, no lo inventes: omítelo. No hagas peticiones a congreso.es.
+3. Decide si cada ley es ómnibus (dos o más bloques de medidas distintos, cada uno con su efecto) o no (una sola medida, aunque tenga ganadores y perdedores; o una ley con un único objeto).
+   - Ómnibus: `medidas` = [{"d": 1-12 palabras, "imp": {...}, "peso": 1-3}], solo bloques con efecto claro; `imp` de la ley = unión de las medidas sin los colectivos con signos opuestos entre medidas; `peso` = el de la medida más pesada.
+   - No ómnibus: sin `medidas`, con `imp` y `peso` según la rúbrica.
+   - `tipo` (eco/soc) y `nota` (máx. 25 palabras, solo efectos, sin tramitación, resultado ni autor).
+4. Salida: array JSON en el mismo orden e ids del lote, `{"id","tipo","imp","peso","nota","medidas"?}`, en `{{DIR_SALIDA}}/{{LECTOR}}/{{LOTE}}`. Compruébalo con `python3 -I {{COMPROBADOR}} {{DIR_LOTES}}/{{LOTE}} <salida>` hasta que dé OK.
+
+Independencia: NO leas `data/clasificacion/*/clas_*.json`, `temas.json`, `REVISION.md`, `data/generado/`, `site/data/`, el historial de git ni otras carpetas de trabajo (rondas anteriores, otros lectores) aparte de tu lote y tu salida. No modifiques el repositorio. Devuelve: ruta, resultado del comprobador, nº de leyes con medidas y dudas.
+```

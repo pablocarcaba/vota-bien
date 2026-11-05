@@ -34,21 +34,120 @@
    "pen3": -1
   },
   "peso": 3,
-  "nota": "Cambia el cálculo de la pensión inicial con el factor de sostenibilidad y sustituye la revalorización por un índice propio; reduce pensiones.",
-  "partido": ""
+  "nota": "Ajusta la pensión inicial de jubilación a la esperanza de vida y desvincula la revalorización del IPC con un índice de mínimo 0,25 %.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Factor de sostenibilidad en la pensión inicial de jubilación",
+    "imp": {
+     "adultos": -1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Índice de revalorización de pensiones desvinculado del IPC",
+    "imp": {
+     "pen1": -1,
+     "pen2": -1,
+     "pen3": -1,
+     "mayores": -1
+    },
+    "peso": 3
+   }
+  ]
  },
  {
   "id": "121/000069",
   "tipo": "eco",
   "imp": {
+   "asal1": -1,
+   "asal2": -1,
+   "asal3": -1,
+   "asal4": -1,
+   "asal5": -1,
+   "asal6": -1,
+   "empAut": 1,
+   "empMicro": 1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1,
    "mayores": 1,
    "pen1": 1,
-   "pen2": 1,
-   "pen3": 1
+   "proDoc": -1,
+   "proSan": -1,
+   "proSeg": -1,
+   "prop3": -1,
+   "prop4": -1
   },
   "peso": 3,
-  "nota": "Presupuestos Generales anuales; incluye la revalorización general de las pensiones.",
-  "partido": ""
+  "nota": "Revaloriza las pensiones un 0,25 %, congela sueldos públicos, prorroga el gravamen complementario del IRPF y el Patrimonio y sube la base máxima.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones del 0,25 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Congelación salarial y restricción de la oferta de empleo público",
+    "imp": {
+     "funA1": -1,
+     "funA2": -1,
+     "funB": -1,
+     "funC1": -1,
+     "funC2E": -1,
+     "proSeg": -1,
+     "proSan": -1,
+     "proDoc": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del gravamen complementario del IRPF",
+    "imp": {
+     "asal1": -1,
+     "asal2": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "asal5": -1,
+     "asal6": -1,
+     "pen2": -1,
+     "pen3": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del Impuesto sobre el Patrimonio",
+    "imp": {
+     "prop3": -1,
+     "prop4": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de incentivos fiscales a microempresas y autónomos con empleo",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del 5 % de la base máxima de cotización",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000070",
@@ -468,14 +567,64 @@
   "id": "121/000118",
   "tipo": "eco",
   "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "proSan": 1,
+   "proSeg": 1,
+   "prop3": -1,
+   "prop4": -1,
+   "secFin": 1
   },
   "peso": 3,
-  "nota": "Presupuestos de 2015, con revalorización general de las pensiones del 0,25 %.",
-  "partido": ""
+  "nota": "Revaloriza las pensiones un 0,25 %, congela salarios públicos con recuperación parcial de la paga extra de 2012, prorroga el Impuesto sobre el Patrimonio.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones un 0,25 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Recuperación parcial de la paga extra de 2012 de empleados públicos",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1,
+     "proSan": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga del Impuesto sobre el Patrimonio en 2015",
+    "imp": {
+     "prop3": -1,
+     "prop4": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención en transmisiones patrimoniales para fondos de capital riesgo",
+    "imp": {
+     "secFin": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000119",
@@ -875,11 +1024,58 @@
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "proDoc": 1,
+   "proSan": 1,
+   "proSeg": 1,
+   "prop3": -1,
+   "prop4": -1,
+   "secTrans": 1
   },
   "peso": 3,
-  "nota": "Presupuestos de 2016: revalorización general de las pensiones e incremento retributivo de los empleados públicos.",
-  "partido": ""
+  "nota": "Revaloriza las pensiones un 0,25 %, sube un 1 % el sueldo público, devuelve parte de la paga extra de 2012 y prorroga Patrimonio.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones del 0,25 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida del 1 % y recuperación de paga extra de empleados públicos",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1,
+     "proSan": 1,
+     "proDoc": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del Impuesto sobre el Patrimonio",
+    "imp": {
+     "prop3": -1,
+     "prop4": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebaja de las tasas aeroportuarias",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "122/000001",

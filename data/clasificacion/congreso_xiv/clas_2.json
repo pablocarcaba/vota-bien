@@ -20,6 +20,9 @@
   "tipo": "eco",
   "imp": {
    "asal6": -1,
+   "ciud": 1,
+   "cons": -1,
+   "empAut": 1,
    "empGran": -1,
    "funA1": 1,
    "funA2": 1,
@@ -30,11 +33,74 @@
    "pen1": 1,
    "pen2": 1,
    "pen3": 1,
-   "prop4": -1
+   "proSeg": 1,
+   "prop4": -1,
+   "secInd": -1
   },
   "peso": 3,
-  "nota": "Presupuestos 2021: revalorización de pensiones y salarios públicos; sube impuestos a rentas altas, grandes patrimonios y grandes grupos.",
-  "partido": ""
+  "nota": "Revaloriza pensiones y sueldos públicos; sube IRPF y Patrimonio a rentas y patrimonios altos, Sociedades a grandes grupos, IVA de bebidas azucaradas y seguros.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Subida del 0,9 % de las retribuciones públicas y reposición de plantillas",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización de las pensiones y del 1,8 % de las no contributivas",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Más IRPF a rentas altas y subida del Patrimonio",
+    "imp": {
+     "asal6": -1,
+     "prop4": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Limitación de la exención de dividendos en Sociedades",
+    "imp": {
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "IVA del 21 % a las bebidas con edulcorantes añadidos",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del impuesto sobre las primas de seguros",
+    "imp": {
+     "cons": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de los módulos y regímenes simplificados para autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000036",
@@ -173,17 +239,50 @@
   "id": "121/000066",
   "tipo": "eco",
   "imp": {
-   "empAut": -1,
-   "empMicro": -1,
-   "empPeq": -1,
+   "adultos": 1,
+   "desSub": 1,
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
    "pen3": 1
   },
   "peso": 3,
-  "nota": "Revaloriza las pensiones con el IPC e introduce una cotización adicional del mecanismo de equidad intergeneracional a cargo de la empresa.",
-  "partido": ""
+  "nota": "Revaloriza las pensiones con el IPC, facilita la jubilación anticipada involuntaria, incentiva la demorada y mejora pensiones anticipadas con carreras largas.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización anual de las pensiones según el IPC",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Jubilación anticipada involuntaria más accesible y menos penalizada",
+    "imp": {
+     "adultos": 1,
+     "desSub": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Incentivos a la jubilación demorada y límite a la jubilación forzosa",
+    "imp": {
+     "mayores": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Mejora de pensiones anticipadas con 44,5 años cotizados",
+    "imp": {
+     "mayores": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000067",
@@ -209,6 +308,9 @@
   "id": "121/000070",
   "tipo": "eco",
   "imp": {
+   "empAut": 1,
+   "empGran": -1,
+   "empMed": -1,
    "funA1": 1,
    "funA2": 1,
    "funB": 1,
@@ -217,11 +319,59 @@
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "proSan": 1,
+   "proSeg": 1,
+   "secFin": -1,
+   "secInd": -1,
+   "secPrim": 1
   },
   "peso": 3,
-  "nota": "Revaloriza las pensiones y actualiza las retribuciones de los empleados públicos.",
-  "partido": ""
+  "nota": "Sube un 2 % el sueldo público, revaloriza las pensiones con el IPC, fija tributación mínima en Sociedades y prorroga los módulos.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Subida del 2 % de las retribuciones del sector público",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1,
+     "proSan": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización general de las pensiones según el IPC",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Tributación mínima del 15 % en Sociedades para grandes empresas",
+    "imp": {
+     "empMed": -1,
+     "empGran": -1,
+     "secFin": -1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de los límites de módulos y régimen simplificado",
+    "imp": {
+     "empAut": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000072",
@@ -245,14 +395,36 @@
   "id": "121/000075",
   "tipo": "eco",
   "imp": {
-   "empAut": 1,
-   "empMed": 1,
-   "empMicro": 1,
-   "empPeq": 1
+   "empAut": -1,
+   "empGran": -1,
+   "empMed": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "secCom": 1
   },
   "peso": 2,
-  "nota": "Facilita crear empresas y reduce trabas y morosidad que sufren autónomos y pymes.",
-  "partido": ""
+  "nota": "Obliga a todas las empresas y autónomos a la factura electrónica y amplía las actividades comerciales exentas de licencia.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Factura electrónica obligatoria para empresas y autónomos",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1,
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Más actividades comerciales exentas de licencia",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000076",
@@ -606,19 +778,81 @@
   "id": "121/000125",
   "tipo": "eco",
   "imp": {
+   "asal1": 1,
+   "empAut": 1,
+   "empMicro": 1,
    "funA1": 1,
    "funA2": 1,
    "funB": 1,
    "funC1": 1,
    "funC2E": 1,
    "mayores": 1,
+   "mujeres": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "proSan": 1,
+   "proSeg": 1,
+   "secTrans": 1
   },
   "peso": 3,
-  "nota": "Presupuestos anuales: revaloriza las pensiones y actualiza las retribuciones de los empleados públicos.",
-  "partido": ""
+  "nota": "Revaloriza pensiones con el IPC, sube salarios públicos, rebaja IRPF a rentas bajas, Sociedades a microempresas e IVA de higiene femenina.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización de las pensiones según el IPC",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida del 3,5 % de las retribuciones del sector público",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1,
+     "proSan": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Mayor reducción por rendimientos del trabajo para rentas bajas",
+    "imp": {
+     "asal1": 1,
+     "pen2": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebajas fiscales a autónomos y empresas de menos de un millón",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "IVA del 4 % a productos de higiene femenina y anticonceptivos",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Rebaja temporal de los cánones ferroviarios",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000126",

@@ -353,17 +353,48 @@
   "id": "121/000004",
   "tipo": "eco",
   "imp": {
-   "asal1": -1,
-   "asal2": -1,
-   "asal3": -1,
-   "asal4": -1,
    "empAut": 1,
    "empMicro": 1,
-   "empPeq": 1
+   "empPeq": 1,
+   "jovenes": 1
   },
   "peso": 3,
-  "nota": "Reforma laboral: abarata y flexibiliza despido y contratación y cambia la negociación colectiva; perjudica a asalariados y reduce costes de pequeñas empresas.",
-  "partido": ""
+  "nota": "Reforma laboral: descuelgue, prioridad del convenio de empresa, ultractividad limitada y ERE sin autorización; contrato indefinido bonificado para pequeñas empresas y jóvenes.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Flexibilidad interna, negociación colectiva y extinción del contrato",
+    "imp": {
+     "asal1": -1,
+     "asal2": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Contrato indefinido de emprendedores y bonificaciones por jóvenes",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1,
+     "jovenes": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Permiso retribuido de formación y límite al encadenamiento de temporales",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000005",
@@ -404,11 +435,40 @@
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "proDoc": -1,
+   "proSan": -1,
+   "proSeg": -1
   },
   "peso": 3,
-  "nota": "Presupuestos 2012: revalorización de las pensiones y congelación de retribuciones de los empleados públicos.",
-  "partido": ""
+  "nota": "Revaloriza las pensiones un 1 % y congela sueldos y oferta de empleo de todo el personal público.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización del 1 % de las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Congelación salarial y de la oferta de empleo público",
+    "imp": {
+     "funA1": -1,
+     "funA2": -1,
+     "funB": -1,
+     "funC1": -1,
+     "funC2E": -1,
+     "proSeg": -1,
+     "proSan": -1,
+     "proDoc": -1
+    },
+    "peso": 2
+   }
+  ]
  },
  {
   "id": "121/000009",

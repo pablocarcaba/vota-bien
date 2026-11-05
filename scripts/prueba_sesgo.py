@@ -64,7 +64,8 @@ def imp_de(it, k):
     return imp_ns(it) if k == "asalNs" else it["imp"].get(k)
 
 
-def impact_of(it, R):
+def signo_imp(imp, R):
+    it = {"imp": imp}
     p = n = False
     for k in R:
         v = imp_de(it, k)
@@ -72,7 +73,30 @@ def impact_of(it, R):
             p = True
         elif v and v < 0:
             n = True
-    return "mix" if p and n else "pos" if p else "neg" if n else "neu"
+    return 0 if p and n else 1 if p else -1 if n else None
+
+
+def efecto(it, R):
+    """(c, q, peso) como efecto() en la web: en una ley ómnibus (m), saldo de las medidas que afectan, ponderado."""
+    if not it.get("m"):
+        s = signo_imp(it["imp"], R)
+        return ("neu" if s is None else "mix" if s == 0 else "pos" if s > 0 else "neg"), (1 if s else 0), it.get("w")
+    num = den = 0
+    w = 0
+    for m in it["m"]:
+        s = signo_imp(m["imp"], R)
+        if s is not None:
+            num += s * PESO[m["w"]]
+            den += PESO[m["w"]]
+            w = max(w, m["w"])
+    if not den:
+        return "neu", 0, it.get("w")
+    net = num / den
+    return ("mix" if abs(net) < 1e-9 else "pos" if net > 0 else "neg"), abs(net), w
+
+
+def impact_of(it, R):
+    return efecto(it, R)[0]
 
 
 def vote_color(imp, v):
@@ -87,13 +111,33 @@ def vote_color(imp, v):
     return "pos" if v == "n" else "neg"
 
 
+COMUN = {"ciud", "cons"}
+F_COMUN = 0.5
+
+
+def solo_comun(it, R):
+    imps = [m["imp"] for m in it["m"]] if it.get("m") else [it["imp"]]
+    af = [k for imp in imps for k in R if imp_de({"imp": imp}, k)]
+    return bool(af) and all(k in COMUN for k in af)
+
+
+def fkey(it):
+    d = (it.get("vd") or it.get("f") or "").split("/")
+    return int(d[2] + d[1].zfill(2) + d[0].zfill(2)) if len(d) == 3 else 0
+
+
+VIA_RANGO = {"voto": 2, "aus": 1, "pres": 0}
+
+
 def compute_rank(items, parties, R, tab):
     U = [it for it in items if it["tp"] == tab]
-    imps = [(it, impact_of(it, R)) for it in U]
+    efs = {id(it): efecto(it, R) for it in U}
+    imps = [(it, efs[id(it)][0]) for it in U]
+    # leyes que solo afectan por los rasgos comunes (ciud, cons): cuentan la mitad (F_COMUN en la web)
+    comun = {id(it): F_COMUN if solo_comun(it, R) else 1 for it in U}
     out = []
     for p in parties:
-        S = W = 0.0
-        rel = 0
+        ev = []  # (it, c, w, via)
         for it, imp in imps:
             if imp == "neu":
                 continue
@@ -102,15 +146,33 @@ def compute_rank(items, parties, R, tab):
                 c = vote_color(imp, v)
                 if c == "neu":
                     continue
-                f = FUERZA.get(it.get("vk"), 0.5)
+                f, via = FUERZA.get(it.get("vk"), 0.5), "voto"
+            elif it.get("v") and p in (it.get("nv") or []):
+                # ausencia con escaño: cuenta en el total, no suma ni resta (como en la web)
+                c, f, via = "aus", FUERZA.get(it.get("vk"), 0.5), "aus"
             elif p in it["a"]:
-                c, f = imp, 0.25
+                c, f, via = imp, 0.25, "pres"
             else:
                 continue
-            w = PESO.get(it.get("w"), 1) * f
+            _, q, wl = efs[id(it)]
+            ev.append((it, c, PESO.get(wl, 1) * f * comun[id(it)], via, q if c in ("pos", "neg") else 1))
+        # mismo contenido (campo g): una sola vez por partido, con la mejor prueba (como evidencias() en la web)
+        best = {}
+        for e in ev:
+            g = e[0].get("g")
+            if g:
+                k = (VIA_RANGO[e[3]], e[2], fkey(e[0]))
+                if g not in best or k > best[g][0]:
+                    best[g] = (k, e)
+        S = W = 0.0
+        rel = 0
+        for e in ev:
+            it, c, w, _, q = e
+            if it.get("g") and best[it["g"]][1] is not e:
+                continue
             rel += 1
             W += w
-            S += w if c == "pos" else -w if c == "neg" else 0
+            S += w * q if c == "pos" else -w * q if c == "neg" else 0
         if rel:
             out.append({"k": p, "s": js_round(S / (W + K) * 100), "rel": rel})
     out.sort(key=lambda r: (-r["s"], -r["rel"]))

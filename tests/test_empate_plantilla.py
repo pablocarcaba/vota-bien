@@ -30,7 +30,7 @@ class EmpatePlantillaTest(unittest.TestCase):
         self.assertNotRegex(self.src, r"significativ")
         self.assertNotIn("Empate técnico", self.src)
         self.assertIn("demasiado pequeña para ordenarlos", self.src)
-        self.assertIn("Las votaciones en las que no vota no suman ni restan a su nota.", self.src)
+        self.assertIn("Las votaciones en las que no vota cuentan en el total de su nota sin sumar: le bajan la nota.", self.src)
         self.assertNotIn("no asiste", self.src)
 
     @unittest.skipUnless(shutil.which("node"), "hace falta node para ejecutar la plantilla")

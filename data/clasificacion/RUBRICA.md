@@ -244,6 +244,13 @@ Aplica las preguntas en este orden y quédate con la primera que se cumpla:
 | 4 | Resto | **1** |
 
 - **Ómnibus** (reales decretos-ley o leyes con varios bloques): los impactos son la unión de los de cada bloque identificable en el título o el texto disponible, aplicando 3.1.1 a los signos opuestos. Las disposiciones finales técnicas no se clasifican si no se conoce su contenido. El peso es 3 si hay tres o más bloques de peso 2; si no, el del bloque más pesado.
+- **Medidas (`medidas`) de una ley ómnibus.** Si la ley reúne **dos o más bloques de medidas distintos** (no una sola medida con ganadores y perdedores, como «limita el alquiler: +`inq`, −`casero`», que sigue siendo un `imp` único), se clasifica medida a medida en el campo `medidas`: `[{"d": "…", "imp": {…}, "peso": 1-3}]`.
+  - `d`: la medida en 1-12 palabras, sin tramitación ni valoraciones («Revalorización general de las pensiones», «Bono de transporte público»).
+  - `imp` de cada medida: con las mismas reglas que una ley (prueba de efecto, tablas, 3.1.1 dentro de la medida). Una medida sin efecto claro no se lista.
+  - `peso` de cada medida: la tabla de arriba aplicada a ese bloque como si fuera una ley.
+  - El `imp` de la ley es la unión de los de sus medidas, sin los colectivos que tengan signos opuestos entre medidas; el `peso` de la ley es el de su medida más pesada (con `medidas` no se aplica la regla de «tres o más bloques de peso 2 → 3»: a cada perfil le pesan solo los bloques que le afectan). El validador lo comprueba.
+  - En la web, a cada perfil solo le cuentan las medidas que le afectan: la ley pesa como la mayor de ellas y su efecto es el saldo de sus signos ponderado por su peso (dos medidas a favor y una en contra suman en proporción, en vez de quedar como mixta).
+  - El real decreto-ley y su proyecto de ley llevan las mismas medidas.
 - **Prórrogas**: la prórroga de un paquete se pesa con la regla de ómnibus, valorando cada bloque prorrogado como si fuera nuevo; la prórroga de una medida suelta pesa 1.
 - Una iniciativa con `imp: {}` lleva peso 1, salvo las grandes reformas institucionales (Constitución, estatutos de autonomía, ley electoral, Ley Orgánica del Poder Judicial completa), que llevan 2 como máximo.
 - Las proposiciones se pesan por lo que proponen, aunque no prosperasen.
@@ -253,7 +260,7 @@ Aplica las preguntas en este orden y quédate con la primera que se cumpla:
 - Un **título genérico** solo cita la ley o el artículo que modifica («modificación de la Ley 35/2006 del IRPF…», «modifica el apartado Uno.2 del artículo 91 de la Ley del IVA», «reforma parcial del Estatuto Básico del Empleado Público», «modificación del Código Penal»).
 - Si con el título y el texto disponible (exposición de motivos, texto publicado, contenido conocido con seguridad) **no se puede determinar a quién afecta y con qué signo** → `imp: {}`, `peso: 1`, nota «El título no permite determinar el contenido». **Nunca adivinar** el contenido por el nombre de la ley, por el autor ni por su orientación.
 - Si el contenido se conoce con seguridad, se clasifica por ese contenido, y la nota lo resume para que otro lector pueda comprobarlo.
-- Iniciativas con el mismo contenido (registros duplicados, el real decreto-ley y el proyecto de ley que procede de él, proposiciones idénticas de distintos grupos) llevan **la misma clasificación**. La duplicidad se anota en `REVISION.md`, no en la nota.
+- Iniciativas con el mismo contenido (registros duplicados, el real decreto-ley y el proyecto de ley que procede de él, proposiciones idénticas de distintos grupos) llevan **la misma clasificación**. La duplicidad se anota en `REVISION.md`, no en la nota. Además se agrupan en `data/clasificacion/<clave>/temas.json` (propuesta automática de `scripts/agrupar_temas.py`, revisable a mano) para que en la nota cuenten **una sola vez** por partido, con su mejor prueba. Un grupo exige la misma clasificación (lo comprueba el validador); presupuestos de años distintos, prórrogas sucesivas o acuerdos con países distintos no son el mismo contenido.
 
 ## 4. Formato de salida
 Un array JSON, un objeto por iniciativa, en el mismo orden de entrada:

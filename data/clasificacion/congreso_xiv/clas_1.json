@@ -140,27 +140,81 @@
  },
  {
   "id": "121/000040",
-  "tipo": "soc",
+  "tipo": "eco",
   "imp": {
+   "casero": -1,
+   "cons": 1,
    "inq": 1,
    "pobreza": 1,
-   "casero": -1
+   "secTrans": 1
   },
   "peso": 2,
-  "nota": "Protege a inquilinos vulnerables con suspensión de desahucios y prórrogas de alquiler; restringe al arrendador.",
-  "partido": ""
+  "nota": "Suspende desahucios de inquilinos vulnerables, compensa a las empresas de autobús de líneas estatales y limita el coste de las llamadas de atención al cliente.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Suspensión de desahucios de personas vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Reequilibrio económico de las concesiones de autobús estatales",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Atención telefónica al cliente sin coste adicional",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000037",
-  "tipo": "soc",
+  "tipo": "eco",
   "imp": {
+   "casero": -1,
+   "cons": 1,
    "inq": 1,
    "pobreza": 1,
-   "casero": -1
+   "secTrans": 1
   },
   "peso": 2,
-  "nota": "Protege a inquilinos vulnerables con suspensión de desahucios y prórrogas de alquiler; restringe al arrendador.",
-  "partido": ""
+  "nota": "Suspende desahucios de inquilinos vulnerables, compensa a las empresas de autobús de líneas estatales y limita el coste de las llamadas de atención al cliente.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Suspensión de desahucios de personas vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Reequilibrio económico de las concesiones de autobús estatales",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Atención telefónica al cliente sin coste adicional",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000041",
@@ -401,46 +455,388 @@
   "id": "121/000100",
   "tipo": "eco",
   "imp": {
+   "casero": -1,
    "cons": 1,
+   "empAut": 1,
+   "empGran": 1,
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "inmigrantes": 1,
    "inq": 1,
+   "mujeres": 1,
    "pobreza": 1,
-   "secInd": 1,
+   "secCons": 1,
+   "secDig": 1,
    "secPrim": 1,
    "secTrans": 1,
-   "casero": -1
+   "victimas": 1
   },
-  "peso": 3,
-  "nota": "Rebaja costes energéticos, limita la subida del alquiler, refuerza protección de vulnerables y ayuda a transporte, industria y sector agrario.",
-  "partido": ""
+  "peso": 2,
+  "nota": "Apoya a la industria electrointensiva y gasintensiva, recorta la retribución regulada de renovables para bajar cargos eléctricos y exige reducir emisiones de combustibles.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Rebaja de peajes y ayudas a la industria intensiva en energía",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revisión de la retribución regulada de renovables para bajar cargos",
+    "imp": {
+     "cons": 1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Objetivo de reducción de emisiones de los combustibles de transporte",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Rebaja de tasas portuarias y de tráficos mínimos en concesiones",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas directas al transporte por carretera y ferrocarril",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Aplazamiento de cuotas en transporte y pesca; gasóleo profesional mensual",
+    "imp": {
+     "secTrans": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Línea de avales y extensión del código de buenas prácticas",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ayudas directas a agricultores, ganaderos, pescadores y acuicultores",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Flexibilización de exigencias ambientales de la PAC en 2022",
+    "imp": {
+     "ciud": -1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de plazos para películas con ayudas afectadas",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del 15 % del ingreso mínimo vital",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Límite a la actualización anual de la renta del alquiler",
+    "imp": {
+     "inq": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Acreditación y ayudas a víctimas de trata y de violencia",
+    "imp": {
+     "victimas": 1,
+     "mujeres": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Facilidades de residencia, nacionalidad y documentación para ucranianos",
+    "imp": {
+     "inmigrantes": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga y ampliación del bono social eléctrico y térmico",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Exención de IRPF a familiares de víctimas del vuelo GWI9525",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de la revisión excepcional de precios en obra pública",
+    "imp": {
+     "secCons": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000079",
   "tipo": "eco",
   "imp": {
+   "casero": -1,
    "cons": 1,
+   "empAut": 1,
+   "empGran": 1,
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "inmigrantes": 1,
    "inq": 1,
+   "mujeres": 1,
    "pobreza": 1,
-   "secInd": 1,
+   "secCons": 1,
+   "secDig": 1,
    "secPrim": 1,
    "secTrans": 1,
-   "casero": -1
+   "victimas": 1
   },
-  "peso": 3,
-  "nota": "Rebaja costes energéticos, limita la subida del alquiler, refuerza protección de vulnerables y ayuda a transporte, industria y sector agrario.",
-  "partido": ""
+  "peso": 2,
+  "nota": "Apoya a la industria electrointensiva y gasintensiva, recorta la retribución regulada de renovables para bajar cargos eléctricos y exige reducir emisiones de combustibles.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Rebaja de peajes y ayudas a la industria intensiva en energía",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revisión de la retribución regulada de renovables para bajar cargos",
+    "imp": {
+     "cons": 1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Objetivo de reducción de emisiones de los combustibles de transporte",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Rebaja de tasas portuarias y de tráficos mínimos en concesiones",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas directas al transporte por carretera y ferrocarril",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Aplazamiento de cuotas en transporte y pesca; gasóleo profesional mensual",
+    "imp": {
+     "secTrans": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Línea de avales y extensión del código de buenas prácticas",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ayudas directas a agricultores, ganaderos, pescadores y acuicultores",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Flexibilización de exigencias ambientales de la PAC en 2022",
+    "imp": {
+     "ciud": -1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de plazos para películas con ayudas afectadas",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del 15 % del ingreso mínimo vital",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Límite a la actualización anual de la renta del alquiler",
+    "imp": {
+     "inq": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Acreditación y ayudas a víctimas de trata y de violencia",
+    "imp": {
+     "victimas": 1,
+     "mujeres": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Facilidades de residencia, nacionalidad y documentación para ucranianos",
+    "imp": {
+     "inmigrantes": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga y ampliación del bono social eléctrico y térmico",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Exención de IRPF a familiares de víctimas del vuelo GWI9525",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de la revisión excepcional de precios en obra pública",
+    "imp": {
+     "secCons": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000008",
   "tipo": "eco",
   "imp": {
+   "ciud": 1,
    "empAut": 1,
+   "empMed": 1,
    "empMicro": 1,
    "empPeq": 1,
-   "secCom": 1
+   "infancia": 1,
+   "pac": 1,
+   "pobreza": 1,
+   "secCom": 1,
+   "secInd": 1
   },
   "peso": 2,
-  "nota": "Medidas por el COVID-19: aplazamiento de deudas tributarias de pymes y autónomos y apoyo al sector turístico.",
-  "partido": ""
+  "nota": "Refuerza la sanidad pública ante el COVID-19, ayuda a menores vulnerables sin comedor, financia al turismo y aplaza impuestos a pymes y autónomos.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Fondos extraordinarios para la sanidad pública frente al COVID-19",
+    "imp": {
+     "ciud": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Precios máximos de medicamentos y productos sanitarios",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas de alimentación a menores vulnerables sin comedor escolar",
+    "imp": {
+     "infancia": 1,
+     "pobreza": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Aislamiento por COVID-19 como accidente de trabajo para mutualistas",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Financiación ICO y bonificaciones a fijos discontinuos del turismo",
+    "imp": {
+     "secCom": 1,
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Aplazamiento de impuestos a pymes y autónomos",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Aplazamiento de préstamos a la industria",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000055",
@@ -495,15 +891,97 @@
    "depend": 1,
    "desPres": 1,
    "empAut": 1,
+   "empGran": 1,
+   "empMed": 1,
    "empMicro": 1,
    "empPeq": 1,
    "hipot": 1,
    "infancia": 1,
-   "pobreza": 1
+   "pobreza": 1,
+   "secDig": -1,
+   "secPrim": 1
   },
-  "peso": 3,
-  "nota": "Paquete COVID: prestaciones por ERTE, moratoria hipotecaria, garantía de suministros, ayudas a autónomos, avales a pymes y adaptación de jornada por cuidado.",
-  "partido": ""
+  "peso": 2,
+  "nota": "ERTE con exoneración de cotizaciones y desempleo sin carencia, avales a empresas, prestación por cese de autónomos, moratoria hipotecaria y protección de suministros a vulnerables.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Garantía de suministros y bono social para vulnerables; butano congelado",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Moratoria hipotecaria para deudores vulnerables",
+    "imp": {
+     "hipot": 1,
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prestación extraordinaria por cese de actividad de autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "ERTE: exoneración de cotizaciones y desempleo sin periodo de carencia",
+    "imp": {
+     "desPres": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Línea de avales públicos para empresas y autónomos",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Adaptación o reducción de jornada para cuidar a familiares",
+    "imp": {
+     "depend": 1,
+     "infancia": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Fondo social y atención domiciliaria a personas dependientes",
+    "imp": {
+     "depend": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prohibición de suspender servicios de telecomunicaciones contratados",
+    "imp": {
+     "cons": 1,
+     "secDig": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de préstamos a explotaciones agrarias afectadas por la sequía",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000009",
@@ -513,15 +991,97 @@
    "depend": 1,
    "desPres": 1,
    "empAut": 1,
+   "empGran": 1,
+   "empMed": 1,
    "empMicro": 1,
    "empPeq": 1,
    "hipot": 1,
    "infancia": 1,
-   "pobreza": 1
+   "pobreza": 1,
+   "secDig": -1,
+   "secPrim": 1
   },
-  "peso": 3,
-  "nota": "Paquete COVID: prestaciones por ERTE, moratoria hipotecaria, garantía de suministros, ayudas a autónomos, avales a pymes y adaptación de jornada por cuidado.",
-  "partido": ""
+  "peso": 2,
+  "nota": "ERTE con exoneración de cotizaciones y desempleo sin carencia, avales a empresas, prestación por cese de autónomos, moratoria hipotecaria y protección de suministros a vulnerables.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Garantía de suministros y bono social para vulnerables; butano congelado",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Moratoria hipotecaria para deudores vulnerables",
+    "imp": {
+     "hipot": 1,
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prestación extraordinaria por cese de actividad de autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "ERTE: exoneración de cotizaciones y desempleo sin periodo de carencia",
+    "imp": {
+     "desPres": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Línea de avales públicos para empresas y autónomos",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Adaptación o reducción de jornada para cuidar a familiares",
+    "imp": {
+     "depend": 1,
+     "infancia": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Fondo social y atención domiciliaria a personas dependientes",
+    "imp": {
+     "depend": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prohibición de suspender servicios de telecomunicaciones contratados",
+    "imp": {
+     "cons": 1,
+     "secDig": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de préstamos a explotaciones agrarias afectadas por la sequía",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000057",

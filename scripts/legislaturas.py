@@ -208,6 +208,9 @@ LEGISLATURAS = {
         "gobierno": "Comisión von der Leyen I",
         # «Independiente» (eurodiputados que dejaron su partido) no se cuenta
         "grupos": {p: p for p in ['PP', 'PSOE', 'Cs', 'VOX', 'Podemos', 'Junts', 'ERC', 'IU', 'PNV', 'Comuns', 'BNG', 'Bildu', 'Anticapitalistas']},
+        # escaño efectivo: los eurodiputados de Junts constan desde julio de 2019, pero no pudieron ocuparlo hasta el
+        # 13/01/2020; antes, su «no vota» no es una ausencia
+        "escano_desde": {"Junts": "2020-01-13"},
         "nominal": {},
         "nominal_txt": "",
         "autores": {"Comisión Europea": "Comisión Europea", "Parlamento Europeo": "Parlamento Europeo"},

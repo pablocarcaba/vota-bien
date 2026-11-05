@@ -59,12 +59,62 @@
    "asal4": 1,
    "asal5": 1,
    "asal6": 1,
+   "cons": 1,
+   "empAut": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "pobreza": 1,
+   "secInd": 1,
+   "victimas": 1
   },
   "peso": 3,
-  "nota": "Adelanta la rebaja de la tarifa y de las retenciones del IRPF; alcanza a los asalariados y, como rendimientos del trabajo, a pensiones medias.",
-  "partido": ""
+  "nota": "Rebaja medio punto toda la tarifa del IRPF y las retenciones, exime ayudas sociales y a víctimas, abarata la factura eléctrica y facilita prejubilaciones mineras.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Rebaja de medio punto en toda la tarifa del IRPF",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "asal5": 1,
+     "asal6": 1,
+     "pen2": 1,
+     "pen3": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Rebaja de la retención de autónomos profesionales al 15 %",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención en el IRPF de ayudas sociales y a víctimas",
+    "imp": {
+     "pobreza": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Rebaja de pagos por capacidad y peajes del autoconsumo pequeño",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas a la reducción de plantillas de minas de carbón",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000074",
@@ -74,11 +124,33 @@
    "funA2": 1,
    "funB": 1,
    "funC1": 1,
-   "funC2E": 1
+   "funC2E": 1,
+   "proDoc": 1
   },
   "peso": 2,
-  "nota": "Abona a los empleados públicos parte de la paga extra suprimida en 2012; incluye créditos extraordinarios y otras medidas económicas.",
-  "partido": ""
+  "nota": "Devuelve parte de la paga extra de 2012 y amplía días de permiso de los empleados públicos; abre la promoción interna a catedrático.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Recuperación de paga extra y días de permiso de empleados públicos",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Promoción interna de profesores titulares a catedrático",
+    "imp": {
+     "funA1": 1,
+     "proDoc": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000075",

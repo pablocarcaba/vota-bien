@@ -8,7 +8,8 @@ Sirve para las claves del Congreso (`congreso_*`) y del Parlamento Europeo (`eur
 detecta por `scripts/legislaturas.py`. Toma los lotes de data/clasificacion/<clave>/lotes/ (id, tipo, título,
 autor) y añade a cada iniciativa `texto`, leído de la caché local:
   - Congreso: data/cache/<leg>/textos/<id>.txt, desde la exposición de motivos o el preámbulo si se encuentra.
-    En un real decreto-ley (130/) usa el texto de su proyecto de ley (121/) y lo anota en `nota_fuente`.
+    En un real decreto-ley (130/) usa su texto del BOE (data/cache/<leg>/textos_boe/, de scripts/textos_boe.py) y, si
+    no está, el de su proyecto de ley (121/); lo anota en `nota_fuente`.
   - Parlamento Europeo: data/cache/<clave>/textos/<ref>.txt (texto aprobado), desde el principio.
 Sin texto, `texto` va vacío y el lector se ciñe al título. Este script no hace peticiones de red.
 --chars: caracteres de texto por iniciativa (5.000; 12.000 con --hueco; 0 = sin texto). --tam: iniciativas por lote (55).
@@ -114,7 +115,14 @@ def construir(clave, chars, solo=None, root=ROOT):
         if solo is not None and it["id"] not in solo:
             continue
         it, t = dict(it), ""
-        if congreso and it["id"].startswith("130/"):
+        boe = os.path.join(root, "data", "cache", LEGISLATURAS[clave]["leg"].lower(), "textos_boe",
+                           it["id"].replace("/", "_") + ".txt") if congreso else ""
+        if congreso and it["id"].startswith("130/") and os.path.exists(boe):
+            # texto oficial del real decreto-ley en el BOE (scripts/textos_boe.py)
+            t = open(boe, encoding="utf-8").read()
+            cuenta["boe"] = cuenta.get("boe", 0) + 1
+            it["nota_fuente"] = "texto del real decreto-ley publicado en el BOE"
+        if congreso and it["id"].startswith("130/") and not t:
             m = RDL.search(titulo(it))
             pl = rdl2pl.get(m.group(1)) if m else None
             if pl and leer_texto(clave, pl, root):
@@ -124,7 +132,8 @@ def construir(clave, chars, solo=None, root=ROOT):
         if not t:
             t = leer_texto(clave, it["id"], root)
             cuenta["propio" if t else "vacio"] += 1
-        m = INICIO.search(t) if congreso else None
+        # el texto del BOE ya empieza en el preámbulo; buscar «Exposición de motivos» lo cortaría en una cita interna
+        m = INICIO.search(t) if congreso and "BOE" not in it.get("nota_fuente", "") else None
         it["texto"] = limpiar(t[m.start():] if m else t)[:chars]
         res.append(it)
     return res, cuenta

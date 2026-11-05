@@ -67,12 +67,60 @@ def main(args):
                         errs.append(f"{w}: valor {v!r} en {k}")
             if x.get("peso") not in (1, 2, 3):
                 errs.append(f"{w}: peso {x.get('peso')!r}")
+            # ley ómnibus (rúbrica 3.8): 2+ medidas; imp de la ley = unión de las medidas sin los colectivos con signos
+            # opuestos entre ellas; peso de la ley = el mayor de las medidas
+            med = x.get("medidas")
+            if med is not None:
+                if not isinstance(med, list) or len(med) < 2:
+                    errs.append(f"{w}: medidas debe tener 2 o más")
+                else:
+                    uni = {}
+                    for j, m in enumerate(med):
+                        mi = m.get("imp")
+                        if not isinstance(mi, dict) or not mi:
+                            errs.append(f"{w}: medida {j} sin imp")
+                            continue
+                        for k, val in mi.items():
+                            if k not in COLECTIVOS or val not in (1, -1):
+                                errs.append(f"{w}: medida {j}: {k}={val!r}")
+                            uni.setdefault(k, set()).add(val)
+                        if m.get("peso") not in (1, 2, 3):
+                            errs.append(f"{w}: medida {j}: peso {m.get('peso')!r}")
+                        if not 1 <= len((m.get("d") or "").split()) <= 12:
+                            errs.append(f"{w}: medida {j}: descripción de 1 a 12 palabras")
+                    esperado = {k: next(iter(s)) for k, s in uni.items() if len(s) == 1}
+                    if isinstance(imp, dict) and imp != esperado:
+                        errs.append(f"{w}: imp no es la unión de sus medidas (esperado {esperado})")
+                    pm = max((m.get("peso") or 0) for m in med)
+                    if x.get("peso") != pm:
+                        errs.append(f"{w}: peso {x.get('peso')} y la mayor medida pesa {pm}")
             n = len((x.get("nota") or "").split())
             if not 1 <= n <= 25:
                 errs.append(f"{w}: nota de {n} palabras")
             if any(q not in PARTIDOS for q in (x.get("partido") or "").split(", ")):
                 errs.append(f"{w}: partido {x.get('partido')!r}")
     if full:
+        # grupos de mismo contenido (temas.json): ids conocidos, sin repetir, y misma clasificación (rúbrica 3.9)
+        tf = os.path.join(ROOT, "data", "clasificacion", clave, "temas.json")
+        if os.path.exists(tf):
+            cl = {}
+            for p in paths:
+                for x in json.load(open(p, encoding="utf-8")):
+                    cl[x["id"]] = x
+            en = set()
+            for g in json.load(open(tf, encoding="utf-8")):
+                ids = g.get("ids") or []
+                if len(ids) < 2:
+                    errs.append(f"temas.json: grupo con menos de 2 iniciativas {ids}")
+                for i in ids:
+                    if i not in cl:
+                        errs.append(f"temas.json: id desconocido {i}")
+                    if i in en:
+                        errs.append(f"temas.json: {i} en dos grupos")
+                    en.add(i)
+                cs = [cl[i] for i in ids if i in cl]
+                if len({(c["tipo"], json.dumps(c["imp"], sort_keys=True)) for c in cs}) > 1:
+                    errs.append(f"temas.json: el grupo {ids} no tiene la misma clasificación")
         falta = items - seen
         if falta:
             errs.append(f"{len(falta)} iniciativas sin clasificar: {sorted(falta)[:5]}…")

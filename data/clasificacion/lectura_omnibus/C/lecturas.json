@@ -1,0 +1,4293 @@
+[
+ {
+  "id": "121/000008",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1,
+   "proSeg": -1,
+   "proSan": -1,
+   "proDoc": -1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones un 1 % y congela sueldos y oferta de empleo de todo el personal público.",
+  "medidas": [
+   {
+    "d": "Revalorización del 1 % de las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Congelación salarial y de la oferta de empleo público",
+    "imp": {
+     "funA1": -1,
+     "funA2": -1,
+     "funB": -1,
+     "funC1": -1,
+     "funC2E": -1,
+     "proSeg": -1,
+     "proSan": -1,
+     "proDoc": -1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "121/000068",
+  "tipo": "eco",
+  "imp": {
+   "adultos": -1,
+   "pen1": -1,
+   "pen2": -1,
+   "pen3": -1,
+   "mayores": -1
+  },
+  "peso": 3,
+  "nota": "Ajusta la pensión inicial de jubilación a la esperanza de vida y desvincula la revalorización del IPC con un índice de mínimo 0,25 %.",
+  "medidas": [
+   {
+    "d": "Factor de sostenibilidad en la pensión inicial de jubilación",
+    "imp": {
+     "adultos": -1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Índice de revalorización de pensiones desvinculado del IPC",
+    "imp": {
+     "pen1": -1,
+     "pen2": -1,
+     "pen3": -1,
+     "mayores": -1
+    },
+    "peso": 3
+   }
+  ]
+ },
+ {
+  "id": "121/000069",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "mayores": 1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1,
+   "proSeg": -1,
+   "proSan": -1,
+   "proDoc": -1,
+   "asal1": -1,
+   "asal2": -1,
+   "asal3": -1,
+   "asal4": -1,
+   "asal5": -1,
+   "asal6": -1,
+   "prop3": -1,
+   "prop4": -1,
+   "empAut": 1,
+   "empMicro": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones un 0,25 %, congela sueldos públicos, prorroga el gravamen complementario del IRPF y el Patrimonio y sube la base máxima.",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones del 0,25 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Congelación salarial y restricción de la oferta de empleo público",
+    "imp": {
+     "funA1": -1,
+     "funA2": -1,
+     "funB": -1,
+     "funC1": -1,
+     "funC2E": -1,
+     "proSeg": -1,
+     "proSan": -1,
+     "proDoc": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del gravamen complementario del IRPF",
+    "imp": {
+     "asal1": -1,
+     "asal2": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "asal5": -1,
+     "asal6": -1,
+     "pen2": -1,
+     "pen3": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del Impuesto sobre el Patrimonio",
+    "imp": {
+     "prop3": -1,
+     "prop4": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de incentivos fiscales a microempresas y autónomos con empleo",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del 5 % de la base máxima de cotización",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000118",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "proSeg": 1,
+   "proSan": 1,
+   "prop3": -1,
+   "prop4": -1,
+   "secFin": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones un 0,25 %, congela salarios públicos con recuperación parcial de la paga extra de 2012, prorroga el Impuesto sobre el Patrimonio.",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones un 0,25 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Recuperación parcial de la paga extra de 2012 de empleados públicos",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1,
+     "proSan": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga del Impuesto sobre el Patrimonio en 2015",
+    "imp": {
+     "prop3": -1,
+     "prop4": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención en transmisiones patrimoniales para fondos de capital riesgo",
+    "imp": {
+     "secFin": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000163",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "proSeg": 1,
+   "proSan": 1,
+   "proDoc": 1,
+   "prop3": -1,
+   "prop4": -1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones un 0,25 %, sube los sueldos públicos un 1 %, devuelve parte de la paga extra de 2012 y prorroga Patrimonio.",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones un 0,25 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida del 1 % y recuperación de paga extra de empleados públicos",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1,
+     "proSan": 1,
+     "proDoc": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del Impuesto sobre el Patrimonio en 2016",
+    "imp": {
+     "prop3": -1,
+     "prop4": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000001",
+  "tipo": "eco",
+  "imp": {
+   "asal1": -1,
+   "asal2": -1,
+   "asal3": -1,
+   "asal4": -1,
+   "asal5": -1,
+   "asal6": -1,
+   "desSub": 1,
+   "empMicro": 1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1,
+   "inq": -1,
+   "jovenes": -1,
+   "mayores": 1,
+   "pen1": 1,
+   "secDig": 1,
+   "viv0": 1,
+   "viv1": -1,
+   "viv2": -1
+  },
+  "peso": 3,
+  "nota": "Sube pensiones un 1 %; impone gravamen complementario del IRPF y sube el IBI; congela el empleo público y suprime la renta de emancipación.",
+  "medidas": [
+   {
+    "d": "Congelación salarial y de plantillas y jornada de 37,5 horas",
+    "imp": {
+     "funA1": -1,
+     "funA2": -1,
+     "funB": -1,
+     "funC1": -1,
+     "funC2E": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización del 1 % de las pensiones y compensación a las mínimas",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Gravamen complementario del IRPF en 2012 y 2013",
+    "imp": {
+     "asal1": -1,
+     "asal2": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "asal5": -1,
+     "asal6": -1,
+     "pen2": -1,
+     "pen3": -1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida temporal del tipo del IBI urbano",
+    "imp": {
+     "viv1": -1,
+     "viv2": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la renta básica de emancipación de los jóvenes",
+    "imp": {
+     "jovenes": -1,
+     "inq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de la ayuda a parados que agotan su protección",
+    "imp": {
+     "desSub": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de incentivos fiscales a microempresas y del IVA superreducido de vivienda",
+    "imp": {
+     "empMicro": 1,
+     "viv0": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Supresión del canon por copia privada sobre equipos",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000004",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
+  },
+  "peso": 3,
+  "nota": "Flexibiliza condiciones y convenios a favor de la empresa; incentiva contratar en empresas de menos de 50 trabajadores; reconoce un permiso retribuido de formación.",
+  "medidas": [
+   {
+    "d": "Flexibilidad interna y prioridad del convenio de empresa",
+    "imp": {
+     "asal1": -1,
+     "asal2": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Contrato de apoyo a emprendedores y bonificaciones a pequeñas empresas",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Derecho a formación con permiso retribuido",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Fin anticipado de la suspensión del límite a encadenar contratos temporales",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000017",
+  "tipo": "soc",
+  "imp": {
+   "asal3": -1,
+   "asal4": -1,
+   "asal5": -1,
+   "asal6": -1,
+   "ciud": -1,
+   "empMicro": 1,
+   "inmigrantes": -1,
+   "mayores": -1,
+   "pac": -1,
+   "pen1": -1,
+   "pen2": -1,
+   "pen3": -1,
+   "pobreza": 1,
+   "proSan": -1,
+   "secCom": 1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Limita la sanidad pública a asegurados, excluye a extranjeros sin residencia salvo urgencias, embarazo y menores; extiende el copago farmacéutico a pensionistas y nuevos copagos.",
+  "medidas": [
+   {
+    "d": "Asistencia sanitaria solo para asegurados; excluye a extranjeros no autorizados",
+    "imp": {
+     "inmigrantes": -1,
+     "ciud": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Copago en prestación ortoprotésica, dietética y transporte no urgente",
+    "imp": {
+     "pac": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Copago farmacéutico por renta y extendido a pensionistas",
+    "imp": {
+     "pen1": -1,
+     "pen2": -1,
+     "pen3": -1,
+     "mayores": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "asal5": -1,
+     "asal6": -1,
+     "pac": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Exclusión de medicamentos de la financiación y precios de referencia",
+    "imp": {
+     "pac": -1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Copago farmacéutico por renta, incluidos los pensionistas",
+    "imp": {
+     "asal3": -1,
+     "asal4": -1,
+     "asal5": -1,
+     "asal6": -1,
+     "pen1": -1,
+     "pen2": -1,
+     "pen3": -1,
+     "mayores": -1,
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Índice corrector de márgenes para farmacias de menor facturación",
+    "imp": {
+     "secCom": 1,
+     "empMicro": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Servicio de farmacia obligatorio en centros con cien o más camas",
+    "imp": {
+     "secSoc": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Condiciones del personal estatutario: incapacidad temporal, acción social, cupo y zona",
+    "imp": {
+     "proSan": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Precios libres de medicamentos no financiados",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000021",
+  "tipo": "eco",
+  "imp": {
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1,
+   "proSeg": -1,
+   "proSan": -1,
+   "proDoc": -1,
+   "desPres": -1,
+   "desSub": -1,
+   "adultos": -1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "depend": -1,
+   "ciud": -1,
+   "cons": -1,
+   "viv1": -1,
+   "empGran": -1,
+   "hipot": -1,
+   "jovenes": -1,
+   "inq": -1,
+   "secInd": -1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Sube el IVA, suprime la paga extra de empleados públicos, recorta prestaciones por desempleo, dependencia y ayudas a vivienda, y grava más a grandes empresas.",
+  "medidas": [
+   {
+    "d": "Supresión de la paga extra y recortes de días a empleados públicos",
+    "imp": {
+     "funA1": -1,
+     "funA2": -1,
+     "funB": -1,
+     "funC1": -1,
+     "funC2E": -1,
+     "proSeg": -1,
+     "proSan": -1,
+     "proDoc": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Recorte de la prestación y los subsidios por desempleo",
+    "imp": {
+     "desPres": -1,
+     "desSub": -1,
+     "adultos": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de bonificaciones a la contratación y más conceptos cotizables",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Recorte de prestaciones y financiación de la dependencia",
+    "imp": {
+     "depend": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida del IVA general y reducido; servicios pasan al general",
+    "imp": {
+     "ciud": -1,
+     "cons": -1,
+     "secCom": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la compensación fiscal por compra de vivienda",
+    "imp": {
+     "viv1": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Más carga de Sociedades a grandes empresas",
+    "imp": {
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Liberalización de horarios comerciales y promociones de ventas",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de subsidiación de préstamos y recorte de la renta de emancipación",
+    "imp": {
+     "hipot": -1,
+     "jovenes": -1,
+     "inq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Recorte de la retribución del transporte y la generación insular eléctrica",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Supresión de la compensación a concesionarias de autopistas",
+    "imp": {
+     "secTrans": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000030",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "discapacidad": 1,
+   "cons": 1
+  },
+  "peso": 3,
+  "nota": "Aplica la revalorización de pensiones de 2013, amplía la orfandad de huérfanos con discapacidad y congela el precio del butano.",
+  "medidas": [
+   {
+    "d": "Revalorización de pensiones de 2013, mayor para las bajas",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Límite de edad de orfandad para huérfanos con discapacidad",
+    "imp": {
+     "discapacidad": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Congelación del precio máximo del butano",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000035",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1,
+   "pen1": -1,
+   "pen2": -1,
+   "pen3": -1,
+   "adultos": -1,
+   "desSub": -1
+  },
+  "peso": 2,
+  "nota": "Permite compatibilizar pensión y trabajo; endurece la jubilación anticipada y parcial; exige rentas familiares para el subsidio de mayores de 55 años.",
+  "medidas": [
+   {
+    "d": "Compatibilidad de la pensión de jubilación con el trabajo",
+    "imp": {
+     "mayores": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Endurecimiento de la jubilación anticipada y parcial",
+    "imp": {
+     "pen1": -1,
+     "pen2": -1,
+     "pen3": -1,
+     "adultos": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Requisito de rentas familiares en el subsidio de mayores de 55",
+    "imp": {
+     "desSub": -1,
+     "adultos": -1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "130/000036",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Da liquidez y vías de arbitraje a los clientes con preferentes y deuda subordinada; impone a la banca una contribución extraordinaria al Fondo de Garantía.",
+  "medidas": [
+   {
+    "d": "Liquidez y arbitraje para titulares de preferentes y subordinadas",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Contribución extraordinaria de la banca al Fondo de Garantía de Depósitos",
+    "imp": {
+     "secFin": -1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "130/000073",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "asal5": 1,
+   "asal6": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "empAut": 1,
+   "pobreza": 1,
+   "victimas": 1,
+   "cons": 1,
+   "secInd": 1
+  },
+  "peso": 3,
+  "nota": "Rebaja medio punto toda la tarifa del IRPF y las retenciones, exime ayudas sociales y a víctimas, abarata la factura eléctrica y facilita prejubilaciones mineras.",
+  "medidas": [
+   {
+    "d": "Rebaja de medio punto en toda la tarifa del IRPF",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "asal5": 1,
+     "asal6": 1,
+     "pen2": 1,
+     "pen3": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Rebaja de la retención de autónomos profesionales al 15 %",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención en el IRPF de ayudas sociales y a víctimas",
+    "imp": {
+     "pobreza": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Rebaja de pagos por capacidad y peajes del autoconsumo pequeño",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas a la reducción de plantillas de minas de carbón",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000074",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "proDoc": 1
+  },
+  "peso": 2,
+  "nota": "Devuelve parte de la paga extra de 2012 y amplía días de permiso de los empleados públicos; abre la promoción interna a catedrático.",
+  "medidas": [
+   {
+    "d": "Recuperación de paga extra y días de permiso de empleados públicos",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Promoción interna de profesores titulares a catedrático",
+    "imp": {
+     "funA1": 1,
+     "proDoc": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000045",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Permite obligar a los vehículos pesados a circular por autopistas de peaje; el resto ordena sanciones a concesionarias, peajes públicos y expropiaciones."
+ },
+ {
+  "id": "130/000048",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "casero": -1,
+   "secCons": -1,
+   "pobreza": 1,
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la duración de los alquileres y limita garantías, suspende desahucios de hogares vulnerables, impulsa obras de accesibilidad y exime de ITP ciertos arrendamientos.",
+  "medidas": [
+   {
+    "d": "Prórroga obligatoria de alquileres a 5-7 años y límite de garantías",
+    "imp": {
+     "inq": 1,
+     "casero": -1,
+     "secCons": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Suspensión del desahucio de hogares vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Obras obligatorias de accesibilidad en comunidades de propietarios",
+    "imp": {
+     "discapacidad": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención del ITP en arrendamientos de vivienda",
+    "imp": {
+     "inq": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000050",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1,
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Liberaliza el transporte ferroviario de viajeros y refuerza los derechos de quienes contratan viajes combinados; la reforma de marcas no tiene efecto claro.",
+  "medidas": [
+   {
+    "d": "Apertura del transporte ferroviario de viajeros a la competencia",
+    "imp": {
+     "ciud": -1,
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Más derechos y garantías en los viajes combinados",
+    "imp": {
+     "cons": 1,
+     "secCom": -1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "secPrim": 1,
+   "asal5": -1,
+   "asal6": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "estud": 1,
+   "desSub": 1,
+   "victimas": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones un 1,6 %; sube el tope y las bases de cotización; amplía la protección de autónomos, becarios y eventuales agrarios.",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Más protección por cese de actividad de los autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Tarifa plana para autónomos agrarios",
+    "imp": {
+     "empAut": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del tope máximo y las bases mínimas de cotización",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Alta en la Seguridad Social de prácticas y becarios",
+    "imp": {
+     "estud": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Menos jornadas para el subsidio agrario por lluvias",
+    "imp": {
+     "desSub": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000006",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "cons": 1,
+   "secCom": 1,
+   "pac": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos 2017: sube un 1 % los sueldos públicos y un 0,25 % las pensiones; baja al 10 % el IVA de espectáculos y monturas.",
+  "medidas": [
+   {
+    "d": "Subida del 1 % de las retribuciones públicas",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización general de las pensiones del 0,25 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "IVA del 10 % para espectáculos culturales en vivo",
+    "imp": {
+     "cons": 1,
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "IVA del 10 % para monturas de gafas graduadas",
+    "imp": {
+     "pac": 1,
+     "secCom": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000020",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "asal1": 1,
+   "mujeres": 1,
+   "infancia": 1,
+   "hij3": 1,
+   "discapacidad": 1,
+   "prop3": -1,
+   "prop4": -1,
+   "cons": 1,
+   "secCom": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones, amplía deducciones familiares y la reducción por rendimientos del trabajo, prorroga el Impuesto sobre el Patrimonio y rebaja el IVA del cine.",
+  "medidas": [
+   {
+    "d": "Revalorización de las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Mayor reducción por rendimientos del trabajo para rentas bajas",
+    "imp": {
+     "asal1": 1,
+     "pen2": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ampliación de deducciones por maternidad, familia numerosa y discapacidad",
+    "imp": {
+     "mujeres": 1,
+     "infancia": 1,
+     "hij3": 1,
+     "discapacidad": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del Impuesto sobre el Patrimonio en 2018",
+    "imp": {
+     "prop3": -1,
+     "prop4": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "IVA de la entrada al cine del 21 al 10 %",
+    "imp": {
+     "cons": 1,
+     "secCom": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000038",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "asal6": -1,
+   "empMed": -1,
+   "empGran": -1,
+   "secFin": -1,
+   "secInd": -1,
+   "empMicro": 1,
+   "prop4": -1,
+   "mujeres": 1,
+   "secDig": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza pensiones; sube IRPF a rentas altas, Patrimonio y diésel; tributación mínima en Sociedades; rebaja IVA de higiene femenina, veterinaria y libros.",
+  "medidas": [
+   {
+    "d": "Revalorización de las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Mayor IRPF a las rentas más altas",
+    "imp": {
+     "asal6": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Tributación mínima en Sociedades para grandes empresas, banca e hidrocarburos",
+    "imp": {
+     "empMed": -1,
+     "empGran": -1,
+     "secFin": -1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebaja de Sociedades a empresas que facturan menos de 1 M€",
+    "imp": {
+     "empMicro": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida del tipo máximo del Impuesto sobre el Patrimonio",
+    "imp": {
+     "prop4": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "IVA del 4 % para productos de higiene femenina",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "IVA reducido a veterinaria y a libros y prensa digitales",
+    "imp": {
+     "cons": 1,
+     "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del impuesto sobre el gasóleo de automoción",
+    "imp": {
+     "cons": -1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "130/000012",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "hipot": 1,
+   "secFin": -1,
+   "empAut": 1,
+   "cons": 1,
+   "desSub": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Protege a inquilinos y deudores vulnerables, amplía bono social y subsidios, y da liquidez a autónomos y pymes; el arrendador gana y pierde.",
+  "medidas": [
+   {
+    "d": "Suspensión de desahucios, prórroga y moratoria del alquiler vulnerable",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Moratoria de hipotecas y créditos de personas vulnerables",
+    "imp": {
+     "hipot": 1,
+     "pobreza": 1,
+     "secFin": -1,
+     "casero": 1,
+     "empAut": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Bono social eléctrico para autónomos que cesan su actividad",
+    "imp": {
+     "pobreza": 1,
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prohibición de cortes de suministros básicos en hogares",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subsidios extraordinarios para empleadas del hogar y temporales",
+    "imp": {
+     "desSub": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Moratoria y aplazamiento de cotizaciones sociales",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Derechos de resolución y reembolso de los consumidores",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Limitación de la publicidad del juego en línea",
+    "imp": {
+     "secCom": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Suspensión de facturas y flexibilización de suministros de autónomos y pymes",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Liquidez para pymes y aplazamiento de préstamos turísticos",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Compensación de costes a la televisión digital terrestre",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000083",
+  "tipo": "eco",
+  "imp": {
+   "casero": -1,
+   "cons": 1,
+   "discapacidad": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "inq": 1,
+   "mayores": 1,
+   "pen1": 1,
+   "pobreza": 1,
+   "secPrim": 1,
+   "secTrans": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga rebajas energéticas y de carburantes, transporte, IMV y no contributivas +15 %, tope al alquiler, desahucios, ayuda de 200 € y La Palma.",
+  "medidas": [
+   {
+    "d": "Bonificación del precio de los carburantes",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prestación patrimonial a los operadores mayoristas de productos petrolíferos",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Incremento del 15 % del Ingreso Mínimo Vital",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Incremento del 15 % de las pensiones no contributivas",
+    "imp": {
+     "pen1": 1,
+     "mayores": 1,
+     "discapacidad": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Límite a la actualización de la renta del alquiler",
+    "imp": {
+     "inq": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebaja del IVA y del impuesto especial de la electricidad",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Suspensión del impuesto sobre la producción eléctrica",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Minoración de la retribución de las eléctricas no emisoras",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Bono social y garantía de suministros a consumidores vulnerables",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Contención de la tarifa del gas y del butano",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Descuento del 30 % en abonos de transporte público",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ayudas y flexibilización del gas para la industria",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas a la pesca, la agricultura y el seguro agrario",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Desglose del combustible y revisión de precios del transporte por carretera",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de la suspensión de desahucios de personas vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ayuda única de 200 € a personas de bajos ingresos",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de ERTE, cese de actividad y aplazamientos en La Palma",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Congelación del precio máximo del butano envasado",
+    "imp": {
+     "cons": 1,
+     "secInd": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000086",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "cons": 1,
+   "discapacidad": 1,
+   "empAut": 1,
+   "estud": 1,
+   "inmigrantes": 1,
+   "secCom": -1,
+   "secCons": 1,
+   "secInd": 1,
+   "secPrim": 1,
+   "secTrans": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas y precio mínimo al transporte por carretera, gratuidad de Cercanías, complemento de becas, ahorro energético en comercios, autoconsumo, pesca y marinos ucranianos.",
+  "medidas": [
+   {
+    "d": "Ayudas directas y precio mínimo para el transporte por carretera",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Gratuidad de abonos de Cercanías, Rodalies y Media distancia",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Complemento de cien euros mensuales a los becarios",
+    "imp": {
+     "estud": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Límites de temperatura y obligaciones de ahorro en locales",
+    "imp": {
+     "secCom": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Descuento en factura por retraso en activar el autoconsumo",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas complementarias a armadores de buques pesqueros",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención del requisito de nacionalidad a marinos ucranianos",
+    "imp": {
+     "inmigrantes": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Revisión excepcional de precios en contratos de obras más cortos",
+    "imp": {
+     "secCons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Mejoras en devoluciones y cese de actividad de autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Cuota reducida más larga para autónomos con discapacidad o víctimas",
+    "imp": {
+     "empAut": 1,
+     "discapacidad": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Restricciones sanitarias del transporte aéreo pasan a recomendaciones",
+    "imp": {
+     "ciud": -1,
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Agilización de renovables, autoconsumo, almacenamiento y biometano",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000056",
+  "tipo": "soc",
+  "imp": {
+   "pobreza": 1,
+   "inq": 1,
+   "casero": -1,
+   "victimas": 1,
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga bono social y garantía de suministros a vulnerables, suspensión de desahucios, prórroga de alquileres y servicios esenciales contra la violencia de género.",
+  "medidas": [
+   {
+    "d": "Prórroga de garantía de suministros y bono social para vulnerables",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de suspensión de desahucios y de contratos de alquiler",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Servicios de atención a víctimas de violencia de género como esenciales",
+    "imp": {
+     "victimas": 1,
+     "mujeres": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000090",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "desSub": 1,
+   "empAut": 1,
+   "empGran": 1,
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "pobreza": 1,
+   "proDoc": 1,
+   "proSan": 1,
+   "proSeg": 1,
+   "secInd": 1,
+   "viv1": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el bono social y la tarifa regulada de gas, sube un 1,5 % el sueldo público, incentiva renovables y facilita el subsidio agrario.",
+  "medidas": [
+   {
+    "d": "Protección de consumidores de gas: tarifa de último recurso y contratos",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Refuerzo del bono social eléctrico y térmico",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Flexibilización de contratos de gas para industria y autónomos",
+    "imp": {
+     "secInd": 1,
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Impulso del autoconsumo y simplificación de instalaciones renovables",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Incentivos fiscales a la eficiencia energética y el autoconsumo",
+    "imp": {
+     "viv1": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida adicional del 1,5 % de las retribuciones públicas",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1,
+     "proSan": 1,
+     "proDoc": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subsidio agrario con 10 jornadas en Andalucía y Extremadura",
+    "imp": {
+     "desSub": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000074",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "desPres": 1,
+   "depend": 1,
+   "victimas": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "pac": 1,
+   "inq": 1,
+   "pobreza": 1,
+   "casero": -1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga ayudas a autónomos, ERTE y protección por desempleo, ayudas por el volcán de La Palma, suspensión de desahucios de vulnerables y garantía de suministros.",
+  "medidas": [
+   {
+    "d": "Exención de cuotas y prestación por cese de actividad de autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Transición de ERTE con protección por desempleo y exoneraciones",
+    "imp": {
+     "desPres": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del Plan MECUIDA",
+    "imp": {
+     "depend": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas laborales y moratoria de cuotas por el volcán de La Palma",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reducción de jornada por hijo con cáncer hasta 23 años",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Suspensión de desahucios de vulnerables con compensación al arrendador",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prohibición de cortes de suministros y bono social a vulnerables",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "130/000094",
+  "tipo": "eco",
+  "imp": {
+   "asal5": -1,
+   "asal6": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "pen3": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "mayores": 1,
+   "civViu": 1,
+   "mujeres": 1,
+   "hombres": 1,
+   "pac": 1,
+   "discapacidad": 1,
+   "civSep": 1,
+   "victimas": 1,
+   "estud": 1
+  },
+  "peso": 3,
+  "nota": "Sube la base máxima y crea la cotización de solidaridad, amplía el MEI, mejora cálculo, mínimas, brecha de género y otras prestaciones.",
+  "medidas": [
+   {
+    "d": "Subida de la base máxima y cotización de solidaridad",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Mecanismo de Equidad Intergeneracional: cotización adicional hasta 2050",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida gradual de la pensión máxima",
+    "imp": {
+     "pen3": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Nuevo cálculo de la pensión con opción más favorable",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida de pensiones mínimas, de viudedad y no contributivas",
+    "imp": {
+     "pen1": 1,
+     "mayores": 1,
+     "civViu": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Complemento de brecha de género y mejora de lagunas",
+    "imp": {
+     "mujeres": 1,
+     "hombres": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prestación por cuidado de hijos con cáncer hasta 23-26 años",
+    "imp": {
+     "pac": 1,
+     "discapacidad": 1,
+     "civSep": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Alta en la Seguridad Social de estudiantes en prácticas",
+    "imp": {
+     "estud": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Integración de lagunas para autónomos tras el cese",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000092",
+  "tipo": "eco",
+  "imp": {
+   "casero": -1,
+   "ciud": 1,
+   "cons": 1,
+   "desPres": 1,
+   "desSub": 1,
+   "discapacidad": 1,
+   "empAut": 1,
+   "empGran": 1,
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "infancia": 1,
+   "inq": 1,
+   "mayores": 1,
+   "mujeres": 1,
+   "pen1": 1,
+   "pobreza": 1,
+   "proSan": 1,
+   "secPrim": 1,
+   "secTrans": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga rebajas fiscales de luz y gas y protección de vulnerables; ayudas a industria intensiva, agricultura, pesca, transportistas y bonificación del transporte público.",
+  "medidas": [
+   {
+    "d": "Prórroga de rebajas de IVA e impuestos eléctricos y del gas",
+    "imp": {
+     "cons": 1,
+     "secInd": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prohibición de cortes a vulnerables y tope del butano",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebaja de peajes y ayudas a la industria electro y gasintensiva",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ayudas por gasóleo y fertilizantes a agricultores y pescadores",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Bonificación de carburantes y ayudas a empresas de transporte",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Gratuidad y bonificación de abonos de transporte público",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de la moratoria de disolución por pérdidas de 2020-2021",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de aplazamientos de cuotas en agro, pesca y transporte",
+    "imp": {
+     "secPrim": 1,
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Aplazamientos de deudas públicas no tributarias sin garantía",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Límite a la actualización de rentas y prórroga de alquileres",
+    "imp": {
+     "inq": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de la suspensión de desahucios de personas vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "IVA del 0 % y 5 % para alimentos básicos",
+    "imp": {
+     "ciud": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Deducción por maternidad compatible con el complemento de infancia",
+    "imp": {
+     "infancia": 1,
+     "mujeres": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayuda de 200 euros a trabajadores y desempleados de bajos ingresos",
+    "imp": {
+     "desPres": 1,
+     "desSub": 1,
+     "empAut": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida extraordinaria de pensiones no contributivas",
+    "imp": {
+     "pen1": 1,
+     "mayores": 1,
+     "discapacidad": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "No exigir pequeños reintegros del IMV a hogares con menores",
+    "imp": {
+     "pobreza": 1,
+     "infancia": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de la suspensión de préstamos de afectados en La Palma",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas por vivienda destruida también a usufructuarios",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Beneficios fiscales para La Palma e incendios de 2022",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "ERTE, cese de actividad y exenciones de cuotas en La Palma",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Compatibilidad de pensión y trabajo de médicos de atención primaria",
+    "imp": {
+     "proSan": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga del IVA reducido de mascarillas, vacunas y test COVID",
+    "imp": {
+     "ciud": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Precio máximo del butano y propano envasados",
+    "imp": {
+     "cons": 1,
+     "secInd": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000061",
+  "tipo": "soc",
+  "imp": {
+   "pobreza": 1,
+   "inq": 1,
+   "casero": -1,
+   "victimas": 1,
+   "mujeres": 1,
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga bono social y suministros a vulnerables, suspensión de desahucios, prórroga de alquileres, servicios a víctimas de violencia de género y ayudas a autónomos palmeros.",
+  "medidas": [
+   {
+    "d": "Prórroga del bono social y garantía de suministros a vulnerables",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Suspensión de desahucios de vulnerables y prórroga de alquileres",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Servicios esenciales para víctimas de violencia de género",
+    "imp": {
+     "victimas": 1,
+     "mujeres": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Medidas de Seguridad Social para autónomos afectados en La Palma",
+    "imp": {
+     "empAut": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000067",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1,
+   "cons": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga avales públicos a empresas y autónomos, garantiza gas a servicios esenciales sin contrato y declara de interés general obras ambientales del Mar Menor.",
+  "medidas": [
+   {
+    "d": "Prórroga de los avales públicos a autónomos y empresas",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Suministro de gas garantizado a servicios esenciales sin contrato",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Obras de recuperación ambiental del Mar Menor",
+    "imp": {
+     "ciud": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000030",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 1,
+  "nota": "Regula el teletrabajo voluntario de los empleados públicos con iguales derechos; flexibiliza la contratación y movilidad del personal sanitario, con efecto mixto."
+ },
+ {
+  "id": "121/000049",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "pobreza": 1,
+   "empAut": 1,
+   "proSan": 1,
+   "hipot": 1
+  },
+  "peso": 2,
+  "nota": "Complemento de pensión contra la brecha de género, IMV más amplio, ayudas a autónomos y sanitarios con COVID, y más plazo de moratorias hipotecarias.",
+  "medidas": [
+   {
+    "d": "Complemento de pensiones para reducir la brecha de género",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ampliación del acceso al ingreso mínimo vital",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Acceso más fácil de autónomos a la prestación por cese",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "COVID como enfermedad profesional y reincorporación de sanitarios jubilados",
+    "imp": {
+     "proSan": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de moratorias hipotecarias y avales para autónomos",
+    "imp": {
+     "hipot": 1,
+     "empAut": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000043",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "pobreza": 1,
+   "victimas": 1,
+   "empAut": 1,
+   "proSan": 1,
+   "hipot": 1
+  },
+  "peso": 2,
+  "nota": "Crea un complemento de pensiones contra la brecha de género, amplía el acceso al IMV, protege al personal sanitario y prorroga moratorias de préstamos.",
+  "medidas": [
+   {
+    "d": "Complemento de pensiones para reducir la brecha de género",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ampliación del acceso al Ingreso Mínimo Vital",
+    "imp": {
+     "pobreza": 1,
+     "victimas": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Facilidades de acceso a la prestación por cese de autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "COVID como enfermedad profesional del personal sanitario",
+    "imp": {
+     "proSan": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación del plazo de las moratorias de préstamos",
+    "imp": {
+     "hipot": 1,
+     "pobreza": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000037",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "casero": -1,
+   "secTrans": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Suspende desahucios de inquilinos vulnerables, compensa a las empresas de autobús de líneas estatales y limita el coste de las llamadas de atención al cliente.",
+  "medidas": [
+   {
+    "d": "Suspensión de desahucios de personas vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Reequilibrio económico de las concesiones de autobús estatales",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Atención telefónica al cliente sin coste adicional",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000079",
+  "tipo": "eco",
+  "imp": {
+   "casero": -1,
+   "cons": 1,
+   "empAut": 1,
+   "empGran": 1,
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "inmigrantes": 1,
+   "inq": 1,
+   "mujeres": 1,
+   "pobreza": 1,
+   "secCons": 1,
+   "secDig": 1,
+   "secPrim": 1,
+   "secTrans": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Apoya a la industria electrointensiva y gasintensiva, recorta la retribución regulada de renovables para bajar cargos eléctricos y exige reducir emisiones de combustibles.",
+  "medidas": [
+   {
+    "d": "Rebaja de peajes y ayudas a la industria intensiva en energía",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revisión de la retribución regulada de renovables para bajar cargos",
+    "imp": {
+     "cons": 1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Objetivo de reducción de emisiones de los combustibles de transporte",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Rebaja de tasas portuarias y de tráficos mínimos en concesiones",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas directas al transporte por carretera y ferrocarril",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Aplazamiento de cuotas en transporte y pesca; gasóleo profesional mensual",
+    "imp": {
+     "secTrans": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Línea de avales y extensión del código de buenas prácticas",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ayudas directas a agricultores, ganaderos, pescadores y acuicultores",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Flexibilización de exigencias ambientales de la PAC en 2022",
+    "imp": {
+     "ciud": -1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de plazos para películas con ayudas afectadas",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del 15 % del ingreso mínimo vital",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Límite a la actualización anual de la renta del alquiler",
+    "imp": {
+     "inq": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Acreditación y ayudas a víctimas de trata y de violencia",
+    "imp": {
+     "victimas": 1,
+     "mujeres": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Facilidades de residencia, nacionalidad y documentación para ucranianos",
+    "imp": {
+     "inmigrantes": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga y ampliación del bono social eléctrico y térmico",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Exención de IRPF a familiares de víctimas del vuelo GWI9525",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de la revisión excepcional de precios en obra pública",
+    "imp": {
+     "secCons": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000008",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "infancia": 1,
+   "pobreza": 1,
+   "secCom": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la sanidad pública ante el COVID-19, ayuda a menores vulnerables sin comedor, financia al turismo y aplaza impuestos a pymes y autónomos.",
+  "medidas": [
+   {
+    "d": "Fondos extraordinarios para la sanidad pública frente al COVID-19",
+    "imp": {
+     "ciud": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Precios máximos de medicamentos y productos sanitarios",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas de alimentación a menores vulnerables sin comedor escolar",
+    "imp": {
+     "infancia": 1,
+     "pobreza": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Aislamiento por COVID-19 como accidente de trabajo para mutualistas",
+    "imp": {
+     "pac": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Financiación ICO y bonificaciones a fijos discontinuos del turismo",
+    "imp": {
+     "secCom": 1,
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Aplazamiento de impuestos a pymes y autónomos",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Aplazamiento de préstamos a la industria",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000009",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "cons": 1,
+   "hipot": 1,
+   "empAut": 1,
+   "desPres": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1,
+   "depend": 1,
+   "infancia": 1,
+   "secDig": -1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "ERTE con exoneración de cotizaciones y desempleo sin carencia, avales a empresas, prestación por cese de autónomos, moratoria hipotecaria y protección de suministros a vulnerables.",
+  "medidas": [
+   {
+    "d": "Garantía de suministros y bono social para vulnerables; butano congelado",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Moratoria hipotecaria para deudores vulnerables",
+    "imp": {
+     "hipot": 1,
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prestación extraordinaria por cese de actividad de autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "ERTE: exoneración de cotizaciones y desempleo sin periodo de carencia",
+    "imp": {
+     "desPres": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Línea de avales públicos para empresas y autónomos",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Adaptación o reducción de jornada para cuidar a familiares",
+    "imp": {
+     "depend": 1,
+     "infancia": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Fondo social y atención domiciliaria a personas dependientes",
+    "imp": {
+     "depend": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prohibición de suspender servicios de telecomunicaciones contratados",
+    "imp": {
+     "cons": 1,
+     "secDig": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de préstamos a explotaciones agrarias afectadas por la sequía",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000035",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "proSeg": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "asal6": -1,
+   "prop4": -1,
+   "empGran": -1,
+   "ciud": 1,
+   "secInd": -1,
+   "cons": -1,
+   "empAut": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza pensiones y sueldos públicos; sube IRPF y Patrimonio a rentas y patrimonios altos, Sociedades a grandes grupos, IVA de bebidas azucaradas y seguros.",
+  "medidas": [
+   {
+    "d": "Subida del 0,9 % de las retribuciones públicas y reposición de plantillas",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización de las pensiones y del 1,8 % de las no contributivas",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Más IRPF a rentas altas y subida del Patrimonio",
+    "imp": {
+     "asal6": -1,
+     "prop4": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Limitación de la exención de dividendos en Sociedades",
+    "imp": {
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "IVA del 21 % a las bebidas con edulcorantes añadidos",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del impuesto sobre las primas de seguros",
+    "imp": {
+     "cons": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de los módulos y regímenes simplificados para autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000066",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "adultos": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones con el IPC, deroga el factor de sostenibilidad, incentiva la jubilación demorada y rebaja cuotas empresariales por bajas de mayores de 62.",
+  "medidas": [
+   {
+    "d": "Revalorización anual de las pensiones según el IPC",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Derogación del factor de sostenibilidad",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "adultos": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Incentivos a la jubilación demorada y límite a la jubilación forzosa",
+    "imp": {
+     "mayores": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Mejora de pensiones anticipadas con 44 años y medio cotizados",
+    "imp": {
+     "mayores": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reducción de cuotas empresariales en bajas de mayores de 62",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000070",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "proSeg": 1,
+   "proSan": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "empMed": -1,
+   "empGran": -1,
+   "secFin": -1,
+   "secInd": -1,
+   "empAut": 1,
+   "secPrim": 1
+  },
+  "peso": 3,
+  "nota": "Sube un 2 % el sueldo público, revaloriza las pensiones con el IPC, fija tributación mínima en Sociedades y prorroga los módulos.",
+  "medidas": [
+   {
+    "d": "Subida del 2 % de las retribuciones del sector público",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1,
+     "proSan": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización general de las pensiones según el IPC",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Tributación mínima del 15 % en Sociedades para grandes empresas",
+    "imp": {
+     "empMed": -1,
+     "empGran": -1,
+     "secFin": -1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de los límites de módulos y régimen simplificado",
+    "imp": {
+     "empAut": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000075",
+  "tipo": "eco",
+  "imp": {
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "empMed": -1,
+   "empGran": -1,
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Obliga a todas las empresas y autónomos a la factura electrónica y amplía las actividades comerciales exentas de licencia.",
+  "medidas": [
+   {
+    "d": "Factura electrónica obligatoria para empresas y autónomos",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1,
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Más actividades comerciales exentas de licencia",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "121/000125",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1,
+   "proSeg": 1,
+   "proSan": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "asal1": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "mujeres": 1
+  },
+  "peso": 3,
+  "nota": "Sube salarios públicos, revaloriza pensiones, rebaja el IRPF a rentas bajas del trabajo, impuestos a autónomos y microempresas, y el IVA de higiene femenina.",
+  "medidas": [
+   {
+    "d": "Subida del 3,5 % de las retribuciones del sector público",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1,
+     "proSan": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización general de las pensiones con el IPC",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Mayor reducción del IRPF por rendimientos del trabajo bajos",
+    "imp": {
+     "asal1": 1,
+     "pen2": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebajas fiscales a autónomos y Sociedades de microempresas",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "IVA del 4 % para productos de higiene femenina y anticonceptivos",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "122/000166",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "casero": -1,
+   "hipot": 1,
+   "secFin": -1,
+   "prop3": -1,
+   "prop4": -1,
+   "secInd": -1,
+   "secCons": -1
+  },
+  "peso": 3,
+  "nota": "Limita desahucios y alquileres, introduce dación en pago, grava vivienda vacía de grandes tenedores, crea tarifa social de suministros y suprime el régimen SOCIMI.",
+  "medidas": [
+   {
+    "d": "Freno a desahucios de vulnerables con realojo y alquiler social",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Dación en pago y límites a la responsabilidad hipotecaria",
+    "imp": {
+     "hipot": 1,
+     "secFin": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Regulación de rentas y duración del alquiler en zonas tensionadas",
+    "imp": {
+     "inq": 1,
+     "casero": -1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Movilización de vivienda vacía de grandes tenedores y recargo del IBI",
+    "imp": {
+     "prop3": -1,
+     "prop4": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Tarifa social de agua, luz y gas financiada por las empresas",
+    "imp": {
+     "pobreza": 1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión del régimen fiscal especial de las SOCIMI",
+    "imp": {
+     "secCons": -1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "122/000247",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1,
+   "secInd": -1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea gravámenes temporales sobre la cifra de negocios de las grandes energéticas y sobre el margen de intereses y comisiones de los grandes bancos.",
+  "medidas": [
+   {
+    "d": "Gravamen temporal del 1,2 % a grandes energéticas",
+    "imp": {
+     "empGran": -1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Gravamen temporal del 4,8 % a grandes entidades de crédito",
+    "imp": {
+     "empGran": -1,
+     "secFin": -1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "130/000003",
+  "tipo": "eco",
+  "imp": {
+   "asal5": -1,
+   "asal6": -1,
+   "casero": -1,
+   "ciud": 1,
+   "cons": 1,
+   "discapacidad": 1,
+   "empAut": 1,
+   "empGran": -1,
+   "hipot": 1,
+   "inq": 1,
+   "mayores": 1,
+   "mujeres": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "pobreza": 1,
+   "proDoc": 1,
+   "prop4": -1,
+   "secCom": 1,
+   "secCons": 1,
+   "secFin": -1,
+   "secPrim": 1,
+   "victimas": 1,
+   "viv1": 1
+  },
+  "peso": 3,
+  "nota": "Prorroga rebajas de IVA de alimentos y energía, bono social, límites a comisiones bancarias, módulos de autónomos y medidas mixtas para el sector energético.",
+  "medidas": [
+   {
+    "d": "Sin comisiones por amortizar o pasar la hipoteca a tipo fijo",
+    "imp": {
+     "hipot": 1,
+     "secFin": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Sin comisión por retirar efectivo en ventanilla a mayores y discapacitados",
+    "imp": {
+     "mayores": 1,
+     "discapacidad": 1,
+     "cons": 1,
+     "secFin": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de límites de módulos y régimen simplificado y agrario",
+    "imp": {
+     "empAut": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de la deducción por eficiencia energética de viviendas",
+    "imp": {
+     "viv1": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "IVA del 0 % y 5 % en alimentos básicos",
+    "imp": {
+     "ciud": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebaja de IVA e impuestos de la electricidad y el gas",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Bono social eléctrico y garantía de suministro a vulnerables",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Límite al precio del butano y de la tarifa de gas",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Más plazo para renovables y apoyo a la industria electrointensiva",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Garantías y caducidad de permisos de acceso a red para grandes consumos",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de ayudas a autónomos y ERTE en La Palma",
+    "imp": {
+     "empAut": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Revalorización general de las pensiones un 3,8 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida adicional del complemento de pensiones por brecha de género",
+    "imp": {
+     "mujeres": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del tope máximo de las bases de cotización",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Avales para proyectos de vivienda en alquiler social",
+    "imp": {
+     "secCons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de la suspensión de desahucios de hogares vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de la moratoria de préstamos a afectados de La Palma",
+    "imp": {
+     "victimas": 1,
+     "hipot": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Más plazo para ayudas de digitalización del sector turístico",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Equiparación retributiva del profesorado de la concertada",
+    "imp": {
+     "proDoc": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de los gravámenes temporales energético y bancario",
+    "imp": {
+     "secInd": -1,
+     "secFin": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del impuesto temporal de solidaridad de grandes fortunas",
+    "imp": {
+     "prop4": -1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "130/000009",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secPrim": 1,
+   "hipot": 1,
+   "secFin": -1,
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Ayudas a afectados por la DANA, ayudas directas a negocios, exenciones fiscales y de cotización, moratoria de préstamos y protección de consumidores.",
+  "medidas": [
+   {
+    "d": "Ayudas por daños personales, en vivienda y enseres",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas directas a autónomos y empresas afectados",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exenciones de IBI, IAE y tasas; rebaja de módulos agrarios",
+    "imp": {
+     "victimas": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exenciones y moratorias de cotizaciones; cese de actividad de autónomos",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Moratoria de préstamos hipotecarios y no hipotecarios",
+    "imp": {
+     "hipot": 1,
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "secFin": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Protección de consumidores afectados en sus contratos",
+    "imp": {
+     "cons": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000010",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secInd": 1,
+   "secCom": 1,
+   "secPrim": 1,
+   "secDig": 1,
+   "desPres": 1,
+   "depend": 1,
+   "pobreza": 1,
+   "infancia": 1,
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Ayudas a afectados por la DANA: suministros energéticos, módulos fiscales, agricultura, alojamiento, escudo laboral y desempleo, complemento de infancia del IMV, cultura.",
+  "medidas": [
+   {
+    "d": "Flexibilización, suspensión y aplazamiento de facturas de luz y gas",
+    "imp": {
+     "cons": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reducción de módulos del IRPF e IVA simplificado en la zona",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Flexibilización de préstamos y ayudas industriales, turísticas y electrointensivas",
+    "imp": {
+     "secInd": 1,
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas y financiación a explotaciones agrarias afectadas",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Compra de viviendas para alojar a los damnificados",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Permisos retribuidos, Mecuida y protección por desempleo sin carencia",
+    "imp": {
+     "victimas": 1,
+     "desPres": 1,
+     "depend": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención de cotizaciones en ERTE por fuerza mayor",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Incremento del 30 % del complemento de infancia del IMV",
+    "imp": {
+     "pobreza": 1,
+     "infancia": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas a cines, librerías y productoras audiovisuales afectados",
+    "imp": {
+     "secCom": 1,
+     "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación del plazo del Bono Cultural Joven",
+    "imp": {
+     "jovenes": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000011",
+  "tipo": "eco",
+  "imp": {
+   "victimas": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "secInd": 1,
+   "secCom": 1,
+   "secPrim": 1,
+   "estud": 1,
+   "discapacidad": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas a afectados por la DANA (vehículos, viviendas, estudiantes, discapacidad, negocios y explotaciones agrarias) y permiso retribuido general ante catástrofes.",
+  "medidas": [
+   {
+    "d": "Ayudas a la compra de vehículos para afectados",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Financiación de empresas industriales y turísticas afectadas",
+    "imp": {
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "secInd": 1,
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayuda por pérdida de renta de explotaciones agrarias",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Mejora de ayudas por daños en vivienda y fallecimiento",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ayudas a estudiantes para libros y material",
+    "imp": {
+     "estud": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Productos de apoyo para personas con discapacidad afectadas",
+    "imp": {
+     "discapacidad": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Permiso retribuido ante catástrofes y fenómenos meteorológicos",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prohibición de precios personalizados abusivos en emergencias",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000012",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal5": -1,
+   "asal6": -1,
+   "casero": -1,
+   "cons": 1,
+   "empAut": 1,
+   "empGran": 1,
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "infancia": 1,
+   "inmigrantes": 1,
+   "inq": 1,
+   "jovenes": 1,
+   "mayores": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "pobreza": 1,
+   "secCom": 1,
+   "secInd": 1,
+   "secPrim": 1,
+   "victimas": 1,
+   "viv2": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza las pensiones un 2,8 %, renueva descuentos al transporte, prorroga desahucios y bono social, y aplica la cotización de solidaridad.",
+  "medidas": [
+   {
+    "d": "Prórroga del apoyo a la industria electrointensiva",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Menos obligados a declarar IRPF con dos pagadores",
+    "imp": {
+     "asal1": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de los límites de módulos y regímenes simplificados",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Imputación de rentas inmobiliarias al 1,1 %",
+    "imp": {
+     "viv2": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Aplazamiento del impuesto sobre líquidos de cigarrillos electrónicos",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Descuentos en abonos de transporte: gratis menores, 50 % jóvenes",
+    "imp": {
+     "cons": 1,
+     "jovenes": 1,
+     "infancia": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización general de las pensiones un 2,8 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Base máxima y cotización de solidaridad",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida progresiva de la pensión máxima en Clases Pasivas",
+    "imp": {
+     "pen3": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de la suspensión de desahucios de personas vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de ERTE, cese de actividad y moratorias en La Palma",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subvención a Ceuta para menores migrantes no acompañados",
+    "imp": {
+     "inmigrantes": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Bono social y garantía de suministros a consumidores vulnerables",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de ERTE y medidas de Seguridad Social en La Palma",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de la suspensión de la causa de disolución por pérdidas",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Amplía la financiación REINICIA+ FOCIT a empresas afectadas por la DANA",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000015",
+  "tipo": "eco",
+  "imp": {
+   "asal5": -1,
+   "asal6": -1,
+   "casero": -1,
+   "cons": 1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "infancia": 1,
+   "inq": 1,
+   "jovenes": 1,
+   "mayores": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "pobreza": 1,
+   "secPrim": 1,
+   "victimas": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza pensiones, bonifica el transporte público, prorroga protección ante desahucios y bono social, sube cotización de salarios altos y ayuda a afectados por catástrofes.",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones un 2,8 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Bonificaciones del transporte público, gratuito para menores, descuento joven",
+    "imp": {
+     "cons": 1,
+     "jovenes": 1,
+     "infancia": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Suspensión de desahucios de vulnerables y avales al alquiler",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "jovenes": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del bono social y garantía de suministros a vulnerables",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de la base máxima y cotización de solidaridad",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de ayudas a afectados de La Palma y la DANA",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de las medidas de apoyo a consumidores eléctricos vulnerables",
+    "imp": {
+     "cons": 1,
+     "pobreza": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000026",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "estud": 1,
+   "secInd": 1,
+   "secPrim": 1,
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la financiación y los avales a pymes y autónomos, aplaza cuotas, amplía el cese de actividad y ajusta ayudas a afectados por la DANA.",
+  "medidas": [
+   {
+    "d": "Préstamos ICO y fondo FEPYME para pymes",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Línea de avales ICO para afectados por emergencias",
+    "imp": {
+     "victimas": 1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Aplazamiento de cuotas y prestación por cese para autónomos",
+    "imp": {
+     "empAut": 1,
+     "victimas": 1,
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación de plazos de ayudas industriales PERTE",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ajustes de ayudas a afectados: vehículos, estudiantes y vivienda",
+    "imp": {
+     "victimas": 1,
+     "estud": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000030",
+  "tipo": "eco",
+  "imp": {
+   "casero": -1,
+   "desPres": 1,
+   "desSub": 1,
+   "discapacidad": 1,
+   "empAut": 1,
+   "empGran": 1,
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "inq": 1,
+   "mayores": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "pobreza": 1,
+   "proSan": 1,
+   "secInd": 1,
+   "victimas": 1,
+   "viv2": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza pensiones un 2,7 %, prorroga suspensión de desahucios de vulnerables y bono social, y prorroga incentivos fiscales a autónomos y afectados por catástrofes.",
+  "medidas": [
+   {
+    "d": "Prórroga de la suspensión de desahucios de vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de descuentos del bono social y garantía de suministros",
+    "imp": {
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización general de las pensiones y prestaciones un 2,7 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1,
+     "discapacidad": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Prórroga de límites de módulos y régimen simplificado para autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención en IRPF de ayudas a afectados por incendios y DANA",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Mantenimiento del porcentaje de imputación de rentas inmobiliarias",
+    "imp": {
+     "viv2": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Supresión de la obligación de declarar IRPF a perceptores de desempleo",
+    "imp": {
+     "desPres": 1,
+     "desSub": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Compatibilidad de pensión y trabajo para médicos de atención primaria",
+    "imp": {
+     "proSan": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de la moratoria de disolución por pérdidas COVID",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1,
+     "empGran": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Tasa de retribución de la generación eléctrica no peninsular",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000033",
+  "tipo": "eco",
+  "imp": {
+   "inq": 1,
+   "pobreza": 1,
+   "casero": -1,
+   "cons": 1,
+   "empAut": 1,
+   "viv1": 1,
+   "viv2": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga suspensión de desahucios vulnerables, bono social reforzado y beneficios fiscales a autónomos, propietarios y afectados por catástrofes.",
+  "medidas": [
+   {
+    "d": "Prórroga de la suspensión de desahucios de vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de descuentos del bono social y garantía de suministro",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de límites de módulos para autónomos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de la deducción por eficiencia energética de viviendas",
+    "imp": {
+     "viv1": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Mantenimiento del porcentaje de imputación de rentas inmobiliarias",
+    "imp": {
+     "viv2": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exención en IRPF de ayudas por incendios y DANA",
+    "imp": {
+     "victimas": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000034",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "infancia": 1,
+   "discapacidad": 1,
+   "asal5": -1,
+   "asal6": -1,
+   "desPres": 1,
+   "desSub": 1,
+   "proSan": 1
+  },
+  "peso": 3,
+  "nota": "Revaloriza pensiones un 2,7 % y otras prestaciones, sube la cotización de rentas altas y exime a desempleados de declarar IRPF.",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones un 2,7 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Actualización de prestaciones familiares y subsidios por discapacidad",
+    "imp": {
+     "infancia": 1,
+     "discapacidad": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la base máxima y cuota de solidaridad",
+    "imp": {
+     "asal5": -1,
+     "asal6": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Fin de la obligación de declarar IRPF para perceptores de desempleo",
+    "imp": {
+     "desPres": 1,
+     "desSub": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Compatibilidad de pensión y trabajo para médicos de atención primaria",
+    "imp": {
+     "proSan": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000038",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "cons": 1,
+   "pobreza": 1,
+   "secDig": -1,
+   "secPrim": 1,
+   "secTrans": 1,
+   "viv1": 1
+  },
+  "peso": 2,
+  "nota": "Rebaja la fiscalidad energética, amplía el bono social, ayuda a transportistas y sector primario, apoya a la industria y exige renovables a centros de datos.",
+  "medidas": [
+   {
+    "d": "Rebaja generalizada de la fiscalidad energética",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Bono social eléctrico y térmico y garantía de suministros a vulnerables",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ayudas directas y reavales a transportistas, agricultores, ganaderos y pescadores",
+    "imp": {
+     "secTrans": 1,
+     "secPrim": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebaja de peajes y apoyos a la industria intensiva en energía",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Obligación de productores renovables de compartir beneficios con vecinos",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Exigencia de generación renovable a los centros de datos",
+    "imp": {
+     "secDig": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Rebaja del Impuesto sobre Hidrocarburos y del IVA de carburantes",
+    "imp": {
+     "ciud": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de la deducción de IRPF por eficiencia energética de viviendas",
+    "imp": {
+     "viv1": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Precio máximo del butano y GLP envasado",
+    "imp": {
+     "cons": 1,
+     "secInd": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000049",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": 1,
+   "secPrim": 1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Prorroga con retirada gradual la rebaja del impuesto sobre carburantes, rebaja el impuesto a la producción eléctrica y ayudas al gasóleo agrario, pesquero y transporte.",
+  "medidas": [
+   {
+    "d": "Rebaja temporal del impuesto sobre hidrocarburos en carburantes",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebaja del impuesto sobre el valor de la producción eléctrica",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ayudas al gasóleo y fertilizantes de agricultores y pescadores",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ayudas al combustible de transportistas por carretera, ferrocarril y mar",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   }
+  ]
+ }
+]

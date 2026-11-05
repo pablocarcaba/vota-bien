@@ -75,3 +75,10 @@ El análisis de la prueba de sesgo vio que la v3 había quitado casi todos los `
 ### Relectura de las ILP con el texto bien recortado (05/11/2026)
 
 El texto del BOCG en caché de las iniciativas legislativas populares (120/) empezaba en el sumario del boletín y arrastraba iniciativas vecinas (corregido en 33661ff). Las ILP afectadas de esta legislatura se releyeron con el texto correcto por tres lectores independientes y se consolidaron por mayoría. Lecturas en `data/clasificacion/lecturas_ilp_05-11-2026/`.
+
+
+## Leyes ómnibus: medida a medida, tres lecturas
+
+Clasificadas con la regla «Medidas» de 3.8 por tres lectores independientes (C, D, E) y mayoría 2 de 3 (`scripts/consolidar_medidas.py`; lecturas en `data/clasificacion/lectura_omnibus/`). Textos del BOCG o del BOE. El proyecto de ley que procede de un real decreto-ley lleva sus mismas medidas.
+
+- [ ] Criterios discutibles que se repiten entre lectores: congelación salarial pública como −`fun*` (Presupuestos 2012-2015); prórrogas pesadas como bloques nuevos (3.8); peso 1 de los decretos de la DANA por su ámbito territorial; `ciud` o `cons` para la rebaja del impuesto de hidrocarburos; −`casero` en las prórrogas de la suspensión de desahucios pese a la compensación al arrendador.

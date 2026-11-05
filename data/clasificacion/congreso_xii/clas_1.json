@@ -157,19 +157,61 @@
   "id": "121/000006",
   "tipo": "eco",
   "imp": {
+   "cons": 1,
    "funA1": 1,
    "funA2": 1,
    "funB": 1,
    "funC1": 1,
    "funC2E": 1,
    "mayores": 1,
+   "pac": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "secCom": 1
   },
   "peso": 3,
-  "nota": "Presupuestos de 2017: revalorización de las pensiones y subida retributiva de los empleados públicos.",
-  "partido": ""
+  "nota": "Presupuestos 2017: sube un 1 % los sueldos públicos y un 0,25 % las pensiones; baja al 10 % el IVA de espectáculos y monturas.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Subida del 1 % de las retribuciones públicas",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización general de las pensiones del 0,25 %",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "IVA del 10 % para espectáculos culturales en vivo",
+    "imp": {
+     "cons": 1,
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "IVA del 10 % para monturas de gafas graduadas",
+    "imp": {
+     "pac": 1,
+     "secCom": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000008",
@@ -265,19 +307,69 @@
   "id": "121/000020",
   "tipo": "eco",
   "imp": {
-   "funA1": 1,
-   "funA2": 1,
-   "funB": 1,
-   "funC1": 1,
-   "funC2E": 1,
+   "asal1": 1,
+   "cons": 1,
+   "discapacidad": 1,
+   "hij3": 1,
+   "infancia": 1,
    "mayores": 1,
+   "mujeres": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "prop3": -1,
+   "prop4": -1,
+   "secCom": 1
   },
   "peso": 3,
-  "nota": "Presupuestos de 2018: revalorización de las pensiones y subida retributiva de los empleados públicos.",
-  "partido": ""
+  "nota": "Revaloriza las pensiones, amplía deducciones familiares y la reducción por rendimientos del trabajo, prorroga el Impuesto sobre el Patrimonio y rebaja el IVA del cine.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización de las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Mayor reducción por rendimientos del trabajo para rentas bajas",
+    "imp": {
+     "asal1": 1,
+     "pen2": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ampliación de deducciones por maternidad, familia numerosa y discapacidad",
+    "imp": {
+     "mujeres": 1,
+     "infancia": 1,
+     "hij3": 1,
+     "discapacidad": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del Impuesto sobre el Patrimonio en 2018",
+    "imp": {
+     "prop3": -1,
+     "prop4": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "IVA de la entrada al cine del 21 al 10 %",
+    "imp": {
+     "cons": 1,
+     "secCom": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000022",
@@ -323,19 +415,96 @@
   "id": "121/000038",
   "tipo": "eco",
   "imp": {
+   "asal6": -1,
+   "empGran": -1,
+   "empMed": -1,
+   "empMicro": 1,
    "funA1": 1,
    "funA2": 1,
    "funB": 1,
    "funC1": 1,
    "funC2E": 1,
    "mayores": 1,
+   "mujeres": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "proSeg": 1,
+   "prop4": -1,
+   "secFin": -1
   },
   "peso": 3,
-  "nota": "Presupuestos de 2019: revalorización de las pensiones y subida retributiva de los empleados públicos.",
-  "partido": ""
+  "nota": "Sube IRPF a rentas altas, Patrimonio y Sociedades a grandes empresas; rebaja Sociedades a micropymes; revaloriza pensiones y retribuciones públicas.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Mayor IRPF a las rentas más altas",
+    "imp": {
+     "asal6": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Tributación mínima en Sociedades para grandes empresas",
+    "imp": {
+     "empMed": -1,
+     "empGran": -1,
+     "secFin": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Rebaja de Sociedades a empresas de menos de 1 M€",
+    "imp": {
+     "empMicro": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida del Impuesto sobre el Patrimonio",
+    "imp": {
+     "prop4": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "IVA reducido a higiene femenina, veterinarios y libros digitales",
+    "imp": {
+     "mujeres": 1,
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida del impuesto sobre el gasóleo de automoción",
+    "imp": {
+     "cons": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Revalorización de las pensiones",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Actualización de retribuciones de los empleados públicos",
+    "imp": {
+     "funA1": 1,
+     "funA2": 1,
+     "funB": 1,
+     "funC1": 1,
+     "funC2E": 1,
+     "proSeg": 1
+    },
+    "peso": 2
+   }
+  ]
  },
  {
   "id": "121/000039",
