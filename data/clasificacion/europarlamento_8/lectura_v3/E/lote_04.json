@@ -1,0 +1,850 @@
+[
+ {
+  "id": "2016/0148(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la cooperación entre autoridades para hacer cumplir la protección de los consumidores en el mercado europeo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0149(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Impone transparencia de tarifas a los operadores de paquetería transfronteriza y mejora la información de los usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0151(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la regulación de servicios audiovisuales con obligaciones y flexibilidades a la vez; signo opuesto para el sector digital.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0152(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe discriminar a clientes por nacionalidad o residencia en la venta online; obliga a los comerciantes.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0156(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0159(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0166(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0168(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0169(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0170(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0171(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0172(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0173(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0182(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Financia la participación de organizaciones de consumidores de servicios financieros en la política de la Unión.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0184(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0185(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Fija límites a los precios mayoristas de itinerancia que cobran los operadores de telecomunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0186(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0187(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Aplica medidas de gestión, conservación y control a la pesca de atún atlántico.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0190(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma de competencia judicial y reconocimiento en materia matrimonial, responsabilidad parental y sustracción de menores; norma procesal sin signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0192(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0193(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0197(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0198(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0202(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0204(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0205(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo comercial con Canadá; efectos de signo opuesto según sectores y sin signo claro para un colectivo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0207(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0208(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza las obligaciones de prevención del blanqueo y diligencia debida de entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0209(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0217(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0218(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0221(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Amplía los gestores y las inversiones admisibles de fondos de capital riesgo y emprendimiento social.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0229(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0230(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Integra las emisiones y absorciones del uso de la tierra y la silvicultura en el marco climático 2030.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0231(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija reducciones anuales vinculantes de emisiones de gases de efecto invernadero hasta 2030.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0238(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0247(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0252(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0254(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0256(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0257(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0259(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0261(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Mejora el intercambio de información y la evaluación de riesgos de nuevas sustancias psicotrópicas; norma de control sin efecto marcable.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0262(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Somete una sustancia psicotrópica concreta a medidas de control; norma de control sin efecto marcable sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0264(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0265(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0274(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0275(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0276(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prolonga un fondo europeo de garantía de inversiones; sin colectivo concreto con efecto directo y de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0278(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Permite usos de obras protegidas en formatos accesibles para personas ciegas o con discapacidad visual.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0279(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Permite el intercambio transfronterizo de ejemplares accesibles para personas ciegas o con discapacidad visual.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0280(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula derechos de autor en línea; los titulares de derechos y las plataformas digitales tienen efectos de signo opuesto dentro del mismo sector.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0281(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0282A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0282B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0283(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Revisión técnica del marco financiero plurianual de la UE; sin colectivo concreto con efecto directo y de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0284(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula derechos de autor en transmisiones en línea de radiodifusores; efectos de signo no determinable por colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0286(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0287(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Financia puntos wifi públicos en comunidades locales; sin colectivo definido con efecto directo y de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0288(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refunde la regulación de comunicaciones electrónicas e incluye derechos de los usuarios finales.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0293(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0295(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0298(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0304(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0307(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0308(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0311(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0322(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0325(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0328(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0329(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0336(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0337(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0338(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Mecanismo europeo de resolución de litigios de doble imposición entre Estados; sin colectivo concreto con efecto de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0339(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma antielusión sobre asimetrías híbridas con terceros países; sin colectivo concreto con efecto directo y de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0343(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0345(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0349(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0351(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Nueva metodología antidumping y antisubvenciones que refuerza la protección de la industria de la Unión frente a importaciones desleales.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0355(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Aplaza la fecha de aplicación de los documentos de datos fundamentales de productos de inversión minorista.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0357A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0357B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0359(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Facilita la reestructuración preventiva y la segunda oportunidad (condonación de deudas) para empresarios.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0360A(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Endurece requisitos de fondos propios, apalancamiento y financiación estable de las entidades de crédito.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0360B(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Suaviza el impacto sobre los fondos propios bancarios de la introducción de la NIIF 9.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0361(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Exige capacidad de absorción de pérdidas y recapitalización a entidades de crédito y empresas de inversión.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0362(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Exige capacidad de absorción de pérdidas y recapitalización a entidades de crédito y empresas de inversión.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0363(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0364(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de requisitos prudenciales de entidades financieras, con exigencias y alivios mezclados; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0365(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Marco de recuperación y resolución de entidades de contrapartida central; sin signo determinable para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0366(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0367(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0368(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0370(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1
+  },
+  "peso": 2,
+  "nota": "Simplifica obligaciones de IVA de servicios y ventas a distancia, con umbral para microempresas que prestan servicios ocasionalmente en otros Estados.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0371(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0373(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0374(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite a los Estados aplicar tipos reducidos de IVA a publicaciones electrónicas; el efecto depende de la decisión de cada Estado.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0375(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0376(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija objetivos de eficiencia energética que reducen el consumo de energía.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0377(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la preparación ante crisis eléctricas y la seguridad del suministro.",
+  "partido": ""
+ }
+]

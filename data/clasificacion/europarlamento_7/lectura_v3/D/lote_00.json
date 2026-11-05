@@ -1,0 +1,867 @@
+[
+ {
+  "id": "2003/0132A(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Convenio internacional sobre responsabilidad en el transporte marítimo de pasajeros; no se determina con seguridad su efecto sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0176(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0254(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Obliga a indicar el país de origen de productos importados, lo que amplía la información disponible para los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0084(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0167(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0258(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0206(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar si los tipos del impuesto sobre el tabaco suben o bajan en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0225(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0252(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0028(COD)",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula el etiquetado de los alimentos y refuerza la información al consumidor; la industria alimentaria asume nuevas obligaciones de etiquetado.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0090(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0133(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0193(COD)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la protección y el permiso de las trabajadoras embarazadas, que han dado a luz o en lactancia.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0196(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de los consumidores en contratos, información precontractual y garantías de compra.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0227(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0238(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Establece normas de calidad y seguridad de los órganos para trasplantes; beneficia a pacientes receptores y mejora la seguridad sanitaria general.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0240(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Restringe sustancias peligrosas en aparatos eléctricos y electrónicos; mejora salud y medio ambiente y obliga a los fabricantes a cumplir.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0241(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula la recogida y tratamiento de residuos de aparatos eléctricos y electrónicos; mejora el medio ambiente y los productores asumen la financiación.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0249(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0253(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0255(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0256(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0257(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la vigilancia de la seguridad de los medicamentos comercializados; beneficia a pacientes y salud pública, y obliga a los laboratorios.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0260(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la vigilancia de la seguridad de los medicamentos comercializados; beneficia a pacientes y salud pública, y obliga a los laboratorios.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0261(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Impone controles y medidas de seguridad contra medicamentos falsificados; protege a pacientes y salud pública, y obliga a laboratorios y distribuidores.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0004(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0005(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0006(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Regula la denominación de fibras y el etiquetado de productos textiles, con más información para los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0007(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0009(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0012(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0013(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0014(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0015(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0017(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0020(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0023(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0028(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Permite circular por el espacio Schengen a extranjeros con visado nacional de larga duración.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0031(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0034(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0035(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1
+  },
+  "peso": 1,
+  "nota": "Exime a las microentidades de determinadas obligaciones de cuentas anuales, reduciendo su carga administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0037(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0040(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0041(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Plan de recuperación del fletán negro; limita la actividad pesquera para proteger la especie.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0043(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0047(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0048(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0051(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Establece un régimen de control y ejecución para la pesca en el Atlántico Nororiental, con más obligaciones para los pescadores.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0054(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0056(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Codificación de la normativa audiovisual sin cambios sustantivos conocidos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0057(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0059(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0060B(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0062(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0063(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0064(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula la autorización, supervisión y transparencia de los gestores de fondos de inversión alternativos, con nuevas obligaciones para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0067(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Codificación de condiciones sanitarias de comercio de aves de corral sin cambios sustantivos conocidos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0068(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0070(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0071(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0072(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0075(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0076(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula la comercialización y uso de biocidas con requisitos de autorización; protege salud y medio ambiente y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0084(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Regula regímenes de ayuda directa a los agricultores de la PAC.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0085(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0089(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0091(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0094(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Fija periodos de intervención pública de mantequilla y leche en polvo, que sostienen la demanda y los precios del sector lácteo.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0096(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1
+  },
+  "peso": 1,
+  "nota": "Crea un instrumento de microfinanciación para autónomos y microempresas, y para personas que crean su propio negocio.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0098(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0099(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Eleva los requisitos de capital de la cartera de negociación y las retitulizaciones de las entidades de crédito y regula su política de remuneraciones.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0100(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Facilita el cobro internacional de pensiones de alimentos para niños y otros familiares.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0103(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0104(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0106(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0107(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0108(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija normas de seguridad de abastecimiento de gas, con obligaciones de suministro e infraestructura para las empresas del sector.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0110(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0112(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0116(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a documentar las capturas de atún rojo, con más trámites para los pescadores.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0117(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0118(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0119(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0121(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0125(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0127(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0128(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0129(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0131(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0132(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0136(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0138(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Medidas agrícolas específicas para las regiones ultraperiféricas de la Unión.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0139(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0140(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0141(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0142(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0143(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0144(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0145(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0146(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma o acuerdo sin efecto determinable sobre colectivos concretos en España; es institucional, técnica o de cooperación.",
+  "partido": ""
+ }
+]

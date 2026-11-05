@@ -1,0 +1,855 @@
+[
+ {
+  "id": "2005/0203(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0206(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede acceso de la flota europea a aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0225(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0229(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede acceso de la flota europea a aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0237A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0237B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0238(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0239(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0240(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0241(COD)",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1,
+   "victimas": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Establece responsabilidad e indemnización de las navieras de pasaje ante accidentes; protege a pasajeros y víctimas e impone costes a las navieras.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0244(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Restringe la comercialización y el uso de sulfonatos de perfluorooctano; mejora la salud y el medio ambiente e impone costes a la industria química.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0249(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede acceso de la flota europea a aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0259(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0263(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0264(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0267(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0270(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0278(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Regula la producción y el etiquetado de productos ecológicos; garantiza al consumidor la información del etiquetado.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0280(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede acceso de la flota europea a aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0281(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Revisa la directiva marco de residuos con fines de protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0282(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece los límites de emisiones de los vehículos; mejora la calidad del aire y obliga a los fabricantes de automóviles.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0283(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0805(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0807(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0901(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0902(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/2001(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/2102(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/2148(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0006(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0008(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0009(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0018(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Restringe los instrumentos de medida con mercurio; reduce la contaminación y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0028(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0031(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0032(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede acceso de la flota europea a aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0037(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0038(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0043(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0056(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0058(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0059(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0062(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0065(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede acceso de la flota europea a aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0077(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0079(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0081(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0082(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Permite apoyar el desarrollo rural con financiación del Feder; medida territorial para el medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0083(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0084(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0088(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0090(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0122(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede acceso de la flota europea a aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0129(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija normas de calidad ambiental de las aguas; mejora la protección del medio hídrico.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0131(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0132(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Marco para el uso sostenible de plaguicidas; protege salud y medio ambiente e impone obligaciones a los agricultores.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0135(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0139(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0140(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0142(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0158(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0165(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0169(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe las redes de enmalle de deriva; supone una restricción para los pescadores que las usan.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0178(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0182(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0190(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0196(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Culmina la apertura del mercado postal a la competencia privada, con fin de los monopolios públicos.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0200(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0202(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0203(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0206(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe exportar y almacenar mercurio metálico; reduce la contaminación y restringe a los productores.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0210(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0226(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0249(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0250(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0251(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0252(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0256(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0257(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0258(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0263(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0268(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0269(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0281(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0286(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0309(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2015(INL)",
+  "tipo": "soc",
+  "imp": {
+   "proSan": 1
+  },
+  "peso": 1,
+  "nota": "Protege al personal sanitario frente a infecciones por heridas de jeringuilla.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2020(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2021(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2022(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2119(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2223(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0002(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0005(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0006(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede acceso de la flota europea a aguas del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0012(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0019(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a los suministradores de carburantes a reducir las emisiones de gases de efecto invernadero; mejora la protección climática.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0021(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0023(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0026(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ }
+]

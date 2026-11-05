@@ -115,3 +115,12 @@ Clasificación inicial de 949 procedimientos legislativos (2014–2019) con la r
 
 - [ ] Cuatro procedimientos sin ficha en la API (2016/0062, 2016/0400, 2018/0152, 2018/0330): tipo tomado de una tabla manual.
 - [ ] CDC y PDeCAT se cuentan como PDeCAT (Tremosa); los eurodiputados «Independiente» no se cuentan.
+
+
+## Reclasificación con la rúbrica v3 (05/11/2026)
+
+Las 949 iniciativas se han reclasificado con la rúbrica v3 por tres lectores independientes (C, D y E), que no vieron la clasificación anterior ni el trabajo de los otros. Texto usado: título del procedimiento; las que quedaron sin efectos se releyeron con hasta 12.000 caracteres del texto aprobado oficial en español (API de datos abiertos del Parlamento Europeo). 114 iniciativas que la primera pasada dejó sin efectos se volvieron a leer con más texto oficial. Clasificación final: consolidación por mayoría (`scripts/consolidar_lecturas.py`; un colectivo cuenta si lo marcan 2 de 3; tipo por mayoría; peso, la mediana).
+
+- Coincidencia entre lectores: 93–94 % idéntica, parecido medio 0.94, 0 con signo contrario; 863 de 949 idénticas en las tres lecturas.
+- 186 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
+- Sin efectos: 715 antes, 807 ahora.

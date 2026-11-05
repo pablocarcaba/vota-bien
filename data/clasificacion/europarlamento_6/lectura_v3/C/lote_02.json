@@ -1,0 +1,863 @@
+[
+ {
+  "id": "2007/0034(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo de pesca que da acceso a aguas de un tercer país a buques comunitarios; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0037B(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o norma sin efecto determinable sobre colectivos del ciudadano español; el título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0039(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protocolo de adhesión de nuevos Estados miembros a un acuerdo con un tercer país; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0044(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protocolo de adhesión de nuevos Estados miembros a un acuerdo con un tercer país; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0047(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protocolo de adhesión de nuevos Estados miembros a un acuerdo con un tercer país; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0050(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protocolo de adhesión de nuevos Estados miembros a un acuerdo con un tercer país; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0051(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Estadísticas sobre carne y ganado; norma estadística sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0052(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo bilateral sobre aspectos de servicios aéreos; sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0057(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo bilateral sobre aspectos de servicios aéreos; sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0058(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Plan de recuperación del atún rojo que restringe la actividad pesquera; protege la biodiversidad marina y limita al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0062(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo de pesca que da acceso a aguas de un tercer país a buques comunitarios; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0064(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Fija límites de residuos de fármacos en alimentos de origen animal; mejora la seguridad alimentaria y exige su cumplimiento a la ganadería.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0069(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo de facilitación de visados de corta duración con un tercer país; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0072(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adhesión de nuevos Estados a un convenio contra la corrupción; norma penal e institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0075(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adhesión de nuevos Estados a un convenio sobre privación del derecho de conducir; norma sancionadora sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0084(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma estadística o de nomenclatura; sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0088(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Creación de una empresa común de investigación; norma institucional sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0090(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adopción del euro por otro Estado miembro; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0092(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adopción del euro por otro Estado miembro; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0094(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma sancionadora a empresarios que emplean a extranjeros en situación irregular; sin colectivo determinable con seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0095(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Financia acciones de información y promoción de productos agrícolas; beneficia al sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0097(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el acceso al mercado o a la profesión del transporte por carretera; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0098(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el acceso al mercado o a la profesión del transporte por carretera; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0099(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el acceso al mercado o a la profesión del transporte por carretera; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0102(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe sustancias hormonales y beta-agonistas en la cría de ganado; mejora la seguridad alimentaria y obliga a la ganadería.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0106(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo de cooperación científica y tecnológica con un tercer país; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0107(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Versión codificada de requisitos técnicos de tractores; sin cambio sustantivo ni colectivo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0111(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo de cooperación en reglamentación de seguridad de la aviación civil; norma técnica sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0112(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Extiende el estatuto de residente de larga duración a los beneficiarios de protección internacional; amplía sus derechos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0113(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de los consumidores en contratos de tiempo compartido; impone obligaciones al sector turístico.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0114(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula autorizaciones de pesca fuera de aguas comunitarias; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0116(COD)",
+  "tipo": "soc",
+  "imp": {
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Programa de apoyo a tecnologías que mejoran la calidad de vida de las personas de edad avanzada.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0121(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Clasificación, etiquetado y envasado de sustancias químicas; mejora la información sobre riesgos y obliga a la industria química.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0127(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Recopilación y gestión de datos de la política pesquera; norma técnica sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0130(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Estatuto y financiación de partidos políticos europeos; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0132(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aplicaciones de teledetección para controles de la PAC; norma técnica sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0135(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Gestión de fondos de investigación del carbón y el acero; norma financiera sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0136(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Disposiciones temporales sobre tipos de IVA; el título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0137(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protocolo de adhesión de nuevos Estados miembros a un acuerdo con un tercer país; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0138(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma de la organización del mercado vitivinícola; contiene medidas de signo mixto, sin signo único para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0143(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición de requisitos de solvencia de seguros y reaseguros; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0145(COD)",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Programa de cooperación y movilidad con becas para estudiantes universitarios.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0150(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Gestión de fondos de investigación del carbón y el acero; norma financiera sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0151(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reglamento financiero marco de organismos comunitarios; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0152(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Extiende la coordinación de la Seguridad Social a nacionales de terceros países; amplía sus derechos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0156(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma estadística o de nomenclatura; sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0163(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición del reglamento de una agencia europea de formación; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0167(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Red Europea de Migración de intercambio de información; norma institucional sin cambio de derechos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0168(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Derogación de una directiva técnica obsoleta sobre aparatos eléctricos veterinarios; sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0169(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aprobación de enmiendas a un convenio internacional sobre evaluación ambiental transfronteriza; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0170(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo de pesca que da acceso a aguas de un tercer país a buques comunitarios; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0171(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo con un tercer país sobre su participación en un programa cultural; sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0173(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cooperación entre una agencia europea y el Consejo de Europa; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0174(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Procedimiento de selección de sistemas de servicios móviles por satélite; norma técnica sin signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0177(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o norma sin efecto determinable sobre colectivos del ciudadano español; el título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0185(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Régimen simplificado de control fronterizo; norma de organización administrativa sin colectivo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0186(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Régimen simplificado de control fronterizo; norma de organización administrativa sin colectivo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0188(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 1,
+  "nota": "Apoyo a las pymes que realizan actividades de investigación y desarrollo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0192A(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección penal del euro contra la falsificación; norma penal sin colectivo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0192B(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección penal del euro contra la falsificación; norma penal sin colectivo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0195(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de los consumidores en el mercado interior de la energía.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0196(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de los consumidores en el mercado interior de la energía.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0197(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una agencia de cooperación de reguladores de energía; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0198(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Condiciones técnicas de acceso a redes de energía; el título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0199(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Condiciones técnicas de acceso a redes de energía; el título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0200(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Restringe la comercialización y uso de sustancias peligrosas; mejora la protección de la salud y obliga a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0201(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Exige a los vehículos medidas de protección de peatones; mejora la seguridad vial y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0202(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Condiciones zoosanitarias para el desplazamiento de animales de compañía; sin colectivo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0206(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Tipos del impuesto especial del tabaco; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0207(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo de cooperación científica y tecnológica con un tercer país; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0209(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo de pesca que da acceso a aguas de un tercer país a buques comunitarios; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0211(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Creación de una empresa común de investigación en hidrógeno; norma institucional sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0212(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modificaciones de adaptación técnica de otras normas al etiquetado de sustancias; sin efecto propio determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0213(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modificaciones de adaptación técnica de otras normas al etiquetado de sustancias; sin efecto propio determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0214(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Homologación técnica de vehículos de hidrógeno; norma técnica sin colectivo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0215(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protocolo de adhesión de nuevos Estados miembros a un acuerdo con un tercer país; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0216(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Normas de seguridad y datos biométricos en pasaportes; norma técnica sin colectivo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0218(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protocolo de adhesión de nuevos Estados miembros a un acuerdo con un tercer país; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0219(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición del nivel mínimo de formación de profesiones marítimas; sin signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0220(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma estadística o de nomenclatura; sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0223(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Sistema contra la pesca ilegal; protege los recursos marinos y obliga a operadores del sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0224(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Protege ecosistemas marinos vulnerables; mejora la protección ambiental y restringe la pesca.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0226(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo de pesca que da acceso a aguas de un tercer país a buques comunitarios; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0228(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Regula la entrada y residencia de extranjeros altamente cualificados; amplía vías de admisión.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0229(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Crea un procedimiento único de permiso de residencia y trabajo; facilita su obtención.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0232(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica posibilidades de pesca y contrapartida de un acuerdo pesquero; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0233(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma estadística o de nomenclatura; sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0234(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Correspondencia de calificaciones de formación profesional entre Estados; norma de coordinación sin efecto determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0236(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Lucha contra el terrorismo; norma penal sin colectivo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0238(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sistema común del IVA; el título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0242(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regímenes de ayuda al algodón; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0243(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Código de conducta de sistemas informatizados de reserva; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0247(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Marco de redes y servicios de comunicaciones electrónicas; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0248(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de los usuarios y la intimidad en servicios de comunicaciones electrónicas.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0249(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una autoridad europea de telecomunicaciones; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0251(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo bilateral sobre aspectos de servicios aéreos; sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0253(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transparencia de precios de gas y electricidad a consumidores industriales; sin signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0256(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma estadística o de nomenclatura; sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0257(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición de normas de seguridad de buques de pasaje; el título no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0259(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición sobre utilización confinada de microorganismos modificados genéticamente; sin signo determinable.",
+  "partido": ""
+ }
+]

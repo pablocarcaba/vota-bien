@@ -77,3 +77,13 @@ Clasificación inicial de 582 procedimientos legislativos (2004–2009) con la r
 
 - [ ] De 10/2005 a 12/2008 las votaciones vienen de Parltrack (no hay anexos oficiales en el servidor de distribución); coinciden con los oficiales donde se solapan.
 - [ ] Bernat Joan (Europa de los Pueblos) se cuenta como ERC y Mikel Irujo como EA.
+
+
+## Reclasificación con la rúbrica v3 (05/11/2026)
+
+Las 582 iniciativas se han reclasificado con la rúbrica v3 por tres lectores independientes (C, D y E), que no vieron la clasificación anterior ni el trabajo de los otros. Texto usado: título del procedimiento (la API del Parlamento Europeo no publica el texto aprobado en español de esta legislatura); las normas que la v3 deja sin efectos solo por falta de texto conservan la clasificación anterior. Clasificación final: consolidación por mayoría (`scripts/consolidar_lecturas.py`; un colectivo cuenta si lo marcan 2 de 3; tipo por mayoría; peso, la mediana).
+
+- Coincidencia entre lectores: 92–95 % idéntica, parecido medio 0.95, 0 con signo contrario; 530 de 582 idénticas en las tres lecturas.
+- 66 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
+- Sin efectos: 382 antes, 373 ahora.
+- Se han conservado 80 iniciativas por decisión manual (no se detectó ninguna corrección posterior a las lecturas): 2003/0318(CNS), 2004/0001(COD), 2004/0154(COD), 2004/0162(CNS), 2004/0163(AVC), 2004/0166(AVC), 2004/0167(COD), 2004/0209(COD), 2004/2001(BUD), 2005/0017(COD), 2005/0037B(COD), 2005/0052(CNS), 2005/0237A(COD), 2005/0237B(COD), 2005/0238(COD), 2005/0239(COD), 2005/0259(CNS), 2005/0263(COD), 2005/0264(CNS), 2005/0270(CNS), 2005/0278(CNS), 2005/0807(CNS), 2005/0901(AVC), 2005/0902(AVC), 2005/2001(BUD), 2006/0009(CNS), 2006/0056(CNS), 2006/0140(COD), 2006/0165(CNS), 2006/0182(COD), 2006/0190(CNS), 2007/0012(CNS), 2007/0023(CNS), 2007/0037B(COD), 2007/0088(CNS), 2007/0094(COD), 2007/0098(COD), 2007/0143(COD), 2007/0206(CNS), 2007/0211(CNS), 2007/0232(CNS), 2007/0234(COD), 2007/0242(CNS), 2007/0247(COD), 2007/0281(CNS), 2007/2019(BUD), 2007/2238(INL), 2008/0015(COD), 2008/0054(CNS), 2008/0055(COD), 2008/0062(COD), 2008/0083(COD), 2008/0088(CNS), 2008/0103(CNS), 2008/0105(CNS), 2008/0112(CNS), 2008/0130(NLE), 2008/0138(CNS), 2008/0141(COD), 2008/0143(CNS), 2008/0150(CNS), 2008/0152(COD), 2008/0153(COD), 2008/0157(COD), 2008/0172(COD), 2008/0182(COD), 2008/0188(COD), 2008/0191(COD), 2008/0198(COD), 2008/0211(COD), 2008/0214(COD), 2008/0242(COD), 2008/0243(COD), 2008/0245(COD), 2008/0247(COD), 2008/0267(COD), 2008/2026(BUD), 2008/2148(INL), 2009/0042(COD), 2009/2039(BUD).

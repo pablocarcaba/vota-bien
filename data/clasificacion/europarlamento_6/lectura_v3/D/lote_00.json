@@ -1,0 +1,877 @@
+[
+ {
+  "id": "1992/0449(COD)",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Fija requisitos mínimos de protección frente a agentes físicos en el trabajo; beneficia a los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "1998/0304(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "1999/0238(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Restringe ftalatos en juguetes, mejora la seguridad de productos; los fabricantes asumen las exigencias.",
+  "partido": ""
+ },
+ {
+  "id": "2000/0238(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2002/0072(COD)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Protege a los trabajadores de empresas de trabajo temporal con igualdad de trato; beneficia a asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "2002/0254(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la calidad sanitaria de las aguas de baño; beneficia a la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0165(COD)",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula las alegaciones nutricionales en alimentos, protege a consumidores; la industria alimentaria debe cumplir las exigencias.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0189A(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Limita gases fluorados de efecto invernadero; protección climática para todos, coste para la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0252(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0256(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Sistema REACH de control de sustancias químicas; mejora la salud y el ambiente, la industria química asume obligaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0262(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula la adición de vitaminas y minerales a los alimentos; seguridad alimentaria y exigencias a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0270(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0318(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0001(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0020(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Protege arrecifes de coral limitando la pesca de arrastre en zonas del Atlántico; restringe a la pesca.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0039(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0047(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre el mercado ferroviario a operadores privados de servicios internacionales; beneficia al sector transportista.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0048(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0058(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Protocolo de pesca con Cabo Verde que da acceso a caladeros a la flota pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0069(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0070(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Protocolo de pesca con Madagascar que da acceso a caladeros a la flota pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0071(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo de pesca con Mauricio que da acceso a aguas a la flota pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0073(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Financia información y promoción de productos agrícolas; beneficia al sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0086(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0090(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0098(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0100(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0113(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0122(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0134(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0145(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0154(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0156(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0161(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1
+  },
+  "peso": 2,
+  "nota": "Fondo de apoyo al desarrollo rural; beneficia al sector agrario y a los territorios rurales.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0162(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0163(AVC)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0166(AVC)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0167(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0168(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0169(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Fondo de apoyo al sector pesquero; beneficia a la pesca.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0209(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0213(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0215(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0218(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0224(AVC)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0229(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Plan de reconstitución del fletán negro que limita las capturas de la flota pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0233(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0234(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0237(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0247(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de apoyo a la agricultura de las regiones ultraperiféricas.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0258(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0264(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0268(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0269(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0274(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0275(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0816(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/2001(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/2002(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0005(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0007(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos de asistencia a personas con movilidad reducida en el transporte aéreo; obligaciones para aerolíneas y aeropuertos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0008(COD)",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a informar al viajero de la aerolínea que opera el vuelo; protege al usuario y obliga a las aerolíneas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0017(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0018(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0037A(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Programa de lucha contra la violencia hacia mujeres, jóvenes y niños; apoya a víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0037B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0038(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0039(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0040(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0041(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0044(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0052(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0056(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0061(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0064(SYN)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0090(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0092(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Protocolo de pesca de atún con Comoras que da acceso a caladeros a la flota.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0102(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0103(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0104(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0106(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0124(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0125(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0127(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0129(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0130(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0138(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los prestadores de servicios de pago a acompañar datos del ordenante en las transferencias.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0150(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0153(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0156(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0157(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0159(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0162(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0167(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 2,
+  "nota": "Normas comunes de retorno de nacionales de terceros países en situación irregular; restringe su permanencia.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0175(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0182(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a los operadores de comunicaciones electrónicas a conservar datos de tráfico.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0183(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija normas de calidad del aire; mejora la salud pública y exige reducir emisiones a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0191(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Normas comunes de seguridad aérea que obligan a aeropuertos y aerolíneas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0194(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Exigencias de seguridad para comercializar artículos de pirotecnia; fabricantes deben cumplirlas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0202(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, de cooperación o técnica, sin efecto directo identificable sobre colectivos.",
+  "partido": ""
+ }
+]

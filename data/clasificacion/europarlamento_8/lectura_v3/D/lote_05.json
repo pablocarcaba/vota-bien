@@ -1,0 +1,828 @@
+[
+ {
+  "id": "2016/0378(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0379(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refunde las normas del mercado interior de electricidad con efectos de signo opuesto entre generadores y consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0380(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Fija derechos de los consumidores de electricidad (contratos, cambio de proveedor, información); beneficia a los usuarios de suministro.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0381(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la eficiencia energética de los edificios; mejora general del medio ambiente y el clima.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0382(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fomenta las energías renovables; mejora general del clima y el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0383(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0384(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Flexibiliza la financiación de fondos europeos a Estados afectados por catástrofes naturales; sin colectivo concreto con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0389(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0392(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0393(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0394(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0397(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0398(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0399(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0400(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0400B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0404(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0406(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0407(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Utiliza el Sistema de Información de Schengen para el retorno de extranjeros en situación irregular; restringe a inmigrantes.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0408(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Regula alertas de denegación de entrada en el SIS en inspecciones fronterizas; restringe a extranjeros de terceros países.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0409(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0411(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0412(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0413(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0414(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0801(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0808(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0810(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0811(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0813(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0814(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0815(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0816(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0818(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0819(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0820(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0821(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0822(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0823(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2004(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2013(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2019(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2022(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2025(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2037(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2043(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2047(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aprueba el presupuesto anual de la Unión; sin efecto directo y de signo conocido sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2050(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2051(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2074(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2118(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2119(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2120(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2121(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2165(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2211(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2214(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2233(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2235(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2237(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2256(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2257(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2258(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2267(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2268(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2298(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Financia con fondos europeos la reinserción laboral de 250 trabajadores despedidos del sector del automóvil en la Comunidad Valenciana.",
+  "partido": ""
+ },
+ {
+  "id": "2016/2323(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0002(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0003(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0004(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija límites de exposición a agentes cancerígenos en el trabajo; afecta a trabajadores expuestos, sin colectivo definido por renta o situación.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0007(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0011(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0013(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0015(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0016(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Reduce los hidrofluorocarburos que dañan el clima; mejora ambiental general y exigencias para la industria de refrigerantes.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0017(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Mantiene el alcance actual del régimen de comercio de emisiones para la aviación y prepara una medida mundial; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0024(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0039(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0042(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0043(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0048(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0056(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0060(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0063(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Dota de medios a las autoridades de competencia nacionales para aplicar la normativa; sin colectivo con efecto directo de signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0073(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Somete una sustancia estupefaciente a medidas de control; norma de control de drogas sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0075(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0083(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0085(COD)",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1,
+   "depend": 1
+  },
+  "peso": 2,
+  "nota": "Amplía permisos de paternidad, parentales y de cuidadores y la flexibilidad laboral; beneficia a familias con hijos, cuidadores y ambos sexos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0086(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0088(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0090(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Revisa obligaciones de compensación y notificación de derivados; efectos mixtos sobre contrapartes financieras y no financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0102(COD)",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Crea un programa de voluntariado y prácticas solidarias dirigido a jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0104(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o procesal sin efecto determinable sobre colectivos de la ciudadanía española.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0107(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0111(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido o el signo del efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0113(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el uso de vehículos de alquiler sin conductor en el transporte de mercancías por carretera, reduciendo restricciones a los transportistas.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0114(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Aplica gravámenes por distancia a vehículos pesados de mercancías por el uso de infraestructuras; coste para los transportistas.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0115(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite a los Estados reducir impuestos sobre vehículos pesados junto a los gravámenes por uso de infraestructuras; efecto opcional.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0116(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sustituye el régimen de defensa de la competencia en el transporte aéreo frente a prácticas desleales; signos opuestos entre aerolíneas.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0121(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija normas de desplazamiento y control para conductores; las obligaciones y exenciones van en sentidos opuestos para el sector y no se determina el signo.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,844 @@
+[
+ {
+  "id": "2012/2023(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2024(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2051(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda presupuestaria a otro Estado miembro; sin efecto determinable en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2055(INL)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Garantiza acceso a servicios bancarios básicos a los consumidores; impone obligaciones a las entidades bancarias.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2057(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda presupuestaria a otro Estado miembro; sin efecto determinable en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2058(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2061(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2071(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2089(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2092(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2110(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2121(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2127(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2151(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2154(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2155(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2157(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2160(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2164(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2165(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2228(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2230(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2237(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda presupuestaria a otro Estado miembro; sin efecto determinable en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2242(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda presupuestaria a otro Estado miembro; sin efecto determinable en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2260(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2265(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda presupuestaria a otro Estado miembro; sin efecto determinable en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2275(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2276(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2277(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2278(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2279(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2280(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos; no consta colectivo español con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2281(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2307(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2309(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0007(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0010(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0012(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0013(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0014(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0015(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0019(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0022(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0023(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0024(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Impone a los proveedores de servicios de pago la obligación de acompañar datos del ordenante en las transferencias.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0025(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza las obligaciones de prevención del blanqueo y de financiación del terrorismo para las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0027(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1,
+   "secFin": -1,
+   "secInd": -1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Impone requisitos de seguridad de redes y notificación de incidentes a operadores de energía, transporte, banca y servicios digitales.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0028(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el transporte nacional de viajeros por ferrocarril, repartiendo un mercado público entre operadores.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0029(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el transporte ferroviario nacional de viajeros y regula la gobernanza de las infraestructuras.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0045(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre las transacciones financieras que pagan las entidades y operadores financieros.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0048(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la vigilancia de la seguridad de los productos comercializados.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0049(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad de los productos de consumo y las garantías de los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0062(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0063(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0064(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0072(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0074(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0080(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Facilita el acceso a infraestructuras físicas para desplegar redes de alta velocidad de los operadores de comunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0081(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Amplía y armoniza los derechos de entrada y residencia de nacionales de terceros países para estudiar, investigar o hacer prácticas.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0082(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0084(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0085(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0086(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0087(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Aplica un ajuste a la baja de los pagos directos que reciben los agricultores.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0088(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0089(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0091(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0092(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0096(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0097(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0099(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0103(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0104(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0105(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0106(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0110(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las grandes sociedades a divulgar información no financiera y de diversidad.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0117(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0119(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0124(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0128(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0130(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0133(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0136(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0137(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0139(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Garantiza transparencia de comisiones, cambio de cuenta y acceso a una cuenta básica; impone obligaciones a la banca.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0140(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los controles oficiales sobre seguridad de alimentos y piensos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0141(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0150(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0152(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0156(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0162(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0164(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0165(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los fabricantes de vehículos a integrar el sistema de llamada de emergencia eCall.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0166(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0169(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0181(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0185(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Facilita a consumidores y empresas reclamar daños causados por infracciones del Derecho de la competencia.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0186(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0187(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0188(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma técnica, institucional o de efecto incierto.",
+  "partido": ""
+ }
+]

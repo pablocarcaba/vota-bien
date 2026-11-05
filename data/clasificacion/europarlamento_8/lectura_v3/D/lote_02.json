@@ -1,0 +1,837 @@
+[
+ {
+  "id": "2015/0005(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0006(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0009(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea el Fondo Europeo para Inversiones Estratégicas; efectos no atribuibles con seguridad a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0010(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0026(COD)",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Aumenta la prefinanciación de programas de la Iniciativa de Empleo Juvenil, dirigidos a jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0028(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0029(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0036(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0050(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0051(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0052(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0054(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0056(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0057(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0058(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0060(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0061(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0062(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0063(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0065(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0068(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el intercambio automático de información fiscal sobre resoluciones previas entre administraciones; sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0070(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0076(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0079(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0080(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0090(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0093(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0094(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0096(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0100(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0101(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0112(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Aplica la cláusula de salvaguardia bananera frente a importaciones de Colombia y Perú, protegiendo a los productores europeos de banano.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0113(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0114(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0125(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Establece la reubicación de emergencia de solicitantes de protección internacional desde Italia y Grecia hacia otros Estados miembros.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0128(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0133(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0134(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0135(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0136(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0138(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0148(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza el régimen europeo de derechos de emisión: mejora la protección climática y obliga a la industria y a la energía que emiten.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0149(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Establece el etiquetado de eficiencia energética de productos, que da información comparable a los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0152(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Fija posibilidades de pesca en aguas de Groenlandia para buques de la Unión, con contrapartida financiera.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0160(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0175(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0193(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0196(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0199(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0200(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0201(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0204(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0209(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Amplía la reubicación de emergencia de solicitantes de protección internacional desde Italia, Grecia y Hungría.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0210(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0218(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Introduce medidas comerciales autónomas de emergencia para Túnez; el texto no permite fijar el signo para un sector.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0224(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Fija posibilidades de pesca en aguas de Liberia para buques de la Unión, con contrapartida financiera.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0225(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica requisitos de capital de entidades de crédito para titulizaciones; sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0226(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Marco de titulización con exigencias y simplificaciones para emisores e inversores; el signo neto sobre el sector no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0229(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Fija posibilidades de pesca en aguas de Mauritania para buques de la Unión, con contrapartida financiera.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0239(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0244(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0249(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0261(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0263(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0265(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0268(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el folleto de emisión de valores con simplificaciones y exigencias; el signo neto para emisores no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0269(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0272(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0274(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Endurece los objetivos de reducción del vertido de residuos, lo que mejora la protección del medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0275(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Eleva los objetivos de reciclado y prevención de residuos, lo que mejora la protección del medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0276(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Eleva los objetivos de reciclado de envases y residuos de envases, lo que mejora la protección del medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0278(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Fija requisitos de accesibilidad de productos y servicios, que benefician a las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0281(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Incluye medidas de protección y apoyo a las víctimas del terrorismo; el resto es normativa penal sin impacto asignable.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0283(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0284(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Permite a los usuarios acceder a servicios de contenidos en línea contratados cuando se encuentran temporalmente en otro Estado miembro.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0285(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0287(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Establece derechos de los consumidores en los contratos de suministro de contenidos digitales.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0288(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Establece derechos y garantías de los consumidores en la compraventa en línea y a distancia de bienes.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0289(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula las autorizaciones de la flota pesquera exterior con exigencias de sostenibilidad; el signo neto para el sector no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0292(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0293(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0295(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0296(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0298(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0302(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0302M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0306(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0307(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0308(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0309(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0310(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la organización europea de control de fronteras; sin cambio de derechos o cargas para un colectivo con signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0313(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0314(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0801(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0802(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0804(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0805(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0806(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0807(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0808(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, internacional o técnica cuyo efecto sobre colectivos en España no puede determinarse con seguridad por el título.",
+  "partido": ""
+ }
+]

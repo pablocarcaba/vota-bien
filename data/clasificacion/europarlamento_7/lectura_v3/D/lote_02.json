@@ -1,0 +1,824 @@
+[
+ {
+  "id": "2010/0210(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Fija condiciones de entrada, residencia y derechos de nacionales de terceros países para trabajar como temporeros.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0212(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0214(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Suprime aranceles a determinados principios activos farmacéuticos, lo que abarata insumos de la industria farmacéutica.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0215(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0217(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0220(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0232(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Impone supervisión adicional y exigencias a las entidades financieras integradas en conglomerados.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0242(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0246(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0248(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0250(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones de compensación central y registro de operaciones a quienes negocian derivados extrabursátiles.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0251(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Impone restricciones y obligaciones de transparencia a las ventas en corto y a las permutas de cobertura por impago.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0252(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0253(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0254(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0255(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0256(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Establece medidas de apoyo al sector agrícola de las regiones ultraperiféricas.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0257(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0258(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0259(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0260(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0261(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0262(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0264(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0266(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0267(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0271(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0273(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0274(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0275(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0276(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0277(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0278(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0279(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0280(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0281(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0282(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0289(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0298(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Restringe los fosfatos en detergentes domésticos para ropa; protege el agua y exige reformular a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0301(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0302(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0303(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0306(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0312(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0318(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0323(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0325(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0326(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0338(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0348(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0349(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0353(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0358(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0359(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0362(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0363(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe el abuso de información y la manipulación en mercados mayoristas de energía e impone obligaciones de transparencia a sus operadores.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0364(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0365(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0366(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0367(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0368(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0369(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0370(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0372(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0373(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0374(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0377(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza el control de riesgos de accidentes graves con sustancias peligrosas; protege a la población e impone exigencias a los establecimientos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0380(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0383(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0384(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0385(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0387(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0390(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0395(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0801(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0802(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Crea una orden europea que reconoce en otros Estados miembros las medidas de protección concedidas a víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0814(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0816(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0817(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0820(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0821(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2001(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2002(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2004(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2014(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2031(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2035(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2045(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2046(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2048(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2056(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2060(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2066(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2067(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2068(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2091(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2094(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2099(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2120(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2133(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ }
+]

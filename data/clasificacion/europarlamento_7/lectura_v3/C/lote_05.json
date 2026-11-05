@@ -1,0 +1,817 @@
+[
+ {
+  "id": "2011/0402(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0404(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0405(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0406(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0409(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece los límites de ruido de los vehículos de motor: mejora la salud y el entorno general y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0410(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0411(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0412(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0413(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0414(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0415(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0416(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Red de recogida de datos contables de explotaciones agrícolas; instrumento estadístico sin efecto directo sobre rentas o cargas concretas.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0417(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Crea una denominación y un régimen común para gestores de fondos de capital riesgo, facilitando su actividad transfronteriza.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0418(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Crea una denominación y un régimen común para gestores de fondos de emprendimiento social, facilitando su actividad transfronteriza.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0421(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la coordinación y la respuesta ante amenazas graves para la salud que cruzan fronteras; mejora la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0427(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sistema de vigilancia de fronteras; el título no permite determinar el signo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0428(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa de financiación medioambiental y climática; el efecto depende de los proyectos financiados.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0429(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Endurece las normas de calidad ambiental de las aguas al fijar nuevas sustancias prioritarias y límites; mejora la protección del medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0430(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reutilización de información del sector público; norma técnica sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0431(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0432(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0434(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas comerciales frente a terceros países por pesca no sostenible; el título no permite determinar el signo sobre el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0435(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconocimiento de cualificaciones profesionales; el título no permite determinar el signo del efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0436(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0437(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reglas de contratación pública; no cambian quién presta el servicio ni fijan efectos directos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0438(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no incluye el articulado; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0439(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reglas de contratación pública; no cambian quién presta el servicio ni fijan efectos directos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0440(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Estadísticas demográficas europeas; instrumento estadístico sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0442(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ampliación de operaciones de un banco multilateral a terceros países; sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0445(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica o de competencias delegadas; no se conoce un cambio de derechos u obligaciones con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0446(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0449(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0453(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica o de competencias delegadas; no se conoce un cambio de derechos u obligaciones con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0454(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0455(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Estatuto del personal de las instituciones de la UE; no afecta a los empleados públicos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0458(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0459(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0460(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Programa o instrumento de financiación exterior o de la Unión; no fija efectos directos sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0461(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Mecanismo de coordinación de la protección civil entre Estados; no concede derechos ni ayudas directas a colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0805(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0815(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0816(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0817(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0818(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0901A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0901B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0902(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2017(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2018(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2020(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2021(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2022(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2044(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2045(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2060(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2065(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2074(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2075(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2092(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2093(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2124(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2125(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2126(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2128(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2130(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2131(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2136(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2137(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2138(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2139(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2158(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2159(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2163(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2167(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2176(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sistema jurisdiccional de patentes; norma procesal sin signo determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2199(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2200(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2252(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2253(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2254(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2262(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2267(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2279(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de fondos o ajuste presupuestario de la Unión a favor de otros países o sin efecto directo en colectivos de España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2300(BUD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Moviliza el Fondo de Solidaridad de la UE para atender los daños del terremoto de Lorca.",
+  "partido": ""
+ },
+ {
+  "id": "2011/2301(BUD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Presupuesto que incorpora los fondos de solidaridad de la UE para los daños del terremoto de Lorca.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0003(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Seguridad laboral frente a campos electromagnéticos; alcanza solo a trabajadores expuestos y el título no fija signo sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0007(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adaptación técnica de la clasificación y etiquetado de preparados peligrosos; sin efecto determinable sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0010(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección de datos en el ámbito policial y penal; norma procesal sin efecto con signo determinado sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0011(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no incluye el articulado; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0013(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica o de competencias delegadas; no se conoce un cambio de derechos u obligaciones con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0019(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica o de competencias delegadas; no se conoce un cambio de derechos u obligaciones con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0023(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajustes en farmacovigilancia; el título no permite determinar el signo del efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0024(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0025(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajustes en farmacovigilancia; el título no permite determinar el signo del efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0027(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Código aduanero de la Unión; norma procedimental sin signo determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0028(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0029(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula depositarios centrales de valores y liquidación; el título no permite determinar un signo claro para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0033A(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0033B(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de organización de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0035(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transparencia de procedimientos de fijación de precios de medicamentos; norma procedimental sin signo determinable.",
+  "partido": ""
+ }
+]

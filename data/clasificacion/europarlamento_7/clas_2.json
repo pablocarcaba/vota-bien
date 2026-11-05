@@ -1,865 +1,864 @@
 [
-{
-"id": "2010/0210(COD)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1,
-"secPrim": 1,
-"secCom": 1
-},
-"peso": 2,
-"nota": "Directiva de temporeros: reglas comunes de entrada y derechos laborales de trabajadores extracomunitarios; facilita mano de obra a agricultura y hostelería.",
-"partido": ""
-},
-{
-"id": "2010/0212(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Homologación de vehículos agrícolas y forestales; norma técnica sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2010/0214(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Actualiza la exención arancelaria de principios activos farmacéuticos; abarata insumos a la industria farmacéutica.",
-"partido": ""
-},
-{
-"id": "2010/0215(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Derecho del investigado a ser informado en el proceso penal; norma procesal sin colectivo concreto.",
-"partido": ""
-},
-{
-"id": "2010/0217(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo forestal con Camerún sobre madera legal; acuerdo internacional sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2010/0220(NLE)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 2,
-"nota": "Permite ayudas públicas a minas de carbón no competitivas hasta su cierre en 2018; afecta a la minería española.",
-"partido": ""
-},
-{
-"id": "2010/0232(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste técnico de la supervisión de conglomerados financieros; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2010/0242(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Año Europeo del Envejecimiento Activo; actividades de sensibilización sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2010/0246(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Restringe la venta al público de precursores de explosivos; norma de seguridad sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2010/0248(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": -1
-},
-"peso": 2,
-"nota": "Liberaliza el comercio agrícola y pesquero con Marruecos; más competencia para la horticultura española.",
-"partido": ""
-},
-{
-"id": "2010/0250(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "EMIR: obliga a compensar y registrar los derivados extrabursátiles; nuevas obligaciones para entidades financieras.",
-"partido": ""
-},
-{
-"id": "2010/0251(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Regula las ventas en corto y las permutas de impago; restricciones a operadores financieros.",
-"partido": ""
-},
-{
-"id": "2010/0252(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Programa plurianual de política del espectro radioeléctrico; orientaciones sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2010/0253(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Refunde el primer paquete ferroviario (acceso, cánones, reguladores); técnica, sin apertura nueva de mercados públicos.",
-"partido": ""
-},
-{
-"id": "2010/0254(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Prohíbe añadir azúcares a los zumos de frutas y aclara su etiquetado; mejora la información al consumidor.",
-"partido": ""
-},
-{
-"id": "2010/0255(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga transitoria de medidas técnicas de pesca; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0256(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "POSEI: ayudas agrícolas a las regiones ultraperiféricas, incluida Canarias; beneficia a sus agricultores.",
-"partido": ""
-},
-{
-"id": "2010/0257(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Programa de apoyo a la política marítima integrada; financiación menor sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2010/0258(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Estadísticas de transporte de mercancías por carretera; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0259(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Codificación de la mención del lote de los alimentos; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0260(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Codificación de la directiva sobre unidades de medida; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0261(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Rebaja los límites de ruido de los vehículos a motor; menos contaminación acústica y costes para fabricantes.",
-"partido": ""
-},
-{
-"id": "2010/0262(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Control de exportaciones de productos de doble uso; norma técnica de comercio.",
-"partido": ""
-},
-{
-"id": "2010/0264(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Codificación sobre protección antivuelco de tractores; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0266(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación del reglamento de desarrollo rural al Tratado de Lisboa; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0267(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación del reglamento de pagos directos al Tratado de Lisboa; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0271(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Homologación de motos y cuatriciclos con límites Euro 4 y 5; menos emisiones y costes para fabricantes.",
-"partido": ""
-},
-{
-"id": "2010/0273(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Armoniza los delitos de ataques contra sistemas informáticos; norma penal sin colectivo concreto.",
-"partido": ""
-},
-{
-"id": "2010/0274(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga del mandato de la agencia de ciberseguridad ENISA; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0275(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Nuevo mandato de la agencia de ciberseguridad ENISA; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0276(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Six-pack: endurece el procedimiento de déficit excesivo; regla fiscal con efecto distributivo indirecto e incierto.",
-"partido": ""
-},
-{
-"id": "2010/0277(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Six-pack: requisitos de los marcos presupuestarios nacionales; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0278(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Six-pack: sanciones por incumplimiento presupuestario en la zona del euro; efecto distributivo indirecto e incierto.",
-"partido": ""
-},
-{
-"id": "2010/0279(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Six-pack: sanciones por desequilibrios macroeconómicos excesivos; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0280(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Six-pack: refuerza la vertiente preventiva del Pacto de Estabilidad; efecto distributivo indirecto e incierto.",
-"partido": ""
-},
-{
-"id": "2010/0281(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Six-pack: procedimiento de desequilibrios macroeconómicos; supervisión institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2010/0282(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acceso al servicio público regulado de Galileo; norma técnica y de seguridad.",
-"partido": ""
-},
-{
-"id": "2010/0289(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Preferencias comerciales temporales para Pakistán tras las inundaciones; efecto menor en España.",
-"partido": ""
-},
-{
-"id": "2010/0298(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Limita los fosfatos en detergentes domésticos; reduce la contaminación del agua con coste para fabricantes.",
-"partido": ""
-},
-{
-"id": "2010/0301(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": -1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Amplía la flexibilidad para vender motores de tractor de fases de emisión anteriores; alivia a fabricantes.",
-"partido": ""
-},
-{
-"id": "2010/0302(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Requisitos técnicos de tractores de vía estrecha; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0303(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Amplía funciones de la Agencia Europea de Seguridad Marítima; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0306(NLE)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Obliga a programas nacionales seguros de gestión de residuos radiactivos; protección general con coste para el sector nuclear.",
-"partido": ""
-},
-{
-"id": "2010/0312(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Mecanismo de evaluación de Schengen; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0318(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Preferencias comerciales para Moldavia; efecto menor en España.",
-"partido": ""
-},
-{
-"id": "2010/0323(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Extiende el acuerdo con Uzbekistán al comercio textil; acuerdo internacional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2010/0325(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Lista de documentos de viaje válidos para visados; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0326(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Flexibiliza la vacunación contra la lengua azul fuera de zonas restringidas; facilita la gestión a ganaderos.",
-"partido": ""
-},
-{
-"id": "2010/0338(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Especificaciones técnicas de las monedas en euros; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0348(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Codificación sobre mandos de tractores; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0349(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Codificación sobre frenado de tractores; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0353(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 2,
-"nota": "Regímenes de calidad agrícolas (denominaciones de origen, indicaciones geográficas); refuerza la protección de productos agrarios.",
-"partido": ""
-},
-{
-"id": "2010/0358(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Codificación sobre el puesto del conductor de tractores; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0359(CNS)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Exenciones del arbitrio insular en Canarias; protege la producción industrial local canaria.",
-"partido": ""
-},
-{
-"id": "2010/0362(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 2,
-"nota": "Paquete lácteo: contratos escritos y organizaciones de productores; refuerza la posición negociadora de los ganaderos.",
-"partido": ""
-},
-{
-"id": "2010/0363(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 2,
-"nota": "REMIT: prohíbe el abuso y la manipulación del mercado mayorista de energía; protege a los consumidores.",
-"partido": ""
-},
-{
-"id": "2010/0364(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación del reglamento de producción ecológica al Tratado de Lisboa; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0365(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación de la financiación de la PAC al Tratado de Lisboa; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0366(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Controles de operaciones del FEAGA; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0367(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Deroga reglamentos obsoletos; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0368(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Deroga actos obsoletos de la PAC; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0369(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Deroga actos obsoletos del Consejo; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0370(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Medidas agrícolas para las islas del Egeo; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2010/0372(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modulación facultativa de pagos directos (aplicada en Reino Unido); sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2010/0373(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Fecha límite de la zona SEPA: transferencias y adeudos en euros con IBAN y mismas reglas en toda la UE.",
-"partido": ""
-},
-{
-"id": "2010/0374(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Sistema Europeo de Cuentas 2010; estadística.",
-"partido": ""
-},
-{
-"id": "2010/0377(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Seveso III: prevención de accidentes graves con sustancias peligrosas; protege a la población con obligaciones para la industria.",
-"partido": ""
-},
-{
-"id": "2010/0380(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Actualización técnica de la coordinación de seguridad social entre Estados.",
-"partido": ""
-},
-{
-"id": "2010/0383(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Bruselas I bis: suprime el exequátur de sentencias civiles y mercantiles; procesal.",
-"partido": ""
-},
-{
-"id": "2010/0384(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Autoriza la cooperación reforzada de patente unitaria, sin España; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0385(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación de la OCM única al Tratado de Lisboa; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0387(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Refundición del régimen fiscal de matrices y filiales; técnica.",
-"partido": ""
-},
-{
-"id": "2010/0390(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda macrofinanciera a Georgia; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2010/0395(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reglamento financiero del presupuesto de la Unión; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0801(COD)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Derecho a intérprete y traducción en el proceso penal; beneficia sobre todo a acusados extranjeros.",
-"partido": ""
-},
-{
-"id": "2010/0802(COD)",
-"tipo": "soc",
-"imp": {
-"victimas": 1,
-"mujeres": 1
-},
-"peso": 1,
-"nota": "Orden europea de protección: las víctimas, sobre todo de violencia de género, mantienen su protección en otro Estado.",
-"partido": ""
-},
-{
-"id": "2010/0814(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Sistema de Información de Schengen en Bulgaria y Rumanía; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0816(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Organización del Servicio Europeo de Acción Exterior; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0817(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Orden europea de investigación en materia penal; cooperación judicial.",
-"partido": ""
-},
-{
-"id": "2010/0820(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Aplicación de Schengen en Bulgaria y Rumanía; institucional.",
-"partido": ""
-},
-{
-"id": "2010/0821(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Reforma del Tratado para crear el Mecanismo Europeo de Estabilidad; institucional, efecto distributivo indirecto.",
-"partido": ""
-},
-{
-"id": "2010/2001(BUD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"estud": 1
-},
-"peso": 3,
-"nota": "Presupuesto de la Unión para 2011: financia la PAC, cohesión, desarrollo rural y Erasmus.",
-"partido": ""
-},
-{
-"id": "2010/2002(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Mandato de negociación del presupuesto 2011; procedimental.",
-"partido": ""
-},
-{
-"id": "2010/2004(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Prioridades del Parlamento para el presupuesto 2011; orientativo.",
-"partido": ""
-},
-{
-"id": "2010/2014(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo del Parlamento Europeo; institucional.",
-"partido": ""
-},
-{
-"id": "2010/2031(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Movilización del FEAG para trabajadores despedidos en otro Estado miembro; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2010/2035(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Movilización del FEAG para trabajadores despedidos en otro Estado miembro; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2010/2045(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo del Parlamento Europeo; institucional.",
-"partido": ""
-},
-{
-"id": "2010/2046(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo para el ORECE; institucional.",
-"partido": ""
-},
-{
-"id": "2010/2048(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Financia medidas de acompañamiento para países ACP productores de plátano; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2010/2056(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo que consigna el excedente de 2009; técnico.",
-"partido": ""
-},
-{
-"id": "2010/2060(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Asistencia técnica del Fondo de Adaptación a la Globalización; técnica.",
-"partido": ""
-},
-{
-"id": "2010/2066(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para trabajadores despedidos en la Comunidad Valenciana; formación y reinserción.",
-"partido": ""
-},
-{
-"id": "2010/2067(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Movilización del FEAG para trabajadores despedidos en otro Estado miembro; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2010/2068(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para trabajadores despedidos en Castilla-La Mancha; formación y reinserción.",
-"partido": ""
-},
-{
-"id": "2010/2091(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo de la OLAF y los recursos propios; técnico.",
-"partido": ""
-},
-{
-"id": "2010/2094(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo para el Consejo, la Comisión y el SEAE; institucional.",
-"partido": ""
-},
-{
-"id": "2010/2099(INL)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Pide reforzar la gobernanza económica y el marco de estabilidad del euro; institucional, efecto indirecto incierto.",
-"partido": ""
-},
-{
-"id": "2010/2120(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Consigna la garantía del mecanismo de ayuda financiera a Estados miembros; técnico.",
-"partido": ""
-},
-{
-"id": "2010/2133(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Movilización del FEAG para trabajadores despedidos en otro Estado miembro; sin efecto distributivo en España.",
-"partido": ""
-}
+ {
+  "id": "2010/0210(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Fija condiciones de entrada, residencia y derechos de trabajadores estacionales de terceros países; amplía vías legales para inmigrantes.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0212(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0214(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Suspende aranceles de principios activos farmacéuticos importados; reduce costes del sector farmacéutico.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0215(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0217(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0220(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Permite ayudas públicas a minas de carbón no competitivas hasta su cierre en 2018; afecta a la minería española.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0232(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Impone supervisión adicional a entidades financieras de conglomerados; supone nuevas obligaciones para el sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0242(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0246(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0248(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Liberaliza el comercio agrícola y pesquero con Marruecos; más competencia para la horticultura española.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0250(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a compensar derivados OTC en contrapartes centrales y a registrar operaciones; impone obligaciones al sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0251(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Restringe ventas en corto y permutas de cobertura por impago; impone obligaciones y límites a los mercados financieros.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0252(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0253(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal, técnica o presupuestaria sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0254(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Prohíbe añadir azúcares a los zumos de frutas y aclara su etiquetado; mejora la información al consumidor.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0255(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0256(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Mantiene medidas de apoyo agrícola para regiones ultraperiféricas; beneficia al sector agrario de esas regiones.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0257(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0258(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0259(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0260(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0261(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Rebaja los límites de ruido de los vehículos a motor; menos contaminación acústica y costes para fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0262(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0264(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0266(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0267(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0271(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Homologación de motos y cuatriciclos con límites Euro 4 y 5; menos emisiones y costes para fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0273(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0274(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0275(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0276(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0277(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0278(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0279(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0280(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0281(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0282(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0289(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0298(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Limita los fosfatos en detergentes domésticos de ropa; mejora la calidad del agua y obliga a los fabricantes a reformular.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0301(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Amplía la flexibilidad para vender motores de tractor de fases de emisión anteriores; alivia a fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0302(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0303(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0306(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Establece marco para la gestión segura del combustible nuclear gastado y los residuos radiactivos; refuerza la seguridad y el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0312(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0318(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0323(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0325(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0326(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Flexibiliza la vacunación contra la lengua azul fuera de zonas restringidas; facilita la gestión a ganaderos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0338(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0348(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0349(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0353(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Regímenes de calidad agrícolas (denominaciones de origen, indicaciones geográficas); refuerza la protección de productos agrarios.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0358(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0359(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Exenciones del arbitrio insular en Canarias; protege la producción industrial local canaria.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0362(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Paquete lácteo: contratos escritos y organizaciones de productores; refuerza la posición negociadora de los ganaderos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0363(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe el abuso de información y la manipulación en mercados de electricidad y gas; protege a consumidores y obliga a operadores.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0364(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0365(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0366(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0367(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0368(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0369(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0370(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0372(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0373(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Fecha límite de la zona SEPA: transferencias y adeudos en euros con IBAN y mismas reglas en toda la UE.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0374(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0377(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza el control de riesgos de accidentes graves con sustancias peligrosas; mejora la seguridad pública y obliga a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0380(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0383(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0384(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0385(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0387(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0390(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0395(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0801(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Derecho a intérprete y traducción en el proceso penal; beneficia sobre todo a acusados extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0802(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Crea una orden europea de protección que extiende entre Estados miembros las medidas de protección a víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0814(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0816(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0817(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0820(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0821(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2001(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1,
+   "estud": 1
+  },
+  "peso": 3,
+  "nota": "Presupuesto de la Unión para 2011: financia la PAC, cohesión, desarrollo rural y Erasmus.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2002(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2004(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2014(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2031(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2035(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2045(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2046(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2048(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2056(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2060(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2066(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Fondo de Adaptación a la Globalización para trabajadores despedidos en la Comunidad Valenciana; formación y reinserción.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2067(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2068(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Fondo de Adaptación a la Globalización para trabajadores despedidos en Castilla-La Mancha; formación y reinserción.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2091(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2094(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2099(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2120(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2133(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ }
 ]

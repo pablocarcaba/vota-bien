@@ -1,871 +1,834 @@
 [
-{
-"id": "1998/0031R(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2006/0036(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional de transporte; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2006/0048(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional de transporte; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2006/0058(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional de transporte; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2007/0078(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2008/0027(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2008/0137(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2009/0018(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional de transporte; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2009/0174(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2010/0208(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Permite a cada Estado prohibir el cultivo de transgénicos; España no lo ha prohibido, efecto distributivo incierto.",
-"partido": ""
-},
-{
-"id": "2010/0310(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2010/0310M(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2010/0323(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2010/0361(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2011/0023(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Uso de los datos de pasajeros aéreos para combatir terrorismo y delincuencia grave; medida de seguridad sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2011/0441(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2011/0443(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2011/0444(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2011/0447(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2011/0448(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2011/0450(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2011/0451(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2011/0452(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2012/0015(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional de transporte; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2012/0134(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Protocolo pesquero con Guinea-Bisáu; da acceso a caladeros a la flota de la UE, relevante para la española.",
-"partido": ""
-},
-{
-"id": "2012/0175(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Directiva de distribución de seguros: más información y transparencia para el cliente; nuevas obligaciones para aseguradoras y mediadores.",
-"partido": ""
-},
-{
-"id": "2012/0288(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Limita los biocarburantes de cultivos alimentarios por su efecto en el uso de la tierra; beneficio climático, coste para productores de biocarburantes.",
-"partido": ""
-},
-{
-"id": "2013/0021(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Somete nuevas sustancias psicoactivas a control; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0115(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0151A(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0151B(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0157(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": -1,
-"secTrans": 1
-},
-"peso": 2,
-"nota": "Abre el mercado de servicios portuarios a operadores privados y exige transparencia financiera a los puertos públicos.",
-"partido": ""
-},
-{
-"id": "2013/0177(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2013/0184(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0207(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Somete nuevas sustancias psicoactivas a control; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0214(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": 1
-},
-"peso": 1,
-"nota": "Crea los fondos de inversión a largo plazo europeos (FILPE); nuevo producto para la gestión de activos.",
-"partido": ""
-},
-{
-"id": "2013/0255(APP)",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Crea la Fiscalía Europea contra delitos que afectan al presupuesto de la UE; reforma institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2013/0256(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reglamento de organización de Eurojust; institucional.",
-"partido": ""
-},
-{
-"id": "2013/0264(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secDig": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Segunda directiva de pagos (PSD2): abre a terceros el acceso a cuentas, refuerza la seguridad y derechos del usuario frente a bancos.",
-"partido": ""
-},
-{
-"id": "2013/0265(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secCom": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Limita las tasas de intercambio de tarjetas; abarata los pagos a comercios y consumidores y reduce ingresos de la banca.",
-"partido": ""
-},
-{
-"id": "2013/0285(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Convenio de la OMI sobre formación y titulación del personal de buques pesqueros; norma técnica.",
-"partido": ""
-},
-{
-"id": "2013/0306(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Requisitos de liquidez y estabilidad para fondos del mercado monetario; regulación financiera técnica.",
-"partido": ""
-},
-{
-"id": "2013/0314(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"hipot": 1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Regula los índices de referencia como el Euríbor tras su manipulación; protege a usuarios e hipotecados, obligaciones para sus administradores.",
-"partido": ""
-},
-{
-"id": "2013/0321(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0361(APP)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Regula la Cumbre Social Tripartita entre instituciones e interlocutores sociales; institucional.",
-"partido": ""
-},
-{
-"id": "2013/0386(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0390(COD)",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"asal4": 1,
-"secTrans": -1
-},
-"peso": 1,
-"nota": "Extiende a la gente de mar derechos laborales sobre insolvencia, información, consulta y despidos colectivos; coste para navieras.",
-"partido": ""
-},
-{
-"id": "2013/0402(COD)",
-"tipo": "eco",
-"imp": {
-"empPeq": 1,
-"empMed": 1,
-"empGran": 1
-},
-"peso": 2,
-"nota": "Protege los secretos comerciales de las empresas frente a su obtención y uso ilícitos, con excepciones para periodistas y denunciantes.",
-"partido": ""
-},
-{
-"id": "2013/0403(COD)",
-"tipo": "soc",
-"imp": {
-"cons": 1,
-"empMicro": 1
-},
-"peso": 1,
-"nota": "Amplía el proceso europeo de escasa cuantía a 5.000 euros; abarata reclamaciones transfronterizas de consumidores y pequeñas empresas.",
-"partido": ""
-},
-{
-"id": "2013/0407(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Garantías procesales de presunción de inocencia y presencia en juicio; derechos procesales sin colectivo específico.",
-"partido": ""
-},
-{
-"id": "2013/0408(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Garantías procesales para menores sospechosos o acusados; derechos procesales sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2013/0409(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Asistencia jurídica gratuita para detenidos y en la orden de detención europea; derechos procesales sin colectivo específico.",
-"partido": ""
-},
-{
-"id": "2013/0414(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0418(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0420(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0422(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0433(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Prohibiría la clonación de animales de granja y la venta de sus alimentos; restricción a la ganadería.",
-"partido": ""
-},
-{
-"id": "2013/0435(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Centraliza y agiliza la autorización de nuevos alimentos manteniendo la evaluación de seguridad; facilita su comercialización a la industria.",
-"partido": ""
-},
-{
-"id": "2013/0436(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adapta las normas técnicas pesqueras a la prohibición de descartes; efecto neto sobre la flota incierto.",
-"partido": ""
-},
-{
-"id": "2013/0440(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0441(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0442(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Fija límites de emisión para instalaciones de combustión medianas; mejora la calidad del aire con coste para la industria.",
-"partido": ""
-},
-{
-"id": "2013/0443(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1,
-"secPrim": -1
-},
-"peso": 2,
-"nota": "Techos nacionales de emisiones contaminantes, incluido el amoniaco agrario; mejora la calidad del aire con coste para industria y ganadería.",
-"partido": ""
-},
-{
-"id": "2013/0448(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0451(NLE)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Fija tolerancias máximas de radiactividad en alimentos y piensos tras accidentes nucleares; seguridad alimentaria.",
-"partido": ""
-},
-{
-"id": "2014/0002(COD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"desSub": 1
-},
-"peso": 1,
-"nota": "Refuerza la red EURES de servicios de empleo y la movilidad laboral; facilita la búsqueda de empleo en otros países.",
-"partido": ""
-},
-{
-"id": "2014/0005(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Controla el comercio de productos utilizables para tortura o pena de muerte; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2014/0011(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Reserva de estabilidad del mercado de emisiones: retira derechos sobrantes y encarece el CO2 para industria y electricidad.",
-"partido": ""
-},
-{
-"id": "2014/0014(COD)",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"estud": 1,
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Programa escolar de fruta, verdura y leche; beneficia a escolares y a productores agrarios.",
-"partido": ""
-},
-{
-"id": "2014/0017(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Transparencia de las operaciones de financiación de valores; regulación financiera técnica.",
-"partido": ""
-},
-{
-"id": "2014/0021(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio internacional de cooperación jurídica; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2014/0023(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional de transporte; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0032(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Normas zootécnicas sobre animales reproductores; técnica.",
-"partido": ""
-},
-{
-"id": "2014/0039(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0047(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0052(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0059(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": -1
-},
-"peso": 1,
-"nota": "Diligencia debida para importadores de minerales de zonas de conflicto; nuevas obligaciones para la industria importadora.",
-"partido": ""
-},
-{
-"id": "2014/0079(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acceso de buques de Seychelles a aguas de la UE en Mayotte; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2014/0083(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0086(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0091(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Refundición de la directiva de fondos de pensiones de empleo: gobernanza e información; poco peso en España.",
-"partido": ""
-},
-{
-"id": "2014/0096(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Actualiza las normas de composición de caseínas y caseinatos alimentarios; técnica.",
-"partido": ""
-},
-{
-"id": "2014/0100(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Nuevo reglamento de producción ecológica: refuerza controles y etiquetado; efecto sobre productores de signo discutido.",
-"partido": ""
-},
-{
-"id": "2014/0107(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Requisitos de seguridad de teleféricos y remontes; norma técnica de producto.",
-"partido": ""
-},
-{
-"id": "2014/0108(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Requisitos de los equipos de protección individual; norma técnica de producto.",
-"partido": ""
-},
-{
-"id": "2014/0110(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0115(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Protocolo pesquero con Santo Tomé y Príncipe; acceso a caladeros para la flota atunera de la UE.",
-"partido": ""
-},
-{
-"id": "2014/0118(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0121(COD)",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 1,
-"nota": "Derechos de los accionistas: voto sobre remuneración de directivos y transparencia; obligaciones para sociedades cotizadas.",
-"partido": ""
-},
-{
-"id": "2014/0124(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Plataforma europea de cooperación contra el trabajo no declarado; organizativa.",
-"partido": ""
-},
-{
-"id": "2014/0132(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Examen científico de cuestiones alimentarias; norma técnica.",
-"partido": ""
-},
-{
-"id": "2014/0134(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional de transporte; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0136(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Requisitos de los aparatos de gas; norma técnica de producto.",
-"partido": ""
-},
-{
-"id": "2014/0154(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2014/0158(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida; sin cambios de fondo.",
-"partido": ""
-},
-{
-"id": "2014/0159(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida; sin cambios de fondo.",
-"partido": ""
-},
-{
-"id": "2014/0160(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida; sin cambios de fondo.",
-"partido": ""
-},
-{
-"id": "2014/0163(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida; sin cambios de fondo.",
-"partido": ""
-},
-{
-"id": "2014/0164(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida; sin cambios de fondo.",
-"partido": ""
-},
-{
-"id": "2014/0165(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida; sin cambios de fondo.",
-"partido": ""
-}
+ {
+  "id": "1998/0031R(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0036(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0048(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0058(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0078(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0027(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0137(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0018(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0174(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0208(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0310(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0310M(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0323(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0361(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0023(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0441(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0443(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0444(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0447(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0448(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0450(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0451(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2011/0452(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0015(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0134(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Fija posibilidades de pesca para buques de la UE en aguas de un tercer país.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0175(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de los clientes en la distribución de seguros e impone exigencias a los intermediarios del sector.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0288(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Limita los biocarburantes de cultivos alimentarios por razones climáticas; el sector de biocarburantes asume la restricción.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0021(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0115(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0151A(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0151B(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0157(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el acceso al mercado de servicios portuarios y la transparencia financiera; el texto no permite fijar ganadores y perdedores con signo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0177(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0184(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0207(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0214(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una categoría de fondos de inversión a largo plazo; el texto disponible no permite determinar signo de efecto para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0255(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional: crea un órgano europeo de investigación penal sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0256(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional y procesal de cooperación judicial penal; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0264(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección de los usuarios de servicios de pago: menor responsabilidad por operaciones no autorizadas y límites a recargos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0265(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Limita las tasas de intercambio de las operaciones con tarjeta; reduce los ingresos de las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0285(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0306(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma institucional, técnica o de cooperación internacional.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0314(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula los índices de referencia financieros; el texto disponible no permite determinar quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0321(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0361(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0386(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0390(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Extiende a la gente de mar directivas laborales; el texto no concreta el alcance ni el signo para un colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0402(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protege los secretos comerciales frente a su obtención ilícita; el texto disponible no permite determinar signo para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0403(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica los procesos europeos de escasa cuantía y monitorio; el texto no permite determinar quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0407(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0408(COD)",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza derechos procesales a los menores sospechosos o acusados en procesos penales.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0409(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0414(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0418(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma institucional, técnica o de cooperación internacional.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0420(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0422(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0433(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe la clonación de animales de granja con fines ganaderos, restringiendo una práctica del sector.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0435(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la autorización de nuevos alimentos; el texto disponible no permite determinar signo para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0436(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0440(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0441(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0442(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Limita emisiones atmosféricas de instalaciones de combustión medianas: mejora la calidad del aire y obliga a las instalaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0443(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija techos nacionales de emisión de contaminantes atmosféricos, con mejora de la calidad del aire.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0448(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza compromisos internacionales contra la contaminación atmosférica transfronteriza, con beneficio ambiental y sanitario general.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0451(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Fija tolerancias máximas de contaminación radiactiva en alimentos y piensos, reforzando la seguridad alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0002(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea la red EURES y la movilidad laboral; el texto disponible no permite determinar efectos con signo para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0005(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0011(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Crea una reserva de estabilidad del mercado de derechos de emisión que refuerza la protección climática y encarece el cumplimiento a la industria cubierta.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0014(COD)",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Ayudas para distribuir fruta, hortalizas, plátanos y leche en los centros escolares; beneficia al alumnado.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0017(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma institucional, técnica o de cooperación internacional.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0021(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0023(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0032(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0039(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0047(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0052(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0059(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obligaciones de diligencia debida para importadores de minerales de zonas de conflicto; el texto no permite fijar el sector afectado con signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0079(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0083(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0086(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0091(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0096(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0100(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0107(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0108(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0110(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0115(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Fija posibilidades de pesca para buques de la UE en aguas de un tercer país.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0118(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0121(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica derechos de accionistas y gobernanza de sociedades cotizadas; el texto disponible no permite determinar signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0124(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0132(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0134(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0136(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0154(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0158(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0159(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0160(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0163(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0164(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0165(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ }
 ]

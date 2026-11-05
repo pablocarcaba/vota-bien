@@ -1,413 +1,406 @@
 [
-{
-"id": "2018/0435(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Medida de contingencia técnica por la retirada del Reino Unido; mantiene el statu quo.",
-"partido": ""
-},
-{
-"id": "2018/0436(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Medida de contingencia técnica por la retirada del Reino Unido; mantiene el statu quo.",
-"partido": ""
-},
-{
-"id": "2018/0802(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Aplicación del Sistema de Información de Schengen en Bulgaria y Rumanía; técnica.",
-"partido": ""
-},
-{
-"id": "2018/0805(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Fija la fecha de las elecciones europeas de 2019; institucional.",
-"partido": ""
-},
-{
-"id": "2018/0806(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Intercambio automatizado de datos de ADN en Croacia; cooperación policial técnica.",
-"partido": ""
-},
-{
-"id": "2018/0807(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de cooperación de Eurojust con Albania; acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0808(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Intercambio automatizado de datos de huellas dactilares en Irlanda; cooperación policial técnica.",
-"partido": ""
-},
-{
-"id": "2018/0809(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Intercambio automatizado de datos de ADN en Irlanda; cooperación policial técnica.",
-"partido": ""
-},
-{
-"id": "2018/0810(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Intercambio automatizado de datos de huellas dactilares en Croacia; cooperación policial técnica.",
-"partido": ""
-},
-{
-"id": "2018/0811(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Cambio institucional en los Estatutos del Banco Europeo de Inversiones; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2018/0812(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Intercambio automatizado de datos de ADN en el Reino Unido; cooperación policial técnica.",
-"partido": ""
-},
-{
-"id": "2018/0813(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de cooperación de Eurojust con Georgia; acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0900(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del Estatuto del Tribunal de Justicia; institucional.",
-"partido": ""
-},
-{
-"id": "2018/2001(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Previsiones de gastos del propio Parlamento Europeo; institucional.",
-"partido": ""
-},
-{
-"id": "2018/2012(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de Ericsson en Suecia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2014(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para trabajadores despedidos de la confección en Galicia.",
-"partido": ""
-},
-{
-"id": "2018/2024(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Mandato negociador del presupuesto 2019; procedimiento presupuestario.",
-"partido": ""
-},
-{
-"id": "2018/2025(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de Goodyear en Alemania; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2029(BUD)",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"rural": 1
-},
-"peso": 1,
-"nota": "Fondo de Solidaridad, entre otros, para España por los incendios forestales de 2017 en Galicia y Asturias.",
-"partido": ""
-},
-{
-"id": "2018/2030(BUD)",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"rural": 1
-},
-"peso": 1,
-"nota": "Presupuesto rectificativo que financia el Fondo de Solidaridad, incluida España por los incendios de 2017.",
-"partido": ""
-},
-{
-"id": "2018/2043(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de Caterpillar en Bélgica; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2048(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Asistencia técnica del Fondo de Adaptación a la Globalización; gasto administrativo.",
-"partido": ""
-},
-{
-"id": "2018/2057(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo que consigna el excedente de 2017; técnico.",
-"partido": ""
-},
-{
-"id": "2018/2059(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de Air France; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2072(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Amplía el Mecanismo para los refugiados en Turquía; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2018/2074(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Anticipos del Fondo de Solidaridad en el presupuesto 2019; técnica.",
-"partido": ""
-},
-{
-"id": "2018/2078(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Solidaridad para Bulgaria, Grecia, Lituania y Polonia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2079(INL)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Pide un procedimiento acelerado para litigios comerciales; procesal.",
-"partido": ""
-},
-{
-"id": "2018/2080(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Estatuto del Defensor del Pueblo Europeo; institucional.",
-"partido": ""
-},
-{
-"id": "2018/2082(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo del Fondo de Solidaridad para otros Estados; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2165(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo de ayuda exterior y ajustes administrativos; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2018/2220(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de servicios financieros en Países Bajos; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2223(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de confección en Portugal; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2230(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Solidaridad para Letonia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2240(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de edición en Grecia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2018/2244(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo que reduce créditos según previsiones; técnico.",
-"partido": ""
-},
-{
-"id": "2018/2271(INL)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Pide visados humanitarios para que solicitantes de asilo lleguen legalmente a la UE.",
-"partido": ""
-},
-{
-"id": "2018/2274(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Instrumento de Flexibilidad para migración y seguridad; técnica presupuestaria.",
-"partido": ""
-},
-{
-"id": "2018/2275(BUD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"estud": 1
-},
-"peso": 3,
-"nota": "Presupuesto anual de la UE para 2019: ayudas de la PAC, desarrollo rural y Erasmus+.",
-"partido": ""
-},
-{
-"id": "2019/0005(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de cooperación científica con Rusia; acuerdo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2019/0019(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Contingencia de seguridad social ante el Brexit sin acuerdo; mantiene derechos adquiridos.",
-"partido": ""
-},
-{
-"id": "2019/0027(COD)",
-"tipo": "eco",
-"imp": {
-"jovenes": 1
-},
-"peso": 1,
-"nota": "Adelanta recursos de la Iniciativa de Empleo Juvenil, de la que España es gran beneficiaria.",
-"partido": ""
-},
-{
-"id": "2019/0030(COD)",
-"tipo": "soc",
-"imp": {
-"estud": 1
-},
-"peso": 1,
-"nota": "Garantiza la continuidad de las estancias Erasmus+ en curso con el Reino Unido.",
-"partido": ""
-},
-{
-"id": "2019/0031(APP)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ejecución del presupuesto 2019 ante el Brexit; técnica.",
-"partido": ""
-},
-{
-"id": "2019/0056(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Orientaciones no vinculantes para las políticas de empleo; sin efecto distributivo directo.",
-"partido": ""
-},
-{
-"id": "2019/0804(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modificación de los Estatutos del BEI; institucional.",
-"partido": ""
-},
-{
-"id": "2019/0805(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de cooperación judicial penal de Eurojust con Dinamarca; institucional.",
-"partido": ""
-},
-{
-"id": "2019/2001(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Orientaciones para el presupuesto 2020; no vinculantes.",
-"partido": ""
-},
-{
-"id": "2019/2003(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Previsiones de gastos del propio Parlamento Europeo; institucional.",
-"partido": ""
-}
+ {
+  "id": "2018/0435(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0436(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 1,
+  "nota": "Mantiene las conexiones básicas de transporte de mercancías por carretera con el Reino Unido, lo que permite seguir operando a los transportistas.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0802(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0805(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0806(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0807(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0808(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0809(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0810(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0811(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0812(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0813(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0900(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2001(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2012(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2014(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda europea de 720.000 euros para reciclaje de 303 trabajadores despedidos del textil en Galicia; colectivo concreto no asignable a un identificador.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2024(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2025(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2029(BUD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Moviliza el Fondo de Solidaridad de la UE para asistir a países afectados por catástrofes, entre ellos España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2030(BUD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Consigna en el presupuesto la ayuda del Fondo de Solidaridad a países afectados por catástrofes, entre ellos España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2043(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2048(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2057(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2059(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2072(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2074(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2078(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2079(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2080(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2082(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2165(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2220(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2223(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2230(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2240(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2244(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2271(INL)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Propone visados humanitarios que facilitan la entrada legal de personas necesitadas de protección.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2274(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/2275(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión; el texto aprobado no fija efectos directos con signo claro sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0005(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0019(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0027(COD)",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Asigna recursos a la Iniciativa de Empleo Juvenil, que financia medidas de empleo para jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0030(COD)",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Mantiene las movilidades Erasmus+ en curso tras la retirada del Reino Unido; beneficia a estudiantes participantes.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0031(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0056(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0804(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/0805(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2001(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2019/2003(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ }
 ]

@@ -1,0 +1,708 @@
+[
+ {
+  "id": "2008/0217(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone registro y supervisión a las agencias de calificación crediticia; coste de cumplimiento para ese sector.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0218(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Acción europea sobre enfermedades raras; beneficia a los pacientes afectados.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0219(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0220(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0221(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a etiquetar el rendimiento energético de los neumáticos: más información al consumidor y coste para los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0222(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a indicar el consumo energético de los productos: más información al consumidor y coste de etiquetado para los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0223(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secCons": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la eficiencia energética de los edificios: mejora ambiental general y nuevas exigencias para el sector de la construcción.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0224(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0226(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0229(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secCom": -1
+  },
+  "peso": 1,
+  "nota": "Exige recuperar vapores de gasolina al repostar: mejora la calidad del aire y obliga a las estaciones de servicio a instalar equipos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0230(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0231(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Marco de seguridad nuclear: refuerza la protección de la población y exige obligaciones a los operadores de instalaciones nucleares.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0232(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0233(AVC)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0235(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0237(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos a los viajeros de autobús y autocar; impone obligaciones a los transportistas.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0239(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 1,
+  "nota": "Programa de ayudas financieras al transporte de mercancías alternativo a la carretera; beneficia a operadores de transporte.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0242(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0243(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0244(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Establece normas de acogida para los solicitantes de protección internacional; amplía sus condiciones y derechos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0245(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0246(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos a los pasajeros marítimos y fluviales; impone obligaciones a las navieras.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0247(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la red ferroviaria de mercancías; el signo para los operadores no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0258(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secDig": 1
+  },
+  "peso": 1,
+  "nota": "Programa de cooperación audiovisual con terceros países; financia a profesionales del sector audiovisual.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0259(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0262(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0263(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0266(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0267(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0268(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0801(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0802(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0803(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0804(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0806(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0807(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2012(INL)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Recomienda aplicar la igualdad salarial entre mujeres y hombres; reduce la brecha salarial de las mujeres.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2017(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2021(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2022(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2024(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2025(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2026(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2026B(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2080(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2094(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2095(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2096(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2122(INL)",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1
+  },
+  "peso": 1,
+  "nota": "Impulsa el microcrédito para apoyar el empleo; facilita financiación a autónomos y microempresas.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2123(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2124(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2125(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2148(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2161(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2169(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2196(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2252(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2287(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2311(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/2316(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0001(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0003(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Recomendación sobre seguridad de los pacientes; mejora la seguridad asistencial de los pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0008(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Programas de reestructuración del sector del algodón; ayudas a los productores.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0010(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Financia proyectos energéticos con ayuda comunitaria; beneficia al sector de la energía.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0011(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza fondos de desarrollo rural del FEADER; beneficia al sector agrario y al medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0016(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0022(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0024(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0026(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Modifica el Fondo Europeo para los Refugiados; financia la acogida e integración de refugiados.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0027(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0029(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1,
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Plan de recuperación del atún rojo con limitaciones a la pesca; protege la biodiversidad y restringe a los pescadores.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0042(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la asignación de franjas aeroportuarias; el signo para los operadores no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0801(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0804(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de procedimiento sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/2004(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/2005(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/2006(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/2008(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/2010(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/2017(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/2039(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/2040(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE sin efecto determinable sobre colectivos concretos en España.",
+  "partido": ""
+ }
+]

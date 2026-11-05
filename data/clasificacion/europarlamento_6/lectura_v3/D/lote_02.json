@@ -1,0 +1,860 @@
+[
+ {
+  "id": "2007/0034(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede posibilidades de pesca a buques comunitarios en aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0037B(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0039(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0044(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0047(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0050(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0051(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0052(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0057(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0058(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Plan de recuperación de una población de atún con limitaciones de captura; protege la biodiversidad marina y restringe a la flota pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0062(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede posibilidades de pesca a buques comunitarios en aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0064(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Fija límites de residuos de fármacos en alimentos de origen animal; mejora la seguridad alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0069(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0072(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0075(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0084(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0088(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0090(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0092(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0094(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0095(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Financia acciones de información y promoción de productos agrícolas; beneficia al sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0097(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0098(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0099(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0102(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe sustancias hormonales y β-agonistas en la cría de ganado; mejora la seguridad alimentaria y restringe una práctica ganadera.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0106(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0107(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0111(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0112(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Extiende el estatuto de residente de larga duración a beneficiarios de protección internacional; amplía derechos de extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0113(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de los consumidores en contratos de tiempo compartido; impone obligaciones a los operadores turísticos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0114(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0116(COD)",
+  "tipo": "soc",
+  "imp": {
+   "mayores": 1
+  },
+  "peso": 1,
+  "nota": "Programa de apoyo a tecnologías para mejorar la calidad de vida de las personas mayores.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0121(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Establece clasificación y etiquetado de sustancias químicas peligrosas; mejora la protección sanitaria y obliga a la industria química.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0127(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0130(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0132(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0135(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0136(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0137(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0138(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0143(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Régimen prudencial de seguros y reaseguros con exigencias de solvencia que refuerzan la protección de los asegurados.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0145(COD)",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Programa de becas y cooperación universitaria con terceros países; beneficia a estudiantes.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0150(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0151(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0152(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Extiende la coordinación de la Seguridad Social a nacionales de terceros países legalmente residentes; amplía sus derechos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0156(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0163(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0167(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0168(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0169(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0170(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede posibilidades de pesca a buques comunitarios en aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0171(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0173(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0174(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0177(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0185(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0186(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0188(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 1,
+  "nota": "Cofinancia la investigación y el desarrollo de pymes; beneficia a microempresas, pequeñas y medianas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0192A(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0192B(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0195(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Reforma del mercado eléctrico con derechos reforzados para los consumidores de electricidad.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0196(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Reforma del mercado del gas con derechos reforzados para los consumidores de gas.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0197(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0198(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0199(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0200(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Restringe la comercialización y el uso de sustancias y preparados peligrosos; protege la salud y limita a la industria que los usa.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0201(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Exige requisitos de seguridad de los vehículos para proteger a peatones y usuarios vulnerables; mejora la seguridad vial.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0202(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0206(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0207(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0209(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede posibilidades de pesca a buques comunitarios en aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0211(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0212(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0213(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0214(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0215(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0216(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0218(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0219(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0220(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0223(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0224(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Protege ecosistemas marinos vulnerables limitando ciertas artes de pesca; mejora la biodiversidad y restringe a la flota.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0226(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Concede posibilidades de pesca a buques comunitarios en aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0228(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Crea condiciones de entrada y residencia para trabajadores extranjeros altamente cualificados; amplía derechos de extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0229(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Crea un procedimiento único de permiso de residencia y trabajo y derechos comunes para trabajadores extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0232(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0233(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0234(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0236(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0238(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0242(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0243(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0247(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0248(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza derechos de los usuarios y la protección de datos en comunicaciones electrónicas.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0249(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0251(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0253(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0256(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0257(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0259(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma técnica, institucional o de cooperación exterior.",
+  "partido": ""
+ }
+]

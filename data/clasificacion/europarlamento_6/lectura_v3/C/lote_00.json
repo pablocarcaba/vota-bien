@@ -1,0 +1,883 @@
+[
+ {
+  "id": "1992/0449(COD)",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Fija mínimos de seguridad y salud frente a agentes físicos en el trabajo; mejora la protección de los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "1998/0304(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "1999/0238(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Restringe ftalatos en juguetes por seguridad; mejora la salud pública y obliga a fabricantes a cumplir la limitación.",
+  "partido": ""
+ },
+ {
+  "id": "2000/0238(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece procedimientos de asilo con garantías y requisitos; el signo conjunto no es uniforme.",
+  "partido": ""
+ },
+ {
+  "id": "2002/0072(COD)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Protege a los trabajadores temporales de empresas de trabajo temporal con igualdad de trato; amplía derechos laborales.",
+  "partido": ""
+ },
+ {
+  "id": "2002/0254(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija normas de calidad de las aguas de baño; mejora la salud pública y el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0165(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula las alegaciones nutricionales y de salud en alimentos; refuerza la seguridad alimentaria y obliga a la industria alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0189A(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Limita los gases fluorados de efecto invernadero; protege el clima y obliga a la industria que los emplea.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0252(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0256(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Sistema de registro y evaluación de productos químicos; protege la salud y el medio ambiente y obliga a la industria química.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0262(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Regula la adición de vitaminas y minerales a los alimentos; mejora la seguridad alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0270(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o procesal sin derechos para un colectivo concreto; no se asigna a quienes podrían delinquir.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0318(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0001(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Liberaliza servicios en el mercado interior de varios sectores con efectos de signo diverso; no se marca un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0020(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe la pesca de arrastre en zonas con arrecifes de coral; protege la biodiversidad y restringe al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0039(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0047(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el transporte ferroviario de mercancías; liberalización de un servicio público que beneficia a operadores del transporte.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0048(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a certificar a los maquinistas de trenes; impone exigencias al sector ferroviario.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0058(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Convenio de acceso de la flota pesquera europea a aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0069(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o procesal sin derechos para un colectivo concreto; no se asigna a quienes podrían delinquir.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0070(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Convenio de acceso de la flota pesquera europea a aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0071(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Convenio de acceso de la flota pesquera europea a aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0073(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Cofinancia información y promoción de productos agrícolas; beneficia al sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0086(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0090(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Codificación de normas sobre alimentos para alimentación especial; sin cambios sustantivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0098(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0100(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Codificación de normas de control de enfermedades de moluscos; sin cambios sustantivos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0113(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o procesal sin derechos para un colectivo concreto; no se asigna a quienes podrían delinquir.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0122(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0134(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0145(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0154(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Financia redes transeuropeas de transporte y energía con inversión pública; sin colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0156(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0161(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1
+  },
+  "peso": 2,
+  "nota": "Financia el desarrollo rural con fondos agrícolas; beneficia al sector agrario y al medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0162(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0163(AVC)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondos regionales y de cohesión; sin colectivo concreto definido en el título.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0166(AVC)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo de cohesión; sin colectivo concreto definido en el título.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0167(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo regional de desarrollo; sin colectivo concreto definido en el título.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0168(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0169(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Crea el fondo de ayudas al sector pesquero; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0209(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Revisa la ordenación del tiempo de trabajo con efectos de signo diverso para los asalariados; no se marca un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0213(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0215(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0218(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Financia acciones de protección ambiental y de la naturaleza; mejora el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0224(AVC)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0229(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Plan de recuperación del fletán negro; limita las capturas del sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0233(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0234(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0237(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0247(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Apoya la agricultura de las regiones ultraperiféricas; beneficia al sector agrario de esas regiones.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0258(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Limita los derechos de patente para exportar medicamentos a países con problemas de salud pública; afecta a laboratorios farmacéuticos.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0264(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0268(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0269(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0274(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0275(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0816(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/2001(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2004/2002(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0005(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0007(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos de asistencia a personas con movilidad reducida en el avión y obliga a las compañías aéreas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0008(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a informar al viajero de la aerolínea que opera su vuelo; refuerza al consumidor y obliga a las compañías aéreas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0017(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0018(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o procesal sin derechos para un colectivo concreto; no se asigna a quienes podrían delinquir.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0037A(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Programa de financiación contra la violencia hacia mujeres, jóvenes y niños; apoya a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0037B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0038(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0039(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0040(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0041(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0044(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0052(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0056(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0061(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0064(SYN)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0090(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0092(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Convenio de acceso de la flota pesquera europea a aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0102(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0103(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0104(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0106(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0124(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0125(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0127(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal o procesal sin derechos para un colectivo concreto; no se asigna a quienes podrían delinquir.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0129(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Fija orientaciones de apoyo al desarrollo rural; beneficia al sector agrario y al medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0130(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0138(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las entidades financieras a incluir información del ordenante en las transferencias; impone exigencias al sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0150(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0153(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Fija requisitos zoosanitarios a animales y productos de acuicultura; impone exigencias al sector.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0156(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0157(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0159(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0162(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0167(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Normas comunes de retorno de migrantes irregulares con garantías y restricciones de signo mixto; no se marca colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0175(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0182(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los operadores de comunicaciones electrónicas a conservar datos de tráfico; impone exigencias al sector.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0183(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija normas de calidad del aire ambiente; mejora la salud pública y el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0191(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Fija normas comunes de seguridad de la aviación civil; impone exigencias a aeropuertos y compañías aéreas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0194(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Regula la comercialización de artículos de pirotecnia; impone requisitos de seguridad a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0202(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+  "partido": ""
+ }
+]

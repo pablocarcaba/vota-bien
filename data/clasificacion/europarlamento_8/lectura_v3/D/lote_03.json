@@ -1,0 +1,842 @@
+[
+ {
+  "id": "2015/0809(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0810(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación entre organismos, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0811(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación entre organismos, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0812(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación entre organismos, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0813(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación entre organismos, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0906(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación entre organismos, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0907(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma institucional de la ley electoral de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2008(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2010(INL)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Recomienda transparencia fiscal, informes país por país y medidas contra la elusión de multinacionales; endurece las obligaciones de los grandes grupos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2011(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2012(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2013(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2016(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2017(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2018(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2019(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2020(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2021(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2031(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2032(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2035(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma institucional de la ley electoral de la Unión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2045(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2056(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2074(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2076(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2077(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2078(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2079(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2084(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación entre organismos, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2085(INL)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Recomienda reglas europeas de protección transfronteriza de adultos vulnerables, con reconocimiento de apoderamientos y medidas de apoyo a personas con capacidad limitada.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2086(INL)",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Recomienda normas mínimas comunes y reconocimiento transfronterizo de adopciones, con garantías para los menores y las familias adoptivas.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2087(INL)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Recomienda un plazo de prescripción mínimo común para reclamar indemnización por accidentes de tráfico transfronterizos; mejora la posición de las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2103(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2121(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza créditos europeos para gestión migratoria; sin efecto directo con signo conocido sobre un colectivo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2123(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2125(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2132(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión con múltiples partidas; sin efecto directo con signo conocido sobre un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2150(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2151(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2208(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2209(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2212(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2252(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza créditos europeos para la crisis de refugiados; sin efecto directo con signo conocido sobre un colectivo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2253(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Moviliza fondos europeos de flexibilidad para migración; sin efecto directo con signo conocido sobre un colectivo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2254(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación entre organismos, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2264(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Moviliza fondos europeos de flexibilidad para migración; sin efecto directo con signo conocido sobre un colectivo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2269(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario de la Unión; no se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2295(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2015/2298(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede ayuda de la Unión a trabajadores despedidos de otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0002(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación entre organismos, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0005(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0006(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0010(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 1,
+  "nota": "Amplía el intercambio automático de información fiscal, incluida la de grupos multinacionales, entre administraciones; obliga a los grandes grupos a informar.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0011(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Establece normas contra la elusión fiscal (limitación de intereses, transparencia fiscal internacional, impuesto de salida) que afectan a los grupos multinacionales.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0014(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la homologación y vigilancia de mercado de vehículos: más seguridad de producto para todos y mayores exigencias a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0021(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Convenio internacional que limita el mercurio: mejora de la salud pública y del medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0023(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Restringe usos, exportación y almacenamiento de mercurio: mejora ambiental y sanitaria general e impone exigencias a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0027(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0029(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0030(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad del suministro de gas; beneficia a los consumidores del suministro.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0031(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0033(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0034(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0039(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0043(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0047(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0050(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0052(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0058(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0059(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "civPar": 1
+  },
+  "peso": 1,
+  "nota": "Fija jurisdicción y ley aplicable en los regímenes económicos matrimoniales transfronterizos; da seguridad jurídica a los matrimonios.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0060(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "civPar": 1
+  },
+  "peso": 1,
+  "nota": "Fija jurisdicción y ley aplicable en los efectos patrimoniales de las uniones registradas transfronterizas; da seguridad jurídica a las parejas.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0061(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0062(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Adhesión al convenio sobre prevención y lucha contra la violencia contra las mujeres y doméstica; refuerza protección de mujeres víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0064(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación entre organismos, sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0067(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0070(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0074(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Medidas técnicas de pesca para proteger recursos y ecosistemas marinos: mejora ambiental y mayores restricciones al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0075(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención o régimen de visados de estancia corta para nacionales de un tercer país; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0077(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo de pesca sostenible que da acceso a aguas de las Islas Cook a la flota pesquera de la Unión.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0084(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Regula los productos fertilizantes con marcado CE e impone límites al cadmio, lo que mejora la seguridad de suelos y alimentos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0089(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Medidas provisionales de protección internacional que reubican solicitantes de asilo desde Italia y Grecia a otros Estados miembros.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0092(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0096(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención o régimen de visados de estancia corta para nacionales de un tercer país; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0098(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención o régimen de visados de estancia corta para nacionales de un tercer país; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0100(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención o régimen de visados de estancia corta para nacionales de un tercer país; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0103(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención o régimen de visados de estancia corta para nacionales de un tercer país; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0105(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0106(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0107(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a grandes grupos multinacionales a divulgar información sobre el impuesto de sociedades por país.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0109(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0110(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0120(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0121(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0125(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención o régimen de visados de estancia corta para nacionales de un tercer país; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0126(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o protocolo internacional sin efecto directo determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0130(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija nuevos valores límite de exposición laboral a agentes carcinógenos; la protección alcanza a trabajadores expuestos y suma costes a empresas de varios sectores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0133(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0139(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención o régimen de visados de estancia corta para nacionales de un tercer país; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0142(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exención o régimen de visados de estancia corta para nacionales de un tercer país; sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0145(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ }
+]

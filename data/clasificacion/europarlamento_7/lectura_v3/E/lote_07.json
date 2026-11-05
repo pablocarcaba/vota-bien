@@ -1,0 +1,854 @@
+[
+ {
+  "id": "2012/2023(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2024(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma procedimental de la Unión sobre procedimientos administrativos; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2051(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de solidaridad por catástrofes en otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2055(INL)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Derecho de acceso a servicios bancarios básicos: beneficia a los usuarios de banca y obliga a las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2057(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario de la Unión; sin efecto directo identificable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2058(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2061(INL)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la información y consulta a los trabajadores en las reestructuraciones de empresas; derecho laboral aplicable a los asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2071(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario de la Unión; sin efecto directo identificable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2089(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2092(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario de la Unión; sin efecto directo identificable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2110(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2121(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2127(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario de la Unión; sin efecto directo identificable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2151(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Hoja de ruta institucional sobre la unión económica y monetaria; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2154(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2155(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2157(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2160(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2164(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2165(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2228(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2230(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2237(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de solidaridad por catástrofes en otro Estado miembro; sin efecto directo sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2242(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario de la Unión; sin efecto directo identificable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2260(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Gobernanza del mercado único: norma institucional y de coordinación; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2265(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2275(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2276(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2277(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2278(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2279(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2280(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Movilización de un fondo europeo de ayuda a trabajadores despedidos; el título no permite determinar colectivos concretos con signo en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2281(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario de la Unión; sin efecto directo identificable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2307(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajuste presupuestario de la Unión; sin efecto directo identificable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2309(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reparto de escaños del Parlamento Europeo; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0007(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0010(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0012(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0013(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0014(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0015(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0019(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0022(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0023(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre falsificación del euro; sin efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0024(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las entidades de pago a acompañar las transferencias con datos del ordenante y beneficiario.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0025(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza las obligaciones de prevención del blanqueo y financiación del terrorismo para entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0027(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secDig": -1,
+   "secFin": -1,
+   "secTrans": -1,
+   "secInd": -1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Impone requisitos de seguridad de redes e información y notificación de incidentes a operadores digitales y de infraestructuras críticas.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0028(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el transporte nacional de viajeros por ferrocarril: traspaso de un servicio público al mercado.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0029(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el transporte nacional de viajeros por ferrocarril y reordena la gobernanza de la infraestructura.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0045(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Establece un impuesto sobre las transacciones financieras que soportan las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0048(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la vigilancia del mercado para retirar productos inseguros; mejora la seguridad de productos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0049(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Fija requisitos de seguridad de los productos de consumo y refuerza las garantías de los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0062(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0063(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0064(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0072(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica derechos de pasajeros aéreos con elementos en sentidos opuestos; signo no determinable con el título.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0074(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0080(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Reduce el coste de desplegar redes de alta velocidad facilitando el acceso a infraestructuras; beneficia a operadores de telecomunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0081(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Amplía y unifica las condiciones de entrada y residencia de nacionales de terceros países para estudios, investigación y prácticas.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0082(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0084(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0085(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0086(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0087(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Fija un porcentaje de reducción de los pagos directos a agricultores para 2013.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0088(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0089(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0091(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0092(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0096(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0097(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0099(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0103(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0104(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0105(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0106(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0110(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a grandes sociedades a divulgar información no financiera y sobre diversidad.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0117(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0119(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0124(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0128(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0130(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0133(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0136(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0137(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0139(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Garantiza cuenta de pago básica, comparabilidad de comisiones y cambio de cuenta; obliga a las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0140(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los controles oficiales sobre alimentos y piensos, sanidad y bienestar animal y fitosanidad.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0141(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0150(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0152(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0156(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0162(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0164(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0165(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a equipar los vehículos nuevos con eCall; mejora la seguridad vial y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0166(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los operadores móviles a transmitir llamadas eCall de emergencia; mejora la seguridad vial.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0169(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0181(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0185(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Facilita a los perjudicados por infracciones de competencia, incluidos consumidores, reclamar indemnización por daños y perjuicios.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0186(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0187(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0188(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; no se marcan impactos.",
+  "partido": ""
+ }
+]

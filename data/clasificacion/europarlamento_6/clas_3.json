@@ -1,855 +1,858 @@
 [
-{
-"id": "2007/0260(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0262(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2007/0264(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0265(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0267(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Propuesta de IVA de servicios financieros y de seguros; no adoptada y de efecto incierto.",
-"partido": ""
-},
-{
-"id": "2007/0268(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0269(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0270(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0271(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0272(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0273(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Impuesto especial de la cerveza en Madeira; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2007/0278(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Año Europeo de lucha contra la pobreza 2010; acciones de sensibilización sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2007/0279(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Simplifica las transferencias intracomunitarias de productos de defensa; beneficia a la industria.",
-"partido": ""
-},
-{
-"id": "2007/0280(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Contratación pública de defensa y seguridad; efecto sobre la industria española de signo incierto.",
-"partido": ""
-},
-{
-"id": "2007/0281(CNS)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Aumenta las cuotas lecheras nacionales; permite producir más a los ganaderos.",
-"partido": ""
-},
-{
-"id": "2007/0282(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2007/0283(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2007/0284(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0285(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de pesca del Océano Índico Meridional; marco de gestión sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2007/0286(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Directiva de emisiones industriales: mejores técnicas disponibles obligatorias; reduce la contaminación con coste para la industria.",
-"partido": ""
-},
-{
-"id": "2007/0287(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0288(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0289(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Preferencias arancelarias para países en desarrollo; efecto en España poco claro.",
-"partido": ""
-},
-{
-"id": "2007/0290(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modificación técnica de la OCM única.",
-"partido": ""
-},
-{
-"id": "2007/0291(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga de la Agencia de Seguridad de las Redes (ENISA); institucional.",
-"partido": ""
-},
-{
-"id": "2007/0292(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0293(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2007/0294(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0295(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Norma Euro VI para camiones y autobuses: reduce emisiones contaminantes con coste para los fabricantes.",
-"partido": ""
-},
-{
-"id": "2007/0296(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0297(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Límites de CO2 para turismos nuevos (130 g/km); reduce emisiones con coste para los fabricantes de automóviles.",
-"partido": ""
-},
-{
-"id": "2007/0299(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2007/0300(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Directrices de empleo; orientaciones no vinculantes.",
-"partido": ""
-},
-{
-"id": "2007/0803(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Cooperación entre unidades especiales de intervención policial; institucional.",
-"partido": ""
-},
-{
-"id": "2007/0808(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Dictamen para convocar la Conferencia Intergubernamental del Tratado de Lisboa; institucional.",
-"partido": ""
-},
-{
-"id": "2007/0809(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Red de puntos de contacto contra la corrupción; institucional.",
-"partido": ""
-},
-{
-"id": "2007/0810(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Aplicación de Schengen en nuevos Estados miembros; institucional.",
-"partido": ""
-},
-{
-"id": "2007/0821(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Decisión Prüm de cooperación policial transfronteriza; institucional.",
-"partido": ""
-},
-{
-"id": "2007/0901(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reglamento financiero de las agencias ejecutivas; institucional.",
-"partido": ""
-},
-{
-"id": "2007/2019(BUD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"estud": 1
-},
-"peso": 3,
-"nota": "Presupuesto anual de la UE para 2008: financia la PAC, el desarrollo rural, la cohesión y Erasmus.",
-"partido": ""
-},
-{
-"id": "2007/2019B(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto 2008 de las demás instituciones; gasto administrativo.",
-"partido": ""
-},
-{
-"id": "2007/2169(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Composición del Parlamento Europeo; institucional.",
-"partido": ""
-},
-{
-"id": "2007/2238(INL)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Pide regular los fondos especulativos y el capital riesgo (transparencia, capital); coste para el sector financiero.",
-"partido": ""
-},
-{
-"id": "2007/2239(INL)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Pide más transparencia a los inversores institucionales; efecto distributivo poco claro.",
-"partido": ""
-},
-{
-"id": "2008/0001(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0002(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Procedimiento de autorización de nuevos alimentos; no adoptado y de efecto incierto.",
-"partido": ""
-},
-{
-"id": "2008/0003(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0004(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de cooperación en competencia con Corea; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2008/0005(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0008(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0009(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0011(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modificación técnica de la OCM única.",
-"partido": ""
-},
-{
-"id": "2008/0013(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1,
-"cons": -1
-},
-"peso": 3,
-"nota": "Reforma del comercio de emisiones: tope común y subasta de derechos desde 2013; reduce emisiones con coste para la industria y la factura eléctrica.",
-"partido": ""
-},
-{
-"id": "2008/0014(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 2,
-"nota": "Reparto de esfuerzos: objetivos nacionales de reducción de emisiones fuera del comercio de emisiones.",
-"partido": ""
-},
-{
-"id": "2008/0015(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Marco para el almacenamiento geológico de CO2 con requisitos de seguridad; instrumento climático.",
-"partido": ""
-},
-{
-"id": "2008/0016(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": 1
-},
-"peso": 2,
-"nota": "Directiva de renovables: objetivo del 20 % y 10 % en transporte; reduce emisiones e impulsa a la industria renovable.",
-"partido": ""
-},
-{
-"id": "2008/0017(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de servicios aéreos; tratado técnico sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2008/0018(COD)",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"cons": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Directiva de seguridad de los juguetes: prohíbe sustancias peligrosas y endurece requisitos; protege a los niños con coste para fabricantes.",
-"partido": ""
-},
-{
-"id": "2008/0019(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0020(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Financiación del Fondo Comunitario del Tabaco; técnico.",
-"partido": ""
-},
-{
-"id": "2008/0021(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0022(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0023(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2008/0024(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2008/0025(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2008/0026(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0029(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2008/0030(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2008/0032(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2008/0033(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Prohíbe los decapantes con diclorometano para consumidores; protege la salud con coste para la industria.",
-"partido": ""
-},
-{
-"id": "2008/0035(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Reglamento de cosméticos: evaluación de seguridad, nanomateriales y vigilancia; protege al consumidor con coste para fabricantes.",
-"partido": ""
-},
-{
-"id": "2008/0036(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de servicios aéreos; tratado técnico sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2008/0037(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0038(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2008/0039(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0041(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Uso del Sistema de Información de Visados en las fronteras; técnico.",
-"partido": ""
-},
-{
-"id": "2008/0042(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación al procedimiento de comitología; institucional.",
-"partido": ""
-},
-{
-"id": "2008/0044(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0045(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Procedimiento de modificación de autorizaciones de medicamentos; administrativo.",
-"partido": ""
-},
-{
-"id": "2008/0046(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Simplificación de listas veterinarias y zootécnicas; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0047(COD)",
-"tipo": "soc",
-"imp": {
-"infancia": 1
-},
-"peso": 1,
-"nota": "Programa «Internet más segura» 2009-2013: protege a los menores en internet.",
-"partido": ""
-},
-{
-"id": "2008/0048(AVC)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Convenio de Lugano de competencia judicial civil; procesal.",
-"partido": ""
-},
-{
-"id": "2008/0049(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0050(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Comercialización y etiquetado de piensos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0051(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Régimen general de impuestos especiales; técnico.",
-"partido": ""
-},
-{
-"id": "2008/0052(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2008/0053(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0054(CNS)",
-"tipo": "eco",
-"imp": {
-"secInd": 1,
-"cons": 1
-},
-"peso": 1,
-"nota": "Contingentes sin aranceles para importar pescado en Canarias; abastece a la industria transformadora y al consumo canario.",
-"partido": ""
-},
-{
-"id": "2008/0055(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secTrans": -1
-},
-"peso": 1,
-"nota": "Sanciones penales por contaminación procedente de buques; protege el medio marino con coste para navieras.",
-"partido": ""
-},
-{
-"id": "2008/0057(AVC)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2008/0058(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Lucha contra el fraude del IVA intracomunitario; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0059(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Lucha contra el fraude del IVA intracomunitario; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0060(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada o refundida sin cambios sustantivos; técnica.",
-"partido": ""
-},
-{
-"id": "2008/0061(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de asociación económica con el Caribe; efecto en España poco claro.",
-"partido": ""
-},
-{
-"id": "2008/0062(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Intercambio transfronterizo de datos de infracciones de tráfico; mejora la seguridad vial.",
-"partido": ""
-},
-{
-"id": "2008/0063(CNS)",
-"tipo": "eco",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Plan de recuperación del bacalao; protege la especie; la flota española apenas faena en esas aguas.",
-"partido": ""
-},
-{
-"id": "2008/0064(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Año Europeo de la Creatividad y la Innovación; sensibilización.",
-"partido": ""
-},
-{
-"id": "2008/0066(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo o protocolo internacional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2008/0067(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda a países de Asia Central; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2008/0068(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de servicios aéreos; tratado técnico sin efecto distributivo claro.",
-"partido": ""
-}
+ {
+  "id": "2007/0260(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0262(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0264(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0265(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 1,
+  "nota": "Mantiene la exención de las normas de competencia para los consorcios de transporte marítimo de línea; beneficia a las navieras.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0267(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0268(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0269(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0270(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0271(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0272(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0273(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0278(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística o institucional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0279(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Simplifica las transferencias de productos de defensa dentro de la UE; beneficia a la industria de defensa.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0280(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0281(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Aumenta las cuotas lecheras nacionales; permite producir más a los ganaderos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0282(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0283(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0284(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0285(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0286(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece la prevención y reducción integradas de la contaminación industrial; mejora el medio ambiente y obliga a las instalaciones industriales.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0287(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0288(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0289(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0290(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0291(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0292(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0293(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0294(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0295(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija normas de homologación y emisiones de vehículos y motores; mejora la calidad del aire y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0296(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0297(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija límites de emisiones de CO2 de los turismos nuevos; protección climática que obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0299(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0300(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0803(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0808(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0809(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0810(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0821(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0901(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/2019(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1,
+   "estud": 1
+  },
+  "peso": 3,
+  "nota": "Presupuesto anual de la UE para 2008: financia la PAC, el desarrollo rural, la cohesión y Erasmus.",
+  "partido": ""
+ },
+ {
+  "id": "2007/2019B(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/2169(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2007/2238(INL)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Pide regular los fondos especulativos y el capital riesgo (transparencia, capital); coste para el sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/2239(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0001(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0002(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0003(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0004(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0005(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0008(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0009(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0011(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0013(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Revisa el comercio de derechos de emisión de gases de efecto invernadero; refuerza la protección climática y obliga a la industria y la energía.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0014(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija reducciones de emisiones de gases de efecto invernadero en sectores no incluidos en el comercio de derechos; protección climática.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0015(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Marco para el almacenamiento geológico de CO2 con requisitos de seguridad; instrumento climático.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0016(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija objetivos obligatorios de energía renovable; mejora la protección del clima y del medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0017(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0018(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "infancia": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza los requisitos de seguridad de los juguetes; protege a los niños y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0019(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0020(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0021(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0022(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0023(COD)",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Programa europeo de movilidad y actividades para jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0024(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0025(COD)",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Programa europeo de aprendizaje permanente con movilidad y formación para estudiantes.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0026(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0029(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0030(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0032(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0033(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Restringe el diclorometano, sustancia peligrosa, en productos como decapantes; protege la salud y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0035(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refunde la normativa de productos cosméticos con exigencias de seguridad; protege a los consumidores y obliga a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0036(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0037(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0038(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0039(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0041(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0042(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0044(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0045(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0046(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0047(COD)",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Programa de protección de los menores en el uso de Internet; se dirige a familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0048(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0049(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0050(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0051(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0052(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0053(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0054(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1,
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Contingentes sin aranceles para importar pescado en Canarias; abastece a la industria transformadora y al consumo canario.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0055(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Sanciones penales por contaminación procedente de buques; protege el medio marino con coste para navieras.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0057(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0058(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0059(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0060(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0061(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0062(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Intercambio transfronterizo de datos de infracciones de tráfico; mejora la seguridad vial.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0063(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Plan de recuperación del bacalao que limita las capturas y el esfuerzo pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0064(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0066(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0067(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0068(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, estadística, institucional o de cooperación sin efecto determinable sobre colectivos concretos.",
+  "partido": ""
+ }
 ]

@@ -1,0 +1,852 @@
+[
+ {
+  "id": "2012/0036(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0039(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0040(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0042(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0049(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0054(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0055(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0061(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0062(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0065(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0066(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Restringe las pilas de cadmio en herramientas inalámbricas; mejora la protección ambiental y supone coste para los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0073(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0074(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Fija controles de sustancias radiactivas en el agua de consumo; mejora la seguridad del suministro para los usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0075(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0077(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0084(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0085(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0098(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0099(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0102(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0110(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0130(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Otorga posibilidades de pesca a buques de la UE en aguas del acuerdo pesquero con contrapartida financiera.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0143(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0145(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0146(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0150(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone a bancos y empresas de inversión planes de resolución y requisitos de rescate interno; supone obligaciones para el sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0158(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0162(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0163(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0164(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0165(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0168(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza las obligaciones de depositarios, remuneración y sanciones de las gestoras de fondos; supone costes para el sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0169(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a entregar documentos de datos fundamentales de productos de inversión; mejora la información al cliente y supone coste al sector.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0172(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0179(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no incluye el articulado; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0180(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0184(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0185(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0186(COD)",
+  "tipo": "soc",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Establece inspecciones técnicas en carretera a vehículos comerciales; supone obligaciones para los transportistas.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0190(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija el objetivo de CO2 de turismos nuevos para 2020; mejora la protección del clima y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0191(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija el objetivo de CO2 de furgonetas nuevas para 2020; mejora la protección del clima y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0192(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0193(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0195(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0196(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0199(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0201(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0202(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0205(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0208(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0215(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Otorga posibilidades de pesca a buques de la UE en aguas del acuerdo pesquero con contrapartida financiera.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0216(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0217(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0221(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0224(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0232(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0236(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0237(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0238(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Otorga posibilidades de pesca a buques de la UE en aguas del acuerdo pesquero con contrapartida financiera.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0242(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0244(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0245(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0250(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0251(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0252(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0253(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0260(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0261(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0266(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad y el control de los productos sanitarios; beneficia a pacientes y exige más a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0267(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad y el control de los productos sanitarios de diagnóstico in vitro; beneficia a pacientes y exige más a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0271(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0278(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0279(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0283(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0285(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0288(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no incluye el articulado; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0295(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo de ayuda alimentaria y asistencia material para personas en situación de privación.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0297(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0298(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0299(COD)",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Fija un equilibrio de género en los consejos de las empresas cotizadas; beneficia a las mujeres y obliga a las grandes empresas.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0305(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Restringe los gases fluorados de efecto invernadero; mejora la protección del clima y obliga a productores y usuarios industriales.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0309(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0321(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0328(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 1,
+  "nota": "Exime temporalmente a los vuelos con terceros países del comercio de emisiones; rebaja la protección climática y ahorra costes a las aerolíneas.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0335(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0336(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0337(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0340(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Obliga a que los sitios web del sector público sean accesibles; mejora el acceso de las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0342(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0343(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0344(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0358(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0359(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0360(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0361(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0364(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/0366(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece fabricación, presentación y venta de tabaco; mejora la salud pública y supone obligaciones para la industria tabacalera.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2000(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2006(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2016(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+  "partido": ""
+ }
+]

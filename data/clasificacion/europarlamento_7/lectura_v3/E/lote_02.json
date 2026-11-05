@@ -1,0 +1,831 @@
+[
+ {
+  "id": "2010/0210(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Regula la entrada y residencia de trabajadores extranjeros de temporada y les reconoce derechos laborales y de estancia.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0212(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0214(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Suspende los aranceles de determinados principios activos farmacéuticos, abaratando la importación a los laboratorios.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0215(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0217(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0220(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0232(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Impone supervisión adicional a las entidades financieras de un conglomerado.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0242(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0246(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0248(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0250(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a compensar y registrar los derivados OTC en contrapartes centrales, con nuevas exigencias para entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0251(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Restringe las ventas en corto y las permutas de cobertura por impago, con obligaciones de transparencia para los operadores.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0252(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0253(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0254(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0255(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0256(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Establece ayudas agrícolas específicas para las regiones ultraperiféricas, entre ellas Canarias.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0257(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0258(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0259(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0260(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0261(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0262(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0264(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0266(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0267(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0271(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0273(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0274(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0275(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0276(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0277(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0278(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0279(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0280(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0281(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0282(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0289(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0298(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Limita los fosfatos en detergentes de ropa doméstica para proteger el agua; obliga a la industria de detergentes a reformular.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0301(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0302(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0303(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0306(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Exige programas nacionales de gestión segura del combustible gastado y residuos radiactivos, con obligaciones para el sector nuclear.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0312(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0318(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0323(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0325(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0326(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0338(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0348(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0349(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0353(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0358(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0359(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0362(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula contratos escritos y organización de los productores de leche; impone obligaciones a las industrias lácteas.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0363(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe la manipulación de los mercados de energía y obliga a los operadores a comunicar sus operaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0364(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0365(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0366(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0367(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0368(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0369(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0370(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0372(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0373(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0374(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0377(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza el control de riesgos de accidentes graves con sustancias peligrosas; obliga a los establecimientos industriales.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0380(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0383(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0384(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0385(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0387(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0390(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0395(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0801(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0802(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Crea una orden europea que extiende la protección de las víctimas a otros Estados miembros.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0814(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0816(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0817(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0820(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0821(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2001(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2002(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2004(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2014(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2031(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2035(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2045(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2046(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2048(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2056(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2060(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2066(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2067(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2068(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2091(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2094(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2099(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto directo claro sobre un colectivo concreto; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2120(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2133(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto o fondo de la Unión sin reparto determinable de efectos sobre colectivos españoles concretos.",
+  "partido": ""
+ }
+]

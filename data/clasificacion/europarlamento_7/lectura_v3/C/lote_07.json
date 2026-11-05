@@ -1,0 +1,851 @@
+[
+ {
+  "id": "2012/2023(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2024(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2051(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2055(INL)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Propone derecho de acceso a una cuenta bancaria básica: beneficia a los usuarios de banca; la banca asume la obligación de ofrecerla.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2057(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2058(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2061(INL)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de información y consulta de los trabajadores ante reestructuraciones empresariales.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2071(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2089(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2092(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión Europea; no se determina un efecto concreto sobre colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2110(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2121(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2127(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2151(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2154(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2155(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2157(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2160(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2164(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2165(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2228(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2230(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2237(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2242(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2260(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2265(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2275(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2276(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2277(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2278(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2279(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2280(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2281(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2307(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto anual de la Unión Europea; no se determina un efecto concreto sobre colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2309(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0007(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0010(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0012(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0013(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0014(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0015(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0019(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0022(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0023(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0024(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los prestadores de servicios de pago a acompañar las transferencias con información del ordenante y del beneficiario.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0025(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones de diligencia, identificación y comunicación contra el blanqueo a entidades financieras y otros sujetos obligados.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0027(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1,
+   "secTrans": -1,
+   "secFin": -1,
+   "secDig": -1,
+   "secSoc": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a operadores de energía, transporte, banca, sanidad y servicios de internet a gestionar riesgos y notificar incidentes de seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0028(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el transporte nacional de viajeros por ferrocarril; la prestación pasa a operadores privados.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0029(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el transporte nacional de viajeros por ferrocarril; la prestación pasa a operadores privados.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0045(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre transacciones financieras que grava a las entidades y operaciones financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0048(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la vigilancia del mercado para retirar productos inseguros; mejora la seguridad de los productos para toda la población.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0049(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Establece requisitos de seguridad de los productos de consumo; mejora la seguridad de los productos para toda la población.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0062(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0063(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0064(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0072(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia derechos de compensación y asistencia a pasajeros aéreos con efectos de signo mixto sobre usuarios y aerolíneas.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0074(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0080(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Reduce el coste de desplegar redes de comunicaciones de alta velocidad al facilitar el acceso a infraestructuras y obras.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0081(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Regula la entrada y residencia de extranjeros no comunitarios para investigar, estudiar o hacer prácticas y voluntariado, ampliando derechos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0082(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0084(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0085(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0086(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0087(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Fija un porcentaje de ajuste que reduce los pagos directos de la PAC a los agricultores en 2013.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0088(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0089(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0091(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0092(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0096(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0097(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0099(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0103(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0104(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0105(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0106(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0110(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las grandes sociedades a divulgar información no financiera y sobre diversidad.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0117(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0119(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0124(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0128(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0130(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0133(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0136(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0137(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0139(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula la comparabilidad de comisiones, el cambio de cuenta y el acceso a cuentas de pago básicas; la banca asume obligaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0140(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0141(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0150(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0152(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0156(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0162(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0164(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0165(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a instalar el sistema eCall de emergencia en los vehículos nuevos, mejorando la seguridad vial; los fabricantes asumen el coste.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0166(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las redes móviles a gestionar las llamadas eCall de emergencia de vehículos; los operadores asumen la obligación.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0169(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0181(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0185(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Facilita a los afectados por infracciones de competencia reclamar daños y perjuicios, incluidos los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0186(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0187(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0188(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ }
+]

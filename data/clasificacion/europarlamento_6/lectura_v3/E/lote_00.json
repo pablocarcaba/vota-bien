@@ -1,0 +1,883 @@
+[
+ {
+  "id": "1992/0449(COD)",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Fija disposiciones mínimas de seguridad y salud frente a agentes físicos para los trabajadores; derecho laboral general.",
+  "partido": ""
+ },
+ {
+  "id": "1998/0304(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "1999/0238(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Restringe sustancias peligrosas en juguetes, mejora la seguridad de productos; la industria que los fabrica debe cumplir la exigencia.",
+  "partido": ""
+ },
+ {
+  "id": "2000/0238(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2002/0072(COD)",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Establece un marco de protección de los trabajadores temporales de empresas de trabajo temporal; derechos laborales.",
+  "partido": ""
+ },
+ {
+  "id": "2002/0254(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija normas de calidad de las aguas de baño; mejora la salud pública y el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0165(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula las alegaciones nutricionales y de salud en alimentos; protege a los consumidores y obliga a la industria alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0189A(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Limita los gases fluorados de efecto invernadero; mejora la protección del clima y obliga a la industria que los usa.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0252(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0256(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula el registro y control de productos químicos; mejora la protección de la salud y el ambiente y obliga a la industria química.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0262(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula la adición de vitaminas y minerales a los alimentos; refuerza la seguridad alimentaria y obliga a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0270(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2003/0318(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0001(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0020(CNS)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Protege arrecifes de coral de aguas profundas de la pesca de arrastre; mejora la biodiversidad y restringe a la pesca.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0039(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0047(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el mercado ferroviario de mercancías; traspasa a operadores privados parte de un mercado público.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0048(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Exige certificación a los conductores de trenes; los operadores ferroviarios deben cumplir la exigencia de seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0058(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Cuota de pesca en aguas de un tercer país para la flota europea; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0069(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0070(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Cuota de pesca en aguas de un tercer país para la flota europea; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0071(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Cuota de pesca en aguas de un tercer país para la flota europea; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0073(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Financia la información y promoción de productos agrícolas; beneficia al sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0086(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0090(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0098(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0100(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0113(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0122(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0134(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0145(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0154(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0156(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0161(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1
+  },
+  "peso": 2,
+  "nota": "Crea el apoyo del FEADER al desarrollo rural; ayudas al sector agrario y al medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0162(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0163(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0166(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0167(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0168(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0169(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Crea el Fondo Europeo de la Pesca con ayudas al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0209(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0213(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0215(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0218(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Crea el instrumento financiero LIFE+ para políticas de medio ambiente; mejora la protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0224(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0229(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0233(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0234(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0237(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0247(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Medidas de apoyo a la agricultura de las regiones ultraperiféricas; beneficia al sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0258(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0264(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0268(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0269(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0274(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0275(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0816(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/2001(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2004/2002(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0005(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0007(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos de asistencia a personas con movilidad reducida en el transporte aéreo; obliga a aerolíneas y aeropuertos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0008(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a informar a los viajeros de la identidad del transportista aéreo; protege a usuarios y obliga a las aerolíneas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0017(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0018(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0037A(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "mujeres": 1
+  },
+  "peso": 1,
+  "nota": "Financia acciones contra la violencia hacia mujeres, jóvenes y niños; beneficia a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0037B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0038(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0039(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0040(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0041(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0044(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0052(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0056(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0061(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0064(SYN)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0090(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0092(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Cuota de pesca de atún en aguas de Comoras para la flota europea; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0102(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0103(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0104(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0106(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0124(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0125(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0127(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0129(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Orienta la financiación del desarrollo rural 2007-2013; beneficia al sector agrario y al medio rural.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0130(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0138(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las entidades financieras a acompañar las transferencias con información del ordenante; cumplen una exigencia.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0150(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0153(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Fija requisitos zoosanitarios a animales y productos de acuicultura; el sector acuícola debe cumplirlos.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0156(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0157(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0159(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0162(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0167(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 2,
+  "nota": "Fija normas comunes de retorno de nacionales de terceros países en situación irregular; restringe derechos de permanencia.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0175(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0182(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a los operadores de comunicaciones electrónicas a conservar datos de tráfico; impone una exigencia al sector.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0183(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija normas de calidad del aire ambiente; mejora la salud pública y el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0191(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Fija normas comunes de seguridad de la aviación civil; los operadores aéreos y aeroportuarios deben cumplirlas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0194(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Regula la comercialización de pirotecnia; mejora la seguridad de productos y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0202(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, técnica o de cooperación sin efecto claro.",
+  "partido": ""
+ }
+]

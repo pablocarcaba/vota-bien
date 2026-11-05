@@ -1,907 +1,870 @@
 [
-{
-"id": "2017/2017(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Solidaridad para catástrofes en otros Estados miembros; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2017/2018(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2022(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2033(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2043(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2044(BUD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"estud": 1
-},
-"peso": 3,
-"nota": "Presupuesto anual de la UE: ayudas agrarias, desarrollo rural y Erasmus+, con España entre los grandes receptores.",
-"partido": ""
-},
-{
-"id": "2017/2054(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Composición del Parlamento Europeo; norma institucional.",
-"partido": ""
-},
-{
-"id": "2017/2058(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda del Fondo de Adaptación a la Globalización a trabajadores despedidos de otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2017/2061(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2064(INL)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Pide medidas contra la manipulación del cuentakilómetros; protege a compradores de vehículos usados.",
-"partido": ""
-},
-{
-"id": "2017/2076(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2077(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Instrumento de flexibilidad para migración y seguridad; mezcla acogida y control, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2017/2078(BUD)",
-"tipo": "eco",
-"imp": {
-"jovenes": 1
-},
-"peso": 1,
-"nota": "Aumenta la Iniciativa de Empleo Juvenil, de la que España es gran receptora.",
-"partido": ""
-},
-{
-"id": "2017/2079(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Ayuda del Fondo de Adaptación a la Globalización a mineros despedidos en Castilla y León.",
-"partido": ""
-},
-{
-"id": "2017/2098(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda del Fondo de Adaptación a la Globalización a trabajadores despedidos de otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2017/2101(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Solidaridad para catástrofes en otros Estados miembros; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2017/2109(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2131(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Activa el procedimiento del artículo 7 sobre Hungría; decisión institucional sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2017/2134(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2135(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2200(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda del Fondo de Adaptación a la Globalización a trabajadores despedidos de otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2017/2217(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2229(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda del Fondo de Adaptación a la Globalización a trabajadores despedidos de otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2017/2231(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda del Fondo de Adaptación a la Globalización a trabajadores despedidos de otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2017/2265(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2017/2270(INL)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Pide un visado humanitario europeo para solicitar asilo con seguridad; beneficia a personas que buscan protección.",
-"partido": ""
-},
-{
-"id": "2017/2286(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Trámite presupuestario de la UE sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0003(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Empresa común de supercomputación; infraestructura de investigación sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0005(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Da más libertad a los Estados para fijar tipos reducidos de IVA; el efecto depende de la decisión nacional.",
-"partido": ""
-},
-{
-"id": "2018/0006(CNS)",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1
-},
-"peso": 1,
-"nota": "Simplifica el régimen de franquicia del IVA para pequeñas empresas, también en otros Estados miembros.",
-"partido": ""
-},
-{
-"id": "2018/0009(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o autorización técnica; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0012(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secTrans": -1
-},
-"peso": 1,
-"nota": "Obliga a entregar en puerto los desechos de buques; reduce la basura marina con costes para navieras.",
-"partido": ""
-},
-{
-"id": "2018/0018(COD)",
-"tipo": "soc",
-"imp": {
-"pac": 1
-},
-"peso": 2,
-"nota": "Evaluación clínica conjunta de medicamentos y tecnologías sanitarias; acelera el acceso de los pacientes a innovaciones.",
-"partido": ""
-},
-{
-"id": "2018/0032(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o autorización técnica; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0036(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Participación de un país mediterráneo en el programa de investigación PRIMA; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0040(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga técnica de trámites aduaneros en papel; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2018/0041(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": 1
-},
-"peso": 1,
-"nota": "Reduce barreras a la distribución transfronteriza de fondos de inversión; favorece a las gestoras.",
-"partido": ""
-},
-{
-"id": "2018/0042(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Tratamiento prudencial de los bonos garantizados; efecto incierto sobre la banca española.",
-"partido": ""
-},
-{
-"id": "2018/0043(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Marco común de bonos garantizados (cédulas); armonización técnica de efecto incierto en España.",
-"partido": ""
-},
-{
-"id": "2018/0044(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ley aplicable a las cesiones de créditos; norma técnica de Derecho internacional privado.",
-"partido": ""
-},
-{
-"id": "2018/0045(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": 1
-},
-"peso": 1,
-"nota": "Reduce barreras a la distribución transfronteriza de fondos de inversión; favorece a las gestoras.",
-"partido": ""
-},
-{
-"id": "2018/0047(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Regulación técnica de supervisión financiera; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0048(COD)",
-"tipo": "eco",
-"imp": {
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 1,
-"nota": "Marco europeo de plataformas de financiación participativa; facilita financiación a pequeñas empresas.",
-"partido": ""
-},
-{
-"id": "2018/0050(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secPrim": -1
-},
-"peso": 2,
-"nota": "Plan plurianual de pesca demersal en el Mediterráneo occidental; reduce el esfuerzo de arrastre de la flota española.",
-"partido": ""
-},
-{
-"id": "2018/0058(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda macrofinanciera a Ucrania; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2018/0060(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Exige a los bancos cubrir con provisiones mínimas los préstamos dudosos; coste para la banca.",
-"partido": ""
-},
-{
-"id": "2018/0061(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del Código de visados: tasas y vínculo con la readmisión; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0064(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Crea la Autoridad Laboral Europea para coordinar inspecciones de movilidad laboral; organismo sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0065(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste del calendario Euro 5 para vehículos de dos y tres ruedas; norma técnica de efecto incierto.",
-"partido": ""
-},
-{
-"id": "2018/0066(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Codificación de las listas de visados; sin cambios sustantivos.",
-"partido": ""
-},
-{
-"id": "2018/0067(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Renovación del acuerdo de cooperación científica con Estados Unidos; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2018/0069(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Transpone medidas técnicas de la Comisión General de Pesca del Mediterráneo; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0070(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Actualiza las restricciones a contaminantes orgánicos persistentes; beneficio sanitario y ambiental, coste para la industria química.",
-"partido": ""
-},
-{
-"id": "2018/0072(CNS)",
-"tipo": "eco",
-"imp": {
-"secDig": -1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Propone gravar a las grandes empresas digitales donde tengan presencia digital significativa.",
-"partido": ""
-},
-{
-"id": "2018/0073(CNS)",
-"tipo": "eco",
-"imp": {
-"secDig": -1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Propone un impuesto del 3 % sobre ingresos de grandes empresas de servicios digitales.",
-"partido": ""
-},
-{
-"id": "2018/0074(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Plan plurianual de pesca en aguas occidentales; sostenibilidad de poblaciones con límites para la flota.",
-"partido": ""
-},
-{
-"id": "2018/0076(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Limita comisiones de pagos transfronterizos y exige transparencia en la conversión de divisas.",
-"partido": ""
-},
-{
-"id": "2018/0080(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional de alcance técnico o comercial limitado; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0081(COD)",
-"tipo": "soc",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Nuevos límites de exposición a agentes cancerígenos en el trabajo; protege a trabajadores industriales con coste para las empresas.",
-"partido": ""
-},
-{
-"id": "2018/0082(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"secCom": -1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Prohíbe prácticas comerciales desleales de grandes compradores frente a agricultores y proveedores alimentarios.",
-"partido": ""
-},
-{
-"id": "2018/0088(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Más transparencia en los estudios de la EFSA sobre riesgos alimentarios; mejora la seguridad alimentaria.",
-"partido": ""
-},
-{
-"id": "2018/0089(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Acciones colectivas de consumidores con reparación; aumenta la exposición judicial de grandes empresas.",
-"partido": ""
-},
-{
-"id": "2018/0090(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Nuevas reglas de protección del consumidor: sanciones, transparencia en mercados en línea y calidad dual.",
-"partido": ""
-},
-{
-"id": "2018/0091(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 2,
-"nota": "Acuerdo comercial con Japón; elimina aranceles a exportaciones agroalimentarias españolas como vino y porcino.",
-"partido": ""
-},
-{
-"id": "2018/0091M(NLE)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 2,
-"nota": "Acuerdo comercial con Japón; elimina aranceles a exportaciones agroalimentarias españolas como vino y porcino.",
-"partido": ""
-},
-{
-"id": "2018/0093M(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de libre comercio con Singapur; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0095M(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de protección de inversiones con Singapur; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0097(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o estadística sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0101(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Procedimiento para activar salvaguardias comerciales en acuerdos con terceros países; norma técnica.",
-"partido": ""
-},
-{
-"id": "2018/0103(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Restringe la venta de precursores de explosivos; seguridad sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0104(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Normas de seguridad de los documentos de identidad, con huellas dactilares; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0105(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acceso policial a información financiera para investigar delitos graves; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0106(COD)",
-"tipo": "soc",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"asal4": 1,
-"empMed": -1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Protege frente a represalias a quienes denuncien infracciones; obliga a empresas medianas y grandes a crear canales de denuncia.",
-"partido": ""
-},
-{
-"id": "2018/0109(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Plan de recuperación del pez espada del Mediterráneo; protege la especie con límites a la pesca.",
-"partido": ""
-},
-{
-"id": "2018/0110(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o estadística sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0111(COD)",
-"tipo": "eco",
-"imp": {
-"secDig": 1
-},
-"peso": 1,
-"nota": "Amplía la reutilización gratuita de datos públicos; favorece a empresas digitales que los aprovechan.",
-"partido": ""
-},
-{
-"id": "2018/0112(COD)",
-"tipo": "eco",
-"imp": {
-"empMicro": 1,
-"empPeq": 1,
-"secCom": 1,
-"secDig": -1
-},
-"peso": 1,
-"nota": "Transparencia y reclamaciones para empresas que venden mediante plataformas en línea; obligaciones para las plataformas.",
-"partido": ""
-},
-{
-"id": "2018/0113(COD)",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1
-},
-"peso": 1,
-"nota": "Permite constituir sociedades y registrar trámites íntegramente en línea; reduce costes a emprendedores.",
-"partido": ""
-},
-{
-"id": "2018/0114(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Transformaciones y fusiones transfronterizas con garantías para trabajadores y acreedores; efecto distributivo incierto.",
-"partido": ""
-},
-{
-"id": "2018/0116(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o autorización técnica; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2018/0118(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Somete una nueva sustancia psicoactiva a control; medida técnica sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0122(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de asociación estratégica con Japón; cooperación política sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2018/0122M(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de asociación estratégica con Japón; cooperación política sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2018/0123(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o estadística sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0124(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o de cooperación administrativa del IVA; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0129(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Extiende la gestión de seguridad a más carreteras; mejora la seguridad vial general.",
-"partido": ""
-},
-{
-"id": "2018/0130(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adelanta la aplicación de cabinas de camión más largas y aerodinámicas; norma técnica.",
-"partido": ""
-},
-{
-"id": "2018/0136(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Condiciona los fondos de la UE al respeto del Estado de Derecho; mecanismo institucional.",
-"partido": ""
-},
-{
-"id": "2018/0138(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Agiliza permisos para completar la red transeuropea de transporte; norma procedimental.",
-"partido": ""
-},
-{
-"id": "2018/0139(COD)",
-"tipo": "eco",
-"imp": {
-"secTrans": 1
-},
-"peso": 1,
-"nota": "Ventanilla única marítima; reduce cargas administrativas a navieras y operadores portuarios.",
-"partido": ""
-},
-{
-"id": "2018/0140(COD)",
-"tipo": "eco",
-"imp": {
-"secTrans": 1
-},
-"peso": 1,
-"nota": "Información electrónica del transporte de mercancías; reduce papeleo a las empresas de transporte.",
-"partido": ""
-},
-{
-"id": "2018/0142(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o estadística sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0143(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secTrans": -1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Primeras normas de CO2 para camiones nuevos; beneficio climático con costes para fabricantes y transportistas.",
-"partido": ""
-},
-{
-"id": "2018/0145(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Obliga a incorporar sistemas de seguridad en vehículos nuevos; protege a ocupantes y peatones con coste para fabricantes.",
-"partido": ""
-},
-{
-"id": "2018/0148(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"ciud": 1
-},
-"peso": 1,
-"nota": "Mejora el etiquetado de neumáticos sobre consumo, ruido y agarre; informa al consumidor y reduce emisiones.",
-"partido": ""
-},
-{
-"id": "2018/0150(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o de cooperación administrativa del IVA; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0152(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Revisión del Sistema de Información de Visados; herramienta técnica sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0153(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Red de funcionarios de enlace de inmigración; norma organizativa.",
-"partido": ""
-},
-{
-"id": "2018/0154(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o estadística sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2018/0158(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reparto de contingentes arancelarios tras el Brexit; norma técnica.",
-"partido": ""
-}
+ {
+  "id": "2017/2017(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2018(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2022(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2033(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2043(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2044(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto general de la Unión para 2018; reparto por rúbricas sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2054(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2058(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2061(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2064(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2076(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2077(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2078(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Aumenta los recursos de la Iniciativa de Empleo Juvenil contra el desempleo juvenil.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2079(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Ayuda del FEAG a trabajadores despedidos de la minería en Castilla y León y a jóvenes ninis menores de 30 años.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2098(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2101(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2109(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2131(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2134(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2135(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2200(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2217(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2229(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2231(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2265(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2270(INL)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Propone visados humanitarios que amplían las vías legales de acceso de extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2286(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0003(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0005(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0006(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1
+  },
+  "peso": 2,
+  "nota": "Régimen especial del IVA para pequeñas empresas con simplificación de obligaciones y exenciones.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0009(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0012(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la entrega de residuos de buques en puertos para reducir la contaminación marina; los operadores marítimos asumen las obligaciones y tasas.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0018(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Evaluación conjunta de tecnologías sanitarias; el texto disponible no permite determinar el signo para pacientes o industria.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0032(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0036(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0040(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0041(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Distribución transfronteriza de fondos de inversión colectiva; el texto disponible no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0042(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0043(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0044(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0045(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Distribución transfronteriza de fondos de inversión colectiva; el texto disponible no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0047(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0048(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula las plataformas de financiación participativa; el texto disponible no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0050(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Plan plurianual de gestión de poblaciones de peces demersales con límites al esfuerzo pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0058(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0060(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Exige a los bancos una cobertura mínima de pérdidas por préstamos dudosos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0061(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0064(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0065(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Exige emisiones Euro 5 a motocicletas y cuatriciclos; los fabricantes asumen el cumplimiento.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0066(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0067(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0069(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Aplica en la UE medidas de conservación pesquera del Mediterráneo que limitan la actividad pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0070(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Refunde las restricciones a contaminantes orgánicos persistentes; protege la salud y el medio ambiente y obliga a la industria química.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0072(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Grava los beneficios de empresas con presencia digital significativa.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0073(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impuesto sobre los ingresos de determinados servicios digitales de grandes empresas.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0074(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Plan plurianual de poblaciones de peces en aguas occidentales con límites de capturas y esfuerzo pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0076(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Reduce y hace transparentes las comisiones de pagos transfronterizos y conversión de divisas cobradas por la banca.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0080(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0081(COD)",
+  "tipo": "soc",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la protección de la salud de los trabajadores frente a agentes carcinógenos y mutágenos.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0082(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secCom": -1,
+   "secInd": -1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Prohíbe prácticas desleales de compradores en la cadena alimentaria; protege a proveedores y obliga a industria y distribución.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0088(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la transparencia de la evaluación de riesgos de la cadena alimentaria y la seguridad alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0089(COD)",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Permite acciones de representación para proteger los intereses colectivos de los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0090(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Moderniza y refuerza la aplicación de las normas de protección de los consumidores, con sanciones por infracciones.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0091(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo comercial UE-Japón; ganadores y perdedores de signo opuesto según el sector y sin detalle en el texto.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0091M(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo comercial UE-Japón; ganadores y perdedores de signo opuesto según el sector y sin detalle en el texto.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0093M(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0095M(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0097(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0101(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0103(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0104(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0105(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0106(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protege a quienes informan sobre infracciones del Derecho de la Unión; sin colectivo con signo determinable en el texto disponible.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0109(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Plan de recuperación del pez espada que limita las capturas de la flota pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0110(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0111(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición sobre reutilización de información del sector público; sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0112(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones de equidad y transparencia a los servicios de intermediación en línea.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0113(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Herramientas digitales en el Derecho de sociedades; sin colectivo con signo determinable en el texto disponible.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0114(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0116(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0118(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0122(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0122M(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria, institucional o técnica de la UE sin efecto directo identificable sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0123(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0124(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0129(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la gestión de la seguridad de las infraestructuras viarias, con mejora general de la seguridad vial.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0130(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0136(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0138(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0139(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ventanilla única marítima europea; trámite administrativo sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0140(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Información electrónica sobre el transporte de mercancías; trámite administrativo sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0142(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0143(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Fija normas de emisiones de CO2 para vehículos pesados nuevos; los fabricantes asumen el cumplimiento.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0145(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Exige requisitos de seguridad a los vehículos de motor; los fabricantes asumen el cumplimiento.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0148(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Actualiza el etiquetado de neumáticos para informar al consumidor; los fabricantes deben cumplirlo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0150(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0152(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0153(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0154(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2018/0158(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ }
 ]

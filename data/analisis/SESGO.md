@@ -1368,46 +1368,46 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Cs | 34.9 % | 2.3 | +76 |
-| Equo | 29.8 % | 5.2 | +67 |
-| PDeCAT | 28.9 % | 1.8 | +75 |
-| PP | 3.0 % | 6.3 | +69 |
-| PNV | 1.9 % | 3.3 | +73 |
-| UDC | 1.6 % | 9.2 | +58 |
-| PSOE | 0.0 % | 5.0 | +71 |
-| Podemos | 0.0 % | 14.7 | +19 |
-| IU | 0.0 % | 14.6 | +19 |
-| UPyD | 0.0 % | 5.3 | +71 |
-| ERC | 0.0 % | 8.1 | +62 |
-| ICV | 0.0 % | 9.8 | +54 |
-| AGE | 0.0 % | 17.0 | -12 |
-| Bildu | 0.0 % | 15.3 | +15 |
-| NECat | 0.0 % | 12.3 | +39 |
-| BNG | 0.0 % | 10.5 | +54 |
-| Compromís | 0.0 % | 12.2 | +44 |
+| PNV | 88.4 % | 1.2 | +82 |
+| Cs | 3.4 % | 4.8 | +80 |
+| UPyD | 3.2 % | 3.4 | +81 |
+| Equo | 2.6 % | 8.7 | +60 |
+| PDeCAT | 1.7 % | 2.2 | +81 |
+| PSOE | 0.7 % | 3.7 | +80 |
+| PP | 0.0 % | 6.6 | +68 |
+| Podemos | 0.0 % | 13.0 | +23 |
+| IU | 0.0 % | 12.5 | +25 |
+| ERC | 0.0 % | 6.5 | +70 |
+| ICV | 0.0 % | 8.0 | +60 |
+| AGE | 0.0 % | 15.1 | -14 |
+| Bildu | 0.0 % | 13.4 | +23 |
+| NECat | 0.0 % | 11.5 | +29 |
+| BNG | 0.0 % | 10.0 | +55 |
+| Compromís | 0.0 % | 14.9 | +1 |
+| UDC | 0.0 % | 12.1 | +19 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PDeCAT +78, Cs +78, PNV +75
-- Joven de alquiler: PDeCAT +80, Cs +80, PNV +77
-- Pensionista con casa propia: Equo +77, PDeCAT +76, Cs +76
-- Pensionista con pensión baja: Equo +77, PDeCAT +76, Cs +76
-- Autónomo del comercio: Equo +69, PDeCAT +66, Cs +65
-- Empresario de pyme industrial: Cs +76, PNV +69, PDeCAT +68
-- Funcionario docente: PDeCAT +78, Cs +78, PNV +75
-- Policía o guardia civil: PDeCAT +79, Cs +78, PNV +75
-- Sanitario asalariado: PDeCAT +77, Cs +77, PNV +75
-- Familia numerosa: PDeCAT +78, Cs +78, PNV +75
-- Rentas altas con patrimonio: Equo +77, PDeCAT +76, Cs +76
-- Gran patrimonio y gran empresa: Equo +46, PNV +40, UDC +40
-- Parado con subsidio: Equo +78, PDeCAT +77, Cs +77
-- Agricultor en el medio rural: Cs +79, PDeCAT +78, PP +77
-- Madre sola con hijo: PDeCAT +79, Cs +79, PNV +76
-- Estudiante: Cs +86, PDeCAT +85, PNV +83
-- Mayor dependiente: Equo +77, PDeCAT +76, Cs +76
-- Casero con varias viviendas: PDeCAT +77, Cs +77, PNV +75
-- Transportista autónomo: PP +70, PSOE +61, PNV +60
-- Asalariado de salario mínimo: PDeCAT +79, Cs +78, PNV +75
+- Asalariado medio con hipoteca e hijos: PNV +86, PDeCAT +85, UPyD +85
+- Joven de alquiler: PNV +87, PDeCAT +86, PSOE +85
+- Pensionista con casa propia: PNV +86, PDeCAT +85, UPyD +84
+- Pensionista con pensión baja: PNV +86, PDeCAT +85, UPyD +84
+- Autónomo del comercio: PNV +72, PDeCAT +71, PSOE +69
+- Empresario de pyme industrial: PSOE +73, PNV +73, PDeCAT +73
+- Funcionario docente: PNV +86, PDeCAT +85, UPyD +85
+- Policía o guardia civil: PNV +86, PDeCAT +85, UPyD +85
+- Sanitario asalariado: PNV +86, PDeCAT +85, UPyD +85
+- Familia numerosa: PNV +86, PDeCAT +85, UPyD +85
+- Rentas altas con patrimonio: PNV +86, PDeCAT +85, UPyD +84
+- Gran patrimonio y gran empresa: Equo +63, PNV +58, PSOE +55
+- Parado con subsidio: PNV +86, PDeCAT +85, UPyD +84
+- Agricultor en el medio rural: PNV +76, Cs +76, PDeCAT +75
+- Madre sola con hijo: PNV +86, PDeCAT +85, UPyD +85
+- Estudiante: PNV +86, PDeCAT +85, UPyD +85
+- Mayor dependiente: PNV +86, PDeCAT +85, UPyD +84
+- Casero con varias viviendas: PNV +86, PDeCAT +85, UPyD +85
+- Transportista autónomo: PNV +83, PDeCAT +82, UPyD +81
+- Asalariado de salario mínimo: PNV +86, PDeCAT +85, UPyD +85
 
 </details>
 
@@ -1415,46 +1415,46 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 42.4 % | 2.1 | +79 |
-| PP | 42.1 % | 1.7 | +79 |
-| Cs | 8.3 % | 3.5 | +78 |
-| UDC | 2.9 % | 8.2 | +58 |
-| Equo | 2.5 % | 7.4 | +60 |
-| UPyD | 1.8 % | 4.4 | +77 |
-| PSOE | 0.1 % | 5.6 | +76 |
-| Podemos | 0.0 % | 14.5 | +20 |
-| IU | 0.0 % | 15.6 | +13 |
-| ERC | 0.0 % | 8.7 | +53 |
-| ICV | 0.0 % | 10.3 | +45 |
-| AGE | 0.0 % | 17.0 | -14 |
-| PDeCAT | 0.0 % | 4.3 | +76 |
-| Bildu | 0.0 % | 13.0 | +26 |
-| NECat | 0.0 % | 13.2 | +32 |
-| BNG | 0.0 % | 11.9 | +39 |
-| Compromís | 0.0 % | 11.5 | +44 |
+| PNV | 84.7 % | 1.4 | +74 |
+| Cs | 6.3 % | 3.9 | +72 |
+| UPyD | 3.6 % | 2.1 | +73 |
+| Equo | 3.0 % | 8.7 | +51 |
+| PDeCAT | 1.8 % | 3.1 | +73 |
+| Bildu | 0.7 % | 12.0 | +23 |
+| PP | 0.0 % | 5.9 | +64 |
+| PSOE | 0.0 % | 4.9 | +70 |
+| Podemos | 0.0 % | 10.4 | +30 |
+| IU | 0.0 % | 12.7 | +17 |
+| ERC | 0.0 % | 7.4 | +55 |
+| ICV | 0.0 % | 8.1 | +51 |
+| AGE | 0.0 % | 15.1 | -22 |
+| NECat | 0.0 % | 11.0 | +29 |
+| BNG | 0.0 % | 14.2 | +10 |
+| Compromís | 0.0 % | 13.6 | +1 |
+| UDC | 0.0 % | 9.9 | +19 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PP +82, PNV +82, PDeCAT +80
-- Joven de alquiler: PNV +83, Cs +83, PDeCAT +82
-- Pensionista con casa propia: PP +80, PNV +80, Cs +79
-- Pensionista con pensión baja: PP +80, PNV +80, Cs +79
-- Autónomo del comercio: PP +67, PNV +66, PDeCAT +65
-- Empresario de pyme industrial: Cs +75, PP +72, PNV +71
-- Funcionario docente: PP +82, PNV +82, PDeCAT +80
-- Policía o guardia civil: PNV +82, UPyD +81, Cs +81
-- Sanitario asalariado: PP +81, PNV +81, Cs +80
-- Familia numerosa: PP +82, PNV +82, PDeCAT +80
-- Rentas altas con patrimonio: PP +80, PNV +80, Cs +79
-- Gran patrimonio y gran empresa: UDC +40, PNV +38, PP +36
-- Parado con subsidio: PP +81, PNV +81, Cs +80
-- Agricultor en el medio rural: PP +80, Cs +80, UPyD +77
-- Madre sola con hijo: PNV +82, Cs +82, PDeCAT +81
-- Estudiante: PP +89, PNV +89, UPyD +88
-- Mayor dependiente: PP +80, PNV +80, Cs +79
-- Casero con varias viviendas: PP +81, PNV +81, Cs +80
-- Transportista autónomo: PP +76, PSOE +62, PNV +59
-- Asalariado de salario mínimo: PNV +82, UPyD +81, Cs +81
+- Asalariado medio con hipoteca e hijos: PNV +80, UPyD +79, PDeCAT +79
+- Joven de alquiler: PNV +81, UPyD +80, PDeCAT +80
+- Pensionista con casa propia: PNV +79, UPyD +78, PDeCAT +78
+- Pensionista con pensión baja: PNV +79, UPyD +78, PDeCAT +78
+- Autónomo del comercio: UPyD +58, PNV +58, PDeCAT +58
+- Empresario de pyme industrial: Cs +59, PDeCAT +59, PSOE +56
+- Funcionario docente: PNV +80, UPyD +79, PDeCAT +79
+- Policía o guardia civil: PNV +80, UPyD +79, PDeCAT +79
+- Sanitario asalariado: PNV +80, UPyD +79, PDeCAT +79
+- Familia numerosa: PNV +80, UPyD +79, PDeCAT +79
+- Rentas altas con patrimonio: PNV +79, UPyD +78, PDeCAT +78
+- Gran patrimonio y gran empresa: Equo +54, PNV +41, PSOE +38
+- Parado con subsidio: PNV +79, UPyD +78, PDeCAT +78
+- Agricultor en el medio rural: Cs +65, UPyD +62, PP +60
+- Madre sola con hijo: PNV +80, UPyD +79, PDeCAT +79
+- Estudiante: PNV +80, UPyD +79, PDeCAT +79
+- Mayor dependiente: PNV +79, UPyD +78, PDeCAT +78
+- Casero con varias viviendas: PNV +80, UPyD +79, PDeCAT +79
+- Transportista autónomo: UPyD +74, PNV +74, PDeCAT +74
+- Asalariado de salario mínimo: PNV +80, UPyD +79, PDeCAT +79
 
 </details>
 
@@ -1462,46 +1462,46 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 55.4 % | 1.9 | +84 |
-| PSOE | 29.8 % | 1.7 | +84 |
-| BNG | 6.9 % | 7.5 | +72 |
-| PP | 3.2 % | 5.2 | +78 |
-| Equo | 2.9 % | 6.5 | +74 |
-| UDC | 1.0 % | 10.4 | +56 |
-| PDeCAT | 0.9 % | 3.1 | +81 |
-| Podemos | 0.0 % | 12.1 | +43 |
-| IU | 0.0 % | 13.0 | +41 |
-| UPyD | 0.0 % | 6.1 | +75 |
-| Cs | 0.0 % | 4.5 | +80 |
-| ERC | 0.0 % | 9.1 | +61 |
-| ICV | 0.0 % | 10.1 | +59 |
-| AGE | 0.0 % | 16.1 | +15 |
-| Bildu | 0.0 % | 14.9 | +22 |
-| NECat | 0.0 % | 16.7 | +11 |
-| Compromís | 0.0 % | 14.0 | +25 |
+| PP | 59.1 % | 1.0 | +90 |
+| PSOE | 22.4 % | 2.1 | +89 |
+| PNV | 16.4 % | 3.0 | +89 |
+| Cs | 1.3 % | 5.9 | +85 |
+| UPyD | 0.8 % | 4.0 | +87 |
+| Podemos | 0.0 % | 12.9 | +45 |
+| IU | 0.0 % | 12.0 | +49 |
+| ERC | 0.0 % | 9.1 | +59 |
+| ICV | 0.0 % | 10.0 | +57 |
+| AGE | 0.0 % | 15.8 | +22 |
+| PDeCAT | 0.0 % | 5.0 | +85 |
+| Equo | 0.0 % | 7.1 | +73 |
+| Bildu | 0.0 % | 15.0 | +25 |
+| NECat | 0.0 % | 17.0 | +15 |
+| BNG | 0.0 % | 7.8 | +72 |
+| Compromís | 0.0 % | 14.3 | +29 |
+| UDC | 0.0 % | 10.9 | +54 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PNV +89, PSOE +88, PDeCAT +86
-- Joven de alquiler: PSOE +88, PNV +88, PDeCAT +85
-- Pensionista con casa propia: PNV +87, PSOE +86, PDeCAT +83
-- Pensionista con pensión baja: PSOE +86, PNV +86, PDeCAT +83
-- Autónomo del comercio: PSOE +81, PNV +81, PDeCAT +77
-- Empresario de pyme industrial: Equo +46, PNV +40, PSOE +38
-- Funcionario docente: PSOE +87, PNV +87, PDeCAT +84
-- Policía o guardia civil: PSOE +87, PNV +87, PDeCAT +84
-- Sanitario asalariado: PSOE +87, PNV +87, PDeCAT +84
-- Familia numerosa: PNV +89, PSOE +88, PDeCAT +86
-- Rentas altas con patrimonio: PSOE +86, PNV +86, PDeCAT +83
-- Gran patrimonio y gran empresa: PNV +80, PSOE +79, PDeCAT +76
-- Parado con subsidio: PSOE +86, PNV +86, PDeCAT +83
-- Agricultor en el medio rural: PNV +78, PSOE +77, PDeCAT +74
-- Madre sola con hijo: PSOE +88, PNV +88, PDeCAT +86
-- Estudiante: PSOE +87, PNV +87, PDeCAT +84
-- Mayor dependiente: PSOE +87, PNV +87, PDeCAT +84
-- Casero con varias viviendas: PSOE +87, PNV +87, PDeCAT +84
-- Transportista autónomo: PNV +75, PDeCAT +75, PSOE +74
-- Asalariado de salario mínimo: PSOE +87, PNV +87, PDeCAT +84
+- Asalariado medio con hipoteca e hijos: PP +91, PSOE +90, PNV +90
+- Joven de alquiler: PP +91, PSOE +91, PNV +91
+- Pensionista con casa propia: PP +90, PSOE +90, PNV +90
+- Pensionista con pensión baja: PP +90, PSOE +90, PNV +90
+- Autónomo del comercio: PP +90, PSOE +90, PNV +90
+- Empresario de pyme industrial: PNV +49, Cs +49, PP +48
+- Funcionario docente: PP +90, PSOE +90, PNV +90
+- Policía o guardia civil: PP +90, PSOE +90, PNV +90
+- Sanitario asalariado: PP +90, PSOE +90, PNV +90
+- Familia numerosa: PP +91, PSOE +90, PNV +90
+- Rentas altas con patrimonio: PP +90, PSOE +90, PNV +90
+- Gran patrimonio y gran empresa: PP +90, PSOE +90, PNV +90
+- Parado con subsidio: PP +90, PSOE +90, PNV +90
+- Agricultor en el medio rural: PP +90, PSOE +90, PNV +90
+- Madre sola con hijo: PP +91, PSOE +91, PNV +91
+- Estudiante: PP +91, PSOE +91, PNV +91
+- Mayor dependiente: PP +91, PSOE +90, PNV +90
+- Casero con varias viviendas: PP +90, PSOE +90, PNV +90
+- Transportista autónomo: PP +84, PSOE +83, PNV +83
+- Asalariado de salario mínimo: PP +90, PSOE +90, PNV +90
 
 </details>
 
@@ -1509,46 +1509,46 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 38.6 % | 2.8 | +55 |
-| PNV | 32.9 % | 4.0 | +55 |
-| Bildu | 7.9 % | 10.2 | +41 |
-| IU | 4.3 % | 10.2 | +40 |
-| AGE | 3.8 % | 11.0 | +40 |
-| ICV | 3.2 % | 5.2 | +56 |
-| ERC | 2.9 % | 4.7 | +56 |
-| Podemos | 2.6 % | 9.1 | +42 |
-| PP | 1.4 % | 11.4 | +35 |
-| NECat | 0.6 % | 8.8 | +38 |
-| Compromís | 0.6 % | 10.3 | +37 |
-| BNG | 0.4 % | 9.5 | +46 |
-| UPyD | 0.3 % | 6.1 | +53 |
-| PDeCAT | 0.3 % | 7.4 | +51 |
-| Cs | 0.0 % | 8.6 | +49 |
-| Equo | 0.0 % | 7.5 | +53 |
-| UDC | 0.0 % | 9.7 | +30 |
+| PP | 32.0 % | 1.6 | +64 |
+| PSOE | 28.7 % | 2.7 | +63 |
+| UPyD | 19.8 % | 4.1 | +63 |
+| Cs | 5.6 % | 4.0 | +63 |
+| PNV | 5.5 % | 5.1 | +63 |
+| Podemos | 5.4 % | 7.0 | +54 |
+| Equo | 2.2 % | 7.4 | +57 |
+| ICV | 0.3 % | 9.5 | +53 |
+| Bildu | 0.3 % | 12.9 | +32 |
+| IU | 0.0 % | 9.5 | +47 |
+| ERC | 0.0 % | 9.2 | +51 |
+| AGE | 0.0 % | 12.7 | +30 |
+| PDeCAT | 0.0 % | 7.6 | +56 |
+| NECat | 0.0 % | 13.1 | +21 |
+| BNG | 0.0 % | 11.0 | +47 |
+| Compromís | 0.0 % | 14.1 | +21 |
+| UDC | 0.0 % | 16.9 | +6 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PSOE +70, PNV +70, ERC +69
-- Joven de alquiler: PSOE +63, PNV +63, UPyD +61
-- Pensionista con casa propia: PSOE +44, Podemos +44, IU +44
-- Pensionista con pensión baja: PSOE +36, Podemos +36, IU +36
-- Autónomo del comercio: PSOE +6, Podemos +6, IU +6
-- Empresario de pyme industrial: Bildu +21, NECat +0, AGE -10
-- Funcionario docente: PSOE +53, Podemos +53, IU +53
-- Policía o guardia civil: PSOE +53, Podemos +53, IU +53
-- Sanitario asalariado: PSOE +53, Podemos +53, IU +53
-- Familia numerosa: PSOE +70, PNV +70, ERC +69
-- Rentas altas con patrimonio: PSOE +36, Podemos +36, IU +36
-- Gran patrimonio y gran empresa: PSOE +12, Podemos +12, IU +12
-- Parado con subsidio: PSOE +47, PNV +47, UPyD +44
-- Agricultor en el medio rural: Bildu +44, NECat +36, Podemos +32
-- Madre sola con hijo: PSOE +69, PNV +69, ERC +68
-- Estudiante: PSOE +57, PNV +57, UPyD +55
-- Mayor dependiente: PSOE +50, Podemos +50, IU +50
-- Casero con varias viviendas: PSOE +50, Podemos +50, IU +50
-- Transportista autónomo: IU +29, AGE +24, Bildu +21
-- Asalariado de salario mínimo: PSOE +53, Podemos +53, IU +53
+- Asalariado medio con hipoteca e hijos: PP +64, PSOE +64, UPyD +64
+- Joven de alquiler: PP +67, PSOE +67, UPyD +67
+- Pensionista con casa propia: PP +55, PSOE +55, UPyD +55
+- Pensionista con pensión baja: PP +55, PSOE +55, UPyD +55
+- Autónomo del comercio: PP +53, PSOE +53, UPyD +53
+- Empresario de pyme industrial: NECat -29, Compromís -29, Podemos -31
+- Funcionario docente: PP +55, PSOE +55, UPyD +55
+- Policía o guardia civil: PP +55, PSOE +55, UPyD +55
+- Sanitario asalariado: PP +55, PSOE +55, UPyD +55
+- Familia numerosa: PP +64, PSOE +64, UPyD +64
+- Rentas altas con patrimonio: PP +53, PSOE +53, UPyD +53
+- Gran patrimonio y gran empresa: PP +53, PSOE +53, UPyD +53
+- Parado con subsidio: PP +59, PSOE +59, UPyD +59
+- Agricultor en el medio rural: PP +53, PSOE +53, UPyD +53
+- Madre sola con hijo: PP +68, PSOE +68, Cs +67
+- Estudiante: PP +70, PSOE +70, UPyD +70
+- Mayor dependiente: PP +61, PSOE +61, UPyD +61
+- Casero con varias viviendas: PP +55, PSOE +55, UPyD +55
+- Transportista autónomo: UPyD +37, PP +18, PSOE +18
+- Asalariado de salario mínimo: PP +55, PSOE +55, UPyD +55
 
 </details>
 
@@ -1558,41 +1558,41 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Aralar | 71.6 % | 2.4 | +77 |
-| CDC | 19.0 % | 2.7 | +76 |
-| VOX | 3.2 % | 4.7 | +72 |
-| ERC | 2.4 % | 9.6 | +50 |
-| ICV | 1.7 % | 4.0 | +71 |
-| PNV | 1.2 % | 3.9 | +74 |
-| PSOE | 0.6 % | 5.2 | +69 |
-| UPyD | 0.3 % | 6.3 | +69 |
-| PP | 0.0 % | 7.4 | +64 |
-| IU | 0.0 % | 11.9 | +6 |
-| UDC | 0.0 % | 8.8 | +58 |
-| BNG | 0.0 % | 11.0 | +31 |
+| ICV | 70.4 % | 2.7 | +77 |
+| PNV | 18.1 % | 2.6 | +77 |
+| Aralar | 4.1 % | 3.2 | +75 |
+| CDC | 2.9 % | 3.7 | +74 |
+| ERC | 2.8 % | 8.0 | +63 |
+| PSOE | 1.0 % | 5.5 | +70 |
+| UPyD | 0.7 % | 4.7 | +71 |
+| PP | 0.0 % | 7.9 | +66 |
+| IU | 0.0 % | 11.9 | +10 |
+| UDC | 0.0 % | 9.7 | +55 |
+| BNG | 0.0 % | 10.9 | +44 |
+| VOX | 0.0 % | 7.2 | +67 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Aralar +83, ICV +80, CDC +79
-- Joven de alquiler: Aralar +84, CDC +80, PNV +78
-- Pensionista con casa propia: Aralar +83, ICV +80, CDC +79
-- Pensionista con pensión baja: Aralar +83, ICV +80, CDC +79
-- Autónomo del comercio: Aralar +78, ICV +74, PNV +73
-- Empresario de pyme industrial: Aralar +77, VOX +75, CDC +74
-- Funcionario docente: Aralar +83, ICV +80, CDC +79
-- Policía o guardia civil: Aralar +83, CDC +80, PNV +77
-- Sanitario asalariado: Aralar +83, ICV +80, CDC +79
-- Familia numerosa: Aralar +83, ICV +80, CDC +79
-- Rentas altas con patrimonio: Aralar +83, ICV +75, VOX +75
-- Gran patrimonio y gran empresa: Aralar +68, CDC +66, VOX +65
-- Parado con subsidio: Aralar +84, CDC +80, ICV +79
-- Agricultor en el medio rural: CDC +83, PSOE +80, PP +80
-- Madre sola con hijo: Aralar +83, CDC +80, PNV +77
-- Estudiante: CDC +87, PNV +85, Aralar +83
-- Mayor dependiente: Aralar +83, ICV +80, CDC +79
-- Casero con varias viviendas: Aralar +83, ICV +80, CDC +79
-- Transportista autónomo: VOX +79, PSOE +78, PNV +77
-- Asalariado de salario mínimo: Aralar +83, CDC +80, PNV +77
+- Asalariado medio con hipoteca e hijos: ICV +85, Aralar +79, PNV +78
+- Joven de alquiler: ICV +81, Aralar +81, PNV +79
+- Pensionista con casa propia: ICV +85, Aralar +79, PNV +78
+- Pensionista con pensión baja: ICV +85, Aralar +79, PNV +78
+- Autónomo del comercio: ICV +81, PNV +76, Aralar +74
+- Empresario de pyme industrial: Aralar +66, CDC +63, PNV +61
+- Funcionario docente: ICV +85, Aralar +79, PNV +78
+- Policía o guardia civil: ICV +81, Aralar +80, PNV +79
+- Sanitario asalariado: ICV +85, Aralar +79, PNV +78
+- Familia numerosa: ICV +85, Aralar +79, PNV +78
+- Rentas altas con patrimonio: ICV +85, Aralar +79, PNV +78
+- Gran patrimonio y gran empresa: ICV +81, PNV +75, Aralar +73
+- Parado con subsidio: ICV +85, Aralar +81, PNV +79
+- Agricultor en el medio rural: CDC +80, PSOE +79, PP +78
+- Madre sola con hijo: ICV +81, Aralar +80, PNV +79
+- Estudiante: PNV +86, CDC +84, PSOE +82
+- Mayor dependiente: ICV +85, Aralar +79, PNV +78
+- Casero con varias viviendas: ICV +85, Aralar +79, PNV +78
+- Transportista autónomo: PSOE +73, UPyD +73, PNV +73
+- Asalariado de salario mínimo: ICV +81, Aralar +80, PNV +79
 
 </details>
 
@@ -1600,41 +1600,41 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| ICV | 58.9 % | 3.2 | +76 |
-| PP | 15.1 % | 3.7 | +78 |
-| Aralar | 8.5 % | 5.5 | +71 |
-| UPyD | 4.9 % | 4.0 | +77 |
-| PSOE | 4.7 % | 3.0 | +77 |
-| ERC | 3.6 % | 9.8 | +56 |
-| CDC | 2.0 % | 5.2 | +77 |
-| VOX | 1.3 % | 7.3 | +72 |
-| UDC | 0.7 % | 7.8 | +71 |
-| PNV | 0.2 % | 6.1 | +76 |
-| IU | 0.0 % | 12.0 | -2 |
-| BNG | 0.0 % | 10.5 | +51 |
+| ICV | 65.9 % | 3.0 | +77 |
+| PP | 12.7 % | 3.4 | +79 |
+| UPyD | 6.4 % | 3.3 | +79 |
+| PSOE | 6.2 % | 2.4 | +79 |
+| PNV | 3.2 % | 4.7 | +78 |
+| UDC | 3.0 % | 6.3 | +72 |
+| ERC | 2.5 % | 9.8 | +55 |
+| CDC | 0.0 % | 7.1 | +72 |
+| IU | 0.0 % | 12.0 | -18 |
+| Aralar | 0.0 % | 6.7 | +69 |
+| BNG | 0.0 % | 10.6 | +51 |
+| VOX | 0.0 % | 8.7 | +67 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: ICV +89, PSOE +83, UPyD +83
-- Joven de alquiler: PP +83, ICV +83, CDC +82
-- Pensionista con casa propia: ICV +89, PSOE +82, UPyD +82
-- Pensionista con pensión baja: ICV +89, PSOE +82, UPyD +82
-- Autónomo del comercio: ICV +80, PP +76, PSOE +75
-- Empresario de pyme industrial: UDC +77, VOX +76, PP +74
-- Funcionario docente: ICV +89, PSOE +83, UPyD +83
-- Policía o guardia civil: PP +83, CDC +82, ICV +82
-- Sanitario asalariado: ICV +89, PSOE +83, UPyD +83
-- Familia numerosa: ICV +89, PSOE +83, UPyD +83
-- Rentas altas con patrimonio: ICV +82, Aralar +79, PSOE +76
-- Gran patrimonio y gran empresa: ICV +63, CDC +63, PP +59
-- Parado con subsidio: ICV +87, PSOE +84, UPyD +84
-- Agricultor en el medio rural: PP +87, PSOE +83, UDC +83
-- Madre sola con hijo: PP +83, CDC +82, ICV +82
-- Estudiante: PSOE +91, UPyD +91, PP +90
-- Mayor dependiente: ICV +89, PSOE +82, UPyD +82
-- Casero con varias viviendas: ICV +89, PSOE +83, UPyD +83
-- Transportista autónomo: PP +84, PSOE +83, UPyD +83
-- Asalariado de salario mínimo: PP +83, CDC +82, ICV +82
+- Asalariado medio con hipoteca e hijos: ICV +88, PSOE +81, UPyD +81
+- Joven de alquiler: PP +82, ICV +81, PNV +81
+- Pensionista con casa propia: ICV +88, PSOE +81, UPyD +81
+- Pensionista con pensión baja: ICV +88, PSOE +81, UPyD +81
+- Autónomo del comercio: ICV +82, PSOE +78, UPyD +78
+- Empresario de pyme industrial: UDC +69, VOX +59, Aralar +58
+- Funcionario docente: ICV +88, PSOE +81, UPyD +81
+- Policía o guardia civil: PP +81, ICV +81, PNV +81
+- Sanitario asalariado: ICV +88, PSOE +81, UPyD +81
+- Familia numerosa: ICV +88, PSOE +81, UPyD +81
+- Rentas altas con patrimonio: ICV +88, PSOE +81, UPyD +81
+- Gran patrimonio y gran empresa: ICV +83, PSOE +76, UPyD +76
+- Parado con subsidio: ICV +88, PSOE +82, UPyD +82
+- Agricultor en el medio rural: PP +85, PSOE +83, UDC +83
+- Madre sola con hijo: PP +81, ICV +81, PNV +81
+- Estudiante: PSOE +90, UPyD +90, PP +90
+- Mayor dependiente: ICV +88, PSOE +81, UPyD +81
+- Casero con varias viviendas: ICV +88, PSOE +81, UPyD +81
+- Transportista autónomo: PSOE +76, PP +76, UPyD +76
+- Asalariado de salario mínimo: PP +81, ICV +81, PNV +81
 
 </details>
 
@@ -1642,41 +1642,41 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 88.1 % | 1.3 | +85 |
-| UPyD | 4.3 % | 2.0 | +82 |
-| PNV | 3.4 % | 3.0 | +82 |
-| VOX | 2.8 % | 6.9 | +69 |
-| PSOE | 1.5 % | 4.0 | +80 |
-| CDC | 0.0 % | 5.0 | +79 |
-| IU | 0.0 % | 9.0 | +59 |
-| ICV | 0.0 % | 10.0 | +47 |
-| UDC | 0.0 % | 5.9 | +77 |
-| ERC | 0.0 % | 11.3 | +37 |
-| Aralar | 0.0 % | 11.6 | +33 |
-| BNG | 0.0 % | 8.0 | +62 |
+| UPyD | 65.9 % | 1.2 | +86 |
+| CDC | 31.3 % | 2.0 | +86 |
+| VOX | 2.8 % | 6.8 | +72 |
+| PP | 0.0 % | 3.1 | +84 |
+| PSOE | 0.0 % | 5.9 | +79 |
+| IU | 0.0 % | 9.0 | +43 |
+| ICV | 0.0 % | 9.9 | +36 |
+| PNV | 0.0 % | 4.0 | +82 |
+| UDC | 0.0 % | 5.0 | +81 |
+| ERC | 0.0 % | 11.9 | +10 |
+| Aralar | 0.0 % | 11.1 | +24 |
+| BNG | 0.0 % | 8.1 | +46 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PP +87, UPyD +83, PNV +83
-- Joven de alquiler: PP +86, UPyD +82, PNV +82
-- Pensionista con casa propia: PP +86, UPyD +82, PNV +82
-- Pensionista con pensión baja: PP +86, UPyD +82, PNV +82
-- Autónomo del comercio: PP +78, UPyD +74, PNV +74
-- Empresario de pyme industrial: VOX +55, UDC +39, UPyD +32
-- Funcionario docente: PP +86, UPyD +82, PNV +82
-- Policía o guardia civil: PP +86, UPyD +82, PNV +82
-- Sanitario asalariado: PP +86, UPyD +82, PNV +82
-- Familia numerosa: PP +87, UPyD +83, PNV +83
-- Rentas altas con patrimonio: PP +86, UPyD +82, PNV +82
-- Gran patrimonio y gran empresa: PP +86, UPyD +82, PNV +82
-- Parado con subsidio: PP +86, UPyD +82, PNV +82
-- Agricultor en el medio rural: PP +79, UPyD +75, PNV +75
-- Madre sola con hijo: PP +87, UPyD +84, PNV +84
-- Estudiante: PP +86, UPyD +82, PNV +82
-- Mayor dependiente: PP +86, UPyD +82, PNV +82
-- Casero con varias viviendas: PP +86, UPyD +82, PNV +82
-- Transportista autónomo: PP +83, UPyD +79, PNV +79
-- Asalariado de salario mínimo: PP +86, UPyD +82, PNV +82
+- Asalariado medio con hipoteca e hijos: UPyD +87, CDC +87, PP +86
+- Joven de alquiler: UPyD +87, CDC +87, PP +85
+- Pensionista con casa propia: UPyD +87, CDC +86, PP +85
+- Pensionista con pensión baja: UPyD +87, CDC +86, PP +85
+- Autónomo del comercio: UPyD +87, CDC +86, PP +85
+- Empresario de pyme industrial: VOX +64, UDC +45, UPyD +42
+- Funcionario docente: UPyD +87, CDC +86, PP +85
+- Policía o guardia civil: UPyD +87, CDC +86, PP +85
+- Sanitario asalariado: UPyD +87, CDC +86, PP +85
+- Familia numerosa: UPyD +87, CDC +87, PP +86
+- Rentas altas con patrimonio: UPyD +87, CDC +86, PP +85
+- Gran patrimonio y gran empresa: UPyD +87, CDC +86, PP +85
+- Parado con subsidio: UPyD +87, CDC +87, PP +85
+- Agricultor en el medio rural: UPyD +89, PP +87, CDC +87
+- Madre sola con hijo: UPyD +88, CDC +87, PP +86
+- Estudiante: UPyD +87, CDC +87, PP +85
+- Mayor dependiente: UPyD +87, CDC +86, PP +85
+- Casero con varias viviendas: UPyD +87, CDC +86, PP +85
+- Transportista autónomo: CDC +83, UPyD +82, PP +80
+- Asalariado de salario mínimo: UPyD +87, CDC +86, PP +85
 
 </details>
 
@@ -1684,40 +1684,40 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 29.8 % | 1.8 | +63 |
-| UPyD | 27.6 % | 2.7 | +62 |
-| PNV | 22.0 % | 3.9 | +62 |
-| PP | 12.7 % | 2.7 | +60 |
-| ICV | 3.8 % | 6.2 | +45 |
-| ERC | 1.6 % | 8.1 | +37 |
-| Aralar | 1.5 % | 9.3 | +14 |
-| VOX | 0.7 % | 9.2 | +14 |
-| UDC | 0.3 % | 6.0 | +47 |
-| CDC | 0.0 % | 7.2 | +38 |
-| IU | 0.0 % | 6.2 | +44 |
-| BNG | 0.0 % | 10.0 | +16 |
+| PNV | 24.6 % | 4.0 | +56 |
+| PSOE | 22.5 % | 2.0 | +56 |
+| UPyD | 21.9 % | 3.0 | +55 |
+| PP | 10.8 % | 3.0 | +53 |
+| IU | 9.7 % | 5.4 | +51 |
+| ICV | 3.4 % | 7.2 | +33 |
+| UDC | 3.2 % | 6.6 | +46 |
+| CDC | 1.2 % | 5.2 | +50 |
+| Aralar | 1.0 % | 9.3 | +16 |
+| BNG | 1.0 % | 9.5 | +25 |
+| ERC | 0.7 % | 7.9 | +44 |
+| VOX | 0.0 % | 9.8 | +33 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PP +61, PSOE +61, UPyD +61
-- Joven de alquiler: PP +57, PSOE +57, UPyD +57
+- Asalariado medio con hipoteca e hijos: PP +50, PSOE +50, UPyD +50
+- Joven de alquiler: PP +44, PSOE +44, UPyD +44
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
-- Autónomo del comercio: PP +0, PSOE +0, UPyD +0
-- Empresario de pyme industrial: VOX -17, Aralar -20, ERC -29
+- Autónomo del comercio: sin resultado
+- Empresario de pyme industrial: BNG +0, Aralar -5, ICV -6
 - Funcionario docente: sin resultado
 - Policía o guardia civil: sin resultado
-- Sanitario asalariado: PP +50, PSOE +50, UPyD +50
-- Familia numerosa: PP +61, PSOE +61, UPyD +61
+- Sanitario asalariado: sin resultado
+- Familia numerosa: PP +50, PSOE +50, UPyD +50
 - Rentas altas con patrimonio: sin resultado
 - Gran patrimonio y gran empresa: sin resultado
-- Parado con subsidio: PP +50, PSOE +50, UPyD +50
-- Agricultor en el medio rural: ICV +25, PP +4, PSOE +4
-- Madre sola con hijo: PSOE +72, UPyD +72, PNV +72
-- Estudiante: PP +57, PSOE +57, UPyD +57
+- Parado con subsidio: PP +44, PSOE +44, UPyD +44
+- Agricultor en el medio rural: PP +40, UPyD +40, PNV +40
+- Madre sola con hijo: PSOE +59, UPyD +59, IU +59
+- Estudiante: PP +44, PSOE +44, UPyD +44
 - Mayor dependiente: sin resultado
 - Casero con varias viviendas: sin resultado
-- Transportista autónomo: PP +15, PSOE +15, UPyD +15
+- Transportista autónomo: UDC +19, PP -5, PSOE -5
 - Asalariado de salario mínimo: sin resultado
 
 </details>
@@ -1728,39 +1728,39 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 97.2 % | 1.0 | +72 |
-| PNV | 2.0 % | 3.0 | +66 |
-| PP | 0.7 % | 2.1 | +68 |
-| UPN | 0.1 % | 5.0 | +56 |
-| CDC | 0.0 % | 4.1 | +62 |
-| IU | 0.0 % | 9.2 | -6 |
-| ICV | 0.0 % | 7.7 | +22 |
-| Los Verdes | 0.0 % | 7.6 | +22 |
-| EA | 0.0 % | 5.8 | +51 |
-| ERC | 0.0 % | 9.2 | +6 |
+| PSOE | 65.2 % | 1.1 | +75 |
+| PP | 30.1 % | 2.0 | +75 |
+| UPN | 3.0 % | 3.4 | +69 |
+| CDC | 1.2 % | 4.8 | +65 |
+| ERC | 0.4 % | 6.7 | +44 |
+| IU | 0.0 % | 9.9 | +13 |
+| ICV | 0.0 % | 8.0 | +30 |
+| PNV | 0.0 % | 4.0 | +66 |
+| Los Verdes | 0.0 % | 8.9 | +26 |
+| EA | 0.0 % | 6.1 | +57 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PSOE +75, PP +71, PNV +69
-- Joven de alquiler: PSOE +71, PP +67, PNV +65
-- Pensionista con casa propia: PSOE +74, PP +70, PNV +68
-- Pensionista con pensión baja: PSOE +74, PP +70, PNV +68
-- Autónomo del comercio: PSOE +67, PP +63, PNV +60
-- Empresario de pyme industrial: PSOE +50, PNV +50, EA +49
-- Funcionario docente: PSOE +75, PP +71, PNV +69
-- Policía o guardia civil: PSOE +71, PP +67, PNV +65
-- Sanitario asalariado: PSOE +75, PP +71, PNV +69
-- Familia numerosa: PSOE +75, PP +71, PNV +69
-- Rentas altas con patrimonio: PSOE +74, PP +70, PNV +68
-- Gran patrimonio y gran empresa: PSOE +73, PP +70, PNV +68
-- Parado con subsidio: PSOE +74, PP +70, PNV +68
-- Agricultor en el medio rural: PSOE +76, PP +74, CDC +68
-- Madre sola con hijo: PSOE +71, PP +67, PNV +65
-- Estudiante: PSOE +77, PP +73, PNV +71
-- Mayor dependiente: PSOE +74, PP +70, PNV +68
-- Casero con varias viviendas: PSOE +75, PP +70, PNV +69
-- Transportista autónomo: PSOE +66, PP +65, CDC +60
-- Asalariado de salario mínimo: PSOE +71, PP +67, PNV +65
+- Asalariado medio con hipoteca e hijos: PSOE +74, PP +73, PNV +64
+- Joven de alquiler: PSOE +74, PP +73, PNV +64
+- Pensionista con casa propia: PSOE +77, PP +77, UPN +73
+- Pensionista con pensión baja: PSOE +77, PP +77, UPN +73
+- Autónomo del comercio: PSOE +70, PP +69, CDC +62
+- Empresario de pyme industrial: PP +57, PSOE +57, CDC +57
+- Funcionario docente: PSOE +74, PP +73, PNV +64
+- Policía o guardia civil: PSOE +74, PP +73, PNV +64
+- Sanitario asalariado: PSOE +74, PP +73, PNV +64
+- Familia numerosa: PSOE +74, PP +73, PNV +64
+- Rentas altas con patrimonio: PSOE +77, PP +77, UPN +73
+- Gran patrimonio y gran empresa: PP +77, PSOE +76, UPN +73
+- Parado con subsidio: PSOE +77, PP +77, UPN +73
+- Agricultor en el medio rural: PSOE +75, PP +75, UPN +69
+- Madre sola con hijo: PSOE +74, PP +73, PNV +64
+- Estudiante: PSOE +83, PP +83, UPN +81
+- Mayor dependiente: PSOE +77, PP +77, UPN +73
+- Casero con varias viviendas: PSOE +74, PP +73, PNV +64
+- Transportista autónomo: PP +65, PSOE +65, CDC +57
+- Asalariado de salario mínimo: PSOE +74, PP +73, PNV +64
 
 </details>
 
@@ -1768,39 +1768,39 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 41.8 % | 1.9 | +59 |
-| PP | 40.9 % | 1.6 | +59 |
-| ERC | 14.4 % | 3.8 | +51 |
-| PNV | 2.4 % | 3.1 | +56 |
-| CDC | 0.5 % | 4.2 | +50 |
-| IU | 0.0 % | 9.5 | -33 |
-| ICV | 0.0 % | 8.2 | +2 |
-| Los Verdes | 0.0 % | 7.8 | +4 |
-| UPN | 0.0 % | 6.2 | +28 |
-| EA | 0.0 % | 5.7 | +29 |
+| PSOE | 38.6 % | 2.1 | +79 |
+| PNV | 36.4 % | 2.5 | +78 |
+| PP | 17.4 % | 1.8 | +78 |
+| CDC | 7.1 % | 3.7 | +74 |
+| ERC | 0.5 % | 6.6 | +47 |
+| IU | 0.0 % | 9.6 | -17 |
+| ICV | 0.0 % | 7.6 | +19 |
+| Los Verdes | 0.0 % | 8.6 | +12 |
+| UPN | 0.0 % | 5.1 | +61 |
+| EA | 0.0 % | 6.1 | +52 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PSOE +64, PP +64, PNV +61
-- Joven de alquiler: PSOE +58, PP +58, PNV +55
-- Pensionista con casa propia: PP +62, PSOE +62, PNV +59
-- Pensionista con pensión baja: PP +62, PSOE +62, PNV +59
-- Autónomo del comercio: PP +49, PSOE +49, PNV +47
-- Empresario de pyme industrial: ERC +41, PNV +31, EA +28
-- Funcionario docente: PSOE +64, PP +64, PNV +61
-- Policía o guardia civil: PSOE +58, PP +58, PNV +55
-- Sanitario asalariado: PSOE +64, PP +64, PNV +61
-- Familia numerosa: PSOE +64, PP +64, PNV +61
-- Rentas altas con patrimonio: PP +62, PSOE +62, PNV +59
-- Gran patrimonio y gran empresa: PP +62, PSOE +60, PNV +60
-- Parado con subsidio: PP +62, PSOE +62, PNV +59
-- Agricultor en el medio rural: PP +68, PSOE +68, CDC +61
-- Madre sola con hijo: PSOE +58, PP +58, PNV +55
-- Estudiante: PP +70, PSOE +70, ERC +70
-- Mayor dependiente: PP +62, PSOE +62, PNV +59
-- Casero con varias viviendas: PSOE +64, PP +63, PNV +61
-- Transportista autónomo: PP +48, PSOE +46, CDC +39
-- Asalariado de salario mínimo: PSOE +58, PP +58, PNV +55
+- Asalariado medio con hipoteca e hijos: PSOE +77, PP +76, PNV +76
+- Joven de alquiler: PSOE +77, PP +76, PNV +76
+- Pensionista con casa propia: PNV +84, PP +83, PSOE +83
+- Pensionista con pensión baja: PNV +84, PP +83, PSOE +83
+- Autónomo del comercio: CDC +71, PP +69, PSOE +69
+- Empresario de pyme industrial: CDC +50, PP +46, PNV +46
+- Funcionario docente: PSOE +77, PP +76, PNV +76
+- Policía o guardia civil: PSOE +77, PP +76, PNV +76
+- Sanitario asalariado: PSOE +77, PP +76, PNV +76
+- Familia numerosa: PSOE +77, PP +76, PNV +76
+- Rentas altas con patrimonio: PNV +84, PP +83, PSOE +83
+- Gran patrimonio y gran empresa: PP +84, PNV +84, PSOE +81
+- Parado con subsidio: PNV +84, PP +83, PSOE +83
+- Agricultor en el medio rural: PP +73, PSOE +73, CDC +71
+- Madre sola con hijo: PSOE +77, PP +76, PNV +76
+- Estudiante: PP +89, PSOE +89, PNV +89
+- Mayor dependiente: PNV +84, PP +83, PSOE +83
+- Casero con varias viviendas: PSOE +77, PP +76, PNV +76
+- Transportista autónomo: PP +58, PSOE +56, CDC +54
+- Asalariado de salario mínimo: PSOE +77, PP +76, PNV +76
 
 </details>
 
@@ -1808,39 +1808,39 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CDC | 89.8 % | 1.1 | +84 |
-| PNV | 7.3 % | 2.0 | +82 |
-| IU | 2.3 % | 5.9 | +50 |
-| PSOE | 0.5 % | 3.0 | +79 |
-| PP | 0.0 % | 4.7 | +69 |
-| ICV | 0.0 % | 8.0 | +35 |
-| Los Verdes | 0.0 % | 7.1 | +40 |
-| UPN | 0.0 % | 4.4 | +72 |
-| EA | 0.0 % | 10.0 | +18 |
-| ERC | 0.0 % | 8.9 | +32 |
+| PSOE | 81.6 % | 1.2 | +88 |
+| PNV | 9.2 % | 2.3 | +85 |
+| UPN | 9.0 % | 3.5 | +83 |
+| IU | 0.2 % | 5.9 | +43 |
+| PP | 0.0 % | 3.5 | +82 |
+| CDC | 0.0 % | 4.5 | +81 |
+| ICV | 0.0 % | 9.2 | +25 |
+| Los Verdes | 0.0 % | 7.2 | +33 |
+| EA | 0.0 % | 7.9 | +32 |
+| ERC | 0.0 % | 9.7 | +23 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: CDC +88, PNV +86, PSOE +82
-- Joven de alquiler: CDC +87, PNV +85, PSOE +81
-- Pensionista con casa propia: CDC +88, PNV +86, PSOE +82
-- Pensionista con pensión baja: CDC +88, PNV +86, PSOE +82
-- Autónomo del comercio: CDC +87, PNV +76, PSOE +74
-- Empresario de pyme industrial: IU +31, PNV +29, CDC +28
-- Funcionario docente: CDC +87, PNV +85, PSOE +81
-- Policía o guardia civil: CDC +87, PNV +85, PSOE +81
-- Sanitario asalariado: CDC +87, PNV +85, PSOE +81
-- Familia numerosa: CDC +88, PNV +86, PSOE +82
-- Rentas altas con patrimonio: CDC +87, PNV +85, PSOE +81
-- Gran patrimonio y gran empresa: CDC +79, PNV +76, PSOE +74
-- Parado con subsidio: CDC +85, PNV +82, PSOE +81
-- Agricultor en el medio rural: CDC +83, PNV +75, PSOE +69
-- Madre sola con hijo: CDC +86, PNV +84, PSOE +83
-- Estudiante: CDC +88, PNV +85, PSOE +81
-- Mayor dependiente: CDC +88, PNV +86, PSOE +82
-- Casero con varias viviendas: CDC +87, PNV +85, PSOE +81
-- Transportista autónomo: CDC +74, PSOE +68, PNV +68
-- Asalariado de salario mínimo: CDC +87, PNV +85, PSOE +81
+- Asalariado medio con hipoteca e hijos: PSOE +91, PNV +89, PP +85
+- Joven de alquiler: PSOE +91, PNV +88, PP +85
+- Pensionista con casa propia: PSOE +91, PNV +88, PP +85
+- Pensionista con pensión baja: PSOE +91, PNV +88, PP +85
+- Autónomo del comercio: PSOE +85, UPN +85, CDC +82
+- Empresario de pyme industrial: UPN +38, IU +35, PNV +34
+- Funcionario docente: PSOE +91, PNV +88, PP +85
+- Policía o guardia civil: PSOE +91, PNV +88, PP +85
+- Sanitario asalariado: PSOE +91, PNV +88, PP +85
+- Familia numerosa: PSOE +91, PNV +89, PP +85
+- Rentas altas con patrimonio: PSOE +91, PNV +88, PP +85
+- Gran patrimonio y gran empresa: PSOE +91, PNV +88, PP +85
+- Parado con subsidio: PSOE +91, PP +85, PNV +85
+- Agricultor en el medio rural: PSOE +79, PNV +77, CDC +76
+- Madre sola con hijo: PSOE +92, PNV +87, PP +86
+- Estudiante: PSOE +92, PNV +89, UPN +87
+- Mayor dependiente: PSOE +91, PNV +88, PP +85
+- Casero con varias viviendas: PSOE +91, PNV +88, PP +85
+- Transportista autónomo: UPN +82, PSOE +80, PP +74
+- Asalariado de salario mínimo: PSOE +91, PNV +88, PP +85
 
 </details>
 
@@ -1848,38 +1848,38 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CDC | 62.1 % | 1.3 | +62 |
-| PNV | 34.2 % | 2.1 | +62 |
-| ERC | 1.1 % | 5.6 | +40 |
-| EA | 1.0 % | 9.7 | +7 |
-| IU | 0.5 % | 8.2 | +23 |
-| ICV | 0.5 % | 6.4 | +34 |
-| PP | 0.4 % | 4.2 | +43 |
-| PSOE | 0.2 % | 3.8 | +50 |
-| UPN | 0.1 % | 5.5 | +38 |
-| Los Verdes | 0.0 % | 7.7 | +28 |
+| PSOE | 37.2 % | 2.4 | +55 |
+| PP | 28.6 % | 2.3 | +51 |
+| PNV | 17.4 % | 3.2 | +52 |
+| CDC | 8.2 % | 3.7 | +50 |
+| UPN | 3.8 % | 4.4 | +45 |
+| ICV | 2.6 % | 6.1 | +19 |
+| IU | 1.8 % | 8.0 | +11 |
+| EA | 0.3 % | 7.9 | +9 |
+| Los Verdes | 0.0 % | 7.1 | +17 |
+| ERC | 0.0 % | 6.4 | +30 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: CDC +68, PNV +68, PP +52
-- Joven de alquiler: CDC +61, PNV +61, PP +42
-- Pensionista con casa propia: CDC +67, PNV +65, PSOE +50
-- Pensionista con pensión baja: CDC +67, PNV +65, PSOE +50
-- Autónomo del comercio: CDC +61, PNV +42, UPN +32
-- Empresario de pyme industrial: ERC -8, ICV -9, EA -9
-- Funcionario docente: CDC +61, PNV +61, PP +42
-- Policía o guardia civil: CDC +61, PNV +61, PP +42
-- Sanitario asalariado: CDC +63, PNV +63, PP +44
-- Familia numerosa: CDC +68, PNV +68, PP +52
-- Rentas altas con patrimonio: CDC +61, PNV +61, PP +42
-- Gran patrimonio y gran empresa: CDC +42, PNV +42, PP +28
-- Parado con subsidio: CDC +54, PNV +54, PP +44
-- Agricultor en el medio rural: CDC +44, PNV +39, ICV +22
-- Madre sola con hijo: CDC +66, PNV +66, PP +58
-- Estudiante: CDC +64, PNV +63, PP +46
-- Mayor dependiente: CDC +67, PNV +65, PSOE +50
-- Casero con varias viviendas: CDC +61, PNV +61, PP +42
-- Transportista autónomo: CDC +24, PNV +20, UPN +16
-- Asalariado de salario mínimo: CDC +61, PNV +61, PP +42
+- Asalariado medio con hipoteca e hijos: PP +61, PSOE +61, PNV +61
+- Joven de alquiler: PP +53, PSOE +53, CDC +53
+- Pensionista con casa propia: PP +44, PSOE +44, CDC +44
+- Pensionista con pensión baja: PP +44, PSOE +44, CDC +44
+- Autónomo del comercio: PP +23, PSOE +23, ICV +23
+- Empresario de pyme industrial: ICV +8, Los Verdes -1, ERC -5
+- Funcionario docente: PP +50, PSOE +50, CDC +50
+- Policía o guardia civil: PP +50, PSOE +50, CDC +50
+- Sanitario asalariado: PP +53, PSOE +53, CDC +53
+- Familia numerosa: PP +61, PSOE +61, PNV +61
+- Rentas altas con patrimonio: sin resultado
+- Gran patrimonio y gran empresa: sin resultado
+- Parado con subsidio: PP +44, PSOE +44, CDC +31
+- Agricultor en el medio rural: ICV +13, CDC +5, PNV +0
+- Madre sola con hijo: PP +71, PSOE +71, PNV +61
+- Estudiante: PP +63, PSOE +63, CDC +63
+- Mayor dependiente: PP +44, PSOE +44, CDC +44
+- Casero con varias viviendas: PP +50, PSOE +50, CDC +50
+- Transportista autónomo: CDC +5, PP +4, PSOE +4
+- Asalariado de salario mínimo: PP +50, PSOE +50, CDC +50
 
 </details>

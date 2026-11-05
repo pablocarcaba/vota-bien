@@ -1,276 +1,272 @@
 [
-{
-"id": "2013/2085(BUD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Solidaridad por inundaciones en Eslovenia, Croacia y Austria; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2013/2086(BUD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo para el Fondo de Solidaridad en Eslovenia, Croacia y Austria; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/2087(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Asistencia técnica del Fondo de Adaptación a la Globalización; gasto administrativo.",
-"partido": ""
-},
-{
-"id": "2013/2102(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Pide mejoras organizativas de las elecciones europeas de 2014; electoral.",
-"partido": ""
-},
-{
-"id": "2013/2109(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Pide revisar la orden europea de detención; procesal penal sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2013/2138(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en Lombardía; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/2139(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en Italia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/2145(BUD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"estud": 1
-},
-"peso": 3,
-"nota": "Presupuesto anual de la UE para 2014: ayudas de la PAC, desarrollo rural y Erasmus+.",
-"partido": ""
-},
-{
-"id": "2013/2151(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo de ingresos y recursos propios; técnico.",
-"partido": ""
-},
-{
-"id": "2013/2159(BUD)",
-"tipo": "eco",
-"imp": {
-"jovenes": 1,
-"desSub": 1,
-"pobreza": 1
-},
-"peso": 1,
-"nota": "Instrumento de flexibilidad para reforzar el FSE en Francia, Italia y España contra el paro juvenil y la exclusión.",
-"partido": ""
-},
-{
-"id": "2013/2160(BUD)",
-"tipo": "eco",
-"imp": {
-"jovenes": 1,
-"desSub": 1,
-"pobreza": 1
-},
-"peso": 1,
-"nota": "Refuerza el FSE en Francia, Italia y España contra el paro juvenil, la pobreza y la exclusión.",
-"partido": ""
-},
-{
-"id": "2013/2166(INL)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Pide revisar las autoridades europeas de supervisión financiera; institucional.",
-"partido": ""
-},
-{
-"id": "2013/2192(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de materiales de construcción en la Comunidad Valenciana.",
-"partido": ""
-},
-{
-"id": "2013/2223(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Instrumento de flexibilidad para fondos estructurales de Chipre; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/2227(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo que amplía créditos de pago de 2013; técnico.",
-"partido": ""
-},
-{
-"id": "2013/2255(BUD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Solidaridad para Rumanía, Alemania, Austria y Chequia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/2257(BUD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo del Fondo de Solidaridad para Rumanía, Alemania, Austria y Chequia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/2262(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de Vestas en Dinamarca; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/2263(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en Alemania; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/2264(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de Nokia en Finlandia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2014/0010(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Arbitrio insular en Mayotte; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2014/0034(COD)",
-"tipo": "eco",
-"imp": {
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 1,
-"nota": "Amplía el capital del Fondo Europeo de Inversiones para más garantías de crédito a pymes.",
-"partido": ""
-},
-{
-"id": "2014/0064(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Tipo reducido de impuestos especiales en Madeira y Azores; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2014/0090(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Suprime aranceles a productos ucranianos; vacía como el resto del comercio con Ucrania.",
-"partido": ""
-},
-{
-"id": "2014/0093(CNS)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Autoriza el AIEM canario 2014-2020, que grava importaciones para proteger la producción local de Canarias.",
-"partido": ""
-},
-{
-"id": "2014/0101(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Prórroga del arbitrio insular en los departamentos franceses de ultramar; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2014/2003(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Previsiones de gasto del Parlamento Europeo para 2015; institucional.",
-"partido": ""
-},
-{
-"id": "2014/2013(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos del textil en la Comunidad Valenciana.",
-"partido": ""
-},
-{
-"id": "2014/2018(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo para el Fondo Europeo de Inversiones, Horizonte 2020 y Shift2Rail; técnico.",
-"partido": ""
-},
-{
-"id": "2014/2025(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en Italia; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2014/2027(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de Santana Motor en Linares.",
-"partido": ""
-}
+ {
+  "id": "2013/2085(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Moviliza fondos de solidaridad para otros Estados miembros; no consta efecto sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2086(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Moviliza fondos de solidaridad para otros Estados miembros; no consta efecto sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2087(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda a trabajadores despedidos de una empresa concreta; la norma no fija un colectivo de los previstos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2102(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal europea sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2109(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal europea sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2138(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda a trabajadores despedidos de una empresa concreta; la norma no fija un colectivo de los previstos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2139(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda a trabajadores despedidos de una empresa concreta; la norma no fija un colectivo de los previstos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2145(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1,
+   "estud": 1
+  },
+  "peso": 3,
+  "nota": "Presupuesto anual de la UE para 2014: ayudas de la PAC, desarrollo rural y Erasmus+.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2151(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria de la Unión; el título no permite determinar el efecto sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2159(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la financiación del Fondo Social Europeo para España, entre otros países, dirigida al paro juvenil.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2160(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 1,
+  "nota": "Dota créditos adicionales del Fondo Social Europeo a España, entre otros países, contra el paro juvenil.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2166(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a qué colectivos españoles afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2192(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Fondo de Adaptación a la Globalización para despedidos de materiales de construcción en la Comunidad Valenciana.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2223(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal europea sin efecto sobre ningún colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2227(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria de la Unión; el título no permite determinar el efecto sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2255(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Moviliza fondos de solidaridad para otros Estados miembros; no consta efecto sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2257(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Moviliza fondos de solidaridad para otros Estados miembros; no consta efecto sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2262(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda a trabajadores despedidos de una empresa concreta; la norma no fija un colectivo de los previstos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2263(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda a trabajadores despedidos de una empresa concreta; la norma no fija un colectivo de los previstos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2013/2264(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda a trabajadores despedidos de una empresa concreta; la norma no fija un colectivo de los previstos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0010(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a qué colectivos españoles afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0034(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Amplía el capital del Fondo Europeo de Inversiones para más garantías de crédito a pymes.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0064(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a qué colectivos españoles afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0090(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a qué colectivos españoles afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0093(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Autoriza el AIEM canario 2014-2020, que grava importaciones para proteger la producción local de Canarias.",
+  "partido": ""
+ },
+ {
+  "id": "2014/0101(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a qué colectivos españoles afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2014/2003(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria de la Unión; el título no permite determinar el efecto sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/2013(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Fondo de Adaptación a la Globalización para despedidos del textil en la Comunidad Valenciana.",
+  "partido": ""
+ },
+ {
+  "id": "2014/2018(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma presupuestaria de la Unión; el título no permite determinar el efecto sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2014/2025(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ayuda a trabajadores despedidos de una empresa concreta; la norma no fija un colectivo de los previstos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2014/2027(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1,
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Fondo de Adaptación a la Globalización para despedidos de Santana Motor en Linares.",
+  "partido": ""
+ }
 ]

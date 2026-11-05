@@ -1,0 +1,824 @@
+[
+ {
+  "id": "2017/0122(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula tiempos de conducción, pausas y tacógrafos en el transporte por carretera; el texto disponible no permite fijar un signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0123(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta las normas de acceso a la profesión y al mercado del transporte por carretera; el texto disponible no permite fijar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0125(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 2,
+  "nota": "Programa europeo de ayudas a la industria de defensa; beneficia al sector de defensa.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0127(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0128(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0134(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0136(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0137(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0138(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obliga a comunicar e intercambiar información sobre mecanismos fiscales transfronterizos; norma de cooperación administrativa sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0139(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0143(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un producto de pensiones individuales voluntario de ámbito europeo; el texto disponible no permite determinar el signo para colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0144(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0145(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0146(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0148(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0149(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0150(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0152(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0153(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0158(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0163(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0167(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0168(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0169(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0171(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0176(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0179(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0185(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0189(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0190(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0193(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0196(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0197(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0199(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0200(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0213(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0219(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0220(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0223(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Fija posibilidades de pesca para la flota de la Unión en aguas de un tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0224(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0225(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0226(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre fraude y falsificación de medios de pago distintos del efectivo; no asigna derechos ni cargas a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0228(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Elimina restricciones de localización de datos no personales; el texto disponible no permite determinar colectivos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0230(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0231(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0232(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0237(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "discapacidad": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza derechos de los viajeros de ferrocarril, incluida la asistencia a personas con movilidad reducida; impone obligaciones a los operadores.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0238(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0241(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0242(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0245(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0247(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0248(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0251(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0256(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0259(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0265(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0266(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0272(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0288(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía el acceso al mercado de servicios regulares interurbanos de autocares; abre competencia con efectos opuestos para operadores y signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0290(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Extiende incentivos al transporte combinado de mercancías; efectos sobre el sector de signo mixto y no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0291(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Obliga a las administraciones a contratar vehículos limpios; mejora de la calidad del aire.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0293(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece los límites de emisiones de CO2 de turismos y furgonetas nuevos; mejora ambiental y exigencia a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0294(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0297(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0305(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0309(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la cooperación entre Estados en protección civil; no confiere derechos ni ayudas directas a un colectivo identificable.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0312(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0319(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo o decisión internacional sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0326(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0328(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0329(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0332(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los requisitos de calidad del agua de consumo; mejora la calidad de un suministro para sus usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0333R(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0334(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0336(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0340(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0344(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0347(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0348(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0349(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0350(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0351(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0352(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0353(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la vigilancia del mercado y el cumplimiento de la normativa de seguridad de productos, mejorando su seguridad general.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0354(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0355(COD)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Nuevos derechos de información y previsibilidad para todos los trabajadores asalariados.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0358(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0359(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0801(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0803(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0804(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0806(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0807(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0808(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0809(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0810(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0821(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0900(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o de cooperación sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2014(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ }
+]

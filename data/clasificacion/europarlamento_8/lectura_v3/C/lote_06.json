@@ -1,0 +1,802 @@
+[
+ {
+  "id": "2017/0122(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula tiempos de conducción, descansos y tacógrafos; el texto disponible no permite determinar el signo para operadores o conductores.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0123(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el acceso a la profesión y al mercado del transporte por carretera; el texto disponible no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0125(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0127(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0128(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0134(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0136(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0137(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0138(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obliga a comunicar mecanismos fiscales transfronterizos entre administraciones; no se determina un colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0139(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0143(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un producto paneuropeo de pensiones individuales; el texto disponible no permite determinar el signo para el sector financiero ni para ahorradores.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0144(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0145(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0146(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0148(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0149(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0150(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0152(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0153(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0158(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0163(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0167(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0168(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0169(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0171(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0176(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0179(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0185(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0189(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0190(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0193(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0196(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0197(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0199(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0200(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0213(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0219(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0220(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0223(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0224(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0225(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0226(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre fraude y falsificación de medios de pago distintos del efectivo; sin colectivo con derechos o ayudas.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0228(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la libre circulación de datos no personales; el texto disponible no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0230(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0231(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0232(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0237(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0238(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0241(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0242(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0245(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0247(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0248(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0251(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0256(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0259(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0265(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0266(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0272(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0288(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía el acceso al mercado de autocares interurbanos; los operadores establecidos y los entrantes tienen signos opuestos.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0290(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica las normas del transporte combinado de mercancías; el texto disponible no permite determinar el signo para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0291(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0293(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0294(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0297(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0305(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0309(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza el mecanismo europeo de protección civil y su dotación; sin efecto directo y de signo claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0312(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0319(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0326(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0328(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0329(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0332(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0333R(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0334(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0336(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0340(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0344(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0347(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0348(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0349(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0350(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0351(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0352(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0353(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Vigilancia del mercado y conformidad de productos; el texto disponible no permite determinar el signo para sectores o consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0354(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0355(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0358(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0359(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0801(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0803(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0804(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0806(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0807(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0808(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0809(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0810(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0821(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/0900(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2017/2014(BUD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "No se puede determinar a quién afecta en España ni con qué signo.",
+  "partido": ""
+ }
+]

@@ -1,893 +1,847 @@
 [
-{
-"id": "2016/0148(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Refuerza la cooperación entre autoridades de consumo contra infracciones transfronterizas; beneficia a los consumidores.",
-"partido": ""
-},
-{
-"id": "2016/0149(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Transparencia de tarifas de paquetería transfronteriza y supervisión de precios; beneficia a los consumidores.",
-"partido": ""
-},
-{
-"id": "2016/0151(COD)",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Directiva audiovisual: protección de menores y cuotas de obra europea también para plataformas de vídeo; carga sobre plataformas digitales.",
-"partido": ""
-},
-{
-"id": "2016/0152(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Prohíbe el bloqueo geográfico injustificado en ventas en línea; beneficia a consumidores y obliga a los comercios.",
-"partido": ""
-},
-{
-"id": "2016/0156(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0159(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0166(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0168(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0169(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0170(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Simplificación técnica de las normas de seguridad de buques de pasaje; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0171(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Registro de pasajeros a bordo de buques; norma técnica de seguridad y emergencias.",
-"partido": ""
-},
-{
-"id": "2016/0172(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Sistema de inspecciones de transbordadores y naves de gran velocidad; norma técnica.",
-"partido": ""
-},
-{
-"id": "2016/0173(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0182(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Financia la participación de usuarios de servicios financieros en la elaboración de políticas; beneficia a los consumidores.",
-"partido": ""
-},
-{
-"id": "2016/0184(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Ratificación del Acuerdo de París; tratado internacional cuyos efectos llegan por las normas que lo aplican.",
-"partido": ""
-},
-{
-"id": "2016/0185(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secDig": -1
-},
-"peso": 2,
-"nota": "Limita las tarifas mayoristas de itinerancia para permitir el roaming sin recargos; beneficia a usuarios y obliga a operadoras.",
-"partido": ""
-},
-{
-"id": "2016/0186(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0187(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Traslada al Derecho de la UE medidas de la CICAA sobre túnidos; norma técnica pesquera.",
-"partido": ""
-},
-{
-"id": "2016/0190(CNS)",
-"tipo": "soc",
-"imp": {
-"infancia": 1
-},
-"peso": 1,
-"nota": "Refunde Bruselas II bis: agiliza el retorno de menores sustraídos y refuerza el derecho del niño a ser oído.",
-"partido": ""
-},
-{
-"id": "2016/0192(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0193(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0197(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda macrofinanciera a un tercer país; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2016/0198(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Formato uniforme y más seguro del permiso de residencia; norma técnica.",
-"partido": ""
-},
-{
-"id": "2016/0202(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0204(APP)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0205(NLE)",
-"tipo": "eco",
-"imp": {
-"secInd": 1,
-"empGran": 1
-},
-"peso": 2,
-"nota": "CETA: suprime aranceles con Canadá, protege indicaciones geográficas y crea tribunal de inversiones; favorece a exportadores y grandes empresas.",
-"partido": ""
-},
-{
-"id": "2016/0207(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0208(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "Quinta directiva antiblanqueo: registros de titulares reales y obligaciones a criptoactivos; carga para entidades financieras.",
-"partido": ""
-},
-{
-"id": "2016/0209(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Acceso de las autoridades tributarias a información antiblanqueo; cooperación administrativa.",
-"partido": ""
-},
-{
-"id": "2016/0217(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0218(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0221(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": 1
-},
-"peso": 1,
-"nota": "Amplía los fondos de capital riesgo y de emprendimiento social europeos; favorece a gestoras de fondos.",
-"partido": ""
-},
-{
-"id": "2016/0229(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0230(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 2,
-"nota": "Integra el uso de la tierra y la silvicultura en los objetivos climáticos 2030; beneficio climático general.",
-"partido": ""
-},
-{
-"id": "2016/0231(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 2,
-"nota": "Reparto del esfuerzo: reducciones obligatorias de emisiones por Estado hasta 2030; beneficio climático general.",
-"partido": ""
-},
-{
-"id": "2016/0238(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Plan de pesca del mar del Norte; flota española poco afectada.",
-"partido": ""
-},
-{
-"id": "2016/0247(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0252(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0254(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0256(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0257(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0259(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0261(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Agiliza la detección y control de nuevas sustancias psicotrópicas; mejora la salud pública.",
-"partido": ""
-},
-{
-"id": "2016/0262(NLE)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Somete una nueva sustancia psicotrópica a control; salud pública.",
-"partido": ""
-},
-{
-"id": "2016/0264(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; técnica, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2016/0265(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0274(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0275(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0276(COD)",
-"tipo": "eco",
-"imp": {
-"empPeq": 1,
-"empMed": 1
-},
-"peso": 2,
-"nota": "Amplía el Fondo Europeo de Inversiones Estratégicas (plan Juncker); financiación para pymes y proyectos.",
-"partido": ""
-},
-{
-"id": "2016/0278(COD)",
-"tipo": "soc",
-"imp": {
-"discapacidad": 1
-},
-"peso": 1,
-"nota": "Tratado de Marrakech: excepción de derechos de autor para obras accesibles a personas ciegas.",
-"partido": ""
-},
-{
-"id": "2016/0279(COD)",
-"tipo": "soc",
-"imp": {
-"discapacidad": 1
-},
-"peso": 1,
-"nota": "Intercambio con terceros países de obras accesibles para personas ciegas o con discapacidad visual.",
-"partido": ""
-},
-{
-"id": "2016/0280(COD)",
-"tipo": "eco",
-"imp": {
-"estud": 1,
-"proDoc": 1
-},
-"peso": 2,
-"nota": "Directiva de derechos de autor: excepciones para la enseñanza digital, derechos de editores y responsabilidad de plataformas.",
-"partido": ""
-},
-{
-"id": "2016/0281(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0282A(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reglamento financiero del presupuesto de la UE (ómnibus); norma presupuestaria.",
-"partido": ""
-},
-{
-"id": "2016/0282B(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1
-},
-"peso": 2,
-"nota": "Ómnibus agrícola: refuerza la posición de los agricultores en la cadena y los instrumentos de gestión de riesgos.",
-"partido": ""
-},
-{
-"id": "2016/0283(APP)",
-"tipo": "eco",
-"imp": {
-"jovenes": 1
-},
-"peso": 2,
-"nota": "Revisión intermedia del marco financiero 2014-2020; más fondos para empleo juvenil, inversión y migración.",
-"partido": ""
-},
-{
-"id": "2016/0284(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Facilita la emisión en línea transfronteriza de programas de radio y televisión; amplía el acceso de los usuarios.",
-"partido": ""
-},
-{
-"id": "2016/0286(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del organismo de reguladores de telecomunicaciones (ORECE); institucional.",
-"partido": ""
-},
-{
-"id": "2016/0287(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "WiFi4EU: financia wifi gratuito en espacios públicos municipales.",
-"partido": ""
-},
-{
-"id": "2016/0288(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 2,
-"nota": "Código de comunicaciones electrónicas: derechos de los usuarios, servicio universal de banda ancha y alerta pública.",
-"partido": ""
-},
-{
-"id": "2016/0293(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0295(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Control de exportaciones de productos de doble uso; norma técnica de comercio.",
-"partido": ""
-},
-{
-"id": "2016/0298(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0304(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Marco Europass de capacidades y cualificaciones; herramienta informativa.",
-"partido": ""
-},
-{
-"id": "2016/0307(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0308(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Contingentes comerciales autónomos para Ucrania; mismo criterio que la 9.ª legislatura.",
-"partido": ""
-},
-{
-"id": "2016/0311(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0322(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0325(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Participación de la UE en la asociación de investigación PRIMA; programa de investigación.",
-"partido": ""
-},
-{
-"id": "2016/0328(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0329(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0336(CNS)",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 2,
-"nota": "Base imponible consolidada del impuesto de sociedades para grandes grupos; limita la planificación fiscal.",
-"partido": ""
-},
-{
-"id": "2016/0337(CNS)",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 2,
-"nota": "Base imponible común del impuesto de sociedades obligatoria para grandes grupos; reglas contra la elusión.",
-"partido": ""
-},
-{
-"id": "2016/0338(CNS)",
-"tipo": "eco",
-"imp": {
-"empGran": 1
-},
-"peso": 1,
-"nota": "Resolución de litigios de doble imposición; da seguridad jurídica a empresas con actividad transfronteriza.",
-"partido": ""
-},
-{
-"id": "2016/0339(CNS)",
-"tipo": "eco",
-"imp": {
-"empGran": -1
-},
-"peso": 1,
-"nota": "Neutraliza asimetrías híbridas con terceros países; limita la elusión fiscal de multinacionales.",
-"partido": ""
-},
-{
-"id": "2016/0343(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0345(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada del reglamento de marca de la UE; técnica.",
-"partido": ""
-},
-{
-"id": "2016/0349(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0351(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Nueva metodología antidumping frente a economías con distorsiones; protege a la industria europea.",
-"partido": ""
-},
-{
-"id": "2016/0355(COD)",
-"tipo": "eco",
-"imp": {
-"cons": -1,
-"secFin": 1
-},
-"peso": 1,
-"nota": "Aplaza la obligación del documento de datos fundamentales para inversores minoristas; alivio para entidades.",
-"partido": ""
-},
-{
-"id": "2016/0357A(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Crea el SEIAV (ETIAS) para viajeros exentos de visado; control fronterizo.",
-"partido": ""
-},
-{
-"id": "2016/0357B(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "SEIAV: acceso de Europol; técnica.",
-"partido": ""
-},
-{
-"id": "2016/0359(COD)",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 2,
-"nota": "Reestructuración preventiva y segunda oportunidad: exoneración de deudas para empresarios insolventes.",
-"partido": ""
-},
-{
-"id": "2016/0360A(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "Reglamento de requisitos de capital (CRR2): ratios de apalancamiento y financiación estable; más exigencias a la banca.",
-"partido": ""
-},
-{
-"id": "2016/0360B(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": 1
-},
-"peso": 1,
-"nota": "Transición para mitigar el impacto de la NIIF 9 en el capital de los bancos.",
-"partido": ""
-},
-{
-"id": "2016/0361(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Capacidad de absorción de pérdidas (TLAC/MREL) en la resolución bancaria; exigencias a bancos.",
-"partido": ""
-},
-{
-"id": "2016/0362(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Directiva de rescate interno: requisitos de pasivos admisibles para bancos.",
-"partido": ""
-},
-{
-"id": "2016/0363(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Orden de prelación de la deuda bancaria en insolvencia; norma técnica.",
-"partido": ""
-},
-{
-"id": "2016/0364(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Directiva de requisitos de capital (CRD5): supervisión, remuneraciones y colchones; exigencias a la banca.",
-"partido": ""
-},
-{
-"id": "2016/0365(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Recuperación y resolución de entidades de contrapartida central; carga para infraestructuras financieras.",
-"partido": ""
-},
-{
-"id": "2016/0366(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0367(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0368(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2016/0370(CNS)",
-"tipo": "eco",
-"imp": {
-"secCom": 1,
-"cons": -1
-},
-"peso": 2,
-"nota": "IVA del comercio electrónico: ventanilla única y fin de la exención de pequeños envíos de fuera de la UE.",
-"partido": ""
-},
-{
-"id": "2016/0371(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Cooperación administrativa contra el fraude del IVA; técnica.",
-"partido": ""
-},
-{
-"id": "2016/0373(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional o institucional sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2016/0374(CNS)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Permite tipos reducidos de IVA a libros y prensa digitales; abarata su consumo.",
-"partido": ""
-},
-{
-"id": "2016/0375(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Gobernanza de la Unión de la Energía: planes nacionales de energía y clima e informes; institucional.",
-"partido": ""
-},
-{
-"id": "2016/0376(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"pobreza": 1
-},
-"peso": 2,
-"nota": "Eficiencia energética: objetivo del 32,5 %, contadores individuales y ahorro; beneficio climático y para consumidores.",
-"partido": ""
-},
-{
-"id": "2016/0377(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Preparación frente a riesgos en el sector eléctrico; planificación técnica.",
-"partido": ""
-}
+ {
+  "id": "2016/0148(COD)",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la cooperación y las competencias de las autoridades para hacer cumplir la normativa de consumo, con mayor protección de los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0149(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Impone transparencia de tarifas y supervisión a operadores de paquetería transfronteriza; beneficia a usuarios y supone obligaciones para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0151(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Revisión de la directiva audiovisual; el texto disponible no permite determinar efectos con signo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0152(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe el bloqueo geográfico y la discriminación de clientes por residencia o nacionalidad; beneficia a consumidores y obliga a los comerciantes en línea.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0156(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0159(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0166(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0168(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0169(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0170(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0171(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0172(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0173(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0182(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Financia con fondos europeos la participación de consumidores y usuarios de servicios financieros en la formulación de políticas.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0184(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Formaliza la participación de la Unión en el Acuerdo de París sobre cambio climático; mejora la protección climática general.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0185(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Fija límites a los precios mayoristas de itinerancia que cobran los operadores de telecomunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0186(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0187(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0190(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refundición de normas de competencia y reconocimiento en materia matrimonial, parental y sustracción de menores; norma procesal sin efecto con signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0192(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0193(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0197(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0198(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0202(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0204(APP)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0205(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acuerdo comercial con Canadá; el texto disponible no permite determinar ganadores y perdedores con signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0207(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0208(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza las obligaciones de prevención del blanqueo y la financiación del terrorismo para entidades financieras y otros sujetos obligados.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0209(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0217(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0218(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0221(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Amplía los gestores y las inversiones admisibles de los fondos de capital riesgo y emprendimiento social; beneficia al sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0229(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0230(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Integra las emisiones y absorciones del uso de la tierra y la silvicultura en el marco climático 2030; refuerza la protección climática.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0231(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija reducciones anuales vinculantes de emisiones de gases de efecto invernadero hasta 2030; refuerza la protección climática.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0238(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0247(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0252(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0254(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0256(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0257(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0259(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0261(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Intercambio de información y evaluación del riesgo de nuevas sustancias psicotrópicas; norma de cooperación sin efecto con signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0262(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Control de una nueva sustancia psicotrópica; norma penal y de control sin efecto con signo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0264(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0265(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0274(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0275(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0276(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prorroga y ajusta técnicamente un fondo europeo de inversión; no establece un efecto directo de signo claro sobre colectivos concretos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0278(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Permite usos de obras protegidas en formatos accesibles para personas ciegas o con discapacidad visual.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0279(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Facilita el intercambio transfronterizo de ejemplares en formato accesible para personas ciegas o con discapacidad visual.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0280(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula derechos de autor en línea con obligaciones y derechos de signo opuesto para plataformas, editores y creadores; no hay un signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0281(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0282A(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0282B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0283(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajusta el marco financiero plurianual de la Unión; norma presupuestaria institucional sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0284(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el ejercicio de derechos de autor en transmisiones en línea de radiodifusión; sin signo único para ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0286(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0287(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Financia puntos wifi públicos en comunidades locales; ampliación de fondos europeos sin destinatario de signo claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0288(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refunde la regulación de las comunicaciones electrónicas y refuerza los derechos de los usuarios finales de telecomunicaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0293(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0295(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0298(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0304(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0307(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0308(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0311(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0322(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0325(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0328(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0329(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0336(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0337(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0338(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija mecanismos de resolución de litigios de doble imposición entre Estados; procedimiento sin cambio de carga para un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0339(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula asimetrías híbridas en el impuesto de sociedades con terceros países; norma antielusión sin colectivo de efecto claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0343(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0345(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0349(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0351(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la metodología antidumping y antisubvención de la Unión; efecto contrapuesto entre industria e importadores, sin signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0355(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": -1,
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Aplaza la fecha de aplicación del documento de datos fundamentales de productos de inversión minorista; alivia al sector y retrasa la protección del inversor.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0357A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0357B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0359(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Establece reestructuración preventiva y segunda oportunidad con condonación de deudas para empresarios insolventes.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0360A(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0360B(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": 1
+  },
+  "peso": 1,
+  "nota": "Introduce disposiciones transitorias que mitigan el impacto de la NIIF 9 sobre los fondos propios de las entidades de crédito.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0361(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Exige a las entidades de crédito y empresas de inversión capacidad de absorción de pérdidas y recapitalización.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0362(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Exige a las entidades de crédito y empresas de inversión capacidad de absorción de pérdidas y recapitalización.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0363(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0364(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la supervisión, la remuneración y el capital de las entidades financieras con exigencias y exenciones; sin signo único.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0365(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un marco de recuperación y resolución de entidades de contrapartida central; norma técnica de mercados financieros.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0366(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0367(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0368(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0370(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1
+  },
+  "peso": 2,
+  "nota": "Establece un umbral que exime a las microempresas de las obligaciones de IVA en otros Estados miembros al prestar servicios ocasionales.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0371(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0373(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0374(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite a los Estados aplicar tipos reducidos de IVA a publicaciones electrónicas; efecto opcional que depende de cada Estado.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0375(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, técnica o de cooperación exterior sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0376(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la política de eficiencia energética de la Unión con objetivos y obligaciones de ahorro; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "2016/0377(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Fija normas de preparación frente a crisis eléctricas; refuerza la seguridad de suministro eléctrico de los consumidores.",
+  "partido": ""
+ }
 ]

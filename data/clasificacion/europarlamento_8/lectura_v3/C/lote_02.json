@@ -1,0 +1,841 @@
+[
+ {
+  "id": "2015/0005(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0006(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0009(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de inversiones estratégicas; el texto disponible no permite determinar quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0010(APP)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0026(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Aumenta la prefinanciación de programas de empleo juvenil; el beneficio a jóvenes es indirecto y no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0028(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0029(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0036(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0050(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0051(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0052(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0054(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0056(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0057(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0058(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0060(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0061(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0062(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0063(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0065(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0068(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Intercambio automático de información fiscal entre administraciones; no afecta directamente a un colectivo con signo conocido.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0070(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Reduce los pagos directos de la PAC mediante un porcentaje de ajuste; afecta a los perceptores agrarios.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0076(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0079(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0080(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0090(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0093(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0094(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0096(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0100(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0101(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0112(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cláusula de salvaguardia para el banano de acuerdos comerciales; el efecto depende de que se active y no consta.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0113(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0114(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0125(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Reubicación de solicitantes de protección internacional desde Italia, Grecia y Hungría; amplía el acogimiento de personas necesitadas de protección.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0128(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0133(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0134(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0135(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0136(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0138(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0148(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Revisa el régimen de comercio de derechos de emisión para reducir emisiones; mejora la protección climática. Efecto en la industria de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0149(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Establece un marco de etiquetado de eficiencia energética de productos que informa a los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0152(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0160(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0175(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0193(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0196(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0199(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0200(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0201(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0204(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0209(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Reubicación de solicitantes de protección internacional desde Italia, Grecia y Hungría; amplía el acogimiento de personas necesitadas de protección.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0210(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0218(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas comerciales de emergencia para Túnez; el texto disponible no permite determinar el sector afectado con signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0224(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo pesquero que da posibilidades de pesca a la flota de la Unión en aguas de Liberia.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0225(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica requisitos prudenciales de entidades de crédito; el texto disponible no permite determinar signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0226(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reglamento técnico de titulización; el texto disponible no permite determinar colectivos afectados con signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0229(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Acuerdo pesquero que da posibilidades de pesca a la flota de la Unión en aguas de Mauritania.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0239(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0244(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0249(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0261(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0263(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0265(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0268(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reglamento sobre el folleto de valores; el texto disponible no permite determinar colectivos afectados con signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0269(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0272(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la gestión de residuos de vehículos, pilas y aparatos eléctricos; protege el medio ambiente e impone obligaciones a los productores.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0274(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Limita el vertido de residuos en vertedero; mejora la protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0275(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza objetivos de reciclado y gestión de residuos; mejora la protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0276(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza objetivos de reciclado de envases; mejora la protección ambiental e impone obligaciones a productores de envases.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0278(COD)",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 2,
+  "nota": "Fija requisitos de accesibilidad de productos y servicios; beneficia a las personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0281(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Regula la lucha contra el terrorismo e incluye derechos de protección y apoyo a las víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0283(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0284(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Permite a los suscriptores acceder a contenidos en línea al viajar por la Unión; obliga a los proveedores.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0285(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0287(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Fija derechos de los consumidores en contratos de contenidos digitales; obliga a los proveedores.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0288(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Fija derechos de los consumidores en compraventa en línea y a distancia; obliga a los vendedores.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0289(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Gestión de flotas pesqueras exteriores; el texto disponible no permite determinar colectivos afectados con signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0292(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0293(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0295(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0296(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0298(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0302(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0302M(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0306(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1
+  },
+  "peso": 1,
+  "nota": "Crea un documento de viaje para el retorno de nacionales de terceros países en situación irregular.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0307(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0308(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0309(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0310(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Organización de la Guardia Europea de Fronteras y Costas; el texto disponible no permite determinar el signo para ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0313(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0314(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0801(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0802(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0804(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0805(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0806(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0807(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "2015/0808(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma exterior, institucional o técnica; no permite determinar a qué colectivos afecta en España ni con qué signo.",
+  "partido": ""
+ }
+]

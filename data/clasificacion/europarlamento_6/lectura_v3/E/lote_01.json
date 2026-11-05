@@ -1,0 +1,857 @@
+[
+ {
+  "id": "2005/0203(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0206(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Da acceso a la flota pesquera comunitaria a caladeros del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0225(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0229(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Da acceso a la flota pesquera comunitaria a caladeros del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0237A(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0237B(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0238(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0239(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0240(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0241(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Establece la responsabilidad de las navieras de pasajeros ante accidentes: más garantías para los pasajeros y coste para las empresas.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0244(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Restringe la comercialización y uso de una sustancia nociva; mejora salud y ambiente y obliga a la industria afectada.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0249(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Da acceso a la flota pesquera comunitaria a caladeros del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0259(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0263(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0264(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0267(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0270(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0278(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0280(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Da acceso a la flota pesquera comunitaria a caladeros del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0281(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Revisa el marco de gestión de residuos reforzando la protección ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0282(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Endurece los límites de emisiones de los vehículos; mejora la calidad del aire y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0283(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Obliga a las compras públicas de vehículos a incorporar criterios de bajas emisiones; mejora ambiental.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0805(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0807(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0901(AVC)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0902(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/2001(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión; no permite determinar efectos concretos para colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/2102(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión; no permite determinar efectos concretos para colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/2148(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0006(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0008(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0009(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0018(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Restringe el mercurio en instrumentos de medida; protege salud y ambiente y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0028(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0031(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0032(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Da acceso a la flota pesquera comunitaria a caladeros del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0037(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0038(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0043(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0056(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0058(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0059(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0062(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0065(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Da acceso a la flota pesquera comunitaria a caladeros del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0077(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0079(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0081(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0082(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Permite financiar el desarrollo rural con fondos regionales; beneficia a las zonas rurales.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0083(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0084(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0088(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0090(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0122(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Da acceso a la flota pesquera comunitaria a caladeros del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0129(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Fija normas de calidad ambiental para las aguas; protege el medio ambiente y la salud.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0131(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0132(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 2,
+  "nota": "Impone un uso más restringido de plaguicidas; mejora salud y ambiente y obliga a los agricultores.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0135(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0139(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0140(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0142(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0158(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0165(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0169(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe las redes de enmalle de deriva; protege la biodiversidad marina y perjudica a quienes las usan.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0178(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0182(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la gestión de seguridad de las carreteras para todos los usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0190(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0196(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Liberaliza completamente el mercado postal, traspasando a operadores privados un servicio hasta ahora reservado.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0200(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0202(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0203(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0206(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Prohíbe exportar y almacenar mercurio metálico; protege salud y ambiente y obliga a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0210(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0226(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0249(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0250(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0251(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0252(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0256(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0257(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0258(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0263(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0268(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0269(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0281(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0286(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0309(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2015(INL)",
+  "tipo": "soc",
+  "imp": {
+   "proSan": 1
+  },
+  "peso": 1,
+  "nota": "Busca proteger al personal sanitario frente a infecciones por pinchazos; mejora sus condiciones de seguridad laboral.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2020(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión; no permite determinar efectos concretos para colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2021(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión; no permite determinar efectos concretos para colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2022(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión; no permite determinar efectos concretos para colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2119(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la Unión; no permite determinar efectos concretos para colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/2223(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0002(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0005(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0006(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Da acceso a la flota pesquera comunitaria a caladeros del tercer país; beneficia al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0012(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0019(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a reducir las emisiones de gases de efecto invernadero de los carburantes; mejora climática y coste para proveedores.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0021(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0023(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0026(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de contenido no determinable; sin efecto claro sobre colectivos en España.",
+  "partido": ""
+ }
+]

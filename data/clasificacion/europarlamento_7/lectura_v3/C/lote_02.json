@@ -1,0 +1,833 @@
+[
+ {
+  "id": "2010/0210(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Fija condiciones de entrada, residencia y derechos de trabajadores estacionales de terceros países; amplía vías legales para inmigrantes.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0212(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0214(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Suspende aranceles de principios activos farmacéuticos importados; reduce costes del sector farmacéutico.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0215(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0217(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0220(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Autoriza ayudas estatales al cierre de minas de carbón; efecto sobre el sector minero de signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0232(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone supervisión adicional a entidades financieras de conglomerados; supone nuevas obligaciones para el sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0242(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0246(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0248(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0250(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a compensar derivados OTC en contrapartes centrales y a registrar operaciones; impone obligaciones al sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0251(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Restringe ventas en corto y permutas de cobertura por impago; impone obligaciones y límites a los mercados financieros.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0252(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0253(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Refunde la normativa ferroviaria y abre el mercado a más operadores; liberalización del transporte ferroviario.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0254(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0255(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0256(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Mantiene medidas de apoyo agrícola para regiones ultraperiféricas; beneficia al sector agrario de esas regiones.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0257(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0258(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0259(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0260(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0261(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0262(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0264(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0266(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0267(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0271(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0273(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0274(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0275(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0276(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0277(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0278(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0279(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0280(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0281(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0282(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0289(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0298(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Limita los fosfatos en detergentes domésticos de ropa; mejora la calidad del agua y obliga a los fabricantes a reformular.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0301(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0302(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0303(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0306(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Establece marco para la gestión segura del combustible nuclear gastado y los residuos radiactivos; refuerza la seguridad y el medio ambiente.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0312(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0318(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0323(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0325(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0326(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0338(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0348(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0349(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0353(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0358(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0359(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0362(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0363(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe el abuso de información y la manipulación en mercados de electricidad y gas; protege a consumidores y obliga a operadores.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0364(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0365(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0366(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0367(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0368(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0369(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0370(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0372(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0373(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Fija requisitos técnicos comunes para transferencias y adeudos en euros; mejora servicios bancarios y obliga a adaptarse a las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0374(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0377(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza el control de riesgos de accidentes graves con sustancias peligrosas; mejora la seguridad pública y obliga a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0380(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0383(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0384(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0385(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0387(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0390(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0395(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0801(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0802(COD)",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Crea una orden europea de protección que extiende entre Estados miembros las medidas de protección a víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0814(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0816(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0817(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0820(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/0821(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2001(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2002(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2004(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2014(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2031(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2035(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2045(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2046(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2048(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2056(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2060(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2066(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2067(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2068(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2091(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2094(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2099(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2120(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ },
+ {
+  "id": "2010/2133(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Acto presupuestario o ayuda de la UE sin efecto determinable sobre colectivos del ciudadano español.",
+  "partido": ""
+ }
+]

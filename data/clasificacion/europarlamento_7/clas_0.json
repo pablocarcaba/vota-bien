@@ -1,893 +1,885 @@
 [
-{
-"id": "2003/0132A(NLE)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secTrans": -1
-},
-"peso": 1,
-"nota": "Convenio de Atenas: amplía la responsabilidad de las navieras por daños a pasajeros y equipajes; protege al usuario con coste para el transportista.",
-"partido": ""
-},
-{
-"id": "2004/0176(AVC)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2005/0254(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Etiquetado obligatorio del origen de ciertos productos importados (textil, calzado, cerámica); informa al consumidor y favorece a la industria europea. No prosperó.",
-"partido": ""
-},
-{
-"id": "2006/0084(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma de las investigaciones de la OLAF; institucional, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2006/0167(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Transpone las normas de la OCDE sobre créditos a la exportación; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2006/0258(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma estadística; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2007/0206(CNS)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Sube los mínimos del impuesto especial al tabaco con objetivo de salud pública; coste para la industria tabaquera.",
-"partido": ""
-},
-{
-"id": "2007/0225(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada sin cambios de fondo; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2007/0252(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2008/0028(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Reglamento de información alimentaria: etiquetado nutricional y de alérgenos obligatorio; mejora la información al consumidor con coste para la industria.",
-"partido": ""
-},
-{
-"id": "2008/0090(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Revisión del acceso público a documentos de las instituciones; institucional, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2008/0133(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2008/0193(COD)",
-"tipo": "soc",
-"imp": {
-"mujeres": 1,
-"infancia": 1
-},
-"peso": 2,
-"nota": "Propuesta de ampliar el permiso de maternidad y la protección de la trabajadora embarazada o lactante; no llegó a aprobarse.",
-"partido": ""
-},
-{
-"id": "2008/0196(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Directiva de derechos de los consumidores: desistimiento de 14 días, información precontractual y límites a recargos; coste de adaptación para el comercio.",
-"partido": ""
-},
-{
-"id": "2008/0227(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Deroga directivas de metrología obsoletas; técnica, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2008/0238(COD)",
-"tipo": "soc",
-"imp": {
-"pac": 1
-},
-"peso": 1,
-"nota": "Normas de calidad y seguridad de los órganos para trasplante; mejora las garantías para los pacientes.",
-"partido": ""
-},
-{
-"id": "2008/0240(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Refunde y amplía las restricciones de sustancias peligrosas en aparatos eléctricos; protege salud y medio ambiente con coste para fabricantes.",
-"partido": ""
-},
-{
-"id": "2008/0241(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Residuos de aparatos eléctricos: objetivos de recogida y reciclado más altos; mejora ambiental con coste para fabricantes y distribuidores.",
-"partido": ""
-},
-{
-"id": "2008/0249(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Control de exportaciones de productos de doble uso; norma comercial y de seguridad sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2008/0253(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada sin cambios de fondo; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2008/0255(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Propuesta de permitir a la industria farmacéutica informar al público sobre medicamentos con receta; no se aprobó. Beneficia a la industria.",
-"partido": ""
-},
-{
-"id": "2008/0256(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Propuesta de permitir a la industria farmacéutica informar al público sobre medicamentos con receta; no se aprobó. Beneficia a la industria.",
-"partido": ""
-},
-{
-"id": "2008/0257(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"pac": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Refuerza la farmacovigilancia de los medicamentos autorizados por la UE; más seguridad para pacientes y obligaciones para la industria.",
-"partido": ""
-},
-{
-"id": "2008/0260(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"pac": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Refuerza la farmacovigilancia de los medicamentos: notificación de efectos adversos y obligaciones para los laboratorios; más seguridad para pacientes.",
-"partido": ""
-},
-{
-"id": "2008/0261(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"pac": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Medicamentos falsificados: dispositivos de seguridad y trazabilidad en los envases; protege a los pacientes con coste para la industria farmacéutica.",
-"partido": ""
-},
-{
-"id": "2009/0004(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Cooperación administrativa entre administraciones tributarias; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0005(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Norma técnica o institucional; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0006(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Unifica las denominaciones y el etiquetado de los productos textiles; mejora la información al consumidor.",
-"partido": ""
-},
-{
-"id": "2009/0007(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Asistencia mutua en el cobro de créditos tributarios; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0009(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Normas de facturación del IVA y factura electrónica; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0012(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0013(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0014(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0015(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0017(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0020(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo de exención de visados de corta duración; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0023(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Protocolo sobre la ley aplicable a las obligaciones de alimentos; norma procesal sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0028(COD)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Permite a los titulares de visados de larga duración circular por el espacio Schengen; facilita la movilidad de nacionales de terceros países.",
-"partido": ""
-},
-{
-"id": "2009/0031(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Norma procesal civil de notificación de documentos; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0034(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo sobre competencia judicial civil con Dinamarca; procesal, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0035(COD)",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1
-},
-"peso": 1,
-"nota": "Permite eximir a las microentidades de parte de las obligaciones contables; reduce cargas administrativas a las empresas más pequeñas.",
-"partido": ""
-},
-{
-"id": "2009/0037(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada sin cambios de fondo; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0040(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada sin cambios de fondo; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0041(CNS)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Plan de recuperación del fletán negro en la zona NAFO, que pesca la flota española: protege el recurso con coste para el sector.",
-"partido": ""
-},
-{
-"id": "2009/0043(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada sin cambios de fondo; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0047(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Estructuras de gestión de Galileo y EGNOS; institucional, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0048(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Adaptación de actos al procedimiento de reglamentación con control; institucional, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0051(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Régimen de control e inspección de la pesca en el Atlántico Nororiental; protege los recursos con obligaciones para la flota.",
-"partido": ""
-},
-{
-"id": "2009/0054(COD)",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 2,
-"nota": "Directiva de morosidad: plazos máximos de pago de 30 días para las administraciones y 60 entre empresas, con intereses; favorece a autónomos y pymes.",
-"partido": ""
-},
-{
-"id": "2009/0056(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada sin cambios de fondo; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0057(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Plan plurianual del jurel occidental, que pesca la flota española: límites de capturas que protegen el recurso con coste para el sector.",
-"partido": ""
-},
-{
-"id": "2009/0059(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Instrumento de cooperación con países industrializados; acción exterior sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2009/0060B(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Instrumento de financiación de la democracia y los derechos humanos en el mundo; acción exterior sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2009/0062(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2009/0063(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Principios sobre las tasas de seguridad aérea; técnica y no aprobada, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0064(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "Directiva de gestores de fondos alternativos: autorización, supervisión, capital y límites a la remuneración de fondos de alto riesgo y de capital riesgo.",
-"partido": ""
-},
-{
-"id": "2009/0067(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Versión codificada sin cambios de fondo; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0068(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Método estadístico de cálculo de la renta nacional; técnica, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0070(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Programa de observación de la Tierra (GMES); financiación de investigación sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0071(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Modificación del convenio OSPAR sobre almacenamiento geológico de CO2; acuerdo técnico sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0072(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Año Europeo del Voluntariado; simbólico, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0075(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Impuesto especial reducido en Madeira y Azores; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2009/0076(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Reglamento de biocidas: autorización y evaluación de riesgos más estrictas; protege la salud y el medio ambiente con coste para la industria.",
-"partido": ""
-},
-{
-"id": "2009/0084(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste técnico de los regímenes de pagos directos de la PAC; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0085(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2009/0089(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Crea la agencia europea de sistemas informáticos de justicia e interior; institucional, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0091(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reasigna fondos del programa Progress al instrumento de microfinanciación; presupuestario, sin efecto distributivo propio.",
-"partido": ""
-},
-{
-"id": "2009/0094(CNS)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1
-},
-"peso": 1,
-"nota": "Amplía los periodos de intervención pública para mantequilla y leche en polvo durante la crisis láctea; sostiene el precio para los ganaderos.",
-"partido": ""
-},
-{
-"id": "2009/0096(COD)",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"desSub": 1
-},
-"peso": 1,
-"nota": "Instrumento de microcréditos para que desempleados y personas vulnerables creen o amplíen microempresas.",
-"partido": ""
-},
-{
-"id": "2009/0098(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Red de funcionarios de enlace de inmigración; organizativa, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0099(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "CRD III: más capital para la cartera de negociación y las retitulizaciones, y supervisión de las remuneraciones de los banqueros.",
-"partido": ""
-},
-{
-"id": "2009/0100(NLE)",
-"tipo": "soc",
-"imp": {
-"infancia": 1,
-"monop": 1
-},
-"peso": 1,
-"nota": "Convenio de La Haya sobre cobro internacional de alimentos; facilita a los progenitores con la custodia cobrar la pensión de alimentos de los hijos.",
-"partido": ""
-},
-{
-"id": "2009/0103(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Derogación de actos obsoletos de la PAC; técnica, sin efecto.",
-"partido": ""
-},
-{
-"id": "2009/0104(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Modificación de la lista de visados de la UE; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2009/0106(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Notificación de proyectos de inversión en infraestructuras energéticas; técnica, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0107(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Simplificación de la gestión de los fondos estructurales ante la crisis; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0108(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secInd": -1
-},
-"peso": 2,
-"nota": "Seguridad del suministro de gas: obligaciones de abastecimiento garantizado a los hogares en crisis; protege al consumidor con coste para las gasistas.",
-"partido": ""
-},
-{
-"id": "2009/0110(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Orientaciones de la red transeuropea de transporte (refundición); planificación sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0112(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Plan a largo plazo de la anchoa del golfo de Vizcaya, pesquería del Cantábrico: límites de capturas con coste para el sector pesquero.",
-"partido": ""
-},
-{
-"id": "2009/0116(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Transpone el programa de documentación de capturas de atún rojo de la CICAA; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0117(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Delegación de ensayos de laboratorio en el control de semillas; técnica.",
-"partido": ""
-},
-{
-"id": "2009/0118(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Cooperación contra el fraude del IVA (refundición); técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0119(CNS)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2009/0121(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Acuerdo internacional; sin efecto distributivo claro en España.",
-"partido": ""
-},
-{
-"id": "2009/0125(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Suspensión arancelaria en Madeira y Azores; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2009/0127(COD)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Modifica el Fondo Europeo para los Refugiados para financiar el reasentamiento; beneficia a refugiados y solicitantes de asilo.",
-"partido": ""
-},
-{
-"id": "2009/0128(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Autenticación de monedas de euro; técnica, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2009/0129(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Transpone medidas de la Comisión General de Pesca del Mediterráneo; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0131(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Requisitos de equipos a presión transportables; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0132(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Simplifica el folleto de oferta pública de valores; técnica, efectos mixtos sin colectivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0136(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Migración al Sistema de Información de Schengen II; técnica.",
-"partido": ""
-},
-{
-"id": "2009/0138(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1
-},
-"peso": 1,
-"nota": "Ajusta el programa agrícola de las regiones ultraperiféricas, entre ellas Canarias; beneficia a sus agricultores.",
-"partido": ""
-},
-{
-"id": "2009/0139(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Inversión del sujeto pasivo del IVA contra el fraude; técnica, sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2009/0140(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Crea la Junta Europea de Riesgo Sistémico; supervisión institucional sin efecto distributivo directo.",
-"partido": ""
-},
-{
-"id": "2009/0141(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Funciones del BCE en la Junta Europea de Riesgo Sistémico; institucional.",
-"partido": ""
-},
-{
-"id": "2009/0142(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 2,
-"nota": "Crea la Autoridad Bancaria Europea; supervisión institucional sin efecto distributivo directo.",
-"partido": ""
-},
-{
-"id": "2009/0143(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Crea la Autoridad Europea de Seguros y Pensiones; supervisión institucional sin efecto distributivo directo.",
-"partido": ""
-},
-{
-"id": "2009/0144(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Crea la Autoridad Europea de Valores y Mercados; supervisión institucional sin efecto distributivo directo.",
-"partido": ""
-},
-{
-"id": "2009/0145(CNS)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda macrofinanciera a un tercer país; sin efecto distributivo en España.",
-"partido": ""
-},
-{
-"id": "2009/0146(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Certificación veterinaria de importaciones; técnica, sin efecto distributivo.",
-"partido": ""
-}
+ {
+  "id": "2003/0132A(NLE)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secTrans": -1
+  },
+  "peso": 1,
+  "nota": "Convenio de Atenas: amplía la responsabilidad de las navieras por daños a pasajeros y equipajes; protege al usuario con coste para el transportista.",
+  "partido": ""
+ },
+ {
+  "id": "2004/0176(AVC)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2005/0254(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Obliga a indicar el país de origen de productos importados; los consumidores reciben información sobre el origen.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0084(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0167(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2006/0258(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0206(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Sube los mínimos del impuesto especial al tabaco con objetivo de salud pública; coste para la industria tabaquera.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0225(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2007/0252(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0028(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Exige información alimentaria obligatoria en el etiquetado; beneficia al consumidor e impone obligaciones a la industria alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0090(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0133(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0193(COD)",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la protección y los permisos de la trabajadora embarazada, en parto reciente o lactancia.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0196(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de los consumidores en los contratos de compra y venta.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0227(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0238(COD)",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Fija normas de calidad y seguridad de los órganos para trasplantes; beneficia a los pacientes trasplantados.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0240(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Restringe sustancias peligrosas en aparatos eléctricos y electrónicos; mejora la protección ambiental y obliga a los fabricantes.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0241(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula la recogida y el tratamiento de residuos electrónicos; mejora la protección ambiental y obliga a los productores.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0249(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0253(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0255(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Propuesta de permitir a la industria farmacéutica informar al público sobre medicamentos con receta; no se aprobó. Beneficia a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0256(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Propuesta de permitir a la industria farmacéutica informar al público sobre medicamentos con receta; no se aprobó. Beneficia a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0257(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad de los medicamentos; beneficia a pacientes y salud pública e impone obligaciones a los laboratorios.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0260(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad de los medicamentos; beneficia a pacientes y salud pública e impone obligaciones a los laboratorios.",
+  "partido": ""
+ },
+ {
+  "id": "2008/0261(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad de los medicamentos; beneficia a pacientes y salud pública e impone obligaciones a los laboratorios.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0004(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0005(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0006(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Regula la denominación de fibras y el etiquetado de productos textiles, con más información para los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0007(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0009(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0012(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0013(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0014(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0015(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0017(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0020(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0023(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0028(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Permite circular por el espacio Schengen a titulares de visado de larga duración.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0031(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0034(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0035(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1
+  },
+  "peso": 1,
+  "nota": "Exime a las microentidades de determinadas obligaciones contables; reduce su carga administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0037(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0040(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0041(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Plan de recuperación del fletán negro; limita la actividad pesquera.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0043(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0047(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0048(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0051(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Régimen de control y ejecución en caladeros del Atlántico Nororiental; impone obligaciones de control a la pesca.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0054(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Directiva de morosidad: plazos máximos de pago de 30 días para las administraciones y 60 entre empresas, con intereses; favorece a autónomos y pymes.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0056(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0057(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Plan plurianual del jurel occidental, que pesca la flota española: límites de capturas que protegen el recurso con coste para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0059(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0060B(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0062(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0063(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0064(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula la autorización, el capital y la supervisión de los gestores de fondos de inversión alternativos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0067(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0068(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0070(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0071(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0072(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0075(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0076(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Regula la comercialización de biocidas; mejora la protección de la salud y el medio ambiente e impone exigencias a la industria.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0084(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0085(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0089(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0091(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0094(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Abre periodos de intervención pública de mantequilla y leche en polvo; sostiene al sector lácteo.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0096(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1
+  },
+  "peso": 1,
+  "nota": "Crea un instrumento de microfinanciación para el empleo y la inclusión social; facilita crédito a microempresas y autónomos.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0098(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0099(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Eleva los requisitos de capital de la cartera de negociación de las entidades y somete a supervisión sus políticas de remuneración.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0100(NLE)",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Facilita el cobro internacional de pensiones de alimentos para niños y familiares.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0103(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0104(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0106(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0107(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0108(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad del abastecimiento de gas; beneficia al suministro de los consumidores e impone obligaciones a las empresas gasistas.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0110(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0112(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Plan a largo plazo de la anchoa del golfo de Vizcaya, pesquería del Cantábrico: límites de capturas con coste para el sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0116(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Programa de documentación de capturas de atún rojo; impone obligaciones de registro al sector pesquero.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0117(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0118(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0119(CNS)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0121(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0125(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0127(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Modifica el Fondo Europeo para los Refugiados para financiar el reasentamiento; beneficia a refugiados y solicitantes de asilo.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0128(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0129(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0131(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0132(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0136(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0138(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Medidas agrícolas específicas para regiones ultraperiféricas; apoyan al sector agrario.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0139(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0140(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0141(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0142(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0143(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0144(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0145(CNS)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ },
+ {
+  "id": "2009/0146(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+  "partido": ""
+ }
 ]

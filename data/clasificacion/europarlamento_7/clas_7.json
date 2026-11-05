@@ -1,899 +1,891 @@
 [
-{
-"id": "2012/2023(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de la construcción en la Comunidad Valenciana.",
-"partido": ""
-},
-{
-"id": "2012/2024(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Pide una ley de procedimiento administrativo de la UE; institucional.",
-"partido": ""
-},
-{
-"id": "2012/2051(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Solidaridad para catástrofes en Italia; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2012/2055(INL)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"pobreza": 1,
-"secFin": -1
-},
-"peso": 1,
-"nota": "Pide garantizar una cuenta bancaria básica; favorece a personas excluidas de la banca.",
-"partido": ""
-},
-{
-"id": "2012/2057(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Solidaridad para catástrofes en Italia; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2012/2058(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Asistencia técnica del Fondo de Adaptación a la Globalización; gasto administrativo.",
-"partido": ""
-},
-{
-"id": "2012/2061(INL)",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"asal2": 1,
-"asal3": 1,
-"asal4": 1
-},
-"peso": 1,
-"nota": "Pide reforzar la información y consulta a los trabajadores en reestructuraciones.",
-"partido": ""
-},
-{
-"id": "2012/2071(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo técnico de créditos o ingresos; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2012/2089(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos del calzado en la Comunidad Valenciana.",
-"partido": ""
-},
-{
-"id": "2012/2092(BUD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"estud": 1
-},
-"peso": 3,
-"nota": "Presupuesto anual de la UE para 2013: ayudas de la PAC, desarrollo rural y Erasmus, entre otros programas.",
-"partido": ""
-},
-{
-"id": "2012/2110(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2121(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2127(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo técnico de créditos o ingresos; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2012/2151(INL)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Pide avanzar hacia una unión económica y monetaria; institucional.",
-"partido": ""
-},
-{
-"id": "2012/2154(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2155(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2157(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2160(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos del metal en Galicia.",
-"partido": ""
-},
-{
-"id": "2012/2164(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2165(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2228(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2230(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2237(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Solidaridad para catástrofes en Italia; sin efecto directo en España.",
-"partido": ""
-},
-{
-"id": "2012/2242(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo del Fondo de Solidaridad por los seísmos de Emilia-Romaña; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2260(INL)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Gobernanza del mercado único; institucional.",
-"partido": ""
-},
-{
-"id": "2012/2265(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2275(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2276(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2277(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2278(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2279(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos en otro Estado miembro; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2012/2280(BUD)",
-"tipo": "eco",
-"imp": {
-"desPres": 1
-},
-"peso": 1,
-"nota": "Fondo de Adaptación a la Globalización para despedidos de productos metálicos en el País Vasco.",
-"partido": ""
-},
-{
-"id": "2012/2281(BUD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Presupuesto rectificativo técnico de créditos o ingresos; sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2012/2307(BUD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1,
-"estud": 1
-},
-"peso": 3,
-"nota": "Nuevo proyecto del presupuesto de la UE para 2013: ayudas de la PAC, desarrollo rural y Erasmus.",
-"partido": ""
-},
-{
-"id": "2012/2309(INL)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reparto de escaños del Parlamento Europeo para 2014; institucional.",
-"partido": ""
-},
-{
-"id": "2013/0007(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste procedimental del régimen de control de la pesca; técnico.",
-"partido": ""
-},
-{
-"id": "2013/0010(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste procedimental de las licencias FLEGT de madera; técnico.",
-"partido": ""
-},
-{
-"id": "2013/0012(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Obliga a desplegar puntos de recarga eléctrica y de gas; reduce emisiones del transporte.",
-"partido": ""
-},
-{
-"id": "2013/0013(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Deroga normas contables obsoletas de las ferroviarias; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0014(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Agencia Ferroviaria de la UE (cuarto paquete ferroviario, pilar técnico); institucional.",
-"partido": ""
-},
-{
-"id": "2013/0015(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Interoperabilidad ferroviaria; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0019(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste de anexos del Convenio de La Haya sobre cobro de alimentos; técnico.",
-"partido": ""
-},
-{
-"id": "2013/0022(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Agencia del GNSS europeo; institucional.",
-"partido": ""
-},
-{
-"id": "2013/0023(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Protección penal del euro frente a la falsificación; norma penal.",
-"partido": ""
-},
-{
-"id": "2013/0024(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Trazabilidad de transferencias de fondos contra el blanqueo; obligaciones para proveedores de pagos.",
-"partido": ""
-},
-{
-"id": "2013/0025(COD)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "Cuarta directiva contra el blanqueo: diligencia debida y registro de titulares reales; obligaciones para entidades.",
-"partido": ""
-},
-{
-"id": "2013/0027(COD)",
-"tipo": "eco",
-"imp": {
-"secDig": -1,
-"empGran": -1
-},
-"peso": 1,
-"nota": "Directiva NIS: obligaciones de ciberseguridad para operadores esenciales y servicios digitales.",
-"partido": ""
-},
-{
-"id": "2013/0028(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": -1,
-"secTrans": 1
-},
-"peso": 2,
-"nota": "Abre a la competencia el transporte nacional de viajeros por ferrocarril y limita la adjudicación directa; liberaliza un servicio público.",
-"partido": ""
-},
-{
-"id": "2013/0029(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": -1,
-"secTrans": 1
-},
-"peso": 2,
-"nota": "Pilar de mercado del cuarto paquete ferroviario: abre el transporte nacional de viajeros a operadores privados.",
-"partido": ""
-},
-{
-"id": "2013/0045(CNS)",
-"tipo": "eco",
-"imp": {
-"secFin": -1,
-"empGran": -1,
-"prop3": -1,
-"prop4": -1
-},
-"peso": 2,
-"nota": "Impuesto sobre transacciones financieras en cooperación reforzada; grava a entidades financieras e inversores. No adoptado.",
-"partido": ""
-},
-{
-"id": "2013/0048(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Refuerza la vigilancia del mercado de productos; mejora la seguridad de productos.",
-"partido": ""
-},
-{
-"id": "2013/0049(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"cons": 1,
-"secCom": -1
-},
-"peso": 2,
-"nota": "Seguridad de los productos de consumo e indicación de origen; protege a consumidores con obligaciones a distribuidores.",
-"partido": ""
-},
-{
-"id": "2013/0062(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Alinea directivas laborales con el etiquetado de sustancias químicas; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0063(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Régimen comercial de productos agrícolas transformados; técnico.",
-"partido": ""
-},
-{
-"id": "2013/0064(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Programa de vigilancia y seguimiento espacial; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2013/0072(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Revisión de los derechos de los pasajeros aéreos; el resultado final (umbrales de retraso) es incierto, sin signo claro.",
-"partido": ""
-},
-{
-"id": "2013/0074(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Marco de ordenación del espacio marítimo; planificación sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "2013/0080(COD)",
-"tipo": "eco",
-"imp": {
-"secDig": 1
-},
-"peso": 1,
-"nota": "Reduce el coste de desplegar redes de banda ancha compartiendo infraestructuras; beneficia a operadores.",
-"partido": ""
-},
-{
-"id": "2013/0081(COD)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Facilita la entrada y residencia de estudiantes e investigadores de terceros países.",
-"partido": ""
-},
-{
-"id": "2013/0082(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Notificación de proyectos de infraestructura energética; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0084(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Encuesta de población activa; estadística.",
-"partido": ""
-},
-{
-"id": "2013/0085(NLE)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Autoriza ratificar el convenio de la OIT sobre trabajadoras domésticas; autorización sin efecto directo.",
-"partido": ""
-},
-{
-"id": "2013/0086(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modificación del Acuerdo sobre Contratación Pública de la OMC; acuerdo internacional.",
-"partido": ""
-},
-{
-"id": "2013/0087(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": -1
-},
-"peso": 1,
-"nota": "Disciplina financiera: recorta los pagos directos de la PAC de 2013 por encima de 5.000 euros.",
-"partido": ""
-},
-{
-"id": "2013/0088(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reforma de la marca de la UE; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0089(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Armonización de las legislaciones de marcas; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0091(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reglamento de Europol; institucional.",
-"partido": ""
-},
-{
-"id": "2013/0092(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Financiación de la Agencia de Seguridad Marítima contra la contaminación; institucional.",
-"partido": ""
-},
-{
-"id": "2013/0096(NLE)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Especificaciones técnicas de las monedas de euro; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0097(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Deroga una prohibición obsoleta de importar patudo; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0099(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Contingentes arancelarios para el vino; técnico.",
-"partido": ""
-},
-{
-"id": "2013/0103(COD)",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Moderniza la defensa comercial antidumping y antisubvenciones; protege a la industria europea.",
-"partido": ""
-},
-{
-"id": "2013/0104(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Aplaza la aplicación del código aduanero; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0105(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"secTrans": 1
-},
-"peso": 1,
-"nota": "Permite cabinas aerodinámicas y más peso a camiones limpios; reduce consumo y emisiones del transporte.",
-"partido": ""
-},
-{
-"id": "2013/0106(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reglas de vigilancia marítima de Frontex, con interceptación y salvamento; signo incierto.",
-"partido": ""
-},
-{
-"id": "2013/0110(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Obliga a grandes empresas a informar sobre aspectos ambientales, sociales y de diversidad.",
-"partido": ""
-},
-{
-"id": "2013/0117(COD)",
-"tipo": "eco",
-"imp": {
-"secPrim": 1,
-"rural": 1
-},
-"peso": 1,
-"nota": "Transición de la PAC a 2014: mantiene pagos directos y desarrollo rural hasta aplicar la reforma.",
-"partido": ""
-},
-{
-"id": "2013/0119(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Simplifica la aceptación de documentos públicos entre Estados; administrativa.",
-"partido": ""
-},
-{
-"id": "2013/0124(COD)",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Facilita a los trabajadores de otros Estados de la UE ejercer sus derechos de libre circulación.",
-"partido": ""
-},
-{
-"id": "2013/0128(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ayuda macrofinanciera a Jordania; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/0130(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Cuentas económicas medioambientales; estadística.",
-"partido": ""
-},
-{
-"id": "2013/0133(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Plan del atún rojo que incorpora medidas de la CICAA; signo incierto para la flota.",
-"partido": ""
-},
-{
-"id": "2013/0136(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 2,
-"nota": "Ley de sanidad animal: prevención y control de enfermedades animales y zoonosis.",
-"partido": ""
-},
-{
-"id": "2013/0137(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Regulación de semillas y material vegetal; rechazado por el Parlamento, efecto de signo incierto.",
-"partido": ""
-},
-{
-"id": "2013/0139(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"pobreza": 1,
-"inmigrantes": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Directiva de cuentas de pago: derecho a cuenta básica, comparación de comisiones y cambio de cuenta.",
-"partido": ""
-},
-{
-"id": "2013/0140(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"secPrim": -1
-},
-"peso": 2,
-"nota": "Controles oficiales de alimentos, piensos y sanidad animal y vegetal; mejora la seguridad alimentaria con tasas a operadores.",
-"partido": ""
-},
-{
-"id": "2013/0141(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Medidas contra plagas de los vegetales; protege cultivos y biodiversidad.",
-"partido": ""
-},
-{
-"id": "2013/0150(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Ajuste transitorio del reglamento de biocidas; técnico.",
-"partido": ""
-},
-{
-"id": "2013/0152(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Garantía al BEI para operaciones fuera de la UE; sin efecto en España.",
-"partido": ""
-},
-{
-"id": "2013/0156(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Gestión financiera de fondos para Estados en dificultades; sin efecto claro en España.",
-"partido": ""
-},
-{
-"id": "2013/0162(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Restitución de bienes culturales; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0164(COD)",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Programa Copernicus de observación de la Tierra; sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "2013/0165(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"victimas": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "eCall obligatorio en coches nuevos: llamada automática de emergencia en accidentes, con coste para fabricantes.",
-"partido": ""
-},
-{
-"id": "2013/0166(COD)",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"victimas": 1
-},
-"peso": 1,
-"nota": "Despliegue del servicio eCall en centros de emergencia; mejora la atención a accidentados.",
-"partido": ""
-},
-{
-"id": "2013/0169(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Gestión del gasto en cadena alimentaria y fitosanidad; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0181(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Estadísticas del procedimiento de desequilibrio macroeconómico; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0185(COD)",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"empGran": -1
-},
-"peso": 1,
-"nota": "Facilita reclamar daños por cárteles y abusos de posición dominante; favorece a perjudicados.",
-"partido": ""
-},
-{
-"id": "2013/0186(COD)",
-"tipo": "eco",
-"imp": {
-"ciud": -1,
-"secTrans": 1
-},
-"peso": 1,
-"nota": "Cielo Único (SES2+): separa y abre a la competencia servicios de navegación aérea de apoyo.",
-"partido": ""
-},
-{
-"id": "2013/0187(COD)",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Competencias de la Agencia de Seguridad Aérea en aeródromos y tránsito aéreo; técnica.",
-"partido": ""
-},
-{
-"id": "2013/0188(CNS)",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 1,
-"nota": "Intercambio automático de datos de cuentas financieras entre Haciendas; obliga a informar a entidades.",
-"partido": ""
-}
+ {
+  "id": "2012/2023(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Fondo de Adaptación a la Globalización para despedidos de la construcción en la Comunidad Valenciana.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2024(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2051(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2055(INL)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Propone derecho de acceso a una cuenta bancaria básica: beneficia a los usuarios de banca; la banca asume la obligación de ofrecerla.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2057(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2058(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2061(INL)",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de información y consulta de los trabajadores ante reestructuraciones empresariales.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2071(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2089(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Fondo de Adaptación a la Globalización para despedidos del calzado en la Comunidad Valenciana.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2092(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1,
+   "estud": 1
+  },
+  "peso": 3,
+  "nota": "Presupuesto anual de la UE para 2013: ayudas de la PAC, desarrollo rural y Erasmus, entre otros programas.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2110(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2121(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2127(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2151(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2154(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2155(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2157(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2160(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Fondo de Adaptación a la Globalización para despedidos del metal en Galicia.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2164(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2165(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2228(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2230(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2237(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2242(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2260(INL)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2265(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2275(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2276(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2277(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2278(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2279(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fondo europeo de ayuda a trabajadores despedidos de una empresa o región; sin encaje claro en los colectivos españoles.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2280(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Fondo de Adaptación a la Globalización para despedidos de productos metálicos en el País Vasco.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2281(BUD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2307(BUD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1,
+   "estud": 1
+  },
+  "peso": 3,
+  "nota": "Nuevo proyecto del presupuesto de la UE para 2013: ayudas de la PAC, desarrollo rural y Erasmus.",
+  "partido": ""
+ },
+ {
+  "id": "2012/2309(INL)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0007(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0010(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0012(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Obliga a desplegar puntos de recarga eléctrica y de gas; reduce emisiones del transporte.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0013(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0014(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0015(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0019(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0022(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0023(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0024(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a los prestadores de servicios de pago a acompañar las transferencias con información del ordenante y del beneficiario.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0025(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone obligaciones de diligencia, identificación y comunicación contra el blanqueo a entidades financieras y otros sujetos obligados.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0027(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": -1,
+   "secFin": -1,
+   "secInd": -1,
+   "secSoc": -1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a operadores de energía, transporte, banca, sanidad y servicios de internet a gestionar riesgos y notificar incidentes de seguridad.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0028(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el transporte nacional de viajeros por ferrocarril; la prestación pasa a operadores privados.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0029(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a la competencia el transporte nacional de viajeros por ferrocarril; la prestación pasa a operadores privados.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0045(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre transacciones financieras que grava a las entidades y operaciones financieras.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0048(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la vigilancia del mercado para retirar productos inseguros; mejora la seguridad de los productos para toda la población.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0049(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la seguridad de los productos de consumo y las garantías de los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0062(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0063(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0064(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0072(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia derechos de compensación y asistencia a pasajeros aéreos con efectos de signo mixto sobre usuarios y aerolíneas.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0074(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0080(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Reduce el coste de desplegar redes de comunicaciones de alta velocidad al facilitar el acceso a infraestructuras y obras.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0081(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Regula la entrada y residencia de extranjeros no comunitarios para investigar, estudiar o hacer prácticas y voluntariado, ampliando derechos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0082(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0084(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0085(NLE)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0086(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0087(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": -1
+  },
+  "peso": 1,
+  "nota": "Fija un porcentaje de ajuste que reduce los pagos directos de la PAC a los agricultores en 2013.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0088(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0089(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0091(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0092(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0096(NLE)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0097(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0099(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0103(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Moderniza la defensa comercial antidumping y antisubvenciones; protege a la industria europea.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0104(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0105(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secTrans": 1
+  },
+  "peso": 1,
+  "nota": "Permite cabinas aerodinámicas y más peso a camiones limpios; reduce consumo y emisiones del transporte.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0106(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0110(COD)",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las grandes sociedades a divulgar información no financiera y sobre diversidad.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0117(COD)",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Transición de la PAC a 2014: mantiene pagos directos y desarrollo rural hasta aplicar la reforma.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0119(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0124(COD)",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 1,
+  "nota": "Facilita a los trabajadores de otros Estados de la UE ejercer sus derechos de libre circulación.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0128(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0130(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0133(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0136(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Ley de sanidad animal: prevención y control de enfermedades animales y zoonosis.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0137(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0139(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula la comparabilidad de comisiones, el cambio de cuenta y el acceso a cuentas de pago básicas; la banca asume obligaciones.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0140(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los controles oficiales sobre seguridad de alimentos y piensos.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0141(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Medidas contra plagas de los vegetales; protege cultivos y biodiversidad.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0150(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0152(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0156(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0162(COD)",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0164(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0165(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a instalar el sistema eCall de emergencia en los vehículos nuevos, mejorando la seguridad vial; los fabricantes asumen el coste.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0166(COD)",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secDig": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las redes móviles a gestionar las llamadas eCall de emergencia de vehículos; los operadores asumen la obligación.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0169(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0181(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0185(COD)",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Facilita a los afectados por infracciones de competencia reclamar daños y perjuicios, incluidos los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0186(COD)",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 1,
+  "nota": "Cielo Único (SES2+): separa y abre a la competencia servicios de navegación aérea de apoyo.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0187(COD)",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+  "partido": ""
+ },
+ {
+  "id": "2013/0188(CNS)",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Intercambio automático de datos de cuentas financieras entre Haciendas; obliga a informar a entidades.",
+  "partido": ""
+ }
 ]
