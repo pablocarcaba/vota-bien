@@ -61,3 +61,5 @@ Las 510 iniciativas se han reclasificado con la rúbrica v3 por tres lectores in
 La rúbrica (línea de Desempleados) deja `desSub` solo para el subsidio por desempleo: el IMV y las rentas mínimas van a `pobreza` (3.5.2). Estas iniciativas llevan `desSub` y su nota habla del IMV o de una renta mínima; todas tienen ya `pobreza`. Revisar si `desSub` sobra o si la iniciativa toca además el subsidio por desempleo.
 
 - [ ] **Prestación de ingresos mínimos** (120/000035, ILP): renta mínima de la Seguridad Social, no subsidio por desempleo; `desSub` y `pobreza`.
+
+- 122/000033: partido `BNG` (Grupo Mixto). Evidencia: BOCG B_044-01, «a instancia de don Francisco Jorquera Caselas, Diputado por A Coruña (BNG) y doña M.ª Olaia Fernández Davila […] presentan la siguiente Proposición de Ley del BNG». `identificar_mixto.py` no la encontró porque el PDF extraído trae el expediente con otro número en el acuerdo de la Mesa.
