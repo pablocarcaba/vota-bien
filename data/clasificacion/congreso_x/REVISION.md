@@ -55,3 +55,9 @@ Las 510 iniciativas se han reclasificado con la rúbrica v3 por tres lectores in
 - Sin efectos: 229 antes, 307 ahora.
 
 - 121/000021: `viv2` → `casero`, como en 93a7102 (colectivo «casero», 04/11/2026). Las lecturas v3 de la X se hicieron con la rúbrica anterior a ese cambio y la aplicación lo había revertido. El resto de `viv2` de la X (130/000001, IBI) sigue siendo `viv2`.
+
+## `desSub` en iniciativas del IMV (rúbrica, 05/11/2026)
+
+La rúbrica (línea de Desempleados) deja `desSub` solo para el subsidio por desempleo: el IMV y las rentas mínimas van a `pobreza` (3.5.2). Estas iniciativas llevan `desSub` y su nota habla del IMV o de una renta mínima; todas tienen ya `pobreza`. Revisar si `desSub` sobra o si la iniciativa toca además el subsidio por desempleo.
+
+- [ ] **Prestación de ingresos mínimos** (120/000035, ILP): renta mínima de la Seguridad Social, no subsidio por desempleo; `desSub` y `pobreza`.

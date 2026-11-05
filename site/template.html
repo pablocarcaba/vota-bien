@@ -728,7 +728,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
       <section class="fcol" aria-labelledby="fc-priv">
         <h3 id="fc-priv"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>Privacidad</h3>
         <p>No sale de tu dispositivo: todo se calcula en tu navegador y tus respuestas se guardan solo en este navegador. Sin registro, sin cookies, sin analítica.</p>
-        <p>Si compartes tu perfil, el enlace lleva tus respuestas de los pasos 1 a 3 (también sexo, estado civil, cuidados, ayuda social y medio rural), pero nunca las del paso 4: orientación, salud, discapacidad, origen ni si eres víctima. Solo lo tiene quien tú elijas.</p>
+        <p>Si compartes tu perfil, el enlace lleva tus respuestas de los pasos 1 a 3 (también sexo, estado civil, cuidados, ayuda social y medio rural), pero nunca «Otro» en sexo ni las del paso 4: orientación, salud, discapacidad, origen ni si eres víctima. Solo lo tiene quien tú elijas.</p>
         <p><button type="button" class="linkbtn" id="borrar-foot">Borrar mis respuestas</button></p>
       </section>
       <section class="fcol" aria-labelledby="fc-datos">
@@ -874,9 +874,10 @@ const UI_TXT = {}; PASOS.forEach(P=>P.q.forEach(q=>(q.ui||[]).forEach(([k,v,r])=
 // colectivos que pone deriva() a partir de las respuestas; en la barra de perfil salen como «se deduce»
 const DERIV = ['empAut','estud','viv0','viv1','viv2','inq','hipot','casero'];
 const NPASOS = PASOS.length;
-// datos sensibles (paso 4: orientación, salud, discapacidad, origen, víctimas) y su respuesta «Ninguna me describe»:
-// se quedan en este navegador, nunca en un enlace. Sexo, estado civil, cuidados, ayuda social y medio rural sí viajan
-const PRIVADO = new Set(['lgtbi','pac','depend','discapacidad','inmigrantes','minorias','victimas','socNo']);
+// datos sensibles (paso 4: orientación, salud, discapacidad, origen, víctimas) y su respuesta «Ninguna me describe»,
+// más «Otro» en sexo (paso 1), que puede revelar la identidad de género: se quedan en este navegador, nunca en un enlace.
+// Hombre, Mujer, «Prefiero no decirlo», estado civil, cuidados, ayuda social y medio rural sí viajan
+const PRIVADO = new Set(['lgtbi','pac','depend','discapacidad','inmigrantes','minorias','victimas','socNo','sexOtro']);
 // orden de las respuestas en la barra «Tu perfil»: el de los pasos y sus preguntas
 const ORDEN = {}; PASOS.forEach(P=>P.q.forEach(q=>qOpts(q).forEach(k=>{ if(!(k in ORDEN)) ORDEN[k]=Object.keys(ORDEN).length; })));
 const porOrden = (a,b) => (ORDEN[a]??1e3)-(ORDEN[b]??1e3);
@@ -917,7 +918,7 @@ const CAT_NOTE = {
   nviv:'Cuenta la tuya si es propia.',
   prop:'Ahorros, inversiones, acciones u otros inmuebles, sin contar tu casa. «Menos de 200.000 €» incluye no tener nada.',
   soc:'Puedes marcar varias.',
-  sexo:'Hay leyes dirigidas específicamente a hombres o a mujeres.',
+  sexo:'Hay leyes dirigidas específicamente a hombres o a mujeres. «Otro» no va en los enlaces que compartas.',
 };
 // veredicto en palabras para el saldo de un partido: habla de los votos, no de sus efectos. Franja neutra de ±25
 // (±35 con menos de 5 leyes) y «mayoría clara» solo con nota de ±60 o más y al menos 8 leyes
@@ -1121,14 +1122,15 @@ function copyLink(){ copyUrl($('copy-btn'), shareUrl(null,null,true)); }
 function copyUrl(b, url){
   let out = b.nextElementSibling;
   if(!out || !out.classList.contains('cstat')){ out=el('p',{class:'cstat'}); b.after(out); }
-  const priv = [...state.sel, ...state.pasos.ui].some(k=>PRIVADO.has(k)) ? ' Lleva tus respuestas de los pasos 1 a '+NOBL+', pero no lo que marcaste en el paso '+NPASOS+' (salud, orientación, origen…): eso no sale de tu dispositivo.' : '';
+  const marc = [...state.sel, ...state.pasos.ui].filter(k=>PRIVADO.has(k)), otro = marc.includes('sexOtro'), p4 = marc.some(k=>k!=='sexOtro');
+  const priv = marc.length ? ' Lleva tus respuestas de los pasos 1 a '+NOBL+', pero no '+(p4 ? 'lo que marcaste en el paso '+NPASOS+' (salud, orientación, origen…)'+(otro?' ni «Otro» en sexo':'') : '«Otro» en sexo')+': eso no sale de tu dispositivo.' : '';
   const ok = ()=>{ out.textContent='Enlace copiado.'+priv; say('Enlace copiado.'+priv); };
   const ko = ()=>{ out.textContent='No se ha podido copiar. Copia este enlace:'+priv; const i=el('input',{type:'text',readonly:'',value:url,'aria-label':'Enlace para compartir'}); out.appendChild(i); i.select(); say('No se ha podido copiar el enlace: lo tienes en un campo de texto junto al botón.'); };
   try{ navigator.clipboard.writeText(url).then(ok,ko); }catch(e){ ko(); }
 }
 // enlace directo a la ficha de un partido (y, si se pide, a una ley): perfil, ciudadanía, dataset y pestaña actuales.
 // Las claves salen siempre de los datos (partidos y leyes del dataset), nunca de texto libre
-// Los datos sensibles del paso 4 (PRIVADO: orientación, salud, discapacidad, origen, víctimas) nunca van en el enlace
+// Los datos sensibles (PRIVADO: paso 4 y «Otro» en sexo) nunca van en el enlace
 function shareUrl(who, ley, perfil){
   const base = location.origin && location.origin!=='null' ? location.origin+location.pathname : location.pathname;
   const q=[], p=[...state.sel].filter(k=>esPerfil(k) && !PRIVADO.has(k)), u=[...state.pasos.ui].filter(k=>!PRIVADO.has(k));
@@ -1913,7 +1915,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p><span class="tag-int">Interpretación nuestra</span>Los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.</p>
     <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','/blob/main/data/analisis/SESGO.md')}</p>
     <h3>Versión de la metodología</h3>
-    <p>${esc(RUBRICA_TXT)}. <span id="alcance-v3">Están clasificadas con la v3, por tres lecturas independientes: Congreso de los Diputados XV legislatura, Congreso de los Diputados XIV legislatura, Congreso de los Diputados XIII legislatura, Congreso de los Diputados XII legislatura, Congreso de los Diputados XI legislatura, Congreso de los Diputados X legislatura, Parlamento Europeo 10.ª legislatura y Parlamento Europeo 9.ª legislatura. Siguen con la v2, a la espera de reclasificarse igual: Parlamento Europeo 8.ª legislatura, Parlamento Europeo 7.ª legislatura y Parlamento Europeo 6.ª legislatura.</span> Cada cambio de la rúbrica y de la clasificación queda registrado en GitHub. <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
+    <p>${esc(RUBRICA_TXT)}. <span id="alcance-v3">Están clasificadas con la v3, por tres lecturas independientes: Congreso de los Diputados XV legislatura, Congreso de los Diputados XIV legislatura, Congreso de los Diputados XIII legislatura, Congreso de los Diputados XII legislatura, Congreso de los Diputados XI legislatura, Congreso de los Diputados X legislatura, Parlamento Europeo 10.ª legislatura, Parlamento Europeo 9.ª legislatura, Parlamento Europeo 8.ª legislatura, Parlamento Europeo 7.ª legislatura y Parlamento Europeo 6.ª legislatura. Todas las legislaturas están ya clasificadas con la v3.</span> <span id="alcance-pe-antiguo">En el Parlamento Europeo 6.ª y 7.ª, la API oficial casi no publica el texto aprobado en español: las normas que la v3 dejaba sin efectos solo por no tener texto (80 en la 6.ª y 124 en la 7.ª) conservan la clasificación anterior. Están listadas en el REVISION.md de cada legislatura.</span> Cada cambio de la rúbrica y de la clasificación queda registrado en GitHub. <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
     <p class="small">Datos: ${esc(DATA.meta.fuente_txt)}, datos abiertos (iniciativas y votaciones). Generado el ${esc(DATA.meta.generado)}.</p>
     <p class="dlinks">${jsonLink()}${repoLink('Código y clasificación en GitHub')}</p>
   </div>`;

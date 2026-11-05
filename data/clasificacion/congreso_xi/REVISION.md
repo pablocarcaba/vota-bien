@@ -22,3 +22,9 @@ Las 51 iniciativas se han reclasificado con la rúbrica v3 por tres lectores ind
 - Coincidencia entre lectores: 80–88 % idéntica, parecido medio 0.88, 0 con signo contrario; 40 de 51 idénticas en las tres lecturas.
 - 20 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
 - Sin efectos: 29 antes, 29 ahora.
+
+## `desSub` en iniciativas del IMV (rúbrica, 05/11/2026)
+
+La rúbrica (línea de Desempleados) deja `desSub` solo para el subsidio por desempleo: el IMV y las rentas mínimas van a `pobreza` (3.5.2). Estas iniciativas llevan `desSub` y su nota habla del IMV o de una renta mínima; todas tienen ya `pobreza`. Revisar si `desSub` sobra o si la iniciativa toca además el subsidio por desempleo.
+
+- [ ] **Prestación de ingresos mínimos** (120/000003, ILP): renta mínima de la Seguridad Social, no subsidio por desempleo; `desSub` y `pobreza`.

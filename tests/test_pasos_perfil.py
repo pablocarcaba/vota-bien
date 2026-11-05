@@ -19,7 +19,10 @@ PASOS = [
     ("Vivienda y ahorros", False, ["donde", "rur", "nviv", "alq", "hip", "prop"]),
     ("Salud y situación personal", True, ["ori", "soc"]),
 ]
-PRIVADO = {"lgtbi", "pac", "depend", "discapacidad", "inmigrantes", "minorias", "victimas", "socNo"}
+PASO4_PRIVADO = {"lgtbi", "pac", "depend", "discapacidad", "inmigrantes", "minorias", "victimas", "socNo"}
+# fuera del paso 4, solo «Otro» en sexo (paso 1) no viaja: puede revelar la identidad de género
+PRIVADO_FUERA_DEL_PASO4 = {"sexOtro"}
+PRIVADO = PASO4_PRIVADO | PRIVADO_FUERA_DEL_PASO4
 
 
 def bloque(src):
@@ -49,13 +52,18 @@ process.stdout.write(JSON.stringify({
     def test_privado_es_explicito(self):
         self.assertEqual(set(self.d["privado"]), PRIVADO)
 
-    def test_privado_es_exactamente_el_paso_opcional(self):
+    def test_privado_es_el_paso_opcional_mas_sex_otro(self):
         opt = {k for p in self.d["pasos"] if p["opt"] for q in p["opts"] for k in q}
-        self.assertEqual(opt, PRIVADO)
+        self.assertEqual(opt, PASO4_PRIVADO)
+        self.assertEqual(set(self.d["privado"]) - opt, PRIVADO_FUERA_DEL_PASO4)
+
+    def test_sex_otro_es_una_respuesta_de_sexo_del_paso_1(self):
+        paso1 = self.d["pasos"][0]
+        self.assertIn("sexOtro", paso1["opts"][paso1["q"].index("sexo")])
 
     def test_viajan_en_el_enlace(self):
         # como antes de la v8: lo personal que no es una categoría especial de datos sí va en el enlace
-        for k in ("hombres", "mujeres", "sexOtro", "sexNs", "civSol", "civPar", "civSep", "civViu", "cuid",
+        for k in ("hombres", "mujeres", "sexNs", "civSol", "civPar", "civSep", "civViu", "cuid",
                   "pobreza", "rural"):
             self.assertNotIn(k, self.d["privado"], k)
 

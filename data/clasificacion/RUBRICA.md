@@ -28,7 +28,7 @@ Objetivo: para cada iniciativa, decidir (1) si es de índole económica o social
 - Asalariados por tramo de base liquidable IRPF: `asal1` (≤12.450 €), `asal2` (12.450–20.200), `asal3` (20.200–35.200), `asal4` (35.200–60.000), `asal5` (60.000–300.000), `asal6` (>300.000)
 - Funcionarios por subgrupo: `funA1`, `funA2`, `funB`, `funC1`, `funC2E`
 - Pensionistas por pensión anual: `pen1` (<12.000 €, mínimas y no contributivas), `pen2` (12.000–25.000), `pen3` (25.000–42.000, hasta la máxima)
-- Desempleados: `desPres` (con prestación contributiva), `desSub` (subsidio o Ingreso Mínimo Vital)
+- Desempleados: `desPres` (con prestación contributiva), `desSub` (solo subsidio por desempleo, el asistencial; el Ingreso Mínimo Vital y las rentas mínimas no son de desempleo y van a `pobreza`, ver 3.5.2)
 - Vivienda en propiedad: `viv0` (ninguna), `viv1` (una, la habitual), `viv2` (dos o más)
 - Hipoteca y alquiler: `hipot` (con hipoteca), `inq` (vive de alquiler), `casero` (alquila una vivienda a otros; el asistente lo pregunta a quien tiene una vivienda en la que no vive)
 - Otro patrimonio neto **sin contar la vivienda habitual**: `prop1` (<200.000 €), `prop2` (200.000–700.000), `prop3` (700.000–3 M), `prop4` (>3 M)

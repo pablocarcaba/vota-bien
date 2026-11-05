@@ -47,7 +47,7 @@ Un asistente de cuatro pasos. **Tu ranking sale al terminar el paso 3**, para qu
 | **3 · Vivienda y ahorros** | Dónde vives (y, si quieres, si es en el medio rural), cuántas viviendas tienes, si alquilas alguna, si tienes hipoteca y tus ahorros sin contar tu casa. |
 | **4 · Salud y situación personal** *(opcional)* | Datos sensibles: orientación, salud o enfermedad crónica, dependencia, discapacidad, origen o minoría y si eres víctima. Nada de este paso va en los enlaces que compartes. |
 
-<p align="center"><img src=".github/captura-perfil.jpg" alt="El asistente del perfil: el paso 1 abierto, solo con la edad y los hijos, y al lado el aviso de que el resultado sale al completar los tres primeros pasos" width="88%"></p>
+<p align="center"><img src=".github/captura-perfil.jpg" alt="El asistente del perfil, vacío: el paso 1 abierto con la edad, el sexo, los hijos, el estado civil y si cuidas de alguien, y al lado el aviso de que el resultado sale al completar los tres primeros pasos" width="88%"></p>
 
 Con el perfil hecho:
 
@@ -87,7 +87,7 @@ Esa misma línea aparece en la ficha del partido, junto a todas las demás, y la
 - La web es HTML estático en GitHub Pages; solo descarga los datos públicos de cada legislatura y las tipografías de Google Fonts.
 - En tu propio navegador (`localStorage`) se recuerdan tus respuestas del perfil, para no perderlas al recargar, la provincia del filtro y dos preferencias de pantalla (ocultar partidos con pocos datos y pausar la animación). Nada de eso sale de tu dispositivo.
 - El botón **«Borrar mis respuestas»** (en la barra de tu perfil y en el pie) borra del navegador el perfil y la provincia y reinicia el asistente.
-- Compartir tu perfil es opcional: el enlace lleva en la URL (`?p=…`) los rasgos de los pasos 1 a 3 y solo lo tiene quien tú se lo pases. Eso incluye sexo, estado civil, cuidados, ayuda social y medio rural. **Lo que marques en el paso 4 (orientación, salud, discapacidad, origen y víctimas) nunca va en el enlace**: se queda en tu navegador.
+- Compartir tu perfil es opcional: el enlace lleva en la URL (`?p=…`) los rasgos de los pasos 1 a 3 y solo lo tiene quien tú se lo pases. Eso incluye sexo (Hombre, Mujer o «Prefiero no decirlo»), estado civil, cuidados, ayuda social y medio rural. **«Otro» en sexo y lo que marques en el paso 4 (orientación, salud, discapacidad, origen y víctimas) nunca van en el enlace**: se quedan en tu navegador.
 
 ## Qué datos incluye
 
@@ -230,7 +230,7 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 | Parámetro | Qué hace | Ejemplo |
 |---|---|---|
 | `p` | Rasgos del perfil, separados por comas (los de los pasos 1 a 3; la web nunca pone en el enlace los del paso 4: orientación, salud, discapacidad, origen y víctimas) | `?p=asal3,prop1` |
-| `u` | Respuestas del asistente que no son rasgos (de qué vives, dónde vives…); la web lo añade junto a `p` | `?p=asal3&u=trAjena` |
+| `u` | Respuestas del asistente que no son rasgos (de qué vives, dónde vives…); la web lo añade junto a `p`, sin «Otro» en sexo | `?p=asal3&u=trAjena` |
 | `prov` | Filtra el ranking por provincia (código INE de dos cifras) | `?p=asal3&prov=50` |
 | `rdl=0` | Excluye los reales decretos-ley del cálculo (por defecto se cuentan) | `?p=asal3&rdl=0` |
 | `c=0` | Desactiva «Ciudadanía general», que viene activa | `?p=asal3&c=0` |

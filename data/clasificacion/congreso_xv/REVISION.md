@@ -75,3 +75,10 @@ Toda la XV se ha reclasificado con la rúbrica v3 por tres lectores independient
 ## Revisiones posteriores
 
 - [x] **RDL 2/2026, ómnibus derogado** (130/000033): tenía solo `+inq`, `+pobreza` y `-viv2`. Se quita `-viv2` porque el arrendador recibe compensación por la suspensión de desahucios y la deducción por obras de eficiencia energética también le alcanza (signos opuestos, 3.1.1). Se añaden `+viv1` (esa deducción en la vivienda habitual), `+empAut` y `+secPrim` (umbrales de módulos y régimen agrario) y `+victimas` (exención de las ayudas por la DANA e incendios).
+
+## `desSub` en iniciativas del IMV (rúbrica, 05/11/2026)
+
+La rúbrica (línea de Desempleados) deja `desSub` solo para el subsidio por desempleo: el IMV y las rentas mínimas van a `pobreza` (3.5.2). Estas iniciativas llevan `desSub` y su nota habla del IMV o de una renta mínima; todas tienen ya `pobreza`. Revisar si `desSub` sobra o si la iniciativa toca además el subsidio por desempleo.
+
+- [ ] **Acceso al IMV y reintegros** (122/000160): `desSub` y `pobreza`.
+- [ ] **Reintegro de prestaciones indebidas y del IMV** (122/000281): `desSub` y `pobreza`; revisar si las prestaciones indebidas incluyen las de desempleo.
