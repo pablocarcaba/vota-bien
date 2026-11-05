@@ -386,8 +386,6 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .gobnote .ico{width:18px;height:18px;color:var(--accent);margin-top:1px}
 .tag.gob{background:var(--night);color:var(--oro)}
 .emp-tag{font-size:12px;font-weight:600;color:var(--ink);border:1px dashed color-mix(in srgb,var(--muted) 70%,transparent);border-radius:999px;padding:1px 8px}
-.emp-tag.tec{border-style:solid;background:var(--soft);cursor:help}
-.lscore .ls-t .emp-tag{display:inline-block;margin-left:4px;vertical-align:1px}
 .tecblk{display:grid;gap:8px;padding:10px 8px 8px;border-radius:22px;background:var(--accent-soft);border:1px solid color-mix(in srgb,var(--accent) 22%,transparent)}
 .tecnote{display:flex;gap:8px;align-items:flex-start;margin:0;padding:0 8px;font-size:13.5px;line-height:1.4;color:var(--ink);text-wrap:pretty}
 .tecnote .ico{width:17px;height:17px;flex:none;margin-top:1px;color:var(--accent)}
@@ -560,6 +558,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
 .cstat:empty{display:none}
 .cstat input{display:block;width:100%;max-width:560px;margin-top:6px;font:inherit;font-family:var(--mono);font-size:13px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--soft);color:var(--ink)}
 .profile .cstat{order:9}
+.lshare + .cstat{margin-top:10px;max-width:70ch}
 .why3h{margin:12px 0 8px;font-size:14px;font-weight:700;color:var(--ink)}
 .why3h:first-of-type{margin-top:0}
 .lfilters label{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;min-width:0}
@@ -1101,7 +1100,7 @@ function tecFrase(rows, who){
   const cab = rows.filter(x=>x.tec);
   if(!cab.length) return '';
   if(who) return `Empatado en cabeza con ${esc(yLista(cab.filter(x=>x.k!==who).map(x=>pn(x.k))))}, a ${EMPATE} puntos o menos`;
-  return `${esc(yLista(cab.map(x=>pn(x.k))))} están prácticamente empatados (a ${EMPATE} puntos o menos).`;
+  return `${esc(yLista(cab.map(x=>pn(x.k))))} están prácticamente empatados (a ${EMPATE} puntos o menos del primero).`;
 }
 // recuento con el peso a la vista: «25 a favor, 3 grandes reformas»
 function cuenta(n, x, c, txt){
@@ -1183,8 +1182,9 @@ function say(t){ const l=$('live'); l.textContent=''; requestAnimationFrame(()=>
 function copyLink(){ copyUrl($('copy-btn'), shareUrl(null,null,true)); }
 // copia un enlace y lo anuncia; el estado (y, si el portapapeles falla, la URL) va en un elemento aparte, no en el botón
 function copyUrl(b, url){
-  // en la barra «Tu perfil» la nota va debajo de los botones, a todo el ancho (no como una columna más de .actions)
-  const ancla = b.closest('.actions') || b;
+  // en la barra «Tu perfil» y en la ficha la nota va debajo de los botones, a todo el ancho (en la ficha, no entre
+  // «Compartir esta ficha» y la participación)
+  const ancla = b.closest('.actions, .lshare') || b;
   let out = ancla.nextElementSibling;
   if(!out || !out.classList.contains('cstat')){ out=el('p',{class:'cstat'}); ancla.after(out); }
   // qué lleva el enlace, siempre: respuestas de los pasos 1 a 3 (sin las retenidas) y la provincia
@@ -1518,7 +1518,8 @@ function renderRank(){
     const bar = x.s>=0 ? `<span class="p" style="width:${w}%"></span>` : `<span class="n" style="width:${w}%"></span>`;
     const det = `${cuenta(x.pos,x,'pos','a tu favor')} · ${cuenta(x.neg,x,'neg','en tu contra')}${x.mix?` · ${x.mix} mixta${x.mix>1?'s':''}`:''}${x.pres?` · ${x.pres} solo presentada${x.pres>1?'s':''}`:''}`;
     const few = x.rel<3 ? '<span class="few-tag">pocos datos</span>' : '';
-    const emp = x.tec ? `<span class="emp-tag tec" aria-hidden="true" title="Empatado en cabeza, ${tecTxt}">Empatado en cabeza</span>` : x.empate ? '<span class="emp-tag" aria-hidden="true">empatado</span>' : '';
+    // dentro del bloque empatado lo dice la nota del bloque: sin chip en cada fila
+    const emp = x.tec ? '' : x.empate ? '<span class="emp-tag" aria-hidden="true">empatado</span>' : '';
     // matiz del mapa de ámbitos (dónde no se presenta igual), solo con el filtro activo
     const nota = filtraProv() && AMB.notas[x.k] ? AMB.notas[x.k] : '';
     const amb = nota ? `<span class="amb-n"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>${esc(nota)}</span>` : '';
@@ -1897,7 +1898,7 @@ function renderList(){
   if(L.who) head.appendChild(filtros('lfilters ltop', [[sTab,'Tipo de leyes'],[sWho,'Partido']]));
   // nota y puesto del partido, con la misma barra que en el ranking
   let xc = null; FICHA_MSG = '';
-  if(L.who){ const pa = participacion(L.who); if(pa) FICHA_MSG = `Votó en el ${pa.pct} % de las votaciones clave.`; }
+  if(L.who){ const pa = participacion(L.who); if(pa) FICHA_MSG = `Votó en el ${pa.pct} % de las votaciones clave.`+(pa.pct<PART_BAJA?' Las votaciones en las que no vota no suman ni restan a su nota.':''); }
   if(L.who && propio()){
     const {rows} = ranked(), x = rows.find(r=>r.k===L.who), tab = state.tab==='eco'?'Leyes económicas':'Leyes sociales';
     if(x){

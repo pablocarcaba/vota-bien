@@ -46,7 +46,7 @@ class EmpatePlantillaTest(unittest.TestCase):
         p = subprocess.run(["node", "-e", code], capture_output=True, text=True)
         self.assertEqual(p.returncode, 0, p.stderr)
         r = json.loads(p.stdout)
-        self.assertEqual(r["rank"], "PNV, PDeCAT, PSOE y Cs están prácticamente empatados (a 3 puntos o menos).")
+        self.assertEqual(r["rank"], "PNV, PDeCAT, PSOE y Cs están prácticamente empatados (a 3 puntos o menos del primero).")
         self.assertEqual(r["ficha"], "Empatado en cabeza con PNV, PDeCAT y Cs, a 3 puntos o menos")
         self.assertEqual(r["sin"], "")
         # el bloque comparte el 1.º; fuera de él, el puesto de siempre
