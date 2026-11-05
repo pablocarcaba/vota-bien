@@ -134,10 +134,10 @@ Las tres lecturas y lo que cambió en cada ley están en `data/clasificacion/<cl
 
 ### Prueba de sesgo
 
-Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. `scripts/prueba_sesgo.py` genera 2.000 perfiles aleatorios y 20 arquetipos, calcula su ranking con el mismo cálculo que la web en cada legislatura y pestaña, con y sin «Ciudadanía general», y cuenta en qué porcentaje de perfiles sale primero cada partido. El resultado completo se publica tal cual sale en [`data/analisis/SESGO.md`](data/analisis/SESGO.md). Algunas cifras:
+Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. `scripts/prueba_sesgo.py` genera 2.000 perfiles aleatorios y 20 arquetipos, calcula su ranking con el mismo cálculo que la web en cada legislatura y pestaña, con y sin «Ciudadanía general», y cuenta en qué porcentaje de perfiles sale primero cada partido. La prueba incluye también el camino «No lo sé» del tramo de IRPF: una cuarta parte de los asalariados y funcionarios aleatorios lo marca, y se calcula igual que en la web. El resultado completo se publica tal cual sale en [`data/analisis/SESGO.md`](data/analisis/SESGO.md). Algunas cifras:
 
-- **Congreso, XV, leyes económicas con «Ciudadanía general»:** CC sale primero en el 40,1 % de los perfiles, PNV en el 22,8 % y Compromís en el 18,8 %.
-- **Parlamento Europeo, leyes económicas:** en la 10.ª, BNG (46,0 %) con «Ciudadanía general» y PP (29,6 %) sin ella; en la 9.ª, PSOE (63,2 %) con ella y PP (45,6 %) sin ella.
+- **Congreso, XV, leyes económicas con «Ciudadanía general»:** CC sale primero en el 42,4 % de los perfiles, PNV en el 30,6 % y PSOE en el 11,4 %.
+- **Parlamento Europeo, leyes económicas:** en la 10.ª, BNG (46,7 %) con «Ciudadanía general» y PP (28,1 %) sin ella; en la 9.ª, PSOE (60,2 %) con ella y PP (24,6 %) sin ella.
 - **Legislaturas con pocas votaciones:** el resultado se concentra; en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.
 
 *Interpretación nuestra:* los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.
@@ -184,6 +184,7 @@ data/
     RUBRICA.md                  Criterios de clasificación (v3), comunes a todas las legislaturas
     RUBRICA_CAMBIOS_v3.md       Qué cambió de la v2 a la v3
     INSTRUCCIONES.md            Proceso para clasificar lotes
+    PROMPT_LECTOR.md            Texto literal con el que se lanza cada lector independiente de la reclasificación
     <clave>/clas_*.json         Tipo, impactos por colectivo (+1/−1) y nota de cada iniciativa
     <clave>/REVISION.md         Casos dudosos pendientes de revisión
     <clave>/lectura_v3/         Las tres lecturas independientes y CAMBIOS.md (legislaturas con la v3)
@@ -207,6 +208,9 @@ scripts/
   validar_clasificacion.py      Comprueba clas_*.json contra la rúbrica y la web
   comparar_lecturas.py          Compara lecturas independientes de una legislatura
   consolidar_lecturas.py        Consolida tres lecturas por mayoría (2 de 3)
+  lotes_reclasificacion.py      Reclasificación, paso 1: lotes con el texto oficial de cada iniciativa (y segunda ronda)
+  aplicar_reclasificacion.py    Reclasificación, paso 5: combina las rondas, consolida por mayoría y lo lleva al repo
+  cerrar_reclasificacion.py     Reclasificación, paso 6: cierra tras aplicar una o varias legislaturas
   prueba_sesgo.py               Prueba de sesgo: qué partido sale primero en miles de perfiles
 tests/                          Tests de los scripts (los ejecuta la CI antes de publicar)
 site/
@@ -237,10 +241,10 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 
 ## Pendiente
 
-- [ ] **Reclasificar con la rúbrica v3** el Congreso X y el Parlamento Europeo 8.ª, 7.ª y 6.ª.
+- [ ] **Reclasificar con la rúbrica v3.** El Congreso X está en curso. El Parlamento Europeo 8.ª, 7.ª y 6.ª siguen pendientes de decisión, porque en la 6.ª y la 7.ª no hay texto oficial en español.
 - [ ] **Revisar las clasificaciones** de las leyes más relevantes: fiscales, vivienda, pensiones, laboral, migración.
-- [ ] **Identificar el partido** de las proposiciones del Grupo Mixto (ficha de cada iniciativa en congreso.es, campo de autores o firmantes).
-- [ ] **Convertir la clasificación en un proceso repetible** entre legislaturas.
+- [x] **Identificar el partido** de las proposiciones del Grupo Mixto y del Grupo Plural: hecho en 168 de 185, salvo las 17 restantes, que son conjuntas de varios grupos o están firmadas solo por el grupo, y el BOCG no dice quién las firma (`data/clasificacion/<clave>/partidos_mixto.json`).
+- [x] **Convertir la clasificación en un proceso repetible** entre legislaturas: [`scripts/lotes_reclasificacion.py`](scripts/lotes_reclasificacion.py), [`scripts/aplicar_reclasificacion.py`](scripts/aplicar_reclasificacion.py), [`scripts/cerrar_reclasificacion.py`](scripts/cerrar_reclasificacion.py) y [`data/clasificacion/PROMPT_LECTOR.md`](data/clasificacion/PROMPT_LECTOR.md).
 - [ ] **Leyes ómnibus:** leer el texto (BOE / BOCG) y clasificar medida a medida.
 
 ## Quién hace esto
