@@ -44,7 +44,7 @@ Un asistente de cuatro pasos. **Tu ranking sale al terminar el paso 3**, para qu
 |:---:|---|
 | **1 · Tú y tu familia** | Tu edad y si tienes hijos menores a cargo. Si quieres, también tu sexo, tu estado civil y si cuidas de una persona dependiente. |
 | **2 · Trabajo e ingresos** | De qué vives. Según lo que marques, te pregunta tu tramo de IRPF (con «No lo sé»), tu subgrupo de funcionario, tu empresa y su sector, tu pensión o lo que cobras en paro. Si quieres, también si recibes alguna ayuda social (IMV, bono social…). |
-| **3 · Vivienda y ahorros** | Dónde vives (y, si quieres, si es en el medio rural), cuántas viviendas tienes, si alquilas alguna, si tienes hipoteca y tus ahorros sin contar tu casa. |
+| **3 · Vivienda y ahorros** | Dónde vives, cuántas viviendas tienes, si alquilas alguna, si tienes hipoteca y tus ahorros sin contar tu casa. Si quieres, también si vives en el medio rural. |
 | **4 · Salud y situación personal** *(opcional)* | Datos sensibles: orientación, salud o enfermedad crónica, dependencia, discapacidad, origen o minoría y si eres víctima. Nada de este paso va en los enlaces que compartes. |
 
 <p align="center"><img src=".github/captura-perfil.jpg" alt="El asistente del perfil, vacío: el paso 1 abierto con la edad, el sexo, los hijos, el estado civil y si cuidas de alguien, y al lado el aviso de que el resultado sale al completar los tres primeros pasos" width="88%"></p>
@@ -87,7 +87,8 @@ Esa misma línea aparece en la ficha del partido, junto a todas las demás, y la
 - La web es HTML estático en GitHub Pages; solo descarga los datos públicos de cada legislatura y las tipografías de Google Fonts.
 - En tu propio navegador (`localStorage`) se recuerdan tus respuestas del perfil, para no perderlas al recargar, la provincia del filtro y dos preferencias de pantalla (ocultar partidos con pocos datos y pausar la animación). Nada de eso sale de tu dispositivo.
 - El botón **«Borrar mis respuestas»** (en la barra de tu perfil y en el pie) borra del navegador el perfil y la provincia y reinicia el asistente.
-- Compartir tu perfil es opcional: el enlace lleva en la URL (`?p=…`) los rasgos de los pasos 1 a 3 y solo lo tiene quien tú se lo pases. Eso incluye sexo (Hombre, Mujer o «Prefiero no decirlo»), estado civil, cuidados, ayuda social y medio rural. **«Otro» en sexo y lo que marques en el paso 4 (orientación, salud, discapacidad, origen y víctimas) nunca van en el enlace**: se quedan en tu navegador.
+- Compartir tu perfil es opcional: el enlace lleva en la URL (`?p=…`) los rasgos de los pasos 1 a 3 y tu provincia (`prov=`), y solo lo tiene quien tú se lo pases. Eso incluye sexo (Hombre, Mujer o «Prefiero no decirlo»), estado civil, cuidados, ayuda social y medio rural. **«Otro» en sexo y lo que marques en el paso 4 (orientación, salud, discapacidad, origen y víctimas) nunca van en el enlace**: se quedan en tu navegador. Al copiar el enlace, la web te dice siempre qué lleva.
+- Hasta la versión 10, sexo, estado civil, cuidados, medio rural y ayuda social iban en el paso 4, que no viajaba en los enlaces. Si tenías esas respuestas guardadas de entonces, la web no las pone en ningún enlace hasta que confirmas su paso (o vuelves a tocar la pregunta), y te avisa una vez del cambio.
 
 ## Qué datos incluye
 
@@ -248,7 +249,7 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 - [x] **Reclasificar con la rúbrica v3:** hecho en todas las legislaturas. En el Parlamento Europeo 6.ª y 7.ª, 80 y 124 normas sin texto oficial en español conservan la clasificación anterior ([ver arriba](#estado-de-la-rúbrica)).
 - [ ] **Revisar 13 iniciativas con `desSub` que tratan del IMV o de ingresos mínimos** (apuntadas en el `REVISION.md` de cada legislatura del Congreso, de la X a la XV): la rúbrica reserva `desSub` para el subsidio por desempleo.
 - [ ] **Revisar las clasificaciones** de las leyes más relevantes: fiscales, vivienda, pensiones, laboral, migración.
-- [x] **Identificar el partido** de las proposiciones del Grupo Mixto y del Grupo Plural: hecho en 168 de 185, salvo las 17 restantes, que son conjuntas de varios grupos o están firmadas solo por el grupo, y el BOCG no dice quién las firma (`data/clasificacion/<clave>/partidos_mixto.json`).
+- [x] **Identificar el partido** de las proposiciones del Grupo Mixto y del Grupo Plural: hecho en 169 de 185 (122/000033 de la X ya está asignada al BNG). Las 16 restantes son, en su mayoría, iniciativas inadmitidas o retiradas sin texto publicado, y el BOCG no dice quién las firma (`data/clasificacion/<clave>/partidos_mixto.json`).
 - [x] **Convertir la clasificación en un proceso repetible** entre legislaturas: [`scripts/lotes_reclasificacion.py`](scripts/lotes_reclasificacion.py), [`scripts/aplicar_reclasificacion.py`](scripts/aplicar_reclasificacion.py), [`scripts/cerrar_reclasificacion.py`](scripts/cerrar_reclasificacion.py) y [`data/clasificacion/PROMPT_LECTOR.md`](data/clasificacion/PROMPT_LECTOR.md).
 - [ ] **Leyes ómnibus:** leer el texto (BOE / BOCG) y clasificar medida a medida.
 

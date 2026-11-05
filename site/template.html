@@ -291,6 +291,14 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .chk label{cursor:pointer}
 .undo{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:12px 0 0;padding:10px 14px;border-radius:14px;background:var(--soft);border-left:4px solid var(--accent);font-size:14px;color:var(--ink)}
 .undo .linkbtn{min-height:44px}
+.reord{display:flex;gap:10px;align-items:flex-start;margin:12px 0 0;padding:12px 14px;border-radius:14px;background:var(--mix-soft);border-left:4px solid var(--mix);color:var(--ink);font-size:14px;line-height:1.45}
+.reord>.ico{width:18px;height:18px;flex:none;color:var(--mix-ink);margin-top:2px}
+.reord p{margin:0}
+.reord .linkbtn{min-height:44px}
+.qsub{margin-top:16px;padding:4px 14px 14px;border:1px dashed var(--line);border-radius:14px;background:color-mix(in srgb,var(--soft) 55%,transparent)}
+.qsubt{margin:10px 0 0;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.qsubd{margin:2px 0 0;font-size:13px;color:var(--muted)}
+.qsub .qopt{display:none}
 .donde{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:6px 12px;margin:6px 0 12px;padding:10px 14px;border:1px solid var(--line);border-radius:14px;background:var(--sheet)}
 .donde label{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;color:var(--ink)}
 .donde label .ico{width:17px;height:17px;color:var(--accent)}
@@ -313,7 +321,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .prog li.cur{border-color:var(--accent);color:var(--accent);border-width:2px;border-style:solid}
 .prog .pl{font:600 11px/1.1 var(--body);letter-spacing:0}
 .prog li.cur .pl{text-decoration:underline;text-underline-offset:2px}
-.prog li.opt{border-style:dashed}
+.prog li.popt{border-style:dashed}
 .prog li.ok{background:var(--pos-soft);border-color:var(--pos);color:var(--pos-ink)}
 .prog .ico{width:18px;height:18px;stroke-width:3}
 .prog-ok{color:var(--pos-ink);font-weight:600;display:inline-flex;align-items:center;gap:5px}
@@ -730,7 +738,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
       <section class="fcol" aria-labelledby="fc-priv">
         <h3 id="fc-priv"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>Privacidad</h3>
         <p>No sale de tu dispositivo: todo se calcula en tu navegador y tus respuestas se guardan solo en este navegador. Sin registro, sin cookies, sin analítica.</p>
-        <p>Si compartes tu perfil, el enlace lleva tus respuestas de los pasos 1 a 3 (también sexo, estado civil, cuidados, ayuda social y medio rural), pero nunca «Otro» en sexo ni las del paso 4: orientación, salud, discapacidad, origen ni si eres víctima. Solo lo tiene quien tú elijas.</p>
+        <p>Si compartes tu perfil, el enlace lleva tus respuestas de los pasos 1 a 3 (también sexo, estado civil, cuidados, ayuda social y medio rural) y tu provincia, pero nunca «Otro» en sexo ni las del paso 4: orientación, salud, discapacidad, origen ni si eres víctima. Solo lo tiene quien tú elijas.</p>
         <p><button type="button" class="linkbtn" id="borrar-foot">Borrar mis respuestas</button></p>
       </section>
       <section class="fcol" aria-labelledby="fc-datos">
@@ -795,7 +803,7 @@ const CATS = [
   {id:'edad', name:'Edad', pre:'Edad: ', opts:[['jovenes','Hasta 35 años'],['adultos','36–64 años'],['mayores','65 años o más']]},
   {id:'hij', name:'Hijos menores a cargo', pre:'Hijos: ', opts:[['hij0','Ninguno'],['hij1','1'],['hij2','2'],['hij3','3 o más (familia numerosa)']]},
   {id:'sexo', name:'Sexo', multi:true, excl:['hombres','mujeres'], opts:[['hombres','Hombre'],['mujeres','Mujer']]},
-  {id:'civ', name:'Estado civil', opts:[['civSol','Soltero/a'],['civPar','Casado/a o pareja de hecho'],['civSep','Separado/a o divorciado/a'],['civViu','Viudo/a']]},
+  {id:'civ', name:'Estado civil', pre:'Estado civil: ', opts:[['civSol','Soltero/a'],['civPar','Casado/a o pareja de hecho'],['civSep','Separado/a o divorciado/a'],['civViu','Viudo/a']]},
   {id:'car', name:'Personas a cargo', multi:true, opts:[['cuid','Cuido de una persona dependiente']]},
   // paso 2: subpreguntas de «¿De qué vives?» y la ayuda social
   {id:'asal', name:'Tramo de IRPF', opts:[['asal1','Hasta 12.450 €'],['asal2','12.450–20.200 €'],['asal3','20.200–35.200 €'],['asal4','35.200–60.000 €'],['asal5','60.000–300.000 €'],['asal6','Más de 300.000 €']]},
@@ -844,10 +852,11 @@ const tieneOtra = () => tiene('nv2') || (tiene('nv1') && !tiene('vdPropia'));
 const PASOS = [
   {t:'Tú y tu familia', d:'Tu edad y si tienes hijos. Si quieres, también tu sexo, tu estado civil y si cuidas de alguien.', q:[
     {id:'edad', cat:'edad', req:true},
-    {id:'sexo', cat:'sexo', ui:[['sexOtro','Otro','Sexo: otro'],['sexNs','Prefiero no decirlo','Sexo: prefiero no decirlo']]},
     {id:'hij', cat:'hij', req:true},
-    {id:'civ', cat:'civ'},
-    {id:'car', cat:'car'}]},
+    // «sub»: subbloque de preguntas opcionales, agrupado tras las obligatorias
+    {id:'sexo', cat:'sexo', sub:'Si quieres (opcional)', ui:[['sexOtro','Otro','Sexo: otro'],['sexNs','Prefiero no decirlo','Sexo: prefiero no decirlo']]},
+    {id:'civ', cat:'civ', sub:'Si quieres (opcional)'},
+    {id:'car', cat:'car', sub:'Si quieres (opcional)'}]},
   {t:'Trabajo e ingresos', d:'¿De qué vives? Marca todo lo que te aplique y solo te preguntaremos lo que haga falta.', q:[
     {id:'sit', name:'¿De qué vives?', req:true, multi:true, none:'trNada', ui:[['trAjena','Trabajo por cuenta ajena','Cuenta ajena'],['trFun','Soy funcionario o empleado público','Funcionario o empleado público'],['trAut','Soy autónomo','Autónomo'],['trEmp','Tengo una empresa','Empresa propia'],['trPen','Cobro pensión','Pensionista'],['trParo','Estoy en paro','En paro'],['trEst','Estudio','Estudiante'],['trNada','Ninguna de estas','Ninguna de estas situaciones']]},
     // «No lo sé» es una respuesta de interfaz (no entra en state.sel): rasgos() la convierte en el rasgo asalNs (ver impNs)
@@ -861,12 +870,12 @@ const PASOS = [
     {id:'ayu', cat:'ayu'}]},
   {t:'Vivienda y ahorros', d:'Dónde vives, cuántas viviendas tienes y tus ahorros.', q:[
     {id:'donde', name:'¿Dónde vives?', req:true, ui:[['vdPropia','En casa propia','Vivo en casa propia'],['vdAlq','De alquiler','Vivo de alquiler'],['vdFam','Con mi familia u otra situación','Vivo con mi familia u otra situación']]},
-    {id:'rur', cat:'rur'},
     {id:'nviv', name:'¿Cuántas viviendas tienes en propiedad, en total?', req:true, ui:[['nv0','Ninguna','Ninguna vivienda en propiedad'],['nv1','1','1 vivienda en propiedad'],['nv2','2 o más','2 o más viviendas en propiedad']], off:k=>k==='nv0'&&tiene('vdPropia')?'Vives en una propia':''},
     // solo quien alquila es casero: tener una segunda vivienda (de vacaciones, del pueblo, vacía) no lo hace arrendador
     {id:'alq', name:'¿Alquilas alguna de tus viviendas a otras personas?', req:true, ui:[['alqSi','Sí','Alquilo una vivienda a otros'],['alqNo','No','No alquilo ninguna vivienda']], si:tieneOtra},
     {id:'hip', name:'¿Tienes hipoteca?', req:true, ui:[['hipSi','Sí','Con hipoteca'],['hipNo','No','Sin hipoteca']], si:()=>tiene('nv1')||tiene('nv2')},
-    {id:'prop', cat:'prop', req:true}]},
+    {id:'prop', cat:'prop', req:true},
+    {id:'rur', cat:'rur'}]},
   // opcional (opt): el resultado sale al terminar el paso 3. Son datos sensibles: nada de este paso viaja en los enlaces (PRIVADO)
   {t:'Salud y situación personal', opt:true, d:'Opcional. Son datos sensibles (salud, orientación, origen…): se quedan en tu dispositivo y nunca van en los enlaces que compartas.', q:[
     {id:'ori', cat:'ori'},
@@ -880,9 +889,16 @@ const NPASOS = PASOS.length;
 // más «Otro» en sexo (paso 1), que puede revelar la identidad de género: se quedan en este navegador, nunca en un enlace.
 // Hombre, Mujer, «Prefiero no decirlo», estado civil, cuidados, ayuda social y medio rural sí viajan
 const PRIVADO = new Set(['lgtbi','pac','depend','discapacidad','inmigrantes','minorias','victimas','socNo','sexOtro']);
+// versión de pasosPerfil (localStorage). Hasta la v10 sexo, estado civil, cuidados, medio rural y ayuda social iban en el
+// paso 4, que prometía no salir del dispositivo; ahora van en los pasos 1 a 3 y sí viajan. En un perfil guardado sin versión,
+// esas respuestas quedan retenidas (pasos.ret): no van en ningún enlace hasta que confirmes su paso o vuelvas a tocar la pregunta
+const PASOS_V = 2;
+const MOVIDAS = new Set(['hombres','mujeres','sexNs','civSol','civPar','civSep','civViu','cuid','rural','pobreza']);
+const MOVIDAS_TXT = {sexo:'sexo', civ:'estado civil', car:'cuidados', ayu:'ayuda social', rur:'medio rural'};
 // orden de las respuestas en la barra «Tu perfil»: el de los pasos y sus preguntas
 const ORDEN = {}; PASOS.forEach(P=>P.q.forEach(q=>qOpts(q).forEach(k=>{ if(!(k in ORDEN)) ORDEN[k]=Object.keys(ORDEN).length; })));
-const porOrden = (a,b) => (ORDEN[a]??1e3)-(ORDEN[b]??1e3);
+// en la barra «Tu perfil», lo deducido va justo detrás de la respuesta de la que sale
+const DED_DE = {empAut:'trAut', estud:'trEst', viv0:'nv0', viv1:'nv1', viv2:'nv2', inq:'vdAlq', hipot:'hipSi', casero:'alqSi', infancia:'hij3', monop:'civViu', depend:'cuid'};
 const NOBL = PASOS.filter(P=>!P.opt).length;
 const CHECK = '<svg class="ico pchk" aria-hidden="true"><use href="#i-check"/></svg>';
 // conjunto de colectivos efectivo: lo marcado + lo que se deduce de ello
@@ -899,7 +915,7 @@ const pn = p => PNAME[p]||p;
 const COLOR_TXT = {pos:'Beneficia', neg:'Perjudica', mix:'Mixta', neu:'Sin efecto en tu perfil'};
 const VOTE_TXT = {s:'Sí', n:'No', a:'Abst.'};
 
-const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null, hideFew:false, prov:'', anim:true, pasos:{ui:new Set(), done:new Set(), cur:0}};
+const state = {tab:'eco', ds:CATALOGO[0].clave, sel:new Set(), list:null, hideFew:false, prov:'', anim:true, pasos:{ui:new Set(), done:new Set(), cur:0, ret:new Set(), aviso:false}};
 // línea de ayuda de cada categoría: a quién le toca y qué marcar
 const CAT_NOTE = {
   edad:'Tu tramo de edad actual. Solo uno.',
@@ -951,16 +967,11 @@ try{
     if(u!==null) u.split(',').filter(k=>UI_TXT[k]).forEach(k=>P.ui.add(k)); else desdeAntiguo();
   } else {
     const g = JSON.parse(localStorage.getItem('pasosPerfil')||'null');
-    if(g){
-      (g.sel||[]).filter(esPerfil).forEach(k=>state.sel.add(k));
-      (g.ui||[]).filter(k=>UI_TXT[k]).forEach(k=>P.ui.add(k));
-      (g.done||[]).filter(i=>PASOS[i]).forEach(i=>P.done.add(i));
-      if(Number.isInteger(g.cur) && g.cur>=-1 && g.cur<NPASOS) P.cur = g.cur;
-    }
+    if(g) cargarGuardado(g);
   }
   deriva();
-  // perfil compartido: los pasos que llegan completos se dan por confirmados
-  if(p){ PASOS.forEach((_,i)=>{ if(completo(i)) P.done.add(i); }); P.cur = PASOS.findIndex((_,i)=>!P.done.has(i)); }
+  // perfil compartido: los pasos obligatorios que llegan completos se dan por confirmados; el 4 nunca viaja, así que no
+  if(p){ PASOS.forEach((P2,i)=>{ if(completo(i) && !P2.opt) P.done.add(i); }); P.cur = PASOS.findIndex((_,i)=>!P.done.has(i)); }
 }catch(e){}
 ajustaPasos();
 let isExample = false;
@@ -1078,12 +1089,16 @@ function renderProfile(){
   p.appendChild(el('span',{class:'lbl'+(isExample?' ex':'')}, isExample?'Perfil de ejemplo, cámbialo por el tuyo:':'Tu perfil:'));
   // en el orden de los pasos. Tu trabajo: «cuenta ajena» no es un colectivo (se cambia en el paso 2) y «No lo sé» en el IRPF
   // se puede quitar como un tramo
-  [...['trAjena','asalNs'].filter(tiene), ...[...state.sel].filter(k=>esPerfil(k) && !DERIV.includes(k))].sort(porOrden).forEach(k=>p.appendChild(
-    k==='trAjena' ? el('span',{class:'pans',title:'Se cambia en el paso 2'}, esc(UI_TXT.trAjena))
+  // «Otro» y «Prefiero no decirlo» en sexo no son colectivos: se ven fijos, sin botón de quitar.
+  // Lo deducido de tus respuestas (vivienda, autónomo, estudiante) y de otros rasgos (hijos, dependencia) va junto a su pregunta
+  const ded = [...RASGOS].filter(k=>(!state.sel.has(k) || DERIV.includes(k)) && k!=='ciud' && k!=='cons' && k!=='asalNs');
+  const pos = k => DED_DE[k] ? (ORDEN[DED_DE[k]]??1e3)+.5 : (ORDEN[k]??1e3);
+  [...['trAjena','asalNs','sexOtro','sexNs'].filter(tiene), ...[...state.sel].filter(k=>esPerfil(k) && !DERIV.includes(k)), ...ded].sort((a,b)=>pos(a)-pos(b)).forEach(k=>p.appendChild(
+    ded.includes(k) ? el('span',{class:'ded',title:'Se deduce de tu perfil'}, '+ '+esc(k==='viv2' && tiene('nv1') ? 'Una vivienda en propiedad en la que no vives' : LABEL_DEDUCIDO[k]||LABEL[k]||k))
+    : k==='trAjena' ? el('span',{class:'pans',title:'Se cambia en el paso 2'}, esc(UI_TXT.trAjena))
+    : k==='sexOtro' || k==='sexNs' ? el('span',{class:'pans',title:k==='sexOtro'?'No cambia tu nota y no va en los enlaces':'No cambia tu nota'}, esc(UI_TXT[k]))
     : k==='asalNs' ? el('button',{class:'pchip','data-k':'chip-asalNs','aria-label':'Quitar '+UI_TXT.asalNs,onclick:()=>quitarUi('asalNs')}, esc(UI_TXT.asalNs)+'<span aria-hidden="true">×</span>')
     : el('button',{class:'pchip','data-k':'chip-'+k,'aria-label':'Quitar '+LABEL[k],onclick:()=>quitar(k)}, esc(LABEL[k])+'<span aria-hidden="true">×</span>')));
-  // lo deducido de tus respuestas (vivienda, autónomo, estudiante) y de otros rasgos (hijos, dependencia): se cambia desde los pasos
-  [...RASGOS].filter(k=>!state.sel.has(k) || DERIV.includes(k)).filter(k=>k!=='ciud' && k!=='cons' && k!=='asalNs').forEach(k=>p.appendChild(el('span',{class:'ded',title:'Se deduce de tu perfil'}, '+ '+esc(LABEL_DEDUCIDO[k]||LABEL[k]||k))));
   const act=el('div',{class:'actions'});
   if(propio()) act.appendChild(el('button',{type:'button',class:'linkbtn',onclick:copyLink,id:'copy-btn','data-k':'copy-btn'},'Compartir mi perfil'));
   act.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'borrar-perfil',onclick:borrarRespuestas},'Borrar mis respuestas'));
@@ -1094,9 +1109,9 @@ function renderProfile(){
 let DESHACER = null;
 function borrarRespuestas(){
   const habia = propio() || state.pasos.ui.size>0;
-  DESHACER = habia ? {sel:[...state.sel].filter(esPerfil), ui:[...state.pasos.ui], done:[...state.pasos.done], cur:state.pasos.cur, prov:state.prov, ex:isExample, q:location.search} : null;
+  DESHACER = habia ? {sel:[...state.sel].filter(esPerfil), ui:[...state.pasos.ui], done:[...state.pasos.done], cur:state.pasos.cur, ret:[...state.pasos.ret], aviso:state.pasos.aviso, prov:state.prov, ex:isExample, q:location.search} : null;
   [...state.sel].filter(esPerfil).forEach(k=>state.sel.delete(k));
-  isExample=false; state.pasos={ui:new Set(),done:new Set(),cur:0}; state.prov='';
+  isExample=false; state.pasos={ui:new Set(),done:new Set(),cur:0,ret:new Set(),aviso:false}; state.prov='';
   try{ localStorage.removeItem('pasosPerfil'); localStorage.removeItem('provincia'); }catch(e){}
   try{ const q=new URLSearchParams(location.search); ['p','u','prov','partido'].forEach(k=>q.delete(k)); const t=q.toString().replace(/%2C/g,','); history.replaceState(null,'',location.pathname+(t?'?'+t:'')); }catch(e){}
   if($('view-panel').hidden) go(''); else render();
@@ -1108,7 +1123,7 @@ function borrarRespuestas(){
 function deshacer(){
   const g=DESHACER; if(!g) return; DESHACER=null;
   g.sel.forEach(k=>state.sel.add(k)); g.ui.forEach(k=>state.pasos.ui.add(k));
-  state.pasos.done=new Set(g.done); state.pasos.cur=g.cur; isExample=g.ex; state.prov=g.prov;
+  state.pasos.done=new Set(g.done); state.pasos.cur=g.cur; state.pasos.ret=new Set(g.ret); state.pasos.aviso=g.aviso; isExample=g.ex; state.prov=g.prov;
   try{ if(g.prov) localStorage.setItem('provincia', g.prov); }catch(e){}
   // el enlace recupera lo que borró borrarRespuestas() (perfil y provincia); ?partido= no, porque la vista ya es otra
   try{ const a=new URLSearchParams(g.q), q=new URLSearchParams(location.search); ['p','u','prov'].forEach(k=>{ if(a.has(k)) q.set(k,a.get(k)); }); const t=q.toString().replace(/%2C/g,','); history.replaceState(null,'',location.pathname+(t?'?'+t:'')+location.hash); }catch(e){}
@@ -1122,20 +1137,27 @@ function say(t){ const l=$('live'); l.textContent=''; requestAnimationFrame(()=>
 function copyLink(){ copyUrl($('copy-btn'), shareUrl(null,null,true)); }
 // copia un enlace y lo anuncia; el estado (y, si el portapapeles falla, la URL) va en un elemento aparte, no en el botón
 function copyUrl(b, url){
-  let out = b.nextElementSibling;
-  if(!out || !out.classList.contains('cstat')){ out=el('p',{class:'cstat'}); b.after(out); }
-  const marc = [...state.sel, ...state.pasos.ui].filter(k=>PRIVADO.has(k)), otro = marc.includes('sexOtro'), p4 = marc.some(k=>k!=='sexOtro');
-  const priv = marc.length ? ' Lleva tus respuestas de los pasos 1 a '+NOBL+', pero no '+(p4 ? 'lo que marcaste en el paso '+NPASOS+' (salud, orientación, origen…)'+(otro?' ni «Otro» en sexo':'') : '«Otro» en sexo')+': eso no sale de tu dispositivo.' : '';
+  // en la barra «Tu perfil» la nota va debajo de los botones, a todo el ancho (no como una columna más de .actions)
+  const ancla = b.closest('.actions') || b;
+  let out = ancla.nextElementSibling;
+  if(!out || !out.classList.contains('cstat')){ out=el('p',{class:'cstat'}); ancla.after(out); }
+  // qué lleva el enlace, siempre: respuestas de los pasos 1 a 3 (sin las retenidas) y la provincia
+  const ret = [...new Set([...state.pasos.ret].sort((a,b)=>(ORDEN[a]??1e3)-(ORDEN[b]??1e3)).map(k=>MOVIDAS_TXT[CAT_OF[k] ? CAT_OF[k].id : 'sexo']))];
+  const priv = propio()
+    ? ' Lleva tus respuestas de los pasos 1 a '+NOBL+(state.prov?' y tu provincia':'')+'; nunca las del paso '+NPASOS+' ni «Otro» en sexo.'
+      +(ret.length ? ' Aún no lleva lo que marcaste antes en '+ret.join(', ').replace(/, ([^,]*)$/,' ni $1')+': confirma su paso para incluirlo.' : '')
+    : state.prov ? ' Lleva tu provincia.' : '';
   const ok = ()=>{ out.textContent='Enlace copiado.'+priv; say('Enlace copiado.'+priv); };
   const ko = ()=>{ out.textContent='No se ha podido copiar. Copia este enlace:'+priv; const i=el('input',{type:'text',readonly:'',value:url,'aria-label':'Enlace para compartir'}); out.appendChild(i); i.select(); say('No se ha podido copiar el enlace: lo tienes en un campo de texto junto al botón.'); };
   try{ navigator.clipboard.writeText(url).then(ok,ko); }catch(e){ ko(); }
 }
 // enlace directo a la ficha de un partido (y, si se pide, a una ley): perfil, ciudadanía, dataset y pestaña actuales.
 // Las claves salen siempre de los datos (partidos y leyes del dataset), nunca de texto libre
-// Los datos sensibles (PRIVADO: paso 4 y «Otro» en sexo) nunca van en el enlace
+// Los datos sensibles (PRIVADO: paso 4 y «Otro» en sexo) nunca van en el enlace, ni las respuestas retenidas (pasos.ret)
 function shareUrl(who, ley, perfil){
   const base = location.origin && location.origin!=='null' ? location.origin+location.pathname : location.pathname;
-  const q=[], p=[...state.sel].filter(k=>esPerfil(k) && !PRIVADO.has(k)), u=[...state.pasos.ui].filter(k=>!PRIVADO.has(k));
+  const fuera = k => PRIVADO.has(k) || state.pasos.ret.has(k);
+  const q=[], p=[...state.sel].filter(k=>esPerfil(k) && !fuera(k)), u=[...state.pasos.ui].filter(k=>!fuera(k));
   if(p.length) q.push('p='+p.map(encodeURIComponent).join(','), 'u='+u.join(','));
   if(!state.sel.has('ciud')) q.push('c=0');
   if(!state.sel.has('cons')) q.push('co=0');
@@ -1157,7 +1179,7 @@ function elegir(q, k){
     else if(q.none) state.pasos.ui.delete(q.none);
     S.add(k);
   }
-  deriva(); isExample=false; DESHACER=null; guardarPasos();
+  confirma(qOpts(q)); deriva(); isExample=false; DESHACER=null; guardarPasos();
   // lo que cambia sin pulsarlo: preguntas que aparecen y respuestas de otras preguntas que se quitan solas
   const nuevas = cur>=0 ? PASOS[cur].q.filter(x=>visible(x) && !qAntes.includes(x)).map(qName) : [];
   const propias = qOpts(q), quitadas = rAntes.filter(x=>!propias.includes(x) && !state.sel.has(x) && !state.pasos.ui.has(x) && !DERIV.includes(x)).map(x=>UI_TXT[x]||LABEL[x]);
@@ -1232,8 +1254,21 @@ function ajustaPasos(){
   if(P.cur<0 && !terminado()) P.cur = PASOS.findIndex((_,i)=>!P.done.has(i));
 }
 function guardarPasos(){
-  try{ localStorage.setItem('pasosPerfil', JSON.stringify({sel:[...state.sel].filter(esPerfil), ui:[...state.pasos.ui], done:[...state.pasos.done], cur:state.pasos.cur})); }catch(e){}
+  const P=state.pasos;
+  try{ localStorage.setItem('pasosPerfil', JSON.stringify({v:PASOS_V, sel:[...state.sel].filter(esPerfil), ui:[...P.ui], done:[...P.done], cur:P.cur, ret:[...P.ret], aviso:P.aviso})); }catch(e){}
 }
+// progreso guardado en este navegador. Sin versión (hasta la v10): las respuestas que han salido del paso 4 se retienen
+function cargarGuardado(g){
+  const P=state.pasos;
+  (g.sel||[]).filter(esPerfil).forEach(k=>state.sel.add(k));
+  (g.ui||[]).filter(k=>UI_TXT[k]).forEach(k=>P.ui.add(k));
+  (g.done||[]).filter(i=>PASOS[i]).forEach(i=>P.done.add(i));
+  if(Number.isInteger(g.cur) && g.cur>=-1 && g.cur<NPASOS) P.cur = g.cur;
+  if(g.v>=PASOS_V){ (g.ret||[]).filter(k=>MOVIDAS.has(k)).forEach(k=>P.ret.add(k)); P.aviso = g.aviso===true && P.ret.size>0; }
+  else { [...state.sel, ...P.ui].filter(k=>MOVIDAS.has(k)).forEach(k=>P.ret.add(k)); P.aviso = P.ret.size>0; }
+}
+// confirmar una respuesta retenida: tocar su pregunta o pulsar «Continuar» en su paso
+function confirma(keys){ keys.forEach(k=>state.pasos.ret.delete(k)); if(!state.pasos.ret.size) state.pasos.aviso=false; }
 function avisaMinimo(antes){ if(!antes && minimoActual()) PEND = (PEND?PEND+' ':'')+'Paso '+(state.pasos.cur+1)+' completado. Ya puedes continuar.'; }
 // lleva al título de un paso y lo anuncia
 function irPaso(i){
@@ -1244,7 +1279,7 @@ function irPaso(i){
 function continuar(i){
   const P=state.pasos;
   if(!completo(i)) return;
-  P.done.add(i);
+  P.done.add(i); confirma(PASOS[i].q.flatMap(qOpts));
   const sig = [...PASOS.keys()].find(j=>j>i && !P.done.has(j));
   P.cur = sig!==undefined ? sig : PASOS.findIndex((_,j)=>!P.done.has(j));
   guardarPasos(); render();
@@ -1266,6 +1301,12 @@ function renderFilters(){
     u.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'deshacer',onclick:deshacer},'Deshacer'));
     f.appendChild(u);
   }
+  // perfil guardado antes del reordenamiento (v10 o anterior): se avisa una vez de qué ha cambiado en los enlaces
+  if(state.pasos.aviso && state.pasos.ret.size){
+    const a=el('div',{class:'reord',role:'note'},'<svg class="ico" aria-hidden="true"><use href="#i-info"/></svg><div><p id="reord-h"><b>Hemos reordenado las preguntas.</b> Sexo, estado civil, cuidados, medio rural y ayuda social ahora van en los pasos 1 a 3 y sí viajan en los enlaces que compartas. Hasta que confirmes esos pasos, no los incluiremos.</p></div>');
+    a.lastChild.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'reord-ok',onclick:()=>{ state.pasos.aviso=false; guardarPasos(); render(); $('filters-h').focus(); say('Aviso cerrado.'); }},'Entendido, cerrar aviso'));
+    f.appendChild(a);
+  }
   const P=state.pasos, ol=el('ol',{class:'pasos',role:'list'});
   PASOS.forEach(({t:g,d:txt,q:qs},i)=>{
     const n=i+1, hecho=P.done.has(i), abierto=i===P.cur, bloq=!hecho&&!abierto, ok=!bloq&&completo(i), falta=faltan(i);
@@ -1281,7 +1322,7 @@ function renderFilters(){
         `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}: </span><span aria-hidden="true">Paso ${n} · </span>${esc(g)} <small>— completa el paso anterior</small></h3>`);
     } else if(!abierto){
       card=el('div',{class:'pcard'});
-      const h=el('div',{class:'phead'}, `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}, hecho: </span>${esc(g)}</h3>${st}`);
+      const h=el('div',{class:'phead'}, `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}, ${vacio?'sin marcar':'hecho'}: </span>${esc(g)}</h3>${st}`);
       h.appendChild(el('button',{type:'button',class:'linkbtn pcam','data-k':'cam-'+i,'aria-label':'Cambiar el paso '+n+': '+g,onclick:()=>cambiar(i)},'Cambiar'));
       card.appendChild(h);
       const r=resumen(i);
@@ -1291,8 +1332,14 @@ function renderFilters(){
       card.appendChild(el('div',{class:'phead'}, `<h3 class="ptit" id="paso-h-${i}" tabindex="-1"><span class="sr-only">Paso ${n} de ${NPASOS}: </span>${esc(g)}</h3>${st}`));
       card.appendChild(el('p',{class:'pdesc'}, esc(txt)));
       card.appendChild(el('p',{class:'gnote'},'Marca solo lo que vaya contigo. Lo opcional, si no te aplica, déjalo en blanco.'));
+      let sub=null;
       qs.filter(visible).forEach(q=>{
         const box=el('div',{class:'cat'+(q.si?' cond':'')});
+        // subbloque opcional («sub»): un grupo con su título, después de las preguntas obligatorias
+        if(q.sub && (!sub || sub.dataset.t!==q.sub)){
+          sub=el('div',{class:'qsub',role:'group','aria-labelledby':'qsub-'+q.id,'data-t':q.sub},`<p class="qsubt" id="qsub-${q.id}">${esc(q.sub)}</p><p class="qsubd">No hace falta para ver tu resultado.</p>`);
+          card.appendChild(sub);
+        } else if(!q.sub) sub=null;
         box.appendChild(el('h4',{id:'cat-'+q.id}, esc(qName(q))+(q.req?'':' <span class="qopt">opcional</span>')));
         if(CAT_NOTE[q.id]) box.appendChild(el('p',{class:'cnote',id:'cn-'+q.id},esc(CAT_NOTE[q.id])));
         const solo=qSolo(q);
@@ -1308,7 +1355,7 @@ function renderFilters(){
           o.appendChild(el('button',a, esc(x.v)+(x.off?`<small class="offr" id="off-${x.k}">· ${esc(x.off)}</small>`:'')));
         });
         if(solo) o.addEventListener('keydown',radioKeys);
-        box.appendChild(o); card.appendChild(box);
+        box.appendChild(o); (sub||card).appendChild(box);
       });
       const fin = cierra(i);
       const foot=el('div',{class:'pfoot'});
@@ -1428,7 +1475,7 @@ function espera(){
     const h=P.done.has(i), v=(h||(i===P.cur&&ok)) && !pasoVacio(i);
     const st = (pasoVacio(i)?'sin marcar':h?'hecho':i===P.cur?(ok?'mínimo completado':'en curso'):'pendiente')+(PASOS[i].opt?', opcional':'');
     const pl = i===P.cur ? 'Ahora' : PASOS[i].opt ? 'Opcional' : h ? 'Hecho' : '';
-    ol.appendChild(el('li',{class:(v?'ok':'')+(i===P.cur?' cur':'')+(PASOS[i].opt?' opt':''), ...(i===P.cur?{'aria-current':'step'}:{})}, `<span aria-hidden="true">${v?'<svg class="ico"><use href="#i-check"/></svg>':i+1}</span>${pl?`<span class="pl" aria-hidden="true">${pl}</span>`:''}<span class="sr-only">Paso ${i+1}, ${esc(g)}: ${st}</span>`));
+    ol.appendChild(el('li',{class:(v?'ok':'')+(i===P.cur?' cur':'')+(PASOS[i].opt?' popt':''), ...(i===P.cur?{'aria-current':'step'}:{})}, `<span aria-hidden="true">${v?'<svg class="ico"><use href="#i-check"/></svg>':i+1}</span>${pl?`<span class="pl" aria-hidden="true">${pl}</span>`:''}<span class="sr-only">Paso ${i+1}, ${esc(g)}: ${st}</span>`));
   });
   d.appendChild(ol);
   if(ok) d.appendChild(el('p',{class:'prog-ok'}, `<svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Paso ${n}: mínimo completado. Pulsa «${cierra(P.cur)?'Ver mi resultado':'Continuar'}».`));
@@ -1921,7 +1968,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p><span class="tag-int">Interpretación nuestra</span>Los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.</p>
     <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','/blob/main/data/analisis/SESGO.md')}</p>
     <h3>Versión de la metodología</h3>
-    <p>${esc(RUBRICA_TXT)}. <span id="alcance-v3">Están clasificadas con la v3, por tres lecturas independientes: Congreso de los Diputados XV legislatura, Congreso de los Diputados XIV legislatura, Congreso de los Diputados XIII legislatura, Congreso de los Diputados XII legislatura, Congreso de los Diputados XI legislatura, Congreso de los Diputados X legislatura, Parlamento Europeo 10.ª legislatura, Parlamento Europeo 9.ª legislatura, Parlamento Europeo 8.ª legislatura, Parlamento Europeo 7.ª legislatura y Parlamento Europeo 6.ª legislatura. Todas las legislaturas están ya clasificadas con la v3.</span> <span id="alcance-pe-antiguo">En el Parlamento Europeo 6.ª y 7.ª, la API oficial casi no publica el texto aprobado en español: las normas que la v3 dejaba sin efectos solo por no tener texto (80 en la 6.ª y 124 en la 7.ª) conservan la clasificación anterior. Están listadas en el REVISION.md de cada legislatura.</span> Cada cambio de la rúbrica y de la clasificación queda registrado en GitHub. <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
+    <p>${esc(RUBRICA_TXT)}. <span id="alcance-v3">Todas las legislaturas están clasificadas con la v3, por tres lecturas independientes.</span> <span id="alcance-pe-antiguo">La única excepción son 80 normas de la 6.ª y 124 de la 7.ª del Parlamento Europeo, que conservan la clasificación anterior: la API oficial casi no publica su texto aprobado en español y la v3 las dejaba sin efectos solo por eso. Están listadas en el REVISION.md de cada legislatura.</span> Cada cambio de la rúbrica y de la clasificación queda registrado en GitHub. <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
     <p class="small">Datos: ${esc(DATA.meta.fuente_txt)}, datos abiertos (iniciativas y votaciones). Generado el ${esc(DATA.meta.generado)}.</p>
     <p class="dlinks">${jsonLink()}${repoLink('Código y clasificación en GitHub')}</p>
   </div>`;

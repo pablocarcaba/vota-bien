@@ -1,0 +1,123 @@
+"""Privacidad retroactiva del perfil guardado (site/template.html).
+
+Hasta la v10, sexo, estado civil, cuidados, medio rural y ayuda social iban en el paso 4, que prometía no salir del
+dispositivo. Ahora van en los pasos 1 a 3 y sí viajan en los enlaces. Un perfil guardado sin versión (pasosPerfil sin `v`)
+no puede sacarlas en el enlace hasta que se confirma su paso o se vuelve a tocar la pregunta.
+
+Ejecuta con node las funciones reales de la plantilla (cargarGuardado, shareUrl, continuar, elegir…) con stubs del DOM.
+"""
+import json
+import os
+import re
+import shutil
+import subprocess
+import unittest
+
+from helpers import REPO
+
+TPL = open(os.path.join(REPO, "site", "template.html"), encoding="utf-8").read()
+FUNCIONES = ["qName", "qOpts", "qSolo", "visible", "respondida", "faltan", "completo", "terminado", "minimoActual",
+             "avisaMinimo", "deriva", "guardarPasos", "cargarGuardado", "confirma", "shareUrl", "continuar", "elegir"]
+MOVIDAS = ["mujeres", "civViu", "cuid", "rural", "pobreza"]
+# perfil de la v10: pasos 1 a 4 hechos, con las respuestas que entonces estaban en el paso 4
+V10 = {"sel": ["adultos", "hij0", "asal3", "prop1"] + MOVIDAS, "ui": ["trAjena", "vdAlq", "nv0"], "done": [0, 1, 2, 3], "cur": -1}
+
+
+def funcion(nombre):
+    m = re.search(r"\nfunction %s\(" % nombre, TPL)
+    assert m, nombre
+    i, nivel = TPL.index("{", m.end()), 0
+    for j in range(i, len(TPL)):
+        nivel += {"{": 1, "}": -1}.get(TPL[j], 0)
+        if nivel == 0:
+            return TPL[m.start() + 1:j + 1]
+    raise AssertionError("llaves sin cerrar en " + nombre)
+
+
+PRELUDIO = """
+const ALMACEN = {}, localStorage = {getItem:k=>k in ALMACEN ? ALMACEN[k] : null, setItem:(k,v)=>{ ALMACEN[k]=String(v); }, removeItem:k=>{ delete ALMACEN[k]; }};
+const location = {origin:'https://x.test', pathname:'/', search:''};
+const CATALOGO = [{clave:'congreso_xv'}], PARTIES = [];
+let PEND = '', DESHACER = null, isExample = false;
+const render = ()=>{}, irPaso = ()=>{}, verResultado = ()=>{};
+const state = {tab:'eco', ds:'congreso_xv', sel:new Set(['ciud','cons']), prov:'', pasos:{ui:new Set(), done:new Set(), cur:0, ret:new Set(), aviso:false}};
+"""
+
+
+def ejecutar(cuerpo):
+    i, j = TPL.index("const CATS = ["), TPL.index("const CHECK")
+    esperfil = re.search(r"const esPerfil = .*\n", TPL).group(0)
+    js = PRELUDIO + TPL[i:j] + esperfil + "\n".join(funcion(f) for f in FUNCIONES) + "\n" + cuerpo
+    out = subprocess.run(["node", "-e", js], capture_output=True, text=True)
+    if out.returncode:
+        raise AssertionError(out.stderr)
+    return json.loads(out.stdout)
+
+
+def claves(url):
+    q = dict(x.split("=", 1) for x in url.split("?", 1)[1].split("#")[0].split("&"))
+    return set(q.get("p", "").split(",")) | set(q.get("u", "").split(",")), q
+
+
+@unittest.skipUnless(shutil.which("node"), "hace falta node")
+class PrivacidadRetroactivaTest(unittest.TestCase):
+    def test_perfil_heredado_no_saca_las_respuestas_movidas(self):
+        d = ejecutar("cargarGuardado(%s); deriva();"
+                     "process.stdout.write(JSON.stringify({url:shareUrl(null,null,true), ret:[...state.pasos.ret], aviso:state.pasos.aviso}));"
+                     % json.dumps(V10))
+        k, _ = claves(d["url"])
+        for m in MOVIDAS:
+            self.assertNotIn(m, k, m)
+        self.assertIn("asal3", k)
+        self.assertEqual(set(d["ret"]), set(MOVIDAS))
+        self.assertTrue(d["aviso"])
+
+    def test_confirmar_cada_paso_las_vuelve_a_sacar(self):
+        d = ejecutar("cargarGuardado(%s); deriva(); const r=[];"
+                     "continuar(0); r.push(shareUrl(null,null,true));"
+                     "continuar(1); r.push(shareUrl(null,null,true));"
+                     "continuar(2); r.push(shareUrl(null,null,true));"
+                     "process.stdout.write(JSON.stringify({r, aviso:state.pasos.aviso, guardado:JSON.parse(ALMACEN.pasosPerfil)}));"
+                     % json.dumps(V10))
+        k1, k2, k3 = (claves(u)[0] for u in d["r"])
+        self.assertTrue({"mujeres", "civViu", "cuid"} <= k1)
+        self.assertFalse({"pobreza", "rural"} & k1)
+        self.assertIn("pobreza", k2)
+        self.assertNotIn("rural", k2)
+        self.assertIn("rural", k3)
+        self.assertFalse(d["aviso"])
+        self.assertEqual(d["guardado"]["v"], 2)
+        self.assertEqual(d["guardado"]["ret"], [])
+
+    def test_tocar_la_pregunta_tambien_confirma(self):
+        d = ejecutar("cargarGuardado(%s); deriva(); state.pasos.cur=0;"
+                     "elegir(PASOS[0].q.find(q=>q.id==='civ'), 'civSep');"
+                     "process.stdout.write(JSON.stringify({url:shareUrl(null,null,true)}));" % json.dumps(V10))
+        k, _ = claves(d["url"])
+        self.assertIn("civSep", k)
+        self.assertNotIn("mujeres", k)
+
+    def test_la_retencion_sobrevive_a_recargar(self):
+        # se guarda con versión y la retención no se pierde al volver a cargar
+        d = ejecutar("cargarGuardado(%s); deriva(); guardarPasos();"
+                     "const g=JSON.parse(ALMACEN.pasosPerfil); state.sel=new Set(['ciud','cons']); state.pasos={ui:new Set(),done:new Set(),cur:0,ret:new Set(),aviso:false};"
+                     "cargarGuardado(g); deriva();"
+                     "process.stdout.write(JSON.stringify({url:shareUrl(null,null,true), v:g.v}));" % json.dumps(V10))
+        self.assertEqual(d["v"], 2)
+        self.assertFalse(set(MOVIDAS) & claves(d["url"])[0])
+
+    def test_perfil_con_version_no_retiene_nada(self):
+        g = dict(V10, v=2, ret=[], aviso=False)
+        d = ejecutar("cargarGuardado(%s); deriva();"
+                     "process.stdout.write(JSON.stringify({url:shareUrl(null,null,true), aviso:state.pasos.aviso}));" % json.dumps(g))
+        self.assertTrue(set(MOVIDAS) <= claves(d["url"])[0])
+        self.assertFalse(d["aviso"])
+
+    def test_la_provincia_va_en_el_enlace(self):
+        d = ejecutar("state.prov='50'; cargarGuardado(%s); deriva();"
+                     "process.stdout.write(JSON.stringify({url:shareUrl(null,null,true)}));" % json.dumps(V10))
+        self.assertEqual(claves(d["url"])[1].get("prov"), "50")
+
+
+if __name__ == "__main__":
+    unittest.main()

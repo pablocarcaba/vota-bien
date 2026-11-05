@@ -14,9 +14,9 @@ from helpers import REPO
 TEMPLATE = os.path.join(REPO, "site", "template.html")
 
 PASOS = [
-    ("Tú y tu familia", False, ["edad", "sexo", "hij", "civ", "car"]),
+    ("Tú y tu familia", False, ["edad", "hij", "sexo", "civ", "car"]),
     ("Trabajo e ingresos", False, ["sit", "asal", "fun", "pro", "emp", "sec", "pen", "des", "ayu"]),
-    ("Vivienda y ahorros", False, ["donde", "rur", "nviv", "alq", "hip", "prop"]),
+    ("Vivienda y ahorros", False, ["donde", "nviv", "alq", "hip", "prop", "rur"]),
     ("Salud y situación personal", True, ["ori", "soc"]),
 ]
 PASO4_PRIVADO = {"lgtbi", "pac", "depend", "discapacidad", "inmigrantes", "minorias", "victimas", "socNo"}
@@ -29,7 +29,7 @@ def bloque(src):
     """De `const CATS` a `const CHECK`, más qOpts (declarada más abajo) y un `state` mínimo."""
     i, j = src.index("const CATS = ["), src.index("const CHECK")
     k = src.index("function qOpts(")
-    return ("const state={sel:new Set(),pasos:{ui:new Set(),done:new Set(),cur:0}};\n" + src[i:j]
+    return ("const state={sel:new Set(),pasos:{ui:new Set(),done:new Set(),cur:0,ret:new Set(),aviso:false}};\n" + src[i:j]
             + src[k:src.index("\n", k)] + "\n")
 
 

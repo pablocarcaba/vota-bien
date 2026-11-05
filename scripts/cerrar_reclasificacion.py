@@ -44,10 +44,11 @@ def frase_alcance(root, ver, claves=None):
     nombre = lambda k: f"{FUENTES[LEGISLATURAS[k]['fuente']]} {LEGISLATURAS[k]['titulo'].split(' · ')[0]}"
     lista = lambda ks: ", ".join(nombre(k) for k in ks[:-1]) + (" y " if len(ks) > 1 else "") + nombre(ks[-1])
     previa = f"v{int(ver[1:]) - 1}" if re.fullmatch(r"v\d+", ver) else "la anterior"
-    frase = f"Están clasificadas con la {ver}, por tres lecturas independientes: {lista(actuales)}."
-    if antiguas:
-        return frase + f" Siguen con la {previa}, a la espera de reclasificarse igual: {lista(antiguas)}."
-    return frase + f" Todas las legislaturas están ya clasificadas con la {ver}."
+    if not antiguas:
+        # todas al día: sin enumerarlas (la lista de legislaturas ya está en el selector de la página)
+        return f"Todas las legislaturas están clasificadas con la {ver}, por tres lecturas independientes."
+    return (f"Están clasificadas con la {ver}, por tres lecturas independientes: {lista(actuales)}."
+            f" Siguen con la {previa}, a la espera de reclasificarse igual: {lista(antiguas)}.")
 
 
 def reescribir_alcance(html, frase):

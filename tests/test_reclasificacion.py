@@ -603,7 +603,8 @@ class CerrarTest(unittest.TestCase):
     def test_frase_cuando_todas_estan_en_v3_y_version_previa_de_v4(self):
         self.lectura_v3("congreso_xv", "v4")
         f = CR.frase_alcance(self.tmp.root, "v4", ["congreso_xv"])
-        self.assertTrue(f.endswith("Todas las legislaturas están ya clasificadas con la v4."), f)
+        # todas al día: una frase sin enumerar las legislaturas
+        self.assertEqual(f, "Todas las legislaturas están clasificadas con la v4, por tres lecturas independientes.")
         escribir(self.tmp.path("site", "data", "congreso_x.json"), "{}")
         self.assertIn("Siguen con la v3,", CR.frase_alcance(self.tmp.root, "v4", ["congreso_xv", "congreso_x"]))
 
@@ -624,8 +625,8 @@ class CerrarTest(unittest.TestCase):
         p = self.tmp.run("cerrar_reclasificacion.py", "--solo-alcance")
         self.assertEqual(p.returncode, 0, p.stderr)
         html = leer(self.tmp.path("site", "template.html"))
-        self.assertEqual(html, 'x <span id="alcance-v3">Están clasificadas con la v3, por tres lecturas independientes: '
-                               'Congreso de los Diputados Fixture. Todas las legislaturas están ya clasificadas con la v3.</span> y')
+        self.assertEqual(html, 'x <span id="alcance-v3">Todas las legislaturas están clasificadas con la v3, '
+                               'por tres lecturas independientes.</span> y')
 
     SESGO = {
         "europarlamento_10": {"eco_con_ciud": {"partidos": [{"partido": "Bildu", "primero_pct": 41.26}]},
@@ -684,7 +685,7 @@ class CerrarTest(unittest.TestCase):
         ordenes, err = self.cerrar_simulado(" 0 errores" * n)
         self.assertIsNone(err)
         self.assertEqual(ordenes, ["prueba_sesgo.py", "validar_clasificacion.py", "build_page.py"])
-        self.assertIn("Están clasificadas con la v3", self.plantilla_en_build_page)
+        self.assertIn("clasificadas con la v3", self.plantilla_en_build_page)
         self.assertIn("EH Bildu · 41,3 %", self.plantilla_en_build_page)
 
     def test_cifras_falla_y_nombra_la_frase_que_ya_no_casa(self):
