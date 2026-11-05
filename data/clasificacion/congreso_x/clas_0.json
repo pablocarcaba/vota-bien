@@ -305,11 +305,10 @@
   "id": "120/000035",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
    "pobreza": 1
   },
   "peso": 3,
-  "nota": "Crea una prestación de ingresos mínimos en la Seguridad Social; beneficia a personas sin recursos.",
+  "nota": "Crea una prestación no contributiva de ingresos mínimos, al 80% del IPREM, para quien carece de recursos; beneficia a personas en riesgo de pobreza.",
   "partido": ""
  },
  {

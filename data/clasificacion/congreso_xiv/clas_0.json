@@ -710,24 +710,20 @@
   "id": "121/000025",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
-   "monop": 1,
    "pobreza": 1
   },
   "peso": 3,
-  "nota": "Crea el ingreso mínimo vital para hogares en riesgo de pobreza, con incremento específico para familias monoparentales.",
+  "nota": "Establece el ingreso mínimo vital, prestación no contributiva para hogares en vulnerabilidad económica; beneficia a personas en riesgo de pobreza.",
   "partido": ""
  },
  {
   "id": "130/000021",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
-   "monop": 1,
    "pobreza": 1
   },
   "peso": 3,
-  "nota": "Crea el ingreso mínimo vital para hogares en riesgo de pobreza, con incremento específico para familias monoparentales.",
+  "nota": "Establece el ingreso mínimo vital, prestación no contributiva para hogares en vulnerabilidad económica; beneficia a personas en riesgo de pobreza.",
   "partido": ""
  },
  {
@@ -1076,30 +1072,26 @@
   "id": "121/000049",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
    "hipot": 1,
-   "hombres": 1,
    "mujeres": 1,
    "pobreza": 1,
    "proSan": 1
   },
-  "peso": 2,
-  "nota": "Rediseña el complemento de pensiones para reducir la brecha de género, mejora el ingreso mínimo vital, la baja del personal sanitario y las moratorias hipotecarias.",
+  "peso": 3,
+  "nota": "Complemento de pensiones por brecha de género, mejoras del ingreso mínimo vital, incapacidad temporal del personal sanitario y ampliación de moratorias hipotecarias.",
   "partido": ""
  },
  {
   "id": "130/000043",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
    "hipot": 1,
-   "hombres": 1,
    "mujeres": 1,
    "pobreza": 1,
    "proSan": 1
   },
-  "peso": 2,
-  "nota": "Rediseña el complemento de pensiones para reducir la brecha de género, mejora el ingreso mínimo vital, la baja del personal sanitario y las moratorias hipotecarias.",
+  "peso": 3,
+  "nota": "Complemento de pensiones por brecha de género, mejoras del ingreso mínimo vital, incapacidad temporal del personal sanitario y ampliación de moratorias hipotecarias.",
   "partido": ""
  },
  {

@@ -678,11 +678,11 @@
   "id": "122/000281",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
+   "infancia": 1,
    "pobreza": 1
   },
-  "peso": 1,
-  "nota": "Limita la exigibilidad del reintegro de prestaciones indebidas de la Seguridad Social y del IMV; beneficia a perceptores.",
+  "peso": 2,
+  "nota": "Declara no exigibles las prestaciones indebidas por error de la administración o de subsistencia, y exime a hijos menores del reintegro del ingreso mínimo vital.",
   "partido": ""
  },
  {

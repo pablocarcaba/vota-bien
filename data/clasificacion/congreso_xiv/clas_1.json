@@ -182,24 +182,22 @@
   "id": "121/000042",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
    "pobreza": 1,
    "secFin": 1
   },
   "peso": 2,
-  "nota": "Exime del IRPF el ingreso mínimo vital y las rentas mínimas autonómicas; indemniza a bancos por el almacenamiento Castor.",
+  "nota": "Exime de IRPF el ingreso mínimo vital y paga a tres bancos la indemnización de 1.350 millones por Castor; amplía plazos de la reserva canaria.",
   "partido": ""
  },
  {
   "id": "130/000039",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
    "pobreza": 1,
    "secFin": 1
   },
   "peso": 2,
-  "nota": "Exime del IRPF el ingreso mínimo vital y las rentas mínimas autonómicas; indemniza a bancos por el almacenamiento Castor.",
+  "nota": "Exime de IRPF el ingreso mínimo vital y paga a tres bancos la indemnización de 1.350 millones por Castor; amplía plazos de la reserva canaria.",
   "partido": ""
  },
  {
@@ -620,11 +618,10 @@
   "id": "120/000002",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
    "pobreza": 1
   },
   "peso": 3,
-  "nota": "Crea una prestación de ingresos mínimos de la Seguridad Social para personas con escasa o ninguna cobertura.",
+  "nota": "Crea una prestación no contributiva de ingresos mínimos, al 80% del IPREM, para quien carece de recursos; beneficia a personas en riesgo de pobreza.",
   "partido": ""
  },
  {

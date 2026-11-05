@@ -63,3 +63,7 @@ La rúbrica (línea de Desempleados) deja `desSub` solo para el subsidio por des
 - [ ] **Prestación de ingresos mínimos** (120/000035, ILP): renta mínima de la Seguridad Social, no subsidio por desempleo; `desSub` y `pobreza`.
 
 - 122/000033: partido `BNG` (Grupo Mixto). Evidencia: BOCG B_044-01, «a instancia de don Francisco Jorquera Caselas, Diputado por A Coruña (BNG) y doña M.ª Olaia Fernández Davila […] presentan la siguiente Proposición de Ley del BNG». `identificar_mixto.py` no la encontró porque el PDF extraído trae el expediente con otro número en el acuerdo de la Mesa.
+
+### Reclasificación del IMV y de ingresos mínimos (05/11/2026)
+
+Tras corregir en la rúbrica la definición de `desSub` (solo subsidio por desempleo; el IMV y las rentas mínimas van a `pobreza`, 3.5.2), las iniciativas de esta legislatura que tenían `desSub` y trataban del IMV o de ingresos mínimos se releyeron con el texto oficial del BOCG por tres lectores independientes (C, D y E) y se consolidaron por mayoría. Lecturas y consolidación en `data/clasificacion/lecturas_imv_05-11-2026/`; resultado: `desSub` se retira salvo donde el texto trata del subsidio por desempleo.

@@ -578,11 +578,11 @@
   "id": "122/000160",
   "tipo": "eco",
   "imp": {
-   "desSub": 1,
+   "infancia": 1,
    "pobreza": 1
   },
-  "peso": 2,
-  "nota": "Modifica el IMV para facilitar el acceso y reducir requerimientos de devolución a hogares vulnerables.",
+  "peso": 3,
+  "nota": "Reforma el ingreso mínimo vital: cambia requisitos y patrimonio, crea complemento para la infancia, evita reintegros por revisión de ingresos y regula ayudas de emergencia.",
   "partido": ""
  },
  {

@@ -1,0 +1,159 @@
+[
+ {
+  "clave": "congreso_x",
+  "id": "120/000035",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos, ligada a límite de renta, para quienes carecen de recursos."
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000103",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1,
+   "asal1": 1,
+   "pen1": 1,
+   "estud": 1,
+   "depend": 1
+  },
+  "peso": 2,
+  "nota": "Eleva a 1,5 SMI el salario o pensión inembargable y declara inembargables subsidios, rentas mínimas, ayudas de dependencia y becas."
+ },
+ {
+  "clave": "congreso_xi",
+  "id": "120/000003",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos, ligada a límite de renta, para quienes carecen de recursos."
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos, ligada a límite de renta, para quienes carecen de recursos."
+ },
+ {
+  "clave": "congreso_xiii",
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos, ligada a límite de renta, para quienes carecen de recursos."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000025",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Establece el ingreso mínimo vital, prestación no contributiva para hogares en riesgo de pobreza."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000021",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Establece el ingreso mínimo vital, prestación no contributiva para hogares en riesgo de pobreza."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000049",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "pobreza": 1,
+   "hipot": 1,
+   "empAut": 1,
+   "proSan": 1
+  },
+  "peso": 3,
+  "nota": "Complemento de pensión contra la brecha de género, mejoras del IMV, moratorias hipotecarias y avales a autónomos, y baja por incapacidad del personal sanitario."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000043",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "pobreza": 1,
+   "hipot": 1,
+   "empAut": 1,
+   "proSan": 1
+  },
+  "peso": 3,
+  "nota": "Complemento de pensión contra la brecha de género, mejoras del IMV, moratorias hipotecarias y avales a autónomos, y baja por incapacidad del personal sanitario."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000042",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Exime del IRPF el ingreso mínimo vital, paga a tres bancos la indemnización del almacén Castor y amplía plazos de la reserva de inversiones canaria."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000039",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Exime del IRPF el ingreso mínimo vital, paga a tres bancos la indemnización del almacén Castor y amplía plazos de la reserva de inversiones canaria."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos, ligada a límite de renta, para quienes carecen de recursos."
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000160",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "infancia": 1
+  },
+  "peso": 3,
+  "nota": "Flexibiliza requisitos de renta y patrimonio del IMV, crea complemento de ayuda para la infancia, elimina reintegros por revisiones y regula las ayudas de emergencia."
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000281",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Declara no exigibles prestaciones indebidas por error de la administración o de subsistencia, y exime a hijos menores de responsabilidad solidaria en el IMV."
+ }
+]

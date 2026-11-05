@@ -1,0 +1,159 @@
+[
+ {
+  "clave": "congreso_x",
+  "id": "120/000035",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos (80 % del IPREM) para quien carece de empleo y recursos; beneficia a la población en pobreza."
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000103",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "pen1": 1,
+   "desSub": 1,
+   "pobreza": 1,
+   "depend": 1,
+   "estud": 1
+  },
+  "peso": 2,
+  "nota": "Eleva a 1,5 veces el SMI lo inembargable de salarios y pensiones y declara inembargables subsidios de desempleo, rentas mínimas, ayudas de dependencia y becas."
+ },
+ {
+  "clave": "congreso_xi",
+  "id": "120/000003",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos (80 % del IPREM) para quien carece de empleo y recursos; beneficia a la población en pobreza."
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos (80 % del IPREM) para quien carece de empleo y recursos; beneficia a la población en pobreza."
+ },
+ {
+  "clave": "congreso_xiii",
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos (80 % del IPREM) para quien carece de empleo y recursos; beneficia a la población en pobreza."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000025",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Establece el ingreso mínimo vital, prestación no contributiva de renta garantizada para hogares vulnerables; beneficia a personas en riesgo de pobreza."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000021",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Establece el ingreso mínimo vital, prestación no contributiva de renta garantizada para hogares vulnerables; beneficia a personas en riesgo de pobreza."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000049",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1,
+   "pobreza": 1,
+   "hipot": 1,
+   "proSan": 1
+  },
+  "peso": 2,
+  "nota": "Complemento de pensión contra la brecha de género, con acceso de padres perjudicados; mejora el IMV, la baja del personal sanitario y las moratorias hipotecarias."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000043",
+  "tipo": "eco",
+  "imp": {
+   "mujeres": 1,
+   "hombres": 1,
+   "pobreza": 1,
+   "hipot": 1,
+   "proSan": 1
+  },
+  "peso": 2,
+  "nota": "Complemento de pensión contra la brecha de género, con acceso de padres perjudicados; mejora el IMV, la baja del personal sanitario y las moratorias hipotecarias."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000042",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Declara exento de IRPF el ingreso mínimo vital hasta 1,5 veces el IPREM; abona 1.350 millones a tres bancos por el almacén Castor."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000039",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "secFin": 1
+  },
+  "peso": 2,
+  "nota": "Declara exento de IRPF el ingreso mínimo vital hasta 1,5 veces el IPREM; abona 1.350 millones a tres bancos por el almacén Castor."
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "120/000002",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación no contributiva de ingresos mínimos (80 % del IPREM) para quien carece de empleo y recursos; beneficia a la población en pobreza."
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000160",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "infancia": 1
+  },
+  "peso": 3,
+  "nota": "Reforma el ingreso mínimo vital: flexibiliza requisitos y cómputo de renta, crea el complemento de infancia, evita reintegros por revisión y regula ayudas de emergencia."
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000281",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "No exige reintegrar prestaciones indebidas por error administrativo o a personas vulnerables, y exime a hijos menores de responsabilidad solidaria en el ingreso mínimo vital."
+ }
+]

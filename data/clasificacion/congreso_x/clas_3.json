@@ -3,11 +3,15 @@
   "id": "122/000103",
   "tipo": "eco",
   "imp": {
+   "asal1": 1,
+   "depend": 1,
    "desSub": 1,
+   "estud": 1,
+   "pen1": 1,
    "pobreza": 1
   },
   "peso": 2,
-  "nota": "Declara inembargables el subsidio por desempleo, la renta activa de inserción, PREPARA y otras prestaciones de ingresos mínimos; protege a sus perceptores.",
+  "nota": "Sube el mínimo inembargable de salarios y pensiones y declara inembargables subsidio de desempleo, rentas mínimas, prestaciones de dependencia y becas.",
   "partido": ""
  },
  {
