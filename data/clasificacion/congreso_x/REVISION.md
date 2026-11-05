@@ -53,3 +53,5 @@ Las 510 iniciativas se han reclasificado con la rúbrica v3 por tres lectores in
 - Coincidencia entre lectores: 85–86 % idéntica, parecido medio 0.89, 0 con signo contrario; 403 de 510 idénticas en las tres lecturas.
 - 247 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
 - Sin efectos: 229 antes, 307 ahora.
+
+- 121/000021: `viv2` → `casero`, como en 93a7102 (colectivo «casero», 04/11/2026). Las lecturas v3 de la X se hicieron con la rúbrica anterior a ese cambio y la aplicación lo había revertido. El resto de `viv2` de la X (130/000001, IBI) sigue siendo `viv2`.
