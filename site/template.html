@@ -541,6 +541,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
 .why3 li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:10px 12px;border-radius:14px;background:var(--soft)}
 .why3 a{font-weight:600;font-size:14.5px;line-height:1.4;text-underline-offset:3px;overflow-wrap:break-word;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden}
 .why3 small .tag{margin-left:6px;vertical-align:1px}
+.why3 abbr{text-decoration:none}
 .pq-n{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px}
 .pq-n .linkbtn{min-height:44px;white-space:nowrap}
 .lbh{font-family:var(--display);font-size:20px;font-weight:800;letter-spacing:-.015em;margin:0 0 4px}
@@ -1077,7 +1078,7 @@ function renderProfile(){
 let DESHACER = null;
 function borrarRespuestas(){
   const habia = propio() || state.pasos.ui.size>0;
-  DESHACER = habia ? {sel:[...state.sel].filter(esPerfil), ui:[...state.pasos.ui], done:[...state.pasos.done], cur:state.pasos.cur, prov:state.prov, ex:isExample} : null;
+  DESHACER = habia ? {sel:[...state.sel].filter(esPerfil), ui:[...state.pasos.ui], done:[...state.pasos.done], cur:state.pasos.cur, prov:state.prov, ex:isExample, q:location.search} : null;
   [...state.sel].filter(esPerfil).forEach(k=>state.sel.delete(k));
   isExample=false; state.pasos={ui:new Set(),done:new Set(),cur:0}; state.prov='';
   try{ localStorage.removeItem('pasosPerfil'); localStorage.removeItem('provincia'); }catch(e){}
@@ -1093,6 +1094,8 @@ function deshacer(){
   g.sel.forEach(k=>state.sel.add(k)); g.ui.forEach(k=>state.pasos.ui.add(k));
   state.pasos.done=new Set(g.done); state.pasos.cur=g.cur; isExample=g.ex; state.prov=g.prov;
   try{ if(g.prov) localStorage.setItem('provincia', g.prov); }catch(e){}
+  // el enlace recupera lo que borró borrarRespuestas() (perfil y provincia); ?partido= no, porque la vista ya es otra
+  try{ const a=new URLSearchParams(g.q), q=new URLSearchParams(location.search); ['p','u','prov'].forEach(k=>{ if(a.has(k)) q.set(k,a.get(k)); }); const t=q.toString().replace(/%2C/g,','); history.replaceState(null,'',location.pathname+(t?'?'+t:'')+location.hash); }catch(e){}
   // el aviso va por PEND para que no lo pise el de «Resultado actualizado» (anunciar())
   PEND = 'Respuestas recuperadas.';
   deriva(); guardarPasos(); state.anim=true; render();
@@ -1146,8 +1149,14 @@ function elegir(q, k){
   render(); avisaMinimo(antes);
 }
 // quitar un rasgo desde la barra «Tu perfil»
-function quitar(k){ state.sel.delete(k); deriva(); guardarPasos(); render(); }
-function quitarUi(k){ state.pasos.ui.delete(k); deriva(); guardarPasos(); render(); }
+function quitar(k){ const t=terminado(); state.sel.delete(k); deriva(); avisaQuitado(LABEL[k], t); guardarPasos(); render(); }
+function quitarUi(k){ const t=terminado(); state.pasos.ui.delete(k); deriva(); avisaQuitado(UI_TXT[k], t); guardarPasos(); render(); }
+// si al quitarlo el perfil queda incompleto, el ranking desaparece: se dice por qué y qué paso falta (4.1.3)
+function avisaQuitado(nombre, antes){
+  ajustaPasos();
+  const i = PASOS.findIndex((P,j)=>!P.opt && !state.pasos.done.has(j));
+  PEND = 'Se ha quitado '+nombre+'.'+(antes && !terminado() && i>=0 ? ' Falta completar el paso '+(i+1)+' para ver tu resultado.' : '');
+}
 // las subpreguntas dependen de «¿De qué vives?» y de la vivienda: al quitar lo que las activa se quitan sus colectivos,
 // y los colectivos deducidos se recalculan desde las respuestas
 function deriva(){
@@ -1502,10 +1511,17 @@ const delGobierno = it => !europeas() && it.a.includes('Gobierno');
 // Sin fecha, la etiqueta no afirma ninguno
 const gobiernos = () => (CATALOGO.find(c=>c.clave===state.ds)||{}).gobiernos || null;
 function gobDe(it){
-  const g=gobiernos(), d=dkey(it); if(!g || !d) return '';
+  const g=gobiernos(), d=fkey(it.f); if(!g || !d) return '';
   let n=''; g.forEach(x=>{ if(d >= +x.desde.replace(/-/g,'')) n=x.nombre; }); return n;
 }
-const gobTag = it => `<span class="tag gob">Iniciativa del Gobierno${gobDe(it)?' de '+esc(gobDe(it)):''}</span>`;
+// los separadores sr-only evitan que el lector de pantalla junte la etiqueta con el texto de al lado («Te beneficiaIniciativa…»)
+const gobTag = it => `<span class="sr-only">. </span><span class="tag gob">Iniciativa del Gobierno${gobDe(it)?' de '+esc(gobDe(it)):''}</span><span class="sr-only">. </span>`;
+// título corto de un real decreto-ley («RDL 9/2024 · Se adoptan…»): sin la fecha ni la fórmula «por el que», para que en
+// 2 líneas se lea el tema. El resto de títulos, tal cual
+function tCorto(t){
+  const m=/^Real Decreto-ley (\d+\/\d{4}),? de \d+ de [a-zé]+,\s*(?:por (?:el|la) que se (?:adoptan|aprueban?|establecen?|introducen) (?:(?:determinadas|diversas) )?|por (?:el|la) que )?(?:de (?!la |los |las ))?(.+)$/i.exec(t||'');
+  return m ? `<abbr title="Real Decreto-ley">RDL</abbr> ${esc(m[1])} · ${esc(m[2].charAt(0).toUpperCase()+m[2].slice(1))}` : esc(t);
+}
 // «Por qué sale aquí»: lo que más le resta y lo que más le suma (|aportación| = alcance × fuerza de la prueba),
 // empezando por el signo que domina su nota
 function porQue(p, x){
@@ -1529,7 +1545,7 @@ function porQue(p, x){
     G.forEach(({it,e,ap})=>{
       const v = it.v && it.v[p];
       const how = e.via==='pres' ? 'La presentó, sin voto suyo en el Pleno' : `Votó ${VOTE_TXT[v]}${it.vk==='Enmienda a la totalidad'?' (postura deducida de la totalidad)':''}`;
-      ol.appendChild(el('li',{}, `<a href="#ley=${encodeURIComponent(it.id)}" title="${esc(it.t)}">${esc(it.t)}</a><small>${esc(how)} · ${esc(PESO_TXT[it.w]||'Ley menor')} · ${esc(IMP_TXT[impactOf(it)]||'')}${delGobierno(it)?gobTag(it):''}</small><span class="ap ${e.c}">${e.c==='pos'?'Suma +'+nf(ap):'Resta '+nf(ap)}</span>`));
+      ol.appendChild(el('li',{}, `<a href="#ley=${encodeURIComponent(it.id)}" title="${esc(it.t)}">${tCorto(it.t)}</a><small>${esc(how)} · ${esc(PESO_TXT[it.w]||'Ley menor')} · ${esc(IMP_TXT[impactOf(it)]||'')}${delGobierno(it)?gobTag(it):''}</small><span class="ap ${e.c}">${e.c==='pos'?'Suma +'+nf(ap):'Resta '+nf(ap)}</span>`));
     });
     box.appendChild(ol);
   });
@@ -1712,7 +1728,10 @@ function renderList(){
   const sWho=el('select',{id:'f-who','data-k':'f-who'}); sWho.appendChild(new Option('Todos los partidos','',false,!L.who)); PARTIES.forEach(p=>sWho.appendChild(new Option(pn(p),p,false,p===L.who)));
   const cols = L.who ? EV_TXT : COLOR_TXT;
   const sCol=el('select',{id:'f-col','data-k':'f-col'}); sCol.appendChild(new Option('Todos los efectos','',false,!L.color)); Object.entries(cols).forEach(([c,t])=>sCol.appendChild(new Option(t,c,false,c===L.color)));
-  const upd=()=>{ state.tab=sTab.value; const w=sWho.value; let c=sCol.value||null; if(w && c==='neu') c=null; state.list={who:w,color:c}; keepFocus(renderList); say('Lista actualizada: '+LIST_MSG); };
+  const upd=()=>{ state.tab=sTab.value; const w=sWho.value; let c=sCol.value||null; if(w && c==='neu') c=null; state.list={who:w,color:c}; keepFocus(renderList);
+    // al pasar a «Todos los partidos» la cabecera de la ficha desaparece y el select enfocado queda fuera de la vista (2.4.7)
+    const f=document.activeElement; if(f && f.closest && f.closest('.lfilters')) f.scrollIntoView({block:'nearest'});
+    say('Lista actualizada: '+LIST_MSG); };
   [[sTab,'Tipo de leyes'],[sWho,'Partido'],[sCol,'Efecto']].forEach(([s,t])=>{ s.addEventListener('change',upd); const l=el('label',{for:s.id},esc(t)); l.appendChild(s); fl.appendChild(l); });
   v.appendChild(fl);
 
@@ -1740,7 +1759,9 @@ function renderList(){
   if(!rows.length) list.appendChild(el('div',{class:'empty',style:'margin-top:12px'},'No hay iniciativas con estos filtros.'));
   v.appendChild(list);
 }
-function dkey(it){ const d=(it.vd||it.f||'').split('/'); return d.length===3? +(d[2]+d[1].padStart(2,'0')+d[0].padStart(2,'0')) : 0; }
+// fecha dd/mm/aaaa → número aaaammdd (0 si no hay fecha). dkey ordena por la de votación; gobDe usa la de presentación (it.f)
+function fkey(s){ const d=(s||'').split('/'); return d.length===3? +(d[2]+d[1].padStart(2,'0')+d[0].padStart(2,'0')) : 0; }
+function dkey(it){ return fkey(it.vd||it.f); }
 function congresoUrl(id){
   if(DATA.meta.formato==='europarlamento') return 'https://oeil.secure.europarl.europa.eu/oeil/es/procedure-file?reference='+encodeURIComponent(id);
   return 'https://www.congreso.es/es/busqueda-de-iniciativas?p_p_id=iniciativas&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&_iniciativas_mode=mostrarDetalle&_iniciativas_legislatura='+encodeURIComponent(DATA.meta.leg)+'&_iniciativas_id='+encodeURIComponent(id);
@@ -1865,7 +1886,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>«Signo contrario» quiere decir que una lectura marca que la ley beneficia a un colectivo y otra que lo perjudica. El parecido va de 0 (ningún colectivo en común) a 1 (los mismos colectivos con el mismo efecto). En una primera prueba, con la rúbrica anterior y solo con el título de cada ley, el parecido era de 0,83 y había 3 leyes con signo contrario. Las 108 iniciativas en las que las tres lecturas no coinciden del todo pasan a revisión humana.</p>
     <p class="dlinks">${repoLink('Ver qué cambió en cada ley (GitHub)','/blob/main/data/clasificacion/congreso_xv/lectura_v3/CAMBIOS.md')} ${repoLink('Ver las tres lecturas (GitHub)','/tree/main/data/clasificacion/congreso_xv/lectura_v3')}</p>
     <h3>Prueba de sesgo</h3>
-    <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 20 arquetipos (asalariado con hipoteca, pensionista, autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web, en cada legislatura y pestaña, con y sin «Ciudadanía general» y con «Consumidor» activo, como viene por defecto. Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
+    <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 20 arquetipos (asalariado con hipoteca, pensionista, autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web (en la muestra aleatoria, el 25 % de los asalariados y funcionarios responde «No lo sé» en el tramo de IRPF), en cada legislatura y pestaña, con y sin «Ciudadanía general» y con «Consumidor» activo, como viene por defecto. Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
     <p>«Ciudadanía general» cambia mucho el resultado en el Parlamento Europeo:</p>
     <table class="tbl">
       <caption>Parlamento Europeo, leyes económicas: partido que sale primero en más perfiles y en qué porcentaje de ellos</caption>
@@ -1924,8 +1945,11 @@ function route(){
     if(h && !hlNuevo){
       // primero se lleva la vista arriba (o al aviso) y después se enfoca, para que el foco quede a la vista
       const t = aviso ? $('legal-h') : document.querySelector('#view-'+h+' h2');
-      if(aviso) $('aviso-legal').scrollIntoView({block:'start'}); else window.scrollTo(0,0);
+      const arriba = ()=>{ if(aviso) $('aviso-legal').scrollIntoView({block:'start'}); else window.scrollTo(0,0); };
+      arriba();
       if(t){ t.setAttribute('tabindex','-1'); t.focus({preventScroll:true}); }
+      // con «adelante» del navegador, la restauración de scroll llega después y deja el título fuera: se repite en el siguiente frame
+      requestAnimationFrame(()=>{ if(lastView===vista && (!t || document.activeElement===t)) arriba(); });
     } }
   lastHl = state.hl;
   if(hlNuevo){

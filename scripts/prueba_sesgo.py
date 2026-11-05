@@ -254,7 +254,9 @@ def main():
             fh.write("# Prueba de sesgo\n\n")
             fh.write(f"Generado por `scripts/prueba_sesgo.py` (semilla {semilla}, {n} perfiles aleatorios y "
                      f"{len(ARQUETIPOS)} arquetipos, prudencia K = {K}). Mismo cálculo que la web; solo se cuentan partidos "
-                     "con 3 o más iniciativas que afecten al perfil. «Primero» reparte los empates.\n\n"
+                     "con 3 o más iniciativas que afecten al perfil. «Primero» reparte los empates. "
+                     f"En la muestra aleatoria, el {P_NS * 100:.0f} % de los asalariados y funcionarios responde «No lo sé» "
+                     "en el tramo de IRPF.\n\n"
                      "Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Si uno gana "
                      "para casi cualquier perfil, la clasificación o el método empujan hacia él. Se publica tal cual sale.\n")
             for clave, v in res["legislaturas"].items():
