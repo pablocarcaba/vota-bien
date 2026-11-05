@@ -73,6 +73,21 @@ def party_stances(g, mx):
     return out
 
 
+def party_seated(g, mx):
+    """Partidos con registro en la votación (votaran o no): grupo con algún recuento, incluido «nv», o diputado
+    con cualquier valor en el nominal, incluido «No vota». Sin registro (aún no era diputado, o ya no) no cuenta."""
+    out = set()
+    for grp, p in GROUP2P.items():
+        c = g.get(grp)
+        if isinstance(c, str) or (isinstance(c, dict) and sum(x or 0 for x in c.values())):
+            out.add(p)
+    for name in mx or {}:
+        p = mx_party(name)
+        if p:
+            out.add(p)
+    return out
+
+
 def vote_kind(v):
     tit, txt = v["tit"], v["txt"].strip()
     if tit.startswith(("Avocación", "Acuerdo de tramitación", "Enmiendas del Senado", "Veto")):
@@ -99,14 +114,15 @@ LABEL = {"final": "Votación final", "convalidacion": "Convalidación", "toma": 
 best = {}
 
 
-def consider(exp, kind, date, st, tot):
+def consider(exp, kind, date, st, tot, seated=()):
     if not exp or not kind or not st:
         return
     if kind == "totalidad":
         st = {p: {"s": "n", "n": "s", "a": "a"}[l] for p, l in st.items()}
     cur = best.get(exp)
     if cur is None or PRIO[kind] > PRIO[cur["k"]] or (PRIO[kind] == PRIO[cur["k"]] and kind == "final"):
-        best[exp] = {"k": kind, "d": date, "st": st, "tot": tot}
+        # nv: partidos con escaño en esa votación que no votaron (ni sí, ni no, ni abstención)
+        best[exp] = {"k": kind, "d": date, "st": st, "tot": tot, "nv": sorted(set(seated) - set(st))}
 
 
 STOP = set("proposicion proyecto orgánica organica para sobre desde entre grupo parlamentario votacion conjunto dictamen enmienda totalidad texto alternativo devolucion presentada popular congreso socialista plurinacional sumar republicano mixto junts catalunya vasco bildu".split())
@@ -141,7 +157,8 @@ if EP:  # Parlamento Europeo: una votación clave por procedimiento, ya marcada 
         if v.get("clave") and v["exp"] in ids:
             tot = v.get("tot") or {}
             consider(v["exp"], "final", v["d"], party_stances(v["g"], {}),
-                     {"s": tot.get("afavor"), "n": tot.get("enContra"), "a": tot.get("abstenciones")})
+                     {"s": tot.get("afavor"), "n": tot.get("enContra"), "a": tot.get("abstenciones")},
+                     party_seated(v["g"], {}))
 for v in ([] if EP else raw["votaciones"]):
     k = vote_kind(v)
     if not k:
@@ -154,7 +171,8 @@ for v in ([] if EP else raw["votaciones"]):
         continue
     tot = v.get("tot") or {}
     consider(exp, k, v["d"], party_stances(v["g"], v["mx"]),
-             {"s": tot.get("afavor"), "n": tot.get("enContra"), "a": tot.get("abstenciones")})
+             {"s": tot.get("afavor"), "n": tot.get("enContra"), "a": tot.get("abstenciones")},
+             party_seated(v["g"], v["mx"]))
 
 # extra final votes matched by title
 norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
@@ -163,7 +181,8 @@ for e in extra:
     match = [it["id"] for it in items if norm(it["titulo"]).startswith(key[:60])]
     if len(match) >= 1:
         exp = match[-1]
-        consider(exp, "final" if e["kind"] == "conjunto" else "totalidad", e["d"], party_stances(e["g"], e["mx"]), {})
+        consider(exp, "final" if e["kind"] == "conjunto" else "totalidad", e["d"], party_stances(e["g"], e["mx"]), {},
+                 party_seated(e["g"], e["mx"]))
     else:
         print("sin match:", e["txt"][:70], file=sys.stderr)
 
@@ -236,12 +255,17 @@ for it in items:
         rec["v"] = b["st"]
         rec["vk"] = LABEL[b["k"]]
         rec["vd"] = b["d"]
+        nv = [p for p in b["nv"] if p in PARTIES]
+        if nv:
+            rec["nv"] = nv
     out.append(rec)
 
 meta = {"clave": CLAVE, "fuente": CFG["fuente"], "fuente_txt": FUENTES[CFG["fuente"]], "leg": CFG["leg"],
         "titulo": CFG["titulo"], "periodo": CFG["periodo"], "gobierno": CFG["gobierno"],
         "nominal_txt": CFG["nominal_txt"], "formato": CFG.get("formato", "congreso"), "generado": raw["generado"][:10], "parties": PARTIES,
-        "authors": CFG["autores_web"]}
+        "authors": CFG["autores_web"],
+        # los items llevan «nv» (partidos con escaño que no votaron): la ficha calcula con ello la participación
+        "participacion": True}
 dest = os.path.join(ROOT, "site", "data", CLAVE + ".json")
 os.makedirs(os.path.dirname(dest), exist_ok=True)
 json.dump({"meta": meta, "items": out}, open(dest, "w", encoding="utf-8"), ensure_ascii=False, separators=(",", ":"))

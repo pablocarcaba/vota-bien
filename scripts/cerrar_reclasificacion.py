@@ -80,6 +80,11 @@ def actualizar_cifras(html, sesgo):
     sub(r"salen primeros [^.]*? en el [\d,]+ % de los perfiles, [^.]*? en el [\d,]+ % y [^.]*? en el [\d,]+ %\.",
         f"salen primeros {a['partido']} en el {f(a['primero_pct'])} % de los perfiles, {b['partido']} en el "
         f"{f(b['primero_pct'])} % y {c['partido']} en el {f(c['primero_pct'])} %.")
+    xv = sesgo["congreso_xv"]["eco_con_ciud"]
+    m = xv["margen_mediano"]
+    sub(r"el 2\.º queda a \$\{EMPATE\} puntos o menos del 1\.º en el [\d,]+ % de los perfiles \(margen mediano: [\d,]+ puntos?\)",
+        f"el 2.º queda a ${{EMPATE}} puntos o menos del 1.º en el {f(xv['empate_tecnico_pct'])} % de los perfiles "
+        f"(margen mediano: {f'{m:g}'.replace('.', ',')} punto{'' if m == 1 else 's'})")
     xi = top("congreso_xi", "soc_con_ciud")[0]
     sub(r"en la XI, en leyes sociales, [^ ]+ sale primero en el [\d,]+ % de los perfiles",
         f"en la XI, en leyes sociales, {xi['partido']} sale primero en el {f(xi['primero_pct'])} % de los perfiles")

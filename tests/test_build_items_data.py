@@ -1,6 +1,7 @@
+import json
 import unittest
 
-from helpers import CLAVE, TempTree
+from helpers import CLAVE, TempTree, load_fixture
 
 
 class BuildItemsTest(unittest.TestCase):
@@ -67,6 +68,7 @@ class BuildDataTest(unittest.TestCase):
         self.assertEqual(meta["clave"], CLAVE)
         self.assertEqual(meta["parties"], ["PSOE", "PP", "Podemos", "BNG"])
         self.assertEqual(meta["generado"], "2026-01-01")
+        self.assertIs(meta["participacion"], True)
 
     def test_iniciativa_sin_clasificar_se_omite(self):
         self.assertNotIn("122/000005", self.by_id)
@@ -128,6 +130,38 @@ class BuildDataTest(unittest.TestCase):
         for it in self.data["items"]:
             self.assertEqual("v" in it, "vk" in it)
             self.assertEqual("v" in it, "vd" in it)
+
+
+class ParticipacionTest(unittest.TestCase):
+    """«nv» de cada iniciativa: partidos con escaño en su votación clave que no votaron (la ficha calcula con ello la
+    participación). Un partido sin registro en esa votación (aún no era diputado) no cuenta como ausente."""
+
+    def setUp(self):
+        self.tree = TempTree()
+        self.addCleanup(self.tree.cleanup)
+        fuente = load_fixture("fuente_min.json")
+        toma = next(v for v in fuente["votaciones"] if v["exp"] == "122/000002" and v["tit"].startswith("Toma"))
+        toma["g"]["GP"] = {"s": 0, "n": 0, "a": 0, "nv": 130}  # todo el grupo ausente
+        toma["mx"]["Tercera, Eva"] = "No vota"  # única diputada de BNG
+        self.tree.put_fuente()
+        with open(self.tree.path("data", "fuente", CLAVE + ".json"), "w", encoding="utf-8") as f:
+            json.dump(fuente, f, ensure_ascii=False)
+        self.tree.put_clas(["clas_ok.json"])
+        self.assertEqual(self.tree.run("build_items.py", CLAVE).returncode, 0)
+        proc = self.tree.run("build_data.py", CLAVE)
+        self.assertEqual(proc.returncode, 0, proc.stderr)
+        self.by_id = {i["id"]: i for i in self.tree.read_json("site", "data", CLAVE + ".json")["items"]}
+
+    def test_ausentes_de_la_votacion_clave(self):
+        it = self.by_id["122/000002"]
+        self.assertEqual(it["vk"], "Toma en consideración")
+        self.assertEqual(it["v"], {"PSOE": "n", "Podemos": "s"})
+        self.assertEqual(it["nv"], ["BNG", "PP"])
+
+    def test_sin_registro_no_es_ausencia(self):
+        # 121/000001: BNG y Podemos no figuran en la votación (sin nominal); todos los que figuran votaron
+        self.assertNotIn("nv", self.by_id["121/000001"])
+        self.assertTrue(all("nv" not in it for it in self.by_id.values() if it["id"] != "122/000002"))
 
 
 if __name__ == "__main__":

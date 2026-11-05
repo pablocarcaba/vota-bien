@@ -634,13 +634,15 @@ class CerrarTest(unittest.TestCase):
         "europarlamento_9": {"eco_con_ciud": {"partidos": [{"partido": "PSOE", "primero_pct": 60.04}]},
                              "eco_sin_ciud": {"partidos": [{"partido": "VOX", "primero_pct": 12.34}]}},
         "congreso_xv": {"eco_con_ciud": {"partidos": [{"partido": "CC", "primero_pct": 50.0}, {"partido": "PNV", "primero_pct": 20.5},
-                                                      {"partido": "ERC", "primero_pct": 10.1}]}},
+                                                      {"partido": "ERC", "primero_pct": 10.1}],
+                                         "margen_mediano": 1.5, "empate_tecnico_pct": 87.25}},
         "congreso_xi": {"soc_con_ciud": {"partidos": [{"partido": "PSOE", "primero_pct": 99.0}]}},
     }
     PLANTILLA = (
         '<tr><th scope="row">10.ª · 2024–2029</th><td>BNG · 1,0 %</td><td>PP · 2,0 %</td></tr>\n'
         '<tr><th scope="row">9.ª · 2019–2024</th><td>X · 3,0 %</td><td>Y · 4,0 %</td></tr>\n'
         '<p>salen primeros A en el 1,0 % de los perfiles, B en el 2,0 % y C en el 3,0 %. Más. '
+        'el 2.º queda a ${EMPATE} puntos o menos del 1.º en el 9,9 % de los perfiles (margen mediano: 1 punto). '
         'en la XI, en leyes sociales, VOX sale primero en el 5,0 % de los perfiles</p>'
     )
 
@@ -650,6 +652,9 @@ class CerrarTest(unittest.TestCase):
         self.assertIn('<tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 60,0 %</td><td>VOX · 12,3 %</td></tr>', h)
         self.assertIn("salen primeros CC en el 50,0 % de los perfiles, PNV en el 20,5 % y ERC en el 10,1 %.", h)
         self.assertIn("en la XI, en leyes sociales, PSOE sale primero en el 99,0 % de los perfiles", h)
+        self.assertIn("el 2.º queda a ${EMPATE} puntos o menos del 1.º en el 87,2 % de los perfiles (margen mediano: 1,5 puntos)", h)
+        uno = {**self.SESGO, "congreso_xv": {"eco_con_ciud": {**self.SESGO["congreso_xv"]["eco_con_ciud"], "margen_mediano": 1}}}
+        self.assertIn("(margen mediano: 1 punto)", CR.actualizar_cifras(self.PLANTILLA, uno))
 
     def cerrar_simulado(self, validacion):
         """Ejecuta main() con los pasos externos simulados; devuelve (órdenes lanzadas, excepción o None)."""
@@ -689,7 +694,8 @@ class CerrarTest(unittest.TestCase):
         self.assertIn("EH Bildu · 41,3 %", self.plantilla_en_build_page)
 
     def test_cifras_falla_y_nombra_la_frase_que_ya_no_casa(self):
-        for quitar in ('en la XI, en leyes sociales, VOX sale primero en el 5,0 % de los perfiles', '9.ª · 2019–2024'):
+        for quitar in ('en la XI, en leyes sociales, VOX sale primero en el 5,0 % de los perfiles', '9.ª · 2019–2024',
+                       '(margen mediano: 1 punto)'):
             with self.subTest(quitar=quitar), self.assertRaises(SystemExit) as cm:
                 CR.actualizar_cifras(self.PLANTILLA.replace(quitar, "XX"), self.SESGO)
             self.assertIn("ya no casan", str(cm.exception))

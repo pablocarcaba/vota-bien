@@ -9,13 +9,15 @@ de site/template.html (impactOf, voteColor, evidence, computeRank con la prudenc
 comprueban que no se separan.
 
 Mide, por partido: en qué porcentaje de perfiles queda primero (los empates se reparten), su puesto
-medio y su nota media. Una herramienta neutral debería dar primeros puestos repartidos según el
+medio y su nota media. Y, por pestaña, cuánto se separa el primero: el margen mediano entre el 1.º y el 2.º y en qué
+porcentaje de perfiles hay empate técnico en cabeza (el 2.º, o 2 o más partidos además del primero, a EMPATE puntos
+o menos), como marca la web. Una herramienta neutral debería dar primeros puestos repartidos según el
 perfil; si un partido gana para casi cualquier perfil, la clasificación o el método empujan hacia él.
 El resultado se publica tal cual salga.
 
 Con --guardar escribe data/analisis/sesgo.json y data/analisis/SESGO.md.
 """
-import json, math, os, random, sys
+import json, math, os, random, statistics, sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from legislaturas import LEGISLATURAS
@@ -25,6 +27,8 @@ ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 # --- cálculo de la web (site/template.html) ---
 PESO = {1: 1, 2: 3, 3: 9}
 K = 9
+# empate técnico: a esta distancia o menos del primero (en puntos de nota) la diferencia no es significativa (EMPATE en la web)
+EMPATE = 3
 FUERZA = {"Votación final": 1, "Convalidación": 1, "Toma en consideración": 0.5, "Enmienda a la totalidad": 0.5}
 IMPLICA = {"hij1": ["infancia"], "hij2": ["infancia"], "hij3": ["infancia"], "cuid": ["depend"]}
 SIN_PAREJA, CON_HIJOS = {"civSol", "civSep", "civViu"}, {"hij1", "hij2", "hij3"}
@@ -111,6 +115,24 @@ def compute_rank(items, parties, R, tab):
             out.append({"k": p, "s": js_round(S / (W + K) * 100), "rel": rel})
     out.sort(key=lambda r: (-r["s"], -r["rel"]))
     return out
+
+
+def cabeza(rank):
+    """(margen entre el 1.º y el 2.º, cuántos partidos además del primero quedan a EMPATE puntos o menos) de un
+    ranking ya ordenado; (None, 0) si hay menos de dos partidos."""
+    if len(rank) < 2:
+        return None, 0
+    return rank[0]["s"] - rank[1]["s"], sum(1 for r in rank[1:] if rank[0]["s"] - r["s"] <= EMPATE)
+
+
+def resumen_cabeza(cabezas, validos):
+    """Margen mediano y porcentajes de empate técnico sobre los perfiles con resultado (`validos`)."""
+    margenes = [m for m, _ in cabezas if m is not None]
+    pct = lambda n: round(100 * n / validos, 1) if validos else 0
+    m = statistics.median(margenes) if margenes else None
+    return {"margen_mediano": int(m) if m is not None and m == int(m) else m,
+            "empate_tecnico_pct": pct(sum(1 for _, n in cabezas if n >= 1)),
+            "empate_varios_pct": pct(sum(1 for _, n in cabezas if n >= 2))}
 
 
 # --- perfiles ---
@@ -218,6 +240,7 @@ def main():
                 puesto = {p: [] for p in parties}
                 nota = {p: [] for p in parties}
                 validos = 0
+                cabezas = []
                 for sel in muestra:
                     s = set(sel) | {"cons"} | ({"ciud"} if ciud else set())
                     rank = compute_rank(items, parties, rasgos(s), tab)
@@ -225,6 +248,7 @@ def main():
                     if not rank:
                         continue
                     validos += 1
+                    cabezas.append(cabeza(rank))
                     top = [r for r in rank if r["s"] == rank[0]["s"]]
                     for r in top:
                         primeros[r["k"]] += 1 / len(top)
@@ -243,8 +267,11 @@ def main():
                     rank = [r for r in compute_rank(items, parties, rasgos(s), tab) if r["rel"] >= 3]
                     arq[nombre] = [f"{r['k']} {r['s']:+d}" for r in rank[:3]]
                 res["legislaturas"][clave][f"{tab}_{'con' if ciud else 'sin'}_ciud"] = {
-                    "perfiles_con_resultado": validos, "partidos": tabla, "arquetipos_top3": arq}
-    print(json.dumps({k: {t: v[t]["partidos"][:3] for t in v if t.endswith("_ciud")} for k, v in res["legislaturas"].items()},
+                    "perfiles_con_resultado": validos, **resumen_cabeza(cabezas, validos), "partidos": tabla,
+                    "arquetipos_top3": arq}
+    print(json.dumps({k: {t: {"primeros": v[t]["partidos"][:3], "margen_mediano": v[t]["margen_mediano"],
+                              "empate_tecnico_pct": v[t]["empate_tecnico_pct"], "empate_varios_pct": v[t]["empate_varios_pct"]}
+                          for t in v if t.endswith("_ciud")} for k, v in res["legislaturas"].items()},
                      ensure_ascii=False, indent=1))
     if guardar:
         out = os.path.join(ROOT, "data", "analisis")
@@ -258,7 +285,11 @@ def main():
                      f"En la muestra aleatoria, el {P_NS * 100:.0f} % de los asalariados y funcionarios responde «No lo sé» "
                      "en el tramo de IRPF.\n\n"
                      "Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Si uno gana "
-                     "para casi cualquier perfil, la clasificación o el método empujan hacia él. Se publica tal cual sale.\n")
+                     "para casi cualquier perfil, la clasificación o el método empujan hacia él. Se publica tal cual sale.\n\n"
+                     f"Salir primero puede ser un empate técnico: si el 2.º queda a {EMPATE} puntos o menos del 1.º, la diferencia "
+                     "no es significativa y la web los marca así. Bajo cada tabla, el margen mediano entre el 1.º y el 2.º "
+                     f"(en puntos de nota, de −100 a +100) y el porcentaje de perfiles con empate técnico en cabeza: con el 2.º a "
+                     f"{EMPATE} puntos o menos, y con 2 o más partidos, además del primero, a esa distancia.\n")
             for clave, v in res["legislaturas"].items():
                 fh.write(f"\n## {v['fuente']} · {v['titulo']}\n")
                 for t, nombre in (("eco", "Leyes económicas"), ("soc", "Leyes sociales")):
@@ -267,6 +298,10 @@ def main():
                         fh.write(f"\n### {nombre} · {c} «Ciudadanía general»\n\n| Partido | Primero en | Puesto medio | Nota media |\n|---|---:|---:|---:|\n")
                         for x in r["partidos"]:
                             fh.write(f"| {x['partido']} | {x['primero_pct']} % | {x['puesto_medio']} | {x['nota_media']:+d} |\n")
+                        if r["margen_mediano"] is not None:
+                            fh.write(f"\nMargen mediano entre el 1.º y el 2.º: {r['margen_mediano']:g} puntos. Empate técnico en "
+                                     f"cabeza (2.º a {EMPATE} puntos o menos): {r['empate_tecnico_pct']} % de los perfiles; con 2 o "
+                                     f"más partidos además del primero: {r['empate_varios_pct']} %.\n")
                         fh.write("\n<details><summary>Arquetipos (tres primeros)</summary>\n\n")
                         for a, top in r["arquetipos_top3"].items():
                             fh.write(f"- {a}: {', '.join(top) or 'sin resultado'}\n")

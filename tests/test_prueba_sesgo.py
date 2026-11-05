@@ -92,5 +92,35 @@ class TestNoLoSe(unittest.TestCase):
                             P.compute_rank(items, ["A"], P.rasgos(ns[0] - {"asalNs"}), "eco"))
 
 
+class TestMargen(unittest.TestCase):
+    """Margen entre el 1.º y el 2.º y empate técnico en cabeza: el mismo umbral que marca la web."""
+
+    def test_umbral_como_la_web(self):
+        m = re.search(r"const EMPATE = (\d+);", TPL)
+        self.assertIsNotNone(m, "la web ya no define EMPATE")
+        self.assertEqual(int(m.group(1)), P.EMPATE)
+        self.assertIn("rows[0].s-rows[1].s<=EMPATE", TPL)
+
+    def test_margen_y_partidos_cerca(self):
+        r = lambda *ss: [{"k": str(i), "s": s, "rel": 3} for i, s in enumerate(ss)]
+        self.assertEqual(P.cabeza(r(50, 48, 47, 40)), (2, 2))
+        self.assertEqual(P.cabeza(r(50, 46, 46)), (4, 0))
+        self.assertEqual(P.cabeza(r(-10, -13)), (3, 1))
+        self.assertEqual(P.cabeza(r(50)), (None, 0))
+
+    def test_resumen(self):
+        c = [(0, 3), (1, 1), (2, 2), (5, 0), (None, 0)]
+        self.assertEqual(P.resumen_cabeza(c, 5), {"margen_mediano": 1.5, "empate_tecnico_pct": 60.0, "empate_varios_pct": 40.0})
+        self.assertEqual(P.resumen_cabeza([], 0), {"margen_mediano": None, "empate_tecnico_pct": 0, "empate_varios_pct": 0})
+
+    def test_se_calcula_sobre_el_ranking_real(self):
+        # A vota a favor de dos leyes que te benefician, B de una: A +17, B +10 -> margen 7
+        it = lambda i, votos: {"id": i, "tp": "eco", "imp": {"asal1": 1}, "w": 1, "a": [], "v": votos, "vk": "Votación final"}
+        items = [it("1", {"A": "s", "B": "s"}), it("2", {"A": "s"})]
+        rank = P.compute_rank(items, ["A", "B"], P.rasgos({"asal1"}), "eco")
+        self.assertEqual([x["s"] for x in rank], [P.js_round(200 / 11), P.js_round(100 / 10)])
+        self.assertEqual(P.cabeza(rank), (rank[0]["s"] - rank[1]["s"], 0))
+
+
 if __name__ == "__main__":
     unittest.main()

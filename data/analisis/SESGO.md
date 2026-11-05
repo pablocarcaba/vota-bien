@@ -4,6 +4,8 @@ Generado por `scripts/prueba_sesgo.py` (semilla 2026, 2000 perfiles aleatorios y
 
 Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Si uno gana para casi cualquier perfil, la clasificación o el método empujan hacia él. Se publica tal cual sale.
 
+Salir primero puede ser un empate técnico: si el 2.º queda a 3 puntos o menos del 1.º, la diferencia no es significativa y la web los marca así. Bajo cada tabla, el margen mediano entre el 1.º y el 2.º (en puntos de nota, de −100 a +100) y el porcentaje de perfiles con empate técnico en cabeza: con el 2.º a 3 puntos o menos, y con 2 o más partidos, además del primero, a esa distancia.
+
 ## Congreso de los Diputados · XV legislatura · 2023–2026
 
 ### Leyes económicas · con «Ciudadanía general»
@@ -23,6 +25,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | BNG | 0.0 % | 7.3 | +73 |
 | UPN | 0.0 % | 10.9 | +40 |
 | Compromís | 0.0 % | 8.1 | +69 |
+
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 98.7 % de los perfiles; con 2 o más partidos además del primero: 76.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -67,6 +71,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | BNG | 0.0 % | 7.3 | +72 |
 | UPN | 0.0 % | 10.8 | +39 |
 
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 98.9 % de los perfiles; con 2 o más partidos además del primero: 70.8 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PSOE +89, ERC +89, Bildu +89
@@ -110,6 +116,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Junts | 0.0 % | 9.6 | +38 |
 | UPN | 0.0 % | 10.9 | +17 |
 
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 96.8 % de los perfiles; con 2 o más partidos además del primero: 88.5 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: Sumar +62, PSOE +59, BNG +59
@@ -152,6 +160,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | VOX | 0.2 % | 12.8 | -29 |
 | Compromís | 0.1 % | 9.6 | +41 |
 | Junts | 0.0 % | 8.8 | +37 |
+
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 89.7 % de los perfiles; con 2 o más partidos además del primero: 63.5 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -205,6 +215,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | UPN | 0.0 % | 16.2 | +8 |
 | Foro | 0.0 % | 18.0 | -20 |
 
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 92.5 % de los perfiles; con 2 o más partidos además del primero: 88.5 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: Unidas Podemos +90, Compromís +90, Más País +89
@@ -254,6 +266,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | CUP | 0.0 % | 19.1 | -39 |
 | UPN | 0.0 % | 16.2 | +13 |
 | Foro | 0.0 % | 17.8 | -9 |
+
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 93.6 % de los perfiles; con 2 o más partidos además del primero: 88.3 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -305,6 +319,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | PRC | 0.0 % | 7.1 | +63 |
 | Foro | 0.0 % | 17.4 | -1 |
 
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 91.7 % de los perfiles; con 2 o más partidos además del primero: 45.1 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: Más País +82, Compromís +80, Unidas Podemos +76
@@ -355,6 +371,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | CC | 0.0 % | 12.4 | +33 |
 | Foro | 0.0 % | 17.2 | +0 |
 
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 81.0 % de los perfiles; con 2 o más partidos además del primero: 55.0 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PRC +60, Más País +57, Compromís +57
@@ -389,6 +407,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Unidas Podemos | 91.2 % | 1.0 | +19 |
 | PP | 8.8 % | 1.7 | +12 |
 
+Margen mediano entre el 1.º y el 2.º: 8 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 1.2 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: Unidas Podemos +20
@@ -420,6 +440,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 |---|---:|---:|---:|
 | PP | 98.6 % | 1.0 | +12 |
 | Unidas Podemos | 1.4 % | 1.8 | -9 |
+
+Margen mediano entre el 1.º y el 2.º: 23 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 0.0 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -455,6 +477,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Cs | 0.2 % | 2.3 | +21 |
 | PP | 0.0 % | 3.2 | +0 |
 
+Margen mediano entre el 1.º y el 2.º: 9 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 0.2 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: Unidas Podemos +29
@@ -488,6 +512,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Cs | 15.3 % | 1.4 | +21 |
 | Unidas Podemos | 7.1 % | 2.0 | +19 |
 | PP | 0.0 % | 3.0 | +0 |
+
+Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 8.5 % de los perfiles; con 2 o más partidos además del primero: 0.2 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -534,6 +560,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Compromís | 0.0 % | 9.7 | +26 |
 | Bildu | 0.0 % | 13.0 | -13 |
 
+Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 12.9 % de los perfiles; con 2 o más partidos además del primero: 3.2 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PSOE +74, CC +73, PDeCAT +62
@@ -576,6 +604,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | ERC | 0.0 % | 11.8 | +3 |
 | Compromís | 0.0 % | 9.9 | +22 |
 | Bildu | 0.0 % | 13.0 | -13 |
+
+Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 44.1 % de los perfiles; con 2 o más partidos además del primero: 2.4 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -620,6 +650,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | NC | 0.0 % | 9.5 | +37 |
 | Foro | 0.0 % | 12.4 | +18 |
 
+Margen mediano entre el 1.º y el 2.º: 7 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 23.1 % de los perfiles; con 2 o más partidos además del primero: 0.1 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: Unidos Podemos +62, UPN +53, PSOE +46
@@ -663,6 +695,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | PNV | 0.0 % | 10.7 | +24 |
 | NC | 0.0 % | 9.0 | +37 |
 
+Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 38.7 % de los perfiles; con 2 o más partidos además del primero: 12.4 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: Unidos Podemos +42, PDeCAT +32, Cs +28
@@ -705,6 +739,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Compromís | 0.0 % | 6.7 | +0 |
 | IU | 0.0 % | 7.7 | +0 |
 
+Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 1.0 % de los perfiles; con 2 o más partidos además del primero: 1.0 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: sin resultado
@@ -745,6 +781,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Compromís | 0.0 % | 6.7 | +0 |
 | IU | 0.0 % | 7.7 | +0 |
 
+Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 1.0 % de los perfiles; con 2 o más partidos además del primero: 1.0 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: sin resultado
@@ -777,6 +815,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | PSOE | 100.0 % | 1.0 | +20 |
 | Podemos | 0.0 % | 2.0 | +20 |
 | ERC | 0.0 % | 2.5 | +11 |
+
+Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 5.9 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -811,6 +851,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Podemos | 21.7 % | 1.4 | +20 |
 | ERC | 13.0 % | 2.0 | +11 |
 
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 8.7 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: sin resultado
@@ -842,30 +884,32 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 56.0 % | 2.1 | +44 |
+| PNV | 53.9 % | 2.1 | +44 |
 | UPN | 27.0 % | 7.8 | +17 |
-| CiU | 5.5 % | 8.2 | +21 |
-| Foro | 4.9 % | 7.2 | +23 |
-| UPyD | 4.2 % | 3.4 | +37 |
-| NC | 2.0 % | 5.1 | +31 |
-| Geroa Bai | 0.5 % | 7.0 | +23 |
-| PP | 0.0 % | 12.6 | -13 |
-| PSOE | 0.0 % | 6.5 | +24 |
+| CiU | 6.3 % | 8.1 | +22 |
+| Foro | 5.2 % | 7.3 | +23 |
+| UPyD | 4.5 % | 3.4 | +39 |
+| NC | 2.8 % | 5.0 | +33 |
+| Geroa Bai | 0.4 % | 6.9 | +24 |
+| PP | 0.0 % | 12.7 | -13 |
+| PSOE | 0.0 % | 6.6 | +25 |
 | IU-ICV | 0.0 % | 9.5 | +15 |
-| Amaiur | 0.0 % | 7.2 | +24 |
+| Amaiur | 0.0 % | 7.4 | +24 |
 | ERC | 0.0 % | 12.9 | +6 |
-| BNG | 0.0 % | 11.0 | +12 |
+| BNG | 0.0 % | 10.9 | +12 |
 | Compromís | 0.0 % | 12.6 | +8 |
-| CC | 0.0 % | 6.7 | +26 |
+| CC | 0.0 % | 6.6 | +28 |
+
+Margen mediano entre el 1.º y el 2.º: 7 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 27.9 % de los perfiles; con 2 o más partidos además del primero: 2.9 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PNV +79, Amaiur +71, NC +68
-- Joven de alquiler: PNV +73, UPyD +61, NC +60
+- Joven de alquiler: PNV +73, NC +68, UPyD +67
 - Pensionista con casa propia: UPN +32, Foro +25, PNV +24
 - Pensionista con pensión baja: UPN +34, Geroa Bai +16, PNV +14
 - Autónomo del comercio: CiU +46, NC +41, Foro +40
-- Empresario de pyme industrial: CiU +39, Geroa Bai +32, PNV +29
+- Empresario de pyme industrial: CiU +35, PNV +29, Geroa Bai +27
 - Funcionario docente: PNV +72, Amaiur +64, UPyD +61
 - Policía o guardia civil: PNV +72, Amaiur +64, UPyD +61
 - Sanitario asalariado: PNV +76, UPyD +68, Amaiur +68
@@ -875,7 +919,7 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Parado con subsidio: NC +76, CiU +69, PNV +67
 - Agricultor en el medio rural: Foro +40, CiU +37, NC +33
 - Madre sola con hijo: PNV +76, Amaiur +69, UPyD +68
-- Estudiante: PNV +60, Geroa Bai +60, NC +60
+- Estudiante: NC +73, Geroa Bai +71, PSOE +64
 - Mayor dependiente: UPN +34, Geroa Bai +16, PNV +14
 - Casero con varias viviendas: PNV +76, UPyD +68, Amaiur +68
 - Transportista autónomo: Foro +43, CiU +40, NC +33
@@ -887,30 +931,32 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 52.8 % | 2.4 | +41 |
+| PNV | 51.1 % | 2.4 | +41 |
 | UPN | 31.7 % | 7.5 | +19 |
-| CiU | 8.2 % | 8.0 | +20 |
-| Foro | 3.8 % | 7.4 | +21 |
-| UPyD | 1.9 % | 4.2 | +32 |
-| NC | 1.0 % | 6.6 | +25 |
-| Geroa Bai | 0.5 % | 7.6 | +18 |
-| Amaiur | 0.1 % | 6.0 | +25 |
-| PP | 0.0 % | 11.1 | -7 |
-| PSOE | 0.0 % | 7.6 | +18 |
+| CiU | 8.4 % | 7.8 | +21 |
+| Foro | 4.0 % | 7.5 | +21 |
+| UPyD | 1.9 % | 4.1 | +33 |
+| NC | 1.9 % | 6.5 | +26 |
+| Geroa Bai | 0.6 % | 7.5 | +20 |
+| Amaiur | 0.3 % | 6.2 | +26 |
+| PP | 0.0 % | 11.2 | -8 |
+| PSOE | 0.0 % | 7.5 | +19 |
 | IU-ICV | 0.0 % | 9.2 | +13 |
-| ERC | 0.0 % | 12.8 | +6 |
-| BNG | 0.0 % | 10.6 | +12 |
+| ERC | 0.0 % | 12.7 | +6 |
+| BNG | 0.0 % | 10.5 | +12 |
 | Compromís | 0.0 % | 12.4 | +8 |
-| CC | 0.0 % | 6.9 | +23 |
+| CC | 0.0 % | 6.8 | +25 |
+
+Margen mediano entre el 1.º y el 2.º: 9 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 16.2 % de los perfiles; con 2 o más partidos además del primero: 1.4 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PNV +79, Amaiur +74, CC +64
-- Joven de alquiler: PNV +72, Amaiur +62, UPyD +56
+- Joven de alquiler: PNV +72, UPyD +62, Amaiur +62
 - Pensionista con casa propia: UPN +35, Foro +18, PNV +14
 - Pensionista con pensión baja: UPN +36, PP +7, Geroa Bai +5
 - Autónomo del comercio: CiU +45, Foro +35, PNV +34
-- Empresario de pyme industrial: CiU +37, Geroa Bai +24, Amaiur +21
+- Empresario de pyme industrial: CiU +31, Amaiur +21, PNV +21
 - Funcionario docente: PNV +74, Amaiur +66, CC +62
 - Policía o guardia civil: PNV +74, Amaiur +66, CC +62
 - Sanitario asalariado: PNV +76, Amaiur +71, UPyD +63
@@ -920,7 +966,7 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Parado con subsidio: CiU +72, NC +69, PNV +65
 - Agricultor en el medio rural: CiU +35, Foro +34, PNV +21
 - Madre sola con hijo: PNV +77, Amaiur +72, UPyD +64
-- Estudiante: Geroa Bai +54, PNV +53, CiU +50
+- Estudiante: Geroa Bai +69, NC +64, CiU +62
 - Mayor dependiente: UPN +36, Geroa Bai +16, CiU +14
 - Casero con varias viviendas: PNV +76, Amaiur +71, UPyD +63
 - Transportista autónomo: CiU +37, Foro +37, UPN +24
@@ -932,44 +978,46 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| NC | 97.8 % | 1.0 | +61 |
-| Foro | 1.6 % | 8.5 | +39 |
-| UPyD | 0.6 % | 2.2 | +55 |
-| CiU | 0.1 % | 8.0 | +40 |
-| PP | 0.0 % | 15.0 | -34 |
-| PSOE | 0.0 % | 3.0 | +53 |
-| IU-ICV | 0.0 % | 7.8 | +38 |
-| PNV | 0.0 % | 6.9 | +44 |
-| Amaiur | 0.0 % | 8.7 | +38 |
-| ERC | 0.0 % | 12.2 | +32 |
-| BNG | 0.0 % | 9.6 | +36 |
-| Compromís | 0.0 % | 11.1 | +33 |
-| CC | 0.0 % | 4.3 | +52 |
-| UPN | 0.0 % | 14.0 | -8 |
-| Geroa Bai | 0.0 % | 7.8 | +40 |
+| NC | 99.0 % | 1.0 | +62 |
+| Foro | 0.7 % | 7.7 | +39 |
+| UPyD | 0.3 % | 2.0 | +56 |
+| PP | 0.0 % | 15.0 | -30 |
+| PSOE | 0.0 % | 3.1 | +51 |
+| IU-ICV | 0.0 % | 7.9 | +36 |
+| CiU | 0.0 % | 8.6 | +36 |
+| PNV | 0.0 % | 7.1 | +40 |
+| Amaiur | 0.0 % | 8.6 | +35 |
+| ERC | 0.0 % | 12.4 | +28 |
+| BNG | 0.0 % | 9.9 | +33 |
+| Compromís | 0.0 % | 11.0 | +31 |
+| CC | 0.0 % | 4.3 | +49 |
+| UPN | 0.0 % | 14.0 | -4 |
+| Geroa Bai | 0.0 % | 7.5 | +37 |
+
+Margen mediano entre el 1.º y el 2.º: 6 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 15.7 % de los perfiles; con 2 o más partidos además del primero: 1.6 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: NC +59, UPyD +53, PSOE +52
-- Joven de alquiler: NC +63, UPyD +56, PSOE +54
-- Pensionista con casa propia: NC +65, UPyD +57, PSOE +55
-- Pensionista con pensión baja: NC +65, UPyD +57, PSOE +55
-- Autónomo del comercio: NC +52, UPyD +49, PSOE +48
-- Empresario de pyme industrial: NC +62, UPyD +51, PSOE +48
-- Funcionario docente: NC +59, UPyD +52, PSOE +51
-- Policía o guardia civil: NC +54, PSOE +48, CC +46
-- Sanitario asalariado: NC +63, UPyD +55, PSOE +52
-- Familia numerosa: NC +59, UPyD +53, PSOE +52
-- Rentas altas con patrimonio: NC +63, UPyD +55, PSOE +52
-- Gran patrimonio y gran empresa: NC +63, UPyD +55, PSOE +52
-- Parado con subsidio: NC +54, PSOE +48, UPyD +48
-- Agricultor en el medio rural: NC +60, UPyD +55, PSOE +52
-- Madre sola con hijo: NC +61, UPyD +54, PSOE +53
-- Estudiante: NC +67, UPyD +59, PSOE +57
-- Mayor dependiente: NC +57, UPyD +50, PSOE +49
-- Casero con varias viviendas: NC +63, UPyD +55, PSOE +52
-- Transportista autónomo: NC +63, UPyD +55, PSOE +52
-- Asalariado de salario mínimo: NC +63, UPyD +55, PSOE +52
+- Asalariado medio con hipoteca e hijos: NC +60, UPyD +53, PSOE +49
+- Joven de alquiler: NC +64, UPyD +57, PSOE +50
+- Pensionista con casa propia: NC +66, UPyD +57, PSOE +52
+- Pensionista con pensión baja: NC +66, UPyD +57, PSOE +52
+- Autónomo del comercio: NC +53, UPyD +49, PSOE +45
+- Empresario de pyme industrial: NC +63, UPyD +52, PSOE +45
+- Funcionario docente: NC +59, UPyD +53, Foro +49
+- Policía o guardia civil: NC +55, UPyD +46, PSOE +45
+- Sanitario asalariado: NC +64, UPyD +55, PSOE +49
+- Familia numerosa: NC +60, UPyD +53, PSOE +49
+- Rentas altas con patrimonio: NC +64, UPyD +55, PSOE +49
+- Gran patrimonio y gran empresa: NC +64, UPyD +55, PSOE +49
+- Parado con subsidio: NC +55, UPyD +49, PSOE +45
+- Agricultor en el medio rural: NC +61, UPyD +56, PSOE +49
+- Madre sola con hijo: NC +62, UPyD +55, PSOE +50
+- Estudiante: NC +67, UPyD +60, PSOE +54
+- Mayor dependiente: NC +57, UPyD +51, PSOE +47
+- Casero con varias viviendas: NC +64, UPyD +55, PSOE +49
+- Transportista autónomo: NC +64, UPyD +55, PSOE +49
+- Asalariado de salario mínimo: NC +64, UPyD +55, PSOE +49
 
 </details>
 
@@ -977,34 +1025,36 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 45.7 % | 2.0 | +46 |
-| UPyD | 12.0 % | 2.7 | +46 |
-| Foro | 10.2 % | 8.8 | +29 |
-| CiU | 9.1 % | 6.1 | +38 |
-| IU-ICV | 6.1 % | 7.6 | +27 |
-| NC | 6.0 % | 5.3 | +45 |
-| CC | 4.7 % | 5.0 | +45 |
-| PNV | 4.5 % | 4.7 | +44 |
-| Compromís | 0.8 % | 11.2 | +22 |
-| BNG | 0.4 % | 10.2 | +23 |
-| Amaiur | 0.3 % | 9.4 | +23 |
-| Geroa Bai | 0.2 % | 8.1 | +31 |
-| PP | 0.0 % | 13.3 | -20 |
-| ERC | 0.0 % | 13.2 | +16 |
-| UPN | 0.0 % | 11.5 | -6 |
+| PSOE | 31.4 % | 2.2 | +43 |
+| NC | 24.6 % | 4.5 | +45 |
+| UPyD | 11.6 % | 2.9 | +43 |
+| Foro | 9.9 % | 8.3 | +29 |
+| IU-ICV | 5.9 % | 7.8 | +24 |
+| CiU | 5.5 % | 6.3 | +35 |
+| CC | 4.7 % | 5.2 | +42 |
+| PNV | 4.1 % | 5.0 | +41 |
+| Compromís | 0.8 % | 11.4 | +19 |
+| PP | 0.6 % | 12.8 | -18 |
+| Amaiur | 0.3 % | 9.4 | +21 |
+| BNG | 0.2 % | 10.4 | +21 |
+| UPN | 0.2 % | 11.3 | -6 |
+| Geroa Bai | 0.2 % | 8.3 | +29 |
+| ERC | 0.0 % | 13.3 | +14 |
+
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 65.2 % de los perfiles; con 2 o más partidos además del primero: 56.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PSOE +30, UPyD +27, PNV +27
+- Asalariado medio con hipoteca e hijos: NC +27, UPN +22, PP +18
 - Joven de alquiler: PSOE +28, IU-ICV +28, UPyD +28
 - Pensionista con casa propia: PSOE +60, IU-ICV +59, UPyD +59
 - Pensionista con pensión baja: PSOE +60, IU-ICV +59, UPyD +59
-- Autónomo del comercio: CiU +17, PSOE +13, UPyD +11
+- Autónomo del comercio: PP +15, NC +4, UPN +4
 - Empresario de pyme industrial: CiU +22, PNV +22, NC +22
-- Funcionario docente: CiU +38, PSOE +28, UPyD +26
-- Policía o guardia civil: CiU +25, PSOE +16, CC +11
+- Funcionario docente: NC +25, CiU +14, PSOE +9
+- Policía o guardia civil: PP +15, NC +8, UPN +4
 - Sanitario asalariado: PSOE +22, IU-ICV +22, UPyD +22
-- Familia numerosa: PSOE +30, UPyD +27, PNV +27
+- Familia numerosa: NC +27, UPN +22, PP +18
 - Rentas altas con patrimonio: PSOE +22, IU-ICV +22, UPyD +22
 - Gran patrimonio y gran empresa: PSOE +22, IU-ICV +22, UPyD +22
 - Parado con subsidio: CiU +31, PSOE +13, IU-ICV +8
@@ -1036,6 +1086,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | SALF | 0.0 % | 8.1 | +14 |
 | Sumar | 0.0 % | 4.8 | +44 |
 | Bildu | 0.0 % | 10.0 | +29 |
+
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 92.0 % de los perfiles; con 2 o más partidos además del primero: 56.4 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1079,6 +1131,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | SALF | 0.0 % | 7.8 | +13 |
 | Bildu | 0.0 % | 10.7 | -18 |
 
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 86.3 % de los perfiles; con 2 o más partidos además del primero: 80.6 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PP +50, PSOE +50, Sumar +50
@@ -1121,6 +1175,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | BNG | 0.0 % | 4.2 | +34 |
 | Compromís | 0.0 % | 4.8 | +35 |
 
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 98.6 % de los perfiles; con 2 o más partidos además del primero: 95.2 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PSOE +39, Podemos +39, Comuns +36
@@ -1162,6 +1218,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | SALF | 0.0 % | 9.6 | -11 |
 | ERC | 0.0 % | 8.0 | +33 |
 | Bildu | 0.0 % | 7.7 | +38 |
+
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 91.7 % de los perfiles; con 2 o más partidos además del primero: 87.4 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1208,6 +1266,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Bildu | 0.0 % | 10.1 | +36 |
 | Anticapitalistas | 0.0 % | 10.9 | +32 |
 
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 94.5 % de los perfiles; con 2 o más partidos además del primero: 3.0 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PSOE +86, Junts +86, Cs +80
@@ -1250,6 +1310,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | BNG | 0.0 % | 7.5 | +58 |
 | Bildu | 0.0 % | 11.0 | +36 |
 | Anticapitalistas | 0.0 % | 12.9 | +15 |
+
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 87.5 % de los perfiles; con 2 o más partidos además del primero: 84.7 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1294,6 +1356,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Bildu | 0.0 % | 11.9 | +63 |
 | Anticapitalistas | 0.0 % | 7.3 | +79 |
 
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 91.0 % de los perfiles; con 2 o más partidos además del primero: 10.4 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PSOE +89, Junts +89, Cs +82
@@ -1336,6 +1400,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | IU | 0.5 % | 8.7 | +51 |
 | VOX | 0.2 % | 11.0 | +3 |
 | Bildu | 0.0 % | 11.4 | +36 |
+
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 96.0 % de los perfiles; con 2 o más partidos además del primero: 89.2 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1386,6 +1452,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Compromís | 0.0 % | 14.9 | +1 |
 | UDC | 0.0 % | 12.1 | +19 |
 
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 98.2 % de los perfiles; con 2 o más partidos además del primero: 93.3 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PNV +86, PDeCAT +85, UPyD +85
@@ -1432,6 +1500,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | BNG | 0.0 % | 14.2 | +10 |
 | Compromís | 0.0 % | 13.6 | +1 |
 | UDC | 0.0 % | 9.9 | +19 |
+
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 92.5 % de los perfiles; con 2 o más partidos además del primero: 87.7 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1480,6 +1550,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Compromís | 0.0 % | 14.3 | +29 |
 | UDC | 0.0 % | 10.9 | +54 |
 
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 99.5 % de los perfiles; con 2 o más partidos además del primero: 96.5 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PP +91, PSOE +90, PNV +90
@@ -1527,6 +1599,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Compromís | 0.0 % | 14.1 | +21 |
 | UDC | 0.0 % | 16.9 | +6 |
 
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 90.0 % de los perfiles; con 2 o más partidos además del primero: 87.3 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PP +64, PSOE +64, UPyD +64
@@ -1571,6 +1645,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | BNG | 0.0 % | 10.9 | +44 |
 | VOX | 0.0 % | 7.2 | +67 |
 
+Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 32.0 % de los perfiles; con 2 o más partidos además del primero: 19.4 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: ICV +85, Aralar +79, PNV +78
@@ -1612,6 +1688,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Aralar | 0.0 % | 6.7 | +69 |
 | BNG | 0.0 % | 10.6 | +51 |
 | VOX | 0.0 % | 8.7 | +67 |
+
+Margen mediano entre el 1.º y el 2.º: 6 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 32.5 % de los perfiles; con 2 o más partidos además del primero: 31.7 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1655,6 +1733,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Aralar | 0.0 % | 11.1 | +24 |
 | BNG | 0.0 % | 8.1 | +46 |
 
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 97.2 % de los perfiles; con 2 o más partidos además del primero: 89.0 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: UPyD +87, CDC +87, PP +86
@@ -1696,6 +1776,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | BNG | 1.0 % | 9.5 | +25 |
 | ERC | 0.7 % | 7.9 | +44 |
 | VOX | 0.0 % | 9.8 | +33 |
+
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 93.3 % de los perfiles; con 2 o más partidos además del primero: 83.8 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1739,6 +1821,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Los Verdes | 0.0 % | 8.9 | +26 |
 | EA | 0.0 % | 6.1 | +57 |
 
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 99.0 % de los perfiles; con 2 o más partidos además del primero: 17.1 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PSOE +74, PP +73, PNV +64
@@ -1778,6 +1862,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | Los Verdes | 0.0 % | 8.6 | +12 |
 | UPN | 0.0 % | 5.1 | +61 |
 | EA | 0.0 % | 6.1 | +52 |
+
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 96.2 % de los perfiles; con 2 o más partidos además del primero: 89.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1819,6 +1905,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | EA | 0.0 % | 7.9 | +32 |
 | ERC | 0.0 % | 9.7 | +23 |
 
+Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 69.8 % de los perfiles; con 2 o más partidos además del primero: 6.8 %.
+
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PSOE +91, PNV +89, PP +85
@@ -1858,6 +1946,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 | EA | 0.3 % | 7.9 | +9 |
 | Los Verdes | 0.0 % | 7.1 | +17 |
 | ERC | 0.0 % | 6.4 | +30 |
+
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 76.3 % de los perfiles; con 2 o más partidos además del primero: 38.8 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
