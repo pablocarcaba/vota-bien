@@ -123,12 +123,13 @@ Cada fuente y legislatura es un dataset independiente. Los partidos cambian entr
 
 ### Estado de la rúbrica
 
-La clasificación sigue la [rúbrica v3](data/clasificacion/RUBRICA.md) ([cambios respecto a la v2](data/clasificacion/RUBRICA_CAMBIOS_v3.md)). En las legislaturas ya reclasificadas, cada ley se lee **tres veces de forma independiente** y un colectivo solo cuenta si lo marcan al menos dos de las tres lecturas (`scripts/consolidar_lecturas.py`). Los lectores son modelos de IA, no personas: no sustituyen a una revisión humana.
+La clasificación sigue la [rúbrica v3](data/clasificacion/RUBRICA.md) ([cambios respecto a la v2](data/clasificacion/RUBRICA_CAMBIOS_v3.md)) en **todas las legislaturas**. Cada ley se lee **tres veces de forma independiente** y un colectivo solo cuenta si lo marcan al menos dos de las tres lecturas (`scripts/consolidar_lecturas.py`). Los lectores son modelos de IA, no personas: no sustituyen a una revisión humana.
 
 | Rúbrica | Legislaturas |
 |---|---|
-| **v3**, tres lecturas | Congreso XV, XIV, XIII, XII y XI · Parlamento Europeo 10.ª y 9.ª |
-| v2, a la espera de reclasificarse | Congreso X · Parlamento Europeo 8.ª, 7.ª y 6.ª |
+| **v3**, tres lecturas | Congreso XV, XIV, XIII, XII, XI y X · Parlamento Europeo 10.ª, 9.ª, 8.ª, 7.ª y 6.ª |
+
+**Excepción en el Parlamento Europeo 6.ª y 7.ª.** La API oficial casi no publica el texto aprobado en español de esas legislaturas, así que se leyeron por el título del procedimiento. Las normas que la v3 dejaba sin efectos solo por no tener texto (80 en la 6.ª y 124 en la 7.ª) conservan la clasificación anterior. Están listadas en el `REVISION.md` de cada legislatura: [6.ª](data/clasificacion/europarlamento_6/REVISION.md) y [7.ª](data/clasificacion/europarlamento_7/REVISION.md).
 
 Las tres lecturas y lo que cambió en cada ley están en `data/clasificacion/<clave>/lectura_v3/` (por ejemplo, [`congreso_xv/lectura_v3/CAMBIOS.md`](data/clasificacion/congreso_xv/lectura_v3/CAMBIOS.md)). En la XV, ninguna de las 540 iniciativas tiene signo contrario entre lecturas, 432 coinciden en las tres y el parecido medio es de 0,90; las 108 en las que no coinciden del todo pasan a revisión humana.
 
@@ -138,7 +139,10 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 - **Congreso, XV, leyes económicas con «Ciudadanía general»:** CC sale primero en el 42,4 % de los perfiles, PNV en el 30,6 % y PSOE en el 11,4 %.
 - **Parlamento Europeo, leyes económicas:** en la 10.ª, BNG (46,7 %) con «Ciudadanía general» y PP (28,1 %) sin ella; en la 9.ª, PSOE (60,2 %) con ella y PP (24,6 %) sin ella.
+- **Congreso, X, leyes económicas con «Ciudadanía general»:** PNV sale primero en el 55,9 % de los perfiles, UPN en el 27,0 % y CiU en el 5,5 %.
+- **Parlamento Europeo 8.ª, 7.ª y 6.ª, leyes económicas con «Ciudadanía general»:** en la 8.ª, PNV (88,4 %); en la 7.ª, ICV (70,4 %); en la 6.ª, PSOE (65,2 %).
 - **Legislaturas con pocas votaciones:** el resultado se concentra; en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.
+- **También hay concentraciones altas con muchas votaciones:** en la X, en leyes sociales con «Ciudadanía general», NC sale primero en el 97,8 % de los perfiles.
 
 *Interpretación nuestra:* los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.
 
@@ -241,7 +245,8 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 
 ## Pendiente
 
-- [ ] **Reclasificar con la rúbrica v3.** El Congreso X está en curso. El Parlamento Europeo 8.ª, 7.ª y 6.ª siguen pendientes de decisión, porque en la 6.ª y la 7.ª no hay texto oficial en español.
+- [x] **Reclasificar con la rúbrica v3:** hecho en todas las legislaturas. En el Parlamento Europeo 6.ª y 7.ª, 80 y 124 normas sin texto oficial en español conservan la clasificación anterior ([ver arriba](#estado-de-la-rúbrica)).
+- [ ] **Revisar 13 iniciativas con `desSub` que tratan del IMV o de ingresos mínimos** (apuntadas en el `REVISION.md` de cada legislatura del Congreso, de la X a la XV): la rúbrica reserva `desSub` para el subsidio por desempleo.
 - [ ] **Revisar las clasificaciones** de las leyes más relevantes: fiscales, vivienda, pensiones, laboral, migración.
 - [x] **Identificar el partido** de las proposiciones del Grupo Mixto y del Grupo Plural: hecho en 168 de 185, salvo las 17 restantes, que son conjuntas de varios grupos o están firmadas solo por el grupo, y el BOCG no dice quién las firma (`data/clasificacion/<clave>/partidos_mixto.json`).
 - [x] **Convertir la clasificación en un proceso repetible** entre legislaturas: [`scripts/lotes_reclasificacion.py`](scripts/lotes_reclasificacion.py), [`scripts/aplicar_reclasificacion.py`](scripts/aplicar_reclasificacion.py), [`scripts/cerrar_reclasificacion.py`](scripts/cerrar_reclasificacion.py) y [`data/clasificacion/PROMPT_LECTOR.md`](data/clasificacion/PROMPT_LECTOR.md).
