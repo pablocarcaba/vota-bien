@@ -1,0 +1,517 @@
+[
+ {
+  "id": "121/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija obligaciones de publicidad activa y un derecho de acceso a la información pública; norma institucional sin efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000020",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la inspección y las sanciones contra el empleo irregular y el fraude a la Seguridad Social; norma sancionadora sin colectivo con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000021",
+  "tipo": "eco",
+  "imp": {
+   "inq": -1,
+   "viv2": 1
+  },
+  "peso": 2,
+  "nota": "Reduce la prórroga obligatoria de los alquileres y facilita la recuperación de la vivienda por el arrendador; menos protección al inquilino.",
+  "partido": ""
+ },
+ {
+  "id": "121/000022",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Declara un parque nacional que refuerza la protección ambiental y de la biodiversidad de la Sierra de Guadarrama.",
+  "partido": ""
+ },
+ {
+  "id": "121/000023",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la reestructuración y resolución de entidades de crédito con poderes del FROB; el signo para el sector bancario no consta.",
+  "partido": ""
+ },
+ {
+  "id": "121/000024",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1,
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Aprueba ayudas por incendios forestales y tormentas de pedrisco para afectados y para explotaciones agrícolas y ganaderas dañadas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000025",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Crea impuestos sobre la producción eléctrica y el combustible nuclear gastado, un canon hidráulico y grava gas y carbón; costes para productores energéticos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000026",
+  "tipo": "eco",
+  "imp": {
+   "viv0": -1
+  },
+  "peso": 3,
+  "nota": "Suprime la deducción por vivienda habitual para nuevas compras, grava premios de lotería y modifica otros impuestos de IRPF y Sociedades.",
+  "partido": ""
+ },
+ {
+  "id": "121/000027",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos anuales; incluyen la revalorización general de las pensiones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000028",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea el organismo regulador único de mercados y competencia; reorganización institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000029",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la protección del litoral y a la vez prorroga concesiones y excluye terrenos del dominio público; signos opuestos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000030",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la cobertura de suplencias judiciales con jueces de carrera; organización procesal e institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000031",
+  "tipo": "soc",
+  "imp": {
+   "hipot": 1,
+   "pobreza": 1,
+   "infancia": 1,
+   "hij3": 1,
+   "monop": 1,
+   "discapacidad": 1,
+   "depend": 1,
+   "victimas": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Suspende dos años los lanzamientos de la vivienda habitual de deudores hipotecarios vulnerables (familias numerosas, monoparentales, discapacidad, dependencia, violencia de género); coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "121/000032",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la ordenación del transporte terrestre y la seguridad aérea; el texto disponible no permite determinar a quién beneficia o perjudica.",
+  "partido": ""
+ },
+ {
+  "id": "121/000033",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajusta la delegación de facultades del Estado a las comunidades en transporte por carretera; traspaso entre administraciones sin cambio de derechos conocido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000034",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la ley de bienestar animal al ámbito de la directiva sobre animales usados en ciencia; ajuste técnico sin colectivo afectado claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000035",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Traspone la directiva de emisiones industriales: refuerza el control de la contaminación y exige más a las instalaciones industriales.",
+  "partido": ""
+ },
+ {
+  "id": "121/000036",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Autoriza la ratificación de un protocolo de la Unión Europea sobre el Tratado de Lisboa; norma internacional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000037",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1,
+   "secCom": -1
+  },
+  "peso": 2,
+  "nota": "Regula contratos y prácticas comerciales en la cadena alimentaria para equilibrar la posición de los productores frente a la distribución.",
+  "partido": ""
+ },
+ {
+  "id": "121/000038",
+  "tipo": "eco",
+  "imp": {
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Fomenta la fusión e integración de cooperativas agroalimentarias y prioriza ayudas para las entidades asociativas prioritarias.",
+  "partido": ""
+ },
+ {
+  "id": "121/000040",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suspende la vigencia de artículos de la ley del Poder Judicial sobre la renovación del Consejo General del Poder Judicial; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "121/000041",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la composición, estructura y funcionamiento del Consejo General del Poder Judicial; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000042",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la lucha contra el dopaje y el régimen sancionador en el deporte; norma sancionadora sin colectivo con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000043",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Medidas de apoyo a autónomos y pymes y de fomento del empleo, con incentivos a la contratación y al emprendimiento juvenil.",
+  "partido": ""
+ },
+ {
+  "id": "121/000044",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Refuerza la garantía de suministro eléctrico en los sistemas insulares y extrapeninsulares y la competencia en su generación.",
+  "partido": ""
+ },
+ {
+  "id": "121/000045",
+  "tipo": "eco",
+  "imp": {
+   "secCons": 1
+  },
+  "peso": 2,
+  "nota": "Regula y facilita la rehabilitación, regeneración y renovación urbanas, actividad directa del sector de la construcción.",
+  "partido": ""
+ },
+ {
+  "id": "121/000046",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "secInd": -1
+  },
+  "peso": 1,
+  "nota": "Traspone directivas de farmacovigilancia y de lucha contra medicamentos falsificados; refuerza la seguridad de pacientes y las obligaciones de los laboratorios.",
+  "partido": ""
+ },
+ {
+  "id": "121/000047",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece el régimen disciplinario de las Fuerzas Armadas; el texto disponible no permite determinar un efecto claro para el colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma educativa con itinerarios y evaluaciones; el texto disponible no precisa efectos con signo claro sobre un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000049",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula cajas de ahorros y fundaciones bancarias con límites de tamaño y territorio; el signo para el sector no consta.",
+  "partido": ""
+ },
+ {
+  "id": "121/000050",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la seguridad privada con menos controles accesorios y más colaboración con la seguridad pública; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "121/000051",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la acción y el servicio exterior del Estado; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000052",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Apoya a emprendedores con medidas fiscales y mercantiles para autónomos y microempresas y facilita la residencia de inversores extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "121/000053",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea la autoridad independiente de control fiscal de las administraciones; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000054",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Crea el impuesto sobre gases fluorados de efecto invernadero y modifica Sociedades y otros tributos; coste para el sector que los produce y usa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000055",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Impulsa la factura electrónica y crea el registro contable de facturas en el sector público; efectos de signo no determinado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000056",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza la unidad de mercado: las autorizaciones valen en todo el territorio y se reducen trabas y cargas para operadores económicos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000057",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reorganiza las cámaras de comercio como corporaciones de derecho público; norma institucional con efectos no determinados en el texto.",
+  "partido": ""
+ },
+ {
+  "id": "121/000058",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reordena competencias, estructura y control financiero de la Administración local; norma institucional sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000059",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Unifica los procedimientos de evaluación ambiental de planes y proyectos; norma de procedimiento sin signo uniforme para los colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000060",
+  "tipo": "eco",
+  "imp": {
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Protege a trabajadores a tiempo parcial y modera la subida de tarifas aeroportuarias que pagan las compañías aéreas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000061",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la ley sobre minas antipersonal a protocolos internacionales; ajuste técnico sin colectivo afectado claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000062",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula las telecomunicaciones reduciendo cargas a operadores y reforzando control y sanciones; signos opuestos para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "121/000063",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obliga a las administraciones a publicar y reducir su periodo medio de pago; norma de control presupuestario sin colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000064",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el marco del sector eléctrico para corregir el déficit; el texto disponible no precisa efectos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000065",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el Código Penal con prisión permanente revisable, medidas de seguridad y suspensión de penas; norma penal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000066",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delega en el Gobierno la elaboración de textos refundidos; norma técnica sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000067",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la cobertura por cuenta del Estado de riesgos de internacionalización mediante un agente gestor; sin colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000068",
+  "tipo": "eco",
+  "imp": {
+   "pen1": -1,
+   "pen2": -1,
+   "pen3": -1,
+   "mayores": -1,
+   "adultos": -1
+  },
+  "peso": 3,
+  "nota": "Introduce factor de sostenibilidad y nuevo índice de revalorización que reducen la pensión inicial y su actualización.",
+  "partido": ""
+ },
+ {
+  "id": "121/000069",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos anuales; incluyen la revalorización general de las pensiones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000070",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajustes de seguridad vial: casco, radares, drogas y velocidad, con mezcla de obligaciones y sanciones; no se identifica un colectivo con efecto de signo único.",
+  "partido": ""
+ },
+ {
+  "id": "121/000071",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza los derechos de consumidores y usuarios en contratos, con más información y derecho de desistimiento.",
+  "partido": ""
+ },
+ {
+  "id": "121/000072",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la celebración y aplicación de tratados internacionales; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "121/000073",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la navegación marítima y el derecho marítimo; el signo para los colectivos no consta en el texto disponible.",
+  "partido": ""
+ },
+ {
+  "id": "121/000074",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Limita la indexación automática a índices de precios en contratos públicos y precios regulados; efectos de signo no determinado.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,503 @@
+[
+ {
+  "id": "122/000022",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exige un análisis coste-beneficio previo a nuevas infraestructuras; norma de procedimiento sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000023",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Territorializa el reparto del 0,7 % del IRPF entre comunidades autónomas; traspaso entre administraciones sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000024",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia las competencias del director en conflictos disciplinarios del centro; norma de organización escolar.",
+  "partido": ""
+ },
+ {
+  "id": "122/000025",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 2,
+  "nota": "Amplía las deducciones fiscales al mecenazgo; sin umbral de renta ni colectivo concreto con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000026",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de transparencia y lucha contra la corrupción; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000027",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el recurso previo de inconstitucionalidad; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000028",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la libertad de elección de lengua y la discriminación lingüística; sin colectivo con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000029",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una comisión parlamentaria permanente de estudio sobre vivienda; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000030",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el Consejo de Seguridad Nuclear en transparencia y organización; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000031",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reduce la duración de la campaña electoral; norma electoral.",
+  "partido": ""
+ },
+ {
+  "id": "122/000032",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el control jurisdiccional de las normas forales fiscales vascas; norma procesal e institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000033",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Declara inaplicable la Ley de Amnistía a crímenes de genocidio y lesa humanidad con efecto retroactivo; norma penal sin derechos ni ayudas a colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000034",
+  "tipo": "soc",
+  "imp": {
+   "rural": 1
+  },
+  "peso": 1,
+  "nota": "Aplica a los núcleos rurales tradicionales de Galicia el régimen de servidumbre de costas de 20 metros en lugar de 100.",
+  "partido": ""
+ },
+ {
+  "id": "122/000035",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 1,
+  "nota": "Revierte el recorte de las pensiones de jubilación por incapacidad de clases pasivas y permite compatibilizarlas con otra actividad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000036",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la cotización de los autónomos: cotización voluntaria para el cese de actividad y ajustes durante la incapacidad temporal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000037",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secSoc": -1
+  },
+  "peso": 1,
+  "nota": "Suprime los convenios con entidades privadas para ejecutar medidas a menores infractores; la gestión pasa a ser pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000038",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la autonomía del paciente y la decisión sobre la propia vida; sin colectivo con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000039",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Despenaliza las injurias a la Corona; norma penal sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000040",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a bancos rescatados o con aval público a ofrecer dación en pago antes de ejecutar la hipoteca de la vivienda habitual; favorece a hipotecados.",
+  "partido": ""
+ },
+ {
+  "id": "122/000041",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Limita plazos, cuantías e intereses de demora de las hipotecas y protege de la ejecución; beneficia a hipotecados y supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000042",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime la sanción administrativa por tenencia de drogas para consumo propio; norma sancionadora sin colectivo con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000043",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma constitucional del régimen electoral; el título no permite determinar efectos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000044",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Extiende la garantía del Estado en exposiciones de obras de arte a otros museos; sin colectivo con signo determinado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000045",
+  "tipo": "soc",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Facilita la participación política de los miembros de cuerpos de seguridad de carácter civil fuera de sus funciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000046",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula los requisitos de la suspensión provisional de empleo o cargo público en el proceso penal; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000047",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "secSoc": -1
+  },
+  "peso": 1,
+  "nota": "Limita la gestión de centros sanitarios públicos a entidades de titularidad pública; refuerza la gestión pública frente a la privada.",
+  "partido": ""
+ },
+ {
+  "id": "122/000048",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000049",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce competencias sobre espacios marítimos a comunidades autónomas archipielágicas; norma de reparto competencial.",
+  "partido": ""
+ },
+ {
+  "id": "122/000050",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye del dominio público marítimo-terrestre unas urbanizaciones concretas de Girona; sin colectivo definido con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000051",
+  "tipo": "soc",
+  "imp": {
+   "proDoc": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce al profesorado la condición de autoridad pública y la facultad de imponer medidas disciplinarias a alumnos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000052",
+  "tipo": "eco",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 1,
+  "nota": "Amplía la cobertura de la pensión de orfandad al corregir la aplicación gradual del límite de edad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000053",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye la amnistía para delitos de lesa humanidad; norma penal sin derechos ni ayudas expresas para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000054",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obliga a identificar visiblemente a los miembros de cuerpos de seguridad; norma de organización sin signo claro para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000055",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las entidades de crédito a cancelar de oficio en 60 días las limitaciones de disposición tras el pago completo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000056",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula actos de investigación con muestras e intervenciones corporales; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "122/000057",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Incorpora criterios de comercio justo en la contratación pública; norma de contratación sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000058",
+  "tipo": "soc",
+  "imp": {
+   "estud": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce a los títulos superiores de enseñanzas artísticas la denominación de grado y la equivalencia con los títulos universitarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000059",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye del carácter básico un precepto sobre transporte y comedor escolar; reparto de competencias entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000060",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Obliga a las entidades financieras a dar información y asesoramiento adecuados a clientes minoristas sobre participaciones preferentes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000061",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el control del Fondo de Contingencia y prohíbe usarlo para gasto militar; norma presupuestaria sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000062",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo de financiación para el empleo en pequeñas y medianas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000063",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1,
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Universaliza la asistencia sanitaria pública y amplía la cobertura a personas excluidas, incluidos extranjeros.",
+  "partido": ""
+ },
+ {
+  "id": "122/000064",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Adapta el procedimiento del jurado para que las personas con discapacidad puedan ejercer como jurado con medios de apoyo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000065",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "mujeres": 1,
+   "hombres": 1
+  },
+  "peso": 2,
+  "nota": "Reforma los permisos y prestaciones por nacimiento, adopción y acogida para ambos progenitores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000066",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la Ley de Partidos Políticos; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000067",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora los instrumentos de protección jurídica de los menores en la ley de protección del menor, el Código Civil y la LEC.",
+  "partido": ""
+ },
+ {
+  "id": "122/000068",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no permite determinar qué colectivos ganan o pierden con la regulación de la navegación marítima.",
+  "partido": ""
+ },
+ {
+  "id": "122/000069",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza la asistencia sanitaria pública gratuita a españoles residentes que hoy carecen de ella.",
+  "partido": ""
+ },
+ {
+  "id": "122/000070",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Prohíbe las cláusulas suelo en préstamos hipotecarios; beneficia a hipotecados y consumidores y supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "122/000071",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reduce las competencias de las diputaciones provinciales; norma de organización territorial.",
+  "partido": ""
+ },
+ {
+  "id": "122/000072",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Declara la nulidad de las sentencias injustas de la guerra civil y la dictadura y amplía derechos de quienes sufrieron persecución.",
+  "partido": ""
+ },
+ {
+  "id": "122/000073",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Declara el 18 de julio día oficial de condena de la dictadura y promueve monumentos; norma simbólica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000074",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la dedicación exclusiva e incompatibilidades de los miembros de las corporaciones locales; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000075",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el referéndum consultivo sobre decisiones que afecten a derechos económicos y sociales; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000076",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía el régimen de incompatibilidades de diputados y senadores; norma institucional.",
+  "partido": ""
+ }
+]

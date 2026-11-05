@@ -1,0 +1,148 @@
+[
+ {
+  "id": "130/000062",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica incentivos fiscales del régimen económico de Canarias (reserva para inversiones, Zona Especial Canaria) sin distinguir tamaños ni sectores; ámbito territorial limitado.",
+  "partido": ""
+ },
+ {
+  "id": "130/000063",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 2,
+  "nota": "Crea un programa de activación para el empleo con ayuda económica para desempleados de larga duración sin prestación.",
+  "partido": ""
+ },
+ {
+  "id": "130/000064",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de financiación entre administraciones y otras económicas; el contenido disponible no permite determinar colectivos beneficiados o perjudicados con signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000065",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000066",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Medidas urgentes de reparación de daños por inundaciones y temporales; beneficia a los afectados por la catástrofe.",
+  "partido": ""
+ },
+ {
+  "id": "130/000067",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Oferta de empleo público extraordinaria y adicional; el contenido disponible no permite determinar colectivos con signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000068",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma de la formación profesional para el empleo; el contenido disponible no permite determinar colectivos con signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000069",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la comercialización de derechos audiovisuales del fútbol profesional; el contenido disponible no permite fijar un colectivo con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "130/000070",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la ley del cine, concede créditos y adopta medidas tributarias; el contenido disponible no permite determinar colectivos con signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000071",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Concede créditos extraordinarios para pagar programas especiales de armamento de Defensa; beneficia a la industria de defensa.",
+  "partido": ""
+ },
+ {
+  "id": "130/000072",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ratifica un acuerdo entre administraciones para renovar la designación de Barcelona como Mobile World Capital; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000073",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "asal5": 1,
+   "asal6": 1,
+   "pen2": 1,
+   "pen3": 1
+  },
+  "peso": 3,
+  "nota": "Reduce la carga del IRPF adelantando la rebaja de la tarifa; beneficia a todos los tramos de renta y a pensiones sujetas a IRPF.",
+  "partido": ""
+ },
+ {
+  "id": "130/000074",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 2,
+  "nota": "Medidas en materia de empleo público, entre ellas la devolución de parte de la paga extra de 2012; beneficia a empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000075",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Regula las comisiones por retirada de efectivo en cajeros; protege a los usuarios y limita ingresos de las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "130/000076",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Medidas urgentes de reparación de daños por temporales de lluvia en Canarias y el sur y este peninsular; beneficia a los afectados.",
+  "partido": ""
+ }
+]

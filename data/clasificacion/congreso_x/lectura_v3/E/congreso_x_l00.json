@@ -1,0 +1,505 @@
+[
+ {
+  "id": "120/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma sobre pluralismo lingüístico en televisión; no se determina a quién beneficia o perjudica con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "120/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000003",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Refuerza la estabilidad en el empleo restringiendo temporalidad y despido; mayor protección laboral y mayor coste laboral para la empresa.",
+  "partido": ""
+ },
+ {
+  "id": "120/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000005",
+  "tipo": "soc",
+  "imp": {
+   "secCom": 1,
+   "secPrim": 1
+  },
+  "peso": 1,
+  "nota": "Declara la tauromaquia bien de interés cultural y la protege; favorece a los espectáculos taurinos y a la ganadería de lidia.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Dación en pago y paralización de desahucios para deudores hipotecarios; supone pérdidas para las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "120/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una comisión para esclarecer adopciones irregulares y sustracción de recién nacidos; no otorga derechos ni ayudas a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "120/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solicitud de notificación sobre una iniciativa; no establece medidas con efectos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la protección y el bienestar animal; el título no permite determinar qué sectores resultan afectados ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000010",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Medidas sanitarias, fiscales y de integración para el colectivo celíaco; beneficia a los pacientes celíacos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000012",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Revierte la congelación de las pensiones de 2011; mejora la revalorización de las pensiones para todos los tramos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Afecta a cargos políticos cesados; norma institucional sin efecto sobre colectivos de la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "120/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Elimina la prohibición de seleccionar el sexo de los hijos; no se identifica un colectivo con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "120/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Conmemoración de un aniversario histórico; sin efectos sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el acceso de partidos a medios públicos; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el Código Civil sobre relaciones paternofiliales en las rupturas; no consta con claridad el signo para ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000018",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la custodia compartida; el título no permite fijar con claridad el signo para los separados o divorciados.",
+  "partido": ""
+ },
+ {
+  "id": "120/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000020",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000021",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Auditoría del déficit del sector eléctrico; el título no permite determinar efectos sobre consumidores o sector.",
+  "partido": ""
+ },
+ {
+  "id": "120/000022",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Establece una renta básica estatal; beneficia a personas en riesgo de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "120/000023",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000024",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000025",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000026",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma institucional sobre la forma de Estado y la Jefatura del Estado; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000027",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma institucional sobre separación de poderes y Poder Judicial; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000028",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma electoral sobre elegibilidad de representantes; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000029",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre participación electoral; sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000030",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Protección social de enfermos de fibromialgia y fatiga crónica; beneficia a esos pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000031",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el copago de la dependencia; el título no permite determinar el signo para los beneficiarios.",
+  "partido": ""
+ },
+ {
+  "id": "120/000032",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Revisa el aforamiento de cargos públicos; norma procesal e institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000033",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la mediación en distintos órdenes jurisdiccionales; norma procesal sin efecto con signo conocido sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000034",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Mantiene el Registro Civil como servicio público, gratuito y gestionado por funcionarios; mejora la prestación del servicio público.",
+  "partido": ""
+ },
+ {
+  "id": "120/000035",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "desSub": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación de ingresos mínimos en la Seguridad Social; beneficia a personas sin recursos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000036",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la responsabilidad parental y las relaciones familiares; el título no permite fijar el signo para ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000037",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la responsabilidad parental y las relaciones familiares; el título no permite fijar el signo para ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la financiación pública de los partidos políticos; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000002",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye ciertos mecanismos de financiación de una limitación presupuestaria para pagar a proveedores públicos; efecto sobre colectivos no directo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000003",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija reglas de estabilidad presupuestaria de las administraciones; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000004",
+  "tipo": "eco",
+  "imp": {
+   "asal1": -1,
+   "asal2": -1,
+   "asal3": -1,
+   "asal4": -1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 3,
+  "nota": "Reforma laboral: abarata y facilita el despido y flexibiliza condiciones; menor protección al asalariado y menor coste laboral para la empresa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la mediación en asuntos civiles y mercantiles; norma procesal sin efecto con signo conocido sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000006",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 1,
+  "nota": "Protege a los consumidores en contratos de aprovechamiento por turno y productos vacacionales; impone obligaciones al sector turístico.",
+  "partido": ""
+ },
+ {
+  "id": "121/000007",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Simplifica obligaciones documentales en fusiones y escisiones de sociedades; sin sector ni tamaño identificado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000008",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1
+  },
+  "peso": 3,
+  "nota": "Presupuestos 2012: revalorización de las pensiones y congelación de retribuciones de los empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000009",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secDig": 1
+  },
+  "peso": 1,
+  "nota": "Permite a las comunidades autónomas gestionar sus televisiones públicas de forma indirecta, venderlas o licenciar sus canales a operadores privados.",
+  "partido": ""
+ },
+ {
+  "id": "121/000010",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Autoriza la ratificación de un tratado sobre gobernanza económica; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Simplifica trámites ambientales; el contenido mezcla medidas sin signo único conocido para colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000012",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Exige a las entidades de crédito provisiones y cobertura adicionales por activos inmobiliarios problemáticos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Autoriza la ratificación del tratado de adhesión de Croacia; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000014",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1
+  },
+  "peso": 2,
+  "nota": "Elimina licencias y cargas administrativas del comercio minorista y servicios; beneficia al sector comercial y a las pymes.",
+  "partido": ""
+ },
+ {
+  "id": "121/000015",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas contra el fraude fiscal: sanciones, responsabilidad tributaria, embargos y obligaciones de información; no se asigna a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "121/000016",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la ley de estabilidad presupuestaria y financiación de administraciones; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Endurece los delitos contra la Hacienda Pública y la Seguridad Social; norma penal sin colectivo asignable.",
+  "partido": ""
+ },
+ {
+  "id": "121/000018",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Crea tasas judiciales para personas físicas y jurídicas y una tasa a empresas por registrar fichas toxicológicas de productos químicos.",
+  "partido": ""
+ }
+]

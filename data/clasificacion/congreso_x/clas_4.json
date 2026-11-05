@@ -1,1069 +1,945 @@
 [
-{
-"id": "122/000204",
-"tipo": "eco",
-"imp": {
-"pobreza": 1,
-"desSub": 1
-},
-"peso": 2,
-"nota": "Crea un fondo contra la pobreza y la exclusión social; beneficia a personas vulnerables.",
-"partido": ""
-},
-{
-"id": "122/000205",
-"tipo": "soc",
-"imp": {
-"pac": 1,
-"mayores": 1,
-"pen1": 1,
-"pen2": 1,
-"pen3": 1
-},
-"peso": 2,
-"nota": "Suprime los copagos sanitarios de 2012, como el farmacéutico de los pensionistas; beneficia a pacientes y pensionistas.",
-"partido": ""
-},
-{
-"id": "122/000206",
-"tipo": "soc",
-"imp": {
-"ciud": 1,
-"pac": 1,
-"inmigrantes": 1
-},
-"peso": 2,
-"nota": "Universaliza la asistencia sanitaria pública, incluidas personas extranjeras sin residencia legal.",
-"partido": ""
-},
-{
-"id": "122/000207",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reintroduce el recurso previo de inconstitucionalidad para estatutos de autonomía; institucional, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000208",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Facilita la nacionalidad española a descendientes de españoles nacidos en el extranjero.",
-"partido": ""
-},
-{
-"id": "122/000209",
-"tipo": "soc",
-"imp": {
-"inmigrantes": 1
-},
-"peso": 1,
-"nota": "Facilita la nacionalidad española a descendientes de españoles nacidos en el extranjero.",
-"partido": ""
-},
-{
-"id": "122/000210",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Deroga la licencia federativa deportiva única; efecto organizativo sin colectivo claro de la web.",
-"partido": ""
-},
-{
-"id": "122/000211",
-"tipo": "soc",
-"imp": {
-"discapacidad": 1
-},
-"peso": 1,
-"nota": "Garantiza el voto secreto de las personas ciegas en las elecciones municipales.",
-"partido": ""
-},
-{
-"id": "122/000212",
-"tipo": "eco",
-"imp": {
-"pobreza": 1
-},
-"peso": 1,
-"nota": "Ajusta el IVA de las donaciones de alimentos para facilitarlas; beneficia a personas en riesgo de pobreza.",
-"partido": ""
-},
-{
-"id": "122/000213",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Da al Tribunal Constitucional facultades para ejecutar sus resoluciones y sancionar su incumplimiento; institucional.",
-"partido": ""
-},
-{
-"id": "122/000214",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Declara el castellano lengua oficial común; materia lingüística e institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000215",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Declara el castellano lengua oficial común; materia lingüística e institucional sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "122/000216",
-"tipo": "eco",
-"imp": {
-"ciud": 1
-},
-"peso": 1,
-"nota": "Vincula el impuesto de matriculación a las emisiones para mejorar la calidad del aire urbano.",
-"partido": ""
-},
-{
-"id": "123/000001",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Delegación a la Generalitat para convocar un referéndum; institucional, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "125/000001",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Modificación de la Ley del Deporte; el título no permite determinar colectivos afectados.",
-"partido": ""
-},
-{
-"id": "125/000002",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reconoce el derecho del autor a usar licencias libres; efecto limitado sin colectivo claro de la web.",
-"partido": ""
-},
-{
-"id": "125/000003",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reforma de la financiación autonómica; norma territorial sin efecto sobre colectivos.",
-"partido": ""
-},
-{
-"id": "125/000004",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Homogeneiza el voto de los residentes en el exterior; reforma electoral sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "125/000005",
-"tipo": "eco",
-"imp": {
-"ciud": -1
-},
-"peso": 1,
-"nota": "Modifica la ley de costas para mantener ocupaciones y concesiones en el dominio público marítimo-terrestre; prolonga su uso privado.",
-"partido": ""
-},
-{
-"id": "125/000006",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Regulación del agua desde Castilla-La Mancha; el título no permite determinar efectos distributivos.",
-"partido": ""
-},
-{
-"id": "125/000007",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Reforma la ley general de defensa de los consumidores y usuarios; refuerza su protección.",
-"partido": ""
-},
-{
-"id": "125/000008",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Delega en Andalucía la gestión del Guadalquivir; reparto competencial sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "125/000009",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"ciud": 1,
-"secTrans": -1
-},
-"peso": 1,
-"nota": "Fondo para rescatar y subvencionar peajes; abarata la circulación y recupera autopistas concesionadas.",
-"partido": ""
-},
-{
-"id": "125/000010",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Reforma del Régimen General de la Seguridad Social de contenido no determinable con seguridad por el título.",
-"partido": ""
-},
-{
-"id": "125/000011",
-"tipo": "eco",
-"imp": {
-"hipot": 1,
-"pobreza": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Protege a familias sobreendeudadas frente a la ejecución hipotecaria de su vivienda habitual, con coste para la banca.",
-"partido": ""
-},
-{
-"id": "125/000012",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Reforma la ley general de defensa de los consumidores y usuarios; refuerza su protección.",
-"partido": ""
-},
-{
-"id": "125/000013",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Delegación a la Generalitat para convocar un referéndum; institucional, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "125/000014",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Traslada Treviño y La Puebla de Arganzón a Álava; cambio territorial sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "125/000015",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Reforma constitucional de la iniciativa legislativa popular, el referéndum y la reforma constitucional; institucional.",
-"partido": ""
-},
-{
-"id": "125/000016",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Derechos lingüísticos en la justicia; norma institucional sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "125/000017",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ajusta el Código Civil sobre estatuto personal y vecindad civil; norma técnica sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "125/000018",
-"tipo": "eco",
-"imp": {
-"cons": 1
-},
-"peso": 1,
-"nota": "Rebaja el IVA de las actividades culturales; abarata su consumo.",
-"partido": ""
-},
-{
-"id": "125/000019",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modificación de la ley de emprendedores; el título no permite determinar efectos distributivos.",
-"partido": ""
-},
-{
-"id": "125/000020",
-"tipo": "eco",
-"imp": {
-"ciud": 1,
-"cons": 1
-},
-"peso": 2,
-"nota": "Facilita el autoconsumo eléctrico renovable; beneficia a consumidores y al medio ambiente.",
-"partido": ""
-},
-{
-"id": "130/000001",
-"tipo": "eco",
-"imp": {
-"asal1": -1,
-"asal2": -1,
-"asal3": -1,
-"asal4": -1,
-"asal5": -1,
-"asal6": -1,
-"prop1": -1,
-"prop2": -1,
-"prop3": -1,
-"prop4": -1,
-"viv1": -1,
-"viv2": -1,
-"funA1": -1,
-"funA2": -1,
-"funB": -1,
-"funC1": -1,
-"funC2E": -1,
-"depend": -1,
-"hipot": 1,
-"pen1": 1,
-"pen2": 1,
-"pen3": 1,
-"mayores": 1
-},
-"peso": 3,
-"nota": "Recargo temporal en IRPF y ahorro, sube el IBI, congela sueldos públicos, aplaza dependencia; recupera la deducción por vivienda y sube pensiones 1 %.",
-"partido": ""
-},
-{
-"id": "130/000002",
-"tipo": "eco",
-"imp": {
-"secInd": -1
-},
-"peso": 2,
-"nota": "Suspende las primas a nuevas instalaciones renovables y de cogeneración; perjudica a ese sector energético.",
-"partido": ""
-},
-{
-"id": "130/000003",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "Obliga a la banca a nuevas provisiones por sus activos inmobiliarios y limita sueldos de directivos en entidades ayudadas.",
-"partido": ""
-},
-{
-"id": "130/000004",
-"tipo": "eco",
-"imp": {
-"asal1": -1,
-"asal2": -1,
-"asal3": -1,
-"asal4": -1,
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 3,
-"nota": "Reforma laboral: abarata el despido, prioriza el convenio de empresa y amplía la flexibilidad interna; favorece a empleadores.",
-"partido": ""
-},
-{
-"id": "130/000005",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 2,
-"nota": "Mecanismo para pagar las facturas pendientes de los ayuntamientos; beneficia a proveedores, en gran parte pymes y autónomos.",
-"partido": ""
-},
-{
-"id": "130/000006",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Regula la mediación civil y mercantil; norma procesal sin efecto distributivo claro.",
-"partido": ""
-},
-{
-"id": "130/000007",
-"tipo": "eco",
-"imp": {
-"hipot": 1,
-"pobreza": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Código de buenas prácticas con reestructuración y dación en pago para deudores hipotecarios sin recursos, a cargo de la banca.",
-"partido": ""
-},
-{
-"id": "130/000008",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 2,
-"nota": "Crea el fondo para pagar las deudas de las administraciones con sus proveedores, en gran parte pymes y autónomos.",
-"partido": ""
-},
-{
-"id": "130/000009",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secCom": -1
-},
-"peso": 1,
-"nota": "Transpone la directiva de multipropiedad y productos vacacionales; protege al consumidor con obligaciones para el sector turístico.",
-"partido": ""
-},
-{
-"id": "130/000010",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Simplifica requisitos documentales de fusiones y escisiones de sociedades; norma técnica.",
-"partido": ""
-},
-{
-"id": "130/000011",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adapta normas financieras a las autoridades europeas de supervisión; norma técnica.",
-"partido": ""
-},
-{
-"id": "130/000012",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"empAut": 1,
-"empMicro": 1
-},
-"peso": 1,
-"nota": "Agiliza ayudas a damnificados por el terremoto de Lorca y a la reconstrucción y la actividad económica local.",
-"partido": ""
-},
-{
-"id": "130/000013",
-"tipo": "eco",
-"imp": {
-"prop3": 1,
-"prop4": 1,
-"empMed": -1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Incluye la declaración tributaria especial (amnistía fiscal) para rentas ocultas y endurece el impuesto de sociedades de medianas y grandes empresas.",
-"partido": ""
-},
-{
-"id": "130/000014",
-"tipo": "eco",
-"imp": {
-"secInd": -1,
-"empGran": -1
-},
-"peso": 2,
-"nota": "Transpone directivas energéticas y de telecomunicaciones y recorta retribuciones reguladas de eléctricas y gasistas para reducir el déficit.",
-"partido": ""
-},
-{
-"id": "130/000015",
-"tipo": "soc",
-"imp": {
-"estud": -1,
-"proDoc": -1,
-"infancia": -1
-},
-"peso": 2,
-"nota": "Recortes educativos: más alumnos por aula y horas lectivas, sustituciones más tardías y subida de tasas universitarias.",
-"partido": ""
-},
-{
-"id": "130/000016",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Cambia la elección y gobierno de la Corporación RTVE; institucional, sin efecto distributivo.",
-"partido": ""
-},
-{
-"id": "130/000017",
-"tipo": "soc",
-"imp": {
-"ciud": -1,
-"pac": -1,
-"inmigrantes": -1,
-"mayores": -1,
-"pen1": -1,
-"pen2": -1,
-"pen3": -1,
-"asal4": -1,
-"asal5": -1,
-"asal6": -1
-},
-"peso": 3,
-"nota": "Vincula la sanidad a la condición de asegurado, excluye a inmigrantes irregulares e implanta copagos farmacéuticos para pensionistas y por renta.",
-"partido": ""
-},
-{
-"id": "130/000018",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Ajustes en aguas, residuos y patrimonio natural; efectos ambientales de signo no determinable con seguridad.",
-"partido": ""
-},
-{
-"id": "130/000019",
-"tipo": "eco",
-"imp": {
-"secFin": -1
-},
-"peso": 2,
-"nota": "Exige a la banca provisiones adicionales y sociedades para separar sus activos inmobiliarios.",
-"partido": ""
-},
-{
-"id": "130/000020",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"secCom": 1
-},
-"peso": 2,
-"nota": "Suprime la licencia previa para pequeños comercios y servicios; facilita su apertura.",
-"partido": ""
-},
-{
-"id": "130/000021",
-"tipo": "eco",
-"imp": {
-"ciud": -1,
-"cons": -1,
-"funA1": -1,
-"funA2": -1,
-"funB": -1,
-"funC1": -1,
-"funC2E": -1,
-"proSan": -1,
-"proDoc": -1,
-"proSeg": -1,
-"desPres": -1,
-"desSub": -1,
-"adultos": -1,
-"depend": -1
-},
-"peso": 3,
-"nota": "Sube el IVA, suprime la paga extra pública, recorta el paro desde el sexto mes, el subsidio de mayores de 52 y la dependencia.",
-"partido": ""
-},
-{
-"id": "130/000022",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Crea el fondo de liquidez autonómico y ajusta normas financieras; financiación territorial sin efecto sobre colectivos.",
-"partido": ""
-},
-{
-"id": "130/000023",
-"tipo": "eco",
-"imp": {
-"ciud": -1,
-"secTrans": 1
-},
-"peso": 2,
-"nota": "Divide Renfe y Adif y abre servicios ferroviarios a operadores privados; regla de lo público frente a lo privado.",
-"partido": ""
-},
-{
-"id": "130/000024",
-"tipo": "eco",
-"imp": {
-"desSub": 1,
-"pobreza": 1
-},
-"peso": 1,
-"nota": "Prorroga la ayuda de 400 euros a parados que agotaron su protección y tienen cargas familiares.",
-"partido": ""
-},
-{
-"id": "130/000025",
-"tipo": "eco",
-"imp": {
-"secFin": 1,
-"cons": -1,
-"prop1": -1
-},
-"peso": 3,
-"nota": "Rescate bancario: recapitalización pública, Sareb y reparto de pérdidas con titulares de preferentes y deuda subordinada.",
-"partido": ""
-},
-{
-"id": "130/000026",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"secPrim": 1,
-"empAut": 1,
-"empMicro": 1,
-"rural": 1
-},
-"peso": 1,
-"nota": "Ayudas por incendios forestales y otras catástrofes a afectados, explotaciones agrarias y pequeños negocios.",
-"partido": ""
-},
-{
-"id": "130/000027",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Crédito extraordinario para pagar programas especiales de armamento; beneficia a la industria de defensa.",
-"partido": ""
-},
-{
-"id": "130/000028",
-"tipo": "eco",
-"imp": {
-"hipot": 1,
-"pobreza": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Suspende dos años los desahucios de deudores hipotecarios vulnerables y crea un fondo social de viviendas.",
-"partido": ""
-},
-{
-"id": "130/000029",
-"tipo": "eco",
-"imp": {
-"pen1": -1,
-"pen2": -1,
-"pen3": -1,
-"mayores": -1
-},
-"peso": 2,
-"nota": "Deja sin compensar la desviación del IPC de 2012 en las pensiones y las revaloriza entre el 1 % y el 2 % en 2013.",
-"partido": ""
-},
-{
-"id": "130/000030",
-"tipo": "eco",
-"imp": {
-"mujeres": 1,
-"inmigrantes": 1,
-"asal1": 1
-},
-"peso": 1,
-"nota": "Mejora la gestión y protección social de las empleadas de hogar, mayoritariamente mujeres y migrantes.",
-"partido": ""
-},
-{
-"id": "130/000031",
-"tipo": "eco",
-"imp": {
-"desSub": 1,
-"pobreza": 1
-},
-"peso": 1,
-"nota": "Prorroga la ayuda a parados que agotaron su protección y tienen cargas familiares.",
-"partido": ""
-},
-{
-"id": "130/000032",
-"tipo": "eco",
-"imp": {
-"secInd": -1
-},
-"peso": 2,
-"nota": "Desvincula del IPC general la retribución regulada eléctrica y suprime la opción de prima sobre mercado de renovables.",
-"partido": ""
-},
-{
-"id": "130/000033",
-"tipo": "soc",
-"imp": {
-"victimas": 1,
-"mujeres": 1,
-"pobreza": 1
-},
-"peso": 1,
-"nota": "Rebaja tasas judiciales para personas físicas y da justicia gratuita a víctimas de violencia de género, terrorismo y trata.",
-"partido": ""
-},
-{
-"id": "130/000034",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"jovenes": 1,
-"desPres": 1
-},
-"peso": 2,
-"nota": "Tarifa plana de cotización para jóvenes autónomos, IVA de caja e incentivos a la contratación de jóvenes.",
-"partido": ""
-},
-{
-"id": "130/000035",
-"tipo": "eco",
-"imp": {
-"adultos": -1,
-"desSub": -1,
-"mayores": 1
-},
-"peso": 2,
-"nota": "Endurece la jubilación anticipada y parcial y el subsidio de mayores de 55; permite compatibilizar pensión y trabajo.",
-"partido": ""
-},
-{
-"id": "130/000036",
-"tipo": "eco",
-"imp": {
-"prop1": 1,
-"cons": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Arbitraje y liquidez para pequeños titulares de preferentes de entidades intervenidas, con derrama de la banca al fondo de garantía.",
-"partido": ""
-},
-{
-"id": "130/000037",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Medidas tributarias, presupuestarias y de I+D diversas; el título no permite determinar colectivos afectados.",
-"partido": ""
-},
-{
-"id": "130/000038",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 2,
-"nota": "Nueva fase del pago a proveedores de las administraciones, en gran parte pymes y autónomos, y ayuda a ayuntamientos.",
-"partido": ""
-},
-{
-"id": "130/000039",
-"tipo": "eco",
-"imp": {
-"secInd": -1,
-"empGran": -1,
-"pobreza": 1
-},
-"peso": 2,
-"nota": "Recorta la retribución de renovables y redes y carga el bono social a las grandes eléctricas; protege a consumidores vulnerables.",
-"partido": ""
-},
-{
-"id": "130/000040",
-"tipo": "eco",
-"imp": {
-"secInd": 1
-},
-"peso": 1,
-"nota": "Créditos para Industria y Defensa, sobre todo programas de armamento, y para prestaciones del servicio de empleo.",
-"partido": ""
-},
-{
-"id": "130/000041",
-"tipo": "eco",
-"imp": {
-"asal1": 1,
-"mujeres": 1,
-"desSub": -1
-},
-"peso": 2,
-"nota": "Mejora el cómputo de cotizaciones para pensiones de trabajadores a tiempo parcial, mayoritariamente mujeres, tras una sentencia europea.",
-"partido": ""
-},
-{
-"id": "130/000042",
-"tipo": "soc",
-"imp": {},
-"peso": 1,
-"nota": "Suplemento de crédito para el CSIC; financiación de la investigación sin colectivo concreto.",
-"partido": ""
-},
-{
-"id": "130/000043",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1,
-"cons": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Préstamo al fondo de pago a proveedores, plan de empleo canario y ayudas PIVE para comprar coches eficientes.",
-"partido": ""
-},
-{
-"id": "130/000044",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Adapta la normativa de solvencia bancaria europea; norma técnica.",
-"partido": ""
-},
-{
-"id": "130/000045",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Divide Adif en dos entidades públicas y otras medidas económicas; organización administrativa.",
-"partido": ""
-},
-{
-"id": "130/000046",
-"tipo": "eco",
-"imp": {
-"infancia": 1
-},
-"peso": 2,
-"nota": "Flexibiliza contratos a tiempo parcial y en prácticas, amplía la base de cotización y la reducción de jornada por hijos hasta 12 años.",
-"partido": ""
-},
-{
-"id": "130/000047",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secInd": -1
-},
-"peso": 1,
-"nota": "Fija el precio de la luz del primer trimestre de 2014 tras anular la subasta; contiene la subida al consumidor.",
-"partido": ""
-},
-{
-"id": "130/000048",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Medidas diversas sobre infraestructuras y transportes; el título no permite determinar colectivos afectados.",
-"partido": ""
-},
-{
-"id": "130/000049",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"secPrim": 1,
-"empAut": 1,
-"empMicro": 1
-},
-"peso": 1,
-"nota": "Ayudas por los temporales de la costa atlántica y cantábrica a afectados, explotaciones y pequeños negocios.",
-"partido": ""
-},
-{
-"id": "130/000050",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"empMicro": 1,
-"empPeq": 1
-},
-"peso": 2,
-"nota": "Tarifa plana de 100 euros de cotización por nuevos contratos indefinidos; abarata la contratación.",
-"partido": ""
-},
-{
-"id": "130/000051",
-"tipo": "eco",
-"imp": {
-"empPeq": 1,
-"empMed": 1,
-"empGran": 1
-},
-"peso": 2,
-"nota": "Facilita refinanciar y reestructurar la deuda de empresas endeudadas antes del concurso.",
-"partido": ""
-},
-{
-"id": "130/000052",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Oferta extraordinaria de empleo público contra el fraude fiscal; organización administrativa sin colectivo concreto.",
-"partido": ""
-},
-{
-"id": "130/000053",
-"tipo": "eco",
-"imp": {
-"ciud": -1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Regula el concurso para adjudicar a una empresa la explotación de la mina de Aznalcóllar; cede un recurso público.",
-"partido": ""
-},
-{
-"id": "130/000054",
-"tipo": "eco",
-"imp": {
-"cons": 1,
-"secInd": 1
-},
-"peso": 1,
-"nota": "Créditos para el plan de I+D y ayudas PIVE a la compra de coches eficientes.",
-"partido": ""
-},
-{
-"id": "130/000055",
-"tipo": "eco",
-"imp": {
-"jovenes": 1,
-"ciud": -1,
-"secTrans": 1,
-"empGran": 1,
-"secInd": -1
-},
-"peso": 3,
-"nota": "Garantía Juvenil, privatización parcial de Aena, liberalización comercial y fondo de eficiencia energética pagado por energéticas.",
-"partido": ""
-},
-{
-"id": "130/000056",
-"tipo": "soc",
-"imp": {
-"pac": 1
-},
-"peso": 1,
-"nota": "Normas de calidad y seguridad para células y tejidos humanos; protege a los pacientes receptores.",
-"partido": ""
-},
-{
-"id": "130/000057",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Créditos para Exteriores, Defensa y Agricultura; gasto presupuestario sin colectivo concreto.",
-"partido": ""
-},
-{
-"id": "130/000058",
-"tipo": "eco",
-"imp": {
-"empPeq": 1,
-"empMed": 1,
-"empGran": 1
-},
-"peso": 1,
-"nota": "Facilita convenios concursales para mantener la actividad de empresas viables.",
-"partido": ""
-},
-{
-"id": "130/000059",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Créditos para varios ministerios; gasto presupuestario sin colectivo concreto.",
-"partido": ""
-},
-{
-"id": "130/000060",
-"tipo": "eco",
-"imp": {
-"cons": -1,
-"secInd": 1,
-"empGran": 1
-},
-"peso": 2,
-"nota": "Hiberna el almacén Castor e indemniza a su concesionaria con cargo a los consumidores de gas.",
-"partido": ""
-},
-{
-"id": "130/000061",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Créditos para varios ministerios; gasto presupuestario sin colectivo concreto.",
-"partido": ""
-},
-{
-"id": "130/000062",
-"tipo": "eco",
-"imp": {},
-"peso": 1,
-"nota": "Modifica el Régimen Económico y Fiscal de Canarias; régimen territorial sin colectivo diferenciado en la web.",
-"partido": ""
-},
-{
-"id": "130/000063",
-"tipo": "eco",
-"imp": {
-"desSub": 1,
-"pobreza": 1
-},
-"peso": 1,
-"nota": "Ayuda a parados de larga duración que agotaron sus prestaciones y tienen cargas familiares.",
-"partido": ""
-},
-{
-"id": "130/000064",
-"tipo": "eco",
-"imp": {},
-"peso": 2,
-"nota": "Fondo de financiación de comunidades autónomas y entidades locales; norma de financiación territorial.",
-"partido": ""
-},
-{
-"id": "130/000065",
-"tipo": "eco",
-"imp": {
-"empAut": 1,
-"pobreza": 1,
-"hipot": 1,
-"secFin": -1
-},
-"peso": 2,
-"nota": "Segunda oportunidad: exoneración de deudas de particulares y autónomos y más protección hipotecaria; reduce cobros de la banca.",
-"partido": ""
-},
-{
-"id": "130/000066",
-"tipo": "eco",
-"imp": {
-"victimas": 1,
-"secPrim": 1,
-"empAut": 1,
-"empMicro": 1
-},
-"peso": 1,
-"nota": "Ayudas por inundaciones y temporales de 2015 a afectados, explotaciones agrarias y pequeños negocios.",
-"partido": ""
-}
+ {
+  "id": "122/000204",
+  "tipo": "soc",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo para combatir la pobreza y la exclusión social; beneficia a personas en riesgo de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "122/000205",
+  "tipo": "soc",
+  "imp": {
+   "mayores": 1,
+   "pac": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1
+  },
+  "peso": 2,
+  "nota": "Suprime los copagos sanitarios y farmacéuticos introducidos en 2012, incluido el de pensionistas; beneficia a pacientes y pensionistas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000206",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "inmigrantes": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Restablece la cobertura sanitaria pública universal, incluidos extranjeros sin permiso de residencia; mejora el acceso al servicio público y beneficia a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000207",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre el control previo de constitucionalidad de proyectos de estatuto de autonomía.",
+  "partido": ""
+ },
+ {
+  "id": "122/000208",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía el acceso a la nacionalidad española de descendientes nacidos en el extranjero; los afectados no coinciden con un colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000209",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía el acceso a la nacionalidad española de descendientes nacidos en el extranjero; los afectados no coinciden con un colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000210",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la licencia federativa única; sin colectivo con efecto claro en la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000211",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza el voto secreto de las personas ciegas en las elecciones municipales; beneficia a personas con discapacidad visual.",
+  "partido": ""
+ },
+ {
+  "id": "122/000212",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Declara no sujetas a IVA las entregas gratuitas de alimentos a bancos de alimentos; no regula un sector ni un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000213",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre la ejecución de las resoluciones del Tribunal Constitucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000214",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la oficialidad y el uso del castellano; sin efecto sobre colectivos de la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000215",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la oficialidad y el uso del castellano; sin efecto sobre colectivos de la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000216",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Grava la matriculación de vehículos según sus emisiones contaminantes para mejorar la calidad del aire; mejora la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "123/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delega en la Generalitat la competencia para convocar un referéndum consultivo; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "125/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prohíbe actos políticos en competiciones deportivas profesionales; sin colectivo con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce al autor la explotación de su obra con licencias libres; sin colectivo definido en la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "125/000003",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Precisa criterios de inversión estatal entre comunidades autónomas; norma institucional de financiación territorial.",
+  "partido": ""
+ },
+ {
+  "id": "125/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el procedimiento de voto de residentes en el exterior; norma electoral.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede a propietarios costeros gallegos concesión gratuita en el dominio público marítimo-terrestre y regula asentamientos rurales; alcance autonómico.",
+  "partido": ""
+ },
+ {
+  "id": "125/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula competencias y prioridades de uso del agua en Castilla-La Mancha; reparto territorial sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000007",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1,
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Declara nulas las cláusulas contractuales que excluyan a personas con VIH/SIDA; beneficia a pacientes y consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "125/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delega en Andalucía competencias sobre aguas del Guadalquivir; traspaso entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "125/000009",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo para homogeneizar y subvencionar peajes; reduce el precio del peaje a los usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "125/000010",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protección por desempleo para parlamentarios autonómicos; colectivo propio sin correspondencia en los colectivos de la web.",
+  "partido": ""
+ },
+ {
+  "id": "125/000011",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula el sobreendeudamiento familiar y suspende ejecuciones hipotecarias de la vivienda habitual; beneficia a hipotecados y carga a las entidades de crédito.",
+  "partido": ""
+ },
+ {
+  "id": "125/000012",
+  "tipo": "soc",
+  "imp": {
+   "cons": 1,
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Declara nulas las cláusulas contractuales que excluyan a personas con VIH/SIDA; beneficia a pacientes y consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "125/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delega en la Generalitat la competencia para convocar un referéndum consultivo; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "125/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Agrega dos municipios burgaleses a la provincia de Álava; alteración de límites provinciales.",
+  "partido": ""
+ },
+ {
+  "id": "125/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma institucional de tres artículos de la Constitución; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exige el conocimiento de la lengua cooficial a personal de justicia en comunidades con lengua propia; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "125/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la adquisición de la vecindad civil por residencia; norma de derecho civil sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000018",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Baja el IVA de libros digitales, instrumentos musicales y entradas culturales; beneficia a consumidores y al sector de ocio y espectáculos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prevé un plan de apoyo al deporte base y su régimen laboral; sin colectivo con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000020",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000001",
+  "tipo": "eco",
+  "imp": {
+   "asal1": -1,
+   "asal2": -1,
+   "asal3": -1,
+   "asal4": -1,
+   "asal5": -1,
+   "asal6": -1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1,
+   "pen1": 1,
+   "viv1": -1,
+   "viv2": -1
+  },
+  "peso": 3,
+  "nota": "Recargo temporal del IRPF y del IBI, congelación de sueldos y recortes a empleados públicos, fin de la congelación de pensiones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000002",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Suspende los incentivos económicos a nuevas instalaciones de renovables, cogeneración y residuos; perjudica a los productores de energía.",
+  "partido": ""
+ },
+ {
+  "id": "130/000003",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone saneamiento de activos inmobiliarios y mayores provisiones a las entidades de crédito; perjudica al sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "130/000004",
+  "tipo": "eco",
+  "imp": {
+   "asal1": -1,
+   "asal2": -1,
+   "asal3": -1,
+   "asal4": -1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 3,
+  "nota": "Reforma laboral: abarata el despido y flexibiliza contratación, jornada y negociación colectiva; reduce protecciones de asalariados y costes de pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000005",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija obligaciones de información y un mecanismo de financiación para pagar a los proveedores de las entidades locales; el texto no detalla beneficiarios.",
+  "partido": ""
+ },
+ {
+  "id": "130/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la mediación civil y mercantil; norma procesal sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000007",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Protege a deudores hipotecarios sin recursos con medidas de alivio de la deuda y de la vivienda habitual.",
+  "partido": ""
+ },
+ {
+  "id": "130/000008",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un fondo para financiar el pago a proveedores; el texto disponible no detalla beneficiarios ni condiciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000009",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 1,
+  "nota": "Refuerza los derechos de los consumidores en contratos de aprovechamiento por turno y obliga a los operadores turísticos del sector.",
+  "partido": ""
+ },
+ {
+  "id": "130/000010",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Simplifica obligaciones de información en fusiones y escisiones de sociedades; sin distinguir tamaños ni sectores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000011",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta normas financieras a las facultades de las autoridades europeas de supervisión; norma técnica sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000012",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Agiliza el pago de ayudas a los damnificados por el terremoto de Lorca y la reconstrucción de inmuebles.",
+  "partido": ""
+ },
+ {
+  "id": "130/000013",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000014",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000015",
+  "tipo": "soc",
+  "imp": {
+   "estud": -1,
+   "proDoc": -1
+  },
+  "peso": 2,
+  "nota": "Aumenta la carga lectiva y los ratios del profesorado y eleva las tasas universitarias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el régimen de administración de la corporación pública RTVE; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000017",
+  "tipo": "soc",
+  "imp": {
+   "ciud": -1,
+   "inmigrantes": -1,
+   "mayores": -1,
+   "pac": -1,
+   "pen1": -1,
+   "pen2": -1,
+   "pen3": -1
+  },
+  "peso": 3,
+  "nota": "Restringe la condición de asegurado, introduce copago farmacéutico a pensionistas y recorta prestaciones del sistema sanitario público.",
+  "partido": ""
+ },
+ {
+  "id": "130/000018",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido: medidas urgentes de medio ambiente sin detalle conocido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000019",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las entidades financieras a dotar provisiones adicionales y a segregar sus activos inmobiliarios.",
+  "partido": ""
+ },
+ {
+  "id": "130/000020",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Libera la apertura de pequeños establecimientos comerciales y flexibiliza horarios y actividades del comercio y servicios.",
+  "partido": ""
+ },
+ {
+  "id": "130/000021",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "depend": -1,
+   "desPres": -1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1
+  },
+  "peso": 3,
+  "nota": "Sube el IVA, suprime la paga extra de los empleados públicos y reduce la prestación por desempleo y la ayuda a la dependencia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000022",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Establece mecanismos de liquidez para administraciones públicas y entidades financieras; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000023",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000024",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Prorroga el programa de recualificación con ayuda económica a quienes agotan la protección por desempleo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000025",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la reestructuración y resolución de entidades de crédito; el texto no permite determinar a quién beneficia o perjudica.",
+  "partido": ""
+ },
+ {
+  "id": "130/000026",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Aprueba medidas para paliar los daños de incendios forestales y otras catástrofes naturales en varias comunidades.",
+  "partido": ""
+ },
+ {
+  "id": "130/000027",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Crédito extraordinario para pagar entregas ya realizadas de programas especiales de armamento; beneficia a la industria de defensa.",
+  "partido": ""
+ },
+ {
+  "id": "130/000028",
+  "tipo": "soc",
+  "imp": {
+   "hipot": 1,
+   "pobreza": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Suspende los lanzamientos de familias hipotecadas especialmente vulnerables y obliga a las entidades de crédito a paralizarlos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000029",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000030",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1
+  },
+  "peso": 2,
+  "nota": "Fija el incremento de las pensiones de 2013 (2 % hasta 14.000 € anuales, 1 % el resto) y modifica cotización de empleados de hogar.",
+  "partido": ""
+ },
+ {
+  "id": "130/000031",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Prorroga el programa de recualificación con ayuda económica a las personas desempleadas que agotan su protección.",
+  "partido": ""
+ },
+ {
+  "id": "130/000032",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Cambia la actualización de la retribución del sector eléctrico, con efecto negativo para los productores; incluye medidas financieras sin detalle.",
+  "partido": ""
+ },
+ {
+  "id": "130/000033",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Reduce el efecto de las tasas judiciales y amplía la asistencia jurídica gratuita a víctimas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000034",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Apoya al emprendedor con reducciones de cotización a jóvenes autónomos e incentivos de contratación para microempresas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000035",
+  "tipo": "eco",
+  "imp": {
+   "adultos": -1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Permite compatibilizar pensión y trabajo y endurece los requisitos de la jubilación parcial y anticipada.",
+  "partido": ""
+ },
+ {
+  "id": "130/000036",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Protege a los titulares de preferentes y otros productos de ahorro con vías de reclamación a cargo de las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "130/000037",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000038",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000039",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Cambia la retribución de renovables y otras actividades del sector eléctrico para reducir su déficit, con efecto negativo para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "130/000040",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Créditos extraordinarios para ayudas al vehículo eficiente y pagos de programas de armamento; apoya a la industria del automóvil y de defensa.",
+  "partido": ""
+ },
+ {
+  "id": "130/000041",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000042",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede un suplemento de crédito al CSIC; solo dotación presupuestaria.",
+  "partido": ""
+ },
+ {
+  "id": "130/000043",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Créditos extraordinarios para el fondo de pago a proveedores, empleo en Canarias, vacunación internacional y ayudas PIVE-4; sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000044",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el derecho español a la normativa europea de supervisión y solvencia financiera; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "130/000045",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reestructura el ente público ferroviario ADIF; norma organizativa sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000047",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija el precio de la electricidad para el pequeño consumidor en el primer trimestre de 2014; el texto no permite determinar el signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000048",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido de la reforma de infraestructuras y transportes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000049",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Repara los daños causados por las tormentas de 2014 en la costa atlántica y cantábrica.",
+  "partido": ""
+ },
+ {
+  "id": "130/000050",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Reduce a una cuota fija las cotizaciones empresariales por contratos indefinidos nuevos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000051",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000052",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prevé plazas extraordinarias de empleo público para la lucha contra el fraude fiscal; sin colectivo con efecto directo y claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000053",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Regula por concurso el otorgamiento de la explotación minera de Aznalcóllar, con exigencias de garantías medioambientales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000054",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crédito para el plan de investigación e innovación y para las ayudas PIVE-6 a la compra de vehículos; sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Crea el Sistema Nacional de Garantía Juvenil con medidas de empleo para jóvenes y otras medidas económicas diversas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000056",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Fija normas de calidad y seguridad de células y tejidos humanos para trasplantes, en beneficio de los pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000057",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede créditos extraordinarios a Exteriores, Defensa y Agricultura; solo dotación presupuestaria.",
+  "partido": ""
+ },
+ {
+  "id": "130/000058",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000059",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede créditos extraordinarios a varios ministerios; solo dotación presupuestaria.",
+  "partido": ""
+ },
+ {
+  "id": "130/000060",
+  "tipo": "eco",
+  "imp": {
+   "cons": -1
+  },
+  "peso": 1,
+  "nota": "Compensa la indemnización del almacenamiento de gas cargándola al sistema gasista, con coste para los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "130/000061",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede créditos extraordinarios a varios departamentos; solo dotación presupuestaria.",
+  "partido": ""
+ },
+ {
+  "id": "130/000062",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica incentivos fiscales del régimen especial de Canarias (reserva para inversiones, zona especial); ámbito territorial limitado y sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000063",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 2,
+  "nota": "Regula un programa de activación para el empleo con ayuda económica a desempleados sin prestación; beneficia a quienes la reciben.",
+  "partido": ""
+ },
+ {
+  "id": "130/000064",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de financiación y sostenibilidad financiera entre administraciones autonómicas y locales; no consta efecto directo con signo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000065",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000066",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Medidas urgentes de reparación de daños por inundaciones y temporales; beneficia a los afectados.",
+  "partido": ""
+ }
 ]

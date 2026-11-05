@@ -1,0 +1,521 @@
+[
+ {
+  "id": "130/000007",
+  "tipo": "soc",
+  "imp": {
+   "hipot": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Protege a deudores hipotecarios sin recursos mediante medidas de alivio de la deuda y de la vivienda.",
+  "partido": ""
+ },
+ {
+  "id": "130/000008",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea un fondo para financiar el pago a proveedores de administraciones; sin tamaño ni sector definidos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000009",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 1,
+  "nota": "Refuerza la protección de los compradores de aprovechamiento por turno y productos vacacionales e impone obligaciones a las empresas del sector.",
+  "partido": ""
+ },
+ {
+  "id": "130/000010",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Simplifica obligaciones de información en fusiones y escisiones de sociedades; norma técnica sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000011",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta normas financieras a las facultades de las autoridades europeas de supervisión; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "130/000012",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Agiliza el pago de ayudas a los damnificados por el terremoto de Lorca y la reconstrucción de inmuebles.",
+  "partido": ""
+ },
+ {
+  "id": "130/000013",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000014",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000015",
+  "tipo": "soc",
+  "imp": {
+   "estud": -1,
+   "proDoc": -1,
+   "ciud": -1
+  },
+  "peso": 2,
+  "nota": "Sube ratios de alumnos y horas lectivas, retrasa las sustituciones docentes y encarece las tasas universitarias.",
+  "partido": ""
+ },
+ {
+  "id": "130/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el régimen de administración de la corporación RTVE; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000017",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": -1,
+   "pac": -1,
+   "pen2": -1,
+   "pen3": -1,
+   "ciud": -1
+  },
+  "peso": 2,
+  "nota": "Restringe la condición de asegurado, excluye a extranjeros en situación irregular y establece aportación farmacéutica de pensionistas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000018",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000019",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las entidades financieras a aumentar las provisiones sobre sus activos inmobiliarios y a sanearlos o venderlos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000020",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Libera la apertura de comercios y servicios, ampliando los establecimientos que operan sin licencia previa.",
+  "partido": ""
+ },
+ {
+  "id": "130/000021",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1,
+   "desPres": -1,
+   "depend": -1
+  },
+  "peso": 3,
+  "nota": "Sube el IVA general, suprime la paga extra de empleados públicos y reduce la prestación por desempleo y la ayuda a la dependencia.",
+  "partido": ""
+ },
+ {
+  "id": "130/000022",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de liquidez de las administraciones y en el ámbito financiero; sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000023",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000024",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Prorroga el programa de recualificación con ayuda económica a quienes agotan la protección por desempleo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000025",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000026",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Establece ayudas para paliar los daños de los incendios forestales y otras catástrofes naturales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000027",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Crédito extraordinario para pagar a los fabricantes los programas especiales de armamento ya entregados.",
+  "partido": ""
+ },
+ {
+  "id": "130/000028",
+  "tipo": "soc",
+  "imp": {
+   "hipot": 1,
+   "pobreza": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Suspende los desahucios de familias hipotecadas vulnerables y exige a las entidades de crédito medidas de protección.",
+  "partido": ""
+ },
+ {
+  "id": "130/000029",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000030",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Sube las pensiones en 2013 (2 % hasta 14.000 € anuales, 1 % el resto); regula cotizaciones de empleados de hogar; suspende cambios de jubilación.",
+  "partido": ""
+ },
+ {
+  "id": "130/000031",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Prorroga el programa de recualificación con ayuda económica a las personas desempleadas que agotan su protección.",
+  "partido": ""
+ },
+ {
+  "id": "130/000032",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas urgentes en el sistema eléctrico y el financiero de signos mixtos que el título no precisa.",
+  "partido": ""
+ },
+ {
+  "id": "130/000033",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Reduce tasas judiciales de las personas físicas, añade exenciones y amplía los supuestos de asistencia jurídica gratuita.",
+  "partido": ""
+ },
+ {
+  "id": "130/000034",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1,
+   "empAut": 1,
+   "empMicro": 1
+  },
+  "peso": 2,
+  "nota": "Apoya al emprendedor con reducciones de cotización a jóvenes autónomos e incentivos de contratación para microempresas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000035",
+  "tipo": "eco",
+  "imp": {
+   "mayores": 1,
+   "adultos": -1
+  },
+  "peso": 2,
+  "nota": "Permite compatibilizar pensión y trabajo y endurece los requisitos de la jubilación parcial y anticipada.",
+  "partido": ""
+ },
+ {
+  "id": "130/000036",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Protege a titulares de productos de ahorro e inversión mediante medidas financieras; sin colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000037",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000038",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000039",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Recorta la retribución de la generación eléctrica, incluidas las renovables, para equilibrar la estabilidad financiera del sistema.",
+  "partido": ""
+ },
+ {
+  "id": "130/000040",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Créditos extraordinarios para pagar programas de armamento y para ayudas PIVE-3, y suplemento para prestaciones por desempleo ya existentes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000041",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000042",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede un suplemento de crédito al Consejo Superior de Investigaciones Científicas; sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000043",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Créditos extraordinarios para el fondo de pago a proveedores, empleo en Canarias, vacunación internacional y ayudas PIVE-4; sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000044",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta el derecho español a la normativa europea de supervisión y solvencia financiera; norma técnica.",
+  "partido": ""
+ },
+ {
+  "id": "130/000045",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reestructura el administrador ferroviario ADIF y otras medidas económicas; sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000047",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija el precio de la electricidad del primer trimestre de 2014 para el pequeño consumidor; el signo no consta en el título.",
+  "partido": ""
+ },
+ {
+  "id": "130/000048",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Abre a capital privado la gestión aeroportuaria y reforma el régimen de puertos y transportes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000049",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 1,
+  "nota": "Repara los daños causados por las tormentas de 2014 en la fachada atlántica y la costa cantábrica.",
+  "partido": ""
+ },
+ {
+  "id": "130/000050",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Reduce a una cuota fija las cotizaciones empresariales por contratos indefinidos nuevos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000051",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000052",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prevé una oferta extraordinaria de empleo público para la lucha contra el fraude fiscal; no cambia condiciones de empleados.",
+  "partido": ""
+ },
+ {
+  "id": "130/000053",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Regula por concurso el otorgamiento de la explotación minera de Aznalcóllar, con exigencias de garantías medioambientales.",
+  "partido": ""
+ },
+ {
+  "id": "130/000054",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crédito para el plan de investigación e innovación y para las ayudas PIVE-6 a la compra de vehículos; sin colectivo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "jovenes": 1
+  },
+  "peso": 2,
+  "nota": "Crea el Sistema Nacional de Garantía Juvenil, con otras medidas de crecimiento y competitividad de signo mixto.",
+  "partido": ""
+ },
+ {
+  "id": "130/000056",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Fija normas de calidad y seguridad para la donación y uso de células y tejidos humanos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000057",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede créditos extraordinarios a varios ministerios; sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000058",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000059",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede créditos extraordinarios y suplementos a varios ministerios; sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "130/000060",
+  "tipo": "eco",
+  "imp": {
+   "cons": -1
+  },
+  "peso": 1,
+  "nota": "Compensa a titulares de almacenamiento gasista con cargo al sistema gasista, que pagan los consumidores, y regula la titularidad nuclear.",
+  "partido": ""
+ },
+ {
+  "id": "130/000061",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede créditos extraordinarios para actuaciones de varios departamentos; sin colectivo con signo claro.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,515 @@
+[
+ {
+  "id": "122/000134",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Sube el SMI un 2,5 % y fija el objetivo del 60 % del salario medio: beneficia a salarios del SMI y encarece su coste.",
+  "partido": ""
+ },
+ {
+  "id": "122/000135",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Elimina el requisito de residencia para conservar la asistencia sanitaria de quienes agotaron la prestación por desempleo; amplía el acceso de pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000136",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma procesal de la competencia de la jurisdicción española en delitos cometidos en el extranjero; sin efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000137",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea régimen de infracciones y multas por incumplir plazos de pago entre empresas; afecta igual a acreedores y deudores sin distinguir tamaños.",
+  "partido": ""
+ },
+ {
+  "id": "122/000138",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 3,
+  "nota": "Sustituye las modalidades de contratación por un contrato único indefinido con indemnización creciente; el signo para cada colectivo no consta.",
+  "partido": ""
+ },
+ {
+  "id": "122/000139",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1
+  },
+  "peso": 2,
+  "nota": "Suprime los nuevos copagos sanitarios y farmacéuticos, incluido el de los pensionistas; beneficia a pacientes y pensionistas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000140",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma institucional del Tribunal Constitucional para recuperar el recurso previo contra reformas de estatutos de autonomía.",
+  "partido": ""
+ },
+ {
+  "id": "122/000141",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma institucional del Tribunal Constitucional para recuperar el recurso previo contra proyectos de estatutos de autonomía.",
+  "partido": ""
+ },
+ {
+  "id": "122/000142",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye la amnistía para crímenes de lesa humanidad del franquismo y permite revisar resoluciones; norma penal sin derechos ni ayudas expresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000143",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delega en la Generalitat de Cataluña la competencia para convocar un referéndum consultivo; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000144",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la recuperación para uso civil de bienes de Defensa de interés histórico o ambiental; gestión patrimonial pública sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000145",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000146",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma la ley de secretos oficiales sobre clasificación y acceso a información; norma institucional sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000147",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obliga a remitir los anteproyectos a las Cortes Generales; norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000148",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "inmigrantes": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Universaliza la asistencia sanitaria pública, incluidos extranjeros sin permiso de residencia; mejora el acceso al servicio público.",
+  "partido": ""
+ },
+ {
+  "id": "122/000149",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Recupera la exención de IRPF de indemnizaciones por despido extinguido antes de la conciliación; sin umbral de renta ni colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000150",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite a los trabajadores instar la extinción colectiva si el empleador no lo hace y acceder a desempleo; sin colectivo del catálogo definido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000151",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Flexibiliza la contratación de personal investigador en universidades y organismos públicos; colectivo reducido sin encaje en el catálogo.",
+  "partido": ""
+ },
+ {
+  "id": "122/000152",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 2,
+  "nota": "Regula el autoconsumo con balance neto para consumidores domésticos y pequeñas empresas, eliminando barreras y peajes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000153",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Permite a los ayuntamientos destinar el superávit a inversiones financieramente sostenibles; reglas de financiación local.",
+  "partido": ""
+ },
+ {
+  "id": "122/000154",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza la devolución del valor nominal de preferentes a ahorradores sin experiencia financiera; refuerza garantías de clientes bancarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000155",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 1,
+  "nota": "Mejora las pensiones de incapacidad y la jubilación parcial de las clases pasivas, revirtiendo recortes a empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000156",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la participación de las Cortes Generales en las políticas de la Unión Europea; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000157",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Crea un concurso especial para consumidores con protección de la vivienda hipotecada y posibilidad de extinguir la deuda restante.",
+  "partido": ""
+ },
+ {
+  "id": "122/000158",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma procesal de la competencia de la jurisdicción española en delitos cometidos en el extranjero; sin efecto sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000159",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1,
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Protege a consumidores vulnerables: suministro eléctrico y de gas a precio asequible y prohibición de cortes en periodos críticos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000160",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía incentivos fiscales al mecenazgo y a entidades sin fines lucrativos; sin colectivo con identificador.",
+  "partido": ""
+ },
+ {
+  "id": "122/000161",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Endurece la regulación del cigarrillo electrónico equiparándola al tabaco en usos y publicidad; mejora la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "122/000162",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transfiere a Galicia las competencias de salvamento marítimo y lucha contra la contaminación marina; traspaso entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000163",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000164",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga un tipo penal de coacciones a la huelga; norma penal sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000165",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Rebaja el IVA de agua, electricidad, gas y transporte; beneficia a los usuarios de estos suministros y servicios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000166",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la designación de concejales cuando se agota la lista electoral; norma electoral sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000167",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga un tipo penal de coacciones a la huelga; norma penal sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000168",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el embargo de armas a Estados invasores u ocupantes; política exterior sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000169",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "adultos": 1
+  },
+  "peso": 2,
+  "nota": "Facilita el acceso a la jubilación anticipada, computa más cotización y suprime penalizaciones en la cuantía de la pensión.",
+  "partido": ""
+ },
+ {
+  "id": "122/000170",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 2,
+  "nota": "Reforma el sistema electoral para aumentar la proporcionalidad; norma institucional sin colectivo marcado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000171",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1,
+   "discapacidad": 1,
+   "victimas": 1,
+   "adultos": 1
+  },
+  "peso": 2,
+  "nota": "Extiende el subsidio por desempleo a parados de larga duración sin ingresos con cargas familiares, mayores de 45, discapacitados y víctimas de violencia.",
+  "partido": ""
+ },
+ {
+  "id": "122/000172",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la elección parlamentaria de los órganos de la corporación de radio y televisión estatal; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000173",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Mejora la prestación económica por hijo o menor acogido a cargo; beneficia a familias con hijos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000174",
+  "tipo": "soc",
+  "imp": {
+   "hipot": 1,
+   "pobreza": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Amplía la suspensión de lanzamientos de la vivienda habitual de deudores hipotecarios vulnerables y flexibiliza requisitos; limita a acreedores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000175",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Garantiza a trabajadores subcontratados las condiciones esenciales de la empresa principal; derecho ligado a una situación, sin tramos ni sector definidos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000176",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Aplica el IVA del 4 % a la electricidad y el gas de consumidores vulnerables; reduce su factura.",
+  "partido": ""
+ },
+ {
+  "id": "122/000177",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Deroga las tasas judiciales; mejora el acceso a la justicia como servicio público.",
+  "partido": ""
+ },
+ {
+  "id": "122/000178",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la disposición sobre el régimen de Convenio Económico de Navarra en la financiación autonómica; asunto entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000179",
+  "tipo": "soc",
+  "imp": {
+   "infancia": 1,
+   "depend": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Amplía la reducción de jornada con prestación al cuidado de menores o familiares con cáncer u otra enfermedad grave.",
+  "partido": ""
+ },
+ {
+  "id": "122/000180",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Suprime el retracto convencional en la compraventa; norma civil sin colectivo con identificador.",
+  "partido": ""
+ },
+ {
+  "id": "122/000181",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 1,
+  "nota": "Las ayudas autonómicas de inserción no computan como renta para el subsidio por desempleo; amplía el acceso.",
+  "partido": ""
+ },
+ {
+  "id": "122/000182",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
+  },
+  "peso": 2,
+  "nota": "Repone la deducción en el Impuesto sobre Sociedades por inversiones de mejora ambiental; beneficia a las empresas contribuyentes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000183",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Transfiere la titularidad de la AP-9 a Galicia; traspaso entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000184",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Simplifica obligaciones tributarias de entidades sin ánimo de lucro pequeñas; sin colectivo con identificador.",
+  "partido": ""
+ },
+ {
+  "id": "122/000185",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000186",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000187",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Limita la cuota de mercado de los grandes operadores de carburantes y reduce barreras de entrada; busca moderar precios para los consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "122/000188",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula las retribuciones de miembros del Gobierno, altos cargos y cargos electos; norma institucional sin colectivo marcado.",
+  "partido": ""
+ }
+]

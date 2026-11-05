@@ -1,0 +1,506 @@
+[
+ {
+  "id": "120/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula contenidos y pluralismo lingüístico en televisión; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000003",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 3,
+  "nota": "Limita la contratación temporal y el despido; mejora derechos de asalariados y encarece el coste laboral de las pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "120/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el régimen del personal de la Guardia Civil; el título no permite determinar si mejora o empeora sus condiciones.",
+  "partido": ""
+ },
+ {
+  "id": "120/000005",
+  "tipo": "soc",
+  "imp": {
+   "secPrim": 1,
+   "secCom": 1
+  },
+  "peso": 1,
+  "nota": "Declara la tauromaquia bien de interés cultural y la protege; beneficia a la ganadería de lidia y a los espectáculos taurinos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "soc",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1,
+   "inq": 1
+  },
+  "peso": 2,
+  "nota": "Regula la dación en pago, paraliza desahucios hipotecarios y crea alquiler social; favorece a deudores hipotecarios e inquilinos y supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "120/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea una comisión de investigación sobre adopciones irregulares; no otorga derechos ni ayudas concretas a un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000010",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Medidas sanitarias, fiscales y de integración para personas celíacas; beneficia a este grupo de pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000012",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 3,
+  "nota": "Revierte la congelación de las pensiones de 2011, restableciendo su revalorización; beneficia a pensionistas de todos los tramos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Elimina la prohibición de seleccionar el sexo de los hijos; ningún colectivo del catálogo resulta afectado con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "120/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Conmemoración institucional y cultural; sin efecto directo sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "La materia (custodia y relaciones parentales tras la ruptura) no permite fijar con seguridad quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "120/000018",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "La materia (custodia y relaciones parentales tras la ruptura) no permite fijar con seguridad quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "120/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "La materia (custodia y relaciones parentales tras la ruptura) no permite fijar con seguridad quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "120/000020",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000021",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ordena una auditoría del déficit del sector eléctrico; no cambia precios, tarifas ni retribuciones conocidas.",
+  "partido": ""
+ },
+ {
+  "id": "120/000022",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000023",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000024",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000025",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000026",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000027",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000028",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000029",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000030",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Establece protección social para enfermos de fibromialgia y fatiga crónica; beneficia a estos pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000031",
+  "tipo": "soc",
+  "imp": {
+   "depend": 1
+  },
+  "peso": 2,
+  "nota": "Modifica la participación en el coste de las prestaciones de dependencia; beneficia a las personas beneficiarias.",
+  "partido": ""
+ },
+ {
+  "id": "120/000032",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000033",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la mediación como método de resolución de conflictos; norma procesal sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000034",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Devuelve el Registro Civil a gestión pública, gratuita y a cargo de funcionarios; revierte su traspaso a manos privadas.",
+  "partido": ""
+ },
+ {
+  "id": "120/000035",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación de ingresos mínimos en la Seguridad Social; beneficia a personas sin recursos suficientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000036",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "La materia (custodia y relaciones parentales tras la ruptura) no permite fijar con seguridad quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "120/000037",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "La materia (custodia y relaciones parentales tras la ruptura) no permite fijar con seguridad quién gana o pierde.",
+  "partido": ""
+ },
+ {
+  "id": "121/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000002",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000003",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija reglas de estabilidad presupuestaria para las administraciones; norma institucional sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000004",
+  "tipo": "eco",
+  "imp": {
+   "asal1": -1,
+   "asal2": -1,
+   "asal3": -1,
+   "asal4": -1,
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 3,
+  "nota": "Flexibiliza contratación, despido y condiciones laborales; reduce derechos de asalariados y abarata el coste laboral de las pequeñas empresas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la mediación en asuntos civiles y mercantiles; norma procesal sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000006",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": -1
+  },
+  "peso": 1,
+  "nota": "Regula los contratos de aprovechamiento por turno y productos vacacionales; refuerza garantías de los adquirentes y obligaciones de los operadores turísticos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000007",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Simplifica obligaciones documentales en fusiones y escisiones; norma técnica sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000008",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "proSeg": -1,
+   "proSan": -1,
+   "proDoc": -1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1
+  },
+  "peso": 3,
+  "nota": "Presupuestos anuales: congela retribuciones de empleados públicos y revaloriza las pensiones; perjudica a funcionarios y beneficia a pensionistas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000009",
+  "tipo": "eco",
+  "imp": {
+   "ciud": -1,
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Permite a las comunidades gestionar de forma indirecta o transferir a terceros sus televisiones públicas; el sector audiovisual privado puede asumirlas.",
+  "partido": ""
+ },
+ {
+  "id": "121/000010",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas urgentes de medio ambiente con efectos de signo mixto; no se determina un efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000012",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Obliga a las entidades de crédito a sanear y provisionar sus activos inmobiliarios; supone un coste para el sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "121/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ratificación de un tratado de adhesión; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000014",
+  "tipo": "eco",
+  "imp": {
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Liberaliza el comercio minorista eliminando licencias y cargas administrativas; beneficia al sector comercial.",
+  "partido": ""
+ },
+ {
+  "id": "121/000015",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza la lucha contra el fraude fiscal con medidas cautelares, responsabilidades y sanciones; sin colectivo con signo definido.",
+  "partido": ""
+ },
+ {
+  "id": "121/000016",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional o procesal sin efecto directo sobre ningún colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma penal sobre delitos fiscales y contra la Seguridad Social; no se asigna efecto a colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000018",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Amplía las tasas judiciales a personas físicas y crea una tasa por fichas toxicológicas a cargo de empresas químicas.",
+  "partido": ""
+ }
+]

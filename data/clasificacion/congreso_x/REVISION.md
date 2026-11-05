@@ -44,3 +44,12 @@ Ya igualados al integrar: 8 pares de real decreto-ley y su tramitación como pro
 
 - [ ] Seis días de votaciones con el zip corrupto en congreso.es (19/12/2013, 29/05/2014, 25/09/2014, 07/07/2015, 29/09/2015, 20/10/2015): omitidos.
 - [ ] Viera Chacón (exPSOE, en el Mixto desde 2015) no se cuenta en ningún partido.
+
+
+## Reclasificación con la rúbrica v3 (04/11/2026)
+
+Las 510 iniciativas se han reclasificado con la rúbrica v3 por tres lectores independientes (C, D y E), que no vieron la clasificación anterior ni el trabajo de los otros. Texto usado: extracto de hasta 5.000 caracteres del texto oficial (BOCG) de cada iniciativa; en los reales decretos-ley, el de su proyecto de ley; las pocas sin texto publicado, solo con el título. 94 iniciativas que la primera pasada dejó sin efectos se volvieron a leer con más texto oficial. Clasificación final: consolidación por mayoría (`scripts/consolidar_lecturas.py`; un colectivo cuenta si lo marcan 2 de 3; tipo por mayoría; peso, la mediana).
+
+- Coincidencia entre lectores: 85–86 % idéntica, parecido medio 0.89, 0 con signo contrario; 403 de 510 idénticas en las tres lecturas.
+- 247 iniciativas cambian respecto a la clasificación anterior: `lectura_v3/CAMBIOS.md`. Las tres lecturas: `lectura_v3/lecturas.json` y `lectura_v3/<lector>/`.
+- Sin efectos: 229 antes, 307 ahora.

@@ -1,0 +1,517 @@
+[
+ {
+  "id": "122/000189",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma los delitos de terrorismo del Código Penal; norma penal sin derechos ni ayudas para un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000190",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000191",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "inmigrantes": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Universaliza la asistencia sanitaria pública, incluidos extranjeros sin permiso de residencia; mejora el acceso al servicio público y beneficia a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000192",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto disponible no permite determinar el signo para asalariados y empresas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000193",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Crea un impuesto sobre beneficios desviados mediante planificación fiscal abusiva transfronteriza, que grava a grandes empresas multinacionales.",
+  "partido": ""
+ },
+ {
+  "id": "122/000194",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "hipot": 1
+  },
+  "peso": 2,
+  "nota": "Crea un procedimiento concursal para personas físicas y autónomos, con mediación sobre la vivienda habitual y quitas; beneficia a autónomos y deudores hipotecarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000195",
+  "tipo": "soc",
+  "imp": {
+   "jovenes": -1,
+   "discapacidad": -1
+  },
+  "peso": 1,
+  "nota": "Exige el consentimiento de representantes legales para abortar a menores y a personas con capacidad modificada judicialmente; restringe su autonomía.",
+  "partido": ""
+ },
+ {
+  "id": "122/000196",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reclasifica una cuenca como intracomunitaria; cambia la administración competente sin efecto conocido sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000197",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ajusta competencias laborales de Euskadi entre administraciones; sin efecto conocido sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000198",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Excluye líneas ferroviarias del País Vasco de la Red de Interés General; traspaso entre administraciones sin efecto conocido sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000199",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma procesal que atribuye a la jurisdicción social los litigios de dependencia; sin efecto directo que pase la prueba.",
+  "partido": ""
+ },
+ {
+  "id": "122/000200",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo para combatir la pobreza y la exclusión social; beneficia a personas en riesgo de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "122/000201",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos de los pacientes ante el proceso final de la vida y da seguridad jurídica a las decisiones adoptadas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000202",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obliga a publicar listados de deudores tributarios por encima de un millón de euros; transparencia sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "122/000203",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Hace pública la identidad de quienes se acogieron a la regularización fiscal extraordinaria; norma de transparencia sin colectivo con signo determinable.",
+  "partido": ""
+ },
+ {
+  "id": "122/000204",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo para combatir la pobreza y la exclusión social; beneficia a personas en riesgo de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "122/000205",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Suprime los copagos sanitarios y farmacéuticos introducidos en 2012, incluido el de pensionistas; beneficia a pacientes y pensionistas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000206",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "inmigrantes": 1,
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Restablece la cobertura sanitaria pública universal, incluidos extranjeros sin permiso de residencia; mejora el acceso al servicio público y beneficia a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "122/000207",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre el control previo de constitucionalidad de proyectos de estatuto de autonomía.",
+  "partido": ""
+ },
+ {
+  "id": "122/000208",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía el acceso a la nacionalidad española de descendientes nacidos en el extranjero; los afectados no coinciden con un colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000209",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Amplía el acceso a la nacionalidad española de descendientes nacidos en el extranjero; los afectados no coinciden con un colectivo definido.",
+  "partido": ""
+ },
+ {
+  "id": "122/000210",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Deroga la licencia federativa única; sin colectivo con efecto claro en la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000211",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza el voto secreto de las personas ciegas en las elecciones municipales; beneficia a personas con discapacidad visual.",
+  "partido": ""
+ },
+ {
+  "id": "122/000212",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Declara no sujetas a IVA las entregas gratuitas de alimentos a bancos de alimentos; no regula un sector ni un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "122/000213",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre la ejecución de las resoluciones del Tribunal Constitucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000214",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la oficialidad y el uso del castellano; sin efecto sobre colectivos de la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000215",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la oficialidad y el uso del castellano; sin efecto sobre colectivos de la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "122/000216",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Grava la matriculación de vehículos según sus emisiones contaminantes para mejorar la calidad del aire; mejora la salud pública.",
+  "partido": ""
+ },
+ {
+  "id": "123/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delega en la Generalitat la competencia para convocar un referéndum consultivo; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "125/000001",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prohíbe actos políticos en competiciones deportivas profesionales; sin colectivo con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reconoce al autor la explotación de su obra con licencias libres; sin colectivo definido en la rúbrica.",
+  "partido": ""
+ },
+ {
+  "id": "125/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Precisa criterios de inversión estatal entre comunidades autónomas; norma institucional de financiación territorial.",
+  "partido": ""
+ },
+ {
+  "id": "125/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica el procedimiento de voto de residentes en el exterior; norma electoral.",
+  "partido": ""
+ },
+ {
+  "id": "125/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede a propietarios costeros gallegos concesión gratuita en el dominio público marítimo-terrestre y regula asentamientos rurales; alcance autonómico.",
+  "partido": ""
+ },
+ {
+  "id": "125/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula competencias y prioridades de uso del agua en Castilla-La Mancha; reparto territorial sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000007",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Declara nulas las cláusulas contractuales que excluyan a personas con VIH/SIDA; beneficia a pacientes y consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "125/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delega en Andalucía competencias sobre aguas del Guadalquivir; traspaso entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "125/000009",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "ciud": 1,
+   "secTrans": -1
+  },
+  "peso": 2,
+  "nota": "Crea un fondo para homogeneizar, rescatar selectivamente concesiones y subvencionar peajes; reduce tarifas a usuarios y revierte concesiones a lo público.",
+  "partido": ""
+ },
+ {
+  "id": "125/000010",
+  "tipo": "eco",
+  "imp": {
+   "desPres": 1
+  },
+  "peso": 1,
+  "nota": "Incluye a miembros de asambleas legislativas autonómicas en la protección por desempleo; amplía el acceso a la prestación contributiva.",
+  "partido": ""
+ },
+ {
+  "id": "125/000011",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "viv1": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula el sobreendeudamiento, la segunda oportunidad y la suspensión de ejecuciones hipotecarias de la vivienda habitual; beneficia a deudores y carga a la banca.",
+  "partido": ""
+ },
+ {
+  "id": "125/000012",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "cons": 1
+  },
+  "peso": 1,
+  "nota": "Declara nulas las cláusulas contractuales que excluyan a personas con VIH/SIDA; beneficia a pacientes y consumidores.",
+  "partido": ""
+ },
+ {
+  "id": "125/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Delega en la Generalitat la competencia para convocar un referéndum consultivo; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "125/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Agrega dos municipios burgaleses a la provincia de Álava; alteración de límites provinciales.",
+  "partido": ""
+ },
+ {
+  "id": "125/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma institucional de tres artículos de la Constitución; sin efecto directo sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Exige el conocimiento de la lengua cooficial a personal de justicia en comunidades con lengua propia; signo no determinable.",
+  "partido": ""
+ },
+ {
+  "id": "125/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la adquisición de la vecindad civil por residencia; norma de derecho civil sin colectivo con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000018",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": 1
+  },
+  "peso": 2,
+  "nota": "Baja el IVA de libros digitales, instrumentos musicales y entradas culturales; beneficia a consumidores y al sector de ocio y espectáculos.",
+  "partido": ""
+ },
+ {
+  "id": "125/000019",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Prevé un plan de apoyo al deporte base y su régimen laboral; sin colectivo con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "125/000020",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "130/000001",
+  "tipo": "eco",
+  "imp": {
+   "asal1": -1,
+   "asal2": -1,
+   "asal3": -1,
+   "asal4": -1,
+   "asal5": -1,
+   "asal6": -1,
+   "funA1": -1,
+   "funA2": -1,
+   "funB": -1,
+   "funC1": -1,
+   "funC2E": -1,
+   "pen1": 1,
+   "viv1": -1,
+   "viv2": -1
+  },
+  "peso": 3,
+  "nota": "Recargo temporal del IRPF y del IBI, congelación de sueldos y recortes a empleados públicos, fin de la congelación de pensiones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000002",
+  "tipo": "eco",
+  "imp": {
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Suspende los incentivos económicos a nuevas instalaciones de renovables, cogeneración y residuos; perjudica a los productores de energía.",
+  "partido": ""
+ },
+ {
+  "id": "130/000003",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Impone saneamiento de activos inmobiliarios y mayores provisiones a las entidades de crédito; perjudica al sector financiero.",
+  "partido": ""
+ },
+ {
+  "id": "130/000004",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "jovenes": 1
+  },
+  "peso": 3,
+  "nota": "Reforma laboral: abarata el despido, prioriza el convenio de empresa y crea un contrato con incentivos para pequeñas empresas y jóvenes.",
+  "partido": ""
+ },
+ {
+  "id": "130/000005",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Fija obligaciones de información y un mecanismo de financiación para pagar a los proveedores de las entidades locales; el texto no detalla beneficiarios.",
+  "partido": ""
+ },
+ {
+  "id": "130/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la mediación civil y mercantil; norma procesal sin efecto directo sobre colectivos.",
+  "partido": ""
+ }
+]

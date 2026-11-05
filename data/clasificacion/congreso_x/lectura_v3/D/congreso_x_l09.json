@@ -1,0 +1,146 @@
+[
+ {
+  "id": "130/000062",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la reserva para inversiones y la Zona Especial Canaria; incentivos fiscales a empresas de Canarias sin distinguir tamaño ni sector.",
+  "partido": ""
+ },
+ {
+  "id": "130/000063",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1
+  },
+  "peso": 2,
+  "nota": "Regula un programa de activación para el empleo con ayuda económica a desempleados sin prestación; beneficia a quienes la reciben.",
+  "partido": ""
+ },
+ {
+  "id": "130/000064",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Medidas de financiación entre administraciones (comunidades autónomas y entidades locales) y otras económicas; el título no permite determinar otros efectos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000065",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000066",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Medidas urgentes de reparación de daños por inundaciones y temporales; beneficia a los afectados.",
+  "partido": ""
+ },
+ {
+  "id": "130/000067",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Oferta de empleo público extraordinaria; no cambia las condiciones de los empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "130/000068",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma del sistema de formación profesional para el empleo; el título y el texto disponible no permiten determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000069",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la comercialización de derechos audiovisuales del fútbol profesional; el signo para cada colectivo no consta.",
+  "partido": ""
+ },
+ {
+  "id": "130/000070",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la Ley del Cine, concede créditos y medidas tributarias: el título y el texto no permiten determinar a quién afecta.",
+  "partido": ""
+ },
+ {
+  "id": "130/000071",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Concede créditos extraordinarios en el presupuesto de Defensa para pagar programas de armamento; sin cambio de derechos u obligaciones.",
+  "partido": ""
+ },
+ {
+  "id": "130/000072",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Autoriza a la Administración del Estado a firmar la extensión del acuerdo que mantiene el Mobile World Congress en Barcelona hasta 2023; sin colectivo directo.",
+  "partido": ""
+ },
+ {
+  "id": "130/000073",
+  "tipo": "eco",
+  "imp": {
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "asal5": 1,
+   "asal6": 1,
+   "pen2": 1,
+   "pen3": 1
+  },
+  "peso": 3,
+  "nota": "Reduce la carga del IRPF de los contribuyentes; beneficia a todos los tramos y, por tributar como rendimientos del trabajo, a pensiones medias y altas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000074",
+  "tipo": "eco",
+  "imp": {
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 2,
+  "nota": "Abona a los empleados públicos parte de la paga extra suprimida en 2012, y concede créditos y otras medidas económicas.",
+  "partido": ""
+ },
+ {
+  "id": "130/000075",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1
+  },
+  "peso": 1,
+  "nota": "Regula las comisiones por retirada de efectivo en cajeros: protege a los usuarios de la banca y limita ingresos de las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "130/000076",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Medidas urgentes de reparación de daños por temporales en Canarias y el sur y este peninsular; beneficia a los afectados.",
+  "partido": ""
+ }
+]

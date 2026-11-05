@@ -1,0 +1,508 @@
+[
+ {
+  "id": "121/000130",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1,
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Refuerza la protección jurídica de menores, con independencia de su situación administrativa si son extranjeros, y de los menores víctimas de violencia de género.",
+  "partido": ""
+ },
+ {
+  "id": "121/000131",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el sistema de protección de menores (acogimiento, adopción); el texto disponible no permite asignar efectos con signo claro a un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "121/000132",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Traslada Solvencia II al sector asegurador: capital, gobierno y supervisión; el signo del efecto sobre el sector no consta.",
+  "partido": ""
+ },
+ {
+  "id": "121/000133",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma procesal que amplía funciones de los procuradores en actos de comunicación y ejecución; sin efecto claro sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "121/000134",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la organización judicial y la protección de datos en los tribunales; norma institucional y procesal sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "121/000135",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el estatuto del miembro español de Eurojust y los conflictos de jurisdicción; norma institucional y procesal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000136",
+  "tipo": "eco",
+  "imp": {
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Crea el régimen de resolución bancaria con planes de recuperación, absorción de pérdidas por accionistas y acreedores y fondo financiado por las entidades.",
+  "partido": ""
+ },
+ {
+  "id": "121/000137",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Introduce la exoneración de deudas de personas físicas tras liquidar su patrimonio y mejora el acuerdo extrajudicial de pagos para emprendedores.",
+  "partido": ""
+ },
+ {
+  "id": "121/000138",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma procesal penal: conexidad, plazos de instrucción y procedimiento monitorio penal; sin colectivos afectados.",
+  "partido": ""
+ },
+ {
+  "id": "121/000139",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Refuerza garantías procesales de detenidos y regula medidas de investigación tecnológica; norma procesal sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000140",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula las entidades del Tercer Sector de Acción Social: interlocución con la Administración y fomento; no identifica un colectivo beneficiario con efecto directo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000141",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el voluntariado y sus entidades; no establece prestaciones ni cargas con signo para un colectivo concreto.",
+  "partido": ""
+ },
+ {
+  "id": "121/000142",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reorganiza el sistema de Inspección de Trabajo y Seguridad Social entre administraciones; norma de organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "121/000143",
+  "tipo": "soc",
+  "imp": {
+   "victimas": 1
+  },
+  "peso": 2,
+  "nota": "Reforma el baremo de indemnizaciones por accidentes de circulación para lograr una reparación íntegra de víctimas y familiares.",
+  "partido": ""
+ },
+ {
+  "id": "121/000144",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Refuerza control, trazabilidad y sanciones en calidad alimentaria; mejora la seguridad alimentaria y supone exigencias para la industria alimentaria.",
+  "partido": ""
+ },
+ {
+  "id": "121/000145",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Mejora la gestión de espacios protegidos y adapta la protección de hábitats y aves a la normativa europea.",
+  "partido": ""
+ },
+ {
+  "id": "121/000146",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma técnica de la Ley General Tributaria: sanción del conflicto en la aplicación de la norma, prescripción y procedimientos; sin colectivo de signo único.",
+  "partido": ""
+ },
+ {
+  "id": "121/000147",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Actualiza el Convenio Económico con Navarra incorporando tributos estatales; reparto de competencias entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "121/000148",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reforma el sistema de formación profesional para el empleo en el ámbito laboral; el texto no permite fijar un colectivo con signo único.",
+  "partido": ""
+ },
+ {
+  "id": "121/000149",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Marco general de cooperación jurídica internacional en materia civil, de carácter subsidiario; norma procesal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000150",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Obliga a las administraciones a autorizar la reutilización de información pública y regula tarifas y formatos abiertos; sin colectivo de la rúbrica con efecto claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000151",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
+  },
+  "peso": 1,
+  "nota": "Crea una reserva para inversiones en Baleares que reduce la base del impuesto de sociedades y del IRPF de empresas con establecimientos allí.",
+  "partido": ""
+ },
+ {
+  "id": "121/000152",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el sector ferroviario (infraestructuras, empresas, seguridad, tasas); el texto disponible no permite determinar efectos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000153",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Ley de carreteras: planificación, financiación, explotación y uso; el texto disponible no permite determinar efectos con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000154",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el régimen jurídico y la organización del sector público; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "121/000155",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el procedimiento administrativo común; norma de organización y procedimiento administrativo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000156",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Actualiza el régimen de sociedades laborales y participadas; el texto disponible no concreta tamaño ni signo para un colectivo.",
+  "partido": ""
+ },
+ {
+  "id": "121/000157",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1
+  },
+  "peso": 2,
+  "nota": "Modifica el régimen del trabajo autónomo con medidas de fomento y promoción del autoempleo y de la economía social.",
+  "partido": ""
+ },
+ {
+  "id": "121/000158",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea el marco de la Seguridad Nacional y su coordinación institucional; sin colectivo afectado con signo claro.",
+  "partido": ""
+ },
+ {
+  "id": "121/000159",
+  "tipo": "eco",
+  "imp": {
+   "secInd": 1
+  },
+  "peso": 1,
+  "nota": "Concede crédito para pagar programas especiales de armamento y munición a la industria de defensa y obras en un hospital militar.",
+  "partido": ""
+ },
+ {
+  "id": "121/000160",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la publicidad de información de sentencias por fraude fiscal; norma procesal y sancionadora sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "121/000161",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la protección social del sector marítimo-pesquero; el texto disponible no permite determinar el signo del efecto.",
+  "partido": ""
+ },
+ {
+  "id": "121/000162",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula inmunidades de Estados extranjeros y organizaciones internacionales; norma institucional y procesal.",
+  "partido": ""
+ },
+ {
+  "id": "121/000163",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1,
+   "funA1": 1,
+   "funA2": 1,
+   "funB": 1,
+   "funC1": 1,
+   "funC2E": 1
+  },
+  "peso": 3,
+  "nota": "Presupuestos de 2016: revaloriza las pensiones un 0,25 % para todos y sube un 1 % las retribuciones de los empleados públicos.",
+  "partido": ""
+ },
+ {
+  "id": "122/000001",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Adapta la Ley de Telecomunicaciones al marco europeo de 2009 y refuerza los derechos de los usuarios de comunicaciones electrónicas.",
+  "partido": ""
+ },
+ {
+  "id": "122/000002",
+  "tipo": "soc",
+  "imp": {
+   "mujeres": 1,
+   "lgtbi": 1,
+   "discapacidad": 1,
+   "minorias": 1
+  },
+  "peso": 2,
+  "nota": "Garantiza la igualdad de trato y prohíbe la discriminación por sexo, origen racial o étnico, religión, discapacidad y orientación sexual.",
+  "partido": ""
+ },
+ {
+  "id": "122/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica competencias y organización de la Inspección de Trabajo entre Estado y comunidades autónomas; norma de organización administrativa.",
+  "partido": ""
+ },
+ {
+  "id": "122/000004",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Reconoce derechos de los pacientes ante el proceso final de la vida: información, decisión, cuidados paliativos y respeto a su voluntad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000005",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Adapta la ordenación del transporte terrestre a reglamentos europeos y revisa infracciones; efectos con signos mixtos sobre el sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000006",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Liberaliza los servicios funerarios, garantiza la libre elección y obliga a informar de servicios y precios a los usuarios.",
+  "partido": ""
+ },
+ {
+  "id": "122/000007",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la lucha contra el dopaje en el deporte para armonizarla con la normativa internacional; norma sancionadora.",
+  "partido": ""
+ },
+ {
+  "id": "122/000008",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula los contratos de distribución comercial entre empresas; el texto disponible no permite fijar un signo único para el sector.",
+  "partido": ""
+ },
+ {
+  "id": "122/000009",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1
+  },
+  "peso": 2,
+  "nota": "Regula los servicios de atención al cliente: garantiza a los consumidores atención personal, constancia de quejas y reclamaciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la transparencia y el acceso a la información pública; norma institucional sin colectivo afectado.",
+  "partido": ""
+ },
+ {
+  "id": "122/000011",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Exonera por decisión judicial el pasivo restante de personas físicas insolventes tras ejecutar su patrimonio, sin consentimiento del acreedor.",
+  "partido": ""
+ },
+ {
+  "id": "122/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la organización y el funcionamiento del Gobierno con medidas de austeridad; norma institucional.",
+  "partido": ""
+ },
+ {
+  "id": "122/000013",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la Ley del Deporte sobre representación de federaciones autonómicas; reparto competencial entre administraciones.",
+  "partido": ""
+ },
+ {
+  "id": "122/000014",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Da preeminencia a los convenios autonómicos sobre los estatales en comunidades con sindicatos propios; el signo para los trabajadores no consta.",
+  "partido": ""
+ },
+ {
+  "id": "122/000015",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Facilita y obliga a las obras de accesibilidad en comunidades de propietarios, en beneficio de personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000016",
+  "tipo": "soc",
+  "imp": {
+   "discapacidad": 1
+  },
+  "peso": 1,
+  "nota": "Garantiza que centros especiales de empleo accedan a la contratación del sector público para integrar laboralmente a personas con discapacidad.",
+  "partido": ""
+ },
+ {
+  "id": "122/000017",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Modifica la representación del FROB y la desinversión de sus participaciones en entidades con cajas de ahorros, con opción preferente de administraciones públicas.",
+  "partido": "BNG"
+ },
+ {
+  "id": "122/000018",
+  "tipo": "eco",
+  "imp": {
+   "asal5": -1,
+   "asal6": -1
+  },
+  "peso": 2,
+  "nota": "Crea un tramo del 50 % del IRPF para bases superiores a 100.000 euros; sube la tributación de rentas altas.",
+  "partido": "BNG"
+ },
+ {
+  "id": "122/000019",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 2,
+  "nota": "Aplica el IVA superreducido del 4 % a todos los productos y servicios de la cadena alimenticia.",
+  "partido": "BNG"
+ },
+ {
+  "id": "122/000020",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Introduce medidas en la ejecución hipotecaria, como dación en pago, aplazamiento o conversión en alquiler, que favorecen a deudores y restan a las entidades acreedoras.",
+  "partido": "BNG"
+ },
+ {
+  "id": "122/000021",
+  "tipo": "eco",
+  "imp": {
+   "empAut": 1,
+   "empMicro": 1,
+   "empPeq": 1
+  },
+  "peso": 1,
+  "nota": "Instaura el criterio de caja en el IVA para autónomos y empresas de reducida dimensión: el impuesto se paga al cobrar la factura.",
+  "partido": ""
+ }
+]

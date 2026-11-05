@@ -842,44 +842,44 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| NC | 30.5 % | 2.6 | +47 |
-| Foro | 24.6 % | 6.7 | +35 |
-| PNV | 23.0 % | 3.4 | +44 |
-| UPyD | 11.9 % | 3.0 | +45 |
-| Geroa Bai | 9.2 % | 4.0 | +42 |
-| CiU | 0.6 % | 10.5 | +21 |
-| PSOE | 0.2 % | 5.4 | +38 |
-| PP | 0.0 % | 14.8 | -28 |
-| IU-ICV | 0.0 % | 10.2 | +26 |
-| Amaiur | 0.0 % | 8.8 | +29 |
-| ERC | 0.0 % | 11.5 | +25 |
-| BNG | 0.0 % | 9.3 | +28 |
-| Compromís | 0.0 % | 10.3 | +27 |
-| CC | 0.0 % | 6.4 | +36 |
-| UPN | 0.0 % | 13.1 | -6 |
+| PNV | 55.9 % | 2.1 | +44 |
+| UPN | 27.0 % | 7.8 | +17 |
+| CiU | 5.5 % | 8.2 | +21 |
+| Foro | 4.9 % | 7.2 | +23 |
+| UPyD | 4.3 % | 3.4 | +37 |
+| NC | 2.0 % | 5.2 | +31 |
+| Geroa Bai | 0.5 % | 7.0 | +23 |
+| PP | 0.0 % | 12.5 | -12 |
+| PSOE | 0.0 % | 6.5 | +24 |
+| IU-ICV | 0.0 % | 9.5 | +15 |
+| Amaiur | 0.0 % | 7.2 | +24 |
+| ERC | 0.0 % | 12.9 | +5 |
+| BNG | 0.0 % | 11.0 | +12 |
+| Compromís | 0.0 % | 12.6 | +7 |
+| CC | 0.0 % | 6.7 | +26 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: NC +61, PNV +60, Geroa Bai +56
-- Joven de alquiler: PNV +66, UPyD +59, NC +58
-- Pensionista con casa propia: Geroa Bai +51, Foro +47, PSOE +45
-- Pensionista con pensión baja: Geroa Bai +58, NC +53, PSOE +52
-- Autónomo del comercio: CiU +44, Foro +40, NC +39
-- Empresario de pyme industrial: UPyD +39, NC +39, PSOE +33
-- Funcionario docente: PNV +51, UPyD +49, CC +49
-- Policía o guardia civil: PNV +52, PSOE +49, UPyD +49
-- Sanitario asalariado: PNV +79, NC +73, Amaiur +70
-- Familia numerosa: NC +61, PNV +60, Geroa Bai +56
-- Rentas altas con patrimonio: PNV +70, NC +66, UPyD +62
-- Gran patrimonio y gran empresa: PNV +58, UPyD +51, Geroa Bai +48
-- Parado con subsidio: NC +76, CC +67, Geroa Bai +66
-- Agricultor en el medio rural: NC +50, UPyD +45, Foro +44
-- Madre sola con hijo: PNV +74, NC +69, Geroa Bai +63
-- Estudiante: Geroa Bai +58, NC +55, UPyD +53
-- Mayor dependiente: Geroa Bai +63, NC +60, PSOE +56
-- Casero con varias viviendas: PNV +79, NC +72, Amaiur +70
-- Transportista autónomo: Foro +49, UPyD +42, NC +36
-- Asalariado de salario mínimo: PNV +81, NC +70, CC +68
+- Asalariado medio con hipoteca e hijos: PNV +79, Amaiur +71, NC +68
+- Joven de alquiler: PNV +73, UPyD +61, NC +60
+- Pensionista con casa propia: UPN +32, Foro +25, PNV +24
+- Pensionista con pensión baja: UPN +32, Geroa Bai +15, PNV +13
+- Autónomo del comercio: CiU +46, NC +41, Foro +40
+- Empresario de pyme industrial: CiU +39, Geroa Bai +32, PNV +29
+- Funcionario docente: PNV +72, Amaiur +64, UPyD +61
+- Policía o guardia civil: PNV +72, Amaiur +64, UPyD +61
+- Sanitario asalariado: PNV +76, UPyD +68, Amaiur +68
+- Familia numerosa: PNV +79, Amaiur +71, NC +68
+- Rentas altas con patrimonio: PNV +70, UPyD +64, NC +59
+- Gran patrimonio y gran empresa: UPyD +71, NC +70, PNV +66
+- Parado con subsidio: NC +76, CiU +69, PNV +67
+- Agricultor en el medio rural: Foro +40, CiU +37, NC +33
+- Madre sola con hijo: PNV +76, Amaiur +69, UPyD +68
+- Estudiante: Geroa Bai +59, PNV +58, NC +58
+- Mayor dependiente: UPN +32, Geroa Bai +15, PNV +13
+- Casero con varias viviendas: PNV +76, UPyD +68, Amaiur +68
+- Transportista autónomo: Foro +43, CiU +40, NC +33
+- Asalariado de salario mínimo: PNV +78, UPyD +70, Amaiur +70
 
 </details>
 
@@ -887,44 +887,44 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Foro | 46.6 % | 4.8 | +43 |
-| PNV | 28.7 % | 2.7 | +45 |
-| UPyD | 14.0 % | 2.5 | +45 |
-| Geroa Bai | 5.2 % | 4.3 | +39 |
-| NC | 4.9 % | 4.2 | +40 |
-| CiU | 0.6 % | 9.4 | +22 |
-| PP | 0.0 % | 14.4 | -20 |
-| PSOE | 0.0 % | 7.0 | +31 |
-| IU-ICV | 0.0 % | 10.3 | +24 |
-| Amaiur | 0.0 % | 8.0 | +29 |
-| ERC | 0.0 % | 12.2 | +20 |
-| BNG | 0.0 % | 8.5 | +28 |
-| Compromís | 0.0 % | 10.9 | +23 |
-| CC | 0.0 % | 8.2 | +30 |
-| UPN | 0.0 % | 12.5 | -1 |
+| PNV | 52.7 % | 2.4 | +41 |
+| UPN | 31.6 % | 7.5 | +18 |
+| CiU | 8.2 % | 8.0 | +20 |
+| Foro | 3.9 % | 7.4 | +20 |
+| UPyD | 2.0 % | 4.1 | +32 |
+| NC | 1.0 % | 6.6 | +24 |
+| Geroa Bai | 0.5 % | 7.6 | +18 |
+| Amaiur | 0.1 % | 6.0 | +25 |
+| PP | 0.0 % | 11.0 | -7 |
+| PSOE | 0.0 % | 7.6 | +18 |
+| IU-ICV | 0.0 % | 9.2 | +13 |
+| ERC | 0.0 % | 12.8 | +5 |
+| BNG | 0.0 % | 10.5 | +11 |
+| Compromís | 0.0 % | 12.4 | +7 |
+| CC | 0.0 % | 6.9 | +23 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PNV +61, NC +57, UPyD +56
-- Joven de alquiler: PNV +68, UPyD +57, Amaiur +53
-- Pensionista con casa propia: Foro +59, Geroa Bai +49, PNV +45
-- Pensionista con pensión baja: Geroa Bai +58, Foro +55, UPyD +50
-- Autónomo del comercio: CiU +48, Foro +47, UPyD +37
-- Empresario de pyme industrial: UPyD +44, NC +40, PSOE +32
-- Funcionario docente: PNV +52, UPyD +50, Amaiur +46
-- Policía o guardia civil: PNV +53, UPyD +51, Amaiur +47
-- Sanitario asalariado: PNV +82, UPyD +74, Amaiur +73
-- Familia numerosa: PNV +61, NC +57, UPyD +56
-- Rentas altas con patrimonio: PNV +73, UPyD +66, NC +62
-- Gran patrimonio y gran empresa: PNV +59, UPyD +48, Geroa Bai +41
-- Parado con subsidio: NC +74, Geroa Bai +67, UPyD +65
-- Agricultor en el medio rural: Foro +52, UPyD +46, NC +44
-- Madre sola con hijo: PNV +76, UPyD +66, Geroa Bai +65
-- Estudiante: PNV +52, UPyD +50, Geroa Bai +50
-- Mayor dependiente: Geroa Bai +64, UPyD +54, NC +54
-- Casero con varias viviendas: PNV +82, UPyD +73, Amaiur +73
-- Transportista autónomo: Foro +55, UPyD +39, NC +27
-- Asalariado de salario mínimo: PNV +83, UPyD +72, NC +67
+- Asalariado medio con hipoteca e hijos: PNV +79, Amaiur +74, CC +64
+- Joven de alquiler: PNV +72, Amaiur +62, UPyD +56
+- Pensionista con casa propia: UPN +35, Foro +18, PNV +14
+- Pensionista con pensión baja: UPN +35, PP +9, CiU +2
+- Autónomo del comercio: CiU +45, Foro +35, PNV +34
+- Empresario de pyme industrial: CiU +37, Geroa Bai +24, Amaiur +21
+- Funcionario docente: PNV +74, Amaiur +66, CC +62
+- Policía o guardia civil: PNV +74, Amaiur +66, CC +62
+- Sanitario asalariado: PNV +76, Amaiur +71, UPyD +63
+- Familia numerosa: PNV +79, Amaiur +74, CC +64
+- Rentas altas con patrimonio: PNV +69, UPyD +58, Amaiur +49
+- Gran patrimonio y gran empresa: UPyD +66, PNV +64, NC +62
+- Parado con subsidio: CiU +72, NC +69, PNV +65
+- Agricultor en el medio rural: CiU +35, Foro +34, PNV +21
+- Madre sola con hijo: PNV +77, Amaiur +72, UPyD +64
+- Estudiante: Geroa Bai +52, PNV +51, CiU +48
+- Mayor dependiente: UPN +35, Geroa Bai +15, PNV +13
+- Casero con varias viviendas: PNV +76, Amaiur +71, UPyD +63
+- Transportista autónomo: CiU +37, Foro +37, UPN +24
+- Asalariado de salario mínimo: PNV +78, Amaiur +74, UPyD +66
 
 </details>
 
@@ -932,44 +932,44 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 70.1 % | 1.4 | +66 |
-| UPyD | 23.2 % | 2.0 | +63 |
-| IU-ICV | 6.6 % | 4.4 | +52 |
-| NC | 0.1 % | 4.9 | +56 |
-| PP | 0.0 % | 15.0 | -44 |
-| CiU | 0.0 % | 11.5 | +33 |
-| PNV | 0.0 % | 8.1 | +44 |
-| Amaiur | 0.0 % | 8.4 | +45 |
-| ERC | 0.0 % | 8.2 | +44 |
-| BNG | 0.0 % | 7.9 | +44 |
-| Compromís | 0.0 % | 10.8 | +40 |
-| CC | 0.0 % | 4.3 | +57 |
-| UPN | 0.0 % | 14.0 | -23 |
-| Foro | 0.0 % | 12.4 | +23 |
-| Geroa Bai | 0.0 % | 6.9 | +48 |
+| NC | 97.8 % | 1.0 | +61 |
+| Foro | 1.6 % | 8.5 | +39 |
+| UPyD | 0.6 % | 2.2 | +55 |
+| CiU | 0.1 % | 8.0 | +40 |
+| PP | 0.0 % | 15.0 | -34 |
+| PSOE | 0.0 % | 3.0 | +53 |
+| IU-ICV | 0.0 % | 7.8 | +38 |
+| PNV | 0.0 % | 6.9 | +44 |
+| Amaiur | 0.0 % | 8.7 | +38 |
+| ERC | 0.0 % | 12.2 | +32 |
+| BNG | 0.0 % | 9.6 | +36 |
+| Compromís | 0.0 % | 11.1 | +33 |
+| CC | 0.0 % | 4.3 | +52 |
+| UPN | 0.0 % | 14.0 | -8 |
+| Geroa Bai | 0.0 % | 7.8 | +40 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PSOE +72, UPyD +68, CC +64
-- Joven de alquiler: PSOE +69, IU-ICV +67, UPyD +64
-- Pensionista con casa propia: PSOE +72, IU-ICV +70, UPyD +68
-- Pensionista con pensión baja: PSOE +72, IU-ICV +70, UPyD +68
-- Autónomo del comercio: PSOE +63, IU-ICV +62, UPyD +58
-- Empresario de pyme industrial: PSOE +61, IU-ICV +58, UPyD +56
-- Funcionario docente: PSOE +70, IU-ICV +69, UPyD +66
-- Policía o guardia civil: PSOE +68, IU-ICV +64, UPyD +61
-- Sanitario asalariado: PSOE +68, IU-ICV +66, UPyD +63
-- Familia numerosa: PSOE +72, UPyD +68, CC +64
-- Rentas altas con patrimonio: PSOE +63, IU-ICV +62, UPyD +58
-- Gran patrimonio y gran empresa: UPyD +63, PSOE +61, IU-ICV +57
-- Parado con subsidio: PSOE +57, IU-ICV +53, UPyD +53
-- Agricultor en el medio rural: PSOE +66, UPyD +63, IU-ICV +62
-- Madre sola con hijo: PSOE +57, UPyD +53, NC +53
-- Estudiante: PSOE +71, IU-ICV +69, UPyD +67
-- Mayor dependiente: IU-ICV +71, UPyD +69, PSOE +66
-- Casero con varias viviendas: PSOE +63, IU-ICV +62, UPyD +58
-- Transportista autónomo: PSOE +68, IU-ICV +66, UPyD +63
-- Asalariado de salario mínimo: PSOE +68, IU-ICV +66, UPyD +63
+- Asalariado medio con hipoteca e hijos: NC +59, UPyD +53, PSOE +52
+- Joven de alquiler: NC +63, UPyD +56, PSOE +54
+- Pensionista con casa propia: NC +65, UPyD +57, PSOE +55
+- Pensionista con pensión baja: NC +65, UPyD +57, PSOE +55
+- Autónomo del comercio: NC +52, UPyD +49, PSOE +48
+- Empresario de pyme industrial: NC +62, UPyD +51, PSOE +48
+- Funcionario docente: NC +59, UPyD +52, PSOE +51
+- Policía o guardia civil: NC +54, PSOE +48, CC +46
+- Sanitario asalariado: NC +63, UPyD +55, PSOE +52
+- Familia numerosa: NC +59, UPyD +53, PSOE +52
+- Rentas altas con patrimonio: NC +63, UPyD +55, PSOE +52
+- Gran patrimonio y gran empresa: NC +63, UPyD +55, PSOE +52
+- Parado con subsidio: NC +54, PSOE +48, UPyD +48
+- Agricultor en el medio rural: NC +60, UPyD +55, PSOE +52
+- Madre sola con hijo: NC +61, UPyD +54, PSOE +53
+- Estudiante: NC +67, UPyD +59, PSOE +57
+- Mayor dependiente: NC +57, UPyD +50, PSOE +49
+- Casero con varias viviendas: NC +63, UPyD +55, PSOE +52
+- Transportista autónomo: NC +63, UPyD +55, PSOE +52
+- Asalariado de salario mínimo: NC +63, UPyD +55, PSOE +52
 
 </details>
 
@@ -977,44 +977,44 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| UPyD | 22.7 % | 3.0 | +48 |
-| PSOE | 20.6 % | 3.1 | +46 |
-| PNV | 19.6 % | 4.2 | +47 |
-| NC | 15.0 % | 3.8 | +48 |
-| Foro | 11.5 % | 9.0 | +28 |
-| IU-ICV | 4.9 % | 7.3 | +28 |
-| CC | 1.9 % | 5.5 | +44 |
-| PP | 1.0 % | 13.2 | -25 |
-| CiU | 1.0 % | 8.6 | +30 |
-| UPN | 0.9 % | 12.6 | -16 |
-| Amaiur | 0.4 % | 8.8 | +26 |
-| BNG | 0.2 % | 9.9 | +25 |
-| Geroa Bai | 0.2 % | 7.5 | +33 |
-| Compromís | 0.1 % | 10.9 | +25 |
-| ERC | 0.0 % | 11.3 | +23 |
+| PSOE | 45.7 % | 2.0 | +46 |
+| UPyD | 12.0 % | 2.7 | +46 |
+| Foro | 10.2 % | 8.8 | +29 |
+| CiU | 9.1 % | 6.1 | +38 |
+| IU-ICV | 6.1 % | 7.6 | +27 |
+| NC | 6.0 % | 5.3 | +45 |
+| CC | 4.7 % | 5.0 | +45 |
+| PNV | 4.5 % | 4.7 | +44 |
+| Compromís | 0.8 % | 11.2 | +22 |
+| BNG | 0.4 % | 10.2 | +23 |
+| Amaiur | 0.3 % | 9.4 | +23 |
+| Geroa Bai | 0.2 % | 8.1 | +31 |
+| PP | 0.0 % | 13.3 | -20 |
+| ERC | 0.0 % | 13.2 | +16 |
+| UPN | 0.0 % | 11.5 | -6 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PSOE +36, UPyD +36, PNV +36
-- Joven de alquiler: sin resultado
-- Pensionista con casa propia: PSOE +62, IU-ICV +61, UPyD +61
-- Pensionista con pensión baja: PSOE +62, IU-ICV +61, UPyD +61
-- Autónomo del comercio: sin resultado
-- Empresario de pyme industrial: UPN +29, PP +10, UPyD +0
-- Funcionario docente: sin resultado
-- Policía o guardia civil: IU-ICV +0
-- Sanitario asalariado: sin resultado
-- Familia numerosa: PSOE +36, UPyD +36, PNV +36
-- Rentas altas con patrimonio: sin resultado
-- Gran patrimonio y gran empresa: sin resultado
-- Parado con subsidio: PP +20, UPyD -12, CiU -13
-- Agricultor en el medio rural: UPyD +13, PSOE +4, Compromís +4
-- Madre sola con hijo: Foro +31, NC +23, PNV +20
-- Estudiante: PSOE +32
-- Mayor dependiente: IU-ICV +64, UPyD +63, Amaiur +63
-- Casero con varias viviendas: sin resultado
-- Transportista autónomo: sin resultado
-- Asalariado de salario mínimo: sin resultado
+- Asalariado medio con hipoteca e hijos: PSOE +30, UPyD +27, PNV +27
+- Joven de alquiler: PSOE +28, IU-ICV +28, UPyD +28
+- Pensionista con casa propia: PSOE +60, IU-ICV +59, UPyD +59
+- Pensionista con pensión baja: PSOE +60, IU-ICV +59, UPyD +59
+- Autónomo del comercio: CiU +17, PSOE +13, UPyD +11
+- Empresario de pyme industrial: CiU +22, PNV +22, NC +22
+- Funcionario docente: CiU +38, PSOE +28, UPyD +26
+- Policía o guardia civil: CiU +25, PSOE +16, CC +11
+- Sanitario asalariado: PSOE +22, IU-ICV +22, UPyD +22
+- Familia numerosa: PSOE +30, UPyD +27, PNV +27
+- Rentas altas con patrimonio: PSOE +22, IU-ICV +22, UPyD +22
+- Gran patrimonio y gran empresa: PSOE +22, IU-ICV +22, UPyD +22
+- Parado con subsidio: CiU +31, PSOE +13, IU-ICV +8
+- Agricultor en el medio rural: UPyD +25, PSOE +22, Amaiur +22
+- Madre sola con hijo: PSOE +33, UPyD +33, CC +33
+- Estudiante: PSOE +43, IU-ICV +42, UPyD +42
+- Mayor dependiente: CiU +59, PSOE +51, IU-ICV +51
+- Casero con varias viviendas: PSOE +22, IU-ICV +22, UPyD +22
+- Transportista autónomo: PSOE +22, IU-ICV +22, UPyD +22
+- Asalariado de salario mínimo: PSOE +22, IU-ICV +22, UPyD +22
 
 </details>
 
