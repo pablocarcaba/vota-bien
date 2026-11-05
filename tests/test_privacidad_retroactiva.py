@@ -18,7 +18,7 @@ from helpers import REPO
 TPL = open(os.path.join(REPO, "site", "template.html"), encoding="utf-8").read()
 FUNCIONES = ["qName", "qOpts", "qSolo", "visible", "respondida", "faltan", "completo", "terminado", "minimoActual",
              "avisaMinimo", "deriva", "guardarPasos", "cargarGuardado", "confirma", "shareUrl", "continuar", "elegir",
-             "yLista", "nombresRet", "marcada", "retPaso", "liberarTodo"]
+             "yLista", "nombresRet", "marcada", "retPaso", "liberarTodo", "qDe", "cierra", "pasoRev", "textoBoton"]
 MOVIDAS = ["mujeres", "civViu", "cuid", "rural", "pobreza"]
 # perfil de la v10: pasos 1 a 4 hechos, con las respuestas que entonces estaban en el paso 4
 V10 = {"sel": ["adultos", "hij0", "asal3", "prop1"] + MOVIDAS, "ui": ["trAjena", "vdAlq", "nv0"], "done": [0, 1, 2, 3], "cur": -1}
@@ -154,6 +154,32 @@ class PrivacidadRetroactivaTest(unittest.TestCase):
                      "process.stdout.write(JSON.stringify({pend:PEND, ret:[...state.pasos.ret]}));" % json.dumps(V10))
         self.assertEqual(d["pend"], "")
         self.assertNotIn("cuid", d["ret"])
+
+    def test_boton_del_paso_con_retenidas_en_otro_paso(self):
+        # el texto del botón es el de adónde lleva continuar(): con retenidas en otro paso, «Continuar», no «Ver mi resultado»
+        d = ejecutar("cargarGuardado(%s); deriva(); const t=[0,1,2,3].map(textoBoton), r=[0,1,2].map(pasoRev);"
+                     "continuar(0); continuar(1); const u=[textoBoton(2), pasoRev(2)];"
+                     "process.stdout.write(JSON.stringify({t, r, u}));" % json.dumps(V10))
+        self.assertEqual(d["t"], ["Continuar", "Continuar", "Continuar", "Continuar"])
+        self.assertEqual(d["r"], [1, 0, 0])
+        # solo queda retenido el paso 3: su botón ya lleva al resultado
+        self.assertEqual(d["u"], ["Ver mi resultado", -1])
+
+    def test_desmarcar_y_volver_a_marcar_se_anuncia(self):
+        # desmarcar una retenida no la libera; volver a marcarla sí, y se anuncia como las otras vías
+        d = ejecutar("cargarGuardado(%s); deriva(); state.pasos.cur=0; const q=PASOS[0].q.find(q=>q.id==='civ');"
+                     "elegir(q,'civViu'); const a={pend:PEND, ret:state.pasos.ret.has('civViu')}; PEND='';"
+                     "elegir(q,'civViu'); const b={pend:PEND, url:shareUrl(null,null,true)};"
+                     "process.stdout.write(JSON.stringify({a, b}));" % json.dumps(V10))
+        self.assertEqual(d["a"]["pend"], "")
+        self.assertTrue(d["a"]["ret"])
+        self.assertIn("Ya se incluyen en los enlaces: estado civil.", d["b"]["pend"])
+        self.assertIn("civViu", claves(d["b"]["url"])[0])
+
+    def test_cambiar_de_opcion_en_una_retenida_se_anuncia(self):
+        d = ejecutar("cargarGuardado(%s); deriva(); state.pasos.cur=0;"
+                     "elegir(PASOS[0].q.find(q=>q.id==='civ'),'civSep'); process.stdout.write(JSON.stringify({pend:PEND}));" % json.dumps(V10))
+        self.assertIn("Ya se incluyen en los enlaces: estado civil.", d["pend"])
 
     def test_la_provincia_va_en_el_enlace(self):
         d = ejecutar("state.prov='50'; cargarGuardado(%s); deriva();"
