@@ -1,7 +1,8 @@
 """Paso 5 del proceso de reclasificación: combina las rondas, consolida por mayoría y lleva el resultado al repo.
 
 Uso: python3 scripts/aplicar_reclasificacion.py <clave> <dir_ronda1> [<dir_ronda2>] --fuente "<texto usado>"
-         [--fecha dd/mm/aaaa] [--rubrica v3] [--rehacer --motivo "…"] [--conservar <ids|fichero.json>] [--ids-hueco f.json]
+         [--fecha dd/mm/aaaa] [--rubrica v3] [--rehacer --motivo "…"] [--conservar <ids|fichero.json>]
+         [--sobrescribir <ids|fichero.json>] [--ids-hueco f.json]
 
 Cada dir de ronda contiene C/, D/ y E/ con los lotes JSON de cada lector. La ronda 2 sustituye por id a las mismas
 iniciativas de la ronda 1; en C, D y E debe ser el mismo conjunto de ids, incluido en la ronda 1 (y, si hay
@@ -20,7 +21,12 @@ Protección de las correcciones manuales (heurística, no exacta):
     vigente difiere de la consolidación de la lectura_<versión> ya aplicada, o lleva un colectivo que aparece entre
     backticks en RUBRICA.md y que ninguna lectura (C, D, E de ninguna legislatura, data/clasificacion/*/lectura_<versión>/)
     usa. Cada una debe decidirse: --conservar <ids|fichero.json> (se mantiene la vigente) o --sobrescribir <ids|fichero.json>
-    (se escribe la lectura). Si queda alguna sin decidir, falla antes de escribir. Los ids de ambas listas van a REVISION.md;
+    (se escribe la lectura). Si queda alguna sin decidir, falla antes de escribir. Los ids de ambas listas van a REVISION.md.
+    Los dos flags no son simétricos con los ids que no se detectaron como editados:
+      · --sobrescribir solo acepta ids detectados como editados; con cualquier otro falla («nada que sobrescribir»),
+        antes de escribir (para esos ids la lectura se aplica igualmente: basta quitarlos de --sobrescribir);
+      · --conservar también acepta ids no detectados como editados (decisión manual): se mantiene su vigente y quedan en
+        REVISION.md como «conservadas por decisión manual»;
   - aviso, sin bloquear: iniciativas cuya vigente no coincide con ninguna lectura, y las que difieren de la última
     lectura_vN anterior (ediciones posteriores a esa versión).
 La versión de la rúbrica se lee de la cabecera de data/clasificacion/RUBRICA.md («Versión 3 …» -> v3); --rubrica la fuerza.
@@ -218,8 +224,8 @@ def main():
     ap.add_argument("--rubrica", help="versión de la rúbrica (vN); por defecto, la de RUBRICA.md")
     ap.add_argument("--rehacer", action="store_true", help="repetir sobre una lectura_<versión>/ que ya existe (no autoriza a perder correcciones manuales)")
     ap.add_argument("--motivo", help="razón de --rehacer (obligatoria con él); queda en REVISION.md")
-    ap.add_argument("--conservar", help="ids (separados por comas) o fichero JSON con ids cuya clasificación vigente se mantiene")
-    ap.add_argument("--sobrescribir", help="ids (separados por comas) o fichero JSON con ids corregidos a mano que se sobrescriben con las lecturas")
+    ap.add_argument("--conservar", help="ids (separados por comas) o fichero JSON con ids cuya clasificación vigente se mantiene; admite también ids que no se detectaron como editados (quedan en REVISION.md como conservadas por decisión manual)")
+    ap.add_argument("--sobrescribir", help="ids (separados por comas) o fichero JSON con ids corregidos a mano que se sobrescriben con las lecturas; solo admite ids detectados como editados (con otros falla: nada que sobrescribir)")
     ap.add_argument("--ids-hueco", help="ids_hueco.json de la segunda ronda (por defecto, el de <ronda2>/ si existe)")
     a = ap.parse_args()
     clave = a.clave
