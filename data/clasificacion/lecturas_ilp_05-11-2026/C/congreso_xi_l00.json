@@ -1,0 +1,39 @@
+[
+ {
+  "id": "120/000002",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula la mediación civil, mercantil, penal y laboral como método de resolución de conflictos: norma procesal sin colectivo con efecto directo claro.",
+  "partido": ""
+ },
+ {
+  "id": "120/000003",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una prestación de ingresos mínimos en la Seguridad Social para personas sin recursos suficientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El texto no detalla el contenido; el título (responsabilidad parental y relaciones familiares) no permite determinar a quién afecta y con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Dación en pago: cancela la deuda hipotecaria entregando la vivienda; beneficia a quien tiene hipoteca y supone coste para las entidades financieras.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,437 @@
+{
+ "congreso_x": {
+  "120/000004": {
+   "id": "120/000004",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000006": {
+   "id": "120/000006",
+   "tipo": "eco",
+   "imp": {
+    "hipot": 1,
+    "inq": 1,
+    "secFin": -1
+   },
+   "peso": 2,
+   "nota": "Dación en pago, paralización de desahucios y alquiler social: protege a deudores hipotecarios e inquilinos y supone coste para la banca.",
+   "partido": ""
+  },
+  "120/000012": {
+   "id": "120/000012",
+   "tipo": "eco",
+   "imp": {
+    "mayores": 1,
+    "pen1": 1,
+    "pen2": 1,
+    "pen3": 1
+   },
+   "peso": 2,
+   "nota": "Revierte la congelación de las pensiones de 2011, con mismo signo para todos los tramos de pensionistas.",
+   "partido": ""
+  },
+  "120/000014": {
+   "id": "120/000014",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000015": {
+   "id": "120/000015",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Conmemoración institucional sin efectos sobre colectivos.",
+   "partido": ""
+  },
+  "120/000016": {
+   "id": "120/000016",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Norma institucional sobre acceso de partidos a medios públicos; sin efecto sobre colectivos.",
+   "partido": ""
+  },
+  "120/000017": {
+   "id": "120/000017",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000021": {
+   "id": "120/000021",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000022": {
+   "id": "120/000022",
+   "tipo": "eco",
+   "imp": {
+    "pobreza": 1
+   },
+   "peso": 3,
+   "nota": "Crea una renta básica estatal: beneficia a personas en riesgo de pobreza.",
+   "partido": ""
+  },
+  "120/000023": {
+   "id": "120/000023",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000025": {
+   "id": "120/000025",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000030": {
+   "id": "120/000030",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 1,
+   "nota": "Protección social para enfermos de fibromialgia y fatiga crónica.",
+   "partido": ""
+  },
+  "120/000031": {
+   "id": "120/000031",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000034": {
+   "id": "120/000034",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1
+   },
+   "peso": 1,
+   "nota": "Registro Civil público, gratuito y servido por funcionarios: gestión pública frente a privada.",
+   "partido": ""
+  },
+  "120/000035": {
+   "id": "120/000035",
+   "tipo": "eco",
+   "imp": {
+    "pobreza": 1
+   },
+   "peso": 2,
+   "nota": "Crea una prestación de ingresos mínimos en la Seguridad Social para personas sin recursos.",
+   "partido": ""
+  },
+  "120/000036": {
+   "id": "120/000036",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  }
+ },
+ "congreso_xi": {
+  "120/000002": {
+   "id": "120/000002",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Regula la mediación civil, mercantil, penal y laboral como método de resolución de conflictos: norma procesal sin colectivo con efecto directo claro.",
+   "partido": ""
+  },
+  "120/000003": {
+   "id": "120/000003",
+   "tipo": "eco",
+   "imp": {
+    "pobreza": 1
+   },
+   "peso": 2,
+   "nota": "Crea una prestación de ingresos mínimos en la Seguridad Social para personas sin recursos suficientes.",
+   "partido": ""
+  },
+  "120/000004": {
+   "id": "120/000004",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El texto no detalla el contenido; el título (responsabilidad parental y relaciones familiares) no permite determinar a quién afecta y con qué signo.",
+   "partido": ""
+  },
+  "120/000006": {
+   "id": "120/000006",
+   "tipo": "eco",
+   "imp": {
+    "hipot": 1,
+    "secFin": -1
+   },
+   "peso": 2,
+   "nota": "Dación en pago: cancela la deuda hipotecaria entregando la vivienda; beneficia a quien tiene hipoteca y supone coste para las entidades financieras.",
+   "partido": ""
+  }
+ },
+ "congreso_xii": {
+  "120/000003": {
+   "id": "120/000003",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000004": {
+   "id": "120/000004",
+   "tipo": "eco",
+   "imp": {
+    "hipot": 1,
+    "secFin": -1
+   },
+   "peso": 2,
+   "nota": "Dación en pago: libera al deudor hipotecario con la entrega de la vivienda; la banca pierde el cobro del resto de la deuda.",
+   "partido": ""
+  },
+  "120/000005": {
+   "id": "120/000005",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Norma institucional sobre retribuciones de cargos políticos cesados; sin efecto sobre los colectivos del catálogo.",
+   "partido": ""
+  },
+  "120/000006": {
+   "id": "120/000006",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000009": {
+   "id": "120/000009",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000010": {
+   "id": "120/000010",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000012": {
+   "id": "120/000012",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000015": {
+   "id": "120/000015",
+   "tipo": "eco",
+   "imp": {
+    "proSeg": 1
+   },
+   "peso": 1,
+   "nota": "Equiparación salarial de las policías del Estado: mejora retributiva para el colectivo policial.",
+   "partido": ""
+  },
+  "120/000017": {
+   "id": "120/000017",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000018": {
+   "id": "120/000018",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 1,
+   "nota": "Fija ratios de enfermeras por paciente en centros sanitarios para garantizar la seguridad del paciente.",
+   "partido": ""
+  }
+ },
+ "congreso_xiii": {
+  "120/000004": {
+   "id": "120/000004",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000006": {
+   "id": "120/000006",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000007": {
+   "id": "120/000007",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  }
+ },
+ "congreso_xiv": {
+  "120/000005": {
+   "id": "120/000005",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000006": {
+   "id": "120/000006",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000007": {
+   "id": "120/000007",
+   "tipo": "soc",
+   "imp": {
+    "pac": 1
+   },
+   "peso": 1,
+   "nota": "Elimina el copago farmacéutico del 30 % a pensionistas mutualistas de MUFACE e ISFAS y sus beneficiarios.",
+   "partido": ""
+  },
+  "120/000008": {
+   "id": "120/000008",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000009": {
+   "id": "120/000009",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1
+   },
+   "peso": 1,
+   "nota": "Reconoce personalidad jurídica a la laguna del Mar Menor y su cuenca para protegerla; mejora ambiental general.",
+   "partido": ""
+  },
+  "120/000011": {
+   "id": "120/000011",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000012": {
+   "id": "120/000012",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "Dota de letra al himno oficial; norma simbólica sin efecto sobre colectivos.",
+   "partido": ""
+  },
+  "120/000013": {
+   "id": "120/000013",
+   "tipo": "eco",
+   "imp": {
+    "hipot": 1,
+    "secFin": -1
+   },
+   "peso": 2,
+   "nota": "Regula la dación en pago: el deudor hipotecario salda la deuda entregando la vivienda; la banca pierde el cobro del resto.",
+   "partido": ""
+  },
+  "120/000015": {
+   "id": "120/000015",
+   "tipo": "eco",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000016": {
+   "id": "120/000016",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000017": {
+   "id": "120/000017",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  },
+  "120/000020": {
+   "id": "120/000020",
+   "tipo": "soc",
+   "imp": {
+    "ciud": 1,
+    "pac": 1
+   },
+   "peso": 2,
+   "nota": "Recupera el Sistema Nacional de Salud, servicio público universal; mejora la atención a pacientes.",
+   "partido": ""
+  },
+  "120/000026": {
+   "id": "120/000026",
+   "tipo": "soc",
+   "imp": {
+    "inmigrantes": 1
+   },
+   "peso": 2,
+   "nota": "Regularización extraordinaria de personas extranjeras en España: amplía sus derechos.",
+   "partido": ""
+  },
+  "120/000030": {
+   "id": "120/000030",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido",
+   "partido": ""
+  },
+  "120/000032": {
+   "id": "120/000032",
+   "tipo": "soc",
+   "imp": {},
+   "peso": 1,
+   "nota": "El título no permite determinar el contenido.",
+   "partido": ""
+  }
+ }
+}

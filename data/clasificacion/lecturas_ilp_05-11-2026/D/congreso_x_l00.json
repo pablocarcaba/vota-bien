@@ -1,0 +1,147 @@
+[
+ {
+  "id": "120/000004",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solo consta el título; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "inq": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Dación en pago, paralización de desahucios y alquiler social: protege a deudores hipotecarios e inquilinos y supone coste para la banca.",
+  "partido": ""
+ },
+ {
+  "id": "120/000012",
+  "tipo": "eco",
+  "imp": {
+   "pen1": 1,
+   "pen2": 1,
+   "pen3": 1,
+   "mayores": 1
+  },
+  "peso": 2,
+  "nota": "Revierte la congelación de pensiones de 2011: beneficia a pensionistas de todos los tramos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000014",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solo consta el título; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000015",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Conmemoración institucional sin efectos sobre colectivos concretos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Regula el acceso de partidos a medios públicos: norma institucional sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solo consta el título; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000021",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solo consta el título; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000022",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 3,
+  "nota": "Crea una renta básica estatal: beneficia a personas en riesgo de pobreza.",
+  "partido": ""
+ },
+ {
+  "id": "120/000023",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solo consta el título; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000025",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solo consta el título; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ },
+ {
+  "id": "120/000030",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Protección social de enfermos de fibromialgia y fatiga crónica: beneficia a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000031",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Cambia la participación en el coste de prestaciones de dependencia; no consta si sube o baja.",
+  "partido": ""
+ },
+ {
+  "id": "120/000034",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Registro Civil público, gratuito y servido por funcionarios: revierte su gestión privada hacia la pública.",
+  "partido": ""
+ },
+ {
+  "id": "120/000035",
+  "tipo": "eco",
+  "imp": {
+   "pobreza": 1
+  },
+  "peso": 2,
+  "nota": "Crea una prestación de ingresos mínimos en la Seguridad Social: beneficia a personas sin recursos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000036",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Solo consta el título; no permite determinar a quién afecta ni con qué signo.",
+  "partido": ""
+ }
+]

@@ -1,0 +1,136 @@
+[
+ {
+  "id": "120/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000007",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Elimina el copago farmacéutico del 30 % a pensionistas mutualistas de MUFACE e ISFAS y sus beneficiarios.",
+  "partido": ""
+ },
+ {
+  "id": "120/000008",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000009",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1
+  },
+  "peso": 1,
+  "nota": "Reconoce personalidad jurídica a la laguna del Mar Menor y su cuenca para protegerla; mejora ambiental general.",
+  "partido": ""
+ },
+ {
+  "id": "120/000011",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Dota de letra al himno oficial; norma simbólica sin efecto sobre colectivos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000013",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Regula la dación en pago: el deudor hipotecario salda la deuda entregando la vivienda; la banca pierde el cobro del resto.",
+  "partido": ""
+ },
+ {
+  "id": "120/000015",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000016",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000017",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ },
+ {
+  "id": "120/000020",
+  "tipo": "soc",
+  "imp": {
+   "ciud": 1,
+   "pac": 1
+  },
+  "peso": 2,
+  "nota": "Recupera el Sistema Nacional de Salud, servicio público universal; mejora la atención a pacientes.",
+  "partido": ""
+ },
+ {
+  "id": "120/000026",
+  "tipo": "soc",
+  "imp": {
+   "inmigrantes": 1
+  },
+  "peso": 2,
+  "nota": "Regularización extraordinaria de personas extranjeras en España: amplía sus derechos.",
+  "partido": ""
+ },
+ {
+  "id": "120/000030",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1
+  },
+  "peso": 1,
+  "nota": "Iguala la aportación farmacéutica de pensionistas mutualistas (MUFACE, ISFAS, MUGEJU) a la de la Seguridad Social, reduciéndola.",
+  "partido": ""
+ },
+ {
+  "id": "120/000032",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
+  "partido": ""
+ }
+]

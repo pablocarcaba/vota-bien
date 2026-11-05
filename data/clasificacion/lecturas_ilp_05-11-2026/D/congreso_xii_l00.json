@@ -1,0 +1,90 @@
+[
+ {
+  "id": "120/000003",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido",
+  "partido": ""
+ },
+ {
+  "id": "120/000004",
+  "tipo": "eco",
+  "imp": {
+   "hipot": 1,
+   "secFin": -1
+  },
+  "peso": 2,
+  "nota": "Dación en pago: permite saldar la deuda hipotecaria entregando la vivienda; beneficia a deudores hipotecarios y perjudica a las entidades financieras.",
+  "partido": ""
+ },
+ {
+  "id": "120/000005",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma institucional sobre retribuciones de cargos políticos cesados; sin colectivos afectados de forma determinable.",
+  "partido": ""
+ },
+ {
+  "id": "120/000006",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido",
+  "partido": ""
+ },
+ {
+  "id": "120/000009",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido",
+  "partido": ""
+ },
+ {
+  "id": "120/000010",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido",
+  "partido": ""
+ },
+ {
+  "id": "120/000012",
+  "tipo": "soc",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido",
+  "partido": ""
+ },
+ {
+  "id": "120/000015",
+  "tipo": "eco",
+  "imp": {
+   "proSeg": 1
+  },
+  "peso": 1,
+  "nota": "Equipara los salarios de las policías del Estado; beneficia al personal policial.",
+  "partido": ""
+ },
+ {
+  "id": "120/000017",
+  "tipo": "eco",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido",
+  "partido": ""
+ },
+ {
+  "id": "120/000018",
+  "tipo": "soc",
+  "imp": {
+   "pac": 1,
+   "proSan": 1
+  },
+  "peso": 1,
+  "nota": "Fija ratios de enfermeras en centros sanitarios; beneficia a pacientes y al personal de enfermería.",
+  "partido": ""
+ }
+]

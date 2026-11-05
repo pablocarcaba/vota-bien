@@ -71,3 +71,7 @@ Tras corregir en la rúbrica la definición de `desSub` (solo subsidio por desem
 ### Revisión de «Ciudadanía general» tras la v3 (05/11/2026)
 
 El análisis de la prueba de sesgo vio que la v3 había quitado casi todos los `ciud` en contra de la X (de 16 a favor y 10 en contra a 18 y 1), lo que empujaba a NC a salir primero. Se releyeron con el texto oficial del BOCG, por tres lectores independientes y consolidación por mayoría, las 16 iniciativas que perdieron `ciud` −1, 121/000145 (signo invertido respecto a la v2) y 130/000033 (RDL 3/2013, tasas judiciales). Resultado: 122/000034, 122/000050 y 125/000005 (Costas) recuperan `ciud` −1; 121/000145 se confirma en +1 (la v2 estaba mal); 130/000033 se queda en +1 (2 de 3); el resto sigue sin `ciud`. Cambian 8 iniciativas. Lecturas en `revision_ciud_05-11-2026/`.
+
+### Relectura de las ILP con el texto bien recortado (05/11/2026)
+
+El texto del BOCG en caché de las iniciativas legislativas populares (120/) empezaba en el sumario del boletín y arrastraba iniciativas vecinas (corregido en 33661ff). Las ILP afectadas de esta legislatura se releyeron con el texto correcto por tres lectores independientes y se consolidaron por mayoría. Lecturas en `data/clasificacion/lecturas_ilp_05-11-2026/`.

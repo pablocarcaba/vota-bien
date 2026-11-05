@@ -89,11 +89,10 @@
   "id": "120/000018",
   "tipo": "soc",
   "imp": {
-   "pac": 1,
-   "proSan": 1
+   "pac": 1
   },
   "peso": 1,
-  "nota": "Fija ratios de enfermeras en centros sanitarios: mejora la seguridad de los pacientes y regula la dotación de personal de enfermería.",
+  "nota": "Fija ratios de enfermeras por paciente en centros sanitarios para garantizar la seguridad del paciente.",
   "partido": ""
  },
  {

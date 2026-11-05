@@ -113,8 +113,8 @@
    "pen2": 1,
    "pen3": 1
   },
-  "peso": 3,
-  "nota": "Revierte la congelación de las pensiones de 2011: revalorización para todas las pensiones.",
+  "peso": 2,
+  "nota": "Revierte la congelación de las pensiones de 2011, con mismo signo para todos los tramos de pensionistas.",
   "partido": ""
  },
  {
@@ -195,8 +195,8 @@
   "imp": {
    "pobreza": 1
   },
-  "peso": 2,
-  "nota": "Establece una renta básica estatal; beneficia a personas en riesgo de pobreza.",
+  "peso": 3,
+  "nota": "Crea una renta básica estatal: beneficia a personas en riesgo de pobreza.",
   "partido": ""
  },
  {
@@ -268,11 +268,9 @@
  {
   "id": "120/000031",
   "tipo": "soc",
-  "imp": {
-   "depend": 1
-  },
-  "peso": 2,
-  "nota": "Modifica la participación en el coste de las prestaciones de dependencia; beneficia a las personas beneficiarias.",
+  "imp": {},
+  "peso": 1,
+  "nota": "El título no permite determinar el contenido.",
   "partido": ""
  },
  {
@@ -307,8 +305,8 @@
   "imp": {
    "pobreza": 1
   },
-  "peso": 3,
-  "nota": "Crea una prestación no contributiva de ingresos mínimos, al 80% del IPREM, para quien carece de recursos; beneficia a personas en riesgo de pobreza.",
+  "peso": 2,
+  "nota": "Crea una prestación de ingresos mínimos en la Seguridad Social para personas sin recursos.",
   "partido": ""
  },
  {
