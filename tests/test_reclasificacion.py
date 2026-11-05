@@ -426,6 +426,7 @@ class AplicarTest(unittest.TestCase):
             with self.subTest(campo=campo):
                 self.editar_vigente("122/000002", **{campo: valor})
                 p = self.aplicar("--fuente", "x", "--rehacer", "--motivo", "m", ok=False)
+                self.assertNotEqual(p.returncode, 0)
                 self.assertIn("se perderían: 122/000002", p.stderr)
                 self.editar_vigente("122/000002", **{campo: original})
 
@@ -455,14 +456,43 @@ class AplicarTest(unittest.TestCase):
         self.assertNotIn("a mano", p.stderr)
 
     def test_edicion_posterior_a_la_version_anterior_se_avisa_sin_bloquear(self):
+        # lecturas v2 idénticas a la vigente (mismo tipo y peso): solo la iniciativa editada difiere
+        vig = self.tree.read_json("data", "clasificacion", CLAVE, "clas_0.json")
         for x in "CDE":
-            volcar(self.tree.path("data", "clasificacion", CLAVE, "lectura_v2", x, "lote_00.json"),
-                   [lectura(i, {"jovenes": 1}) for i in self.IDS])
+            volcar(self.tree.path("data", "clasificacion", CLAVE, "lectura_v2", x, "lote_00.json"), vig)
         self.editar_vigente("122/000002", {"inq": 1})  # la vigente ya no es la consolidación de la v2
         p = self.aplicar("--fuente", "x")
-        self.assertIn("AVISO", p.stderr)
-        self.assertIn("lectura_v2", p.stderr)
-        self.assertIn("122/000002", p.stderr)
+        aviso = [l for l in p.stderr.splitlines() if l.startswith("AVISO")]
+        self.assertEqual(len(aviso), 1, p.stderr)
+        self.assertIn("lectura_v2", aviso[0])
+        self.assertIn("122/000002", aviso[0])
+        self.assertNotIn("130/000009", aviso[0])
+        self.assertIn("1 iniciativas", aviso[0])
+
+    def test_sobrescribir_un_id_desconocido_falla(self):
+        antes = self.estado()
+        p = self.aplicar("--fuente", "x", "--sobrescribir", "999/000001", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("no están en la clasificación vigente", p.stderr)
+        self.assertIn("999/000001", p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_sobrescribir_un_id_no_editado_falla(self):
+        antes = self.estado()
+        p = self.aplicar("--fuente", "x", "--sobrescribir", "130/000003", ok=False)
+        self.assertNotEqual(p.returncode, 0)
+        self.assertIn("nada que sobrescribir", p.stderr)
+        self.assertEqual(self.estado(), antes)
+
+    def test_conservar_un_id_no_editado_se_acepta_con_otra_redaccion_en_revision(self):
+        self.con_casero_en_la_rubrica()  # 122/000002 sí detectada; 130/000003 se conserva sin que lo parezca
+        self.aplicar("--fuente", "x", "--conservar", "122/000002,130/000003")
+        rev = leer(self.tree.path("data", "clasificacion", CLAVE, "REVISION.md"))
+        self.assertIn("conservado 1 iniciativas con la clasificación que ya tenían (correcciones manuales detectadas "
+                      "posteriores a las lecturas): 122/000002.", rev)
+        self.assertIn("conservado 1 iniciativas por decisión manual (no se detectó ninguna corrección posterior a las "
+                      "lecturas): 130/000003.", rev)
+        self.assertEqual(self.final()["130/000003"]["imp"], {"prop1": -1})
 
     def con_casero_en_la_rubrica(self):
         escribir(self.tree.path("data", "clasificacion", "RUBRICA.md"),

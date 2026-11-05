@@ -274,6 +274,10 @@ def main():
             print(f"Aviso: {len(sin_respaldo)} iniciativas cambian y su valor vigente no coincide con ninguna lectura "
                   f"(normal si la rúbrica cambió; revisa lectura_{ver}/CAMBIOS.md): {', '.join(sin_respaldo[:10])}"
                   f"{' …' if len(sin_respaldo) > 10 else ''}", file=sys.stderr)
+        inutiles = sorted(sobrescribir - set(editadas))
+        if inutiles:
+            sys.exit(f"--sobrescribir: no hay nada que sobrescribir en {inutiles[:5]}: no parecen corregidas a mano "
+                     "(la lectura se aplica igualmente; quítalas de --sobrescribir).")
         perdidas = [i for i in editadas if i not in conservar and i not in sobrescribir]
         if editadas:
             print(f"{len(editadas)} iniciativas de la vigente parecen corregidas a mano después de las lecturas y se perderían: "
@@ -295,9 +299,14 @@ def main():
         vac_n = sum(1 for i in ids if not Lr["N"][i].get("imp"))
         ronda2 = f" {n2} iniciativas que la primera pasada dejó sin efectos se volvieron a leer con más texto oficial." if a.ronda2 else ""
         extra = ""
-        if conservar:
-            extra += (f"- Se han conservado {len(conservar)} iniciativas con la clasificación que ya tenían (correcciones manuales "
-                      f"posteriores a las lecturas): {', '.join(sorted(conservar))}.\n")
+        detectadas = sorted(conservar & set(editadas))
+        manuales = sorted(conservar - set(editadas))
+        if detectadas:
+            extra += (f"- Se han conservado {len(detectadas)} iniciativas con la clasificación que ya tenían (correcciones manuales "
+                      f"detectadas posteriores a las lecturas): {', '.join(detectadas)}.\n")
+        if manuales:
+            extra += (f"- Se han conservado {len(manuales)} iniciativas por decisión manual (no se detectó ninguna corrección "
+                      f"posterior a las lecturas): {', '.join(manuales)}.\n")
         if sobrescribir:
             extra += (f"- Se han sobrescrito {len(sobrescribir)} iniciativas con la lectura, por decisión explícita "
                       f"(`--sobrescribir`): {', '.join(sorted(sobrescribir))}.\n")
