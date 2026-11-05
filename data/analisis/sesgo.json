@@ -11,93 +11,93 @@
     "partidos": [
      {
       "partido": "CC",
-      "primero_pct": 40.1,
-      "puesto_medio": 2.6,
-      "nota_media": 80,
+      "primero_pct": 42.4,
+      "puesto_medio": 2.5,
+      "nota_media": 88,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 22.8,
-      "puesto_medio": 2.9,
-      "nota_media": 80,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Compromís",
-      "primero_pct": 18.8,
-      "puesto_medio": 6.0,
-      "nota_media": 69,
+      "primero_pct": 30.6,
+      "puesto_medio": 2.7,
+      "nota_media": 88,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
-      "primero_pct": 7.1,
-      "puesto_medio": 2.6,
-      "nota_media": 78,
+      "primero_pct": 11.4,
+      "puesto_medio": 2.4,
+      "nota_media": 86,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
-      "primero_pct": 5.6,
-      "puesto_medio": 4.2,
-      "nota_media": 73,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Sumar",
-      "primero_pct": 3.4,
-      "puesto_medio": 5.0,
-      "nota_media": 72,
+      "primero_pct": 9.0,
+      "puesto_medio": 3.9,
+      "nota_media": 81,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
-      "primero_pct": 2.2,
-      "puesto_medio": 5.6,
-      "nota_media": 71,
+      "primero_pct": 3.5,
+      "puesto_medio": 5.1,
+      "nota_media": 80,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Sumar",
+      "primero_pct": 3.1,
+      "puesto_medio": 4.6,
+      "nota_media": 80,
       "perfiles": 2000
      },
      {
       "partido": "PP",
       "primero_pct": 0.0,
       "puesto_medio": 12.0,
-      "nota_media": 5,
+      "nota_media": 2,
       "perfiles": 2000
      },
      {
       "partido": "VOX",
       "primero_pct": 0.0,
       "puesto_medio": 13.0,
-      "nota_media": -67,
+      "nota_media": -75,
       "perfiles": 2000
      },
      {
       "partido": "Junts",
       "primero_pct": 0.0,
-      "puesto_medio": 9.3,
+      "puesto_medio": 9.9,
       "nota_media": 49,
       "perfiles": 2000
      },
      {
       "partido": "Podemos",
       "primero_pct": 0.0,
-      "puesto_medio": 9.3,
-      "nota_media": 56,
+      "puesto_medio": 8.8,
+      "nota_media": 66,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 7.7,
-      "nota_media": 65,
+      "puesto_medio": 7.3,
+      "nota_media": 73,
       "perfiles": 2000
      },
      {
       "partido": "UPN",
       "primero_pct": 0.0,
-      "puesto_medio": 10.7,
-      "nota_media": 38,
+      "puesto_medio": 10.9,
+      "nota_media": 40,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Compromís",
+      "primero_pct": 0.0,
+      "puesto_medio": 8.1,
+      "nota_media": 69,
       "perfiles": 2000
      }
     ],
@@ -128,9 +128,9 @@
       "PSOE +79"
      ],
      "Empresario de pyme industrial": [
-      "Compromís +58",
-      "PNV +51",
-      "CC +48"
+      "PNV +76",
+      "CC +72",
+      "PSOE +64"
      ],
      "Funcionario docente": [
       "PSOE +90",
@@ -153,14 +153,14 @@
       "Bildu +89"
      ],
      "Rentas altas con patrimonio": [
-      "CC +61",
-      "PNV +60",
-      "PSOE +57"
+      "CC +89",
+      "PNV +89",
+      "PSOE +85"
      ],
      "Gran patrimonio y gran empresa": [
-      "PNV +55",
-      "CC +54",
-      "Compromís +52"
+      "PNV +80",
+      "CC +79",
+      "PSOE +70"
      ],
      "Parado con subsidio": [
       "Sumar +90",
@@ -209,93 +209,93 @@
     "partidos": [
      {
       "partido": "CC",
-      "primero_pct": 36.1,
-      "puesto_medio": 2.5,
-      "nota_media": 79,
+      "primero_pct": 42.2,
+      "puesto_medio": 2.4,
+      "nota_media": 88,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 24.4,
-      "puesto_medio": 2.9,
+      "primero_pct": 33.5,
+      "puesto_medio": 2.6,
+      "nota_media": 88,
+      "perfiles": 2000
+     },
+     {
+      "partido": "PSOE",
+      "primero_pct": 10.2,
+      "puesto_medio": 2.3,
+      "nota_media": 85,
+      "perfiles": 2000
+     },
+     {
+      "partido": "ERC",
+      "primero_pct": 7.3,
+      "puesto_medio": 4.2,
+      "nota_media": 80,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Bildu",
+      "primero_pct": 3.7,
+      "puesto_medio": 5.1,
+      "nota_media": 78,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Sumar",
+      "primero_pct": 3.0,
+      "puesto_medio": 4.6,
       "nota_media": 79,
       "perfiles": 2000
      },
      {
       "partido": "Compromís",
-      "primero_pct": 22.7,
-      "puesto_medio": 5.8,
+      "primero_pct": 0.1,
+      "puesto_medio": 7.9,
       "nota_media": 69,
-      "perfiles": 2000
-     },
-     {
-      "partido": "PSOE",
-      "primero_pct": 6.7,
-      "puesto_medio": 2.6,
-      "nota_media": 76,
-      "perfiles": 2000
-     },
-     {
-      "partido": "ERC",
-      "primero_pct": 4.7,
-      "puesto_medio": 4.6,
-      "nota_media": 72,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Sumar",
-      "primero_pct": 3.1,
-      "puesto_medio": 5.0,
-      "nota_media": 71,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Bildu",
-      "primero_pct": 2.3,
-      "puesto_medio": 5.6,
-      "nota_media": 70,
       "perfiles": 2000
      },
      {
       "partido": "PP",
       "primero_pct": 0.0,
       "puesto_medio": 12.0,
-      "nota_media": 6,
+      "nota_media": 3,
       "perfiles": 2000
      },
      {
       "partido": "VOX",
       "primero_pct": 0.0,
       "puesto_medio": 13.0,
-      "nota_media": -65,
+      "nota_media": -74,
       "perfiles": 2000
      },
      {
       "partido": "Junts",
       "primero_pct": 0.0,
-      "puesto_medio": 9.4,
+      "puesto_medio": 10.0,
       "nota_media": 46,
       "perfiles": 2000
      },
      {
       "partido": "Podemos",
       "primero_pct": 0.0,
-      "puesto_medio": 9.5,
-      "nota_media": 52,
+      "puesto_medio": 8.9,
+      "nota_media": 63,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 7.7,
-      "nota_media": 63,
+      "puesto_medio": 7.3,
+      "nota_media": 72,
       "perfiles": 2000
      },
      {
       "partido": "UPN",
       "primero_pct": 0.0,
-      "puesto_medio": 10.6,
-      "nota_media": 37,
+      "puesto_medio": 10.8,
+      "nota_media": 39,
       "perfiles": 2000
      }
     ],
@@ -326,9 +326,9 @@
       "PSOE +78"
      ],
      "Empresario de pyme industrial": [
-      "Compromís +58",
-      "PNV +48",
-      "CC +44"
+      "PNV +72",
+      "CC +69",
+      "PSOE +60"
      ],
      "Funcionario docente": [
       "PSOE +89",
@@ -351,14 +351,14 @@
       "Bildu +89"
      ],
      "Rentas altas con patrimonio": [
-      "CC +59",
-      "PNV +58",
-      "Compromís +56"
+      "CC +88",
+      "PNV +88",
+      "PSOE +84"
      ],
      "Gran patrimonio y gran empresa": [
-      "PNV +53",
-      "CC +52",
-      "Compromís +52"
+      "PNV +79",
+      "CC +78",
+      "PSOE +69"
      ],
      "Parado con subsidio": [
       "Sumar +89",
@@ -407,101 +407,101 @@
     "partidos": [
      {
       "partido": "Sumar",
-      "primero_pct": 60.1,
+      "primero_pct": 56.6,
       "puesto_medio": 1.7,
-      "nota_media": 55,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Junts",
-      "primero_pct": 19.8,
-      "puesto_medio": 7.7,
-      "nota_media": 42,
+      "nota_media": 64,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 7.6,
-      "puesto_medio": 5.6,
-      "nota_media": 51,
+      "primero_pct": 26.0,
+      "puesto_medio": 4.5,
+      "nota_media": 60,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
-      "primero_pct": 4.9,
-      "puesto_medio": 4.0,
-      "nota_media": 52,
+      "primero_pct": 8.8,
+      "puesto_medio": 3.7,
+      "nota_media": 61,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
-      "primero_pct": 3.2,
-      "puesto_medio": 4.1,
-      "nota_media": 53,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Bildu",
-      "primero_pct": 1.6,
-      "puesto_medio": 4.8,
-      "nota_media": 53,
-      "perfiles": 2000
-     },
-     {
-      "partido": "UPN",
-      "primero_pct": 1.2,
-      "puesto_medio": 9.5,
-      "nota_media": 19,
-      "perfiles": 2000
-     },
-     {
-      "partido": "ERC",
-      "primero_pct": 0.7,
-      "puesto_medio": 5.3,
-      "nota_media": 52,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Podemos",
-      "primero_pct": 0.4,
-      "puesto_medio": 8.5,
-      "nota_media": 43,
-      "perfiles": 2000
-     },
-     {
-      "partido": "PP",
-      "primero_pct": 0.2,
-      "puesto_medio": 11.0,
-      "nota_media": 5,
+      "primero_pct": 3.1,
+      "puesto_medio": 3.7,
+      "nota_media": 62,
       "perfiles": 2000
      },
      {
       "partido": "CC",
-      "primero_pct": 0.2,
-      "puesto_medio": 6.5,
-      "nota_media": 48,
+      "primero_pct": 2.0,
+      "puesto_medio": 6.1,
+      "nota_media": 57,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Bildu",
+      "primero_pct": 1.5,
+      "puesto_medio": 4.4,
+      "nota_media": 62,
+      "perfiles": 2000
+     },
+     {
+      "partido": "ERC",
+      "primero_pct": 1.1,
+      "puesto_medio": 4.8,
+      "nota_media": 61,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Podemos",
+      "primero_pct": 0.6,
+      "puesto_medio": 8.1,
+      "nota_media": 52,
       "perfiles": 2000
      },
      {
       "partido": "Compromís",
+      "primero_pct": 0.2,
+      "puesto_medio": 8.5,
+      "nota_media": 52,
+      "perfiles": 2000
+     },
+     {
+      "partido": "PP",
       "primero_pct": 0.1,
-      "puesto_medio": 9.4,
-      "nota_media": 40,
+      "puesto_medio": 12.0,
+      "nota_media": -2,
       "perfiles": 2000
      },
      {
       "partido": "VOX",
       "primero_pct": 0.0,
-      "puesto_medio": 12.8,
-      "nota_media": -36,
+      "puesto_medio": 13.0,
+      "nota_media": -44,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Junts",
+      "primero_pct": 0.0,
+      "puesto_medio": 9.6,
+      "nota_media": 38,
+      "perfiles": 2000
+     },
+     {
+      "partido": "UPN",
+      "primero_pct": 0.0,
+      "puesto_medio": 10.9,
+      "nota_media": 17,
       "perfiles": 2000
      }
     ],
     "arquetipos_top3": {
      "Asalariado medio con hipoteca e hijos": [
-      "Sumar +58",
-      "PSOE +56",
-      "BNG +56"
+      "Sumar +62",
+      "PSOE +59",
+      "BNG +59"
      ],
      "Joven de alquiler": [
       "Sumar +64",
@@ -509,54 +509,54 @@
       "BNG +62"
      ],
      "Pensionista con casa propia": [
-      "Sumar +45",
-      "PSOE +42",
-      "ERC +42"
+      "Sumar +52",
+      "PSOE +50",
+      "ERC +50"
      ],
      "Pensionista con pensión baja": [
-      "Sumar +45",
-      "PSOE +42",
-      "ERC +42"
+      "Sumar +52",
+      "PSOE +50",
+      "ERC +50"
      ],
      "Autónomo del comercio": [
-      "PSOE +64",
-      "ERC +64",
-      "BNG +64"
+      "PSOE +67",
+      "ERC +67",
+      "BNG +67"
      ],
      "Empresario de pyme industrial": [
-      "PP +53",
-      "UPN +51",
-      "Junts +46"
+      "CC +56",
+      "PNV +52",
+      "PSOE +49"
      ],
      "Funcionario docente": [
-      "Sumar +51",
-      "PSOE +47",
-      "Bildu +46"
+      "Sumar +56",
+      "PSOE +54",
+      "Bildu +53"
      ],
      "Policía o guardia civil": [
-      "Sumar +47",
-      "PSOE +46",
-      "Compromís +36"
+      "Sumar +53",
+      "PSOE +53",
+      "Compromís +47"
      ],
      "Sanitario asalariado": [
-      "Sumar +45",
-      "PSOE +40",
-      "ERC +40"
+      "Sumar +52",
+      "Compromís +49",
+      "PSOE +48"
      ],
      "Familia numerosa": [
-      "Sumar +58",
-      "PSOE +56",
-      "BNG +56"
+      "Sumar +62",
+      "PSOE +59",
+      "BNG +59"
      ],
      "Rentas altas con patrimonio": [
-      "Junts +29",
-      "UPN +20",
-      "PP +14"
+      "PSOE +33",
+      "Sumar +32",
+      "CC +32"
      ],
      "Gran patrimonio y gran empresa": [
-      "Junts +29",
-      "UPN +20",
-      "PP +14"
+      "PSOE +33",
+      "Sumar +32",
+      "CC +32"
      ],
      "Parado con subsidio": [
       "Sumar +70",
@@ -564,9 +564,9 @@
       "BNG +69"
      ],
      "Agricultor en el medio rural": [
-      "PSOE +61",
-      "ERC +61",
-      "Bildu +61"
+      "PSOE +64",
+      "ERC +64",
+      "Bildu +64"
      ],
      "Madre sola con hijo": [
       "Sumar +71",
@@ -579,19 +579,19 @@
       "PSOE +48"
      ],
      "Mayor dependiente": [
-      "Sumar +71",
-      "PSOE +71",
-      "ERC +71"
-     ],
-     "Casero con varias viviendas": [
-      "Junts +29",
-      "UPN +20",
-      "PP +14"
-     ],
-     "Transportista autónomo": [
-      "Sumar +74",
+      "Sumar +73",
       "PSOE +73",
       "ERC +73"
+     ],
+     "Casero con varias viviendas": [
+      "Junts +20",
+      "UPN +20",
+      "Sumar +8"
+     ],
+     "Transportista autónomo": [
+      "Sumar +76",
+      "PSOE +75",
+      "ERC +75"
      ],
      "Asalariado de salario mínimo": [
       "Sumar +64",
@@ -601,105 +601,105 @@
     }
    },
    "soc_sin_ciud": {
-    "perfiles_con_resultado": 1963,
+    "perfiles_con_resultado": 1969,
     "partidos": [
      {
       "partido": "Sumar",
-      "primero_pct": 31.3,
-      "puesto_medio": 3.4,
-      "nota_media": 46,
-      "perfiles": 1950
-     },
-     {
-      "partido": "PNV",
-      "primero_pct": 14.6,
-      "puesto_medio": 4.0,
-      "nota_media": 48,
-      "perfiles": 1934
-     },
-     {
-      "partido": "PP",
-      "primero_pct": 13.3,
-      "puesto_medio": 8.9,
-      "nota_media": 23,
-      "perfiles": 1955
+      "primero_pct": 30.7,
+      "puesto_medio": 2.7,
+      "nota_media": 57,
+      "perfiles": 1959
      },
      {
       "partido": "CC",
-      "primero_pct": 12.5,
-      "puesto_medio": 4.5,
-      "nota_media": 48,
-      "perfiles": 1932
+      "primero_pct": 26.6,
+      "puesto_medio": 4.0,
+      "nota_media": 60,
+      "perfiles": 1938
      },
      {
-      "partido": "Junts",
-      "primero_pct": 11.3,
-      "puesto_medio": 6.6,
-      "nota_media": 42,
-      "perfiles": 1934
+      "partido": "PNV",
+      "primero_pct": 19.5,
+      "puesto_medio": 3.3,
+      "nota_media": 60,
+      "perfiles": 1935
      },
      {
       "partido": "PSOE",
-      "primero_pct": 4.1,
-      "puesto_medio": 5.2,
-      "nota_media": 44,
-      "perfiles": 1934
+      "primero_pct": 5.0,
+      "puesto_medio": 4.4,
+      "nota_media": 55,
+      "perfiles": 1943
      },
      {
       "partido": "Podemos",
-      "primero_pct": 3.7,
-      "puesto_medio": 8.9,
-      "nota_media": 35,
-      "perfiles": 1936
+      "primero_pct": 4.8,
+      "puesto_medio": 8.2,
+      "nota_media": 46,
+      "perfiles": 1947
      },
      {
       "partido": "Bildu",
-      "primero_pct": 3.3,
-      "puesto_medio": 5.0,
-      "nota_media": 45,
-      "perfiles": 1934
+      "primero_pct": 3.7,
+      "puesto_medio": 4.2,
+      "nota_media": 56,
+      "perfiles": 1943
      },
      {
       "partido": "BNG",
-      "primero_pct": 3.1,
-      "puesto_medio": 6.3,
-      "nota_media": 45,
-      "perfiles": 1933
+      "primero_pct": 3.5,
+      "puesto_medio": 5.6,
+      "nota_media": 56,
+      "perfiles": 1943
+     },
+     {
+      "partido": "PP",
+      "primero_pct": 2.8,
+      "puesto_medio": 11.1,
+      "nota_media": 15,
+      "perfiles": 1952
      },
      {
       "partido": "UPN",
-      "primero_pct": 1.1,
-      "puesto_medio": 8.7,
-      "nota_media": 27,
-      "perfiles": 1932
+      "primero_pct": 1.9,
+      "puesto_medio": 10.0,
+      "nota_media": 25,
+      "perfiles": 1930
      },
      {
       "partido": "ERC",
-      "primero_pct": 0.9,
-      "puesto_medio": 7.0,
-      "nota_media": 43,
-      "perfiles": 1942
+      "primero_pct": 1.2,
+      "puesto_medio": 6.2,
+      "nota_media": 54,
+      "perfiles": 1946
      },
      {
       "partido": "VOX",
-      "primero_pct": 0.8,
-      "puesto_medio": 11.8,
-      "nota_media": -19,
-      "perfiles": 1930
+      "primero_pct": 0.2,
+      "puesto_medio": 12.8,
+      "nota_media": -29,
+      "perfiles": 1926
      },
      {
       "partido": "Compromís",
       "primero_pct": 0.1,
-      "puesto_medio": 10.6,
-      "nota_media": 27,
-      "perfiles": 1924
+      "puesto_medio": 9.6,
+      "nota_media": 41,
+      "perfiles": 1923
+     },
+     {
+      "partido": "Junts",
+      "primero_pct": 0.0,
+      "puesto_medio": 8.8,
+      "nota_media": 37,
+      "perfiles": 1935
      }
     ],
     "arquetipos_top3": {
      "Asalariado medio con hipoteca e hijos": [
-      "Sumar +47",
-      "PSOE +44",
-      "Bildu +44"
+      "Sumar +53",
+      "PSOE +51",
+      "Bildu +51"
      ],
      "Joven de alquiler": [
       "Sumar +54",
@@ -709,47 +709,46 @@
      "Pensionista con casa propia": [],
      "Pensionista con pensión baja": [],
      "Autónomo del comercio": [
-      "PP +69",
       "UPN +69",
-      "PSOE +53"
+      "PSOE +57",
+      "ERC +57"
      ],
      "Empresario de pyme industrial": [
       "PP +74",
       "UPN +64",
-      "Junts +43"
+      "CC +51"
      ],
-     "Funcionario docente": [],
+     "Funcionario docente": [
+      "Sumar +37",
+      "PSOE +35",
+      "Bildu +35"
+     ],
      "Policía o guardia civil": [
-      "VOX +18",
-      "Sumar +15"
+      "PSOE +33",
+      "PNV +33",
+      "CC +33"
      ],
      "Sanitario asalariado": [
-      "Sumar +7"
+      "CC +31",
+      "Sumar +27",
+      "PSOE +23"
      ],
      "Familia numerosa": [
-      "Sumar +47",
-      "PSOE +44",
-      "Bildu +44"
+      "Sumar +53",
+      "PSOE +51",
+      "Bildu +51"
      ],
-     "Rentas altas con patrimonio": [
-      "PP +44",
-      "VOX +44",
-      "UPN +33"
-     ],
-     "Gran patrimonio y gran empresa": [
-      "PP +44",
-      "VOX +44",
-      "UPN +33"
-     ],
+     "Rentas altas con patrimonio": [],
+     "Gran patrimonio y gran empresa": [],
      "Parado con subsidio": [
       "Sumar +65",
       "ERC +64",
       "Bildu +64"
      ],
      "Agricultor en el medio rural": [
-      "PP +70",
       "UPN +69",
-      "PNV +52"
+      "PNV +56",
+      "PP +55"
      ],
      "Madre sola con hijo": [
       "Sumar +68",
@@ -762,19 +761,19 @@
       "ERC +25"
      ],
      "Mayor dependiente": [
-      "PSOE +67",
-      "Sumar +67",
-      "ERC +67"
+      "PSOE +70",
+      "Sumar +70",
+      "ERC +70"
      ],
      "Casero con varias viviendas": [
-      "PP +44",
-      "VOX +44",
+      "PP +33",
+      "VOX +33",
       "UPN +33"
      ],
      "Transportista autónomo": [
-      "PSOE +69",
-      "Sumar +69",
-      "ERC +69"
+      "PSOE +72",
+      "Sumar +72",
+      "ERC +72"
      ],
      "Asalariado de salario mínimo": [
       "Sumar +54",
@@ -792,134 +791,134 @@
     "partidos": [
      {
       "partido": "Compromís",
-      "primero_pct": 35.1,
-      "puesto_medio": 2.9,
-      "nota_media": 74,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Teruel Existe",
-      "primero_pct": 22.0,
-      "puesto_medio": 5.3,
-      "nota_media": 69,
+      "primero_pct": 46.6,
+      "puesto_medio": 2.4,
+      "nota_media": 82,
       "perfiles": 2000
      },
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 18.7,
-      "puesto_medio": 2.1,
-      "nota_media": 74,
+      "primero_pct": 24.7,
+      "puesto_medio": 1.7,
+      "nota_media": 82,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
-      "primero_pct": 8.1,
-      "puesto_medio": 7.8,
-      "nota_media": 65,
-      "perfiles": 2000
-     },
-     {
-      "partido": "PSOE",
-      "primero_pct": 4.7,
-      "puesto_medio": 3.9,
-      "nota_media": 71,
-      "perfiles": 2000
-     },
-     {
-      "partido": "PNV",
-      "primero_pct": 4.7,
-      "puesto_medio": 7.6,
-      "nota_media": 64,
+      "primero_pct": 9.7,
+      "puesto_medio": 6.5,
+      "nota_media": 75,
       "perfiles": 2000
      },
      {
       "partido": "CC",
-      "primero_pct": 4.3,
-      "puesto_medio": 10.2,
-      "nota_media": 56,
+      "primero_pct": 7.4,
+      "puesto_medio": 10.1,
+      "nota_media": 63,
       "perfiles": 2000
      },
      {
-      "partido": "Cs",
-      "primero_pct": 0.8,
-      "puesto_medio": 12.9,
-      "nota_media": 35,
+      "partido": "PNV",
+      "primero_pct": 4.6,
+      "puesto_medio": 7.6,
+      "nota_media": 71,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Teruel Existe",
+      "primero_pct": 2.9,
+      "puesto_medio": 6.7,
+      "nota_media": 74,
       "perfiles": 2000
      },
      {
       "partido": "NC",
-      "primero_pct": 0.8,
-      "puesto_medio": 9.8,
-      "nota_media": 59,
+      "primero_pct": 1.4,
+      "puesto_medio": 9.2,
+      "nota_media": 68,
+      "perfiles": 2000
+     },
+     {
+      "partido": "PSOE",
+      "primero_pct": 1.3,
+      "puesto_medio": 4.4,
+      "nota_media": 77,
       "perfiles": 2000
      },
      {
       "partido": "Más País",
-      "primero_pct": 0.6,
-      "puesto_medio": 4.6,
-      "nota_media": 72,
+      "primero_pct": 1.2,
+      "puesto_medio": 4.0,
+      "nota_media": 80,
       "perfiles": 2000
      },
      {
       "partido": "PRC",
       "primero_pct": 0.1,
-      "puesto_medio": 6.2,
-      "nota_media": 68,
+      "puesto_medio": 6.5,
+      "nota_media": 75,
       "perfiles": 2000
      },
      {
       "partido": "PP",
       "primero_pct": 0.0,
-      "puesto_medio": 15.8,
+      "puesto_medio": 16.0,
       "nota_media": 13,
       "perfiles": 2000
      },
      {
       "partido": "VOX",
       "primero_pct": 0.0,
-      "puesto_medio": 19.8,
-      "nota_media": -47,
+      "puesto_medio": 19.9,
+      "nota_media": -55,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 10.1,
-      "nota_media": 59,
+      "puesto_medio": 10.9,
+      "nota_media": 63,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Cs",
+      "primero_pct": 0.0,
+      "puesto_medio": 13.5,
+      "nota_media": 36,
       "perfiles": 2000
      },
      {
       "partido": "Junts",
       "primero_pct": 0.0,
-      "puesto_medio": 15.5,
-      "nota_media": 16,
+      "puesto_medio": 15.8,
+      "nota_media": 15,
       "perfiles": 2000
      },
      {
       "partido": "PDeCAT",
       "primero_pct": 0.0,
       "puesto_medio": 8.7,
-      "nota_media": 63,
+      "nota_media": 70,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 13.7,
-      "nota_media": 34,
+      "puesto_medio": 12.8,
+      "nota_media": 44,
       "perfiles": 2000
      },
      {
       "partido": "CUP",
       "primero_pct": 0.0,
-      "puesto_medio": 19.2,
-      "nota_media": -34,
+      "puesto_medio": 19.0,
+      "nota_media": -35,
       "perfiles": 2000
      },
      {
       "partido": "UPN",
       "primero_pct": 0.0,
-      "puesto_medio": 16.0,
+      "puesto_medio": 16.2,
       "nota_media": 13,
       "perfiles": 2000
      },
@@ -927,7 +926,7 @@
       "partido": "Foro",
       "primero_pct": 0.0,
       "puesto_medio": 18.0,
-      "nota_media": -14,
+      "nota_media": -15,
       "perfiles": 2000
      }
     ],
@@ -958,9 +957,9 @@
       "CC +77"
      ],
      "Empresario de pyme industrial": [
-      "Cs +55",
-      "Teruel Existe +47",
-      "CC +46"
+      "CC +69",
+      "NC +65",
+      "PSOE +61"
      ],
      "Funcionario docente": [
       "Compromís +91",
@@ -983,14 +982,14 @@
       "Más País +89"
      ],
      "Rentas altas con patrimonio": [
-      "PSOE +45",
-      "Teruel Existe +45",
-      "Cs +44"
+      "Bildu +81",
+      "Compromís +73",
+      "PNV +73"
      ],
      "Gran patrimonio y gran empresa": [
-      "Teruel Existe +46",
-      "PSOE +39",
-      "CC +39"
+      "CC +67",
+      "PNV +64",
+      "PSOE +63"
      ],
      "Parado con subsidio": [
       "Unidas Podemos +90",
@@ -1038,143 +1037,143 @@
     "perfiles_con_resultado": 2000,
     "partidos": [
      {
-      "partido": "PRC",
-      "primero_pct": 35.2,
-      "puesto_medio": 2.9,
-      "nota_media": 75,
-      "perfiles": 2000
-     },
-     {
       "partido": "Compromís",
-      "primero_pct": 29.8,
-      "puesto_medio": 3.3,
-      "nota_media": 74,
+      "primero_pct": 41.9,
+      "puesto_medio": 2.7,
+      "nota_media": 83,
       "perfiles": 2000
      },
      {
-      "partido": "Teruel Existe",
-      "primero_pct": 16.8,
-      "puesto_medio": 5.0,
-      "nota_media": 72,
+      "partido": "PRC",
+      "primero_pct": 28.2,
+      "puesto_medio": 3.3,
+      "nota_media": 82,
       "perfiles": 2000
      },
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 7.2,
-      "puesto_medio": 3.4,
-      "nota_media": 74,
+      "primero_pct": 12.0,
+      "puesto_medio": 2.8,
+      "nota_media": 83,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Teruel Existe",
+      "primero_pct": 6.7,
+      "puesto_medio": 6.3,
+      "nota_media": 77,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
-      "primero_pct": 4.8,
-      "puesto_medio": 8.7,
-      "nota_media": 62,
+      "primero_pct": 5.2,
+      "puesto_medio": 7.6,
+      "nota_media": 74,
       "perfiles": 2000
      },
      {
       "partido": "CC",
-      "primero_pct": 2.3,
-      "puesto_medio": 10.4,
-      "nota_media": 54,
-      "perfiles": 2000
-     },
-     {
-      "partido": "PSOE",
-      "primero_pct": 1.7,
-      "puesto_medio": 3.9,
-      "nota_media": 73,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Cs",
-      "primero_pct": 1.1,
-      "puesto_medio": 12.5,
-      "nota_media": 37,
+      "primero_pct": 4.1,
+      "puesto_medio": 10.2,
+      "nota_media": 61,
       "perfiles": 2000
      },
      {
       "partido": "Más País",
-      "primero_pct": 0.6,
-      "puesto_medio": 5.4,
-      "nota_media": 73,
+      "primero_pct": 0.8,
+      "puesto_medio": 4.6,
+      "nota_media": 82,
       "perfiles": 2000
      },
      {
-      "partido": "PDeCAT",
-      "primero_pct": 0.3,
-      "puesto_medio": 7.6,
-      "nota_media": 65,
+      "partido": "PSOE",
+      "primero_pct": 0.5,
+      "puesto_medio": 4.5,
+      "nota_media": 80,
       "perfiles": 2000
      },
      {
       "partido": "NC",
-      "primero_pct": 0.1,
-      "puesto_medio": 10.1,
-      "nota_media": 57,
+      "primero_pct": 0.4,
+      "puesto_medio": 9.6,
+      "nota_media": 67,
+      "perfiles": 2000
+     },
+     {
+      "partido": "PDeCAT",
+      "primero_pct": 0.2,
+      "puesto_medio": 7.6,
+      "nota_media": 73,
       "perfiles": 2000
      },
      {
       "partido": "PP",
       "primero_pct": 0.0,
-      "puesto_medio": 14.8,
+      "puesto_medio": 15.2,
       "nota_media": 20,
       "perfiles": 2000
      },
      {
       "partido": "VOX",
       "primero_pct": 0.0,
-      "puesto_medio": 19.7,
-      "nota_media": -44,
+      "puesto_medio": 19.9,
+      "nota_media": -52,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 10.9,
-      "nota_media": 54,
+      "puesto_medio": 11.6,
+      "nota_media": 59,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Cs",
+      "primero_pct": 0.0,
+      "puesto_medio": 13.3,
+      "nota_media": 37,
       "perfiles": 2000
      },
      {
       "partido": "Junts",
       "primero_pct": 0.0,
-      "puesto_medio": 16.5,
-      "nota_media": 10,
+      "puesto_medio": 16.7,
+      "nota_media": 9,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
       "primero_pct": 0.0,
-      "puesto_medio": 8.2,
-      "nota_media": 64,
+      "puesto_medio": 8.4,
+      "nota_media": 71,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 13.9,
-      "nota_media": 33,
+      "puesto_medio": 12.9,
+      "nota_media": 44,
       "perfiles": 2000
      },
      {
       "partido": "CUP",
       "primero_pct": 0.0,
-      "puesto_medio": 19.3,
-      "nota_media": -34,
+      "puesto_medio": 19.1,
+      "nota_media": -35,
       "perfiles": 2000
      },
      {
       "partido": "UPN",
       "primero_pct": 0.0,
-      "puesto_medio": 15.8,
+      "puesto_medio": 16.0,
       "nota_media": 17,
       "perfiles": 2000
      },
      {
       "partido": "Foro",
       "primero_pct": 0.0,
-      "puesto_medio": 17.7,
-      "nota_media": -3,
+      "puesto_medio": 17.8,
+      "nota_media": -4,
       "perfiles": 2000
      }
     ],
@@ -1205,9 +1204,9 @@
       "NC +77"
      ],
      "Empresario de pyme industrial": [
-      "Cs +58",
-      "Teruel Existe +47",
-      "PRC +44"
+      "CC +67",
+      "PRC +65",
+      "Cs +64"
      ],
      "Funcionario docente": [
       "Unidas Podemos +93",
@@ -1230,14 +1229,14 @@
       "Más País +91"
      ],
      "Rentas altas con patrimonio": [
-      "PRC +48",
-      "Cs +46",
-      "Teruel Existe +46"
+      "Bildu +79",
+      "PRC +78",
+      "Compromís +74"
      ],
      "Gran patrimonio y gran empresa": [
-      "Teruel Existe +47",
-      "PRC +41",
-      "PSOE +38"
+      "PRC +69",
+      "CC +66",
+      "Teruel Existe +66"
      ],
      "Parado con subsidio": [
       "Compromís +93",
@@ -1286,135 +1285,135 @@
     "partidos": [
      {
       "partido": "Más País",
-      "primero_pct": 45.6,
-      "puesto_medio": 1.9,
-      "nota_media": 73,
+      "primero_pct": 42.7,
+      "puesto_medio": 2.2,
+      "nota_media": 78,
       "perfiles": 2000
      },
      {
       "partido": "Compromís",
-      "primero_pct": 29.0,
-      "puesto_medio": 2.4,
-      "nota_media": 73,
+      "primero_pct": 28.8,
+      "puesto_medio": 2.3,
+      "nota_media": 78,
       "perfiles": 2000
      },
      {
       "partido": "Teruel Existe",
-      "primero_pct": 11.6,
-      "puesto_medio": 3.1,
-      "nota_media": 71,
+      "primero_pct": 15.6,
+      "puesto_medio": 2.8,
+      "nota_media": 77,
       "perfiles": 2000
      },
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 7.0,
-      "puesto_medio": 3.3,
-      "nota_media": 70,
+      "primero_pct": 6.9,
+      "puesto_medio": 3.4,
+      "nota_media": 75,
       "perfiles": 2000
      },
      {
       "partido": "NC",
-      "primero_pct": 5.6,
-      "puesto_medio": 5.4,
-      "nota_media": 64,
+      "primero_pct": 5.0,
+      "puesto_medio": 5.2,
+      "nota_media": 70,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
-      "primero_pct": 0.9,
-      "puesto_medio": 7.5,
-      "nota_media": 56,
-      "perfiles": 2000
-     },
-     {
-      "partido": "PNV",
-      "primero_pct": 0.2,
-      "puesto_medio": 10.0,
-      "nota_media": 48,
+      "primero_pct": 1.1,
+      "puesto_medio": 6.8,
+      "nota_media": 63,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
       "primero_pct": 0.0,
-      "puesto_medio": 8.3,
-      "nota_media": 54,
+      "puesto_medio": 8.4,
+      "nota_media": 59,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 0.0,
-      "puesto_medio": 18.2,
-      "nota_media": -4,
-      "perfiles": 2000
-     },
-     {
-      "partido": "VOX",
-      "primero_pct": 0.0,
-      "puesto_medio": 20.0,
-      "nota_media": -50,
-      "perfiles": 2000
-     },
-     {
-      "partido": "ERC",
-      "primero_pct": 0.0,
-      "puesto_medio": 11.6,
-      "nota_media": 43,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Cs",
-      "primero_pct": 0.0,
-      "puesto_medio": 14.5,
-      "nota_media": 23,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Junts",
-      "primero_pct": 0.0,
-      "puesto_medio": 15.4,
-      "nota_media": 19,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Bildu",
-      "primero_pct": 0.0,
-      "puesto_medio": 9.8,
-      "nota_media": 50,
-      "perfiles": 2000
-     },
-     {
-      "partido": "PDeCAT",
-      "primero_pct": 0.0,
-      "puesto_medio": 13.3,
-      "nota_media": 35,
-      "perfiles": 2000
-     },
-     {
-      "partido": "CUP",
-      "primero_pct": 0.0,
-      "puesto_medio": 13.6,
-      "nota_media": 33,
-      "perfiles": 2000
-     },
-     {
-      "partido": "UPN",
       "primero_pct": 0.0,
       "puesto_medio": 18.3,
       "nota_media": -5,
       "perfiles": 2000
      },
      {
+      "partido": "VOX",
+      "primero_pct": 0.0,
+      "puesto_medio": 20.0,
+      "nota_media": -53,
+      "perfiles": 2000
+     },
+     {
+      "partido": "ERC",
+      "primero_pct": 0.0,
+      "puesto_medio": 11.5,
+      "nota_media": 47,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Cs",
+      "primero_pct": 0.0,
+      "puesto_medio": 15.1,
+      "nota_media": 23,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Junts",
+      "primero_pct": 0.0,
+      "puesto_medio": 15.7,
+      "nota_media": 19,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Bildu",
+      "primero_pct": 0.0,
+      "puesto_medio": 9.6,
+      "nota_media": 55,
+      "perfiles": 2000
+     },
+     {
+      "partido": "PNV",
+      "primero_pct": 0.0,
+      "puesto_medio": 10.5,
+      "nota_media": 51,
+      "perfiles": 2000
+     },
+     {
+      "partido": "PDeCAT",
+      "primero_pct": 0.0,
+      "puesto_medio": 13.1,
+      "nota_media": 40,
+      "perfiles": 2000
+     },
+     {
+      "partido": "CUP",
+      "primero_pct": 0.0,
+      "puesto_medio": 13.1,
+      "nota_media": 39,
+      "perfiles": 2000
+     },
+     {
+      "partido": "UPN",
+      "primero_pct": 0.0,
+      "puesto_medio": 18.2,
+      "nota_media": -5,
+      "perfiles": 2000
+     },
+     {
       "partido": "CC",
       "primero_pct": 0.0,
-      "puesto_medio": 9.0,
-      "nota_media": 50,
+      "puesto_medio": 9.2,
+      "nota_media": 55,
       "perfiles": 2000
      },
      {
       "partido": "PRC",
       "primero_pct": 0.0,
-      "puesto_medio": 7.2,
-      "nota_media": 57,
+      "puesto_medio": 7.1,
+      "nota_media": 63,
       "perfiles": 2000
      },
      {
@@ -1452,9 +1451,9 @@
       "NC +71"
      ],
      "Empresario de pyme industrial": [
-      "PNV +35",
-      "Unidas Podemos +34",
-      "Compromís +34"
+      "Teruel Existe +54",
+      "Compromís +53",
+      "Unidas Podemos +51"
      ],
      "Funcionario docente": [
       "Unidas Podemos +82",
@@ -1477,14 +1476,14 @@
       "Unidas Podemos +76"
      ],
      "Rentas altas con patrimonio": [
-      "Compromís +49",
-      "Unidas Podemos +48",
-      "Más País +48"
+      "Compromís +72",
+      "Unidas Podemos +68",
+      "Más País +68"
      ],
      "Gran patrimonio y gran empresa": [
-      "Compromís +51",
-      "Más País +50",
-      "Unidas Podemos +49"
+      "Compromís +73",
+      "Unidas Podemos +69",
+      "Más País +69"
      ],
      "Parado con subsidio": [
       "Unidas Podemos +81",
@@ -1532,144 +1531,144 @@
     "perfiles_con_resultado": 2000,
     "partidos": [
      {
-      "partido": "Teruel Existe",
-      "primero_pct": 23.1,
-      "puesto_medio": 3.6,
+      "partido": "PRC",
+      "primero_pct": 27.9,
+      "puesto_medio": 5.2,
       "nota_media": 55,
-      "perfiles": 1948
+      "perfiles": 1975
      },
      {
-      "partido": "PRC",
-      "primero_pct": 23.0,
-      "puesto_medio": 5.6,
-      "nota_media": 46,
-      "perfiles": 1965
+      "partido": "Teruel Existe",
+      "primero_pct": 27.0,
+      "puesto_medio": 3.2,
+      "nota_media": 64,
+      "perfiles": 1953
      },
      {
       "partido": "Más País",
-      "primero_pct": 14.3,
-      "puesto_medio": 4.3,
-      "nota_media": 51,
-      "perfiles": 1984
-     },
-     {
-      "partido": "Compromís",
-      "primero_pct": 8.1,
-      "puesto_medio": 4.3,
-      "nota_media": 51,
-      "perfiles": 1984
+      "primero_pct": 15.7,
+      "puesto_medio": 4.1,
+      "nota_media": 58,
+      "perfiles": 1986
      },
      {
       "partido": "NC",
-      "primero_pct": 7.7,
-      "puesto_medio": 7.6,
-      "nota_media": 46,
-      "perfiles": 1969
+      "primero_pct": 7.5,
+      "puesto_medio": 6.6,
+      "nota_media": 55,
+      "perfiles": 1971
      },
      {
-      "partido": "Cs",
-      "primero_pct": 6.3,
-      "puesto_medio": 11.6,
-      "nota_media": 22,
-      "perfiles": 1991
-     },
-     {
-      "partido": "PNV",
-      "primero_pct": 6.2,
-      "puesto_medio": 11.9,
-      "nota_media": 32,
-      "perfiles": 1968
+      "partido": "Compromís",
+      "primero_pct": 7.4,
+      "puesto_medio": 3.9,
+      "nota_media": 60,
+      "perfiles": 1986
      },
      {
       "partido": "ERC",
       "primero_pct": 4.2,
-      "puesto_medio": 8.7,
-      "nota_media": 43,
-      "perfiles": 1984
+      "puesto_medio": 8.1,
+      "nota_media": 50,
+      "perfiles": 1986
+     },
+     {
+      "partido": "PNV",
+      "primero_pct": 3.1,
+      "puesto_medio": 12.5,
+      "nota_media": 37,
+      "perfiles": 1976
      },
      {
       "partido": "BNG",
-      "primero_pct": 2.2,
-      "puesto_medio": 8.0,
-      "nota_media": 41,
+      "primero_pct": 2.6,
+      "puesto_medio": 7.0,
+      "nota_media": 51,
       "perfiles": 1976
      },
      {
       "partido": "PSOE",
-      "primero_pct": 1.2,
-      "puesto_medio": 7.7,
-      "nota_media": 44,
-      "perfiles": 1984
+      "primero_pct": 1.5,
+      "puesto_medio": 7.5,
+      "nota_media": 51,
+      "perfiles": 1986
      },
      {
       "partido": "VOX",
-      "primero_pct": 1.2,
-      "puesto_medio": 18.4,
-      "nota_media": -21,
-      "perfiles": 1984
-     },
-     {
-      "partido": "Junts",
-      "primero_pct": 0.8,
-      "puesto_medio": 13.1,
-      "nota_media": 22,
-      "perfiles": 1943
+      "primero_pct": 0.7,
+      "puesto_medio": 19.4,
+      "nota_media": -25,
+      "perfiles": 1990
      },
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 0.6,
-      "puesto_medio": 7.4,
-      "nota_media": 45,
-      "perfiles": 1984
+      "primero_pct": 0.7,
+      "puesto_medio": 7.2,
+      "nota_media": 52,
+      "perfiles": 1986
      },
      {
       "partido": "Bildu",
-      "primero_pct": 0.6,
-      "puesto_medio": 11.4,
-      "nota_media": 35,
-      "perfiles": 1984
+      "primero_pct": 0.7,
+      "puesto_medio": 10.7,
+      "nota_media": 43,
+      "perfiles": 1985
      },
      {
-      "partido": "CUP",
-      "primero_pct": 0.3,
-      "puesto_medio": 14.4,
-      "nota_media": 20,
-      "perfiles": 1984
+      "partido": "Junts",
+      "primero_pct": 0.4,
+      "puesto_medio": 14.3,
+      "nota_media": 24,
+      "perfiles": 1948
      },
      {
       "partido": "PDeCAT",
-      "primero_pct": 0.2,
-      "puesto_medio": 9.0,
-      "nota_media": 42,
-      "perfiles": 1930
+      "primero_pct": 0.4,
+      "puesto_medio": 7.7,
+      "nota_media": 53,
+      "perfiles": 1918
+     },
+     {
+      "partido": "CUP",
+      "primero_pct": 0.4,
+      "puesto_medio": 13.6,
+      "nota_media": 28,
+      "perfiles": 1985
+     },
+     {
+      "partido": "Cs",
+      "primero_pct": 0.1,
+      "puesto_medio": 13.6,
+      "nota_media": 23,
+      "perfiles": 1991
      },
      {
       "partido": "PP",
       "primero_pct": 0.0,
-      "puesto_medio": 15.7,
+      "puesto_medio": 16.6,
       "nota_media": -2,
-      "perfiles": 1984
+      "perfiles": 1986
      },
      {
       "partido": "UPN",
       "primero_pct": 0.0,
-      "puesto_medio": 17.2,
+      "puesto_medio": 18.0,
       "nota_media": -6,
-      "perfiles": 1984
+      "perfiles": 1986
      },
      {
       "partido": "CC",
       "primero_pct": 0.0,
-      "puesto_medio": 12.8,
-      "nota_media": 26,
-      "perfiles": 1984
+      "puesto_medio": 12.4,
+      "nota_media": 33,
+      "perfiles": 1986
      },
      {
       "partido": "Foro",
       "primero_pct": 0.0,
-      "puesto_medio": 16.2,
+      "puesto_medio": 17.2,
       "nota_media": 0,
-      "perfiles": 1984
+      "perfiles": 1986
      }
     ],
     "arquetipos_top3": {
@@ -1696,9 +1695,9 @@
       "Teruel Existe +38"
      ],
      "Empresario de pyme industrial": [
-      "VOX +33",
-      "Junts +27",
-      "ERC +2"
+      "Junts +35",
+      "ERC +28",
+      "CUP +26"
      ],
      "Funcionario docente": [
       "PSOE +65",
@@ -1721,14 +1720,14 @@
       "Compromís +57"
      ],
      "Rentas altas con patrimonio": [
-      "PNV +13",
-      "VOX +8",
-      "Junts +6"
+      "PNV +33",
+      "PRC +31",
+      "Compromís +27"
      ],
      "Gran patrimonio y gran empresa": [
-      "PNV +19",
-      "VOX +14",
-      "Junts +13"
+      "PNV +39",
+      "PRC +38",
+      "Compromís +33"
      ],
      "Parado con subsidio": [
       "Unidas Podemos +57",
@@ -1777,21 +1776,21 @@
    "titulo": "XIII legislatura · 2019",
    "fuente": "Congreso de los Diputados",
    "eco_con_ciud": {
-    "perfiles_con_resultado": 1655,
+    "perfiles_con_resultado": 1628,
     "partidos": [
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 90.3,
+      "primero_pct": 91.2,
       "puesto_medio": 1.0,
       "nota_media": 19,
-      "perfiles": 1542
+      "perfiles": 1524
      },
      {
       "partido": "PP",
-      "primero_pct": 9.7,
+      "primero_pct": 8.8,
       "puesto_medio": 1.7,
       "nota_media": 12,
-      "perfiles": 484
+      "perfiles": 491
      }
     ],
     "arquetipos_top3": {
@@ -1830,21 +1829,21 @@
     }
    },
    "eco_sin_ciud": {
-    "perfiles_con_resultado": 492,
+    "perfiles_con_resultado": 498,
     "partidos": [
      {
       "partido": "PP",
-      "primero_pct": 98.4,
+      "primero_pct": 98.6,
       "puesto_medio": 1.0,
       "nota_media": 12,
-      "perfiles": 484
+      "perfiles": 491
      },
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 1.6,
+      "primero_pct": 1.4,
       "puesto_medio": 1.8,
       "nota_media": -9,
-      "perfiles": 48
+      "perfiles": 42
      }
     ],
     "arquetipos_top3": {
@@ -1875,35 +1874,35 @@
     }
    },
    "soc_con_ciud": {
-    "perfiles_con_resultado": 1728,
+    "perfiles_con_resultado": 1717,
     "partidos": [
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 92.4,
+      "primero_pct": 91.8,
       "puesto_medio": 1.0,
       "nota_media": 30,
-      "perfiles": 1612
+      "perfiles": 1596
      },
      {
       "partido": "PSOE",
-      "primero_pct": 7.4,
+      "primero_pct": 7.9,
       "puesto_medio": 1.8,
       "nota_media": 21,
-      "perfiles": 606
+      "perfiles": 640
      },
      {
       "partido": "Cs",
-      "primero_pct": 0.1,
+      "primero_pct": 0.2,
       "puesto_medio": 2.3,
       "nota_media": 21,
-      "perfiles": 233
+      "perfiles": 228
      },
      {
       "partido": "PP",
       "primero_pct": 0.0,
-      "puesto_medio": 3.0,
-      "nota_media": -4,
-      "perfiles": 2
+      "puesto_medio": 3.2,
+      "nota_media": 0,
+      "perfiles": 8
      }
     ],
     "arquetipos_top3": {
@@ -1937,35 +1936,35 @@
     }
    },
    "soc_sin_ciud": {
-    "perfiles_con_resultado": 791,
+    "perfiles_con_resultado": 820,
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 75.9,
+      "primero_pct": 77.6,
       "puesto_medio": 1.0,
       "nota_media": 21,
-      "perfiles": 606
+      "perfiles": 640
      },
      {
       "partido": "Cs",
-      "primero_pct": 16.6,
+      "primero_pct": 15.3,
       "puesto_medio": 1.4,
       "nota_media": 21,
-      "perfiles": 233
+      "perfiles": 228
      },
      {
       "partido": "Unidas Podemos",
-      "primero_pct": 7.5,
+      "primero_pct": 7.1,
       "puesto_medio": 2.0,
       "nota_media": 19,
-      "perfiles": 172
+      "perfiles": 153
      },
      {
       "partido": "PP",
       "primero_pct": 0.0,
       "puesto_medio": 3.0,
-      "nota_media": -4,
-      "perfiles": 2
+      "nota_media": 0,
+      "perfiles": 8
      }
     ],
     "arquetipos_top3": {
@@ -2002,93 +2001,93 @@
     "partidos": [
      {
       "partido": "PNV",
-      "primero_pct": 61.0,
+      "primero_pct": 61.5,
       "puesto_medio": 2.8,
-      "nota_media": 59,
-      "perfiles": 2000
-     },
-     {
-      "partido": "CC",
-      "primero_pct": 21.7,
-      "puesto_medio": 2.3,
       "nota_media": 62,
       "perfiles": 2000
      },
      {
-      "partido": "UPN",
-      "primero_pct": 5.1,
-      "puesto_medio": 4.7,
-      "nota_media": 47,
+      "partido": "CC",
+      "primero_pct": 24.5,
+      "puesto_medio": 2.1,
+      "nota_media": 64,
       "perfiles": 2000
      },
      {
       "partido": "NC",
-      "primero_pct": 4.3,
-      "puesto_medio": 4.6,
-      "nota_media": 48,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Cs",
-      "primero_pct": 3.9,
-      "puesto_medio": 4.9,
-      "nota_media": 47,
+      "primero_pct": 5.6,
+      "puesto_medio": 4.1,
+      "nota_media": 51,
       "perfiles": 2000
      },
      {
       "partido": "PDeCAT",
-      "primero_pct": 3.6,
-      "puesto_medio": 7.5,
-      "nota_media": 35,
-      "perfiles": 2000
-     },
-     {
-      "partido": "Foro",
-      "primero_pct": 0.2,
-      "puesto_medio": 7.4,
+      "primero_pct": 4.2,
+      "puesto_medio": 7.2,
       "nota_media": 37,
       "perfiles": 2000
      },
      {
-      "partido": "PP",
-      "primero_pct": 0.1,
-      "puesto_medio": 8.6,
-      "nota_media": 32,
+      "partido": "UPN",
+      "primero_pct": 2.3,
+      "puesto_medio": 5.0,
+      "nota_media": 46,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Cs",
+      "primero_pct": 1.8,
+      "puesto_medio": 5.3,
+      "nota_media": 46,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
       "primero_pct": 0.1,
-      "puesto_medio": 4.3,
-      "nota_media": 51,
+      "puesto_medio": 4.0,
+      "nota_media": 53,
+      "perfiles": 2000
+     },
+     {
+      "partido": "Foro",
+      "primero_pct": 0.1,
+      "puesto_medio": 7.8,
+      "nota_media": 35,
+      "perfiles": 2000
+     },
+     {
+      "partido": "PP",
+      "primero_pct": 0.0,
+      "puesto_medio": 8.8,
+      "nota_media": 30,
       "perfiles": 2000
      },
      {
       "partido": "Unidos Podemos",
       "primero_pct": 0.0,
-      "puesto_medio": 9.4,
-      "nota_media": 26,
+      "puesto_medio": 9.6,
+      "nota_media": 25,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 11.6,
-      "nota_media": 6,
+      "puesto_medio": 11.7,
+      "nota_media": 4,
       "perfiles": 2000
      },
      {
       "partido": "Compromís",
       "primero_pct": 0.0,
-      "puesto_medio": 9.8,
-      "nota_media": 25,
+      "puesto_medio": 9.5,
+      "nota_media": 27,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
       "puesto_medio": 13.0,
-      "nota_media": -9,
+      "nota_media": -12,
       "perfiles": 2000
      }
     ],
@@ -2119,9 +2118,9 @@
       "PSOE +58"
      ],
      "Empresario de pyme industrial": [
-      "Cs +60",
-      "UPN +44",
-      "PP +39"
+      "Cs +57",
+      "UPN +40",
+      "PP +34"
      ],
      "Funcionario docente": [
       "PNV +74",
@@ -2144,14 +2143,14 @@
       "PDeCAT +62"
      ],
      "Rentas altas con patrimonio": [
-      "Cs +68",
-      "CC +55",
-      "PSOE +48"
+      "CC +70",
+      "Cs +65",
+      "PSOE +62"
      ],
      "Gran patrimonio y gran empresa": [
-      "Cs +53",
-      "Foro +45",
-      "UPN +41"
+      "Cs +50",
+      "PDeCAT +49",
+      "Foro +42"
      ],
      "Parado con subsidio": [
       "PSOE +79",
@@ -2200,93 +2199,93 @@
     "partidos": [
      {
       "partido": "PNV",
-      "primero_pct": 52.9,
-      "puesto_medio": 3.4,
-      "nota_media": 56,
+      "primero_pct": 58.0,
+      "puesto_medio": 3.2,
+      "nota_media": 58,
       "perfiles": 2000
      },
      {
       "partido": "CC",
-      "primero_pct": 20.3,
-      "puesto_medio": 2.4,
-      "nota_media": 62,
+      "primero_pct": 24.3,
+      "puesto_medio": 2.2,
+      "nota_media": 64,
       "perfiles": 2000
      },
      {
       "partido": "UPN",
-      "primero_pct": 19.8,
-      "puesto_medio": 3.2,
+      "primero_pct": 10.2,
+      "puesto_medio": 3.5,
       "nota_media": 54,
       "perfiles": 2000
      },
      {
       "partido": "NC",
-      "primero_pct": 3.2,
-      "puesto_medio": 4.9,
-      "nota_media": 48,
+      "primero_pct": 4.3,
+      "puesto_medio": 4.4,
+      "nota_media": 51,
       "perfiles": 2000
      },
      {
       "partido": "PDeCAT",
-      "primero_pct": 1.8,
-      "puesto_medio": 8.4,
-      "nota_media": 29,
+      "primero_pct": 2.1,
+      "puesto_medio": 8.2,
+      "nota_media": 31,
       "perfiles": 2000
      },
      {
       "partido": "Cs",
-      "primero_pct": 0.8,
-      "puesto_medio": 6.1,
-      "nota_media": 43,
+      "primero_pct": 0.5,
+      "puesto_medio": 6.4,
+      "nota_media": 42,
       "perfiles": 2000
      },
      {
       "partido": "Foro",
-      "primero_pct": 0.8,
-      "puesto_medio": 6.0,
-      "nota_media": 44,
+      "primero_pct": 0.3,
+      "puesto_medio": 6.3,
+      "nota_media": 43,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 0.4,
-      "puesto_medio": 7.1,
-      "nota_media": 40,
+      "primero_pct": 0.2,
+      "puesto_medio": 7.4,
+      "nota_media": 39,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
       "primero_pct": 0.0,
-      "puesto_medio": 5.3,
-      "nota_media": 47,
+      "puesto_medio": 4.9,
+      "nota_media": 50,
       "perfiles": 2000
      },
      {
       "partido": "Unidos Podemos",
       "primero_pct": 0.0,
-      "puesto_medio": 9.9,
-      "nota_media": 20,
+      "puesto_medio": 10.1,
+      "nota_media": 19,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 11.6,
-      "nota_media": 6,
+      "puesto_medio": 11.7,
+      "nota_media": 4,
       "perfiles": 2000
      },
      {
       "partido": "Compromís",
       "primero_pct": 0.0,
-      "puesto_medio": 9.9,
-      "nota_media": 21,
+      "puesto_medio": 9.7,
+      "nota_media": 22,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
-      "puesto_medio": 12.9,
-      "nota_media": -9,
+      "puesto_medio": 13.0,
+      "nota_media": -12,
       "perfiles": 2000
      }
     ],
@@ -2317,9 +2316,9 @@
       "CC +56"
      ],
      "Empresario de pyme industrial": [
-      "Cs +57",
-      "UPN +54",
-      "PP +50"
+      "Cs +53",
+      "UPN +51",
+      "PP +46"
      ],
      "Funcionario docente": [
       "PNV +72",
@@ -2342,14 +2341,14 @@
       "PSOE +71"
      ],
      "Rentas altas con patrimonio": [
-      "Cs +65",
-      "UPN +57",
-      "CC +55"
+      "CC +70",
+      "Cs +62",
+      "PSOE +57"
      ],
      "Gran patrimonio y gran empresa": [
-      "Foro +55",
-      "UPN +53",
-      "Cs +50"
+      "Foro +52",
+      "UPN +49",
+      "Cs +46"
      ],
      "Parado con subsidio": [
       "PSOE +78",
@@ -2398,16 +2397,16 @@
     "partidos": [
      {
       "partido": "Unidos Podemos",
-      "primero_pct": 85.1,
-      "puesto_medio": 1.1,
+      "primero_pct": 83.2,
+      "puesto_medio": 1.2,
       "nota_media": 65,
       "perfiles": 2000
      },
      {
       "partido": "UPN",
-      "primero_pct": 14.8,
-      "puesto_medio": 4.1,
-      "nota_media": 52,
+      "primero_pct": 16.7,
+      "puesto_medio": 4.0,
+      "nota_media": 53,
       "perfiles": 2000
      },
      {
@@ -2421,7 +2420,7 @@
       "partido": "PP",
       "primero_pct": 0.0,
       "puesto_medio": 12.5,
-      "nota_media": 14,
+      "nota_media": 15,
       "perfiles": 2000
      },
      {
@@ -2434,7 +2433,7 @@
      {
       "partido": "Cs",
       "primero_pct": 0.0,
-      "puesto_medio": 6.5,
+      "puesto_medio": 6.4,
       "nota_media": 44,
       "perfiles": 2000
      },
@@ -2455,8 +2454,8 @@
      {
       "partido": "PNV",
       "primero_pct": 0.0,
-      "puesto_medio": 9.6,
-      "nota_media": 34,
+      "puesto_medio": 9.5,
+      "nota_media": 35,
       "perfiles": 2000
      },
      {
@@ -2469,14 +2468,14 @@
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
-      "puesto_medio": 8.8,
+      "puesto_medio": 8.9,
       "nota_media": 40,
       "perfiles": 2000
      },
      {
       "partido": "NC",
       "primero_pct": 0.0,
-      "puesto_medio": 9.4,
+      "puesto_medio": 9.5,
       "nota_media": 37,
       "perfiles": 2000
      },
@@ -2592,98 +2591,98 @@
     }
    },
    "soc_sin_ciud": {
-    "perfiles_con_resultado": 1975,
+    "perfiles_con_resultado": 1974,
     "partidos": [
      {
       "partido": "Unidos Podemos",
-      "primero_pct": 84.6,
+      "primero_pct": 83.9,
       "puesto_medio": 1.3,
       "nota_media": 54,
-      "perfiles": 1975
+      "perfiles": 1974
      },
      {
       "partido": "PDeCAT",
-      "primero_pct": 3.9,
-      "puesto_medio": 3.7,
+      "primero_pct": 4.4,
+      "puesto_medio": 3.8,
       "nota_media": 47,
-      "perfiles": 1867
+      "perfiles": 1875
      },
      {
       "partido": "UPN",
-      "primero_pct": 3.1,
-      "puesto_medio": 8.0,
+      "primero_pct": 3.6,
+      "puesto_medio": 7.8,
       "nota_media": 33,
-      "perfiles": 1797
+      "perfiles": 1822
      },
      {
       "partido": "PP",
-      "primero_pct": 2.8,
-      "puesto_medio": 9.4,
+      "primero_pct": 2.3,
+      "puesto_medio": 9.3,
       "nota_media": 24,
-      "perfiles": 1818
+      "perfiles": 1838
      },
      {
       "partido": "PSOE",
-      "primero_pct": 2.0,
+      "primero_pct": 1.7,
       "puesto_medio": 3.5,
       "nota_media": 47,
-      "perfiles": 1948
+      "perfiles": 1950
      },
      {
       "partido": "Cs",
       "primero_pct": 1.7,
       "puesto_medio": 6.3,
       "nota_media": 38,
-      "perfiles": 1895
-     },
-     {
-      "partido": "Foro",
-      "primero_pct": 0.9,
-      "puesto_medio": 8.9,
-      "nota_media": 30,
-      "perfiles": 1794
-     },
-     {
-      "partido": "CC",
-      "primero_pct": 0.4,
-      "puesto_medio": 8.2,
-      "nota_media": 38,
-      "perfiles": 1537
+      "perfiles": 1892
      },
      {
       "partido": "Bildu",
-      "primero_pct": 0.3,
-      "puesto_medio": 8.2,
+      "primero_pct": 0.7,
+      "puesto_medio": 8.3,
       "nota_media": 39,
-      "perfiles": 1796
+      "perfiles": 1820
+     },
+     {
+      "partido": "Foro",
+      "primero_pct": 0.7,
+      "puesto_medio": 8.8,
+      "nota_media": 30,
+      "perfiles": 1821
+     },
+     {
+      "partido": "CC",
+      "primero_pct": 0.5,
+      "puesto_medio": 8.2,
+      "nota_media": 38,
+      "perfiles": 1554
      },
      {
       "partido": "ERC",
-      "primero_pct": 0.1,
+      "primero_pct": 0.2,
       "puesto_medio": 6.0,
       "nota_media": 40,
-      "perfiles": 1801
+      "perfiles": 1820
      },
      {
       "partido": "Compromís",
-      "primero_pct": 0.1,
-      "puesto_medio": 6.4,
-      "nota_media": 43,
-      "perfiles": 1800
+      "primero_pct": 0.2,
+      "puesto_medio": 6.5,
+      "nota_media": 42,
+      "perfiles": 1821
      },
      {
       "partido": "PNV",
       "primero_pct": 0.0,
-      "puesto_medio": 10.6,
+      "puesto_medio": 10.7,
       "nota_media": 24,
-      "perfiles": 1878
+      "perfiles": 1879
      },
      {
       "partido": "NC",
       "primero_pct": 0.0,
-      "puesto_medio": 8.9,
+      "puesto_medio": 9.0,
       "nota_media": 37,
-      "perfiles": 1751
+      "perfiles": 1763
      }
     ],
     "arquetipos_top3": {
@@ -2753,77 +2752,77 @@
    "titulo": "XI legislatura · 2016",
    "fuente": "Congreso de los Diputados",
    "eco_con_ciud": {
-    "perfiles_con_resultado": 290,
+    "perfiles_con_resultado": 306,
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 78.6,
-      "puesto_medio": 1.2,
-      "nota_media": 0,
-      "perfiles": 249
+      "primero_pct": 80.7,
+      "puesto_medio": 1.1,
+      "nota_media": -1,
+      "perfiles": 272
      },
      {
       "partido": "Cs",
-      "primero_pct": 18.3,
-      "puesto_medio": 1.2,
+      "primero_pct": 18.0,
+      "puesto_medio": 1.0,
       "nota_media": 10,
-      "perfiles": 56
+      "perfiles": 55
      },
      {
       "partido": "PP",
-      "primero_pct": 0.9,
+      "primero_pct": 0.3,
       "puesto_medio": 1.0,
       "nota_media": 25,
-      "perfiles": 8
-     },
-     {
-      "partido": "UPN",
-      "primero_pct": 0.9,
-      "puesto_medio": 2.0,
-      "nota_media": 25,
-      "perfiles": 8
-     },
-     {
-      "partido": "Foro",
-      "primero_pct": 0.9,
-      "puesto_medio": 3.0,
-      "nota_media": 25,
-      "perfiles": 8
+      "perfiles": 3
      },
      {
       "partido": "Podemos",
       "primero_pct": 0.3,
-      "puesto_medio": 3.3,
+      "puesto_medio": 3.2,
       "nota_media": -24,
-      "perfiles": 174
+      "perfiles": 208
+     },
+     {
+      "partido": "UPN",
+      "primero_pct": 0.3,
+      "puesto_medio": 2.0,
+      "nota_media": 25,
+      "perfiles": 3
+     },
+     {
+      "partido": "Foro",
+      "primero_pct": 0.3,
+      "puesto_medio": 3.0,
+      "nota_media": 25,
+      "perfiles": 3
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 2.3,
+      "puesto_medio": 2.2,
       "nota_media": -7,
-      "perfiles": 169
+      "perfiles": 207
      },
      {
       "partido": "DL",
       "primero_pct": 0.0,
-      "puesto_medio": 4.3,
+      "puesto_medio": 4.0,
       "nota_media": 20,
-      "perfiles": 7
+      "perfiles": 2
      },
      {
       "partido": "Compromís",
       "primero_pct": 0.0,
-      "puesto_medio": 7.2,
+      "puesto_medio": 6.7,
       "nota_media": 0,
-      "perfiles": 8
+      "perfiles": 3
      },
      {
       "partido": "IU",
       "primero_pct": 0.0,
-      "puesto_medio": 8.2,
+      "puesto_medio": 7.7,
       "nota_media": 0,
-      "perfiles": 8
+      "perfiles": 3
      }
     ],
     "arquetipos_top3": {
@@ -2854,77 +2853,77 @@
     }
    },
    "eco_sin_ciud": {
-    "perfiles_con_resultado": 290,
+    "perfiles_con_resultado": 306,
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 78.6,
-      "puesto_medio": 1.2,
-      "nota_media": 0,
-      "perfiles": 249
+      "primero_pct": 80.7,
+      "puesto_medio": 1.1,
+      "nota_media": -1,
+      "perfiles": 272
      },
      {
       "partido": "Cs",
-      "primero_pct": 18.3,
-      "puesto_medio": 1.2,
+      "primero_pct": 18.0,
+      "puesto_medio": 1.0,
       "nota_media": 10,
-      "perfiles": 56
+      "perfiles": 55
      },
      {
       "partido": "PP",
-      "primero_pct": 0.9,
+      "primero_pct": 0.3,
       "puesto_medio": 1.0,
       "nota_media": 25,
-      "perfiles": 8
-     },
-     {
-      "partido": "UPN",
-      "primero_pct": 0.9,
-      "puesto_medio": 2.0,
-      "nota_media": 25,
-      "perfiles": 8
-     },
-     {
-      "partido": "Foro",
-      "primero_pct": 0.9,
-      "puesto_medio": 3.0,
-      "nota_media": 25,
-      "perfiles": 8
+      "perfiles": 3
      },
      {
       "partido": "Podemos",
       "primero_pct": 0.3,
-      "puesto_medio": 3.3,
+      "puesto_medio": 3.2,
       "nota_media": -24,
-      "perfiles": 174
+      "perfiles": 208
+     },
+     {
+      "partido": "UPN",
+      "primero_pct": 0.3,
+      "puesto_medio": 2.0,
+      "nota_media": 25,
+      "perfiles": 3
+     },
+     {
+      "partido": "Foro",
+      "primero_pct": 0.3,
+      "puesto_medio": 3.0,
+      "nota_media": 25,
+      "perfiles": 3
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 2.3,
+      "puesto_medio": 2.2,
       "nota_media": -7,
-      "perfiles": 169
+      "perfiles": 207
      },
      {
       "partido": "DL",
       "primero_pct": 0.0,
-      "puesto_medio": 4.3,
+      "puesto_medio": 4.0,
       "nota_media": 20,
-      "perfiles": 7
+      "perfiles": 2
      },
      {
       "partido": "Compromís",
       "primero_pct": 0.0,
-      "puesto_medio": 7.2,
+      "puesto_medio": 6.7,
       "nota_media": 0,
-      "perfiles": 8
+      "perfiles": 3
      },
      {
       "partido": "IU",
       "primero_pct": 0.0,
-      "puesto_medio": 8.2,
+      "puesto_medio": 7.7,
       "nota_media": 0,
-      "perfiles": 8
+      "perfiles": 3
      }
     ],
     "arquetipos_top3": {
@@ -2955,28 +2954,28 @@
     }
    },
    "soc_con_ciud": {
-    "perfiles_con_resultado": 81,
+    "perfiles_con_resultado": 68,
     "partidos": [
      {
       "partido": "PSOE",
       "primero_pct": 100.0,
       "puesto_medio": 1.0,
-      "nota_media": 21,
-      "perfiles": 81
+      "nota_media": 20,
+      "perfiles": 68
      },
      {
       "partido": "Podemos",
       "primero_pct": 0.0,
       "puesto_medio": 2.0,
       "nota_media": 20,
-      "perfiles": 6
+      "perfiles": 7
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 2.4,
+      "puesto_medio": 2.5,
       "nota_media": 11,
-      "perfiles": 5
+      "perfiles": 6
      }
     ],
     "arquetipos_top3": {
@@ -3003,28 +3002,28 @@
     }
    },
    "soc_sin_ciud": {
-    "perfiles_con_resultado": 27,
+    "perfiles_con_resultado": 23,
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 79.6,
+      "primero_pct": 65.2,
       "puesto_medio": 1.0,
       "nota_media": 21,
-      "perfiles": 23
+      "perfiles": 16
      },
      {
       "partido": "Podemos",
-      "primero_pct": 13.0,
-      "puesto_medio": 1.7,
+      "primero_pct": 21.7,
+      "puesto_medio": 1.4,
       "nota_media": 20,
-      "perfiles": 6
+      "perfiles": 7
      },
      {
       "partido": "ERC",
-      "primero_pct": 7.4,
-      "puesto_medio": 1.8,
+      "primero_pct": 13.0,
+      "puesto_medio": 2.0,
       "nota_media": 11,
-      "perfiles": 5
+      "perfiles": 6
      }
     ],
     "arquetipos_top3": {
@@ -3059,49 +3058,49 @@
     "partidos": [
      {
       "partido": "NC",
-      "primero_pct": 29.6,
-      "puesto_medio": 2.7,
-      "nota_media": 46,
+      "primero_pct": 30.5,
+      "puesto_medio": 2.6,
+      "nota_media": 47,
       "perfiles": 2000
      },
      {
       "partido": "Foro",
-      "primero_pct": 25.9,
-      "puesto_medio": 6.5,
-      "nota_media": 36,
+      "primero_pct": 24.6,
+      "puesto_medio": 6.7,
+      "nota_media": 35,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 23.8,
+      "primero_pct": 23.0,
       "puesto_medio": 3.4,
       "nota_media": 44,
       "perfiles": 2000
      },
      {
       "partido": "UPyD",
-      "primero_pct": 10.8,
+      "primero_pct": 11.9,
       "puesto_medio": 3.0,
       "nota_media": 45,
       "perfiles": 2000
      },
      {
       "partido": "Geroa Bai",
-      "primero_pct": 9.3,
+      "primero_pct": 9.2,
       "puesto_medio": 4.0,
       "nota_media": 42,
       "perfiles": 2000
      },
      {
       "partido": "CiU",
-      "primero_pct": 0.4,
+      "primero_pct": 0.6,
       "puesto_medio": 10.5,
       "nota_media": 21,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
-      "primero_pct": 0.1,
+      "primero_pct": 0.2,
       "puesto_medio": 5.4,
       "nota_media": 38,
       "perfiles": 2000
@@ -3124,14 +3123,14 @@
       "partido": "Amaiur",
       "primero_pct": 0.0,
       "puesto_medio": 8.8,
-      "nota_media": 30,
+      "nota_media": 29,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 11.6,
-      "nota_media": 24,
+      "puesto_medio": 11.5,
+      "nota_media": 25,
       "perfiles": 2000
      },
      {
@@ -3271,42 +3270,42 @@
     "partidos": [
      {
       "partido": "Foro",
-      "primero_pct": 46.8,
-      "puesto_medio": 4.6,
-      "nota_media": 44,
+      "primero_pct": 46.6,
+      "puesto_medio": 4.8,
+      "nota_media": 43,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 29.1,
+      "primero_pct": 28.7,
       "puesto_medio": 2.7,
       "nota_media": 45,
       "perfiles": 2000
      },
      {
       "partido": "UPyD",
-      "primero_pct": 13.4,
+      "primero_pct": 14.0,
       "puesto_medio": 2.5,
       "nota_media": 45,
       "perfiles": 2000
      },
      {
       "partido": "Geroa Bai",
-      "primero_pct": 5.7,
+      "primero_pct": 5.2,
       "puesto_medio": 4.3,
       "nota_media": 39,
       "perfiles": 2000
      },
      {
       "partido": "NC",
-      "primero_pct": 4.7,
-      "puesto_medio": 4.3,
-      "nota_media": 39,
+      "primero_pct": 4.9,
+      "puesto_medio": 4.2,
+      "nota_media": 40,
       "perfiles": 2000
      },
      {
       "partido": "CiU",
-      "primero_pct": 0.4,
+      "primero_pct": 0.6,
       "puesto_medio": 9.4,
       "nota_media": 22,
       "perfiles": 2000
@@ -3342,14 +3341,14 @@
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 12.3,
+      "puesto_medio": 12.2,
       "nota_media": 20,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 8.4,
+      "puesto_medio": 8.5,
       "nota_media": 28,
       "perfiles": 2000
      },
@@ -3363,7 +3362,7 @@
      {
       "partido": "CC",
       "primero_pct": 0.0,
-      "puesto_medio": 8.3,
+      "puesto_medio": 8.2,
       "nota_media": 30,
       "perfiles": 2000
      },
@@ -3483,23 +3482,30 @@
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 68.2,
+      "primero_pct": 70.1,
       "puesto_medio": 1.4,
       "nota_media": 66,
       "perfiles": 2000
      },
      {
       "partido": "UPyD",
-      "primero_pct": 25.1,
-      "puesto_medio": 1.9,
-      "nota_media": 64,
+      "primero_pct": 23.2,
+      "puesto_medio": 2.0,
+      "nota_media": 63,
       "perfiles": 2000
      },
      {
       "partido": "IU-ICV",
-      "primero_pct": 6.7,
+      "primero_pct": 6.6,
       "puesto_medio": 4.4,
-      "nota_media": 51,
+      "nota_media": 52,
+      "perfiles": 2000
+     },
+     {
+      "partido": "NC",
+      "primero_pct": 0.1,
+      "puesto_medio": 4.9,
+      "nota_media": 56,
       "perfiles": 2000
      },
      {
@@ -3513,13 +3519,13 @@
       "partido": "CiU",
       "primero_pct": 0.0,
       "puesto_medio": 11.5,
-      "nota_media": 34,
+      "nota_media": 33,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
       "primero_pct": 0.0,
-      "puesto_medio": 7.9,
+      "puesto_medio": 8.1,
       "nota_media": 44,
       "perfiles": 2000
      },
@@ -3527,13 +3533,13 @@
       "partido": "Amaiur",
       "primero_pct": 0.0,
       "puesto_medio": 8.4,
-      "nota_media": 44,
+      "nota_media": 45,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 8.3,
+      "puesto_medio": 8.2,
       "nota_media": 44,
       "perfiles": 2000
      },
@@ -3556,13 +3562,6 @@
       "primero_pct": 0.0,
       "puesto_medio": 4.3,
       "nota_media": 57,
-      "perfiles": 2000
-     },
-     {
-      "partido": "NC",
-      "primero_pct": 0.0,
-      "puesto_medio": 4.9,
-      "nota_media": 56,
       "perfiles": 2000
      },
      {
@@ -3691,112 +3690,112 @@
     }
    },
    "soc_sin_ciud": {
-    "perfiles_con_resultado": 1950,
+    "perfiles_con_resultado": 1957,
     "partidos": [
      {
       "partido": "UPyD",
-      "primero_pct": 23.6,
-      "puesto_medio": 2.9,
+      "primero_pct": 22.7,
+      "puesto_medio": 3.0,
       "nota_media": 48,
-      "perfiles": 1931
-     },
-     {
-      "partido": "PNV",
-      "primero_pct": 22.5,
-      "puesto_medio": 4.0,
-      "nota_media": 47,
-      "perfiles": 1895
-     },
-     {
-      "partido": "PSOE",
-      "primero_pct": 18.7,
-      "puesto_medio": 3.2,
-      "nota_media": 46,
       "perfiles": 1937
      },
      {
+      "partido": "PSOE",
+      "primero_pct": 20.6,
+      "puesto_medio": 3.1,
+      "nota_media": 46,
+      "perfiles": 1944
+     },
+     {
+      "partido": "PNV",
+      "primero_pct": 19.6,
+      "puesto_medio": 4.2,
+      "nota_media": 47,
+      "perfiles": 1887
+     },
+     {
       "partido": "NC",
-      "primero_pct": 14.6,
+      "primero_pct": 15.0,
       "puesto_medio": 3.8,
       "nota_media": 48,
-      "perfiles": 1872
+      "perfiles": 1865
      },
      {
       "partido": "Foro",
-      "primero_pct": 11.2,
+      "primero_pct": 11.5,
       "puesto_medio": 9.0,
       "nota_media": 28,
-      "perfiles": 1799
+      "perfiles": 1800
      },
      {
       "partido": "IU-ICV",
-      "primero_pct": 3.9,
-      "puesto_medio": 7.5,
-      "nota_media": 27,
-      "perfiles": 1943
+      "primero_pct": 4.9,
+      "puesto_medio": 7.3,
+      "nota_media": 28,
+      "perfiles": 1952
      },
      {
       "partido": "CC",
-      "primero_pct": 1.7,
-      "puesto_medio": 5.6,
-      "nota_media": 43,
-      "perfiles": 1923
-     },
-     {
-      "partido": "PP",
-      "primero_pct": 1.3,
-      "puesto_medio": 13.2,
-      "nota_media": -25,
+      "primero_pct": 1.9,
+      "puesto_medio": 5.5,
+      "nota_media": 44,
       "perfiles": 1929
      },
      {
-      "partido": "CiU",
-      "primero_pct": 0.9,
-      "puesto_medio": 8.6,
-      "nota_media": 30,
-      "perfiles": 1906
+      "partido": "PP",
+      "primero_pct": 1.0,
+      "puesto_medio": 13.2,
+      "nota_media": -25,
+      "perfiles": 1936
      },
      {
-      "partido": "Amaiur",
-      "primero_pct": 0.6,
-      "puesto_medio": 8.9,
-      "nota_media": 25,
-      "perfiles": 1926
+      "partido": "CiU",
+      "primero_pct": 1.0,
+      "puesto_medio": 8.6,
+      "nota_media": 30,
+      "perfiles": 1903
      },
      {
       "partido": "UPN",
+      "primero_pct": 0.9,
+      "puesto_medio": 12.6,
+      "nota_media": -16,
+      "perfiles": 1883
+     },
+     {
+      "partido": "Amaiur",
       "primero_pct": 0.4,
-      "puesto_medio": 12.5,
-      "nota_media": -15,
-      "perfiles": 1882
+      "puesto_medio": 8.8,
+      "nota_media": 26,
+      "perfiles": 1932
      },
      {
       "partido": "BNG",
       "primero_pct": 0.2,
-      "puesto_medio": 10.0,
+      "puesto_medio": 9.9,
       "nota_media": 25,
-      "perfiles": 1929
-     },
-     {
-      "partido": "Compromís",
-      "primero_pct": 0.2,
-      "puesto_medio": 11.0,
-      "nota_media": 24,
-      "perfiles": 1920
+      "perfiles": 1936
      },
      {
       "partido": "Geroa Bai",
       "primero_pct": 0.2,
       "puesto_medio": 7.5,
       "nota_media": 33,
-      "perfiles": 1913
+      "perfiles": 1909
+     },
+     {
+      "partido": "Compromís",
+      "primero_pct": 0.1,
+      "puesto_medio": 10.9,
+      "nota_media": 25,
+      "perfiles": 1922
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
       "puesto_medio": 11.3,
-      "nota_media": 22,
-      "perfiles": 1919
+      "nota_media": 23,
+      "perfiles": 1923
      }
     ],
     "arquetipos_top3": {
@@ -3871,87 +3870,87 @@
     "partidos": [
      {
       "partido": "BNG",
-      "primero_pct": 46.0,
+      "primero_pct": 46.7,
       "puesto_medio": 2.6,
       "nota_media": 51,
       "perfiles": 2000
      },
      {
       "partido": "Podemos",
-      "primero_pct": 39.2,
-      "puesto_medio": 2.1,
+      "primero_pct": 38.9,
+      "puesto_medio": 2.2,
       "nota_media": 49,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 10.1,
+      "primero_pct": 9.9,
       "puesto_medio": 4.6,
-      "nota_media": 47,
+      "nota_media": 48,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 1.6,
-      "puesto_medio": 6.9,
+      "primero_pct": 1.9,
+      "puesto_medio": 6.8,
+      "nota_media": 44,
+      "perfiles": 2000
+     },
+     {
+      "partido": "PSOE",
+      "primero_pct": 0.9,
+      "puesto_medio": 5.9,
       "nota_media": 44,
       "perfiles": 2000
      },
      {
       "partido": "Compromís",
-      "primero_pct": 1.4,
-      "puesto_medio": 4.4,
-      "nota_media": 47,
-      "perfiles": 2000
-     },
-     {
-      "partido": "PSOE",
-      "primero_pct": 0.8,
-      "puesto_medio": 6.0,
-      "nota_media": 43,
+      "primero_pct": 0.9,
+      "puesto_medio": 4.5,
+      "nota_media": 48,
       "perfiles": 2000
      },
      {
       "partido": "Comuns",
       "primero_pct": 0.6,
-      "puesto_medio": 5.3,
+      "puesto_medio": 5.4,
       "nota_media": 49,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
       "primero_pct": 0.1,
-      "puesto_medio": 9.1,
-      "nota_media": 32,
-      "perfiles": 1169
+      "puesto_medio": 9.0,
+      "nota_media": 33,
+      "perfiles": 1251
      },
      {
       "partido": "VOX",
       "primero_pct": 0.0,
-      "puesto_medio": 9.5,
-      "nota_media": 9,
+      "puesto_medio": 9.6,
+      "nota_media": 8,
       "perfiles": 2000
      },
      {
       "partido": "SALF",
       "primero_pct": 0.0,
-      "puesto_medio": 7.9,
-      "nota_media": 13,
-      "perfiles": 131
+      "puesto_medio": 8.1,
+      "nota_media": 14,
+      "perfiles": 140
      },
      {
       "partido": "Sumar",
       "primero_pct": 0.0,
-      "puesto_medio": 4.9,
-      "nota_media": 43,
+      "puesto_medio": 4.8,
+      "nota_media": 44,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
       "puesto_medio": 10.0,
-      "nota_media": 28,
-      "perfiles": 1227
+      "nota_media": 29,
+      "perfiles": 1303
      }
     ],
     "arquetipos_top3": {
@@ -4058,91 +4057,91 @@
     }
    },
    "eco_sin_ciud": {
-    "perfiles_con_resultado": 1262,
+    "perfiles_con_resultado": 1340,
     "partidos": [
      {
       "partido": "PP",
-      "primero_pct": 29.6,
+      "primero_pct": 28.1,
       "puesto_medio": 1.0,
       "nota_media": 50,
-      "perfiles": 1253
+      "perfiles": 1330
      },
      {
       "partido": "PNV",
-      "primero_pct": 14.2,
-      "puesto_medio": 5.0,
-      "nota_media": 43,
-      "perfiles": 1262
+      "primero_pct": 15.0,
+      "puesto_medio": 4.9,
+      "nota_media": 44,
+      "perfiles": 1340
      },
      {
       "partido": "PSOE",
-      "primero_pct": 13.0,
-      "puesto_medio": 2.4,
-      "nota_media": 43,
-      "perfiles": 1262
+      "primero_pct": 13.5,
+      "puesto_medio": 2.3,
+      "nota_media": 44,
+      "perfiles": 1340
      },
      {
       "partido": "BNG",
-      "primero_pct": 11.5,
+      "primero_pct": 11.8,
       "puesto_medio": 6.3,
-      "nota_media": 39,
-      "perfiles": 1239
+      "nota_media": 40,
+      "perfiles": 1312
      },
      {
       "partido": "Sumar",
-      "primero_pct": 10.5,
-      "puesto_medio": 4.0,
-      "nota_media": 39,
-      "perfiles": 1256
+      "primero_pct": 10.7,
+      "puesto_medio": 3.9,
+      "nota_media": 40,
+      "perfiles": 1336
      },
      {
       "partido": "Podemos",
-      "primero_pct": 9.9,
+      "primero_pct": 10.1,
       "puesto_medio": 5.5,
-      "nota_media": 36,
-      "perfiles": 1227
+      "nota_media": 37,
+      "perfiles": 1303
      },
      {
       "partido": "VOX",
-      "primero_pct": 4.7,
-      "puesto_medio": 5.3,
-      "nota_media": 30,
-      "perfiles": 1248
+      "primero_pct": 4.5,
+      "puesto_medio": 5.5,
+      "nota_media": 29,
+      "perfiles": 1322
      },
      {
       "partido": "Compromís",
-      "primero_pct": 3.0,
-      "puesto_medio": 6.5,
+      "primero_pct": 2.8,
+      "puesto_medio": 6.6,
       "nota_media": 34,
-      "perfiles": 744
+      "perfiles": 775
      },
      {
       "partido": "ERC",
-      "primero_pct": 2.1,
-      "puesto_medio": 8.3,
-      "nota_media": 6,
-      "perfiles": 338
+      "primero_pct": 2.0,
+      "puesto_medio": 8.1,
+      "nota_media": 9,
+      "perfiles": 340
      },
      {
       "partido": "Comuns",
       "primero_pct": 1.5,
-      "puesto_medio": 8.5,
-      "nota_media": 35,
-      "perfiles": 324
+      "puesto_medio": 8.7,
+      "nota_media": 36,
+      "perfiles": 337
      },
      {
       "partido": "SALF",
       "primero_pct": 0.0,
-      "puesto_medio": 7.5,
-      "nota_media": 11,
-      "perfiles": 131
+      "puesto_medio": 7.8,
+      "nota_media": 13,
+      "perfiles": 140
      },
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
       "puesto_medio": 10.7,
-      "nota_media": -21,
-      "perfiles": 203
+      "nota_media": -18,
+      "perfiles": 208
      }
     ],
     "arquetipos_top3": {
@@ -4229,31 +4228,31 @@
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 41.2,
+      "primero_pct": 41.8,
       "puesto_medio": 1.1,
-      "nota_media": 38,
+      "nota_media": 39,
       "perfiles": 2000
      },
      {
       "partido": "Podemos",
-      "primero_pct": 32.5,
+      "primero_pct": 33.0,
       "puesto_medio": 3.2,
       "nota_media": 37,
       "perfiles": 2000
      },
      {
       "partido": "Sumar",
-      "primero_pct": 19.7,
-      "puesto_medio": 3.7,
+      "primero_pct": 18.6,
+      "puesto_medio": 3.8,
       "nota_media": 34,
       "perfiles": 2000
      },
      {
       "partido": "Comuns",
       "primero_pct": 5.1,
-      "puesto_medio": 4.4,
-      "nota_media": 38,
-      "perfiles": 1326
+      "puesto_medio": 4.3,
+      "nota_media": 37,
+      "perfiles": 1374
      },
      {
       "partido": "PNV",
@@ -4265,7 +4264,7 @@
      {
       "partido": "PP",
       "primero_pct": 0.0,
-      "puesto_medio": 9.9,
+      "puesto_medio": 10.0,
       "nota_media": -9,
       "perfiles": 2000
      },
@@ -4279,7 +4278,7 @@
      {
       "partido": "SALF",
       "primero_pct": 0.0,
-      "puesto_medio": 10.3,
+      "puesto_medio": 10.4,
       "nota_media": -20,
       "perfiles": 2000
      },
@@ -4293,8 +4292,8 @@
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
-      "puesto_medio": 7.5,
-      "nota_media": 22,
+      "puesto_medio": 7.6,
+      "nota_media": 23,
       "perfiles": 2000
      },
      {
@@ -4308,7 +4307,7 @@
       "partido": "Compromís",
       "primero_pct": 0.0,
       "puesto_medio": 4.8,
-      "nota_media": 34,
+      "nota_media": 35,
       "perfiles": 2000
      }
     ],
@@ -4416,91 +4415,91 @@
     }
    },
    "soc_sin_ciud": {
-    "perfiles_con_resultado": 379,
+    "perfiles_con_resultado": 372,
     "partidos": [
      {
       "partido": "PNV",
-      "primero_pct": 22.0,
-      "puesto_medio": 3.0,
+      "primero_pct": 22.7,
+      "puesto_medio": 2.9,
       "nota_media": 50,
-      "perfiles": 360
+      "perfiles": 348
      },
      {
       "partido": "PSOE",
-      "primero_pct": 20.2,
+      "primero_pct": 20.3,
       "puesto_medio": 1.7,
       "nota_media": 47,
-      "perfiles": 379
+      "perfiles": 372
      },
      {
       "partido": "Compromís",
-      "primero_pct": 20.2,
-      "puesto_medio": 4.1,
+      "primero_pct": 20.3,
+      "puesto_medio": 4.0,
       "nota_media": 49,
-      "perfiles": 362
+      "perfiles": 351
      },
      {
       "partido": "PP",
-      "primero_pct": 18.5,
-      "puesto_medio": 4.4,
-      "nota_media": 26,
-      "perfiles": 379
+      "primero_pct": 19.4,
+      "puesto_medio": 4.6,
+      "nota_media": 25,
+      "perfiles": 372
      },
      {
       "partido": "Comuns",
-      "primero_pct": 8.9,
-      "puesto_medio": 5.8,
-      "nota_media": 42,
-      "perfiles": 218
+      "primero_pct": 8.7,
+      "puesto_medio": 5.7,
+      "nota_media": 43,
+      "perfiles": 211
      },
      {
       "partido": "Podemos",
-      "primero_pct": 8.3,
-      "puesto_medio": 4.9,
-      "nota_media": 42,
-      "perfiles": 359
+      "primero_pct": 7.5,
+      "puesto_medio": 5.1,
+      "nota_media": 41,
+      "perfiles": 360
      },
      {
       "partido": "BNG",
-      "primero_pct": 1.8,
-      "puesto_medio": 5.5,
+      "primero_pct": 0.9,
+      "puesto_medio": 5.6,
       "nota_media": 44,
-      "perfiles": 379
+      "perfiles": 372
      },
      {
       "partido": "Sumar",
       "primero_pct": 0.1,
-      "puesto_medio": 6.7,
+      "puesto_medio": 6.6,
       "nota_media": 35,
-      "perfiles": 338
+      "perfiles": 353
      },
      {
       "partido": "VOX",
       "primero_pct": 0.0,
       "puesto_medio": 10.7,
-      "nota_media": -21,
-      "perfiles": 325
+      "nota_media": -22,
+      "perfiles": 337
      },
      {
       "partido": "SALF",
       "primero_pct": 0.0,
-      "puesto_medio": 9.4,
-      "nota_media": -9,
-      "perfiles": 313
+      "puesto_medio": 9.6,
+      "nota_media": -11,
+      "perfiles": 324
      },
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 7.8,
+      "puesto_medio": 8.0,
       "nota_media": 33,
-      "perfiles": 210
+      "perfiles": 240
      },
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
-      "puesto_medio": 7.9,
-      "nota_media": 36,
-      "perfiles": 195
+      "puesto_medio": 7.7,
+      "nota_media": 38,
+      "perfiles": 205
      }
     ],
     "arquetipos_top3": {
@@ -4535,21 +4534,21 @@
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 63.2,
+      "primero_pct": 60.2,
       "puesto_medio": 1.0,
       "nota_media": 81,
       "perfiles": 2000
      },
      {
       "partido": "Junts",
-      "primero_pct": 36.3,
-      "puesto_medio": 2.0,
-      "nota_media": 80,
+      "primero_pct": 39.5,
+      "puesto_medio": 2.1,
+      "nota_media": 81,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 0.5,
+      "primero_pct": 0.3,
       "puesto_medio": 7.6,
       "nota_media": 60,
       "perfiles": 2000
@@ -4558,7 +4557,7 @@
       "partido": "Cs",
       "primero_pct": 0.0,
       "puesto_medio": 3.0,
-      "nota_media": 75,
+      "nota_media": 76,
       "perfiles": 2000
      },
      {
@@ -4579,7 +4578,7 @@
       "partido": "ERC",
       "primero_pct": 0.0,
       "puesto_medio": 4.2,
-      "nota_media": 73,
+      "nota_media": 74,
       "perfiles": 2000
      },
      {
@@ -4599,15 +4598,15 @@
      {
       "partido": "Comuns",
       "primero_pct": 0.0,
-      "puesto_medio": 6.0,
+      "puesto_medio": 6.1,
       "nota_media": 63,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 6.8,
-      "nota_media": 65,
+      "puesto_medio": 6.7,
+      "nota_media": 66,
       "perfiles": 2000
      },
      {
@@ -4652,9 +4651,9 @@
       "Cs +77"
      ],
      "Empresario de pyme industrial": [
-      "Junts +54",
-      "PSOE +51",
-      "Cs +51"
+      "Junts +55",
+      "PSOE +52",
+      "Cs +52"
      ],
      "Funcionario docente": [
       "PSOE +86",
@@ -4677,14 +4676,14 @@
       "Cs +80"
      ],
      "Rentas altas con patrimonio": [
-      "PSOE +84",
-      "Junts +84",
-      "Cs +78"
+      "PSOE +86",
+      "Junts +86",
+      "Cs +80"
      ],
      "Gran patrimonio y gran empresa": [
-      "PSOE +66",
-      "Junts +65",
-      "Cs +60"
+      "PSOE +67",
+      "Junts +66",
+      "Cs +61"
      ],
      "Parado con subsidio": [
       "PSOE +86",
@@ -4733,58 +4732,58 @@
     "partidos": [
      {
       "partido": "PP",
-      "primero_pct": 45.6,
+      "primero_pct": 24.6,
       "puesto_medio": 1.2,
-      "nota_media": 77,
+      "nota_media": 76,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
-      "primero_pct": 15.1,
+      "primero_pct": 22.2,
       "puesto_medio": 2.3,
-      "nota_media": 74,
+      "nota_media": 75,
       "perfiles": 2000
      },
      {
       "partido": "Cs",
-      "primero_pct": 13.6,
+      "primero_pct": 21.0,
       "puesto_medio": 3.2,
       "nota_media": 75,
       "perfiles": 2000
      },
      {
       "partido": "Junts",
-      "primero_pct": 12.7,
+      "primero_pct": 19.2,
       "puesto_medio": 4.3,
       "nota_media": 74,
       "perfiles": 2000
      },
      {
       "partido": "VOX",
-      "primero_pct": 8.8,
-      "puesto_medio": 9.1,
-      "nota_media": 42,
+      "primero_pct": 9.1,
+      "puesto_medio": 9.0,
+      "nota_media": 43,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 4.0,
+      "primero_pct": 3.8,
       "puesto_medio": 4.8,
-      "nota_media": 73,
+      "nota_media": 74,
       "perfiles": 2000
      },
      {
       "partido": "IU",
       "primero_pct": 0.1,
-      "puesto_medio": 10.6,
-      "nota_media": 37,
+      "puesto_medio": 10.5,
+      "nota_media": 38,
       "perfiles": 2000
      },
      {
       "partido": "Podemos",
       "primero_pct": 0.0,
       "puesto_medio": 9.7,
-      "nota_media": 40,
+      "nota_media": 41,
       "perfiles": 2000
      },
      {
@@ -4797,21 +4796,21 @@
      {
       "partido": "Comuns",
       "primero_pct": 0.0,
-      "puesto_medio": 8.0,
-      "nota_media": 55,
+      "puesto_medio": 8.2,
+      "nota_media": 54,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 7.6,
-      "nota_media": 57,
+      "puesto_medio": 7.5,
+      "nota_media": 58,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
-      "puesto_medio": 10.9,
+      "puesto_medio": 11.0,
       "nota_media": 36,
       "perfiles": 2000
      },
@@ -4819,7 +4818,7 @@
       "partido": "Anticapitalistas",
       "primero_pct": 0.0,
       "puesto_medio": 12.9,
-      "nota_media": 14,
+      "nota_media": 15,
       "perfiles": 2000
      }
     ],
@@ -4850,7 +4849,7 @@
       "Cs +74"
      ],
      "Empresario de pyme industrial": [
-      "VOX +59",
+      "VOX +62",
       "PP +40",
       "Bildu +36"
      ],
@@ -4876,13 +4875,13 @@
      ],
      "Rentas altas con patrimonio": [
       "PP +83",
-      "PSOE +80",
-      "Cs +80"
+      "PSOE +83",
+      "Cs +83"
      ],
      "Gran patrimonio y gran empresa": [
+      "VOX +61",
       "PP +58",
-      "VOX +56",
-      "PSOE +47"
+      "PSOE +49"
      ],
      "Parado con subsidio": [
       "PP +83",
@@ -4931,22 +4930,22 @@
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 47.2,
+      "primero_pct": 46.2,
       "puesto_medio": 1.3,
       "nota_media": 88,
       "perfiles": 2000
      },
      {
       "partido": "Junts",
-      "primero_pct": 43.8,
+      "primero_pct": 44.2,
       "puesto_medio": 2.1,
       "nota_media": 88,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
-      "primero_pct": 5.7,
-      "puesto_medio": 4.0,
+      "primero_pct": 6.2,
+      "puesto_medio": 3.9,
       "nota_media": 82,
       "perfiles": 2000
      },
@@ -4959,15 +4958,15 @@
      },
      {
       "partido": "Podemos",
-      "primero_pct": 0.2,
+      "primero_pct": 0.3,
       "puesto_medio": 5.2,
       "nota_media": 81,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 0.2,
-      "puesto_medio": 6.6,
+      "primero_pct": 0.3,
+      "puesto_medio": 6.7,
       "nota_media": 80,
       "perfiles": 2000
      },
@@ -4981,7 +4980,7 @@
      {
       "partido": "Cs",
       "primero_pct": 0.0,
-      "puesto_medio": 3.7,
+      "puesto_medio": 3.8,
       "nota_media": 82,
       "perfiles": 2000
      },
@@ -4995,7 +4994,7 @@
      {
       "partido": "IU",
       "primero_pct": 0.0,
-      "puesto_medio": 8.8,
+      "puesto_medio": 8.7,
       "nota_media": 77,
       "perfiles": 2000
      },
@@ -5016,7 +5015,7 @@
      {
       "partido": "Anticapitalistas",
       "primero_pct": 0.0,
-      "puesto_medio": 7.4,
+      "puesto_medio": 7.3,
       "nota_media": 79,
       "perfiles": 2000
      }
@@ -5129,22 +5128,22 @@
     "partidos": [
      {
       "partido": "ERC",
-      "primero_pct": 20.0,
+      "primero_pct": 20.4,
       "puesto_medio": 5.3,
-      "nota_media": 56,
+      "nota_media": 57,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
-      "primero_pct": 14.6,
-      "puesto_medio": 2.5,
+      "primero_pct": 14.1,
+      "puesto_medio": 2.6,
       "nota_media": 56,
       "perfiles": 2000
      },
      {
       "partido": "Cs",
-      "primero_pct": 14.5,
-      "puesto_medio": 3.6,
+      "primero_pct": 14.0,
+      "puesto_medio": 3.7,
       "nota_media": 55,
       "perfiles": 2000
      },
@@ -5157,66 +5156,66 @@
      },
      {
       "partido": "Podemos",
-      "primero_pct": 11.6,
+      "primero_pct": 11.7,
       "puesto_medio": 3.9,
       "nota_media": 56,
       "perfiles": 2000
      },
      {
       "partido": "Anticapitalistas",
-      "primero_pct": 9.6,
-      "puesto_medio": 6.9,
+      "primero_pct": 9.8,
+      "puesto_medio": 6.8,
       "nota_media": 54,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 8.7,
+      "primero_pct": 8.8,
       "puesto_medio": 3.9,
       "nota_media": 54,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
-      "primero_pct": 5.2,
+      "primero_pct": 5.1,
       "puesto_medio": 7.0,
-      "nota_media": 54,
+      "nota_media": 55,
       "perfiles": 2000
      },
      {
       "partido": "Comuns",
-      "primero_pct": 1.9,
+      "primero_pct": 2.0,
       "puesto_medio": 9.8,
       "nota_media": 46,
-      "perfiles": 868
+      "perfiles": 906
      },
      {
       "partido": "PNV",
-      "primero_pct": 0.7,
+      "primero_pct": 0.8,
       "puesto_medio": 8.3,
       "nota_media": 52,
-      "perfiles": 1418
+      "perfiles": 1441
      },
      {
       "partido": "IU",
       "primero_pct": 0.5,
       "puesto_medio": 8.7,
       "nota_media": 51,
-      "perfiles": 1418
+      "perfiles": 1441
      },
      {
       "partido": "VOX",
       "primero_pct": 0.2,
       "puesto_medio": 11.0,
       "nota_media": 3,
-      "perfiles": 1871
+      "perfiles": 1888
      },
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
-      "puesto_medio": 11.5,
+      "puesto_medio": 11.4,
       "nota_media": 36,
-      "perfiles": 172
+      "perfiles": 179
      }
     ],
     "arquetipos_top3": {
@@ -5331,43 +5330,43 @@
     "partidos": [
      {
       "partido": "Cs",
-      "primero_pct": 34.5,
-      "puesto_medio": 2.4,
+      "primero_pct": 34.9,
+      "puesto_medio": 2.3,
       "nota_media": 76,
       "perfiles": 2000
      },
      {
       "partido": "Equo",
-      "primero_pct": 30.8,
-      "puesto_medio": 5.3,
-      "nota_media": 66,
+      "primero_pct": 29.8,
+      "puesto_medio": 5.2,
+      "nota_media": 67,
       "perfiles": 2000
      },
      {
       "partido": "PDeCAT",
-      "primero_pct": 27.0,
-      "puesto_medio": 1.9,
+      "primero_pct": 28.9,
+      "puesto_medio": 1.8,
       "nota_media": 75,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 3.1,
+      "primero_pct": 3.0,
       "puesto_medio": 6.3,
       "nota_media": 69,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 2.5,
+      "primero_pct": 1.9,
       "puesto_medio": 3.3,
       "nota_media": 73,
       "perfiles": 2000
      },
      {
       "partido": "UDC",
-      "primero_pct": 2.0,
-      "puesto_medio": 9.1,
+      "primero_pct": 1.6,
+      "puesto_medio": 9.2,
       "nota_media": 58,
       "perfiles": 2000
      },
@@ -5410,20 +5409,20 @@
       "partido": "ICV",
       "primero_pct": 0.0,
       "puesto_medio": 9.8,
-      "nota_media": 53,
+      "nota_media": 54,
       "perfiles": 2000
      },
      {
       "partido": "AGE",
       "primero_pct": 0.0,
       "puesto_medio": 17.0,
-      "nota_media": -13,
+      "nota_media": -12,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
-      "puesto_medio": 15.4,
+      "puesto_medio": 15.3,
       "nota_media": 15,
       "perfiles": 2000
      },
@@ -5557,42 +5556,42 @@
     "partidos": [
      {
       "partido": "PNV",
-      "primero_pct": 44.6,
-      "puesto_medio": 2.0,
+      "primero_pct": 42.4,
+      "puesto_medio": 2.1,
       "nota_media": 79,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 40.0,
-      "puesto_medio": 1.9,
+      "primero_pct": 42.1,
+      "puesto_medio": 1.7,
       "nota_media": 79,
       "perfiles": 2000
      },
      {
       "partido": "Cs",
-      "primero_pct": 8.8,
-      "puesto_medio": 3.4,
+      "primero_pct": 8.3,
+      "puesto_medio": 3.5,
       "nota_media": 78,
       "perfiles": 2000
      },
      {
       "partido": "UDC",
-      "primero_pct": 3.0,
-      "puesto_medio": 8.1,
+      "primero_pct": 2.9,
+      "puesto_medio": 8.2,
       "nota_media": 58,
       "perfiles": 2000
      },
      {
       "partido": "Equo",
-      "primero_pct": 2.2,
-      "puesto_medio": 7.5,
+      "primero_pct": 2.5,
+      "puesto_medio": 7.4,
       "nota_media": 60,
       "perfiles": 2000
      },
      {
       "partido": "UPyD",
-      "primero_pct": 1.3,
+      "primero_pct": 1.8,
       "puesto_medio": 4.4,
       "nota_media": 77,
       "perfiles": 2000
@@ -5600,7 +5599,7 @@
      {
       "partido": "PSOE",
       "primero_pct": 0.1,
-      "puesto_medio": 5.5,
+      "puesto_medio": 5.6,
       "nota_media": 76,
       "perfiles": 2000
      },
@@ -5628,7 +5627,7 @@
      {
       "partido": "ICV",
       "primero_pct": 0.0,
-      "puesto_medio": 10.4,
+      "puesto_medio": 10.3,
       "nota_media": 45,
       "perfiles": 2000
      },
@@ -5663,7 +5662,7 @@
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 12.0,
+      "puesto_medio": 11.9,
       "nota_media": 39,
       "perfiles": 2000
      },
@@ -5783,51 +5782,51 @@
     "partidos": [
      {
       "partido": "PNV",
-      "primero_pct": 55.5,
+      "primero_pct": 55.4,
       "puesto_medio": 1.9,
       "nota_media": 84,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
-      "primero_pct": 30.8,
-      "puesto_medio": 1.6,
+      "primero_pct": 29.8,
+      "puesto_medio": 1.7,
       "nota_media": 84,
       "perfiles": 2000
      },
      {
       "partido": "BNG",
-      "primero_pct": 6.7,
+      "primero_pct": 6.9,
       "puesto_medio": 7.5,
       "nota_media": 72,
       "perfiles": 2000
      },
      {
-      "partido": "Equo",
-      "primero_pct": 2.8,
-      "puesto_medio": 6.5,
-      "nota_media": 75,
+      "partido": "PP",
+      "primero_pct": 3.2,
+      "puesto_medio": 5.2,
+      "nota_media": 78,
       "perfiles": 2000
      },
      {
-      "partido": "PP",
-      "primero_pct": 2.5,
-      "puesto_medio": 5.2,
-      "nota_media": 78,
+      "partido": "Equo",
+      "primero_pct": 2.9,
+      "puesto_medio": 6.5,
+      "nota_media": 74,
+      "perfiles": 2000
+     },
+     {
+      "partido": "UDC",
+      "primero_pct": 1.0,
+      "puesto_medio": 10.4,
+      "nota_media": 56,
       "perfiles": 2000
      },
      {
       "partido": "PDeCAT",
       "primero_pct": 0.9,
       "puesto_medio": 3.1,
-      "nota_media": 82,
-      "perfiles": 2000
-     },
-     {
-      "partido": "UDC",
-      "primero_pct": 0.8,
-      "puesto_medio": 10.5,
-      "nota_media": 56,
+      "nota_media": 81,
       "perfiles": 2000
      },
      {
@@ -5876,14 +5875,14 @@
       "partido": "AGE",
       "primero_pct": 0.0,
       "puesto_medio": 16.1,
-      "nota_media": 14,
+      "nota_media": 15,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
       "primero_pct": 0.0,
       "puesto_medio": 14.9,
-      "nota_media": 21,
+      "nota_media": 22,
       "perfiles": 2000
      },
      {
@@ -5896,7 +5895,7 @@
      {
       "partido": "Compromís",
       "primero_pct": 0.0,
-      "puesto_medio": 14.1,
+      "puesto_medio": 14.0,
       "nota_media": 25,
       "perfiles": 2000
      }
@@ -6009,122 +6008,122 @@
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 39.7,
-      "puesto_medio": 2.7,
+      "primero_pct": 38.6,
+      "puesto_medio": 2.8,
       "nota_media": 55,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 33.8,
-      "puesto_medio": 3.9,
+      "primero_pct": 32.9,
+      "puesto_medio": 4.0,
       "nota_media": 55,
       "perfiles": 2000
      },
      {
       "partido": "Bildu",
-      "primero_pct": 7.4,
-      "puesto_medio": 10.3,
+      "primero_pct": 7.9,
+      "puesto_medio": 10.2,
       "nota_media": 41,
-      "perfiles": 1816
+      "perfiles": 1818
      },
      {
       "partido": "IU",
-      "primero_pct": 3.8,
-      "puesto_medio": 10.4,
-      "nota_media": 39,
+      "primero_pct": 4.3,
+      "puesto_medio": 10.2,
+      "nota_media": 40,
       "perfiles": 2000
      },
      {
       "partido": "AGE",
-      "primero_pct": 3.5,
-      "puesto_medio": 11.2,
-      "nota_media": 39,
+      "primero_pct": 3.8,
+      "puesto_medio": 11.0,
+      "nota_media": 40,
       "perfiles": 2000
      },
      {
       "partido": "ICV",
-      "primero_pct": 3.1,
-      "puesto_medio": 5.0,
-      "nota_media": 57,
-      "perfiles": 1951
+      "primero_pct": 3.2,
+      "puesto_medio": 5.2,
+      "nota_media": 56,
+      "perfiles": 1972
      },
      {
       "partido": "ERC",
-      "primero_pct": 3.0,
-      "puesto_medio": 4.6,
+      "primero_pct": 2.9,
+      "puesto_medio": 4.7,
       "nota_media": 56,
-      "perfiles": 1951
+      "perfiles": 1972
      },
      {
       "partido": "Podemos",
-      "primero_pct": 2.5,
-      "puesto_medio": 9.2,
-      "nota_media": 41,
+      "primero_pct": 2.6,
+      "puesto_medio": 9.1,
+      "nota_media": 42,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 1.1,
-      "puesto_medio": 11.3,
+      "primero_pct": 1.4,
+      "puesto_medio": 11.4,
       "nota_media": 35,
       "perfiles": 2000
      },
      {
-      "partido": "PDeCAT",
-      "primero_pct": 0.5,
-      "puesto_medio": 7.3,
-      "nota_media": 52,
-      "perfiles": 1954
-     },
-     {
       "partido": "NECat",
-      "primero_pct": 0.5,
-      "puesto_medio": 8.9,
+      "primero_pct": 0.6,
+      "puesto_medio": 8.8,
       "nota_media": 38,
-      "perfiles": 499
+      "perfiles": 518
      },
      {
       "partido": "Compromís",
-      "primero_pct": 0.5,
-      "puesto_medio": 10.4,
-      "nota_media": 36,
-      "perfiles": 459
+      "primero_pct": 0.6,
+      "puesto_medio": 10.3,
+      "nota_media": 37,
+      "perfiles": 473
+     },
+     {
+      "partido": "BNG",
+      "primero_pct": 0.4,
+      "puesto_medio": 9.5,
+      "nota_media": 46,
+      "perfiles": 1869
      },
      {
       "partido": "UPyD",
       "primero_pct": 0.3,
       "puesto_medio": 6.1,
       "nota_media": 53,
-      "perfiles": 1950
+      "perfiles": 1964
      },
      {
-      "partido": "BNG",
+      "partido": "PDeCAT",
       "primero_pct": 0.3,
-      "puesto_medio": 9.5,
-      "nota_media": 46,
-      "perfiles": 1851
+      "puesto_medio": 7.4,
+      "nota_media": 51,
+      "perfiles": 1974
      },
      {
       "partido": "Cs",
-      "primero_pct": 0.1,
-      "puesto_medio": 8.5,
-      "nota_media": 50,
-      "perfiles": 1954
+      "primero_pct": 0.0,
+      "puesto_medio": 8.6,
+      "nota_media": 49,
+      "perfiles": 1974
      },
      {
       "partido": "Equo",
       "primero_pct": 0.0,
-      "puesto_medio": 7.4,
-      "nota_media": 54,
-      "perfiles": 1946
+      "puesto_medio": 7.5,
+      "nota_media": 53,
+      "perfiles": 1962
      },
      {
       "partido": "UDC",
       "primero_pct": 0.0,
-      "puesto_medio": 10.1,
-      "nota_media": 29,
-      "perfiles": 206
+      "puesto_medio": 9.7,
+      "nota_media": 30,
+      "perfiles": 215
      }
     ],
     "arquetipos_top3": {
@@ -6240,55 +6239,55 @@
      {
       "partido": "Aralar",
       "primero_pct": 71.6,
-      "puesto_medio": 2.3,
+      "puesto_medio": 2.4,
       "nota_media": 77,
       "perfiles": 2000
      },
      {
       "partido": "CDC",
-      "primero_pct": 18.9,
-      "puesto_medio": 2.6,
+      "primero_pct": 19.0,
+      "puesto_medio": 2.7,
       "nota_media": 76,
       "perfiles": 2000
      },
      {
       "partido": "VOX",
-      "primero_pct": 3.4,
-      "puesto_medio": 4.6,
+      "primero_pct": 3.2,
+      "puesto_medio": 4.7,
       "nota_media": 72,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
-      "primero_pct": 2.5,
+      "primero_pct": 2.4,
       "puesto_medio": 9.6,
       "nota_media": 50,
       "perfiles": 2000
      },
      {
       "partido": "ICV",
-      "primero_pct": 2.2,
-      "puesto_medio": 4.1,
+      "primero_pct": 1.7,
+      "puesto_medio": 4.0,
       "nota_media": 71,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 0.9,
-      "puesto_medio": 3.8,
+      "primero_pct": 1.2,
+      "puesto_medio": 3.9,
       "nota_media": 74,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
       "primero_pct": 0.6,
-      "puesto_medio": 5.3,
+      "puesto_medio": 5.2,
       "nota_media": 69,
       "perfiles": 2000
      },
      {
       "partido": "UPyD",
-      "primero_pct": 0.1,
+      "primero_pct": 0.3,
       "puesto_medio": 6.3,
       "nota_media": 69,
       "perfiles": 2000
@@ -6430,37 +6429,37 @@
     "partidos": [
      {
       "partido": "ICV",
-      "primero_pct": 56.4,
-      "puesto_medio": 3.3,
+      "primero_pct": 58.9,
+      "puesto_medio": 3.2,
       "nota_media": 76,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 15.3,
-      "puesto_medio": 3.6,
+      "primero_pct": 15.1,
+      "puesto_medio": 3.7,
       "nota_media": 78,
       "perfiles": 2000
      },
      {
       "partido": "Aralar",
-      "primero_pct": 10.0,
+      "primero_pct": 8.5,
       "puesto_medio": 5.5,
-      "nota_media": 72,
-      "perfiles": 2000
-     },
-     {
-      "partido": "PSOE",
-      "primero_pct": 4.9,
-      "puesto_medio": 3.2,
-      "nota_media": 78,
+      "nota_media": 71,
       "perfiles": 2000
      },
      {
       "partido": "UPyD",
+      "primero_pct": 4.9,
+      "puesto_medio": 4.0,
+      "nota_media": 77,
+      "perfiles": 2000
+     },
+     {
+      "partido": "PSOE",
       "primero_pct": 4.7,
-      "puesto_medio": 4.1,
-      "nota_media": 78,
+      "puesto_medio": 3.0,
+      "nota_media": 77,
       "perfiles": 2000
      },
      {
@@ -6472,21 +6471,21 @@
      },
      {
       "partido": "CDC",
-      "primero_pct": 2.3,
-      "puesto_medio": 5.0,
+      "primero_pct": 2.0,
+      "puesto_medio": 5.2,
       "nota_media": 77,
       "perfiles": 2000
      },
      {
       "partido": "VOX",
-      "primero_pct": 2.1,
-      "puesto_medio": 7.2,
+      "primero_pct": 1.3,
+      "puesto_medio": 7.3,
       "nota_media": 72,
       "perfiles": 2000
      },
      {
       "partido": "UDC",
-      "primero_pct": 0.5,
+      "primero_pct": 0.7,
       "puesto_medio": 7.8,
       "nota_media": 71,
       "perfiles": 2000
@@ -6494,14 +6493,14 @@
      {
       "partido": "PNV",
       "primero_pct": 0.2,
-      "puesto_medio": 6.0,
-      "nota_media": 77,
+      "puesto_medio": 6.1,
+      "nota_media": 76,
       "perfiles": 2000
      },
      {
       "partido": "IU",
       "primero_pct": 0.0,
-      "puesto_medio": 11.9,
+      "puesto_medio": 12.0,
       "nota_media": -2,
       "perfiles": 2000
      },
@@ -6621,21 +6620,21 @@
     "partidos": [
      {
       "partido": "PP",
-      "primero_pct": 88.0,
+      "primero_pct": 88.1,
       "puesto_medio": 1.3,
       "nota_media": 85,
       "perfiles": 2000
      },
      {
       "partido": "UPyD",
-      "primero_pct": 3.9,
+      "primero_pct": 4.3,
       "puesto_medio": 2.0,
       "nota_media": 82,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 3.3,
+      "primero_pct": 3.4,
       "puesto_medio": 3.0,
       "nota_media": 82,
       "perfiles": 2000
@@ -6649,7 +6648,7 @@
      },
      {
       "partido": "PSOE",
-      "primero_pct": 1.9,
+      "primero_pct": 1.5,
       "puesto_medio": 4.0,
       "nota_media": 80,
       "perfiles": 2000
@@ -6686,7 +6685,7 @@
       "partido": "ERC",
       "primero_pct": 0.0,
       "puesto_medio": 11.3,
-      "nota_media": 36,
+      "nota_media": 37,
       "perfiles": 2000
      },
      {
@@ -6699,7 +6698,7 @@
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 8.1,
+      "puesto_medio": 8.0,
       "nota_media": 62,
       "perfiles": 2000
      }
@@ -6808,91 +6807,91 @@
     }
    },
    "soc_sin_ciud": {
-    "perfiles_con_resultado": 1882,
+    "perfiles_con_resultado": 1875,
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 30.4,
+      "primero_pct": 29.8,
       "puesto_medio": 1.8,
       "nota_media": 63,
-      "perfiles": 1882
+      "perfiles": 1875
      },
      {
       "partido": "UPyD",
-      "primero_pct": 27.4,
-      "puesto_medio": 2.8,
+      "primero_pct": 27.6,
+      "puesto_medio": 2.7,
       "nota_media": 62,
-      "perfiles": 1882
+      "perfiles": 1875
      },
      {
       "partido": "PNV",
-      "primero_pct": 21.8,
+      "primero_pct": 22.0,
       "puesto_medio": 3.9,
       "nota_media": 62,
-      "perfiles": 1882
+      "perfiles": 1875
      },
      {
       "partido": "PP",
-      "primero_pct": 13.2,
+      "primero_pct": 12.7,
       "puesto_medio": 2.7,
       "nota_media": 60,
-      "perfiles": 1882
+      "perfiles": 1875
      },
      {
       "partido": "ICV",
-      "primero_pct": 3.6,
+      "primero_pct": 3.8,
       "puesto_medio": 6.2,
       "nota_media": 45,
-      "perfiles": 1882
+      "perfiles": 1875
      },
      {
       "partido": "ERC",
-      "primero_pct": 1.4,
-      "puesto_medio": 8.2,
+      "primero_pct": 1.6,
+      "puesto_medio": 8.1,
       "nota_media": 37,
-      "perfiles": 818
+      "perfiles": 843
      },
      {
       "partido": "Aralar",
-      "primero_pct": 1.1,
+      "primero_pct": 1.5,
       "puesto_medio": 9.3,
-      "nota_media": 15,
-      "perfiles": 1395
+      "nota_media": 14,
+      "perfiles": 1405
      },
      {
       "partido": "VOX",
-      "primero_pct": 0.8,
-      "puesto_medio": 9.0,
+      "primero_pct": 0.7,
+      "puesto_medio": 9.2,
       "nota_media": 14,
-      "perfiles": 284
+      "perfiles": 296
      },
      {
       "partido": "UDC",
       "primero_pct": 0.3,
       "puesto_medio": 6.0,
       "nota_media": 47,
-      "perfiles": 1495
+      "perfiles": 1509
      },
      {
       "partido": "CDC",
       "primero_pct": 0.0,
       "puesto_medio": 7.2,
       "nota_media": 38,
-      "perfiles": 1828
+      "perfiles": 1824
      },
      {
       "partido": "IU",
       "primero_pct": 0.0,
       "puesto_medio": 6.2,
       "nota_media": 44,
-      "perfiles": 1753
+      "perfiles": 1755
      },
      {
       "partido": "BNG",
       "primero_pct": 0.0,
-      "puesto_medio": 10.1,
+      "puesto_medio": 10.0,
       "nota_media": 16,
-      "perfiles": 420
+      "perfiles": 402
      }
     ],
     "arquetipos_top3": {
@@ -6971,30 +6970,30 @@
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 96.6,
+      "primero_pct": 97.2,
       "puesto_medio": 1.0,
       "nota_media": 72,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 2.2,
+      "primero_pct": 2.0,
       "puesto_medio": 3.0,
       "nota_media": 66,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 1.0,
+      "primero_pct": 0.7,
       "puesto_medio": 2.1,
       "nota_media": 68,
       "perfiles": 2000
      },
      {
       "partido": "UPN",
-      "primero_pct": 0.2,
+      "primero_pct": 0.1,
       "puesto_medio": 5.0,
-      "nota_media": 55,
+      "nota_media": 56,
       "perfiles": 2000
      },
      {
@@ -7035,9 +7034,9 @@
      {
       "partido": "ERC",
       "primero_pct": 0.0,
-      "puesto_medio": 9.1,
-      "nota_media": 7,
-      "perfiles": 1115
+      "puesto_medio": 9.2,
+      "nota_media": 6,
+      "perfiles": 1180
      }
     ],
     "arquetipos_top3": {
@@ -7148,35 +7147,35 @@
     "partidos": [
      {
       "partido": "PSOE",
-      "primero_pct": 42.5,
-      "puesto_medio": 2.0,
+      "primero_pct": 41.8,
+      "puesto_medio": 1.9,
       "nota_media": 59,
       "perfiles": 2000
      },
      {
       "partido": "PP",
-      "primero_pct": 40.8,
-      "puesto_medio": 1.5,
-      "nota_media": 60,
+      "primero_pct": 40.9,
+      "puesto_medio": 1.6,
+      "nota_media": 59,
       "perfiles": 2000
      },
      {
       "partido": "ERC",
-      "primero_pct": 13.8,
+      "primero_pct": 14.4,
       "puesto_medio": 3.8,
-      "nota_media": 52,
-      "perfiles": 924
+      "nota_media": 51,
+      "perfiles": 1012
      },
      {
       "partido": "PNV",
-      "primero_pct": 2.1,
+      "primero_pct": 2.4,
       "puesto_medio": 3.1,
       "nota_media": 56,
       "perfiles": 2000
      },
      {
       "partido": "CDC",
-      "primero_pct": 0.8,
+      "primero_pct": 0.5,
       "puesto_medio": 4.2,
       "nota_media": 50,
       "perfiles": 2000
@@ -7192,13 +7191,13 @@
       "partido": "ICV",
       "primero_pct": 0.0,
       "puesto_medio": 8.2,
-      "nota_media": 1,
+      "nota_media": 2,
       "perfiles": 2000
      },
      {
       "partido": "Los Verdes",
       "primero_pct": 0.0,
-      "puesto_medio": 7.7,
+      "puesto_medio": 7.8,
       "nota_media": 4,
       "perfiles": 2000
      },
@@ -7206,13 +7205,13 @@
       "partido": "UPN",
       "primero_pct": 0.0,
       "puesto_medio": 6.2,
-      "nota_media": 27,
+      "nota_media": 28,
       "perfiles": 2000
      },
      {
       "partido": "EA",
       "primero_pct": 0.0,
-      "puesto_medio": 5.6,
+      "puesto_medio": 5.7,
       "nota_media": 29,
       "perfiles": 2000
      }
@@ -7325,29 +7324,29 @@
     "partidos": [
      {
       "partido": "CDC",
-      "primero_pct": 90.0,
+      "primero_pct": 89.8,
       "puesto_medio": 1.1,
       "nota_media": 84,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 7.2,
+      "primero_pct": 7.3,
       "puesto_medio": 2.0,
       "nota_media": 82,
       "perfiles": 2000
      },
      {
       "partido": "IU",
-      "primero_pct": 2.4,
+      "primero_pct": 2.3,
       "puesto_medio": 5.9,
       "nota_media": 50,
       "perfiles": 2000
      },
      {
       "partido": "PSOE",
-      "primero_pct": 0.4,
-      "puesto_medio": 2.9,
+      "primero_pct": 0.5,
+      "puesto_medio": 3.0,
       "nota_media": 79,
       "perfiles": 2000
      },
@@ -7368,7 +7367,7 @@
      {
       "partido": "Los Verdes",
       "primero_pct": 0.0,
-      "puesto_medio": 7.0,
+      "puesto_medio": 7.1,
       "nota_media": 40,
       "perfiles": 2000
      },
@@ -7502,38 +7501,45 @@
     "partidos": [
      {
       "partido": "CDC",
-      "primero_pct": 63.5,
+      "primero_pct": 62.1,
       "puesto_medio": 1.3,
       "nota_media": 62,
       "perfiles": 2000
      },
      {
       "partido": "PNV",
-      "primero_pct": 32.9,
+      "primero_pct": 34.2,
       "puesto_medio": 2.1,
       "nota_media": 62,
       "perfiles": 2000
      },
      {
-      "partido": "EA",
-      "primero_pct": 1.2,
-      "puesto_medio": 9.7,
-      "nota_media": 7,
-      "perfiles": 1706
+      "partido": "ERC",
+      "primero_pct": 1.1,
+      "puesto_medio": 5.6,
+      "nota_media": 40,
+      "perfiles": 1740
      },
      {
-      "partido": "ICV",
-      "primero_pct": 0.9,
-      "puesto_medio": 6.4,
-      "nota_media": 34,
+      "partido": "EA",
+      "primero_pct": 1.0,
+      "puesto_medio": 9.7,
+      "nota_media": 7,
+      "perfiles": 1698
+     },
+     {
+      "partido": "IU",
+      "primero_pct": 0.5,
+      "puesto_medio": 8.2,
+      "nota_media": 23,
       "perfiles": 2000
      },
      {
-      "partido": "ERC",
-      "primero_pct": 0.6,
-      "puesto_medio": 5.6,
-      "nota_media": 40,
-      "perfiles": 1745
+      "partido": "ICV",
+      "primero_pct": 0.5,
+      "puesto_medio": 6.4,
+      "nota_media": 34,
+      "perfiles": 2000
      },
      {
       "partido": "PP",
@@ -7543,15 +7549,8 @@
       "perfiles": 2000
      },
      {
-      "partido": "IU",
-      "primero_pct": 0.3,
-      "puesto_medio": 8.2,
-      "nota_media": 23,
-      "perfiles": 2000
-     },
-     {
       "partido": "PSOE",
-      "primero_pct": 0.1,
+      "primero_pct": 0.2,
       "puesto_medio": 3.8,
       "nota_media": 50,
       "perfiles": 2000
@@ -7560,7 +7559,7 @@
       "partido": "UPN",
       "primero_pct": 0.1,
       "puesto_medio": 5.5,
-      "nota_media": 37,
+      "nota_media": 38,
       "perfiles": 2000
      },
      {

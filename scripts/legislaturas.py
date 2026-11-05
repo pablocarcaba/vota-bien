@@ -106,6 +106,8 @@ LEGISLATURAS = {
         "titulo": "XII legislatura · 2016–2019",
         "periodo": "entre el 19 de julio de 2016 y la disolución de las Cortes el 5 de marzo de 2019",
         "gobierno": "PP (Rajoy) hasta la moción de censura de junio de 2018; PSOE (Sánchez) desde entonces",
+        # dos Gobiernos: la web etiqueta cada iniciativa del Gobierno con el que había en su fecha de presentación
+        "gobiernos": [{"desde": "2016-07-19", "nombre": "Rajoy"}, {"desde": "2018-06-02", "nombre": "Sánchez"}],
         "grupos": {"GS": "PSOE", "GP": "PP", "GCUP-EC-EM": "Unidos Podemos", "GCs": "Cs", "GER": "ERC",
                    "GV (EAJ-PNV)": "PNV"},
         "nominal": {"Miquel i Valentí": "PDeCAT", "Xuclà": "PDeCAT", "Campuzano": "PDeCAT", "Ciuró": "PDeCAT",

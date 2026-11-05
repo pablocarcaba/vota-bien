@@ -28,6 +28,11 @@ K = 9
 FUERZA = {"Votación final": 1, "Convalidación": 1, "Toma en consideración": 0.5, "Enmienda a la totalidad": 0.5}
 IMPLICA = {"hij1": ["infancia"], "hij2": ["infancia"], "hij3": ["infancia"], "cuid": ["depend"]}
 SIN_PAREJA, CON_HIJOS = {"civSol", "civSep", "civViu"}, {"hij1", "hij2", "hij3"}
+# «No lo sé» en el tramo de IRPF (asalNs): asalariado sin tramo concreto. Le aplican las leyes que afectan a NS_MIN tramos
+# o más, con el signo de su suma; no las que afectan solo a 1 o 2 (impNs en la web)
+TRAMOS, NS_MIN = ["asal1", "asal2", "asal3", "asal4", "asal5", "asal6"], 3
+# fracción de asalariados (y funcionarios) de la muestra aleatoria que responden «No lo sé» en el tramo
+P_NS = 0.25
 
 
 def js_round(x):
@@ -43,10 +48,22 @@ def rasgos(sel):
     return r
 
 
+def imp_ns(it):
+    v = [it["imp"][t] for t in TRAMOS if it["imp"].get(t)]
+    if len(v) < NS_MIN:
+        return 0
+    s = sum(1 if x > 0 else -1 for x in v)
+    return (s > 0) - (s < 0)
+
+
+def imp_de(it, k):
+    return imp_ns(it) if k == "asalNs" else it["imp"].get(k)
+
+
 def impact_of(it, R):
     p = n = False
     for k in R:
-        v = it["imp"].get(k)
+        v = imp_de(it, k)
         if v and v > 0:
             p = True
         elif v and v < 0:
@@ -147,7 +164,8 @@ ARQUETIPOS = {
 def aleatorio(rng):
     """Un perfil como los que permite el formulario de la web: edad e hijos siempre; una o dos
     situaciones laborales con sus subpreguntas (el funcionario también marca tramo; el sector solo
-    con negocio); vivienda y ahorros siempre; el resto opcional."""
+    con negocio); vivienda y ahorros siempre; el resto opcional. Asalariados y funcionarios responden
+    «No lo sé» (asalNs) en el tramo de IRPF con probabilidad P_NS."""
     sel = {rng.choice(UNO["edad"]), rng.choice(UNO["hij"]), rng.choice(UNO["prop"])}
     for k in ("civ", "sexo"):
         if rng.random() < 0.6:
@@ -157,10 +175,18 @@ def aleatorio(rng):
         sel.add("hipot")
     if rng.random() < 0.3:
         sel.add("inq")
+    # un solo tramo por perfil, como en la web (pregunta de una opción, con «No lo sé» como alternativa)
+    elegido = []
+
+    def tramo():
+        if not elegido:
+            elegido.append("asalNs" if rng.random() < P_NS else rng.choice(TRABAJO["asal"]))
+        return elegido[0]
+
     for t in rng.sample(list(TRABAJO), 2 if rng.random() < 0.15 else 1):
-        sel.add(rng.choice(TRABAJO[t]))
+        sel.add(tramo() if t == "asal" else rng.choice(TRABAJO[t]))
         if t == "fun":
-            sel.add(rng.choice(TRABAJO["asal"]))
+            sel.add(tramo())
         if t in ("asal", "fun") and rng.random() < 0.15:
             sel.add(rng.choice(VARIOS["pro"]))
         if t == "emp":

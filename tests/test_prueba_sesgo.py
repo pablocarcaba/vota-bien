@@ -31,5 +31,63 @@ class TestParidadConLaWeb(unittest.TestCase):
         self.assertEqual([P.js_round(x) for x in (0.5, 1.5, -0.5, -1.5, 2.4)], [1, 2, 0, -1, 2])
 
 
+def ley(tramos, signo=1, **extra):
+    imp = {t: signo for t in tramos}
+    imp.update(extra)
+    return {"id": "x", "tp": "eco", "imp": imp, "w": 1, "a": [], "v": {"A": "s"}, "vk": "Votación final"}
+
+
+class TestNoLoSe(unittest.TestCase):
+    """«No lo sé» en el tramo de IRPF: el mismo camino en la web (impNs) y en la prueba de sesgo (imp_ns)."""
+
+    def test_constantes_como_la_web(self):
+        m = re.search(r"const TRAMOS = \[([^\]]*)\], NS_MIN = (\d+);", TPL)
+        self.assertIsNotNone(m, "la web ya no define TRAMOS y NS_MIN")
+        self.assertEqual(re.findall(r"'(\w+)'", m.group(1)), P.TRAMOS)
+        self.assertEqual(int(m.group(2)), P.NS_MIN)
+
+    def test_la_web_usa_la_regla(self):
+        self.assertIn("return n>=NS_MIN ? Math.sign(s) : 0;", TPL)
+        self.assertIn("k==='asalNs' ? impNs(it) : it.imp[k]", TPL)
+        self.assertIn("if(state.pasos.ui.has('asalNs')) r.add('asalNs');", TPL)
+        self.assertIn("const v=impDe(it,k);", TPL)
+
+    def test_leyes_de_3_o_mas_tramos_cuentan_con_su_signo(self):
+        R = P.rasgos({"asalNs"})
+        self.assertEqual(P.impact_of(ley(["asal1", "asal2", "asal3"]), R), "pos")
+        self.assertEqual(P.impact_of(ley(P.TRAMOS, -1), R), "neg")
+
+    def test_leyes_de_1_o_2_tramos_no_cuentan(self):
+        R = P.rasgos({"asalNs"})
+        self.assertEqual(P.impact_of(ley(["asal1"]), R), "neu")
+        self.assertEqual(P.impact_of(ley(["asal5", "asal6"], -1), R), "neu")
+
+    def test_signos_mezclados_suma(self):
+        it = ley(["asal1", "asal2", "asal3"])
+        it["imp"]["asal6"] = -1
+        self.assertEqual(P.imp_ns(it), 1)
+        it["imp"].update(asal4=-1, asal5=-1)
+        self.assertEqual(P.imp_ns(it), 0)
+
+    def test_entra_en_el_ranking(self):
+        items = [ley(["asal1", "asal2", "asal3", "asal4"]), ley(["asal1"], -1)]
+        r = P.compute_rank(items, ["A"], P.rasgos({"asalNs"}), "eco")
+        self.assertEqual(r, [{"k": "A", "s": P.js_round(1 / (1 + P.K) * 100), "rel": 1}])
+
+    def test_la_muestra_aleatoria_recorre_el_camino(self):
+        rng = P.random.Random(2026)
+        muestra = [P.aleatorio(rng) for _ in range(2000)]
+        asal = [s for s in muestra if s & (set(P.TRABAJO["asal"]) | {"asalNs"})]
+        ns = [s for s in asal if "asalNs" in s]
+        self.assertTrue(ns, "ningún perfil aleatorio usa «No lo sé»")
+        self.assertTrue(0.18 <= len(ns) / len(asal) <= 0.32, len(ns) / len(asal))
+        # como en la web: «No lo sé» y un tramo concreto se excluyen
+        self.assertFalse([s for s in ns if s & set(P.TRABAJO["asal"])])
+        # y llega al cálculo: con «No lo sé» cambia el resultado frente a no contar ningún tramo
+        items = [ley(P.TRAMOS)]
+        self.assertNotEqual(P.compute_rank(items, ["A"], P.rasgos(ns[0]), "eco"),
+                            P.compute_rank(items, ["A"], P.rasgos(ns[0] - {"asalNs"}), "eco"))
+
+
 if __name__ == "__main__":
     unittest.main()

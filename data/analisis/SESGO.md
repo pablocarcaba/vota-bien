@@ -10,19 +10,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 40.1 % | 2.6 | +80 |
-| PNV | 22.8 % | 2.9 | +80 |
-| Compromís | 18.8 % | 6.0 | +69 |
-| PSOE | 7.1 % | 2.6 | +78 |
-| ERC | 5.6 % | 4.2 | +73 |
-| Sumar | 3.4 % | 5.0 | +72 |
-| Bildu | 2.2 % | 5.6 | +71 |
-| PP | 0.0 % | 12.0 | +5 |
-| VOX | 0.0 % | 13.0 | -67 |
-| Junts | 0.0 % | 9.3 | +49 |
-| Podemos | 0.0 % | 9.3 | +56 |
-| BNG | 0.0 % | 7.7 | +65 |
-| UPN | 0.0 % | 10.7 | +38 |
+| CC | 42.4 % | 2.5 | +88 |
+| PNV | 30.6 % | 2.7 | +88 |
+| PSOE | 11.4 % | 2.4 | +86 |
+| ERC | 9.0 % | 3.9 | +81 |
+| Bildu | 3.5 % | 5.1 | +80 |
+| Sumar | 3.1 % | 4.6 | +80 |
+| PP | 0.0 % | 12.0 | +2 |
+| VOX | 0.0 % | 13.0 | -75 |
+| Junts | 0.0 % | 9.9 | +49 |
+| Podemos | 0.0 % | 8.8 | +66 |
+| BNG | 0.0 % | 7.3 | +73 |
+| UPN | 0.0 % | 10.9 | +40 |
+| Compromís | 0.0 % | 8.1 | +69 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -31,13 +31,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: ERC +90, PSOE +90, PNV +90
 - Pensionista con pensión baja: PSOE +90, ERC +90, PNV +90
 - Autónomo del comercio: CC +83, PNV +82, PSOE +79
-- Empresario de pyme industrial: Compromís +58, PNV +51, CC +48
+- Empresario de pyme industrial: PNV +76, CC +72, PSOE +64
 - Funcionario docente: PSOE +90, ERC +90, Bildu +90
 - Policía o guardia civil: PSOE +90, ERC +90, Bildu +90
 - Sanitario asalariado: PSOE +89, ERC +89, Bildu +89
 - Familia numerosa: PSOE +89, ERC +89, Bildu +89
-- Rentas altas con patrimonio: CC +61, PNV +60, PSOE +57
-- Gran patrimonio y gran empresa: PNV +55, CC +54, Compromís +52
+- Rentas altas con patrimonio: CC +89, PNV +89, PSOE +85
+- Gran patrimonio y gran empresa: PNV +80, CC +79, PSOE +70
 - Parado con subsidio: Sumar +90, PSOE +90, ERC +90
 - Agricultor en el medio rural: PNV +85, CC +82, ERC +78
 - Madre sola con hijo: Sumar +90, PSOE +90, ERC +90
@@ -53,19 +53,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 36.1 % | 2.5 | +79 |
-| PNV | 24.4 % | 2.9 | +79 |
-| Compromís | 22.7 % | 5.8 | +69 |
-| PSOE | 6.7 % | 2.6 | +76 |
-| ERC | 4.7 % | 4.6 | +72 |
-| Sumar | 3.1 % | 5.0 | +71 |
-| Bildu | 2.3 % | 5.6 | +70 |
-| PP | 0.0 % | 12.0 | +6 |
-| VOX | 0.0 % | 13.0 | -65 |
-| Junts | 0.0 % | 9.4 | +46 |
-| Podemos | 0.0 % | 9.5 | +52 |
-| BNG | 0.0 % | 7.7 | +63 |
-| UPN | 0.0 % | 10.6 | +37 |
+| CC | 42.2 % | 2.4 | +88 |
+| PNV | 33.5 % | 2.6 | +88 |
+| PSOE | 10.2 % | 2.3 | +85 |
+| ERC | 7.3 % | 4.2 | +80 |
+| Bildu | 3.7 % | 5.1 | +78 |
+| Sumar | 3.0 % | 4.6 | +79 |
+| Compromís | 0.1 % | 7.9 | +69 |
+| PP | 0.0 % | 12.0 | +3 |
+| VOX | 0.0 % | 13.0 | -74 |
+| Junts | 0.0 % | 10.0 | +46 |
+| Podemos | 0.0 % | 8.9 | +63 |
+| BNG | 0.0 % | 7.3 | +72 |
+| UPN | 0.0 % | 10.8 | +39 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -74,13 +74,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: PSOE +90, ERC +90, PNV +90
 - Pensionista con pensión baja: PSOE +90, PNV +90, CC +90
 - Autónomo del comercio: CC +82, PNV +82, PSOE +78
-- Empresario de pyme industrial: Compromís +58, PNV +48, CC +44
+- Empresario de pyme industrial: PNV +72, CC +69, PSOE +60
 - Funcionario docente: PSOE +89, ERC +89, Bildu +89
 - Policía o guardia civil: PSOE +89, ERC +89, Bildu +89
 - Sanitario asalariado: PSOE +89, ERC +89, Bildu +89
 - Familia numerosa: PSOE +89, ERC +89, Bildu +89
-- Rentas altas con patrimonio: CC +59, PNV +58, Compromís +56
-- Gran patrimonio y gran empresa: PNV +53, CC +52, Compromís +52
+- Rentas altas con patrimonio: CC +88, PNV +88, PSOE +84
+- Gran patrimonio y gran empresa: PNV +79, CC +78, PSOE +69
 - Parado con subsidio: Sumar +89, PSOE +89, ERC +89
 - Agricultor en el medio rural: PNV +84, CC +81, ERC +77
 - Madre sola con hijo: Sumar +90, PSOE +90, Bildu +90
@@ -96,41 +96,41 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Sumar | 60.1 % | 1.7 | +55 |
-| Junts | 19.8 % | 7.7 | +42 |
-| PNV | 7.6 % | 5.6 | +51 |
-| PSOE | 4.9 % | 4.0 | +52 |
-| BNG | 3.2 % | 4.1 | +53 |
-| Bildu | 1.6 % | 4.8 | +53 |
-| UPN | 1.2 % | 9.5 | +19 |
-| ERC | 0.7 % | 5.3 | +52 |
-| Podemos | 0.4 % | 8.5 | +43 |
-| PP | 0.2 % | 11.0 | +5 |
-| CC | 0.2 % | 6.5 | +48 |
-| Compromís | 0.1 % | 9.4 | +40 |
-| VOX | 0.0 % | 12.8 | -36 |
+| Sumar | 56.6 % | 1.7 | +64 |
+| PNV | 26.0 % | 4.5 | +60 |
+| PSOE | 8.8 % | 3.7 | +61 |
+| BNG | 3.1 % | 3.7 | +62 |
+| CC | 2.0 % | 6.1 | +57 |
+| Bildu | 1.5 % | 4.4 | +62 |
+| ERC | 1.1 % | 4.8 | +61 |
+| Podemos | 0.6 % | 8.1 | +52 |
+| Compromís | 0.2 % | 8.5 | +52 |
+| PP | 0.1 % | 12.0 | -2 |
+| VOX | 0.0 % | 13.0 | -44 |
+| Junts | 0.0 % | 9.6 | +38 |
+| UPN | 0.0 % | 10.9 | +17 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Sumar +58, PSOE +56, BNG +56
+- Asalariado medio con hipoteca e hijos: Sumar +62, PSOE +59, BNG +59
 - Joven de alquiler: Sumar +64, ERC +62, BNG +62
-- Pensionista con casa propia: Sumar +45, PSOE +42, ERC +42
-- Pensionista con pensión baja: Sumar +45, PSOE +42, ERC +42
-- Autónomo del comercio: PSOE +64, ERC +64, BNG +64
-- Empresario de pyme industrial: PP +53, UPN +51, Junts +46
-- Funcionario docente: Sumar +51, PSOE +47, Bildu +46
-- Policía o guardia civil: Sumar +47, PSOE +46, Compromís +36
-- Sanitario asalariado: Sumar +45, PSOE +40, ERC +40
-- Familia numerosa: Sumar +58, PSOE +56, BNG +56
-- Rentas altas con patrimonio: Junts +29, UPN +20, PP +14
-- Gran patrimonio y gran empresa: Junts +29, UPN +20, PP +14
+- Pensionista con casa propia: Sumar +52, PSOE +50, ERC +50
+- Pensionista con pensión baja: Sumar +52, PSOE +50, ERC +50
+- Autónomo del comercio: PSOE +67, ERC +67, BNG +67
+- Empresario de pyme industrial: CC +56, PNV +52, PSOE +49
+- Funcionario docente: Sumar +56, PSOE +54, Bildu +53
+- Policía o guardia civil: Sumar +53, PSOE +53, Compromís +47
+- Sanitario asalariado: Sumar +52, Compromís +49, PSOE +48
+- Familia numerosa: Sumar +62, PSOE +59, BNG +59
+- Rentas altas con patrimonio: PSOE +33, Sumar +32, CC +32
+- Gran patrimonio y gran empresa: PSOE +33, Sumar +32, CC +32
 - Parado con subsidio: Sumar +70, ERC +69, BNG +69
-- Agricultor en el medio rural: PSOE +61, ERC +61, Bildu +61
+- Agricultor en el medio rural: PSOE +64, ERC +64, Bildu +64
 - Madre sola con hijo: Sumar +71, BNG +69, Bildu +69
 - Estudiante: Sumar +50, ERC +48, PSOE +48
-- Mayor dependiente: Sumar +71, PSOE +71, ERC +71
-- Casero con varias viviendas: Junts +29, UPN +20, PP +14
-- Transportista autónomo: Sumar +74, PSOE +73, ERC +73
+- Mayor dependiente: Sumar +73, PSOE +73, ERC +73
+- Casero con varias viviendas: Junts +20, UPN +20, Sumar +8
+- Transportista autónomo: Sumar +76, PSOE +75, ERC +75
 - Asalariado de salario mínimo: Sumar +64, ERC +62, BNG +62
 
 </details>
@@ -139,41 +139,41 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Sumar | 31.3 % | 3.4 | +46 |
-| PNV | 14.6 % | 4.0 | +48 |
-| PP | 13.3 % | 8.9 | +23 |
-| CC | 12.5 % | 4.5 | +48 |
-| Junts | 11.3 % | 6.6 | +42 |
-| PSOE | 4.1 % | 5.2 | +44 |
-| Podemos | 3.7 % | 8.9 | +35 |
-| Bildu | 3.3 % | 5.0 | +45 |
-| BNG | 3.1 % | 6.3 | +45 |
-| UPN | 1.1 % | 8.7 | +27 |
-| ERC | 0.9 % | 7.0 | +43 |
-| VOX | 0.8 % | 11.8 | -19 |
-| Compromís | 0.1 % | 10.6 | +27 |
+| Sumar | 30.7 % | 2.7 | +57 |
+| CC | 26.6 % | 4.0 | +60 |
+| PNV | 19.5 % | 3.3 | +60 |
+| PSOE | 5.0 % | 4.4 | +55 |
+| Podemos | 4.8 % | 8.2 | +46 |
+| Bildu | 3.7 % | 4.2 | +56 |
+| BNG | 3.5 % | 5.6 | +56 |
+| PP | 2.8 % | 11.1 | +15 |
+| UPN | 1.9 % | 10.0 | +25 |
+| ERC | 1.2 % | 6.2 | +54 |
+| VOX | 0.2 % | 12.8 | -29 |
+| Compromís | 0.1 % | 9.6 | +41 |
+| Junts | 0.0 % | 8.8 | +37 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Sumar +47, PSOE +44, Bildu +44
+- Asalariado medio con hipoteca e hijos: Sumar +53, PSOE +51, Bildu +51
 - Joven de alquiler: Sumar +54, ERC +53, Bildu +53
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
-- Autónomo del comercio: PP +69, UPN +69, PSOE +53
-- Empresario de pyme industrial: PP +74, UPN +64, Junts +43
-- Funcionario docente: sin resultado
-- Policía o guardia civil: VOX +18, Sumar +15
-- Sanitario asalariado: Sumar +7
-- Familia numerosa: Sumar +47, PSOE +44, Bildu +44
-- Rentas altas con patrimonio: PP +44, VOX +44, UPN +33
-- Gran patrimonio y gran empresa: PP +44, VOX +44, UPN +33
+- Autónomo del comercio: UPN +69, PSOE +57, ERC +57
+- Empresario de pyme industrial: PP +74, UPN +64, CC +51
+- Funcionario docente: Sumar +37, PSOE +35, Bildu +35
+- Policía o guardia civil: PSOE +33, PNV +33, CC +33
+- Sanitario asalariado: CC +31, Sumar +27, PSOE +23
+- Familia numerosa: Sumar +53, PSOE +51, Bildu +51
+- Rentas altas con patrimonio: sin resultado
+- Gran patrimonio y gran empresa: sin resultado
 - Parado con subsidio: Sumar +65, ERC +64, Bildu +64
-- Agricultor en el medio rural: PP +70, UPN +69, PNV +52
+- Agricultor en el medio rural: UPN +69, PNV +56, PP +55
 - Madre sola con hijo: Sumar +68, PNV +68, Bildu +67
 - Estudiante: Sumar +27, Podemos +27, ERC +25
-- Mayor dependiente: PSOE +67, Sumar +67, ERC +67
-- Casero con varias viviendas: PP +44, VOX +44, UPN +33
-- Transportista autónomo: PSOE +69, Sumar +69, ERC +69
+- Mayor dependiente: PSOE +70, Sumar +70, ERC +70
+- Casero con varias viviendas: PP +33, VOX +33, UPN +33
+- Transportista autónomo: PSOE +72, Sumar +72, ERC +72
 - Asalariado de salario mínimo: Sumar +54, ERC +53, Bildu +53
 
 </details>
@@ -184,26 +184,26 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Compromís | 35.1 % | 2.9 | +74 |
-| Teruel Existe | 22.0 % | 5.3 | +69 |
-| Unidas Podemos | 18.7 % | 2.1 | +74 |
-| Bildu | 8.1 % | 7.8 | +65 |
-| PSOE | 4.7 % | 3.9 | +71 |
-| PNV | 4.7 % | 7.6 | +64 |
-| CC | 4.3 % | 10.2 | +56 |
-| Cs | 0.8 % | 12.9 | +35 |
-| NC | 0.8 % | 9.8 | +59 |
-| Más País | 0.6 % | 4.6 | +72 |
-| PRC | 0.1 % | 6.2 | +68 |
-| PP | 0.0 % | 15.8 | +13 |
-| VOX | 0.0 % | 19.8 | -47 |
-| ERC | 0.0 % | 10.1 | +59 |
-| Junts | 0.0 % | 15.5 | +16 |
-| PDeCAT | 0.0 % | 8.7 | +63 |
-| BNG | 0.0 % | 13.7 | +34 |
-| CUP | 0.0 % | 19.2 | -34 |
-| UPN | 0.0 % | 16.0 | +13 |
-| Foro | 0.0 % | 18.0 | -14 |
+| Compromís | 46.6 % | 2.4 | +82 |
+| Unidas Podemos | 24.7 % | 1.7 | +82 |
+| Bildu | 9.7 % | 6.5 | +75 |
+| CC | 7.4 % | 10.1 | +63 |
+| PNV | 4.6 % | 7.6 | +71 |
+| Teruel Existe | 2.9 % | 6.7 | +74 |
+| NC | 1.4 % | 9.2 | +68 |
+| PSOE | 1.3 % | 4.4 | +77 |
+| Más País | 1.2 % | 4.0 | +80 |
+| PRC | 0.1 % | 6.5 | +75 |
+| PP | 0.0 % | 16.0 | +13 |
+| VOX | 0.0 % | 19.9 | -55 |
+| ERC | 0.0 % | 10.9 | +63 |
+| Cs | 0.0 % | 13.5 | +36 |
+| Junts | 0.0 % | 15.8 | +15 |
+| PDeCAT | 0.0 % | 8.7 | +70 |
+| BNG | 0.0 % | 12.8 | +44 |
+| CUP | 0.0 % | 19.0 | -35 |
+| UPN | 0.0 % | 16.2 | +13 |
+| Foro | 0.0 % | 18.0 | -15 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -212,13 +212,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: PNV +91, Compromís +90, Unidas Podemos +89
 - Pensionista con pensión baja: PNV +91, Compromís +90, Unidas Podemos +89
 - Autónomo del comercio: Bildu +79, NC +78, CC +77
-- Empresario de pyme industrial: Cs +55, Teruel Existe +47, CC +46
+- Empresario de pyme industrial: CC +69, NC +65, PSOE +61
 - Funcionario docente: Compromís +91, Unidas Podemos +90, Más País +90
 - Policía o guardia civil: Unidas Podemos +90, Compromís +90, Más País +89
 - Sanitario asalariado: Compromís +90, Unidas Podemos +89, Más País +88
 - Familia numerosa: Compromís +90, Unidas Podemos +89, Más País +89
-- Rentas altas con patrimonio: PSOE +45, Teruel Existe +45, Cs +44
-- Gran patrimonio y gran empresa: Teruel Existe +46, PSOE +39, CC +39
+- Rentas altas con patrimonio: Bildu +81, Compromís +73, PNV +73
+- Gran patrimonio y gran empresa: CC +67, PNV +64, PSOE +63
 - Parado con subsidio: Unidas Podemos +90, Compromís +90, Bildu +90
 - Agricultor en el medio rural: Bildu +85, Unidas Podemos +78, PSOE +77
 - Madre sola con hijo: Unidas Podemos +91, Compromís +91, Más País +90
@@ -234,26 +234,26 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PRC | 35.2 % | 2.9 | +75 |
-| Compromís | 29.8 % | 3.3 | +74 |
-| Teruel Existe | 16.8 % | 5.0 | +72 |
-| Unidas Podemos | 7.2 % | 3.4 | +74 |
-| Bildu | 4.8 % | 8.7 | +62 |
-| CC | 2.3 % | 10.4 | +54 |
-| PSOE | 1.7 % | 3.9 | +73 |
-| Cs | 1.1 % | 12.5 | +37 |
-| Más País | 0.6 % | 5.4 | +73 |
-| PDeCAT | 0.3 % | 7.6 | +65 |
-| NC | 0.1 % | 10.1 | +57 |
-| PP | 0.0 % | 14.8 | +20 |
-| VOX | 0.0 % | 19.7 | -44 |
-| ERC | 0.0 % | 10.9 | +54 |
-| Junts | 0.0 % | 16.5 | +10 |
-| PNV | 0.0 % | 8.2 | +64 |
-| BNG | 0.0 % | 13.9 | +33 |
-| CUP | 0.0 % | 19.3 | -34 |
-| UPN | 0.0 % | 15.8 | +17 |
-| Foro | 0.0 % | 17.7 | -3 |
+| Compromís | 41.9 % | 2.7 | +83 |
+| PRC | 28.2 % | 3.3 | +82 |
+| Unidas Podemos | 12.0 % | 2.8 | +83 |
+| Teruel Existe | 6.7 % | 6.3 | +77 |
+| Bildu | 5.2 % | 7.6 | +74 |
+| CC | 4.1 % | 10.2 | +61 |
+| Más País | 0.8 % | 4.6 | +82 |
+| PSOE | 0.5 % | 4.5 | +80 |
+| NC | 0.4 % | 9.6 | +67 |
+| PDeCAT | 0.2 % | 7.6 | +73 |
+| PP | 0.0 % | 15.2 | +20 |
+| VOX | 0.0 % | 19.9 | -52 |
+| ERC | 0.0 % | 11.6 | +59 |
+| Cs | 0.0 % | 13.3 | +37 |
+| Junts | 0.0 % | 16.7 | +9 |
+| PNV | 0.0 % | 8.4 | +71 |
+| BNG | 0.0 % | 12.9 | +44 |
+| CUP | 0.0 % | 19.1 | -35 |
+| UPN | 0.0 % | 16.0 | +17 |
+| Foro | 0.0 % | 17.8 | -4 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -262,13 +262,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: PRC +94, PNV +93, PDeCAT +93
 - Pensionista con pensión baja: PRC +94, PNV +93, PDeCAT +93
 - Autónomo del comercio: Bildu +78, CC +77, NC +77
-- Empresario de pyme industrial: Cs +58, Teruel Existe +47, PRC +44
+- Empresario de pyme industrial: CC +67, PRC +65, Cs +64
 - Funcionario docente: Unidas Podemos +93, Compromís +93, Más País +92
 - Policía o guardia civil: Compromís +93, Unidas Podemos +92, Más País +91
 - Sanitario asalariado: Compromís +92, Unidas Podemos +91, Más País +91
 - Familia numerosa: Compromís +93, Unidas Podemos +92, Más País +91
-- Rentas altas con patrimonio: PRC +48, Cs +46, Teruel Existe +46
-- Gran patrimonio y gran empresa: Teruel Existe +47, PRC +41, PSOE +38
+- Rentas altas con patrimonio: Bildu +79, PRC +78, Compromís +74
+- Gran patrimonio y gran empresa: PRC +69, CC +66, Teruel Existe +66
 - Parado con subsidio: Compromís +93, Unidas Podemos +92, Más País +92
 - Agricultor en el medio rural: Bildu +84, PRC +81, PSOE +79
 - Madre sola con hijo: Compromís +94, Unidas Podemos +93, Más País +93
@@ -284,25 +284,25 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Más País | 45.6 % | 1.9 | +73 |
-| Compromís | 29.0 % | 2.4 | +73 |
-| Teruel Existe | 11.6 % | 3.1 | +71 |
-| Unidas Podemos | 7.0 % | 3.3 | +70 |
-| NC | 5.6 % | 5.4 | +64 |
-| BNG | 0.9 % | 7.5 | +56 |
-| PNV | 0.2 % | 10.0 | +48 |
-| PSOE | 0.0 % | 8.3 | +54 |
-| PP | 0.0 % | 18.2 | -4 |
-| VOX | 0.0 % | 20.0 | -50 |
-| ERC | 0.0 % | 11.6 | +43 |
-| Cs | 0.0 % | 14.5 | +23 |
-| Junts | 0.0 % | 15.4 | +19 |
-| Bildu | 0.0 % | 9.8 | +50 |
-| PDeCAT | 0.0 % | 13.3 | +35 |
-| CUP | 0.0 % | 13.6 | +33 |
-| UPN | 0.0 % | 18.3 | -5 |
-| CC | 0.0 % | 9.0 | +50 |
-| PRC | 0.0 % | 7.2 | +57 |
+| Más País | 42.7 % | 2.2 | +78 |
+| Compromís | 28.8 % | 2.3 | +78 |
+| Teruel Existe | 15.6 % | 2.8 | +77 |
+| Unidas Podemos | 6.9 % | 3.4 | +75 |
+| NC | 5.0 % | 5.2 | +70 |
+| BNG | 1.1 % | 6.8 | +63 |
+| PSOE | 0.0 % | 8.4 | +59 |
+| PP | 0.0 % | 18.3 | -5 |
+| VOX | 0.0 % | 20.0 | -53 |
+| ERC | 0.0 % | 11.5 | +47 |
+| Cs | 0.0 % | 15.1 | +23 |
+| Junts | 0.0 % | 15.7 | +19 |
+| Bildu | 0.0 % | 9.6 | +55 |
+| PNV | 0.0 % | 10.5 | +51 |
+| PDeCAT | 0.0 % | 13.1 | +40 |
+| CUP | 0.0 % | 13.1 | +39 |
+| UPN | 0.0 % | 18.2 | -5 |
+| CC | 0.0 % | 9.2 | +55 |
+| PRC | 0.0 % | 7.1 | +63 |
 | Foro | 0.0 % | 17.4 | -1 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
@@ -312,13 +312,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: Unidas Podemos +78, Más País +78, Compromís +76
 - Pensionista con pensión baja: Unidas Podemos +78, Más País +78, Compromís +76
 - Autónomo del comercio: Más País +74, Teruel Existe +71, NC +71
-- Empresario de pyme industrial: PNV +35, Unidas Podemos +34, Compromís +34
+- Empresario de pyme industrial: Teruel Existe +54, Compromís +53, Unidas Podemos +51
 - Funcionario docente: Unidas Podemos +82, Más País +82, Compromís +76
 - Policía o guardia civil: Compromís +75, Más País +73, Unidas Podemos +72
 - Sanitario asalariado: Más País +78, Compromís +78, Unidas Podemos +77
 - Familia numerosa: Más País +82, Compromís +80, Unidas Podemos +76
-- Rentas altas con patrimonio: Compromís +49, Unidas Podemos +48, Más País +48
-- Gran patrimonio y gran empresa: Compromís +51, Más País +50, Unidas Podemos +49
+- Rentas altas con patrimonio: Compromís +72, Unidas Podemos +68, Más País +68
+- Gran patrimonio y gran empresa: Compromís +73, Unidas Podemos +69, Más País +69
 - Parado con subsidio: Unidas Podemos +81, Más País +81, Compromís +80
 - Agricultor en el medio rural: Unidas Podemos +71, Más País +71, Teruel Existe +71
 - Madre sola con hijo: Más País +86, Compromís +85, Teruel Existe +82
@@ -334,26 +334,26 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Teruel Existe | 23.1 % | 3.6 | +55 |
-| PRC | 23.0 % | 5.6 | +46 |
-| Más País | 14.3 % | 4.3 | +51 |
-| Compromís | 8.1 % | 4.3 | +51 |
-| NC | 7.7 % | 7.6 | +46 |
-| Cs | 6.3 % | 11.6 | +22 |
-| PNV | 6.2 % | 11.9 | +32 |
-| ERC | 4.2 % | 8.7 | +43 |
-| BNG | 2.2 % | 8.0 | +41 |
-| PSOE | 1.2 % | 7.7 | +44 |
-| VOX | 1.2 % | 18.4 | -21 |
-| Junts | 0.8 % | 13.1 | +22 |
-| Unidas Podemos | 0.6 % | 7.4 | +45 |
-| Bildu | 0.6 % | 11.4 | +35 |
-| CUP | 0.3 % | 14.4 | +20 |
-| PDeCAT | 0.2 % | 9.0 | +42 |
-| PP | 0.0 % | 15.7 | -2 |
-| UPN | 0.0 % | 17.2 | -6 |
-| CC | 0.0 % | 12.8 | +26 |
-| Foro | 0.0 % | 16.2 | +0 |
+| PRC | 27.9 % | 5.2 | +55 |
+| Teruel Existe | 27.0 % | 3.2 | +64 |
+| Más País | 15.7 % | 4.1 | +58 |
+| NC | 7.5 % | 6.6 | +55 |
+| Compromís | 7.4 % | 3.9 | +60 |
+| ERC | 4.2 % | 8.1 | +50 |
+| PNV | 3.1 % | 12.5 | +37 |
+| BNG | 2.6 % | 7.0 | +51 |
+| PSOE | 1.5 % | 7.5 | +51 |
+| VOX | 0.7 % | 19.4 | -25 |
+| Unidas Podemos | 0.7 % | 7.2 | +52 |
+| Bildu | 0.7 % | 10.7 | +43 |
+| Junts | 0.4 % | 14.3 | +24 |
+| PDeCAT | 0.4 % | 7.7 | +53 |
+| CUP | 0.4 % | 13.6 | +28 |
+| Cs | 0.1 % | 13.6 | +23 |
+| PP | 0.0 % | 16.6 | -2 |
+| UPN | 0.0 % | 18.0 | -6 |
+| CC | 0.0 % | 12.4 | +33 |
+| Foro | 0.0 % | 17.2 | +0 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -362,13 +362,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: VOX -29
 - Pensionista con pensión baja: VOX -29, Cs -31
 - Autónomo del comercio: NC +49, BNG +44, Teruel Existe +38
-- Empresario de pyme industrial: VOX +33, Junts +27, ERC +2
+- Empresario de pyme industrial: Junts +35, ERC +28, CUP +26
 - Funcionario docente: PSOE +65, Unidas Podemos +65, ERC +65
 - Policía o guardia civil: Compromís +46, PRC +44, NC +41
 - Sanitario asalariado: PRC +47, Compromís +45, NC +45
 - Familia numerosa: PRC +60, Más País +57, Compromís +57
-- Rentas altas con patrimonio: PNV +13, VOX +8, Junts +6
-- Gran patrimonio y gran empresa: PNV +19, VOX +14, Junts +13
+- Rentas altas con patrimonio: PNV +33, PRC +31, Compromís +27
+- Gran patrimonio y gran empresa: PNV +39, PRC +38, Compromís +33
 - Parado con subsidio: Unidas Podemos +57, Más País +56, PSOE +55
 - Agricultor en el medio rural: BNG +39, CUP +39, Teruel Existe +39
 - Madre sola con hijo: Más País +76, Compromís +75, Teruel Existe +75
@@ -386,8 +386,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidas Podemos | 90.3 % | 1.0 | +19 |
-| PP | 9.7 % | 1.7 | +12 |
+| Unidas Podemos | 91.2 % | 1.0 | +19 |
+| PP | 8.8 % | 1.7 | +12 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -418,8 +418,8 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 98.4 % | 1.0 | +12 |
-| Unidas Podemos | 1.6 % | 1.8 | -9 |
+| PP | 98.6 % | 1.0 | +12 |
+| Unidas Podemos | 1.4 % | 1.8 | -9 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -450,10 +450,10 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidas Podemos | 92.4 % | 1.0 | +30 |
-| PSOE | 7.4 % | 1.8 | +21 |
-| Cs | 0.1 % | 2.3 | +21 |
-| PP | 0.0 % | 3.0 | -4 |
+| Unidas Podemos | 91.8 % | 1.0 | +30 |
+| PSOE | 7.9 % | 1.8 | +21 |
+| Cs | 0.2 % | 2.3 | +21 |
+| PP | 0.0 % | 3.2 | +0 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -484,10 +484,10 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 75.9 % | 1.0 | +21 |
-| Cs | 16.6 % | 1.4 | +21 |
-| Unidas Podemos | 7.5 % | 2.0 | +19 |
-| PP | 0.0 % | 3.0 | -4 |
+| PSOE | 77.6 % | 1.0 | +21 |
+| Cs | 15.3 % | 1.4 | +21 |
+| Unidas Podemos | 7.1 % | 2.0 | +19 |
+| PP | 0.0 % | 3.0 | +0 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -520,19 +520,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 61.0 % | 2.8 | +59 |
-| CC | 21.7 % | 2.3 | +62 |
-| UPN | 5.1 % | 4.7 | +47 |
-| NC | 4.3 % | 4.6 | +48 |
-| Cs | 3.9 % | 4.9 | +47 |
-| PDeCAT | 3.6 % | 7.5 | +35 |
-| Foro | 0.2 % | 7.4 | +37 |
-| PP | 0.1 % | 8.6 | +32 |
-| PSOE | 0.1 % | 4.3 | +51 |
-| Unidos Podemos | 0.0 % | 9.4 | +26 |
-| ERC | 0.0 % | 11.6 | +6 |
-| Compromís | 0.0 % | 9.8 | +25 |
-| Bildu | 0.0 % | 13.0 | -9 |
+| PNV | 61.5 % | 2.8 | +62 |
+| CC | 24.5 % | 2.1 | +64 |
+| NC | 5.6 % | 4.1 | +51 |
+| PDeCAT | 4.2 % | 7.2 | +37 |
+| UPN | 2.3 % | 5.0 | +46 |
+| Cs | 1.8 % | 5.3 | +46 |
+| PSOE | 0.1 % | 4.0 | +53 |
+| Foro | 0.1 % | 7.8 | +35 |
+| PP | 0.0 % | 8.8 | +30 |
+| Unidos Podemos | 0.0 % | 9.6 | +25 |
+| ERC | 0.0 % | 11.7 | +4 |
+| Compromís | 0.0 % | 9.5 | +27 |
+| Bildu | 0.0 % | 13.0 | -12 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -541,13 +541,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: PNV +80, CC +68, NC +58
 - Pensionista con pensión baja: PNV +80, CC +68, NC +58
 - Autónomo del comercio: Cs +62, UPN +59, PSOE +58
-- Empresario de pyme industrial: Cs +60, UPN +44, PP +39
+- Empresario de pyme industrial: Cs +57, UPN +40, PP +34
 - Funcionario docente: PNV +74, CC +63, Cs +61
 - Policía o guardia civil: PNV +74, CC +63, Cs +61
 - Sanitario asalariado: Cs +65, PSOE +63, CC +63
 - Familia numerosa: PSOE +74, CC +73, PDeCAT +62
-- Rentas altas con patrimonio: Cs +68, CC +55, PSOE +48
-- Gran patrimonio y gran empresa: Cs +53, Foro +45, UPN +41
+- Rentas altas con patrimonio: CC +70, Cs +65, PSOE +62
+- Gran patrimonio y gran empresa: Cs +50, PDeCAT +49, Foro +42
 - Parado con subsidio: PSOE +79, CC +78, PNV +71
 - Agricultor en el medio rural: Cs +69, NC +68, UPN +60
 - Madre sola con hijo: PSOE +69, CC +68, NC +59
@@ -563,19 +563,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 52.9 % | 3.4 | +56 |
-| CC | 20.3 % | 2.4 | +62 |
-| UPN | 19.8 % | 3.2 | +54 |
-| NC | 3.2 % | 4.9 | +48 |
-| PDeCAT | 1.8 % | 8.4 | +29 |
-| Cs | 0.8 % | 6.1 | +43 |
-| Foro | 0.8 % | 6.0 | +44 |
-| PP | 0.4 % | 7.1 | +40 |
-| PSOE | 0.0 % | 5.3 | +47 |
-| Unidos Podemos | 0.0 % | 9.9 | +20 |
-| ERC | 0.0 % | 11.6 | +6 |
-| Compromís | 0.0 % | 9.9 | +21 |
-| Bildu | 0.0 % | 12.9 | -9 |
+| PNV | 58.0 % | 3.2 | +58 |
+| CC | 24.3 % | 2.2 | +64 |
+| UPN | 10.2 % | 3.5 | +54 |
+| NC | 4.3 % | 4.4 | +51 |
+| PDeCAT | 2.1 % | 8.2 | +31 |
+| Cs | 0.5 % | 6.4 | +42 |
+| Foro | 0.3 % | 6.3 | +43 |
+| PP | 0.2 % | 7.4 | +39 |
+| PSOE | 0.0 % | 4.9 | +50 |
+| Unidos Podemos | 0.0 % | 10.1 | +19 |
+| ERC | 0.0 % | 11.7 | +4 |
+| Compromís | 0.0 % | 9.7 | +22 |
+| Bildu | 0.0 % | 13.0 | -12 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -584,13 +584,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: PNV +78, CC +68, UPN +63
 - Pensionista con pensión baja: PNV +78, CC +68, UPN +63
 - Autónomo del comercio: UPN +69, Cs +59, CC +56
-- Empresario de pyme industrial: Cs +57, UPN +54, PP +50
+- Empresario de pyme industrial: Cs +53, UPN +51, PP +46
 - Funcionario docente: PNV +72, UPN +64, CC +63
 - Policía o guardia civil: PNV +72, UPN +64, CC +63
 - Sanitario asalariado: UPN +63, CC +63, Cs +62
 - Familia numerosa: UPN +73, CC +73, PSOE +71
-- Rentas altas con patrimonio: Cs +65, UPN +57, CC +55
-- Gran patrimonio y gran empresa: Foro +55, UPN +53, Cs +50
+- Rentas altas con patrimonio: CC +70, Cs +62, PSOE +57
+- Gran patrimonio y gran empresa: Foro +52, UPN +49, Cs +46
 - Parado con subsidio: PSOE +78, CC +78, NC +70
 - Agricultor en el medio rural: UPN +71, NC +68, Cs +66
 - Madre sola con hijo: CC +68, PSOE +66, NC +59
@@ -606,18 +606,18 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidos Podemos | 85.1 % | 1.1 | +65 |
-| UPN | 14.8 % | 4.1 | +52 |
+| Unidos Podemos | 83.2 % | 1.2 | +65 |
+| UPN | 16.7 % | 4.0 | +53 |
 | CC | 0.1 % | 6.2 | +46 |
-| PP | 0.0 % | 12.5 | +14 |
+| PP | 0.0 % | 12.5 | +15 |
 | PSOE | 0.0 % | 2.9 | +54 |
-| Cs | 0.0 % | 6.5 | +44 |
+| Cs | 0.0 % | 6.4 | +44 |
 | ERC | 0.0 % | 5.8 | +45 |
 | PDeCAT | 0.0 % | 4.9 | +48 |
-| PNV | 0.0 % | 9.6 | +34 |
+| PNV | 0.0 % | 9.5 | +35 |
 | Compromís | 0.0 % | 6.8 | +45 |
-| Bildu | 0.0 % | 8.8 | +40 |
-| NC | 0.0 % | 9.4 | +37 |
+| Bildu | 0.0 % | 8.9 | +40 |
+| NC | 0.0 % | 9.5 | +37 |
 | Foro | 0.0 % | 12.4 | +18 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
@@ -649,19 +649,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidos Podemos | 84.6 % | 1.3 | +54 |
-| PDeCAT | 3.9 % | 3.7 | +47 |
-| UPN | 3.1 % | 8.0 | +33 |
-| PP | 2.8 % | 9.4 | +24 |
-| PSOE | 2.0 % | 3.5 | +47 |
+| Unidos Podemos | 83.9 % | 1.3 | +54 |
+| PDeCAT | 4.4 % | 3.8 | +47 |
+| UPN | 3.6 % | 7.8 | +33 |
+| PP | 2.3 % | 9.3 | +24 |
+| PSOE | 1.7 % | 3.5 | +47 |
 | Cs | 1.7 % | 6.3 | +38 |
-| Foro | 0.9 % | 8.9 | +30 |
-| CC | 0.4 % | 8.2 | +38 |
-| Bildu | 0.3 % | 8.2 | +39 |
-| ERC | 0.1 % | 6.0 | +40 |
-| Compromís | 0.1 % | 6.4 | +43 |
-| PNV | 0.0 % | 10.6 | +24 |
-| NC | 0.0 % | 8.9 | +37 |
+| Bildu | 0.7 % | 8.3 | +39 |
+| Foro | 0.7 % | 8.8 | +30 |
+| CC | 0.5 % | 8.2 | +38 |
+| ERC | 0.2 % | 6.0 | +40 |
+| Compromís | 0.2 % | 6.5 | +42 |
+| PNV | 0.0 % | 10.7 | +24 |
+| NC | 0.0 % | 9.0 | +37 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -694,16 +694,16 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 78.6 % | 1.2 | +0 |
-| Cs | 18.3 % | 1.2 | +10 |
-| PP | 0.9 % | 1.0 | +25 |
-| UPN | 0.9 % | 2.0 | +25 |
-| Foro | 0.9 % | 3.0 | +25 |
-| Podemos | 0.3 % | 3.3 | -24 |
-| ERC | 0.0 % | 2.3 | -7 |
-| DL | 0.0 % | 4.3 | +20 |
-| Compromís | 0.0 % | 7.2 | +0 |
-| IU | 0.0 % | 8.2 | +0 |
+| PSOE | 80.7 % | 1.1 | -1 |
+| Cs | 18.0 % | 1.0 | +10 |
+| PP | 0.3 % | 1.0 | +25 |
+| Podemos | 0.3 % | 3.2 | -24 |
+| UPN | 0.3 % | 2.0 | +25 |
+| Foro | 0.3 % | 3.0 | +25 |
+| ERC | 0.0 % | 2.2 | -7 |
+| DL | 0.0 % | 4.0 | +20 |
+| Compromís | 0.0 % | 6.7 | +0 |
+| IU | 0.0 % | 7.7 | +0 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -734,16 +734,16 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 78.6 % | 1.2 | +0 |
-| Cs | 18.3 % | 1.2 | +10 |
-| PP | 0.9 % | 1.0 | +25 |
-| UPN | 0.9 % | 2.0 | +25 |
-| Foro | 0.9 % | 3.0 | +25 |
-| Podemos | 0.3 % | 3.3 | -24 |
-| ERC | 0.0 % | 2.3 | -7 |
-| DL | 0.0 % | 4.3 | +20 |
-| Compromís | 0.0 % | 7.2 | +0 |
-| IU | 0.0 % | 8.2 | +0 |
+| PSOE | 80.7 % | 1.1 | -1 |
+| Cs | 18.0 % | 1.0 | +10 |
+| PP | 0.3 % | 1.0 | +25 |
+| Podemos | 0.3 % | 3.2 | -24 |
+| UPN | 0.3 % | 2.0 | +25 |
+| Foro | 0.3 % | 3.0 | +25 |
+| ERC | 0.0 % | 2.2 | -7 |
+| DL | 0.0 % | 4.0 | +20 |
+| Compromís | 0.0 % | 6.7 | +0 |
+| IU | 0.0 % | 7.7 | +0 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -774,9 +774,9 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 100.0 % | 1.0 | +21 |
+| PSOE | 100.0 % | 1.0 | +20 |
 | Podemos | 0.0 % | 2.0 | +20 |
-| ERC | 0.0 % | 2.4 | +11 |
+| ERC | 0.0 % | 2.5 | +11 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -807,9 +807,9 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 79.6 % | 1.0 | +21 |
-| Podemos | 13.0 % | 1.7 | +20 |
-| ERC | 7.4 % | 1.8 | +11 |
+| PSOE | 65.2 % | 1.0 | +21 |
+| Podemos | 21.7 % | 1.4 | +20 |
+| ERC | 13.0 % | 2.0 | +11 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -842,17 +842,17 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| NC | 29.6 % | 2.7 | +46 |
-| Foro | 25.9 % | 6.5 | +36 |
-| PNV | 23.8 % | 3.4 | +44 |
-| UPyD | 10.8 % | 3.0 | +45 |
-| Geroa Bai | 9.3 % | 4.0 | +42 |
-| CiU | 0.4 % | 10.5 | +21 |
-| PSOE | 0.1 % | 5.4 | +38 |
+| NC | 30.5 % | 2.6 | +47 |
+| Foro | 24.6 % | 6.7 | +35 |
+| PNV | 23.0 % | 3.4 | +44 |
+| UPyD | 11.9 % | 3.0 | +45 |
+| Geroa Bai | 9.2 % | 4.0 | +42 |
+| CiU | 0.6 % | 10.5 | +21 |
+| PSOE | 0.2 % | 5.4 | +38 |
 | PP | 0.0 % | 14.8 | -28 |
 | IU-ICV | 0.0 % | 10.2 | +26 |
-| Amaiur | 0.0 % | 8.8 | +30 |
-| ERC | 0.0 % | 11.6 | +24 |
+| Amaiur | 0.0 % | 8.8 | +29 |
+| ERC | 0.0 % | 11.5 | +25 |
 | BNG | 0.0 % | 9.3 | +28 |
 | Compromís | 0.0 % | 10.3 | +27 |
 | CC | 0.0 % | 6.4 | +36 |
@@ -887,20 +887,20 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Foro | 46.8 % | 4.6 | +44 |
-| PNV | 29.1 % | 2.7 | +45 |
-| UPyD | 13.4 % | 2.5 | +45 |
-| Geroa Bai | 5.7 % | 4.3 | +39 |
-| NC | 4.7 % | 4.3 | +39 |
-| CiU | 0.4 % | 9.4 | +22 |
+| Foro | 46.6 % | 4.8 | +43 |
+| PNV | 28.7 % | 2.7 | +45 |
+| UPyD | 14.0 % | 2.5 | +45 |
+| Geroa Bai | 5.2 % | 4.3 | +39 |
+| NC | 4.9 % | 4.2 | +40 |
+| CiU | 0.6 % | 9.4 | +22 |
 | PP | 0.0 % | 14.4 | -20 |
 | PSOE | 0.0 % | 7.0 | +31 |
 | IU-ICV | 0.0 % | 10.3 | +24 |
 | Amaiur | 0.0 % | 8.0 | +29 |
-| ERC | 0.0 % | 12.3 | +20 |
-| BNG | 0.0 % | 8.4 | +28 |
+| ERC | 0.0 % | 12.2 | +20 |
+| BNG | 0.0 % | 8.5 | +28 |
 | Compromís | 0.0 % | 10.9 | +23 |
-| CC | 0.0 % | 8.3 | +30 |
+| CC | 0.0 % | 8.2 | +30 |
 | UPN | 0.0 % | 12.5 | -1 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
@@ -932,18 +932,18 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 68.2 % | 1.4 | +66 |
-| UPyD | 25.1 % | 1.9 | +64 |
-| IU-ICV | 6.7 % | 4.4 | +51 |
+| PSOE | 70.1 % | 1.4 | +66 |
+| UPyD | 23.2 % | 2.0 | +63 |
+| IU-ICV | 6.6 % | 4.4 | +52 |
+| NC | 0.1 % | 4.9 | +56 |
 | PP | 0.0 % | 15.0 | -44 |
-| CiU | 0.0 % | 11.5 | +34 |
-| PNV | 0.0 % | 7.9 | +44 |
-| Amaiur | 0.0 % | 8.4 | +44 |
-| ERC | 0.0 % | 8.3 | +44 |
+| CiU | 0.0 % | 11.5 | +33 |
+| PNV | 0.0 % | 8.1 | +44 |
+| Amaiur | 0.0 % | 8.4 | +45 |
+| ERC | 0.0 % | 8.2 | +44 |
 | BNG | 0.0 % | 7.9 | +44 |
 | Compromís | 0.0 % | 10.8 | +40 |
 | CC | 0.0 % | 4.3 | +57 |
-| NC | 0.0 % | 4.9 | +56 |
 | UPN | 0.0 % | 14.0 | -23 |
 | Foro | 0.0 % | 12.4 | +23 |
 | Geroa Bai | 0.0 % | 6.9 | +48 |
@@ -977,21 +977,21 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| UPyD | 23.6 % | 2.9 | +48 |
-| PNV | 22.5 % | 4.0 | +47 |
-| PSOE | 18.7 % | 3.2 | +46 |
-| NC | 14.6 % | 3.8 | +48 |
-| Foro | 11.2 % | 9.0 | +28 |
-| IU-ICV | 3.9 % | 7.5 | +27 |
-| CC | 1.7 % | 5.6 | +43 |
-| PP | 1.3 % | 13.2 | -25 |
-| CiU | 0.9 % | 8.6 | +30 |
-| Amaiur | 0.6 % | 8.9 | +25 |
-| UPN | 0.4 % | 12.5 | -15 |
-| BNG | 0.2 % | 10.0 | +25 |
-| Compromís | 0.2 % | 11.0 | +24 |
+| UPyD | 22.7 % | 3.0 | +48 |
+| PSOE | 20.6 % | 3.1 | +46 |
+| PNV | 19.6 % | 4.2 | +47 |
+| NC | 15.0 % | 3.8 | +48 |
+| Foro | 11.5 % | 9.0 | +28 |
+| IU-ICV | 4.9 % | 7.3 | +28 |
+| CC | 1.9 % | 5.5 | +44 |
+| PP | 1.0 % | 13.2 | -25 |
+| CiU | 1.0 % | 8.6 | +30 |
+| UPN | 0.9 % | 12.6 | -16 |
+| Amaiur | 0.4 % | 8.8 | +26 |
+| BNG | 0.2 % | 9.9 | +25 |
 | Geroa Bai | 0.2 % | 7.5 | +33 |
-| ERC | 0.0 % | 11.3 | +22 |
+| Compromís | 0.1 % | 10.9 | +25 |
+| ERC | 0.0 % | 11.3 | +23 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1024,18 +1024,18 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| BNG | 46.0 % | 2.6 | +51 |
-| Podemos | 39.2 % | 2.1 | +49 |
-| PP | 10.1 % | 4.6 | +47 |
-| PNV | 1.6 % | 6.9 | +44 |
-| Compromís | 1.4 % | 4.4 | +47 |
-| PSOE | 0.8 % | 6.0 | +43 |
-| Comuns | 0.6 % | 5.3 | +49 |
-| ERC | 0.1 % | 9.1 | +32 |
-| VOX | 0.0 % | 9.5 | +9 |
-| SALF | 0.0 % | 7.9 | +13 |
-| Sumar | 0.0 % | 4.9 | +43 |
-| Bildu | 0.0 % | 10.0 | +28 |
+| BNG | 46.7 % | 2.6 | +51 |
+| Podemos | 38.9 % | 2.2 | +49 |
+| PP | 9.9 % | 4.6 | +48 |
+| PNV | 1.9 % | 6.8 | +44 |
+| PSOE | 0.9 % | 5.9 | +44 |
+| Compromís | 0.9 % | 4.5 | +48 |
+| Comuns | 0.6 % | 5.4 | +49 |
+| ERC | 0.1 % | 9.0 | +33 |
+| VOX | 0.0 % | 9.6 | +8 |
+| SALF | 0.0 % | 8.1 | +14 |
+| Sumar | 0.0 % | 4.8 | +44 |
+| Bildu | 0.0 % | 10.0 | +29 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1066,18 +1066,18 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 29.6 % | 1.0 | +50 |
-| PNV | 14.2 % | 5.0 | +43 |
-| PSOE | 13.0 % | 2.4 | +43 |
-| BNG | 11.5 % | 6.3 | +39 |
-| Sumar | 10.5 % | 4.0 | +39 |
-| Podemos | 9.9 % | 5.5 | +36 |
-| VOX | 4.7 % | 5.3 | +30 |
-| Compromís | 3.0 % | 6.5 | +34 |
-| ERC | 2.1 % | 8.3 | +6 |
-| Comuns | 1.5 % | 8.5 | +35 |
-| SALF | 0.0 % | 7.5 | +11 |
-| Bildu | 0.0 % | 10.7 | -21 |
+| PP | 28.1 % | 1.0 | +50 |
+| PNV | 15.0 % | 4.9 | +44 |
+| PSOE | 13.5 % | 2.3 | +44 |
+| BNG | 11.8 % | 6.3 | +40 |
+| Sumar | 10.7 % | 3.9 | +40 |
+| Podemos | 10.1 % | 5.5 | +37 |
+| VOX | 4.5 % | 5.5 | +29 |
+| Compromís | 2.8 % | 6.6 | +34 |
+| ERC | 2.0 % | 8.1 | +9 |
+| Comuns | 1.5 % | 8.7 | +36 |
+| SALF | 0.0 % | 7.8 | +13 |
+| Bildu | 0.0 % | 10.7 | -18 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1108,18 +1108,18 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 41.2 % | 1.1 | +38 |
-| Podemos | 32.5 % | 3.2 | +37 |
-| Sumar | 19.7 % | 3.7 | +34 |
-| Comuns | 5.1 % | 4.4 | +38 |
+| PSOE | 41.8 % | 1.1 | +39 |
+| Podemos | 33.0 % | 3.2 | +37 |
+| Sumar | 18.6 % | 3.8 | +34 |
+| Comuns | 5.1 % | 4.3 | +37 |
 | PNV | 1.4 % | 7.4 | +26 |
-| PP | 0.0 % | 9.9 | -9 |
+| PP | 0.0 % | 10.0 | -9 |
 | VOX | 0.0 % | 11.7 | -32 |
-| SALF | 0.0 % | 10.3 | -20 |
+| SALF | 0.0 % | 10.4 | -20 |
 | ERC | 0.0 % | 7.2 | +23 |
-| Bildu | 0.0 % | 7.5 | +22 |
+| Bildu | 0.0 % | 7.6 | +23 |
 | BNG | 0.0 % | 4.2 | +34 |
-| Compromís | 0.0 % | 4.8 | +34 |
+| Compromís | 0.0 % | 4.8 | +35 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1150,18 +1150,18 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 22.0 % | 3.0 | +50 |
-| PSOE | 20.2 % | 1.7 | +47 |
-| Compromís | 20.2 % | 4.1 | +49 |
-| PP | 18.5 % | 4.4 | +26 |
-| Comuns | 8.9 % | 5.8 | +42 |
-| Podemos | 8.3 % | 4.9 | +42 |
-| BNG | 1.8 % | 5.5 | +44 |
-| Sumar | 0.1 % | 6.7 | +35 |
-| VOX | 0.0 % | 10.7 | -21 |
-| SALF | 0.0 % | 9.4 | -9 |
-| ERC | 0.0 % | 7.8 | +33 |
-| Bildu | 0.0 % | 7.9 | +36 |
+| PNV | 22.7 % | 2.9 | +50 |
+| PSOE | 20.3 % | 1.7 | +47 |
+| Compromís | 20.3 % | 4.0 | +49 |
+| PP | 19.4 % | 4.6 | +25 |
+| Comuns | 8.7 % | 5.7 | +43 |
+| Podemos | 7.5 % | 5.1 | +41 |
+| BNG | 0.9 % | 5.6 | +44 |
+| Sumar | 0.1 % | 6.6 | +35 |
+| VOX | 0.0 % | 10.7 | -22 |
+| SALF | 0.0 % | 9.6 | -11 |
+| ERC | 0.0 % | 8.0 | +33 |
+| Bildu | 0.0 % | 7.7 | +38 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1194,17 +1194,17 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 63.2 % | 1.0 | +81 |
-| Junts | 36.3 % | 2.0 | +80 |
-| PP | 0.5 % | 7.6 | +60 |
-| Cs | 0.0 % | 3.0 | +75 |
+| PSOE | 60.2 % | 1.0 | +81 |
+| Junts | 39.5 % | 2.1 | +81 |
+| PP | 0.3 % | 7.6 | +60 |
+| Cs | 0.0 % | 3.0 | +76 |
 | VOX | 0.0 % | 13.0 | -32 |
 | Podemos | 0.0 % | 8.8 | +55 |
-| ERC | 0.0 % | 4.2 | +73 |
+| ERC | 0.0 % | 4.2 | +74 |
 | IU | 0.0 % | 11.8 | +29 |
 | PNV | 0.0 % | 5.8 | +67 |
-| Comuns | 0.0 % | 6.0 | +63 |
-| BNG | 0.0 % | 6.8 | +65 |
+| Comuns | 0.0 % | 6.1 | +63 |
+| BNG | 0.0 % | 6.7 | +66 |
 | Bildu | 0.0 % | 10.1 | +36 |
 | Anticapitalistas | 0.0 % | 10.9 | +32 |
 
@@ -1215,13 +1215,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: PSOE +86, Junts +86, Cs +80
 - Pensionista con pensión baja: PSOE +86, Junts +86, Cs +80
 - Autónomo del comercio: PSOE +83, Junts +81, Cs +77
-- Empresario de pyme industrial: Junts +54, PSOE +51, Cs +51
+- Empresario de pyme industrial: Junts +55, PSOE +52, Cs +52
 - Funcionario docente: PSOE +86, Junts +86, Cs +80
 - Policía o guardia civil: PSOE +86, Junts +86, Cs +80
 - Sanitario asalariado: PSOE +86, Junts +86, Cs +80
 - Familia numerosa: PSOE +86, Junts +86, Cs +80
-- Rentas altas con patrimonio: PSOE +84, Junts +84, Cs +78
-- Gran patrimonio y gran empresa: PSOE +66, Junts +65, Cs +60
+- Rentas altas con patrimonio: PSOE +86, Junts +86, Cs +80
+- Gran patrimonio y gran empresa: PSOE +67, Junts +66, Cs +61
 - Parado con subsidio: PSOE +86, Junts +86, Cs +80
 - Agricultor en el medio rural: PSOE +85, Cs +78, PNV +71
 - Madre sola con hijo: PSOE +86, Junts +86, Cs +80
@@ -1237,19 +1237,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 45.6 % | 1.2 | +77 |
-| PSOE | 15.1 % | 2.3 | +74 |
-| Cs | 13.6 % | 3.2 | +75 |
-| Junts | 12.7 % | 4.3 | +74 |
-| VOX | 8.8 % | 9.1 | +42 |
-| PNV | 4.0 % | 4.8 | +73 |
-| IU | 0.1 % | 10.6 | +37 |
-| Podemos | 0.0 % | 9.7 | +40 |
+| PP | 24.6 % | 1.2 | +76 |
+| PSOE | 22.2 % | 2.3 | +75 |
+| Cs | 21.0 % | 3.2 | +75 |
+| Junts | 19.2 % | 4.3 | +74 |
+| VOX | 9.1 % | 9.0 | +43 |
+| PNV | 3.8 % | 4.8 | +74 |
+| IU | 0.1 % | 10.5 | +38 |
+| Podemos | 0.0 % | 9.7 | +41 |
 | ERC | 0.0 % | 6.4 | +63 |
-| Comuns | 0.0 % | 8.0 | +55 |
-| BNG | 0.0 % | 7.6 | +57 |
-| Bildu | 0.0 % | 10.9 | +36 |
-| Anticapitalistas | 0.0 % | 12.9 | +14 |
+| Comuns | 0.0 % | 8.2 | +54 |
+| BNG | 0.0 % | 7.5 | +58 |
+| Bildu | 0.0 % | 11.0 | +36 |
+| Anticapitalistas | 0.0 % | 12.9 | +15 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1258,13 +1258,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 - Pensionista con casa propia: PP +83, PSOE +83, Cs +83
 - Pensionista con pensión baja: PP +83, PSOE +83, Cs +83
 - Autónomo del comercio: PP +84, PSOE +74, Cs +74
-- Empresario de pyme industrial: VOX +59, PP +40, Bildu +36
+- Empresario de pyme industrial: VOX +62, PP +40, Bildu +36
 - Funcionario docente: PP +84, PSOE +84, Cs +84
 - Policía o guardia civil: PP +84, PSOE +84, Cs +84
 - Sanitario asalariado: PP +84, PSOE +84, Cs +84
 - Familia numerosa: PP +84, PSOE +84, Cs +84
-- Rentas altas con patrimonio: PP +83, PSOE +80, Cs +80
-- Gran patrimonio y gran empresa: PP +58, VOX +56, PSOE +47
+- Rentas altas con patrimonio: PP +83, PSOE +83, Cs +83
+- Gran patrimonio y gran empresa: VOX +61, PP +58, PSOE +49
 - Parado con subsidio: PP +83, PSOE +83, Cs +83
 - Agricultor en el medio rural: PSOE +79, Cs +77, PP +76
 - Madre sola con hijo: PP +84, PSOE +84, Cs +84
@@ -1280,19 +1280,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 47.2 % | 1.3 | +88 |
-| Junts | 43.8 % | 2.1 | +88 |
-| ERC | 5.7 % | 4.0 | +82 |
+| PSOE | 46.2 % | 1.3 | +88 |
+| Junts | 44.2 % | 2.1 | +88 |
+| ERC | 6.2 % | 3.9 | +82 |
 | Comuns | 2.9 % | 6.4 | +81 |
-| Podemos | 0.2 % | 5.2 | +81 |
-| PNV | 0.2 % | 6.6 | +80 |
+| Podemos | 0.3 % | 5.2 | +81 |
+| PNV | 0.3 % | 6.7 | +80 |
 | PP | 0.0 % | 10.8 | +72 |
-| Cs | 0.0 % | 3.7 | +82 |
+| Cs | 0.0 % | 3.8 | +82 |
 | VOX | 0.0 % | 13.0 | -30 |
-| IU | 0.0 % | 8.8 | +77 |
+| IU | 0.0 % | 8.7 | +77 |
 | BNG | 0.0 % | 9.8 | +76 |
 | Bildu | 0.0 % | 11.9 | +63 |
-| Anticapitalistas | 0.0 % | 7.4 | +79 |
+| Anticapitalistas | 0.0 % | 7.3 | +79 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1323,19 +1323,19 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| ERC | 20.0 % | 5.3 | +56 |
-| PSOE | 14.6 % | 2.5 | +56 |
-| Cs | 14.5 % | 3.6 | +55 |
+| ERC | 20.4 % | 5.3 | +57 |
+| PSOE | 14.1 % | 2.6 | +56 |
+| Cs | 14.0 % | 3.7 | +55 |
 | Junts | 12.4 % | 5.0 | +55 |
-| Podemos | 11.6 % | 3.9 | +56 |
-| Anticapitalistas | 9.6 % | 6.9 | +54 |
-| PP | 8.7 % | 3.9 | +54 |
-| BNG | 5.2 % | 7.0 | +54 |
-| Comuns | 1.9 % | 9.8 | +46 |
-| PNV | 0.7 % | 8.3 | +52 |
+| Podemos | 11.7 % | 3.9 | +56 |
+| Anticapitalistas | 9.8 % | 6.8 | +54 |
+| PP | 8.8 % | 3.9 | +54 |
+| BNG | 5.1 % | 7.0 | +55 |
+| Comuns | 2.0 % | 9.8 | +46 |
+| PNV | 0.8 % | 8.3 | +52 |
 | IU | 0.5 % | 8.7 | +51 |
 | VOX | 0.2 % | 11.0 | +3 |
-| Bildu | 0.0 % | 11.5 | +36 |
+| Bildu | 0.0 % | 11.4 | +36 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1368,20 +1368,20 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Cs | 34.5 % | 2.4 | +76 |
-| Equo | 30.8 % | 5.3 | +66 |
-| PDeCAT | 27.0 % | 1.9 | +75 |
-| PP | 3.1 % | 6.3 | +69 |
-| PNV | 2.5 % | 3.3 | +73 |
-| UDC | 2.0 % | 9.1 | +58 |
+| Cs | 34.9 % | 2.3 | +76 |
+| Equo | 29.8 % | 5.2 | +67 |
+| PDeCAT | 28.9 % | 1.8 | +75 |
+| PP | 3.0 % | 6.3 | +69 |
+| PNV | 1.9 % | 3.3 | +73 |
+| UDC | 1.6 % | 9.2 | +58 |
 | PSOE | 0.0 % | 5.0 | +71 |
 | Podemos | 0.0 % | 14.7 | +19 |
 | IU | 0.0 % | 14.6 | +19 |
 | UPyD | 0.0 % | 5.3 | +71 |
 | ERC | 0.0 % | 8.1 | +62 |
-| ICV | 0.0 % | 9.8 | +53 |
-| AGE | 0.0 % | 17.0 | -13 |
-| Bildu | 0.0 % | 15.4 | +15 |
+| ICV | 0.0 % | 9.8 | +54 |
+| AGE | 0.0 % | 17.0 | -12 |
+| Bildu | 0.0 % | 15.3 | +15 |
 | NECat | 0.0 % | 12.3 | +39 |
 | BNG | 0.0 % | 10.5 | +54 |
 | Compromís | 0.0 % | 12.2 | +44 |
@@ -1415,22 +1415,22 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 44.6 % | 2.0 | +79 |
-| PP | 40.0 % | 1.9 | +79 |
-| Cs | 8.8 % | 3.4 | +78 |
-| UDC | 3.0 % | 8.1 | +58 |
-| Equo | 2.2 % | 7.5 | +60 |
-| UPyD | 1.3 % | 4.4 | +77 |
-| PSOE | 0.1 % | 5.5 | +76 |
+| PNV | 42.4 % | 2.1 | +79 |
+| PP | 42.1 % | 1.7 | +79 |
+| Cs | 8.3 % | 3.5 | +78 |
+| UDC | 2.9 % | 8.2 | +58 |
+| Equo | 2.5 % | 7.4 | +60 |
+| UPyD | 1.8 % | 4.4 | +77 |
+| PSOE | 0.1 % | 5.6 | +76 |
 | Podemos | 0.0 % | 14.5 | +20 |
 | IU | 0.0 % | 15.6 | +13 |
 | ERC | 0.0 % | 8.7 | +53 |
-| ICV | 0.0 % | 10.4 | +45 |
+| ICV | 0.0 % | 10.3 | +45 |
 | AGE | 0.0 % | 17.0 | -14 |
 | PDeCAT | 0.0 % | 4.3 | +76 |
 | Bildu | 0.0 % | 13.0 | +26 |
 | NECat | 0.0 % | 13.2 | +32 |
-| BNG | 0.0 % | 12.0 | +39 |
+| BNG | 0.0 % | 11.9 | +39 |
 | Compromís | 0.0 % | 11.5 | +44 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
@@ -1462,23 +1462,23 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 55.5 % | 1.9 | +84 |
-| PSOE | 30.8 % | 1.6 | +84 |
-| BNG | 6.7 % | 7.5 | +72 |
-| Equo | 2.8 % | 6.5 | +75 |
-| PP | 2.5 % | 5.2 | +78 |
-| PDeCAT | 0.9 % | 3.1 | +82 |
-| UDC | 0.8 % | 10.5 | +56 |
+| PNV | 55.4 % | 1.9 | +84 |
+| PSOE | 29.8 % | 1.7 | +84 |
+| BNG | 6.9 % | 7.5 | +72 |
+| PP | 3.2 % | 5.2 | +78 |
+| Equo | 2.9 % | 6.5 | +74 |
+| UDC | 1.0 % | 10.4 | +56 |
+| PDeCAT | 0.9 % | 3.1 | +81 |
 | Podemos | 0.0 % | 12.1 | +43 |
 | IU | 0.0 % | 13.0 | +41 |
 | UPyD | 0.0 % | 6.1 | +75 |
 | Cs | 0.0 % | 4.5 | +80 |
 | ERC | 0.0 % | 9.1 | +61 |
 | ICV | 0.0 % | 10.1 | +59 |
-| AGE | 0.0 % | 16.1 | +14 |
-| Bildu | 0.0 % | 14.9 | +21 |
+| AGE | 0.0 % | 16.1 | +15 |
+| Bildu | 0.0 % | 14.9 | +22 |
 | NECat | 0.0 % | 16.7 | +11 |
-| Compromís | 0.0 % | 14.1 | +25 |
+| Compromís | 0.0 % | 14.0 | +25 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1509,23 +1509,23 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 39.7 % | 2.7 | +55 |
-| PNV | 33.8 % | 3.9 | +55 |
-| Bildu | 7.4 % | 10.3 | +41 |
-| IU | 3.8 % | 10.4 | +39 |
-| AGE | 3.5 % | 11.2 | +39 |
-| ICV | 3.1 % | 5.0 | +57 |
-| ERC | 3.0 % | 4.6 | +56 |
-| Podemos | 2.5 % | 9.2 | +41 |
-| PP | 1.1 % | 11.3 | +35 |
-| PDeCAT | 0.5 % | 7.3 | +52 |
-| NECat | 0.5 % | 8.9 | +38 |
-| Compromís | 0.5 % | 10.4 | +36 |
+| PSOE | 38.6 % | 2.8 | +55 |
+| PNV | 32.9 % | 4.0 | +55 |
+| Bildu | 7.9 % | 10.2 | +41 |
+| IU | 4.3 % | 10.2 | +40 |
+| AGE | 3.8 % | 11.0 | +40 |
+| ICV | 3.2 % | 5.2 | +56 |
+| ERC | 2.9 % | 4.7 | +56 |
+| Podemos | 2.6 % | 9.1 | +42 |
+| PP | 1.4 % | 11.4 | +35 |
+| NECat | 0.6 % | 8.8 | +38 |
+| Compromís | 0.6 % | 10.3 | +37 |
+| BNG | 0.4 % | 9.5 | +46 |
 | UPyD | 0.3 % | 6.1 | +53 |
-| BNG | 0.3 % | 9.5 | +46 |
-| Cs | 0.1 % | 8.5 | +50 |
-| Equo | 0.0 % | 7.4 | +54 |
-| UDC | 0.0 % | 10.1 | +29 |
+| PDeCAT | 0.3 % | 7.4 | +51 |
+| Cs | 0.0 % | 8.6 | +49 |
+| Equo | 0.0 % | 7.5 | +53 |
+| UDC | 0.0 % | 9.7 | +30 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1558,14 +1558,14 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Aralar | 71.6 % | 2.3 | +77 |
-| CDC | 18.9 % | 2.6 | +76 |
-| VOX | 3.4 % | 4.6 | +72 |
-| ERC | 2.5 % | 9.6 | +50 |
-| ICV | 2.2 % | 4.1 | +71 |
-| PNV | 0.9 % | 3.8 | +74 |
-| PSOE | 0.6 % | 5.3 | +69 |
-| UPyD | 0.1 % | 6.3 | +69 |
+| Aralar | 71.6 % | 2.4 | +77 |
+| CDC | 19.0 % | 2.7 | +76 |
+| VOX | 3.2 % | 4.7 | +72 |
+| ERC | 2.4 % | 9.6 | +50 |
+| ICV | 1.7 % | 4.0 | +71 |
+| PNV | 1.2 % | 3.9 | +74 |
+| PSOE | 0.6 % | 5.2 | +69 |
+| UPyD | 0.3 % | 6.3 | +69 |
 | PP | 0.0 % | 7.4 | +64 |
 | IU | 0.0 % | 11.9 | +6 |
 | UDC | 0.0 % | 8.8 | +58 |
@@ -1600,17 +1600,17 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| ICV | 56.4 % | 3.3 | +76 |
-| PP | 15.3 % | 3.6 | +78 |
-| Aralar | 10.0 % | 5.5 | +72 |
-| PSOE | 4.9 % | 3.2 | +78 |
-| UPyD | 4.7 % | 4.1 | +78 |
+| ICV | 58.9 % | 3.2 | +76 |
+| PP | 15.1 % | 3.7 | +78 |
+| Aralar | 8.5 % | 5.5 | +71 |
+| UPyD | 4.9 % | 4.0 | +77 |
+| PSOE | 4.7 % | 3.0 | +77 |
 | ERC | 3.6 % | 9.8 | +56 |
-| CDC | 2.3 % | 5.0 | +77 |
-| VOX | 2.1 % | 7.2 | +72 |
-| UDC | 0.5 % | 7.8 | +71 |
-| PNV | 0.2 % | 6.0 | +77 |
-| IU | 0.0 % | 11.9 | -2 |
+| CDC | 2.0 % | 5.2 | +77 |
+| VOX | 1.3 % | 7.3 | +72 |
+| UDC | 0.7 % | 7.8 | +71 |
+| PNV | 0.2 % | 6.1 | +76 |
+| IU | 0.0 % | 12.0 | -2 |
 | BNG | 0.0 % | 10.5 | +51 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
@@ -1642,18 +1642,18 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 88.0 % | 1.3 | +85 |
-| UPyD | 3.9 % | 2.0 | +82 |
-| PNV | 3.3 % | 3.0 | +82 |
+| PP | 88.1 % | 1.3 | +85 |
+| UPyD | 4.3 % | 2.0 | +82 |
+| PNV | 3.4 % | 3.0 | +82 |
 | VOX | 2.8 % | 6.9 | +69 |
-| PSOE | 1.9 % | 4.0 | +80 |
+| PSOE | 1.5 % | 4.0 | +80 |
 | CDC | 0.0 % | 5.0 | +79 |
 | IU | 0.0 % | 9.0 | +59 |
 | ICV | 0.0 % | 10.0 | +47 |
 | UDC | 0.0 % | 5.9 | +77 |
-| ERC | 0.0 % | 11.3 | +36 |
+| ERC | 0.0 % | 11.3 | +37 |
 | Aralar | 0.0 % | 11.6 | +33 |
-| BNG | 0.0 % | 8.1 | +62 |
+| BNG | 0.0 % | 8.0 | +62 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1684,18 +1684,18 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 30.4 % | 1.8 | +63 |
-| UPyD | 27.4 % | 2.8 | +62 |
-| PNV | 21.8 % | 3.9 | +62 |
-| PP | 13.2 % | 2.7 | +60 |
-| ICV | 3.6 % | 6.2 | +45 |
-| ERC | 1.4 % | 8.2 | +37 |
-| Aralar | 1.1 % | 9.3 | +15 |
-| VOX | 0.8 % | 9.0 | +14 |
+| PSOE | 29.8 % | 1.8 | +63 |
+| UPyD | 27.6 % | 2.7 | +62 |
+| PNV | 22.0 % | 3.9 | +62 |
+| PP | 12.7 % | 2.7 | +60 |
+| ICV | 3.8 % | 6.2 | +45 |
+| ERC | 1.6 % | 8.1 | +37 |
+| Aralar | 1.5 % | 9.3 | +14 |
+| VOX | 0.7 % | 9.2 | +14 |
 | UDC | 0.3 % | 6.0 | +47 |
 | CDC | 0.0 % | 7.2 | +38 |
 | IU | 0.0 % | 6.2 | +44 |
-| BNG | 0.0 % | 10.1 | +16 |
+| BNG | 0.0 % | 10.0 | +16 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1728,16 +1728,16 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 96.6 % | 1.0 | +72 |
-| PNV | 2.2 % | 3.0 | +66 |
-| PP | 1.0 % | 2.1 | +68 |
-| UPN | 0.2 % | 5.0 | +55 |
+| PSOE | 97.2 % | 1.0 | +72 |
+| PNV | 2.0 % | 3.0 | +66 |
+| PP | 0.7 % | 2.1 | +68 |
+| UPN | 0.1 % | 5.0 | +56 |
 | CDC | 0.0 % | 4.1 | +62 |
 | IU | 0.0 % | 9.2 | -6 |
 | ICV | 0.0 % | 7.7 | +22 |
 | Los Verdes | 0.0 % | 7.6 | +22 |
 | EA | 0.0 % | 5.8 | +51 |
-| ERC | 0.0 % | 9.1 | +7 |
+| ERC | 0.0 % | 9.2 | +6 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1768,16 +1768,16 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 42.5 % | 2.0 | +59 |
-| PP | 40.8 % | 1.5 | +60 |
-| ERC | 13.8 % | 3.8 | +52 |
-| PNV | 2.1 % | 3.1 | +56 |
-| CDC | 0.8 % | 4.2 | +50 |
+| PSOE | 41.8 % | 1.9 | +59 |
+| PP | 40.9 % | 1.6 | +59 |
+| ERC | 14.4 % | 3.8 | +51 |
+| PNV | 2.4 % | 3.1 | +56 |
+| CDC | 0.5 % | 4.2 | +50 |
 | IU | 0.0 % | 9.5 | -33 |
-| ICV | 0.0 % | 8.2 | +1 |
-| Los Verdes | 0.0 % | 7.7 | +4 |
-| UPN | 0.0 % | 6.2 | +27 |
-| EA | 0.0 % | 5.6 | +29 |
+| ICV | 0.0 % | 8.2 | +2 |
+| Los Verdes | 0.0 % | 7.8 | +4 |
+| UPN | 0.0 % | 6.2 | +28 |
+| EA | 0.0 % | 5.7 | +29 |
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1808,13 +1808,13 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CDC | 90.0 % | 1.1 | +84 |
-| PNV | 7.2 % | 2.0 | +82 |
-| IU | 2.4 % | 5.9 | +50 |
-| PSOE | 0.4 % | 2.9 | +79 |
+| CDC | 89.8 % | 1.1 | +84 |
+| PNV | 7.3 % | 2.0 | +82 |
+| IU | 2.3 % | 5.9 | +50 |
+| PSOE | 0.5 % | 3.0 | +79 |
 | PP | 0.0 % | 4.7 | +69 |
 | ICV | 0.0 % | 8.0 | +35 |
-| Los Verdes | 0.0 % | 7.0 | +40 |
+| Los Verdes | 0.0 % | 7.1 | +40 |
 | UPN | 0.0 % | 4.4 | +72 |
 | EA | 0.0 % | 10.0 | +18 |
 | ERC | 0.0 % | 8.9 | +32 |
@@ -1848,15 +1848,15 @@ Una herramienta neutral debería dar el primer puesto a partidos distintos segú
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CDC | 63.5 % | 1.3 | +62 |
-| PNV | 32.9 % | 2.1 | +62 |
-| EA | 1.2 % | 9.7 | +7 |
-| ICV | 0.9 % | 6.4 | +34 |
-| ERC | 0.6 % | 5.6 | +40 |
+| CDC | 62.1 % | 1.3 | +62 |
+| PNV | 34.2 % | 2.1 | +62 |
+| ERC | 1.1 % | 5.6 | +40 |
+| EA | 1.0 % | 9.7 | +7 |
+| IU | 0.5 % | 8.2 | +23 |
+| ICV | 0.5 % | 6.4 | +34 |
 | PP | 0.4 % | 4.2 | +43 |
-| IU | 0.3 % | 8.2 | +23 |
-| PSOE | 0.1 % | 3.8 | +50 |
-| UPN | 0.1 % | 5.5 | +37 |
+| PSOE | 0.2 % | 3.8 | +50 |
+| UPN | 0.1 % | 5.5 | +38 |
 | Los Verdes | 0.0 % | 7.7 | +28 |
 
 <details><summary>Arquetipos (tres primeros)</summary>

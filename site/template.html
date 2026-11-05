@@ -182,6 +182,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .pchip{font-size:13.5px;font-weight:600;background:var(--accent-soft);color:var(--accent);border-radius:999px;padding:6px 8px 6px 13px;border:none;cursor:pointer;display:inline-flex;align-items:center;gap:7px}
 .pchip span{display:inline-grid;place-items:center;width:18px;height:18px;border-radius:50%;background:color-mix(in srgb,var(--accent) 16%,transparent);font-size:12px;line-height:1}
 .pchip:hover span{background:var(--accent);color:var(--accent-ink)}
+.pans{font-size:13.5px;font-weight:600;color:var(--ink);background:var(--soft);border-radius:999px;padding:6px 13px}
 .ded{font-size:13px;color:var(--muted);border:1px dashed var(--line);border-radius:999px;padding:5px 11px}
 .profile .actions{margin-left:auto;display:flex;gap:16px}
 .linkbtn{background:none;border:none;padding:0;cursor:pointer;color:var(--accent);font-size:14px;font-weight:600}
@@ -287,6 +288,9 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .chk.ciu{color:var(--ink);font-weight:600;align-items:flex-start;margin-bottom:8px;padding:12px 14px;border-radius:14px;background:var(--soft)}
 .chk.ciu small{display:block;font-weight:400;color:var(--muted)}
 .chk.ciu input{margin-top:3px;flex:none}
+.chk label{cursor:pointer}
+.undo{display:flex;flex-wrap:wrap;align-items:center;gap:4px 12px;margin:12px 0 0;padding:10px 14px;border-radius:14px;background:var(--soft);border-left:4px solid var(--accent);font-size:14px;color:var(--ink)}
+.undo .linkbtn{min-height:44px}
 .donde{display:grid;grid-template-columns:auto minmax(0,1fr);align-items:center;gap:6px 12px;margin:6px 0 12px;padding:10px 14px;border:1px solid var(--line);border-radius:14px;background:var(--sheet)}
 .donde label{display:inline-flex;align-items:center;gap:7px;font-size:14px;font-weight:700;color:var(--ink)}
 .donde label .ico{width:17px;height:17px;color:var(--accent)}
@@ -392,7 +396,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .lsub{margin:10px 0 0;color:var(--muted);max-width:60ch;font-size:15.5px}
 .resumen{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 28px;margin:18px 0 10px;padding:22px 24px;border:1px solid var(--line);border-radius:24px;background:var(--sheet);box-shadow:var(--shadow)}
 @media (max-width:620px){.resumen{grid-template-columns:minmax(0,1fr)}}
-.resumen h3{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 4px;font-weight:700}
+.resumen h4{font-size:12.5px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:0 0 4px;font-weight:700}
 .resumen .big{font-family:var(--display);font-size:38px;font-weight:800;letter-spacing:-.03em;line-height:1.1}
 .resumen ul{list-style:none;margin:4px 0 0;padding:0;font-size:14px;color:var(--muted)}
 .resumen .full{grid-column:1/-1}
@@ -535,7 +539,11 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
 .lbody{margin-top:12px}
 .why3{list-style:none;margin:0;padding:0;display:grid;gap:8px;counter-reset:w3}
 .why3 li{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 12px;align-items:center;padding:10px 12px;border-radius:14px;background:var(--soft)}
-.why3 a{font-weight:600;font-size:14.5px;line-height:1.4;text-underline-offset:3px;overflow-wrap:break-word}
+.why3 a{font-weight:600;font-size:14.5px;line-height:1.4;text-underline-offset:3px;overflow-wrap:break-word;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden}
+.why3 small .tag{margin-left:6px;vertical-align:1px}
+.pq-n{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 14px}
+.pq-n .linkbtn{min-height:44px;white-space:nowrap}
+.lbh{font-family:var(--display);font-size:20px;font-weight:800;letter-spacing:-.015em;margin:0 0 4px}
 .why3 a::before{counter-increment:w3;content:counter(w3) ". ";color:var(--muted);font-family:var(--display);font-weight:800}
 .why3 small{grid-column:1;font-size:12.5px;color:var(--muted)}
 .why3 .ap{grid-column:2;grid-row:1/3;font-family:var(--display);font-weight:800;font-size:15px;font-variant-numeric:tabular-nums;white-space:nowrap;padding:5px 10px;border-radius:10px}
@@ -730,7 +738,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
         <ul class="flinks" role="list">
           <li><a href="#metodologia">Cómo se calcula</a></li>
           <li><a id="foot-json" href="data/congreso_xv.json" download>Descargar los datos (JSON)</a></li>
-          <li><a href="https://github.com/pablocarcaba/vota-bien/commits/main/data/clasificacion/RUBRICA.md" target="_blank" rel="noopener">Rúbrica v3 · 04/11/2026<span class="sr-only"> (historial de la rúbrica, se abre en una pestaña nueva)</span></a></li>
+          <li><a href="https://github.com/pablocarcaba/vota-bien/commits/main/data/clasificacion/RUBRICA.md" target="_blank" rel="noopener"><span id="foot-rub">Rúbrica de clasificación</span><span class="sr-only"> (historial de la rúbrica, se abre en una pestaña nueva)</span></a></li>
           <li><a id="foot-hist" href="https://github.com/pablocarcaba/vota-bien/commits/main/data/clasificacion" target="_blank" rel="noopener">Historial de cambios<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
         </ul>
       </section>
@@ -739,7 +747,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
         <p>Pablo Carcaba y Nacho Rodríguez. Sin vínculos con partidos políticos ni financiación.</p>
         <ul class="flinks" role="list">
           <li><a href="#quienes">Más sobre nosotros</a></li>
-          <li><a href="https://github.com/pablocarcaba/vota-bien/issues" target="_blank" rel="noopener">Escríbenos en GitHub<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
+          <li><a href="https://github.com/pablocarcaba/vota-bien/issues" target="_blank" rel="noopener">Avísanos de un error en GitHub<span class="sr-only"> (se abre en una pestaña nueva)</span></a></li>
         </ul>
       </section>
       <section class="fcol" aria-labelledby="fc-legal">
@@ -813,6 +821,12 @@ const LABEL = {infancia:'Familia con hijos menores', monop:'Familia monoparental
 const LABEL_DEDUCIDO = {infancia:'Familia con hijos menores', monop:'Familia monoparental', depend:'Dependencia de un familiar'};
 CATS.forEach(c=>c.opts.forEach(([k,v])=>{ const pre=c.pre||PRE[c.id]||''; LABEL[k]=pre+(pre&&/^[A-ZÁÉÍÓÚ][a-záéíóúñ]/.test(v)?v[0].toLowerCase()+v.slice(1):v); }));
 const CAT_OF = {}; CATS.forEach(c=>c.opts.forEach(([k])=>CAT_OF[k]=c));
+// «No lo sé» en el tramo de IRPF (respuesta asalNs): cuenta como asalariado sin tramo concreto. Le aplican las leyes que
+// afectan a NS_MIN tramos o más, con el signo de su suma; no las que afectan solo a 1 o 2. Mismo cálculo en scripts/prueba_sesgo.py
+const TRAMOS = ['asal1','asal2','asal3','asal4','asal5','asal6'], NS_MIN = 3;
+function impNs(it){ let n=0, s=0; TRAMOS.forEach(k=>{ const v=it.imp[k]; if(v){ n++; s+=v>0?1:-1; } }); return n>=NS_MIN ? Math.sign(s) : 0; }
+const impDe = (it, k) => k==='asalNs' ? impNs(it) : it.imp[k];
+LABEL.asalNs = 'Asalariado, IRPF: no lo sé';
 // asistente del perfil: 4 pasos en orden. Cada pregunta toma sus opciones de CATS (colectivos, por id) y/o de «ui»
 // (respuestas de interfaz, en state.pasos.ui: nunca entran en state.sel ni en el cálculo). «si»: solo aparece si se cumple;
 // «req»: obligatoria; «none»: respuesta excluyente; «off»: motivo por el que una opción no se puede marcar
@@ -827,7 +841,7 @@ const PASOS = [
     {id:'hij', cat:'hij', req:true}]},
   {t:'Trabajo e ingresos', d:'¿De qué vives? Marca todo lo que te aplique y solo te preguntaremos lo que haga falta.', q:[
     {id:'sit', name:'¿De qué vives?', req:true, multi:true, none:'trNada', ui:[['trAjena','Trabajo por cuenta ajena','Cuenta ajena'],['trFun','Soy funcionario o empleado público','Funcionario o empleado público'],['trAut','Soy autónomo','Autónomo'],['trEmp','Tengo una empresa','Empresa propia'],['trPen','Cobro pensión','Pensionista'],['trParo','Estoy en paro','En paro'],['trEst','Estudio','Estudiante'],['trNada','Ninguna de estas','Ninguna de estas situaciones']]},
-    // «No lo sé» es una respuesta de interfaz: no añade ningún colectivo, así que no se aplican los efectos propios de un tramo
+    // «No lo sé» es una respuesta de interfaz (no entra en state.sel): rasgos() la convierte en el rasgo asalNs (ver impNs)
     {id:'asal', cat:'asal', req:true, si:asalariado, ui:[['asalNs','No lo sé','IRPF: no lo sé']]},
     {id:'fun', cat:'fun', req:true, si:()=>tiene('trFun')},
     {id:'pro', cat:'pro', si:asalariado},
@@ -864,6 +878,7 @@ function rasgos(){
   const r=new Set(state.sel);
   state.sel.forEach(k=>(IMPLICA[k]||[]).forEach(x=>r.add(x)));
   if(SIN_PAREJA.some(k=>state.sel.has(k)) && CON_HIJOS.some(k=>state.sel.has(k))) r.add('monop');
+  if(state.pasos.ui.has('asalNs')) r.add('asalNs');
   return r;
 }
 const PNAME = {Bildu:'EH Bildu', Gobierno:'Gobierno', Mixto:'Grupo Mixto'};
@@ -880,7 +895,7 @@ const CAT_NOTE = {
   civ:'Sirve para las leyes de viudedad, divorcio y familias monoparentales.',
   car:'Márcalo si cuidas en casa de un familiar dependiente.',
   sit:'Puedes marcar varias: por ejemplo, si trabajas y estudias.',
-  asal:'Mira la base liquidable de tu declaración de la renta: suele ser bastante menor que tu sueldo bruto. Si no la sabes, marca «No lo sé»: no se tendrán en cuenta las leyes que solo afectan a un tramo concreto.',
+  asal:'Mira la base liquidable de tu declaración de la renta: suele ser bastante menor que tu sueldo bruto. Si no la sabes, marca «No lo sé»: contarás como asalariado sin tramo concreto. Te aplicarán las leyes que afectan a 3 o más de los 6 tramos, como las generales de trabajo, y no las que solo afectan a 1 o 2.',
   fun:'Tu subgrupo como funcionario.',
   pro:'Si trabajas en alguno de estos servicios públicos. Puedes marcar varios.',
   emp:'Por facturación anual.',
@@ -941,7 +956,7 @@ try{ if(new URLSearchParams(location.search).get('co')!=='0') state.sel.add('con
 
 function impactOf(it){
   let p=false,n=false;
-  for(const k of RASGOS){ const v=it.imp[k]; if(v>0)p=true; else if(v<0)n=true; }
+  for(const k of RASGOS){ const v=impDe(it,k); if(v>0)p=true; else if(v<0)n=true; }
   return p&&n?'mix':p?'pos':n?'neg':'neu';
 }
 function voteColor(imp, v){
@@ -1046,32 +1061,53 @@ function renderProfile(){
   // perfil vacío: la guía son los pasos del panel
   if(!propio()) return;
   p.appendChild(el('span',{class:'lbl'+(isExample?' ex':'')}, isExample?'Perfil de ejemplo, cámbialo por el tuyo:':'Tu perfil:'));
+  // tu trabajo: «cuenta ajena» no es un colectivo (se cambia en el paso 2) y «No lo sé» en el IRPF se puede quitar como un tramo
+  if(tiene('trAjena')) p.appendChild(el('span',{class:'pans',title:'Se cambia en el paso 2'}, esc(UI_TXT.trAjena)));
+  if(tiene('asalNs')) p.appendChild(el('button',{class:'pchip','data-k':'chip-asalNs','aria-label':'Quitar '+UI_TXT.asalNs,onclick:()=>quitarUi('asalNs')}, esc(UI_TXT.asalNs)+'<span aria-hidden="true">×</span>'));
   [...state.sel].filter(k=>esPerfil(k) && !DERIV.includes(k)).forEach(k=>p.appendChild(el('button',{class:'pchip','data-k':'chip-'+k,'aria-label':'Quitar '+LABEL[k],onclick:()=>quitar(k)}, esc(LABEL[k])+'<span aria-hidden="true">×</span>')));
   // lo deducido de tus respuestas (vivienda, autónomo, estudiante) y de otros rasgos (hijos, dependencia): se cambia desde los pasos
-  [...RASGOS].filter(k=>!state.sel.has(k) || DERIV.includes(k)).filter(k=>k!=='ciud' && k!=='cons').forEach(k=>p.appendChild(el('span',{class:'ded',title:'Se deduce de tu perfil'}, '+ '+esc(LABEL_DEDUCIDO[k]||LABEL[k]||k))));
+  [...RASGOS].filter(k=>!state.sel.has(k) || DERIV.includes(k)).filter(k=>k!=='ciud' && k!=='cons' && k!=='asalNs').forEach(k=>p.appendChild(el('span',{class:'ded',title:'Se deduce de tu perfil'}, '+ '+esc(LABEL_DEDUCIDO[k]||LABEL[k]||k))));
   const act=el('div',{class:'actions'});
   if(propio()) act.appendChild(el('button',{type:'button',class:'linkbtn',onclick:copyLink,id:'copy-btn','data-k':'copy-btn'},'Compartir mi perfil'));
   act.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'borrar-perfil',onclick:borrarRespuestas},'Borrar mis respuestas'));
   p.appendChild(act);
 }
-// borra el perfil y la provincia de este navegador (y del enlace actual) y reinicia el asistente; las preferencias de pantalla se quedan
+// borra el perfil y la provincia de este navegador (y del enlace actual) y reinicia el asistente; las preferencias de pantalla se quedan.
+// Se puede deshacer (DESHACER) hasta que vuelvas a marcar algo
+let DESHACER = null;
 function borrarRespuestas(){
+  const habia = propio() || state.pasos.ui.size>0;
+  DESHACER = habia ? {sel:[...state.sel].filter(esPerfil), ui:[...state.pasos.ui], done:[...state.pasos.done], cur:state.pasos.cur, prov:state.prov, ex:isExample} : null;
   [...state.sel].filter(esPerfil).forEach(k=>state.sel.delete(k));
   isExample=false; state.pasos={ui:new Set(),done:new Set(),cur:0}; state.prov='';
   try{ localStorage.removeItem('pasosPerfil'); localStorage.removeItem('provincia'); }catch(e){}
   try{ const q=new URLSearchParams(location.search); ['p','u','prov','partido'].forEach(k=>q.delete(k)); const t=q.toString().replace(/%2C/g,','); history.replaceState(null,'',location.pathname+(t?'?'+t:'')); }catch(e){}
   if($('view-panel').hidden) go(''); else render();
   irPaso(0);
-  $('live').textContent = 'Respuestas borradas de este navegador. Paso 1 de '+NPASOS+': '+PASOS[0].t;
+  // el aviso con «Deshacer» va justo encima del paso 1: que se vea junto al foco
+  const u=document.querySelector('#filters .undo'); if(u) u.scrollIntoView({behavior:smooth,block:'start'});
+  say('Respuestas borradas de este navegador.'+(DESHACER?' Si ha sido sin querer, pulsa «Deshacer», encima del paso 1.':'')+' Paso 1 de '+NPASOS+': '+PASOS[0].t);
 }
+function deshacer(){
+  const g=DESHACER; if(!g) return; DESHACER=null;
+  g.sel.forEach(k=>state.sel.add(k)); g.ui.forEach(k=>state.pasos.ui.add(k));
+  state.pasos.done=new Set(g.done); state.pasos.cur=g.cur; isExample=g.ex; state.prov=g.prov;
+  try{ if(g.prov) localStorage.setItem('provincia', g.prov); }catch(e){}
+  // el aviso va por PEND para que no lo pise el de «Resultado actualizado» (anunciar())
+  PEND = 'Respuestas recuperadas.';
+  deriva(); guardarPasos(); state.anim=true; render();
+  if(terminado()) verResultado(); else irPaso(state.pasos.cur);
+}
+// región viva: se vacía y se escribe en el siguiente frame, para que un mismo texto se anuncie otra vez
+function say(t){ const l=$('live'); l.textContent=''; requestAnimationFrame(()=>{ l.textContent=t; }); }
 function copyLink(){ copyUrl($('copy-btn'), shareUrl(null,null,true)); }
 // copia un enlace y lo anuncia; el estado (y, si el portapapeles falla, la URL) va en un elemento aparte, no en el botón
 function copyUrl(b, url){
   let out = b.nextElementSibling;
   if(!out || !out.classList.contains('cstat')){ out=el('p',{class:'cstat'}); b.after(out); }
   const priv = [...state.sel, ...state.pasos.ui].some(k=>PRIVADO.has(k)) ? ' No lleva lo que marcaste en el paso '+NPASOS+' (tu situación personal): eso no sale de tu dispositivo.' : '';
-  const ok = ()=>{ out.textContent='Enlace copiado.'+priv; $('live').textContent='Enlace copiado.'+priv; };
-  const ko = ()=>{ out.textContent='No se ha podido copiar. Copia este enlace:'+priv; const i=el('input',{type:'text',readonly:'',value:url,'aria-label':'Enlace para compartir'}); out.appendChild(i); i.select(); $('live').textContent='No se ha podido copiar el enlace: lo tienes en un campo de texto junto al botón.'; };
+  const ok = ()=>{ out.textContent='Enlace copiado.'+priv; say('Enlace copiado.'+priv); };
+  const ko = ()=>{ out.textContent='No se ha podido copiar. Copia este enlace:'+priv; const i=el('input',{type:'text',readonly:'',value:url,'aria-label':'Enlace para compartir'}); out.appendChild(i); i.select(); say('No se ha podido copiar el enlace: lo tienes en un campo de texto junto al botón.'); };
   try{ navigator.clipboard.writeText(url).then(ok,ko); }catch(e){ ko(); }
 }
 // enlace directo a la ficha de un partido (y, si se pide, a una ley): perfil, ciudadanía, dataset y pestaña actuales.
@@ -1101,7 +1137,7 @@ function elegir(q, k){
     else if(q.none) state.pasos.ui.delete(q.none);
     S.add(k);
   }
-  deriva(); isExample=false; guardarPasos();
+  deriva(); isExample=false; DESHACER=null; guardarPasos();
   // lo que cambia sin pulsarlo: preguntas que aparecen y respuestas de otras preguntas que se quitan solas
   const nuevas = cur>=0 ? PASOS[cur].q.filter(x=>visible(x) && !qAntes.includes(x)).map(qName) : [];
   const propias = qOpts(q), quitadas = rAntes.filter(x=>!propias.includes(x) && !state.sel.has(x) && !state.pasos.ui.has(x) && !DERIV.includes(x)).map(x=>UI_TXT[x]||LABEL[x]);
@@ -1111,6 +1147,7 @@ function elegir(q, k){
 }
 // quitar un rasgo desde la barra «Tu perfil»
 function quitar(k){ state.sel.delete(k); deriva(); guardarPasos(); render(); }
+function quitarUi(k){ state.pasos.ui.delete(k); deriva(); guardarPasos(); render(); }
 // las subpreguntas dependen de «¿De qué vives?» y de la vivienda: al quitar lo que las activa se quitan sus colectivos,
 // y los colectivos deducidos se recalculan desde las respuestas
 function deriva(){
@@ -1157,6 +1194,7 @@ function visible(q){ return !q.si || q.si(); }
 function respondida(q){ return qOpts(q).some(k=>state.sel.has(k)||state.pasos.ui.has(k)); }
 function faltan(i){ return PASOS[i].q.filter(q=>q.req && visible(q) && !respondida(q)).map(qName); }
 function completo(i){ return !faltan(i).length; }
+function pasoVacio(i){ return !!PASOS[i].opt && !PASOS[i].q.some(q=>visible(q) && respondida(q)); }
 // el resultado sale con los pasos obligatorios hechos; el opcional (opt) no lo bloquea
 function terminado(){ return PASOS.every((P,i)=>P.opt || state.pasos.done.has(i)); }
 // terminar el paso i deja el resultado listo
@@ -1175,7 +1213,7 @@ function avisaMinimo(antes){ if(!antes && minimoActual()) PEND = (PEND?PEND+' ':
 function irPaso(i){
   const h=$('paso-h-'+i); if(!h) return;
   h.closest('.paso').scrollIntoView({behavior:smooth,block:'start'}); h.focus({preventScroll:true});
-  $('live').textContent = 'Paso '+(i+1)+' de '+NPASOS+': '+PASOS[i].t;
+  say('Paso '+(i+1)+' de '+NPASOS+': '+PASOS[i].t);
 }
 function continuar(i){
   const P=state.pasos;
@@ -1197,12 +1235,19 @@ function resumen(i){
 function renderFilters(){
   const f=$('filters'); f.innerHTML='';
   f.appendChild(el('div',{class:'shead'},'<span class="step" aria-hidden="true"><svg class="ico"><use href="#i-sliders"/></svg></span><div><h2 id="filters-h" tabindex="-1">Marca tu situación</h2><p class="hint">Tres pasos y ves tu resultado; el cuarto es opcional. Solo te pedimos lo imprescindible para calcular bien tu nota.</p></div>'));
+  if(DESHACER){
+    const u=el('p',{class:'undo'},'<span>Has borrado tus respuestas de este navegador.</span>');
+    u.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'deshacer',onclick:deshacer},'Deshacer'));
+    f.appendChild(u);
+  }
   const P=state.pasos, ol=el('ol',{class:'pasos',role:'list'});
   PASOS.forEach(({t:g,d:txt,q:qs},i)=>{
     const n=i+1, hecho=P.done.has(i), abierto=i===P.cur, bloq=!hecho&&!abierto, ok=!bloq&&completo(i), falta=faltan(i);
-    const li=el('li',{class:'paso '+(abierto?'cur':hecho?'done':'lock')+(ok?' ok':'')});
-    li.appendChild(el('span',{class:'pnum','aria-hidden':'true'}, n+(ok?CHECK:'')));
-    const st = ok ? '<span class="pst ok"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>'+(PASOS[i].opt?'Opcional':'Mínimo completado')+'</span>' : '<span class="pst">Falta: '+esc(falta.join(', '))+'</span>';
+    // el paso opcional sin nada marcado no se pinta de verde: no hay nada «completado»
+    const vacio=pasoVacio(i), verde=ok&&!vacio;
+    const li=el('li',{class:'paso '+(abierto?'cur':hecho?'done':'lock')+(verde?' ok':'')});
+    li.appendChild(el('span',{class:'pnum','aria-hidden':'true'}, n+(verde?CHECK:'')));
+    const st = verde ? '<span class="pst ok"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>'+(PASOS[i].opt?'Opcional':'Mínimo completado')+'</span>' : ok ? '<span class="pst">Opcional</span>' : '<span class="pst">Falta: '+esc(falta.join(', '))+'</span>';
     let card;
     if(bloq){
       // visible pero sin poder abrirse hasta terminar el anterior
@@ -1302,7 +1347,7 @@ function renderRank(){
     // matiz del mapa de ámbitos (dónde no se presenta igual), solo con el filtro activo
     const nota = filtraProv() && AMB.notas[x.k] ? AMB.notas[x.k] : '';
     const amb = nota ? `<span class="amb-n"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>${esc(nota)}</span>` : '';
-    r.appendChild(el('button',{class:'rrow','aria-label':`${puesto}.º${empate?' empatado':''} ${pn(x.k)}: ${vt.toLowerCase()}, nota ${x.s}${x.rel<3?', pocos datos':''}. ${det}.${nota?' Aviso: '+nota:''} Ver ley a ley`,onclick:()=>openList(x.k,null)},
+    r.appendChild(el('button',{class:'rrow','data-p':x.k,'aria-label':`${puesto}.º${empate?' empatado':''} ${pn(x.k)}: ${vt.toLowerCase()}, nota ${x.s}${x.rel<3?', pocos datos':''}. ${det}.${nota?' Aviso: '+nota:''} Ver ley a ley`,onclick:()=>openList(x.k,null)},
       `<span class="pos">${puesto}.º</span><span class="who"><span class="nm">${esc(pn(x.k))}</span><span class="vd v-${vc}">${vt}</span>${emp}${few}${amb}</span><span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="dv">${bar}</span><span class="det">${det} · <span class="go">Ver ley a ley ›</span></span>`));
   });
   mb.hidden=false;
@@ -1310,7 +1355,7 @@ function renderRank(){
   const notaProv = !filtraProv() ? '' : fuera ? ` <b>${fuera} partido${fuera>1?'s':''} oculto${fuera>1?'s':''} porque no se presenta${fuera>1?'n':''} en ${esc(provName())}.</b>` : ` Todos los partidos con leyes que te afectan se presentan en ${esc(provName())}.`;
   r.appendChild(el('p',{class:'note'}, (state.hideFew ? (pocos?`${pocos} partido${pocos>1?'s':''} oculto${pocos>1?'s':''} por tener menos de 3 iniciativas que te afecten.`:fuera?'Ningún partido oculto por tener pocos datos.':'Ningún partido oculto.') : '«Pocos datos»: menos de 3 leyes que te afecten. Tómalo con cautela.') + (state.sinRDL&&!europeas()?' <b>Sin reales decretos-ley.</b>':'') + notaProv));
   // efecto Gobierno: dato comprobable en la ficha de cada partido (etiqueta «Iniciativa del Gobierno»)
-  if(!europeas() && ITEMS.some(it=>it.k==='Real decreto-ley')) r.appendChild(el('p',{class:'gobnote',role:'note'}, `<svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg><span>Gobierno en esta legislatura: ${esc(DATA.meta.gobierno)}. Los partidos del Gobierno suelen votar a favor de sus propios reales decretos-ley, así que esas leyes mueven mucho su nota. En la ficha de cada partido van marcadas como «Iniciativa del Gobierno», y en «Ajustar el ranking» puedes excluir los decretos-ley.</span>`));
+  if(!europeas() && ITEMS.some(it=>it.k==='Real decreto-ley')) r.appendChild(el('p',{class:'gobnote',role:'note'}, `<svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg><span>Gobierno en esta legislatura: ${esc(DATA.meta.gobierno)}. Los partidos del Gobierno suelen votar a favor de sus propias iniciativas, sobre todo de los reales decretos-ley, así que esas leyes mueven mucho su nota. En la ficha de cada partido, los proyectos de ley y los reales decretos-ley del Gobierno van marcados como «Iniciativa del Gobierno»${gobiernos()?`, con el Gobierno que había al presentarlos (${esc(gobiernos().map(g=>g.nombre).join(' o '))})`:''}, y en «Ajustar el ranking» puedes excluir los decretos-ley.</span>`));
   r.appendChild(ajustarEl());
   r.appendChild(top5());
   r.appendChild(el('button',{type:'button',class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las leyes de la legislatura, una a una →'));
@@ -1335,12 +1380,15 @@ function ajustarEl(){
   d.appendChild(el('summary',{'data-k':'aj-s'}, `<span class="gi" aria-hidden="true"><svg class="ico"><use href="#i-sliders"/></svg></span><span class="gt">Ajustar el ranking<small>${esc(res.charAt(0).toUpperCase()+res.slice(1))}</small></span><span class="chev" aria-hidden="true"></span>`));
   const b=el('div',{class:'aj-b'});
   b.appendChild(el('p',{class:'legend'},'<span><i class="c-pos"></i>Votó a tu favor: sube la nota</span><span><i class="c-neg"></i>Votó en tu contra: la baja</span><span>Una gran reforma pesa como 9 leyes menores; una ley relevante, como 3.</span>'));
-  const caja = (k, txt, on, fn) => { const l=el('label',{class:'chk ciu'}), i=el('input',{type:'checkbox','data-k':k}); i.checked=on; i.addEventListener('change',()=>fn(i.checked)); l.appendChild(i); l.appendChild(el('span',{},txt)); b.appendChild(l); };
+  // la etiqueta es solo el nombre de la casilla; la explicación (con su enlace) va aparte, unida con aria-describedby
+  const caja = (k, txt, desc, on, fn) => { const id='aj-'+k, w=el('div',{class:'chk ciu'}), i=el('input',{type:'checkbox',id,'data-k':k,'aria-describedby':id+'-d'}), t=el('div');
+    i.checked=on; i.addEventListener('change',()=>fn(i.checked)); w.appendChild(i);
+    t.appendChild(el('label',{for:id},esc(txt))); t.appendChild(el('small',{id:id+'-d'},desc)); w.appendChild(t); b.appendChild(w); };
   // «Ciudadanía general» y consumo son interruptores del cálculo, no rasgos del perfil
-  caja('ciu-chk','Incluir leyes que afectan a todos<small>IVA y otros impuestos que paga todo el mundo, sanidad, medio ambiente, servicios públicos. <a href="#metodologia">Qué se cuenta aquí</a></small>', state.sel.has('ciud'), v=>{ if(v) state.sel.add('ciud'); else state.sel.delete('ciud'); render(); });
-  caja('cons-chk','Incluir leyes de consumo: luz, gas, banca, telefonía, transporte<small>Te afectan como cliente, como a casi todo el mundo. <a href="#metodologia">Qué se cuenta aquí</a></small>', state.sel.has('cons'), v=>{ if(v) state.sel.add('cons'); else state.sel.delete('cons'); render(); });
-  if(hayRDL) caja('rdl-chk','Excluir los reales decretos-ley<small>Los aprueba el Gobierno y el Congreso los convalida. Desactivado por defecto: con la casilla marcada, no cuentan en ninguna nota.</small>', !!state.sinRDL, v=>{ state.sinRDL=v; state.anim=true; render(); });
-  if(propio()) caja('few-chk','Ocultar partidos con menos de 3 leyes que te afecten<small>Solo oculta filas: no cambia ninguna nota.</small>', state.hideFew, v=>{ state.hideFew=v; try{ localStorage.setItem('ocultarPocos', v?'1':'0'); }catch(e){} render(); });
+  caja('ciu-chk','Incluir leyes que afectan a todos','IVA y otros impuestos que paga todo el mundo, sanidad, medio ambiente, servicios públicos. <a href="#metodologia">Qué se cuenta aquí</a>', state.sel.has('ciud'), v=>{ if(v) state.sel.add('ciud'); else state.sel.delete('ciud'); render(); });
+  caja('cons-chk','Incluir leyes de consumo: luz, gas, banca, telefonía, transporte','Te afectan como cliente, como a casi todo el mundo. <a href="#metodologia">Qué se cuenta aquí</a>', state.sel.has('cons'), v=>{ if(v) state.sel.add('cons'); else state.sel.delete('cons'); render(); });
+  if(hayRDL) caja('rdl-chk','Excluir los reales decretos-ley','Los aprueba el Gobierno y el Congreso los convalida. Desactivado por defecto: con la casilla marcada, no cuentan en ninguna nota.', !!state.sinRDL, v=>{ state.sinRDL=v; state.anim=true; render(); });
+  if(propio()) caja('few-chk','Ocultar partidos con menos de 3 leyes que te afecten','Solo oculta filas: no cambia ninguna nota.', state.hideFew, v=>{ state.hideFew=v; try{ localStorage.setItem('ocultarPocos', v?'1':'0'); }catch(e){} render(); });
   d.appendChild(b);
   return d;
 }
@@ -1351,8 +1399,8 @@ function espera(){
   d.appendChild(el('p',{}, `<b>Completa los ${NOBL} primeros pasos para ver tu resultado.</b>Vas por el paso ${n}. El paso ${NPASOS} es opcional.`));
   const ol=el('ol',{class:'prog',role:'list','aria-label':'Tu progreso en los '+NPASOS+' pasos'});
   PASOS.forEach(({t:g},i)=>{
-    const h=P.done.has(i), v=h||(i===P.cur&&ok);
-    const st = (h?'hecho':i===P.cur?(ok?'mínimo completado':'en curso'):'pendiente')+(PASOS[i].opt?', opcional':'');
+    const h=P.done.has(i), v=(h||(i===P.cur&&ok)) && !pasoVacio(i);
+    const st = (pasoVacio(i)?'sin marcar':h?'hecho':i===P.cur?(ok?'mínimo completado':'en curso'):'pendiente')+(PASOS[i].opt?', opcional':'');
     const pl = i===P.cur ? 'Ahora' : PASOS[i].opt ? 'Opcional' : h ? 'Hecho' : '';
     ol.appendChild(el('li',{class:(v?'ok':'')+(i===P.cur?' cur':'')+(PASOS[i].opt?' opt':''), ...(i===P.cur?{'aria-current':'step'}:{})}, `<span aria-hidden="true">${v?'<svg class="ico"><use href="#i-check"/></svg>':i+1}</span>${pl?`<span class="pl" aria-hidden="true">${pl}</span>`:''}<span class="sr-only">Paso ${i+1}, ${esc(g)}: ${st}</span>`));
   });
@@ -1407,7 +1455,11 @@ const REPO = 'https://github.com/pablocarcaba/vota-bien';
 const NUEVA = '<span class="sr-only"> (se abre en una pestaña nueva)</span>';
 const jsonLink = () => `<a href="data/${esc(state.ds)}.json" download="${esc(state.ds)}.json"><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Descargar los datos de esta legislatura (JSON)</a>`;
 const repoLink = (txt, path='') => `<a href="${REPO}${path}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-code"/></svg>${txt}${NUEVA}</a>`;
-const RUBRICA_TXT = 'Rúbrica v3 · 04/11/2026', RUBRICA_HIST = REPO+'/commits/main/data/clasificacion/RUBRICA.md';
+// versión de la rúbrica de cada dataset (v3 si tiene lectura_v3, si no v2) y su fecha: las pone build_page.py en el catálogo
+const rubDe = clave => (CATALOGO.find(c=>c.clave===clave)||{}).rubrica || null;
+const rubTxt = r => r ? 'Rúbrica '+r.version+(r.fecha?', versión del '+r.fecha:'') : 'Rúbrica de clasificación';
+const RUB_ULT = CATALOGO.map(c=>c.rubrica).filter(Boolean).sort((a,b)=>b.version.localeCompare(a.version,'es',{numeric:true}))[0] || null;
+const RUBRICA_TXT = rubTxt(RUB_ULT), RUBRICA_HIST = REPO+'/commits/main/data/clasificacion/RUBRICA.md';
 const histUrl = () => `${REPO}/commits/main/data/clasificacion/${encodeURIComponent(state.ds)}`;
 const histLink = () => `<a href="${histUrl()}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-history"/></svg>Historial de cambios${NUEVA}</a>`;
 // aviso de clasificación: issue de GitHub con la ley y su clasificación actual ya escritas
@@ -1446,7 +1498,14 @@ function calcBox(x){
 }
 // iniciativa del propio Gobierno (proyecto de ley o real decreto-ley): el autor viene en los datos (campo a)
 const delGobierno = it => !europeas() && it.a.includes('Gobierno');
-const GOB_TAG = '<span class="tag gob">Iniciativa del Gobierno</span>';
+// legislaturas con dos Gobiernos (catálogo «gobiernos», de scripts/legislaturas.py): el que había en la fecha de presentación.
+// Sin fecha, la etiqueta no afirma ninguno
+const gobiernos = () => (CATALOGO.find(c=>c.clave===state.ds)||{}).gobiernos || null;
+function gobDe(it){
+  const g=gobiernos(), d=dkey(it); if(!g || !d) return '';
+  let n=''; g.forEach(x=>{ if(d >= +x.desde.replace(/-/g,'')) n=x.nombre; }); return n;
+}
+const gobTag = it => `<span class="tag gob">Iniciativa del Gobierno${gobDe(it)?' de '+esc(gobDe(it)):''}</span>`;
 // «Por qué sale aquí»: lo que más le resta y lo que más le suma (|aportación| = alcance × fuerza de la prueba),
 // empezando por el signo que domina su nota
 function porQue(p, x){
@@ -1455,11 +1514,14 @@ function porQue(p, x){
     .map(y=>({...y, ap:wOf(y.it)*y.e.f})).sort((a,b)=>b.ap-a.ap || dkey(b.it)-dkey(a.it));
   box.innerHTML = `<h3 id="pq-h"><svg class="ico" aria-hidden="true"><use href="#i-star"/></svg>Por qué sale aquí</h3>`;
   if(!L.length){ box.appendChild(el('p',{class:'calc-note'},'Ninguna ley le suma ni le resta con tu perfil: las que cuentan son mixtas.')); return box; }
-  box.appendChild(el('p',{class:'calc-note',style:'margin:0 0 10px'}, `Las leyes que más mueven su nota con tu perfil (${state.tab==='eco'?'leyes económicas':'leyes sociales'}).`));
+  // como mucho 2 leyes por grupo y títulos en 2 líneas; el resto, ley a ley en la lista de abajo
+  const nota=el('p',{class:'calc-note pq-n',style:'margin:0 0 10px'}, `<span>Las leyes que más mueven su nota con tu perfil (${state.tab==='eco'?'leyes económicas':'leyes sociales'}).</span>`);
+  nota.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'pq-ver',onclick:()=>{ const t=$('ley-a-ley'); if(!t) return; t.scrollIntoView({behavior:smooth,block:'start'}); t.focus({preventScroll:true}); }},'Ver ley a ley <span aria-hidden="true">↓</span>'));
+  box.appendChild(nota);
   const grupos = [['neg','Lo que más le resta'],['pos','Lo que más le suma']];
   if(!(x && x.S<0)) grupos.reverse();
   grupos.forEach(([c,tit])=>{
-    const G = L.filter(y=>y.e.c===c).slice(0,3);
+    const G = L.filter(y=>y.e.c===c).slice(0,2);
     if(!G.length) return;
     const hid = 'pq-'+c;
     box.appendChild(el('h4',{class:'why3h',id:hid}, tit));
@@ -1467,16 +1529,18 @@ function porQue(p, x){
     G.forEach(({it,e,ap})=>{
       const v = it.v && it.v[p];
       const how = e.via==='pres' ? 'La presentó, sin voto suyo en el Pleno' : `Votó ${VOTE_TXT[v]}${it.vk==='Enmienda a la totalidad'?' (postura deducida de la totalidad)':''}`;
-      ol.appendChild(el('li',{}, `<a href="#ley=${encodeURIComponent(it.id)}">${esc(it.t)}</a><small>${esc(how)} · ${esc(PESO_TXT[it.w]||'Ley menor')} · ${esc(IMP_TXT[impactOf(it)]||'')}${delGobierno(it)?' · '+GOB_TAG:''}</small><span class="ap ${e.c}">${e.c==='pos'?'Suma +'+nf(ap):'Resta '+nf(ap)}</span>`));
+      ol.appendChild(el('li',{}, `<a href="#ley=${encodeURIComponent(it.id)}" title="${esc(it.t)}">${esc(it.t)}</a><small>${esc(how)} · ${esc(PESO_TXT[it.w]||'Ley menor')} · ${esc(IMP_TXT[impactOf(it)]||'')}${delGobierno(it)?gobTag(it):''}</small><span class="ap ${e.c}">${e.c==='pos'?'Suma +'+nf(ap):'Resta '+nf(ap)}</span>`));
     });
     box.appendChild(ol);
   });
   return box;
 }
-// bloque plegable de la ficha: el título va en un h3 dentro del summary; el estado abierto se recuerda (state[clave])
+// bloque plegable de la ficha: el summary no lleva encabezados (no se exponen dentro de él); el h3 va al principio del
+// contenido, solo para lectores de pantalla. El estado abierto se recuerda (state[clave])
 function fold(clave, ico, tit, sub, body){
   const d=el('details',{class:'calc fold'}); if(state[clave]) d.open=true;
-  d.appendChild(el('summary',{'data-k':clave}, `<svg class="ico" aria-hidden="true"><use href="#${ico}"/></svg><div class="gt"><h3>${tit}</h3><small>${sub}</small></div><span class="chev" aria-hidden="true"></span>`));
+  d.appendChild(el('summary',{'data-k':clave}, `<svg class="ico" aria-hidden="true"><use href="#${ico}"/></svg><span class="gt">${tit}<small>${sub}</small></span><span class="chev" aria-hidden="true"></span>`));
+  body.prepend(el('h3',{class:'sr-only'},tit));
   d.appendChild(body);
   d.addEventListener('toggle',()=>{ state[clave]=d.open; });
   return d;
@@ -1503,7 +1567,7 @@ function cmpBox(p){
     const D = U.filter(it=>it.v[p]!==it.v[q]).sort((a,b)=>wOf(b)-wOf(a) || dkey(b)-dkey(a));
     const sum = el('p',{class:'cmp-sum'}, U.length ? `Votaron los dos en ${U.length} ${U.length===1?'ley que te afecta':'leyes que te afectan'}: <b>votaron distinto en ${D.length}</b> y igual en ${U.length-D.length}.` : 'No hay ninguna ley que te afecte en la que hayan votado los dos.');
     out.appendChild(sum);
-    if(anuncia) $('live').textContent = `${pn(p)} ${xa?xa.s:'sin nota'}, ${pn(q)} ${xb?xb.s:'sin nota'}. `+sum.textContent;
+    if(anuncia) say(`${pn(p)} ${xa?xa.s:'sin nota'}, ${pn(q)} ${xb?xb.s:'sin nota'}. `+sum.textContent);
     if(!D.length) return;
     const ul=el('ul',{class:'cmp-l',role:'list'});
     const show = state.cmpAll ? D : D.slice(0,8);
@@ -1535,10 +1599,10 @@ function notaEn(data, p){
 function evoBox(p){
   const cur = CATALOGO.find(c=>c.clave===state.ds), dss = CATALOGO.filter(c=>c.fuente===cur.fuente);
   const d = el('details',{class:'calc fold evo'}); if(state.evoOpen) d.open=true;
-  d.appendChild(el('summary',{'data-k':'evo-s'}, `<svg class="ico" aria-hidden="true"><use href="#i-history"/></svg><div class="gt"><h3>Este partido en otras legislaturas</h3><small>${esc(cur.fuente_txt)} · tu perfil · ${state.tab==='eco'?'leyes económicas':'leyes sociales'}</small></div><span class="chev" aria-hidden="true"></span>`));
+  d.appendChild(el('summary',{'data-k':'evo-s'}, `<svg class="ico" aria-hidden="true"><use href="#i-history"/></svg><span class="gt">Este partido en otras legislaturas<small>${esc(cur.fuente_txt)} · tu perfil · ${state.tab==='eco'?'leyes económicas':'leyes sociales'}</small></span><span class="chev" aria-hidden="true"></span>`));
   // la región viva existe antes de cargar y no se reemplaza: así se anuncia la carga y el final
   const wrap = el('div',{class:'evo-b'}), st = el('p',{class:'sr-only','aria-live':'polite'}), body = el('div');
-  wrap.appendChild(st); wrap.appendChild(body); d.appendChild(wrap);
+  wrap.appendChild(el('h3',{class:'sr-only'},'Este partido en otras legislaturas')); wrap.appendChild(st); wrap.appendChild(body); d.appendChild(wrap);
   const fill = async ()=>{
     const ds0 = state.ds, tab0 = state.tab;
     st.textContent = 'Cargando las legislaturas…';
@@ -1575,8 +1639,8 @@ function resumenPartido(p){
   const lista = rows => '<ul>'+rows.map(([k,n])=>`<li>${n} · ${esc(k)}</li>`).join('')+'</ul>';
   const VS = {s:'sí',n:'no',a:'abstención'};
   const box = el('div',{class:'resumen'});
-  box.appendChild(el('div',{}, `<h3>Leyes presentadas (${tab})</h3><div class="big">${pres.length}</div>${pres.length?lista(desglose(pres,it=>it.k)):''}`));
-  box.appendChild(el('div',{}, `<h3>Votaciones en el Pleno (${tab})</h3><div class="big">${vot.length}</div>${vot.length?lista(desglose(vot,it=>it.vk))+'<ul><li>'+desglose(vot,it=>VS[it.v[p]]).map(([k,n])=>`${n} ${k}`).join(' · ')+'</li></ul>':''}`));
+  box.appendChild(el('div',{}, `<h4>Leyes presentadas (${tab})</h4><div class="big">${pres.length}</div>${pres.length?lista(desglose(pres,it=>it.k)):''}`));
+  box.appendChild(el('div',{}, `<h4>Votaciones en el Pleno (${tab})</h4><div class="big">${vot.length}</div>${vot.length?lista(desglose(vot,it=>it.vk))+'<ul><li>'+desglose(vot,it=>VS[it.v[p]]).map(([k,n])=>`${n} ${k}`).join(' · ')+'</li></ul>':''}`));
   // balance para tu perfil: cada iniciativa votada (o solo presentada) una vez
   const cnt = {pos:0, mix:0, neu:0, neg:0};
   U.forEach(it=>{
@@ -1587,13 +1651,13 @@ function resumenPartido(p){
   });
   const total = cnt.pos+cnt.mix+cnt.neu+cnt.neg;
   const full = el('div',{class:'full'});
-  full.appendChild(el('h3',{}, state.sel.size ? 'Para tu perfil' : 'Para tu perfil (marca rasgos en el panel)'));
+  full.appendChild(el('h4',{}, state.sel.size ? 'Para tu perfil' : 'Para tu perfil (marca rasgos en el panel)'));
   const TXT = {pos:'A tu favor', mix:'Mixtas', neu:'Neutras (no te afectan o se abstuvo)', neg:'En tu contra'};
   const bar = el('div',{class:'sbar',role:'group','aria-label':'Balance para tu perfil: '+Object.keys(cnt).map(c=>`${TXT[c]}: ${cnt[c]}`).join(', ')});
   Object.keys(cnt).forEach(c=>{
     if(!cnt[c]) return;
     const seg = c==='neu' ? el('span',{class:'c-neu',title:`${TXT[c]}: ${cnt[c]}`,'aria-hidden':'true'})
-      : el('button',{type:'button',class:'c-'+c,'data-k':'sbar-'+c,title:`${TXT[c]}: ${cnt[c]}. Ver solo estas`,'aria-label':`${TXT[c]}: ${cnt[c]}. Ver solo estas`,onclick:()=>{ state.list={who:p,color:c}; keepFocus(renderList); }});
+      : el('button',{type:'button',class:'c-'+c,'data-k':'sbar-'+c,title:`${TXT[c]}: ${cnt[c]}. Ver solo estas`,'aria-label':`${TXT[c]}: ${cnt[c]}. Ver solo estas`,onclick:()=>{ state.list={who:p,color:c}; keepFocus(renderList); say('Lista actualizada: '+LIST_MSG); }});
     seg.style.flex = cnt[c]+' 1 0'; bar.appendChild(seg);
   });
   if(total) full.appendChild(bar);
@@ -1607,6 +1671,7 @@ function shareFicha(p){
   b.addEventListener('click',()=>copyUrl(b, shareUrl(p,null)));
   sh.appendChild(b); return sh;
 }
+let LIST_MSG = '';
 function renderList(){
   const v=$('view-lista'); v.innerHTML='';
   const L = state.list || {who:'', color:null};
@@ -1638,6 +1703,7 @@ function renderList(){
     if(propio()){ v.appendChild(cmpBox(L.who)); v.appendChild(evoBox(L.who)); }
   }
   const lb=el('div',{class:'lbody'});
+  lb.appendChild(el('h3',{class:'lbh',id:'ley-a-ley',tabindex:'-1'}, L.who ? 'Ley a ley' : 'Todas, ley a ley'));
   lb.appendChild(el('p',{class:'lsub'}, L.who ? `Así votó, ley a ley, en lo que te afecta. Verde es a tu favor, rojo en tu contra. En cada ley ves qué es dato oficial del ${srcName()}, qué es clasificación propia y cuánto suma o resta. Cada una enlaza a su registro oficial para que lo compruebes.` : `Todas las leyes y propuestas de la legislatura. En cada una ves qué es dato oficial del ${srcName()} y qué es clasificación propia. Marca tu perfil para ver cuáles te afectan.`));
   lb.appendChild(el('p',{class:'dlinks'}, jsonLink()+repoLink('Revisar la clasificación en GitHub','/tree/main/data/clasificacion')+histLink()));
   v.appendChild(lb);
@@ -1646,7 +1712,7 @@ function renderList(){
   const sWho=el('select',{id:'f-who','data-k':'f-who'}); sWho.appendChild(new Option('Todos los partidos','',false,!L.who)); PARTIES.forEach(p=>sWho.appendChild(new Option(pn(p),p,false,p===L.who)));
   const cols = L.who ? EV_TXT : COLOR_TXT;
   const sCol=el('select',{id:'f-col','data-k':'f-col'}); sCol.appendChild(new Option('Todos los efectos','',false,!L.color)); Object.entries(cols).forEach(([c,t])=>sCol.appendChild(new Option(t,c,false,c===L.color)));
-  const upd=()=>{ state.tab=sTab.value; const w=sWho.value; let c=sCol.value||null; if(w && c==='neu') c=null; state.list={who:w,color:c}; keepFocus(renderList); };
+  const upd=()=>{ state.tab=sTab.value; const w=sWho.value; let c=sCol.value||null; if(w && c==='neu') c=null; state.list={who:w,color:c}; keepFocus(renderList); say('Lista actualizada: '+LIST_MSG); };
   [[sTab,'Tipo de leyes'],[sWho,'Partido'],[sCol,'Efecto']].forEach(([s,t])=>{ s.addEventListener('change',upd); const l=el('label',{for:s.id},esc(t)); l.appendChild(s); fl.appendChild(l); });
   v.appendChild(fl);
 
@@ -1660,6 +1726,8 @@ function renderList(){
     : L.who ? `${rows.length} iniciativas cuentan en el saldo de ${pn(L.who)}: las que te afectan y votó en el Pleno (sin contar abstenciones) o presentó sin llegar a votarlas.`
     : `${rows.length} iniciativas.`;
   v.appendChild(el('p',{class:'hint'}, esc(hint)));
+  // lo que anuncian los filtros: cuántas quedan y con qué filtro
+  LIST_MSG = `${rows.length} ${rows.length===1?'iniciativa':'iniciativas'}. Filtro: ${state.tab==='eco'?'leyes económicas':'leyes sociales'}, ${L.who?pn(L.who):'todos los partidos'}, ${L.color?cols[L.color].toLowerCase():'todos los efectos'}.`;
   // ley de un enlace directo: resaltada en la lista; si con estos filtros no está, se enseña aparte, encima
   const hl = state.hl && ITEMS.find(i=>i.id===state.hl);
   if(hl && !rows.some(x=>x.it===hl)){
@@ -1690,8 +1758,8 @@ function itemRow(it, color, who, ev){
   // dato oficial: votación y voto de cada partido
   if(it.v) mid.appendChild(votesEl(it, PARTIES));
   // clasificación propia: a quién afecta y alcance
-  const affected = [...RASGOS].filter(k=>it.imp[k]);
-  const why = (affected.length? affected.map(k=>`${LABEL[k]}: ${it.imp[k]>0?'beneficia':'perjudica'}`).join(' · ')+'. ' : '') + (it.n||'');
+  const affected = [...RASGOS].filter(k=>impDe(it,k));
+  const why = (affected.length? affected.map(k=>`${LABEL[k]}: ${impDe(it,k)>0?'beneficia':'perjudica'}`).join(' · ')+'. ' : '') + (it.n||'');
   const alcance = (PESO_TXT[it.w]||'Ley menor')+' (×'+wOf(it)+')';
   mid.appendChild(el('p',{class:'why'}, `<span class="orig cp"><svg class="ico" aria-hidden="true"><use href="#i-scale"/></svg>Clasificación propia</span>${esc(why)}${why&&!/[.\s]$/.test(why)?'.':''} Alcance: ${esc(alcance.toLowerCase())}.`));
   // ficha de un partido: aportación exacta de esta ley a su nota (evidence() × wOf())
@@ -1701,7 +1769,7 @@ function itemRow(it, color, who, ev){
       : it.vk==='Enmienda a la totalidad' ? `Su postura ante la ley: <b>${VOTE_TXT[v]}</b>, deducida de la enmienda a la totalidad${it.vd?' del '+esc(it.vd):''}`
       : `Votó <b>${VOTE_TXT[v]}</b> en ${esc(VK_FRASE[it.vk]||it.vk)}${it.vd?' del '+esc(it.vd):''}`;
     const res = ev.c==='pos' ? `Suma +${nf(ap)}` : ev.c==='neg' ? `Resta ${nf(ap)}` : `Mixta: cuenta ${nf(ap)} en el total, no suma ni resta`;
-    mid.appendChild(el('p',{class:'traza','data-c':ev.c,'data-ap':String(ap)}, `<span class="orig ca">Cálculo</span>${delGobierno(it)?GOB_TAG:''}<span>${prueba} · ${esc(alcance)} · Fuerza ${nf(ev.f)} · <b class="ap ${ev.c}">${res}</b></span>`));
+    mid.appendChild(el('p',{class:'traza','data-c':ev.c,'data-ap':String(ap)}, `<span class="orig ca">Cálculo</span>${delGobierno(it)?gobTag(it):''}<span>${prueba} · ${esc(alcance)} · Fuerza ${nf(ev.f)} · <b class="ap ${ev.c}">${res}</b></span>`));
   }
   const lk=el('div',{class:'ilinks'});
   lk.appendChild(el('a',{class:'olink',href:congresoUrl(it.id),target:'_blank',rel:'noopener'}, `Ver en el ${DATA.meta.formato==='europarlamento'?'Parlamento Europeo':'Congreso'}<span class="sr-only"> (se abre en una pestaña nueva)</span>&nbsp;<span aria-hidden="true">↗</span>`));
@@ -1728,7 +1796,7 @@ function renderMethod(){
   <div class="prose">
     <h2>Cómo se calcula</h2>
     <p class="lead">Sin letra pequeña: así sale cada nota, en tres pasos.</p>
-    <p class="mver">${RUBRICA_TXT} <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
+    <p class="mver"><span>${esc(RUBRICA_TXT)}${rubDe(state.ds) && RUB_ULT && rubDe(state.ds).version!==RUB_ULT.version ? ` · esta legislatura sigue con la ${esc(rubTxt(rubDe(state.ds)).replace('Rúbrica ','rúbrica '))}` : ''}</span> <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
     <ol class="tldr" role="list">
       <li><span class="n" aria-hidden="true">1</span><b>Miramos a quién afecta cada ley</b><span class="d">Clasificamos cada ley y propuesta por los colectivos a los que beneficia o perjudica. Lo hemos hecho nosotros, con ayuda de IA, así que puede haber errores.</span></li>
       <li><span class="n" aria-hidden="true">2</span><b>Miramos cómo votó cada partido</b><span class="d">Cuenta sobre todo el voto en el Pleno. Lo que un partido solo presentó, sin llegar a votarlo, pesa poco.</span></li>
@@ -1765,7 +1833,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>Cada iniciativa se ha clasificado como económica o social y se ha marcado a qué colectivos beneficia o perjudica de forma directa, o indirecta pero claramente previsible, a partir de su título y de su contenido conocido. Es una clasificación interpretativa, hecha con criterios uniformes y asistida por IA, y puede contener errores. Las reformas institucionales, procesales o técnicas sin efecto distributivo claro no afectan a ningún colectivo y aparecen en gris.</p>
     <p>«Ciudadanía general» recoge los efectos sobre toda la población: medio ambiente, salud pública, seguridad alimentaria o servicios universales (y, en negativo, cargas que paga todo el mundo, como el IVA). No se usa para reformas institucionales o ideológicas. También recoge lo público frente a lo privado: lo de titularidad o gestión pública es patrimonio de todos, así que las leyes que lo amplían (nacionalizaciones, gestión pública de la sanidad, reversión de concesiones) benefician a la ciudadanía y perjudican al sector privado afectado, y las que lo traspasan a empresas (privatizaciones, externalizaciones, liberalizaciones) hacen lo contrario. Cuando una de estas leyes impone costes a una actividad, se marca el perjuicio al sector correspondiente. Está activa en todos los perfiles; quítala para ver solo tus rasgos particulares.</p>
     <p>«Consumidor y usuario» recoge las leyes que te afectan como cliente: luz, gas, banca, telefonía, transporte o compras. Como casi todo el mundo es consumidor, también está activa por defecto en todos los perfiles; puedes quitarla con la casilla «Incluir leyes de consumo», junto al ranking.</p>
-    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las leyes sobre alquiler y okupación afectan a quien tiene dos o más), hipoteca y alquiler; otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte.</p>
+    <p>Los tramos usados: IRPF por base liquidable de la escala general (19 % hasta 12.450 €, 24 %, 30 %, 37 %, 45 % y 47 % por encima de 300.000 €); vivienda por número de viviendas en propiedad (las leyes sobre alquiler y okupación afectan a quien tiene dos o más), hipoteca y alquiler; otro patrimonio neto sin contar la vivienda habitual, con los umbrales de 700.000 € de mínimo exento y 3 M€ del impuesto de solidaridad; empresas por facturación según la clasificación europea, con los autónomos aparte. Si en el tramo de IRPF marcas «No lo sé», cuentas como asalariado sin tramo concreto: te aplican las leyes que afectan a 3 o más de los 6 tramos, con su efecto, y no las que afectan solo a 1 o 2.</p>
     <h3>Alcance de cada iniciativa</h3>
     <p>Cada iniciativa tiene un alcance: gran reforma (cambia de forma estructural un ámbito que afecta a millones de personas, como una reforma laboral, de pensiones o unos presupuestos), ley relevante (regula de forma sustantiva un sector, un colectivo amplio o un derecho) o ley menor o técnica. Mide el tamaño de la norma, no si es buena o mala ni si se aprobó, y forma parte de la misma clasificación interpretativa.</p>
     <h3>Cómo se calcula el ranking</h3>
@@ -1773,8 +1841,8 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>Para cada partido se toman las iniciativas que afectan a tu perfil y se cuenta cada una una sola vez, según la mejor prueba que haya de su postura. Lo que más pesa es cómo votó: votar el texto final o la convalidación de un real decreto-ley cuenta 1; la toma en consideración o una enmienda a la totalidad, 0,5, porque solo decide si se debate. Las iniciativas que el partido presentó pero no llegó a votar en el Pleno cuentan 0,25: presentar una ley cuesta poco y no siempre busca aprobarla. Las abstenciones no cuentan.</p>
     <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. Al total se le suman 9 puntos neutros de prudencia, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema: el saldo es (a favor − en contra) ÷ (total + 9) × 100, de −100 a +100. Con muchas leyes la prudencia apenas cuenta; con pocas, acerca la nota a 0. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ (12 + 9) × 100 = +29. Sin la prudencia saldría +50.</p>
     <p>${DATA.meta.formato==='europarlamento' ? 'La Comisión Europea no aparece en el ranking: sus propuestas cuentan a través de cómo las votó cada partido.' : 'El Gobierno no aparece en el ranking: sus proyectos de ley y reales decretos-ley cuentan a través de cómo los votó cada partido.'}</p>
-    <p>${DATA.meta.formato==='europarlamento' ? 'Junto al ranking puedes elegir «Dónde votas» en las legislaturas del Congreso. En las elecciones europeas no se aplica: España es una circunscripción única y puedes votar a cualquier lista desde cualquier lugar.'
-      : 'Con «Dónde votas», junto al ranking, ves solo los partidos a los que se puede votar en tu provincia: los de ámbito estatal y los que se presentan en tu provincia o en tu comunidad. El filtro solo oculta filas, como «Ocultar partidos con menos de 3 leyes»: no cambia la nota de nadie, y los puestos se cuentan de nuevo entre los partidos que quedan. Un partido que no esté en el mapa se muestra siempre.'}
+    <p>${DATA.meta.formato==='europarlamento' ? 'Junto al ranking puedes elegir «¿En qué provincia votas?» en las legislaturas del Congreso. En las elecciones europeas no se aplica: España es una circunscripción única y puedes votar a cualquier lista desde cualquier lugar.'
+      : 'Con «¿En qué provincia votas?», junto al ranking, ves solo los partidos a los que se puede votar en tu provincia: los de ámbito estatal y los que se presentan en tu provincia o en tu comunidad. El filtro solo oculta filas, como «Ocultar partidos con menos de 3 leyes»: no cambia la nota de nadie, y los puestos se cuentan de nuevo entre los partidos que quedan. Un partido que no esté en el mapa se muestra siempre.'}
       <span class="tag-int">Asignación nuestra</span>Dónde se presenta cada partido no es un dato del ${srcName()}: ${esc(AMB.criterio || 'es el ámbito en el que se presenta habitualmente a las elecciones generales.')}</p>
     <p class="dlinks">${repoLink('Ver dónde se presenta cada partido (GitHub)','/blob/main/data/ambito_partidos.json')}</p>
     <h3>Cómo se colorea</h3>
@@ -1803,15 +1871,15 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
       <caption>Parlamento Europeo, leyes económicas: partido que sale primero en más perfiles y en qué porcentaje de ellos</caption>
       <thead><tr><th scope="col">Legislatura</th><th scope="col">Con «Ciudadanía general»</th><th scope="col">Sin ella</th></tr></thead>
       <tbody>
-        <tr><th scope="row">10.ª · 2024–2029</th><td>BNG · 46,0 %</td><td>PP · 29,6 %</td></tr>
-        <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 63,2 %</td><td>PP · 45,6 %</td></tr>
+        <tr><th scope="row">10.ª · 2024–2029</th><td>BNG · 46,7 %</td><td>PP · 28,1 %</td></tr>
+        <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 60,2 %</td><td>PP · 24,6 %</td></tr>
       </tbody>
     </table>
-    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 40,1 % de los perfiles, PNV en el 22,8 % y Compromís en el 18,8 %. En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
+    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 42,4 % de los perfiles, PNV en el 30,6 % y PSOE en el 11,4 %. En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
     <p><span class="tag-int">Interpretación nuestra</span>Los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.</p>
     <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','/blob/main/data/analisis/SESGO.md')}</p>
     <h3>Versión de la metodología</h3>
-    <p>${RUBRICA_TXT}. <span id="alcance-v3">Están clasificadas con la v3, por tres lecturas independientes: Congreso de los Diputados XV legislatura, Congreso de los Diputados XIV legislatura, Congreso de los Diputados XIII legislatura, Congreso de los Diputados XII legislatura, Congreso de los Diputados XI legislatura, Parlamento Europeo 10.ª legislatura y Parlamento Europeo 9.ª legislatura. Siguen con la v2, a la espera de reclasificarse igual: Congreso de los Diputados X legislatura, Parlamento Europeo 8.ª legislatura, Parlamento Europeo 7.ª legislatura y Parlamento Europeo 6.ª legislatura.</span> Cada cambio de la rúbrica y de la clasificación queda registrado en GitHub. <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
+    <p>${esc(RUBRICA_TXT)}. <span id="alcance-v3">Están clasificadas con la v3, por tres lecturas independientes: Congreso de los Diputados XV legislatura, Congreso de los Diputados XIV legislatura, Congreso de los Diputados XIII legislatura, Congreso de los Diputados XII legislatura, Congreso de los Diputados XI legislatura, Parlamento Europeo 10.ª legislatura y Parlamento Europeo 9.ª legislatura. Siguen con la v2, a la espera de reclasificarse igual: Congreso de los Diputados X legislatura, Parlamento Europeo 8.ª legislatura, Parlamento Europeo 7.ª legislatura y Parlamento Europeo 6.ª legislatura.</span> Cada cambio de la rúbrica y de la clasificación queda registrado en GitHub. <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
     <p class="small">Datos: ${esc(DATA.meta.fuente_txt)}, datos abiertos (iniciativas y votaciones). Generado el ${esc(DATA.meta.generado)}.</p>
     <p class="dlinks">${jsonLink()}${repoLink('Código y clasificación en GitHub')}</p>
   </div>`;
@@ -1821,7 +1889,12 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
 // ---------- routing ----------
 // al volver al ranking se quita ?partido= para que recargar no reabra la ficha
 const sinPartido = () => { try{ const q=new URLSearchParams(location.search); q.delete('partido'); const t=q.toString(); return t?'?'+t.replace(/%2C/g,','):''; }catch(e){ return location.search; } };
-function go(name){ if(name) location.hash=name; else { try{ history.replaceState(null,'',location.pathname+sinPartido()); }catch(e){ location.hash=''; } route(); } window.scrollTo(0,0); }
+// al volver al ranking, route() lleva el foco (y la vista) a la fila del partido de origen o al título del ranking
+function go(name){ if(name){ location.hash=name; window.scrollTo(0,0); } else { try{ history.replaceState(null,'',location.pathname+sinPartido()); }catch(e){ location.hash=''; } route(); } }
+function volverAlRanking(who){
+  const t = (who && [...document.querySelectorAll('#rank .rrow')].find(b=>b.dataset.p===who)) || $('rank-h');
+  t.focus({preventScroll:true}); t.scrollIntoView({block:t.id==='rank-h'?'start':'center'});
+}
 let lastView='', lastHl=null;
 function route(){
   RASGOS = rasgos();
@@ -1845,8 +1918,9 @@ function route(){
   if(h==='lista') renderList(); else if(h==='metodologia') renderMethod(); else renderPanel();
   document.title = h==='lista' ? (state.list&&state.list.who?pn(state.list.who):'Todas las iniciativas')+' · ¿A quién te conviene votar?' : h==='metodologia' ? 'Cómo se calcula · ¿A quién te conviene votar?' : h==='quienes' ? 'Quién hace esto · ¿A quién te conviene votar?' : '¿A quién te conviene votar?';
   const hlNuevo = state.hl && state.hl!==lastHl;
-  const vista = h+(aviso?'#aviso':'');
+  const vista = h+(aviso?'#aviso':''), antes = lastView;
   if(vista!==lastView){ lastView=vista;
+    if(!h && antes) volverAlRanking(antes==='lista' && state.list ? state.list.who : '');
     if(h && !hlNuevo){
       // primero se lleva la vista arriba (o al aviso) y después se enfoca, para que el foco quede a la vista
       const t = aviso ? $('legal-h') : document.querySelector('#view-'+h+' h2');
@@ -1881,7 +1955,7 @@ function anunciar(){
       res = n ? 'Resultado actualizado: '+n+' partidos comparados'+(filtraProv()?' que se presentan en '+provName():'')+'.' : (propio()?'Ninguna iniciativa afecta a tu perfil.':'');
     }
     const t=[PEND,res].filter(Boolean).join(' '); PEND='';
-    if(t) $('live').textContent = t;
+    if(t) say(t);
   },500);
 }
 
@@ -1929,6 +2003,7 @@ async function load(clave){
   $('gen').textContent = DATA.meta.generado.split('-').reverse().join('/');
   $('foot-src').textContent = DATA.meta.fuente_txt; $('foot-leg').textContent = DATA.meta.leg;
   $('foot-json').setAttribute('href','data/'+clave+'.json'); $('foot-json').setAttribute('download',clave+'.json'); $('foot-hist').setAttribute('href',histUrl());
+  $('foot-rub').textContent = 'Clasificación: '+rubTxt(rubDe(clave)).replace('Rúbrica ','rúbrica ');
   const nv = ITEMS.filter(i=>i.v).length;
   const sv = id => `<svg class="ico" aria-hidden="true"><use href="#${id}"/></svg>`;
   $('hero-stats').innerHTML = `<span class="stat">${sv('i-file')}<b>${ITEMS.length.toLocaleString('es-ES')}</b> leyes y propuestas</span><span class="stat">${sv('i-vote')}<b>${nv.toLocaleString('es-ES')}</b> votadas en el Pleno</span><span class="stat src">${sv('i-cal')}Actualizado el ${esc(DATA.meta.generado.split('-').reverse().join('/'))}</span>`;
