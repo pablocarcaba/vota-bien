@@ -250,8 +250,8 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 ## Pendiente
 
 - [x] **Reclasificar con la rúbrica v3:** hecho en todas las legislaturas. En el Parlamento Europeo 6.ª y 7.ª, 80 y 124 normas sin texto oficial en español conservan la clasificación anterior ([ver arriba](#estado-de-la-rúbrica)).
-- [ ] **Revisar 13 iniciativas con `desSub` que tratan del IMV o de ingresos mínimos** (apuntadas en el `REVISION.md` de cada legislatura del Congreso, de la X a la XV): la rúbrica reserva `desSub` para el subsidio por desempleo.
-- [ ] **Revisar las clasificaciones** de las leyes más relevantes: fiscales, vivienda, pensiones, laboral, migración.
+- [x] **Revisar 13 iniciativas con `desSub` que tratan del IMV o de ingresos mínimos:** releídas con el texto del BOCG por tres lectores independientes; `desSub` se retira salvo donde el texto trata del subsidio por desempleo (`data/clasificacion/lecturas_imv_05-11-2026/` y el `REVISION.md` de cada legislatura).
+- [x] **Revisar las clasificaciones** de las leyes más relevantes (fiscales, vivienda, pensiones, laboral, migración) y los casos en que las lecturas daban signo contrario: revisión humana hecha.
 - [x] **Identificar el partido** de las proposiciones del Grupo Mixto y del Grupo Plural: hecho en 169 de 185 (122/000033 de la X ya está asignada al BNG). Las 16 restantes son, en su mayoría, iniciativas inadmitidas o retiradas sin texto publicado, y el BOCG no dice quién las firma (`data/clasificacion/<clave>/partidos_mixto.json`).
 - [x] **Convertir la clasificación en un proceso repetible** entre legislaturas: [`scripts/lotes_reclasificacion.py`](scripts/lotes_reclasificacion.py), [`scripts/aplicar_reclasificacion.py`](scripts/aplicar_reclasificacion.py), [`scripts/cerrar_reclasificacion.py`](scripts/cerrar_reclasificacion.py) y [`data/clasificacion/PROMPT_LECTOR.md`](data/clasificacion/PROMPT_LECTOR.md).
 - [x] **Leyes ómnibus:** clasificadas medida a medida (campo `medidas`, rúbrica 3.8) con el texto del BOCG o del BOE y tres lecturas independientes (`scripts/consolidar_medidas.py`).
