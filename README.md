@@ -247,15 +247,6 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 | `partido` | Abre la ficha de un partido | `?p=asal3&partido=PP` |
 | `ds` | Abre otra legislatura (por defecto, la más reciente) | `?ds=congreso_xiv` |
 
-## Pendiente
-
-- [x] **Reclasificar con la rúbrica v3:** hecho en todas las legislaturas. En el Parlamento Europeo 6.ª y 7.ª, 80 y 124 normas sin texto oficial en español conservan la clasificación anterior ([ver arriba](#estado-de-la-rúbrica)).
-- [x] **Revisar 13 iniciativas con `desSub` que tratan del IMV o de ingresos mínimos:** releídas con el texto del BOCG por tres lectores independientes; `desSub` se retira salvo donde el texto trata del subsidio por desempleo (`data/clasificacion/lecturas_imv_05-11-2026/` y el `REVISION.md` de cada legislatura).
-- [x] **Revisar las clasificaciones** de las leyes más relevantes (fiscales, vivienda, pensiones, laboral, migración) y los casos en que las lecturas daban signo contrario: revisión humana hecha.
-- [x] **Identificar el partido** de las proposiciones del Grupo Mixto y del Grupo Plural: hecho en 169 de 185 (122/000033 de la X ya está asignada al BNG). Las 16 restantes son, en su mayoría, iniciativas inadmitidas o retiradas sin texto publicado, y el BOCG no dice quién las firma (`data/clasificacion/<clave>/partidos_mixto.json`).
-- [x] **Convertir la clasificación en un proceso repetible** entre legislaturas: [`scripts/lotes_reclasificacion.py`](scripts/lotes_reclasificacion.py), [`scripts/aplicar_reclasificacion.py`](scripts/aplicar_reclasificacion.py), [`scripts/cerrar_reclasificacion.py`](scripts/cerrar_reclasificacion.py) y [`data/clasificacion/PROMPT_LECTOR.md`](data/clasificacion/PROMPT_LECTOR.md).
-- [x] **Leyes ómnibus:** clasificadas medida a medida (campo `medidas`, rúbrica 3.8) con el texto del BOCG o del BOE y tres lecturas independientes (`scripts/consolidar_medidas.py`).
-
 ## Quién hace esto
 
 Lo hacemos **Pablo Carcaba** y **Nacho Rodríguez**, desarrolladores profesionales. No tenemos vínculos con ningún partido político y el proyecto no tiene financiación: ni pública, ni privada, ni de partidos. Todo es público: el código, los datos y la clasificación están en este repositorio.
