@@ -90,3 +90,5 @@ Clasificadas con la regla «Medidas» de 3.8 por tres lectores independientes (C
 - 121/000105: `{}` → `{"inmigrantes": -1}` (rechazo en frontera), peso 1.
 - 121/000118: medida «Prórroga del Impuesto sobre el Patrimonio en 2015» peso 1 → 2 (peso de la ley, 3, sin cambio).
 - 130/000017: se funden las dos medidas «Copago farmacéutico por renta y para pensionistas» en una (`-asal3`…`-asal6`, `-pen1`…`-pen3`, `-mayores`, `-pac`, `+pobreza`); el `imp` de la ley no cambia.
+
+- Unificación entre legislaturas (06/11/2026): 122/000033, 122/000053 y 122/000142 (excluir los crímenes del franquismo de la amnistía de 1977): `{}` → `{"victimas":1}`, peso 1, como 122/000139 (XII) y 122/000022 (XIII); el texto del BOCG repone el derecho de las víctimas a obtener justicia (3.7).

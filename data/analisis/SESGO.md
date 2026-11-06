@@ -990,7 +990,7 @@ Margen mediano entre el 1.º y el 2.º: 10 puntos. Empate técnico en cabeza (2.
 | PP | 0.0 % | 14.9 | -16 |
 | IU-ICV | 0.0 % | 6.6 | +24 |
 | ERC | 0.0 % | 12.8 | +15 |
-| BNG | 0.0 % | 10.0 | +20 |
+| BNG | 0.0 % | 9.9 | +20 |
 | CC | 0.0 % | 4.3 | +31 |
 | Geroa Bai | 0.0 % | 10.6 | +19 |
 
@@ -1037,9 +1037,9 @@ Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.�
 | PP | 1.4 % | 13.6 | -16 |
 | Compromís | 0.6 % | 10.4 | +17 |
 | Amaiur | 0.2 % | 8.3 | +19 |
-| BNG | 0.2 % | 9.1 | +19 |
+| BNG | 0.2 % | 9.0 | +19 |
 | ERC | 0.0 % | 12.7 | +12 |
-| Geroa Bai | 0.0 % | 10.9 | +17 |
+| Geroa Bai | 0.0 % | 11.0 | +17 |
 
 Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 75.1 % de los perfiles; con 2 o más partidos además del primero: 55.6 %.
 

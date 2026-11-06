@@ -280,9 +280,11 @@
  {
   "id": "122/000033",
   "tipo": "soc",
-  "imp": {},
+  "imp": {
+   "victimas": 1
+  },
   "peso": 1,
-  "nota": "Excluye los crímenes de genocidio y lesa humanidad de la Ley de Amnistía; norma penal y de memoria sin colectivo definido.",
+  "nota": "Excluye el genocidio y la lesa humanidad de la amnistía de 1977; repone el derecho de las víctimas del franquismo a obtener justicia.",
   "partido": "BNG"
  },
  {
@@ -468,9 +470,11 @@
  {
   "id": "122/000053",
   "tipo": "soc",
-  "imp": {},
+  "imp": {
+   "victimas": 1
+  },
   "peso": 1,
-  "nota": "Excluye los delitos de lesa humanidad de la amnistía de 1977; norma penal y de memoria sin derechos ni ayudas para un colectivo concreto.",
+  "nota": "Excluye la lesa humanidad de la amnistía de 1977; garantiza a las víctimas del franquismo y sus familiares el acceso a la justicia.",
   "partido": ""
  },
  {

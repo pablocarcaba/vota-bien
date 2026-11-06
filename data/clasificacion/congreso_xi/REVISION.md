@@ -40,3 +40,5 @@ El texto del BOCG en caché de las iniciativas legislativas populares (120/) emp
 ## Aplicación del repaso (06/11/2026)
 
 - 122/000015: `{"empMicro": 1}` → `{}` (regla del umbral).
+
+- Unificación entre legislaturas (06/11/2026): 125/000003 (autoconsumo): `{"ciud":1}` → `{"cons":1}`, peso 2, como el resto de leyes de autoconsumo (X, XII).

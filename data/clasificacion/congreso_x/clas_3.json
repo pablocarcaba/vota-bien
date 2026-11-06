@@ -364,9 +364,11 @@
  {
   "id": "122/000142",
   "tipo": "soc",
-  "imp": {},
+  "imp": {
+   "victimas": 1
+  },
   "peso": 1,
-  "nota": "Declara inaplicable la amnistía de 1977 a crímenes y genocidio con efecto retroactivo; norma penal y de memoria, sin derechos específicos para un colectivo.",
+  "nota": "Declara inaplicable la amnistía de 1977 al genocidio y la lesa humanidad; repone el derecho de las víctimas a obtener justicia.",
   "partido": "BNG"
  },
  {

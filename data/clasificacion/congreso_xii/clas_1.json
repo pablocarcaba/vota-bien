@@ -684,11 +684,10 @@
   "id": "122/000017",
   "tipo": "eco",
   "imp": {
-   "ciud": 1,
    "cons": 1
   },
   "peso": 2,
-  "nota": "Elimina trabas al autoconsumo eléctrico renovable: reduce el impacto ambiental de la generación y la factura de quien autoconsume.",
+  "nota": "Elimina trabas al autoconsumo eléctrico renovable; reduce la factura de los consumidores que generan su propia electricidad.",
   "partido": ""
  },
  {

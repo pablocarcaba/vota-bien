@@ -70,3 +70,5 @@ Clasificadas con la regla «Medidas» de 3.8 por tres lectores independientes (C
 - 125/000010: peso 1 → 2 (grupo de la Ley 52/2007).
 - 122/000234: `{"inq": 1, "pobreza": 1}` → `{"hipot": 1, "inq": 1, "pobreza": 1, "secFin": -1, "casero": -1}`; nuevo grupo [122/000172, 122/000234] en `temas.json`.
 - 121/000020: medida «Prórroga del Impuesto sobre el Patrimonio en 2018» peso 1 → 2 (peso de la ley, 3, sin cambio).
+
+- Unificación entre legislaturas (06/11/2026): 122/000017 (autoconsumo): `{"ciud":1,"cons":1}` → `{"cons":1}`, peso 2, como el resto de leyes de autoconsumo (X, XI, XII 125/000003).
