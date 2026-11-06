@@ -57,44 +57,44 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 48.5 % | 2.4 | +81 |
-| PNV | 21.1 % | 2.7 | +80 |
-| PSOE | 13.0 % | 2.4 | +77 |
-| Sumar | 8.4 % | 4.6 | +73 |
-| ERC | 5.0 % | 4.2 | +74 |
-| Bildu | 2.6 % | 5.3 | +71 |
-| UPN | 0.9 % | 9.9 | +22 |
-| Compromís | 0.5 % | 8.5 | +62 |
+| CC | 47.2 % | 2.4 | +81 |
+| PNV | 22.2 % | 2.7 | +81 |
+| PSOE | 12.8 % | 2.4 | +78 |
+| Sumar | 8.9 % | 4.6 | +73 |
+| ERC | 4.8 % | 4.1 | +75 |
+| Bildu | 2.6 % | 5.3 | +72 |
+| UPN | 1.0 % | 9.8 | +25 |
+| Compromís | 0.5 % | 8.3 | +63 |
 | PP | 0.0 % | 11.9 | +5 |
-| VOX | 0.0 % | 13.0 | -64 |
-| Junts | 0.0 % | 10.7 | +16 |
-| Podemos | 0.0 % | 8.3 | +63 |
-| BNG | 0.0 % | 7.3 | +67 |
+| VOX | 0.0 % | 13.0 | -65 |
+| Junts | 0.0 % | 10.7 | +18 |
+| Podemos | 0.0 % | 8.5 | +63 |
+| BNG | 0.0 % | 7.2 | +67 |
 
-Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 97.2 % de los perfiles; con 2 o más partidos además del primero: 55.1 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 97.2 % de los perfiles; con 2 o más partidos además del primero: 56.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Sumar +81, PSOE +81, Bildu +81
-- Joven de alquiler: Sumar +83, PSOE +83, Bildu +83
+- Asalariado medio con hipoteca e hijos: PSOE +82, Bildu +82, Sumar +81
+- Joven de alquiler: Sumar +84, PSOE +84, Bildu +84
 - Pensionista con casa propia: PSOE +88, ERC +88, PNV +88
 - Pensionista con pensión baja: PSOE +89, PNV +89, CC +89
-- Autónomo del comercio: CC +67, PNV +67, PSOE +62
+- Autónomo del comercio: CC +68, PNV +68, PSOE +63
 - Empresario de pyme industrial: UPN +60, PNV +57, CC +51
-- Funcionario docente: PSOE +81, Bildu +81, PNV +81
-- Policía o guardia civil: PSOE +81, Bildu +81, PNV +81
-- Sanitario asalariado: PSOE +79, Bildu +79, ERC +78
-- Familia numerosa: Sumar +81, PSOE +81, Bildu +81
-- Rentas altas con patrimonio: CC +68, PNV +67, PSOE +60
-- Gran patrimonio y gran empresa: PNV +59, CC +58, UPN +52
-- Parado con subsidio: Sumar +82, PSOE +81, ERC +81
+- Funcionario docente: PSOE +82, Bildu +82, ERC +81
+- Policía o guardia civil: PSOE +82, Bildu +82, ERC +81
+- Sanitario asalariado: PSOE +80, Bildu +80, PNV +79
+- Familia numerosa: PSOE +82, Bildu +82, Sumar +81
+- Rentas altas con patrimonio: CC +69, PNV +68, PSOE +62
+- Gran patrimonio y gran empresa: PNV +60, CC +59, UPN +54
+- Parado con subsidio: Sumar +83, PSOE +82, ERC +82
 - Agricultor en el medio rural: PNV +74, CC +69, ERC +63
-- Madre sola con hijo: Sumar +85, PSOE +84, Bildu +83
-- Estudiante: PSOE +74, Sumar +74, ERC +74
+- Madre sola con hijo: Sumar +85, PSOE +84, Bildu +84
+- Estudiante: PSOE +75, Sumar +75, ERC +75
 - Mayor dependiente: PSOE +89, PNV +89, CC +89
-- Casero con varias viviendas: PSOE +48, ERC +48, Bildu +47
+- Casero con varias viviendas: PSOE +49, ERC +49, PNV +48
 - Transportista autónomo: PNV +70, CC +70, PSOE +66
-- Asalariado de salario mínimo: Sumar +83, PSOE +83, Bildu +83
+- Asalariado de salario mínimo: Sumar +84, PSOE +84, Bildu +83
 
 </details>
 
@@ -194,49 +194,49 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 23.6 % | 3.0 | +75 |
-| Unidas Podemos | 21.6 % | 2.8 | +76 |
-| Compromís | 17.4 % | 4.4 | +75 |
-| PRC | 13.4 % | 4.4 | +73 |
-| Más País | 12.9 % | 4.0 | +75 |
-| PDeCAT | 2.7 % | 7.3 | +65 |
-| PNV | 2.5 % | 7.9 | +63 |
-| CC | 2.4 % | 9.3 | +56 |
-| Bildu | 1.8 % | 9.4 | +58 |
-| Cs | 1.6 % | 12.3 | +35 |
+| PSOE | 23.9 % | 3.0 | +75 |
+| Unidas Podemos | 21.3 % | 2.7 | +76 |
+| Compromís | 16.8 % | 4.4 | +75 |
+| PRC | 13.7 % | 4.4 | +73 |
+| Más País | 13.2 % | 4.0 | +76 |
+| PDeCAT | 3.1 % | 7.3 | +65 |
+| PNV | 2.3 % | 7.9 | +63 |
+| CC | 2.2 % | 9.4 | +56 |
+| Bildu | 1.9 % | 9.4 | +59 |
+| Cs | 1.4 % | 12.3 | +35 |
 | PP | 0.0 % | 15.5 | +9 |
 | VOX | 0.0 % | 19.6 | -37 |
-| ERC | 0.0 % | 10.4 | +55 |
+| ERC | 0.0 % | 10.5 | +55 |
 | Junts | 0.0 % | 14.5 | +21 |
-| BNG | 0.0 % | 15.5 | +13 |
+| BNG | 0.0 % | 15.4 | +14 |
 | CUP | 0.0 % | 19.3 | -32 |
-| UPN | 0.0 % | 16.0 | +8 |
+| UPN | 0.0 % | 16.0 | +7 |
 | NC | 0.0 % | 9.8 | +58 |
 | Foro | 0.0 % | 17.9 | -9 |
 | Teruel Existe | 0.0 % | 6.6 | +69 |
 
-Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 93.3 % de los perfiles; con 2 o más partidos además del primero: 80.8 %.
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 93.8 % de los perfiles; con 2 o más partidos además del primero: 81.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Unidas Podemos +86, Compromís +86, Más País +85
-- Joven de alquiler: Compromís +87, Unidas Podemos +86, Más País +86
-- Pensionista con casa propia: PNV +87, PDeCAT +87, Unidas Podemos +86
-- Pensionista con pensión baja: PNV +87, PDeCAT +87, Unidas Podemos +86
+- Asalariado medio con hipoteca e hijos: Unidas Podemos +86, Compromís +86, Más País +86
+- Joven de alquiler: Unidas Podemos +87, Compromís +87, Más País +86
+- Pensionista con casa propia: PDeCAT +88, Unidas Podemos +87, PSOE +87
+- Pensionista con pensión baja: PDeCAT +88, Unidas Podemos +87, PSOE +87
 - Autónomo del comercio: Unidas Podemos +84, Más País +82, PSOE +80
 - Empresario de pyme industrial: Cs +72, PDeCAT +65, PSOE +64
 - Funcionario docente: Unidas Podemos +87, Compromís +87, Más País +86
-- Policía o guardia civil: Unidas Podemos +85, Compromís +85, Más País +84
-- Sanitario asalariado: Compromís +85, Unidas Podemos +84, Más País +84
-- Familia numerosa: Unidas Podemos +86, Compromís +86, Más País +85
-- Rentas altas con patrimonio: Cs +62, PP +50, PSOE +49
-- Gran patrimonio y gran empresa: CC +54, PNV +54, Cs +53
+- Policía o guardia civil: Compromís +86, Unidas Podemos +85, Más País +85
+- Sanitario asalariado: Unidas Podemos +85, Compromís +85, Más País +85
+- Familia numerosa: Unidas Podemos +86, Compromís +86, Más País +86
+- Rentas altas con patrimonio: Cs +61, PP +50, PSOE +49
+- Gran patrimonio y gran empresa: PNV +55, CC +54, Cs +53
 - Parado con subsidio: Unidas Podemos +89, Más País +88, Compromís +88
 - Agricultor en el medio rural: PSOE +85, Unidas Podemos +85, PRC +84
 - Madre sola con hijo: Unidas Podemos +88, Compromís +88, Más País +88
-- Estudiante: Unidas Podemos +76, PSOE +76, Más País +76
-- Mayor dependiente: PDeCAT +88, Unidas Podemos +87, PSOE +87
-- Casero con varias viviendas: PSOE +54, PRC +53, Compromís +51
+- Estudiante: Unidas Podemos +77, PSOE +77, PDeCAT +77
+- Mayor dependiente: PNV +88, PDeCAT +88, Unidas Podemos +87
+- Casero con varias viviendas: PSOE +55, PRC +54, Compromís +52
 - Transportista autónomo: PSOE +86, Unidas Podemos +85, PRC +84
 - Asalariado de salario mínimo: Unidas Podemos +87, Compromís +87, Más País +87
 
@@ -246,11 +246,11 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PRC | 51.8 % | 2.6 | +76 |
-| Compromís | 27.4 % | 4.0 | +75 |
+| PRC | 51.7 % | 2.6 | +76 |
+| Compromís | 27.3 % | 4.0 | +75 |
 | Unidas Podemos | 6.1 % | 3.7 | +75 |
-| Más País | 5.0 % | 4.6 | +74 |
-| PSOE | 4.7 % | 3.7 | +74 |
+| Más País | 5.1 % | 4.6 | +75 |
+| PSOE | 4.8 % | 3.7 | +74 |
 | Bildu | 2.0 % | 9.2 | +58 |
 | Cs | 1.0 % | 12.5 | +30 |
 | PNV | 1.0 % | 8.1 | +61 |
@@ -267,7 +267,7 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 | Foro | 0.0 % | 17.7 | -6 |
 | Teruel Existe | 0.0 % | 6.2 | +69 |
 
-Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 78.2 % de los perfiles; con 2 o más partidos además del primero: 61.9 %.
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 78.3 % de los perfiles; con 2 o más partidos además del primero: 62.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -275,8 +275,8 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 - Joven de alquiler: Compromís +87, Unidas Podemos +86, Más País +86
 - Pensionista con casa propia: PRC +88, PDeCAT +88, Compromís +87
 - Pensionista con pensión baja: PRC +88, PDeCAT +88, Compromís +87
-- Autónomo del comercio: Unidas Podemos +84, Más País +81, PRC +81
-- Empresario de pyme industrial: Cs +70, PRC +66, PDeCAT +63
+- Autónomo del comercio: Unidas Podemos +84, Más País +81, PRC +80
+- Empresario de pyme industrial: Cs +70, PRC +66, PDeCAT +64
 - Funcionario docente: Unidas Podemos +87, Compromís +87, Más País +86
 - Policía o guardia civil: Compromís +86, Unidas Podemos +85, Más País +84
 - Sanitario asalariado: Compromís +85, Unidas Podemos +84, Más País +84
@@ -288,7 +288,7 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 - Madre sola con hijo: Compromís +89, Unidas Podemos +88, Más País +88
 - Estudiante: PRC +78, PDeCAT +76, Compromís +75
 - Mayor dependiente: PRC +89, PNV +88, PDeCAT +88
-- Casero con varias viviendas: PRC +55, PSOE +50, PDeCAT +48
+- Casero con varias viviendas: PRC +56, PSOE +51, PDeCAT +49
 - Transportista autónomo: PRC +86, PSOE +85, Unidas Podemos +85
 - Asalariado de salario mínimo: Compromís +88, Unidas Podemos +87, Más País +87
 
@@ -298,28 +298,28 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Más País | 54.2 % | 2.0 | +67 |
-| Teruel Existe | 28.7 % | 2.8 | +65 |
-| Compromís | 11.5 % | 3.2 | +63 |
-| Unidas Podemos | 2.4 % | 4.3 | +61 |
-| PNV | 1.2 % | 11.3 | +42 |
-| BNG | 0.8 % | 7.8 | +50 |
-| CC | 0.6 % | 6.2 | +55 |
-| PSOE | 0.4 % | 7.4 | +53 |
-| Cs | 0.1 % | 13.2 | +30 |
-| PRC | 0.1 % | 6.4 | +54 |
-| PP | 0.0 % | 15.5 | +17 |
-| VOX | 0.0 % | 20.0 | -30 |
+| Más País | 51.9 % | 2.1 | +67 |
+| Teruel Existe | 33.7 % | 2.5 | +65 |
+| Compromís | 10.6 % | 3.3 | +63 |
+| Unidas Podemos | 2.3 % | 4.3 | +61 |
+| PNV | 0.8 % | 11.4 | +42 |
+| CC | 0.3 % | 6.2 | +55 |
+| PSOE | 0.2 % | 7.4 | +53 |
+| BNG | 0.2 % | 7.8 | +50 |
+| Cs | 0.1 % | 13.2 | +29 |
+| PP | 0.0 % | 15.6 | +17 |
+| VOX | 0.0 % | 20.0 | -31 |
 | ERC | 0.0 % | 12.4 | +38 |
-| Junts | 0.0 % | 15.9 | +22 |
-| Bildu | 0.0 % | 11.7 | +41 |
+| Junts | 0.0 % | 16.0 | +22 |
+| Bildu | 0.0 % | 11.8 | +40 |
 | PDeCAT | 0.0 % | 10.5 | +43 |
-| CUP | 0.0 % | 16.5 | +19 |
-| UPN | 0.0 % | 15.4 | +18 |
-| NC | 0.0 % | 10.1 | +45 |
-| Foro | 0.0 % | 17.4 | +11 |
+| CUP | 0.0 % | 16.4 | +19 |
+| UPN | 0.0 % | 15.5 | +18 |
+| NC | 0.0 % | 9.8 | +45 |
+| PRC | 0.0 % | 6.5 | +54 |
+| Foro | 0.0 % | 17.4 | +10 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 73.2 % de los perfiles; con 2 o más partidos además del primero: 27.6 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 70.5 % de los perfiles; con 2 o más partidos además del primero: 24.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -328,13 +328,13 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 - Pensionista con casa propia: Más País +58, Unidas Podemos +55, Compromís +53
 - Pensionista con pensión baja: Más País +58, Unidas Podemos +55, Compromís +53
 - Autónomo del comercio: Más País +59, Compromís +51, Teruel Existe +49
-- Empresario de pyme industrial: PNV +31, Compromís +29, Teruel Existe +29
+- Empresario de pyme industrial: Teruel Existe +30, PNV +27, Compromís +25
 - Funcionario docente: Más País +71, Unidas Podemos +70, Teruel Existe +62
 - Policía o guardia civil: Compromís +52, Más País +50, Unidas Podemos +47
 - Sanitario asalariado: Más País +60, Unidas Podemos +58, Compromís +58
 - Familia numerosa: Más País +69, Compromís +66, Teruel Existe +62
 - Rentas altas con patrimonio: Compromís +44, Más País +43, Teruel Existe +42
-- Gran patrimonio y gran empresa: Compromís +47, Más País +46, PNV +44
+- Gran patrimonio y gran empresa: Compromís +44, Más País +43, Teruel Existe +42
 - Parado con subsidio: Más País +68, Unidas Podemos +67, Compromís +65
 - Agricultor en el medio rural: Más País +53, Unidas Podemos +51, Teruel Existe +49
 - Madre sola con hijo: Más País +80, Compromís +75, Teruel Existe +75
@@ -350,28 +350,28 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Teruel Existe | 47.5 % | 2.6 | +60 |
-| Más País | 15.4 % | 4.9 | +53 |
-| PRC | 7.4 % | 6.9 | +47 |
-| Cs | 5.7 % | 12.2 | +25 |
-| Compromís | 4.8 % | 6.0 | +51 |
-| PNV | 4.1 % | 13.2 | +31 |
-| BNG | 3.7 % | 7.9 | +45 |
-| PDeCAT | 2.5 % | 5.9 | +52 |
-| ERC | 1.8 % | 9.9 | +44 |
-| CC | 1.7 % | 7.7 | +47 |
-| PSOE | 1.4 % | 8.2 | +45 |
-| Unidas Podemos | 1.0 % | 8.3 | +47 |
-| Junts | 0.8 % | 13.3 | +29 |
-| VOX | 0.7 % | 18.7 | -11 |
-| NC | 0.7 % | 12.0 | +38 |
-| Bildu | 0.5 % | 12.9 | +33 |
-| CUP | 0.3 % | 16.3 | +16 |
-| Foro | 0.1 % | 14.7 | +18 |
-| PP | 0.0 % | 13.0 | +21 |
-| UPN | 0.0 % | 14.9 | +17 |
+| Teruel Existe | 53.4 % | 2.3 | +60 |
+| Más País | 14.7 % | 4.9 | +53 |
+| PRC | 5.9 % | 7.0 | +46 |
+| Cs | 5.4 % | 12.2 | +24 |
+| Compromís | 4.7 % | 6.1 | +50 |
+| PNV | 3.9 % | 13.2 | +30 |
+| BNG | 1.9 % | 8.0 | +44 |
+| ERC | 1.7 % | 9.9 | +43 |
+| PDeCAT | 1.6 % | 6.0 | +52 |
+| CC | 1.3 % | 7.7 | +46 |
+| PSOE | 1.2 % | 8.2 | +45 |
+| Unidas Podemos | 0.9 % | 8.3 | +46 |
+| NC | 0.9 % | 11.7 | +38 |
+| VOX | 0.8 % | 18.7 | -12 |
+| Junts | 0.7 % | 13.4 | +28 |
+| Bildu | 0.5 % | 13.0 | +32 |
+| CUP | 0.5 % | 16.2 | +17 |
+| Foro | 0.1 % | 14.7 | +17 |
+| PP | 0.0 % | 13.0 | +20 |
+| UPN | 0.0 % | 14.9 | +16 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 74.5 % de los perfiles; con 2 o más partidos además del primero: 34.4 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 73.6 % de los perfiles; con 2 o más partidos además del primero: 33.6 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -380,13 +380,13 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
 - Autónomo del comercio: BNG +36, NC +33, Junts +32
-- Empresario de pyme industrial: VOX +42, Junts +33, ERC +17
+- Empresario de pyme industrial: VOX +38, Junts +27, CUP +15
 - Funcionario docente: PSOE +55, Unidas Podemos +55, ERC +55
 - Policía o guardia civil: Compromís +19, PRC +16, Teruel Existe +15
 - Sanitario asalariado: PRC +36, Teruel Existe +33, Compromís +32
 - Familia numerosa: PRC +54, Teruel Existe +54, Más País +50
 - Rentas altas con patrimonio: PNV +19, Cs +16, Teruel Existe +13
-- Gran patrimonio y gran empresa: PNV +27, Cs +24, PRC +21
+- Gran patrimonio y gran empresa: PNV +19, Cs +16, Teruel Existe +13
 - Parado con subsidio: Unidas Podemos +49, Más País +48, PSOE +47
 - Agricultor en el medio rural: BNG +31, CUP +31, Teruel Existe +30
 - Madre sola con hijo: Más País +74, Teruel Existe +74, PDeCAT +71
@@ -404,15 +404,15 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 86.4 % | 1.0 | +9 |
-| Unidas Podemos | 13.6 % | 1.4 | +1 |
+| PP | 74.4 % | 1.0 | +11 |
+| Unidas Podemos | 25.6 % | 1.5 | -9 |
 
-Margen mediano entre el 1.º y el 2.º: 13 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 0.4 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
+Margen mediano entre el 1.º y el 2.º: 20 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 0.0 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: sin resultado
-- Joven de alquiler: PP +9
+- Joven de alquiler: sin resultado
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
 - Autónomo del comercio: sin resultado
@@ -426,7 +426,7 @@ Margen mediano entre el 1.º y el 2.º: 13 puntos. Empate técnico en cabeza (2.
 - Parado con subsidio: sin resultado
 - Agricultor en el medio rural: sin resultado
 - Madre sola con hijo: sin resultado
-- Estudiante: PP +9
+- Estudiante: sin resultado
 - Mayor dependiente: sin resultado
 - Casero con varias viviendas: sin resultado
 - Transportista autónomo: sin resultado
@@ -438,15 +438,15 @@ Margen mediano entre el 1.º y el 2.º: 13 puntos. Empate técnico en cabeza (2.
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 98.6 % | 1.0 | +9 |
-| Unidas Podemos | 1.4 % | 1.8 | -9 |
+| PP | 74.4 % | 1.0 | +11 |
+| Unidas Podemos | 25.6 % | 1.5 | -9 |
 
 Margen mediano entre el 1.º y el 2.º: 20 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 0.0 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: sin resultado
-- Joven de alquiler: PP +9
+- Joven de alquiler: sin resultado
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
 - Autónomo del comercio: sin resultado
@@ -460,7 +460,7 @@ Margen mediano entre el 1.º y el 2.º: 20 puntos. Empate técnico en cabeza (2.
 - Parado con subsidio: sin resultado
 - Agricultor en el medio rural: sin resultado
 - Madre sola con hijo: sin resultado
-- Estudiante: PP +9
+- Estudiante: sin resultado
 - Mayor dependiente: sin resultado
 - Casero con varias viviendas: sin resultado
 - Transportista autónomo: sin resultado
@@ -546,21 +546,21 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 65.5 % | 1.9 | +56 |
-| PP | 9.9 % | 5.7 | +38 |
-| PNV | 8.2 % | 4.8 | +44 |
-| UPN | 7.2 % | 2.9 | +50 |
-| Foro | 5.2 % | 4.9 | +43 |
-| PDeCAT | 1.9 % | 7.8 | +27 |
-| Cs | 1.6 % | 5.7 | +38 |
-| NC | 0.3 % | 6.1 | +35 |
-| PSOE | 0.0 % | 6.2 | +35 |
-| Unidos Podemos | 0.0 % | 10.4 | +12 |
-| ERC | 0.0 % | 11.6 | +2 |
-| Compromís | 0.0 % | 10.3 | +14 |
-| Bildu | 0.0 % | 12.9 | -11 |
+| CC | 66.2 % | 1.9 | +55 |
+| PP | 9.7 % | 5.9 | +37 |
+| PNV | 7.6 % | 4.9 | +43 |
+| UPN | 7.3 % | 2.9 | +49 |
+| Foro | 5.2 % | 5.0 | +42 |
+| PDeCAT | 2.1 % | 7.5 | +28 |
+| Cs | 1.6 % | 5.8 | +37 |
+| NC | 0.3 % | 6.2 | +34 |
+| PSOE | 0.0 % | 5.9 | +36 |
+| Unidos Podemos | 0.0 % | 10.4 | +13 |
+| ERC | 0.0 % | 11.5 | +3 |
+| Compromís | 0.0 % | 10.2 | +15 |
+| Bildu | 0.0 % | 12.9 | -10 |
 
-Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 54.8 % de los perfiles; con 2 o más partidos además del primero: 8.8 %.
+Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 54.3 % de los perfiles; con 2 o más partidos además del primero: 8.7 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -574,8 +574,8 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 - Policía o guardia civil: UPN +69, Cs +64, CC +64
 - Sanitario asalariado: UPN +53, Cs +51, CC +46
 - Familia numerosa: UPN +72, CC +67, PSOE +52
-- Rentas altas con patrimonio: Cs +49, PP +39, CC +34
-- Gran patrimonio y gran empresa: Foro +49, PDeCAT +39, UPN +35
+- Rentas altas con patrimonio: Cs +44, PP +34, CC +30
+- Gran patrimonio y gran empresa: Foro +45, PDeCAT +40, UPN +31
 - Parado con subsidio: CC +73, PSOE +71, PNV +65
 - Agricultor en el medio rural: UPN +62, Cs +58, PP +58
 - Madre sola con hijo: CC +59, NC +47, UPN +44
@@ -591,21 +591,21 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 65.6 % | 1.9 | +56 |
-| PP | 9.9 % | 5.7 | +38 |
-| PNV | 8.2 % | 4.7 | +44 |
-| UPN | 7.2 % | 2.9 | +50 |
-| Foro | 5.2 % | 4.9 | +43 |
-| PDeCAT | 1.9 % | 7.8 | +26 |
-| Cs | 1.6 % | 5.6 | +38 |
-| NC | 0.3 % | 6.0 | +35 |
-| PSOE | 0.0 % | 6.3 | +34 |
-| Unidos Podemos | 0.0 % | 10.5 | +11 |
-| ERC | 0.0 % | 11.5 | +2 |
-| Compromís | 0.0 % | 10.3 | +14 |
-| Bildu | 0.0 % | 12.9 | -11 |
+| CC | 66.2 % | 1.9 | +55 |
+| PP | 9.8 % | 5.9 | +37 |
+| PNV | 7.6 % | 4.9 | +43 |
+| UPN | 7.3 % | 2.9 | +49 |
+| Foro | 5.2 % | 5.0 | +42 |
+| PDeCAT | 2.0 % | 7.6 | +27 |
+| Cs | 1.6 % | 5.8 | +37 |
+| NC | 0.3 % | 6.2 | +34 |
+| PSOE | 0.0 % | 6.0 | +35 |
+| Unidos Podemos | 0.0 % | 10.4 | +12 |
+| ERC | 0.0 % | 11.5 | +3 |
+| Compromís | 0.0 % | 10.2 | +15 |
+| Bildu | 0.0 % | 12.9 | -10 |
 
-Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 54.9 % de los perfiles; con 2 o más partidos además del primero: 8.8 %.
+Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 54.3 % de los perfiles; con 2 o más partidos además del primero: 8.7 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -619,8 +619,8 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 - Policía o guardia civil: UPN +69, Cs +64, CC +64
 - Sanitario asalariado: UPN +53, Cs +51, CC +46
 - Familia numerosa: UPN +72, CC +67, Foro +52
-- Rentas altas con patrimonio: Cs +49, PP +39, CC +34
-- Gran patrimonio y gran empresa: Foro +49, PDeCAT +38, UPN +35
+- Rentas altas con patrimonio: Cs +44, PP +34, CC +30
+- Gran patrimonio y gran empresa: Foro +45, PDeCAT +39, UPN +31
 - Parado con subsidio: CC +73, PSOE +71, PNV +65
 - Agricultor en el medio rural: UPN +62, Cs +58, PP +58
 - Madre sola con hijo: CC +59, NC +47, UPN +44
@@ -636,44 +636,44 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidos Podemos | 59.6 % | 1.5 | +52 |
-| UPN | 28.6 % | 5.0 | +42 |
-| PSOE | 6.7 % | 2.7 | +49 |
-| Cs | 3.8 % | 5.6 | +41 |
-| CC | 1.2 % | 7.9 | +35 |
-| PDeCAT | 0.1 % | 5.2 | +42 |
-| PP | 0.0 % | 10.9 | +23 |
-| ERC | 0.0 % | 5.8 | +40 |
-| PNV | 0.0 % | 10.5 | +27 |
-| Compromís | 0.0 % | 6.7 | +40 |
-| Bildu | 0.0 % | 9.1 | +36 |
-| NC | 0.0 % | 9.4 | +33 |
-| Foro | 0.0 % | 10.7 | +27 |
+| Unidos Podemos | 75.5 % | 1.3 | +53 |
+| UPN | 21.1 % | 5.0 | +41 |
+| PSOE | 1.4 % | 2.6 | +48 |
+| Cs | 1.3 % | 6.5 | +37 |
+| CC | 0.5 % | 8.4 | +32 |
+| PDeCAT | 0.1 % | 5.6 | +40 |
+| PP | 0.0 % | 11.3 | +20 |
+| ERC | 0.0 % | 5.0 | +41 |
+| PNV | 0.0 % | 10.5 | +26 |
+| Compromís | 0.0 % | 6.0 | +42 |
+| Bildu | 0.0 % | 8.1 | +37 |
+| NC | 0.0 % | 9.5 | +32 |
+| Foro | 0.0 % | 11.1 | +25 |
 
-Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 55.0 % de los perfiles; con 2 o más partidos además del primero: 18.8 %.
+Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 34.1 % de los perfiles; con 2 o más partidos además del primero: 6.2 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Unidos Podemos +42, UPN +37, PSOE +36
-- Joven de alquiler: Unidos Podemos +42, PSOE +39, ERC +33
-- Pensionista con casa propia: Unidos Podemos +37, UPN +35, PSOE +34
-- Pensionista con pensión baja: Unidos Podemos +37, UPN +35, PSOE +34
-- Autónomo del comercio: Unidos Podemos +28, UPN +27, PSOE +21
-- Empresario de pyme industrial: UPN +20, Unidos Podemos +16, PSOE +14
-- Funcionario docente: Unidos Podemos +40, PSOE +36, CC +34
-- Policía o guardia civil: UPN +29, Unidos Podemos +26, PSOE +26
-- Sanitario asalariado: Unidos Podemos +28, UPN +27, PSOE +21
-- Familia numerosa: Unidos Podemos +42, UPN +37, PSOE +36
-- Rentas altas con patrimonio: UPN +29, Unidos Podemos +23, PNV +18
-- Gran patrimonio y gran empresa: UPN +29, Unidos Podemos +23, PSOE +21
-- Parado con subsidio: Unidos Podemos +39, UPN +35, PSOE +29
-- Agricultor en el medio rural: UPN +29, PSOE +24, Unidos Podemos +23
-- Madre sola con hijo: UPN +64, Unidos Podemos +57, PSOE +55
-- Estudiante: PSOE +48, Unidos Podemos +47, Compromís +41
-- Mayor dependiente: Unidos Podemos +40, UPN +35, PSOE +34
-- Casero con varias viviendas: UPN +29, Unidos Podemos +23, PNV +18
-- Transportista autónomo: Unidos Podemos +28, UPN +27, PSOE +21
-- Asalariado de salario mínimo: UPN +35, Unidos Podemos +34, PSOE +29
+- Asalariado medio con hipoteca e hijos: Unidos Podemos +47, UPN +41, PSOE +39
+- Joven de alquiler: Unidos Podemos +42, PSOE +37, ERC +34
+- Pensionista con casa propia: Unidos Podemos +38, PSOE +32, UPN +32
+- Pensionista con pensión baja: Unidos Podemos +38, PSOE +32, UPN +32
+- Autónomo del comercio: Unidos Podemos +35, UPN +32, PSOE +27
+- Empresario de pyme industrial: UPN +18, Unidos Podemos +17, PSOE +12
+- Funcionario docente: Unidos Podemos +45, PSOE +39, ERC +38
+- Policía o guardia civil: UPN +34, Unidos Podemos +33, PSOE +31
+- Sanitario asalariado: Unidos Podemos +29, UPN +24, PSOE +19
+- Familia numerosa: Unidos Podemos +47, UPN +41, PSOE +39
+- Rentas altas con patrimonio: UPN +27, Unidos Podemos +25, PSOE +15
+- Gran patrimonio y gran empresa: UPN +27, Unidos Podemos +25, PSOE +19
+- Parado con subsidio: Unidos Podemos +40, UPN +32, PSOE +27
+- Agricultor en el medio rural: Unidos Podemos +27, UPN +25, PSOE +21
+- Madre sola con hijo: UPN +62, Unidos Podemos +57, PSOE +54
+- Estudiante: Unidos Podemos +48, PSOE +47, Compromís +42
+- Mayor dependiente: Unidos Podemos +41, PSOE +32, UPN +32
+- Casero con varias viviendas: Cs +25, CC +21, PP +18
+- Transportista autónomo: Unidos Podemos +29, UPN +24, PSOE +19
+- Asalariado de salario mínimo: Unidos Podemos +35, UPN +32, PSOE +27
 
 </details>
 
@@ -681,34 +681,34 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidos Podemos | 48.4 % | 2.2 | +47 |
-| PSOE | 12.4 % | 3.0 | +46 |
-| Cs | 11.4 % | 5.6 | +38 |
-| UPN | 10.5 % | 7.7 | +32 |
-| PDeCAT | 7.9 % | 4.2 | +43 |
-| Foro | 5.3 % | 8.5 | +31 |
-| CC | 1.4 % | 9.1 | +31 |
-| Bildu | 1.3 % | 8.2 | +38 |
-| PP | 1.1 % | 9.1 | +25 |
-| Compromís | 0.2 % | 6.4 | +42 |
-| ERC | 0.1 % | 6.0 | +40 |
+| Unidos Podemos | 50.3 % | 2.1 | +48 |
+| PSOE | 12.3 % | 2.9 | +46 |
+| UPN | 12.2 % | 7.3 | +33 |
+| PDeCAT | 9.2 % | 4.1 | +43 |
+| Cs | 8.1 % | 6.2 | +36 |
+| Foro | 4.4 % | 9.0 | +29 |
+| Bildu | 1.3 % | 8.0 | +39 |
+| CC | 1.1 % | 9.5 | +29 |
+| PP | 0.7 % | 9.6 | +23 |
+| Compromís | 0.2 % | 6.1 | +42 |
+| ERC | 0.1 % | 5.8 | +40 |
 | PNV | 0.1 % | 10.6 | +24 |
-| NC | 0.0 % | 9.6 | +33 |
+| NC | 0.0 % | 9.3 | +34 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 76.3 % de los perfiles; con 2 o más partidos además del primero: 31.7 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 74.6 % de los perfiles; con 2 o más partidos además del primero: 29.7 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: Unidos Podemos +30, Cs +28, PSOE +25
+- Asalariado medio con hipoteca e hijos: Unidos Podemos +37, PSOE +33, PDeCAT +32
 - Joven de alquiler: Unidos Podemos +30, PSOE +29, ERC +28
 - Pensionista con casa propia: Unidos Podemos +23, PSOE +22
 - Pensionista con pensión baja: Unidos Podemos +23, PSOE +22
 - Autónomo del comercio: sin resultado
 - Empresario de pyme industrial: CC -4, PP -6, Cs -11
-- Funcionario docente: sin resultado
-- Policía o guardia civil: Unidos Podemos +4
+- Funcionario docente: Unidos Podemos +35
+- Policía o guardia civil: PSOE +20, Unidos Podemos +16
 - Sanitario asalariado: sin resultado
-- Familia numerosa: Unidos Podemos +30, Cs +28, PSOE +25
+- Familia numerosa: Unidos Podemos +37, PSOE +33, PDeCAT +32
 - Rentas altas con patrimonio: sin resultado
 - Gran patrimonio y gran empresa: sin resultado
 - Parado con subsidio: Unidos Podemos +25
@@ -716,7 +716,7 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 - Madre sola con hijo: UPN +58, Unidos Podemos +55, PSOE +53
 - Estudiante: PSOE +44, Compromís +40, Unidos Podemos +38
 - Mayor dependiente: Unidos Podemos +27, PSOE +22
-- Casero con varias viviendas: sin resultado
+- Casero con varias viviendas: PP +23, Cs +20, Unidos Podemos -14
 - Transportista autónomo: sin resultado
 - Asalariado de salario mínimo: sin resultado
 
@@ -812,11 +812,11 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 100.0 % | 1.0 | +18 |
+| PSOE | 100.0 % | 1.0 | +21 |
 | Podemos | 0.0 % | 2.0 | +20 |
 | ERC | 0.0 % | 2.5 | +11 |
 
-Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 8.8 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 16.7 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -847,11 +847,11 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 65.2 % | 1.0 | +21 |
-| Podemos | 21.7 % | 1.4 | +20 |
-| ERC | 13.0 % | 2.0 | +11 |
+| PSOE | 50.0 % | 1.0 | +23 |
+| Podemos | 33.3 % | 1.1 | +20 |
+| ERC | 16.7 % | 1.7 | +11 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 8.7 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
+Margen mediano entre el 1.º y el 2.º: 9 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 5.6 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -884,46 +884,46 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 42.8 % | 2.8 | +31 |
-| UPN | 40.6 % | 6.1 | +22 |
-| CiU | 10.9 % | 6.6 | +17 |
-| UPyD | 3.2 % | 4.0 | +24 |
-| Foro | 2.1 % | 5.4 | +21 |
-| PP | 0.2 % | 8.3 | +3 |
-| PSOE | 0.1 % | 7.5 | +7 |
-| Geroa Bai | 0.1 % | 9.5 | +2 |
-| IU-ICV | 0.0 % | 9.5 | +1 |
-| Amaiur | 0.0 % | 6.9 | +9 |
-| ERC | 0.0 % | 12.8 | -4 |
-| BNG | 0.0 % | 11.0 | -1 |
+| PNV | 43.9 % | 2.7 | +30 |
+| UPN | 40.7 % | 6.0 | +22 |
+| CiU | 9.3 % | 7.0 | +14 |
+| Foro | 4.1 % | 5.1 | +22 |
+| UPyD | 1.8 % | 4.1 | +21 |
+| PP | 0.1 % | 8.1 | +5 |
+| Geroa Bai | 0.1 % | 9.8 | +1 |
+| PSOE | 0.0 % | 7.7 | +4 |
+| IU-ICV | 0.0 % | 9.7 | +0 |
+| Amaiur | 0.0 % | 6.5 | +9 |
+| ERC | 0.0 % | 12.6 | -4 |
+| BNG | 0.0 % | 10.3 | +0 |
 | Compromís | 0.0 % | 13.4 | -6 |
-| CC | 0.0 % | 7.7 | +9 |
-| NC | 0.0 % | 8.5 | +6 |
+| CC | 0.0 % | 8.1 | +6 |
+| NC | 0.0 % | 8.8 | +4 |
 
-Margen mediano entre el 1.º y el 2.º: 10 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 19.6 % de los perfiles; con 2 o más partidos además del primero: 1.9 %.
+Margen mediano entre el 1.º y el 2.º: 9 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 17.3 % de los perfiles; con 2 o más partidos además del primero: 1.3 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PNV +78, UPyD +62, CC +55
-- Joven de alquiler: PNV +59, UPyD +55, CC +37
-- Pensionista con casa propia: UPN +42, PP +26, Foro +17
-- Pensionista con pensión baja: UPN +45, PP +20, Foro +1
-- Autónomo del comercio: CiU +52, UPN +33, Foro +30
-- Empresario de pyme industrial: CiU +37, UPN +27, Foro +21
-- Funcionario docente: PNV +74, UPyD +61, CC +54
-- Policía o guardia civil: PNV +74, UPyD +61, CC +54
-- Sanitario asalariado: PNV +68, UPyD +60, Amaiur +48
-- Familia numerosa: PNV +78, UPyD +62, CC +55
-- Rentas altas con patrimonio: PNV +70, UPyD +62, Foro +47
-- Gran patrimonio y gran empresa: UPyD +68, PNV +60, PSOE +44
-- Parado con subsidio: PNV +64, CiU +60, UPyD +52
-- Agricultor en el medio rural: CiU +41, UPN +39, Foro +34
-- Madre sola con hijo: PNV +74, UPyD +65, Amaiur +52
-- Estudiante: CiU +47, PSOE +41, UPyD +41
-- Mayor dependiente: UPN +45, PP +20, Foro +1
-- Casero con varias viviendas: PNV +73, UPyD +64, Amaiur +51
-- Transportista autónomo: CiU +41, UPN +41, Foro +35
-- Asalariado de salario mínimo: PNV +76, UPyD +67, Amaiur +55
+- Asalariado medio con hipoteca e hijos: PNV +73, UPyD +56, Amaiur +51
+- Joven de alquiler: PNV +56, UPyD +49, Amaiur +34
+- Pensionista con casa propia: UPN +42, PP +27, Foro +17
+- Pensionista con pensión baja: UPN +45, PP +22, Foro +1
+- Autónomo del comercio: CiU +47, UPN +34, Foro +30
+- Empresario de pyme industrial: CiU +39, UPN +26, Foro +21
+- Funcionario docente: PNV +72, UPyD +56, Amaiur +50
+- Policía o guardia civil: PNV +72, UPyD +56, Amaiur +50
+- Sanitario asalariado: PNV +67, UPyD +57, Amaiur +47
+- Familia numerosa: PNV +73, UPyD +56, Amaiur +51
+- Rentas altas con patrimonio: PNV +69, UPyD +59, Foro +46
+- Gran patrimonio y gran empresa: UPyD +63, PNV +57, PSOE +40
+- Parado con subsidio: PNV +62, CiU +56, UPyD +48
+- Agricultor en el medio rural: UPN +40, CiU +35, Foro +33
+- Madre sola con hijo: PNV +70, UPyD +59, Amaiur +49
+- Estudiante: CiU +36, PNV +32, PSOE +31
+- Mayor dependiente: UPN +45, PP +22, Foro +1
+- Casero con varias viviendas: PNV +71, UPyD +60, Amaiur +50
+- Transportista autónomo: UPN +42, CiU +36, Foro +34
+- Asalariado de salario mínimo: PNV +75, UPyD +64, Amaiur +54
 
 </details>
 
@@ -931,46 +931,46 @@ Margen mediano entre el 1.º y el 2.º: 10 puntos. Empate técnico en cabeza (2.
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 42.5 % | 2.8 | +32 |
-| UPN | 40.4 % | 6.1 | +23 |
-| CiU | 12.7 % | 6.2 | +20 |
-| Foro | 2.5 % | 5.3 | +23 |
-| UPyD | 1.7 % | 4.2 | +23 |
-| PP | 0.2 % | 8.2 | +4 |
-| Geroa Bai | 0.1 % | 9.4 | +2 |
-| PSOE | 0.0 % | 7.8 | +5 |
-| IU-ICV | 0.0 % | 10.2 | -1 |
-| Amaiur | 0.0 % | 6.8 | +9 |
-| ERC | 0.0 % | 12.8 | -5 |
-| BNG | 0.0 % | 11.1 | -1 |
-| Compromís | 0.0 % | 13.4 | -6 |
-| CC | 0.0 % | 7.3 | +10 |
-| NC | 0.0 % | 8.3 | +6 |
+| PNV | 42.7 % | 2.8 | +30 |
+| UPN | 40.8 % | 6.0 | +22 |
+| CiU | 10.9 % | 6.7 | +16 |
+| Foro | 4.2 % | 4.9 | +23 |
+| UPyD | 1.2 % | 4.3 | +20 |
+| Geroa Bai | 0.1 % | 9.7 | +1 |
+| PP | 0.0 % | 8.1 | +6 |
+| PSOE | 0.0 % | 8.0 | +3 |
+| IU-ICV | 0.0 % | 10.5 | -1 |
+| Amaiur | 0.0 % | 6.5 | +9 |
+| ERC | 0.0 % | 12.6 | -5 |
+| BNG | 0.0 % | 10.2 | -1 |
+| Compromís | 0.0 % | 13.4 | -7 |
+| CC | 0.0 % | 7.7 | +7 |
+| NC | 0.0 % | 8.6 | +4 |
 
-Margen mediano entre el 1.º y el 2.º: 11 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 15.6 % de los perfiles; con 2 o más partidos además del primero: 1.2 %.
+Margen mediano entre el 1.º y el 2.º: 10 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 12.6 % de los perfiles; con 2 o más partidos además del primero: 1.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PNV +80, UPyD +62, CC +57
-- Joven de alquiler: PNV +61, UPyD +54, CC +39
-- Pensionista con casa propia: UPN +44, PP +30, Foro +16
-- Pensionista con pensión baja: UPN +47, PP +25, Foro -1
-- Autónomo del comercio: CiU +54, UPN +34, Foro +31
-- Empresario de pyme industrial: CiU +40, UPN +27, Foro +23
-- Funcionario docente: PNV +75, UPyD +60, CC +56
-- Policía o guardia civil: PNV +75, UPyD +60, CC +56
-- Sanitario asalariado: PNV +70, UPyD +59, Amaiur +49
-- Familia numerosa: PNV +80, UPyD +62, CC +57
-- Rentas altas con patrimonio: PNV +73, UPyD +62, Foro +49
-- Gran patrimonio y gran empresa: UPyD +67, PNV +62, CiU +48
-- Parado con subsidio: PNV +66, CiU +65, CC +53
-- Agricultor en el medio rural: CiU +44, UPN +41, Foro +36
-- Madre sola con hijo: PNV +76, UPyD +64, Amaiur +53
-- Estudiante: CiU +52, Geroa Bai +41, PSOE +39
-- Mayor dependiente: UPN +47, PP +21, Foro +2
-- Casero con varias viviendas: PNV +75, UPyD +63, Amaiur +52
-- Transportista autónomo: CiU +45, UPN +44, Foro +38
-- Asalariado de salario mínimo: PNV +78, UPyD +67, Amaiur +56
+- Asalariado medio con hipoteca e hijos: PNV +75, UPyD +55, Amaiur +52
+- Joven de alquiler: PNV +57, UPyD +48, Amaiur +35
+- Pensionista con casa propia: UPN +44, PP +31, Foro +16
+- Pensionista con pensión baja: UPN +47, PP +26, Foro -1
+- Autónomo del comercio: CiU +49, UPN +35, Foro +31
+- Empresario de pyme industrial: CiU +44, UPN +27, Foro +22
+- Funcionario docente: PNV +73, UPyD +56, Amaiur +51
+- Policía o guardia civil: PNV +73, UPyD +56, Amaiur +51
+- Sanitario asalariado: PNV +68, UPyD +56, Amaiur +48
+- Familia numerosa: PNV +75, UPyD +55, Amaiur +52
+- Rentas altas con patrimonio: PNV +71, UPyD +59, Foro +49
+- Gran patrimonio y gran empresa: UPyD +64, PNV +59, CiU +46
+- Parado con subsidio: PNV +64, CiU +60, CC +49
+- Agricultor en el medio rural: UPN +41, CiU +38, Foro +35
+- Madre sola con hijo: PNV +71, UPyD +59, Amaiur +50
+- Estudiante: CiU +41, PNV +33, Geroa Bai +30
+- Mayor dependiente: UPN +47, PP +23, Foro +2
+- Casero con varias viviendas: PNV +73, UPyD +60, Amaiur +51
+- Transportista autónomo: UPN +45, CiU +40, Foro +37
+- Asalariado de salario mínimo: PNV +76, UPyD +63, Amaiur +55
 
 </details>
 
@@ -978,46 +978,46 @@ Margen mediano entre el 1.º y el 2.º: 11 puntos. Empate técnico en cabeza (2.
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| UPyD | 75.0 % | 1.5 | +37 |
-| NC | 11.5 % | 3.7 | +33 |
-| Foro | 6.6 % | 9.0 | +20 |
-| PSOE | 2.6 % | 2.7 | +34 |
-| PNV | 1.9 % | 5.8 | +30 |
-| CiU | 1.8 % | 7.7 | +24 |
-| CC | 0.2 % | 4.3 | +32 |
-| IU-ICV | 0.1 % | 6.5 | +25 |
-| Amaiur | 0.1 % | 7.4 | +23 |
-| Compromís | 0.1 % | 10.1 | +20 |
-| UPN | 0.1 % | 12.8 | +8 |
-| PP | 0.0 % | 14.9 | -17 |
-| ERC | 0.0 % | 12.8 | +16 |
-| BNG | 0.0 % | 9.7 | +21 |
-| Geroa Bai | 0.0 % | 11.0 | +19 |
+| UPyD | 79.8 % | 1.3 | +37 |
+| NC | 8.8 % | 3.6 | +32 |
+| Foro | 7.7 % | 8.4 | +21 |
+| PNV | 1.5 % | 6.0 | +29 |
+| CiU | 1.3 % | 8.0 | +23 |
+| PSOE | 0.7 % | 3.0 | +33 |
+| Amaiur | 0.1 % | 7.6 | +22 |
+| Compromís | 0.1 % | 10.3 | +19 |
+| UPN | 0.1 % | 12.5 | +8 |
+| PP | 0.0 % | 14.9 | -16 |
+| IU-ICV | 0.0 % | 6.6 | +24 |
+| ERC | 0.0 % | 12.8 | +15 |
+| BNG | 0.0 % | 10.0 | +20 |
+| CC | 0.0 % | 4.3 | +31 |
+| Geroa Bai | 0.0 % | 10.6 | +19 |
 
-Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 63.4 % de los perfiles; con 2 o más partidos además del primero: 31.4 %.
+Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 45.3 % de los perfiles; con 2 o más partidos además del primero: 23.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: NC +29, Foro +29, UPyD +27
-- Joven de alquiler: UPyD +32, Amaiur +28, PSOE +27
-- Pensionista con casa propia: UPyD +39, NC +38, PSOE +36
-- Pensionista con pensión baja: UPyD +39, NC +38, PSOE +36
-- Autónomo del comercio: Foro +21, NC +13, UPN +13
-- Empresario de pyme industrial: UPyD +28, NC +27, Foro +21
-- Funcionario docente: Foro +38, NC +31, CiU +28
-- Policía o guardia civil: Foro +23, NC +16, UPN +14
-- Sanitario asalariado: UPyD +34, NC +33, Amaiur +30
+- Joven de alquiler: UPyD +32, Amaiur +27, CC +26
+- Pensionista con casa propia: UPyD +39, NC +37, PSOE +34
+- Pensionista con pensión baja: UPyD +39, NC +37, PSOE +34
+- Autónomo del comercio: Foro +22, UPN +14, NC +13
+- Empresario de pyme industrial: UPyD +28, NC +27, Foro +22
+- Funcionario docente: Foro +38, NC +31, UPyD +27
+- Policía o guardia civil: Foro +24, NC +16, UPN +16
+- Sanitario asalariado: UPyD +34, NC +33, Foro +31
 - Familia numerosa: NC +29, Foro +29, UPyD +27
-- Rentas altas con patrimonio: UPyD +34, NC +33, Amaiur +30
-- Gran patrimonio y gran empresa: UPyD +28, NC +27, Amaiur +24
-- Parado con subsidio: CiU +17, UPN +14, NC +13
-- Agricultor en el medio rural: UPyD +30, Foro +25, Amaiur +24
-- Madre sola con hijo: UPyD +35, PSOE +31, NC +31
-- Estudiante: UPyD +42, Amaiur +38, PSOE +37
-- Mayor dependiente: CiU +32, NC +29, UPyD +29
-- Casero con varias viviendas: UPyD +34, NC +33, Amaiur +30
-- Transportista autónomo: UPyD +28, NC +27, Amaiur +24
-- Asalariado de salario mínimo: UPyD +28, NC +27, Amaiur +24
+- Rentas altas con patrimonio: UPyD +34, NC +33, Foro +31
+- Gran patrimonio y gran empresa: UPyD +28, NC +27, Foro +24
+- Parado con subsidio: UPN +15, CiU +15, NC +12
+- Agricultor en el medio rural: UPyD +30, Foro +27, NC +24
+- Madre sola con hijo: UPyD +35, PSOE +30, NC +30
+- Estudiante: UPyD +42, PSOE +36, Amaiur +36
+- Mayor dependiente: CiU +30, UPyD +29, NC +28
+- Casero con varias viviendas: UPyD +34, NC +33, Foro +31
+- Transportista autónomo: UPyD +28, NC +27, Foro +24
+- Asalariado de salario mínimo: UPyD +28, NC +27, Foro +24
 
 </details>
 
@@ -1025,23 +1025,23 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 37.1 % | 2.0 | +34 |
-| NC | 16.8 % | 4.9 | +30 |
-| UPyD | 14.0 % | 2.8 | +33 |
-| IU-ICV | 6.0 % | 6.1 | +23 |
+| PSOE | 38.1 % | 2.0 | +34 |
+| NC | 15.8 % | 5.0 | +30 |
+| UPyD | 13.9 % | 2.8 | +33 |
+| IU-ICV | 6.1 % | 6.1 | +23 |
 | CC | 6.0 % | 5.1 | +32 |
-| Foro | 5.4 % | 10.0 | +14 |
+| Foro | 5.4 % | 10.0 | +13 |
 | PNV | 5.3 % | 4.8 | +30 |
-| CiU | 5.2 % | 6.7 | +24 |
-| UPN | 1.8 % | 12.5 | -2 |
-| PP | 1.3 % | 13.7 | -16 |
-| Compromís | 0.5 % | 10.4 | +17 |
+| CiU | 5.2 % | 6.7 | +23 |
+| UPN | 1.8 % | 12.4 | -2 |
+| PP | 1.4 % | 13.6 | -16 |
+| Compromís | 0.6 % | 10.4 | +17 |
 | Amaiur | 0.2 % | 8.3 | +19 |
 | BNG | 0.2 % | 9.1 | +19 |
 | ERC | 0.0 % | 12.7 | +12 |
 | Geroa Bai | 0.0 % | 10.9 | +17 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 73.8 % de los perfiles; con 2 o más partidos además del primero: 55.1 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 75.1 % de los perfiles; con 2 o más partidos además del primero: 55.6 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1079,9 +1079,9 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 | PP | 13.1 % | 3.5 | +38 |
 | PNV | 2.9 % | 5.9 | +34 |
 | PSOE | 1.9 % | 4.9 | +33 |
-| VOX | 0.0 % | 10.2 | +5 |
-| SALF | 0.0 % | 11.0 | +1 |
-| Sumar | 0.0 % | 7.3 | +28 |
+| VOX | 0.0 % | 10.2 | +4 |
+| SALF | 0.0 % | 10.9 | +1 |
+| Sumar | 0.0 % | 7.3 | +27 |
 | ERC | 0.0 % | 9.0 | +17 |
 | Bildu | 0.0 % | 10.0 | +15 |
 | Compromís | 0.0 % | 6.1 | +29 |
@@ -1096,7 +1096,7 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 - Pensionista con casa propia: Podemos +36, BNG +36, Comuns +33
 - Pensionista con pensión baja: Podemos +36, BNG +36, Comuns +33
 - Autónomo del comercio: BNG +29, PP +29, Comuns +27
-- Empresario de pyme industrial: PP +46, PSOE +46, PNV +46
+- Empresario de pyme industrial: PP +41, PSOE +41, PNV +41
 - Funcionario docente: Podemos +47, BNG +47, PP +41
 - Policía o guardia civil: Podemos +47, BNG +47, PP +41
 - Sanitario asalariado: Podemos +47, BNG +47, PP +41
@@ -1120,15 +1120,15 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 |---|---:|---:|---:|
 | PP | 28.8 % | 1.0 | +41 |
 | PNV | 15.3 % | 5.1 | +34 |
-| PSOE | 13.8 % | 2.5 | +34 |
+| PSOE | 13.8 % | 2.5 | +33 |
 | Sumar | 11.0 % | 4.1 | +29 |
-| BNG | 11.0 % | 6.4 | +30 |
-| Podemos | 10.1 % | 5.8 | +26 |
+| BNG | 11.0 % | 6.5 | +29 |
+| Podemos | 10.1 % | 5.9 | +25 |
 | VOX | 5.2 % | 7.0 | +16 |
 | Compromís | 3.0 % | 7.9 | +21 |
-| Comuns | 1.5 % | 7.5 | +23 |
+| Comuns | 1.5 % | 7.4 | +22 |
 | ERC | 0.3 % | 8.0 | +18 |
-| SALF | 0.0 % | 8.3 | +4 |
+| SALF | 0.0 % | 8.2 | +4 |
 | Bildu | 0.0 % | 9.7 | +5 |
 
 Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 87.8 % de los perfiles; con 2 o más partidos además del primero: 80.7 %.
@@ -1140,7 +1140,7 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 - Pensionista con casa propia: sin resultado
 - Pensionista con pensión baja: sin resultado
 - Autónomo del comercio: VOX +40, BNG +20, Comuns +20
-- Empresario de pyme industrial: PP +40, PSOE +40, PNV +40
+- Empresario de pyme industrial: PP +34, PSOE +34, PNV +34
 - Funcionario docente: PP +40, PSOE +40, Sumar +40
 - Policía o guardia civil: PP +40, PSOE +40, Sumar +40
 - Sanitario asalariado: PP +40, PSOE +40, Sumar +40
@@ -1252,11 +1252,11 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 96.6 % | 1.0 | +73 |
-| Junts | 1.8 % | 2.2 | +70 |
+| PSOE | 96.7 % | 1.0 | +73 |
+| Junts | 1.5 % | 2.2 | +70 |
 | Cs | 0.7 % | 2.9 | +68 |
-| PP | 0.6 % | 5.5 | +54 |
-| BNG | 0.3 % | 5.6 | +54 |
+| PP | 0.6 % | 5.4 | +54 |
+| BNG | 0.6 % | 5.6 | +54 |
 | VOX | 0.0 % | 12.8 | -28 |
 | Podemos | 0.0 % | 7.9 | +49 |
 | ERC | 0.0 % | 4.3 | +66 |
@@ -1266,7 +1266,7 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 | Bildu | 0.0 % | 10.5 | +24 |
 | Anticapitalistas | 0.0 % | 10.4 | +24 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 89.9 % de los perfiles; con 2 o más partidos además del primero: 4.4 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 88.3 % de los perfiles; con 2 o más partidos además del primero: 4.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1281,7 +1281,7 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 - Sanitario asalariado: PSOE +80, Junts +78, Cs +75
 - Familia numerosa: PSOE +80, Junts +78, Cs +75
 - Rentas altas con patrimonio: PSOE +79, Junts +77, Cs +73
-- Gran patrimonio y gran empresa: PSOE +49, Junts +46, Cs +43
+- Gran patrimonio y gran empresa: PSOE +49, Junts +44, Cs +44
 - Parado con subsidio: PSOE +79, Junts +77, Cs +73
 - Agricultor en el medio rural: PSOE +76, Cs +70, PP +57
 - Madre sola con hijo: PSOE +80, Junts +78, Cs +75
@@ -1302,14 +1302,14 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 | Cs | 21.9 % | 3.2 | +63 |
 | Junts | 18.3 % | 4.4 | +61 |
 | VOX | 11.4 % | 9.5 | +31 |
-| PNV | 0.5 % | 5.8 | +55 |
+| PNV | 0.5 % | 5.7 | +55 |
 | Podemos | 0.1 % | 9.1 | +33 |
 | IU | 0.1 % | 10.6 | +25 |
 | ERC | 0.0 % | 5.7 | +51 |
 | Comuns | 0.0 % | 8.7 | +35 |
-| BNG | 0.0 % | 7.3 | +43 |
+| BNG | 0.0 % | 7.2 | +43 |
 | Bildu | 0.0 % | 10.7 | +24 |
-| Anticapitalistas | 0.0 % | 12.4 | +11 |
+| Anticapitalistas | 0.0 % | 12.4 | +10 |
 
 Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 87.2 % de los perfiles; con 2 o más partidos además del primero: 83.0 %.
 
@@ -1326,7 +1326,7 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 - Sanitario asalariado: PP +74, PSOE +74, Cs +74
 - Familia numerosa: PP +74, PSOE +74, Cs +74
 - Rentas altas con patrimonio: PP +71, PSOE +71, Cs +71
-- Gran patrimonio y gran empresa: VOX +57, PP +37, BNG +25
+- Gran patrimonio y gran empresa: VOX +59, PP +39, BNG +27
 - Parado con subsidio: PP +71, PSOE +71, Cs +71
 - Agricultor en el medio rural: PSOE +71, Cs +67, PP +65
 - Madre sola con hijo: PP +74, PSOE +74, Cs +74
@@ -1342,8 +1342,8 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 47.4 % | 1.3 | +80 |
-| Junts | 43.1 % | 2.2 | +80 |
+| PSOE | 47.6 % | 1.3 | +80 |
+| Junts | 42.9 % | 2.1 | +80 |
 | ERC | 8.1 % | 3.8 | +76 |
 | Comuns | 1.4 % | 8.8 | +64 |
 | PP | 0.0 % | 7.4 | +66 |
@@ -1352,9 +1352,9 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 | Podemos | 0.0 % | 4.9 | +74 |
 | IU | 0.0 % | 10.9 | +56 |
 | PNV | 0.0 % | 8.1 | +66 |
-| BNG | 0.0 % | 8.8 | +65 |
+| BNG | 0.0 % | 8.9 | +64 |
 | Bildu | 0.0 % | 11.9 | +47 |
-| Anticapitalistas | 0.0 % | 6.4 | +70 |
+| Anticapitalistas | 0.0 % | 6.4 | +69 |
 
 Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 86.0 % de los perfiles; con 2 o más partidos además del primero: 4.7 %.
 
@@ -1387,21 +1387,21 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| ERC | 21.3 % | 5.3 | +48 |
-| PSOE | 14.1 % | 2.5 | +47 |
-| Cs | 14.0 % | 3.6 | +47 |
-| Junts | 12.4 % | 4.9 | +46 |
-| Podemos | 11.7 % | 3.9 | +47 |
-| Anticapitalistas | 9.7 % | 7.0 | +45 |
-| PP | 8.8 % | 3.8 | +45 |
-| BNG | 5.1 % | 6.9 | +46 |
+| ERC | 20.9 % | 5.3 | +48 |
+| PSOE | 14.7 % | 2.5 | +47 |
+| Cs | 14.6 % | 3.6 | +47 |
+| Junts | 12.1 % | 4.8 | +46 |
+| Podemos | 11.4 % | 3.9 | +47 |
+| Anticapitalistas | 9.5 % | 7.1 | +44 |
+| PP | 9.2 % | 3.8 | +45 |
+| BNG | 5.0 % | 6.9 | +45 |
 | Comuns | 2.7 % | 9.9 | +32 |
 | Bildu | 0.1 % | 11.1 | +32 |
-| VOX | 0.0 % | 11.7 | -9 |
+| VOX | 0.0 % | 11.6 | -9 |
 | IU | 0.0 % | 9.1 | +33 |
 | PNV | 0.0 % | 8.8 | +35 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 90.0 % de los perfiles; con 2 o más partidos además del primero: 88.3 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 90.1 % de los perfiles; con 2 o más partidos además del primero: 88.5 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1423,7 +1423,7 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 - Estudiante: PSOE +45, Cs +45, Podemos +45
 - Mayor dependiente: PP +28, PSOE +28, Cs +28
 - Casero con varias viviendas: PP +33, PSOE +33, Cs +33
-- Transportista autónomo: PP +28, PSOE +28, Cs +28
+- Transportista autónomo: PP +33, PSOE +33, Cs +33
 - Asalariado de salario mínimo: PP +33, PSOE +33, Cs +33
 
 </details>
@@ -1438,19 +1438,19 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 | PSOE | 3.8 % | 2.1 | +71 |
 | Equo | 3.0 % | 7.8 | +51 |
 | UPyD | 2.0 % | 4.1 | +66 |
-| Bildu | 0.7 % | 13.1 | +16 |
+| Bildu | 0.7 % | 13.1 | +15 |
 | Cs | 0.2 % | 5.1 | +63 |
 | PP | 0.0 % | 6.5 | +61 |
-| Podemos | 0.0 % | 11.8 | +21 |
-| IU | 0.0 % | 11.9 | +20 |
+| Podemos | 0.0 % | 11.7 | +20 |
+| IU | 0.0 % | 11.9 | +19 |
 | ERC | 0.0 % | 6.7 | +56 |
 | ICV | 0.0 % | 8.9 | +47 |
 | AGE | 0.0 % | 15.0 | -11 |
-| PDeCAT | 0.0 % | 3.1 | +67 |
-| NECat | 0.0 % | 13.0 | +18 |
+| PDeCAT | 0.0 % | 3.1 | +66 |
+| NECat | 0.0 % | 13.1 | +17 |
 | BNG | 0.0 % | 10.4 | +30 |
 | Compromís | 0.0 % | 15.9 | -11 |
-| UDC | 0.0 % | 12.2 | +8 |
+| UDC | 0.0 % | 12.3 | +8 |
 
 Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 97.2 % de los perfiles; con 2 o más partidos además del primero: 8.1 %.
 
@@ -1483,25 +1483,25 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 84.4 % | 1.5 | +62 |
-| UPyD | 3.8 % | 3.0 | +59 |
-| Cs | 3.3 % | 5.7 | +55 |
+| PNV | 84.3 % | 1.5 | +62 |
+| UPyD | 3.9 % | 3.0 | +59 |
+| Cs | 3.2 % | 5.7 | +54 |
 | PP | 2.5 % | 5.0 | +54 |
-| Bildu | 2.5 % | 11.8 | +16 |
+| Bildu | 2.5 % | 11.8 | +15 |
 | PDeCAT | 1.4 % | 4.1 | +58 |
 | Equo | 1.4 % | 7.9 | +40 |
 | PSOE | 0.5 % | 2.4 | +60 |
 | UDC | 0.2 % | 9.4 | +8 |
-| NECat | 0.1 % | 11.5 | +18 |
 | Podemos | 0.0 % | 10.0 | +25 |
 | IU | 0.0 % | 12.2 | +12 |
-| ERC | 0.0 % | 7.6 | +40 |
+| ERC | 0.0 % | 7.5 | +40 |
 | ICV | 0.0 % | 9.0 | +36 |
 | AGE | 0.0 % | 14.8 | -17 |
+| NECat | 0.0 % | 11.5 | +17 |
 | BNG | 0.0 % | 14.2 | +1 |
 | Compromís | 0.0 % | 14.7 | -11 |
 
-Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 94.8 % de los perfiles; con 2 o más partidos además del primero: 8.3 %.
+Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 94.8 % de los perfiles; con 2 o más partidos además del primero: 8.2 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1510,7 +1510,7 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 - Pensionista con casa propia: PNV +67, PSOE +64, UPyD +62
 - Pensionista con pensión baja: PNV +67, PSOE +64, UPyD +62
 - Autónomo del comercio: UPyD +41, PDeCAT +41, PP +37
-- Empresario de pyme industrial: PSOE +38, Cs +38, PNV +38
+- Empresario de pyme industrial: PSOE +40, Cs +40, PNV +40
 - Funcionario docente: PNV +70, PSOE +67, UPyD +66
 - Policía o guardia civil: PNV +70, PSOE +67, UPyD +66
 - Sanitario asalariado: PNV +70, PSOE +67, UPyD +66
@@ -1532,47 +1532,47 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 73.8 % | 1.0 | +83 |
-| PSOE | 25.8 % | 2.0 | +82 |
-| Equo | 0.3 % | 6.0 | +67 |
-| PNV | 0.2 % | 3.7 | +78 |
-| Podemos | 0.0 % | 12.1 | +44 |
-| IU | 0.0 % | 11.0 | +47 |
-| UPyD | 0.0 % | 5.0 | +75 |
-| Cs | 0.0 % | 7.0 | +64 |
-| ERC | 0.0 % | 9.3 | +54 |
-| ICV | 0.0 % | 9.4 | +54 |
-| AGE | 0.0 % | 14.9 | +24 |
-| PDeCAT | 0.0 % | 3.4 | +79 |
-| Bildu | 0.0 % | 15.2 | +24 |
-| NECat | 0.0 % | 16.9 | +14 |
-| BNG | 0.0 % | 8.3 | +58 |
-| Compromís | 0.0 % | 15.0 | +24 |
-| UDC | 0.0 % | 12.8 | +39 |
+| PP | 70.7 % | 1.0 | +83 |
+| PSOE | 29.0 % | 2.0 | +82 |
+| Equo | 0.3 % | 5.9 | +72 |
+| PNV | 0.1 % | 3.7 | +78 |
+| Podemos | 0.0 % | 12.4 | +43 |
+| IU | 0.0 % | 11.3 | +46 |
+| UPyD | 0.0 % | 5.0 | +74 |
+| Cs | 0.0 % | 7.2 | +64 |
+| ERC | 0.0 % | 8.9 | +59 |
+| ICV | 0.0 % | 9.3 | +59 |
+| AGE | 0.0 % | 15.2 | +26 |
+| PDeCAT | 0.0 % | 3.3 | +79 |
+| Bildu | 0.0 % | 15.3 | +26 |
+| NECat | 0.0 % | 16.8 | +19 |
+| BNG | 0.0 % | 8.7 | +60 |
+| Compromís | 0.0 % | 14.7 | +28 |
+| UDC | 0.0 % | 12.3 | +43 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 96.5 % de los perfiles; con 2 o más partidos además del primero: 60.1 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 96.5 % de los perfiles; con 2 o más partidos además del primero: 60.2 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PP +84, PSOE +83, PDeCAT +80
 - Joven de alquiler: PP +84, PSOE +84, PNV +81
-- Pensionista con casa propia: PP +82, PSOE +82, PNV +78
-- Pensionista con pensión baja: PP +82, PSOE +82, PNV +78
+- Pensionista con casa propia: PP +82, PSOE +81, PNV +78
+- Pensionista con pensión baja: PP +82, PSOE +81, PNV +78
 - Autónomo del comercio: PP +82, PSOE +81, PNV +78
-- Empresario de pyme industrial: PP +32, PNV +31, PSOE +30
+- Empresario de pyme industrial: PP +34, PNV +34, PSOE +33
 - Funcionario docente: PP +82, PSOE +82, PNV +78
 - Policía o guardia civil: PP +82, PSOE +82, PNV +78
 - Sanitario asalariado: PP +82, PSOE +82, PNV +78
 - Familia numerosa: PP +84, PSOE +83, PDeCAT +80
 - Rentas altas con patrimonio: PP +82, PSOE +81, PNV +78
 - Gran patrimonio y gran empresa: PP +82, PSOE +81, PNV +78
-- Parado con subsidio: PP +83, PSOE +83, PNV +79
+- Parado con subsidio: PP +83, PSOE +82, PNV +79
 - Agricultor en el medio rural: PP +82, PSOE +81, PNV +78
 - Madre sola con hijo: PP +85, PSOE +84, PDeCAT +81
 - Estudiante: PP +85, PSOE +85, PNV +82
-- Mayor dependiente: PP +83, PSOE +83, PNV +80
+- Mayor dependiente: PP +83, PSOE +82, PNV +79
 - Casero con varias viviendas: PP +82, PSOE +82, PNV +78
-- Transportista autónomo: PP +72, PSOE +71, PNV +68
+- Transportista autónomo: PP +71, PSOE +71, PNV +68
 - Asalariado de salario mínimo: PP +82, PSOE +82, PNV +78
 
 </details>
@@ -1581,32 +1581,32 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 33.0 % | 1.7 | +57 |
-| PSOE | 29.8 % | 2.8 | +56 |
-| UPyD | 17.8 % | 4.7 | +55 |
-| Podemos | 5.0 % | 6.2 | +47 |
-| PNV | 4.3 % | 5.7 | +53 |
-| Cs | 4.2 % | 4.8 | +53 |
-| ICV | 2.8 % | 8.8 | +50 |
-| Equo | 1.3 % | 8.9 | +49 |
-| Bildu | 0.8 % | 13.1 | +28 |
-| IU | 0.2 % | 9.2 | +42 |
-| NECat | 0.2 % | 11.4 | +21 |
-| Compromís | 0.2 % | 12.4 | +21 |
-| AGE | 0.1 % | 11.9 | +33 |
-| ERC | 0.0 % | 8.8 | +46 |
+| PP | 33.1 % | 1.7 | +56 |
+| PSOE | 29.8 % | 2.8 | +55 |
+| UPyD | 17.9 % | 4.7 | +54 |
+| Podemos | 5.3 % | 6.2 | +47 |
+| Cs | 5.0 % | 4.7 | +52 |
+| PNV | 4.2 % | 5.7 | +52 |
+| ICV | 2.6 % | 8.9 | +48 |
+| Bildu | 0.5 % | 13.2 | +27 |
+| NECat | 0.4 % | 11.2 | +21 |
+| Compromís | 0.4 % | 12.2 | +21 |
+| Equo | 0.3 % | 9.0 | +48 |
+| IU | 0.2 % | 9.1 | +42 |
+| BNG | 0.2 % | 12.1 | +34 |
+| ERC | 0.0 % | 8.8 | +45 |
+| AGE | 0.0 % | 11.9 | +31 |
 | PDeCAT | 0.0 % | 6.9 | +51 |
-| BNG | 0.0 % | 12.1 | +34 |
-| UDC | 0.0 % | 16.4 | +6 |
+| UDC | 0.0 % | 16.3 | +6 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 89.8 % de los perfiles; con 2 o más partidos además del primero: 83.0 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 89.3 % de los perfiles; con 2 o más partidos además del primero: 83.5 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
 - Asalariado medio con hipoteca e hijos: PP +55, PSOE +55, UPyD +55
 - Joven de alquiler: PP +59, PSOE +59, UPyD +59
-- Pensionista con casa propia: PP +40, PSOE +40, UPyD +40
-- Pensionista con pensión baja: PP +40, PSOE +40, UPyD +40
+- Pensionista con casa propia: PP +36, PSOE +36, UPyD +36
+- Pensionista con pensión baja: PP +36, PSOE +36, UPyD +36
 - Autónomo del comercio: PP +36, PSOE +36, UPyD +36
 - Empresario de pyme industrial: NECat -29, Compromís -29, Bildu -33
 - Funcionario docente: PP +40, PSOE +40, UPyD +40
@@ -1619,7 +1619,7 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 - Agricultor en el medio rural: PP +36, PSOE +36, UPyD +36
 - Madre sola con hijo: PP +61, PSOE +61, Podemos +58
 - Estudiante: PP +64, PSOE +64, UPyD +64
-- Mayor dependiente: PP +50, PSOE +50, UPyD +50
+- Mayor dependiente: PP +47, PSOE +47, UPyD +47
 - Casero con varias viviendas: PP +40, PSOE +40, UPyD +40
 - Transportista autónomo: UPyD +19, PP +3, PSOE +3
 - Asalariado de salario mínimo: PP +40, PSOE +40, UPyD +40
@@ -1632,43 +1632,43 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 45.5 % | 1.8 | +72 |
-| ICV | 41.8 % | 3.4 | +66 |
-| UPyD | 6.2 % | 3.0 | +69 |
-| ERC | 2.4 % | 9.2 | +47 |
-| PSOE | 2.3 % | 4.3 | +68 |
-| PP | 1.8 % | 5.8 | +65 |
-| CDC | 0.1 % | 4.3 | +68 |
-| IU | 0.0 % | 11.9 | -1 |
-| UDC | 0.0 % | 9.1 | +47 |
-| Aralar | 0.0 % | 6.3 | +61 |
-| BNG | 0.0 % | 11.0 | +30 |
-| VOX | 0.0 % | 7.9 | +55 |
+| ICV | 47.3 % | 2.9 | +70 |
+| PSOE | 43.2 % | 1.7 | +73 |
+| PP | 4.9 % | 3.2 | +70 |
+| ERC | 3.0 % | 9.2 | +49 |
+| PNV | 1.6 % | 3.7 | +69 |
+| CDC | 0.0 % | 6.2 | +61 |
+| UPyD | 0.0 % | 4.4 | +69 |
+| IU | 0.0 % | 11.9 | +8 |
+| UDC | 0.0 % | 7.7 | +55 |
+| Aralar | 0.0 % | 7.2 | +56 |
+| BNG | 0.0 % | 10.9 | +34 |
+| VOX | 0.0 % | 9.1 | +48 |
 
-Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 64.5 % de los perfiles; con 2 o más partidos además del primero: 33.1 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 64.8 % de los perfiles; con 2 o más partidos además del primero: 52.3 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: ICV +79, PNV +73, UPyD +70
-- Joven de alquiler: PNV +74, CDC +71, Aralar +70
-- Pensionista con casa propia: ICV +78, PNV +72, UPyD +67
-- Pensionista con pensión baja: ICV +78, PNV +72, UPyD +67
-- Autónomo del comercio: ICV +73, PNV +71, UPyD +67
-- Empresario de pyme industrial: UPyD +55, PSOE +54, CDC +54
-- Funcionario docente: ICV +79, PNV +73, UPyD +70
-- Policía o guardia civil: PNV +74, CDC +71, ICV +71
-- Sanitario asalariado: ICV +79, PNV +72, UPyD +69
-- Familia numerosa: ICV +79, PNV +73, UPyD +70
-- Rentas altas con patrimonio: ICV +78, PNV +72, UPyD +67
-- Gran patrimonio y gran empresa: ICV +72, PNV +66, CDC +63
-- Parado con subsidio: PNV +74, ICV +72, UPyD +70
-- Agricultor en el medio rural: PSOE +80, PP +79, UPyD +75
-- Madre sola con hijo: PNV +73, CDC +71, ICV +71
-- Estudiante: PNV +86, UPyD +84, PSOE +83
-- Mayor dependiente: ICV +78, PNV +72, UPyD +67
-- Casero con varias viviendas: ICV +79, PNV +72, UPyD +69
-- Transportista autónomo: PSOE +63, UPyD +63, PNV +63
-- Asalariado de salario mínimo: PNV +73, CDC +71, ICV +71
+- Asalariado medio con hipoteca e hijos: ICV +80, PSOE +76, PP +73
+- Joven de alquiler: ICV +78, PSOE +77, PP +74
+- Pensionista con casa propia: ICV +79, PSOE +74, PNV +71
+- Pensionista con pensión baja: ICV +79, PSOE +74, PNV +71
+- Autónomo del comercio: PSOE +73, ICV +73, PNV +71
+- Empresario de pyme industrial: PP +54, PSOE +52, UPyD +52
+- Funcionario docente: ICV +80, PSOE +76, PP +73
+- Policía o guardia civil: ICV +80, PSOE +76, PP +73
+- Sanitario asalariado: ICV +80, PSOE +76, PP +72
+- Familia numerosa: ICV +80, PSOE +76, PP +73
+- Rentas altas con patrimonio: ICV +79, PSOE +74, PNV +71
+- Gran patrimonio y gran empresa: ICV +76, PSOE +71, PNV +69
+- Parado con subsidio: PSOE +76, PNV +73, ICV +73
+- Agricultor en el medio rural: PP +73, PSOE +73, UDC +70
+- Madre sola con hijo: ICV +80, PSOE +76, PP +72
+- Estudiante: ICV +77, PSOE +76, PNV +73
+- Mayor dependiente: ICV +79, PSOE +74, PNV +71
+- Casero con varias viviendas: ICV +80, PSOE +76, PP +72
+- Transportista autónomo: PSOE +69, PP +67, PNV +67
+- Asalariado de salario mínimo: ICV +80, PSOE +76, PP +72
 
 </details>
 
@@ -1676,43 +1676,43 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| ICV | 35.8 % | 4.3 | +64 |
-| PP | 21.7 % | 3.2 | +73 |
-| PSOE | 19.0 % | 2.0 | +72 |
-| UPyD | 18.7 % | 3.0 | +72 |
-| ERC | 2.5 % | 9.8 | +39 |
-| UDC | 2.4 % | 6.2 | +61 |
-| CDC | 0.0 % | 6.1 | +64 |
-| IU | 0.0 % | 11.8 | -14 |
-| PNV | 0.0 % | 4.5 | +68 |
+| ICV | 45.2 % | 3.4 | +67 |
+| PP | 16.5 % | 1.8 | +70 |
+| PSOE | 15.1 % | 2.7 | +70 |
+| UPyD | 14.6 % | 3.5 | +70 |
+| UDC | 5.5 % | 5.8 | +63 |
+| ERC | 3.0 % | 9.8 | +39 |
+| CDC | 0.0 % | 6.7 | +60 |
+| IU | 0.0 % | 11.9 | -6 |
+| PNV | 0.0 % | 5.1 | +64 |
 | Aralar | 0.0 % | 8.1 | +52 |
-| BNG | 0.0 % | 10.6 | +32 |
-| VOX | 0.0 % | 8.6 | +51 |
+| BNG | 0.0 % | 10.6 | +37 |
+| VOX | 0.0 % | 8.7 | +51 |
 
-Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 61.0 % de los perfiles; con 2 o más partidos además del primero: 56.8 %.
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 59.5 % de los perfiles; con 2 o más partidos además del primero: 57.7 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: ICV +80, PSOE +75, UPyD +75
-- Joven de alquiler: PP +77, PNV +71, UDC +71
-- Pensionista con casa propia: ICV +78, PSOE +72, UPyD +72
-- Pensionista con pensión baja: ICV +78, PSOE +72, UPyD +72
-- Autónomo del comercio: PSOE +71, UPyD +71, ICV +71
-- Empresario de pyme industrial: UDC +54, PP +45, PSOE +45
-- Funcionario docente: ICV +80, PSOE +75, UPyD +75
-- Policía o guardia civil: PP +76, PNV +70, UDC +70
-- Sanitario asalariado: ICV +80, PSOE +74, UPyD +74
-- Familia numerosa: ICV +80, PSOE +75, UPyD +75
-- Rentas altas con patrimonio: ICV +78, PSOE +72, UPyD +72
-- Gran patrimonio y gran empresa: ICV +70, PSOE +64, UPyD +64
-- Parado con subsidio: PSOE +75, UPyD +75, PP +74
-- Agricultor en el medio rural: PP +83, PSOE +81, UPyD +75
-- Madre sola con hijo: PP +75, PNV +69, ICV +69
-- Estudiante: PSOE +89, UPyD +89, PP +89
-- Mayor dependiente: ICV +78, PSOE +72, UPyD +72
-- Casero con varias viviendas: ICV +80, PSOE +74, UPyD +74
-- Transportista autónomo: PSOE +66, PP +65, UPyD +65
-- Asalariado de salario mínimo: PP +75, PNV +69, ICV +69
+- Asalariado medio con hipoteca e hijos: ICV +79, PP +74, PSOE +74
+- Joven de alquiler: ICV +76, PP +75, PSOE +75
+- Pensionista con casa propia: ICV +77, PP +71, PSOE +71
+- Pensionista con pensión baja: ICV +77, PP +71, PSOE +71
+- Autónomo del comercio: PP +70, PSOE +70, UPyD +70
+- Empresario de pyme industrial: UDC +47, UPyD +42, PP +41
+- Funcionario docente: ICV +79, PP +74, PSOE +74
+- Policía o guardia civil: ICV +79, PP +74, PSOE +74
+- Sanitario asalariado: ICV +79, PP +74, PSOE +74
+- Familia numerosa: ICV +79, PP +74, PSOE +74
+- Rentas altas con patrimonio: ICV +77, PP +71, PSOE +71
+- Gran patrimonio y gran empresa: ICV +73, PP +68, PSOE +68
+- Parado con subsidio: PP +74, PSOE +74, UPyD +74
+- Agricultor en el medio rural: UDC +77, PP +72, VOX +69
+- Madre sola con hijo: ICV +79, PP +74, PSOE +74
+- Estudiante: ICV +75, PP +74, PSOE +74
+- Mayor dependiente: ICV +77, PP +71, PSOE +71
+- Casero con varias viviendas: ICV +79, PP +74, PSOE +74
+- Transportista autónomo: PP +65, PSOE +65, UPyD +64
+- Asalariado de salario mínimo: ICV +79, PP +74, PSOE +74
 
 </details>
 
@@ -1720,43 +1720,43 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| UPyD | 98.2 % | 1.0 | +81 |
-| VOX | 1.1 % | 7.0 | +47 |
-| PNV | 0.8 % | 3.0 | +76 |
-| PP | 0.0 % | 2.3 | +79 |
-| PSOE | 0.0 % | 4.5 | +74 |
-| CDC | 0.0 % | 4.4 | +75 |
-| IU | 0.0 % | 9.4 | +31 |
-| ICV | 0.0 % | 9.0 | +33 |
-| UDC | 0.0 % | 6.0 | +68 |
+| UPyD | 98.0 % | 1.0 | +82 |
+| VOX | 1.2 % | 7.0 | +50 |
+| PNV | 0.7 % | 3.0 | +77 |
+| PP | 0.0 % | 2.3 | +80 |
+| PSOE | 0.0 % | 4.7 | +75 |
+| CDC | 0.0 % | 4.2 | +75 |
+| IU | 0.0 % | 9.1 | +32 |
+| ICV | 0.0 % | 8.7 | +35 |
+| UDC | 0.0 % | 6.0 | +69 |
 | ERC | 0.0 % | 11.9 | +9 |
-| Aralar | 0.0 % | 10.9 | +24 |
-| BNG | 0.0 % | 8.7 | +33 |
+| Aralar | 0.0 % | 10.8 | +26 |
+| BNG | 0.0 % | 9.4 | +33 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 99.0 % de los perfiles; con 2 o más partidos además del primero: 11.2 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 99.1 % de los perfiles; con 2 o más partidos además del primero: 11.2 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: UPyD +82, PP +80, PNV +77
-- Joven de alquiler: UPyD +81, PP +80, PNV +76
-- Pensionista con casa propia: UPyD +80, PP +79, PNV +75
-- Pensionista con pensión baja: UPyD +80, PP +79, PNV +75
-- Autónomo del comercio: UPyD +80, PP +79, PNV +75
-- Empresario de pyme industrial: VOX +33, UPyD +29, PNV +29
-- Funcionario docente: UPyD +80, PP +79, PNV +75
-- Policía o guardia civil: UPyD +80, PP +79, PNV +75
-- Sanitario asalariado: UPyD +80, PP +79, PNV +75
-- Familia numerosa: UPyD +82, PP +80, PNV +77
-- Rentas altas con patrimonio: UPyD +80, PP +79, PNV +75
-- Gran patrimonio y gran empresa: UPyD +80, PP +79, PNV +75
-- Parado con subsidio: UPyD +81, PP +80, PNV +76
-- Agricultor en el medio rural: UPyD +81, PP +79, PNV +75
+- Asalariado medio con hipoteca e hijos: UPyD +82, PP +81, PNV +77
+- Joven de alquiler: UPyD +82, PP +80, PNV +77
+- Pensionista con casa propia: UPyD +81, PP +79, PNV +75
+- Pensionista con pensión baja: UPyD +81, PP +79, PNV +75
+- Autónomo del comercio: UPyD +81, PP +79, PNV +75
+- Empresario de pyme industrial: VOX +35, UPyD +30, PNV +30
+- Funcionario docente: UPyD +81, PP +79, PNV +75
+- Policía o guardia civil: UPyD +81, PP +79, PNV +75
+- Sanitario asalariado: UPyD +81, PP +79, PNV +75
+- Familia numerosa: UPyD +82, PP +81, PNV +77
+- Rentas altas con patrimonio: UPyD +81, PP +79, PNV +75
+- Gran patrimonio y gran empresa: UPyD +81, PP +79, PNV +75
+- Parado con subsidio: UPyD +82, PP +80, PNV +77
+- Agricultor en el medio rural: UPyD +81, PP +80, PNV +76
 - Madre sola con hijo: UPyD +83, PP +81, PNV +78
-- Estudiante: UPyD +81, PP +80, PNV +76
-- Mayor dependiente: UPyD +80, PP +79, PNV +75
-- Casero con varias viviendas: UPyD +80, PP +79, PNV +75
-- Transportista autónomo: UPyD +71, PP +69, PNV +66
-- Asalariado de salario mínimo: UPyD +80, PP +79, PNV +75
+- Estudiante: UPyD +82, PP +80, PNV +77
+- Mayor dependiente: UPyD +81, PP +79, PNV +75
+- Casero con varias viviendas: UPyD +81, PP +79, PNV +75
+- Transportista autónomo: UPyD +72, PP +70, PNV +66
+- Asalariado de salario mínimo: UPyD +81, PP +79, PNV +75
 
 </details>
 
@@ -1764,43 +1764,43 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 22.9 % | 2.1 | +52 |
-| UPyD | 22.2 % | 3.0 | +51 |
-| PNV | 19.2 % | 4.2 | +51 |
-| PP | 12.2 % | 3.3 | +48 |
-| IU | 8.8 % | 5.9 | +41 |
-| CDC | 7.1 % | 4.9 | +48 |
-| ICV | 3.5 % | 7.4 | +25 |
-| Aralar | 2.0 % | 8.3 | +25 |
-| UDC | 1.2 % | 6.6 | +39 |
-| ERC | 0.4 % | 8.3 | +30 |
-| BNG | 0.4 % | 9.6 | +22 |
-| VOX | 0.0 % | 10.0 | +12 |
+| PNV | 24.6 % | 4.2 | +52 |
+| PSOE | 22.4 % | 2.0 | +53 |
+| UPyD | 21.8 % | 3.0 | +52 |
+| PP | 12.2 % | 3.1 | +50 |
+| IU | 9.2 % | 5.8 | +43 |
+| ICV | 3.0 % | 7.3 | +29 |
+| CDC | 2.2 % | 5.1 | +51 |
+| Aralar | 2.1 % | 8.4 | +27 |
+| UDC | 2.0 % | 6.6 | +43 |
+| ERC | 0.3 % | 8.9 | +30 |
+| BNG | 0.2 % | 9.7 | +21 |
+| VOX | 0.1 % | 9.8 | +19 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 93.6 % de los perfiles; con 2 o más partidos además del primero: 85.8 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 94.2 % de los perfiles; con 2 o más partidos además del primero: 84.5 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PP +44, PSOE +44, UPyD +44
-- Joven de alquiler: PP +36, PSOE +36, UPyD +36
-- Pensionista con casa propia: sin resultado
-- Pensionista con pensión baja: sin resultado
-- Autónomo del comercio: sin resultado
-- Empresario de pyme industrial: Aralar -1, BNG -3, ERC -4
-- Funcionario docente: sin resultado
-- Policía o guardia civil: sin resultado
-- Sanitario asalariado: sin resultado
-- Familia numerosa: PP +44, PSOE +44, UPyD +44
-- Rentas altas con patrimonio: sin resultado
-- Gran patrimonio y gran empresa: sin resultado
-- Parado con subsidio: PP +36, PSOE +36, UPyD +36
-- Agricultor en el medio rural: PP +31, UPyD +31, PNV +31
-- Madre sola con hijo: PSOE +55, UPyD +55, IU +55
-- Estudiante: PP +36, PSOE +36, UPyD +36
-- Mayor dependiente: sin resultado
-- Casero con varias viviendas: sin resultado
-- Transportista autónomo: UDC +6, VOX +4, CDC -9
-- Asalariado de salario mínimo: sin resultado
+- Asalariado medio con hipoteca e hijos: PP +49, PSOE +49, UPyD +49
+- Joven de alquiler: PP +42, PSOE +42, UPyD +42
+- Pensionista con casa propia: PP +28, PSOE +28, UPyD +28
+- Pensionista con pensión baja: PP +28, PSOE +28, UPyD +28
+- Autónomo del comercio: PP +28, PSOE +28, UPyD +28
+- Empresario de pyme industrial: Aralar +2, VOX +0, BNG -3
+- Funcionario docente: PP +28, PSOE +28, UPyD +28
+- Policía o guardia civil: PP +28, PSOE +28, UPyD +28
+- Sanitario asalariado: PP +28, PSOE +28, UPyD +28
+- Familia numerosa: PP +49, PSOE +49, UPyD +49
+- Rentas altas con patrimonio: PP +28, PSOE +28, UPyD +28
+- Gran patrimonio y gran empresa: PP +28, PSOE +28, UPyD +28
+- Parado con subsidio: PP +42, PSOE +42, UPyD +42
+- Agricultor en el medio rural: PP +38, UPyD +38, PNV +38
+- Madre sola con hijo: PSOE +58, UPyD +58, IU +58
+- Estudiante: PP +42, PSOE +42, UPyD +42
+- Mayor dependiente: PP +28, PSOE +28, UPyD +28
+- Casero con varias viviendas: PP +28, PSOE +28, UPyD +28
+- Transportista autónomo: VOX +14, UDC +13, CDC +0
+- Asalariado de salario mínimo: PP +28, PSOE +28, UPyD +28
 
 </details>
 
@@ -1810,41 +1810,41 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 79.0 % | 1.1 | +76 |
-| PP | 18.7 % | 1.9 | +75 |
-| CDC | 2.4 % | 3.3 | +62 |
-| IU | 0.0 % | 10.0 | +4 |
-| ICV | 0.0 % | 7.1 | +27 |
-| PNV | 0.0 % | 3.8 | +58 |
-| Los Verdes | 0.0 % | 8.3 | +23 |
-| UPN | 0.0 % | 5.5 | +40 |
-| EA | 0.0 % | 6.1 | +37 |
-| ERC | 0.0 % | 7.9 | +26 |
+| PSOE | 71.1 % | 1.1 | +74 |
+| PP | 26.1 % | 2.0 | +74 |
+| CDC | 2.8 % | 3.7 | +62 |
+| IU | 0.0 % | 9.9 | +9 |
+| ICV | 0.0 % | 7.0 | +33 |
+| PNV | 0.0 % | 3.3 | +62 |
+| Los Verdes | 0.0 % | 7.7 | +30 |
+| UPN | 0.0 % | 5.8 | +38 |
+| EA | 0.0 % | 6.7 | +35 |
+| ERC | 0.0 % | 7.8 | +27 |
 
-Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 98.3 % de los perfiles; con 2 o más partidos además del primero: 2.1 %.
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 97.8 % de los perfiles; con 2 o más partidos además del primero: 2.6 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PSOE +72, PP +71, PNV +56
-- Joven de alquiler: PSOE +72, PP +71, PNV +56
-- Pensionista con casa propia: PSOE +80, PP +79, CDC +68
-- Pensionista con pensión baja: PSOE +80, PP +79, CDC +68
-- Autónomo del comercio: PSOE +67, PP +67, CDC +59
-- Empresario de pyme industrial: PP +55, PSOE +55, CDC +52
-- Funcionario docente: PSOE +72, PP +71, PNV +56
-- Policía o guardia civil: PSOE +72, PP +71, PNV +56
-- Sanitario asalariado: PSOE +72, PP +71, PNV +56
-- Familia numerosa: PSOE +72, PP +71, PNV +56
-- Rentas altas con patrimonio: PSOE +80, PP +79, CDC +68
-- Gran patrimonio y gran empresa: PP +80, PSOE +77, CDC +65
-- Parado con subsidio: PSOE +80, PP +79, CDC +68
-- Agricultor en el medio rural: PSOE +76, PP +76, CDC +62
-- Madre sola con hijo: PSOE +72, PP +71, PNV +56
-- Estudiante: PSOE +88, PP +88, CDC +71
-- Mayor dependiente: PSOE +80, PP +79, CDC +68
-- Casero con varias viviendas: PSOE +72, PP +71, PNV +56
-- Transportista autónomo: PP +58, PSOE +57, CDC +49
-- Asalariado de salario mínimo: PSOE +72, PP +71, PNV +56
+- Asalariado medio con hipoteca e hijos: PSOE +70, PP +69, PNV +60
+- Joven de alquiler: PSOE +70, PP +69, PNV +60
+- Pensionista con casa propia: PSOE +78, PP +78, PNV +68
+- Pensionista con pensión baja: PSOE +78, PP +78, PNV +68
+- Autónomo del comercio: PSOE +66, PP +65, CDC +61
+- Empresario de pyme industrial: PP +53, PSOE +53, CDC +52
+- Funcionario docente: PSOE +70, PP +69, PNV +60
+- Policía o guardia civil: PSOE +70, PP +69, PNV +60
+- Sanitario asalariado: PSOE +70, PP +69, PNV +60
+- Familia numerosa: PSOE +70, PP +69, PNV +60
+- Rentas altas con patrimonio: PSOE +78, PP +78, PNV +68
+- Gran patrimonio y gran empresa: PP +78, PSOE +76, PNV +68
+- Parado con subsidio: PSOE +78, PP +78, PNV +68
+- Agricultor en el medio rural: PSOE +76, PP +76, CDC +58
+- Madre sola con hijo: PSOE +70, PP +69, PNV +60
+- Estudiante: PSOE +87, PP +87, PNV +71
+- Mayor dependiente: PSOE +78, PP +78, PNV +68
+- Casero con varias viviendas: PSOE +70, PP +69, PNV +60
+- Transportista autónomo: PP +53, PSOE +52, CDC +44
+- Asalariado de salario mínimo: PSOE +70, PP +69, PNV +60
 
 </details>
 
@@ -1852,41 +1852,41 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 58.3 % | 1.7 | +69 |
-| PP | 38.5 % | 1.4 | +69 |
-| CDC | 2.8 % | 3.7 | +57 |
-| ERC | 0.3 % | 6.3 | +24 |
-| PNV | 0.1 % | 3.4 | +58 |
-| IU | 0.0 % | 10.0 | -8 |
-| ICV | 0.0 % | 7.8 | +17 |
-| Los Verdes | 0.0 % | 8.9 | +11 |
-| UPN | 0.0 % | 5.5 | +38 |
-| EA | 0.0 % | 6.4 | +34 |
+| PSOE | 57.5 % | 1.8 | +64 |
+| PP | 36.9 % | 1.4 | +64 |
+| CDC | 4.7 % | 3.4 | +55 |
+| ERC | 0.8 % | 6.6 | +27 |
+| IU | 0.0 % | 10.0 | -5 |
+| ICV | 0.0 % | 6.9 | +23 |
+| PNV | 0.0 % | 3.6 | +55 |
+| Los Verdes | 0.0 % | 8.6 | +18 |
+| UPN | 0.0 % | 6.2 | +32 |
+| EA | 0.0 % | 6.6 | +30 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 95.4 % de los perfiles; con 2 o más partidos además del primero: 3.1 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 94.8 % de los perfiles; con 2 o más partidos además del primero: 6.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
-- Asalariado medio con hipoteca e hijos: PSOE +64, PP +63, PNV +55
-- Joven de alquiler: PSOE +64, PP +63, PNV +55
-- Pensionista con casa propia: PP +73, PSOE +73, PNV +66
-- Pensionista con pensión baja: PP +73, PSOE +73, PNV +66
-- Autónomo del comercio: PP +59, PSOE +59, CDC +54
-- Empresario de pyme industrial: PP +34, CDC +32, PSOE +28
-- Funcionario docente: PSOE +64, PP +63, PNV +55
-- Policía o guardia civil: PSOE +64, PP +63, PNV +55
-- Sanitario asalariado: PSOE +64, PP +63, PNV +55
-- Familia numerosa: PSOE +64, PP +63, PNV +55
-- Rentas altas con patrimonio: PP +73, PSOE +73, PNV +66
-- Gran patrimonio y gran empresa: PP +74, PSOE +70, PNV +65
-- Parado con subsidio: PP +73, PSOE +73, PNV +66
-- Agricultor en el medio rural: PP +70, PSOE +70, CDC +57
-- Madre sola con hijo: PSOE +64, PP +63, PNV +55
-- Estudiante: PP +86, PSOE +86, PNV +71
-- Mayor dependiente: PP +73, PSOE +73, PNV +66
-- Casero con varias viviendas: PSOE +64, PP +63, PNV +55
-- Transportista autónomo: PP +46, PSOE +43, CDC +36
-- Asalariado de salario mínimo: PSOE +64, PP +63, PNV +55
+- Asalariado medio con hipoteca e hijos: PSOE +59, PP +58, PNV +51
+- Joven de alquiler: PSOE +59, PP +58, PNV +51
+- Pensionista con casa propia: PP +69, PSOE +69, CDC +64
+- Pensionista con pensión baja: PP +69, PSOE +69, CDC +64
+- Autónomo del comercio: CDC +55, PP +53, PSOE +53
+- Empresario de pyme industrial: CDC +31, PP +30, PSOE +25
+- Funcionario docente: PSOE +59, PP +58, PNV +51
+- Policía o guardia civil: PSOE +59, PP +58, PNV +51
+- Sanitario asalariado: PSOE +59, PP +58, PNV +51
+- Familia numerosa: PSOE +59, PP +58, PNV +51
+- Rentas altas con patrimonio: PP +69, PSOE +69, CDC +64
+- Gran patrimonio y gran empresa: PP +71, PSOE +66, PNV +63
+- Parado con subsidio: PP +69, PSOE +69, CDC +64
+- Agricultor en el medio rural: PP +67, PSOE +67, CDC +50
+- Madre sola con hijo: PSOE +59, PP +58, PNV +51
+- Estudiante: PP +85, PSOE +85, CDC +70
+- Mayor dependiente: PP +69, PSOE +69, CDC +64
+- Casero con varias viviendas: PSOE +59, PP +58, PNV +51
+- Transportista autónomo: PP +37, PSOE +34, CDC +27
+- Asalariado de salario mínimo: PSOE +59, PP +58, PNV +51
 
 </details>
 
@@ -1894,16 +1894,16 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 97.8 % | 1.1 | +81 |
-| CDC | 1.3 % | 2.8 | +69 |
-| PP | 0.7 % | 2.2 | +75 |
-| Los Verdes | 0.1 % | 6.0 | +31 |
-| UPN | 0.1 % | 4.7 | +56 |
-| IU | 0.0 % | 8.0 | +21 |
+| PSOE | 97.7 % | 1.1 | +82 |
+| CDC | 1.5 % | 2.8 | +70 |
+| PP | 0.6 % | 2.2 | +76 |
+| Los Verdes | 0.1 % | 6.0 | +30 |
+| UPN | 0.1 % | 4.9 | +56 |
+| IU | 0.0 % | 8.1 | +20 |
 | ICV | 0.0 % | 7.7 | +21 |
-| PNV | 0.0 % | 4.3 | +59 |
-| EA | 0.0 % | 9.0 | +18 |
-| ERC | 0.0 % | 9.2 | +17 |
+| PNV | 0.0 % | 4.2 | +61 |
+| EA | 0.0 % | 8.9 | +18 |
+| ERC | 0.0 % | 9.2 | +16 |
 
 Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 12.1 % de los perfiles; con 2 o más partidos además del primero: 2.5 %.
 
@@ -1913,7 +1913,7 @@ Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.�
 - Joven de alquiler: PSOE +84, PP +79, CDC +72
 - Pensionista con casa propia: PSOE +83, PP +78, CDC +70
 - Pensionista con pensión baja: PSOE +83, PP +78, CDC +70
-- Autónomo del comercio: PSOE +73, PP +68, CDC +66
+- Autónomo del comercio: PSOE +82, PP +77, CDC +70
 - Empresario de pyme industrial: CDC +18, Los Verdes +17, UPN +17
 - Funcionario docente: PSOE +84, PP +79, CDC +71
 - Policía o guardia civil: PSOE +84, PP +79, CDC +71
@@ -1922,8 +1922,8 @@ Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.�
 - Rentas altas con patrimonio: PSOE +83, PP +78, CDC +70
 - Gran patrimonio y gran empresa: PSOE +83, PP +78, CDC +70
 - Parado con subsidio: PSOE +83, PP +78, CDC +66
-- Agricultor en el medio rural: PSOE +65, PP +60, CDC +57
-- Madre sola con hijo: PSOE +87, PP +82, CDC +71
+- Agricultor en el medio rural: PSOE +73, PP +68, CDC +60
+- Madre sola con hijo: PSOE +87, PP +82, CDC +74
 - Estudiante: PSOE +86, PP +81, CDC +74
 - Mayor dependiente: PSOE +83, PP +78, CDC +70
 - Casero con varias viviendas: PSOE +84, PP +79, CDC +71
@@ -1936,18 +1936,18 @@ Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 39.6 % | 2.3 | +50 |
-| PP | 33.8 % | 2.3 | +46 |
-| PNV | 10.2 % | 3.8 | +42 |
-| CDC | 8.3 % | 3.5 | +42 |
-| UPN | 4.2 % | 4.8 | +34 |
-| ICV | 3.3 % | 5.8 | +19 |
-| EA | 0.3 % | 8.0 | +8 |
-| IU | 0.1 % | 8.5 | +3 |
-| Los Verdes | 0.0 % | 6.9 | +18 |
-| ERC | 0.0 % | 7.4 | +20 |
+| PSOE | 40.1 % | 2.2 | +51 |
+| PP | 34.4 % | 2.2 | +47 |
+| PNV | 12.1 % | 3.5 | +45 |
+| CDC | 8.6 % | 3.4 | +45 |
+| ICV | 2.7 % | 6.1 | +17 |
+| UPN | 1.8 % | 5.1 | +34 |
+| EA | 0.2 % | 8.1 | +7 |
+| IU | 0.0 % | 8.4 | +1 |
+| Los Verdes | 0.0 % | 6.9 | +16 |
+| ERC | 0.0 % | 7.1 | +20 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 74.3 % de los perfiles; con 2 o más partidos además del primero: 26.2 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 74.6 % de los perfiles; con 2 o más partidos además del primero: 26.2 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1955,7 +1955,7 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 - Joven de alquiler: PP +44, PSOE +44, CDC +44
 - Pensionista con casa propia: PP +31, PSOE +31, CDC +31
 - Pensionista con pensión baja: PP +31, PSOE +31, CDC +31
-- Autónomo del comercio: ICV +26, CDC +20, IU +16
+- Autónomo del comercio: PP +31, PSOE +31, PNV +19
 - Empresario de pyme industrial: ICV +5, ERC -3, IU -4
 - Funcionario docente: PP +40, PSOE +40, CDC +40
 - Policía o guardia civil: PP +40, PSOE +40, CDC +40
@@ -1964,8 +1964,8 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 - Rentas altas con patrimonio: sin resultado
 - Gran patrimonio y gran empresa: sin resultado
 - Parado con subsidio: PP +31, PSOE +31, CDC +15
-- Agricultor en el medio rural: ICV +12, IU +0, EA +0
-- Madre sola con hijo: PP +68, PSOE +68, PNV +50
+- Agricultor en el medio rural: ICV +0, PNV +0, PP -5
+- Madre sola con hijo: PP +67, PSOE +67, CDC +57
 - Estudiante: PP +57, PSOE +57, CDC +57
 - Mayor dependiente: PP +31, PSOE +31, CDC +31
 - Casero con varias viviendas: PP +40, PSOE +40, CDC +40

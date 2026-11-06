@@ -4,15 +4,15 @@
 
 ## Dudas
 
-- [ ] 130/000007 (RDL 17/2019, retribución eléctrica y cierre de térmicas): vacía, signo mixto.
-- [ ] 122/000013 (ITP-AJD, art. 31.2): se supone el AJD de las hipotecas (`+hipot`, `+secFin`).
-- [ ] 122/000053 (UP, suficiencia de ingresos): solo `+pobreza`.
-- [ ] 125/000005 y 125/000010 (Navarra, Seguridad Social y SNS): vacías por no conocer el contenido.
-- [ ] 122/000031 y 122/000038 (igualdad en el empleo): solo `+mujeres`, sin coste para empresas.
-- [ ] 122/000025 (cierre de nucleares): `-secInd`, `-empGran`, sin `ciud`.
-- [ ] 122/000022 (nulidad de la Ley de Amnistía de 1977): `+victimas`.
-- [ ] 130/000001 (RDL 11/2019, DANA): peso 1.
-- [ ] Partido del Grupo Mixto: solo identificado 123/000002 (Compromís); el resto de proposiciones son de grupos con un único partido.
+- [x] 130/000007 (RDL 17/2019, retribución eléctrica y cierre de térmicas): vacía, signo mixto. — Resuelta (06/11/2026): v3: `{}`, peso 1 (tres lectores: ajustes de retribución y cierre de térmicas sin signo único, 3.1.1).
+- [x] 122/000013 (ITP-AJD, art. 31.2): se supone el AJD de las hipotecas (`+hipot`, `+secFin`). — Aplicada (06/11/2026): `{"hipot": 1, "viv0": 1}` → `{"secFin": 1}` (el sujeto pasivo del AJD es la entidad prestamista; el ahorro de `hipot` y `viv0` depende de que lo traslade, P2), nota actualizada.
+- [x] 122/000053 (UP, suficiencia de ingresos): solo `+pobreza`. — Resuelta (06/11/2026): v3: `{}`, peso 1; caducó sin publicarse (la caché solo trae el anuncio de caducidad), así que el contenido no se conoce (3.9).
+- [x] 125/000005 y 125/000010 (Navarra, Seguridad Social y SNS): vacías por no conocer el contenido. — Resuelta (06/11/2026): v3 con el texto: 125/000005 `{}` (desempleo de parlamentarios autonómicos, sin colectivo); 125/000010 `+ciud`, `+inmigrantes`, `+pac`.
+- [x] 122/000031 y 122/000038 (igualdad en el empleo): solo `+mujeres`, sin coste para empresas. — Resuelta (06/11/2026): v3: `+mujeres`, peso 2, sin tamaños de empresa (no consta un coste laboral general, 3.4.2); agrupadas en `temas.json`.
+- [x] 122/000025 (cierre de nucleares): `-secInd`, `-empGran`, sin `ciud`. — Aplicada (06/11/2026): `{"ciud": 1, "secInd": -1}` → `{"secInd": -1}`, como la XII (122/000073, 122/000224), nota actualizada.
+- [x] 122/000022 (nulidad de la Ley de Amnistía de 1977): `+victimas`. — Resuelta (06/11/2026): v3: `+victimas` (anula sentencias franquistas: reparación, 3.7), igual que la XII (122/000139, 122/000141).
+- [x] 130/000001 (RDL 11/2019, DANA): peso 1. — Aplicada (06/11/2026): peso 2 → 1 (3.8, paso 2: ámbito territorial), como las medidas de la DANA de la XV.
+- [x] Partido del Grupo Mixto: solo identificado 123/000002 (Compromís); el resto de proposiciones son de grupos con un único partido. — Resuelta (06/11/2026): la única iniciativa del Mixto en la caché de la XIII es 123/000002 (autor «Baldoví Roda, Joan (GMx)»), con partido `Compromís`; el resto son de grupos de un solo partido, de parlamentos autonómicos o ILP.
 
 
 ## Reclasificación con la rúbrica v3 (04/11/2026)
@@ -27,7 +27,7 @@ Las 88 iniciativas se han reclasificado con la rúbrica v3 por tres lectores ind
 
 La rúbrica (línea de Desempleados) deja `desSub` solo para el subsidio por desempleo: el IMV y las rentas mínimas van a `pobreza` (3.5.2). Estas iniciativas llevan `desSub` y su nota habla del IMV o de una renta mínima; todas tienen ya `pobreza`. Revisar si `desSub` sobra o si la iniciativa toca además el subsidio por desempleo.
 
-- [ ] **Prestación de ingresos mínimos** (120/000002, ILP): renta mínima de la Seguridad Social, no subsidio por desempleo; `desSub` y `pobreza`.
+- [x] **Prestación de ingresos mínimos** (120/000002, ILP): renta mínima de la Seguridad Social, no subsidio por desempleo; `desSub` y `pobreza`. — Resuelta (06/11/2026): relectura del IMV: `+pobreza`, sin `desSub`.
 
 ### Reclasificación del IMV y de ingresos mínimos (05/11/2026)
 
@@ -38,3 +38,9 @@ Tras corregir en la rúbrica la definición de `desSub` (solo subsidio por desem
 El texto del BOCG en caché de las iniciativas legislativas populares (120/) empezaba en el sumario del boletín y arrastraba iniciativas vecinas (corregido en 33661ff). Las ILP afectadas de esta legislatura se releyeron con el texto correcto por tres lectores independientes y se consolidaron por mayoría. Lecturas en `data/clasificacion/lecturas_ilp_05-11-2026/`.
 
 - [x] **Sin la regla «lo público frente a lo privado» en `ciud`** (decisión del 06/11/2026, rúbrica 3.2): se quita `ciud` de 122/000020. Se mantiene el efecto sobre el sector afectado.
+
+## Aplicación del repaso (06/11/2026)
+
+- 122/000013: `{"hipot": 1, "viv0": 1}` → `{"secFin": 1}`.
+- 122/000025: `{"ciud": 1, "secInd": -1}` → `{"secInd": -1}`.
+- 130/000001: peso 2 → 1.

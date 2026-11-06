@@ -1,0 +1,26 @@
+[
+ {"id": "130/000055", "bloques": [
+  {"d": "Prórroga de concesiones portuarias", "imp": {"secTrans": 1}, "peso": 1},
+  {"d": "Reforma de la retribución de las actividades reguladas del gas", "imp": {"secInd": -1}, "peso": 2},
+  {"d": "Obligaciones de eficiencia energética para comercializadoras y operadores", "imp": {"ciud": 1, "secInd": -1}, "peso": 2},
+  {"d": "Sistema Nacional de Garantía Juvenil", "imp": {"jovenes": 1, "discapacidad": 1}, "peso": 2},
+  {"d": "Exención fiscal por dación en pago de la vivienda habitual", "imp": {"hipot": 1}, "peso": 1},
+  {"d": "Retención reducida para profesionales con bajos rendimientos", "imp": {"empAut": 1}, "peso": 1},
+  {"d": "Tipo del impuesto sobre los depósitos bancarios", "imp": {"secFin": -1, "empGran": -1}, "peso": 2},
+  {"d": "Oferta adicional de plazas y equivalencia de títulos militares", "imp": {"proSeg": 1}, "peso": 1},
+  {"d": "Liberalización de horarios y apertura de comercios", "imp": {"secCom": 1}, "peso": 2}
+ ]},
+ {"id": "130/000063", "bloques": [
+  {"d": "Subsidio por desempleo para mayores de 52 años", "imp": {"desSub": 1, "adultos": 1}, "peso": 2},
+  {"d": "Subida de la prestación por hijo a cargo", "imp": {"infancia": 1, "pobreza": 1}, "peso": 2},
+  {"d": "Mínimos de la pensión de incapacidad permanente total", "imp": {"pen1": 1, "discapacidad": 1}, "peso": 1},
+  {"d": "Bonificaciones por hacer indefinidos a trabajadores agrarios", "imp": {"secPrim": 1}, "peso": 1},
+  {"d": "Bonificación a fijos discontinuos del turismo", "imp": {"secCom": 1}, "peso": 1},
+  {"d": "Registro diario obligatorio de la jornada", "imp": {"asal1": 1, "asal2": 1, "asal3": 1, "asal4": 1, "empAut": -1, "empMicro": -1, "empPeq": -1, "empMed": -1, "empGran": -1}, "peso": 2},
+  {"d": "Dotación del Fondo para la Integración de los Inmigrantes", "imp": {"inmigrantes": 1}, "peso": 1},
+  {"d": "Garantía Juvenil ampliada hasta los 30 años", "imp": {"jovenes": 1}, "peso": 1},
+  {"d": "Cotización completa en reducción de jornada por cuidado de hijos", "imp": {"infancia": 1}, "peso": 1},
+  {"d": "Estado paga el convenio de cuidadores no profesionales", "imp": {"depend": 1}, "peso": 1},
+  {"d": "Cuotas de autónomos en baja pagadas por cese de actividad", "imp": {"empAut": 1}, "peso": 1}
+ ]}
+]

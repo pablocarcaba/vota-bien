@@ -1825,7 +1825,7 @@
    {
     "d": "Rebaja del impuesto de hidrocarburos y del IVA de carburantes",
     "imp": {
-     "ciud": 1
+     "cons": 1
     },
     "peso": 2
    },
@@ -1970,7 +1970,7 @@
   "id": "130/000049",
   "tipo": "eco",
   "imp": {
-   "ciud": 1,
+   "cons": 1,
    "secInd": 1,
    "secPrim": 1,
    "secTrans": 1
@@ -1982,7 +1982,7 @@
    {
     "d": "Rebaja temporal del impuesto sobre hidrocarburos de gasolina y gasóleo",
     "imp": {
-     "ciud": 1
+     "cons": 1
     },
     "peso": 2
    },

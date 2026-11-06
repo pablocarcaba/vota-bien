@@ -86,13 +86,9 @@
  {
   "id": "2012/2092(BUD)",
   "tipo": "eco",
-  "imp": {
-   "secPrim": 1,
-   "rural": 1,
-   "estud": 1
-  },
-  "peso": 3,
-  "nota": "Presupuesto anual de la UE para 2013: ayudas de la PAC, desarrollo rural y Erasmus, entre otros programas.",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE: fija créditos de muchos programas; el signo frente al año anterior para un colectivo español no consta.",
   "partido": ""
  },
  {
@@ -286,13 +282,9 @@
  {
   "id": "2012/2307(BUD)",
   "tipo": "eco",
-  "imp": {
-   "secPrim": 1,
-   "rural": 1,
-   "estud": 1
-  },
-  "peso": 3,
-  "nota": "Nuevo proyecto del presupuesto de la UE para 2013: ayudas de la PAC, desarrollo rural y Erasmus.",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE: fija créditos de muchos programas; el signo frente al año anterior para un colectivo español no consta.",
   "partido": ""
  },
  {
@@ -415,7 +407,6 @@
   "id": "2013/0028(COD)",
   "tipo": "eco",
   "imp": {
-   "ciud": -1,
    "secTrans": 1
   },
   "peso": 2,
@@ -426,7 +417,6 @@
   "id": "2013/0029(COD)",
   "tipo": "eco",
   "imp": {
-   "ciud": -1,
    "secTrans": 1
   },
   "peso": 2,
@@ -863,7 +853,6 @@
   "id": "2013/0186(COD)",
   "tipo": "eco",
   "imp": {
-   "ciud": -1,
    "secTrans": 1
   },
   "peso": 1,

@@ -1,0 +1,300 @@
+[
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "cons": 1,
+   "discapacidad": 1,
+   "empAut": 1,
+   "empGran": -1,
+   "hipot": 1,
+   "jovenes": 1,
+   "proSeg": 1,
+   "secCom": 1,
+   "secDig": 1,
+   "secFin": -1,
+   "secInd": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Limita las tasas de intercambio de tarjetas y prohíbe recargos, liberaliza horarios comerciales, alarga concesiones portuarias y suprime el registro obligatorio de empresas cinematográficas.",
+  "medidas": [
+   {
+    "d": "Límite a las tasas de intercambio de tarjetas y prohibición de recargos",
+    "imp": {
+     "cons": 1,
+     "secCom": 1,
+     "secFin": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Liberalización de horarios y apertura de establecimientos comerciales",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ampliación a 50 años de las concesiones portuarias",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la inscripción obligatoria de empresas cinematográficas",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reforma de la retribución de las actividades reguladas del gas",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Obligaciones de eficiencia energética para comercializadoras y operadores",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Sistema Nacional de Garantía Juvenil",
+    "imp": {
+     "jovenes": 1,
+     "discapacidad": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Exención fiscal por dación en pago de la vivienda habitual",
+    "imp": {
+     "hipot": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Retención reducida para profesionales con bajos rendimientos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Tipo del impuesto sobre los depósitos bancarios",
+    "imp": {
+     "secFin": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Oferta adicional de plazas y equivalencia de títulos militares",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000013",
+  "tipo": "eco",
+  "imp": {
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "empMed": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Endurece Sociedades para empresas con más de 20 millones de facturación (gastos financieros, fondo de comercio, pago fraccionado mínimo) y suprime la libertad de amortización.",
+  "medidas": [
+   {
+    "d": "Límites a deducciones y pago fraccionado mínimo en Sociedades",
+    "imp": {
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la libertad de amortización",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1,
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "infancia": 1,
+   "empAut": -1
+  },
+  "peso": 1,
+  "nota": "Permite el contrato de emprendedores a tiempo parcial, amplía la reducción de jornada por hijos hasta doce años y sube la cotización de algunos autónomos.",
+  "medidas": [
+   {
+    "d": "Contrato indefinido de apoyo a emprendedores a tiempo parcial",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reducción de jornada por cuidado de hijos hasta 12 años",
+    "imp": {
+     "infancia": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Base mínima de cotización mayor para autónomos con diez empleados",
+    "imp": {
+     "empAut": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000063",
+  "tipo": "eco",
+  "imp": {
+   "adultos": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "depend": 1,
+   "desSub": 1,
+   "discapacidad": 1,
+   "empGran": -1,
+   "empMed": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "infancia": 1,
+   "inmigrantes": 1,
+   "jovenes": 1,
+   "pen1": 1,
+   "pobreza": 1,
+   "secCom": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Amplía el subsidio de mayores de 52, sube prestación por hijo y pensión mínima de incapacidad, bonifica contratos agrarios y turísticos, impone registro de jornada.",
+  "medidas": [
+   {
+    "d": "Subsidio por desempleo desde los 52 años, sin rentas familiares",
+    "imp": {
+     "desSub": 1,
+     "adultos": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de la prestación por hijo a cargo",
+    "imp": {
+     "infancia": 1,
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de la pensión mínima de incapacidad permanente total",
+    "imp": {
+     "pen1": 1,
+     "discapacidad": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Bonificación por convertir en indefinidos contratos agrarios",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Bonificación a fijos discontinuos en turismo, comercio y hostelería",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Registro obligatorio de la jornada",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Registro diario obligatorio de la jornada",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1,
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Dotación del Fondo para la Integración de los Inmigrantes",
+    "imp": {
+     "inmigrantes": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Garantía Juvenil ampliada hasta los 30 años",
+    "imp": {
+     "jovenes": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Estado paga el convenio de cuidadores no profesionales",
+    "imp": {
+     "depend": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Cuotas de autónomos en baja pagadas por cese de actividad",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   }
+  ]
+ }
+]

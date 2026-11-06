@@ -169,13 +169,9 @@
  {
   "id": "2007/0094(COD)",
   "tipo": "soc",
-  "imp": {
-   "secPrim": -1,
-   "secCons": -1,
-   "secCom": -1
-  },
-  "peso": 2,
-  "nota": "Sanciona a los empleadores de inmigrantes en situación irregular; afecta a sectores con más empleo irregular (agricultura, construcción, hostelería).",
+  "imp": {},
+  "peso": 1,
+  "nota": "Norma sancionadora contra los empleadores de extranjeros en situación irregular; no regula un sector concreto ni da derechos con signo único.",
   "partido": ""
  },
  {
@@ -200,11 +196,10 @@
   "id": "2007/0098(COD)",
   "tipo": "eco",
   "imp": {
-   "secTrans": -1,
-   "empAut": -1
+   "secTrans": -1
   },
   "peso": 1,
-  "nota": "Endurece los requisitos para ejercer de transportista por carretera (gestor de transporte, honorabilidad, capacidad financiera); coste para transportistas y autónomos.",
+  "nota": "Endurece los requisitos para ejercer de transportista por carretera (gestor de transporte, honorabilidad, capacidad financiera); coste para el sector.",
   "partido": ""
  },
  {

@@ -368,9 +368,11 @@
  {
   "id": "2023/0155(COD)",
   "tipo": "soc",
-  "imp": {},
+  "imp": {
+   "secTrans": 1
+  },
   "peso": 1,
-  "nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+  "nota": "Flexibiliza las pausas y descansos de los conductores de autocar en viajes discrecionales; alivia las exigencias a las empresas de transporte.",
   "partido": ""
  },
  {

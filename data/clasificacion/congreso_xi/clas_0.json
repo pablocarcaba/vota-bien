@@ -191,11 +191,9 @@
  {
   "id": "122/000015",
   "tipo": "soc",
-  "imp": {
-   "empMicro": 1
-  },
+  "imp": {},
   "peso": 1,
-  "nota": "Amplía las exenciones de la tasa judicial; beneficia a sociedades con facturación inferior a un millón de euros.",
+  "nota": "Exime de la tasa judicial a sociedades que facturan menos de un millón de euros; umbral insuficiente para marcar a las microempresas.",
   "partido": ""
  },
  {

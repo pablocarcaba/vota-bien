@@ -492,6 +492,13 @@
     "peso": 2
    },
    {
+    "d": "Bonificación del precio de los carburantes",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
     "d": "Objetivo de reducción de emisiones de los combustibles de transporte",
     "imp": {
      "ciud": 1,
@@ -644,6 +651,13 @@
     "imp": {
      "cons": 1,
      "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Bonificación del precio de los carburantes",
+    "imp": {
+     "cons": 1
     },
     "peso": 2
    },
@@ -1160,7 +1174,7 @@
   "tipo": "eco",
   "imp": {},
   "peso": 1,
-  "nota": "El título no permite determinar el contenido.",
+  "nota": "Facilita anotar en los registros los bienes de testaferros de sancionados por la UE y regula pagos de servicios en el exterior; sin colectivo afectado.",
   "partido": ""
  },
  {

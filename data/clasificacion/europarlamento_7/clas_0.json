@@ -190,7 +190,7 @@
    "secInd": 1
   },
   "peso": 1,
-  "nota": "Propuesta de permitir a la industria farmacéutica informar al público sobre medicamentos con receta; no se aprobó. Beneficia a la industria.",
+  "nota": "Permitiría a la industria farmacéutica informar al público sobre medicamentos con receta; beneficia a la industria.",
   "partido": ""
  },
  {
@@ -200,7 +200,7 @@
    "secInd": 1
   },
   "peso": 1,
-  "nota": "Propuesta de permitir a la industria farmacéutica informar al público sobre medicamentos con receta; no se aprobó. Beneficia a la industria.",
+  "nota": "Permitiría a la industria farmacéutica informar al público sobre medicamentos con receta; beneficia a la industria.",
   "partido": ""
  },
  {
@@ -393,10 +393,11 @@
   "id": "2009/0041(CNS)",
   "tipo": "eco",
   "imp": {
+   "ciud": 1,
    "secPrim": -1
   },
   "peso": 1,
-  "nota": "Plan de recuperación del fletán negro; limita la actividad pesquera.",
+  "nota": "Plan de recuperación del fletán negro: límites de captura que protegen el recurso con coste para el sector pesquero.",
   "partido": ""
  },
  {

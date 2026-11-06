@@ -4,14 +4,14 @@
 
 ## Dudas
 
-- [ ] 122/000015 y 122/000018 (tasas judiciales): `+empMicro`/`+empPeq` porque solo pagan personas jurídicas.
-- [ ] 122/000016 (PP, segunda oportunidad) y 125/000002 (Baleares, emprendedores): vacías por no conocer el contenido.
-- [ ] 122/000020 (art. 42.1 ET, subcontratas): solo `+asal1`/`+asal2`.
-- [ ] 122/000021 (tasa AEDE): vacía por efectos contrapuestos en `secDig`.
-- [ ] 122/000024 (CP, PNV): se supone prisión permanente revisable.
-- [ ] 122/000025-27 (autoconsumo del ciclo del agua) y 125/000003 (autoconsumo, Murcia): criterio de `secInd` distinto del de la XIV.
-- [ ] 123/000001 (Ley 25 de emergencia social): contenido de memoria; peso 3.
-- [ ] 122/000001 (suspensión de la LOMCE): vacía, peso 2.
+- [x] 122/000015 y 122/000018 (tasas judiciales): `+empMicro`/`+empPeq` porque solo pagan personas jurídicas. — Aplicada (06/11/2026): 122/000015 `{"empMicro": 1}` → `{}` (umbral de 1 M€: no cubre más de la mitad de `empMicro`, 3.3.1), nota actualizada; 122/000018 sin cambios.
+- [x] 122/000016 (PP, segunda oportunidad) y 125/000002 (Baleares, emprendedores): vacías por no conocer el contenido. — Resuelta (06/11/2026): v3 con el texto: 122/000016 `+empAut`, `+empMicro`, `+empPeq`, `+jovenes` (exención de cotización en contratos indefinidos); 125/000002 `{}` con el contenido leído (deporte base).
+- [x] 122/000020 (art. 42.1 ET, subcontratas): solo `+asal1`/`+asal2`. — Resuelta (06/11/2026): v3: `{}`; solo alcanza a los trabajadores de contratas (no a todos los asalariados, 3.3.1) y sin signo uniforme para las empresas.
+- [x] 122/000021 (tasa AEDE): vacía por efectos contrapuestos en `secDig`. — Resuelta (06/11/2026): v3: `{}` por signos opuestos dentro de `secDig` (3.1.1).
+- [x] 122/000024 (CP, PNV): se supone prisión permanente revisable. — Resuelta (06/11/2026): v3: `{}` por ser norma penal (3.7), sea cual sea el contenido supuesto.
+- [x] 122/000025-27 (autoconsumo del ciclo del agua) y 125/000003 (autoconsumo, Murcia): criterio de `secInd` distinto del de la XIV. — Resuelta (06/11/2026): 122/000025–27 `+secInd` (exime de los cargos del autoconsumo a la cogeneración y a las desaladoras: sector exento directamente; agrupadas en `temas.json`); 125/000003 `+ciud`, igual que la XIV (121/000087 y 130/000069 `+ciud`, sin `secInd`).
+- [x] 123/000001 (Ley 25 de emergencia social): contenido de memoria; peso 3. — Resuelta (06/11/2026): v3 con el texto: `+pobreza`, peso 2 (mediana de 2, 3 y 2).
+- [x] 122/000001 (suspensión de la LOMCE): vacía, peso 2. — Resuelta (06/11/2026): v3: `{}`, peso 1 (3.8: sin impactos, peso 1).
 - [x] 122/000034 (Grupo Mixto): UPN, según la firma del BOCG.
 
 
@@ -27,7 +27,7 @@ Las 51 iniciativas se han reclasificado con la rúbrica v3 por tres lectores ind
 
 La rúbrica (línea de Desempleados) deja `desSub` solo para el subsidio por desempleo: el IMV y las rentas mínimas van a `pobreza` (3.5.2). Estas iniciativas llevan `desSub` y su nota habla del IMV o de una renta mínima; todas tienen ya `pobreza`. Revisar si `desSub` sobra o si la iniciativa toca además el subsidio por desempleo.
 
-- [ ] **Prestación de ingresos mínimos** (120/000003, ILP): renta mínima de la Seguridad Social, no subsidio por desempleo; `desSub` y `pobreza`.
+- [x] **Prestación de ingresos mínimos** (120/000003, ILP): renta mínima de la Seguridad Social, no subsidio por desempleo; `desSub` y `pobreza`. — Resuelta (06/11/2026): relectura del IMV: `+pobreza`, sin `desSub`.
 
 ### Reclasificación del IMV y de ingresos mínimos (05/11/2026)
 
@@ -36,3 +36,7 @@ Tras corregir en la rúbrica la definición de `desSub` (solo subsidio por desem
 ### Relectura de las ILP con el texto bien recortado (05/11/2026)
 
 El texto del BOCG en caché de las iniciativas legislativas populares (120/) empezaba en el sumario del boletín y arrastraba iniciativas vecinas (corregido en 33661ff). Las ILP afectadas de esta legislatura se releyeron con el texto correcto por tres lectores independientes y se consolidaron por mayoría. Lecturas en `data/clasificacion/lecturas_ilp_05-11-2026/`.
+
+## Aplicación del repaso (06/11/2026)
+
+- 122/000015: `{"empMicro": 1}` → `{}` (regla del umbral).

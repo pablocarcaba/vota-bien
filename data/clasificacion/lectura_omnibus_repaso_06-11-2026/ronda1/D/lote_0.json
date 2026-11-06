@@ -1,0 +1,193 @@
+[
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secCom": 1,
+   "secFin": -1,
+   "secTrans": 1,
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Limita las tasas de intercambio de tarjetas y prohíbe recargos, liberaliza horarios comerciales, alarga concesiones portuarias y suprime el registro obligatorio de empresas cinematográficas.",
+  "medidas": [
+   {
+    "d": "Límite a las tasas de intercambio de tarjetas y prohibición de recargos",
+    "imp": {
+     "cons": 1,
+     "secCom": 1,
+     "secFin": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Liberalización de horarios y apertura de establecimientos comerciales",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ampliación a 50 años de las concesiones portuarias",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la inscripción obligatoria de empresas cinematográficas",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000013",
+  "tipo": "eco",
+  "imp": {
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "empMed": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Endurece Sociedades para empresas con más de 20 millones de facturación (gastos financieros, fondo de comercio, pago fraccionado mínimo) y suprime la libertad de amortización.",
+  "medidas": [
+   {
+    "d": "Límites a deducciones y pago fraccionado mínimo en Sociedades",
+    "imp": {
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la libertad de amortización",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1,
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {
+   "empMicro": 1,
+   "empPeq": 1,
+   "infancia": 1,
+   "empAut": -1
+  },
+  "peso": 1,
+  "nota": "Permite el contrato de emprendedores a tiempo parcial, amplía la reducción de jornada por hijos hasta doce años y sube la cotización de algunos autónomos.",
+  "medidas": [
+   {
+    "d": "Contrato indefinido de apoyo a emprendedores a tiempo parcial",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reducción de jornada por cuidado de hijos hasta 12 años",
+    "imp": {
+     "infancia": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Base mínima de cotización mayor para autónomos con diez empleados",
+    "imp": {
+     "empAut": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000063",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "adultos": 1,
+   "infancia": 1,
+   "pobreza": 1,
+   "pen1": 1,
+   "discapacidad": 1,
+   "secPrim": 1,
+   "secCom": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 2,
+  "nota": "Amplía el subsidio de mayores de 52, sube prestación por hijo y pensión mínima de incapacidad, bonifica contratos agrarios y turísticos, impone registro de jornada.",
+  "medidas": [
+   {
+    "d": "Subsidio por desempleo desde los 52 años, sin rentas familiares",
+    "imp": {
+     "desSub": 1,
+     "adultos": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de la prestación por hijo a cargo",
+    "imp": {
+     "infancia": 1,
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de la pensión mínima de incapacidad permanente total",
+    "imp": {
+     "pen1": 1,
+     "discapacidad": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Bonificación por convertir en indefinidos contratos agrarios",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Bonificación a fijos discontinuos en turismo, comercio y hostelería",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Registro obligatorio de la jornada",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 2
+   }
+  ]
+ }
+]

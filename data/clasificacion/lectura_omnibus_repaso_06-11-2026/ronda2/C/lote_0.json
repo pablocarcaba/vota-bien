@@ -1,0 +1,27 @@
+[
+ {"id": "130/000055", "bloques": [
+  {"d": "Prórroga y rebaja de tarifas de concesiones portuarias", "imp": {"secTrans": 1}, "peso": 1},
+  {"d": "Recorte de la retribución de las actividades reguladas del gas", "imp": {"secInd": -1}, "peso": 2},
+  {"d": "Obligación de ahorro energético y aportación al Fondo de Eficiencia", "imp": {"ciud": 1, "secInd": -1}, "peso": 2},
+  {"d": "Sistema Nacional de Garantía Juvenil con bonificaciones a la contratación", "imp": {"jovenes": 1}, "peso": 2},
+  {"d": "Exención IRPF y plusvalía por dación en pago de vivienda habitual", "imp": {"hipot": 1}, "peso": 1},
+  {"d": "Retención reducida del 15 % a profesionales con bajos rendimientos", "imp": {"empAut": 1}, "peso": 1},
+  {"d": "Tipo del 0,03 % en el impuesto sobre depósitos bancarios", "imp": {"secFin": -1, "empGran": -1}, "peso": 2},
+  {"d": "Liberalización de horarios y apertura de establecimientos comerciales", "imp": {"secCom": 1}, "peso": 2},
+  {"d": "Equivalencia de título de grado para oficiales militares", "imp": {"proSeg": 1}, "peso": 1}
+ ]},
+ {"id": "130/000063", "bloques": [
+  {"d": "Subsidio por desempleo para mayores de 52 años", "imp": {"desSub": 1, "adultos": 1}, "peso": 2},
+  {"d": "Subida de la prestación por hijo a cargo", "imp": {"infancia": 1, "pobreza": 1}, "peso": 2},
+  {"d": "Subida de mínimas de incapacidad permanente total", "imp": {"pen1": 1}, "peso": 1},
+  {"d": "Prestación por nacimiento en el régimen del mar", "imp": {"infancia": 1}, "peso": 1},
+  {"d": "Bonificaciones por convertir en indefinidos contratos agrarios", "imp": {"secPrim": 1}, "peso": 1},
+  {"d": "Bonificación a fijos discontinuos en turismo, comercio y hostelería", "imp": {"secCom": 1}, "peso": 1},
+  {"d": "Registro diario obligatorio de la jornada", "imp": {"asal1": 1, "asal2": 1, "asal3": 1, "asal4": 1, "empAut": -1, "empMicro": -1, "empPeq": -1}, "peso": 2},
+  {"d": "Garantía Juvenil ampliada hasta los 30 años", "imp": {"jovenes": 1}, "peso": 1},
+  {"d": "Cotización al 100 % en reducción de jornada por cuidado de menor", "imp": {"infancia": 1}, "peso": 1},
+  {"d": "Convenio de cuidadores no profesionales a cargo del Estado", "imp": {"depend": 1}, "peso": 1},
+  {"d": "Fondo Estatal para la Integración de los Inmigrantes", "imp": {"inmigrantes": 1}, "peso": 1},
+  {"d": "Cuotas de autónomos en incapacidad temporal pagadas por cese", "imp": {"empAut": 1}, "peso": 1}
+ ]}
+]

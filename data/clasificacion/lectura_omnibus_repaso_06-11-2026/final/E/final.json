@@ -1,0 +1,285 @@
+[
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "ciud": 1,
+   "cons": 1,
+   "discapacidad": 1,
+   "empAut": 1,
+   "empGran": -1,
+   "empMed": 1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "hipot": 1,
+   "jovenes": 1,
+   "proSeg": 1,
+   "secCom": 1,
+   "secDig": 1,
+   "secFin": -1,
+   "secInd": -1,
+   "secTrans": 1
+  },
+  "peso": 2,
+  "nota": "Limita las comisiones de tarjeta a la banca, liberaliza horarios y aperturas comerciales, alarga concesiones portuarias y amplía la financiación de pymes.",
+  "medidas": [
+   {
+    "d": "Límite a las tasas de intercambio de pagos con tarjeta",
+    "imp": {
+     "cons": 1,
+     "secFin": -1,
+     "secCom": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Simplificación de la apertura comercial y ampliación de horarios",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Ampliación del plazo de las concesiones portuarias",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Supresión del registro obligatorio de empresas cinematográficas",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Financiación e internacionalización de pymes (FONPYME, garantías ICO)",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1,
+     "empMed": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reforma del régimen retributivo del sistema gasista",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Obligaciones de ahorro energético y Fondo Nacional de Eficiencia",
+    "imp": {
+     "secInd": -1,
+     "ciud": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Sistema Nacional de Garantía Juvenil",
+    "imp": {
+     "jovenes": 1,
+     "discapacidad": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Exención fiscal de la dación en pago de vivienda habitual",
+    "imp": {
+     "hipot": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Retención reducida para profesionales con bajos rendimientos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Tipo del 0,03 % en el impuesto sobre depósitos bancarios",
+    "imp": {
+     "secFin": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Equivalencia universitaria de oficiales militares",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000013",
+  "tipo": "eco",
+  "imp": {
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "empMed": -1,
+   "empGran": -1
+  },
+  "peso": 2,
+  "nota": "Endurece Sociedades: limita deducciones y gastos financieros, pago fraccionado mínimo a grandes empresas y suprime la libertad de amortización, también para autónomos."
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {
+   "infancia": 1,
+   "empAut": -1
+  },
+  "peso": 2,
+  "nota": "Amplía la reducción de jornada por hijos hasta doce años y sube la cotización de autónomos empleadores; incluye pagos en especie en la cotización.",
+  "medidas": [
+   {
+    "d": "Reducción de jornada por cuidado de hijos hasta doce años",
+    "imp": {
+     "infancia": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Retribuciones en especie incluidas en la base de cotización",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Base mínima de cotización mayor para autónomos con diez empleados",
+    "imp": {
+     "empAut": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Contrato indefinido de apoyo a emprendedores también a tiempo parcial",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000063",
+  "tipo": "eco",
+  "imp": {
+   "adultos": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "depend": 1,
+   "desSub": 1,
+   "discapacidad": 1,
+   "empGran": -1,
+   "empMed": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "infancia": 1,
+   "inmigrantes": 1,
+   "jovenes": 1,
+   "pen1": 1,
+   "pobreza": 1,
+   "secCom": 1,
+   "secPrim": 1
+  },
+  "peso": 2,
+  "nota": "Recupera el subsidio para mayores de 52, sube la prestación por hijo y pensiones de incapacidad, bonifica contratos y obliga a registrar la jornada.",
+  "medidas": [
+   {
+    "d": "Subsidio por desempleo para mayores de 52 años",
+    "imp": {
+     "desSub": 1,
+     "adultos": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de la prestación por hijo a cargo",
+    "imp": {
+     "infancia": 1,
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de la pensión mínima de incapacidad permanente total",
+    "imp": {
+     "pen1": 1,
+     "discapacidad": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Bonificación por convertir contratos agrarios en indefinidos",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Bonificación a fijos discontinuos en turismo y hostelería",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Registro obligatorio de la jornada de trabajo",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1,
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Fondo para la Integración de los Inmigrantes",
+    "imp": {
+     "inmigrantes": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Garantía Juvenil ampliada hasta los 30 años",
+    "imp": {
+     "jovenes": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Cuotas de autónomos en incapacidad temporal",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Estado paga el convenio de cuidadores de dependientes",
+    "imp": {
+     "depend": 1
+    },
+    "peso": 1
+   }
+  ]
+ }
+]

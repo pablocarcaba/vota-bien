@@ -406,13 +406,9 @@
  {
   "id": "2011/2020(BUD)",
   "tipo": "eco",
-  "imp": {
-   "secPrim": 1,
-   "rural": 1,
-   "estud": 1
-  },
-  "peso": 3,
-  "nota": "Presupuesto anual de la UE para 2012: ayudas de la PAC, desarrollo rural y Erasmus, entre otros.",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE: fija créditos de muchos programas; el signo frente al año anterior para un colectivo español no consta.",
   "partido": ""
  },
  {
@@ -726,9 +722,12 @@
  {
   "id": "2012/0011(COD)",
   "tipo": "soc",
-  "imp": {},
-  "peso": 1,
-  "nota": "El texto disponible no incluye el articulado; no permite determinar a quién afecta ni con qué signo.",
+  "imp": {
+   "cons": 1,
+   "secDig": -1
+  },
+  "peso": 2,
+  "nota": "Reglamento de protección de datos: amplía los derechos de los usuarios sobre sus datos y obliga a las empresas digitales que los tratan.",
   "partido": ""
  },
  {
@@ -823,7 +822,7 @@
    "secInd": 1
   },
   "peso": 1,
-  "nota": "Plazos para decidir precios y financiación pública de medicamentos, después retirada; acelera el acceso y beneficia a la industria.",
+  "nota": "Plazos para decidir precios y financiación pública de medicamentos; acelera el acceso de los pacientes y beneficia a la industria.",
   "partido": ""
  }
 ]

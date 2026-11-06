@@ -76,11 +76,9 @@
  {
   "id": "2011/0242(COD)",
   "tipo": "soc",
-  "imp": {
-   "inmigrantes": -1
-  },
+  "imp": {},
   "peso": 1,
-  "nota": "Permite restablecer controles en fronteras interiores ante presiones migratorias excepcionales; restringe la circulación.",
+  "nota": "Permite restablecer controles en fronteras interiores; afecta a la circulación de todos, sin cambiar derechos de extranjeros.",
   "partido": ""
  },
  {
@@ -666,11 +664,9 @@
  {
   "id": "2011/0366(COD)",
   "tipo": "soc",
-  "imp": {
-   "inmigrantes": 1
-  },
+  "imp": {},
   "peso": 1,
-  "nota": "Fondo de Asilo, Migración e Integración: financia acogida e integración de extranjeros, además de retornos.",
+  "nota": "Fondo de Asilo y Migración: financia acogida e integración y también retornos; signos opuestos para los extranjeros.",
   "partido": ""
  },
  {
@@ -887,12 +883,9 @@
  {
   "id": "2011/0401(COD)",
   "tipo": "eco",
-  "imp": {
-   "secInd": 1,
-   "secDig": 1
-  },
-  "peso": 2,
-  "nota": "Horizonte 2020: financia la investigación y la innovación de universidades y empresas.",
+  "imp": {},
+  "peso": 1,
+  "nota": "Horizonte 2020: financia investigación e innovación sin regular un sector concreto.",
   "partido": ""
  }
 ]

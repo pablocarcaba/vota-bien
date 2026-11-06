@@ -138,11 +138,10 @@
   "tipo": "eco",
   "imp": {
    "cons": 1,
-   "secCom": 1,
-   "empAut": 1
+   "secCom": 1
   },
-  "peso": 3,
-  "nota": "Directiva Bolkestein: elimina trabas a la prestación de servicios y simplifica licencias; más competencia y menos cargas administrativas.",
+  "peso": 2,
+  "nota": "Directiva Bolkestein: elimina trabas a la prestación de servicios, simplifica licencias y da garantías a los destinatarios de los servicios.",
   "partido": ""
  },
  {
@@ -338,12 +337,9 @@
  {
   "id": "2004/0163(AVC)",
   "tipo": "eco",
-  "imp": {
-   "secCons": 1,
-   "rural": 1
-  },
-  "peso": 3,
-  "nota": "Reglamento general de los fondos de cohesión 2007-2013; inversión pública y empleo, con gran peso para España.",
+  "imp": {},
+  "peso": 1,
+  "nota": "Reglamento general de los fondos de cohesión 2007-2013; financia inversión pública sin efecto directo de signo conocido sobre colectivos.",
   "partido": ""
  },
  {
@@ -399,7 +395,7 @@
    "empPeq": -1
   },
   "peso": 2,
-  "nota": "Posición del Parlamento: suprime el opt-out de 48 horas y computa las guardias como tiempo de trabajo; no se aprobó.",
+  "nota": "Suprime el opt-out de 48 horas y computa las guardias como tiempo de trabajo; protege a los asalariados con coste laboral para las empresas pequeñas.",
   "partido": ""
  },
  {
@@ -440,6 +436,7 @@
   "id": "2004/0229(CNS)",
   "tipo": "eco",
   "imp": {
+   "ciud": 1,
    "secPrim": -1
   },
   "peso": 1,
@@ -589,11 +586,9 @@
  {
   "id": "2005/0017(COD)",
   "tipo": "soc",
-  "imp": {
-   "mujeres": 1
-  },
+  "imp": {},
   "peso": 1,
-  "nota": "Crea el Instituto Europeo de la Igualdad de Género.",
+  "nota": "Crea el Instituto Europeo de la Igualdad de Género; norma institucional sin derechos ni ayudas directas.",
   "partido": ""
  },
  {

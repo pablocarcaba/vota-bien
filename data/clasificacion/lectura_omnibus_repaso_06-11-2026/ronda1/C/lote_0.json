@@ -1,0 +1,207 @@
+[
+ {
+  "id": "130/000055",
+  "tipo": "eco",
+  "imp": {
+   "cons": 1,
+   "secFin": -1,
+   "secCom": 1,
+   "secTrans": 1,
+   "secDig": 1
+  },
+  "peso": 2,
+  "nota": "Limita las comisiones de tarjetas a costa de la banca, liberaliza aperturas y horarios comerciales, alarga concesiones portuarias y suprime el registro obligatorio del cine.",
+  "medidas": [
+   {
+    "d": "Límite a las tasas de intercambio de tarjetas",
+    "imp": {
+     "cons": 1,
+     "secFin": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Liberalización de aperturas y horarios comerciales",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Concesiones portuarias ampliadas hasta 50 años",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Supresión del registro obligatorio de empresas cinematográficas",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000013",
+  "tipo": "eco",
+  "imp": {
+   "empGran": -1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "empMed": -1
+  },
+  "peso": 2,
+  "nota": "Endurece el Impuesto sobre Sociedades, sobre todo para las grandes empresas, y suprime la libertad de amortización para empresas y autónomos.",
+  "medidas": [
+   {
+    "d": "Endurecimiento de Sociedades para grandes empresas",
+    "imp": {
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la libertad de amortización",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1,
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   }
+  ]
+ },
+ {
+  "id": "130/000046",
+  "tipo": "eco",
+  "imp": {
+   "asal1": -1,
+   "asal2": -1,
+   "asal3": -1,
+   "asal4": -1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "infancia": 1
+  },
+  "peso": 2,
+  "nota": "Flexibiliza jornada y tiempo parcial para la empresa, amplía la reducción de jornada por hijos hasta doce años y encarece cotizaciones de autónomos empleadores.",
+  "medidas": [
+   {
+    "d": "Flexibilización del tiempo parcial y la distribución de jornada",
+    "imp": {
+     "asal1": -1,
+     "asal2": -1,
+     "asal3": -1,
+     "asal4": -1,
+     "empAut": 1,
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Reducción de jornada por cuidado de hijos hasta doce años",
+    "imp": {
+     "infancia": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Contrato de emprendedores a tiempo parcial con incentivos",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Base mínima mayor para autónomos con diez o más empleados",
+    "imp": {
+     "empAut": -1
+    },
+    "peso": 1
+   }
+  ]
+ },
+ {
+  "id": "130/000063",
+  "tipo": "eco",
+  "imp": {
+   "desSub": 1,
+   "adultos": 1,
+   "infancia": 1,
+   "pobreza": 1,
+   "discapacidad": 1,
+   "pen1": 1,
+   "secPrim": 1,
+   "secCom": 1,
+   "asal1": 1,
+   "asal2": 1,
+   "asal3": 1,
+   "asal4": 1,
+   "empAut": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 2,
+  "nota": "Recupera el subsidio desde los 52, sube la prestación por hijo y mínimos de incapacidad, bonifica contratos agrarios y turísticos e impone registrar la jornada.",
+  "medidas": [
+   {
+    "d": "Subsidio por desempleo desde los 52 años",
+    "imp": {
+     "desSub": 1,
+     "adultos": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de la prestación por hijo a cargo",
+    "imp": {
+     "infancia": 1,
+     "pobreza": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de mínimos de incapacidad permanente total",
+    "imp": {
+     "discapacidad": 1,
+     "pen1": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Bonificación por hacer indefinidos a eventuales agrarios",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Bonificación a fijos discontinuos del turismo",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Registro obligatorio de la jornada",
+    "imp": {
+     "asal1": 1,
+     "asal2": 1,
+     "asal3": 1,
+     "asal4": 1,
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1
+    },
+    "peso": 2
+   }
+  ]
+ }
+]

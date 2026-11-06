@@ -435,20 +435,116 @@
   "id": "121/000104",
   "tipo": "eco",
   "imp": {
-   "empMed": 1,
-   "empMicro": 1,
-   "empPeq": 1
+   "ciud": 1,
+   "cons": 1,
+   "discapacidad": 1,
+   "empAut": 1,
+   "empGran": -1,
+   "hipot": 1,
+   "jovenes": 1,
+   "proSeg": 1,
+   "secCom": 1,
+   "secDig": 1,
+   "secFin": -1,
+   "secInd": -1,
+   "secTrans": 1
   },
   "peso": 2,
-  "nota": "Programa de garantías del ICO para financiar e internacionalizar pymes; beneficia a microempresas, pequeñas y medianas empresas. Resto de medidas sin contenido determinable.",
-  "partido": ""
+  "nota": "Limita las tasas de intercambio de tarjetas y prohíbe recargos, liberaliza horarios comerciales, alarga concesiones portuarias y suprime el registro obligatorio de empresas cinematográficas.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Límite a las tasas de intercambio de tarjetas y prohibición de recargos",
+    "imp": {
+     "cons": 1,
+     "secCom": 1,
+     "secFin": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Liberalización de horarios y apertura de establecimientos comerciales",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ampliación a 50 años de las concesiones portuarias",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la inscripción obligatoria de empresas cinematográficas",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reforma de la retribución de las actividades reguladas del gas",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Obligaciones de eficiencia energética para comercializadoras y operadores",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Sistema Nacional de Garantía Juvenil",
+    "imp": {
+     "jovenes": 1,
+     "discapacidad": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Exención fiscal por dación en pago de la vivienda habitual",
+    "imp": {
+     "hipot": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Retención reducida para profesionales con bajos rendimientos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Tipo del impuesto sobre los depósitos bancarios",
+    "imp": {
+     "secFin": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Oferta adicional de plazas y equivalencia de títulos militares",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000105",
   "tipo": "soc",
-  "imp": {},
+  "imp": {
+   "inmigrantes": -1
+  },
   "peso": 1,
-  "nota": "Sustituye la ley de seguridad ciudadana: potestades policiales, identificación y régimen sancionador. Norma sancionadora e institucional sin colectivo marcado.",
+  "nota": "Sustituye la ley de seguridad ciudadana y permite el rechazo en frontera de extranjeros en Ceuta y Melilla; restringe derechos de inmigrantes.",
   "partido": ""
  },
  {
@@ -615,7 +711,7 @@
      "prop3": -1,
      "prop4": -1
     },
-    "peso": 1
+    "peso": 2
    },
    {
     "d": "Exención en transmisiones patrimoniales para fondos de capital riesgo",

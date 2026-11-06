@@ -342,12 +342,10 @@
   "id": "2013/0271(COD)",
   "tipo": "eco",
   "imp": {
-   "jovenes": 1,
-   "desSub": 1,
-   "pobreza": 1
+   "jovenes": 1
   },
   "peso": 1,
-  "nota": "Fondos adicionales del FSE para Francia, Italia y España contra el paro juvenil y la exclusión.",
+  "nota": "Fondos adicionales del FSE para Francia, Italia y España contra el paro juvenil.",
   "partido": ""
  },
  {
@@ -511,10 +509,12 @@
   "imp": {
    "empAut": 1,
    "empMicro": 1,
-   "empPeq": 1
+   "empPeq": 1,
+   "empMed": 1,
+   "empGran": 1
   },
   "peso": 1,
-  "nota": "Declaración de IVA normalizada en toda la UE; reduce cargas administrativas a empresas.",
+  "nota": "Declaración de IVA normalizada en toda la UE; reduce cargas administrativas a todas las empresas.",
   "partido": ""
  },
  {
@@ -645,11 +645,9 @@
  {
   "id": "2013/0400(CNS)",
   "tipo": "eco",
-  "imp": {
-   "empGran": -1
-  },
+  "imp": {},
   "peso": 1,
-  "nota": "Impide la doble no imposición con préstamos híbridos entre matrices y filiales; afecta a grupos multinacionales.",
+  "nota": "Impide la doble no imposición con préstamos híbridos entre matrices y filiales; no distingue tamaños de empresa.",
   "partido": ""
  },
  {

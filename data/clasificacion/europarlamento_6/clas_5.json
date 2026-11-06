@@ -162,11 +162,9 @@
  {
   "id": "2008/0242(COD)",
   "tipo": "soc",
-  "imp": {
-   "inmigrantes": -1
-  },
+  "imp": {},
   "peso": 1,
-  "nota": "Refunde Eurodac de huellas de solicitantes de asilo; refuerza su control.",
+  "nota": "Refunde el sistema Eurodac de huellas de solicitantes de asilo; norma técnica sin efecto de signo determinable.",
   "partido": ""
  },
  {
@@ -631,7 +629,7 @@
    "ciud": 1,
    "secPrim": -1
   },
-  "peso": 1,
+  "peso": 2,
   "nota": "Plan de recuperación del atún rojo: protege la biodiversidad y restringe la actividad pesquera.",
   "partido": ""
  },

@@ -558,10 +558,36 @@
  {
   "id": "130/000013",
   "tipo": "eco",
-  "imp": {},
-  "peso": 1,
-  "nota": "El título no permite determinar el contenido.",
-  "partido": ""
+  "imp": {
+   "empAut": -1,
+   "empGran": -1,
+   "empMed": -1,
+   "empMicro": -1,
+   "empPeq": -1
+  },
+  "peso": 2,
+  "nota": "Endurece el Impuesto sobre Sociedades, sobre todo para las grandes empresas, y suprime la libertad de amortización para empresas y autónomos.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Endurecimiento de Sociedades para grandes empresas",
+    "imp": {
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la libertad de amortización",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1,
+     "empMed": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   }
+  ]
  },
  {
   "id": "130/000014",
@@ -633,7 +659,8 @@
      "pen2": -1,
      "pen3": -1,
      "mayores": -1,
-     "pac": -1
+     "pac": -1,
+     "pobreza": 1
     },
     "peso": 2
    },
@@ -642,21 +669,6 @@
     "imp": {
      "secInd": -1,
      "pac": -1
-    },
-    "peso": 2
-   },
-   {
-    "d": "Copago farmacéutico por renta y para pensionistas",
-    "imp": {
-     "pen1": -1,
-     "pen2": -1,
-     "pen3": -1,
-     "mayores": -1,
-     "asal3": -1,
-     "asal4": -1,
-     "asal5": -1,
-     "asal6": -1,
-     "pobreza": 1
     },
     "peso": 2
    },
@@ -1158,10 +1170,39 @@
  {
   "id": "130/000046",
   "tipo": "eco",
-  "imp": {},
+  "imp": {
+   "empAut": -1,
+   "empMicro": 1,
+   "empPeq": 1,
+   "infancia": 1
+  },
   "peso": 1,
-  "nota": "El título no permite determinar el contenido.",
-  "partido": ""
+  "nota": "Permite el contrato de emprendedores a tiempo parcial, amplía la reducción de jornada por hijos hasta doce años y sube la cotización de algunos autónomos.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Contrato indefinido de apoyo a emprendedores a tiempo parcial",
+    "imp": {
+     "empMicro": 1,
+     "empPeq": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reducción de jornada por cuidado de hijos hasta 12 años",
+    "imp": {
+     "infancia": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Base mínima de cotización mayor para autónomos con diez empleados",
+    "imp": {
+     "empAut": -1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000047",
@@ -1239,13 +1280,107 @@
   "id": "130/000055",
   "tipo": "eco",
   "imp": {
-   "empMed": 1,
-   "empMicro": 1,
-   "empPeq": 1
+   "ciud": 1,
+   "cons": 1,
+   "discapacidad": 1,
+   "empAut": 1,
+   "empGran": -1,
+   "hipot": 1,
+   "jovenes": 1,
+   "proSeg": 1,
+   "secCom": 1,
+   "secDig": 1,
+   "secFin": -1,
+   "secInd": -1,
+   "secTrans": 1
   },
   "peso": 2,
-  "nota": "Programa de garantías del ICO para financiar e internacionalizar pymes; beneficia a microempresas, pequeñas y medianas empresas. Resto de medidas sin contenido determinable.",
-  "partido": ""
+  "nota": "Limita las tasas de intercambio de tarjetas y prohíbe recargos, liberaliza horarios comerciales, alarga concesiones portuarias y suprime el registro obligatorio de empresas cinematográficas.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Límite a las tasas de intercambio de tarjetas y prohibición de recargos",
+    "imp": {
+     "cons": 1,
+     "secCom": 1,
+     "secFin": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Liberalización de horarios y apertura de establecimientos comerciales",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Ampliación a 50 años de las concesiones portuarias",
+    "imp": {
+     "secTrans": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Supresión de la inscripción obligatoria de empresas cinematográficas",
+    "imp": {
+     "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Reforma de la retribución de las actividades reguladas del gas",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Obligaciones de eficiencia energética para comercializadoras y operadores",
+    "imp": {
+     "ciud": 1,
+     "secInd": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Sistema Nacional de Garantía Juvenil",
+    "imp": {
+     "jovenes": 1,
+     "discapacidad": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Exención fiscal por dación en pago de la vivienda habitual",
+    "imp": {
+     "hipot": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Retención reducida para profesionales con bajos rendimientos",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Tipo del impuesto sobre los depósitos bancarios",
+    "imp": {
+     "secFin": -1,
+     "empGran": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Oferta adicional de plazas y equivalencia de títulos militares",
+    "imp": {
+     "proSeg": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "130/000056",

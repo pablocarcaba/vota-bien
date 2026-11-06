@@ -659,11 +659,14 @@
   "id": "122/000234",
   "tipo": "soc",
   "imp": {
+   "hipot": 1,
    "inq": 1,
-   "pobreza": 1
+   "pobreza": 1,
+   "secFin": -1,
+   "casero": -1
   },
   "peso": 2,
-  "nota": "Medidas de emergencia habitacional y contra la pobreza energética para familias vulnerables; protege a inquilinos y personas en riesgo de exclusión.",
+  "nota": "Protege a familias vulnerables frente a desahucios y pobreza energética; limita a arrendadores y entidades acreedoras.",
   "partido": ""
  },
  {

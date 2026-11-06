@@ -62,12 +62,10 @@
   "id": "2012/0061(COD)",
   "tipo": "eco",
   "imp": {
-   "asal1": 1,
-   "asal2": 1,
    "secCons": -1
   },
   "peso": 2,
-  "nota": "Refuerza los derechos de trabajadores desplazados y la responsabilidad del contratista en la construcción frente a fraudes y empresas buzón.",
+  "nota": "Refuerza el cumplimiento de la directiva de desplazamiento y la responsabilidad del contratista en la construcción.",
   "partido": ""
  },
  {
@@ -217,10 +215,9 @@
   "id": "2012/0150(COD)",
   "tipo": "eco",
   "imp": {
-   "ciud": 1,
    "secFin": -1
   },
-  "peso": 3,
+  "peso": 2,
   "nota": "Directiva de rescate y resolución bancaria: accionistas y acreedores asumen pérdidas antes que el dinero público.",
   "partido": ""
  },
@@ -518,11 +515,9 @@
  {
   "id": "2012/0242(CNS)",
   "tipo": "eco",
-  "imp": {
-   "secFin": -1
-  },
-  "peso": 2,
-  "nota": "Mecanismo Único de Supervisión: el BCE supervisa a los grandes bancos; supervisión más estricta.",
+  "imp": {},
+  "peso": 1,
+  "nota": "Mecanismo Único de Supervisión: traspasa al BCE la supervisión de los grandes bancos; cambio de supervisor.",
   "partido": ""
  },
  {
@@ -656,9 +651,12 @@
  {
   "id": "2012/0288(COD)",
   "tipo": "eco",
-  "imp": {},
-  "peso": 1,
-  "nota": "El texto disponible no incluye el articulado; no permite determinar a quién afecta ni con qué signo.",
+  "imp": {
+   "ciud": 1,
+   "secInd": -1
+  },
+  "peso": 2,
+  "nota": "Limita los biocombustibles de cultivos alimentarios por sus emisiones indirectas; protección climática con coste para sus productores.",
   "partido": ""
  },
  {
@@ -685,11 +683,9 @@
  {
   "id": "2012/0298(APP)",
   "tipo": "eco",
-  "imp": {
-   "secFin": -1
-  },
+  "imp": {},
   "peso": 1,
-  "nota": "Autoriza la cooperación reforzada, con España, para un impuesto sobre transacciones financieras.",
+  "nota": "Autoriza a varios Estados, España entre ellos, a cooperar para crear el impuesto; por sí sola no grava a nadie.",
   "partido": ""
  },
  {

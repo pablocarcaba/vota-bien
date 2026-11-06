@@ -9,7 +9,7 @@
    "secPrim": 1,
    "victimas": 1
   },
-  "peso": 2,
+  "peso": 1,
   "nota": "Ayudas a afectados por la DANA y a sus negocios, incluidas explotaciones agrarias y ganaderas.",
   "partido": ""
  },
@@ -269,11 +269,10 @@
   "id": "122/000013",
   "tipo": "eco",
   "imp": {
-   "hipot": 1,
-   "viv0": 1
+   "secFin": 1
   },
   "peso": 1,
-  "nota": "Pone a cero la cuota variable de AJD en hipotecas para primera vivienda.",
+  "nota": "Pone a cero la cuota variable de AJD en hipotecas para primera vivienda; el impuesto lo paga la entidad prestamista.",
   "partido": ""
  },
  {
@@ -374,11 +373,10 @@
   "id": "122/000025",
   "tipo": "eco",
   "imp": {
-   "ciud": 1,
    "secInd": -1
   },
   "peso": 2,
-  "nota": "Cierra progresivamente las centrales nucleares; reduce riesgos ambientales y sanitarios y afecta a las empresas titulares.",
+  "nota": "Cierra progresivamente las centrales nucleares; perjudica a las empresas titulares de la generación nuclear.",
   "partido": ""
  },
  {

@@ -379,10 +379,11 @@
   "id": "122/000103",
   "tipo": "soc",
   "imp": {
+   "ciud": -1,
    "secPrim": 1
   },
   "peso": 1,
-  "nota": "Permite caza y pesca de especies exóticas en áreas concretas y regula la acuicultura; favorece a los sectores cinegético y piscícola.",
+  "nota": "Permite caza y pesca de especies exóticas invasoras en áreas concretas: rebaja la protección de la biodiversidad y favorece a los sectores cinegético y piscícola.",
   "partido": ""
  },
  {
@@ -688,10 +689,11 @@
   "id": "122/000137",
   "tipo": "soc",
   "imp": {
+   "ciud": -1,
    "secPrim": 1
   },
   "peso": 1,
-  "nota": "Permite caza y pesca de especies exóticas en áreas concretas y regula la acuicultura; favorece a los sectores cinegético y piscícola.",
+  "nota": "Permite caza y pesca de especies exóticas invasoras en áreas concretas: rebaja la protección de la biodiversidad y favorece a los sectores cinegético y piscícola.",
   "partido": ""
  },
  {
@@ -894,7 +896,7 @@
   "imp": {
    "victimas": 1
   },
-  "peso": 1,
+  "peso": 2,
   "nota": "Reforma la ley de memoria histórica en favor de las víctimas de la guerra civil y el franquismo.",
   "partido": ""
  },

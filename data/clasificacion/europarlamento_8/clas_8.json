@@ -799,9 +799,11 @@
  {
   "id": "2018/0417(CNS)",
   "tipo": "eco",
-  "imp": {},
+  "imp": {
+   "secInd": 1
+  },
   "peso": 1,
-  "nota": "Lista de productos con exención o reducción del arbitrio insular canario; ganadores y perdedores no concretados en el texto.",
+  "nota": "Exime o reduce el arbitrio insular a productos canarios; protege a la industria local de Canarias frente a las importaciones.",
   "partido": ""
  },
  {

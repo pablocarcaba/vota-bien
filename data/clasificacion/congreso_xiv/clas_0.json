@@ -48,7 +48,7 @@
   "imp": {
    "secCom": 1
   },
-  "peso": 2,
+  "peso": 1,
   "nota": "Amplía la flexibilidad de horarios comerciales en zonas turísticas; cambia el régimen de la sareb y precisa aspectos de la reforma laboral.",
   "partido": ""
  },
@@ -77,9 +77,11 @@
  {
   "id": "121/000012",
   "tipo": "eco",
-  "imp": {},
+  "imp": {
+   "ciud": 1
+  },
   "peso": 2,
-  "nota": "Permiso retribuido recuperable para trabajadores de actividades no esenciales; el signo para trabajadores y empresas es mixto o no consta.",
+  "nota": "Obliga a un permiso retribuido recuperable en actividades no esenciales para reducir la movilidad y contener la epidemia; salud pública.",
   "partido": ""
  },
  {
@@ -2467,9 +2469,11 @@
  {
   "id": "130/000065",
   "tipo": "eco",
-  "imp": {},
+  "imp": {
+   "victimas": 1
+  },
   "peso": 1,
-  "nota": "El título no permite determinar el contenido.",
+  "nota": "Excluye de IRPF y Sociedades las ayudas por la destrucción de bienes en la erupción de La Palma; el resto son créditos presupuestarios.",
   "partido": ""
  },
  {

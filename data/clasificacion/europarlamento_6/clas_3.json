@@ -367,9 +367,11 @@
  {
   "id": "2007/2239(INL)",
   "tipo": "eco",
-  "imp": {},
+  "imp": {
+   "secFin": -1
+  },
   "peso": 1,
-  "nota": "El título no permite determinar el contenido.",
+  "nota": "Pide más transparencia a los inversores institucionales; nuevas obligaciones para el sector financiero.",
   "partido": ""
  },
  {
@@ -745,11 +747,10 @@
   "id": "2008/0054(CNS)",
   "tipo": "eco",
   "imp": {
-   "secInd": 1,
-   "cons": 1
+   "secInd": 1
   },
   "peso": 1,
-  "nota": "Contingentes sin aranceles para importar pescado en Canarias; abastece a la industria transformadora y al consumo canario.",
+  "nota": "Contingentes sin aranceles para importar pescado en Canarias; abarata la materia prima de la industria transformadora canaria.",
   "partido": ""
  },
  {
@@ -817,10 +818,11 @@
   "id": "2008/0063(CNS)",
   "tipo": "eco",
   "imp": {
+   "ciud": 1,
    "secPrim": -1
   },
   "peso": 1,
-  "nota": "Plan de recuperación del bacalao que limita las capturas y el esfuerzo pesquero.",
+  "nota": "Plan de recuperación del bacalao que limita capturas y esfuerzo pesquero; protege el recurso marino con coste para el sector.",
   "partido": ""
  },
  {

@@ -58,13 +58,9 @@
  {
   "id": "2013/2145(BUD)",
   "tipo": "eco",
-  "imp": {
-   "secPrim": 1,
-   "rural": 1,
-   "estud": 1
-  },
-  "peso": 3,
-  "nota": "Presupuesto anual de la UE para 2014: ayudas de la PAC, desarrollo rural y Erasmus+.",
+  "imp": {},
+  "peso": 1,
+  "nota": "Presupuesto de la UE: fija créditos de muchos programas; el signo frente al año anterior para un colectivo español no consta.",
   "partido": ""
  },
  {
@@ -181,12 +177,9 @@
  {
   "id": "2014/0034(COD)",
   "tipo": "eco",
-  "imp": {
-   "empMicro": 1,
-   "empPeq": 1
-  },
+  "imp": {},
   "peso": 1,
-  "nota": "Amplía el capital del Fondo Europeo de Inversiones para más garantías de crédito a pymes.",
+  "nota": "Amplía el capital del Fondo Europeo de Inversiones; el crédito a empresas depende de los bancos que usen sus garantías.",
   "partido": ""
  },
  {

@@ -13,10 +13,11 @@
   "id": "122/000315",
   "tipo": "soc",
   "imp": {
-   "mujeres": -1
+   "mujeres": -1,
+   "secDig": 1
   },
   "peso": 2,
-  "nota": "Deroga la ley orgánica de igualdad efectiva de mujeres y hombres, entre otras normas laborales; las mujeres pierden esas garantías.",
+  "nota": "Deroga la ley de igualdad efectiva y la presunción de laboralidad de repartidores; las mujeres pierden garantías y las plataformas digitales, obligaciones.",
   "partido": ""
  },
  {
@@ -65,14 +66,9 @@
  {
   "id": "122/000321",
   "tipo": "soc",
-  "imp": {
-   "empGran": 1,
-   "empMed": 1,
-   "empMicro": 1,
-   "empPeq": 1
-  },
-  "peso": 2,
-  "nota": "Crea incapacidad temporal especial y permiso retribuido para donantes vivos de órganos; reduce un 75 % las cuotas empresariales en bajas de mayores de 62.",
+  "imp": {},
+  "peso": 1,
+  "nota": "Crea incapacidad temporal especial y permiso retribuido para donantes vivos de órganos; la reducción de cuotas para mayores de 62 ya existía.",
   "partido": ""
  },
  {

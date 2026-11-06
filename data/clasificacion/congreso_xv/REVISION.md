@@ -22,11 +22,11 @@ Casos dudosos detectados al reclasificar con la rúbrica v2. Para cerrar uno: co
 
 Abiertos a propósito: se acumulan casos de otras legislaturas y parlamentos para decidir si merece la pena crear el colectivo. Añade aquí los nuevos.
 
-- [ ] **Personal laboral público**: 121/000108 y 130/000050 (RDL 19/2026) quedan vacías.
-- [ ] **Bomberos y agentes forestales** (121/000014, 121/000015): vacías.
-- [ ] **Territorios** (Baleares, Canarias, Ceuta, Melilla): 122/000290 (régimen fiscal de Baleares) y el RDL de Ceuta quedan vacíos.
-- [ ] **Profesiones sanitarias nuevas** (122/000297, biólogos y trabajadores sociales): vacía.
-- [ ] **Sin vivienda en propiedad** (`viv0`): ninguna iniciativa lo usa todavía.
+- [ ] **Personal laboral público**: 121/000108 y 130/000050 (RDL 19/2026) quedan vacías. — Sigue abierta (06/11/2026): 121/000108 y 130/000050 siguen `{}`; el hueco se deja abierto a propósito.
+- [ ] **Bomberos y agentes forestales** (121/000014, 121/000015): vacías. — Sigue abierta (06/11/2026): 121/000014 y 121/000015 siguen `{}`; el hueco se deja abierto a propósito.
+- [ ] **Territorios** (Baleares, Canarias, Ceuta, Melilla): 122/000290 (régimen fiscal de Baleares) y el RDL de Ceuta quedan vacíos. — Sigue abierta (06/11/2026): el RDL de Ceuta ya tiene impactos (130/000053 y 121/000114: `+empAut`…`+empGran`, `+secCom`), pero 122/000290 (Baleares) sigue `{}`.
+- [x] **Profesiones sanitarias nuevas** (122/000297, biólogos y trabajadores sociales): vacía. — Resuelta (06/11/2026): v3: 122/000297 `+proSan` (reconoce a biólogos y trabajadores sociales como profesión sanitaria).
+- [x] **Sin vivienda en propiedad** (`viv0`): ninguna iniciativa lo usa todavía. — Obsoleta (06/11/2026): `viv0` ya se usa: 2 iniciativas en la X, 1 en la XII, 1 en la XIII y 1 en la XIV (en la XV, ninguna).
 
 ## 3. Contenido supuesto, sin comprobar con el texto
 
@@ -62,7 +62,7 @@ Abiertos a propósito: se acumulan casos de otras legislaturas y parlamentos par
 - [x] Ley del Suelo (Senado, 124/000020): acortar la suspensión de desahucios de vulnerables → `-inq` y `-pobreza`.
 - [x] Tasa de basuras (124/000018): suprimir la tasa obligatoria se trata como alivio de una carga general → `+ciud`.
 - [x] Educación especial (122/000208): mantener los centros de educación especial → `+secSoc` (concertada).
-- [ ] 124/000004 (Código Penal, PP en el Senado): sin texto publicado; vacía.
+- [x] 124/000004 (Código Penal, PP en el Senado): sin texto publicado; vacía. — Resuelta (06/11/2026): v3: `{}`; sin texto (la caché solo trae la toma en consideración del Senado) y, en todo caso, es norma penal (3.7, 3.9).
 
 ## Reclasificación con la rúbrica v3 (04/11/2026)
 
@@ -80,8 +80,8 @@ Toda la XV se ha reclasificado con la rúbrica v3 por tres lectores independient
 
 La rúbrica (línea de Desempleados) deja `desSub` solo para el subsidio por desempleo: el IMV y las rentas mínimas van a `pobreza` (3.5.2). Estas iniciativas llevan `desSub` y su nota habla del IMV o de una renta mínima; todas tienen ya `pobreza`. Revisar si `desSub` sobra o si la iniciativa toca además el subsidio por desempleo.
 
-- [ ] **Acceso al IMV y reintegros** (122/000160): `desSub` y `pobreza`.
-- [ ] **Reintegro de prestaciones indebidas y del IMV** (122/000281): `desSub` y `pobreza`; revisar si las prestaciones indebidas incluyen las de desempleo.
+- [x] **Acceso al IMV y reintegros** (122/000160): `desSub` y `pobreza`. — Resuelta (06/11/2026): relectura del IMV: `+pobreza`, `+infancia`, sin `desSub`.
+- [x] **Reintegro de prestaciones indebidas y del IMV** (122/000281): `desSub` y `pobreza`; revisar si las prestaciones indebidas incluyen las de desempleo. — Resuelta (06/11/2026): relectura del IMV (los tres lectores): `+pobreza`, `+infancia`, sin `desSub`.
 
 ### Reclasificación del IMV y de ingresos mínimos (05/11/2026)
 
@@ -93,7 +93,13 @@ Tras corregir en la rúbrica la definición de `desSub` (solo subsidio por desem
 
 Clasificadas con la regla «Medidas» de 3.8 por tres lectores independientes (C, D, E) y mayoría 2 de 3 (`scripts/consolidar_medidas.py`; lecturas en `data/clasificacion/lectura_omnibus/`). Textos del BOCG o del BOE. El proyecto de ley que procede de un real decreto-ley lleva sus mismas medidas.
 
-- [ ] Criterios discutibles que se repiten entre lectores: congelación salarial pública como −`fun*` (Presupuestos 2012-2015); prórrogas pesadas como bloques nuevos (3.8); peso 1 de los decretos de la DANA por su ámbito territorial; `ciud` o `cons` para la rebaja del impuesto de hidrocarburos; −`casero` en las prórrogas de la suspensión de desahucios pese a la compensación al arrendador.
+- [x] Criterios discutibles que se repiten entre lectores: congelación salarial pública como −`fun*` (Presupuestos 2012-2015); prórrogas pesadas como bloques nuevos (3.8); peso 1 de los decretos de la DANA por su ámbito territorial; `ciud` o `cons` para la rebaja del impuesto de hidrocarburos; −`casero` en las prórrogas de la suspensión de desahucios pese a la compensación al arrendador. — Aplicada (06/11/2026): hidrocarburos `ciud` → `cons` (como la luz, 3.5.1) en la medida correspondiente de 121/000091, 130/000038 y 130/000049. Los pesos de las prórrogas y de la DANA se igualan en la X, la XII y la XIII (prórroga del Patrimonio → 2; DANA de la XIII → 1); en la XV no cambian.
 - [x] **RDL 2/2026 (130/000033)**: la mayoría de lectores marca −`casero` en la suspensión de desahucios; se quita por decisión manual, porque el decreto excluye a quien tiene dos viviendas o menos (el casero particular).
 
 - [x] **Sin la regla «lo público frente a lo privado» en `ciud`** (decisión del 06/11/2026, rúbrica 3.2): se quita `ciud` de 121/000094, 122/000082, 122/000185, 122/000197, 122/000236, 122/000258. Se mantiene el efecto sobre el sector afectado.
+
+## Aplicación del repaso (06/11/2026)
+
+- 121/000091: medida «Rebaja del impuesto de hidrocarburos y del IVA de carburantes» `+ciud` → `+cons`; el `imp` de la ley no cambia (`ciud` sigue por los centros de datos, `cons` ya estaba).
+- 130/000038: el mismo cambio que 121/000091 (mismas medidas); el `imp` de la ley no cambia.
+- 130/000049: medida «Rebaja temporal del impuesto sobre hidrocarburos de gasolina y gasóleo» `+ciud` → `+cons`; `imp` de la ley `ciud` → `cons`.
