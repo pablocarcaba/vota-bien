@@ -287,7 +287,18 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .fuente select{font:inherit;text-transform:none;letter-spacing:0;font-size:15px;font-weight:600;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:10px 12px;max-width:100%;width:100%}
 .fuente .hint{flex-basis:100%;margin:0;font-size:13px}
 /* selector de legislatura siempre a la vista: fuente en pestañas y una pastilla por legislatura */
-#rank-sec .fuente{background:var(--soft);border-radius:16px;margin:4px 0 10px}
+/* panel de control: legislatura, provincia y ajustes juntos; debajo, las pestañas del resultado */
+.ctrl{background:var(--soft);border-radius:16px;margin:4px 0 14px}
+.ctrl .rtools{margin:0;padding:8px 16px 12px;border-top:1px solid var(--line);align-items:stretch}
+.ctrl #raj{flex:1 1 260px}
+.ctrl #rprov{min-width:0;max-width:100%}
+@media (max-width:640px){.ctrl .rtools{padding:8px 12px 10px}.ctrl #rprov{flex:1 1 100%}.ctrl .pchipsel{display:flex;width:100%;box-sizing:border-box}.ctrl .pchipsel select{flex:1 1 0;width:0}}
+.rtabs{border-bottom:2px solid var(--line);margin:0 0 12px}.rtabs[hidden]{display:none}
+.rtabs .tabs{background:none;padding:0;margin:0 0 -2px;gap:2px;border-radius:0}
+.rtabs .tab{border-radius:10px 10px 0 0;padding:9px 16px;border-bottom:3px solid transparent}
+.rtabs .tab:hover{color:var(--ink)}
+.rtabs .tab[aria-pressed="true"]{background:none;box-shadow:none;color:var(--ink);border-bottom-color:var(--accent)}
+.rtabs .tab[aria-pressed="true"] .ico{color:var(--accent)}
 .fsel{padding:10px 16px 8px}
 .fs-top{display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:2px}
 .fuente .fs-q{display:flex;align-items:center;gap:7px;font-family:var(--display);font-weight:800;font-size:15px !important;line-height:1.2;white-space:nowrap;letter-spacing:-.01em;color:var(--ink);margin:0}
@@ -769,8 +780,11 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
       <div class="main results">
         <section class="panel" id="rank-sec">
           <div class="shead"><span class="step" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span><div><h2 id="rank-h" tabindex="-1">Cómo han votado en lo que te afecta <a class="hlp" href="#metodologia" aria-label="Cómo se calcula la nota" title="Cómo se calcula"><svg class="ico" aria-hidden="true"><use href="#i-help"/></svg></a></h2><p class="hint" id="rank-hint" hidden></p></div></div>
-          <div class="fuente" id="fuente" role="group" aria-label="Fuente y legislatura"></div>
-          <div class="rtools" id="rtools"><div class="tabs" role="group" id="tabs" aria-label="Tipo de leyes"></div><div id="rprov"></div><div id="raj"></div></div>
+          <div class="ctrl">
+            <div class="fuente" id="fuente" role="group" aria-label="Fuente y legislatura"></div>
+            <div class="rtools" id="rtools"><div id="rprov"></div><div id="raj"></div></div>
+          </div>
+          <div class="rtabs" id="rtabs"><div class="tabs" role="group" id="tabs" aria-label="Tipo de leyes"></div></div>
           <div class="rank" id="rank"></div>
         </section>
       </div>
@@ -1569,7 +1583,7 @@ function renderRank(){
   const r=$('rank'); r.innerHTML=''; $('raj').innerHTML='';
   const mb=$('mbar'), fin=terminado();
   // sin los pasos obligatorios no hay ranking: un perfil a medias daría un resultado erróneo
-  $('rtools').hidden = !fin;
+  $('rtools').hidden = !fin; $('rtabs').hidden = !fin;
   if(!fin){
     mb.hidden=true;
     $('rank-hint').hidden = false;
