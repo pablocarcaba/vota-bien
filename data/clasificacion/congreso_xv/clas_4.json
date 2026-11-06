@@ -487,10 +487,11 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "pac": 1
+   "pac": 1,
+   "discapacidad": 1
   },
   "peso": 1,
-  "nota": "Reconduce la atención de personas con ELA y procesos complejos hacia necesidades sanitarias y de dependencia.",
+  "nota": "Reconduce la atención de personas con ELA y procesos complejos hacia necesidades sanitarias y de dependencia; la revisión del grado no suspende sus derechos.",
   "partido": ""
  },
  {
@@ -538,7 +539,8 @@
    "secCom": 1,
    "secFin": -1,
    "secPrim": 1,
-   "victimas": 1
+   "victimas": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Prorroga rebajas de IVA de alimentos y energía, bono social y topes de gas; suspende comisiones hipotecarias y limita comisiones de efectivo a mayores.",
@@ -694,6 +696,13 @@
      "prop4": -1
     },
     "peso": 2
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
+    },
+    "peso": 1
    }
   ]
  },
@@ -949,7 +958,8 @@
    "secCom": 1,
    "secInd": 1,
    "secPrim": 1,
-   "victimas": 1
+   "victimas": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Ayudas a afectados por la DANA (vehículos, empresas, estudiantes, discapacidad, agricultura), nuevo permiso retribuido por catástrofes para asalariados y prohibición de precios abusivos.",
@@ -994,7 +1004,8 @@
     "d": "Productos de apoyo para personas con discapacidad afectadas",
     "imp": {
      "discapacidad": 1,
-     "victimas": 1
+     "victimas": 1,
+     "famDisc": 1
     },
     "peso": 1
    },
@@ -1056,7 +1067,8 @@
    "secInd": 1,
    "secPrim": 1,
    "victimas": 1,
-   "viv2": 1
+   "viv2": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones, renueva descuentos de transporte (gratis infantil, jóvenes), prorroga bono social y suspensión de desahucios, y medidas para La Palma.",
@@ -1172,6 +1184,13 @@
      "secPrim": 1
     },
     "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
+    },
+    "peso": 1
    }
   ]
  },
@@ -1216,7 +1235,8 @@
    "pen3": 1,
    "pobreza": 1,
    "secPrim": 1,
-   "victimas": 1
+   "victimas": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones, bonifica el transporte público, prorroga escudo social de vivienda y bono social, aplica la cotización de solidaridad y apoya a afectados por catástrofes.",
@@ -1279,6 +1299,13 @@
      "victimas": 1,
      "empAut": 1,
      "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -1495,7 +1522,8 @@
    "proSan": 1,
    "secInd": 1,
    "victimas": 1,
-   "viv2": 1
+   "viv2": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones un 2,7 %, prorroga suspensión de desahucios de vulnerables y bono social, y prorroga incentivos fiscales a autónomos y afectados por catástrofes.",
@@ -1553,7 +1581,8 @@
     "d": "Supresión de la obligación de declarar IRPF a perceptores de desempleo",
     "imp": {
      "desPres": 1,
-     "desSub": 1
+     "desSub": 1,
+     "famDisc": 1
     },
     "peso": 1
    },
@@ -1578,6 +1607,13 @@
     "d": "Tasa de retribución de la generación eléctrica no peninsular",
     "imp": {
      "secInd": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -1677,7 +1713,8 @@
    "pen1": 1,
    "pen2": 1,
    "pen3": 1,
-   "proSan": 1
+   "proSan": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones un 2,7 % y prestaciones familiares y de discapacidad; exime a parados de declarar IRPF; médicos de primaria compatibilizan pensión y trabajo.",
@@ -1697,7 +1734,8 @@
     "d": "Actualización de prestaciones familiares, de orfandad y de discapacidad",
     "imp": {
      "infancia": 1,
-     "discapacidad": 1
+     "discapacidad": 1,
+     "famDisc": 1
     },
     "peso": 1
    },
@@ -1705,7 +1743,8 @@
     "d": "Supresión de la obligación de declarar IRPF para perceptores de desempleo",
     "imp": {
      "desPres": 1,
-     "desSub": 1
+     "desSub": 1,
+     "famDisc": 1
     },
     "peso": 1
    },

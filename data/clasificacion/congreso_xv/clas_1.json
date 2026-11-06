@@ -134,10 +134,12 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "pac": 1
+   "pac": 1,
+   "famDisc": 1,
+   "discapacidad": 1
   },
   "peso": 2,
-  "nota": "Atención integral a enfermos de ELA y otras personas en situación de gran dependencia; mejora prestaciones para pacientes y dependientes.",
+  "nota": "Atención integral a enfermos de ELA y personas en gran dependencia, a quienes presume una discapacidad del 33 %; mejora prestaciones y bono social.",
   "partido": ""
  },
  {
@@ -235,10 +237,12 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "pac": 1
+   "pac": 1,
+   "famDisc": 1,
+   "discapacidad": 1
   },
   "peso": 2,
-  "nota": "Atención integral a enfermos de ELA y otras personas en situación de gran dependencia; mejora prestaciones para pacientes y dependientes.",
+  "nota": "Atención integral a enfermos de ELA y personas en gran dependencia, a quienes presume una discapacidad del 33 %; mejora prestaciones y bono social.",
   "partido": ""
  },
  {
@@ -304,10 +308,11 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "pac": 1
+   "pac": 1,
+   "discapacidad": 1
   },
   "peso": 1,
-  "nota": "Atención integral de las necesidades de las personas con ELA; beneficia a pacientes y dependientes.",
+  "nota": "Atención integral a personas con ELA, con un 33 % de discapacidad desde el diagnóstico; beneficia a pacientes, dependientes y personas con discapacidad.",
   "partido": ""
  },
  {
@@ -323,7 +328,8 @@
   "tipo": "soc",
   "imp": {
    "infancia": 1,
-   "pac": 1
+   "pac": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Mejora la prestación por cuidado de hijos gravemente enfermos; beneficia a familias con hijos y a pacientes.",
@@ -610,10 +616,11 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "pac": 1
+   "pac": 1,
+   "discapacidad": 1
   },
   "peso": 1,
-  "nota": "Mejora la calidad de vida y la atención de las personas con ELA y de sus familias; beneficia a pacientes y dependientes.",
+  "nota": "Mejora la atención a personas con ELA y sus familias y les reconoce una discapacidad grave desde el inicio; beneficia a pacientes y dependientes.",
   "partido": ""
  },
  {
@@ -741,7 +748,8 @@
   "imp": {
    "depend": 1,
    "discapacidad": 1,
-   "pac": 1
+   "pac": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Atención integral a afectados por enfermedades neurodegenerativas; agiliza ayudas y acreditación de discapacidad.",
@@ -787,7 +795,8 @@
   "id": "122/000075",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Modifica el régimen de accesibilidad en propiedad horizontal; beneficia a personas con discapacidad.",

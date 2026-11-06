@@ -436,7 +436,8 @@
    "pen3": 1,
    "proDoc": -1,
    "proSan": -1,
-   "proSeg": -1
+   "proSeg": -1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones un 1 % y congela sueldos y oferta de empleo de todo el personal público.",
@@ -465,6 +466,13 @@
      "proDoc": -1
     },
     "peso": 2
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
+    },
+    "peso": 1
    }
   ]
  },
@@ -640,11 +648,31 @@
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Presupuestos Generales anuales; incluye la revalorización general de las pensiones.",
-  "partido": ""
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones",
+    "imp": {
+     "mayores": 1,
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000028",
@@ -682,7 +710,8 @@
    "monop": 1,
    "pobreza": 1,
    "secFin": -1,
-   "victimas": 1
+   "victimas": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Suspende los lanzamientos de la vivienda habitual de familias vulnerables con hipoteca; coste para las entidades financieras.",

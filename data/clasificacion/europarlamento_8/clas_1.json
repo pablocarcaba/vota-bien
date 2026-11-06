@@ -368,7 +368,8 @@
   "id": "2014/0297(NLE)",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Facilita el acceso a obras publicadas a personas ciegas o con discapacidad visual.",

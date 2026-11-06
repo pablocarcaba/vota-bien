@@ -417,7 +417,8 @@
   "id": "2016/0278(COD)",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Permite usos de obras protegidas en formatos accesibles para personas ciegas o con discapacidad visual.",
@@ -427,7 +428,8 @@
   "id": "2016/0279(COD)",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Facilita el intercambio transfronterizo de ejemplares en formato accesible para personas ciegas o con discapacidad visual.",

@@ -88,7 +88,8 @@
    "discapacidad": 1,
    "lgtbi": 1,
    "minorias": 1,
-   "mujeres": 1
+   "mujeres": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Ley integral contra la discriminación por sexo, orientación, discapacidad, origen étnico y otras causas; refuerza su protección.",
@@ -160,7 +161,8 @@
   "id": "122/000129",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Facilita las obras de accesibilidad en comunidades de propietarios para personas con discapacidad.",

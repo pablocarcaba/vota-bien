@@ -716,7 +716,8 @@
   "imp": {
    "depend": 1,
    "infancia": 1,
-   "pac": 1
+   "pac": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Amplía la reducción de jornada con prestación para cuidar a menores o familiares con cáncer u otra enfermedad grave.",

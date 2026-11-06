@@ -236,7 +236,8 @@
   "id": "122/000127",
   "tipo": "eco",
   "imp": {
-   "depend": 1
+   "depend": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Restablece la protección frente al despido de quienes disfrutan de permisos por enfermedad grave de familiares y adaptación de jornada.",
@@ -247,10 +248,11 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "pac": 1
+   "pac": 1,
+   "discapacidad": 1
   },
   "peso": 1,
-  "nota": "Mejora la atención y calidad de vida de personas con ELA y otras enfermedades de alta complejidad.",
+  "nota": "Mejora la atención de personas con ELA y otras enfermedades irreversibles de alta complejidad y les reconoce un 33 % de discapacidad.",
   "partido": ""
  },
  {
@@ -862,7 +864,8 @@
   "tipo": "soc",
   "imp": {
    "discapacidad": 1,
-   "estud": 1
+   "estud": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Garantiza la voluntad de las familias en la escolarización del alumnado con necesidades educativas especiales, incluida la educación especial.",

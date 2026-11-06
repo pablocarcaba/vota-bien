@@ -383,7 +383,8 @@
   "id": "122/000026",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Crea un fondo estatal para la accesibilidad universal de personas con discapacidad.",
@@ -482,7 +483,8 @@
    "discapacidad": 1,
    "lgtbi": 1,
    "minorias": 1,
-   "mujeres": 1
+   "mujeres": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Prohíbe la discriminación por sexo, orientación sexual, discapacidad, origen étnico y religión.",

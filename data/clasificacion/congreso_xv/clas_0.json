@@ -21,20 +21,193 @@
   "id": "121/000003",
   "tipo": "eco",
   "imp": {
+   "asal5": -1,
+   "asal6": -1,
+   "casero": -1,
    "ciud": 1,
    "cons": 1,
+   "discapacidad": 1,
+   "empGran": -1,
+   "empMicro": -1,
+   "empPeq": -1,
+   "hipot": 1,
    "inq": 1,
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
    "pen3": 1,
    "pobreza": 1,
+   "proDoc": 1,
+   "prop4": -1,
+   "secCom": 1,
+   "secFin": -1,
    "secPrim": 1,
-   "casero": -1
+   "victimas": 1,
+   "famDisc": 1
   },
   "peso": 3,
-  "nota": "Revaloriza pensiones, prorroga la rebaja del IVA de alimentos y ayudas al transporte, suspende desahucios de vulnerables y ayuda al sector agrario.",
-  "partido": ""
+  "nota": "Prorroga rebajas de IVA de alimentos y energía, bono social y topes de gas; suspende comisiones hipotecarias y limita comisiones de efectivo a mayores.",
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Suspensión de comisiones por amortizar o pasar hipotecas a fijo",
+    "imp": {
+     "hipot": 1,
+     "secFin": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Límite a comisiones de retirada de efectivo para mayores y discapacitados",
+    "imp": {
+     "mayores": 1,
+     "discapacidad": 1,
+     "cons": 1,
+     "secFin": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de límites de módulos y régimen simplificado",
+    "imp": {
+     "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga del IVA reducido de alimentos básicos",
+    "imp": {
+     "ciud": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "IVA e impuesto eléctrico reducidos para luz y gas",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del bono social y garantía de suministros a vulnerables",
+    "imp": {
+     "pobreza": 1,
+     "cons": 1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Topes al precio del butano y de la tarifa de gas",
+    "imp": {
+     "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Apoyo a la industria electrointensiva y rebaja del impuesto de producción eléctrica",
+    "imp": {
+     "secInd": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Garantías y caducidad de permisos de acceso para grandes consumos",
+    "imp": {
+     "secInd": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Precio asumible del agua desalada para regantes por la sequía",
+    "imp": {
+     "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de ayudas a autónomos y ERTE afectados por el volcán",
+    "imp": {
+     "empAut": 1,
+     "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Revalorización de las pensiones del 3,8 % y de las mínimas",
+    "imp": {
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1,
+     "mayores": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida de las bases mínimas y máxima de cotización",
+    "imp": {
+     "empAut": -1,
+     "empMicro": -1,
+     "empPeq": -1,
+     "asal5": -1,
+     "asal6": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de la suspensión de desahucios de personas vulnerables",
+    "imp": {
+     "inq": 1,
+     "pobreza": 1,
+     "casero": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga de la moratoria de préstamos a afectados del volcán",
+    "imp": {
+     "victimas": 1,
+     "hipot": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Más plazo para ejecutar ayudas de digitalización turística",
+    "imp": {
+     "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Equiparación salarial del profesorado de la concertada",
+    "imp": {
+     "proDoc": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Prórroga de los gravámenes a energéticas y banca",
+    "imp": {
+     "empGran": -1,
+     "secInd": -1,
+     "secFin": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Prórroga del impuesto temporal a las grandes fortunas",
+    "imp": {
+     "prop4": -1
+    },
+    "peso": 2
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000004",
@@ -538,7 +711,8 @@
    "secCom": 1,
    "secInd": 1,
    "secPrim": 1,
-   "victimas": 1
+   "victimas": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Ayudas a afectados por la DANA (vehículos, empresas, estudiantes, discapacidad, agricultura), nuevo permiso retribuido por catástrofes para asalariados y prohibición de precios abusivos.",
@@ -583,7 +757,8 @@
     "d": "Productos de apoyo para personas con discapacidad afectadas",
     "imp": {
      "discapacidad": 1,
-     "victimas": 1
+     "victimas": 1,
+     "famDisc": 1
     },
     "peso": 1
    },
@@ -655,7 +830,8 @@
    "pen3": 1,
    "pobreza": 1,
    "secPrim": 1,
-   "victimas": 1
+   "victimas": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones, bonifica el transporte público, prorroga escudo social de vivienda y bono social, aplica la cotización de solidaridad y apoya a afectados por catástrofes.",
@@ -718,6 +894,13 @@
      "victimas": 1,
      "empAut": 1,
      "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -883,7 +1066,8 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Adapta a la Convención de la ONU la ley de derechos de las personas con discapacidad y la de dependencia.",
@@ -1144,7 +1328,8 @@
    "pen1": 1,
    "pen2": 1,
    "pen3": 1,
-   "proSan": 1
+   "proSan": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones un 2,7 % y prestaciones familiares y de discapacidad; exime a parados de declarar IRPF; médicos de primaria compatibilizan pensión y trabajo.",
@@ -1164,7 +1349,8 @@
     "d": "Actualización de prestaciones familiares, de orfandad y de discapacidad",
     "imp": {
      "infancia": 1,
-     "discapacidad": 1
+     "discapacidad": 1,
+     "famDisc": 1
     },
     "peso": 1
    },
@@ -1172,7 +1358,8 @@
     "d": "Supresión de la obligación de declarar IRPF para perceptores de desempleo",
     "imp": {
      "desPres": 1,
-     "desSub": 1
+     "desSub": 1,
+     "famDisc": 1
     },
     "peso": 1
    },

@@ -72,3 +72,12 @@ Clasificadas con la regla «Medidas» de 3.8 por tres lectores independientes (C
 - 121/000020: medida «Prórroga del Impuesto sobre el Patrimonio en 2018» peso 1 → 2 (peso de la ley, 3, sin cambio).
 
 - Unificación entre legislaturas (06/11/2026): 122/000017 (autoconsumo): `{"ciud":1,"cons":1}` → `{"cons":1}`, peso 2, como el resto de leyes de autoconsumo (X, XI, XII 125/000003).
+
+## `famDisc`: familias con una hija o un hijo con discapacidad (06/11/2026)
+
+Colectivo nuevo (rúbrica 3.6.1). Las 186 leyes candidatas (todas las que llevaban `discapacidad` y las que nombran la discapacidad, la dependencia o la accesibilidad) se leyeron dos veces por separado y una tercera para resolver los desacuerdos (6 de 186). Lecturas en `data/clasificacion/lecturas_famDisc_06-11-2026/`.
+
+- [x] 121/000006 y 121/000020 (PGE 2017 y 2018), 130/000055 (RDL 28/2018) y 121/000047 (su proyecto): nueva medida «Subida de la asignación por hijo a cargo con discapacidad» (+`famDisc`, peso 1); cuantías comprobadas en el BOE. En los PGE 2018, la deducción ampliada es la del cónyuge con discapacidad, no la del descendiente, así que la medida de deducciones no lleva `famDisc`.
+- [x] 121/000038 (PGE 2019, rechazados): el proyecto completo (BOCG-12-A-38-1) fija la asignación por hijo mayor de 18 años con discapacidad del 65 % o más en 4.704 euros, frente a 4.561,20 en 2018. Lleva la misma medida que los demás presupuestos (+`famDisc`, peso 1).
+- [x] 124/000006 (peajes gratis para personas con discapacidad y movilidad reducida): +`famDisc`. Comprobado con el texto (BOCG-12-B-311-1): exime a los vehículos de titularidad de la persona con discapacidad y movilidad reducida «cuando ellas mismas los conduzcan o los usen para su transporte». Por tanto, cubre el coche que conduce la familia, y la exposición de motivos cita el sobrecoste para «sus familias».
+- [x] 130/000063: sin `famDisc`; la subida de la prestación por hijo es la de hijos sin discapacidad en pobreza.

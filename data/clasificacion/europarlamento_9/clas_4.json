@@ -800,7 +800,8 @@
   "id": "2023/0311(COD)",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Crea una tarjeta europea de discapacidad y de estacionamiento con reconocimiento en otros Estados.",

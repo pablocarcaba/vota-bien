@@ -766,7 +766,8 @@
   "id": "2012/0340(COD)",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Obliga a que los sitios web del sector público sean accesibles; mejora el acceso de las personas con discapacidad.",

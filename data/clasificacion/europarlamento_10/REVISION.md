@@ -31,3 +31,9 @@ Las 260 iniciativas se han reclasificado con la rúbrica v3 por tres lectores in
 
 - 2013/0072(COD): `{}` p1 → `{}` p1 (solo nota)
 - 2025/0726(COD): `{"secInd": 1}` p2 → `{}` p1 (3.4.1: medida comercial, no se marca al sector protegido; criterio común con Ucrania y EE. UU.)
+
+## `famDisc`: familias con una hija o un hijo con discapacidad (06/11/2026)
+
+Colectivo nuevo (rúbrica 3.6.1). Las 186 leyes candidatas (todas las que llevaban `discapacidad` y las que nombran la discapacidad, la dependencia o la accesibilidad) se leyeron dos veces por separado y una tercera para resolver los desacuerdos (6 de 186). Lecturas en `data/clasificacion/lecturas_famDisc_06-11-2026/`.
+
+- [x] 2023/0437(COD) (derechos de los pasajeros): +`famDisc`. Comprobado con el resumen del texto aprobado (T10-0347/2026): si la aerolínea exige acompañante, este viaja gratis y sentado al lado; además, información de accesibilidad en formato accesible y protección de sillas de ruedas y perros de asistencia.

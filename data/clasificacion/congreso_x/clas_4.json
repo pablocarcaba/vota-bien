@@ -328,7 +328,8 @@
    "secDig": 1,
    "viv0": 1,
    "viv1": -1,
-   "viv2": -1
+   "viv2": -1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Sube 1 % las pensiones, congela sueldos públicos, alarga su jornada, añade recargo de IRPF, sube el IBI y suprime la renta de emancipación.",
@@ -411,6 +412,13 @@
     "d": "Supresión del canon por copia privada sobre equipos",
     "imp": {
      "secDig": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -941,7 +949,8 @@
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Aplica la revalorización de pensiones de 2013, amplía la orfandad de huérfanos con discapacidad y congela el precio del butano.",
@@ -960,7 +969,8 @@
    {
     "d": "Límite de edad de orfandad para huérfanos con discapacidad",
     "imp": {
-     "discapacidad": 1
+     "discapacidad": 1,
+     "famDisc": 1
     },
     "peso": 1
    },
@@ -968,6 +978,13 @@
     "d": "Congelación del precio máximo del butano",
     "imp": {
      "cons": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }

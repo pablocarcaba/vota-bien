@@ -135,7 +135,8 @@
    "discapacidad": 1,
    "lgtbi": 1,
    "minorias": 1,
-   "mujeres": 1
+   "mujeres": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Ley integral de igualdad de trato frente a la discriminación por sexo, origen racial o étnico, religión, discapacidad y orientación sexual.",
@@ -843,7 +844,8 @@
   "id": "122/000154",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Crea un fondo estatal para financiar la accesibilidad universal de las personas con discapacidad.",
@@ -884,7 +886,8 @@
   "id": "122/000158",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Crea un fondo para financiar la accesibilidad universal de las personas con discapacidad.",

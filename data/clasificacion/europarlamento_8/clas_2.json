@@ -599,7 +599,8 @@
   "id": "2015/0278(COD)",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Fija requisitos de accesibilidad de productos y servicios; beneficia a las personas con discapacidad.",

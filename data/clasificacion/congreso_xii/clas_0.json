@@ -354,7 +354,8 @@
   "id": "121/000021",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Transpone directivas sobre gestión colectiva de derechos y sobre acceso a obras en formatos accesibles para personas con discapacidad visual.",
@@ -364,7 +365,8 @@
   "id": "130/000029",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Transpone directivas sobre gestión colectiva de derechos y sobre acceso a obras en formatos accesibles para personas con discapacidad visual.",
@@ -446,7 +448,8 @@
    "discapacidad": 1,
    "inq": 1,
    "pobreza": 1,
-   "secCons": -1
+   "secCons": -1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Amplía la duración de los alquileres y limita garantías, suspende desahucios de hogares vulnerables, impulsa obras de accesibilidad y exime de ITP ciertos arrendamientos.",
@@ -473,7 +476,8 @@
    {
     "d": "Obras obligatorias de accesibilidad en comunidades de propietarios",
     "imp": {
-     "discapacidad": 1
+     "discapacidad": 1,
+     "famDisc": 1
     },
     "peso": 1
    },
@@ -667,7 +671,8 @@
    "pen2": 1,
    "pen3": 1,
    "secPrim": 1,
-   "victimas": 1
+   "victimas": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones un 1,6 %; sube el tope y las bases de cotización; amplía la protección de autónomos, becarios y eventuales agrarios.",
@@ -721,6 +726,13 @@
     "imp": {
      "desSub": 1,
      "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -741,7 +753,8 @@
    "pen2": 1,
    "pen3": 1,
    "secPrim": 1,
-   "victimas": 1
+   "victimas": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones un 1,6 %; sube el tope y las bases de cotización; amplía la protección de autónomos, becarios y eventuales agrarios.",
@@ -795,6 +808,13 @@
     "imp": {
      "desSub": 1,
      "victimas": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }

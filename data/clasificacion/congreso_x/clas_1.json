@@ -79,7 +79,8 @@
    "proSan": -1,
    "proSeg": -1,
    "prop3": -1,
-   "prop4": -1
+   "prop4": -1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones un 0,25 %, congela sueldos públicos, prorroga el gravamen complementario del IRPF y el Patrimonio y sube la base máxima.",
@@ -144,6 +145,13 @@
     "imp": {
      "asal5": -1,
      "asal6": -1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -584,7 +592,8 @@
    "discapacidad": 1,
    "infancia": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Reforma del IRPF con reducción generalizada de la carga y mejoras en mínimos familiares y por discapacidad.",
@@ -676,7 +685,8 @@
    "proSeg": 1,
    "prop3": -1,
    "prop4": -1,
-   "secFin": 1
+   "secFin": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones un 0,25 %, congela salarios públicos con recuperación parcial de la paga extra de 2012, prorroga el Impuesto sobre el Patrimonio.",
@@ -717,6 +727,13 @@
     "d": "Exención en transmisiones patrimoniales para fondos de capital riesgo",
     "imp": {
      "secFin": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -1126,7 +1143,8 @@
    "proSeg": 1,
    "prop3": -1,
    "prop4": -1,
-   "secTrans": 1
+   "secTrans": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones un 0,25 %, sube un 1 % el sueldo público, devuelve parte de la paga extra de 2012 y prorroga Patrimonio.",
@@ -1168,6 +1186,13 @@
     "d": "Rebaja de las tasas aeroportuarias",
     "imp": {
      "secTrans": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }

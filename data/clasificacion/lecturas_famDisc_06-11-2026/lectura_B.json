@@ -1,0 +1,1352 @@
+[
+ {
+  "clave": "congreso_x",
+  "id": "120/000027",
+  "famDisc": 0,
+  "motivo": "Norma penal, sancionadora o procesal; sin efecto familiar que pase la prueba (3.7, 3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "120/000031",
+  "famDisc": 0,
+  "motivo": "Copago de dependencia; sin texto que nombre la discapacidad: va a depend (3.6.1, 3.9).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_x",
+  "id": "121/000007",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "121/000031",
+  "famDisc": 1,
+  "motivo": "Nombra a la unidad familiar con miembro con discapacidad, hijos sin límite de edad (3.6.1, fila 1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "121/000104",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "Única medida de discapacidad es la Garantía Juvenil: empleo, excluido (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "121/000109",
+  "famDisc": 1,
+  "motivo": "Sube mínimo por descendiente con discapacidad y crea deducción por descendiente con discapacidad (3.6.1, fila 1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "121/000129",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000002",
+  "famDisc": 1,
+  "motivo": "Protección general frente a la discriminación por discapacidad (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000015",
+  "famDisc": 1,
+  "motivo": "Accesibilidad universal en edificios o entornos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000016",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000064",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000069",
+  "famDisc": 0,
+  "motivo": "Sanidad universal para toda la población; nada específico de discapacidad (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000079",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000101",
+  "famDisc": 1,
+  "motivo": "Protección a deudores vulnerables; la nota marca discapacidad en el hogar, sin texto para comprobarlo (3.6.1, 3.9).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000103",
+  "famDisc": 0,
+  "motivo": "Inembargabilidad de salarios y prestaciones de dependencia en general; no nombra discapacidad (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000124",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000130",
+  "famDisc": 0,
+  "motivo": "Derecho propio de la persona (nacionalidad), no protección general ni servicio familiar (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000171",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000172",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000179",
+  "famDisc": 1,
+  "motivo": "Reducción de jornada con prestación por cuidado de hijo con cáncer o enfermedad grave (3.6.1, fila 1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000195",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000199",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "122/000211",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "130/000010",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "130/000021",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "Recortes de dependencia general y cuidadores; no nombra a hijos con discapacidad (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "130/000030",
+  "famDisc": 1,
+  "medidas": {
+   "0": 1,
+   "1": 1
+  },
+  "motivo": "Orfandad de huérfanos con discapacidad y revalorización de asignaciones por hijo con discapacidad (3.6.1, 3.8).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_x",
+  "id": "130/000046",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "Reducción de jornada por hijos hasta 12 años: todas las familias, nada específico de discapacidad (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_x",
+  "id": "130/000055",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "Única medida de discapacidad es la Garantía Juvenil: empleo, excluido (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xi",
+  "id": "120/000001",
+  "famDisc": 0,
+  "motivo": "Copago de dependencia; sin texto que nombre la discapacidad: va a depend (3.6.1, 3.9).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xi",
+  "id": "122/000004",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xi",
+  "id": "122/000031",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "121/000033",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "130/000044",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "121/000021",
+  "famDisc": 1,
+  "motivo": "Accesibilidad de la comunicación: obras en formato accesible para personas con discapacidad visual (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "130/000029",
+  "famDisc": 1,
+  "motivo": "Accesibilidad de la comunicación: obras en formato accesible para personas con discapacidad visual (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "130/000048",
+  "famDisc": 1,
+  "medidas": {
+   "2": 1
+  },
+  "motivo": "Medida de obras obligatorias de accesibilidad en comunidades (3.6.1, fila 4; 3.8).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000310",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "130/000063",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "Subida de prestación por hijo solo sin discapacidad; incapacidad y cuidadores no profesionales no cuentan (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "120/000001",
+  "famDisc": 0,
+  "motivo": "Copago de dependencia; sin texto que nombre la discapacidad: va a depend (3.6.1, 3.9).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "121/000020",
+  "famDisc": 1,
+  "medidas": {
+   "2": 1
+  },
+  "motivo": "Deducción por descendiente con discapacidad y asignación por hijo con discapacidad; la ampliación es del cónyuge (3.8).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000004",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000032",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000053",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000056",
+  "famDisc": 0,
+  "motivo": "Permisos de nacimiento para todas las familias; sin texto que muestre algo específico de discapacidad (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000057",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000059",
+  "famDisc": 0,
+  "motivo": "Consentimiento matrimonial: derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000068",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000077",
+  "famDisc": 1,
+  "motivo": "Protección general frente a la discriminación por discapacidad (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000080",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000100",
+  "famDisc": 0,
+  "motivo": "Voto telemático de concejales; sin relación con discapacidad (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000124",
+  "famDisc": 0,
+  "motivo": "Pensión no contributiva propia de la persona adulta (3.6.1, fila 2 de exclusiones).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000151",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000154",
+  "famDisc": 1,
+  "motivo": "Accesibilidad universal en edificios o entornos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000158",
+  "famDisc": 1,
+  "motivo": "Accesibilidad universal en edificios o entornos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000185",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000189",
+  "famDisc": 1,
+  "motivo": "Accesibilidad universal en edificios o entornos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000214",
+  "famDisc": 1,
+  "motivo": "Accesibilidad universal en edificios o entornos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000230",
+  "famDisc": 1,
+  "motivo": "Accesibilidad universal en edificios o entornos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000259",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000260",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000302",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "122/000313",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "124/000001",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "124/000006",
+  "famDisc": 1,
+  "motivo": "Exención de peajes a personas con movilidad reducida: prestación sin límite de edad (3.6.1, fila 3).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "124/000007",
+  "famDisc": 1,
+  "motivo": "Reconocimiento del grado de discapacidad: asimila la dependencia al grado mínimo (3.6.1, fila 3).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "124/000011",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xii",
+  "id": "125/000016",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiii",
+  "id": "122/000004",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiii",
+  "id": "120/000001",
+  "famDisc": 0,
+  "motivo": "Copago de dependencia; sin texto que nombre la discapacidad: va a depend (3.6.1, 3.9).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiii",
+  "id": "122/000013",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiii",
+  "id": "122/000026",
+  "famDisc": 1,
+  "motivo": "Accesibilidad universal en edificios o entornos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiii",
+  "id": "122/000036",
+  "famDisc": 1,
+  "motivo": "Protección general frente a la discriminación por discapacidad (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000141",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000093",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000115",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "La medida de discapacidad es la subida de pensiones no contributivas: pensión propia, excluida (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000083",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "La medida de discapacidad es la subida de pensiones no contributivas: pensión propia, excluida (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000120",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "La medida de discapacidad es la cuota reducida de autónomos: empleo, excluido (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000086",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "La medida de discapacidad es la cuota reducida de autónomos: empleo, excluido (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000150",
+  "famDisc": 1,
+  "medidas": {
+   "6": 1
+  },
+  "motivo": "Prestación por cuidado de hijo con cáncer ampliada hasta 23-26 años (3.6.1, fila 1; 3.8).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000094",
+  "famDisc": 1,
+  "medidas": {
+   "6": 1
+  },
+  "motivo": "Prestación por cuidado de hijo con cáncer ampliada hasta 23-26 años (3.6.1, fila 1; 3.8).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000140",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "La medida de discapacidad es la subida de pensiones no contributivas: pensión propia, excluida (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000092",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "La medida de discapacidad es la subida de pensiones no contributivas: pensión propia, excluida (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000100",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "130/000079",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "120/000001",
+  "famDisc": 0,
+  "motivo": "Copago de dependencia; sin texto que nombre la discapacidad: va a depend (3.6.1, 3.9).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000027",
+  "famDisc": 0,
+  "motivo": "Reforma de la capacidad jurídica: signo para la familia no consta (3.6.1, P4).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000076",
+  "famDisc": 1,
+  "motivo": "Obligaciones de accesibilidad audiovisual: subtitulado, audiodescripción, lengua de signos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000082",
+  "famDisc": 1,
+  "motivo": "Obliga a integrar modalidades deportivas de personas con discapacidad: inclusión sin límite de edad (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000112",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "121/000126",
+  "famDisc": 1,
+  "motivo": "Requisitos de accesibilidad universal de productos, servicios o webs (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000034",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000092",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000121",
+  "famDisc": 1,
+  "motivo": "Protección general frente a la discriminación por discapacidad (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000125",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000129",
+  "famDisc": 1,
+  "motivo": "Accesibilidad universal en edificios o entornos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000159",
+  "famDisc": 0,
+  "motivo": "Ley de ELA: pacientes y dependencia; sin texto que nombre servicios por discapacidad (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000160",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000178",
+  "famDisc": 0,
+  "motivo": "Ley de ELA: pacientes y dependencia; sin texto que nombre servicios por discapacidad (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000179",
+  "famDisc": 0,
+  "motivo": "Ley de ELA: pacientes y dependencia; sin texto que nombre servicios por discapacidad (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000180",
+  "famDisc": 0,
+  "motivo": "Ley de ELA: pacientes y dependencia; sin texto que nombre servicios por discapacidad (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000209",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000212",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000219",
+  "famDisc": 1,
+  "motivo": "Asimilación al 65 % de discapacidad en la LGSS: afecta a asignación por hijo a cargo y orfandad; sin texto (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000246",
+  "famDisc": 1,
+  "motivo": "Asimilación al 65 % de discapacidad en la LGSS: afecta a asignación por hijo a cargo y orfandad; sin texto (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000286",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000301",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "122/000310",
+  "famDisc": 1,
+  "motivo": "Mejora la prestación por cuidado de hijo con enfermedad grave (3.6.1, fila 1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "124/000001",
+  "famDisc": 0,
+  "motivo": "Derecho personalísimo de la persona adulta (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "124/000003",
+  "famDisc": 1,
+  "motivo": "Accesibilidad cognitiva como derecho de las personas con discapacidad (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "124/000005",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "124/000012",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xiv",
+  "id": "125/000010",
+  "famDisc": 0,
+  "motivo": "Norma penal sobre eutanasia; sin efecto familiar que pase la prueba (3.7, 3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "121/000027",
+  "famDisc": 0,
+  "motivo": "Conciliación y subsidio; sin texto que nombre hijos con discapacidad (3.6.1, 3.9).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "121/000033",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "121/000044",
+  "famDisc": 1,
+  "medidas": {
+   "4": 1
+  },
+  "motivo": "Productos de apoyo para personas con discapacidad afectadas por la DANA (3.6.1, fila 3; 3.8).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "121/000064",
+  "famDisc": 1,
+  "motivo": "Extiende derechos de las personas con discapacidad en su ley general, sin límite de edad; sin texto (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "121/000076",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "121/000086",
+  "famDisc": 1,
+  "medidas": {
+   "1": 1,
+   "2": 1
+  },
+  "motivo": "Revaloriza asignación por hijo a cargo con discapacidad; el texto cita a progenitores con deducción por descendiente (3.8).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "121/000090",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "121/000104",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000008",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000020",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000029",
+  "famDisc": 1,
+  "motivo": "Mejora la prestación por cuidado de hijo con enfermedad grave (3.6.1, fila 1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000061",
+  "famDisc": 0,
+  "motivo": "Deducciones por contratar embarazadas y padres de familia numerosa; nada específico de discapacidad (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000070",
+  "famDisc": 1,
+  "motivo": "Agiliza acreditación de discapacidad y ayudas en enfermedades neurodegenerativas, también infantiles (3.6.1, fila 3).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000075",
+  "famDisc": 1,
+  "motivo": "Accesibilidad universal en edificios o entornos (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000127",
+  "famDisc": 1,
+  "motivo": "Restablece protección frente al despido por reducción de jornada por cuidado de hijo grave o con discapacidad; sin texto (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000137",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000189",
+  "famDisc": 1,
+  "motivo": "Escolarización del alumnado con necesidades educativas especiales, incluida educación especial (3.6.1, fila 2).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000215",
+  "famDisc": 0,
+  "motivo": "Empleo, pensión o derecho laboral propio de la persona (3.6.1, exclusiones).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000225",
+  "famDisc": 0,
+  "motivo": "Norma sancionadora sobre plazas reservadas; no se asigna a colectivos (3.7).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000279",
+  "famDisc": 0,
+  "motivo": "Internamiento involuntario: garantías procesales de la persona; signo para la familia no consta (3.6.1, P4).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "122/000294",
+  "famDisc": 1,
+  "motivo": "Prorroga prestación y permiso por cuidado de hijo con cáncer y gran discapacidad (3.6.1, fila 1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "124/000002",
+  "famDisc": 1,
+  "motivo": "Reconocimiento del grado de discapacidad: asimila la dependencia al grado mínimo (3.6.1, fila 3).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "124/000015",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "125/000016",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000002",
+  "famDisc": 0,
+  "motivo": "Conciliación y subsidio; sin texto que nombre hijos con discapacidad (3.6.1, 3.9).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000003",
+  "famDisc": 0,
+  "medidas": {},
+  "motivo": "Comisiones bancarias de la propia persona con discapacidad; no es servicio ni accesibilidad listada (3.6.1).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000005",
+  "famDisc": 0,
+  "motivo": "Conciliación y subsidio; sin texto que nombre hijos con discapacidad (3.6.1, 3.9).",
+  "duda": true
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000011",
+  "famDisc": 1,
+  "medidas": {
+   "4": 1
+  },
+  "motivo": "Productos de apoyo para personas con discapacidad afectadas por la DANA (3.6.1, fila 3; 3.8).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000025",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000030",
+  "famDisc": 1,
+  "medidas": {
+   "2": 1,
+   "6": 1
+  },
+  "motivo": "Revaloriza asignación por hijo a cargo con discapacidad; el texto cita a progenitores con deducción por descendiente (3.8).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000034",
+  "famDisc": 1,
+  "medidas": {
+   "1": 1,
+   "2": 1
+  },
+  "motivo": "Revaloriza asignación por hijo a cargo con discapacidad; el texto cita a progenitores con deducción por descendiente (3.8).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000035",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000037",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "congreso_xv",
+  "id": "130/000048",
+  "famDisc": 0,
+  "motivo": "Dependencia o enfermedad en general, sin nombrar la discapacidad de hijos: va a depend/pac (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_10",
+  "id": "2023/0169(COD)",
+  "famDisc": 0,
+  "motivo": "Protección de adultos: capacidad jurídica sin signo familiar conocido (3.6.1, P4).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_10",
+  "id": "2023/0437(COD)",
+  "famDisc": 1,
+  "motivo": "Refuerza derechos de pasajeros con movilidad reducida; accesibilidad del transporte (3.6.1); efecto parcial.",
+  "duda": true
+ },
+ {
+  "clave": "europarlamento_10",
+  "id": "2024/0187(CNS)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_10",
+  "id": "2025/0102(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_10",
+  "id": "2025/0180(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_6",
+  "id": "2005/0007(COD)",
+  "famDisc": 1,
+  "motivo": "Accesibilidad y asistencia en el transporte aéreo a personas con movilidad reducida (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_6",
+  "id": "2005/0056(CNS)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_6",
+  "id": "2007/0216(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_6",
+  "id": "2008/0090(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_6",
+  "id": "2008/0140(APP)",
+  "famDisc": 1,
+  "motivo": "Protección general frente a la discriminación por discapacidad (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_6",
+  "id": "2008/0153(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_6",
+  "id": "2008/0182(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2008/0090(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2009/0031(CNS)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2009/0116(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2009/0152(CNS)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2010/0325(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2011/0360(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2012/0169(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2012/0185(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2012/0340(COD)",
+  "famDisc": 1,
+  "motivo": "Requisitos de accesibilidad universal de productos, servicios o webs (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2013/0119(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_7",
+  "id": "2013/0210(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2013/0177(NLE)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2014/0297(NLE)",
+  "famDisc": 1,
+  "motivo": "Accesibilidad de la comunicación: obras en formato accesible para personas con discapacidad visual (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2015/0278(COD)",
+  "famDisc": 1,
+  "motivo": "Requisitos de accesibilidad universal de productos, servicios o webs (3.6.1, fila 4).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2015/0306(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2015/2085(INL)",
+  "famDisc": 0,
+  "motivo": "Protección de adultos: capacidad jurídica sin signo familiar conocido (3.6.1, P4).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2016/0278(COD)",
+  "famDisc": 1,
+  "motivo": "Accesibilidad de la comunicación: obras en formato accesible para personas con discapacidad visual (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2016/0279(COD)",
+  "famDisc": 1,
+  "motivo": "Accesibilidad de la comunicación: obras en formato accesible para personas con discapacidad visual (3.6.1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2016/0355(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2018/0104(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2018/0186(CNS)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_8",
+  "id": "2018/0204(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_9",
+  "id": "2020/0302(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_9",
+  "id": "2021/0219(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_9",
+  "id": "2022/0021(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_9",
+  "id": "2022/0274(COD)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_9",
+  "id": "2022/0402(CNS)",
+  "famDisc": 0,
+  "motivo": "Sin disposición sobre discapacidad o sus familias; ruido de la búsqueda (3.1.2, P1).",
+  "duda": false
+ },
+ {
+  "clave": "europarlamento_9",
+  "id": "2023/0311(COD)",
+  "famDisc": 1,
+  "motivo": "Tarjeta europea de discapacidad sin límite de edad: servicio y reconocimiento a personas con discapacidad (3.6.1).",
+  "duda": false
+ }
+]

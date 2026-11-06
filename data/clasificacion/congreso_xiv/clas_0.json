@@ -6,11 +6,31 @@
    "mayores": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones contributivas y no contributivas con un porcentaje general; beneficia a pensionistas de todos los tramos y a los mayores.",
-  "partido": ""
+  "partido": "",
+  "medidas": [
+   {
+    "d": "Revalorización general de las pensiones",
+    "imp": {
+     "mayores": 1,
+     "pen1": 1,
+     "pen2": 1,
+     "pen3": 1
+    },
+    "peso": 3
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
+    },
+    "peso": 1
+   }
+  ]
  },
  {
   "id": "121/000045",
@@ -1648,7 +1668,8 @@
    "pac": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Eleva cotizaciones sobre salarios altos y el MEI; mejora cálculo, pensiones mínimas, máxima y brecha de género; amplía cuidado de hijos enfermos.",
@@ -1708,7 +1729,8 @@
     "d": "Prestación por cuidado de hijos con cáncer hasta 23-26 años",
     "imp": {
      "pac": 1,
-     "discapacidad": 1
+     "discapacidad": 1,
+     "famDisc": 1
     },
     "peso": 1
    },
@@ -1745,7 +1767,8 @@
    "pac": 1,
    "pen1": 1,
    "pen2": 1,
-   "pen3": 1
+   "pen3": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Eleva cotizaciones sobre salarios altos y el MEI; mejora cálculo, pensiones mínimas, máxima y brecha de género; amplía cuidado de hijos enfermos.",
@@ -1805,7 +1828,8 @@
     "d": "Prestación por cuidado de hijos con cáncer hasta 23-26 años",
     "imp": {
      "pac": 1,
-     "discapacidad": 1
+     "discapacidad": 1,
+     "famDisc": 1
     },
     "peso": 1
    },

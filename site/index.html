@@ -819,7 +819,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
       <section class="fcol" aria-labelledby="fc-priv">
         <h3 id="fc-priv"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>Privacidad</h3>
         <p>No sale de tu dispositivo: todo se calcula en tu navegador y tus respuestas se guardan solo en este navegador. Sin registro, sin cookies, sin analítica.</p>
-        <p>Si compartes tu perfil, el enlace lleva tus respuestas de los pasos 1 a 3 (también sexo, estado civil, cuidados, ayuda social y medio rural) y tu provincia, pero nunca «Otro» en sexo ni las del paso 4: orientación, salud, discapacidad, origen ni si eres víctima. Solo lo tiene quien tú elijas.</p>
+        <p>Si compartes tu perfil, el enlace lleva tus respuestas de los pasos 1 a 3 (también sexo, estado civil, cuidados, ayuda social y medio rural) y tu provincia, pero nunca «Otro» en sexo ni las del paso 4: orientación, salud, discapacidad (tuya o de tus hijos), origen ni si eres víctima. Solo lo tiene quien tú elijas.</p>
         <p><button type="button" class="linkbtn" id="borrar-foot">Borrar mis respuestas</button></p>
       </section>
       <section class="fcol" aria-labelledby="fc-datos">
@@ -902,6 +902,7 @@ const CATS = [
   // paso 4 (opcional): datos sensibles, que no viajan en los enlaces (PRIVADO)
   {id:'ori', name:'Orientación o identidad', multi:true, opts:[['lgtbi','LGTBI+']]},
   {id:'soc', name:'Tu salud y tu situación', multi:true, opts:[['pac','Paciente o persona con enfermedad crónica'],['depend','Persona dependiente (con grado reconocido)'],['discapacidad','Persona con discapacidad'],['inmigrantes','Inmigrante (persona extranjera que vive en España)'],['minorias','Minoría étnica o religiosa (p. ej., etnia gitana)'],['victimas','Víctima de violencia, terrorismo, catástrofe o accidente']]},
+  {id:'fdi', name:'Hijas e hijos con discapacidad', multi:true, opts:[['famDisc','Tengo a mi cargo una hija o un hijo con discapacidad']]},
   // se deducen de las respuestas del asistente (deriva()); no son botones del formulario
   {id:'aut', name:'Trabajo autónomo', opts:[['empAut','Trabajo autónomo']]},
   {id:'est', name:'Estudiantes', opts:[['estud','Estudiante (de cualquier nivel)']]},
@@ -960,16 +961,17 @@ const PASOS = [
   // opcional (opt): el resultado sale al terminar el paso 3. Son datos sensibles: nada de este paso viaja en los enlaces (PRIVADO)
   {t:'Salud y situación personal', opt:true, d:'Opcional. Son datos sensibles (salud, orientación, origen…): se quedan en tu dispositivo y nunca van en los enlaces que compartas.', q:[
     {id:'ori', cat:'ori'},
-    {id:'soc', cat:'soc', none:'socNo', ui:[['socNo','Ninguna me describe','Ninguna situación personal']]}]}
+    {id:'soc', cat:'soc', none:'socNo', ui:[['socNo','Ninguna me describe','Ninguna situación personal']]},
+    {id:'fdi', cat:'fdi'}]}
 ];
 const UI_TXT = {}; PASOS.forEach(P=>P.q.forEach(q=>(q.ui||[]).forEach(([k,v,r])=>UI_TXT[k]=r||v)));
 // colectivos que pone deriva() a partir de las respuestas; en la barra de perfil salen como «se deduce»
 const DERIV = ['empAut','estud','viv0','viv1','viv2','inq','hipot','casero'];
 const NPASOS = PASOS.length;
-// datos sensibles (paso 4: orientación, salud, discapacidad, origen, víctimas) y su respuesta «Ninguna me describe»,
+// datos sensibles (paso 4: orientación, salud, discapacidad propia o de una hija o un hijo, origen, víctimas) y su respuesta «Ninguna me describe»,
 // más «Otro» en sexo (paso 1), que puede revelar la identidad de género: se quedan en este navegador, nunca en un enlace.
 // Hombre, Mujer, «Prefiero no decirlo», estado civil, cuidados, ayuda social y medio rural sí viajan
-const PRIVADO = new Set(['lgtbi','pac','depend','discapacidad','inmigrantes','minorias','victimas','socNo','sexOtro']);
+const PRIVADO = new Set(['lgtbi','pac','depend','discapacidad','famDisc','inmigrantes','minorias','victimas','socNo','sexOtro']);
 // versión de pasosPerfil (localStorage). Hasta la v10 sexo, estado civil, cuidados, medio rural y ayuda social iban en el
 // paso 4, que prometía no salir del dispositivo; ahora van en los pasos 1 a 3 y sí viajan. En un perfil guardado sin versión,
 // esas respuestas quedan retenidas (pasos.ret): no van en ningún enlace hasta que confirmes su paso o vuelvas a tocar la pregunta
@@ -1017,6 +1019,7 @@ const CAT_NOTE = {
   nviv:'Cuenta la tuya si es propia.',
   prop:'Ahorros, inversiones, acciones u otros inmuebles, sin contar tu casa. «Menos de 200.000 €» incluye no tener nada.',
   soc:'Puedes marcar varias.',
+  fdi:'De cualquier edad, si vive contigo o depende de ti. Si la persona con discapacidad eres tú, márcalo en «Tu salud y tu situación».',
   sexo:'Hay leyes dirigidas específicamente a hombres o a mujeres. «Otro» no va en los enlaces que compartas.',
 };
 // veredicto en palabras para el saldo de un partido: habla de los votos, no de sus efectos. Franja neutra de ±25
@@ -2205,17 +2208,17 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>«Signo contrario» quiere decir que una lectura marca que la ley beneficia a un colectivo y otra que lo perjudica. El parecido va de 0 (ningún colectivo en común) a 1 (los mismos colectivos con el mismo efecto). En una primera prueba, con la rúbrica anterior y solo con el título de cada ley, el parecido era de 0,83 y había 3 leyes con signo contrario. Las 108 iniciativas en las que las tres lecturas no coinciden del todo pasan a revisión humana.</p>
     <p class="dlinks">${repoLink('Ver qué cambió en cada ley (GitHub)','/blob/main/data/clasificacion/congreso_xv/lectura_v3/CAMBIOS.md')} ${repoLink('Ver las tres lecturas (GitHub)','/tree/main/data/clasificacion/congreso_xv/lectura_v3')}</p>
     <h3>Prueba de sesgo</h3>
-    <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 20 arquetipos (persona asalariada con hipoteca, pensionista, trabajo autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web (en la muestra aleatoria, el 25 % de las personas asalariadas y del sector público responde «No lo sé» en el tramo de IRPF), en cada legislatura y pestaña, con y sin «Ciudadanía general» y con «Consumidor» activo, como viene por defecto. Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
+    <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 21 arquetipos (persona asalariada con hipoteca, pensionista, trabajo autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web (en la muestra aleatoria, el 25 % de las personas asalariadas y del sector público responde «No lo sé» en el tramo de IRPF), en cada legislatura y pestaña, con y sin «Ciudadanía general» y con «Consumidor» activo, como viene por defecto. Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
     <p>«Ciudadanía general» cambia mucho el resultado en el Parlamento Europeo:</p>
     <table class="tbl">
       <caption>Parlamento Europeo, leyes económicas: partido que sale primero en más perfiles y en qué porcentaje de ellos</caption>
       <thead><tr><th scope="col">Legislatura</th><th scope="col">Con «Ciudadanía general»</th><th scope="col">Sin ella</th></tr></thead>
       <tbody>
-        <tr><th scope="row">10.ª · 2024–2029</th><td>BNG · 43,1 %</td><td>PP · 28,8 %</td></tr>
-        <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 96,7 %</td><td>PP · 24,7 %</td></tr>
+        <tr><th scope="row">10.ª · 2024–2029</th><td>BNG · 42,8 %</td><td>PP · 30,4 %</td></tr>
+        <tr><th scope="row">9.ª · 2019–2024</th><td>PSOE · 97,1 %</td><td>PP · 24,1 %</td></tr>
       </tbody>
     </table>
-    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 46,8 % de los perfiles, PNV en el 23,6 % y PSOE en el 12,6 %. Pero salir primero puede ser un empate en cabeza: en esa misma pestaña, el 2.º queda a ${EMPATE} puntos o menos del 1.º en el 97,4 % de los perfiles (margen mediano: 0 puntos). Esa diferencia es demasiado pequeña para ordenarlos, así que el ranking agrupa a los partidos a ${EMPATE} puntos o menos del 1.º como «Empatado en cabeza», todos con el 1.º (sin cambiar su orden ni su nota). En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
+    <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 47,9 % de los perfiles, PNV en el 24,8 % y PSOE en el 11,4 %. Pero salir primero puede ser un empate en cabeza: en esa misma pestaña, el 2.º queda a ${EMPATE} puntos o menos del 1.º en el 97,6 % de los perfiles (margen mediano: 0 puntos). Esa diferencia es demasiado pequeña para ordenarlos, así que el ranking agrupa a los partidos a ${EMPATE} puntos o menos del 1.º como «Empatado en cabeza», todos con el 1.º (sin cambiar su orden ni su nota). En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
     <p><span class="tag-int">Interpretación nuestra</span>Los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.</p>
     <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','/blob/main/data/analisis/SESGO.md')}</p>
     <h3>Versión de la metodología</h3>

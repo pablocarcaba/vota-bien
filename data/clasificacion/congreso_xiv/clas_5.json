@@ -62,7 +62,8 @@
   "id": "122/000219",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Amplía a más personas con discapacidad el acceso a prestaciones de la Seguridad Social; beneficia a ese colectivo.",
@@ -310,7 +311,8 @@
   "id": "122/000246",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Amplía a más personas con discapacidad el acceso a prestaciones de la Seguridad Social; beneficia a ese colectivo.",
@@ -902,7 +904,8 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "infancia": 1
+   "infancia": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Amplía la prestación por cuidado de hijos enfermos: sin exigir hospitalización, sin límite de edad y a más cuidadores; beneficia a esas familias.",

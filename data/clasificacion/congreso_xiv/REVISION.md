@@ -101,3 +101,13 @@ Clasificadas con la regla «Medidas» de 3.8 por tres lectores independientes (C
 - 122/000315: `{"mujeres":-1}` → `{"mujeres":-1,"secDig":1}` peso 2.
 - 122/000321: `{"empMicro":1,"empPeq":1,"empMed":1,"empGran":1}` peso 2 → `{}` peso 1.
 - [x] 130/000079 y 121/000100 (RDL 6/2022): entre sus 17 medidas falta la bonificación extraordinaria del precio de los carburantes, que el texto recoge (`cons`, como en su prórroga 130/000083 y 121/000115). No cambia el `imp` total (ya lleva `+cons`); falta añadir la medida. — Aplicada (06/11/2026): añadida la medida «Bonificación del precio de los carburantes» `{"cons":1}` peso 2 en las dos (18 medidas). El `imp` de la ley sigue siendo la unión sin signos opuestos y no cambia; peso de la ley 2, el de su medida más pesada.
+
+## `famDisc`: familias con una hija o un hijo con discapacidad (06/11/2026)
+
+Colectivo nuevo (rúbrica 3.6.1). Las 186 leyes candidatas (todas las que llevaban `discapacidad` y las que nombran la discapacidad, la dependencia o la accesibilidad) se leyeron dos veces por separado y una tercera para resolver los desacuerdos (6 de 186). Lecturas en `data/clasificacion/lecturas_famDisc_06-11-2026/`.
+
+- [x] 122/000159, 122/000178, 122/000179 y 122/000180 (ELA): sin `famDisc`. La lectura A los marcaba y la B no. Comprobado con el texto (BOCG-14-B-186-1): solo reconoce el 33 % de discapacidad a quien tiene diagnóstico de ELA; no hay nada para menores ni para la dependencia en general (3.6.1).
+- [x] 130/000002 (RDL 1/2020), 121/000035, 121/000070 y 121/000125 (PGE 2021-2023): nueva medida de la asignación por hijo a cargo con discapacidad (+`famDisc`, peso 1). 130/000002 no tenía medidas: ahora lleva dos.
+- [x] 121/000082 (Ley del Deporte): +`famDisc`. Comprobado con el texto aprobado (Ley 39/2022, BOE): accesibilidad universal de las instalaciones, productos de apoyo durante la práctica, integración de las modalidades para personas con discapacidad y fomento del deporte de «menores con discapacidad en particular».
+- [x] 122/000219 y 122/000246 (disposición adicional 25.ª de la LGSS): +`famDisc`. Comprobado con el texto (BOCG): asimila al 65 % de discapacidad a quien tiene medidas de apoyo, para que las familias no pierdan la asignación por hijo a cargo, que la exposición de motivos cita como el caso principal.
+- [x] 121/000027 (capacidad jurídica): sin `famDisc`; suprime la patria potestad prorrogada y el signo para la familia no consta (3.6.1).

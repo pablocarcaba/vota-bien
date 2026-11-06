@@ -666,7 +666,8 @@
   "id": "124/000006",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Exime del pago de peajes a personas con discapacidad y movilidad reducida.",
@@ -677,7 +678,8 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Asimila la valoración de dependencia al grado mínimo de discapacidad; amplía el reconocimiento a dependientes.",

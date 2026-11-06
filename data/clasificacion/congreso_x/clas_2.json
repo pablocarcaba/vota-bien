@@ -6,7 +6,8 @@
    "discapacidad": 1,
    "lgtbi": 1,
    "minorias": 1,
-   "mujeres": 1
+   "mujeres": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Ley de igualdad de trato y no discriminación por sexo, origen étnico, religión, discapacidad y orientación sexual.",
@@ -121,7 +122,8 @@
   "id": "122/000015",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Facilita obras de accesibilidad en comunidades de viviendas mediante servidumbres de paso; beneficia a personas con discapacidad.",
@@ -937,7 +939,8 @@
    "hipot": 1,
    "monop": 1,
    "pobreza": 1,
-   "secFin": -1
+   "secFin": -1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Suspende por dos años los lanzamientos de deudores hipotecarios vulnerables y limita intereses de demora; protege a esos deudores y carga a la banca.",

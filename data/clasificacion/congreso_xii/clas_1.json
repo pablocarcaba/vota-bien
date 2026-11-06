@@ -168,7 +168,8 @@
    "pen1": 1,
    "pen2": 1,
    "pen3": 1,
-   "secCom": 1
+   "secCom": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Presupuestos 2017: sube un 1 % los sueldos públicos y un 0,25 % las pensiones; baja al 10 % el IVA de espectáculos y monturas.",
@@ -208,6 +209,13 @@
     "imp": {
      "pac": 1,
      "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -319,7 +327,8 @@
    "pen3": 1,
    "prop3": -1,
    "prop4": -1,
-   "secCom": 1
+   "secCom": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza las pensiones, amplía deducciones familiares y la reducción por rendimientos del trabajo, prorroga el Impuesto sobre el Patrimonio y rebaja el IVA del cine.",
@@ -366,6 +375,13 @@
     "imp": {
      "cons": 1,
      "secCom": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -431,7 +447,8 @@
    "pen3": 1,
    "proSeg": 1,
    "prop4": -1,
-   "secFin": -1
+   "secFin": -1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Sube IRPF a rentas altas, Patrimonio y Sociedades a grandes empresas; rebaja Sociedades a micropymes; revaloriza pensiones y retribuciones públicas.",
@@ -503,6 +520,13 @@
      "proSeg": 1
     },
     "peso": 2
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
+    },
+    "peso": 1
    }
   ]
  },

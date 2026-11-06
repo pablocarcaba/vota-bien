@@ -17,9 +17,9 @@ PASOS = [
     ("Tú y tu familia", False, ["edad", "hij", "sexo", "civ", "car"]),
     ("Trabajo e ingresos", False, ["sit", "asal", "fun", "pro", "emp", "sec", "pen", "des", "ayu"]),
     ("Vivienda y ahorros", False, ["donde", "nviv", "alq", "hip", "prop", "rur"]),
-    ("Salud y situación personal", True, ["ori", "soc"]),
+    ("Salud y situación personal", True, ["ori", "soc", "fdi"]),
 ]
-PASO4_PRIVADO = {"lgtbi", "pac", "depend", "discapacidad", "inmigrantes", "minorias", "victimas", "socNo"}
+PASO4_PRIVADO = {"lgtbi", "pac", "depend", "discapacidad", "famDisc", "inmigrantes", "minorias", "victimas", "socNo"}
 # fuera del paso 4, solo «Otro» en sexo (paso 1) no viaja: puede revelar la identidad de género
 PRIVADO_FUERA_DEL_PASO4 = {"sexOtro"}
 PRIVADO = PASO4_PRIVADO | PRIVADO_FUERA_DEL_PASO4

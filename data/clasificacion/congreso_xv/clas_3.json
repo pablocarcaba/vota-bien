@@ -798,7 +798,8 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Prorroga la prestación y el permiso por cuidado de hijos con enfermedad grave en casos de gran discapacidad o dependencia.",
@@ -952,7 +953,8 @@
   "tipo": "soc",
   "imp": {
    "depend": 1,
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 1,
   "nota": "Asimila la valoración de dependencia a la calificación mínima de discapacidad.",

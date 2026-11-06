@@ -1,0 +1,4940 @@
+[
+{
+"clave": "congreso_x",
+"f": "clas_0.json",
+"id": "120/000027",
+"titulo": "Proposición de Ley sobre separación de poderes e independencia del Poder Judicial.",
+"nota": "Norma institucional, procesal o penal sin efecto claro sobre colectivos concretos.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_0.json",
+"id": "120/000031",
+"titulo": "Proposición de Ley de modificación de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, en materia de participación en el coste de las prestaciones y servicios de las personas beneficiarias.",
+"nota": "El título no permite determinar el contenido.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_0.json",
+"id": "121/000007",
+"titulo": "Proyecto de Ley de simplificación de las obligaciones de información y documentación de fusiones y escisiones de sociedades de capital (procedente del Real Decreto-Ley 9/2012, de 16 de marzo).",
+"nota": "Simplifica obligaciones documentales en fusiones y escisiones; norma técnica sin efecto claro sobre colectivos.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_0.json",
+"id": "121/000031",
+"titulo": "Proyecto de Ley de medidas urgentes para reforzar la protección a los deudores hipotecarios (procedente del Real Decreto-Ley 27/2012, de 15 de noviembre).",
+"nota": "Suspende los lanzamientos de la vivienda habitual de familias vulnerables con hipoteca; coste para las entidades financieras.",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"hij3": 1,
+"hipot": 1,
+"infancia": 1,
+"monop": 1,
+"pobreza": 1,
+"secFin": -1,
+"victimas": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_1.json",
+"id": "121/000104",
+"titulo": "Proyecto de Ley de aprobación de medidas urgentes para el crecimiento, la competitividad y la eficiencia (procedente del Real Decreto-Ley 8/2014, de 4 de julio).",
+"nota": "Limita las tasas de intercambio de tarjetas y prohíbe recargos, liberaliza horarios comerciales, alarga concesiones portuarias y suprime el registro obligatorio de empresas cinematográficas.",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"discapacidad": 1,
+"empAut": 1,
+"empGran": -1,
+"hipot": 1,
+"jovenes": 1,
+"proSeg": 1,
+"secCom": 1,
+"secDig": 1,
+"secFin": -1,
+"secInd": -1,
+"secTrans": 1
+},
+"medidas": [
+{
+"d": "Límite a las tasas de intercambio de tarjetas y prohibición de recargos",
+"imp": {
+"cons": 1,
+"secCom": 1,
+"secFin": -1
+},
+"peso": 2
+},
+{
+"d": "Liberalización de horarios y apertura de establecimientos comerciales",
+"imp": {
+"secCom": 1
+},
+"peso": 2
+},
+{
+"d": "Ampliación a 50 años de las concesiones portuarias",
+"imp": {
+"secTrans": 1
+},
+"peso": 2
+},
+{
+"d": "Supresión de la inscripción obligatoria de empresas cinematográficas",
+"imp": {
+"secDig": 1
+},
+"peso": 1
+},
+{
+"d": "Reforma de la retribución de las actividades reguladas del gas",
+"imp": {
+"secInd": -1
+},
+"peso": 2
+},
+{
+"d": "Obligaciones de eficiencia energética para comercializadoras y operadores",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2
+},
+{
+"d": "Sistema Nacional de Garantía Juvenil",
+"imp": {
+"jovenes": 1,
+"discapacidad": 1
+},
+"peso": 2
+},
+{
+"d": "Exención fiscal por dación en pago de la vivienda habitual",
+"imp": {
+"hipot": 1
+},
+"peso": 1
+},
+{
+"d": "Retención reducida para profesionales con bajos rendimientos",
+"imp": {
+"empAut": 1
+},
+"peso": 1
+},
+{
+"d": "Tipo del impuesto sobre los depósitos bancarios",
+"imp": {
+"secFin": -1,
+"empGran": -1
+},
+"peso": 2
+},
+{
+"d": "Oferta adicional de plazas y equivalencia de títulos militares",
+"imp": {
+"proSeg": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_1.json",
+"id": "121/000109",
+"titulo": "Proyecto de Ley por la que se modifican la Ley 35/2006, de 28 de noviembre, del Impuesto sobre la Renta de las Personas Físicas, el texto refundido de la Ley del Impuesto sobre la Renta de No Residentes, aprobado por el Real Decreto Legislativo 5/2004, de 5 de marzo, y otras normas tributarias.",
+"nota": "Reforma del IRPF con reducción generalizada de la carga y mejoras en mínimos familiares y por discapacidad.",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"asal5": 1,
+"asal6": 1,
+"discapacidad": 1,
+"infancia": 1,
+"pen2": 1,
+"pen3": 1
+},
+"medidas": null,
+"peso": 3,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_1.json",
+"id": "121/000129",
+"titulo": "Proyecto de Ley de Auditoría de Cuentas.",
+"nota": "Adapta el régimen de auditoría de cuentas a la normativa europea: acceso, independencia, rotación y supervisión; norma técnica sin colectivo claro.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_2.json",
+"id": "122/000002",
+"titulo": "Proposición de Ley relativa a la igualdad de trato y la no discriminación.",
+"nota": "Ley de igualdad de trato y no discriminación por sexo, origen étnico, religión, discapacidad y orientación sexual.",
+"imp": {
+"discapacidad": 1,
+"lgtbi": 1,
+"minorias": 1,
+"mujeres": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_2.json",
+"id": "122/000015",
+"titulo": "Proposición de Ley sobre la mejora de la accesibilidad en las comunidades de viviendas.",
+"nota": "Facilita obras de accesibilidad en comunidades de viviendas mediante servidumbres de paso; beneficia a personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_2.json",
+"id": "122/000016",
+"titulo": "Proposición de Ley sobre medidas para garantizar la integración de los trabajadores discapacitados en el sector público.",
+"nota": "Garantiza empleo a trabajadores con discapacidad en centros especiales de empleo mediante adjudicación directa de contratos públicos.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_2.json",
+"id": "122/000064",
+"titulo": "Proposición de Ley Orgánica de modificación de la Ley Orgánica 5/1995, de 22 de mayo, del Tribunal del Jurado, para su adaptación a la Convención de Naciones Unidas sobre Derechos Humanos de las personas con discapacidad.",
+"nota": "Adapta la ley del Jurado y prevé apoyos para que personas con discapacidad ejerzan de jurado.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_2.json",
+"id": "122/000069",
+"titulo": "Proposición de Ley sobre la universalización del derecho a la asistencia sanitaria pública a las personas con nacionalidad española y residencia en el territorio nacional.",
+"nota": "Universaliza la gratuidad de la asistencia sanitaria pública para españoles residentes, con independencia de la Seguridad Social.",
+"imp": {
+"ciud": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_2.json",
+"id": "122/000079",
+"titulo": "Proposición de Ley Orgánica de reforma de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, para facilitar el ejercicio del voto de los españoles en el exterior.",
+"nota": "Envío de oficio de la documentación de voto a los residentes en el exterior; reforma electoral sin efecto sobre colectivos marcados.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_2.json",
+"id": "122/000101",
+"titulo": "Proposición de Ley de medidas para reforzar la protección a los deudores hipotecarios, reestructuración de deuda y alquiler social.",
+"nota": "Suspende por dos años los lanzamientos de deudores hipotecarios vulnerables y limita intereses de demora; protege a esos deudores y carga a la banca.",
+"imp": {
+"discapacidad": 1,
+"hij3": 1,
+"hipot": 1,
+"monop": 1,
+"pobreza": 1,
+"secFin": -1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_3.json",
+"id": "122/000103",
+"titulo": "Proposición de Ley sobre mejora de la protección de ingresos mínimos y ayudas sociales.",
+"nota": "Sube el mínimo inembargable de salarios y pensiones y declara inembargables subsidio de desempleo, rentas mínimas, prestaciones de dependencia y becas.",
+"imp": {
+"asal1": 1,
+"depend": 1,
+"desSub": 1,
+"estud": 1,
+"pen1": 1,
+"pobreza": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_3.json",
+"id": "122/000124",
+"titulo": "Proposición de Ley para mejorar la compatibilidad de las pensiones de invalidez no contributivas con el trabajo remunerado.",
+"nota": "Amplía la compatibilidad de la pensión de invalidez no contributiva con el trabajo remunerado.",
+"imp": {
+"discapacidad": 1,
+"pen1": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_3.json",
+"id": "122/000130",
+"titulo": "Proposición de Ley sobre medidas para garantizar la igualdad y no discriminación en el acceso a la nacionalidad por residencia a las personas con discapacidad.",
+"nota": "Garantiza la igualdad de las personas con discapacidad en el acceso a la nacionalidad por residencia.",
+"imp": {
+"discapacidad": 1,
+"inmigrantes": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_3.json",
+"id": "122/000171",
+"titulo": "Proposición de Ley por la que se extiende el subsidio por desempleo a las personas en situación de desempleo de larga duración que carezcan de ingresos y tengan responsabilidades familiares, así como a otros colectivos con dificultades específicas de inserción.",
+"nota": "Extiende el subsidio por desempleo a parados de larga duración, mayores de 45, personas con discapacidad y mujeres víctimas de violencia.",
+"imp": {
+"adultos": 1,
+"desSub": 1,
+"discapacidad": 1,
+"mujeres": 1,
+"victimas": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_3.json",
+"id": "122/000172",
+"titulo": "Proposición de Ley sobre modificación de la Ley 17/2006, de 5 de junio, de la radio y la televisión de titularidad estatal, para recuperar la independencia de la Corporación RTVE y el pluralismo en la elección parlamentaria de sus órganos.",
+"nota": "Reforma la ley de RTVE para su independencia y pluralismo; norma institucional.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_3.json",
+"id": "122/000179",
+"titulo": "Proposición de Ley sobre la reforma de la Ley del Estatuto de los Trabajadores, del Estatuto Básico del empleado público y de la Ley General de la Seguridad Social para facilitar la conciliación de la vida laboral y familiar en los supuestos de familiar afectado por cáncer o por cualquier otra enfermedad grave.",
+"nota": "Amplía la reducción de jornada con prestación para cuidar a menores o familiares con cáncer u otra enfermedad grave.",
+"imp": {
+"depend": 1,
+"infancia": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_3.json",
+"id": "122/000195",
+"titulo": "Proposición de Ley Orgánica para reforzar la protección de las menores y mujeres con capacidad modificada judicialmente en la interrupción voluntaria del embarazo.",
+"nota": "Exige el consentimiento de representantes legales para abortar a menores y a personas con capacidad modificada judicialmente; restringe su autonomía.",
+"imp": {
+"discapacidad": -1,
+"jovenes": -1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_3.json",
+"id": "122/000199",
+"titulo": "Proposición de Ley sobre atribución competencial a la jurisdicción social en materia de atención a las personas en situación de dependencia.",
+"nota": "Norma procesal que atribuye a la jurisdicción social los litigios de dependencia; sin efecto directo que pase la prueba.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_4.json",
+"id": "122/000211",
+"titulo": "Proposición de Ley de modificación de la Ley Orgánica 5/1985, de 19 de junio, del Régimen Electoral General, para garantizar el voto secreto a las personas ciegas en las elecciones municipales (Orgánica).",
+"nota": "Garantiza el voto secreto de las personas ciegas en las elecciones municipales; beneficia a personas con discapacidad visual.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_4.json",
+"id": "130/000010",
+"titulo": "Real Decreto-Ley 9/2012, de 16 de marzo, de simplificación de las obligaciones de información y documentación de fusiones y escisiones de sociedades de capital.",
+"nota": "Simplifica obligaciones de información en fusiones y escisiones de sociedades; sin distinguir tamaños ni sectores.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_4.json",
+"id": "130/000021",
+"titulo": "Real Decreto-Ley 20/2012, de 13 de julio, de medidas para garantizar la estabilidad presupuestaria y de fomento de la competitividad.",
+"nota": "Recorta salarios y permisos públicos, prestaciones por desempleo y dependencia; sube el IVA; endurece Sociedades a grandes empresas; liberaliza horarios comerciales.",
+"imp": {
+"adultos": -1,
+"ciud": -1,
+"cons": -1,
+"depend": -1,
+"desPres": -1,
+"desSub": -1,
+"empGran": -1,
+"funA1": -1,
+"funA2": -1,
+"funB": -1,
+"funC1": -1,
+"funC2E": -1,
+"hipot": -1,
+"inq": -1,
+"jovenes": -1,
+"proDoc": -1,
+"proSan": -1,
+"proSeg": -1,
+"secInd": -1,
+"secTrans": -1,
+"viv1": -1
+},
+"medidas": [
+{
+"d": "Supresión de la paga extra y recortes de permisos públicos",
+"imp": {
+"funA1": -1,
+"funA2": -1,
+"funB": -1,
+"funC1": -1,
+"funC2E": -1,
+"proSeg": -1,
+"proSan": -1,
+"proDoc": -1
+},
+"peso": 2
+},
+{
+"d": "Prestación contributiva por desempleo al 50 % desde el séptimo mes",
+"imp": {
+"desPres": -1
+},
+"peso": 2
+},
+{
+"d": "Endurecimiento de subsidios por desempleo para mayores de 45 y 52",
+"imp": {
+"desSub": -1,
+"adultos": -1
+},
+"peso": 2
+},
+{
+"d": "Rebaja de prestaciones por cuidados familiares y financiación de la dependencia",
+"imp": {
+"depend": -1
+},
+"peso": 2
+},
+{
+"d": "Subida del IVA general y reducido",
+"imp": {
+"ciud": -1
+},
+"peso": 2
+},
+{
+"d": "Paso al IVA general de peluquería, espectáculos y otros servicios",
+"imp": {
+"cons": -1,
+"secCom": -1
+},
+"peso": 1
+},
+{
+"d": "Endurecimiento del Impuesto sobre Sociedades para grandes empresas",
+"imp": {
+"empGran": -1
+},
+"peso": 2
+},
+{
+"d": "Supresión de la compensación fiscal por compra de vivienda anterior a 2006",
+"imp": {
+"hipot": -1,
+"viv1": -1
+},
+"peso": 1
+},
+{
+"d": "Liberalización de horarios comerciales y promociones de ventas",
+"imp": {
+"secCom": 1
+},
+"peso": 2
+},
+{
+"d": "Fin de subsidiación de préstamos y recorte de la renta de emancipación",
+"imp": {
+"hipot": -1,
+"jovenes": -1,
+"inq": -1
+},
+"peso": 2
+},
+{
+"d": "Supresión de la compensación a concesionarias de autopistas",
+"imp": {
+"secTrans": -1
+},
+"peso": 1
+},
+{
+"d": "Menor retribución del transporte eléctrico y generación extrapeninsular",
+"imp": {
+"secInd": -1
+},
+"peso": 2
+}
+],
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_4.json",
+"id": "130/000030",
+"titulo": "Real Decreto-Ley 29/2012, de 28 de diciembre, de mejora de gestión y protección social en el Sistema Especial para Empleados de Hogar y otras medidas de carácter económico y social.",
+"nota": "Aplica la revalorización de pensiones de 2013, amplía la orfandad de huérfanos con discapacidad y congela el precio del butano.",
+"imp": {
+"cons": 1,
+"discapacidad": 1,
+"mayores": 1,
+"pen1": 1,
+"pen2": 1,
+"pen3": 1
+},
+"medidas": [
+{
+"d": "Revalorización de pensiones de 2013, mayor para las bajas",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"mayores": 1
+},
+"peso": 3
+},
+{
+"d": "Límite de edad de orfandad para huérfanos con discapacidad",
+"imp": {
+"discapacidad": 1
+},
+"peso": 1
+},
+{
+"d": "Congelación del precio máximo del butano",
+"imp": {
+"cons": 1
+},
+"peso": 1
+}
+],
+"peso": 3,
+"tag": true
+},
+{
+"clave": "congreso_x",
+"f": "clas_4.json",
+"id": "130/000046",
+"titulo": "Real Decreto-Ley 16/2013, de 20 de diciembre, de medidas para favorecer la contratación estable y mejorar la empleabilidad de los trabajadores.",
+"nota": "Permite el contrato de emprendedores a tiempo parcial, amplía la reducción de jornada por hijos hasta doce años y sube la cotización de algunos autónomos.",
+"imp": {
+"empAut": -1,
+"empMicro": 1,
+"empPeq": 1,
+"infancia": 1
+},
+"medidas": [
+{
+"d": "Contrato indefinido de apoyo a emprendedores a tiempo parcial",
+"imp": {
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1
+},
+{
+"d": "Reducción de jornada por cuidado de hijos hasta 12 años",
+"imp": {
+"infancia": 1
+},
+"peso": 1
+},
+{
+"d": "Base mínima de cotización mayor para autónomos con diez empleados",
+"imp": {
+"empAut": -1
+},
+"peso": 1
+}
+],
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_x",
+"f": "clas_4.json",
+"id": "130/000055",
+"titulo": "Real Decreto-Ley 8/2014, de 4 de julio, de aprobación de medidas urgentes para el crecimiento, la competitividad y la eficiencia.",
+"nota": "Limita las tasas de intercambio de tarjetas y prohíbe recargos, liberaliza horarios comerciales, alarga concesiones portuarias y suprime el registro obligatorio de empresas cinematográficas.",
+"imp": {
+"ciud": 1,
+"cons": 1,
+"discapacidad": 1,
+"empAut": 1,
+"empGran": -1,
+"hipot": 1,
+"jovenes": 1,
+"proSeg": 1,
+"secCom": 1,
+"secDig": 1,
+"secFin": -1,
+"secInd": -1,
+"secTrans": 1
+},
+"medidas": [
+{
+"d": "Límite a las tasas de intercambio de tarjetas y prohibición de recargos",
+"imp": {
+"cons": 1,
+"secCom": 1,
+"secFin": -1
+},
+"peso": 2
+},
+{
+"d": "Liberalización de horarios y apertura de establecimientos comerciales",
+"imp": {
+"secCom": 1
+},
+"peso": 2
+},
+{
+"d": "Ampliación a 50 años de las concesiones portuarias",
+"imp": {
+"secTrans": 1
+},
+"peso": 2
+},
+{
+"d": "Supresión de la inscripción obligatoria de empresas cinematográficas",
+"imp": {
+"secDig": 1
+},
+"peso": 1
+},
+{
+"d": "Reforma de la retribución de las actividades reguladas del gas",
+"imp": {
+"secInd": -1
+},
+"peso": 2
+},
+{
+"d": "Obligaciones de eficiencia energética para comercializadoras y operadores",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 2
+},
+{
+"d": "Sistema Nacional de Garantía Juvenil",
+"imp": {
+"jovenes": 1,
+"discapacidad": 1
+},
+"peso": 2
+},
+{
+"d": "Exención fiscal por dación en pago de la vivienda habitual",
+"imp": {
+"hipot": 1
+},
+"peso": 1
+},
+{
+"d": "Retención reducida para profesionales con bajos rendimientos",
+"imp": {
+"empAut": 1
+},
+"peso": 1
+},
+{
+"d": "Tipo del impuesto sobre los depósitos bancarios",
+"imp": {
+"secFin": -1,
+"empGran": -1
+},
+"peso": 2
+},
+{
+"d": "Oferta adicional de plazas y equivalencia de títulos militares",
+"imp": {
+"proSeg": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xi",
+"f": "clas_0.json",
+"id": "120/000001",
+"titulo": "Proposición de Ley de modificación de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, en materia de participación en el coste de las prestaciones y servicios de las personas beneficiarias (corresponde al número de expediente 120/000031/0000 de la X Legislatura).",
+"nota": "Corrige la participación en el coste de la dependencia: exención bajo cierto umbral y garantías para personas dependientes, con discapacidad y mayores.",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"mayores": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xi",
+"f": "clas_0.json",
+"id": "122/000004",
+"titulo": "Proposición de Ley sobre modificación de la Ley 17/2006, de 5 de junio, de la radio y la televisión de titularidad estatal, para recuperar la independencia de la Corporación RTVE y el pluralismo en la elección parlamentaria de sus órganos.",
+"nota": "Cambia la elección parlamentaria de los órganos de la radiotelevisión estatal; reforma institucional.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xi",
+"f": "clas_0.json",
+"id": "122/000031",
+"titulo": "Proposición de Ley Orgánica de modificación de la Ley Orgánica del Tribunal del Jurado para garantizar la participación de las personas con discapacidad sin exclusiones.",
+"nota": "Elimina la exclusión de las personas con discapacidad como jurado y prevé apoyos para su participación.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_0.json",
+"id": "121/000033",
+"titulo": "Proyecto de Ley por la que se modifica el Texto refundido de la Ley del Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados, aprobado por el Real Decreto Legislativo 1/1993, de 24 de septiembre (procedente del Real Decreto-ley 17/2018, de 8 de noviembre).",
+"nota": "Traslada al prestamista el pago del impuesto de actos jurídicos documentados en las hipotecas; beneficia a los hipotecados y grava a las entidades financieras.",
+"imp": {
+"hipot": 1,
+"secFin": -1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_0.json",
+"id": "130/000044",
+"titulo": "Real Decreto-ley 17/2018, de 8 de noviembre, por el que se modifica el Texto refundido de la Ley del Impuesto de Transmisiones Patrimoniales y Actos Jurídicos Documentados, aprobado por el Real Decreto Legislativo 1/1993, de 24 de septiembre.",
+"nota": "Traslada al prestamista el pago del impuesto de actos jurídicos documentados en las hipotecas; beneficia a los hipotecados y grava a las entidades financieras.",
+"imp": {
+"hipot": 1,
+"secFin": -1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_0.json",
+"id": "121/000021",
+"titulo": "Proyecto de Ley por la que se modifica el texto refundido de la Ley de Propiedad Intelectual, aprobado por el Real Decreto Legislativo 1/1996, de 12 de abril, y por el que se incorporan al ordenamiento jurídico español la Directiva 2014/26/UE del Parlamento Europeo y del Consejo, de 26 de febrero de 2014, y la Directiva (UE) 2017/1564 del Parlamento Europeo y del Consejo, de 13 de septiembre de 20",
+"nota": "Transpone directivas sobre gestión colectiva de derechos y sobre acceso a obras en formatos accesibles para personas con discapacidad visual.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_0.json",
+"id": "130/000029",
+"titulo": "Real Decreto-ley 2/2018, de 13 de abril, por el que se modifica el texto refundido de la Ley de Propiedad Intelectual, aprobado por el Real Decreto Legislativo 1/1996, de 12 de abril, y por el que se incorporan al ordenamiento jurídico español la Directiva 2014/26/UE del Parlamento Europeo y del Consejo, de 26 de febrero de 2014, y la Directiva (UE) 2017/1564 del Parlamento Europeo y del Consejo, ",
+"nota": "Transpone directivas sobre gestión colectiva de derechos y sobre acceso a obras en formatos accesibles para personas con discapacidad visual.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_0.json",
+"id": "130/000048",
+"titulo": "Real Decreto-ley 21/2018, de 14 de diciembre, de medidas urgentes en materia de vivienda y alquiler.",
+"nota": "Amplía la duración de los alquileres y limita garantías, suspende desahucios de hogares vulnerables, impulsa obras de accesibilidad y exime de ITP ciertos arrendamientos.",
+"imp": {
+"casero": -1,
+"discapacidad": 1,
+"inq": 1,
+"pobreza": 1,
+"secCons": -1
+},
+"medidas": [
+{
+"d": "Prórroga obligatoria de alquileres a 5-7 años y límite de garantías",
+"imp": {
+"inq": 1,
+"casero": -1,
+"secCons": -1
+},
+"peso": 2
+},
+{
+"d": "Suspensión del desahucio de hogares vulnerables",
+"imp": {
+"inq": 1,
+"pobreza": 1,
+"casero": -1
+},
+"peso": 1
+},
+{
+"d": "Obras obligatorias de accesibilidad en comunidades de propietarios",
+"imp": {
+"discapacidad": 1
+},
+"peso": 1
+},
+{
+"d": "Exención del ITP en arrendamientos de vivienda",
+"imp": {
+"inq": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_0.json",
+"id": "122/000310",
+"titulo": "Proposición de Ley relativa a la inclusión de un nuevo apartado al artículo 109 del Real Decreto-ley 8/2014, de 4 de julio, con la finalidad de fomentar la Formación Profesional Dual, del Sistema de Formación Profesional para el Empleo, para los jóvenes y para las personas con discapacidad beneficiarias del Sistema Nacional de Garantía Juvenil.",
+"nota": "Aumenta las bonificaciones a empresas por la formación en contratos de aprendizaje de jóvenes de Garantía Juvenil y personas con discapacidad.",
+"imp": {
+"discapacidad": 1,
+"jovenes": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_0.json",
+"id": "130/000063",
+"titulo": "Real Decreto-ley 8/2019, de 8 de marzo, de medidas urgentes de protección social y de lucha contra la precariedad laboral en la jornada de trabajo.",
+"nota": "Amplía el subsidio de mayores de 52, sube prestación por hijo y pensión mínima de incapacidad, bonifica contratos agrarios y turísticos, impone registro de jornada.",
+"imp": {
+"adultos": 1,
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"depend": 1,
+"desSub": 1,
+"discapacidad": 1,
+"empGran": -1,
+"empMed": -1,
+"empMicro": -1,
+"empPeq": -1,
+"infancia": 1,
+"inmigrantes": 1,
+"jovenes": 1,
+"pen1": 1,
+"pobreza": 1,
+"secCom": 1,
+"secPrim": 1
+},
+"medidas": [
+{
+"d": "Subsidio por desempleo desde los 52 años, sin rentas familiares",
+"imp": {
+"desSub": 1,
+"adultos": 1
+},
+"peso": 2
+},
+{
+"d": "Subida de la prestación por hijo a cargo",
+"imp": {
+"infancia": 1,
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Subida de la pensión mínima de incapacidad permanente total",
+"imp": {
+"pen1": 1,
+"discapacidad": 1
+},
+"peso": 1
+},
+{
+"d": "Bonificación por convertir en indefinidos contratos agrarios",
+"imp": {
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Bonificación a fijos discontinuos en turismo, comercio y hostelería",
+"imp": {
+"secCom": 1
+},
+"peso": 1
+},
+{
+"d": "Registro obligatorio de la jornada",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 2
+},
+{
+"d": "Registro diario obligatorio de la jornada",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1,
+"empMed": -1,
+"empGran": -1
+},
+"peso": 2
+},
+{
+"d": "Dotación del Fondo para la Integración de los Inmigrantes",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1
+},
+{
+"d": "Garantía Juvenil ampliada hasta los 30 años",
+"imp": {
+"jovenes": 1
+},
+"peso": 1
+},
+{
+"d": "Estado paga el convenio de cuidadores no profesionales",
+"imp": {
+"depend": 1
+},
+"peso": 1
+},
+{
+"d": "Cuotas de autónomos en baja pagadas por cese de actividad",
+"imp": {
+"empAut": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_0.json",
+"id": "120/000001",
+"titulo": "Proposición de Ley de modificación de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, en materia de participación en el coste de las prestaciones y servicios de las personas beneficiarias (corresponde a los números de expediente 120/000031/0000 de la X Legislatura y 120/000001/0000 de la XI Legislatura).",
+"nota": "Modifica la ley de dependencia para reforzar derechos y atención de las personas en situación de dependencia.",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"mayores": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_1.json",
+"id": "121/000020",
+"titulo": "Proyecto de Ley de Presupuestos Generales del Estado para el año 2018.",
+"nota": "Revaloriza las pensiones, amplía deducciones familiares y la reducción por rendimientos del trabajo, prorroga el Impuesto sobre el Patrimonio y rebaja el IVA del cine.",
+"imp": {
+"asal1": 1,
+"cons": 1,
+"discapacidad": 1,
+"hij3": 1,
+"infancia": 1,
+"mayores": 1,
+"mujeres": 1,
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"prop3": -1,
+"prop4": -1,
+"secCom": 1
+},
+"medidas": [
+{
+"d": "Revalorización de las pensiones",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"mayores": 1
+},
+"peso": 3
+},
+{
+"d": "Mayor reducción por rendimientos del trabajo para rentas bajas",
+"imp": {
+"asal1": 1,
+"pen2": 1
+},
+"peso": 2
+},
+{
+"d": "Ampliación de deducciones por maternidad, familia numerosa y discapacidad",
+"imp": {
+"mujeres": 1,
+"infancia": 1,
+"hij3": 1,
+"discapacidad": 1
+},
+"peso": 2
+},
+{
+"d": "Prórroga del Impuesto sobre el Patrimonio en 2018",
+"imp": {
+"prop3": -1,
+"prop4": -1
+},
+"peso": 2
+},
+{
+"d": "IVA de la entrada al cine del 21 al 10 %",
+"imp": {
+"cons": 1,
+"secCom": 1
+},
+"peso": 1
+}
+],
+"peso": 3,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_1.json",
+"id": "122/000004",
+"titulo": "Proposición de Ley por la que se modifica la Ley 17/2006, de 5 de junio, de la radio y la televisión de titularidad estatal, para recuperar la independencia de la Corporación RTVE y el pluralismo en la elección parlamentaria de sus órganos.",
+"nota": "Cambia la elección parlamentaria de los órganos de RTVE; norma de organización institucional.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_1.json",
+"id": "122/000032",
+"titulo": "Proposición de Ley Orgánica de modificación de la Ley Orgánica 5/1995, de 22 de mayo, del Tribunal del Jurado, para garantizar la participación de las personas con discapacidad sin exclusiones.",
+"nota": "Permite a las personas con discapacidad ser jurado y prevé adaptaciones y apoyos; beneficia a las personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_1.json",
+"id": "122/000053",
+"titulo": "Proposición de Ley para garantizar la independencia de los nombramientos en los organismos reguladores.",
+"nota": "Exige comparecencia previa en el Congreso de los candidatos a organismos reguladores; norma institucional.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_1.json",
+"id": "122/000056",
+"titulo": "Proposición de Ley relativa a la reforma del sistema de permisos y prestaciones para el cuidado y atención de menores por parte de sus progenitores, en casos de nacimiento, adopción, guarda con fines de adopción o acogimiento.",
+"nota": "Amplía los permisos y prestaciones de nacimiento y cuidado de menores para ambos progenitores.",
+"imp": {
+"hombres": 1,
+"infancia": 1,
+"mujeres": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_1.json",
+"id": "122/000057",
+"titulo": "Proposición de Ley de adecuación de la regulación del derecho a contraer matrimonio a la Convención sobre los derechos de las personas con discapacidad de la ONU.",
+"nota": "Adapta la regulación del matrimonio a la Convención de la ONU sobre discapacidad, reconociendo la capacidad jurídica de estas personas.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_1.json",
+"id": "122/000059",
+"titulo": "Proposición de Ley de modificación de la Ley 15/2015, de 2 de julio, de Jurisdicción Voluntaria.",
+"nota": "Prevé apoyos para que las personas con discapacidad presten consentimiento matrimonial en la jurisdicción voluntaria.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_2.json",
+"id": "122/000068",
+"titulo": "Proposición de Ley Orgánica de modificación del artículo 3 de la Ley Orgánica 5/1985, de 19 de julio, del Régimen Electoral General, sobre el derecho de sufragio de las personas incapacitadas o internadas judicialmente.",
+"nota": "Reconoce el derecho de sufragio de las personas con discapacidad incapacitadas o internadas; beneficia a las personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_2.json",
+"id": "122/000077",
+"titulo": "Proposición de Ley Integral para la igualdad de trato y la no discriminación.",
+"nota": "Ley integral de igualdad de trato frente a la discriminación por sexo, origen racial o étnico, religión, discapacidad y orientación sexual.",
+"imp": {
+"discapacidad": 1,
+"lgtbi": 1,
+"minorias": 1,
+"mujeres": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_2.json",
+"id": "122/000080",
+"titulo": "Proposición de Ley sobre atribución competencial a la jurisdicción social en materia de atención a las personas en situación de dependencia.",
+"nota": "Atribuye a la jurisdicción social la competencia procesal sobre dependencia; norma procesal.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_2.json",
+"id": "122/000100",
+"titulo": "Proposición de Ley para la reforma de la Ley 7/1985, de 2 de abril, Reguladora de las Bases del Régimen Local, para permitir el voto telemático de los concejales en Ayuntamientos y Diputaciones Provinciales, en supuestos de baja por maternidad, paternidad, embarazo y enfermedad graves.",
+"nota": "Voto telemático de concejales en baja; norma de funcionamiento institucional sin efecto en un colectivo marcado.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_2.json",
+"id": "122/000124",
+"titulo": "Proposición de Ley sobre modificación de la regulación de la unidad de convivencia en determinadas situaciones, a efectos del acceso y mantenimiento en el percibo de las pensiones de la Seguridad Social en su modalidad no contributiva.",
+"nota": "Evita que la unidad de convivencia excluya a beneficiarios de pensiones no contributivas de jubilación e invalidez.",
+"imp": {
+"discapacidad": 1,
+"mayores": 1,
+"pen1": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_2.json",
+"id": "122/000151",
+"titulo": "Proposición de Ley para modificar el artículo 348 bis de la Ley de Sociedades de Capital.",
+"nota": "Modifica el derecho de separación del socio por falta de reparto de dividendos; ganadores y perdedores dependen de la posición del socio.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_2.json",
+"id": "122/000154",
+"titulo": "Proposición de Ley relativa a la creación de un Fondo Estatal para la consecución efectiva y real de la Accesibilidad Universal.",
+"nota": "Crea un fondo estatal para financiar la accesibilidad universal de las personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_2.json",
+"id": "122/000158",
+"titulo": "Proposición de Ley por la que se crea el fondo de accesibilidad universal.",
+"nota": "Crea un fondo para financiar la accesibilidad universal de las personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_3.json",
+"id": "122/000185",
+"titulo": "Proposición de Ley de modificación de la disposición transitoria tercera de la Ley 5/2017, de 29 de septiembre, por la que se modifica la Ley 17/2006, de 5 de junio, de la radio y la televisión de titularidad estatal, para recuperar la independencia de la Corporación RTVE y el pluralismo en la elección parlamentaria de sus órganos.",
+"nota": "Norma institucional sobre la elección de los órganos de la Corporación RTVE; sin efecto sobre colectivos.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_3.json",
+"id": "122/000189",
+"titulo": "Proposición de Ley para adaptar la Ley 49/1960, de 21 de julio, de Propiedad Horizontal a la Convención sobre los derechos de las personas con discapacidad de la ONU.",
+"nota": "La comunidad de propietarios asume íntegramente las obras de accesibilidad; beneficia a personas con discapacidad y mayores.",
+"imp": {
+"discapacidad": 1,
+"mayores": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_3.json",
+"id": "122/000214",
+"titulo": "Proposición de Ley por la que se modifica la Ley 49/1960, de 21 de julio, sobre propiedad horizontal.",
+"nota": "Elimina el límite económico de las obras de accesibilidad y rebaja la mayoría exigida; beneficia a personas con discapacidad y mayores.",
+"imp": {
+"discapacidad": 1,
+"mayores": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_3.json",
+"id": "122/000230",
+"titulo": "Proposición de Ley relativa a la creación de un Fondo Estatal para la consecución efectiva y real de la Accesibilidad Universal.",
+"nota": "Crea un fondo estatal para financiar la accesibilidad universal de personas con discapacidad y dependientes.",
+"imp": {
+"depend": 1,
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_3.json",
+"id": "122/000259",
+"titulo": "Proposición de Ley para garantizar la despolitización del Centro de Investigaciones Sociológicas.",
+"nota": "Norma institucional sobre la independencia del Centro de Investigaciones Sociológicas; sin efecto sobre colectivos.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_3.json",
+"id": "122/000260",
+"titulo": "Proposición de Ley Orgánica de modificación de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para el refuerzo de la independencia judicial.",
+"nota": "Norma institucional sobre la elección de vocales del Consejo General del Poder Judicial; sin efecto sobre colectivos.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_4.json",
+"id": "122/000302",
+"titulo": "Proposición de Ley por la que se modifica el apartado segundo del artículo 31 del Real Decreto Legislativo 1/1993, de 24 de septiembre, por el que se aprueba el Texto refundido de la Ley del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados.",
+"nota": "Fija en cero la cuota variable del AJD en hipotecas para primera vivienda; reduce el coste de hipotecarse al comprar.",
+"imp": {
+"hipot": 1,
+"viv0": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_4.json",
+"id": "122/000313",
+"titulo": "Proposición de Ley para la erradicación de la esterilización forzosa o no consentida a personas con discapacidad incapacitadas judicialmente (Orgánica).",
+"nota": "Prohíbe la esterilización forzosa o no consentida de personas con discapacidad incapacitadas judicialmente.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_4.json",
+"id": "124/000001",
+"titulo": "Proposición de Ley Orgánica de modificación de la Ley Orgánica 5/1995, de 22 de mayo, del Tribunal del Jurado, para garantizar la participación de las personas con discapacidad sin exclusiones.",
+"nota": "Garantiza la participación de personas con discapacidad en el jurado sin exclusiones.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_4.json",
+"id": "124/000006",
+"titulo": "Proposición de Ley de modificación de la Ley 37/2015, de 29 de septiembre, de carreteras, para eximir del pago de peajes a personas con movilidad reducida que las utilicen para sus desplazamientos.",
+"nota": "Exime del pago de peajes a personas con discapacidad y movilidad reducida.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_4.json",
+"id": "124/000007",
+"titulo": "Proposición de Ley de modificación del Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, para la asimilación legal de la valoración de las situaciones de dependencia con la calificación mínima del grado de discapacidad.",
+"nota": "Asimila la valoración de dependencia al grado mínimo de discapacidad; amplía el reconocimiento a dependientes.",
+"imp": {
+"depend": 1,
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xii",
+"f": "clas_4.json",
+"id": "124/000011",
+"titulo": "Proposición de Ley por la que se modifica la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, para aplicar el tipo impositivo del IVA del 4% a la prestación de todos los servicios de atención a la dependencia, no exentos.",
+"nota": "Aplica el IVA del 4 % a los servicios de atención a la dependencia; beneficia a usuarios y prestadores.",
+"imp": {
+"depend": 1,
+"secSoc": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xii",
+"f": "clas_4.json",
+"id": "125/000016",
+"titulo": "Proposición de Ley Orgánica para la modificación de la Ley Orgánica 5/1985, de 19 de junio, de Régimen Electoral General para garantizar el derecho de sufragio de todas las personas con discapacidad.",
+"nota": "Reconoce el derecho de sufragio a todas las personas con discapacidad, suprimiendo la privación del voto por incapacidad judicial o internamiento.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiii",
+"f": "clas_0.json",
+"id": "122/000004",
+"titulo": "Proposición de Ley relativa a la inclusión de un nuevo apartado al artículo 109 del Real Decreto-ley 8/2014, de 4 de julio, con la finalidad de fomentar la Formación Profesional Dual, del Sistema de Formación Profesional para el Empleo, para los jóvenes y para las personas con discapacidad beneficiarias del Sistema Nacional de Garantía Juvenil.",
+"nota": "Eleva bonificaciones formativas del contrato de aprendizaje para jóvenes y personas con discapacidad de Garantía Juvenil.",
+"imp": {
+"discapacidad": 1,
+"jovenes": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiii",
+"f": "clas_0.json",
+"id": "120/000001",
+"titulo": "Proposición de Ley de modificación de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, en materia de participación en el coste de las prestaciones y servicios de las personas beneficiarias (corresponde a los números de expediente 120/000031/0000 de la X Legislatura, 120/000001/0000 de la XI Legislatura y 120/000001/000",
+"nota": "Reduce la participación en el coste de las prestaciones de dependencia, con garantías y exenciones para mayores y personas con discapacidad.",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"mayores": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiii",
+"f": "clas_0.json",
+"id": "122/000013",
+"titulo": "Proposición de Ley por la que se modifica el apartado segundo del artículo 31 del Real Decreto Legislativo 1/1993, de 24 de septiembre, por el que se aprueba el Texto refundido de la Ley del Impuesto sobre Transmisiones Patrimoniales y Actos Jurídicos Documentados.",
+"nota": "Pone a cero la cuota variable de AJD en hipotecas para primera vivienda; el impuesto lo paga la entidad prestamista.",
+"imp": {
+"secFin": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xiii",
+"f": "clas_0.json",
+"id": "122/000026",
+"titulo": "Proposición de Ley relativa a la creación de un Fondo Estatal para la consecución efectiva y real de la Accesibilidad Universal.",
+"nota": "Crea un fondo estatal para la accesibilidad universal de personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiii",
+"f": "clas_0.json",
+"id": "122/000036",
+"titulo": "Proposición de Ley integral para la igualdad de trato y la no discriminación.",
+"nota": "Prohíbe la discriminación por sexo, orientación sexual, discapacidad, origen étnico y religión.",
+"imp": {
+"discapacidad": 1,
+"lgtbi": 1,
+"minorias": 1,
+"mujeres": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "121/000141",
+"titulo": "Proyecto de Ley de medidas urgentes en materia de incentivos a la contratación laboral y mejora de la protección social de las personas artistas (procedente del Real Decreto-ley 1/2023, de 10 de enero).",
+"nota": "Incentivos a la contratación laboral, con bonificaciones para colectivos como personas con discapacidad o víctimas, y mejora de la protección social de artistas.",
+"imp": {
+"discapacidad": 1,
+"victimas": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "130/000093",
+"titulo": "Real Decreto-ley 1/2023, de 10 de enero, de medidas urgentes en materia de incentivos a la contratación laboral y mejora de la protección social de las personas artistas.",
+"nota": "Incentivos a la contratación laboral, con bonificaciones para colectivos como personas con discapacidad o víctimas, y mejora de la protección social de artistas.",
+"imp": {
+"discapacidad": 1,
+"victimas": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "121/000115",
+"titulo": "Proyecto de Ley por la que se adoptan y se prorrogan determinadas medidas para responder a las consecuencias económicas y sociales de la guerra en Ucrania, para hacer frente a situaciones de vulnerabilidad social y económica, y para la recuperación económica y social de la isla de La Palma (procedente del Real Decreto-ley 11/2022, de 25 de junio).",
+"nota": "Prorroga rebajas energéticas y de carburantes, transporte, IMV y no contributivas +15 %, tope al alquiler, desahucios, ayuda de 200 € y La Palma.",
+"imp": {
+"casero": -1,
+"cons": 1,
+"discapacidad": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"inq": 1,
+"mayores": 1,
+"pen1": 1,
+"pobreza": 1,
+"secPrim": 1,
+"secTrans": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Bonificación del precio de los carburantes",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Prestación patrimonial a los operadores mayoristas de productos petrolíferos",
+"imp": {
+"secInd": -1
+},
+"peso": 1
+},
+{
+"d": "Incremento del 15 % del Ingreso Mínimo Vital",
+"imp": {
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Incremento del 15 % de las pensiones no contributivas",
+"imp": {
+"pen1": 1,
+"mayores": 1,
+"discapacidad": 1
+},
+"peso": 2
+},
+{
+"d": "Límite a la actualización de la renta del alquiler",
+"imp": {
+"inq": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Rebaja del IVA y del impuesto especial de la electricidad",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Suspensión del impuesto sobre la producción eléctrica",
+"imp": {
+"secInd": 1
+},
+"peso": 2
+},
+{
+"d": "Minoración de la retribución de las eléctricas no emisoras",
+"imp": {
+"secInd": -1
+},
+"peso": 2
+},
+{
+"d": "Bono social y garantía de suministros a consumidores vulnerables",
+"imp": {
+"pobreza": 1,
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Contención de la tarifa del gas y del butano",
+"imp": {
+"cons": 1
+},
+"peso": 1
+},
+{
+"d": "Descuento del 30 % en abonos de transporte público",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Ayudas y flexibilización del gas para la industria",
+"imp": {
+"secInd": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas a la pesca, la agricultura y el seguro agrario",
+"imp": {
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Desglose del combustible y revisión de precios del transporte por carretera",
+"imp": {
+"secTrans": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de la suspensión de desahucios de personas vulnerables",
+"imp": {
+"inq": 1,
+"pobreza": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Ayuda única de 200 € a personas de bajos ingresos",
+"imp": {
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Prórroga de ERTE, cese de actividad y aplazamientos en La Palma",
+"imp": {
+"victimas": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1
+},
+{
+"d": "Congelación del precio máximo del butano envasado",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "130/000083",
+"titulo": "Real Decreto-ley 11/2022, de 25 de junio, por el que se adoptan y se prorrogan determinadas medidas para responder a las consecuencias económicas y sociales de la guerra en Ucrania, para hacer frente a situaciones de vulnerabilidad social y económica, y para la recuperación económica y social de la isla de La Palma.",
+"nota": "Prorroga rebajas energéticas y de carburantes, transporte, IMV y no contributivas +15 %, tope al alquiler, desahucios, ayuda de 200 € y La Palma.",
+"imp": {
+"casero": -1,
+"cons": 1,
+"discapacidad": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"inq": 1,
+"mayores": 1,
+"pen1": 1,
+"pobreza": 1,
+"secPrim": 1,
+"secTrans": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Bonificación del precio de los carburantes",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Prestación patrimonial a los operadores mayoristas de productos petrolíferos",
+"imp": {
+"secInd": -1
+},
+"peso": 1
+},
+{
+"d": "Incremento del 15 % del Ingreso Mínimo Vital",
+"imp": {
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Incremento del 15 % de las pensiones no contributivas",
+"imp": {
+"pen1": 1,
+"mayores": 1,
+"discapacidad": 1
+},
+"peso": 2
+},
+{
+"d": "Límite a la actualización de la renta del alquiler",
+"imp": {
+"inq": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Rebaja del IVA y del impuesto especial de la electricidad",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Suspensión del impuesto sobre la producción eléctrica",
+"imp": {
+"secInd": 1
+},
+"peso": 2
+},
+{
+"d": "Minoración de la retribución de las eléctricas no emisoras",
+"imp": {
+"secInd": -1
+},
+"peso": 2
+},
+{
+"d": "Bono social y garantía de suministros a consumidores vulnerables",
+"imp": {
+"pobreza": 1,
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Contención de la tarifa del gas y del butano",
+"imp": {
+"cons": 1
+},
+"peso": 1
+},
+{
+"d": "Descuento del 30 % en abonos de transporte público",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Ayudas y flexibilización del gas para la industria",
+"imp": {
+"secInd": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas a la pesca, la agricultura y el seguro agrario",
+"imp": {
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Desglose del combustible y revisión de precios del transporte por carretera",
+"imp": {
+"secTrans": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de la suspensión de desahucios de personas vulnerables",
+"imp": {
+"inq": 1,
+"pobreza": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Ayuda única de 200 € a personas de bajos ingresos",
+"imp": {
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Prórroga de ERTE, cese de actividad y aplazamientos en La Palma",
+"imp": {
+"victimas": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1
+},
+{
+"d": "Congelación del precio máximo del butano envasado",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "121/000120",
+"titulo": "Proyecto de Ley de medidas de sostenibilidad económica en el ámbito del transporte, en materia de becas y ayudas al estudio, así como de medidas de ahorro, eficiencia energética y de reducción de la dependencia energética del gas natural (procedente del Real Decreto-ley 14/2022, de 1 de agosto).",
+"nota": "Ayudas y precio mínimo al transporte por carretera, gratuidad de Cercanías, complemento de becas, ahorro energético en comercios, autoconsumo, pesca y marinos ucranianos.",
+"imp": {
+"ciud": -1,
+"cons": 1,
+"discapacidad": 1,
+"empAut": 1,
+"estud": 1,
+"inmigrantes": 1,
+"secCom": -1,
+"secCons": 1,
+"secInd": 1,
+"secPrim": 1,
+"secTrans": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Ayudas directas y precio mínimo para el transporte por carretera",
+"imp": {
+"secTrans": 1
+},
+"peso": 2
+},
+{
+"d": "Gratuidad de abonos de Cercanías, Rodalies y Media distancia",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Complemento de cien euros mensuales a los becarios",
+"imp": {
+"estud": 1
+},
+"peso": 2
+},
+{
+"d": "Límites de temperatura y obligaciones de ahorro en locales",
+"imp": {
+"secCom": -1
+},
+"peso": 2
+},
+{
+"d": "Descuento en factura por retraso en activar el autoconsumo",
+"imp": {
+"cons": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas complementarias a armadores de buques pesqueros",
+"imp": {
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Exención del requisito de nacionalidad a marinos ucranianos",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1
+},
+{
+"d": "Revisión excepcional de precios en contratos de obras más cortos",
+"imp": {
+"secCons": 1
+},
+"peso": 1
+},
+{
+"d": "Mejoras en devoluciones y cese de actividad de autónomos",
+"imp": {
+"empAut": 1
+},
+"peso": 1
+},
+{
+"d": "Cuota reducida más larga para autónomos con discapacidad o víctimas",
+"imp": {
+"empAut": 1,
+"discapacidad": 1,
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Restricciones sanitarias del transporte aéreo pasan a recomendaciones",
+"imp": {
+"ciud": -1,
+"secTrans": 1
+},
+"peso": 1
+},
+{
+"d": "Agilización de renovables, autoconsumo, almacenamiento y biometano",
+"imp": {
+"secInd": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "130/000086",
+"titulo": "Real Decreto-ley 14/2022, de 1 de agosto, de medidas de sostenibilidad económica en el ámbito del transporte, en materia de becas y ayudas al estudio, así como de medidas de ahorro, eficiencia energética y de reducción de la dependencia energética del gas natural.",
+"nota": "Ayudas y precio mínimo al transporte por carretera, gratuidad de Cercanías, complemento de becas, ahorro energético en comercios, autoconsumo, pesca y marinos ucranianos.",
+"imp": {
+"ciud": -1,
+"cons": 1,
+"discapacidad": 1,
+"empAut": 1,
+"estud": 1,
+"inmigrantes": 1,
+"secCom": -1,
+"secCons": 1,
+"secInd": 1,
+"secPrim": 1,
+"secTrans": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Ayudas directas y precio mínimo para el transporte por carretera",
+"imp": {
+"secTrans": 1
+},
+"peso": 2
+},
+{
+"d": "Gratuidad de abonos de Cercanías, Rodalies y Media distancia",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Complemento de cien euros mensuales a los becarios",
+"imp": {
+"estud": 1
+},
+"peso": 2
+},
+{
+"d": "Límites de temperatura y obligaciones de ahorro en locales",
+"imp": {
+"secCom": -1
+},
+"peso": 2
+},
+{
+"d": "Descuento en factura por retraso en activar el autoconsumo",
+"imp": {
+"cons": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas complementarias a armadores de buques pesqueros",
+"imp": {
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Exención del requisito de nacionalidad a marinos ucranianos",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1
+},
+{
+"d": "Revisión excepcional de precios en contratos de obras más cortos",
+"imp": {
+"secCons": 1
+},
+"peso": 1
+},
+{
+"d": "Mejoras en devoluciones y cese de actividad de autónomos",
+"imp": {
+"empAut": 1
+},
+"peso": 1
+},
+{
+"d": "Cuota reducida más larga para autónomos con discapacidad o víctimas",
+"imp": {
+"empAut": 1,
+"discapacidad": 1,
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Restricciones sanitarias del transporte aéreo pasan a recomendaciones",
+"imp": {
+"ciud": -1,
+"secTrans": 1
+},
+"peso": 1
+},
+{
+"d": "Agilización de renovables, autoconsumo, almacenamiento y biometano",
+"imp": {
+"secInd": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "121/000150",
+"titulo": "Proyecto de Ley de medidas urgentes para la ampliación de derechos de los pensionistas, la reducción de la brecha de género y el establecimiento de un nuevo marco de sostenibilidad del sistema público de pensiones (procedente del Real Decreto-ley 2/2023, de 16 de marzo).",
+"nota": "Eleva cotizaciones sobre salarios altos y el MEI; mejora cálculo, pensiones mínimas, máxima y brecha de género; amplía cuidado de hijos enfermos.",
+"imp": {
+"asal5": -1,
+"asal6": -1,
+"civViu": 1,
+"discapacidad": 1,
+"empMicro": -1,
+"empPeq": -1,
+"estud": 1,
+"hombres": 1,
+"mayores": 1,
+"mujeres": 1,
+"pac": 1,
+"pen1": 1,
+"pen2": 1,
+"pen3": 1
+},
+"medidas": [
+{
+"d": "Destope de la base máxima y cotización de solidaridad",
+"imp": {
+"asal5": -1,
+"asal6": -1
+},
+"peso": 3
+},
+{
+"d": "Aumento de la cotización finalista del MEI",
+"imp": {
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 2
+},
+{
+"d": "Subida gradual de la pensión máxima",
+"imp": {
+"pen3": 1
+},
+"peso": 2
+},
+{
+"d": "Cálculo de la pensión con la opción más favorable",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1
+},
+"peso": 3
+},
+{
+"d": "Subida de pensiones mínimas y no contributivas sobre el IPC",
+"imp": {
+"pen1": 1,
+"mayores": 1,
+"civViu": 1
+},
+"peso": 2
+},
+{
+"d": "Refuerzo del complemento de brecha de género y de lagunas",
+"imp": {
+"mujeres": 1,
+"hombres": 1
+},
+"peso": 2
+},
+{
+"d": "Prestación por cuidado de hijos con cáncer hasta 23-26 años",
+"imp": {
+"pac": 1,
+"discapacidad": 1
+},
+"peso": 1
+},
+{
+"d": "Alta en la Seguridad Social de alumnos en prácticas",
+"imp": {
+"estud": 1
+},
+"peso": 1
+},
+{
+"d": "Integración de lagunas tras el cese de actividad de autónomos",
+"imp": {
+"empAut": 1
+},
+"peso": 1
+}
+],
+"peso": 3,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "130/000094",
+"titulo": "Real Decreto-ley 2/2023, de 16 de marzo, de medidas urgentes para la ampliación de derechos de los pensionistas, la reducción de la brecha de género y el establecimiento de un nuevo marco de sostenibilidad del sistema público de pensiones.",
+"nota": "Eleva cotizaciones sobre salarios altos y el MEI; mejora cálculo, pensiones mínimas, máxima y brecha de género; amplía cuidado de hijos enfermos.",
+"imp": {
+"asal5": -1,
+"asal6": -1,
+"civViu": 1,
+"discapacidad": 1,
+"empMicro": -1,
+"empPeq": -1,
+"estud": 1,
+"hombres": 1,
+"mayores": 1,
+"mujeres": 1,
+"pac": 1,
+"pen1": 1,
+"pen2": 1,
+"pen3": 1
+},
+"medidas": [
+{
+"d": "Destope de la base máxima y cotización de solidaridad",
+"imp": {
+"asal5": -1,
+"asal6": -1
+},
+"peso": 3
+},
+{
+"d": "Aumento de la cotización finalista del MEI",
+"imp": {
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1
+},
+"peso": 2
+},
+{
+"d": "Subida gradual de la pensión máxima",
+"imp": {
+"pen3": 1
+},
+"peso": 2
+},
+{
+"d": "Cálculo de la pensión con la opción más favorable",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1
+},
+"peso": 3
+},
+{
+"d": "Subida de pensiones mínimas y no contributivas sobre el IPC",
+"imp": {
+"pen1": 1,
+"mayores": 1,
+"civViu": 1
+},
+"peso": 2
+},
+{
+"d": "Refuerzo del complemento de brecha de género y de lagunas",
+"imp": {
+"mujeres": 1,
+"hombres": 1
+},
+"peso": 2
+},
+{
+"d": "Prestación por cuidado de hijos con cáncer hasta 23-26 años",
+"imp": {
+"pac": 1,
+"discapacidad": 1
+},
+"peso": 1
+},
+{
+"d": "Alta en la Seguridad Social de alumnos en prácticas",
+"imp": {
+"estud": 1
+},
+"peso": 1
+},
+{
+"d": "Integración de lagunas tras el cese de actividad de autónomos",
+"imp": {
+"empAut": 1
+},
+"peso": 1
+}
+],
+"peso": 3,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "121/000140",
+"titulo": "Proyecto de Ley de medidas de respuesta a las consecuencias económicas y sociales de la Guerra de Ucrania y de apoyo a la reconstrucción de la isla de La Palma y a otras situaciones de vulnerabilidad (procedente del Real Decreto-ley 20/2022, de 27 de diciembre).",
+"nota": "Rebajas fiscales en luz y gas, protección a vulnerables, ayudas a industria intensiva, campo, pesca y transporte, y descuentos al transporte público.",
+"imp": {
+"casero": -1,
+"ciud": 1,
+"cons": 1,
+"desPres": 1,
+"desSub": 1,
+"discapacidad": 1,
+"empAut": 1,
+"empGran": 1,
+"empMed": 1,
+"empMicro": 1,
+"empPeq": 1,
+"infancia": 1,
+"inq": 1,
+"mayores": 1,
+"mujeres": 1,
+"pac": 1,
+"pen1": 1,
+"pobreza": 1,
+"proSan": 1,
+"secFin": -1,
+"secPrim": 1,
+"secTrans": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Prórroga de rebajas de IVA e impuesto eléctrico en luz y gas",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Suspensión del impuesto sobre la producción de electricidad",
+"imp": {
+"secInd": 1
+},
+"peso": 2
+},
+{
+"d": "Prohibición de cortes a vulnerables y tope al precio del butano",
+"imp": {
+"pobreza": 1,
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Rebaja de peajes y ayudas a la industria electro y gasintensiva",
+"imp": {
+"secInd": 1
+},
+"peso": 2
+},
+{
+"d": "Ayudas al gasóleo y fertilizantes del sector agrario y pesquero",
+"imp": {
+"secPrim": 1
+},
+"peso": 2
+},
+{
+"d": "Ayudas al combustible de las empresas de transporte",
+"imp": {
+"secTrans": 1
+},
+"peso": 2
+},
+{
+"d": "Gratuidad y descuentos del transporte público",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Prórroga de la exclusión de pérdidas COVID como causa de disolución",
+"imp": {
+"empMicro": 1,
+"empPeq": 1,
+"empMed": 1,
+"empGran": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de aplazamientos de cuotas en agricultura, pesca y transporte",
+"imp": {
+"secPrim": 1,
+"secTrans": 1
+},
+"peso": 1
+},
+{
+"d": "Aplazamientos sin garantía de deudas públicas no tributarias",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"empMed": 1,
+"empGran": 1
+},
+"peso": 1
+},
+{
+"d": "Límite a la subida del alquiler y prórroga de contratos",
+"imp": {
+"inq": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Prórroga de la suspensión de desahucios de personas vulnerables",
+"imp": {
+"inq": 1,
+"pobreza": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "IVA del 0 % y 5 % en alimentos básicos",
+"imp": {
+"ciud": 1
+},
+"peso": 2
+},
+{
+"d": "Mantiene la deducción por maternidad junto al complemento de infancia",
+"imp": {
+"infancia": 1,
+"mujeres": 1
+},
+"peso": 1
+},
+{
+"d": "Ayuda de 200 euros a trabajadores y desempleados de bajos ingresos",
+"imp": {
+"desPres": 1,
+"desSub": 1,
+"empAut": 1
+},
+"peso": 2
+},
+{
+"d": "Amplía el acceso a cuentas de pago básicas gratuitas",
+"imp": {
+"pobreza": 1,
+"cons": 1,
+"secFin": -1
+},
+"peso": 1
+},
+{
+"d": "Subida extraordinaria de las pensiones no contributivas",
+"imp": {
+"pen1": 1,
+"mayores": 1,
+"discapacidad": 1
+},
+"peso": 2
+},
+{
+"d": "No reintegro de pequeñas cantidades del IMV con menores",
+"imp": {
+"pobreza": 1,
+"infancia": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de ayudas, ERTE y cese de actividad en La Palma",
+"imp": {
+"victimas": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1
+},
+{
+"d": "Beneficios fiscales a afectados por los incendios forestales de 2022",
+"imp": {
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Compatibilidad de la jubilación con la actividad de médicos de primaria",
+"imp": {
+"proSan": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga del IVA reducido de mascarillas, vacunas y pruebas COVID",
+"imp": {
+"pac": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga del precio máximo del GLP envasado",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_0.json",
+"id": "130/000092",
+"titulo": "Real Decreto-ley 20/2022, de 27 de diciembre, de medidas de respuesta a las consecuencias económicas y sociales de la Guerra de Ucrania y de apoyo a la reconstrucción de la isla de La Palma y a otras situaciones de vulnerabilidad.",
+"nota": "Rebajas fiscales en luz y gas, protección a vulnerables, ayudas a industria intensiva, campo, pesca y transporte, y descuentos al transporte público.",
+"imp": {
+"casero": -1,
+"ciud": 1,
+"cons": 1,
+"desPres": 1,
+"desSub": 1,
+"discapacidad": 1,
+"empAut": 1,
+"empGran": 1,
+"empMed": 1,
+"empMicro": 1,
+"empPeq": 1,
+"infancia": 1,
+"inq": 1,
+"mayores": 1,
+"mujeres": 1,
+"pac": 1,
+"pen1": 1,
+"pobreza": 1,
+"proSan": 1,
+"secFin": -1,
+"secPrim": 1,
+"secTrans": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Prórroga de rebajas de IVA e impuesto eléctrico en luz y gas",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Suspensión del impuesto sobre la producción de electricidad",
+"imp": {
+"secInd": 1
+},
+"peso": 2
+},
+{
+"d": "Prohibición de cortes a vulnerables y tope al precio del butano",
+"imp": {
+"pobreza": 1,
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Rebaja de peajes y ayudas a la industria electro y gasintensiva",
+"imp": {
+"secInd": 1
+},
+"peso": 2
+},
+{
+"d": "Ayudas al gasóleo y fertilizantes del sector agrario y pesquero",
+"imp": {
+"secPrim": 1
+},
+"peso": 2
+},
+{
+"d": "Ayudas al combustible de las empresas de transporte",
+"imp": {
+"secTrans": 1
+},
+"peso": 2
+},
+{
+"d": "Gratuidad y descuentos del transporte público",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Prórroga de la exclusión de pérdidas COVID como causa de disolución",
+"imp": {
+"empMicro": 1,
+"empPeq": 1,
+"empMed": 1,
+"empGran": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de aplazamientos de cuotas en agricultura, pesca y transporte",
+"imp": {
+"secPrim": 1,
+"secTrans": 1
+},
+"peso": 1
+},
+{
+"d": "Aplazamientos sin garantía de deudas públicas no tributarias",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"empMed": 1,
+"empGran": 1
+},
+"peso": 1
+},
+{
+"d": "Límite a la subida del alquiler y prórroga de contratos",
+"imp": {
+"inq": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Prórroga de la suspensión de desahucios de personas vulnerables",
+"imp": {
+"inq": 1,
+"pobreza": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "IVA del 0 % y 5 % en alimentos básicos",
+"imp": {
+"ciud": 1
+},
+"peso": 2
+},
+{
+"d": "Mantiene la deducción por maternidad junto al complemento de infancia",
+"imp": {
+"infancia": 1,
+"mujeres": 1
+},
+"peso": 1
+},
+{
+"d": "Ayuda de 200 euros a trabajadores y desempleados de bajos ingresos",
+"imp": {
+"desPres": 1,
+"desSub": 1,
+"empAut": 1
+},
+"peso": 2
+},
+{
+"d": "Amplía el acceso a cuentas de pago básicas gratuitas",
+"imp": {
+"pobreza": 1,
+"cons": 1,
+"secFin": -1
+},
+"peso": 1
+},
+{
+"d": "Subida extraordinaria de las pensiones no contributivas",
+"imp": {
+"pen1": 1,
+"mayores": 1,
+"discapacidad": 1
+},
+"peso": 2
+},
+{
+"d": "No reintegro de pequeñas cantidades del IMV con menores",
+"imp": {
+"pobreza": 1,
+"infancia": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de ayudas, ERTE y cese de actividad en La Palma",
+"imp": {
+"victimas": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1
+},
+"peso": 1
+},
+{
+"d": "Beneficios fiscales a afectados por los incendios forestales de 2022",
+"imp": {
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Compatibilidad de la jubilación con la actividad de médicos de primaria",
+"imp": {
+"proSan": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga del IVA reducido de mascarillas, vacunas y pruebas COVID",
+"imp": {
+"pac": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga del precio máximo del GLP envasado",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_1.json",
+"id": "121/000100",
+"titulo": "Proyecto de Ley por la que se adoptan medidas urgentes en el marco del Plan Nacional de respuesta a las consecuencias económicas y sociales de la guerra en Ucrania (procedente del Real Decreto-ley 6/2022, de 29 de marzo).",
+"nota": "Apoya a la industria electrointensiva y gasintensiva, recorta la retribución regulada de renovables para bajar cargos eléctricos y exige reducir emisiones de combustibles.",
+"imp": {
+"casero": -1,
+"cons": 1,
+"empAut": 1,
+"empGran": 1,
+"empMed": 1,
+"empMicro": 1,
+"empPeq": 1,
+"inmigrantes": 1,
+"inq": 1,
+"mujeres": 1,
+"pobreza": 1,
+"secCons": 1,
+"secDig": 1,
+"secPrim": 1,
+"secTrans": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Rebaja de peajes y ayudas a la industria intensiva en energía",
+"imp": {
+"secInd": 1
+},
+"peso": 2
+},
+{
+"d": "Revisión de la retribución regulada de renovables para bajar cargos",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 2
+},
+{
+"d": "Bonificación del precio de los carburantes",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Objetivo de reducción de emisiones de los combustibles de transporte",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1
+},
+{
+"d": "Rebaja de tasas portuarias y de tráficos mínimos en concesiones",
+"imp": {
+"secTrans": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas directas al transporte por carretera y ferrocarril",
+"imp": {
+"secTrans": 1
+},
+"peso": 2
+},
+{
+"d": "Aplazamiento de cuotas en transporte y pesca; gasóleo profesional mensual",
+"imp": {
+"secTrans": 1,
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Línea de avales y extensión del código de buenas prácticas",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"empMed": 1,
+"empGran": 1
+},
+"peso": 2
+},
+{
+"d": "Ayudas directas a agricultores, ganaderos, pescadores y acuicultores",
+"imp": {
+"secPrim": 1
+},
+"peso": 2
+},
+{
+"d": "Flexibilización de exigencias ambientales de la PAC en 2022",
+"imp": {
+"ciud": -1,
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Ampliación de plazos para películas con ayudas afectadas",
+"imp": {
+"secDig": 1
+},
+"peso": 1
+},
+{
+"d": "Subida del 15 % del ingreso mínimo vital",
+"imp": {
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Límite a la actualización anual de la renta del alquiler",
+"imp": {
+"inq": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Acreditación y ayudas a víctimas de trata y de violencia",
+"imp": {
+"victimas": 1,
+"mujeres": 1
+},
+"peso": 1
+},
+{
+"d": "Facilidades de residencia, nacionalidad y documentación para ucranianos",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga y ampliación del bono social eléctrico y térmico",
+"imp": {
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Exención de IRPF a familiares de víctimas del vuelo GWI9525",
+"imp": {
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Ampliación de la revisión excepcional de precios en obra pública",
+"imp": {
+"secCons": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_1.json",
+"id": "130/000079",
+"titulo": "Real Decreto-ley 6/2022, de 29 de marzo, por el que se adoptan medidas urgentes en el marco del Plan Nacional de respuesta a las consecuencias económicas y sociales de la guerra en Ucrania.",
+"nota": "Apoya a la industria electrointensiva y gasintensiva, recorta la retribución regulada de renovables para bajar cargos eléctricos y exige reducir emisiones de combustibles.",
+"imp": {
+"casero": -1,
+"cons": 1,
+"empAut": 1,
+"empGran": 1,
+"empMed": 1,
+"empMicro": 1,
+"empPeq": 1,
+"inmigrantes": 1,
+"inq": 1,
+"mujeres": 1,
+"pobreza": 1,
+"secCons": 1,
+"secDig": 1,
+"secPrim": 1,
+"secTrans": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Rebaja de peajes y ayudas a la industria intensiva en energía",
+"imp": {
+"secInd": 1
+},
+"peso": 2
+},
+{
+"d": "Revisión de la retribución regulada de renovables para bajar cargos",
+"imp": {
+"cons": 1,
+"secInd": -1
+},
+"peso": 2
+},
+{
+"d": "Bonificación del precio de los carburantes",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Objetivo de reducción de emisiones de los combustibles de transporte",
+"imp": {
+"ciud": 1,
+"secInd": -1
+},
+"peso": 1
+},
+{
+"d": "Rebaja de tasas portuarias y de tráficos mínimos en concesiones",
+"imp": {
+"secTrans": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas directas al transporte por carretera y ferrocarril",
+"imp": {
+"secTrans": 1
+},
+"peso": 2
+},
+{
+"d": "Aplazamiento de cuotas en transporte y pesca; gasóleo profesional mensual",
+"imp": {
+"secTrans": 1,
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Línea de avales y extensión del código de buenas prácticas",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"empMed": 1,
+"empGran": 1
+},
+"peso": 2
+},
+{
+"d": "Ayudas directas a agricultores, ganaderos, pescadores y acuicultores",
+"imp": {
+"secPrim": 1
+},
+"peso": 2
+},
+{
+"d": "Flexibilización de exigencias ambientales de la PAC en 2022",
+"imp": {
+"ciud": -1,
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Ampliación de plazos para películas con ayudas afectadas",
+"imp": {
+"secDig": 1
+},
+"peso": 1
+},
+{
+"d": "Subida del 15 % del ingreso mínimo vital",
+"imp": {
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Límite a la actualización anual de la renta del alquiler",
+"imp": {
+"inq": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Acreditación y ayudas a víctimas de trata y de violencia",
+"imp": {
+"victimas": 1,
+"mujeres": 1
+},
+"peso": 1
+},
+{
+"d": "Facilidades de residencia, nacionalidad y documentación para ucranianos",
+"imp": {
+"inmigrantes": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga y ampliación del bono social eléctrico y térmico",
+"imp": {
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Exención de IRPF a familiares de víctimas del vuelo GWI9525",
+"imp": {
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Ampliación de la revisión excepcional de precios en obra pública",
+"imp": {
+"secCons": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_1.json",
+"id": "120/000001",
+"titulo": "Proposición de Ley de modificación de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, en materia de participación en el coste de las prestaciones y servicios de las personas beneficiarias (corresponde a los números de expediente 120/000031/0000 de la X Legislatura, 120/000001/0000 de la XI Legislatura, 120/000001/0000",
+"nota": "Modifica la participación en el coste de las prestaciones de dependencia para las personas beneficiarias, con mayor protección económica.",
+"imp": {
+"depend": 1,
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_1.json",
+"id": "121/000027",
+"titulo": "Proyecto de Ley por la que se reforma la legislación civil y procesal para el apoyo a las personas con discapacidad en el ejercicio de su capacidad jurídica.",
+"nota": "Sustituye la incapacitación por medidas de apoyo y reconoce la capacidad jurídica de las personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_2.json",
+"id": "121/000076",
+"titulo": "Proyecto de Ley General de Comunicación Audiovisual.",
+"nota": "Actualiza la regulación audiovisual e incluye obligaciones de accesibilidad para personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_2.json",
+"id": "121/000082",
+"titulo": "Proyecto de Ley del Deporte.",
+"nota": "Nueva ley del deporte: igualdad de mujeres deportistas, incluida la maternidad, y obligación de integrar modalidades de personas con discapacidad en las federaciones.",
+"imp": {
+"discapacidad": 1,
+"mujeres": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_2.json",
+"id": "121/000112",
+"titulo": "Proyecto de Ley de Empleo.",
+"nota": "Ley de Empleo: nueva agencia y servicios garantizados, con atención prioritaria a jóvenes, mayores de 45 años y personas con discapacidad.",
+"imp": {
+"adultos": 1,
+"discapacidad": 1,
+"jovenes": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_2.json",
+"id": "121/000126",
+"titulo": "Proyecto de Ley de trasposición de Directivas de la Unión Europea en materia de accesibilidad de determinados productos y servicios, migración de personas altamente cualificadas, tributaria y digitalización de actuaciones notariales y registrales; y por la que se modifica la Ley 12/2011, de 27 de mayo, sobre responsabilidad civil por daños nucleares o producidos por materiales radiactivos.",
+"nota": "Transpone exigencias de accesibilidad de productos y servicios y facilita la migración de personas altamente cualificadas.",
+"imp": {
+"discapacidad": 1,
+"inmigrantes": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_3.json",
+"id": "122/000034",
+"titulo": "Proposición de Ley Orgánica de modificación de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para el refuerzo de la independencia judicial.",
+"nota": "Reforma del Poder Judicial para reforzar la independencia judicial; norma institucional.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_3.json",
+"id": "122/000092",
+"titulo": "Proposición de Ley Orgánica de reforma de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, de reforzamiento de la independencia del Poder Judicial y de reforma de la Ley 50/1981, de 30 de diciembre, por la que se regula el Estatuto Orgánico del Ministerio Fiscal, para garantizar la imparcialidad de su actuación.",
+"nota": "Norma institucional, procesal u organizativa; no tiene efecto directo sobre ningún colectivo.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000121",
+"titulo": "Proposición de Ley integral para la igualdad de trato y la no discriminación.",
+"nota": "Ley integral contra la discriminación por sexo, orientación, discapacidad, origen étnico y otras causas; refuerza su protección.",
+"imp": {
+"discapacidad": 1,
+"lgtbi": 1,
+"minorias": 1,
+"mujeres": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000125",
+"titulo": "Proposición de Ley Orgánica de modificación de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para el refuerzo de la independencia judicial.",
+"nota": "Modifica la elección de vocales del Consejo General del Poder Judicial; norma institucional.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000129",
+"titulo": "Proposición de Ley por la que se modifica el régimen jurídico de la accesibilidad en materia de propiedad horizontal.",
+"nota": "Facilita las obras de accesibilidad en comunidades de propietarios para personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000159",
+"titulo": "Proposición de Ley para garantizar el derecho a una vida digna de las personas con esclerosis lateral amiotrófica.",
+"nota": "Garantiza atención y apoyos a personas con ELA; beneficia a pacientes, personas con discapacidad y dependientes.",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000160",
+"titulo": "Proposición de Ley de modificación de la Ley 18/2014, de 15 de octubre, de aprobación de medidas urgentes para el crecimiento, la competitividad y la eficiencia, con el fin de ampliar el plazo de aprobación del Documento de Regulación Aeroportuaria.",
+"nota": "Amplía un plazo de aprobación de un documento de planificación aeroportuaria; sin efecto directo sobre colectivos.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000178",
+"titulo": "Proposición de Ley para garantizar el derecho a una vida digna de las personas con esclerosis lateral amiotrófica.",
+"nota": "Garantiza atención y apoyos a personas con ELA; beneficia a pacientes, personas con discapacidad y dependientes.",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000179",
+"titulo": "Proposición de Ley para garantizar el derecho a una vida digna de las personas con esclerosis lateral amiotrófica.",
+"nota": "Garantiza atención y apoyos a personas con ELA; beneficia a pacientes, personas con discapacidad y dependientes.",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000180",
+"titulo": "Proposición de Ley para garantizar el derecho a una vida digna de las personas con esclerosis lateral amiotrófica.",
+"nota": "Garantiza atención y apoyos a personas con ELA; beneficia a pacientes, personas con discapacidad y dependientes.",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000209",
+"titulo": "Proposición de Ley de modificación de la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, en materia de financiación del Sistema para la Autonomía y Atención a la Dependencia (SAAD), por las Administraciones Públicas.",
+"nota": "Modifica la financiación pública del sistema de dependencia para reforzar la atención; beneficia a personas dependientes.",
+"imp": {
+"depend": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_4.json",
+"id": "122/000212",
+"titulo": "Proposición de Ley para mejorar protección social y laboral de las personas a las que les hubiera sido diagnosticada una enfermedad grave o carcinoma.",
+"nota": "Reconoce trabajo a distancia, reducción de jornada y ampliación de la reserva de puesto a personas con cáncer o enfermedad grave; beneficia a pacientes.",
+"imp": {
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_5.json",
+"id": "122/000219",
+"titulo": "Proposición de Ley de modificación de la Disposición adicional vigésima quinta del Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social.",
+"nota": "Amplía a más personas con discapacidad el acceso a prestaciones de la Seguridad Social; beneficia a ese colectivo.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_5.json",
+"id": "122/000246",
+"titulo": "Proposición de Ley de modificación de la Disposición adicional vigésima quinta del Real Decreto Legislativo 8/2015, de 30 de octubre, por el que se aprueba el texto refundido de la Ley General de la Seguridad Social.",
+"nota": "Amplía a más personas con discapacidad el acceso a prestaciones de la Seguridad Social; beneficia a ese colectivo.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_5.json",
+"id": "122/000286",
+"titulo": "Proposición de Ley Orgánica relativa a la modificación de la Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial, para el cambio de modelo de elección de los Vocales del Consejo General del Poder Judicial y el fortalecimiento de la independencia judicial.",
+"nota": "Cambia el modelo de elección de los vocales del Consejo General del Poder Judicial; norma institucional.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_5.json",
+"id": "122/000301",
+"titulo": "Proposición de Ley de modificación de la Ley 39/1995, de 19 de diciembre, de Organización del Centro de Investigaciones Sociológicas, para reforzar su independencia.",
+"nota": "Cambia la organización del Centro de Investigaciones Sociológicas; norma institucional sin efecto sobre un colectivo concreto.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_5.json",
+"id": "122/000310",
+"titulo": "Proposición de Ley para la mejora de la prestación para el cuidado de hijos enfermos.",
+"nota": "Amplía la prestación por cuidado de hijos enfermos: sin exigir hospitalización, sin límite de edad y a más cuidadores; beneficia a esas familias.",
+"imp": {
+"depend": 1,
+"infancia": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_6.json",
+"id": "124/000001",
+"titulo": "Proposición de Ley Orgánica de modificación del Código Penal para la erradicación de la esterilización forzada o no consentida de personas con discapacidad incapacitadas judicialmente.",
+"nota": "Norma penal sobre esterilización forzada de personas con discapacidad; tipificar o endurecer penas no se asigna a un colectivo.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_6.json",
+"id": "124/000003",
+"titulo": "Proposición de Ley de modificación del Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, aprobado por el Real Decreto Legislativo 1/2013, de 29 de noviembre, para establecer y regular la accesibilidad cognitiva y sus condiciones de exigencia y aplicación.",
+"nota": "Establece la accesibilidad cognitiva como derecho de las personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_6.json",
+"id": "124/000005",
+"titulo": "Proposición de Ley por la que se modifica la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, para aplicar el tipo impositivo del IVA del 4% a la prestación de todos los servicios de atención a la dependencia, no exentos.",
+"nota": "Aplica el IVA del 4 % a los servicios de atención a la dependencia.",
+"imp": {
+"depend": 1,
+"secSoc": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_6.json",
+"id": "124/000012",
+"titulo": "Proposición de Ley para mejorar la protección social y laboral de las personas a las que les hubiera sido diagnosticada una enfermedad grave o carcinoma.",
+"nota": "Mejora la protección social y laboral de las personas diagnosticadas de cáncer o enfermedad grave.",
+"imp": {
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xiv",
+"f": "clas_6.json",
+"id": "125/000010",
+"titulo": "Proposición de Ley de reforma de la Ley Orgánica 10/1995, de 23 de noviembre, del Código Penal, de despenalización de la eutanasia y la ayuda al suicidio (Orgánica) (corresponde al número de expediente 125/000016/0000 de la XIII Legislatura).",
+"nota": "Norma penal que exime de responsabilidad la ayuda a morir a petición de personas con enfermedad grave; sin colectivo asignable.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_0.json",
+"id": "121/000027",
+"titulo": "Proyecto de Ley por la que se adoptan medidas urgentes para la simplificación y mejora del nivel asistencial de la protección por desempleo, y para completar la transposición de la Directiva (UE) 2019/1158 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y por la que se deroga la",
+"nota": "Mejora el nivel asistencial del subsidio por desempleo y amplía permisos de conciliación para el cuidado de hijos.",
+"imp": {
+"adultos": 1,
+"desSub": 1,
+"infancia": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_0.json",
+"id": "121/000033",
+"titulo": "Proyecto de Ley por la que se modifican el texto refundido de la Ley del Estatuto de los Trabajadores, aprobado por el Real Decreto Legislativo 2/2015, de 23 de octubre, en materia de extinción del contrato de trabajo por incapacidad permanente de las personas trabajadoras, y el texto refundido de la Ley General de la Seguridad Social, aprobado por el Real Decreto Legislativo 8/2015, de 30 de octu",
+"nota": "Impide la extinción automática del contrato por incapacidad permanente y obliga a buscar ajustes; protege a personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_0.json",
+"id": "121/000044",
+"titulo": "Proyecto de Ley por la que se adoptan medidas urgentes complementarias en el marco del Plan de respuesta inmediata, reconstrucción y relanzamiento frente a los daños causados por la Depresión Aislada en Niveles Altos (DANA) en diferentes municipios entre el 28 de octubre y el 4 de noviembre de 2024 (procedente del Real Decreto-ley 8/2024, de 28 de noviembre).",
+"nota": "Ayudas a afectados por la DANA (vehículos, empresas, estudiantes, discapacidad, agricultura), nuevo permiso retribuido por catástrofes para asalariados y prohibición de precios abusivos.",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"cons": 1,
+"discapacidad": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"estud": 1,
+"infancia": 1,
+"secCom": 1,
+"secInd": 1,
+"secPrim": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Ayudas para sustituir vehículos destruidos por la DANA",
+"imp": {
+"victimas": 1,
+"empAut": 1
+},
+"peso": 1
+},
+{
+"d": "Financiación y ayudas a autónomos, pymes, industria y turismo afectados",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secInd": 1,
+"secCom": 1
+},
+"peso": 1
+},
+{
+"d": "Ayuda por pérdida de renta en explotaciones agrarias afectadas",
+"imp": {
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas para libros y material escolar y universitario",
+"imp": {
+"estud": 1,
+"infancia": 1,
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Productos de apoyo para personas con discapacidad afectadas",
+"imp": {
+"discapacidad": 1,
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Mejora de ayudas por daños personales y en viviendas",
+"imp": {
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas excluidas del cómputo de ingresos para prestaciones y mínimos",
+"imp": {
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Permiso retribuido de hasta cuatro días ante catástrofes",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1
+},
+"peso": 2
+},
+{
+"d": "Prohibición de precios personalizados abusivos en emergencias",
+"imp": {
+"cons": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_0.json",
+"id": "121/000064",
+"titulo": "Proyecto de Ley por la que se modifican el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, aprobado por el Real Decreto Legislativo 1/2013, de 29 de noviembre, y la Ley 39/2006, de 14 de diciembre, de Promoción de la Autonomía Personal y Atención a las personas en situación de dependencia, para la extensión y refuerzo de los derechos de las ",
+"nota": "Adapta a la Convención de la ONU la ley de derechos de las personas con discapacidad y la de dependencia.",
+"imp": {
+"depend": 1,
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_0.json",
+"id": "121/000076",
+"titulo": "Proyecto de Ley por la que se establecen medidas para el fortalecimiento del Sistema para la Autonomía y Atención a la Dependencia y cumplir con las obligaciones establecidas en la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de las personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible (procedente del Real Decreto-ley ",
+"nota": "Refuerza el sistema de dependencia y atiende a personas con ELA y otras enfermedades de alta dependencia.",
+"imp": {
+"depend": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_0.json",
+"id": "121/000086",
+"titulo": "Proyecto de Ley para la revalorización de las pensiones públicas y otras medidas urgentes en materia de Seguridad Social (procedente del Real Decreto-ley 3/2026, de 3 de febrero).",
+"nota": "Revaloriza pensiones un 2,7 % y prestaciones familiares y de discapacidad; exime a parados de declarar IRPF; médicos de primaria compatibilizan pensión y trabajo.",
+"imp": {
+"desPres": 1,
+"desSub": 1,
+"discapacidad": 1,
+"infancia": 1,
+"mayores": 1,
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"proSan": 1
+},
+"medidas": [
+{
+"d": "Revalorización general de las pensiones en 2026",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"mayores": 1
+},
+"peso": 3
+},
+{
+"d": "Actualización de prestaciones familiares, de orfandad y de discapacidad",
+"imp": {
+"infancia": 1,
+"discapacidad": 1
+},
+"peso": 1
+},
+{
+"d": "Supresión de la obligación de declarar IRPF para perceptores de desempleo",
+"imp": {
+"desPres": 1,
+"desSub": 1
+},
+"peso": 1
+},
+{
+"d": "Compatibilidad de pensión y trabajo para médicos de atención primaria",
+"imp": {
+"proSan": 1
+},
+"peso": 1
+}
+],
+"peso": 3,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_0.json",
+"id": "121/000090",
+"titulo": "Proyecto de Ley por la que se modifica la Ley 20/2022, de 19 de octubre, de Memoria Democrática, sobre reconocimiento a favor de personas fallecidas o con lesiones incapacitantes por su actividad en defensa y reivindicación de la Democracia (procedente del Real Decreto-ley 6/2026, de 3 de marzo).",
+"nota": "Amplía el reconocimiento a personas fallecidas o lesionadas por su actividad en defensa de la democracia.",
+"imp": {
+"victimas": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_0.json",
+"id": "121/000104",
+"titulo": "Proyecto de Ley de medidas extraordinarias para el fortalecimiento y consolidación del Sistema para la Autonomía y Atención a la Dependencia (procedente del Real Decreto-ley 17/2026, de 23 de junio).",
+"nota": "Refuerza y consolida financieramente el sistema de dependencia.",
+"imp": {
+"depend": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_1.json",
+"id": "122/000008",
+"titulo": "Proposición de Ley de atención integral a los enfermos de Esclerosis Lateral Amiotrófica (ELA) y otras personas en situación de gran dependencia.",
+"nota": "Atención integral a enfermos de ELA y otras personas en situación de gran dependencia; mejora prestaciones para pacientes y dependientes.",
+"imp": {
+"depend": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_1.json",
+"id": "122/000020",
+"titulo": "Proposición de Ley de atención integral a los enfermos de esclerosis lateral amiotrófica (ELA) y otras personas en situación de gran dependencia.",
+"nota": "Atención integral a enfermos de ELA y otras personas en situación de gran dependencia; mejora prestaciones para pacientes y dependientes.",
+"imp": {
+"depend": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_1.json",
+"id": "122/000029",
+"titulo": "Proposición de Ley para la mejora de la prestación para el cuidado de hijos enfermos.",
+"nota": "Mejora la prestación por cuidado de hijos gravemente enfermos; beneficia a familias con hijos y a pacientes.",
+"imp": {
+"infancia": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_1.json",
+"id": "122/000061",
+"titulo": "Proposición de Ley por la que se modifica la Ley 27/2014, de 27 de noviembre, del Impuesto sobre Sociedades con el fin de introducir deducciones fiscales por la creación de empleo y la contratación de mujeres embarazadas y de padres y madres de familia numerosa o con hijos con discapacidad.",
+"nota": "Crea deducciones en Sociedades por contratar embarazadas y padres de familia numerosa; beneficia a esas personas y a las empresas.",
+"imp": {
+"empGran": 1,
+"empMed": 1,
+"empMicro": 1,
+"empPeq": 1,
+"hij3": 1,
+"mujeres": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_1.json",
+"id": "122/000070",
+"titulo": "Proposición de Ley para la atención integral de las personas afectadas por enfermedades neurodegenerativas, como la Esclerosis Lateral Amiotrófica (ELA).",
+"nota": "Atención integral a afectados por enfermedades neurodegenerativas; agiliza ayudas y acreditación de discapacidad.",
+"imp": {
+"depend": 1,
+"discapacidad": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_1.json",
+"id": "122/000075",
+"titulo": "Proposición de Ley por la que se modifica el régimen jurídico de la accesibilidad en materia de propiedad horizontal.",
+"nota": "Modifica el régimen de accesibilidad en propiedad horizontal; beneficia a personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_2.json",
+"id": "122/000127",
+"titulo": "Proposición de Ley Orgánica para abordar la recuperación urgente por parte de las personas trabajadoras de los derechos de conciliación eliminados por la Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria y presencia equilibrada de mujeres y hombres.",
+"nota": "Restablece la protección frente al despido de quienes disfrutan de permisos por enfermedad grave de familiares y adaptación de jornada.",
+"imp": {
+"depend": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_2.json",
+"id": "122/000137",
+"titulo": "Proposición de Ley de modificación de la Ley 39/1995, de 19 de diciembre, de Organización del Centro de Investigaciones Sociológicas, para reforzar su independencia.",
+"nota": "Refuerza la independencia del CIS; norma institucional.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_2.json",
+"id": "122/000189",
+"titulo": "Proposición de Ley relativa a la escolarización del alumnado con necesidades educativas especiales (Orgánica).",
+"nota": "Garantiza la voluntad de las familias en la escolarización del alumnado con necesidades educativas especiales, incluida la educación especial.",
+"imp": {
+"discapacidad": 1,
+"estud": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_3.json",
+"id": "122/000215",
+"titulo": "Proposición de Ley para el impulso de la inclusión laboral de las personas con discapacidad a través de la cuota de reserva de empleo en las empresas.",
+"nota": "Refuerza la cuota de reserva de empleo para personas con discapacidad en las empresas.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_3.json",
+"id": "122/000225",
+"titulo": "Proposición de Ley sobre el buen uso de las zonas de estacionamiento reservadas a las personas con discapacidad.",
+"nota": "Eleva a muy grave la infracción de ocupar plazas reservadas a personas con discapacidad; norma sancionadora.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_3.json",
+"id": "122/000279",
+"titulo": "Proposición de Ley Orgánica por la que se reforma la tramitación de los internamientos involuntarios del artículo 763 de la Ley de Enjuiciamiento Civil.",
+"nota": "Reforma el procedimiento de internamiento involuntario por trastorno psíquico con garantías para las personas afectadas.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_3.json",
+"id": "122/000294",
+"titulo": "Proposición de Ley para la prórroga del derecho a la prestación y permiso por cuidado de menores afectados por cáncer u otra enfermedad grave, vinculada a la convivencia con la persona dependiente, en los supuestos de gran discapacidad o gran dependencia.",
+"nota": "Prorroga la prestación y el permiso por cuidado de hijos con enfermedad grave en casos de gran discapacidad o dependencia.",
+"imp": {
+"depend": 1,
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_3.json",
+"id": "124/000002",
+"titulo": "Proposición de Ley de modificación del Real Decreto Legislativo 1/2013, de 29 de noviembre, por el que se aprueba el Texto Refundido de la Ley General de derechos de las personas con discapacidad y de su inclusión social, para la asimilación legal de la valoración de las situaciones de dependencia con la calificación mínima del grado de discapacidad.",
+"nota": "Asimila la valoración de dependencia a la calificación mínima de discapacidad.",
+"imp": {
+"depend": 1,
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "124/000015",
+"titulo": "Proposición de Ley por la que se modifica la Ley 37/1992, de 28 de diciembre, del Impuesto sobre el Valor Añadido, para aplicar el tipo impositivo del IVA del 4% a la prestación de todos los servicios de atención a la dependencia no exentos.",
+"nota": "Aplica el IVA del 4 % a los servicios de atención a la dependencia; abarata el servicio a dependientes y favorece a quien lo presta.",
+"imp": {
+"depend": 1,
+"secSoc": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "125/000016",
+"titulo": "Proposición de Ley de modificación de la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de personas con esclerosis lateral amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible, y otras normas relativas a la atención de las personas en situación de dependencia.",
+"nota": "Reconduce la atención de personas con ELA y procesos complejos hacia necesidades sanitarias y de dependencia.",
+"imp": {
+"depend": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000002",
+"titulo": "Real Decreto-ley 7/2023, de 19 de diciembre, por el que se adoptan medidas urgentes, para completar la transposición de la Directiva (UE) 2019/1158, del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y por la que se deroga la Directiva 2010/18/UE del Consejo, y para la simplificaci",
+"nota": "Amplía permisos de conciliación por cuidado de hijos y familiares y mejora el nivel asistencial del subsidio de desempleo.",
+"imp": {
+"depend": 1,
+"desSub": 1,
+"infancia": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000003",
+"titulo": "Real Decreto-ley 8/2023, de 27 de diciembre, por el que se adoptan medidas para afrontar las consecuencias económicas y sociales derivadas de los conflictos en Ucrania y Oriente Próximo, así como para paliar los efectos de la sequía.",
+"nota": "Prorroga rebajas de IVA de alimentos y energía, bono social y topes de gas; suspende comisiones hipotecarias y limita comisiones de efectivo a mayores.",
+"imp": {
+"asal5": -1,
+"asal6": -1,
+"casero": -1,
+"ciud": 1,
+"cons": 1,
+"discapacidad": 1,
+"empGran": -1,
+"empMicro": -1,
+"empPeq": -1,
+"hipot": 1,
+"inq": 1,
+"mayores": 1,
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"pobreza": 1,
+"proDoc": 1,
+"prop4": -1,
+"secCom": 1,
+"secFin": -1,
+"secPrim": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Suspensión de comisiones por amortizar o pasar hipotecas a fijo",
+"imp": {
+"hipot": 1,
+"secFin": -1
+},
+"peso": 1
+},
+{
+"d": "Límite a comisiones de retirada de efectivo para mayores y discapacitados",
+"imp": {
+"mayores": 1,
+"discapacidad": 1,
+"cons": 1,
+"secFin": -1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de límites de módulos y régimen simplificado",
+"imp": {
+"empAut": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga del IVA reducido de alimentos básicos",
+"imp": {
+"ciud": 1
+},
+"peso": 2
+},
+{
+"d": "IVA e impuesto eléctrico reducidos para luz y gas",
+"imp": {
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Prórroga del bono social y garantía de suministros a vulnerables",
+"imp": {
+"pobreza": 1,
+"cons": 1
+},
+"peso": 2
+},
+{
+"d": "Topes al precio del butano y de la tarifa de gas",
+"imp": {
+"cons": 1
+},
+"peso": 1
+},
+{
+"d": "Apoyo a la industria electrointensiva y rebaja del impuesto de producción eléctrica",
+"imp": {
+"secInd": 1
+},
+"peso": 1
+},
+{
+"d": "Garantías y caducidad de permisos de acceso para grandes consumos",
+"imp": {
+"secInd": -1
+},
+"peso": 1
+},
+{
+"d": "Precio asumible del agua desalada para regantes por la sequía",
+"imp": {
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de ayudas a autónomos y ERTE afectados por el volcán",
+"imp": {
+"empAut": 1,
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Revalorización de las pensiones del 3,8 % y de las mínimas",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"mayores": 1
+},
+"peso": 3
+},
+{
+"d": "Subida de las bases mínimas y máxima de cotización",
+"imp": {
+"empAut": -1,
+"empMicro": -1,
+"empPeq": -1,
+"asal5": -1,
+"asal6": -1
+},
+"peso": 2
+},
+{
+"d": "Prórroga de la suspensión de desahucios de personas vulnerables",
+"imp": {
+"inq": 1,
+"pobreza": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Prórroga de la moratoria de préstamos a afectados del volcán",
+"imp": {
+"victimas": 1,
+"hipot": 1
+},
+"peso": 1
+},
+{
+"d": "Más plazo para ejecutar ayudas de digitalización turística",
+"imp": {
+"secCom": 1
+},
+"peso": 1
+},
+{
+"d": "Equiparación salarial del profesorado de la concertada",
+"imp": {
+"proDoc": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de los gravámenes a energéticas y banca",
+"imp": {
+"empGran": -1,
+"secInd": -1,
+"secFin": -1
+},
+"peso": 2
+},
+{
+"d": "Prórroga del impuesto temporal a las grandes fortunas",
+"imp": {
+"prop4": -1
+},
+"peso": 2
+}
+],
+"peso": 3,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000005",
+"titulo": "Real Decreto-ley 2/2024, de 21 de mayo, por el que se adoptan medidas urgentes para la simplificación y mejora del nivel asistencial de la protección por desempleo, y para completar la transposición de la Directiva (UE) 2019/1158 del Parlamento Europeo y del Consejo, de 20 de junio de 2019, relativa a la conciliación de la vida familiar y la vida profesional de los progenitores y los cuidadores, y",
+"nota": "Amplía permisos de conciliación por cuidado de hijos y familiares y mejora el nivel asistencial del subsidio de desempleo.",
+"imp": {
+"depend": 1,
+"desSub": 1,
+"infancia": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000011",
+"titulo": "Real Decreto-ley 8/2024, de 28 de noviembre, por el que se adoptan medidas urgentes complementarias en el marco del Plan de respuesta inmediata, reconstrucción y relanzamiento frente a los daños causados por la Depresión Aislada en Niveles Altos (DANA) en diferentes municipios entre el 28 de octubre y el 4 de noviembre de 2024.",
+"nota": "Ayudas a afectados por la DANA (vehículos, empresas, estudiantes, discapacidad, agricultura), nuevo permiso retribuido por catástrofes para asalariados y prohibición de precios abusivos.",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1,
+"cons": 1,
+"discapacidad": 1,
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"estud": 1,
+"infancia": 1,
+"secCom": 1,
+"secInd": 1,
+"secPrim": 1,
+"victimas": 1
+},
+"medidas": [
+{
+"d": "Ayudas para sustituir vehículos destruidos por la DANA",
+"imp": {
+"victimas": 1,
+"empAut": 1
+},
+"peso": 1
+},
+{
+"d": "Financiación y ayudas a autónomos, pymes, industria y turismo afectados",
+"imp": {
+"empAut": 1,
+"empMicro": 1,
+"empPeq": 1,
+"secInd": 1,
+"secCom": 1
+},
+"peso": 1
+},
+{
+"d": "Ayuda por pérdida de renta en explotaciones agrarias afectadas",
+"imp": {
+"secPrim": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas para libros y material escolar y universitario",
+"imp": {
+"estud": 1,
+"infancia": 1,
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Productos de apoyo para personas con discapacidad afectadas",
+"imp": {
+"discapacidad": 1,
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Mejora de ayudas por daños personales y en viviendas",
+"imp": {
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Ayudas excluidas del cómputo de ingresos para prestaciones y mínimos",
+"imp": {
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Permiso retribuido de hasta cuatro días ante catástrofes",
+"imp": {
+"asal1": 1,
+"asal2": 1,
+"asal3": 1,
+"asal4": 1
+},
+"peso": 2
+},
+{
+"d": "Prohibición de precios personalizados abusivos en emergencias",
+"imp": {
+"cons": 1
+},
+"peso": 1
+}
+],
+"peso": 2,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000025",
+"titulo": "Real Decreto-ley 11/2025, de 21 de octubre, por el que se establecen medidas para el fortalecimiento del Sistema para la Autonomía y Atención a la Dependencia y cumplir con las obligaciones establecidas en la Ley 3/2024, de 30 de octubre, para mejorar la calidad de vida de las personas con Esclerosis Lateral Amiotrófica y otras enfermedades o procesos de alta complejidad y curso irreversible.",
+"nota": "Refuerza el sistema de dependencia y las prestaciones para personas con ELA y enfermedades de alta complejidad.",
+"imp": {
+"depend": 1,
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000030",
+"titulo": "Real Decreto-ley 16/2025, de 23 de diciembre, por el que se prorrogan determinadas medidas para hacer frente a situaciones de vulnerabilidad social, y se adoptan medidas urgentes en materia tributaria y de Seguridad Social.",
+"nota": "Revaloriza pensiones un 2,7 %, prorroga suspensión de desahucios de vulnerables y bono social, y prorroga incentivos fiscales a autónomos y afectados por catástrofes.",
+"imp": {
+"casero": -1,
+"desPres": 1,
+"desSub": 1,
+"discapacidad": 1,
+"empAut": 1,
+"empGran": 1,
+"empMed": 1,
+"empMicro": 1,
+"empPeq": 1,
+"inq": 1,
+"mayores": 1,
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"pobreza": 1,
+"proSan": 1,
+"secInd": 1,
+"victimas": 1,
+"viv2": 1
+},
+"medidas": [
+{
+"d": "Prórroga de la suspensión de desahucios de vulnerables",
+"imp": {
+"inq": 1,
+"pobreza": 1,
+"casero": -1
+},
+"peso": 2
+},
+{
+"d": "Prórroga de descuentos del bono social y garantía de suministros",
+"imp": {
+"pobreza": 1
+},
+"peso": 2
+},
+{
+"d": "Revalorización general de las pensiones y prestaciones un 2,7 %",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"mayores": 1,
+"discapacidad": 1
+},
+"peso": 3
+},
+{
+"d": "Prórroga de límites de módulos y régimen simplificado para autónomos",
+"imp": {
+"empAut": 1
+},
+"peso": 1
+},
+{
+"d": "Exención en IRPF de ayudas a afectados por incendios y DANA",
+"imp": {
+"victimas": 1
+},
+"peso": 1
+},
+{
+"d": "Mantenimiento del porcentaje de imputación de rentas inmobiliarias",
+"imp": {
+"viv2": 1
+},
+"peso": 1
+},
+{
+"d": "Supresión de la obligación de declarar IRPF a perceptores de desempleo",
+"imp": {
+"desPres": 1,
+"desSub": 1
+},
+"peso": 1
+},
+{
+"d": "Compatibilidad de pensión y trabajo para médicos de atención primaria",
+"imp": {
+"proSan": 1
+},
+"peso": 1
+},
+{
+"d": "Prórroga de la moratoria de disolución por pérdidas COVID",
+"imp": {
+"empMicro": 1,
+"empPeq": 1,
+"empMed": 1,
+"empGran": 1
+},
+"peso": 1
+},
+{
+"d": "Tasa de retribución de la generación eléctrica no peninsular",
+"imp": {
+"secInd": 1
+},
+"peso": 1
+}
+],
+"peso": 3,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000034",
+"titulo": "Real Decreto-ley 3/2026, de 3 de febrero, para la revalorización de las pensiones públicas y otras medidas urgentes en materia de Seguridad Social.",
+"nota": "Revaloriza pensiones un 2,7 % y prestaciones familiares y de discapacidad; exime a parados de declarar IRPF; médicos de primaria compatibilizan pensión y trabajo.",
+"imp": {
+"desPres": 1,
+"desSub": 1,
+"discapacidad": 1,
+"infancia": 1,
+"mayores": 1,
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"proSan": 1
+},
+"medidas": [
+{
+"d": "Revalorización general de las pensiones en 2026",
+"imp": {
+"pen1": 1,
+"pen2": 1,
+"pen3": 1,
+"mayores": 1
+},
+"peso": 3
+},
+{
+"d": "Actualización de prestaciones familiares, de orfandad y de discapacidad",
+"imp": {
+"infancia": 1,
+"discapacidad": 1
+},
+"peso": 1
+},
+{
+"d": "Supresión de la obligación de declarar IRPF para perceptores de desempleo",
+"imp": {
+"desPres": 1,
+"desSub": 1
+},
+"peso": 1
+},
+{
+"d": "Compatibilidad de pensión y trabajo para médicos de atención primaria",
+"imp": {
+"proSan": 1
+},
+"peso": 1
+}
+],
+"peso": 3,
+"tag": true
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000035",
+"titulo": "Real Decreto-ley 4/2026, de 10 de febrero, por el que se garantiza la accesibilidad equitativa a bienes y servicios en situaciones de emergencia.",
+"nota": "El título no permite determinar el contenido.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000037",
+"titulo": "Real Decreto-ley 6/2026, de 3 de marzo, por el que se modifica la Ley 20/2022, de 19 de octubre, de Memoria Democrática, sobre reconocimiento a favor de personas fallecidas o con lesiones incapacitantes por su actividad en defensa y reivindicación de la Democracia.",
+"nota": "Reconoce a personas fallecidas o con lesiones incapacitantes por su actividad en defensa de la democracia.",
+"imp": {
+"victimas": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "congreso_xv",
+"f": "clas_4.json",
+"id": "130/000048",
+"titulo": "Real Decreto-ley 17/2026, de 23 de junio, de medidas extraordinarias para el fortalecimiento y consolidación del Sistema para la Autonomía y Atención a la Dependencia.",
+"nota": "Refuerza la financiación y las prestaciones del sistema de atención a la dependencia.",
+"imp": {
+"depend": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "europarlamento_10",
+"f": "clas_0.json",
+"id": "2023/0169(COD)",
+"titulo": "Competencia, ley aplicable, reconocimiento y ejecución de las medidas y cooperación en materia de protección de los adultos",
+"nota": "Reconoce en toda la Unión las medidas de protección y apoyo a adultos sin plena capacidad para velar por sus intereses en situaciones transfronterizas.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "europarlamento_10",
+"f": "clas_0.json",
+"id": "2023/0437(COD)",
+"titulo": "Modificación de los Reglamentos (CE) n.º 261/2004, (CE) n.º 1107/2006, (UE) n.º 1177/2010, (UE) n.º 181/2011 y (UE) 2021/782 en lo que respecta a la garantía del cumplimiento de los derechos de los viajeros en la Unión",
+"nota": "Refuerza el cumplimiento de los derechos de pasajeros, incluidas personas con movilidad reducida; añade obligaciones a las compañías de transporte.",
+"imp": {
+"cons": 1,
+"discapacidad": 1,
+"secTrans": -1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "europarlamento_10",
+"f": "clas_0.json",
+"id": "2024/0187(CNS)",
+"titulo": "Refuerzo de la seguridad de los documentos de identidad de los ciudadanos de la Unión y de los documentos de residencia expedidos a ciudadanos de la Unión y a los miembros de sus familias que ejerzan su derecho a la libre circulación",
+"nota": "No se puede determinar con seguridad a quién afecta en España ni con qué signo; norma europea técnica, institucional o de cooperación.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_10",
+"f": "clas_1.json",
+"id": "2025/0102(COD)",
+"titulo": "Establecimiento de un marco para reforzar la disponibilidad y la seguridad del suministro de medicamentos esenciales, así como la disponibilidad y accesibilidad de los medicamentos de interés común, y modificación del Reglamento (UE) 2024/795",
+"nota": "Refuerza la disponibilidad y accesibilidad de medicamentos esenciales; beneficia a los pacientes.",
+"imp": {
+"pac": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "europarlamento_10",
+"f": "clas_1.json",
+"id": "2025/0180(COD)",
+"titulo": "Eliminación gradual de las importaciones de gas natural ruso, mejora del seguimiento de las posibles dependencias energéticas y modificación del Reglamento (UE) 2017/1938",
+"nota": "Prohíbe progresivamente las importaciones de gas natural ruso, lo que restringe a los importadores y comercializadores de gas.",
+"imp": {
+"secInd": -1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "europarlamento_6",
+"f": "clas_0.json",
+"id": "2005/0007(COD)",
+"titulo": "Derechos de las personas con movilidad reducida en el transporte aéreo",
+"nota": "Reconoce derechos de asistencia a personas con movilidad reducida en el avión y obliga a las compañías aéreas.",
+"imp": {
+"discapacidad": 1,
+"secTrans": -1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "europarlamento_6",
+"f": "clas_0.json",
+"id": "2005/0056(CNS)",
+"titulo": "Acuerdo CE/Dinamarca sobre la notificación de documentos judiciales y extrajudiciales en materia civil o mercantil",
+"nota": "Norma institucional, técnica o de cooperación sin efecto directo sobre colectivos del ciudadano español.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_6",
+"f": "clas_2.json",
+"id": "2007/0216(COD)",
+"titulo": "Normas para las medidas de seguridad y datos biométricos en los pasaportes y documentos de viaje",
+"nota": "Normas de seguridad y datos biométricos en pasaportes; norma técnica sin colectivo determinable.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_6",
+"f": "clas_4.json",
+"id": "2008/0090(COD)",
+"titulo": "Acceso público a los documentos del Parlamento Europeo, del Consejo y de la Comisión",
+"nota": "Norma técnica, institucional o de cooperación sin efecto directo y de signo conocido sobre colectivos del ciudadano español.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_6",
+"f": "clas_4.json",
+"id": "2008/0140(APP)",
+"titulo": "Igualdad de trato entre las personas independientemente de su religión o convicciones, discapacidad, edad u orientación sexual",
+"nota": "Prohíbe la discriminación por religión o convicciones, discapacidad, edad u orientación sexual; protege a personas con discapacidad, LGTBI y minorías religiosas.",
+"imp": {
+"discapacidad": 1,
+"lgtbi": 1,
+"minorias": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "europarlamento_6",
+"f": "clas_4.json",
+"id": "2008/0153(COD)",
+"titulo": "Coordinación de las disposiciones legales, reglamentarias y administrativas sobre determinados organismos de inversión colectiva en valores mobiliarios (OICVM)",
+"nota": "OICVM IV: documento de datos fundamentales para inversores y pasaporte de gestoras.",
+"imp": {
+"cons": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_6",
+"f": "clas_4.json",
+"id": "2008/0182(COD)",
+"titulo": "Obligaciones de información y documentación en el caso de las fusiones y escisiones",
+"nota": "Simplifica obligaciones de información en fusiones y escisiones; reduce costes a las sociedades de cualquier tamaño.",
+"imp": {
+"empMicro": 1,
+"empPeq": 1,
+"empMed": 1,
+"empGran": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_0.json",
+"id": "2008/0090(COD)",
+"titulo": "Acceso público a los documentos del Parlamento Europeo, del Consejo y de la Comisión",
+"nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_0.json",
+"id": "2009/0031(CNS)",
+"titulo": "Notificación de documentos judiciales y extrajudiciales en materia civil o mercantil (modificación de la Decisión 2006/326/CE)",
+"nota": "Norma técnica, institucional o de cooperación exterior sin efecto determinable sobre colectivos en España.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_0.json",
+"id": "2009/0116(COD)",
+"titulo": "Programa de documentación de capturas de atún rojo (Thunnus thynnus)",
+"nota": "Programa de documentación de capturas de atún rojo; impone obligaciones de registro al sector pesquero.",
+"imp": {
+"secPrim": -1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_1.json",
+"id": "2009/0152(CNS)",
+"titulo": "Organización común de mercados agrícolas y se establecen disposiciones específicas para determinados productos agrícolas (Reglamento único para las OCM) (modificación del Reglamento (CE) nº 1234/2007)",
+"nota": "Incluye la leche entre los productos con medidas de crisis de la OCM durante la crisis láctea de 2009; apoyo a los ganaderos.",
+"imp": {
+"secPrim": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_2.json",
+"id": "2010/0325(COD)",
+"titulo": "Lista de documentos de viaje que permiten el cruce de las fronteras exteriores y en los que puede estamparse un visado, y creación de un mecanismo para elaborar esta lista",
+"nota": "Norma institucional, procesal o técnica sin efecto determinable sobre colectivos del ciudadano español.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_4.json",
+"id": "2011/0360(COD)",
+"titulo": "Modificación de la Directiva 2009/65/CE sobre la coordinación de las disposiciones legales, reglamentarias y administrativas sobre determinados organismos de inversión colectiva en valores mobiliarios (OICVM), y de la Directiva 2011/61/UE, relativa a los gestores de fondos de inversión alternativos, en lo que atañe a la dependencia excesiva de las calificaciones crediticias",
+"nota": "No se determina con seguridad a quién afecta en España ni con qué signo; norma técnica, institucional o de financiación.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_6.json",
+"id": "2012/0169(COD)",
+"titulo": "Documentos de datos fundamentales relativos a los productos de inversión",
+"nota": "Obliga a entregar documentos de datos fundamentales de productos de inversión; mejora la información al cliente y supone coste al sector.",
+"imp": {
+"cons": 1,
+"secFin": -1
+},
+"medidas": null,
+"peso": 2,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_6.json",
+"id": "2012/0185(COD)",
+"titulo": "Documentos de matriculación de los vehículos",
+"nota": "El título no permite determinar a quién afecta en España y con qué signo; norma técnica, institucional o de contenido no determinable.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_6.json",
+"id": "2012/0340(COD)",
+"titulo": "Accesibilidad de los sitios web de los organismos del sector público",
+"nota": "Obliga a que los sitios web del sector público sean accesibles; mejora el acceso de las personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_7.json",
+"id": "2013/0119(COD)",
+"titulo": "Facilitación de la libertad de circulación de los ciudadanos y de las empresas, simplificando la aceptación de determinados documentos públicos en la UE",
+"nota": "Sin efecto determinable sobre colectivos españoles concretos: norma técnica, institucional o financiación sin destinatario claro en España.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_7",
+"f": "clas_8.json",
+"id": "2013/0210(COD)",
+"titulo": "Control de las personas en las fronteras exteriores basado en el reconocimiento unilateral por Croacia y Chipre de determinados documentos como equivalentes a sus visados nacionales de tránsito o para estancias en sus territorios que no excedan de 90 días por periodo de 180 días",
+"nota": "Norma institucional, técnica, presupuestaria o de cooperación sin efecto directo identificable sobre colectivos en España.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_0.json",
+"id": "2013/0177(NLE)",
+"titulo": "Adhesión de Austria y Malta al Convenio de La Haya de 15 de noviembre de 1965 relativo a la notificación o traslado en el extranjero de documentos judiciales y extrajudiciales en materia civil o comercial",
+"nota": "Acuerdo o convenio internacional sin efecto determinable sobre colectivos concretos en España.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_1.json",
+"id": "2014/0297(NLE)",
+"titulo": "Celebración en nombre de la UE del Tratado de Marrakech para facilitar el acceso a las obras publicadas a las personas ciegas, con discapacidad visual o con otras dificultades para acceder a los textos impresos",
+"nota": "Facilita el acceso a obras publicadas a personas ciegas o con discapacidad visual.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_2.json",
+"id": "2015/0278(COD)",
+"titulo": "Aproximación de las disposiciones legales, reglamentarias y administrativas de los Estados miembros por lo que se refiere a los requisitos de accesibilidad de los productos y los servicios",
+"nota": "Fija requisitos de accesibilidad de productos y servicios; beneficia a las personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_2.json",
+"id": "2015/0306(COD)",
+"titulo": "Documento de viaje europeo para el retorno de los nacionales de terceros países en situación irregular",
+"nota": "Crea un documento de viaje para el retorno de nacionales de terceros países en situación irregular.",
+"imp": {
+"inmigrantes": -1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_3.json",
+"id": "2015/2085(INL)",
+"titulo": "Protección de adultos vulnerables",
+"nota": "Reconocimiento transfronterizo de las medidas de protección y mandatos de adultos vulnerables; beneficia a personas con discapacidad.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_4.json",
+"id": "2016/0278(COD)",
+"titulo": "Usos permitidos de obras y otras prestaciones protegidas por derechos de autor y derechos afines en favor de personas ciegas, con discapacidad visual o con otras dificultades para acceder al texto impreso y por la que se modifica la Directiva 2001/29/CE, relativa a la armonización de determinados aspectos de los derechos de autor y derechos afines a los derechos de autor en la sociedad de la infor",
+"nota": "Permite usos de obras protegidas en formatos accesibles para personas ciegas o con discapacidad visual.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_4.json",
+"id": "2016/0279(COD)",
+"titulo": "Intercambio transfronterizo entre la Unión y terceros países de ejemplares en formato accesible de determinadas obras y otras prestaciones protegidas por derechos de autor y derechos afines en favor de personas ciegas, con discapacidad visual o con otras dificultades para acceder al texto impreso",
+"nota": "Facilita el intercambio transfronterizo de ejemplares en formato accesible para personas ciegas o con discapacidad visual.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": true
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_4.json",
+"id": "2016/0355(COD)",
+"titulo": "Documentos de datos fundamentales relativos a los productos de inversión minorista empaquetados y los productos de inversión basados en seguros, en lo que respecta a su fecha de aplicación",
+"nota": "Aplaza la fecha de aplicación del documento de datos fundamentales de productos de inversión minorista; alivia al sector y retrasa la protección del inversor.",
+"imp": {
+"cons": -1,
+"secFin": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_7.json",
+"id": "2018/0104(COD)",
+"titulo": "Refuerzo de la seguridad de los documentos de identidad de los ciudadanos de la Unión y de los documentos de residencia expedidos a ciudadanos de la Unión y a los miembros de sus familias que ejerzan su derecho a la libre circulación",
+"nota": "El título no permite determinar a quién afecta en España ni con qué signo.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_8.json",
+"id": "2018/0186(CNS)",
+"titulo": "Documento provisional de viaje de la UE",
+"nota": "El título no permite determinar a quién afecta ni con qué signo; norma europea sin efecto claro sobre un colectivo.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_8",
+"f": "clas_8.json",
+"id": "2018/0204(COD)",
+"titulo": "Notificación y traslado en los Estados miembros de documentos judiciales y extrajudiciales en materia civil o mercantil (notificación y traslado de documentos)",
+"nota": "El título no permite determinar a quién afecta ni con qué signo; norma europea sin efecto claro sobre un colectivo.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_9",
+"f": "clas_0.json",
+"id": "2020/0302(COD)",
+"titulo": "Establecimiento de un programa de documentación de capturas de atún rojo (Thunnus thynnus) y derogación del Reglamento (UE) n.º 640/2010",
+"nota": "Establece un programa de documentación de capturas de atún rojo; añade obligaciones de trazabilidad a la pesca.",
+"imp": {
+"secPrim": -1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_9",
+"f": "clas_1.json",
+"id": "2021/0219(COD)",
+"titulo": "Modificación de la Directiva 2009/65/CE en lo que respecta a la utilización de los documentos de datos fundamentales por las sociedades de gestión de organismos de inversión colectiva en valores mobiliarios (OICVM)",
+"nota": "Norma institucional, técnica o presupuestaria de la UE sin efecto directo identificable sobre colectivos concretos.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_9",
+"f": "clas_2.json",
+"id": "2022/0021(COD)",
+"titulo": "Modificación del Reglamento (UE) n.º 1025/2012 en lo que se refiere a las decisiones de las organizaciones europeas de normalización relativas a las normas europeas y los documentos europeos de normalización",
+"nota": "El título no permite determinar a quién afecta ni con qué signo; norma institucional, procesal, técnica o sin efecto claro en España.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_9",
+"f": "clas_3.json",
+"id": "2022/0274(COD)",
+"titulo": "No reconocimiento de los documentos de viaje rusos expedidos en regiones extranjeras ocupadas",
+"nota": "El título no permite determinar a quién afecta en España ni con qué signo; norma institucional, técnica o de relaciones exteriores.",
+"imp": {},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_9",
+"f": "clas_3.json",
+"id": "2022/0402(CNS)",
+"titulo": "Competencia, Derecho aplicable, reconocimiento de las resoluciones y aceptación de los documentos públicos en materia de filiación y creación de un certificado de filiación europeo",
+"nota": "Establece el reconocimiento transfronterizo de la filiación y un certificado europeo de filiación; beneficia a las familias con hijos.",
+"imp": {
+"infancia": 1
+},
+"medidas": null,
+"peso": 1,
+"tag": false
+},
+{
+"clave": "europarlamento_9",
+"f": "clas_4.json",
+"id": "2023/0311(COD)",
+"titulo": "Creación de la Tarjeta Europea de Discapacidad y la Tarjeta Europea de Estacionamiento para personas con discapacidad",
+"nota": "Crea una tarjeta europea de discapacidad y de estacionamiento con reconocimiento en otros Estados.",
+"imp": {
+"discapacidad": 1
+},
+"medidas": null,
+"peso": 2,
+"tag": true
+}
+]

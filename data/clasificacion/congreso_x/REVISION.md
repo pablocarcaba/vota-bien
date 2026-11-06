@@ -92,3 +92,12 @@ Clasificadas con la regla «Medidas» de 3.8 por tres lectores independientes (C
 - 130/000017: se funden las dos medidas «Copago farmacéutico por renta y para pensionistas» en una (`-asal3`…`-asal6`, `-pen1`…`-pen3`, `-mayores`, `-pac`, `+pobreza`); el `imp` de la ley no cambia.
 
 - Unificación entre legislaturas (06/11/2026): 122/000033, 122/000053 y 122/000142 (excluir los crímenes del franquismo de la amnistía de 1977): `{}` → `{"victimas":1}`, peso 1, como 122/000139 (XII) y 122/000022 (XIII); el texto del BOCG repone el derecho de las víctimas a obtener justicia (3.7).
+
+## `famDisc`: familias con una hija o un hijo con discapacidad (06/11/2026)
+
+Colectivo nuevo (rúbrica 3.6.1). Las 186 leyes candidatas (todas las que llevaban `discapacidad` y las que nombran la discapacidad, la dependencia o la accesibilidad) se leyeron dos veces por separado y una tercera para resolver los desacuerdos (6 de 186). Lecturas en `data/clasificacion/lecturas_famDisc_06-11-2026/`.
+
+- [x] 121/000008, 121/000027, 121/000069, 121/000118, 121/000163 (PGE 2012-2016) y 130/000001 (RDL 20/2011): nueva medida «Subida de la asignación por hijo a cargo con discapacidad» (+`famDisc`, peso 1); cuantías comprobadas en el BOE. 121/000027 no tenía medidas: ahora lleva dos (revalorización de las pensiones, con su clasificación y peso, y la asignación).
+- [x] 130/000030 (RDL 29/2012): `famDisc` en la medida de orfandad de huérfanos con discapacidad y en una medida nueva de la asignación; no en la revalorización de las pensiones (peso 3).
+- [x] 122/000101 (deudores hipotecarios): +`famDisc`. Comprobado con el texto aprobado (Ley 1/2013, BOE): protege a la «unidad familiar en la que alguno de sus miembros tenga declarada discapacidad superior al 33 por ciento» y eleva para ella el límite de ingresos.
+- [x] 122/000195 (consentimiento para el aborto de menores y personas con la capacidad modificada): sin `famDisc`; cambia el papel de la familia sin un signo claro para ella (P4).

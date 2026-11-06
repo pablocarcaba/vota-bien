@@ -35,7 +35,8 @@
    "pen3": 1,
    "proSeg": 1,
    "prop4": -1,
-   "secInd": -1
+   "secInd": -1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones y sueldos públicos; sube IRPF y Patrimonio a rentas y patrimonios altos, Sociedades a grandes grupos, IVA de bebidas azucaradas y seguros.",
@@ -97,6 +98,13 @@
     "d": "Prórroga de los módulos y regímenes simplificados para autónomos",
     "imp": {
      "empAut": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -324,7 +332,8 @@
    "proSeg": 1,
    "secFin": -1,
    "secInd": -1,
-   "secPrim": 1
+   "secPrim": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Sube un 2 % el sueldo público, revaloriza las pensiones con el IPC, fija tributación mínima en Sociedades y prorroga los módulos.",
@@ -368,6 +377,13 @@
     "imp": {
      "empAut": 1,
      "secPrim": 1
+    },
+    "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
     },
     "peso": 1
    }
@@ -430,7 +446,8 @@
   "id": "121/000076",
   "tipo": "soc",
   "imp": {
-   "discapacidad": 1
+   "discapacidad": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Actualiza la regulación audiovisual e incluye obligaciones de accesibilidad para personas con discapacidad.",
@@ -470,7 +487,8 @@
   "tipo": "soc",
   "imp": {
    "discapacidad": 1,
-   "mujeres": 1
+   "mujeres": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Nueva ley del deporte: igualdad de mujeres deportistas, incluida la maternidad, y obligación de integrar modalidades de personas con discapacidad en las federaciones.",
@@ -791,7 +809,8 @@
    "pen3": 1,
    "proSan": 1,
    "proSeg": 1,
-   "secTrans": 1
+   "secTrans": 1,
+   "famDisc": 1
   },
   "peso": 3,
   "nota": "Revaloriza pensiones con el IPC, sube salarios públicos, rebaja IRPF a rentas bajas, Sociedades a microempresas e IVA de higiene femenina.",
@@ -849,6 +868,13 @@
      "secTrans": 1
     },
     "peso": 1
+   },
+   {
+    "d": "Subida de la asignación por hijo a cargo con discapacidad",
+    "imp": {
+     "famDisc": 1
+    },
+    "peso": 1
    }
   ]
  },
@@ -857,7 +883,8 @@
   "tipo": "soc",
   "imp": {
    "discapacidad": 1,
-   "inmigrantes": 1
+   "inmigrantes": 1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Transpone exigencias de accesibilidad de productos y servicios y facilita la migración de personas altamente cualificadas.",

@@ -566,7 +566,8 @@
   "tipo": "soc",
   "imp": {
    "discapacidad": 1,
-   "secTrans": -1
+   "secTrans": -1,
+   "famDisc": 1
   },
   "peso": 2,
   "nota": "Reconoce derechos de asistencia a personas con movilidad reducida en el avión y obliga a las compañías aéreas.",
