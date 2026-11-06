@@ -1,4 +1,4 @@
-<h1 align="center">¿A quién te conviene votar?</h1>
+<h1 align="center">¿Quién votó a tu favor?</h1>
 
 <p align="center"><b>Lo que votó cada partido en las leyes que tocan tu sueldo, tu casa, tu negocio y tu familia.</b><br>
 Leyes y votos reales, de fuentes oficiales · Cálculo trazable ley a ley · Tus respuestas se quedan en tu navegador</p>

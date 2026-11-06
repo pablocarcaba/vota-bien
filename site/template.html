@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>¿A quién te conviene votar?</title>
+<title>¿Quién votó a tu favor?</title>
 <meta name="description" content="Tú madrugas, trabajas y pagas tus impuestos. Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia, en el Congreso y en el Parlamento Europeo.">
 <meta name="theme-color" content="#0a0f1c">
 <meta property="og:type" content="website">
@@ -11,17 +11,17 @@
 <meta property="og:locale" content="es_ES">
 <link rel="canonical" href="https://www.votarbien.info/">
 <meta property="og:url" content="https://www.votarbien.info/">
-<meta property="og:title" content="¿A quién te conviene votar?">
+<meta property="og:title" content="¿Quién votó a tu favor?">
 <meta property="og:description" content="Tú madrugas, trabajas y pagas tus impuestos. Quienes te representan votan leyes. Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.">
 <meta property="og:image" content="https://www.votarbien.info/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
-<meta property="og:image:alt" content="¿A quién te conviene votar? Mira qué votó cada partido con tu sueldo, tu casa y tu familia. Lo que votaron.">
+<meta property="og:image:alt" content="¿Quién votó a tu favor? Mira qué votó cada partido con tu sueldo, tu casa y tu familia. Lo que votaron.">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="¿A quién te conviene votar?">
+<meta name="twitter:title" content="¿Quién votó a tu favor?">
 <meta name="twitter:description" content="Tú madrugas, trabajas y pagas tus impuestos. Quienes te representan votan leyes. Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.">
 <meta name="twitter:image" content="https://www.votarbien.info/og.png">
-<meta name="twitter:image:alt" content="¿A quién te conviene votar? Mira qué votó cada partido con tu sueldo, tu casa y tu familia. Lo que votaron.">
+<meta name="twitter:image:alt" content="¿Quién votó a tu favor? Mira qué votó cada partido con tu sueldo, tu casa y tu familia. Lo que votaron.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23AA151B'/%3E%3Crect y='8' width='32' height='16' fill='%23F1BF00'/%3E%3Cpath d='m9 16.5 5 5 9-10' fill='none' stroke='%231d1600' stroke-width='3.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -687,7 +687,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
   <div class="in hero-in">
     <div>
       <span class="kicker"><i aria-hidden="true"></i><span id="eyebrow">Datos oficiales</span></span>
-      <h1>¿A quién te <em>conviene</em> votar?</h1>
+      <h1>¿Quién votó <em>a tu favor</em>?</h1>
       <p class="lede">Tú madrugas, trabajas y pagas tus impuestos. <b>Quienes te representan votan leyes.</b> Mira qué votó cada partido con tu sueldo, tu casa, tu negocio y tu familia.</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="#filters" id="intro-cta">Descubre quién defendió tu bolsillo <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
@@ -2196,7 +2196,7 @@ function route(){
   $('view-quienes').hidden = h!=='quienes';
   document.body.classList.toggle('sub', sub);
   if(h==='lista') renderList(); else if(h==='metodologia') renderMethod(); else renderPanel();
-  document.title = h==='lista' ? (state.list&&state.list.who?pn(state.list.who):'Todas las iniciativas')+' · ¿A quién te conviene votar?' : h==='metodologia' ? 'Cómo se calcula · ¿A quién te conviene votar?' : h==='quienes' ? 'Quién hace esto · ¿A quién te conviene votar?' : '¿A quién te conviene votar?';
+  document.title = h==='lista' ? (state.list&&state.list.who?pn(state.list.who):'Todas las iniciativas')+' · ¿Quién votó a tu favor?' : h==='metodologia' ? 'Cómo se calcula · ¿Quién votó a tu favor?' : h==='quienes' ? 'Quién hace esto · ¿Quién votó a tu favor?' : '¿Quién votó a tu favor?';
   const hlNuevo = state.hl && state.hl!==lastHl;
   const vista = h+(aviso?'#aviso':''), antes = lastView;
   if(vista!==lastView){ lastView=vista;
