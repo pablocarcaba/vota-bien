@@ -199,6 +199,8 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .panel::before{content:"";position:absolute;left:28px;top:-1px;width:72px;height:5px;border-radius:0 0 5px 5px;background:linear-gradient(90deg,var(--rojo) 0 25%,var(--oro) 25% 75%,var(--rojo) 75%)}
 .panel h2{font-family:var(--display);font-weight:800;font-size:clamp(22px,2.2vw,27px);letter-spacing:-.025em;line-height:1.12;margin:0 0 6px}
 .panel .hint{font-size:14px;color:var(--muted);margin:0 0 14px}
+#rank-h .hlp{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:50%;color:var(--muted);vertical-align:middle;margin-left:2px;text-decoration:none}#rank-h .hlp .ico{width:22px;height:22px}#rank-h .hlp:hover,#rank-h .hlp:focus-visible{color:var(--accent);background:var(--accent-soft)}
+#rank-sec .shead,#filters .shead{align-items:center}
 .shead{display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:start;margin-bottom:8px}
 .step{position:relative;width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:var(--night);color:var(--oro);box-shadow:inset 0 0 0 1px rgba(241,191,0,.3)}
 .step .ico{width:22px;height:22px}
@@ -284,6 +286,32 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .fuente label{display:flex;flex-direction:column;gap:5px;font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;min-width:0;flex:1 1 170px}
 .fuente select{font:inherit;text-transform:none;letter-spacing:0;font-size:15px;font-weight:600;color:var(--ink);background:var(--soft);border:1px solid var(--line);border-radius:12px;padding:10px 12px;max-width:100%;width:100%}
 .fuente .hint{flex-basis:100%;margin:0;font-size:13px}
+/* selector de legislatura siempre a la vista: fuente en pestañas y una pastilla por legislatura */
+#rank-sec .fuente{background:var(--soft);border-radius:16px;margin:4px 0 10px}
+.fsel{padding:10px 16px 8px}
+.fs-top{display:flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:10px;margin-bottom:2px}
+.fuente .fs-q{display:flex;align-items:center;gap:7px;font-family:var(--display);font-weight:800;font-size:15px !important;line-height:1.2;white-space:nowrap;letter-spacing:-.01em;color:var(--ink);margin:0}
+.fuente .fs-q .fsq-l{font-weight:600;color:var(--muted)}
+.fuente .fs-q .ico{width:18px;height:18px;color:var(--accent)}
+.fsel .tabs{margin:0;padding:3px;border-radius:11px}.fsel .tab{padding:5px 11px;font-size:13.5px;border-radius:8px;white-space:nowrap}
+/* línea de tiempo: se arrastra y el ranking cambia de legislatura (las marcas también se pueden pulsar) */
+.tl{--n:6;--th:24px;position:relative;padding:0}
+.tl input[type=range]{-webkit-appearance:none;appearance:none;display:block;background:transparent;height:30px;cursor:pointer;width:calc(100% - 100% / var(--n) + var(--th));margin:0 0 0 calc(50% / var(--n) - var(--th) / 2)}
+.tl input[type=range]::-webkit-slider-runnable-track{height:6px;border-radius:999px;background:linear-gradient(90deg,var(--accent) 0 var(--p,0%),var(--line) var(--p,0%))}
+.tl input[type=range]::-moz-range-track{height:6px;border-radius:999px;background:linear-gradient(90deg,var(--accent) 0 var(--p,0%),var(--line) var(--p,0%))}
+.tl input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:var(--th);height:var(--th);margin-top:-9px;border-radius:50%;background:var(--accent);border:4px solid var(--sheet);box-shadow:0 0 0 2px var(--accent),0 4px 10px rgba(0,0,0,.2)}
+.tl input[type=range]::-moz-range-thumb{width:18px;height:18px;border-radius:50%;background:var(--accent);border:4px solid var(--sheet);box-shadow:0 0 0 2px var(--accent),0 4px 10px rgba(0,0,0,.2)}
+.tl input[type=range]:focus-visible{outline:none}
+.tl input[type=range]:focus-visible::-webkit-slider-thumb{box-shadow:0 0 0 2px var(--accent),0 0 0 6px color-mix(in srgb,var(--accent) 35%,transparent)}
+.tl-m{display:grid;grid-template-columns:repeat(var(--n),minmax(0,1fr));margin-top:-2px}
+.tl-m button{background:none;border:none;padding:2px 2px 4px;font:inherit;cursor:pointer;color:var(--muted);display:flex;flex-direction:column;align-items:center;gap:1px;text-align:center;min-width:0}
+.tl-m b{font-size:14px;font-weight:800;color:var(--ink);line-height:1.15}
+.tl-m small{font-size:11.5px;font-variant-numeric:tabular-nums;line-height:1.2}
+.tl-m button[aria-current="true"] b{color:var(--accent)}
+.tl-m button[aria-current="true"] small{color:var(--ink);font-weight:600}
+.tl-m button:hover b{color:var(--accent)}
+.fsel .hint{margin:10px 0 0;font-size:13px;color:var(--muted)}
+@media (max-width:640px){.fsel{padding:9px 12px 6px}.fsel .tab{padding:5px 9px;font-size:13px}.fs-q .fsq-l{display:none}.tl-m small{font-size:10.5px}.tl-m b{font-size:13px}}
 
 /* resultado */
 .tabs{display:inline-flex;gap:4px;padding:5px;background:var(--soft);border-radius:14px;margin:6px 0 14px;max-width:100%}
@@ -341,7 +369,7 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .prog-ok{color:var(--pos-ink);font-weight:600;display:inline-flex;align-items:center;gap:5px}
 .prog-ok .ico{width:16px;height:16px;stroke-width:3}
 .empty{font-size:15px;color:var(--muted);padding:16px;background:var(--soft);border-radius:14px}
-.rrow{display:grid;grid-template-columns:42px minmax(0,1fr) auto;grid-template-areas:"pos who sc" "pos dv dv" "pos det det";align-items:center;gap:7px 14px;padding:14px 16px;width:100%;background:var(--sheet);border:1px solid var(--line);border-radius:18px;color:inherit;font-family:inherit;text-align:left;cursor:pointer;transition:border-color .15s ease,transform .15s ease,box-shadow .15s ease}
+.rrow{display:grid;grid-template-columns:42px minmax(0,1fr) auto auto;grid-template-areas:"pos who sc ir" "pos dv dv ir" "pos det det ir";align-items:center;gap:7px 14px;padding:14px 16px;width:100%;background:var(--sheet);border:1px solid var(--line);border-radius:18px;color:inherit;font-family:inherit;text-align:left;cursor:pointer;transition:border-color .15s ease,transform .15s ease,box-shadow .15s ease}
 .rrow:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:var(--shadow)}
 .rrow .pos{grid-area:pos;align-self:start;font-family:var(--display);font-weight:800;font-size:16px;width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:var(--soft);color:var(--muted)}
 .rrow .who{grid-area:who;min-width:0;display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 10px}
@@ -360,8 +388,15 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 @keyframes crece{from{transform:scaleX(0)}}
 @keyframes entra{from{opacity:0;transform:translateY(6px)}}
 .rrow .det{grid-area:det;font-size:13px;color:var(--muted)}
-.rrow .go{color:var(--accent);font-weight:700;white-space:nowrap}
-.scale{display:grid;grid-template-columns:1fr auto 1fr;font-size:12px;font-weight:600;color:var(--muted);padding:0 16px 0 72px;margin-top:-2px}
+/* «Ver detalle ›»: dice a simple vista que cada fila abre la ficha del partido */
+.rrow .ir{grid-area:ir;align-self:center;display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:700;white-space:nowrap;color:var(--accent);background:var(--accent-soft);border-radius:999px;padding:9px 12px 9px 15px;transition:background .15s ease,color .15s ease}
+.rrow .ir b{font-size:20px;line-height:.8;font-weight:800}
+.rrow:hover .ir,.rrow:focus-visible .ir{background:var(--accent);color:var(--accent-ink)}
+/* el botón del primer partido late dos veces al salir el ranking, para que se vea que se puede abrir */
+@keyframes llama{0%,100%{box-shadow:0 0 0 0 color-mix(in srgb,var(--accent) 45%,transparent)}50%{box-shadow:0 0 0 9px transparent}}
+@media (prefers-reduced-motion:no-preference){.anim .rrow.pri .ir{animation:llama 1.2s ease-out .9s 2}}
+@media (max-width:640px){.rrow{grid-template-columns:42px minmax(0,1fr) auto;grid-template-areas:"pos who sc" "pos dv dv" "pos det det" "pos ir ir"}.rrow .ir{justify-self:start;margin-top:3px}}
+.scale{margin-top:6px !important;display:grid;grid-template-columns:1fr auto 1fr;font-size:12px;font-weight:600;color:var(--muted);padding:0 16px 0 72px;margin-top:-2px}
 .scale span:nth-child(2){text-align:center}
 @media (max-width:520px){.scale .w{display:none}}.scale span:last-child{text-align:right}
 .legend[hidden],.tabs[hidden],.rtools[hidden]{display:none}
@@ -374,6 +409,14 @@ body.sub .wrap{margin-top:-24px;padding-top:0}
 .pchip-n{flex-basis:100%;margin:-6px 0 0;font-size:12.5px;color:var(--muted)}
 @media (max-width:480px){.rtools .tabs{flex:1 1 100%}.pchipsel{flex:1 1 100%;border-radius:16px}.pchipsel select{flex:1 1 auto}}
 #raj{flex:1 1 100%;min-width:0}#raj:empty{display:none}
+/* barra compacta: pestañas y provincia en una línea, «Ajustar» debajo */
+.rtools{gap:8px 10px;margin:2px 0 10px}
+.rtools .tabs{padding:3px;border-radius:11px}.rtools .tab{padding:6px 12px;font-size:14px;border-radius:8px;gap:6px}.rtools .tab .ico{width:15px;height:15px}.rtools .tab .tl,.rtools .tab .c{display:none}.rtools .tab{text-transform:capitalize}
+.rtools .pchipsel{padding:3px 4px 3px 10px;gap:6px;font-size:13.5px}.rtools .pchipsel select{min-height:34px;padding:5px 10px;font-size:13.5px}
+.rtools .pchip-n{margin:-4px 0 0}
+.rtools .ajustar{border-radius:12px}.rtools .ajustar summary{min-height:38px;padding:3px 10px 3px 6px;gap:8px}.rtools .ajustar summary .gi{width:26px;height:26px;border-radius:8px}.rtools .ajustar summary .gt{font-size:14px}.rtools .ajustar summary .gt small{font-size:12px}
+.rtools .pchipsel{flex-wrap:nowrap}.rtools .pchipsel label{white-space:nowrap}
+@media (max-width:480px){.rtools .tab{padding:7px 8px}.rtools .pchipsel{border-radius:12px}.rtools .pchipsel select{min-width:0;flex:1 1 auto}}
 .ajustar{border:1px solid var(--line);border-radius:16px;background:var(--sheet)}
 .ajustar summary{list-style:none;display:flex;align-items:center;gap:10px;padding:6px 12px 6px 8px;min-height:46px;cursor:pointer}
 .ajustar summary::-webkit-details-marker{display:none}
@@ -652,6 +695,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
   <symbol id="i-cal" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></symbol>
   <symbol id="i-home" viewBox="0 0 24 24"><path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/></symbol>
   <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-12a7 7 0 0 1 14 0c0 5.8-7 12-7 12z"/><circle cx="12" cy="9" r="2.5"/></symbol>
+  <symbol id="i-help" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.6 9.4a2.5 2.5 0 1 1 3.4 2.3c-.6.3-1 .8-1 1.5v.6M12 16.8v.4"/></symbol>
   <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.5"/></symbol>
   <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M12 5v14m0 0-6-6m6 6 6-6"/></symbol>
   <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 5v14M15 5v14"/></symbol>
@@ -723,9 +767,9 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
     <div class="grid">
       <section class="panel" id="filters" aria-labelledby="filters-h"></section>
       <div class="main results">
-        <div class="panel fuente" id="fuente" role="group" aria-label="Fuente y legislatura"></div>
         <section class="panel" id="rank-sec">
-          <div class="shead"><span class="step" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span><div><h2 id="rank-h" tabindex="-1">Cómo han votado en lo que te afecta</h2><p class="hint" id="rank-hint"></p></div></div>
+          <div class="shead"><span class="step" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span><div><h2 id="rank-h" tabindex="-1">Cómo han votado en lo que te afecta <a class="hlp" href="#metodologia" aria-label="Cómo se calcula la nota" title="Cómo se calcula"><svg class="ico" aria-hidden="true"><use href="#i-help"/></svg></a></h2><p class="hint" id="rank-hint" hidden></p></div></div>
+          <div class="fuente" id="fuente" role="group" aria-label="Fuente y legislatura"></div>
           <div class="rtools" id="rtools"><div class="tabs" role="group" id="tabs" aria-label="Tipo de leyes"></div><div id="rprov"></div><div id="raj"></div></div>
           <div class="rank" id="rank"></div>
         </section>
@@ -1126,7 +1170,7 @@ function setProv(v){
 // selector de provincia agrupado por comunidad (orden alfabético); el mismo estado en el paso 3 y junto al ranking
 function provSelect(dk, attrs, val){
   const s = el('select',{'data-k':dk, ...attrs});
-  s.appendChild(new Option('Toda España (todos los partidos)','',false,!val));
+  s.appendChild(new Option('Toda España','',false,!val));
   COMS.forEach(c=>{ const g=el('optgroup',{label:c.nombre}); c.provs.forEach(p=>g.appendChild(new Option(AMB.provincias[p],p,false,p===val))); s.appendChild(g); });
   s.addEventListener('change',()=>setProv(s.value));
   return s;
@@ -1429,7 +1473,7 @@ function resumen(i){
 }
 function renderFilters(){
   const f=$('filters'); f.innerHTML='';
-  f.appendChild(el('div',{class:'shead'},'<span class="step" aria-hidden="true"><svg class="ico"><use href="#i-sliders"/></svg></span><div><h2 id="filters-h" tabindex="-1">Marca tu situación</h2><p class="hint">Tres pasos y ves tu resultado; el cuarto es opcional. Solo te pedimos lo imprescindible para calcular bien tu nota.</p></div>'));
+  f.appendChild(el('div',{class:'shead'},'<span class="step" aria-hidden="true"><svg class="ico"><use href="#i-sliders"/></svg></span><div><h2 id="filters-h" tabindex="-1">Marca tu situación</h2></div>'));
   if(DESHACER){
     const u=el('p',{class:'undo'},'<span>Has borrado tus respuestas de este navegador.</span>');
     u.appendChild(el('button',{type:'button',class:'linkbtn','data-k':'deshacer',onclick:deshacer},'Deshacer'));
@@ -1528,11 +1572,12 @@ function renderRank(){
   $('rtools').hidden = !fin;
   if(!fin){
     mb.hidden=true;
+    $('rank-hint').hidden = false;
     $('rank-hint').textContent = 'Tu ranking sale al terminar los '+NOBL+' primeros pasos, para que no veas un resultado con tu perfil a medias.';
     r.appendChild(espera());
     return;
   }
-  $('rank-hint').innerHTML = 'Nota de −100 a +100 según lo que votó cada partido en las leyes que te afectan. <b>Pulsa un partido para verlo ley a ley.</b> <a href="#metodologia">Cómo se calcula</a>';
+  $('rank-hint').hidden = true; $('rank-hint').textContent = '';
   renderProvChip();
   // «Ajustar el ranking» va en la barra de arriba, con las pestañas y la provincia: filtra lo que viene debajo
   $('raj').appendChild(ajustarEl());
@@ -1549,11 +1594,10 @@ function renderRank(){
   const fuera = all.filter(x=>!seVota(x.k)).length, nAqui = all.length-fuera;
   const pocos = state.hideFew ? all.filter(x=>seVota(x.k) && x.rel<3).length : 0;
   if(!rows.length){ mb.hidden=true; r.appendChild(el('div',{class:'empty'}, !all.length ? 'Ninguna ley de esta pestaña afecta a tu perfil. Prueba con la otra pestaña o marca más rasgos.'
-    : !nAqui ? `Ninguno de los partidos con leyes que te afectan se presenta en ${esc(provName())}. Elige «Toda España» en «¿En qué provincia votas?» para verlos.`
+    : !nAqui ? `Ninguno de los partidos con leyes que te afectan se presenta en ${esc(provName())}. Elige «Toda España» en «¿Dónde votas?» para verlos.`
     : nAqui===1 ? 'El único partido con iniciativas que te afectan tiene menos de 3: desmarca «Ocultar partidos con menos de 3 leyes» en «Ajustar el ranking» para verlo.' : `Los ${nAqui} partidos con iniciativas que te afectan tienen menos de 3: desmarca «Ocultar partidos con menos de 3 leyes» en «Ajustar el ranking» para verlos.`));
     return; }
   r.classList.toggle('anim', state.anim); state.anim=false;
-  r.appendChild(el('div',{class:'scale','aria-hidden':'true'},'<span>← −100<span class="w"> En tu contra</span></span><span>0</span><span>+100<span class="w"> A tu favor</span> →</span>'));
   // empate en cabeza: las filas empatadas van juntas en un bloque, con la nota encima y el mismo puesto (puestoDe())
   const tf = tecFrase(rows);
   let blk = null;
@@ -1563,7 +1607,7 @@ function renderRank(){
     r.appendChild(blk);
   }
   // puesto con empates: misma nota, mismo puesto (ranked())
-  rows.forEach(x=>{
+  rows.forEach((x,i)=>{
     const puesto = puestoDe(x);
     const w = Math.abs(x.s)/2, [vc,vt] = veredicto(x.s, x.rel);
     const bar = x.s>=0 ? `<span class="p" style="width:${w}%"></span>` : `<span class="n" style="width:${w}%"></span>`;
@@ -1574,9 +1618,11 @@ function renderRank(){
     // matiz del mapa de ámbitos (dónde no se presenta igual), solo con el filtro activo
     const nota = filtraProv() && AMB.notas[x.k] ? AMB.notas[x.k] : '';
     const amb = nota ? `<span class="amb-n"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>${esc(nota)}</span>` : '';
-    (x.tec && blk ? blk : r).appendChild(el('button',{class:'rrow'+(x.tec?' tec':''),'data-p':x.k,'aria-label':`${puesto}.º ${pn(x.k)}${empTxt(x)}: ${vt.toLowerCase()}, nota ${x.s}${x.rel<3?', pocos datos':''}. ${det}.${nota?' Aviso: '+nota:''} Ver ley a ley`,onclick:()=>openList(x.k,null)},
-      `<span class="pos">${puesto}.º</span><span class="who"><span class="nm">${esc(pn(x.k))}</span><span class="vd v-${vc}">${vt}</span>${emp}${few}${amb}</span><span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="dv">${bar}</span><span class="det">${det} · <span class="go">Ver ley a ley ›</span></span>`));
+    (x.tec && blk ? blk : r).appendChild(el('button',{class:'rrow'+(x.tec?' tec':'')+(i===0?' pri':''),'data-p':x.k,'aria-label':`${puesto}.º ${pn(x.k)}${empTxt(x)}: ${vt.toLowerCase()}, nota ${x.s}${x.rel<3?', pocos datos':''}. ${det}.${nota?' Aviso: '+nota:''} Ver ley a ley`,onclick:()=>openList(x.k,null)},
+      `<span class="pos">${puesto}.º</span><span class="who"><span class="nm">${esc(pn(x.k))}</span><span class="vd v-${vc}">${vt}</span>${emp}${few}${amb}</span><span class="sc v-${vc}">${x.s>0?'+':''}${x.s}</span><span class="dv">${bar}</span><span class="det">${det}</span><span class="ir" aria-hidden="true"><span>Ver detalle</span><b>›</b></span>`));
   });
+  // escala de las barras, como leyenda bajo el ranking
+  r.appendChild(el('div',{class:'scale','aria-hidden':'true'},'<span>← −100<span class="w"> En tu contra</span></span><span>0</span><span>+100<span class="w"> A tu favor</span> →</span>'));
   mb.hidden=false;
   mb.innerHTML = `<span>Tu ranking está listo<br><b>${rows.length} partidos comparados</b></span><span class="go">Verlo ↓</span>`;
   const notaProv = !filtraProv() ? '' : fuera ? ` <b>${fuera} partido${fuera>1?'s':''} oculto${fuera>1?'s':''} porque no se presenta${fuera>1?'n':''} en ${esc(provName())}.</b>` : ` Todos los partidos con leyes que te afectan se presentan en ${esc(provName())}.`;
@@ -1586,15 +1632,15 @@ function renderRank(){
   r.appendChild(top5());
   r.appendChild(el('button',{type:'button',class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las leyes de la legislatura, una a una →'));
 }
-// «¿En qué provincia votas?»: chip editable sobre el ranking; filtra filas, nunca la nota. En las europeas, deshabilitado y explicado
+// «¿Dónde votas?»: chip editable sobre el ranking; filtra filas, nunca la nota. En las europeas, deshabilitado y explicado
 function renderProvChip(){
   const box=$('rprov'); box.innerHTML='';
   const eu = europeas(), w = el('div',{class:'pchipsel'});
-  w.appendChild(el('label',{for:'prov-sel'},'<svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>¿En qué provincia votas?'));
+  w.appendChild(el('label',{for:'prov-sel'},'<svg class="ico" aria-hidden="true"><use href="#i-pin"/></svg>¿Dónde votas?'));
   const s = provSelect('prov-sel',{id:'prov-sel','aria-describedby':'prov-d'}, eu?'':state.prov);
   if(eu) s.disabled = true;
   w.appendChild(s); box.appendChild(w);
-  box.appendChild(el('p',{class:'pchip-n',id:'prov-d'}, eu ? 'En las europeas España es una circunscripción única: puedes votar a cualquier lista desde cualquier lugar.'
+  box.appendChild(el('p',{class:'pchip-n'+(!eu&&!state.prov?' sr-only':''),id:'prov-d'}, eu ? 'En las europeas España es una circunscripción única: puedes votar a cualquier lista desde cualquier lugar.'
     : state.prov ? `Ves solo los partidos a los que puedes votar en ${esc(provName())}. No cambia ninguna nota.` : 'Elige tu provincia para ver solo los partidos a los que puedes votar ahí. No cambia ninguna nota.'));
 }
 // «Ajustar el ranking»: leyenda y casillas del cálculo, plegado en la barra de arriba, con un resumen de lo activo en una línea
@@ -2120,8 +2166,8 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>Para cada partido se toman las iniciativas que afectan a tu perfil y se cuenta cada una una sola vez, según la mejor prueba que haya de su postura. Lo que más pesa es cómo votó: votar el texto final o la convalidación de un real decreto-ley cuenta 1; la toma en consideración o una enmienda a la totalidad, 0,5, porque solo decide si se debate. Las iniciativas que el partido presentó pero no llegó a votar en el Pleno cuentan 0,25: presentar una ley cuesta poco y no siempre busca aprobarla. Las abstenciones no cuentan.</p>
     <p>Además, cada iniciativa pesa según su alcance: una gran reforma como 9 leyes menores y una ley relevante como 3. Las leyes ómnibus (las que reúnen medidas distintas, como muchos reales decretos-ley) se clasifican medida a medida: solo cuentan las medidas que te afectan, la ley pesa como la mayor de ellas y su efecto es el saldo de esas medidas según su peso; si te afectan dos a favor y una en contra, la ley suma en proporción en vez de quedar como mixta. Las iniciativas con el mismo contenido (la misma proposición presentada varias veces o por varios grupos, o un real decreto-ley y el proyecto de ley que procede de él) cuentan una sola vez por partido, con la mejor prueba de su postura. Si una iniciativa solo te afecta por «Ciudadanía general» o como persona consumidora, pesa la mitad: así lo que es común a todo el mundo no tapa tus rasgos propios; si además toca algún rasgo tuyo, pesa entera. Las que te favorecen suman, las que te perjudican restan y las mixtas cuentan en el total sin sumar ni restar. Al total se le suman 9 puntos neutros de prudencia, el peso de una gran reforma, para que un partido con pocas leyes no saque una nota extrema: el saldo es (a favor − en contra) ÷ (total + 9) × 100, de −100 a +100. Con muchas leyes la prudencia apenas cuenta; con pocas, acerca la nota a 0. Ejemplo: votar a favor de una gran reforma que te beneficia (9 × 1) y votar en contra de tres leyes menores que te benefician (3 × 1) dan (9 − 3) ÷ (12 + 9) × 100 = +29. Sin la prudencia saldría +50.</p>
     <p>${DATA.meta.formato==='europarlamento' ? 'La Comisión Europea no aparece en el ranking: sus propuestas cuentan a través de cómo las votó cada partido.' : 'El Gobierno no aparece en el ranking: sus proyectos de ley y reales decretos-ley cuentan a través de cómo los votó cada partido.'}</p>
-    <p>${DATA.meta.formato==='europarlamento' ? 'Junto al ranking puedes elegir «¿En qué provincia votas?» en las legislaturas del Congreso. En las elecciones europeas no se aplica: España es una circunscripción única y puedes votar a cualquier lista desde cualquier lugar.'
-      : 'Con «¿En qué provincia votas?», junto al ranking, ves solo los partidos a los que se puede votar en tu provincia: los de ámbito estatal y los que se presentan en tu provincia o en tu comunidad. El filtro solo oculta filas, como «Ocultar partidos con menos de 3 leyes»: no cambia la nota de nadie, y los puestos se cuentan de nuevo entre los partidos que quedan. Un partido que no esté en el mapa se muestra siempre.'}
+    <p>${DATA.meta.formato==='europarlamento' ? 'Junto al ranking puedes elegir «¿Dónde votas?» en las legislaturas del Congreso. En las elecciones europeas no se aplica: España es una circunscripción única y puedes votar a cualquier lista desde cualquier lugar.'
+      : 'Con «¿Dónde votas?», junto al ranking, ves solo los partidos a los que se puede votar en tu provincia: los de ámbito estatal y los que se presentan en tu provincia o en tu comunidad. El filtro solo oculta filas, como «Ocultar partidos con menos de 3 leyes»: no cambia la nota de nadie, y los puestos se cuentan de nuevo entre los partidos que quedan. Un partido que no esté en el mapa se muestra siempre.'}
       <span class="tag-int">Asignación nuestra</span>Dónde se presenta cada partido no es un dato del ${srcName()}: ${esc(AMB.criterio || 'es el ámbito en el que se presenta habitualmente a las elecciones generales.')}</p>
     <p class="dlinks">${repoLink('Ver dónde se presenta cada partido (GitHub)','/blob/main/data/ambito_partidos.json')}</p>
     <h3>Cómo se colorea</h3>
@@ -2249,26 +2295,47 @@ function anunciar(){
 }
 
 // ---------- fuente y legislatura ----------
+let TL_T=null;
 function renderFuente(){
-  const box=$('fuente'); box.innerHTML='';
+  // siempre a la vista: fuente en pestañas y una línea de tiempo (de la más antigua a la más reciente) que se arrastra
+  const box=$('fuente');
   const cur=CATALOGO.find(c=>c.clave===state.ds);
+  const legs=CATALOGO.filter(c=>c.fuente===cur.fuente).slice().reverse();
+  const idx=legs.findIndex(c=>c.clave===state.ds);
+  const pinta=(tl,i)=>{  // posición, texto para lectores de pantalla y marca actual
+    const r=tl.querySelector('input'); r.value=i; r.style.setProperty('--p',(legs.length>1?i/(legs.length-1)*100:0)+'%');
+    r.setAttribute('aria-valuetext',legs[i].fuente_txt+', '+legs[i].titulo);
+    tl.querySelectorAll('.tl-m button').forEach((b,k)=>b.setAttribute('aria-current',String(k===i)));
+  };
+  // mientras se arrastra no se reconstruye (perdería el foco y el arrastre): solo se actualiza
+  const prev=box.querySelector('.tl');
+  if(prev && prev.dataset.fuente===cur.fuente){ pinta(prev,idx); return; }
+  box.innerHTML='';
   const fuentes=[...new Map(CATALOGO.map(c=>[c.fuente,c.fuente_txt])).entries()];
-  const sF=el('select',{'data-k':'fuente-f'});
-  fuentes.forEach(([k,t])=>sF.appendChild(new Option(t,k,false,k===cur.fuente)));
-  const sL=el('select',{'data-k':'fuente-l'});
-  CATALOGO.filter(c=>c.fuente===cur.fuente).forEach(c=>sL.appendChild(new Option(c.titulo,c.clave,false,c.clave===state.ds)));
-  sF.addEventListener('change',()=>load(CATALOGO.find(c=>c.fuente===sF.value).clave));
-  sL.addEventListener('change',()=>load(sL.value));
-  const l1=el('label',{},'<span>Fuente</span>'); l1.appendChild(sF);
-  const l2=el('label',{},'<span>Legislatura</span>'); l2.appendChild(sL);
-  // línea compacta que despliega los selectores; el estado abierto sobrevive a la recarga del dataset
-  const d=el('details',{}); if(state.fOpen) d.open=true;
-  d.addEventListener('toggle',()=>{ state.fOpen=d.open; });
-  d.appendChild(el('summary',{'data-k':'fuente-s'}, `<svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg><span class="fs-t">Datos: <b class="eb-l">${esc(cur.fuente_txt)} · ${esc(cur.titulo)}</b><b class="eb-s">${esc((cur.fuente==='europarlamento'?'Parlamento Europeo':'Congreso')+' · '+(cur.titulo.split(' · ')[1]||cur.titulo))}</b></span><span class="linkbtn" aria-hidden="true">Cambiar</span><span class="sr-only">. Cambiar fuente o legislatura</span>`));
-  const b=el('div',{class:'fbody'});
-  b.appendChild(l1); b.appendChild(l2);
-  b.appendChild(el('p',{class:'hint'},'Cada fuente y legislatura se analiza por separado: los partidos y grupos cambian entre ellas.'));
-  d.appendChild(b); box.appendChild(d);
+  const w=el('div',{class:'fsel'});
+  const top=el('div',{class:'fs-top'});
+  top.appendChild(el('h2',{class:'fs-q',id:'fsel-h'},'<svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg><span>Legislatura<span class="fsq-l">: desliza para cambiar</span></span>'));
+  const tf=el('div',{class:'tabs',role:'group','aria-label':'Fuente'});
+  fuentes.forEach(([k,t])=>{
+    const corto = k==='europarlamento' ? 'P. Europeo' : 'Congreso';
+    tf.appendChild(el('button',{type:'button',class:'tab','data-k':'src-'+k,'aria-pressed':String(k===cur.fuente),'aria-label':t,onclick:()=>{ if(k!==cur.fuente) load(CATALOGO.find(c=>c.fuente===k).clave); }}, esc(corto)));
+  });
+  top.appendChild(tf); w.appendChild(top);
+  const tl=el('div',{class:'tl','data-fuente':cur.fuente,style:'--n:'+legs.length});
+  const r=el('input',{type:'range',min:'0',max:String(legs.length-1),step:'1','data-k':'tl-'+cur.fuente,'aria-labelledby':'fsel-h'});
+  const ir=(i,ya)=>{ pinta(tl,i); clearTimeout(TL_T); const c=legs[i].clave; if(c===state.ds) return; if(ya) load(c); else TL_T=setTimeout(()=>load(c),180); };
+  r.addEventListener('input',()=>ir(+r.value,false));
+  r.addEventListener('change',()=>ir(+r.value,true));
+  tl.appendChild(r);
+  const m=el('div',{class:'tl-m'});
+  legs.forEach((c,i)=>{
+    const [nom,anos]=c.titulo.split(' · ');
+    m.appendChild(el('button',{type:'button',tabindex:'-1','aria-hidden':'true',onclick:()=>{ ir(i,true); r.focus({preventScroll:true}); }},
+      `<b>${esc(nom.replace(/ legislatura$/,''))}</b><small>${esc((anos||'').replace(/^(\d{4})–(\d{2})(\d{2})$/,'$1–$3'))}</small>`));
+  });
+  tl.appendChild(m); w.appendChild(tl);
+  w.appendChild(el('p',{class:'sr-only'},'El ranking cambia con tu mismo perfil. Cada legislatura se analiza por separado, porque los partidos y grupos cambian entre ellas.'));
+  box.appendChild(w); pinta(tl,idx);
 }
 async function getData(clave){
   if(!CACHE[clave]){ const r=await fetch('data/'+clave+'.json'); if(!r.ok) throw new Error(r.status); CACHE[clave]=await r.json(); }
