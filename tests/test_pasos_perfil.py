@@ -14,14 +14,15 @@ from helpers import REPO
 TEMPLATE = os.path.join(REPO, "site", "template.html")
 
 PASOS = [
-    ("Tú y tu familia", False, ["edad", "hij", "sexo", "civ", "car"]),
+    ("Tú y tu familia", False, ["edad", "hij", "fdi", "sexo", "civ", "car"]),
     ("Trabajo e ingresos", False, ["sit", "asal", "fun", "pro", "emp", "sec", "pen", "des", "ayu"]),
     ("Vivienda y ahorros", False, ["donde", "nviv", "alq", "hip", "prop", "rur"]),
-    ("Salud y situación personal", True, ["ori", "soc", "fdi"]),
+    ("Salud y situación personal", True, ["ori", "soc"]),
 ]
-PASO4_PRIVADO = {"lgtbi", "pac", "depend", "discapacidad", "famDisc", "inmigrantes", "minorias", "victimas", "socNo"}
-# fuera del paso 4, solo «Otro» en sexo (paso 1) no viaja: puede revelar la identidad de género
-PRIVADO_FUERA_DEL_PASO4 = {"sexOtro"}
+PASO4_PRIVADO = {"lgtbi", "pac", "depend", "discapacidad", "inmigrantes", "minorias", "victimas", "socNo"}
+# fuera del paso 4 no viajan «Otro» en sexo (puede revelar la identidad de género) y tener una hija o un hijo con
+# discapacidad (dato de salud de un tercero), los dos del paso 1
+PRIVADO_FUERA_DEL_PASO4 = {"sexOtro", "famDisc"}
 PRIVADO = PASO4_PRIVADO | PRIVADO_FUERA_DEL_PASO4
 
 
@@ -42,7 +43,9 @@ class PasosPerfilTest(unittest.TestCase):
 process.stdout.write(JSON.stringify({
   pasos: PASOS.map(P=>({t:P.t, opt:!!P.opt, q:P.q.map(q=>q.id), opts:P.q.map(qOpts)})),
   cat: Object.fromEntries(PASOS.flatMap(P=>P.q).map(q=>[q.id, q.cat||null])),
-  privado: [...PRIVADO], implica: IMPLICA}));"""
+  privado: [...PRIVADO], implica: IMPLICA,
+  fdiVisible: Object.fromEntries(['hij0','hij1','hij2','hij3',''].map(h=>{ state.sel=new Set(h?[h]:[]);
+    return [h||'sin', PASOS[0].q.find(q=>q.id==='fdi').si()]; }))}));"""
         out = subprocess.run(["node", "-e", js], capture_output=True, text=True, check=True).stdout
         cls.d = json.loads(out)
 
@@ -60,6 +63,13 @@ process.stdout.write(JSON.stringify({
     def test_sex_otro_es_una_respuesta_de_sexo_del_paso_1(self):
         paso1 = self.d["pasos"][0]
         self.assertIn("sexOtro", paso1["opts"][paso1["q"].index("sexo")])
+
+    def test_hijo_con_discapacidad_solo_si_tiene_hijos(self):
+        # como la hipoteca o el alquiler, que solo aparecen si tienes vivienda: va justo después de los hijos
+        paso1 = self.d["pasos"][0]
+        self.assertEqual(paso1["q"].index("fdi"), paso1["q"].index("hij") + 1)
+        self.assertEqual(paso1["opts"][paso1["q"].index("fdi")], ["famDisc"])
+        self.assertEqual(self.d["fdiVisible"], {"hij0": False, "hij1": True, "hij2": True, "hij3": True, "sin": False})
 
     def test_viajan_en_el_enlace(self):
         # como antes de la v8: lo personal que no es una categoría especial de datos sí va en el enlace

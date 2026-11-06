@@ -219,7 +219,7 @@ Si la protección del consumidor supone un coste para el sector regulado, −1 a
 - Condiciones laborales del personal sanitario, de los docentes o de las fuerzas de seguridad (salarios, equiparación, jubilación, condición de agente de la autoridad) → `proSan`/`proDoc`/`proSeg`. Se marcan solo si la ley regula esas condiciones; una reforma educativa o sanitaria que no las toca no marca `proDoc` ni `proSan`.
 
 #### 3.6.1 Familias con una hija o un hijo con discapacidad (`famDisc`)
-`famDisc` es el hogar de quien tiene a su cargo una hija o un hijo con discapacidad, menor o mayor de edad. En la web lo marca la madre, el padre o el tutor; la propia persona con discapacidad marca `discapacidad`. Se aplica la prueba de efecto (3.1.2) a ese hogar.
+`famDisc` es el hogar de quien tiene a su cargo una hija o un hijo con discapacidad, menor o mayor de edad. En la web lo marca la madre, el padre o el tutor, en el paso 1, y solo se pregunta a quien tiene hijas o hijos menores a cargo; la propia persona con discapacidad marca `discapacidad`. Se aplica la prueba de efecto (3.1.2) a ese hogar.
 
 | Se marca `famDisc` (con el signo de la medida) | No se marca `famDisc` |
 |------------------------------------------------|-----------------------|

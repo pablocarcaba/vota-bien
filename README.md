@@ -42,10 +42,10 @@ Un asistente de cuatro pasos. **Tu ranking sale al terminar el paso 3**, para qu
 
 | Paso | Qué te pregunta |
 |:---:|---|
-| **1 · Tú y tu familia** | Tu edad y si tienes hijos menores a cargo. Si quieres, también tu sexo, tu estado civil y si cuidas de una persona dependiente. |
+| **1 · Tú y tu familia** | Tu edad y si tienes hijos menores a cargo; si los tienes, también si alguno tiene discapacidad (dato privado, no va en los enlaces). Si quieres, también tu sexo, tu estado civil y si cuidas de una persona dependiente. |
 | **2 · Trabajo e ingresos** | De qué vives. Según lo que marques, te pregunta tu tramo de IRPF (con «No lo sé»), tu subgrupo de funcionario, tu empresa y su sector, tu pensión o lo que cobras en paro. Si quieres, también si recibes alguna ayuda social (IMV, bono social…). |
 | **3 · Vivienda y ahorros** | Dónde vives, cuántas viviendas tienes, si alquilas alguna, si tienes hipoteca y tus ahorros sin contar tu casa. Si quieres, también si vives en el medio rural. |
-| **4 · Salud y situación personal** *(opcional)* | Datos sensibles: orientación, salud o enfermedad crónica, dependencia, discapacidad, si tienes a tu cargo una hija o un hijo con discapacidad, origen o minoría y si eres víctima. Nada de este paso va en los enlaces que compartes. |
+| **4 · Salud y situación personal** *(opcional)* | Datos sensibles: orientación, salud o enfermedad crónica, dependencia, discapacidad, origen o minoría y si eres víctima. Nada de este paso va en los enlaces que compartes. |
 
 <p align="center"><img src=".github/captura-perfil.jpg" alt="El asistente del perfil, vacío: el paso 1 abierto con la edad, el sexo, los hijos, el estado civil y si cuidas de alguien, y al lado el aviso de que el resultado sale al completar los tres primeros pasos" width="88%"></p>
 
@@ -87,7 +87,7 @@ Esa misma línea aparece en la ficha del partido, junto a todas las demás, y la
 - La web es HTML estático en GitHub Pages; solo descarga los datos públicos de cada legislatura y las tipografías de Google Fonts.
 - En tu propio navegador (`localStorage`) se recuerdan tus respuestas del perfil, para no perderlas al recargar, la provincia del filtro y dos preferencias de pantalla (ocultar partidos con pocos datos y pausar la animación). Nada de eso sale de tu dispositivo.
 - El botón **«Borrar mis respuestas»** (en la barra de tu perfil y en el pie) borra del navegador el perfil y la provincia y reinicia el asistente.
-- Compartir tu perfil es opcional: el enlace lleva en la URL (`?p=…`) los rasgos de los pasos 1 a 3 y tu provincia (`prov=`), y solo lo tiene quien tú se lo pases. Eso incluye sexo (Hombre, Mujer o «Prefiero no decirlo»), estado civil, cuidados, ayuda social y medio rural. **«Otro» en sexo y lo que marques en el paso 4 (orientación, salud, discapacidad propia o de una hija o un hijo, origen y víctimas) nunca van en el enlace**: se quedan en tu navegador. Al copiar el enlace, la web te dice siempre qué lleva.
+- Compartir tu perfil es opcional: el enlace lleva en la URL (`?p=…`) los rasgos de los pasos 1 a 3 y tu provincia (`prov=`), y solo lo tiene quien tú se lo pases. Eso incluye sexo (Hombre, Mujer o «Prefiero no decirlo»), estado civil, cuidados, ayuda social y medio rural. **«Otro» en sexo y lo que marques en el paso 4 (orientación, salud, discapacidad, origen y víctimas) y si tienes una hija o un hijo con discapacidad (paso 1) nunca van en el enlace**: se quedan en tu navegador. Al copiar el enlace, la web te dice siempre qué lleva.
 - Hasta la versión 10, sexo, estado civil, cuidados, medio rural y ayuda social iban en el paso 4, que no viajaba en los enlaces. Si tenías esas respuestas guardadas de entonces, la web no las pone en ningún enlace hasta que confirmas su paso (o vuelves a tocar la pregunta), y te avisa una vez del cambio.
 
 ## Qué datos incluye
@@ -138,9 +138,9 @@ Las tres lecturas y lo que cambió en cada ley están en `data/clasificacion/<cl
 
 Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. `scripts/prueba_sesgo.py` genera 2.000 perfiles aleatorios y 21 arquetipos, calcula su ranking con el mismo cálculo que la web en cada legislatura y pestaña, con y sin «Ciudadanía general», y cuenta en qué porcentaje de perfiles sale primero cada partido. La prueba incluye también el camino «No lo sé» del tramo de IRPF: una cuarta parte de los asalariados y funcionarios aleatorios lo marca, y se calcula igual que en la web. El resultado completo se publica tal cual sale en [`data/analisis/SESGO.md`](data/analisis/SESGO.md). Algunas cifras:
 
-- **Congreso, XV, leyes económicas con «Ciudadanía general»:** CC sale primero en el 47,9 % de los perfiles, PNV en el 24,8 % y PSOE en el 11,4 %.
+- **Congreso, XV, leyes económicas con «Ciudadanía general»:** CC sale primero en el 48,0 % de los perfiles, PNV en el 24,8 % y PSOE en el 11,4 %.
 - **Parlamento Europeo, leyes económicas:** en la 10.ª, BNG (42,8 %) con «Ciudadanía general» y PP (30,4 %) sin ella; en la 9.ª, PSOE (97,1 %) con ella y PP (24,1 %) sin ella.
-- **Congreso, X, leyes económicas con «Ciudadanía general»:** PNV sale primero en el 43,2 % de los perfiles, UPN en el 40,4 % y CiU en el 9,1 %.
+- **Congreso, X, leyes económicas con «Ciudadanía general»:** PNV sale primero en el 43,4 % de los perfiles, UPN en el 40,0 % y CiU en el 9,3 %.
 - **Parlamento Europeo 8.ª, 7.ª y 6.ª, leyes económicas con «Ciudadanía general»:** en la 8.ª, PNV (89,9 %); en la 7.ª, ICV (45,9 %); en la 6.ª, PSOE (69,7 %).
 - **Legislaturas con pocas votaciones:** el resultado se concentra; en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.
 - **También hay concentraciones altas con muchas votaciones:** en la X, en leyes sociales con «Ciudadanía general», NC sale primero en el 97,8 % de los perfiles.
@@ -237,7 +237,7 @@ Los enlaces se pueden compartir con un perfil ya marcado:
 
 | Parámetro | Qué hace | Ejemplo |
 |---|---|---|
-| `p` | Rasgos del perfil, separados por comas (los de los pasos 1 a 3; la web nunca pone en el enlace los del paso 4: orientación, salud, discapacidad propia o de una hija o un hijo, origen y víctimas) | `?p=asal3,prop1` |
+| `p` | Rasgos del perfil, separados por comas (los de los pasos 1 a 3; la web nunca pone en el enlace los del paso 4: orientación, salud, discapacidad, origen y víctimas, ni si tienes una hija o un hijo con discapacidad) | `?p=asal3,prop1` |
 | `u` | Respuestas del asistente que no son rasgos (de qué vives, dónde vives…); la web lo añade junto a `p`, sin «Otro» en sexo | `?p=asal3&u=trAjena` |
 | `prov` | Filtra el ranking por provincia (código INE de dos cifras) | `?p=asal3&prov=50` |
 | `rdl=0` | Excluye los reales decretos-ley del cálculo (por defecto se cuentan) | `?p=asal3&rdl=0` |

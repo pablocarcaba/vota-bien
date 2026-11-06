@@ -277,7 +277,9 @@ def aleatorio(rng):
         if t == "emp":
             sel.add(rng.choice(VARIOS["sec"]))
     for o in VARIOS["soc"] + ["cuid", "lgtbi"]:
-        if rng.random() < 0.08:
+        # como en la web, la hija o el hijo con discapacidad solo se pregunta a quien tiene hijos (el sorteo se hace
+        # igual, para no cambiar el resto de la muestra)
+        if rng.random() < 0.08 and (o != "famDisc" or sel & CON_HIJOS):
             sel.add(o)
     return sel
 

@@ -12,10 +12,10 @@ Salir primero puede ser un empate técnico: si el 2.º queda a 3 puntos o menos 
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 47.9 % | 2.3 | +82 |
+| CC | 48.0 % | 2.3 | +82 |
 | PNV | 24.8 % | 2.6 | +81 |
 | PSOE | 11.4 % | 2.5 | +78 |
-| Sumar | 8.2 % | 4.7 | +74 |
+| Sumar | 8.3 % | 4.7 | +74 |
 | ERC | 4.8 % | 4.1 | +75 |
 | Bildu | 2.3 % | 5.4 | +72 |
 | UPN | 0.3 % | 9.9 | +25 |
@@ -58,8 +58,8 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 48.2 % | 2.3 | +81 |
-| PNV | 23.4 % | 2.6 | +81 |
+| CC | 48.3 % | 2.3 | +81 |
+| PNV | 23.3 % | 2.6 | +81 |
 | PSOE | 12.0 % | 2.5 | +77 |
 | Sumar | 8.1 % | 4.7 | +73 |
 | ERC | 4.8 % | 4.1 | +74 |
@@ -104,21 +104,21 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Sumar | 53.0 % | 2.1 | +54 |
-| PNV | 18.7 % | 4.3 | +53 |
-| CC | 13.9 % | 5.0 | +51 |
-| PSOE | 5.1 % | 4.2 | +51 |
-| BNG | 2.9 % | 4.3 | +52 |
+| Sumar | 53.1 % | 2.1 | +54 |
+| PNV | 18.6 % | 4.3 | +53 |
+| CC | 14.0 % | 5.0 | +51 |
+| PSOE | 5.0 % | 4.2 | +51 |
+| BNG | 2.8 % | 4.3 | +52 |
 | ERC | 1.9 % | 5.0 | +51 |
 | Bildu | 1.8 % | 4.5 | +52 |
+| Compromís | 1.0 % | 9.0 | +38 |
 | UPN | 0.9 % | 10.7 | +18 |
-| Compromís | 0.9 % | 9.0 | +39 |
 | Podemos | 0.7 % | 8.7 | +39 |
-| PP | 0.2 % | 11.9 | +6 |
+| PP | 0.2 % | 11.9 | +5 |
 | VOX | 0.0 % | 13.0 | -26 |
 | Junts | 0.0 % | 8.4 | +42 |
 
-Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 93.5 % de los perfiles; con 2 o más partidos además del primero: 67.8 %.
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 93.1 % de los perfiles; con 2 o más partidos además del primero: 67.4 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -150,21 +150,21 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Sumar | 34.6 % | 2.7 | +48 |
+| Sumar | 34.7 % | 2.7 | +48 |
 | CC | 27.0 % | 4.1 | +52 |
 | PNV | 16.1 % | 3.4 | +52 |
-| Podemos | 4.4 % | 8.9 | +35 |
+| Podemos | 4.5 % | 8.9 | +35 |
 | Bildu | 3.4 % | 4.1 | +48 |
 | PSOE | 3.3 % | 4.7 | +45 |
 | PP | 2.9 % | 10.9 | +17 |
 | BNG | 2.7 % | 5.9 | +47 |
 | ERC | 2.0 % | 6.2 | +45 |
-| UPN | 1.3 % | 10.2 | +23 |
+| UPN | 1.2 % | 10.2 | +23 |
 | Compromís | 1.1 % | 9.8 | +32 |
-| VOX | 0.7 % | 12.5 | -13 |
-| Junts | 0.5 % | 7.2 | +42 |
+| VOX | 0.7 % | 12.5 | -14 |
+| Junts | 0.5 % | 7.3 | +42 |
 
-Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 87.5 % de los perfiles; con 2 o más partidos además del primero: 60.4 %.
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 87.1 % de los perfiles; con 2 o más partidos además del primero: 60.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -198,10 +198,10 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 23.7 % | 3.0 | +75 |
+| PSOE | 23.8 % | 3.0 | +75 |
 | Unidas Podemos | 21.4 % | 2.8 | +76 |
 | Compromís | 15.2 % | 4.5 | +75 |
-| PRC | 14.4 % | 4.3 | +73 |
+| PRC | 14.3 % | 4.3 | +73 |
 | Más País | 13.3 % | 4.0 | +75 |
 | PNV | 3.4 % | 7.8 | +63 |
 | PDeCAT | 3.4 % | 7.3 | +65 |
@@ -252,7 +252,7 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
 | PRC | 53.2 % | 2.5 | +76 |
-| Compromís | 26.2 % | 4.0 | +74 |
+| Compromís | 26.3 % | 4.0 | +74 |
 | Unidas Podemos | 6.2 % | 3.7 | +74 |
 | Más País | 5.4 % | 4.6 | +74 |
 | PSOE | 4.1 % | 3.7 | +74 |
@@ -272,7 +272,7 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 | Foro | 0.0 % | 17.7 | -5 |
 | Teruel Existe | 0.0 % | 6.2 | +69 |
 
-Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 76.7 % de los perfiles; con 2 o más partidos además del primero: 59.2 %.
+Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 76.8 % de los perfiles; con 2 o más partidos además del primero: 59.2 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -304,28 +304,28 @@ Margen mediano entre el 1.º y el 2.º: 1 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Más País | 48.4 % | 2.4 | +66 |
-| Teruel Existe | 36.9 % | 2.4 | +65 |
-| Compromís | 9.5 % | 3.6 | +62 |
-| Unidas Podemos | 3.3 % | 4.2 | +61 |
+| Más País | 49.8 % | 2.2 | +66 |
+| Teruel Existe | 36.5 % | 2.4 | +65 |
+| Compromís | 9.8 % | 3.5 | +62 |
+| Unidas Podemos | 2.2 % | 4.2 | +61 |
 | PNV | 0.9 % | 11.1 | +42 |
-| CC | 0.5 % | 6.2 | +55 |
+| CC | 0.4 % | 6.3 | +54 |
 | PSOE | 0.3 % | 7.2 | +53 |
-| BNG | 0.2 % | 8.1 | +48 |
+| BNG | 0.2 % | 8.0 | +48 |
 | Cs | 0.1 % | 13.1 | +29 |
 | PP | 0.0 % | 15.5 | +17 |
 | VOX | 0.0 % | 20.0 | -31 |
 | ERC | 0.0 % | 12.5 | +37 |
-| Junts | 0.0 % | 16.1 | +20 |
-| Bildu | 0.0 % | 11.9 | +39 |
+| Junts | 0.0 % | 16.1 | +21 |
+| Bildu | 0.0 % | 11.8 | +39 |
 | PDeCAT | 0.0 % | 10.6 | +42 |
-| CUP | 0.0 % | 16.5 | +18 |
-| UPN | 0.0 % | 15.5 | +17 |
-| NC | 0.0 % | 9.6 | +45 |
+| CUP | 0.0 % | 16.4 | +18 |
+| UPN | 0.0 % | 15.5 | +18 |
+| NC | 0.0 % | 9.7 | +45 |
 | PRC | 0.0 % | 6.3 | +54 |
 | Foro | 0.0 % | 17.3 | +10 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 69.9 % de los perfiles; con 2 o más partidos además del primero: 24.6 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 69.9 % de los perfiles; con 2 o más partidos además del primero: 25.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -357,28 +357,28 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Teruel Existe | 57.2 % | 2.2 | +60 |
-| Más País | 11.6 % | 5.3 | +51 |
-| PRC | 5.6 % | 6.6 | +46 |
-| Cs | 5.3 % | 12.2 | +23 |
-| PNV | 4.7 % | 12.8 | +30 |
-| Compromís | 3.7 % | 6.4 | +49 |
-| ERC | 2.2 % | 10.1 | +41 |
-| BNG | 1.9 % | 8.3 | +42 |
-| CC | 1.5 % | 7.7 | +46 |
-| PSOE | 1.2 % | 8.0 | +44 |
-| NC | 1.0 % | 11.3 | +38 |
-| Unidas Podemos | 0.9 % | 8.2 | +45 |
-| Junts | 0.9 % | 13.6 | +26 |
+| Teruel Existe | 56.9 % | 2.2 | +60 |
+| Más País | 12.0 % | 5.2 | +51 |
+| PRC | 5.7 % | 6.7 | +46 |
+| Cs | 5.4 % | 12.2 | +23 |
+| PNV | 4.5 % | 12.9 | +30 |
+| Compromís | 3.8 % | 6.3 | +49 |
+| ERC | 2.3 % | 10.0 | +41 |
+| BNG | 2.0 % | 8.2 | +42 |
+| CC | 1.4 % | 7.8 | +45 |
+| PSOE | 1.0 % | 8.0 | +44 |
+| Unidas Podemos | 1.0 % | 8.2 | +45 |
+| Junts | 1.0 % | 13.5 | +26 |
 | PDeCAT | 0.9 % | 6.3 | +50 |
-| CUP | 0.5 % | 16.2 | +15 |
-| Bildu | 0.4 % | 13.2 | +30 |
-| VOX | 0.2 % | 18.7 | -12 |
+| NC | 0.9 % | 11.4 | +38 |
+| CUP | 0.6 % | 16.2 | +15 |
+| Bildu | 0.5 % | 13.1 | +30 |
+| VOX | 0.2 % | 18.6 | -12 |
 | Foro | 0.1 % | 14.6 | +17 |
-| PP | 0.0 % | 13.0 | +19 |
-| UPN | 0.0 % | 14.9 | +15 |
+| PP | 0.0 % | 12.9 | +20 |
+| UPN | 0.0 % | 14.9 | +16 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 70.7 % de los perfiles; con 2 o más partidos además del primero: 31.7 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 71.0 % de los perfiles; con 2 o más partidos además del primero: 32.4 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -487,7 +487,7 @@ Margen mediano entre el 1.º y el 2.º: 20 puntos. Empate técnico en cabeza (2.
 | Cs | 0.2 % | 2.2 | +21 |
 | PP | 0.0 % | 3.3 | -1 |
 
-Margen mediano entre el 1.º y el 2.º: 6 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 3.1 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
+Margen mediano entre el 1.º y el 2.º: 6 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 3.2 % de los perfiles; con 2 o más partidos además del primero: 0.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -519,12 +519,12 @@ Margen mediano entre el 1.º y el 2.º: 6 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Cs | 50.4 % | 1.3 | +21 |
-| PSOE | 24.8 % | 1.2 | +23 |
-| Unidas Podemos | 24.8 % | 2.0 | +19 |
+| Cs | 50.6 % | 1.3 | +21 |
+| PSOE | 24.9 % | 1.2 | +23 |
+| Unidas Podemos | 24.5 % | 2.0 | +19 |
 | PP | 0.0 % | 3.0 | -1 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 33.6 % de los perfiles; con 2 o más partidos además del primero: 10.5 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 33.3 % de los perfiles; con 2 o más partidos además del primero: 10.6 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -558,10 +558,10 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 66.0 % | 1.9 | +56 |
-| PP | 8.3 % | 6.1 | +36 |
+| CC | 66.2 % | 1.9 | +56 |
+| PP | 8.4 % | 6.1 | +37 |
 | UPN | 7.6 % | 3.0 | +49 |
-| PNV | 7.5 % | 4.9 | +43 |
+| PNV | 7.2 % | 4.9 | +43 |
 | Foro | 6.5 % | 5.0 | +42 |
 | PDeCAT | 2.4 % | 7.3 | +28 |
 | Cs | 1.4 % | 5.9 | +37 |
@@ -572,7 +572,7 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 | Compromís | 0.0 % | 10.2 | +15 |
 | Bildu | 0.0 % | 12.9 | -9 |
 
-Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 52.1 % de los perfiles; con 2 o más partidos además del primero: 8.8 %.
+Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 52.4 % de los perfiles; con 2 o más partidos además del primero: 9.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -604,11 +604,11 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| CC | 66.0 % | 1.9 | +56 |
-| PP | 8.3 % | 6.0 | +36 |
-| UPN | 7.7 % | 3.0 | +49 |
-| PNV | 7.5 % | 4.8 | +43 |
-| Foro | 6.7 % | 5.0 | +42 |
+| CC | 66.2 % | 1.9 | +56 |
+| PP | 8.4 % | 6.0 | +37 |
+| UPN | 7.6 % | 3.0 | +49 |
+| PNV | 7.2 % | 4.8 | +43 |
+| Foro | 6.6 % | 5.0 | +42 |
 | PDeCAT | 2.2 % | 7.4 | +28 |
 | Cs | 1.4 % | 5.8 | +37 |
 | NC | 0.3 % | 6.2 | +34 |
@@ -618,7 +618,7 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 | Compromís | 0.0 % | 10.1 | +15 |
 | Bildu | 0.0 % | 12.9 | -9 |
 
-Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 52.1 % de los perfiles; con 2 o más partidos además del primero: 8.8 %.
+Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 52.3 % de los perfiles; con 2 o más partidos además del primero: 8.9 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -650,21 +650,21 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidos Podemos | 77.4 % | 1.3 | +53 |
+| Unidos Podemos | 77.3 % | 1.3 | +53 |
 | UPN | 18.5 % | 5.1 | +41 |
-| PSOE | 1.8 % | 2.6 | +48 |
-| Cs | 1.6 % | 6.6 | +37 |
+| PSOE | 1.9 % | 2.6 | +48 |
+| Cs | 1.6 % | 6.6 | +36 |
 | CC | 0.7 % | 8.5 | +32 |
-| Compromís | 0.1 % | 6.0 | +42 |
+| Compromís | 0.1 % | 6.0 | +41 |
 | PP | 0.0 % | 11.3 | +19 |
 | ERC | 0.0 % | 5.0 | +41 |
-| PDeCAT | 0.0 % | 5.5 | +41 |
+| PDeCAT | 0.0 % | 5.5 | +40 |
 | PNV | 0.0 % | 10.5 | +25 |
 | Bildu | 0.0 % | 8.1 | +37 |
 | NC | 0.0 % | 9.5 | +32 |
 | Foro | 0.0 % | 11.1 | +24 |
 
-Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 34.9 % de los perfiles; con 2 o más partidos además del primero: 6.7 %.
+Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 35.0 % de los perfiles; con 2 o más partidos además del primero: 6.7 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -696,21 +696,21 @@ Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| Unidos Podemos | 53.1 % | 2.0 | +48 |
-| PSOE | 13.0 % | 2.8 | +46 |
+| Unidos Podemos | 52.9 % | 2.0 | +48 |
+| PSOE | 13.2 % | 2.8 | +46 |
 | UPN | 10.1 % | 7.4 | +33 |
 | PDeCAT | 8.2 % | 3.9 | +43 |
-| Cs | 8.0 % | 6.5 | +35 |
+| Cs | 8.1 % | 6.4 | +35 |
 | Foro | 4.0 % | 9.0 | +29 |
 | Bildu | 1.3 % | 7.9 | +39 |
-| CC | 1.1 % | 9.5 | +28 |
-| PP | 0.9 % | 9.6 | +22 |
+| CC | 1.0 % | 9.5 | +28 |
+| PP | 0.8 % | 9.6 | +22 |
 | Compromís | 0.2 % | 6.1 | +42 |
 | ERC | 0.1 % | 5.7 | +40 |
 | PNV | 0.0 % | 10.6 | +23 |
 | NC | 0.0 % | 9.3 | +33 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 74.0 % de los perfiles; con 2 o más partidos además del primero: 27.9 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 73.9 % de los perfiles; con 2 o más partidos además del primero: 27.7 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -902,16 +902,16 @@ Margen mediano entre el 1.º y el 2.º: 10.5 puntos. Empate técnico en cabeza (
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 43.2 % | 2.7 | +29 |
-| UPN | 40.4 % | 6.0 | +22 |
-| CiU | 9.1 % | 6.8 | +14 |
+| PNV | 43.4 % | 2.7 | +30 |
+| UPN | 40.0 % | 6.0 | +22 |
+| CiU | 9.3 % | 6.8 | +14 |
 | Foro | 5.0 % | 5.0 | +22 |
-| UPyD | 1.9 % | 4.1 | +20 |
-| PP | 0.3 % | 8.1 | +6 |
+| UPyD | 1.9 % | 4.1 | +21 |
+| PP | 0.3 % | 8.2 | +5 |
 | PSOE | 0.0 % | 7.7 | +4 |
 | IU-ICV | 0.0 % | 9.8 | +0 |
 | Amaiur | 0.0 % | 6.6 | +8 |
-| ERC | 0.0 % | 12.6 | -5 |
+| ERC | 0.0 % | 12.6 | -4 |
 | BNG | 0.0 % | 10.3 | +0 |
 | Compromís | 0.0 % | 13.4 | -6 |
 | CC | 0.0 % | 8.2 | +6 |
@@ -950,11 +950,11 @@ Margen mediano entre el 1.º y el 2.º: 10 puntos. Empate técnico en cabeza (2.
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 42.1 % | 2.8 | +30 |
-| UPN | 40.9 % | 5.9 | +23 |
-| CiU | 10.7 % | 6.5 | +16 |
+| PNV | 42.2 % | 2.8 | +30 |
+| UPN | 40.6 % | 5.9 | +23 |
+| CiU | 10.8 % | 6.5 | +16 |
 | Foro | 5.0 % | 4.9 | +23 |
-| UPyD | 1.1 % | 4.3 | +19 |
+| UPyD | 1.1 % | 4.3 | +20 |
 | PP | 0.2 % | 8.1 | +6 |
 | PSOE | 0.0 % | 8.1 | +3 |
 | IU-ICV | 0.0 % | 10.6 | -2 |
@@ -963,10 +963,10 @@ Margen mediano entre el 1.º y el 2.º: 10 puntos. Empate técnico en cabeza (2.
 | BNG | 0.0 % | 10.2 | -1 |
 | Compromís | 0.0 % | 13.4 | -7 |
 | CC | 0.0 % | 7.8 | +7 |
-| NC | 0.0 % | 8.6 | +3 |
+| NC | 0.0 % | 8.6 | +4 |
 | Geroa Bai | 0.0 % | 9.7 | +0 |
 
-Margen mediano entre el 1.º y el 2.º: 10 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 11.7 % de los perfiles; con 2 o más partidos además del primero: 1.4 %.
+Margen mediano entre el 1.º y el 2.º: 10 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 11.6 % de los perfiles; con 2 o más partidos además del primero: 1.4 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -998,23 +998,23 @@ Margen mediano entre el 1.º y el 2.º: 10 puntos. Empate técnico en cabeza (2.
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| UPyD | 80.1 % | 1.4 | +37 |
-| NC | 9.0 % | 3.6 | +32 |
-| Foro | 7.6 % | 8.5 | +21 |
+| UPyD | 80.0 % | 1.4 | +37 |
+| NC | 8.8 % | 3.6 | +32 |
+| Foro | 7.9 % | 8.5 | +21 |
 | CiU | 1.3 % | 7.9 | +23 |
-| PNV | 1.1 % | 6.1 | +28 |
+| PNV | 1.2 % | 6.1 | +28 |
 | PSOE | 0.5 % | 3.0 | +33 |
 | UPN | 0.2 % | 12.5 | +9 |
 | Amaiur | 0.1 % | 7.5 | +22 |
 | PP | 0.0 % | 14.9 | -16 |
-| IU-ICV | 0.0 % | 6.6 | +24 |
+| IU-ICV | 0.0 % | 6.7 | +24 |
 | ERC | 0.0 % | 12.9 | +14 |
 | BNG | 0.0 % | 9.9 | +20 |
 | Compromís | 0.0 % | 10.3 | +19 |
 | CC | 0.0 % | 4.4 | +31 |
 | Geroa Bai | 0.0 % | 10.6 | +19 |
 
-Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 44.0 % de los perfiles; con 2 o más partidos además del primero: 22.2 %.
+Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 44.2 % de los perfiles; con 2 o más partidos además del primero: 22.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1046,23 +1046,23 @@ Margen mediano entre el 1.º y el 2.º: 4 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 39.2 % | 2.0 | +33 |
-| NC | 16.7 % | 5.0 | +29 |
+| PSOE | 39.4 % | 2.0 | +33 |
+| NC | 16.3 % | 5.1 | +29 |
 | UPyD | 13.6 % | 2.8 | +32 |
-| CiU | 6.2 % | 6.6 | +23 |
-| CC | 5.7 % | 5.1 | +31 |
-| IU-ICV | 5.3 % | 6.2 | +23 |
+| CiU | 5.8 % | 6.6 | +23 |
+| CC | 5.7 % | 5.2 | +31 |
+| IU-ICV | 5.4 % | 6.2 | +23 |
 | PNV | 4.7 % | 4.8 | +29 |
-| Foro | 4.5 % | 10.1 | +13 |
+| Foro | 4.7 % | 10.1 | +13 |
 | UPN | 1.8 % | 12.3 | -2 |
-| PP | 1.4 % | 13.6 | -15 |
-| Compromís | 0.3 % | 10.4 | +16 |
-| Amaiur | 0.2 % | 8.3 | +19 |
+| PP | 1.6 % | 13.6 | -15 |
+| Amaiur | 0.3 % | 8.3 | +19 |
+| Compromís | 0.3 % | 10.4 | +17 |
 | BNG | 0.2 % | 9.1 | +19 |
 | ERC | 0.0 % | 12.7 | +12 |
 | Geroa Bai | 0.0 % | 10.9 | +16 |
 
-Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 75.1 % de los perfiles; con 2 o más partidos además del primero: 54.8 %.
+Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 74.9 % de los perfiles; con 2 o más partidos además del primero: 54.9 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1096,16 +1096,16 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| BNG | 42.8 % | 2.8 | +37 |
+| BNG | 42.8 % | 2.8 | +36 |
 | Podemos | 38.5 % | 2.6 | +34 |
 | PP | 14.5 % | 3.5 | +38 |
 | PNV | 2.7 % | 5.9 | +34 |
 | PSOE | 1.5 % | 5.0 | +33 |
 | VOX | 0.0 % | 10.0 | +6 |
 | SALF | 0.0 % | 10.8 | +2 |
-| Sumar | 0.0 % | 7.3 | +28 |
+| Sumar | 0.0 % | 7.3 | +27 |
 | ERC | 0.0 % | 9.1 | +17 |
-| Bildu | 0.0 % | 10.1 | +14 |
+| Bildu | 0.0 % | 10.1 | +15 |
 | Compromís | 0.0 % | 6.0 | +29 |
 | Comuns | 0.0 % | 4.8 | +33 |
 
@@ -1145,13 +1145,13 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 | PNV | 14.8 % | 5.1 | +34 |
 | PSOE | 13.0 % | 2.5 | +33 |
 | Sumar | 10.7 % | 4.2 | +29 |
-| BNG | 10.7 % | 6.5 | +29 |
+| BNG | 10.7 % | 6.5 | +28 |
 | Podemos | 9.8 % | 6.0 | +25 |
-| VOX | 5.4 % | 6.7 | +18 |
-| Compromís | 3.1 % | 7.8 | +21 |
+| VOX | 5.5 % | 6.7 | +18 |
+| Compromís | 3.1 % | 7.9 | +21 |
 | Comuns | 1.7 % | 7.5 | +23 |
 | ERC | 0.4 % | 8.1 | +17 |
-| SALF | 0.0 % | 7.8 | +6 |
+| SALF | 0.0 % | 7.8 | +7 |
 | Bildu | 0.0 % | 9.8 | +4 |
 
 Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 85.6 % de los perfiles; con 2 o más partidos además del primero: 77.6 %.
@@ -1380,9 +1380,9 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 | VOX | 0.0 % | 13.0 | -29 |
 | IU | 0.0 % | 10.9 | +56 |
 | PNV | 0.0 % | 8.0 | +66 |
-| BNG | 0.0 % | 8.7 | +65 |
+| BNG | 0.0 % | 8.8 | +65 |
 | Bildu | 0.0 % | 11.9 | +47 |
-| Anticapitalistas | 0.0 % | 6.6 | +69 |
+| Anticapitalistas | 0.0 % | 6.5 | +69 |
 
 Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 86.6 % de los perfiles; con 2 o más partidos además del primero: 5.3 %.
 
@@ -1416,18 +1416,18 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| ERC | 21.9 % | 5.2 | +48 |
-| PSOE | 14.7 % | 2.5 | +47 |
-| Cs | 14.6 % | 3.6 | +47 |
-| Junts | 12.1 % | 4.8 | +47 |
-| Podemos | 11.7 % | 3.9 | +47 |
-| PP | 8.8 % | 4.0 | +45 |
-| Anticapitalistas | 8.6 % | 7.3 | +43 |
+| ERC | 21.8 % | 5.2 | +48 |
+| PSOE | 14.7 % | 2.6 | +47 |
+| Cs | 14.6 % | 3.6 | +46 |
+| Junts | 12.0 % | 4.8 | +46 |
+| Podemos | 11.6 % | 3.9 | +47 |
+| Anticapitalistas | 8.9 % | 7.2 | +43 |
+| PP | 8.7 % | 4.0 | +45 |
 | BNG | 5.0 % | 6.8 | +46 |
 | Comuns | 2.6 % | 9.9 | +31 |
 | VOX | 0.0 % | 11.6 | -8 |
 | IU | 0.0 % | 9.0 | +34 |
-| PNV | 0.0 % | 8.8 | +35 |
+| PNV | 0.0 % | 8.9 | +35 |
 | Bildu | 0.0 % | 11.5 | +32 |
 
 Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 89.5 % de los perfiles; con 2 o más partidos además del primero: 87.5 %.
@@ -1571,7 +1571,7 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 | Podemos | 0.0 % | 12.4 | +43 |
 | IU | 0.0 % | 11.3 | +46 |
 | UPyD | 0.0 % | 5.0 | +75 |
-| Cs | 0.0 % | 7.2 | +65 |
+| Cs | 0.0 % | 7.2 | +64 |
 | ERC | 0.0 % | 8.9 | +59 |
 | ICV | 0.0 % | 9.2 | +59 |
 | AGE | 0.0 % | 15.1 | +26 |
@@ -1582,7 +1582,7 @@ Margen mediano entre el 1.º y el 2.º: 3 puntos. Empate técnico en cabeza (2.�
 | Compromís | 0.0 % | 14.7 | +28 |
 | UDC | 0.0 % | 12.3 | +43 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 96.8 % de los perfiles; con 2 o más partidos además del primero: 62.6 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 96.8 % de los perfiles; con 2 o más partidos además del primero: 62.1 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1614,25 +1614,25 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PP | 32.2 % | 1.7 | +57 |
+| PP | 32.2 % | 1.7 | +56 |
 | PSOE | 29.2 % | 2.8 | +56 |
 | UPyD | 18.8 % | 4.6 | +55 |
 | Podemos | 5.5 % | 6.3 | +47 |
-| Cs | 4.8 % | 4.8 | +53 |
+| Cs | 4.8 % | 4.7 | +53 |
 | PNV | 4.4 % | 5.7 | +53 |
 | ICV | 3.2 % | 8.8 | +49 |
-| Bildu | 0.6 % | 13.3 | +26 |
+| Bildu | 0.6 % | 13.3 | +27 |
 | NECat | 0.5 % | 11.6 | +22 |
 | Compromís | 0.5 % | 12.6 | +22 |
 | Equo | 0.3 % | 8.9 | +49 |
 | IU | 0.1 % | 9.1 | +42 |
 | BNG | 0.1 % | 12.0 | +35 |
-| ERC | 0.0 % | 8.8 | +46 |
+| ERC | 0.0 % | 8.8 | +45 |
 | AGE | 0.0 % | 11.9 | +32 |
 | PDeCAT | 0.0 % | 6.9 | +51 |
 | UDC | 0.0 % | 16.3 | +8 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 88.4 % de los perfiles; con 2 o más partidos además del primero: 83.3 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 88.3 % de los perfiles; con 2 o más partidos además del primero: 83.3 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1801,20 +1801,20 @@ Margen mediano entre el 1.º y el 2.º: 2 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PNV | 25.9 % | 4.2 | +53 |
-| PSOE | 21.9 % | 2.1 | +53 |
-| UPyD | 21.5 % | 3.0 | +53 |
+| PNV | 25.8 % | 4.2 | +53 |
+| PSOE | 21.8 % | 2.1 | +53 |
+| UPyD | 21.5 % | 3.0 | +52 |
 | PP | 12.4 % | 3.0 | +50 |
-| IU | 8.0 % | 6.1 | +42 |
-| ICV | 2.9 % | 7.3 | +30 |
+| IU | 8.2 % | 6.0 | +42 |
+| ICV | 2.8 % | 7.3 | +30 |
 | CDC | 2.4 % | 5.1 | +51 |
-| UDC | 2.2 % | 6.5 | +44 |
+| UDC | 2.2 % | 6.5 | +43 |
 | Aralar | 2.2 % | 8.4 | +28 |
 | BNG | 0.3 % | 9.7 | +20 |
 | VOX | 0.3 % | 9.7 | +20 |
 | ERC | 0.1 % | 9.0 | +30 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 94.2 % de los perfiles; con 2 o más partidos además del primero: 83.0 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 94.3 % de los perfiles; con 2 o más partidos además del primero: 83.0 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
@@ -1938,11 +1938,11 @@ Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.�
 | CDC | 1.7 % | 2.7 | +70 |
 | PP | 0.4 % | 2.3 | +75 |
 | Los Verdes | 0.1 % | 6.0 | +30 |
-| IU | 0.0 % | 8.0 | +21 |
+| IU | 0.0 % | 8.0 | +20 |
 | ICV | 0.0 % | 7.7 | +21 |
 | PNV | 0.0 % | 4.2 | +61 |
 | UPN | 0.0 % | 4.9 | +56 |
-| EA | 0.0 % | 9.0 | +18 |
+| EA | 0.0 % | 8.9 | +18 |
 | ERC | 0.0 % | 9.2 | +16 |
 
 Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 12.2 % de los perfiles; con 2 o más partidos además del primero: 2.5 %.
@@ -1977,18 +1977,18 @@ Margen mediano entre el 1.º y el 2.º: 5 puntos. Empate técnico en cabeza (2.�
 
 | Partido | Primero en | Puesto medio | Nota media |
 |---|---:|---:|---:|
-| PSOE | 42.1 % | 2.1 | +51 |
-| PP | 31.4 % | 2.4 | +45 |
-| PNV | 12.8 % | 3.4 | +45 |
-| CDC | 9.1 % | 3.3 | +45 |
-| ICV | 2.7 % | 6.1 | +18 |
+| PSOE | 41.6 % | 2.2 | +51 |
+| PP | 32.0 % | 2.3 | +46 |
+| PNV | 12.7 % | 3.4 | +45 |
+| CDC | 9.0 % | 3.3 | +45 |
+| ICV | 2.7 % | 6.1 | +17 |
 | UPN | 1.9 % | 5.2 | +33 |
 | EA | 0.1 % | 8.1 | +7 |
 | IU | 0.0 % | 8.4 | +2 |
 | Los Verdes | 0.0 % | 6.9 | +17 |
-| ERC | 0.0 % | 7.2 | +20 |
+| ERC | 0.0 % | 7.2 | +19 |
 
-Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 72.0 % de los perfiles; con 2 o más partidos además del primero: 24.0 %.
+Margen mediano entre el 1.º y el 2.º: 0 puntos. Empate técnico en cabeza (2.º a 3 puntos o menos): 72.5 % de los perfiles; con 2 o más partidos además del primero: 24.5 %.
 
 <details><summary>Arquetipos (tres primeros)</summary>
 
