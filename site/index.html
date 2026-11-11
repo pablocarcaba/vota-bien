@@ -1744,13 +1744,13 @@ const srcName = () => DATA.meta.formato==='europarlamento' ? 'Parlamento Europeo
 const REPO = 'https://github.com/pablocarcaba/vota-bien';
 const NUEVA = '<span class="sr-only"> (se abre en una pestaña nueva)</span>';
 const jsonLink = () => `<a href="data/${esc(state.ds)}.json" download="${esc(state.ds)}.json"><svg class="ico" aria-hidden="true"><use href="#i-download"/></svg>Descargar los datos de esta legislatura (JSON)</a>`;
-const repoLink = (txt, path='') => `<a href="${REPO}${path}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-code"/></svg>${txt}${NUEVA}</a>`;
+const repoLink = (txt, url=REPO) => `<a href="${url}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-code"/></svg>${txt}${NUEVA}</a>`;
 // versión de la rúbrica de cada dataset (v3 si tiene lectura_v3, si no v2) y su fecha: las pone build_page.py en el catálogo
 const rubDe = clave => (CATALOGO.find(c=>c.clave===clave)||{}).rubrica || null;
 const rubTxt = r => r ? 'Rúbrica '+r.version+(r.fecha?', versión del '+r.fecha:'') : 'Rúbrica de clasificación';
 const RUB_ULT = CATALOGO.map(c=>c.rubrica).filter(Boolean).sort((a,b)=>b.version.localeCompare(a.version,'es',{numeric:true}))[0] || null;
-const RUBRICA_TXT = rubTxt(RUB_ULT), RUBRICA_HIST = REPO+'/commits/main/data/clasificacion/RUBRICA.md';
-const histUrl = () => `${REPO}/commits/main/data/clasificacion/${encodeURIComponent(state.ds)}`;
+const RUBRICA_TXT = rubTxt(RUB_ULT), RUBRICA_HIST = 'https://github.com/pablocarcaba/vota-bien/commits/main/data/clasificacion/RUBRICA.md';
+const histUrl = () => `https://github.com/pablocarcaba/vota-bien/commits/main/data/clasificacion/${encodeURIComponent(state.ds)}`;
 const histLink = () => `<a href="${histUrl()}" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-history"/></svg>Historial de cambios${NUEVA}</a>`;
 // aviso de clasificación: issue de GitHub con la ley y su clasificación actual ya escritas
 function issueUrl(it){
@@ -1758,7 +1758,7 @@ function issueUrl(it){
   const imp = Object.entries(it.imp||{}).map(([k,v])=>`- ${k}: ${v>0?'+1':'−1'}`);
   const body = [`Legislatura: ${DATA.meta.clave}`, `Iniciativa: ${it.id}`, `Título: ${it.t}`, '', 'Clasificación actual:',
     ...(imp.length?imp:['- (no afecta a ningún colectivo)']), `- Alcance (w): ${it.w||1} · ${PESO_TXT[it.w]||'Ley menor'}`, `- Nota: ${it.n||'(sin nota)'}`, '', 'Qué cambiarías y por qué:', ''].join('\n');
-  return `${REPO}/issues/new?title=${encodeURIComponent('Clasificación: '+it.id+' '+t)}&body=${encodeURIComponent(body)}`;
+  return `https://github.com/pablocarcaba/vota-bien/issues/new?title=${encodeURIComponent('Clasificación: '+it.id+' '+t)}&body=${encodeURIComponent(body)}`;
 }
 // píldoras con el voto de cada partido (dato oficial), en el orden que se pida
 // «fuera» (opcional): partidos que no se presentan en tu provincia, atenuados y etiquetados
@@ -2044,7 +2044,7 @@ function renderList(){
   const lb=el('div',{class:'lbody'});
   lb.appendChild(el('h3',{class:'lbh',id:'ley-a-ley',tabindex:'-1'}, L.who ? 'Ley a ley' : 'Todas, ley a ley'));
   lb.appendChild(el('p',{class:'lsub'}, L.who ? `Así votó, ley a ley, en lo que te afecta. Verde es a tu favor, rojo en tu contra. En cada ley ves qué es dato oficial del ${srcName()}, qué es clasificación propia y cuánto suma o resta. Cada una enlaza a su registro oficial para que lo compruebes.` : `Todas las leyes y propuestas de la legislatura. En cada una ves qué es dato oficial del ${srcName()} y qué es clasificación propia. Marca tu perfil para ver cuáles te afectan.`));
-  lb.appendChild(el('p',{class:'dlinks'}, jsonLink()+repoLink('Revisar la clasificación en GitHub','/tree/main/data/clasificacion')+histLink()));
+  lb.appendChild(el('p',{class:'dlinks'}, jsonLink()+repoLink('Revisar la clasificación en GitHub','https://github.com/pablocarcaba/vota-bien/tree/main/data/clasificacion')+histLink()));
   v.appendChild(lb);
   v.appendChild(filtros('lfilters', L.who ? [[sCol,'Efecto']] : [[sTab,'Tipo de leyes'],[sWho,'Partido'],[sCol,'Efecto']]));
 
@@ -2152,7 +2152,7 @@ function renderMethod(){
         ? `Títulos y fechas, de los <a href="https://data.europarl.europa.eu" target="_blank" rel="noopener">datos abiertos del Parlamento Europeo${NUEVA}</a>. Votos, de las votaciones nominales del Pleno: actas oficiales del Parlamento, recopiladas por <a href="https://howtheyvote.eu" target="_blank" rel="noopener">HowTheyVote.eu${NUEVA}</a> en las legislaturas 9.ª y 10.ª.`
         : `Leyes, autores, fechas y votaciones del Pleno, de los <a href="https://www.congreso.es/es/opendata" target="_blank" rel="noopener">datos abiertos del Congreso de los Diputados${NUEVA}</a>.`}</span></li>
       <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-download"/></svg></span><b>Datos descargados</b><span class="d">Un fichero por legislatura, el mismo que carga esta página, con el voto de cada partido ya agregado (el voto mayoritario de sus diputadas y diputados presentes). <span class="dlinks">${jsonLink()}</span></span></li>
-      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-scale"/></svg></span><b>Clasificación pública en GitHub</b><span class="d">A quién afecta cada ley y su alcance lo clasificamos en este proyecto, con ayuda de IA y una rúbrica pública. Puede tener errores: está a la vista para que la revises ley a ley. <a href="${REPO}/tree/main/data/clasificacion" target="_blank" rel="noopener">Ver la clasificación${NUEVA}</a> · <a href="${REPO}/blob/main/data/clasificacion/RUBRICA.md" target="_blank" rel="noopener">Ver la rúbrica${NUEVA}</a> <span class="dlinks">${histLink()}</span></span></li>
+      <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-scale"/></svg></span><b>Clasificación pública en GitHub</b><span class="d">A quién afecta cada ley y su alcance lo clasificamos en este proyecto, con ayuda de IA y una rúbrica pública. Puede tener errores: está a la vista para que la revises ley a ley. <a href="https://github.com/pablocarcaba/vota-bien/tree/main/data/clasificacion" target="_blank" rel="noopener">Ver la clasificación${NUEVA}</a> · <a href="https://github.com/pablocarcaba/vota-bien/blob/main/data/clasificacion/RUBRICA.md" target="_blank" rel="noopener">Ver la rúbrica${NUEVA}</a> <span class="dlinks">${histLink()}</span></span></li>
       <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-code"/></svg></span><b>Cálculo en tu navegador</b><span class="d">La nota se calcula en tu dispositivo, con el código de esta misma página: sin servidor y sin enviar nada. El código es abierto. <span class="dlinks">${repoLink('Ver el código en GitHub')}</span></span></li>
       <li><span class="n" aria-hidden="true"><svg class="ico"><use href="#i-list"/></svg></span><b>Desglose ley a ley</b><span class="d">En la ficha de cada partido ves la fórmula de su nota y cuánto suma o resta cada ley, con su votación, su alcance y la fuerza de la prueba. Las aportaciones cuadran con la nota.</span></li>
     </ol>
@@ -2187,7 +2187,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     <p>${DATA.meta.formato==='europarlamento' ? 'Junto al ranking puedes elegir «¿Dónde votas?» en las legislaturas del Congreso. En las elecciones europeas no se aplica: España es una circunscripción única y puedes votar a cualquier lista desde cualquier lugar.'
       : 'Con «¿Dónde votas?», junto al ranking, ves solo los partidos a los que se puede votar en tu provincia: los de ámbito estatal y los que se presentan en tu provincia o en tu comunidad. El filtro solo oculta filas, como «Ocultar partidos con menos de 3 leyes»: no cambia la nota de nadie, y los puestos se cuentan de nuevo entre los partidos que quedan. Un partido que no esté en el mapa se muestra siempre.'}
       <span class="tag-int">Asignación nuestra</span>Dónde se presenta cada partido no es un dato del ${srcName()}: ${esc(AMB.criterio || 'es el ámbito en el que se presenta habitualmente a las elecciones generales.')}</p>
-    <p class="dlinks">${repoLink('Ver dónde se presenta cada partido (GitHub)','/blob/main/data/ambito_partidos.json')}</p>
+    <p class="dlinks">${repoLink('Ver dónde se presenta cada partido (GitHub)','https://github.com/pablocarcaba/vota-bien/blob/main/data/ambito_partidos.json')}</p>
     <h3>Cómo se colorea</h3>
     <p>Verde si la iniciativa beneficia a algún rasgo de tu perfil y no perjudica a ninguno; rojo si perjudica sin beneficiar; ámbar si hace ambas cosas; gris si no afecta a tu perfil. En las votaciones, verde es votar sí a lo que te beneficia o no a lo que te perjudica; rojo, lo contrario; la abstención va en gris.</p>
     <h3>Limitaciones</h3>
@@ -2207,7 +2207,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
       <div><dt>Parecido medio entre lecturas</dt><dd>0,90</dd></div>
     </dl>
     <p>«Signo contrario» quiere decir que una lectura marca que la ley beneficia a un colectivo y otra que lo perjudica. El parecido va de 0 (ningún colectivo en común) a 1 (los mismos colectivos con el mismo efecto). En una primera prueba, con la rúbrica anterior y solo con el título de cada ley, el parecido era de 0,83 y había 3 leyes con signo contrario. Las 108 iniciativas en las que las tres lecturas no coinciden del todo pasan a revisión humana.</p>
-    <p class="dlinks">${repoLink('Ver qué cambió en cada ley (GitHub)','/blob/main/data/clasificacion/congreso_xv/lectura_v3/CAMBIOS.md')} ${repoLink('Ver las tres lecturas (GitHub)','/tree/main/data/clasificacion/congreso_xv/lectura_v3')}</p>
+    <p class="dlinks">${repoLink('Ver qué cambió en cada ley (GitHub)','https://github.com/pablocarcaba/vota-bien/blob/main/data/clasificacion/congreso_xv/lectura_v3/CAMBIOS.md')} ${repoLink('Ver las tres lecturas (GitHub)','https://github.com/pablocarcaba/vota-bien/tree/main/data/clasificacion/congreso_xv/lectura_v3')}</p>
     <h3>Prueba de sesgo</h3>
     <p>Una herramienta neutral debería dar el primer puesto a partidos distintos según el perfil. Para comprobarlo, una prueba automática genera 2.000 perfiles aleatorios y 21 arquetipos (persona asalariada con hipoteca, pensionista, trabajo autónomo, estudiante…) y calcula su ranking con el mismo cálculo que esta web (en la muestra aleatoria, el 25 % de las personas asalariadas y del sector público responde «No lo sé» en el tramo de IRPF), en cada legislatura y pestaña, con y sin «Ciudadanía general» y con «Consumidor» activo, como viene por defecto. Cuenta en qué porcentaje de perfiles sale primero cada partido. Se publica tal cual sale.</p>
     <p>«Ciudadanía general» cambia mucho el resultado en el Parlamento Europeo:</p>
@@ -2221,7 +2221,7 @@ ${DATA.meta.formato==='europarlamento' ? `    <h3>Qué iniciativas incluye</h3>
     </table>
     <p>En el Congreso, XV legislatura, leyes económicas con «Ciudadanía general», salen primeros CC en el 48,0 % de los perfiles, PNV en el 24,8 % y PSOE en el 11,4 %. Pero salir primero puede ser un empate en cabeza: en esa misma pestaña, el 2.º queda a ${EMPATE} puntos o menos del 1.º en el 97,6 % de los perfiles (margen mediano: 0 puntos). Esa diferencia es demasiado pequeña para ordenarlos, así que el ranking agrupa a los partidos a ${EMPATE} puntos o menos del 1.º como «Empatado en cabeza», todos con el 1.º (sin cambiar su orden ni su nota). En las legislaturas con pocas votaciones el resultado se concentra: en la XI, en leyes sociales, PSOE sale primero en el 100,0 % de los perfiles.</p>
     <p><span class="tag-int">Interpretación nuestra</span>Los partidos bisagra, con pocas votaciones en contra, tienden a salir arriba.</p>
-    <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','/blob/main/data/analisis/SESGO.md')}</p>
+    <p class="dlinks">${repoLink('Ver la prueba de sesgo completa (GitHub)','https://github.com/pablocarcaba/vota-bien/blob/main/data/analisis/SESGO.md')}</p>
     <h3>Versión de la metodología</h3>
     <p>${esc(RUBRICA_TXT)}. <span id="alcance-v3">Todas las legislaturas están clasificadas con la v3, por tres lecturas independientes.</span> <span id="alcance-pe-antiguo">La única excepción son 80 normas de la 6.ª y 124 de la 7.ª del Parlamento Europeo, que conservan la clasificación anterior: la API oficial casi no publica su texto aprobado en español y la v3 las dejaba sin efectos solo por eso. Están listadas en el REVISION.md de cada legislatura.</span> Cada cambio de la rúbrica y de la clasificación queda registrado en GitHub. <a href="${RUBRICA_HIST}" target="_blank" rel="noopener">Ver el historial de la rúbrica${NUEVA}</a></p>
     <p class="small">Datos: ${esc(DATA.meta.fuente_txt)}, datos abiertos (iniciativas y votaciones). Generado el ${esc(DATA.meta.generado)}.</p>
