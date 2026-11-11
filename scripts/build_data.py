@@ -179,10 +179,13 @@ for v in ([] if EP else raw["votaciones"]):
 # extra final votes matched by title
 norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
 for e in extra:
-    key = norm(e["txt"])[:90]
-    match = [it["id"] for it in items if norm(it["titulo"]).startswith(key[:60])]
+    key = norm(e["txt"])
+    match = [it for it in items if norm(it["titulo"]).startswith(key[:60])]
     if len(match) >= 1:
-        exp = match[-1]
+        # Muchos títulos comparten el comienzo («…modifica la Ley Orgánica 10/1995… del Código Penal»):
+        # gana el que coincide en más caracteres seguidos desde el principio.
+        pref = lambda t: next((i for i, (a, b) in enumerate(zip(t, key)) if a != b), min(len(t), len(key)))
+        exp = max(match, key=lambda it: pref(norm(it["titulo"])))["id"]
         consider(exp, "final" if e["kind"] == "conjunto" else "totalidad", e["d"], party_stances(e["g"], e["mx"]), {},
                  party_seated(e["g"], e["mx"]))
     else:
