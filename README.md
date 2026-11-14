@@ -83,7 +83,7 @@ Esa misma línea aparece en la ficha del partido, junto a todas las demás, y la
 
 **No sale de tu dispositivo: tus respuestas se guardan solo en este navegador.**
 
-- Lo que marcas se calcula en tu navegador. No se envía a ningún servidor, no hay registro, ni cookies, ni analítica.
+- Lo que marcas se calcula en tu navegador. No se envía a ningún servidor, no hay registro ni cookies. Solo se cuentan las visitas, de forma anónima y sin cookies, con GoatCounter: se envía la ruta «/», el título, el dominio de procedencia y el ancho de pantalla, nunca la dirección completa (que puede llevar las respuestas del perfil).
 - La web es HTML estático en GitHub Pages; solo descarga los datos públicos de cada legislatura y las tipografías de Google Fonts.
 - En tu propio navegador (`localStorage`) se recuerdan tus respuestas del perfil, para no perderlas al recargar, la provincia del filtro y dos preferencias de pantalla (ocultar partidos con pocos datos y pausar la animación). Nada de eso sale de tu dispositivo.
 - El botón **«Borrar mis respuestas»** (en la barra de tu perfil y en el pie) borra del navegador el perfil y la provincia y reinicia el asistente.

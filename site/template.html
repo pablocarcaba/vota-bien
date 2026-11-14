@@ -807,7 +807,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
       <p>¿Ves un error o una ley mal clasificada? <a href="https://github.com/pablocarcaba/vota-bien/issues" target="_blank" rel="noopener">Avísanos en GitHub<span class="sr-only"> (se abre en una pestaña nueva)</span></a>. Cada ley tiene también su propio enlace «¿Está mal clasificada?».</p>
       <section class="legal" id="aviso-legal" aria-labelledby="legal-h">
         <h3 id="legal-h" tabindex="-1">Aviso legal</h3>
-        <p>Esta web es un simulador informativo. No es una recomendación de voto ni una encuesta. Las leyes, fechas y votos proceden de fuentes oficiales (Congreso de los Diputados y Parlamento Europeo). La clasificación de a quién afecta cada ley es propia, hecha con ayuda de IA, y puede contener errores. La web no recoge datos personales: tus respuestas se guardan solo en tu navegador y puedes borrarlas cuando quieras. El código es software libre con <a href="https://github.com/pablocarcaba/vota-bien/blob/main/LICENSE" target="_blank" rel="noopener">licencia MIT<span class="sr-only"> (se abre en una pestaña nueva)</span></a>. Los datos de origen pertenecen a sus editores y su reutilización exige citar la fuente.</p>
+        <p>Esta web es un simulador informativo. No es una recomendación de voto ni una encuesta. Las leyes, fechas y votos proceden de fuentes oficiales (Congreso de los Diputados y Parlamento Europeo). La clasificación de a quién afecta cada ley es propia, hecha con ayuda de IA, y puede contener errores. La web no recoge datos personales: tus respuestas se guardan solo en tu navegador y puedes borrarlas cuando quieras. Solo se cuenta el número de visitas, de forma anónima y sin cookies. El código es software libre con <a href="https://github.com/pablocarcaba/vota-bien/blob/main/LICENSE" target="_blank" rel="noopener">licencia MIT<span class="sr-only"> (se abre en una pestaña nueva)</span></a>. Los datos de origen pertenecen a sus editores y su reutilización exige citar la fuente.</p>
       </section>
     </div>
   </section>
@@ -818,7 +818,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
     <div class="fcols">
       <section class="fcol" aria-labelledby="fc-priv">
         <h3 id="fc-priv"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg>Privacidad</h3>
-        <p>No sale de tu dispositivo: todo se calcula en tu navegador y tus respuestas se guardan solo en este navegador. Sin registro, sin cookies, sin analítica.</p>
+        <p>No sale de tu dispositivo: todo se calcula en tu navegador y tus respuestas se guardan solo en este navegador. Sin registro y sin cookies. Solo contamos cuántas visitas recibe la web, de forma anónima (con GoatCounter): no se envían tus respuestas ni el enlace con tu perfil.</p>
         <p>Si compartes tu perfil, el enlace lleva tus respuestas de los pasos 1 a 3 (también sexo, estado civil, cuidados, ayuda social y medio rural) y tu provincia, pero nunca «Otro» en sexo, ni si tienes una hija o un hijo con discapacidad, ni las del paso 4: orientación, salud, discapacidad, origen ni si eres víctima. Solo lo tiene quien tú elijas.</p>
         <p><button type="button" class="linkbtn" id="borrar-foot">Borrar mis respuestas</button></p>
       </section>
@@ -2411,6 +2411,17 @@ document.querySelectorAll('header [data-go], #view-quienes [data-go]').forEach(b
 $('borrar-foot').addEventListener('click',borrarRespuestas);
 window.addEventListener('hashchange',render);
 load(state.ds);
+})();
+</script>
+<script>
+/* Contador de visitas anónimo (GoatCounter, sin cookies). Solo se envía la ruta "/" y el dominio de procedencia:
+   nunca la dirección completa (que puede llevar respuestas del perfil) ni nada de lo que marcas. */
+(function(){
+  if(location.hostname!=='www.votarbien.info')return;
+  var r='';try{if(document.referrer)r=new URL(document.referrer).origin;}catch(e){}
+  if(r===location.origin)r='';
+  var i=new Image();i.referrerPolicy='no-referrer';
+  i.src='https://votarbien.goatcounter.com/count?p=%2F&t='+encodeURIComponent(document.title)+'&r='+encodeURIComponent(r)+'&s='+screen.width+'&rnd='+Math.random().toString(36).slice(2);
 })();
 </script>
 </html>
