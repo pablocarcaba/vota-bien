@@ -615,6 +615,17 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
 .cstat input{display:block;width:100%;max-width:560px;margin-top:6px;font:inherit;font-family:var(--mono);font-size:13px;padding:8px 10px;border:1px solid var(--line);border-radius:10px;background:var(--soft);color:var(--ink)}
 .profile .cstat{order:9}
 .lshare + .cstat{margin-top:10px;max-width:70ch}
+/* compartir el resultado: invitación sin perfil e imagen con las notas */
+.rshare{margin:18px 0 6px;padding:16px;border-radius:18px;background:var(--soft);border:1px solid var(--line)}
+.rshare h3{margin:0 0 4px;font-family:var(--display);font-size:17px;font-weight:800;letter-spacing:-.01em;color:var(--ink)}
+.rshare > p{margin:0 0 12px;font-size:14px;line-height:1.45;color:var(--muted);max-width:70ch}
+.sbtns{display:flex;flex-wrap:wrap;gap:8px}
+.sbtn{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:44px;padding:0 16px;border-radius:999px;border:1px solid var(--line);background:var(--sheet);color:var(--ink);font:600 14px/1.2 var(--body);text-decoration:none;cursor:pointer}
+.sbtn:hover{border-color:var(--accent)}
+.sbtn.pri{background:var(--accent);color:var(--accent-ink);border-color:transparent}
+.sbtn .ico{width:16px;height:16px}
+.rshare .cstat{margin-top:10px;max-width:70ch}
+@media (max-width:480px){.sbtns .sbtn{flex:1 1 calc(50% - 4px)}}
 .why3h{margin:12px 0 8px;font-size:14px;font-weight:700;color:var(--ink)}
 .why3h:first-of-type{margin-top:0}
 .lfilters label{display:flex;flex-direction:column;gap:4px;font-size:12px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;min-width:0}
@@ -1641,6 +1652,7 @@ function renderRank(){
   });
   // escala de las barras, como leyenda bajo el ranking
   r.appendChild(el('div',{class:'scale','aria-hidden':'true'},'<span>← −100<span class="w"> En tu contra</span></span><span>0</span><span>+100<span class="w"> A tu favor</span> →</span>'));
+  r.appendChild(compartirResultado(rows));
   mb.hidden=false;
   mb.innerHTML = `<span>Tu ranking está listo<br><b>${rows.length} partidos comparados</b></span><span class="go">Verlo ↓</span>`;
   const notaProv = !filtraProv() ? '' : fuera ? ` <b>${fuera} partido${fuera>1?'s':''} oculto${fuera>1?'s':''} porque no se presenta${fuera>1?'n':''} en ${esc(provName())}.</b>` : ` Todos los partidos con leyes que te afectan se presentan en ${esc(provName())}.`;
@@ -1649,6 +1661,87 @@ function renderRank(){
   if(!europeas() && ITEMS.some(it=>it.k==='Real decreto-ley')) r.appendChild(el('p',{class:'gobnote',role:'note'}, `<svg class="ico" aria-hidden="true"><use href="#i-landmark"/></svg><span>Gobierno en esta legislatura: ${esc(DATA.meta.gobierno)}. Los partidos del Gobierno suelen votar a favor de sus propias iniciativas, sobre todo de los reales decretos-ley, así que esas leyes mueven mucho su nota. En la ficha de cada partido, los proyectos de ley y los reales decretos-ley del Gobierno van marcados como «Iniciativa del Gobierno»${gobiernos()?`, con el Gobierno que había al presentarlos (${esc(gobiernos().map(g=>g.nombre).join(' o '))})`:''}, y en «Ajustar el ranking» puedes excluir los decretos-ley.</span>`));
   r.appendChild(top5());
   r.appendChild(el('button',{type:'button',class:'linkbtn',onclick:()=>openList('',null)},'Ver todas las leyes de la legislatura, una a una →'));
+}
+// ---------- compartir el resultado ----------
+// La invitación lleva solo la portada (?via=… para saber qué canal funciona), nunca el perfil: cada cual ve el suyo.
+// La imagen se dibuja en el navegador con las notas del ranking, sin ningún rasgo del perfil, y no se envía a ningún sitio
+const WEB = 'https://www.votarbien.info/';
+const invita = via => WEB+'?via='+via;
+const TXT_INV = '¿Sabes qué ha votado cada partido en las leyes que te afectan? Yo lo he mirado con mi perfil (trabajo, vivienda, familia…). Pruébalo con el tuyo: es gratis, anónimo y con las votaciones oficiales.';
+const TXT_CORTO = '¿Qué ha votado cada partido en las leyes que te afectan? Lo he mirado con mi perfil: gratis, anónimo y con las votaciones oficiales. Pruébalo con el tuyo:';
+function compartirResultado(rows){
+  const box = el('section',{class:'rshare','aria-labelledby':'rshare-h'});
+  box.appendChild(el('h3',{id:'rshare-h'},'¿Te ha sorprendido? Compártelo'));
+  box.appendChild(el('p',{},'Invita a otros a mirar su propio resultado. El enlace no lleva tus respuestas, y la imagen solo muestra las notas de los partidos, no tu perfil.'));
+  const bt = el('div',{class:'sbtns'}), e = encodeURIComponent, NUEVA = '<span class="sr-only"> (se abre en una pestaña nueva)</span>';
+  const red = (via, txt, href, pri) => bt.appendChild(el('a',{class:'sbtn'+(pri?' pri':''),href,target:'_blank',rel:'noopener','data-k':'share-'+via}, txt+NUEVA));
+  red('wa','WhatsApp','https://wa.me/?text='+e(TXT_INV+' '+invita('wa')), true);
+  red('tg','Telegram','https://t.me/share/url?url='+e(invita('tg'))+'&text='+e(TXT_INV));
+  red('x','X','https://x.com/intent/tweet?text='+e(TXT_CORTO)+'&url='+e(invita('x')));
+  red('bs','Bluesky','https://bsky.app/intent/compose?text='+e(TXT_CORTO+' '+invita('bs')));
+  const img = el('button',{type:'button',class:'sbtn','data-k':'share-img'},'<svg class="ico" aria-hidden="true"><use href="#i-share"/></svg>Imagen de mi resultado');
+  const cp = el('button',{type:'button',class:'sbtn','data-k':'share-enlace'},'Copiar enlace');
+  bt.appendChild(img); bt.appendChild(cp); box.appendChild(bt);
+  const out = el('p',{class:'cstat',role:'status'}); box.appendChild(out);
+  const di = t => { out.textContent=t; };
+  cp.addEventListener('click',()=>{ const u=invita('enlace');
+    const ko=()=>{ di('No se ha podido copiar. Copia este enlace:'); const i=el('input',{type:'text',readonly:'',value:u,'aria-label':'Enlace para compartir'}); out.appendChild(i); i.select(); };
+    try{ navigator.clipboard.writeText(TXT_INV+' '+u).then(()=>di('Mensaje y enlace copiados. No llevan tus respuestas.'),ko); }catch(_){ ko(); } });
+  img.addEventListener('click',async()=>{
+    img.disabled=true; di('Preparando la imagen…');
+    try{
+      const blob = await imagenResultado(rows), f = new File([blob],'votarbien-mi-resultado.png',{type:'image/png'});
+      // en el móvil, el menú de compartir del sistema (WhatsApp, Instagram…); en el ordenador, se descarga
+      if(matchMedia('(pointer:coarse)').matches && navigator.canShare && navigator.canShare({files:[f]})){
+        try{ await navigator.share({files:[f], text:TXT_INV+' '+invita('img')}); di('Imagen compartida.'); }
+        catch(err){ di(err && err.name==='AbortError' ? 'No se ha compartido.' : 'No se ha podido compartir: prueba otra vez.'); }
+      } else {
+        const a = el('a',{href:URL.createObjectURL(blob),download:'votarbien-mi-resultado.png'}); document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(()=>URL.revokeObjectURL(a.href),4000);
+        di('Imagen descargada. Puedes subirla a tus estados o redes junto al enlace de la web.');
+      }
+    }catch(err){ di('No se ha podido crear la imagen.'); }
+    img.disabled=false;
+  });
+  return box;
+}
+// imagen 1080×1350 (formato vertical de redes): título, legislatura, notas de hasta 8 partidos y la invitación
+async function imagenResultado(rows){
+  try{ await document.fonts.ready; }catch(_){}
+  const W=1080, H=1350, c=document.createElement('canvas'); c.width=W; c.height=H;
+  const g=c.getContext('2d'), M=72, DISP='"Plus Jakarta Sans", system-ui, sans-serif', BODY='Inter, system-ui, sans-serif';
+  const C={bg:'#0a0f1c', card:'#141a27', ink:'#ffffff', mut:'#9ea6b6', line:'#252d3d', oro:'#F1BF00', pos:'#5fb563', neg:'#e8695a', neu:'#9ea6b6'};
+  const lineas = (t, font, max) => { g.font=font; const out=[]; let l=''; t.split(' ').forEach(w=>{ const p=l?l+' '+w:w; if(g.measureText(p).width>max && l){ out.push(l); l=w; } else l=p; }); if(l) out.push(l); return out; };
+  const corta = (t, max) => { if(g.measureText(t).width<=max) return t; while(t.length>1 && g.measureText(t+'…').width>max) t=t.slice(0,-1); return t+'…'; };
+  g.fillStyle=C.bg; g.fillRect(0,0,W,H);
+  g.fillStyle=C.oro; g.fillRect(0,0,W,10);
+  g.textBaseline='alphabetic';
+  g.fillStyle=C.oro; g.font='700 30px '+DISP; g.fillText('votarbien.info', M, 96);
+  let y=178;
+  g.fillStyle=C.ink;
+  lineas('Cómo han votado los partidos en las leyes que me afectan', '800 62px '+DISP, W-2*M).forEach(l=>{ g.fillText(l, M, y); y+=72; });
+  const cat = CATALOGO.find(x=>x.clave===state.ds) || {};
+  const sub = [cat.fuente_txt, cat.titulo, 'leyes '+(state.tab==='eco'?'económicas':'sociales')].filter(Boolean).join(' · ')+(filtraProv()?' · '+provName():'');
+  g.fillStyle=C.mut; lineas(sub, '500 30px '+BODY, W-2*M).forEach(l=>{ g.fillText(l, M, y); y+=40; });
+  y+=24;
+  const lista = rows.slice(0,8), RH=Math.min(96, Math.floor((H-y-250)/Math.max(lista.length,1)));
+  const xN=M+64, xBar=M+420, wBar=W-M-110-xBar, x0=xBar+wBar/2;
+  g.strokeStyle=C.line; g.lineWidth=2; g.beginPath(); g.moveTo(x0,y-8); g.lineTo(x0,y+RH*lista.length-8); g.stroke();
+  lista.forEach((x,i)=>{
+    const cy=y+i*RH+RH/2, col=C[veredicto(x.s,x.rel)[0]]||C.neu;
+    g.fillStyle=C.mut; g.font='700 30px '+DISP; g.fillText(puestoDe(x)+'.º', M, cy+10);
+    g.fillStyle=C.ink; g.font='700 36px '+DISP; g.fillText(corta(pn(x.k), xBar-xN-24), xN, cy+12);
+    const w=Math.max(4, Math.abs(x.s)/100*(wBar/2)), bh=28;
+    g.fillStyle=col; g.fillRect(x.s>=0?x0:x0-w, cy-bh/2, w, bh);
+    g.font='800 36px '+DISP; g.textAlign='right'; g.fillText((x.s>0?'+':'')+x.s, W-M, cy+12); g.textAlign='left';
+  });
+  y += RH*lista.length + 20;
+  g.fillStyle=C.mut; g.font='500 26px '+BODY;
+  lineas('Nota de −100 a +100 según lo que votó cada partido en las leyes que afectan a mi perfil. No es una recomendación de voto.'+(rows.length>lista.length?' Se muestran los '+lista.length+' primeros de '+rows.length+'.':''), '500 26px '+BODY, W-2*M).forEach(l=>{ g.fillText(l, M, y); y+=36; });
+  g.fillStyle=C.card; g.fillRect(0,H-150,W,150);
+  g.fillStyle=C.ink; g.font='800 44px '+DISP; g.fillText('¿Y a ti?', M, H-82);
+  g.fillStyle=C.oro; g.font='700 36px '+DISP; g.fillText('Compruébalo en votarbien.info', M, H-36);
+  return new Promise((ok,ko)=>c.toBlob(b=>b?ok(b):ko(new Error('toBlob')),'image/png'));
 }
 // «¿Dónde votas?»: chip editable sobre el ranking; filtra filas, nunca la nota. En las europeas, deshabilitado y explicado
 function renderProvChip(){
@@ -2414,14 +2507,17 @@ load(state.ds);
 })();
 </script>
 <script>
-/* Contador de visitas anónimo (GoatCounter, sin cookies). Solo se envía la ruta "/" y el dominio de procedencia:
+/* Contador de visitas anónimo (GoatCounter, sin cookies). Solo se envía la ruta "/" (con ?via= si llegas desde un botón
+   de compartir, de una lista cerrada) y el dominio de procedencia:
    nunca la dirección completa (que puede llevar respuestas del perfil) ni nada de lo que marcas. */
 (function(){
   if(location.hostname!=='www.votarbien.info')return;
   var r='';try{if(document.referrer)r=new URL(document.referrer).origin;}catch(e){}
   if(r===location.origin)r='';
+  var v='';try{v=new URLSearchParams(location.search).get('via')||'';}catch(e){}
+  if(!/^(wa|tg|x|bs|img|enlace|correo|meneame|reddit)$/.test(v))v='';
   var i=new Image();i.referrerPolicy='no-referrer';
-  i.src='https://votarbien.goatcounter.com/count?p=%2F&t='+encodeURIComponent(document.title)+'&r='+encodeURIComponent(r)+'&s='+screen.width+'&rnd='+Math.random().toString(36).slice(2);
+  i.src='https://votarbien.goatcounter.com/count?p='+encodeURIComponent('/'+(v?'?via='+v:''))+'&t='+encodeURIComponent(document.title)+'&r='+encodeURIComponent(r)+'&s='+screen.width+'&rnd='+Math.random().toString(36).slice(2);
 })();
 </script>
 </html>
