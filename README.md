@@ -259,6 +259,8 @@ Lo hacemos **Pablo Carcaba** y **Nacho Rodríguez**, desarrolladores profesional
 - **Textos oficiales para clasificar:** Boletín Oficial de las Cortes Generales (BOCG, en las fichas del Congreso) y, para los reales decretos-ley, [Boletín Oficial del Estado](https://www.boe.es) (BOE, por su identificador ELI; `scripts/textos_boe.py`). Los textos se guardan en la caché local y no se publican.
 - **Parlamento Europeo:** votaciones nominales de [HowTheyVote.eu](https://howtheyvote.eu) (9.ª y 10.ª, datos abiertos con atribución) y de las actas oficiales del Parlamento Europeo (6.ª a 8.ª); títulos y fechas de la [API de datos abiertos del Parlamento Europeo](https://data.europarl.europa.eu). Para la 6.ª, también [Parltrack](https://parltrack.org) (ODbL 1.0).
 
+- **Banderas** de España y de las comunidades y ciudades autónomas (`site/img/banderas/`): diseños oficiales de [Wikimedia Commons](https://commons.wikimedia.org/wiki/Category:SVG_flags_of_autonomous_communities_of_Spain), en dominio público, convertidos a PNG pequeños.
+
 La clasificación de impactos es propia e interpretativa. Si ves una ley mal clasificada, abre un *issue*.
 
 El código es software libre con [licencia MIT](LICENSE). Los datos de origen pertenecen a sus editores y su reutilización exige citar la fuente.

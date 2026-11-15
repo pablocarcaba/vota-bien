@@ -131,6 +131,13 @@ h1,h2,h3{text-wrap:balance}
 .stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:34px}
 .stat{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:14px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);font-size:14px;color:rgba(255,255,255,.8);white-space:nowrap}
 .stat .ico{color:var(--oro);width:18px;height:18px}
+/* banderas de España y de las comunidades y ciudades autónomas, bajo los datos de la cabecera */
+.ccaa{display:flex;flex-wrap:wrap;align-items:center;gap:7px;margin-top:20px}
+@media (min-width:600px){.ccaa{display:grid;grid-template-columns:repeat(10,auto);justify-content:start;gap:8px}}
+.ccaa img{display:block;height:22px;width:auto;border-radius:2px;box-shadow:0 0 0 1px rgba(255,255,255,.2)}
+body.sub .ccaa{display:none}
+.pflags{display:inline-flex;gap:4px;vertical-align:-2px;margin-right:6px}
+.pflags img{display:block;height:14px;width:auto;border-radius:2px;box-shadow:0 0 0 1px var(--line)}
 .stat b{font-family:var(--display);font-weight:800;font-size:20px;color:#fff;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
 .stat.src{font-size:13px}
 @media (max-width:640px){.cta-row .btn{flex:1 1 100%;font-size:16px;padding:16px 18px}.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr))}.stat{white-space:normal;line-height:1.25;min-width:0;overflow-wrap:break-word}.stat b{white-space:nowrap}.stat.src{grid-column:1/-1}}
@@ -762,6 +769,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
         <a class="btn btn-ghost" href="#metodologia"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>¿De dónde salen los datos?</a>
       </div>
       <div class="stats" id="hero-stats" aria-live="polite"><span class="stat">Cargando datos…</span></div>
+      <div class="ccaa" role="img" aria-label="Banderas de España y de las 17 comunidades y 2 ciudades autónomas"><img src="img/banderas/ES.png" alt="" title="España" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/AND.png" alt="" title="Andalucía" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/ARA.png" alt="" title="Aragón" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/AST.png" alt="" title="Asturias" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/BAL.png" alt="" title="Illes Balears" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CAN.png" alt="" title="Canarias" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CTB.png" alt="" title="Cantabria" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CYL.png" alt="" title="Castilla y León" width="29" height="22" loading="lazy" decoding="async"><img src="img/banderas/CLM.png" alt="" title="Castilla-La Mancha" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CAT.png" alt="" title="Cataluña" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CEU.png" alt="" title="Ceuta" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/MAD.png" alt="" title="Comunidad de Madrid" width="35" height="22" loading="lazy" decoding="async"><img src="img/banderas/VAL.png" alt="" title="Comunitat Valenciana" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/EXT.png" alt="" title="Extremadura" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/GAL.png" alt="" title="Galicia" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/RIO.png" alt="" title="La Rioja" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/MEL.png" alt="" title="Melilla" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/NAV.png" alt="" title="Navarra" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/PVA.png" alt="" title="País Vasco" width="39" height="22" loading="lazy" decoding="async"><img src="img/banderas/MUR.png" alt="" title="Región de Murcia" width="33" height="22" loading="lazy" decoding="async"></div>
     </div>
     <aside class="glass" aria-labelledby="how-h">
       <h2 id="how-h">Así funciona</h2>
@@ -1722,6 +1730,13 @@ async function imagenResultado(rows){
   g.fillStyle=C.oro; g.fillRect(0,0,W,10);
   g.textBaseline='alphabetic';
   g.fillStyle=C.oro; g.font='700 30px '+DISP; g.fillText('votarbien.info', M, 96);
+  // con provincia elegida: banderas de España y de su comunidad, arriba a la derecha
+  const com = filtraProv() ? COM_OF[state.prov] : '';
+  if(com){
+    const carga = u => new Promise(ok=>{ const im=new Image(); im.onload=()=>ok(im); im.onerror=()=>ok(null); im.src=u; });
+    const ims = (await Promise.all([carga(banderaUrl('ES')), carga(banderaUrl(com))])).filter(Boolean);
+    let x = W-M; ims.reverse().forEach(im=>{ const h=44, w=im.naturalWidth*h/im.naturalHeight; x-=w; g.drawImage(im, x, 62, w, h); x-=14; });
+  }
   let y=178;
   g.fillStyle=C.ink;
   lineas('Cómo han votado los partidos en las leyes que me afectan', '800 62px '+DISP, W-2*M).forEach(l=>{ g.fillText(l, M, y); y+=72; });
@@ -1749,6 +1764,9 @@ async function imagenResultado(rows){
   return new Promise((ok,ko)=>c.toBlob(b=>b?ok(b):ko(new Error('toBlob')),'image/png'));
 }
 // «¿Dónde votas?»: chip editable sobre el ranking; filtra filas, nunca la nota. En las europeas, deshabilitado y explicado
+// banderas de España y de la comunidad de la provincia elegida (decorativas: el nombre va en el texto)
+const banderaUrl = c => 'img/banderas/'+c+'.png';
+function banderasProv(){ const c=COM_OF[state.prov]; return c ? `<span class="pflags" aria-hidden="true"><img src="${banderaUrl('ES')}" alt=""><img src="${banderaUrl(c)}" alt=""></span>` : ''; }
 function renderProvChip(){
   const box=$('rprov'); box.innerHTML='';
   const eu = europeas(), w = el('div',{class:'pchipsel'});
@@ -1757,7 +1775,7 @@ function renderProvChip(){
   if(eu) s.disabled = true;
   w.appendChild(s); box.appendChild(w);
   box.appendChild(el('p',{class:'pchip-n'+(!eu&&!state.prov?' sr-only':''),id:'prov-d'}, eu ? 'En las europeas España es una circunscripción única: puedes votar a cualquier lista desde cualquier lugar.'
-    : state.prov ? `Ves solo los partidos a los que puedes votar en ${esc(provName())}. No cambia ninguna nota.` : 'Elige tu provincia para ver solo los partidos a los que puedes votar ahí. No cambia ninguna nota.'));
+    : state.prov ? `${banderasProv()}Ves solo los partidos a los que puedes votar en ${esc(provName())}. No cambia ninguna nota.` : 'Elige tu provincia para ver solo los partidos a los que puedes votar ahí. No cambia ninguna nota.'));
 }
 // «Ajustar el ranking»: leyenda y casillas del cálculo, plegado en la barra de arriba, con un resumen de lo activo en una línea
 function ajustarEl(){
