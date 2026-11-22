@@ -767,6 +767,7 @@ footer .mini{flex:none;width:30px;height:20px;border-radius:4px;background:linea
       <div class="cta-row">
         <a class="btn btn-primary" href="#filters" id="intro-cta">Descubre quién defendió tu bolsillo <svg class="ico" aria-hidden="true"><use href="#i-arrow"/></svg></a>
         <a class="btn btn-ghost" href="#metodologia"><svg class="ico" aria-hidden="true"><use href="#i-info"/></svg>¿De dónde salen los datos?</a>
+        <a class="btn btn-ghost" id="hero-share" href="https://wa.me/?text=" target="_blank" rel="noopener" data-k="share-portada"><svg class="ico" aria-hidden="true"><use href="#i-share"/></svg>Pásaselo a alguien<span class="sr-only"> (se abre en una pestaña nueva)</span></a>
       </div>
       <div class="stats" id="hero-stats" aria-live="polite"><span class="stat">Cargando datos…</span></div>
       <div class="ccaa" role="img" aria-label="Banderas de España y de las 17 comunidades y 2 ciudades autónomas"><img src="img/banderas/ES.png" alt="" title="España" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/AND.png" alt="" title="Andalucía" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/ARA.png" alt="" title="Aragón" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/AST.png" alt="" title="Asturias" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/BAL.png" alt="" title="Illes Balears" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CAN.png" alt="" title="Canarias" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CTB.png" alt="" title="Cantabria" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CYL.png" alt="" title="Castilla y León" width="29" height="22" loading="lazy" decoding="async"><img src="img/banderas/CLM.png" alt="" title="Castilla-La Mancha" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CAT.png" alt="" title="Cataluña" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/CEU.png" alt="" title="Ceuta" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/MAD.png" alt="" title="Comunidad de Madrid" width="35" height="22" loading="lazy" decoding="async"><img src="img/banderas/VAL.png" alt="" title="Comunitat Valenciana" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/EXT.png" alt="" title="Extremadura" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/GAL.png" alt="" title="Galicia" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/RIO.png" alt="" title="La Rioja" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/MEL.png" alt="" title="Melilla" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/NAV.png" alt="" title="Navarra" width="33" height="22" loading="lazy" decoding="async"><img src="img/banderas/PVA.png" alt="" title="País Vasco" width="39" height="22" loading="lazy" decoding="async"><img src="img/banderas/MUR.png" alt="" title="Región de Murcia" width="33" height="22" loading="lazy" decoding="async"></div>
@@ -1680,11 +1681,15 @@ function renderRank(){
 // La imagen se dibuja en el navegador con las notas del ranking, sin ningún rasgo del perfil, y no se envía a ningún sitio
 const WEB = 'https://www.votarbien.info/';
 const invita = via => WEB+'?via='+via;
-const TXT_INV = '¿Sabes qué ha votado cada partido en las leyes que te afectan? Yo lo he mirado con mi perfil (trabajo, vivienda, familia…). Pruébalo con el tuyo: es gratis, anónimo y con las votaciones oficiales.';
-const TXT_CORTO = '¿Qué ha votado cada partido en las leyes que te afectan? Lo he mirado con mi perfil: gratis, anónimo y con las votaciones oficiales. Pruébalo con el tuyo:';
+// cuenta atrás hasta las generales del 29-N; desde ese día, textos sin fecha
+const DIAS_29N = Math.ceil((new Date(2026,10,29) - new Date(new Date().toDateString()))/864e5);
+const ANTES_29N = DIAS_29N > 0 ? 'Antes de votar el 29-N: ' : '';
+const TXT_INV = ANTES_29N+'¿Sabes qué ha votado cada partido en las leyes que te afectan? Yo lo he mirado con mi perfil (trabajo, vivienda, familia…). Pruébalo con el tuyo: es gratis, anónimo y con las votaciones oficiales.';
+const TXT_PORTADA = (DIAS_29N > 0 ? 'Antes de votar el 29-N, mira' : 'Mira')+' qué ha votado cada partido en las leyes que te afectan según tu situación (trabajo, vivienda, familia…). Es gratis, anónimo y con las votaciones oficiales del Congreso:';
+const TXT_CORTO = ANTES_29N+'¿Qué ha votado cada partido en las leyes que te afectan? Lo he mirado con mi perfil: gratis, anónimo y con las votaciones oficiales. Pruébalo con el tuyo:';
 function compartirResultado(rows){
   const box = el('section',{class:'rshare','aria-labelledby':'rshare-h'});
-  box.appendChild(el('h3',{id:'rshare-h'},'¿Te ha sorprendido? Compártelo'));
+  box.appendChild(el('h3',{id:'rshare-h'}, DIAS_29N>1 ? `Quedan ${DIAS_29N} días para el 29-N: pásaselo a quien aún no lo tenga claro` : DIAS_29N===1 ? 'Mañana se vota: pásaselo a quien aún no lo tenga claro' : '¿Te ha sorprendido? Compártelo'));
   box.appendChild(el('p',{},'Invita a otros a mirar su propio resultado. El enlace no lleva tus respuestas, y la imagen solo muestra las notas de los partidos, no tu perfil.'));
   const bt = el('div',{class:'sbtns'}), e = encodeURIComponent, NUEVA = '<span class="sr-only"> (se abre en una pestaña nueva)</span>';
   const red = (via, txt, href, pri) => bt.appendChild(el('a',{class:'sbtn'+(pri?' pri':''),href,target:'_blank',rel:'noopener','data-k':'share-'+via}, txt+NUEVA));
@@ -2503,6 +2508,15 @@ async function load(clave){
   if(fk){ const t=document.querySelector('[data-k="'+fk+'"]'); if(t) t.focus({preventScroll:true}); }
 }
 const smooth = matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+(function(){
+  const a=$('hero-share'), u=invita('portada');
+  a.href='https://wa.me/?text='+encodeURIComponent(TXT_PORTADA+' '+u);
+  a.addEventListener('click',async e=>{
+    if(!(matchMedia('(pointer:coarse)').matches && navigator.share)) return;
+    e.preventDefault();
+    try{ await navigator.share({text:TXT_PORTADA, url:u}); }catch(_){}
+  });
+})();
 $('intro-cta').addEventListener('click',e=>{e.preventDefault();$('filters').scrollIntoView({behavior:smooth,block:'start'});$('filters-h').focus({preventScroll:true});});
 $('mbar').addEventListener('click',verResultado);
 // barra de resultado en móvil: solo en el panel, pasada la cabecera y con el ranking fuera de la vista
@@ -2538,7 +2552,7 @@ load(state.ds);
   var r='';try{if(document.referrer)r=new URL(document.referrer).origin;}catch(e){}
   if(r===location.origin)r='';
   var v='';try{v=new URLSearchParams(location.search).get('via')||'';}catch(e){}
-  if(!/^(wa|tg|x|bs|img|enlace|correo|meneame|reddit)$/.test(v))v='';
+  if(!/^(wa|tg|x|bs|img|enlace|correo|meneame|reddit|portada)$/.test(v))v='';
   var i=new Image();i.referrerPolicy='no-referrer';
   i.src='https://votarbien.goatcounter.com/count?p='+encodeURIComponent('/'+(v?'?via='+v:''))+'&t='+encodeURIComponent(document.title)+'&r='+encodeURIComponent(r)+'&s='+screen.width+'&rnd='+Math.random().toString(36).slice(2);
 })();
